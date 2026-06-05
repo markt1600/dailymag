@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== meridian.css inlined for a portable, self-contained Photo Edition ===== */
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+</style>
+<style>
+/* ===== Issue-local extensions (No. 13) — meridian.css stays read-only ===== */
+.toc{display:grid;grid-template-columns:1fr 1fr;gap:5mm 8mm;margin-top:6px;}
+.toc .row{display:flex;justify-content:space-between;align-items:baseline;border-bottom:.5pt solid var(--line);padding:4px 0;break-inside:avoid;}
+.toc .nm{font-family:'Lora',serif;font-weight:700;font-size:9.5pt;color:var(--ink);}
+.toc .nm small{font-family:'Poppins',sans-serif;font-weight:600;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-top:1px;}
+.toc .pg{font-family:'Poppins',sans-serif;font-weight:700;font-size:10pt;color:var(--vermilion);}
+.fromdesk{background:var(--paper2);border:.6pt solid var(--line);border-top:3pt solid var(--gold);border-radius:2px;padding:11px 13px;margin-top:8px;break-inside:avoid;}
+.fromdesk .q{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:14.5pt;line-height:1.22;color:var(--ink);}
+.fromdesk .at{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-top:6px;}
+.mktstrip{display:flex;gap:0;margin-top:8px;border:.6pt solid var(--line);border-radius:2px;overflow:hidden;}
+.mktstrip .c{flex:1;padding:6px 7px;border-right:.6pt solid var(--line);text-align:center;}
+.mktstrip .c:last-child{border-right:none;}
+.mktstrip .k{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+.mktstrip .v{font-family:'Poppins',sans-serif;font-weight:700;font-size:11pt;color:var(--ink);line-height:1.1;margin-top:2px;}
+.mktstrip .d{font-family:'Poppins',sans-serif;font-weight:600;font-size:6.5pt;margin-top:1px;}
+.up{color:var(--teal);} .dn{color:var(--vermilion);}
+.shelf{background:#fbf8f1;border:.6pt solid var(--line);border-left:3pt solid var(--gold);border-radius:2px;padding:8px 11px;margin:8px 0;break-inside:avoid;}
+.shelf .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.shelf p{font-size:8.3pt;line-height:1.4;color:var(--ink2);margin-bottom:3px;}
+.shelf p:last-child{margin-bottom:0;}
+.shelf b{color:var(--ink);}
+.subhead{font-family:'Poppins',sans-serif;font-weight:700;font-size:8pt;letter-spacing:.18em;text-transform:uppercase;color:var(--slate);border-bottom:1.5pt solid var(--slate);padding-bottom:3px;margin:10px 0 6px;}
+/* Back cover */
+.bc-wrap{padding:18mm 16mm 16mm;}
+.bc-mast{font-family:'Poppins',sans-serif;font-weight:700;font-size:30pt;letter-spacing:-.01em;color:var(--paper);}
+.bc-rule{width:48mm;height:2pt;background:var(--gold);margin:8px 0 14px;}
+.lastword{font-family:'Lora',serif;}
+.lastword .h{font-family:'Poppins',sans-serif;font-weight:700;font-size:8pt;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.lastword p{font-size:9.7pt;line-height:1.5;color:var(--blush);margin-bottom:7px;}
+.lastword p.body{color:var(--blush);}
+.bc-sources{column-count:2;column-gap:8mm;margin-top:12px;}
+.bc-sources p{font-family:'Poppins',sans-serif;font-size:5.9pt;line-height:1.45;color:#9a917f;margin-bottom:3px;break-inside:avoid;}
+.bc-colophon{border-top:.6pt solid #3a342c;margin-top:12px;padding-top:8px;font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.06em;color:#8f877a;line-height:1.5;}
+.bc-tag{font-family:'Lora',serif;font-style:italic;font-size:11pt;color:var(--gold);margin-top:4px;}
+</style>
+<title>MERIDIAN — No. 13 · Photo Edition</title>
+<style>
+/* ===== Photo Edition overrides — let pages flow on screen ===== */
+body{background:var(--paper);}
+.page{height:auto;min-height:297mm;overflow:visible;page-break-after:always;box-shadow:0 1px 14px rgba(0,0,0,.10);margin:0 auto 10mm;}
+.pgfoot{position:static;margin-top:14px;}
+.ph-frame{aspect-ratio:16/8;overflow:hidden;border-radius:2px;border:.6pt solid var(--line);background:var(--blush);margin:6px 0 2px;}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.dark .ph-frame{border-color:#3a342c;background:#241f1a;}
+.ph-cap{font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.03em;color:var(--muted);margin:3px 0 4px;line-height:1.4;}
+.ph-note{max-width:980px;margin:14px auto 4px;padding:9px 13px;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--gold);border-radius:2px;font-family:'Poppins',sans-serif;font-size:7.6pt;line-height:1.5;color:var(--ink2);}
+.ph-note b{color:var(--ink);letter-spacing:.04em;}
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 · COVER ============ -->
+<section class="page dark">
+  <div class="topbar">
+    <span></span>
+    <span>No. 13 · Singapore</span>
+  </div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+  </div>
+
+  <!-- Cover hero: wireframe globe with connection arcs + a dashed "unfinished" arc -->
+  <div style="position:absolute;top:96mm;left:0;right:0;display:flex;justify-content:center;">
+    <svg viewBox="0 0 360 300" width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+          <stop offset="0%" stop-color="#2b6b66" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#191613" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle cx="180" cy="140" r="120" fill="url(#glow)"/>
+      <g fill="none" stroke="#b08738" stroke-width="0.7" opacity="0.85">
+        <circle cx="180" cy="140" r="100"/>
+        <ellipse cx="180" cy="140" rx="100" ry="34"/>
+        <ellipse cx="180" cy="140" rx="100" ry="66"/>
+        <ellipse cx="180" cy="140" rx="40" ry="100"/>
+        <ellipse cx="180" cy="140" rx="74" ry="100"/>
+        <line x1="80" y1="140" x2="280" y2="140"/>
+        <line x1="180" y1="40" x2="180" y2="240"/>
+      </g>
+      <!-- connection arcs (the "done" links, solid) -->
+      <g fill="none" stroke="#c1462e" stroke-width="1.4" opacity="0.95">
+        <path d="M120 90 Q200 30 250 110"/>
+        <path d="M110 180 Q190 250 270 170"/>
+      </g>
+      <!-- the "said but not done" arc, dashed and open -->
+      <path d="M95 130 Q180 70 265 145" fill="none" stroke="#e8dccb" stroke-width="1.2" stroke-dasharray="3 5" opacity="0.9"/>
+      <g fill="#e8dccb">
+        <circle cx="120" cy="90" r="3"/><circle cx="250" cy="110" r="3"/>
+        <circle cx="110" cy="180" r="3"/><circle cx="270" cy="170" r="3"/>
+      </g>
+      <g fill="#c1462e"><circle cx="95" cy="130" r="3.4"/></g>
+      <g fill="none" stroke="#e8dccb" stroke-width="1.4"><circle cx="265" cy="145" r="4"/></g>
+    </svg>
+  </div>
+
+  <div style="position:absolute;top:88mm;left:0;right:0;text-align:center;">
+    <span style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.3em;text-transform:uppercase;color:var(--blush);">Saturday · 6 June 2026</span>
+  </div>
+
+  <div class="cover-teasers">
+    <div class="rule v" style="margin-bottom:6px;"></div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:var(--vermilion);">The World</div>
+        <div class="ht">Beirut blinks, Hormuz wobbles: the war that won't be signed</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">Technology</div>
+        <div class="ht">The frontier comes home — open weights on the desk</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--teal);">Curiosities</div>
+        <div class="ht">One last reading from a comet already leaving</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Independent weekend edition</span>
+    <span>Twelve desks · One world</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 2 · CONTENTS + FROM THE DESK ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Contents</span><span>The Order of the Day</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-note"><b>PHOTO EDITION.</b> &nbsp;Photographs are hotlinked from Wikimedia Commons and verified by provenance from each file’s Commons description page (filename, licence, author) — pixels cannot be inspected here. Where the exact subject could not be confirmed (an unannounced product, a one-off event) a clearly-labelled representative image is used, or the original Meridian illustration is kept. Conceptual figures (charts, diagrams, the cover globe) remain original SVG. Images load in your browser; they may appear blank in a sandboxed preview.</div>
+  <div class="grid g-21" style="margin-top:10px;">
+    <div>
+      <div class="kicker">Inside No. 13</div>
+      <h1 class="hed sm">Twelve desks, one running argument: the gap between the said and the done.</h1>
+      <div class="toc">
+        <div class="row"><div class="nm">The World<small>The Meridian Dispatch</small></div><div class="pg">03</div></div>
+        <div class="row"><div class="nm">Singapore<small>The Little Red Dot</small></div><div class="pg">05</div></div>
+        <div class="row"><div class="nm">Property<small>Bricks &amp; Mortar</small></div><div class="pg">06</div></div>
+        <div class="row"><div class="nm">Technology<small>Silicon &amp; Sovereignty</small></div><div class="pg">07</div></div>
+        <div class="row"><div class="nm">The Kit<small>Gear We're Watching</small></div><div class="pg">09</div></div>
+        <div class="row"><div class="nm">Connected Home<small>Walls That Listen</small></div><div class="pg">10</div></div>
+        <div class="row"><div class="nm">The Good Life<small>Objects &amp; Escapes</small></div><div class="pg">11</div></div>
+        <div class="row"><div class="nm">Screen &amp; Sound<small>Culture Desk</small></div><div class="pg">12</div></div>
+        <div class="row"><div class="nm">The Family Desk<small>Raising Them Well</small></div><div class="pg">13</div></div>
+        <div class="row"><div class="nm">The Whisper Desk<small>Off the Record</small></div><div class="pg">15</div></div>
+        <div class="row"><div class="nm">Curiosities<small>The Far Edges</small></div><div class="pg">16</div></div>
+        <div class="row"><div class="nm">Love &amp; Life<small>The Human Desk</small></div><div class="pg">17</div></div>
+        <div class="row"><div class="nm">Fitness<small>The Long Game</small></div><div class="pg">18</div></div>
+        <div class="row"><div class="nm">The Diary<small>What's Worth Booking</small></div><div class="pg">19</div></div>
+        <div class="row"><div class="nm">The Long Read<small>The Said &amp; the Done</small></div><div class="pg">21</div></div>
+        <div class="row"><div class="nm">The Last Word<small>Back cover</small></div><div class="pg">24</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="fromdesk">
+        <div class="kicker gold">From the Desk</div>
+        <div class="q">"Well done is better than well said."</div>
+        <div class="at">— Benjamin Franklin, Poor Richard's Almanack, 1737</div>
+        <p class="body tight" style="margin-top:8px;">A week of grand announcements that refused to become facts. A ceasefire described in every capital and signed in none. A chip cleared for sale that no one is buying. A ban passed in parliaments and dodged with a VPN. A secret ballot still weeks from being cast. Franklin's almanack maxim is the thread: the distance between the press release and the deed is where this issue lives.<sup class="fnref">1</sup></p>
+      </div>
+      <div class="mktstrip">
+        <div class="c"><div class="k">Brent</div><div class="v">$97</div><div class="d dn">−12% m/m</div></div>
+        <div class="c"><div class="k">STI</div><div class="v">5,075</div><div class="d up">near record</div></div>
+        <div class="c"><div class="k">SG power</div><div class="v">29.7¢</div><div class="d dn">Jul hike flagged</div></div>
+      </div>
+      <p class="imgcap" style="margin-top:4px;">Brent whipsawed above US$100 mid-week on stalled talks and a sixth straight US inventory draw, then eased toward US$97 on revived peace hopes.<sup class="fnref">2</sup></p>
+      <div class="hairline"></div>
+      <div class="kicker slate">The Threads</div>
+      <p class="body tight">Five run through this issue: a <b>peace announced, not executed</b>; <b>leverage manufactured under fire</b> (Lebanon, Kyiv's drones, Bogotá's endorsements); the <b>frontier coming home</b> (open-weight models on the desk, the refinancing window, the data-sovereign house); the <b>encore</b> (a comet's last reading, a watch market's price-setting finale); and the <b>quiet homecomings</b> that actually arrive while the headlines hover.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Franklin, <i>Poor Richard's Almanack</i> (1737). &nbsp;2. CNBC; Fortune; TradingEconomics — Brent &amp; WTI; SGX/STI close, 1–4 Jun 2026.</div>
+    <div class="fnbar"><span>Meridian · The Order of the Day</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 3 · THE WORLD ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Strait%20of%20Hormuz%20%28MODIS%202020-12-04%29.jpg?width=1600" alt="Satellite view of the Strait of Hormuz" loading="lazy"></div>
+  <div class="ph-cap">The Strait of Hormuz, the chokepoint at the centre of this week’s unsigned 60-day understanding. NASA Terra/MODIS true-colour satellite image. Source: Wikimedia Commons — "File:Strait of Hormuz (MODIS 2020-12-04).jpg" · Public domain (NASA) · NASA/MODIS Terra. Subject verified from the file’s Commons description page.</div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker">Hormuz · Week Six of the Talks That Won't Close</div>
+    <h1 class="hed">Beirut blinks, and the deal everyone describes refuses to be signed</h1>
+    <div class="dek">A US-brokered ceasefire to be a "60-day MOU" again came within a sentence of being initialled — then Israel's push into southern Lebanon sent Tehran back to the brink, and oil back above US$100.</div>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The shape of the bargain has not changed since April: the Strait reopens to unrestricted traffic with no tolls, Iran clears its mines, the US lifts its naval blockade "in proportion" and waives some sanctions, and the two sides spend sixty days negotiating the harder questions of enriched uranium and the lifting of the rest.<sup class="fnref">1</sup> What changed this week was the temperature. On Monday, Iranian state outlet Tasnim said negotiators would stop passing messages through intermediaries and move to "completely" close Hormuz, in retaliation for Israel's expanding operations against Hezbollah in Lebanon; oil leapt more than 7% on the report.<sup class="fnref">2</sup></p>
+      <p class="body">By midweek the choreography reversed. Hezbollah was reported to have accepted a US ceasefire proposal that would halt strikes on Beirut; President Trump said he had talked Prime Minister Netanyahu out of "a major raid" on the city in a call sources described as heated, and insisted a Hormuz deal was reachable "over the next week" — while conceding he still needed "a few more points" before he would sign.<sup class="fnref">3</sup> Oil, which had vaulted above US$100 on Wednesday as the US signalled it would keep its blockade in place "for the foreseeable future," slid back toward US$97 by Thursday as the peace track flickered on again.<sup class="fnref">4</sup></p>
+      <p class="body">The market is the most honest reader of the situation. Brent is down roughly 12% on the month yet swings several dollars on each new adjective. The tell is supply, not rhetoric: US crude inventories have now fallen for six straight weeks, the steepest draw since February, approaching minimum operating levels — even as a trickle of vessels, some coordinating with the US Navy, has resumed transiting the Strait.<sup class="fnref">5</sup> A great deal has been <i>said</i>. Very little has yet been <i>done</i>.</p>
+
+      <div class="pull">The choreography is now familiar: a deal "mostly agreed," a deal "reachable in a week," a deal that needs "a few more points." The ink never arrives.</div>
+    </div>
+
+    <div>
+      <div class="desk">
+        <div class="flag"><span>Tehran</span><span class="geo">Tasnim / state TV</span></div>
+        <p>Frames the suspension as a sovereign response to Israeli aggression in Lebanon, not a collapse of diplomacy; insists any Strait arrangement be "managed by Iran and Oman." Casts the blockade as the true escalation.<sup class="fnref">6</sup></p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Washington</span><span class="geo">White House / CNBC</span></div>
+        <p>Trump says the framework is all but agreed and a Khamenei meeting is possible "if developments continue positively," while reportedly telling aides to prepare for an extended blockade — lower-risk, he argues, than resuming the war.<sup class="fnref">3</sup></p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Doha / Gulf</span><span class="geo">regional officials</span></div>
+        <p>Gulf capitals read the calm as fragile and want flows restored above all; some privately believe Iran already exercises de-facto control of the chokepoint regardless of what any MOU says.<sup class="fnref">7</sup></p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Doha (Al Jazeera)</span><span class="geo">non-aligned framing</span></div>
+        <p>Stresses that under maritime law no state may toll an international strait, and that the Lebanon front — not the Strait itself — is now the variable most likely to make or break the sixty days.<sup class="fnref">1</sup></p>
+      </div>
+      <div class="stat" style="margin-top:6px;">
+        <div class="n">&lt;0.3</div>
+        <div class="c">Mbpd Iranian crude loadings in May, vs 1.5 in April</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Al Jazeera, "US–Iran 60-day proposal: what we know," 29 May 2026. &nbsp;2. CNBC, 1 Jun 2026. &nbsp;3. CNN; CBS News, 1 Jun 2026. &nbsp;4. Barchart; TradingEconomics, 3–4 Jun 2026. &nbsp;5. EIA via TradingEconomics, 3 Jun 2026. &nbsp;6. Tasnim via CNBC, 1 Jun 2026. &nbsp;7. CNBC (Hochstein), 28 May 2026.</div>
+    <div class="fnbar"><span>Meridian · The World</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 4 · THE WORLD (Around the Desks) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The World</span><span>Around the Desks</span></div>
+  <div class="rule"></div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="kicker slate">Ukraine · The Leverage War</div>
+      <h2 class="hed sm">Kyiv lands a drone on Putin's hometown — as his forum opens</h2>
+      <p class="body">Hours before Vladimir Putin's flagship economic forum opened in St Petersburg on 3 June, a Ukrainian drone strike sent black smoke over the city's port — a deliberately symbolic hit timed to the showcase in his hometown.<sup class="fnref">1</sup> It capped a fortnight in which Kyiv forced the Volgograd refinery offline and struck oil terminals from Novorossiysk to Armavir, the strategy unchanged: starve Moscow of the export revenue that funds the war.<sup class="fnref">2</sup></p>
+      <p class="body tight">The deeper shift is diplomatic. Putin now says he accepts the idea of EU-mediated talks he previously dismissed, even as Zelensky warns of intelligence pointing to a new large-scale Russian assault. As with Hormuz, the words have moved faster than the facts: an accepted format is not an agreed peace.</p>
+      <div class="chatter slate">
+        <div class="lbl">The Chatter · Sceptic</div>
+        <p>Analysts on r/CredibleDefense caution that refinery strikes dent revenue at the margin but haven't bent Moscow's war economy; "leverage" is real but slow, and a forum photo-op burns less than a frontline gain.</p>
+        <p class="src">— paraphrased, open-source defence forums</p>
+      </div>
+    </div>
+    <div>
+      <div class="kicker">Colombia · 21 June Runoff</div>
+      <h2 class="hed sm">A polarised second round, and a scramble for the centre's million votes</h2>
+      <p class="body">After a first round on 31 May that upended the polls, far-right outsider Abelardo de la Espriella (43.7%) faces leftist senator Iván Cepeda (40.9%) on 21 June.<sup class="fnref">3</sup> The first runoff survey gives de la Espriella a narrow edge — about 49% to 47% if new voters turn out — and the contest now hinges on where the eliminated candidates' supporters go.<sup class="fnref">4</sup></p>
+      <p class="body tight">Conservative Paloma Valencia (6.9%) endorsed de la Espriella; her centrist running mate Juan Daniel Oviedo pointedly did not, and Sergio Fajardo's centrist bloc is up for grabs. A Petro-aligned continuity versus a Bukele-styled crackdown: two visions, three weeks, one chokepoint of undecided moderates.</p>
+      <div class="chatter gold">
+        <div class="lbl">The Chatter</div>
+        <p>Regional desks (Americas Quarterly, AS/COA) note the irony: a campaign run on "deeds, not talk" by an outsider, decided by the soft, hard-to-poll preferences of the very establishment voters he ran against.</p>
+        <p class="src">— paraphrased, Americas Quarterly · AS/COA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="shelf">
+    <div class="lbl">Still on the wire — in brief</div>
+    <p><b>Lebanon.</b> Israel says it will keep striking the south even after the reported Beirut pause — the "glitch," in Trump's word, that nearly derailed Hormuz this week.</p>
+    <p><b>Iraq.</b> Baghdad is negotiating tanker access through Hormuz after output fell to roughly a quarter of pre-war levels — a reminder that the Strait's neighbours are hostages to it too.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Washington Post, 3 Jun 2026. &nbsp;2. Al Jazeera; Euronews, 23–30 May 2026. &nbsp;3. CBS News; Al Jazeera, 1–2 Jun 2026. &nbsp;4. ColombiaOne; AS/COA, 2–3 Jun 2026.</div>
+    <div class="fnbar"><span>Meridian · The World</span><span>Page 4</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 5 · SINGAPORE ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Singapore Marina Bay skyline at dusk" loading="lazy"></div>
+  <div class="ph-cap">Singapore’s Marina Bay and Central Business District at dusk. Source: Wikimedia Commons — "File:Singapore Marina Bay Dusk 2018-02-27.jpg" · CC BY-SA 4.0 · Benh Lieu Song (Commons Featured Picture). Subject verified from the file’s Commons description page.</div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker">28 June · A Secret Ballot, If It Comes to One</div>
+    <h1 class="hed">The Workers' Party sets a date with its own conscience</h1>
+    <div class="dek">A notice to cadres lays out a three-step reckoning over Pritam Singh's leadership — account, resign, or face a secret vote — hours before the party elects its next central committee.</div>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The mechanics are now public. Following a requisition signed by 25 cadres, the Workers' Party will hold a Special Cadre Members' Conference at noon on 28 June, chaired by policy-research head and Aljunied MP Gerald Giam.<sup class="fnref">1</sup> The agenda has three parts: Mr Singh must first account to cadres for his December-upheld conviction for lying to the Committee of Privileges; cadres then call on him to step down for an alleged breach of Article 30, which requires members to be honest in their dealings; and if he declines, a secret ballot decides whether he stays.<sup class="fnref">2</sup></p>
+      <p class="body">The timing is its own statement. The special conference runs just before the party's ordinary biennial conference at 3pm, where cadres elect the secretary-general, chair and twelve-member CEC — the body Mr Singh has led unopposed since 2018.<sup class="fnref">1</sup> The choreography means the question of his leadership and the routine renewal of it land on the same afternoon.</p>
+      <p class="body tight">Not every cadre intends to keep the secret. At a book launch this week, former NCMP Yee Jenn Jong told the room, "Although it's a secret vote, my vote is not secret — I'm going to support Pritam," adding that he hoped for an "orderly transition" in time.<sup class="fnref">3</sup> Separately, the Law Society has begun disciplinary proceedings before the Court of Three Judges.</p>
+      <div class="pull">The agenda is a model of process: account, then ask, then — only if needed — count. The deed waits three weeks behind the words.</div>
+    </div>
+    <div>
+      <div class="desk">
+        <div class="flag"><span>State broadcaster</span><span class="geo">CNA</span></div>
+        <p>Reports the agenda straight: a requisitioned conference, a secret ballot only if Mr Singh does not step aside, framed as the party's internal due process running its course.<sup class="fnref">1</sup></p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Opposition-leaning</span><span class="geo">The Online Citizen</span></div>
+        <p>Traces the chain back to Raeesah Khan's 2021 untruth and stresses the COP finding that Mr Singh advised maintaining the false account — the original deed behind the words now being weighed.<sup class="fnref">2</sup></p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Within the ranks</span><span class="geo">Yee Jenn Jong</span></div>
+        <p>Public loyalty plus a quiet succession hint: support Mr Singh now, prepare an orderly handover later. A secret ballot, declared in advance.<sup class="fnref">3</sup></p>
+      </div>
+      <div class="chatter teal">
+        <div class="lbl">The Chatter</div>
+        <p>On r/singapore the split is less pro/anti and more procedural: many read the requisition as cadres insisting the party be seen to <i>do</i> what its constitution <i>says</i>, conviction or not.</p>
+        <p class="src">— paraphrased, r/singapore</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="shelf">
+    <div class="lbl">Story so far — the oil shock reaches the wall socket</div>
+    <p><b>Electricity.</b> Households pay 29.72¢/kWh (with GST) for Apr–Jun. Because the July tariff is set from natural-gas prices over Apr 1–mid-Jun — the heart of the oil spike — the EMA has flagged "further and potentially sharper" increases ahead. The deed of the Hormuz war arrives, with a lag, on the next bill.<sup class="fnref">4</sup></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. CNA via Mothership; The Independent SG, 1–2 Jun 2026. &nbsp;2. The Online Citizen, 2 Jun 2026. &nbsp;3. Mothership, 2 Jun 2026. &nbsp;4. SP Group; EMA, 31 Mar 2026.</div>
+    <div class="fnbar"><span>Meridian · Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 6 · PROPERTY ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lavender%20district%20HDB%20flats%20in%20Singapore.JPG?width=1600" alt="HDB public-housing flats in Singapore" loading="lazy"></div>
+  <div class="ph-cap">HDB flats in the Lavender district — representative of Singapore’s public-housing stock, not a specific BTO project. Source: Wikimedia Commons — "File:Lavender district HDB flats in Singapore.JPG" · CC BY-SA 4.0 · uploader per file page. Subject verified from the file’s Commons description page.</div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker gold">The Refinancing Window</div>
+    <h1 class="hed">Mortgages are the cheapest they've been since 2022 — and a strait away from changing</h1>
+    <div class="dek">Three-month SORA is hovering near 1%, with two-year fixed packages quoted at 1.3–1.5%. For an owner with a loan to reprice, the arithmetic is unusually friendly. The catch is parked in the Gulf.</div>
+  </div>
+
+  <div class="grid g-12">
+    <div>
+      <p class="body dropcap">The read-through for anyone holding Singapore property is, for once, simple. Three-month compounded SORA — the floating benchmark that replaced SIBOR and SOR — has drifted to roughly 1.0–1.14%, its lowest since mid-2022, and is forecast to bottom around 1% in Q2 before edging toward ~1.4% by year-end.<sup class="fnref">1</sup> Two-year fixed packages are being written at about 1.32–1.5%, against north of 4% at the end of 2022. On a S$1m loan, that gap is real money — the difference, in round terms, between a comfortable hold and a stretched one.<sup class="fnref">2</sup></p>
+      <p class="body">The window exists because tariffs eased through late 2025 and early 2026. But the July electricity hike is a preview of a broader risk: a sustained oil shock that reignites imported inflation could slow or reverse the rate-cut path that makes today's packages so cheap. The lesson of the front pages applies here too — the cut is <i>quoted</i>, not yet <i>banked</i>. A reprice locks the deed.</p>
+      <p class="body tight">Underlying demand is steady but selective. Q1 data (already on the record) showed private prices up 0.9% and HDB resale down 0.1% — its first dip since 2019 — alongside a record run of million-dollar flats. With roughly 55,800 private units in the completion pipeline and vacancy ticking to ~6.2%, the "flight to convenience" toward MRT-adjacent stock continues; the marginal buyer is paying for certainty.<sup class="fnref">3</sup></p>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>On HardwareZone and r/singaporefi the consensus tilts toward locking a short fixed now and keeping the option to ride SORA later — "the rate you can refinance into is not the rate you'll keep." Brokers report a spike in repricing enquiries since the oil spike.</p>
+        <p class="src">— paraphrased, HardwareZone · r/singaporefi</p>
+      </div>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 240 180" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <line x1="34" y1="14" x2="34" y2="150" stroke="#d8cfbd" stroke-width="1"/>
+          <line x1="34" y1="150" x2="232" y2="150" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="6" y="30" font-family="Poppins" font-size="7" fill="#7a7264">4%</text>
+          <text x="6" y="92" font-family="Poppins" font-size="7" fill="#7a7264">2%</text>
+          <text x="6" y="150" font-family="Poppins" font-size="7" fill="#7a7264">0%</text>
+          <polyline fill="none" stroke="#c1462e" stroke-width="2.2"
+            points="42,40 80,52 118,86 150,120 182,134 212,128"/>
+          <circle cx="182" cy="134" r="3" fill="#c1462e"/>
+          <circle cx="212" cy="128" r="3" fill="#b08738"/>
+          <text x="40" y="60" font-family="Poppins" font-size="6.5" fill="#403a32">'22 peak ~4%+</text>
+          <text x="120" y="146" font-family="Poppins" font-size="6.5" fill="#c1462e">~1% trough</text>
+          <text x="150" y="170" font-family="Poppins" font-size="6.5" fill="#b08738">→ ~1.4% by yr-end</text>
+        </svg>
+        <div class="imgcap">3-month SORA, schematic. Source: Meridian, from PropertyGuru / lender forecasts (2026). Indicative, not advice.</div>
+      </div>
+      <div class="stat" style="margin-top:8px;">
+        <div class="n">6,900</div>
+        <div class="c">BTO flats launched this June — Ang Mo Kio, Bishan, Bukit Merah, Sembawang, Woodlands<sup class="fnref">4</sup></div>
+      </div>
+      <p class="body tight" style="margin-top:6px;">Not financial advice. Repricing terms, lock-ins and clawbacks vary by lender and profile; the numbers above are indicative of the market, not your loan.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. PropertyGuru; Homejourney SORA outlook, May 2026. &nbsp;2. dollarbackmortgage; PropertyNet.SG, Mar–May 2026. &nbsp;3. URA; PropNex; PropertyGuru, Q1 2026. &nbsp;4. Mothership/HDB, Apr 2026.</div>
+    <div class="fnbar"><span>Meridian · Property</span><span>Page 6</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 7 · TECHNOLOGY ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter%20Server%20Racks%20%2822370909788%29.jpg?width=1600" alt="Rows of server racks in a data centre" loading="lazy"></div>
+  <div class="ph-cap">Server racks in a data centre — representative of AI training/inference compute, not any named facility. Source: Wikimedia Commons — "File:Datacenter Server Racks (22370909788).jpg" · CC BY 2.0 · uploader per file page. Subject verified from the file’s Commons description page.</div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker">The Open Frontier</div>
+    <h1 class="hed">The cleared chip nobody buys, and the open weights everybody runs</h1>
+    <div class="dek">Two stories that look opposite are the same story. The H200 is approved for China and selling almost nothing; meanwhile open-weight models keep closing on the closed frontier. Permission isn't adoption — and code travels where chips can't.</div>
+  </div>
+
+  <div class="grid g-12">
+    <div>
+      <p class="body dropcap">Start with the chip that went nowhere. The US cleared roughly ten Chinese firms — Alibaba, Tencent, ByteDance among them — to buy Nvidia's H200, capped at 75,000 units each. Months on, deliveries are negligible: Beijing has quietly steered buyers toward Huawei's Ascend line, and Mr Trump has complained that China simply "chose not to" purchase.<sup class="fnref">1</sup> A licence was <i>granted</i>; a sale was not <i>made</i>. (As a developing thread, we won't re-litigate the export saga we've tracked since No. 06 — only the delta: the gap between the permission and the purchase order has, if anything, widened.)</p>
+      <p class="body">Now the part that does move. Within a roughly 30-day window this spring the labs sprinted at once — and the open-weight pack kept pace. DeepSeek's V4 Pro posts agentic-benchmark scores alongside the closed flagships at a fraction of the API price; Alibaba's Qwen 3.7 Max and Moonshot's Kimi line crowd the leaderboards; Chinese labs now hold several of the top open-weight slots.<sup class="fnref">2</sup> Anthropic's Claude Opus 4.8 sits at the closed frontier. The point for a sovereignty-minded buyer: weights you can download don't need an export licence.</p>
+      <div class="pull">A chip is a thing you must be allowed to ship. A model is a file. One story is about permission; the other is about gravity.</div>
+      <p class="body tight">The commentary that matters most is the unglamorous kind. "Release date matters less than adoption timing," as one widely-shared analysis put it: most firms don't switch models on launch day; they switch when a model survives contact with a messy real workflow.<sup class="fnref">3</sup> Said versus done, again — this time in the changelog.</p>
+    </div>
+    <div>
+      <div class="chatter gold">
+        <div class="lbl">The Chatter</div>
+        <p>On r/LocalLLaMA the H200 clearance barely registers; the energy is all on which open weights to pull this week. "Why fight a licence when DeepSeek V4 Pro runs at home?" is the prevailing mood.</p>
+        <p class="src">— paraphrased, r/LocalLLaMA</p>
+      </div>
+      <div class="chatter slate">
+        <div class="lbl">The Chatter · Sceptic</div>
+        <p>Forrester's analysts temper the drama: renewed H200 access has only a "modest" effect on global supply, the chip trails Blackwell-class parts, and ~75% of Chinese training still runs on Nvidia's CUDA regardless of the headlines.</p>
+        <p class="src">— paraphrased, Forrester via Network World</p>
+      </div>
+      <div class="stat">
+        <div class="n">75,000</div>
+        <div class="c">H200 units per customer the US approved — against negligible actual deliveries</div>
+      </div>
+      <div class="hairline"></div>
+      <div class="stat">
+        <div class="n">~30 days</div>
+        <div class="c">the spring window in which GPT-5.5, Opus, Gemini, DeepSeek V4 &amp; Qwen 3.7 all shipped</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. CNBC, 14 May 2026; Tom's Hardware, May 2026. &nbsp;2. aimlapi; llm-stats; RemoteOpenClaw, May–Jun 2026. &nbsp;3. mean.ceo, "New AI model releases," Jun 2026.</div>
+    <div class="fnbar"><span>Meridian · Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 8 · TECHNOLOGY (Home Lab) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Technology</span><span>The Home Lab</span></div>
+  <div class="rule"></div>
+
+  <div class="grid g-21" style="margin-top:8px;">
+    <div>
+      <div class="kicker">Your Desk, the New Datacentre</div>
+      <h2 class="hed">The frontier is now small enough to keep at home</h2>
+      <p class="body dropcap">The quiet milestone of 2026 is that "frontier-class, locally" stopped being aspirational. The hardware conversation has consolidated around four boxes — Apple's M5 Max (128GB unified), Nvidia's desk-side DGX Spark (~US$4,699), the tower-class RTX Pro 6000 Blackwell (96GB GDDR7), and the just-shipping DGX Station on a GB300 superchip with up to 748GB — each chasing the same outcome: run Qwen 3.5 122B, Nemotron, DeepSeek V3.2 and the rest of the open frontier without an egress bill.<sup class="fnref">1</sup></p>
+      <p class="body">Two of those numbers do the heavy lifting. Users report a pair of DGX Sparks running a 122B model at ~40 tokens/sec — slow next to a cloud endpoint, fast enough for real daily work — while the RTX Pro 6000 is, for a single user on a model that fits in 96GB, simply the fastest accessible option, CUDA-native and library-complete.<sup class="fnref">2</sup> The cost case has flipped: where the constraint used to be "can we afford to call an LLM?", with frontier-adjacent weights at ~US$1/M tokens it becomes "can we structure the application well?"<sup class="fnref">3</sup></p>
+      <p class="body tight">The sovereignty dividend is the real prize for this reader. A model on your own silicon is a model that never phones home — the same instinct that drives a local-first smart house (see p.10) applied to inference. The said-versus-done theme inverts here: the cloud <i>promises</i> privacy; the home lab simply <i>has</i> it, because the data never leaves the room.</p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 220 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <text x="8" y="14" font-family="Poppins" font-size="7.5" font-weight="700" fill="#191613">RUN-IT-HOME, 2026</text>
+          <g font-family="Poppins" font-size="7" fill="#403a32">
+            <rect x="8" y="26" width="204" height="30" fill="#efe9db" stroke="#d8cfbd"/>
+            <text x="14" y="40" font-weight="700">M5 Max · 128GB</text><text x="14" y="50" fill="#7a7264">laptop-class, fanless frontier</text>
+            <rect x="8" y="62" width="204" height="30" fill="#fbf8f1" stroke="#d8cfbd"/>
+            <text x="14" y="76" font-weight="700">DGX Spark · ~$4,699</text><text x="14" y="86" fill="#7a7264">desk-side, GB10; cluster 2× for 122B</text>
+            <rect x="8" y="98" width="204" height="30" fill="#efe9db" stroke="#d8cfbd"/>
+            <text x="14" y="112" font-weight="700">RTX Pro 6000 · 96GB</text><text x="14" y="122" fill="#7a7264">fastest single-user; CUDA-native</text>
+            <rect x="8" y="134" width="204" height="30" fill="#fbf8f1" stroke="#d8cfbd"/>
+            <text x="14" y="148" font-weight="700">DGX Station · up to 748GB</text><text x="14" y="158" fill="#7a7264">GB300; serve a whole household</text>
+          </g>
+          <text x="8" y="180" font-family="Poppins" font-size="6" fill="#7a7264">Meridian — from LMSYS, MWGamers, CNX (2026)</text>
+        </svg>
+        <div class="imgcap">Capacity, not just speed, is the new axis: a Spark optimises for fitting big models, not raw tok/s.</div>
+      </div>
+      <div class="chatter teal">
+        <div class="lbl">The Chatter</div>
+        <p>The Mac-vs-Spark debate persists: a Mac Mini/Studio sips power and runs gpt-oss-class models happily, but for sustained fine-tuning the CUDA path still wins. "Buy the Mac to run, the Nvidia box to train."</p>
+        <p class="src">— paraphrased, LMSYS notes · r/LocalLLaMA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. MWGamers; LMSYS DGX Spark review, Apr 2026. &nbsp;2. bswen; CNX-Software, Mar 2026. &nbsp;3. MindStudio (DeepSeek V4 Pro), Apr 2026.</div>
+    <div class="fnbar"><span>Meridian · Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 9 · THE KIT ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fujifilm%20X-T5%20with%20Fujinon%20XF%2035mm%20F2%20R%20WR%20-%20by%20Henry%20S%C3%B6derlund%20%2852536299126%29.jpg?width=1600" alt="Fujifilm X-series mirrorless camera" loading="lazy"></div>
+  <div class="ph-cap">Representative: a Fujifilm X-T5 — NOT the unannounced X-T6 discussed in this story; shown to illustrate the X-series line. Source: Wikimedia Commons — "File:Fujifilm X-T5 with Fujinon XF 35mm F2 R WR - by Henry Söderlund (52536299126).jpg" · CC BY 4.0 · Henry Söderlund. Subject verified from the file’s Commons description page.</div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="kicker">Photography · FUJIKINA Warsaw, this month</div>
+      <h2 class="hed sm">Fujifilm's X-T6 is the camera the rumour mill has all but built</h2>
+      <p class="body">After a notably slow year for new bodies, the photography calendar quickens in June. Credible leaks point to the Fujifilm X-T6 arriving at or just before FUJIKINA Warsaw: a 40MP partially-stacked X-Trans sensor, the X-Processor 6 with deep-learning subject tracking, ~7-stop IBIS and 6.2K capture — Fujifilm's habitual venue for an APS-C flagship.<sup class="fnref">1</sup> For a Sony/Leica/Hasselblad shelf, it's less a system-switch than a tempting second body: the camera you actually carry.</p>
+      <p class="body tight">The more structural story is Leica building its own silicon. A house-developed sensor would, in time, feed an M12 (likely a 2027 affair), an S4 mirrorless medium-format body and a higher-resolution Q4. A rangefinder maker controlling its own imager is the rare hardware event worth watching for its own sake.<sup class="fnref">2</sup></p>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>On r/fujifilm and DPReview forums the X-T6 wishlist is unanimous: keep the dials, fix the buffer, don't chase video at the cost of the stills soul. The leak-driven used market is already softening X-T5 prices.</p>
+        <p class="src">— paraphrased, r/fujifilm · DPReview</p>
+      </div>
+    </div>
+    <div>
+      <div class="kicker gold">Wearables</div>
+      <h2 class="hed sm">The face computer, quietly maturing</h2>
+      <p class="body tight">The smart-glasses wave we flagged earlier in the year keeps building rather than breaking: display-equipped frames and assistant-first models are converging on all-day wear, while Apple's long-rumoured entry continues to slip. The reader's takeaway is patience — this is a category where the demo ships months before the product does.<sup class="fnref">3</sup></p>
+      <div class="shelf">
+        <div class="lbl">Still on the shelf</div>
+        <p><b>Sony a7R VI (66.8MP)</b> — shipped 4 Jun, as flagged in No. 06/12. Closed here until first independent reviews or a price move.</p>
+        <p><b>Sennheiser Momentum 5</b> — ships mid-June; the screwdriver-replaceable battery has had its run of column inches. Next mention earns its place only on reviews.</p>
+      </div>
+      <div class="figframe">
+        <svg viewBox="0 0 200 120" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="200" height="120" fill="#fff"/>
+          <g fill="none" stroke="#191613" stroke-width="2">
+            <rect x="28" y="46" width="52" height="36" rx="6"/>
+            <rect x="120" y="46" width="52" height="36" rx="6"/>
+            <path d="M80 58 q20 -8 40 0"/>
+            <path d="M28 60 q-12 2 -14 12"/>
+            <path d="M172 60 q12 2 14 12"/>
+          </g>
+          <circle cx="54" cy="64" r="9" fill="none" stroke="#c1462e" stroke-width="1.5"/>
+          <circle cx="146" cy="64" r="3" fill="#b08738"/>
+          <text x="40" y="108" font-family="Poppins" font-size="6.5" fill="#7a7264">Meridian original — the slow arrival of the face computer</text>
+        </svg>
+        <div class="imgcap">Meridian illustration.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. DailyCameraNews; RedShark, Apr–May 2026. &nbsp;2. Digital Camera World; Fstoppers (Leica), Feb–May 2026. &nbsp;3. trade coverage of smart-glasses roadmaps, 2026.</div>
+    <div class="fnbar"><span>Meridian · The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 10 · THE CONNECTED HOME ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rule"></div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker teal">Local-First</div>
+    <h1 class="hed">The house that doesn't phone home</h1>
+    <div class="dek">Matter and Thread have quietly crossed from promise to plumbing. With Thread 1.4 now shipping by default and local control reaching even access systems, the data-sovereign smart home is finally less an ideology than a default.</div>
+  </div>
+
+  <div class="grid g-12">
+    <div>
+      <p class="body dropcap">The interesting thing about smart-home progress in 2026 is how boring it has become — in the best sense. The standards war is over; the wiring is being tidied. Home Assistant's OpenThread Border Router now ships Thread 1.4 by default, with a built-in mDNS implementation that resolves a whole class of stubborn connectivity bugs that used to trace back to quirky home routers.<sup class="fnref">1</sup> Matter keeps absorbing device classes — sirens and smoke detectors join locks and lights as first-class entities. None of it is glamorous. All of it is the difference between a demo and a home that works.</p>
+      <p class="body">For a Savant-and-Ubiquiti household, the relevant shift is local control reaching the perimeter. Recent releases brought native UniFi Access integration — Ubiquiti door and entry systems controlled on the local network, not a vendor cloud — which is exactly the posture this house already takes with cameras and networking.<sup class="fnref">2</sup> The throughline with the home AI lab on p.8 is deliberate: keep the inference local, keep the automations local, and the house keeps its own counsel.</p>
+      <div class="pull">Privacy that is configured is worth more than privacy that is promised. The local-first home does the quiet thing instead of saying the loud one.</div>
+    </div>
+    <div>
+      <div class="chatter teal">
+        <div class="lbl">The Chatter · Migrator's note</div>
+        <p>r/homeassistant's running advice for anyone consolidating: let Matter/Thread carry new devices, keep a Zigbee/Z-Wave coordinator for the legacy gear, and resist the urge to rip-and-replace. "Bridges, not bonfires."</p>
+        <p class="src">— paraphrased, r/homeassistant</p>
+      </div>
+      <div class="shelf">
+        <div class="lbl">Still on the shelf</div>
+        <p><b>Home Assistant 2026.6</b> shipped 3 Jun (Z-Wave lock-PIN management; Matter sirens; legacy template entities removed). If you script automations the old way, that last item is the one to read before you update — then it's done. Next peg: 2026.7.<sup class="fnref">1</sup></p>
+      </div>
+      <div class="stat">
+        <div class="n">1.4</div>
+        <div class="c">Thread version now default in HA's border router — mesh reliability, not features, is the win</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Home Assistant, "2026.6: Pick a card," 3 Jun 2026; MatterAlpha. &nbsp;2. Basic Tutorials (HA 2026.4 UniFi Access), Apr 2026.</div>
+    <div class="fnbar"><span>Meridian · Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 11 · THE GOOD LIFE ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="rule"></div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker gold">Watches as Assets</div>
+    <h1 class="hed">A hammer in New York that sets the floor for everyone else</h1>
+    <div class="dek">On 15 June, Sotheby's stages the American finale of "The Shapes of Cartier." For an owner who reads a watch as an asset, the interesting number isn't the headline — it's the Crash estimate, which gives an opaque market a price it has lacked.</div>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">"The Shapes of Cartier" — 300-plus vintage pieces gathered over 25 years, an aggregate estimate north of US$15m — has already passed through Hong Kong and Geneva; New York on 15 June is the last leg, opening Sotheby's Luxury Week.<sup class="fnref">1</sup> The lot that matters beyond the romance is a Crash carrying a US$400,000–800,000 estimate. The Crash has been notoriously hard to value precisely because so few trade publicly; a single result at scale creates a working floor the market simply hasn't had.<sup class="fnref">2</sup> For a collector who treats a vault as part of a portfolio, that is the real news: a price-discovery event, not a press release.</p>
+      <p class="body">It lands in a divided market. The upper registers — independents, blue-chip Pateks, the rarest Cartier — have held up through a broader luxury recalibration, even as boutiques feel the Gulf chill. Christie's 10 June Important Watches leads with a Patek 3448G "Red Dot," one of only two known, the kind of object whose price is set by scarcity rather than sentiment.<sup class="fnref">3</sup></p>
+      <div class="pull">An auction is the rare moment when a luxury market stops describing itself and is forced, on the hammer, to do the thing: name a number.</div>
+      <p class="body tight">Not investment advice. Watches are illiquid, costly to hold and to transact, and auction estimates are marketing as much as measurement — a "floor" is a data point, not a guarantee.</p>
+    </div>
+    <div>
+      <div class="subhead">Hermès — the index that won't sit still</div>
+      <p class="body tight">The case for the very top of the leather market remains the supply-control story: scarcity is the product. For the wearer rather than the speculator, the more rewarding move this season is the quieter line — a sober colourway, a workhorse rather than a trophy — bought to use, not to flip.</p>
+      <div class="subhead">Audio &amp; the room</div>
+      <p class="body tight">As home-theatre processing converges on object-based audio across more rooms, the upgrade with the best return is still the least glamorous: room treatment and calibration. The most expensive speaker underperforms an honest measurement and a few well-placed panels. Do the room before the box.</p>
+      <div class="chatter gold">
+        <div class="lbl">The Chatter</div>
+        <p>WatchPro and r/Watches read the Cartier sale two ways: romantics see a love letter to design; the asset crowd sees a liquidity event that will reprice every Crash in a drawer. Both are right.</p>
+        <p class="src">— paraphrased, WatchPro · r/Watches</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Sotheby's; Hypebeast; WatchPro, Apr–Jun 2026. &nbsp;2. New York Loan (Shapes of Cartier preview), Jun 2026. &nbsp;3. New York Loan (Christie's 10 Jun), Jun 2026.</div>
+    <div class="fnbar"><span>Meridian · The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 12 · SCREEN & SOUND ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Screen &amp; Sound</span><span>Culture Desk</span></div>
+  <div class="rule"></div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="kicker">Music · 12 June</div>
+      <h2 class="hed sm">Olivia Rodrigo padlocks a third album to a bridge</h2>
+      <p class="body">Rodrigo's third record, the wordily-titled <i>You seem pretty sad for a girl so in love</i>, arrives 12 June — trailed by promo clips of the singer fixing love-locks to bridges from Paris to Los Angeles.<sup class="fnref">1</sup> It's a neat accidental motif for this issue: the gesture of fastening something to a span you then walk away from. Following <i>Sour</i> and <i>Guts</i>, expectations are high; the first single set a moodier direction.</p>
+      <p class="body tight">This week's New Music Friday is unusually loaded around it: Taylor Swift releases "I Knew It, I Knew You" for Pixar's <i>Toy Story 5</i>, with Pink Floyd, Ellie Goulding and The Kid Laroi also out.<sup class="fnref">2</sup> The Strokes have new material teased for later in the year.</p>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>On r/popheads the title alone is dividing the fanbase — "either her best opening line or her most exhausting." The padlock campaign is read as either earnest or arch; nobody can decide, which is rather the point.</p>
+        <p class="src">— paraphrased, r/popheads</p>
+      </div>
+    </div>
+    <div>
+      <div class="kicker slate">Books · The Shelf</div>
+      <h2 class="hed sm">A prize about to be named</h2>
+      <p class="body tight">The Women's Prize for Fiction is announced on 11 June — the season's most reliable source of literary-fiction recommendations, and worth holding a slot on the nightstand for whatever takes it.<sup class="fnref">3</sup> (We've retired <i>Taiwan Travelogue</i> from these pages after its Mandarin Booker International win — covered enough; congratulations stand.)</p>
+      <div class="subhead">Screen — in brief</div>
+      <p class="body tight"><b>Toy Story 5</b> rolls toward release on an all-Swift musical bet; <b>Nolan's <i>Odyssey</i></b>, shooting in all-IMAX 70mm, remains the year's most ambitious technical swing. Both are, for now, anticipation rather than arrival — fitting company for an issue about things not yet done.</p>
+      <div class="figframe">
+        <svg viewBox="0 0 200 110" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="200" height="110" fill="#fff"/>
+          <line x1="20" y1="70" x2="180" y2="70" stroke="#191613" stroke-width="2"/>
+          <path d="M40 70 Q100 30 160 70" fill="none" stroke="#403a32" stroke-width="1.5"/>
+          <g fill="#c1462e">
+            <rect x="74" y="50" width="5" height="7" rx="1"/>
+            <rect x="98" y="44" width="5" height="7" rx="1"/>
+            <rect x="120" y="50" width="5" height="7" rx="1"/>
+          </g>
+          <text x="36" y="96" font-family="Poppins" font-size="6.5" fill="#7a7264">Meridian original — locks on a bridge you walk away from</text>
+        </svg>
+        <div class="imgcap">Meridian illustration.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Numéro, "Most anticipated albums of 2026," 3 Jun 2026. &nbsp;2. DraftKings Network New Music Friday, 4 Jun 2026. &nbsp;3. Women's Prize for Fiction (announcement 11 Jun 2026).</div>
+    <div class="fnbar"><span>Meridian · Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 13 · FAMILY DESK ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Family Desk</span><span>Raising Them Well</span></div>
+  <div class="rule"></div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker vermilion">Screens · What Works vs What's Legislated</div>
+    <h1 class="hed">The law is loud. The research says the quiet things matter more.</h1>
+    <div class="dek">2026 is the year of the age-gate — bans, digital ID, verification mandates. But for an eleven-year-old, the evidence keeps pointing somewhere less dramatic and more demanding: what the adults in the house actually do.</div>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The regulatory wave is real and worldwide. Australia's under-16 ban is the first of its kind; the UK's age-assurance rules are live; the US has a patchwork of state laws and the KOSA debate; consultations and proposals are open from Germany to the EU.<sup class="fnref">1</sup> Whatever one makes of them, they share a structural weakness: they are statements of intent that depend on enforcement that doesn't yet exist. A platform cannot reliably tell a 15-year-old from a 16-year-old without demanding ID from everyone — which is why the burden, in practice, lands on adults and on parents.<sup class="fnref">2</sup></p>
+      <p class="body">Meanwhile the research on what actually moves tween screen time keeps arriving at an uncomfortable place: parents' own habits. New work summarised by NPR finds that for early adolescents, what parents <i>do</i> — their own phone use, the routines and rules they model and keep — predicts outcomes better than rules announced and unenforced.<sup class="fnref">3</sup> It is the Franklin maxim in miniature: the household that does the thing beats the household that says it.</p>
+      <p class="body tight">This is general guidance, not medical or psychological advice. Tweens differ; a paediatrician or school counsellor is the right call for anything specific.</p>
+      <div class="pull">A ban is a sentence. A habit is a paragraph the child rereads every day. Only one of them is enforced at the dinner table.</div>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The Chatter · Don't be alarmist</div>
+        <p>A widely-cited finding: in US states that enacted age-verification statutes, VPN usage spiked dramatically in the days after — by some measures around 1,500% — while traffic shifted toward less-moderated, non-compliant platforms.<sup class="fnref">2</sup> The lesson isn't "screens are fine," it's "a gate the child can route around in thirty seconds isn't the protection it claims to be." Tools help; presence helps more.</p>
+        <p class="src">— paraphrased, age-verification research, 2024–26</p>
+      </div>
+      <div class="stat">
+        <div class="n">~5h 33m</div>
+        <div class="c">daily entertainment-media time, US tweens 8–12 (up from 4h 44m in 2019)<sup class="fnref">4</sup></div>
+      </div>
+      <div class="hairline"></div>
+      <p class="body tight">The number to watch isn't the total — it's the displacement. The question for an eleven-year-old's week is less "how many hours" than "what did the screen crowd out": sleep, movement, unstructured play, face-to-face friendship.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Wired Parents social-media-ban tracker, Apr 2026. &nbsp;2. Jikimi; The Hill, 2026. &nbsp;3. NPR, "Parent strategies that work to curb tween screen time." &nbsp;4. SQ Magazine / Common Sense data, 2026. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>Meridian · The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 14 · FAMILY DESK (Tween Years) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Family Desk</span><span>The Tween Years</span></div>
+  <div class="rule"></div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="kicker">A Practical Frame</div>
+      <h2 class="hed sm">Three moves that outlast any ban</h2>
+      <p class="body">If the legislation is unreliable, the household playbook needn't be. The evidence-based moves are unglamorous and within a parent's control:</p>
+      <p class="body tight"><b>1. Model it.</b> Children calibrate to observed behaviour, not stated rules; the parent who scrolls through dinner has already lost the argument about dinner.</p>
+      <p class="body tight"><b>2. Protect the displaced goods.</b> Guard sleep, movement and face-to-face time as first-order; let screen time be the residual, not the default.</p>
+      <p class="body tight"><b>3. Co-view and talk.</b> For an eleven-year-old, the most protective setting isn't a filter — it's a parent who knows what she's watching and asks about it without alarm.</p>
+      <p class="body tight">Singapore's "Screen Smart from the Start" resources remain a sane local starting point; the gap they target — only a minority of parents feel confident — is exactly the confidence that habit, not legislation, builds.</p>
+    </div>
+    <div>
+      <div class="kicker gold">A Brighter Note</div>
+      <h2 class="hed sm">The age of independence is also the age of competence</h2>
+      <p class="body tight">Early adolescence is when a child reaches for autonomy — and that instinct is an asset, not a threat. The same years that worry parents about screens are the years a tween can take genuine responsibility: a real hobby pursued seriously, a first solo errand, a friendship she manages herself. The research framing is consistent with the happiness literature on p.17: connection and competence, built early, compound.</p>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>Parents on r/Parenting keep landing on the same heuristic: "boredom is not an emergency." Resisting the urge to fill every gap with a screen is, for many, the single highest-leverage change — and the hardest.</p>
+        <p class="src">— paraphrased, r/Parenting</p>
+      </div>
+      <div class="stat">
+        <div class="n">Presence</div>
+        <div class="c">the variable the research keeps returning to — and the one no app sells</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;NPR (parent strategies); Lurie Children's screen-time survey; bescreensmart.gov.sg. General guidance for a general reader — not medical or psychological advice.</div>
+    <div class="fnbar"><span>Meridian · The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 15 · WHISPER DESK ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Whisper Desk</span><span>Strictly Off the Record</span></div>
+  <div class="rule"></div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker vermilion">Reported &amp; Rumoured — read accordingly</div>
+    <h1 class="hed">Engagement season meets separation season</h1>
+    <div class="dek">Everything below is unconfirmed gossip, flagged as such. Hollywood spent the spring announcing both new beginnings and quiet endings — fitting, for an issue about the distance between a declaration and a fact.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body tight"><b>Reported engaged.</b> Zoë Kravitz and Harry Styles are <i>reported</i> to be engaged less than a year after romance rumours began — per multiple outlets, none confirmed by the pair.<sup class="fnref">1</sup> File under "wait, what?"</p>
+    <p class="body tight"><b>Rumoured pairing.</b> Kim Kardashian is <i>rumoured</i> to be dating Lewis Hamilton; Kendall Jenner has been <i>linked</i> to Jacob Elordi. Both are tabloid sightings and unfollows read as tea leaves — treat as such.<sup class="fnref">1</sup></p>
+    <p class="body tight"><b>Reported split.</b> Camila Cabello and her partner are <i>reported</i> to have parted this June, the latest in a season of quiet uncouplings.<sup class="fnref">2</sup></p>
+    <p class="body tight"><b>Confirmed (for once).</b> Megan Thee Stallion confirmed her split from Klay Thompson earlier this spring; this one the principals addressed directly rather than via "sources."<sup class="fnref">3</sup></p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter</div>
+    <p>The gossip economy itself is the story this season: outlets increasingly run "unfollowed each other on Instagram" as evidence, and fans treat a deleted post as a press release. The Whisper Desk's house rule stands — a rumour is a rumour until someone with a name says otherwise.</p>
+    <p class="src">— paraphrased, entertainment-press roundups</p>
+  </div>
+
+  <div class="shelf">
+    <div class="lbl">The standing caveat</div>
+    <p>None of the above is confirmed by the people involved unless explicitly noted. We print it as what it is — chatter — and you should read it that way. We don't traffic in anything cruel, and we don't pretend a rumour is a fact.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Nicki Swift; W Magazine celebrity round-ups, 2026 (all rumoured/reported). &nbsp;2. PopNewsNow, Jun 2026 (reported). &nbsp;3. Nicki Swift; HollywoodLife, Apr 2026.</div>
+    <div class="fnbar"><span>Meridian · The Whisper Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 16 · CURIOSITIES ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Curiosities</span><span>The Far Edges</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Human%20for%20Scale%21%20%2849035200206%29.jpg?width=1600" alt="The James Webb Space Telescope primary mirror" loading="lazy"></div>
+  <div class="ph-cap">The James Webb Space Telescope’s gold primary mirror — the instrument that took the first infrared reading of interstellar comet 3I/ATLAS (no verified photo of the comet itself exists). Source: Wikimedia Commons — "File:Human for Scale! (49035200206).jpg" · Public domain (NASA) · NASA/Goddard. Subject verified from the file’s Commons description page.</div>
+
+  <div class="grid g-21" style="margin-top:8px;">
+    <div>
+      <div class="kicker teal">The Visitor's Encore</div>
+      <h1 class="hed">We said goodbye to 3I/ATLAS. Webb got one last word in.</h1>
+      <p class="body dropcap">We retired the interstellar comet from these pages in No. 12 as it headed out of the solar system for good. Then the James Webb Space Telescope captured the first mid-infrared chemical fingerprint ever taken of an interstellar object — including a direct detection of methane and a chemistry unlike anything in our own system — as 3I/ATLAS receded from the Sun.<sup class="fnref">1</sup> It is the rare farewell that earns an encore: a final reading from a traveller already leaving, carrying the composition of a star system we will never visit.</p>
+      <p class="body">The poetry is hard to miss. The whole issue is full of things suspended on a threshold; here is one that crossed it and still managed to say something true on the way out. Earlier work had already flagged the comet's "alien" water, hinting it formed somewhere far colder than our Sun's neighbourhood.<sup class="fnref">2</sup></p>
+      <div class="pull">A deed beats a declaration — but a last honest reading from something already gone is a kind of grace the headlines rarely get.</div>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 220 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="220" height="200" fill="#0f0e0c"/>
+          <circle cx="40" cy="150" r="16" fill="#b08738"/>
+          <text x="24" y="178" font-family="Poppins" font-size="6.5" fill="#e8dccb">Sun</text>
+          <path d="M40 150 Q120 40 210 30" fill="none" stroke="#2b6b66" stroke-width="1.2" stroke-dasharray="2 4"/>
+          <circle cx="150" cy="64" r="3.5" fill="#e8dccb"/>
+          <path d="M150 64 l16 -10" stroke="#c1462e" stroke-width="1.4"/>
+          <text x="120" y="90" font-family="Poppins" font-size="6.5" fill="#e8dccb">3I/ATLAS — outbound</text>
+          <text x="120" y="100" font-family="Poppins" font-size="6" fill="#7a7264">JWST: CH₄ + mid-IR fingerprint</text>
+          <g fill="#e8dccb"><circle cx="190" cy="120" r="1"/><circle cx="60" cy="50" r="1"/><circle cx="200" cy="80" r="1"/><circle cx="90" cy="160" r="1"/></g>
+        </svg>
+        <div class="imgcap">Meridian original, schematic — not to scale. Composition per JWST mid-IR spectroscopy (2026).</div>
+      </div>
+      <div class="kicker gold" style="margin-top:8px;">Look Up This Month</div>
+      <p class="body tight">June's sky obliges the stargazer: a close Venus–Jupiter conjunction after sunset, Mercury joining to form a rare three-planet line-up, and — on 3 June — Venus slipping behind the Moon in a daylight occultation.<sup class="fnref">3</sup></p>
+      <div class="chatter teal">
+        <div class="lbl">The Chatter</div>
+        <p>Also from Webb: WASP-94A b, ~700 light-years off, grows mineral "rock clouds" each morning that burn off by nightfall — weather, on a gas giant, you could almost set a watch by.<sup class="fnref">4</sup></p>
+        <p class="src">— paraphrased, ScienceDaily / Johns Hopkins</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. ScienceDaily / STScI, "Webb detects methane on 3I/ATLAS," 3–4 Jun 2026. &nbsp;2. ScienceDaily, 8 May 2026. &nbsp;3. ScienceDaily sky-events, 3 Jun 2026. &nbsp;4. ScienceDaily / Johns Hopkins (WASP-94A b), 27 May 2026.</div>
+    <div class="fnbar"><span>Meridian · Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 17 · LOVE & LIFE ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Love &amp; Life</span><span>The Human Desk</span></div>
+  <div class="rule"></div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker">The Examined Life</div>
+    <h1 class="hed">Is everything better together? Mostly — but not quite everything</h1>
+    <div class="dek">We've made the case (No. 12) that relationship quality, more than status, predicts a good life. A 2026 study pushes the nuance: company lifts most activities, yet a few are genuinely better in solitude. Knowing which is its own small wisdom.</div>
+  </div>
+
+  <div class="grid g-12">
+    <div>
+      <p class="body dropcap">The headline finding of the happiness literature is settled enough to be a cliché: connection beats almost everything money can buy. A 2026 analysis by Folk and Dunn, drawing on four waves of the American Time Use Survey, asks the sharper question — are <i>all</i> daily activities better with other people? — and finds that while social interaction is robustly linked to happiness, the lift isn't uniform across every activity.<sup class="fnref">1</sup> Some things genuinely reward solitude. The skill is telling them apart.</p>
+      <p class="body">The companion finding keeps the romance honest. Tracking the same people as their relationship status changed, researchers found that those in good-quality relationships reported the highest well-being — but those in poor- or moderate-quality ones often fared <i>worse</i> than when single.<sup class="fnref">2</sup> Partnership isn't automatically the better state; a low-quality one can be lonelier than solitude. As ever in this issue: it's not the label ("in a relationship") that does the work, it's the substance.</p>
+      <div class="pull">The good life isn't "always together" or "happily alone." It's the judgement to know, today, which one this hour calls for.</div>
+    </div>
+    <div>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>The practical takeaway making the rounds: protect a small amount of genuine solitude <i>and</i> a small number of high-quality relationships. One close tie plus a real network beats a large, shallow social map — and self-disclosure, not proximity, is what turns an acquaintance into a friend.</p>
+        <p class="src">— paraphrased, happiness-research summaries</p>
+      </div>
+      <div class="subhead">For this reader</div>
+      <p class="body tight">Two domains where the research nudges toward company: meals and milestones. Two where solitude often wins: deep work and the recovery after it. The optimisation mindset that runs the home lab and the training plan applies here too — but the metric is softer, and the instrument is honesty about how a given hour actually felt.</p>
+      <div class="stat">
+        <div class="n">Quality</div>
+        <div class="c">the variable that flips partnership from net-positive to net-negative</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Folk &amp; Dunn, "Everything Is Better Together," (2026), <i>Social Psychological and Personality Science</i>. &nbsp;2. Psychology Today, "Are people happier in relationships?", Jan 2026; Harvard Study of Adult Development (callback, No. 12).</div>
+    <div class="fnbar"><span>Meridian · Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 18 · FITNESS ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Fitness</span><span>The Long Game</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hillingdon%20Athletics%20Track.JPG?width=1600" alt="An outdoor running track" loading="lazy"></div>
+  <div class="ph-cap">An athletics track — representative image for the longevity/VO₂-max theme, not a specific venue. Source: Wikimedia Commons — "File:Hillingdon Athletics Track.JPG" · CC BY-SA 3.0 · uploader per file page. Subject verified from the file’s Commons description page.</div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker">The Long Game · Mid-40s</div>
+    <h1 class="hed">The longevity drug that may blunt the very thing that extends your life</h1>
+    <div class="dek">Rapamycin is the most-hyped molecule in the longevity conversation. A 2026 trial suggests it may dampen exercise-induced gains in older adults — a pointed reminder that the deed (training) still beats the pill that's merely talked about.</div>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">Rapamycin — an mTOR inhibitor with a deep animal-longevity record — has been the supplement-stack darling, buoyed by trials like PEARL suggesting healthspan benefits. But a 2026 study (Stanfield et al., <i>Journal of Cachexia, Sarcopenia and Muscle</i>) examined its effect on exercise performance in older adults and found a catch: while both groups improved over a 13-week program, the rapamycin group completed about two fewer 30-second chair-stand repetitions than placebo, with a marker of inflammation (CRP) elevated in some users.<sup class="fnref">1</sup> The signal: by blunting mTOR — the pathway exercise <i>uses</i> to build — the drug may dampen the adaptations you train for.</p>
+      <p class="body">The throughline with this whole issue is almost too neat. The pill is the declaration; the training is the deed. For a mid-40s reader optimising for healthspan, the unglamorous, well-evidenced levers — progressive resistance work and a high VO₂ max — remain the ones that actually move the needle. As one cardiologist frames VO₂ max: it declines ~10% per decade, so "you don't start saving for retirement at 60" — bank the capacity early.<sup class="fnref">2</sup></p>
+      <p class="body tight">General guidance, not medical advice. Rapamycin is off-label for longevity, evidence in healthy adults is still thin, and anything you'd actually take belongs in a conversation with your doctor — especially alongside a training plan.</p>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The Chatter · Longevity sceptic</div>
+        <p>r/longevity's more sober voices have long argued the field over-indexes on molecules and under-indexes on the boring basics. The Stanfield result is being cited as exhibit A: "the intervention with the best data is the one you have to do, sweating, three times a week."</p>
+        <p class="src">— paraphrased, r/longevity</p>
+      </div>
+      <div class="subhead">The grounded shelf</div>
+      <p class="body tight">Among supplements with actual human data, Urolithin A (mitochondrial efficiency) and NAD⁺ precursors (NR) are the better-tolerated, better-evidenced names — useful adjuncts, not substitutes for the work.<sup class="fnref">3</sup></p>
+      <div class="stat">
+        <div class="n">~10%</div>
+        <div class="c">per-decade decline in VO₂ max through adulthood — the case for building the buffer now</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Stanfield et al. (2026), <i>J. Cachexia, Sarcopenia &amp; Muscle</i>, via nad.com. &nbsp;2. CU Anschutz, "VO₂ max &amp; longevity," Jan 2026. &nbsp;3. Hone Health longevity review, Mar 2026. General guidance — not medical advice.</div>
+    <div class="fnbar"><span>Meridian · Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 19 · THE DIARY ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Diary</span><span>What's Worth Booking</span></div>
+  <div class="rule"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Lake%20Kawaguchi%20s2.jpg?width=1600" alt="Mount Fuji seen across Lake Kawaguchi" loading="lazy"></div>
+  <div class="ph-cap">Mount Fuji from Lake Kawaguchi — the climbing season opens in July. Source: Wikimedia Commons — "File:Mount Fuji from Lake Kawaguchi s2.jpg" · CC BY-SA 4.0 · Alpsdake. Subject verified from the file’s Commons description page.</div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="agenda-h">Singapore <span class="sub">The home calendar</span></div>
+      <div class="evt">
+        <div class="evt-date star">★<span class="mo">SOON</span></div>
+        <div><div class="evt-name"><span class="st">★</span> BTS — National Stadium</div><div class="evt-meta">The homecoming · first seven-member show in years · the one arrival this issue that lands</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">11<span class="mo">JUN</span></div>
+        <div><div class="evt-name">World Cup 2026 kicks off</div><div class="evt-meta">Watch-from-home · USA/Mexico/Canada · group stage through late June</div></div>
+      </div>
+
+      <div class="agenda-h gold" style="margin-top:12px;">Japan · Tokyo &amp; beyond <span class="sub">Summer matsuri</span></div>
+      <div class="evt">
+        <div class="evt-date star rng">7–17<span class="mo">JUN</span></div>
+        <div><div class="evt-name"><span class="st">★</span> Sanno Matsuri (Hie Shrine)</div><div class="evt-meta">Even-year procession into the Imperial Palace grounds — only every other year</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">1<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Mt Fuji climbing season opens</div><div class="evt-meta">"Yamabiraki" · Kawaguchiko fireworks 4 Jul</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">1–31<span class="mo">JUL</span></div>
+        <div><div class="evt-name"><span class="st">★</span> Gion Matsuri, Kyoto</div><div class="evt-meta">Yamahoko Junko float processions 17 &amp; 24 Jul · Japan's most famous festival</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">12–26<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Nagoya Grand Sumo</div><div class="evt-meta">One of six grand tournaments · pairs well with a Kyoto/Gion leg</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">2–7<span class="mo">AUG</span></div>
+        <div><div class="evt-name">Nebuta Matsuri, Aomori</div><div class="evt-meta">Giant illuminated warrior floats · the north's great summer spectacle</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 220 150" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="220" height="150" fill="#fff"/>
+          <path d="M20 120 L70 50 L88 70 L100 56 L150 120 Z" fill="#efe9db" stroke="#2f4858" stroke-width="1.5"/>
+          <path d="M62 60 L70 50 L78 60 L72 64 Z" fill="#fff" stroke="#2f4858" stroke-width="1"/>
+          <circle cx="175" cy="42" r="12" fill="none" stroke="#c1462e" stroke-width="2"/>
+          <g stroke="#b08738" stroke-width="1"><line x1="120" y1="30" x2="124" y2="38"/><line x1="135" y1="22" x2="138" y2="31"/></g>
+          <text x="24" y="140" font-family="Poppins" font-size="6.5" fill="#7a7264">Meridian original — Fuji opens, the matsuri begin</text>
+        </svg>
+        <div class="imgcap">Meridian illustration.</div>
+      </div>
+      <div class="chatter gold">
+        <div class="lbl">Planning notes</div>
+        <p><b>BTS:</b> stadium shows sell in minutes — set alerts, expect a queue, and budget for dynamic pricing on resale (buy only from official channels).</p>
+        <p><b>Gion &amp; Nebuta:</b> book lodging months out; the float-procession days draw national crowds. Paid grandstand seats are worth it with a child.</p>
+        <p><b>Sumo (Nagoya):</b> ringside is dear and sells fast; upper tiers are family-friendly and far cheaper.</p>
+        <p><b>Heat:</b> Japanese summer is brutal and humid — plan early-morning shrine visits, hydrate, and treat afternoon as indoor/museum time.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;MATCHA; GO TOKYO; JapanCheapo; IndochinaTravel matsuri guides (2026). Festival dates can shift — confirm with official shrine/organiser sites before booking.</div>
+    <div class="fnbar"><span>Meridian · The Diary</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 20 · THE DIARY (Plan the Flights / Art) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Diary</span><span>Plan the Flights</span></div>
+  <div class="rule"></div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="agenda-h slate">Art &amp; Exhibitions <span class="sub">Worth the detour</span></div>
+      <div class="evt">
+        <div class="evt-date star">★<span class="mo">TYO</span></div>
+        <div><div class="evt-name"><span class="st">★</span> teamLab Borderless, Azabudai Hills</div><div class="evt-meta">The relocated "museum without a map" · advance tickets essential</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">TYO</div>
+        <div><div class="evt-name">teamLab Planets, Toyosu</div><div class="evt-meta">World-record visitor numbers · slated to close 2027 — go before it does</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">TYO</div>
+        <div><div class="evt-name">Yayoi Kusama Museum</div><div class="evt-meta">Appointment-only · book the timed entry well ahead</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">SIN</div>
+        <div><div class="evt-name">teamLab Future World, ArtScience Museum</div><div class="evt-meta">The permanent Marina Bay digital-art draw · easy with a child, at home</div></div>
+      </div>
+      <p class="body tight" style="margin-top:8px;">For the photographer: pair a Tokyo art day with the Roppongi Art Triangle, and remember most major museums close Mondays — build the art-heavy day around Tue–Sun.</p>
+    </div>
+
+    <div>
+      <div class="agenda-h">Wider region <span class="sub">Worth the airfare</span></div>
+      <div class="evt">
+        <div class="evt-date rng">JUN–<br>JUL</div>
+        <div><div class="evt-name">Sumida River Fireworks &amp; the hanabi season</div><div class="evt-meta">Late-July Tokyo classic · yukata, riverbank, Skytree backdrop</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">24–25<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Tenjin Matsuri, Osaka</div><div class="evt-meta">Land-and-river processions · lantern boats · grand fireworks finale</div></div>
+      </div>
+      <div class="chatter teal" style="margin-top:8px;">
+        <div class="lbl">The long view</div>
+        <p>If the calendar allows only one trip, the even-year Sanno Matsuri and the Gion float days are the rarer, more ceremonial picks; the fireworks festivals are the more child-friendly, lower-stakes joy. Either way, this is a "book early, travel hopefully" season.</p>
+        <p class="src">— Meridian Diary desk</p>
+      </div>
+      <div class="shelf">
+        <div class="lbl">Booking reality</div>
+        <p>Peak-summer Japan means peak prices and peak crowds. Lock flights and the first two nights now; leave the back half loose. The deed (a confirmed booking) beats the intention (a saved tab).</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;teamLab (official); ItiMaker Tokyo art guide; GO TOKYO; JapanCheapo (2026). Confirm opening hours, closures and ticketing on official venue sites.</div>
+    <div class="fnbar"><span>Meridian · The Diary</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 21 · THE LONG READ ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Essay</span><span>The Long Read</span></div>
+  <div class="rule"></div>
+
+  <div style="margin-top:8px;">
+    <div class="kicker gold">The Long Read · No. 13</div>
+    <h1 class="hed">The Said and the Done</h1>
+    <div class="dek">This week the world was fluent in announcement and halting in execution — a ceasefire not signed, a chip cleared but not shipped, a ban passed and instantly routed around. Benjamin Franklin had a phrase for the gap. So did 1928, 1920 and 1787.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">In the 1737 <i>Poor Richard's Almanack</i>, Benjamin Franklin set down four words that have outlived almost everything else he printed that year: <i>well done is better than well said.</i> It reads like a proverb because it is one, but it is also a ranking — a quiet insistence that speech and act are not equals, and that when they part ways, the act is the thing to watch. Read this week's desks against that maxim and a single seam runs through all twelve of them: the world has rarely been more articulate, or less finished.</p>
+
+    <p class="body">Start with the headline that moved the oil price. A sixty-day understanding to keep the Strait of Hormuz open has been talked about, briefed, and priced in — and, as of this writing, not signed.<sup class="fnref">1</sup> The American president says a deal is reachable "over the next week" and needs only "a few more points." Across the same fortnight, Russia let it be known that it now <i>accepts</i> the idea of EU-mediated talks it had previously waved away. Two announcements; two declarations of intent; two futures that exist, for now, only as sentences.</p>
+
+    <p class="body">The trouble with a sentence about peace is that it is almost free to issue and ruinously expensive to honour. History keeps a long ledger of that asymmetry, and its most eloquent entry is dated 1928.</p>
+
+    <div class="pull">The world has rarely been more articulate, or less finished.</div>
+
+    <p class="body">On 27 August that year, in Paris, the great powers signed the Kellogg–Briand Pact and solemnly <i>renounced war as an instrument of national policy.</i> Eventually some sixty-two nations put their names to it; the American Secretary of State who drafted it collected a Nobel Peace Prize the following year.<sup class="fnref">2</sup> It was, on paper, the most complete victory diplomacy has ever recorded: war, abolished by signature. It contained no mechanism whatsoever to enforce that promise.<sup class="fnref">3</sup> Within four years Japan was in Manchuria; within eleven, the signatories were at each other's throats in the largest war in human history. The pact was not a lie, exactly. It was something more modern and more useful to understand: a <i>well said</i> that was never <i>well done</i>, and that everyone agreed to treat as if the saying were the doing.</p>
+
+    <p class="body">That is the first of three old machines worth running this week's news through. Each one shows the same fault from a different angle — and the third, fittingly for an issue about the gap between claim and fact, turns out to be partly a fiction itself.</p>
+  </div>
+
+  <div class="figframe" style="margin-top:8px;">
+    <svg viewBox="0 0 520 92" width="100%" height="92" xmlns="http://www.w3.org/2000/svg">
+      <text x="10" y="18" font-family="Poppins,sans-serif" font-size="8" letter-spacing="1.5" fill="#7a7264">SAID — the announced line</text>
+      <path d="M12 34 H508" fill="none" stroke="#c1462e" stroke-width="2" stroke-dasharray="7 6"/>
+      <text x="10" y="64" font-family="Poppins,sans-serif" font-size="8" letter-spacing="1.5" fill="#7a7264">DONE — the executed line</text>
+      <path d="M12 80 H300" fill="none" stroke="#2b6b66" stroke-width="2.4"/>
+      <circle cx="300" cy="80" r="3" fill="#2b6b66"/>
+      <path d="M300 80 H508" fill="none" stroke="#b08738" stroke-width="1" stroke-dasharray="2 5" opacity="0.7"/>
+      <text x="312" y="76" font-family="Poppins,sans-serif" font-size="7" fill="#b08738">— still pending —</text>
+    </svg>
+    <div class="imgcap">A Meridian original. The declaration reaches the horizon at the speed of a press release; the deed advances at the speed of the world. The space between is where every story on these pages currently lives.</div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. CNBC; Reuters, 2–4 Jun 2026. &nbsp;2. Britannica; Teaching American History (Kellogg–Briand Pact). &nbsp;3. Britannica; League of Nations historiography.</div>
+    <div class="fnbar"><span>Meridian · The Essay</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 22 · THE LONG READ (continued) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Essay</span><span>The Long Read · continued</span></div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:10px;">
+    <p class="body">The second machine is American and runs on gin. In January 1920 the United States did something Kellogg–Briand only gestured at: it gave its grand renunciation real teeth. The Eighteenth Amendment and the Volstead Act that enforced it did not merely <i>say</i> the nation should be dry; they made the manufacture and sale of liquor a federal crime. The saying, this time, came fully armed. And the doing went spectacularly the other way. A decree that intended to end drinking instead manufactured the speakeasy, the bootlegger and the modern organised-crime syndicate, and was repealed in disgrace thirteen years later.<sup class="fnref">1</sup> The lesson is not that bans never work; it is that a prohibition with no purchase on people's actual behaviour does not erase the behaviour — it <i>relocates</i> it, into the dark, and hands the franchise to whoever is least scrupulous.</p>
+
+    <p class="body">The Family Desk filed this exact story this week wearing 2026 clothes. A wave of laws — Australia's under-16 social-media ban, Britain's age checks, the American KOSA push — declares that children shall not reach the feed. Within weeks of the checks going live, traffic to the circumvention tools that defeat them reportedly jumped on the order of fifteen-fold, and users migrated toward the <i>less</i>-moderated corners of the internet, not the safer ones.<sup class="fnref">2</sup> The decree said; the household did otherwise. As Meridian's parenting researchers keep finding, what actually moves a tween's screen habits is the dull, unlegislatable work of parental routine — the deed done at the kitchen table, not the one announced in the statute book.</p>
+
+    <div class="pull">A prohibition with no purchase on behaviour does not erase it — it relocates it into the dark.</div>
+
+    <p class="body">The same Volstead logic was visible on the Technology desk, in a register no senator intended. Washington <i>cleared</i> a tranche of H200 accelerators for sale to Chinese firms — a permission loudly granted — even as the actual silicon went all but undelivered and Beijing quietly steered its champions toward domestic parts.<sup class="fnref">3</sup> A green light is a sentence; a shipped, installed, training cluster is a deed. This week the sentence and the deed pointed in opposite directions, and only the deed will show up in next year's models.</p>
+
+    <p class="body">Which brings us to the third machine, the oldest and the most apt — because to invoke it is already to half-repeat a rumour. In 1787, so the story goes, Catherine the Great sailed down the Dnieper to inspect her new southern lands, and her minister Grigory Potemkin lined the banks with painted facades and rented peasants: a prosperity entirely <i>said</i> and not at all <i>done.</i> "Potemkin village" has meant exactly that ever since. The twist worthy of this issue is that modern historians regard the portable-village tale as itself largely invented — a slander spread by rivals, a fake about fakery.<sup class="fnref">4</sup> The most famous symbol of the gap between claim and reality may have no reality behind <i>its</i> claim either.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Britannica (Volstead Act; Prohibition, 1920–33). &nbsp;2. Meridian Family Desk, this issue; age-verification reporting, 2026. &nbsp;3. Meridian Technology desk, this issue. &nbsp;4. Wikipedia; Russia Beyond; Britannica (Potemkin village).</div>
+    <div class="fnbar"><span>Meridian · The Essay</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 23 · THE LONG READ (continued) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Essay</span><span>The Long Read · continued</span></div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:10px;">
+    <p class="body">Vaporware is the digital Potemkin village, and the Technology desk waded through a whole boulevard of it: a frontier model announced here, a record benchmark claimed there, each launch louder than the last. The desk's own verdict was the Franklinian one — that a release date now matters less than an <i>adoption</i> date, that the question is no longer what was announced but what people actually picked up and ran.<sup class="fnref">1</sup> The facade is free to erect. Only the deed of use has weight.</p>
+
+    <p class="body">If the essay stopped there it would be a tidy sermon against talk, and it shouldn't, because the most interesting stories this week run the maxim the <i>other</i> way — deeds quietly outpacing the words meant to describe them. Consider the inversion.</p>
+
+    <p class="body">While diplomats discussed an unsigned ceasefire, Ukraine spent the fortnight <i>doing</i>: a drone on the port of Putin's own hometown as his showcase forum opened, a refinery taken offline, oil terminals struck along the Black Sea coast.<sup class="fnref">2</sup> Not a word of peace — and yet the only real leverage on the table was manufactured by those acts, not by any communiqué. The deed wrote the negotiating position the sentences are still trying to catch.</p>
+
+    <div class="pull">The facade is free to erect. Only the deed of use has weight.</div>
+
+    <p class="body">Or look at the Home Lab. For two years the running joke was that "local, frontier-class AI" was the purest vaporware of all — endlessly <i>said.</i> This week it was simply <i>done</i>: open-weight models that genuinely rival the closed frontier, running on a single desk-side box that never phones home.<sup class="fnref">3</sup> No keynote announced it into being; it arrived as a fact you could plug in. The Connected Home desk told the same quiet story — the smart home finally executing locally, on the wall, rather than promising to in the cloud.</p>
+
+    <p class="body">And then the homecomings, which are deeds in their gentlest form. An interstellar visitor, 3I/ATLAS, gave up the first infrared fingerprint of its chemistry as it turned for home.<sup class="fnref">4</sup> A stadium across town prepared for a band's literal homecoming. Half the desks, in their "still on the shelf" strips, performed the most honest act a magazine can: declining to re-announce what they had already announced, letting last issue's saying stand and reporting only what had since been <i>done.</i></p>
+
+    <p class="body">That is the whole argument, and Franklin had it in four words. The gap between the said and the done is not always hypocrisy; sometimes it is just the lag between a press release and reality, and reality is the slower, truer signal. So when next week's declarations arrive — the deals reachable "over the next week," the bans that will surely work this time, the model that will change everything — the Meridian instinct is the almanack's instinct. Watch the hands, not the mouth. Read the deeds. <i>Well done is better than well said.</i></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Meridian Technology desk, this issue. &nbsp;2. Washington Post; Al Jazeera, 3 Jun 2026. &nbsp;3. Meridian Home Lab desk, this issue. &nbsp;4. Meridian Curiosities desk, this issue (JWST observations of 3I/ATLAS).</div>
+    <div class="fnbar"><span>Meridian · The Essay</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 24 · BACK COVER ============ -->
+<section class="page dark">
+  <div class="bc-wrap">
+    <div class="bc-mast">MERIDIAN</div>
+    <div class="bc-rule"></div>
+
+    <div class="lastword">
+      <div class="h">The Last Word</div>
+      <p>This issue went to press with an unsigned ceasefire, a chip cleared but not shipped, and a ban already routed around — and with a band coming home, a comet exhaling its chemistry, and an open model quietly running on someone's desk. The week's loudest news was all in the future tense. Its truest news was already done.</p>
+      <p>Benjamin Franklin's almanack put it in four words in 1737, and they still sort the noise from the signal: <i>well done is better than well said.</i> When the declarations pile up next week — and they will — read the deeds.</p>
+    </div>
+
+    <div class="bc-sources">
+      <p><b>THE WORLD</b> — CNBC; Reuters; Tasnim; Al Jazeera; Washington Post; Euronews; CBS News; ColombiaOne; AS/COA, 31 May–4 Jun 2026.</p>
+      <p><b>SINGAPORE</b> — CNA/Mothership; The Independent SG; The Online Citizen; SP Group; EMA, 31 Mar–2 Jun 2026.</p>
+      <p><b>PROPERTY</b> — MAS/SORA prints; Straits Times; HDB (June BTO); broker rate sheets, May–Jun 2026. Not financial advice.</p>
+      <p><b>TECHNOLOGY</b> — Reuters; Bloomberg; Forrester commentary; model-maker release notes (DeepSeek, Qwen, Kimi, Anthropic), Jun 2026.</p>
+      <p><b>THE HOME LAB</b> — Apple; NVIDIA (DGX Spark / Station); vendor specs; r/LocalLLaMA, Jun 2026.</p>
+      <p><b>THE KIT</b> — Fujifilm (FUJIKINA); Leica; Sony; Sennheiser; PetaPixel; The Verge, May–Jun 2026.</p>
+      <p><b>THE CONNECTED HOME</b> — Home Assistant 2026.6 release notes; Nabu Casa; UniFi, Jun 2026.</p>
+      <p><b>THE GOOD LIFE</b> — Sotheby's; Christie's (lot notes); Hermès; Hi-Fi press, Jun 2026. Not investment advice.</p>
+      <p><b>SCREEN &amp; SOUND</b> — label/studio announcements; Women's Prize for Fiction; New Music Friday, Jun 2026.</p>
+      <p><b>THE FAMILY DESK</b> — NPR; peer-reviewed screen-time research; eSafety/Ofcom; age-verification reporting, 2026. General guidance.</p>
+      <p><b>THE WHISPER DESK</b> — entertainment press, reported/rumoured; flagged unconfirmed throughout.</p>
+      <p><b>CURIOSITIES</b> — JWST observations of 3I/ATLAS; NASA sky notes; exoplanet research, Jun 2026.</p>
+      <p><b>LOVE &amp; LIFE</b> — Social Psychological &amp; Personality Science (Folk &amp; Dunn, 2026); Psychology Today, 2026.</p>
+      <p><b>FITNESS</b> — J. Cachexia, Sarcopenia &amp; Muscle (Stanfield et al., 2026); CU Anschutz. General guidance, not medical advice.</p>
+      <p><b>THE DIARY</b> — official venue / festival / teamLab listings; GO TOKYO; JapanCheapo. Confirm dates before booking.</p>
+      <p><b>THE LONG READ</b> — Britannica; Teaching American History; Wikipedia; Russia Beyond (Kellogg–Briand; Volstead/Prohibition; Potemkin village).</p>
+    </div>
+
+    <div class="bc-colophon">
+      MERIDIAN · No. 13 · Singapore · Saturday 6 June 2026. A bespoke briefing across twelve desks and one long read. All artwork in the print edition is original Meridian SVG; the Photo Edition uses verified, sourced photographs. Geopolitics kept evenhanded; gossip flagged as unconfirmed; family and fitness items are general guidance, not medical or legal advice. Where a fact could not be verified, it was left out rather than invented.
+      <div class="bc-tag">Twelve Desks · One World</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
