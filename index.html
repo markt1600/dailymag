@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+
+/* ---- PHOTO EDITION flow overrides ---- */
+.page{height:auto;min-height:297mm;overflow:visible;}
+.pgfoot{position:static;margin-top:9mm;}
+.ph-hero{margin:2px 0 9px;}
+.ph-frame{aspect-ratio:16/8;width:100%;overflow:hidden;border:.6pt solid var(--line);border-radius:2px;background:#e8dccb;}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+
+</style>
+<title>MERIDIAN — No. 17 · Photo Edition</title>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 — COVER ===================== -->
+<section class="page dark">
+  <div class="topbar">
+    <span></span>
+    <span>No. 17 · Singapore</span>
+  </div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+  </div>
+
+  <!-- Cover hero: wireframe globe, signals borrowed from an outside node -->
+  <div style="position:absolute;top:78mm;left:0;right:0;display:flex;justify-content:center;">
+    <svg viewBox="0 0 520 360" width="150mm" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Meridian cover artwork">
+      <defs>
+        <radialGradient id="gcore" cx="42%" cy="42%" r="60%">
+          <stop offset="0%" stop-color="#c1462e" stop-opacity="0.9"/>
+          <stop offset="60%" stop-color="#9c3422" stop-opacity="0.25"/>
+          <stop offset="100%" stop-color="#9c3422" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <!-- outer node (the borrowed source) -->
+      <circle cx="470" cy="64" r="20" fill="none" stroke="#b08738" stroke-width="1.4"/>
+      <circle cx="470" cy="64" r="6" fill="#b08738"/>
+      <text x="470" y="103" fill="#b08738" font-family="Poppins,sans-serif" font-size="9" font-weight="700" letter-spacing="2" text-anchor="middle">SOURCE</text>
+      <!-- globe -->
+      <g transform="translate(190,190)">
+        <circle r="150" fill="none" stroke="#e8dccb" stroke-width="1.1" opacity="0.55"/>
+        <circle r="150" fill="url(#gcore)"/>
+        <!-- latitudes -->
+        <ellipse rx="150" ry="46" fill="none" stroke="#e8dccb" stroke-width="0.8" opacity="0.5"/>
+        <ellipse rx="150" ry="96" fill="none" stroke="#e8dccb" stroke-width="0.8" opacity="0.45"/>
+        <ellipse rx="138" ry="138" fill="none" stroke="#e8dccb" stroke-width="0.6" opacity="0.3"/>
+        <!-- longitudes -->
+        <ellipse rx="46" ry="150" fill="none" stroke="#e8dccb" stroke-width="0.8" opacity="0.5"/>
+        <ellipse rx="96" ry="150" fill="none" stroke="#e8dccb" stroke-width="0.8" opacity="0.45"/>
+        <line x1="0" y1="-150" x2="0" y2="150" stroke="#e8dccb" stroke-width="0.6" opacity="0.3"/>
+        <line x1="-150" y1="0" x2="150" y2="0" stroke="#e8dccb" stroke-width="0.6" opacity="0.3"/>
+        <!-- nodes -->
+        <circle cx="-58" cy="-40" r="3.4" fill="#c1462e"/>
+        <circle cx="44" cy="-78" r="3" fill="#b08738"/>
+        <circle cx="86" cy="26" r="3.4" fill="#c1462e"/>
+        <circle cx="-30" cy="70" r="3" fill="#2b6b66"/>
+        <circle cx="20" cy="118" r="2.6" fill="#b08738"/>
+        <circle cx="-104" cy="14" r="2.6" fill="#e8dccb"/>
+      </g>
+      <!-- arcs borrowing inward from the source node to the globe -->
+      <path d="M452,72 Q330,120 234,164" fill="none" stroke="#b08738" stroke-width="1.3" opacity="0.85"/>
+      <path d="M456,78 Q360,180 276,216" fill="none" stroke="#c1462e" stroke-width="1.1" opacity="0.7" stroke-dasharray="3 4"/>
+      <path d="M450,84 Q300,220 190,250" fill="none" stroke="#e8dccb" stroke-width="0.9" opacity="0.5" stroke-dasharray="2 5"/>
+    </svg>
+  </div>
+
+  <div class="cover-teasers">
+    <div class="hairline"></div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:#b08738;">Technology</div>
+        <div class="ht">Cook's last act: Apple rents its mind from Google</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:#c1462e;">The World</div>
+        <div class="ht">Tehran and Tel Aviv trade fire; oil lurches, then exhales</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:#2b6b66;">Curiosities</div>
+        <div class="ht">A pebble from Africa, and a planet that never was</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Tuesday · 9 June 2026</span>
+    <span>The Weekday Briefing</span>
+  </div>
+</section>
+
+<!-- ===================== PAGE 2 — CONTENTS + FROM THE DESK ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Contents</span><span>The Weekday Briefing</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="grid g-21" style="margin-top:8mm;">
+    <!-- left: contents -->
+    <div>
+      <div class="kicker">In this edition</div>
+      <h1 class="hed" style="font-size:21pt;margin-bottom:8px;">The Rented Mind</h1>
+      <p class="body" style="margin-bottom:10px;">A week in which the world's most self-reliant company stood on a stage and admitted it now thinks with someone else's brain — and in which a peace kept being described by everyone except the two parties who must sign it.</p>
+
+      <div class="cols2" style="column-gap:7mm;">
+        <p class="body tight" style="margin-bottom:5px;"><b>03 · The World</b><br>Israel and Iran trade fire; oil lurches and exhales.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>05 · Singapore</b><br>A rival tells the Workers' Party how to vote.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>06 · Property</b><br>The SORA curve flips; the refinancing window narrows.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>07 · Technology</b><br>Apple rents its mind; the home lab pays the memory tax.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>09 · The Kit</b><br>Why the gear you want quietly got dearer.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>10 · The Connected Home</b><br>homeOS arrives — but should you wait for it?</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>11 · The Good Life</b><br>Japan, still the great bargain, at &yen;160.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>12 · Screen &amp; Sound</b><br>Rodrigo's third lands Friday.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>13 · The Family Desk</b><br>The phone makes the child account mandatory.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>15 · The Whisper Desk</b><br>Rings, rumours and one racing driver.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>16 · Curiosities</b><br>A pebble that remembers a lost planet.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>17 · Love &amp; Life</b><br>The outsourced heart.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>18 · Fitness</b><br>The muscle you cannot buy in a pen.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>19 · The Diary</b><br>Dragon boats, fireworks &amp; a rooftop table.</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>21 · The Long Read</b><br>"The Rented Mind."</p>
+        <p class="body tight" style="margin-bottom:5px;"><b>24 · The Last Word</b><br>A coda.</p>
+      </div>
+    </div>
+
+    <!-- right: from the desk + market strip -->
+    <div>
+      <div class="desk" style="border-top-color:var(--vermilion);">
+        <div class="flag"><span>From the Desk</span><span class="geo">No. 17</span></div>
+        <p class="pull" style="font-size:13.5pt;border-top:none;border-bottom:none;padding:2px 0;margin:6px 0;">"Insist on yourself; never imitate."</p>
+        <p class="body tight" style="margin-bottom:4px;">— Ralph Waldo Emerson, <i>Self-Reliance</i> (1841)</p>
+        <p class="body tight">Emerson wrote his great sermon against borrowed selfhood for individuals. This week it reads like a memo to a trillion-dollar company. Apple — the firm that makes its own chips, its own glass, its own operating systems — unveiled a Siri that thinks with a Google model it rents for a reported billion dollars a year. The thread runs through the whole book: a home that listens with someone else's intelligence, a heart that confides in a chatbot, a body that hopes a pen will do the work of a barbell, and a peace every capital can describe but neither party will sign.</p>
+      </div>
+
+      <div class="agenda-h gold" style="margin-top:8px;"><span>The Tape</span><span class="sub">9 Jun 2026</span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;font-family:'Poppins',sans-serif;">
+        <div class="stat" style="text-align:left;padding:2px 0;"><span class="n" style="font-size:16pt;">$94.25</span><div class="c" style="text-align:left;">Brent · close 8 Jun</div></div>
+        <div class="stat" style="text-align:left;padding:2px 0;"><span class="n" style="font-size:16pt;">$91.30</span><div class="c" style="text-align:left;">WTI · close 8 Jun</div></div>
+        <div class="stat" style="text-align:left;padding:2px 0;"><span class="n" style="font-size:16pt;">4,963</span><div class="c" style="text-align:left;">STI · −0.35%</div></div>
+        <div class="stat" style="text-align:left;padding:2px 0;"><span class="n" style="font-size:16pt;">&yen;160</span><div class="c" style="text-align:left;">USD/JPY · ~30-yr low</div></div>
+        <div class="stat" style="text-align:left;padding:2px 0;"><span class="n" style="font-size:16pt;">1.07%</span><div class="c" style="text-align:left;">3M SORA · 1M at 1.16%</div></div>
+        <div class="stat" style="text-align:left;padding:2px 0;"><span class="n" style="font-size:16pt;">~6%</span><div class="c" style="text-align:left;">Hormuz deal by 15 Jun*</div></div>
+      </div>
+      <p class="fn" style="margin-top:6px;">*Polymarket implied odds, 7 Jun. Markets move; figures are indicative snapshots, not advice.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;CNBC; Reuters; Trading Economics; bbntimes (STI). Quote: R.W. Emerson, <i>Self-Reliance</i> (1841).</div>
+    <div class="fnbar"><span>Contents</span><span>Page 2</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 3 — THE WORLD (lead) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rule v" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="ph-hero">
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/POLAR%20ADVENTURE%2C%20Crude%20Oil%20Tanker.jpg?width=1600" alt="A crude-oil tanker under way (representative)"></div>
+  <div class="imgcap">A crude-oil tanker under way — <b>representative, not a vessel in the Strait of Hormuz</b>. Source: Wikimedia Commons — "File:POLAR ADVENTURE, Crude Oil Tanker.jpg" · CC BY-SA 4.0 · Steven Pavlov. Subject verified from the Commons file page.</div>
+</div>
+  <div class="kicker">Iran · Israel · Lebanon</div>
+    <h1 class="hed">Described in every capital — and now, briefly, at war again</h1>
+    <p class="dek">For the first time since the April ceasefire, Tehran and Tel Aviv fired on each other. By the close, both said they'd stopped. Oil spiked past US$98, then breathed out to US$94.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">The unsigned thing finally moved — in the wrong direction. Late on the weekend, Israel's renewed offensive against Hezbollah in Lebanon drew a direct Iranian missile reply, the first time the two states had struck each other since the 8 April ceasefire that ended five weeks of open war.<sup class="fnref">1</sup> By Monday afternoon Iran's foreign ministry told reporters it had "ended" its operations against Israel; Prime Minister Netanyahu said his country had halted strikes "for now" but that the fight against Iran and Hezbollah was "not over."<sup class="fnref">2</sup></p>
+
+      <p class="body">The market read it the way markets read chokepoints. Brent crude jumped almost 5% intraday, crossing US$98 a barrel, before easing back to settle at US$94.25; West Texas Intermediate closed near US$91.30.<sup class="fnref">3</sup> That is still some 31% above the level on the eve of the conflict a hundred days ago — but the whipsaw told the real story: the 60-day memorandum that would reopen the Strait of Hormuz, demine it within 30 days and bar Iranian tolls remains, as it has for a fortnight, described in every capital and signed in none.<sup class="fnref">4</sup></p>
+
+      <p class="body">President Trump insisted the framework was still reachable — he needed, he said, "a few more points" — and urged both sides to hold their fire.<sup class="fnref">2</sup> The prediction markets were less sure: Polymarket's odds of a signed deal by 15 June collapsed from a brief 60%-plus toward single digits.<sup class="fnref">5</sup> Three structural facts now hold the price down despite the noise: China has cut crude imports to a ten-year low and is drawing inventory; OPEC+ nodded through another 188,000 barrel-a-day quota rise for July; and the strait, though throttled, has kept trickling.<sup class="fnref">3</sup></p>
+
+      <div class="pull">The chokepoint didn't close. The conversation about it did.</div>
+
+      <p class="body">Analysts split on what comes next. J.P. Morgan's base case — a June reopening — keeps Brent near US$100 for the rest of 2026, with a longer closure adding US$5–15 by the fourth quarter. Fitch takes the other side: a late-July reopening would send Brent toward US$70 from September, on the view that this is a logistics shock, not lost capacity.<sup class="fnref">3</sup></p>
+    </div>
+
+    <!-- right rail: viewpoints + stats -->
+    <div>
+      <div class="stat" style="border:.6pt solid var(--line);border-radius:2px;padding:7px 4px;background:#fbf8f1;">
+        <span class="n">+31%</span><div class="c">Brent vs. eve of conflict (100 days)</div>
+      </div>
+
+      <div class="desk" style="margin-top:7px;">
+        <div class="flag"><span>Tehran</span><span class="geo">State media</span></div>
+        <p>Israel "violated" the ceasefire in Lebanon first; the reply was lawful deterrence. US bases in the region, officials repeated, are "no longer safe" should the war widen.</p>
+      </div>
+      <div class="desk" style="border-top-color:var(--vermilion);">
+        <div class="flag"><span>Washington</span><span class="geo">The White House</span></div>
+        <p>A deal is "reachable" with "a few more points." Restraint urged on both sides; talks framed as live, the strait reopening as imminent — and time-limited.</p>
+      </div>
+      <div class="desk" style="border-top-color:var(--gold);">
+        <div class="flag"><span>Beijing</span><span class="geo">via the tape</span></div>
+        <p>No grand statement — just behaviour. A ten-year low in crude imports is doing more to cap the oil price than any communiqué, and quietly raises Beijing's leverage over the terms.</p>
+      </div>
+      <div class="desk" style="border-top-color:var(--teal);">
+        <div class="flag"><span>Islamabad</span><span class="geo">Mediator</span></div>
+        <p>The broker, not a belligerent, still owns the paper. Pakistan keeps shuttling drafts neither principal will yet sign — diplomacy outsourced to a third party.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- oil whipsaw sparkline -->
+  <div class="figframe" style="margin-top:6px;">
+    <svg viewBox="0 0 700 70" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Brent crude, last sessions">
+      <line x1="40" y1="56" x2="680" y2="56" stroke="#d8cfbd" stroke-width="1"/>
+      <line x1="40" y1="14" x2="40" y2="56" stroke="#d8cfbd" stroke-width="1"/>
+      <text x="8" y="18" font-family="Poppins,sans-serif" font-size="9" fill="#7a7264">$100</text>
+      <text x="14" y="60" font-family="Poppins,sans-serif" font-size="9" fill="#7a7264">$90</text>
+      <!-- path: dip then spike then settle -->
+      <polyline points="40,44 140,47 240,48 340,30 440,19 520,34 620,38 680,37" fill="none" stroke="#c1462e" stroke-width="2.2"/>
+      <circle cx="440" cy="19" r="3.5" fill="#c1462e"/>
+      <text x="448" y="16" font-family="Poppins,sans-serif" font-size="8.5" fill="#9c3422" font-weight="700">$98 intraday, 8 Jun</text>
+      <circle cx="680" cy="37" r="3.5" fill="#191613"/>
+      <text x="560" y="50" font-family="Poppins,sans-serif" font-size="8.5" fill="#403a32">close $94.25</text>
+    </svg>
+    <div class="imgcap">Brent crude, recent sessions (schematic). Source: CNBC / Trading Economics. <i>Meridian</i> figure.</div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Britannica, "2026 Iran war" (8 Jun). 2. CNBC, "Oil prices ease after Iran says operations over" (8 Jun). 3. CNBC, "China cushions oil below $100" (8 Jun); Reuters; Trading Economics. 4. PBS NewsHour (28 May). 5. Polymarket, US&times;Iran peace market (7 Jun).</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 4 — THE WORLD (around the desks) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The World</span><span>Around the Desks</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div>
+      <div class="kicker slate">Colombia · 21 June runoff</div>
+      <h2 class="hed sm">A polarised country picks between two opposites</h2>
+      <p class="body">The first-round numbers held: far-right lawyer Abelardo de la Espriella took 43.7% on 31 May, leftist senator Iván Cepeda 40.9%, sending the two to a 21 June runoff for the right to succeed Gustavo Petro, who cannot stand again.<sup class="fnref">1</sup> The first head-to-head poll gave de la Espriella a narrow 49–47 edge, and prediction markets have him a heavy favourite at around 83% as he consolidates the centre-right.<sup class="fnref">2</sup></p>
+      <p class="body">The arithmetic is the suspense. Third-placed Paloma Valencia (6.9%) endorsed de la Espriella; her running mate, the centrist technocrat Juan Daniel Oviedo, pointedly did not — leaving roughly a million votes in play. De la Espriella models himself on Bukele and Trump and promises a hard line on crime; Cepeda offers continuity with Petro's reforms and negotiation with armed groups.<sup class="fnref">1</sup></p>
+
+      <div class="chatter slate">
+        <div class="lbl">The contrarian read</div>
+        <p>Polls under-counted de la Espriella once already. But runoffs compress; turnout among the third of the country that backed neither finalist will decide it, and an 83% market is pricing in a consolidation that hasn't actually voted yet.</p>
+        <p class="src">— composite of regional analysts</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="kicker">Ukraine · the long-range war</div>
+      <h2 class="hed sm">The drones keep finding the refineries</h2>
+      <p class="body">While the Middle East absorbed the headlines, Ukraine pressed the one advantage it has scaled this year — reach. Long-range strikes again targeted Russian energy infrastructure, with a refinery at Volgograd reported offline and a drone audaciously reaching toward St Petersburg, where President Putin had been hosting an economic forum.<sup class="fnref">3</sup> The pattern is now the strategy: not territory, but the cost of pumping and refining oil — the same barrel the rest of the world is watching.</p>
+
+      <div class="stat" style="border:.6pt solid var(--line);border-radius:2px;padding:6px 4px;background:#fbf8f1;margin-top:6px;">
+        <span class="n">188k</span><div class="c">b/d — OPEC+ July quota rise</div>
+      </div>
+
+      <p class="body" style="margin-top:7px;">Add it up and the global oil map is being drawn by everyone except the producers: Chinese buyers withholding demand, OPEC+ adding barrels into a war, Ukrainian drones subtracting them, and a Gulf strait that neither closes nor fully opens. Price discovery has been outsourced to geopolitics.</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="kicker gold">Also on the wire</div>
+  <div class="cols3" style="margin-top:5px;">
+    <p class="body tight"><b>FIFA World Cup opens.</b> The expanded 48-team tournament across the US, Canada and Mexico kicks off this week — for Singapore, a festival of late kick-offs and very early mornings.</p>
+    <p class="body tight"><b>The yen at &yen;160.</b> The dollar sits near a three-decade high against the yen; Tokyo spent an estimated US$73bn in late spring defending it — its first intervention since 2024 (see The Good Life).</p>
+    <p class="body tight"><b>The memory shock travels.</b> The AI-driven DRAM squeeze (see Technology) is now a macro line item, lifting the cost of everything with a chip in it — from phones to cars.</p>
+  </div>
+
+  <div class="pull" style="margin-top:6px;">Four hands on the oil price, and none of them belongs to a driller.</div>
+
+  <p class="body" style="margin-top:4px;">The connective tissue of the week's foreign news is a kind of delegated authority: the things that matter most — a ceasefire, a barrel of crude, an election's swing votes — keep being decided by parties standing one step removed from the act. It is the macro version of a theme running through this whole issue, and one Emerson would have recognised: the steady drift from doing a thing yourself to having it described, brokered, hedged or rented on your behalf.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. AS/COA Poll Tracker; CBS News; Al Jazeera (2 Jun). 2. Colombia One (3 Jun); Polymarket. 3. Polymarket market notes; wire reports (early Jun).</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 5 — SINGAPORE ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rule v" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="ph-hero">
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Singapore, Marina Bay at dusk"></div>
+  <div class="imgcap">Singapore — Marina Bay at dusk. Source: Wikimedia Commons — "File:Singapore Marina Bay Dusk 2018-02-27.jpg" · CC BY-SA 4.0 · Benh Lieu Song. Subject verified from the Commons file page.</div>
+</div>
+  <div class="kicker">Opposition politics</div>
+    <h1 class="hed">A rival party tells the Workers' Party how to vote</h1>
+    <p class="dek">With Pritam Singh's leadership heading to a 28 June secret ballot, the loudest new voice this week came from outside the party entirely — and was promptly told to mind its own business.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">The mechanics are now fixed. On 28 June the Workers' Party convenes a special cadres conference, requisitioned by 25 cadre members and chaired by MP Gerald Giam, with a three-part agenda: Singh must first account to cadres for his conviction for lying to Parliament's Committee of Privileges; cadres then call on him to step down as secretary-general; and if he declines, a secret ballot decides whether he stays.<sup class="fnref">1</sup> The conference sits the same day as the party's scheduled CEC elections, so the leadership question and the leadership itself will be settled in a single afternoon.</p>
+
+      <p class="body">The fresh peg is who weighed in. People's Power Party chief Goh Meng Seng published a long open letter urging WP cadres to remove Singh, repeatedly branding him a "convicted liar" and arguing that the only question that matters is whether the WP can present the integrity a ruling-party-in-waiting needs.<sup class="fnref">2</sup> The pushback was immediate and largely against Goh: a rival party leader instructing WP members how to run their own house struck many supporters as both presumptuous and politically convenient. It is a small drama with a large subtext — who gets to define another party's standards.</p>
+
+      <p class="body">Two procedural facts sit behind the noise. The CEC, when it accepted its disciplinary panel's findings, also recorded that Singh had no intention to act against the party's interests and that his choices were "judgement calls." And separately, the Law Society has referred the matter to the Court of Three Judges, the apex disciplinary tribunal for lawyers — a track that runs regardless of how the cadres vote.<sup class="fnref">1</sup></p>
+
+      <div class="pull">The ballot is secret. The pressure on it is anything but.</div>
+    </div>
+
+    <div>
+      <div class="chatter">
+        <div class="lbl">The forums</div>
+        <p>"A secret ballot exists precisely so cadres can ignore the megaphones." A common line on local boards: external attacks may harden internal loyalty rather than dent it.</p>
+        <p class="src">— r/singapore, composite</p>
+      </div>
+      <div class="chatter slate">
+        <div class="lbl">The sceptic</div>
+        <p>The counter-view: integrity questions are legitimate whoever raises them, and a party that wants to govern should welcome the scrutiny rather than rally around the man.</p>
+        <p class="src">— letters &amp; op-ed composite</p>
+      </div>
+
+      <div class="agenda-h" style="margin-top:8px;"><span>The relief calendar</span><span class="sub">delta</span></div>
+      <p class="body tight">The household-support sequence advances on schedule against the energy squeeze: <b>June</b> S$500 CDC vouchers; <b>July</b> U-Save and S&amp;CC rebates; <b>August</b> GST Voucher; <b>September</b> cost-of-living support — with the July electricity tariff (29.72¢/kWh) still set to climb as it catches up to spring gas prices.<sup class="fnref">3</sup></p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="cols3">
+    <p class="body tight"><b>The economy, in brief.</b> Q1 GDP held at a brisk 6%, flattered by AI-related demand; April headline CPI ran at 1.8%. The oil re-escalation is the swing factor for the months ahead.<sup class="fnref">3</sup></p>
+    <p class="body tight"><b>The market.</b> The STI closed near 4,964 on Monday, off just 0.35% while tech-heavy Asian indices were routed — a bank-heavy benchmark shrugging off the AI-chip repricing. It touched a record 5,150 only last week.<sup class="fnref">4</sup></p>
+    <p class="body tight"><b>The read-through.</b> For a globally diversified saver, the local signal is reassuringly dull: relief cheques smoothing an energy bump, an index near records, and a politics whose drama is procedural, not systemic.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. CNA via Mothership / The Online Citizen / MustShareNews (1–2 Jun). 2. The Online Citizen (6 Jun). 3. EMA / SP Group; prior MTI &amp; MAS data (continuity). 4. bbntimes / SGX (8 Jun).</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 6 — PROPERTY ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rule v" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="ph-hero">
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lavender%20district%20HDB%20flats%20in%20Singapore.JPG?width=1600" alt="HDB public-housing flats, Kallang (representative)"></div>
+  <div class="imgcap">HDB public-housing flats in Kallang — <b>representative, not a specific development</b>. Source: Wikimedia Commons — "File:Lavender district HDB flats in Singapore.JPG" · CC BY-SA 4.0 (author credited on the Commons file page). Subject verified from the Commons file page.</div>
+</div>
+  <div class="kicker gold">Mortgages</div>
+    <h1 class="hed">The curve just flipped — and the refinancing window with it</h1>
+    <p class="dek">For most of 2026 the cheapest money sat at the short end. This month one-month SORA climbed above three-month SORA. For an owner weighing a reprice, the small inversion changes the maths.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">Here is the wrinkle worth a moment this week. In June, one-month compounded SORA sits near 1.16% while three-month SORA is around 1.07% — the short end has risen above the slightly longer one, a mild inversion that quietly rewires which package is cheapest.<sup class="fnref">1</sup> Because three-month SORA smooths ninety days of rates and reprices quarterly, it is now both lower and stickier than the faster one-month peg; lenders have responded by tilting their keenest floating packages to the 3M tenor, with spreads at some banks tightened to about 0.20%.<sup class="fnref">1</sup></p>
+
+      <p class="body">The headline numbers are still extraordinary. Best fixed rates for an HDB purchase or refinance start around 1.30%–1.50% — DBS and HSBC both at 1.50% this month — and the keenest floating all-in rates sit near 1.27%.<sup class="fnref">1</sup> Every one of those is far below the HDB concessionary loan at 2.60%, which is why most HDB buyers are better off on a bank loan and why anyone still parked on a 2024-vintage rate is leaving money on the table.</p>
+
+      <p class="body">The catch is the calendar, not the rate. Forecasters expect three-month SORA to bottom near 1% before drifting back toward roughly 1.4% by year-end as global easing matures.<sup class="fnref">2</sup> If that holds, the cheapest refinancing of this cycle is being priced right now; the owner who waits for "a little lower" may instead meet the turn. Check your lock-in and prepayment penalty first — the saving on a S$800,000 loan from a half-point move runs to a couple of hundred dollars a month.</p>
+
+      <div class="pull">Don't time the bottom. Time your lock-in expiry.</div>
+    </div>
+
+    <div>
+      <!-- SORA crossover figure -->
+      <div class="figframe">
+        <svg viewBox="0 0 300 180" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="1M vs 3M SORA">
+          <line x1="34" y1="20" x2="34" y2="150" stroke="#d8cfbd"/>
+          <line x1="34" y1="150" x2="288" y2="150" stroke="#d8cfbd"/>
+          <text x="6" y="40" font-family="Poppins,sans-serif" font-size="9" fill="#7a7264">1.4</text>
+          <text x="6" y="150" font-family="Poppins,sans-serif" font-size="9" fill="#7a7264">1.0</text>
+          <!-- 3M SORA: declining, ends lower -->
+          <polyline points="40,52 100,70 160,92 220,104 280,108" fill="none" stroke="#c1462e" stroke-width="2.4"/>
+          <!-- 1M SORA: falls then ticks up, crosses above -->
+          <polyline points="40,60 100,80 160,94 220,90 280,84" fill="none" stroke="#2f4858" stroke-width="2.4" stroke-dasharray="4 3"/>
+          <circle cx="280" cy="84" r="3" fill="#2f4858"/><text x="226" y="78" font-family="Poppins,sans-serif" font-size="8.5" fill="#2f4858" font-weight="700">1M 1.16%</text>
+          <circle cx="280" cy="108" r="3" fill="#c1462e"/><text x="226" y="124" font-family="Poppins,sans-serif" font-size="8.5" fill="#9c3422" font-weight="700">3M 1.07%</text>
+          <line x1="34" y1="116" x2="288" y2="116" stroke="#b08738" stroke-width="0.8" stroke-dasharray="2 3"/>
+          <text x="40" y="170" font-family="Poppins,sans-serif" font-size="8" fill="#7a7264">Jan ’26 → Jun ’26 (schematic)</text>
+        </svg>
+        <div class="imgcap">One-month SORA edges above three-month — the small inversion that now favours 3M-pegged packages. Source: PropertyNet.SG / LoanSaver (Jun ’26). <i>Meridian</i> figure.</div>
+      </div>
+
+      <div class="chatter gold" style="margin-top:7px;">
+        <div class="lbl">The broker chatter</div>
+        <p>"2026 is the refinance year — but the easy lay-up is the lock-in lapse, not the rate call." Advisers report owners over-optimising the peg while sitting in a penalty box.</p>
+        <p class="src">— mortgage-broker forums</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="cols3">
+    <p class="body tight"><b>HDB resale.</b> The Resale Price Index logged its first dip since 2019 last quarter (203.4, −0.1% q/q) — cooling, not falling — even as record million-dollar flats kept transacting.<sup class="fnref">3</sup></p>
+    <p class="body tight"><b>Supply.</b> The pipeline of new BTO and resale stock keeps the upgrader's hand strong; low rates plus more flats is an unusually buyer-friendly mix for this market.</p>
+    <p class="body tight"><b>The owner's move.</b> If your fixed term ends in the next six months, get quotes now; if you're mid-lock-in, the cheaper window may not survive the wait.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. PropertyNet.SG (Jun ’26); LoanSaver; MoneySmart. 2. PropertyGuru / Homejourney SORA outlook 2026. 3. HDB RPI Q1 2026 (continuity). General information, not financial advice.</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 7 — TECHNOLOGY (Silicon & Sovereignty) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rule v" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="kicker">WWDC 2026 · the keynote</div>
+    <h1 class="hed">Tim Cook's last act: Apple rents its mind from Google</h1>
+    <p class="dek">The most vertically integrated company on earth — its own chips, glass, operating systems — unveiled a Siri that thinks with a Google model it pays a reported billion dollars a year to use. A refinement year, and a quiet surrender.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">For two decades Apple's whole argument was that it built the entire stack itself. On Monday, in Tim Cook's final keynote before John Ternus takes the chief executive's chair on 1 September, the company conceded the one layer it could not build in time: the mind.<sup class="fnref">1</sup> The rebuilt, AI-powered Siri runs on a custom ~1.2-trillion-parameter Google Gemini model, its heaviest queries routed through Nvidia B200 GPUs inside Google Cloud, under a deal reported at roughly US$1 billion a year.<sup class="fnref">2</sup></p>
+
+      <p class="body">Apple dressed it as a three-tier "Foundation Models" system: a small on-device model for private, instant tasks; an Apple-run cloud model for harder ones; and — for the most demanding — "AFM Cloud Pro," which Apple says is comparable in quality to Google's frontier Gemini and runs on Google's own infrastructure.<sup class="fnref">2</sup> The new Siri is free with a daily allowance, with heavier use billed through iCloud+. It will not ship at launch in the European Union, which the Digital Markets Act complicates, nor in China.<sup class="fnref">1</sup></p>
+
+      <p class="body">Around the rented brain sat the usual refinement year: macOS 27 "Golden Gate" formally ends the Intel era; a no-drops device list keeps the iPhone 11 alive on iOS 27; the Passwords app gains an agent that fixes weak credentials site by site; and a US$250 million settlement closes out last year's Siri-delay suit.<sup class="fnref">1</sup> The stock wobbled during the presentation, then steadied.</p>
+
+      <div class="pull">The model is rented. The routing is owned. The devices are manufactured. That is the new Apple.</div>
+    </div>
+
+    <div>
+      <!-- three-tier routing figure -->
+      <div class="figframe">
+        <svg viewBox="0 0 300 220" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Apple three-tier model routing">
+          <rect x="40" y="14" width="220" height="40" rx="4" fill="#fbf8f1" stroke="#2b6b66" stroke-width="1.2"/>
+          <text x="150" y="32" text-anchor="middle" font-family="Poppins,sans-serif" font-size="10" font-weight="700" fill="#2b6b66">On-device AFM</text>
+          <text x="150" y="46" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8" fill="#7a7264">private · instant · free</text>
+
+          <rect x="40" y="88" width="220" height="40" rx="4" fill="#fbf8f1" stroke="#b08738" stroke-width="1.2"/>
+          <text x="150" y="106" text-anchor="middle" font-family="Poppins,sans-serif" font-size="10" font-weight="700" fill="#b08738">AFM Cloud (Apple)</text>
+          <text x="150" y="120" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8" fill="#7a7264">harder tasks · Apple silicon</text>
+
+          <rect x="40" y="162" width="220" height="44" rx="4" fill="#f3e3df" stroke="#c1462e" stroke-width="1.6"/>
+          <text x="150" y="181" text-anchor="middle" font-family="Poppins,sans-serif" font-size="10" font-weight="700" fill="#9c3422">AFM Cloud Pro</text>
+          <text x="150" y="195" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8" fill="#7a7264">Gemini 1.2T · Nvidia B200 · Google Cloud</text>
+
+          <line x1="150" y1="54" x2="150" y2="88" stroke="#403a32" stroke-width="1.4"/>
+          <line x1="150" y1="128" x2="150" y2="162" stroke="#403a32" stroke-width="1.4"/>
+          <polygon points="150,88 146,82 154,82" fill="#403a32"/>
+          <polygon points="150,162 146,156 154,156" fill="#403a32"/>
+        </svg>
+        <div class="imgcap">The new Siri's routing: owned at the top, rented at the bottom. Source: CNBC; TechTimes; FourWeekMBA reconstruction of the keynote. <i>Meridian</i> figure.</div>
+      </div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The sovereignty sceptic</div>
+        <p>Renting the best model is rational — capital-light, and Apple's privacy routing is real. But the dependency is now structural: the company's flagship feature lives on a rival's silicon, in a rival's cloud, on a renewable contract. Leverage flows to the landlord.</p>
+        <p class="src">— analyst composite</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="body" style="margin-top:6px;">The optimistic reading is that Apple has simply specialised — own the surfaces and the trust layer, rent the raw intelligence, the way every modern firm rents cloud and capital. The Emersonian reading is darker: a company defines itself by what it refuses to outsource, and Apple just outsourced the faculty it spent a decade promising to build. Which it is depends on whether the model stays a tool — or becomes the thing the tools were for.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Engadget; CNBC; TechRadar; Tom's Guide — WWDC 2026 (8 Jun). 2. CNBC ("AFM Cloud Pro on Nvidia GPUs in Google's cloud"); TechTimes; FourWeekMBA (8 Jun); PhoneArena (deal terms).</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 8 — TECHNOLOGY (The Home Lab) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Technology</span><span>The Home Lab</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="kicker teal">Build vs. rent</div>
+    <h1 class="hed sm">The memory tax has come for your rig</h1>
+    <p class="dek">We named the memory supercycle last issue. Here is what it means at the workbench: the box you'd build to run a model at home now costs far more — and the same logic that pushed Apple to rent is leaning on you.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">The number that should stop a home-labber cold is the price of plain DDR5. A 32GB kit that ran about US$95 in mid-2025 has been tracked toward US$550–600 at this cycle's peak — a near-fivefold move — as manufacturers pour wafers into high-bandwidth memory for AI servers and starve the consumer channel.<sup class="fnref">1</sup> Contract DDR5 chip prices quadrupled from roughly US$6.84 in September to US$27.20 in December; Micron has warned it can fill only 55–60% of core demand, and analysts now see the rally extending past 2028.<sup class="fnref">2</sup></p>
+
+      <p class="body">The physics is unforgiving: a bit of HBM consumes about three times the wafer area of a bit of DDR5, so every AI accelerator built quietly subtracts several sticks of ordinary RAM from the world.<sup class="fnref">2</sup> For the self-hoster, that reshapes the build sheet. The unified-memory boxes that made local inference attractive — and the big-RAM workstations behind them — are exactly where the tax bites hardest, because capacity is the whole point.</p>
+
+      <p class="body">Which is the home-lab version of Monday's keynote. Apple looked at the cost and complexity of owning frontier intelligence and chose to rent. You face the smaller mirror of the same sum: spend up now for a rig whose RAM has doubled, or rent cloud inference and accept the dependency. Self-reliance, it turns out, has a spot price — and it is rising.</p>
+
+      <div class="pull">Owning your stack used to be a preference. The memory market is repricing it as a luxury.</div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 300 170" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="DDR5 32GB kit price ramp">
+          <line x1="40" y1="16" x2="40" y2="142" stroke="#d8cfbd"/>
+          <line x1="40" y1="142" x2="290" y2="142" stroke="#d8cfbd"/>
+          <rect x="60" y="128" width="30" height="14" fill="#2f4858"/>
+          <rect x="130" y="92" width="30" height="50" fill="#b08738"/>
+          <rect x="200" y="40" width="30" height="102" fill="#c1462e"/>
+          <text x="75" y="124" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8" fill="#403a32">~$95</text>
+          <text x="145" y="88" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8" fill="#403a32">~$300</text>
+          <text x="215" y="36" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8.5" font-weight="700" fill="#9c3422">~$550+</text>
+          <text x="75" y="156" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7.5" fill="#7a7264">mid-’25</text>
+          <text x="145" y="156" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7.5" fill="#7a7264">Q1 ’26</text>
+          <text x="215" y="156" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7.5" fill="#7a7264">Q2 ’26*</text>
+        </svg>
+        <div class="imgcap">A 32GB DDR5 kit, indicative street price. *Projected peak. Source: Unibetter/Digitimes; Sourceability. <i>Meridian</i> figure.</div>
+      </div>
+
+      <div class="chatter teal" style="margin-top:6px;">
+        <div class="lbl">r/LocalLLaMA, in spirit</div>
+        <p>"Buy your RAM before your GPU now." The community's running joke this quarter: the bottleneck moved from VRAM to the price of plain system memory.</p>
+        <p class="src">— self-hosting forums</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h gold"><span>Still on the shelf</span><span class="sub">no new peg</span></div>
+  <div class="cols3" style="margin-top:5px;">
+    <p class="body tight"><b>Open-weight frontier.</b> The GLM-5.1 / Kimi K2.6 / DeepSeek V4-Pro pack is unchanged since No. 14 — no dethroning this fortnight. Holding pattern; we'll cover the next real version.</p>
+    <p class="body tight"><b>The H200 in China.</b> Delta only: still licensed, still ~undelivered, as Beijing steers buyers toward Huawei Ascend. No new peg.</p>
+    <p class="body tight"><b>The takeaway.</b> If you're mid-build, the model field can wait; the memory market cannot. Lock parts before the next contract reset, not after.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Unibetter (Digitimes Q2 ’26 outlook); Tom's Guide RAM-crisis live. 2. Sourceability; Wccftech; TrendForce; Micron disclosures (continuity from No. 16).</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 9 — THE KIT ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rule v" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="kicker gold">The buying climate</div>
+    <h1 class="hed">Why the gear you want quietly got dearer</h1>
+    <p class="dek">Not a launch this week, a levy. The memory squeeze is now a line on every spec sheet — and it changes what's worth buying now versus parking until the channel loosens.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">If a phone, laptop or handheld on your shortlist crept up in price, you are not imagining it. The same DRAM and NAND reallocation driving the home-lab tax (see Technology) is rippling into finished kit: Counterpoint expects global smartphone shipments to shrink around 2% this year on memory costs, IDC sees PC shipments down roughly 4.9%, and SSD makers — with NAND up a reported 246% since the start of 2025 — say they have no room left to absorb it.<sup class="fnref">1</sup> Makers are choosing between thinner margins, higher prices and quietly smaller base configurations; mostly you pay.</p>
+
+      <p class="body">So the verdict for an optimiser is unusually simple. Anything memory-heavy — a high-RAM laptop, a big-storage handheld, a NAS refresh — is the wrong thing to buy at a cyclical price peak unless you need it today; these are the line items the supercycle inflates most.<sup class="fnref">1</sup> Anything whose value is in glass, sensors or sound — a camera body, a good pair of headphones, a watch — is far less exposed and fine to buy on its own merits.</p>
+
+      <p class="body">The one genuinely new toy from this week is small and welcome: iOS 27 finally brings a proper custom EQ to AirPods, alongside Apple's "Reframe" trick that re-angles the perspective of a flat photo.<sup class="fnref">2</sup> Both are software, both arrive in the autumn betas, and neither costs a wafer.</p>
+
+      <div class="chatter slate">
+        <div class="lbl">The contrarian</div>
+        <p>"A peak is a terrible time to spec up." The optimiser's discipline this cycle is buying the sensor and skipping the silicon — and waiting out the RAM tax on anything you can defer.</p>
+        <p class="src">— enthusiast forums</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="agenda-h"><span>The verdict</span><span class="sub">buy / wait</span></div>
+      <p class="body tight" style="margin-bottom:4px;"><b>Buy on merit:</b> cameras, headphones, watches — sensor- and sound-led, lightly memory-exposed.</p>
+      <p class="body tight" style="margin-bottom:4px;"><b>Wait if you can:</b> high-RAM laptops, big-storage handhelds, NAS/SSD upgrades — peak-priced by the squeeze.</p>
+      <p class="body tight"><b>Free wins:</b> AirPods custom EQ &amp; Reframe land in the autumn iOS 27 betas — no hardware needed.</p>
+
+      <div class="stat" style="border:.6pt solid var(--line);border-radius:2px;padding:7px 4px;background:#fbf8f1;margin-top:8px;">
+        <span class="n">−4.9%</span><div class="c">IDC: 2026 PC shipments, on memory cost</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h gold"><span>Still on the shelf</span><span class="sub">covered; no new peg</span></div>
+  <div class="cols3" style="margin-top:5px;">
+    <p class="body tight"><b>Klipsch "Rebellion" &amp; Schiit "Vestri."</b> Last issue's hi-fi leads; still awaiting ship dates and first independent reviews.</p>
+    <p class="body tight"><b>Sony a7R VI · Oura Ring 5 · Momentum 5.</b> All shipping; the next pegs are independent reviews, not re-spec.</p>
+    <p class="body tight"><b>Smart glasses.</b> Xreal's a01 aside, the field is still roadmap — Apple's N50 pushed to late 2027; Google's audio-first pair due in autumn.</p>
+  </div>
+
+  <div class="pull">Buy the glass and the sound; rent nothing you can wait a quarter to own cheaper.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Counterpoint &amp; IDC via Tom's Guide / Wccftech; Kingston (NAND). 2. Tom's Guide / Engadget — WWDC 2026 (8 Jun). Continuity: Coverage Ledger Nos. 14–16.</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+<!-- ===================== PAGE 10 — THE CONNECTED HOME ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rule v" style="margin-top:9mm;"></div>
+
+  <div style="margin-top:5px;">
+    <div class="kicker teal">homeOS · HomePad</div>
+    <h1 class="hed">Apple finally commits to the home — should you wait for it?</h1>
+    <p class="dek">The keynote's quietest reveal may matter most to this house: a dedicated home operating system, a counter-top hub, and a camera that knows your face. For a migrator already going local-first, it sharpens the oldest question — own it, or rent it?</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <p class="body dropcap">Alongside the rented Siri, Apple previewed homeOS — its first new operating system since visionOS in 2023 — built for a long-rumoured HomePad: a HomePod speaker fused with a seven-inch display and an A18 chip, designed to sit on a counter and respond to presence, not just commands.<sup class="fnref">1</sup> The hardware ships in the autumn; the developer preview dropped this week, the familiar Apple sequence of seeding software first so apps are ready when the device arrives.<sup class="fnref">2</sup> Tellingly, the HomePad can run FaceTime without an iPhone in the room — Apple's first real attempt at a hub that isn't a phone accessory — and it anchors a wider push that includes a HomeKit security camera with Face ID and refreshed HomePod mini and Apple TV.<sup class="fnref">1</sup></p>
+
+      <p class="body">For the reader mid-migration — Lutron downstairs, Home Assistant taking over upstairs, Matter and Thread stitching it together — this is a genuine fork. The ambient, presence-aware hub is exactly the experience local-first setups struggle to match; but it also routes the home's "intelligence" through the same rented Gemini brain, in Apple's cloud, on Apple's terms. The migrator's instinct — keep the automations, the logs and the triggers on hardware you own — is the household echo of this whole issue's argument.<sup class="fnref">3</sup></p>
+
+      <p class="body">The pragmatic move is to let the two coexist. Keep the local brain — Home Assistant's latest release already does Matter onboarding, two-way IR and local lock PINs without a cloud round-trip — and treat a HomePad, if it earns its place, as a pretty voice surface, not the system of record. The walls can listen with someone else's ears as long as the memory stays in your house.</p>
+
+      <div class="pull">Let the hub be charming. Keep the brain at home.</div>
+    </div>
+
+    <div>
+      <div class="agenda-h teal"><span>Diary for the home</span><span class="sub">Jun</span></div>
+      <div class="evt"><div class="evt-date star">16<span class="mo">JUN</span></div><div><div class="evt-name">CSA "Unify" <span class="st">★</span></div><div class="evt-meta">16–18 Jun · Matter 1.5 cameras watch</div></div></div>
+      <div class="evt"><div class="evt-date">Au<span class="mo">2026</span></div><div><div class="evt-name">HomePad ships</div><div class="evt-meta">homeOS · A18 · 7-inch · autumn</div></div></div>
+
+      <div class="chatter teal" style="margin-top:7px;">
+        <div class="lbl">The migrator chatter</div>
+        <p>"Lovely hub, hard pass on it owning my house." The HA crowd's consensus: welcome the surface, refuse the cloud lock-in; local-first is a hedge against any one vendor's roadmap.</p>
+        <p class="src">— Home Assistant community</p>
+      </div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The other side</div>
+        <p>For most households the convenience wins: a presence-aware hub that just works beats a Raspberry Pi project. Not everyone wants to be their own sysadmin.</p>
+        <p class="src">— smart-home press</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="cols3">
+    <p class="body tight"><b>Matter 1.5 cameras.</b> The standard's camera support reaches shelves around the CSA "Unify" event (16–18 Jun); the peg to watch is which controller actually ships support first.<sup class="fnref">1</sup></p>
+    <p class="body tight"><b>Home Assistant.</b> The local-first release shipped on 3 Jun — Matter over BLE, two-way IR, local Z-Wave lock PINs. Not re-listed here; running quietly.</p>
+    <p class="body tight"><b>Thread/Matter health.</b> Apple says it tightened HomeKit and Matter APIs after last year's stability wobble — worth watching whether reliability actually improves.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. TechTimes; Digital Trends; Matter Alpha — WWDC 2026 (8 Jun). 2. byteiota; FourWeekMBA (8 Jun). 3. Home Assistant 2026.6 notes (continuity, No. 16).</div>
+    <div class="fnbar"><span>Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 11 — THE GOOD LIFE ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Good Life</span><span>Objects &amp; Escapes</span></div>
+
+  <div class="kicker gold">Escapes · The soft-yen window</div>
+  <h1 class="hed">A weak yen, a quiet season, and the case for going to Japan now</h1>
+  <p class="dek">The currency sits near a thirty-year low, the summer crowds have not yet arrived, and the hydrangeas are out. For the Singapore traveller, the maths has rarely been kinder — but the bargain comes with an asterisk.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">T</span>here is a particular pleasure in a country that has, in effect, gone on sale. The yen has slid to around ¥160 to the dollar<sup class="fnref">1</sup> — territory it last visited in the mid-1990s — and for anyone holding Singapore dollars, the discount on a Tokyo dinner, a Kyoto ryokan or a Ginza watch boutique is real and immediate. Japan logged a record 42.7 million foreign visitors in 2025, and the weak currency is the engine.<sup class="fnref">2</sup></p>
+      <p class="body">The authorities are not entirely comfortable with the slide. The Ministry of Finance is estimated to have spent on the order of ¥5.4 trillion defending the currency across April and May — its first intervention since 2024 — which steadied the range around ¥160–165 without reversing the trend.<sup class="fnref">1</sup> For the visitor, that intervention is the difference between a soft landing and a free fall; the bargain is durable, not a flash.</p>
+      <p class="body">The connoisseur's move this year is the timing. June is rainy-season Japan — <i>tsuyu</i> — which the guidebooks treat as a deterrent and the seasoned traveller treats as an invitation: hydrangeas in full colour at temple gardens, mist on the cedar slopes, and crucially the pre-August lull before the domestic holiday crush. The Mishima Skywalk and the hill temples around Kamakura are at their best now, and half as crowded as they will be in six weeks.</p>
+      <p class="body tight">The asterisk is overtourism, and Japan has begun to push back. Kyoto has barred tourists from certain private alleys in Gion; Mount Fuji has installed barriers and a toll to thin the climbing crowds. None of this should deter a considered trip — but the era of treating the country as an unmanaged theme park is closing.</p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 240 150" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Yen vs dollar, schematic">
+          <rect x="0" y="0" width="240" height="150" fill="#efe9db"/>
+          <line x1="30" y1="20" x2="30" y2="125" stroke="#d8cfbd" stroke-width="1"/>
+          <line x1="30" y1="125" x2="225" y2="125" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="26" y="30" fill="#7a7264" font-family="Poppins" font-size="7" text-anchor="end">110</text>
+          <text x="26" y="128" fill="#7a7264" font-family="Poppins" font-size="7" text-anchor="end">165</text>
+          <polyline points="34,40 70,52 105,70 140,92 175,112 215,118" fill="none" stroke="#c1462e" stroke-width="2.2"/>
+          <circle cx="215" cy="118" r="3.2" fill="#c1462e"/>
+          <text x="213" y="112" fill="#9c3422" font-family="Poppins" font-size="7.5" font-weight="700" text-anchor="end">¥160</text>
+          <text x="34" y="36" fill="#7a7264" font-family="Poppins" font-size="7">2021</text>
+          <text x="200" y="138" fill="#7a7264" font-family="Poppins" font-size="7">2026</text>
+        </svg>
+        <div class="imgcap">USD/JPY, schematic — weaker yen runs down the page. <span style="color:#7a7264">Meridian original; levels per Reuters/MoF.</span></div>
+      </div>
+      <div class="stat"><span class="n">¥5.4tn</span><span class="c">Est. MoF intervention, Apr–May — first since 2024</span></div>
+      <div class="chatter gold">
+        <div class="lbl">The chatter</div>
+        <p>Frequent visitors on the travel forums are unsentimental: book the ryokan and the tasting menus now, because the gap between the yen and everything else may not stay this wide. The counsel is to spend on experiences, not to hoard.</p>
+        <p class="src">— travel forums, FX desks</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h gold"><span>Objects · Still on the shelf</span><span class="sub">gavel falls this week</span></div>
+  <div class="cols2">
+    <p class="body tight"><b>New York watch week.</b> The marquee sales land in the next few days — Christie's <i>Important Watches</i> at Rockefeller Center (12 Jun), Phillips (13–14 Jun), and Sotheby's <i>Shapes of Cartier</i> and <i>Important Watches</i> (15 Jun).<sup class="fnref">3</sup> We are holding fire on a verdict: the hammer prices, not the estimates, are the story, and they arrive in time for the next issue.</p>
+    <p class="body tight">The provenance lots carry the romance this season — among them a Patek Philippe Calatrava ref. 570 once owned by Andy Warhol, a pair of "Golden Rule" Pateks associated with Lyndon Johnson, and a Cartier Tank linked to producer David O. Selznick. Whether sentiment translates into a premium at the rostrum is exactly the kind of question best answered after the fact, not before. <span style="color:#7a7264">Results next issue.</span></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Reuters; Japan MoF intervention estimates (Apr–May 2026). 2. JNTO 2025 arrivals (42.7m record). 3. Christie's; Phillips; Sotheby's NY sale calendars (12–15 Jun 2026).</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 12 — SCREEN & SOUND ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Screen &amp; Sound</span><span>Culture Desk</span></div>
+
+  <div class="kicker teal">Music · The Friday release</div>
+  <h1 class="hed">Olivia Rodrigo bets a whole record on the broken-hearted</h1>
+  <p class="dek">"You Seem Pretty Sad for a Girl So in Love" arrives Friday, trailed by a single that opened at number one and a collaboration with a goth-rock elder. The third album is the test of whether the formula scales.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">T</span>he lead single did the heavy lifting. "Drop Dead" debuted atop the Hot 100 on the back of 10.7 million streams — the biggest of Rodrigo's career and the highest female debut of 2026<sup class="fnref">1</sup> — which is the kind of number that turns an album release from a hope into an event. The full record, produced once again with Dan Nigro, lands Friday on Geffen.<sup class="fnref">2</sup></p>
+      <p class="body">The interesting tell is the company she keeps. An earlier track, "The Cure," released in late May, features Robert Smith of The Cure — a deliberate handshake with the lineage of pop melancholy that Rodrigo has always mined. It is a confident move for a third album: rather than reinvent, she is consolidating, and inviting one of the genre's founding melancholics to bless the project.<sup class="fnref">2</sup></p>
+      <p class="body tight">Whether an entire LP of the same emotional register holds across forty minutes is the question the streams cannot answer in advance. The singles are built to spike; the album is built to last. Friday tells us which instinct won.</p>
+    </div>
+    <div>
+      <div class="stat"><span class="n">10.7M</span><span class="c">"Drop Dead" first-week streams — a career high</span></div>
+      <div class="chatter teal">
+        <div class="lbl">The chatter</div>
+        <p>The fan consensus is that the Robert Smith feature is the canniest casting of her career — a bridge to listeners twice her age. The sceptics wonder whether a heartbreak record can still surprise on a third outing.</p>
+        <p class="src">— music press, socials</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h"><span>Also on the desk</span><span class="sub">screen &amp; page</span></div>
+  <div class="cols3">
+    <p class="body tight"><b>Women's Prize.</b> The fiction winner is announced 11 Jun in London — the calendar's first major literary verdict of the summer.<sup class="fnref">3</sup></p>
+    <p class="body tight"><b>Toy Story 5.</b> Pixar returns to the franchise on 19 Jun; the early question is whether the studio can recapture the form of the originals or merely the nostalgia.</p>
+    <p class="body tight"><b>Booker longlist.</b> The thirteen-title "Booker dozen" is due 28 Jul — worth a note now for readers who like to get ahead of the shortlist.</p>
+  </div>
+
+  <div class="pull">"The singles are built to spike; the album is built to last."</div>
+
+  <div class="hairline"></div>
+  <div class="kicker slate">The wider read · Renting the room</div>
+  <h2 class="hed sm">Why the album now arrives pre-sold</h2>
+  <div class="grid g-21">
+    <div>
+      <p class="body tight">It is worth noticing what the "Drop Dead" debut actually is: a release strategy that rents attention before the work exists to hold it. The modern pop rollout front-loads a chart-topping single, a high-profile feature, a viral fragment — borrowing the audience's focus on credit, to be repaid by an album that lands already validated.<sup class="fnref">2</sup> Rodrigo is unusually good at it, which is precisely why the third record is the interesting test: the machinery that guarantees a number-one single guarantees nothing about whether the songs endure past the week they trend.</p>
+      <p class="body tight">The same logic runs quietly under the whole desk. Pixar leans on a franchise's borrowed goodwill; a literary prize lends a novel a borrowed authority. None of it is cynical — borrowed attention is how anything gets heard in a crowded feed. The question, as ever this issue, is whether the borrowing is leverage or dependence: a single that opens a door, or a single doing work the album cannot.</p>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The sceptic</div>
+        <p>Industry watchers note the risk of the front-loaded rollout: when the single is the event, the album can land as an anticlimax. The streams that made the launch can also set a bar the deeper cuts never clear.</p>
+        <p class="src">— music-industry analysts</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Billboard — Hot 100 (week of release); "Drop Dead" debut. 2. Geffen Records; Rolling Stone (album details, Nigro, Robert Smith feature). 3. Women's Prize for Fiction (11 Jun); Pixar; Booker Prizes calendar.</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 13 — FAMILY (1) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Family Desk</span><span>Raising Them Well</span></div>
+
+  <div class="kicker">Devices · The house that listens back</div>
+  <h1 class="hed">Apple makes child accounts mandatory — just as the home learns to talk</h1>
+  <p class="dek">At this week's developer conference Apple moved under-13 accounts from optional to required, with parental controls reaching into apps, websites and Safari permissions. It arrives in the same keynote that put a Gemini-class voice in the living room.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">T</span>he timing is the story. In one keynote Apple both rebuilt Siri around a far more capable rented intelligence — an ambient voice that now lives on a HomePad in the kitchen — and tightened the rules around the youngest accounts.<sup class="fnref">1</sup> Children under 13 must now use a managed child account; the account can carry through to 18, and parents gain controls over apps, websites and the permission requests Safari surfaces.<sup class="fnref">1</sup> The same firm is, in effect, both handing the household a more persuasive machine and bolting on the locks at once.</p>
+      <p class="body">For a parent, the relevant shift is not the policy page but the surface area. A capable assistant that answers from any room is a different thing from an app a child has to open. The American Psychological Association's recent reporting on AI companions is measured but pointed: the tools can feel supportive, but heavy use may worsen loneliness and erode the social skills that only awkward human practice builds.<sup class="fnref">2</sup></p>
+      <p class="body tight">Common Sense Media has gone further, advising that AI companions are not appropriate for anyone under 18 — a stance worth knowing even if you land somewhere softer.<sup class="fnref">3</sup> The home assistant is not a companion app, but the line between "answer my question" and "keep me company" is thinner for an eleven-year-old than the marketing admits.</p>
+    </div>
+    <div>
+      <div class="stat"><span class="n">&lt;13</span><span class="c">Age below which managed accounts are now mandatory</span></div>
+      <div class="chatter">
+        <div class="lbl">The chatter</div>
+        <p>Parents on the forums are split between relief at default-on controls and unease at outsourcing the gatekeeping to the same company selling the device. The practical worry: settings that exist are not settings that get used.</p>
+        <p class="src">— parenting forums</p>
+      </div>
+      <div class="tag">General guidance — not medical advice</div>
+    </div>
+  </div>
+
+  <div class="pull">"The line between 'answer my question' and 'keep me company' is thinner for an eleven-year-old than the marketing admits."</div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h"><span>At home this week · a practical toolkit</span><span class="sub">general guidance</span></div>
+  <div class="cols3">
+    <p class="body tight"><b>Keep it in shared space.</b> A kitchen or living-room speaker invites the over-the-shoulder oversight a bedroom device removes. The simplest control is a sightline, not a setting — and it survives the inevitable day the settings get switched off.</p>
+    <p class="body tight"><b>Narrate your own use.</b> Children copy what they watch you do. Saying out loud why you asked the assistant — and when you chose to work something out yourself — teaches the judgement that distinguishes a tool from a crutch better than any age-gate.</p>
+    <p class="body tight"><b>Name what it is.</b> A short, repeated reminder that the voice is a program, not a friend who knows or cares about them, is the cheapest insurance against the "keep me company" drift. Curiosity about how it works beats fear of it.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Apple WWDC 2026 (8 Jun) — child accounts, parental controls, Safari permissions. 2. APA Monitor on Psychology — AI companions and adolescents. 3. Common Sense Media — AI companion guidance (continuity, No. 16).</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 14 — FAMILY (2) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Family Desk</span><span>The Tween Years</span></div>
+
+  <div class="kicker slate">The contrarian view</div>
+  <h1 class="hed sm">Before you ban it: the case against the moral panic</h1>
+
+  <div class="cols2">
+    <p class="body"><span class="dropcap">T</span>here is a respectable argument that the alarm is overdone, and it deserves a hearing. Sweeping bans, the sceptics note, tend to push children toward the least-supervised version of a technology rather than away from it: the family device with controls is safer than the borrowed phone with none. A child who is told the assistant is forbidden simply uses a friend's.</p>
+    <p class="body">The more durable finding across the research is unglamorous: parental modelling beats prohibition. Children calibrate their own use to what they see at the dinner table. A parent narrating <i>why</i> they ask a machine something — and when they choose not to — teaches a judgement that no setting enforces. The goal is a child who can use the tool without being used by it.</p>
+    <p class="body tight">None of this is an argument for a free-for-all. It is an argument for proportion: that the eleven-year-old who asks the kitchen speaker to settle a homework dispute is doing something closer to using a calculator than confiding in a friend, and that conflating the two is its own kind of error.</p>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h teal"><span>The wider gate</span><span class="sub">policy context</span></div>
+  <div class="cols2">
+    <p class="body tight"><b>Australia.</b> The under-16 social-media restriction remains the most aggressive age-gate in the democratic world — a live experiment whose results the rest of us will read.<sup class="fnref">1</sup></p>
+    <p class="body tight"><b>United States.</b> KOSA and the App Store Accountability Act push the verification burden toward the platforms and stores — a structural shift from the current model where parents do the policing.<sup class="fnref">2</sup></p>
+  </div>
+
+  <div class="chatter slate" style="margin-top:8px;">
+    <div class="lbl">The other side</div>
+    <p>Civil-liberties researchers warn that age-verification at scale means identity-verification at scale — a privacy cost borne by every adult to gate a minority of accounts. The cure, they argue, may import a surveillance the family never asked for.</p>
+    <p class="src">— digital-rights analysts</p>
+  </div>
+
+  <div class="stat"><span class="n">16</span><span class="c">Australia's social-media age floor — the toughest age-gate now in force</span></div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h"><span>The evidence, briefly</span><span class="sub">what the research actually supports</span></div>
+  <div class="grid g-21">
+    <div>
+      <p class="body tight">Strip away the headlines and the developmental literature is fairly consistent, and fairly boring. What predicts a healthy relationship with technology is not the strictness of the controls but the warmth and consistency of the supervision around them: children whose parents monitor and model do better than children who are either policed or left alone. Reward-and-punishment regimes around screens tend to backfire, turning the device into contraband; calm co-use and clear, predictable limits do not.</p>
+      <p class="body tight">The corollary worth holding onto is that an eleven-year-old's day is mostly not about the assistant at all. Sleep, unstructured play, time outdoors and the boredom that breeds curiosity are the things the evidence keeps returning to — the protective factors a panic about any single device tends to crowd out of the conversation. The machine in the kitchen is a small part of a much larger picture.</p>
+    </div>
+    <div>
+      <div class="chatter gold">
+        <div class="lbl">The takeaway</div>
+        <p>The reassuring reading: the same un-glamorous parenting that worked before the assistant works after it. Presence beats settings; modelling beats banning; and a curious, well-rested child is the best filter ever built.</p>
+        <p class="src">— developmental-psychology consensus</p>
+      </div>
+      <div class="tag">General guidance — not medical advice</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Australia eSafety / under-16 social-media law (in force). 2. KOSA; App Store Accountability Act (US legislative tracker). General guidance — not medical or legal advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 15 — WHISPER ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Whisper Desk</span><span>Strictly Off the Record</span></div>
+
+  <div class="kicker gold">Unconfirmed · Read with one eyebrow raised</div>
+  <h1 class="hed">A summer of speculation, none of it on the record</h1>
+  <p class="dek">Everything below is reported chatter and tabloid sourcing — circulated, not confirmed. We pass it along labelled as exactly that.</p>
+
+  <div class="cols2">
+    <p class="body"><span class="dropcap">T</span>he item drawing the most oxygen is the suggestion — <i>reported, unconfirmed</i> — of a connection between Kim Kardashian and the racing driver Lewis Hamilton. The sourcing is the usual thin gruel of "insiders" and proximity at events; neither camp has said anything on the record, and the sensible posture is amused scepticism rather than belief.</p>
+    <p class="body">Elsewhere on the rumour mill, Kendall Jenner and the actor Jacob Elordi have again been <i>linked</i> by the gossip press, a pairing that resurfaces on a roughly seasonal cycle. And Dakota Johnson is <i>reported</i> to be seeing the musician known as Role Model — Tucker Pillsbury — though as ever the "reporting" rests on sightings rather than statements.</p>
+    <p class="body tight">The one item with a paper trail rather than a whisper: Taylor Swift and Travis Kelce, engaged since last August, remain a standing summer-wedding watch. No date has been confirmed, which is precisely why every quiet weekend now generates a fresh round of "is it happening" — a self-renewing story that needs no new facts to stay alive.</p>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="grid g-12">
+    <div>
+      <div class="chatter gold">
+        <div class="lbl">Why this desk exists</div>
+        <p>Gossip is a genre, not a news source. We run it because it is part of the cultural weather — but every item here is someone's claim, not our finding. Where a couple has actually confirmed something, we say so; where they haven't, the verb is "reported."</p>
+        <p class="src">— the desk's standing note</p>
+      </div>
+    </div>
+    <div>
+      <div class="tag">Reported</div> <div class="tag">Unconfirmed</div> <div class="tag">Linked</div> <div class="tag">No comment on record</div>
+      <p class="body tight" style="margin-top:8px;">A rule of thumb that ages well: the louder the rumour and the quieter the principals, the more likely it is to evaporate by the next news cycle. Treat the entire page as entertainment, not intelligence.</p>
+    </div>
+  </div>
+
+  <div class="pull">"The louder the rumour and the quieter the principals, the more likely it is to evaporate."</div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h gold"><span>Reading the silly season</span><span class="sub">why summer breeds rumours</span></div>
+  <div class="cols3">
+    <p class="body tight"><b>The vacuum fills itself.</b> Awards season is over, the studios are between tentpoles, and the entertainment press still has pages to fill. A quiet calendar is the single best predictor of a busy rumour mill — the supply of speculation rises precisely when the supply of facts falls.</p>
+    <p class="body tight"><b>Proximity is not a relationship.</b> Two famous people at the same party, sitting courtside, or papped on the same street become "linked" by nothing more than a lens and a deadline. The genre runs on adjacency dressed up as intimacy; discount accordingly.</p>
+    <p class="body tight"><b>Silence is the tell.</b> When the principals say nothing and the "sources" say everything, the story is doing the talking the people won't. The items that survive are the ones someone eventually confirms — the rest are weather, not news.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The sceptic's reminder</div>
+    <p>A useful habit: note today's confident rumour, then check back in a month. The hit rate is humbling — which is the whole reason this desk prints its verbs in italics and its caveats in bold.</p>
+    <p class="src">— the standing house view</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Entertainment press and social chatter, all unconfirmed. Items presented as reported rumour, not verified fact; principals have not commented on the record except where noted (Swift–Kelce engagement, Aug 2025).</div>
+    <div class="fnbar"><span>The Whisper Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 16 — CURIOSITIES ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Curiosities</span><span>The Far Edges</span></div>
+
+  <div class="kicker teal">Cosmochemistry · A fragment of a vanished world</div>
+  <h1 class="hed">A meteorite turns out to be a piece of a planet that no longer exists</h1>
+  <p class="dek">A rock recovered in Africa preserves chemical evidence of a large, differentiated protoplanet that broke apart in the solar system's first few million years — a body that never finished becoming a world.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">M</span>eteorites are usually read as debris from the asteroid belt, but a recently analysed specimen tells a stranger story.<sup class="fnref">1</sup> Its mineralogy points to a parent body large enough to have melted and separated into layers — a crust, a mantle, the beginnings of a metallic core — before it was shattered. In other words, it is a shard of a protoplanet that started down the road to becoming a planet and never arrived.</p>
+      <p class="body">What makes it valuable is precisely that it is a failure. The worlds that succeeded — Earth among them — buried and reprocessed their earliest material beyond recognition. A body that died young, by contrast, froze its infancy in place. Reading it is closer to archaeology than astronomy: a piece of a lost world, recovered intact because nothing ever overwrote it.</p>
+      <p class="body tight">The researchers are careful about how much they claim; the inference of a specific vanished parent body rests on isotope ratios and modelling, not a return address. But the broad picture — that the early solar system was a demolition derby of half-formed planets — gains another data point.</p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 220 160" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Differentiated protoplanet, schematic">
+          <rect x="0" y="0" width="220" height="160" fill="#1a1714"/>
+          <circle cx="110" cy="80" r="60" fill="none" stroke="#403a32" stroke-width="1"/>
+          <circle cx="110" cy="80" r="60" fill="#2f4858" opacity="0.35"/>
+          <circle cx="110" cy="80" r="40" fill="#9c3422" opacity="0.5"/>
+          <circle cx="110" cy="80" r="20" fill="#b08738"/>
+          <path d="M110,80 L185,35" stroke="#e8dccb" stroke-width="1" stroke-dasharray="3 3"/>
+          <text x="150" y="150" fill="#e8dccb" font-family="Poppins" font-size="8">core · mantle · crust</text>
+        </svg>
+        <div class="imgcap">A differentiated body, schematic — the layering a meteorite's chemistry can betray. <span style="color:#7a7264">Meridian original.</span></div>
+      </div>
+      <div class="stat"><span class="n">~4.5bn yr</span><span class="c">Age of the material the fragment preserves</span></div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h"><span>Also at the edges</span><span class="sub">brief</span></div>
+  <div class="cols3">
+    <p class="body tight"><b>A metre-long sea scorpion.</b> Palaeontologists describe a Devonian eurypterid roughly 415 million years old and close to a metre long — among the larger arthropod predators of its shallow seas.<sup class="fnref">2</sup></p>
+    <p class="body tight"><b>Schrödinger, completed.</b> A century after he sketched a geometry of colour perception, researchers report finishing the mathematics he left unresolved — a tidy closing of an old physics-of-seeing problem.<sup class="fnref">3</sup></p>
+    <p class="body tight"><b>The evening pairing.</b> Venus and Jupiter sit close in the sky around 9–11 Jun — the conjunction we flagged last issue, now at its tightest. A clear horizon after sunset is all it takes.</p>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <div class="pull">"A body that died young froze its infancy in place."</div>
+    </div>
+    <div>
+      <div class="chatter teal">
+        <div class="lbl">Why it matters</div>
+        <p>Cosmochemists prize these failures: a finished planet hides its origins, but a shattered one keeps them. Each new fragment narrows how many protoplanets the early system built and lost — a census taken from the wreckage.</p>
+        <p class="src">— planetary-science commentary</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Sci.News (2 Jun); Live Science — meteorite / lost protoplanet. 2. Sci.News (4 Jun) — Devonian eurypterid. 3. Colour-perception geometry study (7 Jun); Venus–Jupiter conjunction (callback, No. 16).</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 17 — LOVE & LIFE ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Love &amp; Life</span><span>The Human Desk</span></div>
+
+  <div class="kicker">The examined life · The outsourced heart</div>
+  <h1 class="hed">When the machine listens better than the person across the table</h1>
+  <p class="dek">A two-year study finds that AI companions genuinely comfort — and that the comfort coincides with rising distress and a quiet drift away from human relationships. Both halves are true at once, which is the difficulty.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">T</span>he honest version of this story refuses to pick a side. Researchers at Aalto University, in work presented at the CHI 2026 conference in Barcelona, followed companion-app users over two years and found that the relationships were not frivolous: people felt heard, soothed, less alone in the moment.<sup class="fnref">1</sup> That part is real and should not be sneered at.</p>
+      <p class="body">The same study found the comfort travelling alongside rising distress and a measurable pull away from human ties — not because the machine is malicious, but because it is too accommodating. A companion that never tires, never disagrees inconveniently and never has a worse day than you is a frictionless mirror. The vulnerability is the feature: the thing that makes it soothing is the same thing that makes it a poor rehearsal for people.<sup class="fnref">1</sup></p>
+      <p class="body tight">The surrounding numbers suggest this is no fringe behaviour. A dating-app survey reports that a large share of users would accept a partner's emotional bond with an AI, while a comparable share find it uneasy and a meaningful minority count it as a form of cheating.<sup class="fnref">2</sup> A separate consumer survey finds most online daters open to dating an AI outright, against a backdrop of widespread reported loneliness.<sup class="fnref">3</sup></p>
+    </div>
+    <div>
+      <div class="stat"><span class="n">~16%</span><span class="c">Count a partner's emotional AI bond as cheating</span></div>
+      <div class="chatter">
+        <div class="lbl">The chatter</div>
+        <p>Users describe the appeal with disarming candour: the AI remembers, never judges, and is awake at 3am. The critics reply that those are exactly the conditions under which a person stops practising the harder, messier work of being known by another human.</p>
+        <p class="src">— researchers, users</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">"The thing that makes it soothing is the same thing that makes it a poor rehearsal for people."</div>
+
+  <div class="chatter slate">
+    <div class="lbl">The other reading</div>
+    <p>For the isolated — the housebound, the grieving, the socially anxious — a patient machine may be a bridge rather than a substitute, a low-stakes place to practise before re-entering the world. The danger is treating the bridge as the destination.</p>
+    <p class="src">— clinical commentary</p>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h"><span>The un-rentable part</span><span class="sub">where this lands</span></div>
+  <div class="cols3">
+    <p class="body tight">If there is a thread to hold, it is that being known is not the same as being soothed. A companion that agrees, remembers and never bristles delivers the second while quietly starving the first — and it is the friction, the being-disagreed-with, the inconvenient day, that turns acquaintance into intimacy.</p>
+    <p class="body tight">None of which makes the comfort fake. People are lonelier than they have been in a generation, and a voice at 3am that listens is not nothing. The honest position is to use the tool without mistaking it for the relationship — to let it carry you toward people, not away from them.</p>
+    <p class="body tight">It is the same question the whole issue keeps asking, scaled down to the heart: a faculty you can outsource and still reclaim is a convenience; one you outsource until you can no longer perform it is a loss. The capacity to be known by another person is firmly in the second category.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Aalto University — 2-year companion-app study, CHI 2026 (Barcelona). 2. happn relationship survey — AI emotional bonds. 3. Norton consumer survey — online dating and AI; loneliness figures.</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 18 — FITNESS ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Fitness</span><span>The Long Game</span></div>
+
+  <div class="kicker gold">The long game · The muscle you can't outsource</div>
+  <h1 class="hed">A pill might protect the muscle a weight-loss drug strips — but the barbell still wins</h1>
+  <p class="dek">Stanford researchers report an experimental compound that preserves muscle regeneration in animals on semaglutide without blunting fat loss. It is promising, early, and beside the more durable point.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">T</span>he worry with the GLP-1 class of weight-loss drugs has always been that the weight lost is not all fat — that muscle goes with it, which for a person in their forties is exactly the tissue you least want to surrender. Stanford Medicine researchers report that an experimental compound, working through a known biological pathway, improved muscle regeneration in semaglutide-treated mice without hindering the fat loss.<sup class="fnref">1</sup> If it holds in humans, it addresses a genuine downside of an otherwise transformative drug class.</p>
+      <p class="body">But the framing matters. The instinct of the moment is to reach for a second molecule to fix the side-effect of the first — to rent the solution. The un-rentable version is older and duller: resistance training and adequate protein protect muscle directly, drug or no drug, and confer benefits no compound replicates. A meta-analysis in the sports-medicine literature puts it plainly: exercise plus the drug beats the drug alone, and doing nothing is the worst option of all.<sup class="fnref">2</sup></p>
+      <p class="body tight">None of this is an argument against the drugs, which are doing real good for real people. It is an argument that the strength you build is yours in a way that the strength a pill preserves is not — and that for the reader who already trains, the headline changes very little.</p>
+    </div>
+    <div>
+      <div class="stat"><span class="n">2:1</span><span class="c">Exercise + GLP-1 beats drug alone; nothing is worst</span></div>
+      <div class="chatter slate">
+        <div class="lbl">The sceptic's box</div>
+        <p>A counter-view in the clinical press argues the muscle-loss panic is overblown — that the lean-mass dip on GLP-1 tracks what you'd expect from any weight loss, and that fixating on it scares people off a drug that is, on balance, helping them.</p>
+        <p class="src">— Medscape commentary (1 May)</p>
+      </div>
+      <div class="tag">General guidance — not medical advice</div>
+    </div>
+  </div>
+
+  <div class="pull">"The strength you build is yours in a way the strength a pill preserves is not."</div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h gold"><span>The un-rentable basics</span><span class="sub">to try — general guidance</span></div>
+  <div class="cols3">
+    <p class="body tight"><b>Lift something heavy, twice a week.</b> Two resistance sessions a week is the floor the literature keeps returning to for preserving lean mass in mid-life — compound movements, progressively loaded, drug or no drug. It is the single intervention no compound has matched.</p>
+    <p class="body tight"><b>Eat the protein.</b> Roughly 1.6 grams per kilogram of body weight a day, spread across meals, is the unglamorous target that makes the training stick. On a GLP-1, where appetite falls, hitting it takes deliberate effort — which is exactly the point.</p>
+    <p class="body tight"><b>Don't outsource the whole job.</b> A muscle-sparing pill, if it arrives, is a useful backstop, not a replacement. The reader who already trains has, in effect, already taken the better version of the drug — and owns the result outright.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The honest caveat</div>
+    <p>The Stanford compound is early and animal-stage; human data are years away, and the muscle-loss worry itself may be milder than the headlines suggest. None of this changes the floor: train, eat enough protein, and treat any pill as the supplement, not the strategy.</p>
+    <p class="src">— general guidance, not medical advice</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Stanford Medicine — PGDHi compound, muscle regeneration in semaglutide-treated mice (early Jun). 2. Sports-medicine meta-analysis — exercise + GLP-1 vs drug alone; Medscape (1 May) sceptic view. General guidance — not medical advice.</div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 19 — THE DIARY (1) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Diary</span><span>What's Worth Booking</span></div>
+
+  <div class="kicker">Singapore · Dates to hold</div>
+  <h1 class="hed sm">The home calendar — and a table worth the trip</h1>
+
+  <div class="grid g-12">
+    <div>
+      <div class="agenda-h gold"><span>Singapore</span><span class="sub">Jun–Oct</span></div>
+      <div class="evt"><div class="evt-date star">27<span class="mo">JUN</span></div><div><div class="evt-name">Dragon Boat / Duanwu <span class="st">★</span></div><div class="evt-meta">27–28 Jun · Bedok Reservoir · races &amp; rice dumplings</div></div></div>
+      <div class="evt"><div class="evt-date">04<span class="mo">AUG</span></div><div><div class="evt-name">HONNE — 10th anniversary</div><div class="evt-meta">4–6 Aug · The Capitol Theatre</div></div></div>
+      <div class="evt"><div class="evt-date star">09<span class="mo">AUG</span></div><div><div class="evt-name">National Day Parade <span class="st">★</span></div><div class="evt-meta">9 Aug · ballot now; previews late Jul</div></div></div>
+      <div class="evt"><div class="evt-date">Au<span class="mo">2026</span></div><div><div class="evt-name">Night Festival</div><div class="evt-meta">last weekends Aug · Bras Basah·Bugis</div></div></div>
+      <div class="evt"><div class="evt-date star">Oc<span class="mo">2026</span></div><div><div class="evt-name">F1 Singapore GP <span class="st">★</span></div><div class="evt-meta">Sept/Oct · plan flights &amp; hotels now</div></div></div>
+      <div class="evt"><div class="evt-date">Au<span class="mo">2026</span></div><div><div class="evt-name">&amp;TEAM · live in Singapore</div><div class="evt-meta">Aug · for the household's K-pop fan</div></div></div>
+      <div class="evt"><div class="evt-date">Au<span class="mo">2026</span></div><div><div class="evt-name">Novelbright — SG debut</div><div class="evt-meta">Aug · J-rock; first Singapore show</div></div></div>
+    </div>
+    <div>
+      <div class="agenda-h teal"><span>The Table</span><span class="sub">newly open</span></div>
+      <p class="body tight"><b>Milli Sky Dining, Bar &amp; Lounge.</b> Rooftop atop the National Gallery (L5/L6), backed by three big names — Chef LG Han of Michelin-starred Labyrinth, Vijay Mudaliar of Native, and Bae's Cocktail Club. Contemporary Singaporean with a view to match. <span class="tag">New</span> <span class="tag">Rooftop</span> Too new to call on the cooking, but the pedigree is unusually deep; expect premium pricing. <i>Tip: book the early seating for the light.</i></p>
+      <p class="body tight"><b>SukiyakiJIN.</b> Les Amis Group's Japanese collective, Shaw Centre L1, opened 2 May. The signature is an A5 Wagyu "Tomato Mountain" sukiyaki — a chilli-padi twist on the classic; Signature Tomato Sukiyaki around S$48++ per head (min. two). <span class="tag">Japanese</span> <span class="tag">New</span> <i>Tip: weekday lunch is the calmer seating.</i></p>
+      <p class="body tight"><b>Taste Ipoh.</b> Raffles City, casual — Ipoh hor fun and white coffee done straight. <span class="tag">Casual</span> A comfort-food anchor rather than a destination; reliable and quick.</p>
+      <p class="body tight"><b>The café watch.</b> A Hong-Kong-born bakery has opened in the CBD trading on its pistachio <i>bolo bao</i> (pineapple bun) — the kind of single-item queue-former that lives or dies on social media. <span class="tag">Café</span> <span class="tag">Soft launch</span> Too new to rank; go for the bun, not the seating.</p>
+    </div>
+  </div>
+
+  <div class="grid g-21">
+    <div>
+      <div class="chatter teal">
+        <div class="lbl">The buzz — read with the usual caution</div>
+        <p>Local food media are circling Milli for the view and the names as much as the food; the honest line is that it is too fresh for a verdict. SukiyakiJIN is drawing steadier early praise for the tomato-sukiyaki conceit. Among earlier openings we've tracked, Hikiniku to Come now has its reviews in — one outlet calls it among the best hamburg in town (note: not halal); Bouillon Gavroche and ASIN remain as previously logged, no new peg.</p>
+        <p class="src">— Eatbook, Time Out SG, Sassy Mama, DanielFoodDiary, r/singaporeeats</p>
+      </div>
+    </div>
+    <div>
+      <div class="chatter gold">
+        <div class="lbl">Booking notes</div>
+        <p>NDP tickets run by ballot — register now, don't expect to buy at the gate. Dragon Boat needs no booking but Bedok Reservoir fills early. For the F1, the value plays (hotels, three-day walkabout passes) are already moving; this is a plan-now, not a turn-up, weekend.</p>
+        <p class="src">— organiser advisories</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Eatbook; Time Out Singapore; Sassy Mama; The Ranting Panda; DanielFoodDiary; venue listings &amp; socials. Buzz summarised in our own words; "too new to call" where unreviewed.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 20 — THE DIARY (2) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Diary</span><span>Plan the Flights</span></div>
+
+  <div class="ph-hero">
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Kawaguchiko%20Sakura%20Mount%20Fuji%201.JPG?width=1600" alt="Mount Fuji from Lake Kawaguchi (representative)"></div>
+  <div class="imgcap">Mount Fuji from Lake Kawaguchi — <b>representative seasonal image (spring), not the summer climbing season</b>. Source: Wikimedia Commons — "File:Lake Kawaguchiko Sakura Mount Fuji 1.JPG" · CC BY 3.0 · Midori. Subject verified from the Commons file page.</div>
+</div>
+  <div class="kicker gold">Japan &amp; the region · Worth the airfare</div>
+  <h1 class="hed sm">A summer of festivals — and the soft-yen window to see them</h1>
+
+  <div class="grid g-12">
+    <div>
+      <div class="agenda-h gold"><span>Japan</span><span class="sub">Jun–Jul</span></div>
+      <div class="evt"><div class="evt-date">Ju<span class="mo">JUN</span></div><div><div class="evt-name">Rainy-season hydrangeas</div><div class="evt-meta">Mishima Skywalk &amp; temple gardens · June grace note</div></div></div>
+      <div class="evt"><div class="evt-date star">01<span class="mo">JUL</span></div><div><div class="evt-name">Mt Fuji climb opens <span class="st">★</span></div><div class="evt-meta">~1 Jul · Kawaguchiko fireworks follow</div></div></div>
+      <div class="evt"><div class="evt-date star">17<span class="mo">JUL</span></div><div><div class="evt-name">Gion Matsuri <span class="st">★</span></div><div class="evt-meta">all July; Yamaboko Junko floats 17 &amp; 24 Jul · Kyoto</div></div></div>
+      <div class="evt"><div class="evt-date">24<span class="mo">JUL</span></div><div><div class="evt-name">Tenjin Matsuri</div><div class="evt-meta">24–25 Jul · Osaka · river processions &amp; fireworks</div></div></div>
+      <div class="evt"><div class="evt-date star">Ju<span class="mo">JUL</span></div><div><div class="evt-name">Sumida River Fireworks <span class="st">★</span></div><div class="evt-meta">late Jul · Tokyo · book vantage early</div></div></div>
+      <div class="evt"><div class="evt-date">12<span class="mo">JUL</span></div><div><div class="evt-name">Nagoya Grand Sumo</div><div class="evt-meta">12–26 Jul · Dolphins Arena · the July basho</div></div></div>
+    </div>
+    <div>
+      <div class="agenda-h teal"><span>Wider region</span><span class="sub">if it's worth the trip</span></div>
+      <div class="evt"><div class="evt-date star">Ju<span class="mo">2026</span></div><div><div class="evt-name">FIFA World Cup <span class="st">★</span></div><div class="evt-meta">opens this week (US/Canada/Mexico) · a once-every-four-years draw</div></div></div>
+      <div class="evt"><div class="evt-date">—<span class="mo">2026</span></div><div><div class="evt-name">teamLab installations</div><div class="evt-meta">continuity · ongoing across Japan</div></div></div>
+      <div class="chatter gold" style="margin-top:8px;">
+        <div class="lbl">Planning notes</div>
+        <p>Gion Matsuri and Sumida draw enormous crowds — lock lodging and paid viewing weeks ahead, and assume trains will be packed. Fuji now requires a climbing reservation and toll; check the official portal before you commit. The soft yen makes all of it cheaper for SGD holders, but it makes everyone <i>else</i> want to come too — book early, not on arrival.</p>
+        <p class="src">— JNTO advisories; festival organisers</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="grid g-21">
+    <div>
+      <div class="kicker gold">The weekend-escape read</div>
+      <h2 class="hed sm">If you go once this summer, go in early July</h2>
+      <p class="body tight">The connoisseur's window is narrow and it is now. The rainy season keeps June quieter and the gardens greener; the school holidays and the August festival crush have not yet landed; and the yen, near a thirty-year low against the dollar, makes the whole trip read like a sale (see The Good Life). A long weekend built around the Gion floats on the 17th, or the Sumida fireworks at month's end, repays the airfare in a way few other July destinations can — provided you book the room before the rest of the region does.</p>
+      <p class="body tight">For the family travelling with an eleven-year-old, the matsuri are the easy sell: street food, lantern-lit floats, and fireworks that need no translation. Pair one festival night with a teamLab afternoon and a Fuji-view morning and the itinerary writes itself.</p>
+    </div>
+    <div>
+      <div class="stat"><span class="n">¥160</span><span class="c">USD/JPY near a 30-year low — the tailwind under this page</span></div>
+      <div class="chatter teal">
+        <div class="lbl">Art on the side</div>
+        <p>Beyond teamLab, the summer's big-museum calendar across Tokyo and Osaka is worth a look before you fix dates — special exhibitions sell timed tickets that vanish on weekends. Buy ahead, go on a weekday.</p>
+        <p class="src">— museum calendars</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;JNTO; Kyoto / Osaka / Tokyo festival organisers; Japan Sumo Association; Mt Fuji climbing portal; FIFA. Dates per official 2026 calendars; confirm before booking.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 21 — THE LONG READ (1) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Long Read</span><span>The Long Read</span></div>
+
+  <div class="kicker gold">The Essay · On borrowed faculties</div>
+  <h1 class="hed">The Rented Mind</h1>
+  <p class="dek">This week a trillion-dollar company rented its intelligence from a rival, a household installed a voice it does not own, and a generation began outsourcing comfort, memory and muscle to machines. The oldest question in the file is whether you can borrow a faculty without losing it.</p>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body"><span class="dropcap">T</span>he most revealing sentence in this week's news was not spoken aloud. It was an architecture diagram. When Apple rebuilt Siri, it did not build the mind — it rented one, running a custom version of Google's Gemini on Google's own machines, for something like a billion dollars a year, and wrapped it in hardware and routing that Apple still controls.<sup class="fnref">1</sup> The company kept the harness and rented the horse. Almost every other story in this issue turns out to be a variation on that single decision.</p>
+      <p class="body">Consider the spread. The home now answers in a borrowed voice from a speaker on the counter. Companion apps offer a borrowed intimacy that, a two-year study found, soothes in the moment while quietly thinning the human ties around it.<sup class="fnref">2</sup> A weight-loss drug rents the result of a discipline its users never had to practise, and a second drug is proposed to fix what the first one strips. Even the week's fragile peace in the Gulf is, in its way, a rented settlement — a deal drafted by mediators and held together by outside guarantors rather than authored by the principals themselves. Five desks, one motion: a faculty that used to be internal is being relocated outside the self.</p>
+      <p class="body">The instinct to call this new should be resisted. The anxiety is at least twenty-four centuries old, and Plato wrote it down. In the <i>Phaedrus</i>, Socrates tells of the Egyptian god Theuth, who presents the gift of writing to King Thamus as a remedy for memory and a path to wisdom.<sup class="fnref">3</sup> Thamus is unconvinced. Writing, he replies, will not strengthen memory but replace it; relying on external marks, people will cease to remember from within. Worse, they will acquire "the conceit of wisdom" — the appearance of knowing, without the substance — and will be a burden to their fellows, having heard much and learned nothing.</p>
+      <p class="body tight">It is the original review of an outsourced faculty, and it is mixed in exactly the way our own reviews are mixed. Thamus is right that the faculty atrophies; he is also, plainly, wrong about the wider verdict, because civilisation chose writing and was enlarged rather than diminished by it. The lesson is not that outsourcing is ruinous. It is that outsourcing a faculty is never free, and that the bill is paid in the faculty itself.</p>
+      <p class="body tight">What Thamus could not see — and what we can — is that the bargain has a shape. Writing took something (the trained memory of the bard, who could hold the whole <i>Iliad</i> in his head) and gave back something larger and more durable (a civilisation that could accumulate knowledge across centuries instead of losing it with each death). The trade was good because what we gained could not be repossessed by the lender. The question to put to every rented faculty in this issue is exactly that one: is the thing we get back ours to keep, or are we merely leasing it from someone who can change the terms?</p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 230 210" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Five threads into a rented node">
+          <rect x="0" y="0" width="230" height="210" fill="#efe9db"/>
+          <circle cx="170" cy="105" r="26" fill="#c1462e" opacity="0.85"/>
+          <text x="170" y="103" fill="#f6f2e9" font-family="Poppins" font-size="7.5" font-weight="700" text-anchor="middle">RENTED</text>
+          <text x="170" y="113" fill="#f6f2e9" font-family="Poppins" font-size="7.5" font-weight="700" text-anchor="middle">MIND</text>
+          <g font-family="Poppins" font-size="6.5" fill="#403a32">
+            <circle cx="34" cy="34" r="4" fill="#b08738"/><text x="44" y="37">Siri / Gemini</text>
+            <circle cx="34" cy="80" r="4" fill="#b08738"/><text x="44" y="83">the listening home</text>
+            <circle cx="34" cy="126" r="4" fill="#b08738"/><text x="44" y="129">AI companions</text>
+            <circle cx="34" cy="160" r="4" fill="#b08738"/><text x="44" y="163">the pill vs the gym</text>
+            <circle cx="34" cy="190" r="4" fill="#b08738"/><text x="44" y="193">a mediated peace</text>
+          </g>
+          <path d="M38,34 C100,40 120,90 145,100" stroke="#2f4858" stroke-width="1" fill="none" opacity="0.6"/>
+          <path d="M38,80 C100,84 120,96 144,102" stroke="#2f4858" stroke-width="1" fill="none" opacity="0.6"/>
+          <path d="M38,126 C100,120 120,112 145,108" stroke="#2f4858" stroke-width="1" fill="none" opacity="0.6"/>
+          <path d="M38,160 C100,140 120,120 146,112" stroke="#2f4858" stroke-width="1" fill="none" opacity="0.6"/>
+          <path d="M38,190 C110,160 130,128 147,118" stroke="#2f4858" stroke-width="1" fill="none" opacity="0.6"/>
+        </svg>
+        <div class="imgcap">The week's threads, converging. <span style="color:#7a7264">Meridian original.</span></div>
+      </div>
+      <div class="pull">"The company kept the harness and rented the horse."</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. WWDC 2026 (8 Jun) — Siri / Gemini architecture (see Technology, p7). 2. Aalto University companion-app study, CHI 2026 (see Love &amp; Life, p17). 3. Plato, <i>Phaedrus</i>, 274c–275b (Theuth and Thamus).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 22 — THE LONG READ (2) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Long Read</span><span>The Long Read · continued</span></div>
+
+  <div class="cols2">
+    <p class="body"><span class="dropcap">I</span>f Plato supplies the warning about the faculty, history supplies the sharper warning about the power. The recurring pattern is not merely that an outsourced capacity withers, but that it can turn and capture the one who outsourced it. The hired faculty becomes the master.</p>
+    <p class="body">The Ottomans built the most formidable infantry in Europe out of boys taken in a levy and trained as slave-soldiers of the sultan: the Janissaries.<sup class="fnref">1</sup> For a time it was the perfect arrangement — a professional standing army loyal, in theory, to the throne alone. But a faculty the state could not perform for itself became a faculty the state could not control. The Janissaries learned that the hand which guards the palace can also empty it; they deposed sultans, blocked reforms for two centuries, and were finally destroyed only by force in 1826, when Mahmud II turned the artillery on his own elite guard. The same arc runs through the Mamluks of Egypt, slave-soldiers who simply became the dynasty, ruling for two and a half centuries the realm they had been bought to defend.<sup class="fnref">2</sup></p>
+    <p class="body">Rome wrote the version that ends a civilisation. As the Western empire thinned, it increasingly contracted its frontier defence to Germanic <i>foederati</i> — federated tribes paid and settled in exchange for soldiering Rome no longer wished to do itself.<sup class="fnref">3</sup> It worked until it didn't. The army that defended Rome stopped being Roman, and in 476 a commander of those same federate troops, Odoacer, deposed the last emperor in the West and ruled in his own name. The lights did not go out because Rome was conquered from outside. They went out because Rome had outsourced the one faculty — its own defence — on which everything else rested, and the contractor foreclosed.</p>
+    <p class="pull">"The hand which guards the palace can also empty it."</p>
+    <p class="body">The modern reader should feel the parallel without being bullied by it. A billion-dollar-a-year dependence on a rival's model is not a barbarian on the Rhine. But the structural question is identical: which part is the harness and which is the horse? Apple's wager is that owning the routing, the devices and the customer relationship is the durable position, and that the model itself is a rented commodity — interchangeable, replaceable, a horse you can swap.<sup class="fnref">4</sup> That is a reasonable bet. It is also exactly the bet Rome made about its soldiers, and the Ottomans about their guard: that the thing they had outsourced was the replaceable part. The faculty you rent has a way of discovering it is load-bearing.</p>
+    <p class="body tight">What separates the survivors from the casualties is not whether they outsourced — everyone outsources — but whether they kept the capacity to do the thing themselves if the contract ever turned. The empires that endured kept a core army of their own. The firms that endure keep the ability to swap horses. The faculty you can reclaim is leverage; the faculty you cannot is dependence wearing leverage's clothes.</p>
+    <p class="body tight">Apple, to its credit, seems to understand this. The whole point of the three-tier design — an on-device model it owns, a cloud model it runs, and only the frontier tier rented from Google — is to keep the horse swappable: if the terms sour, the routing and the silicon and the billion customers remain Apple's, and another model can be slotted into the harness. That is the institutional memory of a company that once let Intel become load-bearing and spent a decade clawing the faculty back with its own chips. It is outsourcing designed, from the first day, to be reversible.</p>
+    <p class="pull">"The faculty you rent has a way of discovering it is load-bearing."</p>
+    <p class="body tight">Which is the test that survives the analogy. The Janissary state could not, when the moment came, fight without its guard; that is what made the guard its master rather than its tool. The reversible dependence is a convenience; the irreversible one is a slow transfer of sovereignty dressed as a procurement decision. Empires fell on the difference. So, in smaller ways, will the rest of the week's stories — which is where we should bring the argument home.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Ottoman Janissaries; devshirme; abolition 1826 ("Auspicious Incident"). 2. Mamluk Sultanate of Egypt (1250–1517). 3. Roman <i>foederati</i>; Odoacer's deposition of Romulus Augustulus, 476 CE. 4. WWDC 2026 — the "harness" framing (Technology, p7).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 23 — THE LONG READ (3) ===================== -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Long Read</span><span>The Long Read · continued</span></div>
+
+  <div class="cols2">
+    <p class="body"><span class="dropcap">B</span>ring it down from empires to the kitchen, because that is where the reader actually lives. The week's smaller stories are the same wager in domestic scale. The weight-loss drug is a rented metabolism; the proposed second compound to preserve muscle is a rented repair for the rented result.<sup class="fnref">1</sup> Against both stands the un-rentable thing — the barbell, the protein, the boring repetition — which confers a strength that is yours because you made it. The companion app rents the experience of being understood, and the study's quiet finding is that the rental can crowd out the real lease.<sup class="fnref">2</sup> The home's new voice rents you an answer to every question, at the cost, Thamus would say, of the habit of working some of them out yourself.</p>
+    <p class="body">This is the moment to be honest about the other side, because the moral-panic reading is lazy and this file does not traffic in it. Writing did not make us stupid; it made libraries. The calculator did not end arithmetic; it freed it for harder problems. A patient machine may be a genuine bridge for the isolated, and a rented model may be exactly the right call for a company that wants to ship a good assistant this year rather than a mediocre one of its own. Outsourcing is how anything large gets built. The error is never outsourcing as such. The error is forgetting which faculties are load-bearing — the ones that, if the contract turns, you must still be able to perform yourself.</p>
+    <p class="pull">"The faculty you can reclaim is leverage; the one you cannot is dependence in leverage's clothes."</p>
+    <p class="body">Which is where Emerson earns his place at the top of this issue. "Insist on yourself; never imitate," he wrote in <i>Self-Reliance</i>, and the line reads now less as a romantic flourish than as risk management.<sup class="fnref">3</sup> Emerson was not against learning from others — he read voraciously. He was against the surrender of the centre: the point past which a borrowed faculty stops being a tool you use and becomes a self you no longer have. The Janissary state could not fight without its guard. The Roman frontier could not hold without its contractors. The danger is not the borrowing; it is the day you discover you can no longer do the thing alone.</p>
+    <p class="body tight">We have kept this argument company before, and it is worth the callback. The Cicero of our No. 16 essay knew that a borrowed memory is a borrowed self; the Thoreau of No. 10 wanted only the tools he could put down; the Pasteur of No. 14 reminded us that fortune favours the prepared mind — and a mind is prepared only by faculties it has actually exercised. The throughline is not nostalgia for self-sufficiency. It is a simple test to carry into a week that will keep offering to do your thinking, your feeling and your training for you: rent freely, but keep the horse you can ride home. Insist on yourself. The harness is worth nothing if you have forgotten how to walk.</p>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="agenda-h"><span>The threads · reversible or not</span><span class="sub">the issue, scored</span></div>
+  <div class="cols3">
+    <p class="body tight"><b>Siri's mind →</b> <i>reversible.</i> Apple keeps the routing, the silicon and the customer; the model can be swapped. Leverage, for now — provided the harness stays Apple's.</p>
+    <p class="body tight"><b>The listening home →</b> <i>watch it.</i> Convenience today; dependence the day you can no longer answer your own questions. Keep some of them yours.</p>
+    <p class="body tight"><b>The companion →</b> <i>risky.</i> The capacity to be known by a person does not come back on demand. Outsource the small talk, not the intimacy.</p>
+    <p class="body tight"><b>The pill vs the barbell →</b> <i>keep the barbell.</i> Strength you build is owned outright; strength a drug preserves is leased. Train regardless.</p>
+    <p class="body tight"><b>The mediated peace →</b> <i>fragile.</i> A settlement authored by guarantors holds only as long as they choose to hold it — leverage that belongs to someone else.</p>
+    <p class="body tight"><b>The rule →</b> rent the horse, keep the harness, and never forget how to walk. That is the whole of it.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Stanford Medicine / GLP-1 muscle research (Fitness, p18). 2. Aalto University companion study (Love &amp; Life, p17). 3. Ralph Waldo Emerson, <i>Self-Reliance</i> (1841). Callbacks: Cicero (No. 16), Pasteur (No. 14), Thoreau (No. 10).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 24 — BACK COVER ===================== -->
+<section class="page dark">
+  <div class="topbar">
+    <span></span>
+    <span>No. 17 · Singapore</span>
+  </div>
+
+  <div style="margin-top:30mm;">
+    <div class="kicker gold">The Last Word</div>
+    <h1 class="hed" style="color:#f6f2e9;">Keep the horse you can ride home.</h1>
+    <p class="dek" style="color:#e8dccb;">A week that asked, on every desk, what it costs to borrow a faculty — and answered that the bill is always paid in the faculty itself. Rent the model. Own the routing. Insist on yourself.</p>
+  </div>
+
+  <div class="hairline" style="border-color:#403a32;"></div>
+
+  <div class="cols2" style="color:#cfc6b5;">
+    <p class="body tight" style="color:#cfc6b5;"><b style="color:#b08738;">Sources, consolidated.</b> The World: Reuters, FT, Al Jazeera, CNBC, JPMorgan &amp; Fitch notes, Polymarket. Singapore: WP statements, CNA, The Straits Times, EMA tariff schedule. Property: MAS SORA data, HDB RPI, bank package sheets. Technology: WWDC 2026 keynote, byteiota, FourWeekMBA. The Kit: Counterpoint, IDC, Apple betas. Connected Home: CSA, Matter notes, Home Assistant.</p>
+    <p class="body tight" style="color:#cfc6b5;">The Good Life: Reuters, Japan MoF, JNTO, auction-house calendars. Screen &amp; Sound: Billboard, Geffen, Women's Prize. Family: Apple, APA, Common Sense Media. Curiosities: Sci.News, Live Science. Love &amp; Life: Aalto / CHI 2026, happn, Norton. Fitness: Stanford Medicine, Medscape. The Diary: Eatbook, Time Out SG, JNTO, festival organisers. The Long Read: Plato, Ottoman &amp; Roman history, Emerson.</p>
+  </div>
+
+  <div style="position:absolute;top:50%;left:16mm;right:16mm;transform:translateY(-50%);text-align:center;">
+    <div style="font-family:'Lora',serif;font-style:italic;font-size:19pt;line-height:1.3;color:#e8dccb;">"Insist on yourself;<br>never imitate."</div>
+    <div style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.18em;text-transform:uppercase;color:#b08738;margin-top:10px;">Emerson · the week's standing instruction</div>
+  </div>
+
+  <div style="position:absolute;bottom:18mm;left:16mm;right:16mm;text-align:center;">
+    <div class="gold-rule" style="margin:0 auto 6px;"></div>
+    <div class="tagline" style="color:#b08738;">Twelve Desks · One World</div>
+    <div style="font-family:Poppins,sans-serif;font-size:8px;letter-spacing:2px;color:#7a7264;margin-top:4px;">MERIDIAN · No. 17 · Tuesday 9 June 2026 · The Weekday Briefing</div>
+  </div>
+</section>
+</body>
+</html>
