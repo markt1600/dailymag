@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+
+/* ---- PHOTO EDITION flow overrides (screen) ---- */
+.page{height:auto;min-height:297mm;overflow:visible;}
+.page:last-child{page-break-after:auto;}
+.pgfoot{position:static;margin-top:9mm;left:auto;right:auto;}
+.ph-frame{aspect-ratio:16/8;overflow:hidden;border:.6pt solid var(--line);border-radius:3px;background:var(--paper2);margin:7px 0 4px;}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+body{max-width:230mm;margin:0 auto;}
+
+</style>
+<title>MERIDIAN — No. 18 · Photo Edition</title>
+</head>
+<body>
+
+<!-- ============ 1. COVER ============ -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 18 · Singapore</span></div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+  </div>
+
+  <!-- Hero: wireframe globe with connection arcs + a hallmark/seal of provenance -->
+  <div style="position:absolute;top:104mm;left:50%;transform:translateX(-50%);width:150mm;text-align:center;">
+    <svg viewBox="0 0 600 360" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="42%" r="60%">
+          <stop offset="0%" stop-color="#241f19"/><stop offset="100%" stop-color="#191613"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="600" height="360" fill="url(#glow)"/>
+      <!-- globe -->
+      <g stroke="#b08738" fill="none" stroke-width="0.9" opacity="0.85">
+        <circle cx="300" cy="170" r="120"/>
+        <ellipse cx="300" cy="170" rx="120" ry="42"/>
+        <ellipse cx="300" cy="170" rx="120" ry="84"/>
+        <ellipse cx="300" cy="170" rx="44" ry="120"/>
+        <ellipse cx="300" cy="170" rx="88" ry="120"/>
+        <line x1="180" y1="170" x2="420" y2="170"/>
+        <line x1="300" y1="50" x2="300" y2="290"/>
+      </g>
+      <!-- connection arcs -->
+      <g stroke="#c1462e" fill="none" stroke-width="1.4" opacity="0.92">
+        <path d="M214 110 Q330 30 392 130"/>
+        <path d="M210 232 Q330 320 404 214"/>
+        <path d="M196 150 Q300 200 410 120"/>
+      </g>
+      <g fill="#c1462e">
+        <circle cx="214" cy="110" r="3.4"/><circle cx="392" cy="130" r="3.4"/>
+        <circle cx="210" cy="232" r="3.4"/><circle cx="404" cy="214" r="3.4"/>
+        <circle cx="196" cy="150" r="3.4"/><circle cx="410" cy="120" r="3.4"/>
+      </g>
+      <!-- hallmark / seal of provenance -->
+      <g transform="translate(300,170)">
+        <circle r="30" fill="none" stroke="#e8dccb" stroke-width="1.1" opacity="0.9"/>
+        <circle r="22" fill="none" stroke="#e8dccb" stroke-width="0.6" opacity="0.55"/>
+        <path d="M-9 1 l6 7 l13 -15" fill="none" stroke="#b08738" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </svg>
+    <div style="font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.32em;text-transform:uppercase;color:#9a8f7c;margin-top:2mm;">Wednesday · 10 June 2026 · The Weekday Edition</div>
+  </div>
+
+  <!-- teasers -->
+  <div class="cover-teasers">
+    <div class="hairline"></div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">Technology</div>
+        <div class="ht">The mind, now on your lap: a 120-billion-parameter laptop</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">The World</div>
+        <div class="ht">Hormuz traffic is rising — the trust isn't</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">Curiosities</div>
+        <div class="ht">The most powerful particle ever seen may not be what we said</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Independent · Singapore</span>
+    <span>Consider the source</span>
+  </div>
+</section>
+
+<!-- ============ 2. CONTENTS + FROM THE DESK ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Contents</span><span>The Current Briefing</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="grid g-21" style="margin-top:7mm;">
+    <div>
+      <div class="kicker">Inside No. 18</div>
+      <h2 class="hed sm" style="margin-bottom:9px;">The Book</h2>
+
+      <div class="cols2" style="column-gap:7mm;">
+        <p class="body tight" style="text-align:left;"><b>The World</b> · p3<br>Hormuz reopens by inches; the signed-by-nobody peace.<br><br>
+        <b>Singapore</b> · p5<br>A foreign hand on a local nerve.<br><br>
+        <b>Property</b> · p6<br>The safe-haven reflex, war and all.<br><br>
+        <b>Technology</b> · p7<br>A frontier model that fits in a backpack.<br><br>
+        <b>The Kit</b> · p9<br>Garmin goes back to basics.<br><br>
+        <b>The Connected Home</b> · p10<br>Matter's cameras arrive — minus the back end.</p>
+
+        <p class="body tight" style="text-align:left;"><b>The Good Life</b> · p11<br>The maker's hand, while New York counts lots.<br><br>
+        <b>Screen &amp; Sound</b> · p12<br>The blockbusters come home.<br><br>
+        <b>The Family Desk</b> · p13<br>Raising a "consider-the-source" child.<br><br>
+        <b>The Whisper Desk</b> · p15<br>Silly season, all unverified.<br><br>
+        <b>Curiosities</b> · p16<br>The particle that wasn't a proton.<br><br>
+        <b>Love &amp; Life</b> · p17<br>Is anyone on the other end real?<br><br>
+        <b>Fitness</b> · p18 · <b>The Diary</b> · p19 · <b>The Long Read</b> · p21</p>
+      </div>
+
+      <div class="hairline"></div>
+      <div class="kicker slate">The Markets Strip</div>
+      <div class="grid g-12" style="gap:5mm;margin-top:5px;">
+        <div class="stat"><div class="n">$91</div><div class="c">Brent crude / bbl · −3% on the day</div></div>
+        <div class="stat"><div class="n">~4,960</div><div class="c">STI · steady near record</div></div>
+      </div>
+      <div class="grid g-12" style="gap:5mm;margin-top:3px;">
+        <div class="stat"><div class="n">29.72¢</div><div class="c">SG power tariff /kWh · Q3 hike flagged</div></div>
+        <div class="stat"><div class="n">1.8%</div><div class="c">SG April CPI · Q1 GDP +6%</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="chatter gold" style="margin-top:0;">
+        <div class="lbl">From the Desk</div>
+        <p style="font-family:'Lora',serif;font-style:italic;font-size:11pt;line-height:1.34;color:var(--ink);">"Where is the wisdom we have lost in knowledge? Where is the knowledge we have lost in information?"</p>
+        <p class="src">— T. S. Eliot, choruses from <i>The Rock</i> (1934)</p>
+        <p>Eliot wrote that lament a year after the BBC went to a national audience and a decade before the first programmable computers. We read it ninety-two years on, drowning in feeds, models and channels — and the question the whole book keeps circling is older and simpler than any of them: <i>where did this come from, and can I trust it?</i></p>
+        <p>This issue, the answer is rarely on the label. A wave of anti-Indian posts that surfaced in Singapore traced back to a server in China. Apple's new assistant thinks with a model it rents from Google. The Matter camera you mount this month speaks a universal language — but stores its footage wherever its maker likes. A particle billed for years as the most powerful proton ever caught may not be a proton at all. The thread is provenance: not what a thing says it is, but where it actually comes from, and who holds the keys once it's through your gate.</p>
+      </div>
+      <div class="figframe" style="margin-top:7px;">
+        <svg viewBox="0 0 300 120" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <rect width="300" height="120" fill="#fff"/>
+          <text x="10" y="18" font-family="Poppins" font-size="8" fill="#7a7264" letter-spacing="1.5">THE THREAD · WHO HOLDS THE KEY?</text>
+          <g font-family="Poppins" font-size="7.6" fill="#403a32">
+            <circle cx="18" cy="40" r="3" fill="#c1462e"/><text x="28" y="43">Info-op → a server overseas</text>
+            <circle cx="18" cy="58" r="3" fill="#b08738"/><text x="28" y="61">Siri → a model on rent</text>
+            <circle cx="18" cy="76" r="3" fill="#2f4858"/><text x="28" y="79">Your camera → someone's cloud</text>
+            <circle cx="18" cy="94" r="3" fill="#2b6b66"/><text x="28" y="97">Your match → maybe an algorithm</text>
+          </g>
+          <text x="10" y="114" font-family="Poppins" font-size="6.2" fill="#7a7264">Meridian — the issue's spine, in four objects.</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;T. S. Eliot, <i>The Rock</i> (Faber, 1934); SP Group/EMA tariff notice (Apr 2026); SGX, EIA, CNBC market data to 9 Jun 2026.</div>
+    <div class="fnbar"><span>Contents &amp; From the Desk</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<!-- ============ 3. THE WORLD (p3) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+    <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/POLAR%20ADVENTURE,%20Crude%20Oil%20Tanker.jpg?width=1600" alt="crude oil tanker (representative)" loading="lazy"></div>
+  <div class="imgcap">Representative &mdash; a crude-oil tanker (the <i>Polar Adventure</i>), not a vessel in the Strait of Hormuz. Subject verified from the Commons file page. Source: Wikimedia Commons &mdash; File:POLAR ADVENTURE, Crude Oil Tanker.jpg &middot; CC BY-SA 4.0 &middot; Steven Pavlov.</div>
+<div class="kicker" style="margin-top:7px;">Hormuz · The Hundred-Day War</div>
+  <h1 class="hed">Oil leaks back through the strait. The peace stays unsigned.</h1>
+  <div class="dek">A weekend exchange of missiles ended as fast as it flared. Tankers are moving again — and yet the only thing nobody will put a name to is the deal that is supposed to end it all.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The first direct fire between Israel and Iran since April's truce lasted barely a night. Iran loosed missiles at Israel on 7&ndash;8 June over Israel's continued strikes in southern Lebanon; Israel hit back, then both halted at Washington's urging.<sup class="fnref">1</sup> By Tuesday the airspace had reopened, schools were back, and the barrage that briefly pushed Brent above US$98 had drained away. What it left behind is the same paradox the reader has watched harden for four months: a war fought in spasms around a deal "described in every capital and signed in none."</p>
+
+    <p class="body">The market's tell this week was oil going <i>down</i> on a war scare. Brent settled near US$91 and US crude near US$88 &mdash; off about 3% on the day &mdash; after US Energy Secretary Chris Wright said traffic through the Strait of Hormuz was "rising very meaningfully," even as President Trump accused Iran of downing a US Apache patrolling the chokepoint.<sup class="fnref">2</sup> The dual blockade still chokes the world's busiest oil artery, but more crude is slipping through than the satellites show. JPMorgan told clients on 4 June that real flows likely exceed visible ones.</p>
+
+    <div class="pull">"A ceasefire is not a refund. Ceasefires end wars; they do not undo them."</div>
+
+    <p class="body">That is the provenance problem in geopolitical form. Every party agrees a piece of paper exists; none will vouch for what is on it, or whose signature counts. Tehran's parliamentary speaker, Mohammad Bagher Ghalibaf, says Iran will "defeat" the naval blockade and lists three breaches it blames on Washington. The White House says the blockade lifts only when a "final deal" is reached. Both statements describe the same sixty-day framework. Neither will sign it first.<sup class="fnref">3</sup></p>
+
+    <p class="body tight">The forecasters, meanwhile, refuse to relax. The US Energy Information Administration still pencils Brent near US$106 for May&ndash;June before Gulf supply pulls it toward US$89 by the fourth quarter &mdash; a reminder that the buffer of global stockpiles is finite and summer demand is climbing into it.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="chatter">
+      <div class="lbl">The Chatter · Energy Desks</div>
+      <p>Traders on the commodities forums read Wright's "rising meaningfully" as a nudge, not a number &mdash; he gave no figures. The consensus: prices are "moderate relative to the disruption" only because inventories are doing the heavy lifting, and that cushion thins every week.</p>
+      <p class="src">— Compiled from energy-trading commentary, 9 Jun</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>A contrarian note doing the rounds: the Apache claim and the "traffic rising" claim can't both be load-bearing. If Hormuz were genuinely normalising, you wouldn't need to keep announcing it. Treat both as messaging until tanker-tracking confirms.</p>
+      <p class="src">— Paraphrased market scepticism</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. CNN/PBS/NPR live coverage, 7&ndash;9 Jun 2026. 2. CNBC, "Oil prices &hellip; Strait of Hormuz," 9 Jun 2026. 3. Reuters/CNBC, Ghalibaf &amp; White House statements, 1&ndash;9 Jun; EIA Short-Term Energy Outlook, Jun 2026.</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<!-- ============ 3b. THE WORLD (p4) — viewpoints + secondaries ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The World</span><span>Around the Desks</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="kicker slate" style="margin-top:7px;">Four Capitals, One Strait</div>
+  <h2 class="hed sm">The same waterway, read four ways</h2>
+
+  <div class="grid g-12-narrow" style="margin-top:6px;">
+    <div class="desk">
+      <div class="flag"><span>Tehran</span><span class="geo">Tasnim / IRGC</span></div>
+      <p>The blockade is leverage and the talks are alive only if Washington is "honest." Operations against Israel are "ended" but conditional on Lebanon; US bases remain "no longer safe" if struck again. Enrichment is non-negotiable.</p>
+    </div>
+    <div class="desk">
+      <div class="flag"><span>Washington</span><span class="geo">White House / DoE</span></div>
+      <p>A deal is reachable "over the next week"; the blockade stays until a final agreement. Energy Secretary Wright: Hormuz traffic is "rising very meaningfully." The Apache downing, the president says, "must" be answered.</p>
+    </div>
+    <div class="desk">
+      <div class="flag"><span>Beijing</span><span class="geo">via customs &amp; Reuters</span></div>
+      <p>The quiet beneficiary and the quiet worry: Chinese crude imports have slumped to a ten-year low as Gulf flows stutter, even as Beijing keeps buying discounted barrels where it can and says little for the record.</p>
+    </div>
+    <div class="desk">
+      <div class="flag"><span>Islamabad</span><span class="geo">Mediator's seat</span></div>
+      <p>Pakistan, host of the April talks, keeps the channel warm. Its framing is the non-aligned one: a settlement that reopens the strait serves everyone's economy, and verification &mdash; not victory &mdash; is what is missing.</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="cols2">
+    <p class="body"><b>Colombia, 21 June.</b> The presidential run-off holds its shape: hard-right outsider Abelardo de la Espriella (43.7% first round) against the left's Iván Cepeda (40.9%), with the centre's endorsements now the prize. A market-versus-movement contest in a major oil and coffee exporter, watched closely from Washington.<sup class="fnref">1</sup></p>
+
+    <p class="body"><b>Ukraine, the long reach.</b> Kyiv's drones again struck deep into Russian energy infrastructure, knocking a Volgograd refinery offline and harassing oil terminals far from the front. The war's centre of gravity keeps shifting from territory to throughput &mdash; degrade the export, not the trench.<sup class="fnref">2</sup></p>
+
+    <div class="chatter teal">
+      <div class="lbl">Worth Keeping In View</div>
+      <p>Two slow-burns the wire under-rates: a brief leak scare aboard the International Space Station that complicates plans to fly it to 2032, and a quiet hardening of sanctions language as Washington warns allies about "extraction and distillation" of US technology. Provenance, again &mdash; this time of code.</p>
+      <p class="src">— Meridian desk note</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Reuters/Colombia electoral authority, first-round results &amp; run-off date. 2. Reuters/AP, Ukrainian long-range strikes &amp; Volgograd refinery, w/c 8 Jun 2026.</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</section>
+<!-- ============ 4. SINGAPORE (p5) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+    <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Marina Bay, Singapore, at dusk" loading="lazy"></div>
+  <div class="imgcap">Marina Bay and the Singapore skyline at dusk. Subject verified from the Commons file page. Source: Wikimedia Commons &mdash; File:Singapore Marina Bay Dusk 2018-02-27.jpg &middot; CC BY-SA 4.0 &middot; Benh Lieu Song.</div>
+<div class="kicker" style="margin-top:7px;">Foreign Interference</div>
+  <h1 class="hed">A foreign hand finds a local nerve</h1>
+  <div class="dek">Fourteen posts, geo-blocked in a day. The content was crude; the lesson underneath it is the one worth keeping: the anger was ours, the amplifier was not.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">On 6 June the government invoked the Online Criminal Harms Act and ordered YouTube, Facebook and X to block local access to fourteen posts that cast Singapore as "overrun by Indians." The Home Affairs ministry said the narratives surfaced in May inside a China-based information space before being amplified abroad; Second Minister Edwin Tong put it plainly &mdash; "the content originated from overseas."<sup class="fnref">1</sup> The platforms complied within the day.</p>
+
+    <p class="body">It is tempting to file this under housekeeping. The more useful reading is the one that runs through this whole issue: <i>consider the source.</i> The resentment the posts tried to harvest &mdash; over immigration, jobs, the texture of daily integration &mdash; is real and homegrown. What was imported was the megaphone. An external actor took a genuine domestic tension and tried to turn the gain up, the same play used against the 2024 leadership transition and again at last year's election.</p>
+
+    <div class="pull">The anger was ours. The amplifier was not. Telling the two apart is now a civic skill.</div>
+
+    <p class="body">For a reader who watches the region's wiring, this lands alongside a quieter strategic anxiety: the sense, voiced by analysts this month, that Washington's tariffs, forced-labour probes and pressure to "pick a side" are narrowing Singapore's room to balance. The danger isn't a dramatic pivot to Beijing; it's a slow diversification of ties that erodes everyone's leverage. A small state's only real defence against being moved is to know exactly who is doing the moving.<sup class="fnref">2</sup></p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <div class="chatter">
+        <div class="lbl">The Chatter · r/singapore</div>
+        <p>The thread split predictably: relief that it was acted on fast, unease that "block 14 posts" barely dents a firehose, and a sharper minority asking the honest question &mdash; why did it land at all? The most-upvoted reply: because the grievance was real before anyone weaponised it.</p>
+        <p class="src">— Paraphrased forum consensus</p>
+      </div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>"Foreign origin" is doing heavy lifting in the official account. Attribution of information operations is genuinely hard; treat "likely from a China-based platform" as a careful claim, not a closed case &mdash; which is exactly the standard the takedown asks citizens to apply.</p>
+        <p class="src">— Meridian note on attribution</p>
+      </div>
+    </div>
+    <div>
+      <div class="kicker slate">The Relief Calendar</div>
+      <p class="body tight">Against the energy squeeze, the household top-ups keep arriving on schedule: <b>June</b> &mdash; the S$500 CDC vouchers; <b>July</b> &mdash; U-Save and S&amp;CC rebates; <b>August</b> &mdash; the GST Voucher cash; with the cost-of-living payout to follow. The power tariff sits at 29.72&cent;/kWh with a sharper Q3 rise flagged, since fuel costs feed in with a lag.</p>
+      <div class="stat" style="margin-top:4px;"><div class="n">+6%</div><div class="c">Q1 GDP · AI demand</div></div>
+      <div class="stat"><div class="n">1.8%</div><div class="c">April CPI</div></div>
+      <p class="body tight" style="margin-top:4px;"><b>Also noted.</b> The WP cadres' conference on 28 June, with its secret-ballot question over Pritam Singh, advances by a line only: positions hardened on both sides this week, the matter still heads to the Court of Three Judges, and nothing is decided until the room votes.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. MHA directives under OCHA, 6 Jun 2026; Straits Times / Indian-press coverage of Edwin Tong's remarks. 2. D. Grossman, <i>Foreign Policy</i>, 5 Jun 2026; SP Group/EMA tariff notice; Singapore Budget 2026 relief schedule.</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+<!-- ============ 5. PROPERTY (p6) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">The Safe-Haven Reflex</div>
+  <h1 class="hed">War in the Gulf, launches in the suburbs</h1>
+  <div class="dek">A hundred days into an oil war, Singapore's developers are not flinching. History gives the reader a read-through worth filing — and a caution worth filing beside it.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The instinct, when missiles fly and Brent jumps, is to assume property freezes. The local record says otherwise. Huttons notes that Singapore's private market has historically shrugged off Middle East conflict &mdash; prices rose about 2.8% in 2004, the year after the Iraq war &mdash; and analysts now expect some 8,900 units across roughly twenty projects to launch between now and year-end.<sup class="fnref">1</sup> Developers are pressing on, on the wager that has paid out for two decades: in a nervous world, a politically stable city with rule of law reads as a vault.</p>
+
+    <p class="body">The flash data is co-operative. The URA's first-quarter index was revised <i>up</i> to +0.6% from a 0.3% estimate &mdash; soft, but positive, with the Rest-of-Central and Outside-Central regions doing the work while landed prices slipped. Recent launches confirm the pulse: Hudson Place Residences moved 201 of 327 units on debut at about S$2,458 psf, and a CapitaLand&ndash;UOL consortium paid S$1.5 billion for the Hougang Central site, a vote of confidence priced in nine figures.<sup class="fnref">2</sup></p>
+
+    <div class="pull">A vault is only as safe as the assumption that nothing changes. That is the assumption to interrogate.</div>
+
+    <p class="body">For an owner, the read-through is steadiness, not euphoria: a market grinding higher on supply and stability rather than speculation, with the cooling measures still load-bearing. The caution is the flip side of the safe-haven story &mdash; the same energy shock lifting tariffs is squeezing households, and a market that leans on "Singapore is different" is, in the end, leaning on a belief about provenance: that the stability priced in is real and durable. It usually has been. "Usually" is the word doing the work.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="chatter gold">
+      <div class="lbl">The Chatter · Agents &amp; Buyers</div>
+      <p>Showflat chatter is unbothered &mdash; "wars don't move Singapore property" is repeated like a mantra. The more interesting agent line: foreign enquiries tick up precisely <i>because</i> the region looks unsettled, ABSD notwithstanding. Safe-haven demand is its own small tailwind.</p>
+      <p class="src">— Paraphrased market commentary</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>2004 is a thin sample. The mantra works until a shock arrives through a channel property <i>isn't</i> insulated from &mdash; a sustained rates regime, a genuine demand recession, or a policy turn. "It's always held" is a track record, not a guarantee.</p>
+      <p class="src">— Contrarian read</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <p class="body tight"><b>Still on the shelf.</b> June's Prime-heavy BTO and the URA 2H2026 GLS Confirmed List &mdash; both covered last issue &mdash; advance by a line: applications for the BTO open shortly, and the supply pipeline ticks toward ~61,000 units. The SORA refinancing window stays a one-line footnote, as flagged: rates are not the story this issue, and won't be again without a genuinely new turn.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. EdgeProp/Huttons, 2Q&ndash;4Q2026 launch pipeline &amp; 2004 precedent. 2. URA Q1 2026 final index; 99.co/Stacked launch data (Hudson Place; Hougang Central GLS award).</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</section>
+<!-- ============ 6. TECHNOLOGY (p7) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+    <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Servers%20in%20a%20Rack.jpg?width=1600" alt="servers in a data-centre rack (representative)" loading="lazy"></div>
+  <div class="imgcap">Representative &mdash; servers in a data-centre rack, the &ldquo;rented&rdquo; pole of the spectrum; not Nvidia&rsquo;s RTX Spark. Subject verified from the Commons file page. Source: Wikimedia Commons &mdash; File:Servers in a Rack.jpg &middot; CC BY-SA 3.0 &middot; Abigor.</div>
+<div class="kicker" style="margin-top:7px;">The Edge Comes Home</div>
+  <h1 class="hed">A 120-billion-parameter mind, in a backpack</h1>
+  <div class="dek">Nvidia spent a decade owning the data centre. At Computex it pointed the same architecture at your lap — and quietly answered a question the home-lab reader has been asking for two years: how far can local actually go?</div>
+
+  <div class="cols2">
+    <p class="body dropcap">On 1 June in Taipei, Jensen Huang unveiled the RTX Spark Superchip and said the quiet part loudly: Nvidia, with Microsoft, intends to "reinvent the PC." The part numbers do the arguing. Up to twenty Arm CPU cores and a Blackwell GPU with 6,144 CUDA cores, lashed to 128GB of LPDDR5X over NVLink at up to 300 GB/s &mdash; enough, Nvidia says, to run 120-billion-parameter models with context windows stretching to a million tokens, locally, on a laptop.<sup class="fnref">1</sup> Systems ship this autumn from Dell, HP, Lenovo, Asus and MSI, plus a Microsoft Surface Ultra. AMD, Intel and Qualcomm shares dipped on the news.</p>
+
+    <p class="body">For the reader running a home lab, this is the sibling to the DGX Spark desktop we flagged in No.&nbsp;16 &mdash; only now the frontier-class local box detaches from the wall. The significance isn't raw speed; it's <i>residence</i>. A model that lives on a device you own, fed by memory you own, answering from silicon you control, is the cleanest possible answer to the provenance question this issue keeps asking. Rent nothing; own the keys.</p>
+
+    <div class="pull">The question was never "is the cloud faster?" It was "whose machine is thinking?"</div>
+
+    <p class="body tight">The catch is the one binding constraint we've tracked all month: memory. 128GB of LPDDR5X is generous precisely because DRAM has gone scarce and dear &mdash; the memory tax that pushed contract prices up sharply this quarter is exactly why a unified-memory laptop is both a marvel and a luxury. The chip is the easy part now. The RAM is the moat.</p>
+  </div>
+
+  <div class="figframe" style="margin-top:6px;">
+    <svg viewBox="0 0 540 150" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <rect width="540" height="150" fill="#fff"/>
+      <text x="12" y="18" font-family="Poppins" font-size="9" fill="#191613" letter-spacing="1.2">WHERE DOES THE MODEL THINK? — A SPECTRUM OF CONTROL</text>
+      <line x1="40" y1="92" x2="500" y2="92" stroke="#d8cfbd" stroke-width="1.4"/>
+      <g font-family="Poppins" font-size="7.4" fill="#403a32" text-anchor="middle">
+        <circle cx="80" cy="92" r="6" fill="#2b6b66"/><text x="80" y="74">On-device</text><text x="80" y="112" font-size="6.6" fill="#7a7264">RTX Spark / DGX Spark</text>
+        <circle cx="220" cy="92" r="6" fill="#b08738"/><text x="220" y="74">Local server</text><text x="220" y="112" font-size="6.6" fill="#7a7264">your home lab</text>
+        <circle cx="360" cy="92" r="6" fill="#c1462e"/><text x="360" y="74">Rented model</text><text x="360" y="112" font-size="6.6" fill="#7a7264">Siri → Gemini</text>
+        <circle cx="480" cy="92" r="6" fill="#2f4858"/><text x="480" y="74">Pure cloud</text><text x="480" y="112" font-size="6.6" fill="#7a7264">someone's API</text>
+      </g>
+      <text x="40" y="138" font-family="Poppins" font-size="7" fill="#c1462e">← you hold the keys</text>
+      <text x="500" y="138" font-family="Poppins" font-size="7" fill="#2f4858" text-anchor="end">someone else does →</text>
+      <text x="12" y="148" font-family="Poppins" font-size="6" fill="#7a7264">Meridian original.</text>
+    </svg>
+    <div class="imgcap">Four places a model can live. The RTX Spark drags the frontier one full notch left — toward the end of the line where the keys are yours.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:7px;">
+    <div class="chatter">
+      <div class="lbl">The Chatter · Local-LLM Forums</div>
+      <p>The home-lab boards greeted the Spark with the usual split: half see the end of the noisy GPU tower, half are already doing the arithmetic on what 128GB of soldered memory costs when DRAM is this dear. The recurring caution &mdash; soldered means no upgrade path, so you buy the ceiling you can afford on day one and live with it for the life of the machine.</p>
+      <p class="src">— Compiled from local-LLM community threads, w/c 8 Jun</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">120B</div><div class="c">params runnable locally · ~1M-token context</div></div>
+      <div class="stat" style="margin-top:6px;"><div class="n">300</div><div class="c">GB/s NVLink memory bandwidth</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Tom's Hardware / CNBC, Computex 2026: Nvidia RTX Spark Superchip, 1&ndash;2 Jun 2026; Microsoft Surface Ultra partner list.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+
+<!-- ============ 6b. TECHNOLOGY (p8) — Home Lab ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Technology</span><span>The Home Lab</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="kicker slate" style="margin-top:7px;">Rent vs Own · The Week's Deltas</div>
+  <h2 class="hed sm">Apple rents the brain; Beijing skips the queue</h2>
+
+  <div class="cols2">
+    <p class="body">If the RTX Spark is the "own" pole, this week supplied the "rent" one. The verdict on WWDC settles into one line: Apple's rebuilt Siri thinks with a custom ~1.2-trillion-parameter Google Gemini running on Google Cloud, at a reported ~US$1bn a year &mdash; "rent the model, own the routing, manufacture the devices." First betas land this autumn; the home-lab reader's interest is purely architectural now, a one-line delta until something ships.<sup class="fnref">1</sup></p>
+
+    <p class="body">On the chip-sovereignty front, the H200 saga advances by a delta only, as it has since No.&nbsp;08: still cleared for China, still effectively undelivered, with Beijing steering buyers toward Huawei Ascend. The proof of concept is no longer theoretical &mdash; frontier-class open-weight models (Zhipu's GLM line, DeepSeek's V4) were trained on Ascend silicon, NVIDIA absent. The export control's logic erodes one training run at a time.<sup class="fnref">2</sup></p>
+
+    <div class="chatter teal">
+      <div class="lbl">Home-Lab Notebook</div>
+      <p>The practical upshot of a 128GB unified-memory laptop: a 120B model at usable speed without a tower, a PSU the size of a brick, or a cloud bill. The trade is price and battery. For the migrator, it reframes the build &mdash; not "how many GPUs," but "how much memory can I own outright before the tax bites."</p>
+      <p class="src">— Meridian desk</p>
+    </div>
+
+    <p class="body tight"><b>Still on the shelf.</b> The open-weight frontier is unchanged since last issue &mdash; GLM-5.1, Kimi K2.6 and DeepSeek V4-Pro still trade the lead, with no fresh dethroning to report. We note the trend and move on; a model only earns a headline here when it actually takes the crown or cuts the price.</p>
+
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>Before anyone retires the cloud: "runs a 120B model" and "runs it well, all day, on battery" are different claims, and Nvidia is selling the first. Wait for independent throughput-on-battery numbers this autumn. A spec sheet is a promise, not a benchmark.</p>
+      <p class="src">— Contrarian note</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. WWDC 2026 keynote &amp; coverage, 8 Jun 2026 (Siri / Gemini routing). 2. Reuters/Tom's Hardware, Ascend-trained frontier models &amp; H200 status, to Jun 2026.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+<!-- ============ 7. THE KIT (p9) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Wearables · Back to Basics</div>
+  <h1 class="hed">Garmin remembers what a watch is for</h1>
+  <div class="dek">While every other wrist gadget races to bolt on AI, Garmin's new entry-level runners do something quietly radical: less.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">Garmin's Forerunner 70 and 170 land as the new floor of its running line, replacing the well-loved 55 and 165. The two share a 43mm case, a 1.2-inch AMOLED touchscreen, five physical buttons and support for 80-plus activities; the 170 sits a notch higher on sensors.<sup class="fnref">1</sup> No chatbot, no "assistant," no subscription &mdash; just a watch that measures the run and gets out of the way. For a reader already wearing an Oura ring and a Whoop band, that restraint is the appeal: a focused tool whose data lives on a device built to do one job honestly.</p>
+
+    <p class="body">It's the counterweight to the page before. Where the laptop story is about owning a vast, general mind, the watch story is about owning a small, specific one &mdash; a sensor you can trust precisely because it isn't trying to be clever. In an issue about knowing where your data comes from, a buttoned device that simply reports what it measured is its own small statement.</p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter · Runners' Forums</div>
+      <p>Early reaction is warm and slightly relieved: AMOLED at the entry tier, the buttons kept, the price sane. The grumble is predictable &mdash; another year of incremental sensor talk &mdash; but the through-line is "this is the one to buy a beginner," which is exactly the brief.</p>
+      <p class="src">— Paraphrased forum reaction</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="kicker slate">Still On The Shelf</div>
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body tight"><span class="tag">No new peg</span> <b>Klipsch Heritage "Rebellion"</b> &amp; <b>Schiit "Vestri"</b> &mdash; last issue's hi-fi leads; awaiting ship dates and first independent listens.<br>
+    <b>Sony Xperia 1 VIII</b> &mdash; the anti-consensus flagship; reviews, then closed.<br>
+    <b>Oura Ring 5</b> &mdash; shipped; the blood-pressure "Health Radar" claim still wants independent validation.</p>
+    <p class="body tight"><b>Sony a7R VI</b> &amp; <b>Sennheiser Momentum 5</b> &mdash; both shipping; closed unless reviews, a recall or a price move.<br>
+    <b>Smart glasses</b> &mdash; Apple's N50 has slipped to late 2027; Google's audio-first pair is due this autumn; Xreal's a01 holds at US$299. The category is real; the date isn't.</p>
+  </div>
+
+  <div class="chatter slate" style="margin-top:6px;">
+    <div class="lbl">The Buying Climate · One Line</div>
+    <p>The memory tax we detailed last issue still rules the shopping list: buy on merit where RAM exposure is low (cameras, headphones, watches); wait where it's high (RAM-heavy laptops, NAS, SSDs). A running watch is a fine thing to buy this month. A 64GB laptop is not.</p>
+    <p class="src">— Meridian Kit desk</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Gear Patrol, "Best Hi-Fi &amp; Tech Releases" (Garmin Forerunner 70 / 170), Jun 2026; manufacturer specs.</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+<!-- ============ 8. THE CONNECTED HOME (p10) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Matter · The Camera Finally Arrives</div>
+  <h1 class="hed">A universal remote — but whose box?</h1>
+  <div class="dek">Matter cameras are finally on shelves. The buttons now work everywhere. What you can't standardise is the part that matters most to a local-first home: where the footage goes.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">After the long wait we logged in No.&nbsp;14 and a deliberate one-line demotion in No.&nbsp;15, there's a real peg at last: the first wave of certified Matter 1.5 cameras has reached shelves, with Samsung's SmartThings the only major controller shipping support so far &mdash; Aqara, Eve and Ulticam supplying the hardware. The CSA's inaugural Unify event, Matter's first dedicated trade show, runs 16&ndash;18 June in Austin.<sup class="fnref">1</sup> Apple, Google and Amazon are "expected to follow," which in Matter-camera terms has meant "eventually."</p>
+
+    <p class="body">Here is the line that matters for the migrator. Matter 1.5 standardises the <i>buttons</i> &mdash; live video, motion, person- and package-detection, two-way audio, the privacy shutter &mdash; so any controller can read any camera the same way. It pointedly does <i>not</i> standardise the back end: where footage is stored, where the AI runs, what hides behind a subscription. As one apt summary put it, it's a universal remote where the buttons work everywhere but the channels still depend on whose box you bought.<sup class="fnref">2</sup></p>
+
+    <div class="pull">Interoperable at the glass, proprietary at the vault. Read the spec for what it standardises — and for what it leaves to the vendor.</div>
+
+    <p class="body">Which is the whole issue in a doorbell. A camera can speak perfect Matter and still phone its footage home to a cloud you don't own and can't audit. For the reader keeping the brain local on Home Assistant, the move is unchanged and now better-supported: adopt Matter for the interoperability, but insist the recording and the inference stay inside the house. Standard plumbing, your own reservoir.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="chatter teal">
+      <div class="lbl">The Migrator's Read</div>
+      <p>Home Assistant has, as ever, been quickest on the new spec. Pair a Matter cam to a local HA instance, route events to local automations, keep clips on your own NVR. The Matter layer buys you escape-hatch portability between ecosystems without surrendering the footage. That's the dream the standard was sold on &mdash; finally testable.</p>
+      <p class="src">— Meridian Connected Home desk</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>"On shelves" with one controller is a soft launch, not an ecosystem. Until Apple/Google/Amazon ship and the WebRTC streams prove robust across hubs, treat Matter cameras as early-adopter territory. The standard's history is patience.</p>
+      <p class="src">— Contrarian note</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <p class="body tight"><b>Continuity.</b> HA 2026.6 "Pick a card" (shipped 3 Jun) is not re-led &mdash; it's the stable base under all of the above. Apple's homeOS and the HomePad previewed at WWDC remain a delta-only watch: a voice surface to treat as a peripheral, not a brain.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. The Gadgeteer / SmartThings blog, Matter 1.5 cameras on shelves &amp; CSA "Unify" 16&ndash;18 Jun 2026. 2. CSA Matter 1.5 specification (camera device type; WebRTC).</div>
+    <div class="fnbar"><span>The Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+<!-- ============ 9. THE GOOD LIFE (p11) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Watches · The Maker's Hand</div>
+  <h1 class="hed">While New York counts its lots, the makers keep making</h1>
+  <div class="dek">The auction houses are about to drop the gavel on the season's trophies. The quieter story sits in the workshops — and it's the more honest answer to what a watch is worth.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">This is the week the salerooms perform: Christie's on 12 June, Phillips on the 13th and 14th, Sotheby's "Shapes of Cartier" on the 15th. We'll read the hammer results next issue, not the previews &mdash; a price is only real once someone pays it. What's worth dwelling on now is the counter-current to all that theatre: a run of early-June releases that locate value not in a provenance file but in the hand that built the thing.<sup class="fnref">1</sup></p>
+
+    <p class="body">Exhibit one is the Zenith G.F.J., its storied Calibre 135 double-signed with Tokyo's Naoya Hida &amp; Co. &mdash; a collaboration between a heritage movement and one of the most quietly revered independents working today. Exhibit two, Girard-Perregaux's steel Laureato Fifty, marking the design's half-century without shouting. Tudor's Black Bay Chrono 39 "Bumblebee" supplies the playful note.<sup class="fnref">2</sup> None will trouble a Patek at auction. All three answer the provenance question the same way: you can see where the value comes from, because someone's signature is on the work, not just the paperwork.</p>
+
+    <div class="pull">An auction asks "who owned it?" A workshop answers "who made it?" Only one of those is forgeable.</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="chatter gold">
+      <div class="lbl">The Chatter · Collectors</div>
+      <p>The connoisseur consensus this season &mdash; over 40% of top-house buyers now under 40 &mdash; is that documented provenance commands the premium while the modern-boutique top end cools. The independents' double-signings read as the antidote: scarcity you can trace to a person, not a hype cycle.</p>
+      <p class="src">— Paraphrased enthusiast commentary</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>"Buy the maker, not the market" is a lovely line and a real risk &mdash; independents are illiquid, and today's revered signature is tomorrow's forgotten one. Provenance protects value; it doesn't guarantee it. Wear it because you love it.</p>
+      <p class="src">— Contrarian note</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="grid g-12" style="gap:6mm;">
+    <p class="body tight"><b>The escape.</b> Japan stays the connoisseur's open secret on a soft yen near ¥160 &mdash; record visitor numbers in 2025, a small cooling in 2026, and an early-July window before the school holidays crowd it. A one-line continuity: still cheap, still quietly managing its own success.</p>
+    <p class="body tight"><b>The grace note.</b> For the audio shelf, Shanling's EC&nbsp;Play &mdash; a "new-age Discman" pairing actual CD playback with two-way Bluetooth &mdash; is the season's most charming bit of nostalgia-tech. Provenance of a different kind: the physical disc you can hold, in a streaming world you can't.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. NY watch-week schedule (Christie's 12 Jun; Phillips 13&ndash;14; Sotheby's "Shapes of Cartier" 15). 2. Fratello Watches new-release coverage, early Jun 2026 (Zenith G.F.J. × Naoya Hida; Girard-Perregaux Laureato Fifty; Tudor BB Chrono 39).</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ============ 10. SCREEN & SOUND (p12) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Screen &amp; Sound</span><span>Culture Desk</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">The Window Closes</div>
+  <h1 class="hed">The blockbusters come home</h1>
+  <div class="dek">Two of the year's biggest theatrical runs land on streaming this month. For a reader with a real home cinema, the more interesting story is how short the wait has become.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">James Cameron's <i>Avatar: Fire and Ash</i> and Pixar's <i>Hoppers</i> both arrive on Disney+ this June, weeks after closing out muscular box-office runs.<sup class="fnref">1</sup> The theatrical-to-living-room window, once a stately ninety days, keeps compressing &mdash; good news for the reader who's invested in the screen and the speakers, and a quiet rewrite of where a film "really" premieres. The cinema is no longer the source; it's the soft launch.</p>
+
+    <p class="body">The dated slate is busy. Pixar's franchise tentpole <i>Toy Story 5</i> holds firm for 19 June. Olivia Rodrigo's third album &mdash; last issue's lead &mdash; arrives this Friday, 12 June, advancing now from "announced" to "out," a one-line delta rather than a re-run. And the Women's Prize for Fiction names its winner on 11 June; we'll carry the name, not the shortlist, once it's read out.<sup class="fnref">2</sup></p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter · Home-Cinema Forums</div>
+      <p>The enthusiast take on the shrinking window is split: relief at not fighting for a good seat, mourning for the shared dark room. The pragmatic majority has made peace &mdash; a calibrated set-up at home now out-performs most multiplexes, and <i>Fire and Ash</i> in Dolby Vision is the argument.</p>
+      <p class="src">— Paraphrased forum sentiment</p>
+    </div>
+
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>Don't over-read the "death of the window." Cameron and Pixar can crush theatres <i>and</i> stream fast precisely because they're event films; the squeezed middle is everyone else. The window didn't close &mdash; it bifurcated.</p>
+      <p class="src">— Contrarian note</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Variety, "Best New Movies to Stream June 2026" (Disney+ slate). 2. Box-office &amp; release calendars (Toy Story 5, 19 Jun); Olivia Rodrigo album (12 Jun); Women's Prize announcement (11 Jun).</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+<!-- ============ 11. FAMILY (p13) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Family Desk</span><span>Raising Them Well</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Media Literacy · The New Basic</div>
+  <h1 class="hed">Raising a "consider-the-source" kid</h1>
+  <div class="dek">The week's biggest local story — posts about Singapore, written somewhere else — is also the week's best teaching moment. The skill an eleven-year-old needs most now isn't typing. It's asking where a thing came from.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">A child today swims in information whose origin is deliberately hidden: a meme amplified from overseas, a "fact" a chatbot stated with total confidence, a video that may have been made by no one. The grown-up version of that problem fills this whole issue. The eleven-year-old version is simpler and more urgent: she will form beliefs from a feed engineered to be persuasive, not true. The antidote isn't a ban. It's a habit &mdash; <i>who made this, why, and how would I check?</i></p>
+
+    <p class="body">There's fresh reason to teach it deliberately. Research this spring found that conversational AI doesn't merely repeat misinformation; because it validates and builds on whatever a user says, it can actively <i>strengthen</i> a false belief &mdash; a feedback loop a credulous reader of any age can fall into.<sup class="fnref">1</sup> Pair that with this week's reminder that a coordinated narrative can be seeded from a server abroad, and the lesson writes itself: the most important question is no longer "what does it say" but "where did it come from."</p>
+
+    <div class="pull">The new literacy isn't reading. It's asking who is talking, and why — before believing.</div>
+
+    <p class="body tight">None of this is cause for panic, and the evidence is clear that the productive move is engagement, not prohibition (see the facing page). But "consider the source" is a muscle, and a parent who narrates their own checking &mdash; "let's see who published that" &mdash; is teaching it more effectively than any filter.</p>
+  </div>
+
+  <div class="chatter gold" style="margin-top:6px;">
+    <div class="lbl">A Practical Toolkit (general guidance, not medical advice)</div>
+    <p><b>Name the maker.</b> For anything that lands hard &mdash; a clip, a claim, a chatbot answer &mdash; ask together: who made this, and what do they want?</p>
+    <p><b>Model the check.</b> Look up the source out loud. Show her that "I'm not sure, let's verify" is a strength, not a gap.</p>
+    <p><b>Treat the bot as a tool, not an oracle.</b> Use AI together; correct it together when it's wrong. Confidence is not accuracy.</p>
+    <p><b>Keep the shared space.</b> Devices in common rooms, not bedrooms overnight &mdash; the single most evidence-backed habit.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:7px;">
+    <div class="chatter teal">
+      <div class="lbl">The Dinner-Table Version</div>
+      <p>You don't need a curriculum. Pick one thing she saw this week &mdash; a clip, a trend, a "did you know" &mdash; and walk it back together: who posted it first, what they gain if it spreads, and whether a second source says the same. Done once a week, out loud, it becomes the reflex. The goal isn't a sceptic who believes nothing; it's a child who knows the difference between a source and a rumour, and asks before sharing.</p>
+      <p class="src">— Meridian Family desk</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">8 in 10</div><div class="c">tweens can't reliably spot a sponsored post · prior literacy studies</div></div>
+      <div class="stat" style="margin-top:6px;"><div class="n">1×/wk</div><div class="c">narrated "let's check" beats any app filter</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. ScienceDaily summary of 2026 research on conversational AI reinforcing false beliefs; MHA OCHA directives (6 Jun 2026) as context. Media-literacy prevalence per Stanford History Education Group and related work. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ============ 11b. FAMILY (p14) — The Tween Years ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Family Desk</span><span>The Tween Years</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="kicker slate" style="margin-top:7px;">What The Research Actually Supports</div>
+  <h2 class="hed sm">Less alarm, more presence</h2>
+
+  <div class="cols2">
+    <p class="body">Strip away the headlines and the evidence base is steadying. The large developmental studies converge on the same unglamorous finding: parenting <i>practices</i> &mdash; setting limits, keeping track, modelling your own use, no screens at meals or in the bedroom &mdash; move the needle on a tween's media habits more than any device lockdown. Monitoring and modelling beat reward-and-punishment.<sup class="fnref">1</sup></p>
+
+    <p class="body">The local context sharpens it. Singapore researchers have flagged that a majority of school-age children here sleep less than the recommended nine hours on school nights while spending roughly two-and-a-half hours a day on non-academic media &mdash; the displacement, not the screen itself, being the measurable harm.<sup class="fnref">2</sup> With the June school holidays on, the open goal is the easy one: protect the sleep, protect the unstructured play, and the rest is far more forgiving than the discourse suggests.</p>
+
+    <div class="chatter slate">
+      <div class="lbl">The "Don't Be Alarmist" Box</div>
+      <p>The age-gate era keeps globalising &mdash; Australia's under-16 rules, the US state laws, app-store verification &mdash; and it's worth keeping in proportion. Gates are blunt: kids route around them, and a verification regime is itself a data-collection regime with its own provenance questions. A present, curious parent out-performs any age-check. Treat regulation as a floor, not a strategy.</p>
+      <p class="src">— Meridian Family desk · general guidance, not medical advice</p>
+    </div>
+
+    <p class="body tight"><b>The week's small win.</b> The "consider the source" habit and the sleep-and-presence basics aren't two projects. The same dinner-table conversation that asks "who made this video?" is the one not happening on a screen at 11pm. Curiosity and boundaries are the same tool, used twice.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. UCSF/Nagata &amp; ABCD-study body of work on parenting practices &amp; tween screen use (AAP framework). 2. NUS research on SG school-age sleep &amp; non-academic media use. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+<!-- ============ 12. THE WHISPER DESK (p15) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Whisper Desk</span><span>Strictly Off the Record</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Silly Season · All Unverified</div>
+  <h1 class="hed">The original unverified source</h1>
+  <div class="dek">If this issue is about considering the source, the gossip desk is where the principle was born. Everything below is reported or rumoured — flagged as such, because that is the whole point.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">Summer is engagement-and-split season, and the feeds are duly churning. <b>Reported:</b> Camila Cabello and billionaire heir Henry Junior Chalhoub have parted after about eighteen low-key months &mdash; an upgrade from last issue's rumour to a "made headlines" split, sources calling it amicable. <b>Rumoured:</b> Zo&euml; Kravitz and Harry Styles are said to be engaged less than a year after first sparking talk. <b>Still circling:</b> Kim Kardashian linked to Lewis Hamilton; Kendall Jenner to Jacob Elordi; and the perennial Swift&ndash;Kelce wedding-watch, the only item with anything like a paper trail.<sup class="fnref">1</sup></p>
+
+    <p class="body">Treat every line above as exactly what it is: claims of varying weight, attributed to "sources," none confirmed by the people they're about. We run them for the fun &mdash; and to make the issue's point in the lightest register. The celebrity rumour is the purest specimen of information with hidden provenance: confidently stated, widely shared, impossible to verify, occasionally true.</p>
+
+    <div class="chatter teal">
+      <div class="lbl">The Media-Literacy Strip</div>
+      <p>A tidy test for any gossip item, useful well beyond the gossip page: <b>(1)</b> Who is the named source &mdash; the couple, or "an insider"? <b>(2)</b> Is there a primary artefact &mdash; a statement, a ring, a filing &mdash; or only vibes? <b>(3)</b> Who benefits from you believing it? Apply it to a tabloid and a viral post alike.</p>
+      <p class="src">— Meridian Whisper desk</p>
+    </div>
+
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic's Footnote</div>
+      <p>The reconciliation rumours (a playful Katy Perry&ndash;Orlando Bloom revival among them) are a reminder that the genre profits from churn in both directions. A "split" and a "back together" are equally clickable, and equally unsourced. Enjoy responsibly.</p>
+      <p class="src">— Contrarian note</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Entertainment-press aggregations (Nicki Swift, Hollywood Life, E!, PopNewsNow), to early Jun 2026 &mdash; all items reported/rumoured, none confirmed.</div>
+    <div class="fnbar"><span>The Whisper Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ============ 13. CURIOSITIES (p16) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Curiosities</span><span>The Far Edges</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Cosmic Rays · A Case of Mistaken Identity</div>
+  <h1 class="hed">The mightiest particle ever caught may not be a proton</h1>
+  <div class="dek">In 2021 a single subatomic visitor slammed into Utah carrying impossible energy. They named it Amaterasu, for the sun goddess. New work suggests we may have been calling it the wrong thing all along.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The Amaterasu particle remains one of the most energetic things ever observed striking Earth &mdash; a single cosmic ray with the punch of a fast-bowled cricket ball compressed into something smaller than an atom. It has been read for years as an ultra-high-energy <i>proton</i>, which only deepened the mystery, because no known nearby source should be able to fling a lone proton that hard. New research published this week offers a tidier answer: it may not have been a proton at all, but an ultra-heavy atomic nucleus &mdash; heavier than iron &mdash; which would better hold onto its energy across the long journey here.<sup class="fnref">1</sup></p>
+
+    <p class="body">It's a small, perfect parable for the issue. The thing was real; the energy was real; the early <i>attribution</i> was the part that wandered. Identify the source wrongly and the whole mystery looks unsolvable; get the provenance right and the impossible becomes merely extraordinary. Science, at its best, is a discipline of re-checking where things came from.</p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter · Physics Forums</div>
+      <p>Reaction is appropriately hedged: a heavier-nucleus interpretation eases the source problem but isn't settled, and a single event is a thin sample. The mood is delight rather than certainty &mdash; the fun of a famous result being gently re-read, not overturned.</p>
+      <p class="src">— Paraphrased researcher commentary</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="grid g-12" style="gap:6mm;">
+    <p class="body tight"><b>Provenance, in stone.</b> Fresh evidence indicates Stonehenge's six-tonne Altar Stone was deliberately hauled roughly 700km from north-east Scotland &mdash; a feat of planning that rewrites who built what, and from where. Another famous object whose true origin turned out to be far stranger than the label.<sup class="fnref">2</sup></p>
+    <p class="body tight"><b>The sky, settling.</b> With the Venus&ndash;Jupiter conjunction now past (it won't pull this close again until 2028), June's reward is quieter: long, clear pre-dawn windows and a sky returned to its ordinary, sufficient wonder. The best free instrument is still the one you carry behind your eyes.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. ScienceDaily, "Scientists Think They Solved the Mystery of the Amaterasu Particle," 9 Jun 2026. 2. ScienceDaily/Live Science, Stonehenge Altar Stone transport, 9 Jun 2026.</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+<!-- ============ 14. LOVE & LIFE (p17) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Love &amp; Life</span><span>The Human Desk</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Dating · The Authenticity Crisis</div>
+  <h1 class="hed">Is anyone on the other end actually real?</h1>
+  <div class="dek">The defining anxiety of dating in 2026 is the issue's anxiety in miniature: you can no longer be sure who — or what — wrote the message you just fell a little bit for.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">A Match-affiliated study this spring found that nearly 60% of daters suspect they have already traded messages with AI &mdash; not a person, or not <i>only</i> a person. About one in four singles now use AI tools to write profiles, draft openers and coach replies, while AI-generated profile photos have become effectively undetectable by reverse-image search.<sup class="fnref">1</sup> The romance feed has acquired the same defect as every other feed in this issue: you cannot verify the source.</p>
+
+    <p class="body">It cuts both ways, and the honest desk says so. The same machine learning that lets a stranger fabricate a flawless bio also lets Hinge train matching on real-date outcomes and lets platforms cull scam profiles. The technology is neither saviour nor villain; it's an amplifier of intent, and the intent is what you can't see. Which is why the year's most-cited human counter-move is so refreshingly low-tech: "clear-coding" &mdash; simply saying, early and plainly, what you actually want.<sup class="fnref">2</sup></p>
+
+    <div class="pull">When the medium can't be trusted, the message turns honest. Clarity is the new charisma.</div>
+
+    <p class="body tight">Transparency, it turns out, is the one signal an algorithm can't counterfeit on your behalf and a scammer has no incentive to send. In a marketplace flooded with optimised, unverifiable charm, the rarest and most attractive thing is a person being unmistakably, checkably themselves &mdash; provenance offered freely, before it's asked for.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="chatter">
+      <div class="lbl">The Chatter · Daters</div>
+      <p>The mood on the apps is fatigue shading into strategy: assume polish is AI-assisted, weight a clumsy-but-specific message over a frictionless one, and move to a voice or video call sooner. "Imperfect and real" has become a compliment.</p>
+      <p class="src">— Paraphrased user sentiment</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>Verification-first platforms and ID checks are rising in response &mdash; but a regime that proves you're human by harvesting your government ID solves one provenance problem by creating another. Trust, but notice what verifying costs you.</p>
+      <p class="src">— Contrarian note</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Match/PR Newswire (Morningstar), AI in dating communication, Apr 2026; WhichDating "State of Online Dating 2026." 2. QC Life / matchmaker commentary on "clear-coding," 2026.</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ============ 15. FITNESS (p18) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> Fitness</span><span>The Long Game</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">Longevity · The Dose, Verified</div>
+  <h1 class="hed">The strength "sweet spot" is smaller than you fear</h1>
+  <div class="dek">A thirty-year, 147,000-person study finally answers the question every mid-forties lifter actually asks: how little resistance training can I get away with — and still buy years?</div>
+
+  <div class="cols2">
+    <p class="body dropcap">Harvard's T.H. Chan School pooled three long-running cohorts &mdash; nearly 150,000 adults tracked for up to three decades &mdash; and went looking for the resistance-training dose that does the most for longevity. The answer, published 2 June in the <i>British Journal of Sports Medicine</i>: roughly 90 to 120 minutes a week &mdash; two to three focused sessions &mdash; was linked to about a 13% lower risk of dying from any cause, with the benefit deepening when paired with aerobic work.<sup class="fnref">1</sup> Less than two hours. That's the whole prescription.</p>
+
+    <p class="body">The reader's optimisation instinct will want to push past it; the data politely declines. The curve flattens &mdash; this is a sweet spot, not a "more is always better" ramp. A separate study out of Penn State this month found even four minutes a day of strengthening meaningfully improved strength and mobility in adults over 65, the floor being far lower than gym culture implies.<sup class="fnref">2</sup> Bank the durable, un-rentable basics first; the exotic interventions are decimal points on top.</p>
+
+    <div class="pull">Two-ish hours a week, lifting. The rest of the longevity industry is rounding error.</div>
+  </div>
+
+  <div class="chatter slate" style="margin-top:6px;">
+    <div class="lbl">The Longevity-Discourse Sceptic (general guidance, not medical advice)</div>
+    <p>Read the provenance of the finding before you bank it. These are large <i>observational</i> cohorts built on self-reported questionnaires &mdash; powerful for spotting a dose-response signal, weaker for proving cause. People who lift twice a week differ from those who don't in many ways the model can't fully strip out. The direction is robust and cheap to act on; the precise "13%" is a headline number, not a personal guarantee. Verify the source, then go lift anyway.</p>
+    <p class="src">— Meridian Fitness desk</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="chatter teal">
+      <div class="lbl">Worth Trying</div>
+      <p>If 90&ndash;120 minutes is the target, two full-body sessions of 45&ndash;60 minutes clears it with room to spare &mdash; compound lifts, a hard set or two per pattern, then home. The Penn State floor means a four-minute daily "movement snack" is a legitimate fallback on a wrecked week, not a failure.</p>
+      <p class="src">— General guidance, not medical advice</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">Not Re-Led</div>
+      <p>VO&#8322; max stays the headline longevity marker we've covered &mdash; deliberately rested this issue. The point isn't a new metric; it's that the boring, cheap, un-outsourceable basics keep winning the evidence, issue after issue.</p>
+      <p class="src">— Continuity note</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Zhang, Lee, Rezende, Ma &amp; Giovannucci, <i>British Journal of Sports Medicine</i>, 2 Jun 2026 (Harvard T.H. Chan). 2. Penn State College of Medicine, <i>PLOS One</i>, Jun 2026. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+<!-- ============ 16. THE DIARY (p19) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Diary</span><span>What's Worth Booking</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+    <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Lake%20Kawaguchi%20(2015-10-26).jpg?width=1600" alt="Mount Fuji from Lake Kawaguchi (representative)" loading="lazy"></div>
+  <div class="imgcap">Representative &mdash; Mount Fuji from Lake Kawaguchi. Subject verified from the Commons file page. Source: Wikimedia Commons &mdash; File:Mount Fuji from Lake Kawaguchi (2015-10-26).jpg &middot; CC BY-SA 4.0 &middot; Alpsdake.</div>
+<div class="kicker" style="margin-top:7px;">The Dated Agenda · Singapore &amp; Japan</div>
+  <h1 class="hed sm" style="margin-bottom:8px;">Plan the next eight weeks</h1>
+
+  <div class="grid g-12" style="gap:7mm;">
+    <div>
+      <div class="agenda-h">Singapore <span class="sub">JUN–AUG</span></div>
+      <div class="evt"><div class="evt-date star">19<span class="mo">JUN</span></div><div><div class="evt-name"><span class="st">★</span> Dragon Boat Festival (Duanwu)</div><div class="evt-meta">Cultural · zongzi season · races 27&ndash;28 Jun, Bedok Reservoir</div></div></div>
+      <div class="evt"><div class="evt-date rng">11&ndash;29<span class="mo">JUN</span></div><div><div class="evt-name">Takashimaya Food Fiesta</div><div class="evt-meta">Ngee Ann City B2 · 55 brands, 23 new vendors</div></div></div>
+      <div class="evt"><div class="evt-date rng">5&ndash;28<span class="mo">JUN</span></div><div><div class="evt-name">GastroBeats 2026</div><div class="evt-meta">Bayfront Events Space · food + live music, nightly</div></div></div>
+      <div class="evt"><div class="evt-date rng">4&ndash;6<span class="mo">AUG</span></div><div><div class="evt-name">HONNE · live</div><div class="evt-meta">Indoor Stadium · tickets on sale</div></div></div>
+      <div class="evt"><div class="evt-date star">9<span class="mo">AUG</span></div><div><div class="evt-name"><span class="st">★</span> National Day Parade</div><div class="evt-meta">Padang/Marina · ballot — apply early</div></div></div>
+      <div class="evt"><div class="evt-date rng">late<span class="mo">AUG</span></div><div><div class="evt-name">Singapore Night Festival</div><div class="evt-meta">Bras Basah.Bugis · free, light installations</div></div></div>
+      <div class="evt"><div class="evt-date rng">Sep/<br>Oct</div><div><div class="evt-name">F1 Singapore GP</div><div class="evt-meta">Marina Bay street circuit · hospitality booking now</div></div></div>
+    </div>
+
+    <div>
+      <div class="agenda-h gold">Japan <span class="sub">JUL — soft yen ¥160</span></div>
+      <div class="evt"><div class="evt-date star">1<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Mt Fuji climbing season opens</div><div class="evt-meta">Yoshida trail · reserve permits ahead</div></div></div>
+      <div class="evt"><div class="evt-date rng">12&ndash;26<span class="mo">JUL</span></div><div><div class="evt-name">Nagoya Grand Sumo Basho</div><div class="evt-meta">Dolphins Arena · day-box tickets sell fast</div></div></div>
+      <div class="evt"><div class="evt-date star">17<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Gion Matsuri · Saki Yamaboko Junko</div><div class="evt-meta">Kyoto · grand float procession (also 24 Jul)</div></div></div>
+      <div class="evt"><div class="evt-date rng">24&ndash;25<span class="mo">JUL</span></div><div><div class="evt-name">Tenjin Matsuri</div><div class="evt-meta">Osaka · river processions &amp; fireworks</div></div></div>
+      <div class="evt"><div class="evt-date star">25<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Sumida River Fireworks</div><div class="evt-meta">Tokyo · ~20,000 shells · book a vantage early</div></div></div>
+      <div class="evt"><div class="evt-date rng">—</div><div><div class="evt-name">teamLab Planets, Toyosu</div><div class="evt-meta">Tokyo · timed entry; closes 2027 — go this trip</div></div></div>
+
+      <div class="chatter teal" style="margin-top:7px;">
+        <div class="lbl">Planning Notes</div>
+        <p>Gion's 17 Jul procession books out hotels months ahead; the soft yen makes July Japan a value window even at peak heat. NDP is a ballot, not a sale &mdash; enter, don't plan around it. The FIFA World Cup is on; allow for distracted evenings.</p>
+      </div>
+      <p class="body tight" style="margin-top:5px;"><b>Far-field, one line.</b> BTS's December National Stadium dates (17/19/20/22) remain a now-booking callback &mdash; the one arrival on the horizon worth holding flights for.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Visit Singapore / organiser listings; Eatbook (Takashimaya Food Fiesta, GastroBeats); JNTO &amp; festival calendars (Gion, Tenjin, Sumida, Nagoya sumo, Mt Fuji); event ticketing pages, to Jun 2026.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ============ 16b. THE DIARY (p20) — The Table ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Diary</span><span>The Table</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="kicker gold" style="margin-top:7px;">The Table · Singapore's Newest Openings</div>
+  <h2 class="hed sm" style="margin-bottom:7px;">What just opened — and whether it earns the trip</h2>
+
+  <div class="cols2">
+    <p class="body"><span class="tag g">Shanghai import</span><span class="tag">Now open</span> <b>Yang's Dumplings (小杨生煎)</b>, Bugis Junction. The cult Shanghai chain &mdash; famous for crisp-bottomed <i>sheng jian bao</i>, including a pork-and-crab-roe version &mdash; makes its Singapore debut. Pedigree is real; the pan-fried buns travel well in theory. Verdict: <i>opening crowds heavy, too new for a settled review</i> &mdash; go for the bao, judge the queue management later.</p>
+
+    <p class="body"><span class="tag s">Now open</span> <b>Between Buns Deli</b>, Robinson Road. A cult sandwich pop-up graduates to a permanent CBD deli &mdash; loaded sandwiches from about S$13, up to a 24-hour braised-oxtail melt at S$23. The pop-up earned its following honestly; the bet is whether daily lunch volume keeps the standard. Early signs: the Robinson crowd has adopted it fast.</p>
+
+    <div class="chatter gold">
+      <div class="lbl">The Buzz · In Our Own Words</div>
+      <p>June's openings skew comfort and nostalgia over fine dining. The genuine heat is on the imports and the comebacks &mdash; a Shanghai bun house, a returning egg-tart name &mdash; where pedigree is the draw. As ever, "hyped Tokyo/Shanghai transplant" is a reason to visit, not yet a reason to believe; we'll log the verdicts as the reviews land.</p>
+      <p class="src">— Eatbook / HungryGoWhere / DanielFoodDiary, compiled</p>
+    </div>
+
+    <p class="body"><span class="tag g">Hyped</span><span class="tag">Café</span> <b>Noci Bakehouse</b>, Suntec City. From Gold Moon Restaurant Group (Tonshou, Seoul Noodle Shop), a Korean bakery-café built around viral <i>butter tteok</i> (~S$2.50 a piece) and Korean-style salt bread, with an all-day brunch menu. Buzz is loud on the tteok; whether it outlasts the social-feed spike is the open question.</p>
+
+    <p class="body"><span class="tag v">Comeback</span> <b>Madeleine's Original Portuguese Egg Tarts</b>, Aperia Mall. After nearly two years away from the scene, a much-missed name returns as a proper café. Nostalgia is doing the heavy lifting; the test is whether the custard is as remembered. Too new to call &mdash; but the goodwill is genuine.</p>
+
+    <p class="body tight"><b>Now reviewed.</b> The CBD Hong-Kong-style bakery café we flagged last issue for its pistachio <i>bolo bao</i> has opened in full; early reception is positive on the bun, mixed on the wait. <span class="tag">Not halal-flagged where noted.</span></p>
+
+    <div class="chatter slate">
+      <div class="lbl">Booking Tip</div>
+      <p>For the imports, go on a weekday off-peak in the first fortnight &mdash; the opening rush is the worst time to judge a kitchen. For the egg-tart comeback, mornings, before the trays sell through.</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-12" style="gap:5mm;">
+    <div class="stat"><div class="n">S$13+</div><div class="c">Between Buns sandwiches · oxtail melt S$23</div></div>
+    <div class="stat"><div class="n">~S$2.50</div><div class="c">Noci butter-tteok, per piece</div></div>
+  </div>
+
+  <p class="body tight" style="margin-top:6px;"><b>Also landing this month, on the watch list.</b> A clutch of mall-anchored openings round out June &mdash; Bugis, Suntec and Aperia all gaining a marquee name &mdash; while the CBD lunch corridor keeps absorbing graduating pop-ups. None reviewed yet; we'll apply the New-Peg Test and report verdicts only once the kitchens settle and the first independent write-ups appear. The honest line for now: heavy on pedigree and nostalgia, light on anything yet proven.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Eatbook "10 New Restaurants &amp; Cafes June 2026"; HungryGoWhere "New openings"; DanielFoodDiary café round-up; FZINE, Jun 2026 — reception summarised in our own words.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ============ 16. THE LONG READ (p21) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Long Read</span><span>The Long Read</span></div>
+  <div class="rule v" style="margin-top:6mm;"></div>
+
+  <div class="kicker" style="margin-top:7px;">The Long Read · Provenance</div>
+  <h1 class="hed">Consider the source</h1>
+  <div class="dek">A horse at the gate, a forged deed, a punch on the underside of a spoon, and a Cold-War proverb. Four old answers to the only question this issue kept asking: where did this actually come from — and who holds the keys once it's inside?</div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The Trojans knew exactly what to do with a gift. They had a city to defend, a war to end, and a very large wooden horse standing outside the gate with the Greek fleet apparently gone. Two men told them not to trust it. Laocoön, the priest, threw his spear at its flank and warned them to fear the Greeks even bearing gifts; Cassandra, cursed to prophesy truly and be believed by no one, said the same. The Trojans listened to neither. They took down a section of their own wall — the wall was the whole point of the wall — to bring the thing inside, because it was beautiful, because it flattered them, and because the story attached to it was the story they wanted to hear. The provenance of the horse was the entire matter, and they waved it through.</p>
+
+    <p class="body">Three thousand years later we are still taking down sections of our own wall for the same reasons, and this issue is mostly a record of it. A wave of posts inflaming a local grievance in Singapore turned out, on inspection, to have been assembled somewhere else entirely and floated in under a domestic flag.<sup class="fnref">1</sup> Apple's assistant, the one that lives on the phone in your pocket and speaks in the first person, will shortly be doing its harder thinking on a rented model running in someone else's data centre. The camera you screw to your doorframe this month finally speaks a common language — and still ships your footage to whichever cloud its maker prefers. A subatomic particle catalogued for years as the most powerful proton ever to hit the atmosphere may, on a second look, not be a proton at all. Different desks, one shape: a thing arrives, wearing a label, and the label is the part you must not believe.</p>
+
+    <div class="pull">"Fear the Greeks even bearing gifts" is not advice about Greeks. It is advice about gifts.</div>
+
+    <p class="body">T. S. Eliot, writing the choruses for a pageant in 1934, asked where the wisdom had gone that we lost in knowledge, and where the knowledge had gone that we lost in information.<sup class="fnref">2</sup> He meant it as a lament for a culture going faster than its own judgement. Ninety-two years on we have built machines whose entire function is to manufacture information faster than any human can source it, and the lament has become an operating problem. The volume is not the crisis. The crisis is that volume has detached the claim from its origin: the message arrives without the messenger, the image without the camera, the fact without the witness. Eliot's hierarchy — information, then knowledge, then wisdom — runs in exactly the wrong direction for our tools, which are superb at the first, indifferent to the second, and constitutionally incapable of the third.</p>
+
+    <p class="body tight">Which is why the useful thing this week is not another warning about fakes. It is to notice that the problem is old, that serious people have solved versions of it before, and that their solutions rhyme. Three of them are worth holding up against the present, because each found a different way to do the one thing the Trojans would not: check the source before opening the gate.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. See The Singapore Desk, p5 (origin of the disputed posts). 2. T. S. Eliot, choruses from <i>The Rock</i> (Faber &amp; Faber, 1934). Virgil, <i>Aeneid</i> II (Laocoön; "timeo Danaos et dona ferentes").</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ============ 16b. THE LONG READ (p22) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Long Read</span><span>The Long Read · continued</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="kicker slate" style="margin-top:7px;">The Long Read · continued</div>
+  <h2 class="hed sm">The forger, the assayer, and the spy</h2>
+
+  <div class="cols2" style="margin-top:5px;">
+    <p class="body">The first solution is reading itself, done properly. In 1440 a quarrelsome Italian humanist named Lorenzo Valla took apart a document that had underwritten papal temporal power for seven centuries — the Donation of Constantine, by which the emperor was supposed to have handed the Western empire to the Church. Valla never visited an archive or interrogated a witness. He simply read the Latin. The text used words and titles that did not exist in Constantine's fourth century; it described things anachronistically; it spoke, in short, like a much later forgery pretending to be old.<sup class="fnref">1</sup> Provenance, Valla showed, is written into a thing's own grain. You do not always need an external stamp; sometimes the object betrays its origin if you know the period well enough to hear the wrong accent. This is exactly the move a careful reader makes now against a too-fluent paragraph or a photograph with no metadata and no shadow that falls quite right — the tell is internal, and you catch it only if you know what the genuine article sounds like.</p>
+
+    <div class="pull">Valla did not debunk the deed by finding a better witness. He debunked it by listening to its accent.</div>
+
+    <p class="body">The second solution gave up on reading and built an institution instead. By around 1300, English goldsmiths were required by statute to bring their work to be tested and struck with a mark — the leopard's head — certifying that the metal was what it claimed to be.<sup class="fnref">2</sup> The word for the place survives in the thing it does: the hallmark, the mark of Goldsmiths' Hall. The genius of the assay office was to admit that no buyer could verify silver by eye, and to relocate trust from the seller's word to an independent third party with no stake in the sale and a reputation to lose. A hallmark is provenance you can carry in your pocket: not "trust me," but "trust the office that tested me." It is precisely what the Matter logo on a smart-home box is groping toward and precisely where it stops short — the standard certifies that the device speaks the protocol, the way an assay certifies the metal, but says nothing about where your footage sleeps at night. A hallmark on the lid is not a hallmark on the contents.</p>
+
+    <p class="body">The third solution is the most modern and the most quoted, and almost nobody remembers it is a translation. When Ronald Reagan signed the treaty scrapping a class of nuclear missiles in December 1987, he kept repeating a Russian proverb that an adviser had taught him — <i>doveryai, no proveryai</i>, trust but verify — until his Soviet counterpart laughed and said he used it at every meeting.<sup class="fnref">3</sup> The phrase has been worn smooth by overuse, but its structure is the whole point: it does not say <i>distrust</i>. It says trust is permitted, even necessary — and that the verification is what makes the trust affordable. The treaty worked not because the two sides believed each other but because each agreed to be inspected. Verification is not the enemy of a relationship; it is the thing that lets a relationship survive contact with reality.</p>
+  </div>
+
+  <div class="figframe" style="margin-top:8px;">
+    <svg viewBox="0 0 620 150" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <rect width="620" height="150" fill="#fff"/>
+      <text x="14" y="22" font-family="Poppins" font-size="9" fill="#7a7264" letter-spacing="1.6">THREE OLD WAYS TO CHECK THE SOURCE</text>
+      <line x1="14" y1="34" x2="606" y2="34" stroke="#d8cfbd" stroke-width="0.8"/>
+      <g font-family="Poppins">
+        <text x="20" y="60" font-size="10.5" font-weight="700" fill="#c1462e">READ THE GRAIN</text>
+        <text x="20" y="78" font-size="8" fill="#403a32">Valla, 1440 — the forgery</text>
+        <text x="20" y="91" font-size="8" fill="#403a32">betrays its date in its own</text>
+        <text x="20" y="104" font-size="8" fill="#403a32">language. Verify from within.</text>
+
+        <text x="225" y="60" font-size="10.5" font-weight="700" fill="#b08738">TRUST THE OFFICE</text>
+        <text x="225" y="78" font-size="8" fill="#403a32">Hallmark, c.1300 — an</text>
+        <text x="225" y="91" font-size="8" fill="#403a32">independent third party tests</text>
+        <text x="225" y="104" font-size="8" fill="#403a32">and stamps. Verify by proxy.</text>
+
+        <text x="430" y="60" font-size="10.5" font-weight="700" fill="#2f4858">AGREE TO INSPECTION</text>
+        <text x="430" y="78" font-size="8" fill="#403a32">Reagan, 1987 — "trust but</text>
+        <text x="430" y="91" font-size="8" fill="#403a32">verify." Trust is affordable</text>
+        <text x="430" y="104" font-size="8" fill="#403a32">only when checking is allowed.</text>
+      </g>
+      <line x1="200" y1="46" x2="200" y2="118" stroke="#d8cfbd" stroke-width="0.6"/>
+      <line x1="410" y1="46" x2="410" y2="118" stroke="#d8cfbd" stroke-width="0.6"/>
+      <text x="14" y="140" font-family="Poppins" font-size="6.4" fill="#7a7264">Meridian original — three historical methods of provenance, mapped to the gate.</text>
+    </svg>
+    <div class="imgcap">The internal tell, the external stamp, the agreed inspection — every modern verification habit is one of these three wearing new clothes.</div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. L. Valla, <i>De falso credita et ementita Constantini donatione</i> (1440). 2. Goldsmiths' Company / UK assay history; leopard's-head mark, statute of c.1300. 3. R. Reagan, remarks at the INF Treaty signing, 8 Dec 1987; proverb <i>doveryai no proveryai</i>.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ============ 16c. THE LONG READ (p23) ============ -->
+<section class="page">
+  <div class="rh"><span>Meridian <span class="dot">·</span> The Long Read</span><span>The Long Read · continued</span></div>
+  <div class="rule" style="margin-top:6mm;"></div>
+
+  <div class="kicker gold" style="margin-top:7px;">The Long Read · the gate</div>
+  <h2 class="hed sm">What we admit, and who keeps the keys</h2>
+
+  <div class="cols2" style="margin-top:5px;">
+    <p class="body">Lay the three methods over this issue and they slot in almost too neatly. Read the grain, and a study this week — the one finding that AI chatbots will cheerfully validate and even strengthen a child's false belief rather than correct it — becomes a warning that the most fluent voice in the room is the one least able to betray its own errors; the accent is always perfect, which is itself the tell.<sup class="fnref">1</sup> Trust the office, and the daters who suspect six messages in ten of being machine-written are really asking for an assay mark on sincerity, some independent stamp that says <i>a person wrote this</i> — which is why "clear-coding," declaring the human hand, has become a courtship move.<sup class="fnref">2</sup> Agree to inspection, and the whole oil-and-Hormuz stalemate resolves into a single sentence: every capital describes the same deal and none will sign, because each wants the other verified first. The framework is not missing. The willingness to be inspected is.</p>
+
+    <div class="pull">The label is now the cheapest part of anything to forge. So we are back to where the buyers of silver were in 1300: needing the office, not the word.</div>
+
+    <p class="body">There is a temptation, holding all this, to retreat into pure suspicion — to throw Laocoön's spear at every horse and admit nothing through the gate. That is the wrong lesson, and the proverb knows it. <i>Doveryai, no proveryai</i> does not counsel paranoia; a city that admits nothing is as dead as one that admits everything, just more slowly. The Trojans' error was not that they trusted. It was that they trusted <i>without a procedure</i> — no spear-test passed, no priest heeded, no period of waiting, no second look at the seams of the thing. They had verification available, in the form of two people telling them to check, and they declined to use it because checking is friction and the gift was flattering. The modern feed is engineered to reproduce exactly that condition: maximum flattery, minimum friction, the wall already half down.</p>
+
+    <p class="body">So the practical wisdom Eliot was mourning turns out to be unglamorous and entirely recoverable. It is not a gift for spotting fakes; it is a standing habit of asking the boring question first. Where did this come from. Who benefits if I believe it. What independent thing would I expect to see if it were true, and do I see it. The habit is portable across every desk in this book — a server's true address, a model's true location, a camera's true cloud, a particle's true mass, a stranger's true authorship. None of it requires genius. It requires the small, deliberate, slightly tedious discipline of keeping the wall up long enough to look.</p>
+
+    <p class="body tight">Cassandra's curse, remember, was not that she saw wrongly. It was that she saw rightly and could not make anyone act on it. We have abolished her curse, in a way she would find bleakly funny: we now have verification on tap — reverse image search, provenance metadata, the assay office of a dozen fact-checking institutions — and decline to use it for precisely her reason. The information is not lost. The wisdom to pause before the gate is. That one is still available at the old price, which was never knowledge and never information. It was only attention, paid up front, before you take down the wall.</p>
+  </div>
+
+  <div class="chatter gold" style="margin-top:6px;">
+    <div class="lbl">The Threads, Named</div>
+    <p>Provenance ran through nine desks this issue: the overseas origin of a "local" grievance (Singapore); a borrowed mind behind a familiar assistant (Technology); a standard that certifies the protocol but not the cloud (Connected Home); value priced on the maker's hand and the auction's paper trail (The Good Life); a particle re-sourced from proton to heavy nucleus (Curiosities); a generation taught to ask where a claim was minted (Family); authorship in doubt on the other end of the message (Love &amp; Life). One spine, told seven ways. As we noted with Emerson last issue and Korzybski before — the map is not the territory, and the label is not the source.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. AI-chatbot belief-validation study, 2026 (see The Family Desk, p14). 2. Match-affiliated dating survey, Apr 2026 (see Love &amp; Life, p17). Callbacks: R. W. Emerson (No. 17), A. Korzybski (No. 09).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ============ 17. BACK COVER (p24) ============ -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 18 · Singapore</span></div>
+
+  <div style="padding:24mm 18mm 16mm 18mm;display:flex;flex-direction:column;height:100%;">
+
+    <div style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.32em;text-transform:uppercase;color:#b08738;">The Last Word</div>
+    <div style="width:48mm;height:2pt;background:#b08738;margin:8px 0 12px;"></div>
+
+    <h2 style="font-family:'Lora',serif;font-weight:700;font-size:23pt;line-height:1.08;color:#f6f2e9;margin:0 0 10px;">Keep the wall up<br>long enough to look.</h2>
+
+    <p style="font-family:'Lora',serif;font-size:11pt;line-height:1.5;color:#e8dccb;max-width:122mm;">Everything in this issue arrived wearing a label. The posts said they were local; the assistant says it is yours; the camera says it is standard; the particle said it was a proton. The week's small, repeated lesson is that the label is now the cheapest part of anything to forge — and that the remedy is neither paranoia nor faith, but the old, unhurried discipline of asking where a thing came from before you take it in.</p>
+
+    <p style="font-family:'Lora',serif;font-style:italic;font-size:11pt;line-height:1.45;color:#b08738;max-width:122mm;margin-top:10px;">Trust is permitted. It is the verifying that makes it affordable. We will be back tomorrow, sources attached.</p>
+
+    <div style="height:.5pt;background:#3a342c;margin:14px 0;"></div>
+
+    <div style="font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:#9a8f7c;margin-bottom:6px;">This Issue — Consolidated Sources</div>
+    <div style="column-count:2;column-gap:9mm;font-family:'Poppins',sans-serif;font-size:6.6pt;line-height:1.5;color:#8f8576;">
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The World</b> — CNN/PBS/NPR live coverage 7–9 Jun; CNBC oil &amp; Strait of Hormuz 9 Jun; Reuters/EIA Short-Term Energy Outlook Jun 2026; Colombia electoral authority.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Singapore</b> — MDDI/OCHA statement &amp; E. Tong remarks 6 Jun; Foreign Policy 5 Jun; SingStat (Q1 GDP, Apr CPI); CDC/U-Save/GSTV schedules.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Property</b> — Huttons &amp; Singapore-market notes; URA Q1 final index; Hudson Place sales update; URA GLS (Hougang Central) award.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Technology</b> — Nvidia / Computex RTX Spark briefing 1 Jun; WWDC coverage (Siri &amp; Google model); industry reporting on Ascend/H200.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The Kit</b> — Garmin Forerunner 70/170 announcement &amp; hands-on coverage, Jun 2026.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Connected Home</b> — Connectivity Standards Alliance, Matter 1.5 &amp; "Unify" event (16–18 Jun, Austin); SmartThings/Aqara/Eve releases.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The Good Life</b> — Zenith G.F.J. × Naoya Hida; Girard-Perregaux Laureato Fifty; Tudor Black Bay Chrono 39; NY watch-week calendar.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Screen &amp; Sound</b> — Disney+/Pixar release calendar; Women's Prize for Fiction (winner 11 Jun); O. Rodrigo album (12 Jun).</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The Family Desk</b> — UCSF/Nagata &amp; ABCD findings; AAP screen guidance; 2026 AI-chatbot belief study; NUS local data.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The Whisper Desk</b> — entertainment-press round-up; all items flagged reported/rumour.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Curiosities</b> — ScienceDaily (Amaterasu re-analysis) 9 Jun; Altar Stone provenance study.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Love &amp; Life</b> — Match-affiliated dating survey, Apr 2026.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">Fitness</b> — Harvard T.H. Chan / BJSM 2 Jun; Penn State PLOS One "4-minute" study.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The Diary &amp; The Table</b> — STB/event organisers; Eatbook, HungryGoWhere, DanielFoodDiary — reception in our own words.</p>
+      <p style="margin:0 0 5px;"><b style="color:#c9beac;">The Long Read</b> — Virgil, <i>Aeneid</i> II; T. S. Eliot, <i>The Rock</i> (1934); L. Valla (1440); Goldsmiths' Company; Reagan INF remarks (1987).</p>
+    </div>
+
+    <div style="margin-top:auto;padding-top:14px;border-top:.5pt solid #3a342c;display:flex;justify-content:space-between;align-items:flex-end;">
+      <div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:15pt;letter-spacing:.04em;color:#f6f2e9;">MERIDIAN</div>
+        <div style="font-family:'Lora',serif;font-style:italic;font-size:9.5pt;color:#b08738;">Twelve desks. One world.</div>
+      </div>
+      <div style="text-align:right;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:#9a8f7c;line-height:1.7;">
+        No. 18 · Wednesday 10 June 2026<br>
+        Twelve Desks · One World<br>
+        Sources attached · verify before you share
+      </div>
+    </div>
+  </div>
+</section>
+
+</body></html>
