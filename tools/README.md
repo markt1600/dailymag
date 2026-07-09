@@ -36,7 +36,8 @@ git add index.html meridian-latest.pdf meridian-brand-prompt.md state/ && git co
 | `archive.py` | Snapshots the **outgoing** root `index.html` + PDF into `archive/no-<prev>/` before a new issue overwrites root. Run at the start of a build. |
 | `build_manifest.py` | Builds `archive/manifest.json` from the issue log + the recovered files — the searchable index (metadata + full-text) the Photo Edition's Archive menu embeds. |
 | `backfill_archive.py` | One-time (re-runnable) recovery of past Photo Editions from git history into `archive/no-NN/`. |
-| `build.sh` | Runs validate → render → QA → manifest → photo-edition in order. |
+| `build_feed.py` | Derives `feed.json` (top desk lead per desk + `#pN` anchors + the "From the Desk" quote) by parsing the finished `index.html`. Consumed by **dailymag.marktan.ai** to populate its Stories & Briefs — reusing MERIDIAN's research instead of a separate web search. Must be committed each issue. |
+| `build.sh` | Runs validate → render → QA → manifest → photo-edition → feed in order. |
 
 ## `state/`
 
