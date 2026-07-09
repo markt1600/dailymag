@@ -21,6 +21,8 @@ Keep `meridian.css` (in the repo root) as the canonical stylesheet so every issu
 
 MERIDIAN is now built **inside a git repository** by Claude Code, which reads this brief from the repo and writes the finished edition back into the same repo, overwriting the previous issue's files. This section defines the mechanics; the `## PROMPT` block below defines the editorial spec. Nothing about the brand, the desks, the order, the palette, the tagline, the density discipline, the QA gate, or the ledgers changes — only *where files come from* and *how they are delivered* (a git commit instead of a downloads folder).
 
+**Repo:** `https://github.com/markt1600/dailymag` (the `dailymag` repo). Claude Code works against a clone of this repo; all paths below are relative to its root.
+
 **Repo layout (canonical — the repo root IS the working directory):**
 
 ```
@@ -232,6 +234,7 @@ Every edition ships **two files**: (A) the canonical **print PDF**, and (B) a **
 **(B) HTML Photo Edition (real photos).** A single **self-contained** `.html` file (name it **`index.html`**) the reader opens in their own browser:
 * Inline the full contents of `meridian.css` into a `<style>` block (do NOT rely on a relative link), and load fonts from Google Fonts so it is portable: `<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">`.
 * Relax the fixed-A4 layout so pages flow on screen: override `.page{height:auto;min-height:297mm;overflow:visible;}`, make the footer `position:static`, and add a `.ph-frame{aspect-ratio:16/8;overflow:hidden}` with `img{object-fit:cover}` so layout stays stable **whether or not** an image has loaded.
+* **PDF download link (top of page, every issue).** At the very top of `index.html` — above the cover `.page` — render a slim, on-brand bar linking to the print PDF, which sits in the **same directory** as `index.html` in the repo. Use a **relative href with the `download` attribute**: `<a class="pdf-dl" href="meridian-latest.pdf" download>`. Label it with the issue and date, e.g. *"⤓ Download the print edition (PDF) — No. NN · <date>"*. Style it inline (or via a small rule in the inlined `<style>` block, since the Photo Edition inlines all CSS) using the brand tokens — a `--vermilion` background with `--paper` text in Poppins 600, a thin `--gold` underline/border, centred, full content-width, ~10–12mm tall, with a clear hover state; keep it unobtrusive but obviously tappable. It may be made sticky (`position:sticky;top:0;z-index:50`) so it stays reachable while scrolling — editor's choice, default non-sticky. The link is **Photo-Edition-only** (the PDF has no such self-reference); the filename must match the committed PDF exactly (`meridian-latest.pdf`) so the relative link resolves wherever the folder is served or opened.
 * Inject a **real photo hero** above the headline of each desk for which a photo can be verified (typically: The World, Singapore, Property, Technology, The Kit, Fitness, The Diary, Curiosities, The Long Read). Desks without a verified photo **keep their original Meridian artwork** — never force a photo in.
 * Note in the build that external image hosts are blocked inside the tool sandbox, so the photos will appear blank in any in-sandbox render; that is expected. QA the *layout* by rendering (frames + captions should hold their place); the photos themselves only load in the reader's browser.
 
@@ -282,7 +285,7 @@ Every edition ships **two files**: (A) the canonical **print PDF**, and (B) a **
 * **Two deliverables, always:** the print **PDF** (original SVG artwork) and the self-contained **HTML Photo Edition** (verified real photos, sourced; honest labels; conceptual figures stay SVG). See BUILD \& RENDER.
 * **To flex an issue,** add the instruction to the kickoff line — e.g. *"…build the next edition per the brand prompt, but run it as a leaner weekday edition"* or *"…and add an art & exhibitions strip to The Diary."* The flex rides along with the short kickoff; no need to paste the whole PROMPT.
 * **Kickoff (the short prompt):** hand Claude Code the KICKOFF line at the top of this file and point it at the repo — it reads this file as the full brief, builds, and commits. You no longer paste the PROMPT block into a fresh conversation.
-* **Files in the repo:** `meridian.css` (design system, root) · `meridian-brand-prompt.md` (this file — brand bible + ledgers, root) · `index.html` (Photo Edition, overwritten each issue) · `meridian-latest.pdf` (print PDF, overwritten each issue) · `build/` (scratch, git-ignored). See REPOSITORY & WORKFLOW.
+* **Files in the repo** (`github.com/markt1600/dailymag`): `meridian.css` (design system, root) · `meridian-brand-prompt.md` (this file — brand bible + ledgers, root) · `index.html` (Photo Edition, overwritten each issue) · `meridian-latest.pdf` (print PDF, overwritten each issue) · `build/` (scratch, git-ignored). See REPOSITORY & WORKFLOW.
 
 \---
 
