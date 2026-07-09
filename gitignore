@@ -1,0 +1,8 @@
+# MERIDIAN build scratch — never commit render intermediates
+build/
+*.tmp
+
+# common noise
+.DS_Store
+__pycache__/
+*.pyc
