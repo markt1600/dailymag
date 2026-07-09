@@ -37,6 +37,12 @@ fi
 # Chromium: prefer the pre-installed sandbox browser; export for render.py/qa.py
 if [ -x /opt/pw-browsers/chromium ]; then export PW_CHROMIUM=/opt/pw-browsers/chromium; fi
 
+# Stamp when this session began (≈ when the Routine fired and research started).
+# build_status.py reads it to report the wall-clock build time in status.json;
+# write-once so re-running setup mid-session doesn't shrink the number.
+mkdir -p build
+[ -f build/.session-start ] || date -u +%Y-%m-%dT%H:%M:%S+00:00 > build/.session-start
+
 # readiness summary
 ok_py=$(python3 -c 'import playwright,PIL;print("ok")' 2>/dev/null || echo "MISSING")
 ok_pop=$(command -v pdftoppm >/dev/null 2>&1 && echo ok || echo MISSING)
