@@ -35,6 +35,27 @@ def strip(s):
     return re.sub(r'\s+', ' ', s).strip()
 
 
+# The Macro Desk's standing "What It Means — VWRA, Global Bonds, Gold & BTC"
+# verdict + regime pills, so marktan.ai can show it beside its market tiles.
+def extract_macro(html):
+    m = re.search(r'<div class="lbl">(What It Means[^<]*)</div>\s*<p>(.*?)</p>', html, re.S)
+    if not m:
+        return None
+    reads = [{"label": strip(lbl), "text": strip(txt)}
+             for lbl, txt in re.findall(r'<b>\s*([^<:]+?)\s*:</b>\s*(.*?)(?=<b>|$)', m.group(2), re.S)]
+    note = ""
+    if reads:
+        mn = re.search(r'(Education,?\s*not advice.*)$', reads[-1]["text"], re.I)
+        if mn:
+            note = mn.group(1).strip()
+            reads[-1]["text"] = reads[-1]["text"][:mn.start()].strip()
+    tail = html[m.end(): html.find("pgfoot", m.end())]
+    regime = [strip(t) for t in re.findall(r'<span class="tag[^"]*">([^<]+)</span>', tail)]
+    seg = re.findall(r'<section id="(p\d+)"', html[:m.start()])
+    return {"title": strip(m.group(1)), "reads": reads, "note": note,
+            "regime": regime, "anchor": seg[-1] if seg else None}
+
+
 # issue number + date from the download bar or cover topbar
 issue = date = None
 m = re.search(r'No\.\s*(\d{1,3})\s*·\s*(\d{1,2}\s+\w+\s+\d{4})', html)
@@ -102,6 +123,7 @@ feed = {
     "date": date,
     "generated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(timespec="seconds"),
     "quote": quote,
+    "macro": extract_macro(html),
     "stories": stories,
 }
 out.write_text(json.dumps(feed, ensure_ascii=False, indent=1))
