@@ -52,15 +52,36 @@ except Exception:
     pass
 
 SGT = datetime.timezone(datetime.timedelta(hours=8))
+built_dt = (datetime.datetime.fromisoformat(built_at) if built_at
+            else datetime.datetime.now(SGT))
+
+# Wall-clock build time: setup.sh stamps build/.session-start when the session
+# opens (≈ when the Routine fired and research began). Sanity-bounded so a
+# stale stamp from a long-lived interactive session can't report nonsense.
+started_at = build_minutes = None
+stamp = pathlib.Path("build/.session-start")
+if stamp.exists():
+    try:
+        t0 = datetime.datetime.fromisoformat(stamp.read_text().strip())
+        mins = (built_dt - t0).total_seconds() / 60
+        if 0 < mins < 360:
+            started_at = t0.astimezone(SGT).isoformat(timespec="seconds")
+            build_minutes = round(mins)
+    except ValueError:
+        pass
+
 status = {
     "publication": "MERIDIAN",
     "issue": issue,
     "date": date,
     "isoDate": iso_date,
-    "builtAt": built_at or datetime.datetime.now(SGT).isoformat(timespec="seconds"),
+    "builtAt": built_dt.isoformat(timespec="seconds"),
+    "startedAt": started_at,
+    "buildMinutes": build_minutes,
     "pages": pages,
     "qa": "pass",
     "url": "https://dailymag.marktan.ai",
 }
 out.write_text(json.dumps(status, ensure_ascii=False, indent=1) + "\n")
-print(f"status.json: No. {issue} · {date} ({iso_date}) — {pages}pp, qa=pass")
+dur = f", {build_minutes}m build" if build_minutes else ""
+print(f"status.json: No. {issue} · {date} ({iso_date}) — {pages}pp, qa=pass{dur}")

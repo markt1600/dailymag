@@ -37,7 +37,7 @@ git add index.html meridian-latest.pdf meridian-brand-prompt.md state/ && git co
 | `build_manifest.py` | Builds `archive/manifest.json` from the issue log + the recovered files — the searchable index (metadata + full-text) the Photo Edition's Archive menu embeds. |
 | `backfill_archive.py` | One-time (re-runnable) recovery of past Photo Editions from git history into `archive/no-NN/`. |
 | `build_feed.py` | Derives `feed.json` (top desk lead per desk + `#pN` anchors + the "From the Desk" quote) by parsing the finished `index.html`. Consumed by **dailymag.marktan.ai** to populate its Stories & Briefs — reusing MERIDIAN's research instead of a separate web search. Must be committed each issue. |
-| `build_status.py` | Emits `status.json` (issue no., ISO date, built-at time, page count, `qa:"pass"`). marktan.ai's header shows it as a pipeline tile and turns red when no *today-dated* status has appeared by its 07:15 refresh — the "did the Routine run?" beacon. Runs strictly after the QA gate, so its existence means the gate passed. **Must be committed each issue** alongside `feed.json`. |
+| `build_status.py` | Emits `status.json` (issue no., ISO date, built-at time, wall-clock `buildMinutes` — measured from the `build/.session-start` stamp `setup.sh` writes when the session opens — page count, `qa:"pass"`). marktan.ai's header shows it as a pipeline tile and turns red when no *today-dated* status has appeared by its 07:15 refresh — the "did the Routine run?" beacon. Runs strictly after the QA gate, so its existence means the gate passed. **Must be committed each issue** alongside `feed.json`. |
 | `build.sh` | Runs validate → render → QA → manifest → photo-edition → feed → status in order. |
 
 ## `state/`
