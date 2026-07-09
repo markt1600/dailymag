@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+
+/* ---- Photo Edition flow overrides (screen) ---- */
+body{background:#ece5d6;}
+.page{height:auto;min-height:297mm;overflow:visible;margin:0 auto 10px;box-shadow:0 2px 18px rgba(0,0,0,.16);}
+.page.dark{height:297mm;min-height:297mm;overflow:hidden;}      /* cover & back stay fixed */
+.pgfoot{position:static;margin-top:18px;}
+.ph-frame{aspect-ratio:16/8;overflow:hidden;border:.6pt solid var(--line);border-radius:2px;margin:2px 0 0;background:#e7e0d2;}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.ph-cap{font-family:'Poppins',sans-serif;font-size:6.4pt;line-height:1.4;color:var(--muted);margin:4px 0 2px;}
+
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Issue-local helpers (No. 22) — layout only, no palette/CSS-system changes */
+.hero-cap{font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.04em;color:var(--blush);text-align:center;margin-top:6px;}
+.mini{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.04em;color:var(--ink2);}
+.toc-row{display:flex;justify-content:space-between;border-bottom:.5pt solid var(--line);padding:3.2px 0;}
+.toc-row .d{font-family:'Poppins',sans-serif;font-size:8.2pt;letter-spacing:.02em;color:var(--ink);font-weight:600;}
+.toc-row .s{font-family:'Lora',serif;font-style:italic;font-size:8.2pt;color:var(--muted);}
+.toc-row .p{font-family:'Poppins',sans-serif;font-size:8.2pt;color:var(--vermilion);font-weight:700;}
+.mktstrip{display:flex;gap:0;border:.6pt solid var(--line);border-radius:2px;overflow:hidden;margin:7px 0;}
+.mktstrip .c{flex:1;padding:6px 7px;border-right:.6pt solid var(--line);}
+.mktstrip .c:last-child{border-right:none;}
+.mktstrip .k{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);}
+.mktstrip .v{font-family:'Poppins',sans-serif;font-weight:700;font-size:11pt;color:var(--ink);line-height:1.1;}
+.mktstrip .v small{font-size:6.6pt;font-weight:600;}
+.up{color:var(--vermilion);} .dn{color:var(--teal);}
+.fromdesk{border:.6pt solid var(--line);border-top:3pt solid var(--gold);background:#fbf8f1;padding:10px 12px;border-radius:2px;}
+.fromdesk .q{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:13pt;line-height:1.26;color:var(--ink);}
+.fromdesk .a{font-family:'Poppins',sans-serif;font-size:7.4pt;letter-spacing:.06em;color:var(--vermilion);font-weight:600;margin-top:5px;text-transform:uppercase;}
+.subhead{font-family:'Poppins',sans-serif;font-weight:700;font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--slate);margin:9px 0 5px;border-bottom:.5pt solid var(--line);padding-bottom:3px;}
+.byl{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 — COVER ============ -->
+<div class="page dark">
+  <div class="topbar"><span></span><span>No. 22 · Singapore</span></div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+    <div style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.34em;text-transform:uppercase;color:var(--blush);margin-top:10px;">Sunday · 14 June 2026 · The Sunday Edition</div>
+  </div>
+
+  <!-- Hero: the useful emptiness — a thirty-spoke wheel whose work is its empty hub -->
+  <div style="position:absolute;top:92mm;left:0;right:0;display:flex;justify-content:center;">
+    <svg viewBox="0 0 520 300" width="430" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="hub" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#f6f2e9" stop-opacity="0.0"/>
+          <stop offset="62%" stop-color="#f6f2e9" stop-opacity="0.0"/>
+          <stop offset="100%" stop-color="#b08738" stop-opacity="0.5"/>
+        </radialGradient>
+      </defs>
+      <!-- outer rim -->
+      <circle cx="260" cy="150" r="138" fill="none" stroke="#b08738" stroke-width="1.4" opacity="0.9"/>
+      <circle cx="260" cy="150" r="131" fill="none" stroke="#c1462e" stroke-width="0.7" opacity="0.6"/>
+      <!-- thirty spokes converging on an empty hub -->
+      <g stroke="#e8dccb" stroke-width="0.7" opacity="0.78">
+        <!-- generated spokes -->
+        <line x1="260" y1="150" x2="260" y2="19"/><line x1="260" y1="150" x2="287" y2="22"/>
+        <line x1="260" y1="150" x2="313" y2="31"/><line x1="260" y1="150" x2="337" y2="46"/>
+        <line x1="260" y1="150" x2="358" y2="66"/><line x1="260" y1="150" x2="375" y2="90"/>
+        <line x1="260" y1="150" x2="386" y2="117"/><line x1="260" y1="150" x2="391" y2="146"/>
+        <line x1="260" y1="150" x2="391" y2="154"/><line x1="260" y1="150" x2="386" y2="183"/>
+        <line x1="260" y1="150" x2="375" y2="210"/><line x1="260" y1="150" x2="358" y2="234"/>
+        <line x1="260" y1="150" x2="337" y2="254"/><line x1="260" y1="150" x2="313" y2="269"/>
+        <line x1="260" y1="150" x2="287" y2="278"/><line x1="260" y1="150" x2="260" y2="281"/>
+        <line x1="260" y1="150" x2="233" y2="278"/><line x1="260" y1="150" x2="207" y2="269"/>
+        <line x1="260" y1="150" x2="183" y2="254"/><line x1="260" y1="150" x2="162" y2="234"/>
+        <line x1="260" y1="150" x2="145" y2="210"/><line x1="260" y1="150" x2="134" y2="183"/>
+        <line x1="260" y1="150" x2="129" y2="154"/><line x1="260" y1="150" x2="129" y2="146"/>
+        <line x1="260" y1="150" x2="134" y2="117"/><line x1="260" y1="150" x2="145" y2="90"/>
+        <line x1="260" y1="150" x2="162" y2="66"/><line x1="260" y1="150" x2="183" y2="46"/>
+        <line x1="260" y1="150" x2="207" y2="31"/><line x1="260" y1="150" x2="233" y2="22"/>
+      </g>
+      <!-- the hub: an emptiness, ringed in gold, doing the work -->
+      <circle cx="260" cy="150" r="46" fill="#191613"/>
+      <circle cx="260" cy="150" r="46" fill="url(#hub)"/>
+      <circle cx="260" cy="150" r="46" fill="none" stroke="#b08738" stroke-width="1.2"/>
+      <circle cx="260" cy="150" r="30" fill="none" stroke="#c1462e" stroke-width="0.6" opacity="0.7" stroke-dasharray="2 4"/>
+    </svg>
+  </div>
+  <div style="position:absolute;top:182mm;left:0;right:0;"><div class="hero-cap">"It is the centre hole that makes the wheel useful." — the Sunday issue, on negative space · <span style="font-style:italic;">Meridian</span> original</div></div>
+
+  <div class="cover-teasers">
+    <div class="hairline"></div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">The Good Life</div>
+        <div class="ht">The gavel falls on provenance: a one-of-two Patek clears $2.76m as vintage buries the boutique</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--vermilion);">Curiosities</div>
+        <div class="ht">Planet Nine keeps not being there — and the not-being-there is the whole clue</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--blush);">The Diary · The Table</div>
+        <div class="ht">A soft-yen summer, a rice-grain flagship, and what's worth the Sunday booking</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>The Sunday Edition</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</div>
+
+<!-- ============ PAGE 2 — CONTENTS + FROM THE DESK ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Contents</span><span>The Sunday Edition</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="grid g-21" style="margin-top:9px;">
+    <div>
+      <div class="kicker">Inside this edition</div>
+      <div class="hed sm" style="margin-bottom:8px;">Twelve desks, one quiet Sunday</div>
+      <div class="toc-row"><span class="d">The World</span><span class="s">The Meridian Dispatch</span><span class="p">03</span></div>
+      <div class="toc-row"><span class="d">Singapore</span><span class="s">The Little Red Dot</span><span class="p">05</span></div>
+      <div class="toc-row"><span class="d">Property</span><span class="s">Bricks &amp; Mortar</span><span class="p">06</span></div>
+      <div class="toc-row"><span class="d">Technology</span><span class="s">Silicon &amp; Sovereignty</span><span class="p">07</span></div>
+      <div class="toc-row"><span class="d">The Kit</span><span class="s">Gear We're Watching</span><span class="p">09</span></div>
+      <div class="toc-row"><span class="d">The Connected Home</span><span class="s">Walls That Listen</span><span class="p">10</span></div>
+      <div class="toc-row"><span class="d">The Good Life</span><span class="s">Objects &amp; Escapes</span><span class="p">11</span></div>
+      <div class="toc-row"><span class="d">Screen &amp; Sound</span><span class="s">Culture Desk</span><span class="p">12</span></div>
+      <div class="toc-row"><span class="d">The Family Desk</span><span class="s">Raising Them Well</span><span class="p">13</span></div>
+      <div class="toc-row"><span class="d">The Whisper Desk</span><span class="s">Strictly Off the Record</span><span class="p">15</span></div>
+      <div class="toc-row"><span class="d">Curiosities</span><span class="s">The Far Edges</span><span class="p">16</span></div>
+      <div class="toc-row"><span class="d">Love &amp; Life</span><span class="s">The Human Desk</span><span class="p">17</span></div>
+      <div class="toc-row"><span class="d">Fitness</span><span class="s">The Long Game</span><span class="p">18</span></div>
+      <div class="toc-row"><span class="d">The Diary</span><span class="s">What's Worth Booking</span><span class="p">19</span></div>
+      <div class="toc-row"><span class="d">The Long Read</span><span class="s">The Useful Emptiness</span><span class="p">21</span></div>
+
+      <div class="mktstrip">
+        <div class="c"><div class="k">Brent (Fri close)</div><div class="v dn">$86.4 <small>▼ wk</small></div></div>
+        <div class="c"><div class="k">STI</div><div class="v">4,958</div></div>
+        <div class="c"><div class="k">USD / JPY</div><div class="v">¥160.3</div></div>
+        <div class="c"><div class="k">SG power Q2</div><div class="v">29.72¢<small>/kWh</small></div></div>
+      </div>
+      <div class="mini" style="color:var(--muted);">Markets closed for the weekend; figures are Friday 12 Jun closes. World Bank's 2026 global-growth call: 2.5%, the weakest since the pandemic.<sup class="fnref">1</sup></div>
+    </div>
+
+    <div>
+      <div class="fromdesk">
+        <div class="kicker gold">From the Desk</div>
+        <div class="q">"Thirty spokes share the wheel's hub; it is the centre hole that makes it useful. Shape clay into a vessel; it is the space within that makes it useful."</div>
+        <div class="a">— Lao Tzu, <span style="font-style:italic;">Tao Te Ching</span>, ch. 11 (c. 4th c. BC)</div>
+        <p class="body tight" style="margin-top:8px;">This is a Sunday for negative space. The week's loudest stories are, on inspection, about the things that <span style="font-style:italic;">aren't</span> there. A peace described in every capital and signed in none, still promised "this weekend in Europe." A ninth planet inferred from wobbles it leaves in other orbits — and now wobbling out of the evidence again. A watch worth millions precisely because almost none exist. A pop record built around a thesis that went missing mid-recording. And the oldest one: the rest day that does the training, the empty hour that holds the week. Lao Tzu had the shape of it 2,400 years ago. The spokes get the glory; the hub does the work.</p>
+      </div>
+      <div class="chatter teal" style="margin-top:9px;">
+        <div class="lbl">The week in one line</div>
+        <p>Oil exhaled, the gavel spoke for the past over the present, and a planet went back to being a rumour. A good Sunday to read slowly.</p>
+      </div>
+      <div class="mini" style="margin-top:8px;color:var(--muted);">A note on this edition: it is a Sunday, so MERIDIAN tilts to life — the hard desks run lean and reflective; the lifestyle desks get room to breathe. The skeleton, palette and tagline never change.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. World Bank, Global Economic Prospects, Jun 2026 (growth cut to 2.5%). &nbsp;Market levels: Friday 12 Jun closes, indicative.</div>
+    <div class="fnbar"><span>Contents · From the Desk</span><span>Page 2</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 3 — THE WORLD (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">The signing that keeps being scheduled</div>
+  <div class="hed">A peace promised "this weekend in Europe" — and a market that decided to believe it</div>
+  <div class="dek">Tehran circulates a fourteen-point draft; Washington says the pen is almost down. Brent slid below US$87 on Friday, its lowest since early March. On a Sunday, the only honest posture is to watch the empty signature line.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">For the better part of two months this desk has filed the same sentence in different words: the Hormuz framework is described in every capital and signed in none.<sup class="fnref">1</sup> This weekend it edged a half-step closer to ink. Iran's negotiators are said to be circulating a fourteen-point draft — reopen the strait fully within thirty days, lift the oil sanctions, a staged return of inspectors — while President Trump told reporters a deal could be "signed this weekend in Europe," needing only Tehran's final sign-off.<sup class="fnref">2</sup></p>
+    <p class="body">Oil took the hint before the diplomats did. Brent fell more than four per cent on Friday to settle near US$86.4, its lowest since the first week of March, unwinding most of the war premium that had built since the 7–8 June direct exchange.<sup class="fnref">3</sup> The relief is real and the caution is too: this is the fourth weekend a signature has been imminent. Markets that have been burned before now price the announcement, not the document.</p>
+    <p class="body">The wider frame is the one that will outlast the headline. The World Bank cut its 2026 global-growth call to 2.5 per cent — the weakest outside an outright recession since the pandemic — and the U.S. Federal Reserve holds its first meeting under new chair Kevin Warsh this coming week.<sup class="fnref">4</sup> A peace that arrives would not undo a year that has already re-priced energy, growth and the cost of money. The hub of this story is still an absence: the unsigned page that everyone keeps describing.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="desk">
+      <div class="flag"><span>Washington</span><span class="geo">The framing</span></div>
+      <p>"A deal is reachable this weekend." The White House line treats the draft as 90 per cent done and the reopening of Hormuz as the deliverable that lets everything else fall into place — and lets the President bank a win before the Fed meets.</p>
+    </div>
+    <div class="desk">
+      <div class="flag"><span>Tehran</span><span class="geo">The framing</span></div>
+      <p>State outlets present the fourteen points as <span style="font-style:italic;">Iran's</span> terms, not a capitulation — sanctions relief first, sequencing on Iran's clock. The message home: we are negotiating from strength, and the strait is leverage, not a concession.</p>
+    </div>
+  </div>
+
+  <div class="pull">A signature is the smallest object in geopolitics and the heaviest. This weekend it weighed on every barrel of oil on earth.</div>
+
+  <div class="chatter slate">
+    <div class="lbl">The sceptic's desk</div>
+    <p>Veteran Gulf correspondents keep flagging the same pattern: each "imminent" signing has slipped on a different clause — first Lebanon, then inspector access, now sequencing. The base case among the cautious is a framework initialled but not ratified, with the strait reopening <span style="font-style:italic;">before</span> the politics are settled, because the oil money waits for no one.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Meridian continuity, Nos. 08–21. &nbsp;2. Mehr/Reuters wires on the Iranian draft; White House remarks, 12–13 Jun 2026. &nbsp;3. Brent settlement, 12 Jun (CNBC/Reuters). &nbsp;4. World Bank Global Economic Prospects, Jun 2026; Federal Reserve schedule.</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 4 — THE WORLD (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>Around the Desks</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker slate">The slow news of a summer Sunday</div>
+  <div class="hed sm">Three stories that will still be here on Monday</div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body"><b>Colombia counts down.</b> The 21 June presidential run-off is now a week out, with the hard-right Abelardo de la Espriella (43.7 per cent in the first round) facing the left's Iván Cepeda (40.9 per cent).<sup class="fnref">1</sup> The contest has become a referendum on whether the Petro era's reforms survive — and on how a mid-sized oil exporter positions itself in a year when oil is the only story that moves markets. Watch the abstention rate: in a polarised field, who stays home decides it.</p>
+    <p class="body"><b>Ukraine keeps hitting tanks of a different kind.</b> Long-range drones again struck Russian refining capacity this week, with reporting that the Volgograd plant remains offline.<sup class="fnref">2</sup> The campaign is less about territory than arithmetic: every refinery hour lost is leverage on the same energy board where Hormuz sits. The two theatres are now one market.</p>
+    <p class="body"><b>The Fed's new hand.</b> Kevin Warsh chairs his first meeting this week against a hot run of U.S. inflation prints driven by energy. A pause is the consensus; the language is the event. A chair installed for his hawkish reputation, meeting in the week a war might end, is a study in how much a central banker can say by saying very little.<sup class="fnref">3</sup></p>
+    <p class="body">None of these will be resolved by Monday, which is rather the point of a Sunday read. The week's biggest movements came from things that did not happen — a strait that was not closed, a document not signed, a planet not found. The discipline this desk keeps preaching is to act on the measured delta, not the imagined tail.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="stat"><div class="n">2.5%</div><div class="c">World Bank 2026 global growth call</div></div>
+    <div class="stat"><div class="n">−4%</div><div class="c">Brent, Friday, on signing hopes</div></div>
+  </div>
+
+  <div class="chatter teal">
+    <div class="lbl">The non-aligned read</div>
+    <p>Gulf and South-Asian commentators note the quiet winner of a settlement is whoever keeps cargoes moving regardless of the politics — the traders, insurers and re-flaggers who have spent a year pricing risk that, this weekend, looks like it might evaporate. Their advice to the rest of us: don't confuse a calmer tape with a solved problem.</p>
+  </div>
+
+  <div class="hairline"></div>
+  <div class="mini" style="color:var(--muted);">A weekend edition runs The World lean by design: two viewpoints, the standing developments advanced by their delta, and no re-narration of an arc readers have followed since No. 08. The fuller wire returns Monday.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. First-round results, Colombia (continuity). &nbsp;2. Ukrainian long-range strike reporting, 11–13 Jun. &nbsp;3. Federal Reserve; US CPI prints, Jun 2026.</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 5 — SINGAPORE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Singapore Marina Bay skyline at dusk" loading="lazy"></div>
+  <div class="ph-cap">The Marina Bay skyline at dusk — representative Singapore cityscape, not a specific scene in this report. Source: Wikimedia Commons — "File:Singapore Marina Bay Dusk 2018-02-27.jpg" · CC BY-SA 4.0 · Benh Lieu Song. Subject verified from the Commons file page.</div>
+
+  <div class="kicker">A relief calendar you can read like a household budget</div>
+  <div class="hed">If the war is ending, your July bill hasn't heard yet</div>
+  <div class="dek">The Sunday way to read the oil story is at the meter, not the front page. The relief payments are pre-positioned; the tariff that bites is still ahead.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">Here is the household truth behind a fortnight of geopolitics. About 95 per cent of Singapore's electricity is generated from imported natural gas, and the regulated tariff is set on a lag — the current 29.72 cents per kWh (1 Apr–30 Jun) reflects gas prices from January to mid-March, before the war spiked them.<sup class="fnref">1</sup> Which means the quarter that will actually carry the conflict's cost is the next one. The EMA has said as much: expect a further, possibly sharper, increase later in 2026.<sup class="fnref">2</sup></p>
+    <p class="body">The state's answer is a calendar, laid down before the squeeze: the S$500 CDC vouchers pulled forward into June, U-Save and S&amp;CC rebates in July, GST Voucher cash in August, the Cost-of-Living payments from September. Read together, they are designed to land just ahead of the bills — a hub of support sized to the gap, in the spirit of this issue.</p>
+    <p class="body">For a comfortable household the dollars are not the point; the signal is. A government that pre-funds relief for a shock it can see coming is telling you it expects the shock to arrive even if the war ends — because the tariff lag means the July and Q3 numbers are already baked. If the weekend's peace holds, the relief becomes a cushion against a smaller blow. That is a good problem to have.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="stat"><div class="n">95%</div><div class="c">SG power from imported gas</div></div>
+    <div class="stat"><div class="n">29.72¢</div><div class="c">Q2 tariff /kWh — set on pre-war gas</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · r/singaporefi</div>
+    <p>The thread this week is calmer than the price action: lock a fixed electricity retail plan now if your contract is up, switch usage to off-peak, and bank the CDC vouchers rather than treating them as found money. The grown-up consensus: the relief is real but temporary; the energy bill is structural.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">A weekend footnote worth keeping</div>
+    <p>From October, flights leaving Singapore carry a small sustainable-aviation-fuel levy (roughly S$3–S$16).<sup class="fnref">3</sup> Negligible against a Tokyo fare, but a reminder that the cost of moving — people or oil — is quietly being re-based upward across the board. Plan the summer trip on the delta, not the dread.</p>
+  </div>
+
+  <div class="pull">The peace, if it comes, will arrive faster than the tariff that the war already wrote.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. SP Group / EMA tariff revision, 1 Apr–30 Jun 2026 (29.72¢/kWh). &nbsp;2. EMA statement on sharper later-2026 increases. &nbsp;3. SAF levy on departing flights from Oct 2026 (CAAS).</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 6 — PROPERTY ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">For the owner, on a slow Sunday</div>
+  <div class="hed">The market that won't fall and won't quite move</div>
+  <div class="dek">Prices firm, volumes thin, the supply tap open. A weekend read for someone who already owns the asset and is wondering whether to do anything at all. (Rates retired from this desk, per the editor.)</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The shape of the private market in mid-2026 is a stand-off, and stand-offs are restful to own through. URA's final Q1 reading firmed to roughly +0.9 per cent quarter-on-quarter, yet transaction volumes have run sharply below a year earlier — the textbook signature of a market where holders are content and buyers are patient.<sup class="fnref">1</sup> Nobody is forced to sell; nobody is desperate to buy. The space between bid and ask is doing the work.</p>
+    <p class="body">Underneath, the supply tap stays deliberately open. The 2H2026 Government Land Sales programme carries some 4,745 private units across nine sites, and the public pipeline runs to around 61,000 — a structural answer to a structural worry, spread over years.<sup class="fnref">2</sup> The read-through for an owner is unglamorous and reassuring: this is a policy designed to prevent both a melt-up and a melt-down. You are not holding a casino chip.</p>
+    <p class="body">The one number that moved was construction. Build costs are up roughly 40 per cent over the decade, pushing land-sale break-evens for new suburban launches toward and past S$2,400 psf — which quietly props the floor under everything already standing.<sup class="fnref">3</sup> Inflation in the cost of <span style="font-style:italic;">making</span> a home is, for those who own one, a subsidy in disguise.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="stat"><div class="n">+0.9%</div><div class="c">URA private price index, Q1 (final)</div></div>
+    <div class="stat"><div class="n">~61k</div><div class="c">Total housing pipeline (units)</div></div>
+  </div>
+
+  <div class="chatter gold">
+    <div class="lbl">The owner's verdict</div>
+    <p>The honest Sunday advice for a multi-property holder weighing a move: there is nothing here that demands one. Firm prices, thin volumes and a long supply runway describe a market to <span style="font-style:italic;">hold</span>, not to trade. If you're refinancing, that's housekeeping — see the standing note. If you're tempted to sell into thin volume, ask what you'd buy back into.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">Still on the shelf</div>
+    <p>The June BTO exercise (~6,900 flats, Prime-heavy, incl. the Bishan Lakeview return) and the 2H GLS list are advancing on schedule — application results are the next real peg, not the launch.<sup class="fnref">4</sup> The SORA refinancing window remains open and remains, per this desk's standing ruling, a one-line mention rather than a headline.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. URA Q1 2026 final index &amp; transaction data. &nbsp;2. URA 2H2026 GLS Confirmed List; HDB/URA pipeline. &nbsp;3. BCA/industry construction-cost estimates. &nbsp;4. HDB June 2026 BTO; continuity Nos. 17–21.</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 7 — TECHNOLOGY (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">Rent the genie, own the lamp</div>
+  <div class="hed">Apple now rents its voice — which makes the case for owning yours</div>
+  <div class="dek">A week on from WWDC, the architecture is clear: the new Siri thinks on Google's hardware. For a reader who keeps a home lab, the lesson isn't outrage. It's a quiet weekend project.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The delta from Cupertino has settled into a sentence. The rebuilt Siri routes its hardest requests to a custom, roughly 1.2-trillion-parameter Google Gemini model running on Google Cloud — reportedly a billion-dollar-a-year arrangement — beneath a three-tier "Foundation Models" stack that keeps the easy stuff on-device.<sup class="fnref">1</sup> Apple frames it as pragmatism, and it is: rent the model, own the routing, manufacture the devices. The most valuable company on earth decided the brain was the part to lease.</p>
+    <p class="body">For most people that is invisible and fine. For this reader it draws a clean line. The faculty you rent is a convenience; the faculty you own is leverage. The whole argument of the home lab is that the line is movable — that a good-enough model on your own silicon, answering only to you, is now genuinely achievable at the desk.</p>
+    <p class="body">The binding constraint, as it has been all year, is memory rather than compute. The DRAM contract market is up sharply and the "memory tax" sits on every RAM-heavy box you might buy.<sup class="fnref">2</sup> The counsel hasn't changed: buy the box you'll keep on its merits today; don't model a deferred dip that the supply chain says won't come before 2028. Own the lamp while lamps are still for sale.</p>
+  </div>
+
+  <div class="pull">Apple just told a billion people the brain is rentable. The home lab exists to keep one copy of it under your own roof.</div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · r/LocalLLaMA</div>
+    <p>The weekend mood is less doom, more shrug: "Gemini-in-Siri is fine for normies; my Home Assistant already answers from a 27B running on the box in the cupboard." The open-weight frontier (GLM-5.1, Kimi K2.6, DeepSeek V4-Pro) is unchanged since No. 14 — strong, free, and increasingly desk-runnable — so it stays, this week, on the shelf.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The reversible-dependence test</div>
+    <p>The sober frame from No. 17 still holds: a dependence you can unwind in an afternoon is leverage; one you cannot is a transfer of sovereignty. Renting Gemini is the former for Apple — it owns the routing and the customer. Make sure your own arrangements are the former too.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. WWDC 2026 keynote &amp; reporting on the Gemini-Siri arrangement (continuity No. 17). &nbsp;2. DRAM/HBM contract pricing, 2026; IDC reallocation note.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 8 — TECHNOLOGY (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>The Home Lab</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker teal">A Sunday-afternoon build</div>
+  <div class="hed sm">The voice in the cupboard: a local assistant you actually control</div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body">If WWDC made you want to keep one assistant that answers only to you, here is the weekend version, all of it local. The pieces are mature now: <b>Ollama</b> to serve a small model, a quantised <b>Gemma 3</b> (the 27B if your box has the memory, the 4B if it doesn't) or <b>Phi-4-mini</b> for a no-GPU machine, and Home Assistant's built-in conversation agent pointed at the local endpoint rather than the cloud.<sup class="fnref">1</sup> An afternoon of YAML and you have a house that listens without anyone else hearing.</p>
+    <p class="body">The honest result is not magic. A 27B running on a desk will not match the rented 1.2-trillion-parameter Gemini for open-ended reasoning. But for the jobs a home assistant actually does — "dim the study, what's on the calendar, start the kettle scene" — it is fast, private, and yours, and it keeps working when the broadband doesn't. The small-model renaissance has quietly made "good enough, on my hardware" a real category rather than a hobbyist's consolation prize.</p>
+  </div>
+
+  <div class="figframe" style="margin:8px 0;">
+    <svg viewBox="0 0 520 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;">
+      <rect x="0" y="0" width="520" height="150" fill="#fff"/>
+      <!-- own vs rent diagram -->
+      <text x="14" y="22" font-family="Poppins" font-size="10" font-weight="700" fill="#191613">WHERE THE THINKING HAPPENS</text>
+      <!-- rent path -->
+      <rect x="14" y="44" width="120" height="34" rx="3" fill="#efe9db" stroke="#d8cfbd"/>
+      <text x="74" y="60" font-family="Poppins" font-size="8" fill="#403a32" text-anchor="middle">Your phone</text>
+      <text x="74" y="72" font-family="Poppins" font-size="6.5" fill="#7a7264" text-anchor="middle">(Siri)</text>
+      <line x1="134" y1="61" x2="186" y2="61" stroke="#c1462e" stroke-width="1.4" marker-end="url(#ar)"/>
+      <rect x="188" y="44" width="150" height="34" rx="3" fill="#fbf0ec" stroke="#c1462e"/>
+      <text x="263" y="58" font-family="Poppins" font-size="8" font-weight="700" fill="#9c3422" text-anchor="middle">Google Cloud</text>
+      <text x="263" y="71" font-family="Poppins" font-size="6.5" fill="#7a7264" text-anchor="middle">~1.2T-param Gemini · rented</text>
+      <!-- own path -->
+      <rect x="14" y="98" width="120" height="34" rx="3" fill="#efe9db" stroke="#d8cfbd"/>
+      <text x="74" y="114" font-family="Poppins" font-size="8" fill="#403a32" text-anchor="middle">Home Assistant</text>
+      <text x="74" y="126" font-family="Poppins" font-size="6.5" fill="#7a7264" text-anchor="middle">(your voice)</text>
+      <line x1="134" y1="115" x2="186" y2="115" stroke="#2b6b66" stroke-width="1.4" marker-end="url(#at)"/>
+      <rect x="188" y="98" width="150" height="34" rx="3" fill="#eef4f3" stroke="#2b6b66"/>
+      <text x="263" y="112" font-family="Poppins" font-size="8" font-weight="700" fill="#2b6b66" text-anchor="middle">The box in the cupboard</text>
+      <text x="263" y="125" font-family="Poppins" font-size="6.5" fill="#7a7264" text-anchor="middle">Gemma 3 27B via Ollama · owned</text>
+      <text x="356" y="60" font-family="Poppins" font-size="7" fill="#7a7264">Convenience.</text>
+      <text x="356" y="72" font-family="Poppins" font-size="7" fill="#7a7264">Leaves your house.</text>
+      <text x="356" y="114" font-family="Poppins" font-size="7" fill="#2b6b66">Leverage.</text>
+      <text x="356" y="126" font-family="Poppins" font-size="7" fill="#2b6b66">Stays in the cupboard.</text>
+      <defs>
+        <marker id="ar" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L6,3.5 L0,7 Z" fill="#c1462e"/></marker>
+        <marker id="at" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L6,3.5 L0,7 Z" fill="#2b6b66"/></marker>
+      </defs>
+    </svg>
+    <div class="imgcap">The two paths to a talking house. One rents a genius; one keeps a competent friend in a cupboard. <span style="font-style:italic;">Meridian</span> original.</div>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The memory-tax sceptic</div>
+    <p>Before anyone refreshes the cart: DDR5 is roughly four times off its 2025 low and the squeeze is forecast to run past 2028.<sup class="fnref">2</sup> Build with what you have. The 4B model on a mini-PC you already own beats the 27B on a machine you talked yourself into buying at the top.</p>
+  </div>
+
+  <div class="chatter gold">
+    <div class="lbl">Still on the shelf</div>
+    <p>Nvidia's RTX Spark Superchip (No. 18) and the DGX Spark (No. 16) remain the desk-class boxes to want; the H200-to-China saga advances on its delta only (still cleared, still ~undelivered, Beijing still steering to Huawei). Nothing to re-explain — just keep the lamp you have lit.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Ollama; Home Assistant local conversation agent docs; model cards (Gemma 3, Phi-4-mini). &nbsp;2. DDR5 spot/contract pricing, 2026.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 9 — THE KIT ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">The pocket camera quietly winning the summer</div>
+  <div class="hed">A gimbal you can forget is in your bag</div>
+  <div class="dek">Canon's just-confirmed pocket gimbal-camera is the kind of object a travelling parent actually uses — small enough to carry, smart enough to point itself. A weekend buyer's read.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The most useful camera is the one you have on you, and the genre Canon just confirmed it is entering — a three-axis, fixed-lens pocket gimbal that folds itself away — is built around exactly that truth.<sup class="fnref">1</sup> It is, openly, a challenger to DJI's Osmo Pocket: a stabilised sensor on a motorised stalk that keeps a child's birthday or a Tokyo backstreet steady while you do nothing but follow them. For a reader who already owns serious glass, the appeal is the opposite of serious — it is the camera you bring when you don't want to bring a camera.</p>
+    <p class="body">As ever on this desk, the buying climate matters as much as the product. Cameras and headphones carry little memory exposure, so they price on merit; RAM-heavy gear (laptops, handhelds, NAS) is where the memory tax bites and where waiting is rational.<sup class="fnref">2</sup> A pocket gimbal sits firmly in the "buy on merit" column. If it does what the genre does, it earns the bag space.</p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the travel-camera forums</div>
+    <p>Early enthusiasm is cautiously high — a Canon colour-science gimbal is what a lot of family shooters have wanted from the category, which has been DJI's alone. The standing caveat: fixed-lens pocket cams live or die on low-light and audio, so hold the verdict for hands-on reviews before pre-ordering on brand love.</p>
+  </div>
+
+  <div class="subhead">Still on the shelf</div>
+  <div class="cols2">
+    <p class="body tight"><b>LG C6 OLED</b> — the mid-range OLED to beat this year (No. 20), if you can buy a panel rather than a deferred dream. <b>Nikon Z5 II + 24–105</b> — the one-bag full-frame travel kit (No. 21). <b>Garmin Forerunner 70 / 170</b> — back-to-basics running watches (No. 18). <b>Fitbit Air</b> — the US$99 screenless band undercutting Oura and Whoop (No. 19); first independent reviews are the next peg. <b>Sony a7R VI · Sennheiser Momentum 5 · smart-glasses roadmap</b> — all shipping or still pending, none with a new peg this weekend.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The contrarian's buy-list</div>
+    <p>The least glamorous advice is the most valuable in a memory-tax year: you almost certainly already own the camera that will take your best photo this summer. Spend on the trip, not the kit. If the gimbal still calls after the reviews land, it'll still be there.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Canon pocket gimbal-camera confirmation (continuity No. 21). &nbsp;2. Smartphone/PC shipment &amp; NAND pricing trend, 2026.</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 10 — THE CONNECTED HOME ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker gold">The house that knows it's Sunday</div>
+  <div class="hed">A morning scene, written once, that runs forever</div>
+  <div class="dek">The smart home earns its keep not on the dramatic days but on the ordinary ones. A weekend feature on the single automation worth building — and the one event worth watching.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The best automation in any house is the one nobody notices. A "Sunday morning" scene — blinds to forty per cent, lights to a warm two-thousand-seven-hundred kelvin, the kettle's smart plug armed, the news off and a quiet playlist on, all triggered by the first motion after seven — is the kind of thing that takes twenty minutes to write in Home Assistant and then quietly improves a thousand mornings.<sup class="fnref">1</sup> Built local-first, it runs whether or not the internet, the cloud or the company that sold you the bulbs still exists. That is the migrator's whole argument: the brain stays in the house.</p>
+    <p class="body">There is a deeper point hiding in the cosiness. A scene is negative space made executable — a set of decisions you make <span style="font-style:italic;">once</span> so you never have to make them again, freeing the morning of its small frictions. The house does the remembering; you do the living. Lutron taught this desk the gospel of the single tasteful button; Home Assistant lets you write what the button means.</p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · r/homeassistant</div>
+    <p>The weekend builds people are proudest of are almost never flashy: a "wind-down" that dims the whole house at the kids' bedtime, a "leaving" that arms everything from one tap, a "guest" that politely disables the bedroom sensors. The consensus wisdom: automate the boring, never the safety-critical, and keep a manual switch on everything.</p>
+  </div>
+
+  <div class="chatter teal">
+    <div class="lbl">One thing to watch this week</div>
+    <p>The CSA's inaugural "Unify" event runs 16–18 June in Austin — the first read-out on Matter 1.5 cameras now reaching shelves and on IKEA's push of 20-plus Thread-native devices (previewed No. 20).<sup class="fnref">2</sup> Cheap, standards-native hardware is what finally makes local control the <span style="font-style:italic;">default</span> rather than the enthusiast's hobby. We'll cover the read-outs as a delta, not a re-preview.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">Still on the shelf</div>
+    <p>Home Assistant 2026.6 "Pick a card" (shipped 3 Jun) and the homeOS / HomePad preview from WWDC remain continuity, not re-leads. Treat any new Apple home surface as a voice endpoint; keep the decisions on your own box.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Home Assistant scenes &amp; automations docs; Lutron/Matter integration. &nbsp;2. CSA "Unify", Austin, 16–18 Jun 2026 (continuity No. 20).</div>
+    <div class="fnbar"><span>The Connected Home</span><span>Page 10</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 11 — THE GOOD LIFE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker gold">The results are in</div>
+  <div class="hed">A watch worth millions because almost none exist</div>
+  <div class="dek">Christie's New York closed at US$17.07m, led by a one-of-two Patek perpetual calendar at US$2.76m. Phillips hammered across the weekend; Sotheby's Cartier falls Monday. The market's verdict: provenance over the boutique, again.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">We held this story honestly through the previews and the eve-of-gavel; now the hammer has spoken. Christie's "Important Watches" in New York concluded at US$17,066,820 — ninety-nine per cent sold by lot and a remarkable 173 per cent of its low estimate, meaning the average lot blew through its conservative mark.<sup class="fnref">1</sup> The top lot was the Patek Philippe Ref. 3448G "Red Dot," a 1981 white-gold perpetual calendar that is one of only two known to carry the rare leap-year indication. Estimated at US$800,000 to US$1.6m, it cleared at US$2,759,000.<sup class="fnref">2</sup></p>
+    <p class="body">Sit with that arithmetic, because it is the issue's whole theme in a vitrine. The watch is worth what it is <span style="font-style:italic;">because of what doesn't exist</span> — a rarity measured in single digits, a reference that cannot be re-sourced at any price. Scarcity is the negative space that gives the object its value. A boutique can make you a beautiful new watch tomorrow; it cannot make you a second 1981 "Red Dot."</p>
+    <p class="body">Phillips ran its New York Watch Auction XIV across Saturday and Sunday — a pink-gold Patek 1518, seventeen F.P. Journe lots, an Eric Clapton-provenance 5004 — and Sotheby's brings the "Shapes of Cartier" to the block on Monday, including a London Crash.<sup class="fnref">3</sup> We'll read the full week's totals, not the previews, next issue. But the Christie's result already confirms the year's grammar: the modern boutique market is cooling while vintage and provenance run hot, with more than forty per cent of buyers now under forty.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="stat"><div class="n">$17.07m</div><div class="c">Christie's NY total · 99% sold</div></div>
+    <div class="stat"><div class="n">$2.76m</div><div class="c">Patek "Red Dot," 1 of 2 known</div></div>
+  </div>
+
+  <div class="pull">You can buy a new watch this afternoon. You cannot buy the only other one that doesn't exist.</div>
+
+  <div class="chatter gold">
+    <div class="lbl">The connoisseur's read</div>
+    <p>The fresh June releases this desk flagged in No. 18 — the Zenith × Naoya Hida double-signing, the Laureato Fifty, the Tudor "Bumblebee" — are the maker's-hand counterpoint to all this. The lesson the auction keeps teaching: buy the modern piece because you love wearing it, never as an investment. The investment lots are the ones nobody can make anymore.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The escape · a soft-yen summer</div>
+    <p>USD/JPY hovers near ¥160 and the Bank of Japan meets this week; Japanese producer prices ran hot (+6.1% in May), so the cheapness has an expiry.<sup class="fnref">4</sup> The connoisseur's window for an early-summer Japan trip is still open — plan on the delta, not the dread. A Tokyo return runs near S$700 on the budget carrier, before the autumn fuel levy lands.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Christie's Important Watches, New York — sale total US$17,066,820 (artdaily/Christie's). &nbsp;2. Patek 3448G "Red Dot" hammer US$2,759,000 (estimate US$0.8–1.6m). &nbsp;3. Phillips NY Watch Auction XIV, 13–14 Jun; Sotheby's "Shapes of Cartier," 15 Jun. &nbsp;4. USD/JPY; BoJ meeting; Japan PPI May 2026.</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 12 — SCREEN & SOUND ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">What's worth the long Sunday</div>
+  <div class="hed">The record about love that quietly became a record about its absence</div>
+  <div class="dek">Olivia Rodrigo's third album landed Friday to strong reviews; a Jack White surprise drops into the same weekend; Toy Story 5 looms. A weekend listening-and-watching read.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The album of the weekend is doing something sly. Olivia Rodrigo's <span style="font-style:italic;">You Seem Pretty Sad for a Girl So in Love</span> (Geffen, produced by Dan Nigro) was billed as a concept record about the anxiety of falling in love — and then, by the reviewers' near-unanimous account, became something else, a real-time document of a romance coming apart as it was being recorded.<sup class="fnref">1</sup> Critics from <span style="font-style:italic;">Rolling Stone</span> to <span style="font-style:italic;">Variety</span> rate it her sharpest yet, precisely because the planned thesis went missing and the negative space — the bow that never gets tied — became the point.<sup class="fnref">2</sup> Fitting, for this issue: the record is held together by what fell out of it.</p>
+    <p class="body">It pairs, for an audio-minded household, with a quiet drop. Jack White has revealed a new album, <span style="font-style:italic;">Frozen Charlotte</span>, slipped out via a webstore presale rather than a campaign<sup class="fnref">3</sup> — the analogue obverse of a billion-stream rollout, and the kind of release you have to go looking for. We won't quote a lyric of either; both are worth hearing whole, on a good system, with the afternoon free.</p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the music boards</div>
+    <p>The Rodrigo consensus: "Sour for grown-ups." A minority finds the lover-girl opening stretch slighter than the wreckage that follows — but even the sceptics concede the back half is the best writing of her career. Chart numbers (the next real peg) arrive mid-week; we'll note them and then close the file.</p>
+  </div>
+
+  <div class="subhead">On the calendar · hold for the verdict</div>
+  <div class="cols2">
+    <p class="body tight"><b>Toy Story 5</b> opens Friday 19 June — the first-reactions wave (No. 19) called it "deeply profound"; the wide reviews are the next peg. <b>Avatar: Fire and Ash</b> and Pixar's <b>Hoppers</b> remain the marquee titles steering toward Disney+ as the theatrical window keeps collapsing (No. 18). The <b>Women's Prize</b> crown went to Virginia Evans' debut <span style="font-style:italic;">The Correspondent</span> (No. 21) — a fittingly epistolary winner for a negative-space issue: a whole novel built from letters, the spaces between people.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The weekend verdict</div>
+    <p>If you do one cultural thing this Sunday, make it the unhurried one: a full album, start to finish, no skipping. Both of this weekend's records reward the format the algorithm has nearly killed — the sequence, the side, the silence between tracks. Negative space, again, doing the work.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. <span style="font-style:italic;">You Seem Pretty Sad for a Girl So in Love</span>, Geffen, 12 Jun 2026; Billboard/Rolling Stone reviews. &nbsp;2. Variety, Slant, Rolling Stone album reviews, 12–13 Jun. &nbsp;3. Variety report on Jack White, <span style="font-style:italic;">Frozen Charlotte</span> webstore presale.</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 13 — THE FAMILY DESK (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>Raising Them Well</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">The June holidays, and the case for boredom</div>
+  <div class="hed">The empty afternoon is not a problem to be solved</div>
+  <div class="dek">School's out. The reflex is to fill every hour. A weekend, evidence-based argument for leaving some of them open — and protecting the two that matter most. General guidance, not medical advice.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">There is a particular parental panic that arrives with the June holidays: the unstructured day, the child who says "I'm bored," the urge to plug the gap with a camp, a class or a screen. This desk's evidence-led counsel for a Sunday is gentler. The empty afternoon is not a defect in the schedule. It is the schedule's most valuable feature — the space in which an eleven-year-old learns to generate her own ideas rather than consume someone else's.<sup class="fnref">1</sup> Boredom is the blank page creativity needs; a fully-booked child never has to write on it.</p>
+    <p class="body">That doesn't mean a free-for-all. The research is consistent on two non-negotiables, and the June break is exactly when they slip. The first is sleep: school-age children need protected, regular sleep, and holiday late-nights erode it fast — bedtime-screen removal remains the single most effective rule a parent has.<sup class="fnref">2</sup> The second is daylight. Singapore's myopia numbers are sobering — roughly four in five young adults are short-sighted — and the best-evidenced intervention is gloriously low-tech: about two hours a day outdoors slows it, a finding now replicated from Taiwan to Guangzhou (No. 21).<sup class="fnref">3</sup></p>
+    <p class="body">So the holiday formula writes itself, and it is mostly subtraction. Protect the night. Push them outside. Then — and this is the hard part for an optimising household — leave the middle of the day deliberately under-planned, and let her be bored into something. The hub of a good childhood, like the hub of Lao Tzu's wheel, is the part you leave empty.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="stat"><div class="n">~2 hrs</div><div class="c">Daily outdoor time that slows myopia</div></div>
+    <div class="stat"><div class="n">~80%</div><div class="c">SG young-adult myopia prevalence</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the SG parent groups</div>
+    <p>The holiday thread is the usual split — the "every hour booked" camp versus the "let them rot a little" camp. The middle that most paediatric advice supports: a couple of anchored activities a week, daily outdoor time, firm bedtimes, and large stretches left genuinely free. The kids who learn to fill their own time are the ones who cope best when no one is filling it for them.</p>
+  </div>
+
+  <div class="subhead">The Sunday shape — a holiday week that mostly leaves gaps</div>
+  <div class="grid g-21">
+    <div>
+      <p class="body tight">The point isn't anarchy; it's a frame with deliberate holes in it. A workable holiday week, in the language of this issue, is two or three anchored activities and a great deal of protected emptiness around them — the structure is the rim, the free time is the hub. The research on self-directed play suggests the benefit isn't the boredom itself but what a child builds to escape it: the negotiation, the invented game, the abandoned project picked back up. An afternoon programmed minute-to-minute removes the very friction that produces those.<sup class="fnref">4</sup></p>
+      <p class="body tight">So the practical counsel is unfashionably dull. Anchor a sport or a class or two. Hold the bedtime. Get her outside in daylight. Then resist the optimiser's reflex to fill what remains, and treat the unscheduled hour as the most productive thing on the calendar — because it is the one she has to fill herself.</p>
+    </div>
+    <div>
+      <div class="chatter slate" style="margin-top:0;">
+        <div class="lbl">The other side</div>
+        <p>The honest caveat: "let them be bored" is easy to romanticise and harder to live, and for some children unstructured time tips into screens by default, not invention. The fix isn't more structure — it's a low-friction menu of analogue options within reach (books, a bike, art supplies, a friend) so the path of least resistance isn't the tablet. Boredom works when something non-digital is the easiest thing to grab.</p>
+      </div>
+      <div style="margin-top:7px;">
+        <span class="tag g">Protect sleep</span> <span class="tag s">Two hours outdoors</span> <span class="tag">Leave gaps</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Developmental research on unstructured play &amp; boredom (general). &nbsp;2. AAP/UCSF sleep &amp; bedtime-screen guidance (continuity Nos. 20–21). &nbsp;3. SG myopia prevalence; outdoor-time RCTs, Taiwan/Guangzhou (continuity No. 21). &nbsp;4. Self-directed play &amp; divergent-thinking literature (general). General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 14 — THE FAMILY DESK (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>The Tween Years</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker slate">What the research actually supports</div>
+  <div class="hed sm">Model it, don't manage it: the quiet evidence on screens</div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body">If there is one finding that should reframe the holiday screen war, it is this: across the better studies, the strongest predictor of a child's screen habits is not the rule but the <span style="font-style:italic;">parent's own use</span>.<sup class="fnref">1</sup> Monitoring and modelling beat reward-and-punishment; a household where adults put the phone down at dinner produces children who do the same far more reliably than one that polices minutes. The lever you actually control is your own behaviour.</p>
+    <p class="body">The cohort evidence is genuinely mixed, which is itself the point. A large 2026 analysis linked four-plus daily hours to higher anxiety and depression — but mediated almost entirely by what the screen <span style="font-style:italic;">displaced</span>: lost sleep, lost movement, lost in-person time.<sup class="fnref">2</sup> Set against the 2023 Oxford null result and a decade of "moral panic" warnings, the honest synthesis is that the hours matter less than what they crowd out. Protect sleep, movement and faces, and the screen-time number mostly takes care of itself.</p>
+  </div>
+
+  <div class="chatter teal">
+    <div class="lbl">The dinner-table toolkit</div>
+    <p>Four habits the evidence backs, none requiring an app: (1) keep screens out of bedrooms overnight; (2) narrate your own use out loud ("I'm checking the map, then I'm done"); (3) put devices in a shared space, not behind a closed door; (4) treat the holidays as a chance to <span style="font-style:italic;">add</span> good things — a sport, a project, a long walk — rather than only subtract bad ones.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">Don't be alarmist</div>
+    <p>The globalising age-gate (Australia's under-16 rules, the US KOSA debate, app-store age laws) makes good headlines and modest evidence. None of it substitutes for the boring, durable things: a parent who models the behaviour, a bedtime that holds, and a child with enough else to do. The panic travels faster than the data; keep your nerve and keep it general — this is guidance, not a diagnosis.</p>
+  </div>
+
+  <div class="subhead">The age-gate scoreboard — what's actually law, and what it leaves to you</div>
+  <div class="grid g-21">
+    <div>
+      <p class="body tight">For an eleven-year-old in Singapore, the regulatory weather abroad is worth reading but not over-reading. Australia's world-first under-16 social-media ban took effect at the end of 2025, pushing platforms to verify age rather than parents to police it.<sup class="fnref">3</sup> The EU is consulting on a bloc-wide minimum; several US states and the app stores are layering on their own age-assurance rules. The direction is unmistakable — the default is shifting from "parents opt out" to "platforms must check."</p>
+      <p class="body tight">But none of it reaches the dinner table, and that is the part that moves the needle. A verified age-gate keeps a 12-year-old off one app; it does nothing about the four habits above. The law is catching up to the harm slowly and bluntly; the household can act today, precisely and for free. Read the headlines, then close the laptop and model the behaviour.</p>
+    </div>
+    <div>
+      <div class="stat" style="margin-top:0;"><div class="n">Under-16</div><div class="c">Australia's social-media age floor, live since late 2025</div></div>
+      <div class="chatter teal" style="margin-top:7px;">
+        <div class="lbl">The reader's takeaway</div>
+        <p>Regulation is a tailwind, not a substitute. The evidence still lands in the same place: protect sleep, protect movement, protect faces — and the screen-hours look after themselves.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">The lever you actually control is not your child's screen. It is your own.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Nagata et al. / parental-use findings (continuity Nos. 18–20). &nbsp;2. 2026 cohort (~50k US children) vs 2023 Oxford null; Moreno "moral panic" (continuity No. 20). &nbsp;3. Australia eSafety / under-16 ban, in force from late 2025; EU &amp; US age-assurance proposals (general). General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 15 — THE WHISPER DESK ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Whisper Desk</span><span>Strictly Off the Record</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker vermilion">Everything below is reported or rumoured. Nothing is confirmed.</div>
+  <div class="hed">The wedding that keeps not happening</div>
+  <div class="dek">Silly season rolls on, and this desk's job is to flag the rumour as rumour. This week's specimen — a celebrity wedding "happening today" that the venue itself denies — is a free media-literacy lesson.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">The Swift–Kelce saga remains the gossip economy's perpetual-motion machine, and this week it ran on empty in an instructive way: a flurry of "they're getting married <span style="font-style:italic;">today</span>" posts pointed at a Rhode Island venue that promptly denied any buyout, while a reported early-July date — itself unconfirmed — quietly persisted underneath.<sup class="fnref">1</sup> A separate thread had a former partner declaring herself "single as a dollar bill," which tells you nothing about anyone except that the content mill needs feeding. The pattern is the point: a wedding endlessly announced and never held is the gossip-desk cousin of an unsigned peace.</p>
+    <p class="body">Elsewhere on the rumour board, all of it flagged and none of it stood up: the usual carousel of model-and-actor pairings, an engagement here, a "conscious uncoupling" there. We name them so you can discount them — the value of this desk is the asterisk, not the scoop.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">Three questions before you believe it</div>
+    <p>The standing media-literacy strip, fit for this issue: (1) <b>Who is the source</b> — a named outlet, or a screenshot of an account you've never heard of? (2) <b>What's the absence</b> — is there a primary confirmation, or only people quoting each other? (3) <b>Who benefits</b> from you sharing it? This week's "wedding today" failed all three; the parody-account "breakup" of recent weeks failed them spectacularly. Consider the source — and consider the silence where the proof should be.</p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the gossip forums</div>
+    <p>Even the gossip regulars have grown weary of the wedding-watch — the running joke is that the pair "get married" every other weekend on the internet and never once in life. When the audience starts fact-checking the tabloids, the tabloids have a problem. A healthy development, filed under "off the record."</p>
+  </div>
+
+  <div class="subhead">The rumour ledger — this week's unconfirmed, with the asterisk attached</div>
+  <div class="grid g-12" style="gap:7px;">
+    <div class="desk" style="margin-top:0;">
+      <div class="flag">The marriage that won't happen</div>
+      <p class="mini">A Rhode Island venue named in "wedding today" posts publicly denied any private buyout; a separate early-July date persists with no primary confirmation. <span class="tag v">Venue-denied</span> <span class="tag">Rumour</span></p>
+    </div>
+    <div class="desk" style="margin-top:0;">
+      <div class="flag">The carousel of couplings</div>
+      <p class="mini">The week's model-and-actor pairings, one new engagement and a "conscious uncoupling" — all sourced to each other, none to a named outlet. <span class="tag s">Unsourced</span> <span class="tag">Rumour</span></p>
+    </div>
+  </div>
+
+  <div class="chatter teal">
+    <div class="lbl">Why this desk exists</div>
+    <p>Not to pass the rumour along — to teach the reflex of pausing on it. Every item above is printed with its asterisk showing precisely so the habit transfers to the items that arrive without one. The skill the gossip page quietly trains is the same one the front page needs: notice when the confirmation is missing, and treat the gap as information, not a detail to skip past.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Reported/rumoured items, entertainment press &amp; socials, week of 8 Jun 2026 — venue denial noted; all flagged unconfirmed.</div>
+    <div class="fnbar"><span>The Whisper Desk</span><span>Page 15</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 16 — CURIOSITIES ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Curiosities</span><span>The Far Edges</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker teal">The planet you can only see by what it disturbs</div>
+  <div class="hed">Planet Nine keeps not being there — and the not-being-there is the clue</div>
+  <div class="dek">A new look at distant Kuiper Belt objects finds them moving more calmly than a hidden giant would imply. If a ninth planet exists, it just got farther away. The whole hunt is an exercise in reading absence.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">For a decade, the case for a hidden ninth planet has rested on a beautiful piece of negative reasoning: a cluster of distant Kuiper Belt objects whose orbits seemed shepherded by something unseen, a gravitational hand you could infer only from the fingerprints it left.<sup class="fnref">1</sup> This week the fingerprints got fainter. New work reported on 8 June finds that several of these far objects move more stably — less obviously herded — than the Planet Nine model predicts, which doesn't kill the idea so much as push the suspect deeper into the dark. If it's out there, it may be much farther than first thought.<sup class="fnref">2</sup></p>
+    <p class="body">Pause on what kind of science this is. Nobody has seen Planet Nine. The entire case is built from an absence — from orbits that wobble as though tugged by a body no telescope has yet caught. It is the purest example of a habit of mind this whole issue is circling: you can characterise a thing precisely by the shape of the hole it leaves, long before you lay eyes on it. The Vera Rubin Observatory's sky survey may finally settle it — by finding the planet, or by proving the wobble needs a different cause.</p>
+    <p class="body">Either outcome is a win. A found planet rewrites the solar system's outer architecture; a ruled-out planet tells us our model of that architecture is missing a chapter. The one thing the data won't allow is the comfortable middle of pretending the question is closed. The hunt continues precisely because the absence is so well-shaped.</p>
+  </div>
+
+  <div class="pull">It is the rarest thing in science: a planet famous, and decade-debated, for the single quality of not having been found.</div>
+
+  <div class="chatter teal">
+    <div class="lbl">The second item · a stone that travelled</div>
+    <p>Closer to home, the closing callback from No. 18 still delights: the Stonehenge Altar Stone was hauled some 700 km from north-east Scotland, not quarried nearby — a Neolithic logistics feat that rewrites who was talking to whom four-and-a-half-thousand years ago. Absence again: the proof was in where the rock <span style="font-style:italic;">wasn't</span> from.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The honest caveat</div>
+    <p>None of this is a discovery; it is a sharpening of a long argument. Planet Nine has been "nearly found" and "nearly ruled out" several times. The correct posture is the astronomer's: hold the question open, point the new instrument at it, and let the sky decide. "We're not sure yet" is not a failure. It's the most honest sentence in the issue.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Batygin/Brown Planet Nine hypothesis (background). &nbsp;2. ScienceDaily, 8 Jun 2026 — Kuiper Belt objects show more stable motion than predicted; Vera C. Rubin Observatory survey context.</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 17 — LOVE & LIFE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">The examined Sunday</div>
+  <div class="hed">The pause is not the absence of the relationship. It's where the relationship happens.</div>
+  <div class="dek">Recent work on what the happiest couples do points, oddly, at empty time — the unscheduled evening, the shared boredom, the silence that isn't strained. A weekend meditation on the useful space between two people.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">A small, sane finding has been making the rounds: the happiest long-term couples tend not to fill every shared evening with the screen, but to invite a little novelty — and, just as importantly, to simply <span style="font-style:italic;">be</span> in the same unstructured room.<sup class="fnref">1</sup> Researchers keep rediscovering humble variants of the same truth: going to bed at the same time, sharing a meal without a device, leaving an evening genuinely open. The intimacy lives in the unprogrammed hour, not the planned event.</p>
+    <p class="body">This sits inside a larger, more honest literature. Partnership reliably cuts loneliness — a real and substantial effect — while lifting day-to-day happiness only modestly; and people who are consistently single report only slightly lower wellbeing.<sup class="fnref">2</sup> The grown-up reading is neither fairy tale nor cynicism: a relationship is not a cure for unhappiness, and not having one is not a sentence. What it offers, at its best, is company in the empty time — someone to share the negative space with.</p>
+    <p class="body">Which is the issue's theme worn closest to the skin. We tend to measure a relationship by its events — the trip, the milestone, the anniversary. But it is mostly made of the un-events: the quiet Sunday, the half-finished sentence, the comfortable silence that doesn't need filling. The hub, again, not the spokes.</p>
+  </div>
+
+  <div class="pull">We remember the milestones. We are sustained by the un-events between them.</div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the relationships forums</div>
+    <p>The thread that resonates this week: couples describing their happiest stretches not as highlight reels but as ordinary ones — cooking, walking, reading in the same room. The contrarian note worth keeping: this is observation, not prescription, and "do nothing together" only works if the nothing is companionable rather than avoidant. Empty time heals a good relationship and exposes a bad one.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Couples' evening-novelty / go-to-bed-together findings (continuity No. 21; clinician-observation caveat). &nbsp;2. Apostolou &amp; Kislev 2026; Krämer 2026 (continuity No. 20).</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 18 — FITNESS ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Fitness</span><span>The Long Game</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker">The Sunday that does the training</div>
+  <div class="hed">The rest day is not time off. It's when the work pays out.</div>
+  <div class="dek">For a mid-40s optimiser wearing two recovery rings, the counter-intuitive truth is that adaptation happens in the gap, not the gym. A weekend case for the deliberate, unglamorous day off. General guidance, not medical advice.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">Here is the physiology nobody markets, because there's nothing to sell. A hard session doesn't make you fitter; it makes you temporarily <span style="font-style:italic;">worse</span> — micro-damaged, depleted, inflamed. The fitness arrives afterwards, during recovery, when the body over-builds in anticipation of the next demand. The stimulus is the gym; the adaptation is the rest. Train without recovering and you bank the cost without the dividend. The empty day is where the training you already did finally lands.</p>
+    <p class="body">For this reader the irony is sharp, because the optimisation instinct fights it. An Oura ring and a Whoop strap make recovery legible — and then tempt you to <span style="font-style:italic;">chase</span> the score, to treat a green readiness number as a target to hit rather than a state to allow. The data is genuinely useful as a trend; it is corrosive as a daily grade. The single most evidence-backed recovery input remains the one no wearable can do for you: protected, regular sleep. (In one industry survey, nearly seven in ten chose eight hours' sleep over unlimited snacks — the body knows what it's owed.)<sup class="fnref">1</sup></p>
+    <p class="body">So the weekend prescription is subtraction, and it's the hardest kind for a striver. One genuinely easy day. A walk instead of a workout. Sleep treated as a session, not a leftover. The strength work this desk has championed (the ~90–120 min/week "sweet spot," No. 18) only converts to muscle and longevity if you let the body close the loop. Do less, on purpose, and gain more.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="stat"><div class="n">~69%</div><div class="c">Chose 8h sleep over unlimited snacks</div></div>
+    <div class="stat"><div class="n">1</div><div class="c">Genuinely easy day, on purpose</div></div>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The longevity-discourse sceptic</div>
+    <p>A warning the wearable era needs: chasing recovery scores can curdle into "orthosomnia" — anxiety about sleep that worsens sleep. If the ring is making you tense about rest, that is the ring failing at its one job. Use the data as a slow trend, ignore the daily number, and remember the boring basics out-perform every supplement in the longevity aisle for under US$100 a month. VO₂ max, deliberately, is not re-led this week.</p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the recovery forums</div>
+    <p>The mature consensus among long-game lifters: program your rest days as deliberately as your training days, deload every few weeks, and judge a week by how you feel on Monday, not by how hard you went on Saturday. The fittest people in the room are usually the best at doing nothing on purpose.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Recovery/supercompensation physiology (general); sleep-vs-indulgence survey, Life Time 2026; "orthosomnia" literature. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 19 — THE DIARY (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>What's Worth Booking</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Lake%20Kawaguchi%20%282015-10-26%29.jpg?width=1600" alt="Mount Fuji seen across Lake Kawaguchi" loading="lazy"></div>
+  <div class="ph-cap">Mount Fuji across Lake Kawaguchi — for the Diary's Japan fixtures. Representative landscape, not a dated event. Source: Wikimedia Commons — "File:Mount Fuji from Lake Kawaguchi (2015-10-26).jpg" · CC BY-SA 4.0. Subject verified from the Commons file page.</div>
+
+  <div class="kicker">The weekend centrepiece</div>
+  <div class="hed sm">Singapore now, Japan soon — and a table worth the trip</div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <div class="agenda-h">Singapore <span class="sub">June into August</span></div>
+      <div class="evt"><div class="evt-date star">19<span class="mo">JUN</span></div><div><div class="evt-name"><span class="st">★</span> Dragon Boat / Duanwu</div><div class="evt-meta">Public holiday · races 27–28 Jun, Bedok Reservoir · family-friendly</div></div></div>
+      <div class="evt"><div class="evt-date rng">5–28<span class="mo">JUN</span></div><div><div class="evt-name">GastroBeats &amp; i Light</div><div class="evt-meta">Bay-front food + light art · the easy weekend evening</div></div></div>
+      <div class="evt"><div class="evt-date rng">11–29<span class="mo">JUN</span></div><div><div class="evt-name">Takashimaya Food Fiesta</div><div class="evt-meta">Orchard · the indoor-on-a-hot-day pick</div></div></div>
+      <div class="evt"><div class="evt-date rng">25/6–12/7<span class="mo">JUL</span></div><div><div class="evt-name">DRUM TAO</div><div class="evt-meta">Japanese taiko spectacle · book ahead</div></div></div>
+      <div class="evt"><div class="evt-date star">9<span class="mo">AUG</span></div><div><div class="evt-name"><span class="st">★</span> National Day Parade</div><div class="evt-meta">Ballot now closed — resale/preview tickets only</div></div></div>
+      <div class="evt"><div class="evt-date">—<span class="mo">SEP</span></div><div><div class="evt-name">F1 Singapore GP</div><div class="evt-meta">Sep/Oct night race · the marquee booking of the half-year</div></div></div>
+    </div>
+    <div>
+      <div class="chatter gold">
+        <div class="lbl">Planning notes</div>
+        <p><b>Dragon Boat</b> falls on a Friday — a genuine long weekend, so book any getaway early. <b>NDP</b> is ballot-only; resale is the only route now. <b>F1</b> three-day walkabout tickets move fastest; decide this month if you want a grandstand. For families, GastroBeats and i Light are the no-booking, low-stakes picks — just turn up after the heat breaks.</p>
+      </div>
+      <div class="chatter teal">
+        <div class="lbl">Region · worth the flight</div>
+        <p>The <b>Rainforest World Music Festival</b> (Sarawak) and Korea's <b>Boryeong Mud Festival</b> bracket the regional calendar for the genuinely adventurous; both are July fixtures that reward early flights while the fares are soft.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="subhead" style="color:var(--vermilion);border-bottom-color:var(--vermilion);">The Table · Singapore's newest, honestly assessed</div>
+  <div class="cols2">
+    <p class="body tight"><b>1887 by André</b> <span class="tag v">Occasion</span> <span class="tag">Fine dining</span> — André Chiang's return to Singapore, at Raffles Hotel, in a restaurant named for the year the hotel opened: "contemporary heritage gastronomy with French philosophies."<sup class="fnref">1</sup> The most significant fine-dining homecoming of the year for the chef behind the former two-star Restaurant André. <span style="font-style:italic;">The buzz:</span> high anticipation, premium pricing, booking essential — the kind of meal you plan a weekend around. Treat early write-ups as previews, not verdicts.</p>
+    <p class="body tight"><b>rice. by The Meatmen Group</b> <span class="tag g">Now reviewed</span> <span class="tag s">CBD</span> — the viral food channel's first physical restaurant, at Rasa Space, Republic Plaza: Asian comfort food run through "rice as both ingredient and idea" (laksa seafood pao fan, smoky fish soup, pulut hitam panna cotta).<sup class="fnref">2</sup> <span style="font-style:italic;">The verdict:</span> hosted tastings and early reviews have been warm — playful, well-priced, genuinely local — and it's settled in nicely since spring. A relaxed, communal weekend lunch rather than a destination dinner.</p>
+  </div>
+  <div class="chatter">
+    <div class="lbl">The buzz line · and a now-reviewed callback</div>
+    <p>The CBD's Hong-Kong pistachio <span style="font-style:italic;">bolo bao</span> bakery (a "watch" since No. 17) is now firmly open and reliably queueing — the hype, for once, broadly warranted. And <b>Hikiniku to Come</b> at VivoCity — Tokyo's cult charcoal-grilled <span style="font-style:italic;">hamburg</span> — remains the consensus "best in town," its one-set, three-patty format ($27.90++) still drawing lines.<sup class="fnref">3</sup> <span style="font-weight:600;">Honesty rule:</span> 1887 is too new to grade; we'll let it cook and report the verdict.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. 1887 by André, Raffles Hotel (Time Out SG). &nbsp;2. rice. by The Meatmen Group, Rasa Space (HungryGoWhere/Honeycombers/Time Out). &nbsp;3. Eatbook/Time Out SG, Jun 2026 (Hikiniku to Come; CBD bolo-bao bakery).</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 19</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 20 — THE DIARY (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>Plan the Flights</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="kicker gold">Japan, on a soft yen</div>
+  <div class="hed sm">A summer window that's still open — for now</div>
+
+  <div class="grid g-21" style="margin-top:6px;">
+    <div>
+      <div class="agenda-h gold">Japan <span class="sub">Tokyo-focused · July fixtures</span></div>
+      <div class="evt"><div class="evt-date star">1<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Mt Fuji climbing season opens</div><div class="evt-meta">Yoshida trail · Kawaguchiko base · book huts early</div></div></div>
+      <div class="evt"><div class="evt-date rng">12–26<span class="mo">JUL</span></div><div><div class="evt-name">Nagoya Grand Sumo</div><div class="evt-meta">Dolphins Arena · the connoisseur's tournament</div></div></div>
+      <div class="evt"><div class="evt-date star">17/24<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Gion Matsuri</div><div class="evt-meta">Kyoto · the float processions · Japan's grandest festival</div></div></div>
+      <div class="evt"><div class="evt-date rng">24–25<span class="mo">JUL</span></div><div><div class="evt-name">Tenjin Matsuri</div><div class="evt-meta">Osaka · river boats &amp; fireworks</div></div></div>
+      <div class="evt"><div class="evt-date star">25<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Sumida River Fireworks</div><div class="evt-meta">Tokyo · 20,000 shells · the summer marquee</div></div></div>
+      <div class="evt"><div class="evt-date">—<span class="mo">SUM</span></div><div><div class="evt-name">teamLab Planets</div><div class="evt-meta">Toyosu · before its 2027 close · family-friendly</div></div></div>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The currency read</div>
+        <p>USD/JPY near ¥160 keeps Japan exceptionally good value, but it has a clock on it: the BoJ meets this week and producer prices ran +6.1% in May, so the cheapness is being eroded from the inside.<sup class="fnref">1</sup> The early-July window — Fuji open, festivals stacking, fares still soft — is the connoisseur's pick. From October a small SAF levy nudges departing fares up.</p>
+      </div>
+      <div class="chatter">
+        <div class="lbl">The crowds caveat</div>
+        <p>Japan logged a record ~42.7m visitors in 2025; overtourism management is real and the marquee festivals are heaving. Book accommodation now, go a day either side of the headline date, and treat Gion and Sumida as things to glimpse, not conquer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="chatter gold">
+    <div class="lbl">The savouring note · why book at all</div>
+    <p>A thread this issue keeps pulling on: the pleasure of a trip is front-loaded into the anticipation — the planning, the empty square on the calendar with a flight in it. Booking the festival in June buys you two months of looking forward before you buy the festival itself. The reservation is half the holiday; the negative space ahead of the event is where much of the joy actually lives.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">Now booking · the December callback</div>
+    <p>BTS's four-night National Stadium homecoming (17/19/20/22 Dec; the group's first seven-member shows in seven years) remains the long-lead booking to keep on the radar — a callback, not a re-introduction. If a year-end Singapore marquee is on your list, this is it.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. USD/JPY; BoJ meeting; Japan PPI +6.1% May 2026; JNTO 2025 visitor record. &nbsp;Festival dates: official tourism calendars (indicative; confirm before booking).</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 20</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 21 — THE LONG READ (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Useful Emptiness</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kare-sansui%20zen%20garden%2C%20Ryōan-ji%2C%20Kyoto%2020190416%201.jpg?width=1600" alt="The dry rock garden at Ryoan-ji, Kyoto" loading="lazy"></div>
+  <div class="ph-cap">The kare-sansui dry garden at Ryōan-ji, Kyoto — the essay's image of <i>ma</i>, the emptiness that frames. Source: Wikimedia Commons — "File:Kare-sansui zen garden, Ryōan-ji, Kyoto 20190416 1.jpg" · CC BY-SA 4.0 · DXR. Subject verified from the Commons file page.</div>
+
+  <div class="kicker gold">The Essay</div>
+  <div class="hed">The Useful Emptiness</div>
+  <div class="dek">A peace not signed, a planet not found, a watch that exists in the singular, a record that lost its thesis, a day with nothing in it. This week's loudest stories share a hidden grammar — they are all about negative space. A meditation on the hole that does the work.</div>
+
+  <div class="cols2">
+    <p class="body dropcap">There is a passage in the <span style="font-style:italic;">Tao Te Ching</span>, written somewhere around the fourth century before Christ, that has been quietly correct for two and a half thousand years and is unusually correct this particular Sunday. "Thirty spokes share the wheel's hub," it runs; "it is the centre hole that makes it useful. Shape clay into a vessel; it is the space within that makes it useful. Cut doors and windows for a room; it is the holes which make it useful. Therefore profit comes from what is there; usefulness from what is not there."<sup class="fnref">1</sup></p>
+    <p class="body">Read your own week back through that sentence and watch it organise. The story that moved every barrel of oil on earth was an <span style="font-style:italic;">absence</span> — a peace agreement described in every capital and signed in none, still promised "this weekend in Europe," its power concentrated entirely in an empty signature line. The story that lit up the science pages was a planet nobody has seen, inferred only from the wobble it may or may not leave in distant orbits, and this week wobbling back out of the evidence. The watch that fetched two and three-quarter million dollars at Christie's is worth that because almost none like it exist; its value is a function of what the world does <span style="font-style:italic;">not</span> contain. Even the weekend's most-reviewed album turned out to be held together by a thesis that fell out of it midway through recording — the missing centre that made the thing cohere.</p>
+    <p class="body">We are trained to attend to the spokes: the events, the objects, the announcements, the things that are <span style="font-style:italic;">there</span>. The thesis of this issue, and of Lao Tzu, is that the hub is usually where the work is being done. The empty hour holds the week. The rest day banks the training. The pause is where the relationship lives. To see this clearly is not mysticism; it is a discipline of attention, and humanity has stumbled onto it independently, in laboratories and detective stories and tea rooms, again and again.</p>
+  </div>
+
+  <div class="pull">Profit comes from what is there; usefulness from what is not there. He had the shape of the whole week, twenty-four centuries early.</div>
+
+  <div class="cols2">
+    <p class="body">Consider the most rigorous version of the idea, which belongs to a chemist. In 1869, Dmitri Mendeleev laid the known elements out by weight and property and noticed that the pattern had gaps — places where an element <span style="font-style:italic;">ought</span> to sit but none was yet known. A lesser mind would have papered over the holes. Mendeleev did the opposite: he treated each gap as data. From the shape of the surrounding elements he predicted, in detail, the properties of the things that were missing — their density, their melting points, the colour of their compounds — and gave them placeholder names: eka-aluminium, eka-boron, eka-silicon.<sup class="fnref">2</sup></p>
+    <p class="body">Then the absences filled themselves in, on cue. Gallium arrived in 1875, scandium in 1879, germanium in 1886, each within a hair of the predicted profile. The triumph of the periodic table is not really a triumph of the elements that were known. It is a triumph of the <span style="font-style:italic;">holes</span> — gaps so precisely shaped that they specified, in advance, exactly what would come to fill them. This is the deep form of the Planet Nine hunt on our Curiosities page: a hole in the data, well-enough shaped that astronomers can tell you the mass and orbit of the thing that isn't there yet. The negative space is not the failure of the map. It is the map's sharpest instrument.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. <span style="font-style:italic;">Tao Te Ching</span>, ch. 11 (c. 4th c. BC; rendering after Waley/Mitchell). &nbsp;2. D. Mendeleev, periodic system, 1869–71; predicted gaps eka-aluminium/-boron/-silicon → gallium (1875), scandium (1879), germanium (1886).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 21</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 22 — THE LONG READ (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Useful Emptiness · continued</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="grid g-21">
+    <div>
+      <div class="cols2">
+        <p class="body">The aesthetic traditions of the reader's beloved Japan made this principle a discipline of beauty. The word is <span style="font-style:italic;">ma</span> — 間 — usually translated "gap" or "interval," but better understood as the active emptiness between things: the silence that gives the temple bell its weight, the bare floor that frames the single flower, the pause in a conversation that is not awkward but full.<sup class="fnref">1</sup> In Western design, empty space is what's left over after you've placed the objects. In <span style="font-style:italic;">ma</span>, the empty space is the object — the thing the composition is actually <span style="font-style:italic;">about</span>. A Japanese garden is mostly the gravel you don't walk on; a haiku is mostly the line that isn't written.</p>
+        <p class="body">This is precisely the smart-home scene on our Connected Home page and the rest day on our Fitness page, dressed in older clothes. A "Sunday morning" automation is a decision made once so the morning can be empty of it. A deliberate day off is the gravel the training is raked around. In both cases the value is in the deliberate vacancy — the friction removed, the demand withheld — and in both cases the optimising instinct, which wants to <span style="font-style:italic;">fill</span> everything, fights it. Lao Tzu and the tea masters would recognise the modern problem instantly: we keep adding spokes and wondering why the wheel feels heavier.</p>
+        <p class="body">There is a detective's version, too, and it is the most fun. In Conan Doyle's "Silver Blaze," published in 1892, Sherlock Holmes solves the theft of a racehorse not from a clue that is present but from one that is absent. A dog was kept in the stable; on the night of the crime, the dog did not bark. "That was the curious incident," Holmes says — and from the <span style="font-style:italic;">non</span>-event he deduces that the intruder was someone the dog knew.<sup class="fnref">2</sup> The silence was the evidence. The Whisper Desk's media-literacy strip this week runs on the same logic: the most telling thing about the celebrity "wedding today" was the proof that <span style="font-style:italic;">wasn't</span> there. Learn to hear the dog that doesn't bark and you can read half the news by its omissions.</p>
+      </div>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 230 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;">
+          <rect x="0" y="0" width="230" height="300" fill="#fff"/>
+          <text x="14" y="24" font-family="Poppins" font-size="9.5" font-weight="700" fill="#191613">THE HOLE THAT</text>
+          <text x="14" y="37" font-family="Poppins" font-size="9.5" font-weight="700" fill="#191613">SPECIFIES ITS FILLER</text>
+          <text x="14" y="52" font-family="Poppins" font-size="6.5" fill="#7a7264">Mendeleev's table, 1869 — a gap so</text>
+          <text x="14" y="61" font-family="Poppins" font-size="6.5" fill="#7a7264">well-shaped it predicted the element.</text>
+          <!-- mini periodic fragment -->
+          <g font-family="Poppins" font-size="7" text-anchor="middle">
+            <rect x="20" y="78" width="40" height="40" fill="#efe9db" stroke="#d8cfbd"/><text x="40" y="103" fill="#403a32">Al</text>
+            <rect x="64" y="78" width="40" height="40" fill="#efe9db" stroke="#d8cfbd"/><text x="84" y="103" fill="#403a32">Si</text>
+            <rect x="108" y="78" width="40" height="40" fill="#efe9db" stroke="#d8cfbd"/><text x="128" y="103" fill="#403a32">P</text>
+            <!-- the gap -->
+            <rect x="20" y="122" width="40" height="40" fill="#fbf0ec" stroke="#c1462e" stroke-dasharray="3 3"/><text x="40" y="143" fill="#9c3422" font-weight="700">?</text>
+            <text x="40" y="153" font-size="5" fill="#9c3422">eka-Al</text>
+            <rect x="64" y="122" width="40" height="40" fill="#fbf0ec" stroke="#c1462e" stroke-dasharray="3 3"/><text x="84" y="143" fill="#9c3422" font-weight="700">?</text>
+            <text x="84" y="153" font-size="5" fill="#9c3422">eka-Si</text>
+            <rect x="108" y="122" width="40" height="40" fill="#efe9db" stroke="#d8cfbd"/><text x="128" y="147" fill="#403a32">As</text>
+          </g>
+          <!-- arrow down -->
+          <line x1="84" y1="168" x2="84" y2="190" stroke="#b08738" stroke-width="1.4" marker-end="url(#ad)"/>
+          <defs><marker id="ad" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto"><path d="M0,0 L8,0 L4,7 Z" fill="#b08738"/></marker></defs>
+          <g font-family="Poppins" font-size="7" text-anchor="middle">
+            <rect x="20" y="196" width="40" height="40" fill="#eef4f3" stroke="#2b6b66"/><text x="40" y="219" fill="#2b6b66" font-weight="700">Ga</text>
+            <text x="40" y="229" font-size="5" fill="#2b6b66">1875</text>
+            <rect x="64" y="196" width="40" height="40" fill="#eef4f3" stroke="#2b6b66"/><text x="84" y="219" fill="#2b6b66" font-weight="700">Ge</text>
+            <text x="84" y="229" font-size="5" fill="#2b6b66">1886</text>
+          </g>
+          <text x="14" y="258" font-family="Poppins" font-size="6.5" fill="#403a32">The gap came first. The element</text>
+          <text x="14" y="268" font-family="Poppins" font-size="6.5" fill="#403a32">arrived on cue, to the predicted spec.</text>
+          <text x="14" y="284" font-family="Poppins" font-size="6" font-style="italic" fill="#7a7264">Meridian original · after Mendeleev 1869</text>
+        </svg>
+        <div class="imgcap">Absence as instrument: a well-shaped hole that tells you what will fill it — chemistry's version of the Planet Nine hunt.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">The dog did nothing in the night-time. That was the curious incident — and half the news can be read the same way, by its omissions.</div>
+
+  <div class="subhead">The rest in the score — emptiness as a made thing</div>
+  <div class="cols2">
+    <p class="body tight">There is a fourth tradition worth adding, because it makes the principle audible. In music the silence is notated. A rest is not the absence of a note; it is a note's-worth of deliberate nothing, written, counted, and held — Miles Davis built a whole aesthetic on the spaces he declined to fill. The same instinct runs through good design of every kind: the margin around the text, the pause before the punchline, the room a building leaves you to stand in. None of these is leftover. Each is shaped on purpose, and the work would collapse without it.</p>
+    <p class="body tight">That is the quiet upgrade the chemist's blank and the garden's gravel are pointing at. We are trained to read emptiness as a failure of effort — the page not finished, the schedule not filled, the question not answered. But the most considered things in any discipline are full of intentional holes, and the craft lies in placing them well. Mendeleev's gaps were not ignorance; they were a prediction. The garden's bare floor is not neglect; it is the frame. Learn to author the empty parts and you stop merely filling space and start composing it.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. <span style="font-style:italic;">Ma</span> (間) in Japanese aesthetics — the active interval/negative space (general). &nbsp;2. A. Conan Doyle, "The Adventure of Silver Blaze," <span style="font-style:italic;">The Strand</span>, 1892. &nbsp;3. On the musical rest &amp; restraint as composition — general aesthetics.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 22</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 23 — THE LONG READ (3) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Useful Emptiness · continued</span></div>
+  <div class="rule" style="margin-top:9mm;"></div>
+
+  <div class="grid g-21">
+    <div>
+      <div class="cols2">
+        <p class="body">What unites the chemist, the tea master and the detective is a refusal to mistake the absence for nothing. The amateur sees a gap and looks past it. The expert sees a gap and asks what its shape implies. This is, in the end, the whole craft of reading a week well — and it is the opposite of the panic this publication warned against only an issue or two ago, when fear ran ahead of fact and a dust-cloud got mistaken for an army.<sup class="fnref">1</sup> A well-read absence is calm and specific; a badly-read one is a void you fill with your own dread. The discipline is to tell them apart.</p>
+        <p class="body">So how should the reader hold the week's open holes? Not all emptiness is equal, and the issue's own desks sort them. Some absences are <span style="font-style:italic;">productive</span> — the deliberate rest day, the unbooked afternoon, the scene that frees the morning, the companionable silence between two people. These you protect; they are the hub, and filling them in would only make the wheel heavier. Other absences are <span style="font-style:italic;">unresolved</span> — the unsigned peace, the unfound planet, the album's missing thesis. These you don't paper over with a guess; you let them keep their shape and wait for the thing that fits. The unsigned page is doing real work precisely by staying blank: it keeps the talking alive.</p>
+        <p class="body">And one kind of emptiness is simply <span style="font-style:italic;">value</span> — the scarcity that made a one-of-two Patek worth more than a house. You cannot manufacture that hole; you can only recognise it. The boutique can sell you a beautiful new thing tomorrow. It cannot sell you the second example of the watch that was never made twice. In a year of hype and vapourware, the durable lesson is that the rarest, most valuable things are defined by what does not exist around them.</p>
+        <p class="body">Annie Dillard, whom we quoted last issue, said that how we spend our days is how we spend our lives.<sup class="fnref">2</sup> The companion truth, this Sunday, is that how we spend our <span style="font-style:italic;">gaps</span> — the empty hours, the rest days, the pauses, the deliberate vacancies — is at least as much of the answer. Thoreau measured the cost of a thing in the life you trade for it; the wisest trade, it turns out, is sometimes to buy back an empty hour and refuse to fill it.<sup class="fnref">3</sup> Lao Tzu would simply nod. Keep the spokes, by all means. But mind the hub. It is the centre hole, the part you leave empty, that makes the wheel actually go.</p>
+      </div>
+    </div>
+    <div>
+      <div class="chatter gold" style="margin-top:0;">
+        <div class="lbl">The threads · what's actually empty</div>
+        <p><b>The World</b> — a peace described everywhere, signed nowhere. <b>Curiosities</b> — a planet known only by the wobble it leaves. <b>The Good Life</b> — value from a thing that doesn't exist in number. <b>Screen &amp; Sound</b> — a record held by its missing thesis. <b>Fitness / Family / Love</b> — the rest, the unbooked afternoon, the pause, all doing the quiet work.</p>
+      </div>
+      <div class="chatter slate">
+        <div class="lbl">Three kinds of hole</div>
+        <p><b>Productive</b> — protect it (the rest day, the pause). <b>Unresolved</b> — don't guess it (the unsigned peace, the unfound planet). <b>Value</b> — recognise it (the watch that can't be remade). The skill is telling which is which.</p>
+      </div>
+      <div class="chatter teal">
+        <div class="lbl">The callbacks</div>
+        <p>To <b>Dillard</b> (No. 21, how we spend our days), <b>Seneca</b> (No. 20, the fear that outruns the fact) and <b>Thoreau</b> (No. 10, the cost of a thing). The wheel keeps turning on the same hub.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">Keep the spokes. But mind the hub. It is the part you leave empty that makes the wheel go.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Meridian, No. 20 ("The Dust and the Cattle," Seneca). &nbsp;2. A. Dillard, <span style="font-style:italic;">The Writing Life</span>, 1989 (No. 21). &nbsp;3. H. D. Thoreau, <span style="font-style:italic;">Walden</span>, 1854 (No. 10).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 23</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 24 — BACK COVER ============ -->
+<div class="page dark">
+  <div class="topbar"><span></span><span>No. 22 · Singapore</span></div>
+
+  <div style="position:absolute;top:30mm;left:18mm;right:18mm;">
+    <div style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);">The Last Word</div>
+    <div class="hairline" style="margin:10px 0 16px;"></div>
+
+    <div style="font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:17pt;line-height:1.34;color:var(--paper);max-width:150mm;">
+      A wheel is thirty spokes of effort and one hole of nothing — and the nothing is the part that turns.
+    </div>
+    <div style="font-family:'Lora',serif;font-size:10.5pt;line-height:1.6;color:var(--blush);margin-top:16px;max-width:150mm;">
+      We spent twenty-three pages on the spokes: the peace being drafted, the planet being chased, the watch that can't be remade, the album held together by an argument it won't quite state. But the issue, if it argued anything, argued for the hub. Keep a rest day. Leave an afternoon unbooked. Let the silence sit in the conversation. Do not rush to fill the gap a missing fact leaves — sometimes the absence is the most honest thing on the page, and the wise reader learns to tell a productive emptiness from a careless one. The useful part of any week is often the part you decline to spend.
+    </div>
+    <div style="font-family:'Poppins',sans-serif;font-size:7.4pt;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-top:18px;">— The Editors</div>
+  </div>
+
+  <!-- consolidated source list -->
+  <div style="position:absolute;bottom:42mm;left:18mm;right:18mm;">
+    <div style="font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.26em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;">Selected Sources · No. 22</div>
+    <div style="columns:2;column-gap:10mm;font-family:'Poppins',sans-serif;font-size:6.4pt;line-height:1.5;color:#9a9181;">
+      Reuters · FT · CNBC · Al Jazeera · The Straits Times · CNA · URA · EMA / SP Group · Apple (WWDC 2026) · Ollama · Home Assistant · CSA / Matter · Christie's · Phillips · Sotheby's · ScienceDaily (8 Jun 2026) · Rolling Stone · Variety · Billboard · Time Out SG · HungryGoWhere · Honeycombers · Eatbook · Life Time · Oura · Whoop · Lao Tzu, <span style="font-style:italic;">Tao Te Ching</span> (ch. 11) · D. Mendeleev (1869–71) · A. Conan Doyle, "Silver Blaze" (1892). Full per-page sourcing in footnotes throughout.
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Twelve Desks · One World</span>
+    <span>MERIDIAN · No. 22</span>
+  </div>
+</div>
+
+</body>
+</html>

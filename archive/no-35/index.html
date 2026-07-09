@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== inlined meridian.css ===== */
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+</style>
+<style>
+/* Issue-local tweaks only — canonical styling lives in meridian.css */
+.hero-wrap{position:absolute;top:112mm;left:14mm;right:14mm;bottom:52mm;display:flex;align-items:center;justify-content:center;}
+.hero-wrap svg{width:100%;height:100%;}
+.co-list{list-style:none;}
+.co-row{display:flex;justify-content:space-between;align-items:baseline;padding:3.1px 0;border-bottom:.5pt solid var(--line);font-family:'Poppins',sans-serif;font-size:8.6pt;}
+.co-row .d{color:var(--ink);font-weight:600;letter-spacing:.02em;}
+.co-row .d span{color:var(--muted);font-weight:500;}
+.co-row .p{color:var(--vermilion);font-weight:700;}
+.mkstrip{display:flex;flex-wrap:wrap;gap:0 12px;border-top:2pt solid var(--ink);border-bottom:.6pt solid var(--line);padding:5px 0;margin:6px 0;}
+.mkstrip .m{font-family:'Poppins',sans-serif;font-size:7.4pt;color:var(--muted);letter-spacing:.02em;}
+.mkstrip .m b{color:var(--ink);font-weight:700;}
+.mkstrip .m .up{color:var(--teal);} .mkstrip .m .dn{color:var(--vermilion);}
+.tbl{width:100%;border-collapse:collapse;margin:6px 0;font-family:'Poppins',sans-serif;}
+.tbl th,.tbl td{text-align:left;padding:3px 4px;border-bottom:.5pt solid var(--line);font-size:7.7pt;}
+.tbl th{color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-size:6.6pt;font-weight:700;}
+.tbl td.n{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink2);}
+.tbl td .up{color:var(--teal);} .tbl td .dn{color:var(--vermilion);}
+.lede-strip{background:var(--ink);color:var(--paper);padding:7px 10px;border-radius:2px;margin:7px 0;display:flex;flex-wrap:wrap;gap:2px 14px;}
+.lede-strip .li{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.02em;color:var(--blush);}
+.lede-strip .li b{color:#fff;font-weight:700;}
+.subhead{font-family:'Poppins',sans-serif;font-weight:700;font-size:8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin:8px 0 3px;}
+.byline{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:5px;}
+.inbrief{background:#fbf8f1;border:.6pt solid var(--line);border-radius:2px;padding:8px 10px;margin:7px 0;break-inside:avoid;}
+.inbrief h4{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.inbrief p{font-size:8.2pt;line-height:1.4;color:var(--ink2);margin-bottom:3px;}
+.inbrief p:last-child{margin-bottom:0;}
+.inbrief b{color:var(--ink);}
+.figcaption-side{writing-mode:horizontal-tb;}
+
+/* ====== PHOTO EDITION — screen overrides ====== */
+@media screen {
+  body{background:#33322e;margin:0;padding:24px 0;}
+  .page{margin:0 auto 24px;box-shadow:0 10px 40px rgba(0,0,0,.45);}
+  .page:not(.dark){height:auto;min-height:297mm;overflow:visible;}
+  .page:not(.dark) .pgfoot{position:static;margin-top:7mm;}
+}
+.ph-frame{position:relative;width:100%;aspect-ratio:16/8;overflow:hidden;border-radius:2px;margin:1mm 0 5mm;background:var(--blush);}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.ph-cap{position:absolute;left:0;right:0;bottom:0;margin:0;
+  font:600 6.6pt/1.35 'Poppins',sans-serif;color:#fff;letter-spacing:.01em;
+  background:linear-gradient(transparent,rgba(0,0,0,.34) 40%,rgba(0,0,0,.82));
+  padding:14mm 4mm 2.4mm;}
+.ph-cap i{font-style:italic;opacity:.85;}
+@media print { .ph-frame{aspect-ratio:16/7;} }
+
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 — COVER ============ -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 35 · Singapore</span></div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+  </div>
+
+  <div class="hero-wrap">
+    <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" aria-label="A voyage arc leaving and returning to a single point of light">
+      <defs>
+        <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#e8dccb" stop-opacity="0.95"/>
+          <stop offset="55%" stop-color="#b08738" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#b08738" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="arc" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#c1462e"/>
+          <stop offset="60%" stop-color="#b08738"/>
+          <stop offset="100%" stop-color="#e8dccb"/>
+        </linearGradient>
+      </defs>
+      <!-- faint meridian globe -->
+      <g stroke="#3a342c" stroke-width="0.7" fill="none" opacity="0.9">
+        <circle cx="310" cy="150" r="120"/>
+        <ellipse cx="310" cy="150" rx="120" ry="42"/>
+        <ellipse cx="310" cy="150" rx="120" ry="82"/>
+        <ellipse cx="310" cy="150" rx="46" ry="120"/>
+        <ellipse cx="310" cy="150" rx="86" ry="120"/>
+        <line x1="190" y1="150" x2="430" y2="150"/>
+        <line x1="310" y1="30" x2="310" y2="270"/>
+      </g>
+      <!-- scattered stars -->
+      <g fill="#6f665a">
+        <circle cx="70" cy="55" r="1.5"/><circle cx="120" cy="230" r="1.1"/><circle cx="540" cy="70" r="1.4"/>
+        <circle cx="500" cy="250" r="1.1"/><circle cx="40" cy="150" r="1"/><circle cx="580" cy="180" r="1.2"/>
+        <circle cx="250" cy="20" r="1"/><circle cx="360" cy="285" r="1.1"/>
+      </g>
+      <!-- the long voyage: out, around, and home -->
+      <path d="M110,150 C 150,40 470,40 470,150 C 470,250 210,250 300,158" fill="none" stroke="url(#arc)" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="1 7"/>
+      <path d="M110,150 C 150,40 470,40 470,150" fill="none" stroke="url(#arc)" stroke-width="2.6" stroke-linecap="round" opacity="0.95"/>
+      <!-- a comet leaving, one-way -->
+      <path d="M500,60 L560,30" stroke="#e8dccb" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+      <circle cx="560" cy="30" r="2.6" fill="#e8dccb"/>
+      <!-- home: the point of light returned to -->
+      <circle cx="310" cy="158" r="34" fill="url(#glow)"/>
+      <circle cx="310" cy="158" r="4.4" fill="#f6f2e9"/>
+      <circle cx="110" cy="150" r="3.1" fill="#c1462e"/>
+    </svg>
+  </div>
+
+  <div class="cover-teasers">
+    <div class="hairline"></div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:var(--gold)">Screen &amp; Sound</div>
+        <div class="ht">Nolan sails home: the summer of <span style="font-style:italic">The Odyssey</span></div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--vermilion)">Curiosities</div>
+        <div class="ht">The oldest traveller says goodbye — 3I/ATLAS leaves for good</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--blush)">The Grand Tour</div>
+        <div class="ht">Taipei: the great city an easy hour away</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Sunday · 5 July 2026 · The Weekend Edition</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 2 — CONTENTS + FROM THE DESK ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Contents</span><span>The Weekend Edition</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker gold">In This Edition</div>
+    <div class="hed" style="font-size:27pt">The Long Way Home</div>
+    <div class="dek">No. 35 · A Sunday book about departure and return — the journeys that end where they began, and the ones that never do.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="grid g-21" style="margin-top:8px;gap:9mm">
+    <div>
+      <ul class="co-list">
+        <li class="co-row"><span class="d">The World <span>· After the airstrike, a body goes home</span></span><span class="p">03</span></li>
+        <li class="co-row"><span class="d">Singapore <span>· The record that keeps its nerve</span></span><span class="p">05</span></li>
+        <li class="co-row"><span class="d">Property <span>· The market rotates to the top</span></span><span class="p">06</span></li>
+        <li class="co-row"><span class="d">Technology <span>· The state wants a stake</span></span><span class="p">07</span></li>
+        <li class="co-row"><span class="d">The Kit <span>· The tracker that owns you</span></span><span class="p">09</span></li>
+        <li class="co-row"><span class="d">The Connected Home <span>· A house that explains itself</span></span><span class="p">10</span></li>
+        <li class="co-row"><span class="d">The Good Life <span>· A hundred years of keeping water out</span></span><span class="p">11</span></li>
+        <li class="co-row"><span class="d">Screen &amp; Sound <span>· The summer of the homecoming</span></span><span class="p">12</span></li>
+        <li class="co-row"><span class="d">The Family Desk <span>· The analog summer</span></span><span class="p">13</span></li>
+        <li class="co-row"><span class="d">The Macro Desk <span>· The rotation, not the retreat</span></span><span class="p">15</span></li>
+        <li class="co-row"><span class="d">Curiosities <span>· The oldest traveller leaves</span></span><span class="p">16</span></li>
+        <li class="co-row"><span class="d">Love &amp; Life <span>· The friendship recession</span></span><span class="p">17</span></li>
+        <li class="co-row"><span class="d">Fitness <span>· The Zone-2 myth, examined</span></span><span class="p">18</span></li>
+        <li class="co-row"><span class="d">The Travel Desk <span>· Departures &amp; The Grand Tour: Taipei</span></span><span class="p">19</span></li>
+        <li class="co-row"><span class="d">The Diary <span>· What's worth booking · The Table</span></span><span class="p">23</span></li>
+        <li class="co-row"><span class="d">The Long Read <span>· The Long Way Home</span></span><span class="p">25</span></li>
+        <li class="co-row"><span class="d">The Back Page <span>· The Last Word</span></span><span class="p">28</span></li>
+      </ul>
+
+      <div class="mkstrip">
+        <span class="m"><b>VWRA</b> $189.82 <span class="up">▲</span></span>
+        <span class="m"><b>S&amp;P 500</b> ~7,500 <span class="up">▲</span></span>
+        <span class="m"><b>STI</b> 5,244 <span class="up">▲</span></span>
+        <span class="m"><b>US 10Y</b> 4.48%</span>
+        <span class="m"><b>Gold</b> $4,170 <span class="up">▲</span></span>
+        <span class="m"><b>BTC</b> ~$61.3k <span class="up">▲</span></span>
+        <span class="m"><b>Brent</b> $70.6 <span class="dn">▼</span></span>
+        <span class="m"><b>USD/SGD</b> 1.292</span>
+      </div>
+      <div class="imgcap">Market strip — levels to the close of Thu 3 Jul (US markets shut Fri 3 Jul for Independence Day). Full read on the Macro Desk, p15. Not investment advice.</div>
+    </div>
+
+    <div>
+      <div class="chatter gold" style="margin-top:0">
+        <div class="lbl" style="color:var(--gold)">From the Desk</div>
+        <p style="font-family:'Lora',serif;font-style:italic;font-size:11.5pt;line-height:1.32;color:var(--ink)">"Every day is a journey, and the journey itself is home."</p>
+        <p class="src">— Matsuo Bashō, <span style="font-weight:400;font-style:italic">The Narrow Road to the Deep North</span> (Oku no Hosomichi, 1694)</p>
+        <p style="margin-top:6px">Bashō set out on a walk he did not expect to survive and discovered that home is not the hut you leave but the practice you carry. This week the theme surfaced everywhere. Christopher Nolan drags Homer's oldest homecoming into an IMAX; an interstellar comet older than the Sun turns for the exit, never to return; a supreme leader's coffin is carried the long way to Mashhad. And quietly, in the culture, a turn <span style="font-style:italic">toward</span> the real — analog childhoods, friendships tended on purpose, homes that run on your own hardware, a market rotating back to fundamentals. The through-line: home is not a place you reach. It is a thing you keep coming back to.</p>
+      </div>
+      <div class="stat"><div class="n">28</div><div class="c">Pages · the weekend book + Travel</div></div>
+      <div class="hairline"></div>
+      <div class="stat"><div class="n">15–20M</div><div class="c">Mourners expected in Tehran</div></div>
+      <div class="hairline"></div>
+      <div class="stat"><div class="n">$1,500</div><div class="c">Resale price of one IMAX 70mm ticket pair</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Levels: Trading Economics, Schwab, Investing.com (3 Jul 2026). Bashō, <i>Oku no Hosomichi</i> (1694), Hamill trans. Editorial: <i>Meridian</i>.</div>
+    <div class="fnbar"><span>Contents</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 3 — THE WORLD (1/2) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>The Meridian Dispatch</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker">The World · After the war</div>
+    <div class="hed">A Body Goes Home the Long Way</div>
+    <div class="dek">Iran carries Ayatollah Khamenei to his grave in Mashhad while the guns fall quiet for a week — and the real fight, over who controls the Strait of Hormuz, waits on the far side of the funeral.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">Four months after an airstrike killed him at the opening of the 2026 war, Ayatollah Ali Khamenei is finally being buried.<sup class="fnref">1</sup> On Saturday, tens of thousands filed through Tehran's vast Grand Mosalla to view the flag-draped coffins of the supreme leader and the members of his family killed in the same 28 February strike — a daughter, a son-in-law, a fourteen-month-old grandchild.<sup class="fnref">1</sup> Volunteers sprayed cooling water over the black-clad crowd in the summer heat; some beat their chests and chanted for revenge.</p>
+    <p class="body">Over the coming week the body travels: paraded through Tehran, then south to the seminary city of Qom, on to Karbala in Iraq, and finally to Mashhad, Khamenei's birthplace, for burial at the Imam Reza shrine.<sup class="fnref">2</sup> Iran expects fifteen to twenty million mourners across the processions — potentially the largest state funeral in its history, and a deliberate show of strength for a battered theocracy now led by Khamenei's son and successor, Mojtaba, who was named leader a week after the killing and has not been seen in public since.<sup class="fnref">2</sup></p>
+    <p class="body">The funeral doubles as diplomacy by other means. Indirect US–Iran talks in Doha are paused for the week of mourning; both sides claim "positive progress" under the interim deal signed in mid-June, which opened a 60-day window to negotiate a permanent end to the war and unfroze billions in Iranian assets.<sup class="fnref">3</sup> Ahead of America's 250th-anniversary festivities, Washington and Tehran even agreed a one-week de-escalation in the Strait.<sup class="fnref">3</sup></p>
+
+    <div class="pull">The security of Hormuz, Tehran says, "lies with the coastal states." London and Paris disagree — and the argument is only paused, not settled.</div>
+
+    <p class="body">That is the sentence that matters. Iran has signalled it will begin charging tolls on tankers and container ships transiting Hormuz in mid-August, once the negotiating window closes — upending the strait's status as an international waterway.<sup class="fnref">4</sup> When Emmanuel Macron and Keir Starmer said in a joint statement that Britain and France stood ready to deploy a multinational mission to protect freedom of navigation, Tehran's chief negotiator answered on X: the crisis-makers "will be held accountable… This is a serious warning."<sup class="fnref">4</sup> Commercial traffic is recovering nonetheless — roughly 335 vessels transited last week, per maritime-risk consultancy Marisks.<sup class="fnref">4</sup></p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter</div>
+      <p>Analysts read the pageantry two ways. A mass turnout lets the state project unity six months after nationwide protests were crushed; but a crowd in the millions revives memories of the 1989 Khomeini funeral and the 2020 Soleimani stampede that killed 56.</p>
+      <p class="src">— Reuters, AP, CNN wires (3–4 Jul)</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. PBS/AP, "Iran begins dayslong funeral" (4 Jul 2026). 2. ABC News; NPR; Reuters, Tehran (3–4 Jul). 3. CBS News, "US–Iran latest" (3–4 Jul); NY Post (1 Jul). 4. CNN live updates; PBS (4 Jul).</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 4 — THE WORLD (2/2) — viewpoints ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>Around the Desks</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="byline">Two framings of one strait</div>
+  </div>
+
+  <div class="grid g-12-narrow" style="margin-top:2px">
+    <div class="desk">
+      <div class="flag"><span>Tehran</span><span class="geo">Press TV / state framing</span></div>
+      <p>The martyr's blood "marks another turning point in the victories of beloved Islam," a Revolutionary Guard general told state television. Iran struck US bases, "asserted its control" of Hormuz, and forced the enemy to the table; the strait's security is a matter for its coastal states alone, and foreign patrols are "adventurism." Friendly nations, the negotiator adds, will get "special treatment" on any future transit arrangements.</p>
+    </div>
+    <div class="desk" style="border-top-color:var(--vermilion)">
+      <div class="flag"><span>London · Paris · Washington</span><span class="geo">FT / Reuters framing</span></div>
+      <p>A fifth of the world's seaborne oil and gas once passed through Hormuz in peacetime; a toll regime would be a unilateral rewrite of freedom of navigation. Britain and France offer a multinational mission; Washington's envoys, per Axios, are trying to talk Tehran out of tolls entirely. The worry is less the funeral week than 15 August, when the negotiating clock runs out.</p>
+    </div>
+  </div>
+
+  <p class="body tight" style="margin-top:7px">Between the two sits the uncomfortable arithmetic every capital already knows: the announcement of a reopening and the <em>practical</em> reopening of a waterway are months apart — mines, insurance premiums and rerouted hulls all lag the diplomacy. It is the same lesson the Suez closure taught in 1975, and the reason Brent has drifted back to the low-$70s rather than spiking (see the Macro Desk, p15).<sup class="fnref">1</sup></p>
+
+  <div class="subhead">Also on the wire</div>
+  <div class="cols2">
+    <div class="inbrief">
+      <h4>Venezuela · the search fades</h4>
+      <p>More than a week after twin earthquakes struck the La Guaira coast, thousands remain unaccounted for and rescuers are shifting from saving lives to recovering remains.<sup class="fnref">2</sup></p>
+    </div>
+    <div class="inbrief">
+      <h4>The pitch heats up</h4>
+      <p>The FIFA World Cup rolls through the knockout rounds across North America — Argentina past Cape Verde, a Portugal–Croatia thriller — under a brutal heat dome that has forced changes to July 4th matches.<sup class="fnref">3</sup></p>
+    </div>
+    <div class="inbrief">
+      <h4>America turns 250</h4>
+      <p>Washington marks the semiquincentennial with the largest fireworks display it has ever staged — even as House Democrats question the fundraising behind the "Freedom 250" machine.<sup class="fnref">4</sup></p>
+    </div>
+    <div class="inbrief">
+      <h4>Lebanon · the term ahead</h4>
+      <p>UNICEF warns that at least 100,000 children risk missing the school year unless classrooms damaged in Israeli strikes are repaired before September.<sup class="fnref">1</sup></p>
+    </div>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Sceptic</div>
+    <p>A weekend note of caution on the celebrations: a funeral this large is also a security event. Israel has threatened Mojtaba Khamenei's life and used public appearances to locate leaders during the war; Iran's joint command has warned both Israel and the US "to avoid any miscalculation" over the mourning days. The quiet in Hormuz is a truce with an expiry date, not a peace.</p>
+    <p class="src">— Meridian analysis, from CNN &amp; NPR reporting</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. CNN live updates (4 Jul); PBS NewsHour (4 Jul). 2. NPR/AP (2 Jul). 3. NPR; ABC World News (3 Jul). 4. NPR; The White House "Freedom 250" (4 Jul).</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 5 — SINGAPORE ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Singapore</span><span>The Little Red Dot</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker slate">Singapore · The home market</div>
+    <div class="hed">The Record That Keeps Its Nerve</div>
+    <div class="dek">The Straits Times Index grinds to fresh highs while the world's AI trade wobbles — a quiet, dividend-heavy home market doing the diversification job the reader's global fund can't.</div>
+  </div>
+  <div class="rule"></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1400" alt="Marina Bay skyline at dusk" loading="lazy"><div class="ph-cap">Marina Bay at dusk — the dividend-heavy home market the desk is really about. <i>Singapore Marina Bay Dusk 2018-02-27.jpg · Benh Lieu Song · CC BY-SA 4.0 · Wikimedia Commons</i></div></div>
+
+  <div class="grid g-21" style="margin-top:8px;gap:8mm">
+    <div>
+      <p class="body dropcap">There is a certain weekend comfort in an index that refuses to flinch. As Wall Street's momentum names lurched through a sell-off, the Straits Times Index closed around 5,244 on Thursday — up roughly 3.5% on the month and more than 30% on the year.<sup class="fnref">1</sup> The composition is the story: banks, REITs and industrials, the unglamorous cash-generators that pay you to wait. When the world rotates <em>out</em> of expensive growth, Singapore's bourse is where some of that money comes home.</p>
+      <p class="body">For a globally diversified investor this is less a stock tip than a lesson in correlation. A world equity fund is now heavily tilted toward a handful of American mega-caps; a market like this one — safe-haven flows, AAA bonds, predictable policy — behaves differently, which is precisely the point of holding both. The caveat is valuation: an index at records is not cheap, and the yield, not the price, is doing the heavy lifting.</p>
+      <p class="body">Notably, the strength is <em>not</em> a strong-currency story. The Singdollar has quietly softened to about 1.292 to the US dollar, near its weakest of 2026 — a reminder that the STI's record and the currency can point in opposite directions at once.<sup class="fnref">2</sup></p>
+
+      <div class="subhead">The neighbourhood grows</div>
+      <p class="body tight">Prime Minister Lawrence Wong spent Thursday and Friday on an official visit to Timor-Leste, ASEAN's newest member — conferred the Order of Timor-Leste in Dili.<sup class="fnref">3</sup> It is an easy story to overlook, but a bigger, more integrated bloc on the doorstep is exactly the kind of slow, structural tailwind that outlasts any quarter's headlines.</p>
+    </div>
+
+    <div>
+      <div class="lede-strip">
+        <span class="li"><b>STI</b> ~5,244</span>
+        <span class="li"><b>MoM</b> +3.5%</span>
+        <span class="li"><b>YoY</b> +30.7%</span>
+        <span class="li"><b>NODX '26f</b> 3–5%</span>
+      </div>
+      <div class="stat"><div class="n">1.292</div><div class="c">USD/SGD · near 2026 low for the SGD</div></div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>A 30% year is a wonderful thing to have banked and a nervous thing to chase. Records invite extrapolation; the honest read is that a bank-and-REIT index is defensive, income-y and — right now — fully priced. Buy the dividend, not the momentum.</p>
+        <p class="src">— Meridian, general commentary; not advice</p>
+      </div>
+      <div class="inbrief">
+        <h4>On the calendar</h4>
+        <p><b>SG61 build-up.</b> National Day rehearsals are under way at the National Stadium; the parade lands 9 Aug (see the Diary, p24).</p>
+        <p><b>Relief continues.</b> The July round of cost-of-living support rolls out on schedule.</p>
+        <p><b>Pritam Singh.</b> The WP chief's appeal saga: no material change this week — a one-line delta only.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Trading Economics, STI (3 Jul 2026). 2. Trading Economics, USD/SGD 1.2916 (3 Jul). 3. PMO Singapore newsroom, Timor-Leste official visit (2–3 Jul 2026).</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 6 — PROPERTY ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker gold">Property · The Q2 flash</div>
+    <div class="hed">The Market Rotates to the Top</div>
+    <div class="dek">Private-home price growth halved in the second quarter — but the average hides a split: prime and landed strengthened while the mass market gave back gains, all with a supply wave now loading.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">URA's flash estimate, out 1 July, put private residential prices up just 0.5% quarter-on-quarter in Q2 — a marked cool-down from Q1's 0.9%, and the softest pace in seven quarters.<sup class="fnref">1</sup> But the headline masks a rotation worth a weekend read. The Core Central Region — the prime districts — <em>rose</em> 2.0%, the only positive non-landed segment, despite no new launches. Landed homes reversed a slide to gain 2.6%. Meanwhile the Rest of Central Region fell 1.4% and the Outside Central Region, red-hot in Q1, slipped 0.2%.<sup class="fnref">1</sup></p>
+    <p class="body">The mass-market softness is partly a base effect and partly realistic pricing at the quarter's launches: Tengah Garden Residences, the first private condo in Tengah, cleared 99% of units at about $2,120 psf on its launch weekend, while Hudson Place Residences moved at a median $2,467 psf — 2% below the preceding Media Circle project.<sup class="fnref">1</sup> Take-up stayed strong even as prices eased: developers sold roughly 2,100 new units, up on Q1.<sup class="fnref">2</sup></p>
+
+    <div class="pull">A flight to the top: the money moving is moving up-market, just as a decade's worth of supply prepares to flood the middle.</div>
+
+    <p class="body">Two other signals reward attention. The HDB resale index fell 0.3% — a second straight quarterly decline, the first back-to-back dip in nearly seven years — hinting at softer upgrading power beneath the private market.<sup class="fnref">2</sup> And the pipeline is enormous: the 2H2026 Confirmed List adds 4,745 units, taking the full-year Government Land Sales supply to 9,320 — over 50% above the ten-year average, with some 61,000 units due to complete in the next few years.<sup class="fnref">3</sup></p>
+
+    <div class="inbrief">
+      <h4>The read-through for an owner</h4>
+      <p><b>Prime holds; mass cools.</b> If you own in the CCR or landed, the quarter went your way; if you're an OCR upgrader, the queue is thinning and the discount to city-fringe is narrowing.</p>
+      <p><b>Supply is the story now.</b> A 9,320-unit Confirmed List is the government leaning against froth — good for buyers, a brake on sellers.</p>
+      <p><b>Rates?</b> A one-line delta: 3-month SORA still near 1%, still supportive — but no longer the headline it was.</p>
+    </div>
+
+    <div class="chatter gold">
+      <div class="lbl">The Chatter</div>
+      <p>CBRE's Tricia Song holds a full-year forecast of 2–4% price growth and 7,500–8,500 new-home sales — a deliberate moderation from 2025's 10,815, on fewer launches and pent-up demand normalising. Developers, tellingly, are still bidding up prime land: benchmark tenders at Peck Hay Road, Dunearn Road and River Valley all cleared above 2025 comparables.</p>
+      <p class="src">— CBRE Research; ERA; 99.co (1–4 Jul)</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. URA flash estimate Q2 2026 (1 Jul); ERA commentary. 2. CBRE Research, T. Song (1 Jul); 99.co. 3. URA media release pr26-51 (1 Jul 2026). General information, not property advice.</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 7 — TECHNOLOGY (1/2) — Silicon & Sovereignty ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker">Technology · The state as shareholder</div>
+    <div class="hed">Washington Wants a Stake</div>
+    <div class="dek">OpenAI has floated handing the US government 5% of itself — worth some $42.6 billion — as the price of political peace. It is the clearest sign yet that frontier compute is being treated as a national asset.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">According to the Financial Times, Sam Altman has proposed giving the United States government a 5% equity stake in OpenAI — roughly $42.6 billion against the company's $852 billion March valuation — as part of a broader scheme in which every leading American lab would cede the same share into a public fund modelled on the Alaska Permanent Fund.<sup class="fnref">1</sup> The idea is conceptual, early, and would likely require an act of Congress; Google, Meta and Anthropic have not signed on, and a source says the administration and Anthropic have held no such talks.<sup class="fnref">1</sup></p>
+    <p class="body">The framing is generous — "sharing the upside of AI with the public" — but the timing is instructive. The proposal surfaced days after Washington <em>delayed</em> OpenAI's GPT-5.6 launch at the government's request, and after Anthropic spent much of June with its most capable Claude models offline worldwide under the first US export controls ever applied to a model rather than a chip; access was restored on 1 July.<sup class="fnref">2</sup> Google, Microsoft and xAI have separately agreed to let the government test models before release.</p>
+
+    <div class="pull">The template is already built: Washington took 9.9% of Intel, ~15% of MP Materials, and a cut of Nvidia and AMD's China sales. Now it is being offered the crown jewel.</div>
+
+    <p class="body">Set against that backdrop, an equity stake looks less like philanthropy and more like the logical next move in an industrial policy that treats compute the way earlier eras treated steel, oil and uranium. Senator Bernie Sanders has gone further, filing a bill seeking 50% of US AI firms' voting shares for a $7 trillion fund; Vice-President Vance says the President prefers equity to cash payouts.<sup class="fnref">3</sup> Meanwhile SoftBank closed a second $10 billion tranche of its OpenAI follow-on — cash from private capital funding the compute, equity to the public managing the politics.<sup class="fnref">3</sup></p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter</div>
+      <p>Reaction split cleanly. Some read it as a bribe dressed as a dividend — the same administration that regulates these firms being handed shares in them. Others note the elegance: it costs OpenAI no cash, sidesteps a stalled AI-tax debate, and locks in Washington's position ahead of an IPO now reportedly slipping to 2027.</p>
+      <p class="src">— SiliconANGLE, Tom's Hardware, CNBC (2–3 Jul)</p>
+    </div>
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>Anti-industrial-policy conservatives are horrified; a government that owns a slice of the frontier has every incentive to protect it from competition. And the deeper worry is downstream: while Washington negotiates equity, cheaper open-weight Chinese models keep improving with fewer guardrails.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Financial Times via CNBC/Bloomberg (2 Jul 2026). 2. Tom's Hardware (3 Jul); Anthropic access restored 1 Jul. 3. andrew.ooo analysis; Reuters (1–3 Jul). Not investment advice.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 8 — TECHNOLOGY (2/2) — The Home Lab ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>The Home Lab</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker teal">The Home Lab · The glut that helps you</div>
+    <div class="hed">When Even Meta Has Spare GPUs</div>
+    <div class="dek">Meta wants to rent out its excess compute. For the self-hoster, the overbuild at the frontier may be the first crack of daylight in a brutal year for RAM and silicon.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="grid g-21" style="margin-top:8px;gap:8mm">
+    <div>
+      <p class="body dropcap">The most quietly consequential tech story of the week was not a chip but a landlord. Meta unveiled "Meta Compute," a plan to sell its surplus AI infrastructure to outside customers — turning a $115–135 billion capex line into revenue.<sup class="fnref">1</sup> The market read the subtext instantly: if one of the largest buyers of GPUs has <em>more than it needs</em>, the supply-demand story that justified premium pricing may be tipping. Meta jumped ~9%; the GPU-cloud pure-plays cratered — CoreWeave −14%, Nebius −17% — and memory names sold off hard.<sup class="fnref">1</sup></p>
+      <p class="body">For a home lab, a glut at the top is a gift at the bottom. It is the mechanism by which yesterday's data-centre silicon becomes tomorrow's second-hand bargain, and by which the RAMpocalypse this desk tracked last month — DRAM up 300–600% off the lows — eventually loosens. Nobody should expect relief tomorrow: South Korea just launched a $584 billion push with Samsung and SK hynix, and Anthropic is reportedly in talks with Samsung to build a custom chip.<sup class="fnref">2</sup> But the direction of travel matters.</p>
+      <p class="body">The self-hoster's real windfall, though, is software. The open-weight wave keeps making a 16–32GB box genuinely useful, and — as the sovereignty story on the facing page underlines — the case for owning your model, running locally and cloud-proof, has rarely been stronger. Own the weights; rent the watts only when you must.</p>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 210 150" xmlns="http://www.w3.org/2000/svg">
+          <text x="6" y="12" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" letter-spacing="1">ONE DAY'S TAPE · THE AI TRADE CRACKS</text>
+          <g font-family="Poppins,sans-serif" font-size="7.5" fill="#403a32">
+            <rect x="6" y="24" width="70" height="12" fill="#2b6b66"/><text x="80" y="33" fill="#2b6b66">Meta +8.8%</text>
+            <rect x="6" y="42" width="18" height="12" fill="#c1462e"/><text x="28" y="51">Micron −7%</text>
+            <rect x="6" y="60" width="12" height="12" fill="#c1462e"/><text x="22" y="69">AMD −4.3%</text>
+            <rect x="6" y="78" width="40" height="12" fill="#9c3422"/><text x="50" y="87">CoreWeave −14%</text>
+            <rect x="6" y="96" width="48" height="12" fill="#9c3422"/><text x="58" y="105">Nebius −17%</text>
+            <rect x="6" y="114" width="9" height="12" fill="#c1462e"/><text x="19" y="123">Tesla −7.5%</text>
+          </g>
+          <text x="6" y="142" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">Meridian original · intraday moves, 1–2 Jul 2026</text>
+        </svg>
+        <div class="imgcap">The rotation, in one session: the hyperscaler up, the picks-and-shovels down.</div>
+      </div>
+      <div class="chatter teal">
+        <div class="lbl">The Chatter</div>
+        <p>"The Big Short" investor Michael Burry — short the trade — called Korea's chip splurge "the beginning of the end." Bulls counter that spare capacity today is just prudent over-provisioning for a demand curve that keeps bending up. Both can be right for a while.</p>
+        <p class="src">— SiliconANGLE; MLQ (2–3 Jul)</p>
+      </div>
+      <div class="inbrief">
+        <h4>Still on the shelf</h4>
+        <p><b>SK hynix ADR</b> — the ~$29bn Nasdaq listing (No. 34) tentatively debuts ~10 Jul; watch for the print.</p>
+        <p><b>OpenAI buys Astral</b> (uv/Ruff/ty) — a nod to the Python devs.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. MLQ News; Trading Economics (1–2 Jul 2026). 2. SiliconANGLE (3 Jul). Continuity: Meridian No. 34 (Home Lab).</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 9 — THE KIT ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Kit</span><span>Gear We're Watching</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker">The Kit · The screenless wars</div>
+    <div class="hed">The Tracker That Owns You</div>
+    <div class="dek">Oura's Ring 5 and Whoop's 5.0 are the best body-trackers ever made — arriving just as a 2026 backlash asks whether we've handed too much of ourselves to a subscription and a score.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">The premium screenless tracker is having its finest hour and its first real reckoning at once. Oura's Ring 5 — shipping since 4 June, 40% smaller, with a re-engineered twelve-pathway sensor and a push into GLP-1 and "Health Radar" insights — is the most passive, most accurate ring yet.<sup class="fnref">1</sup> Whoop's 5.0 answers with a fourteen-day battery and the sharpest strain-and-recovery coaching in consumer wearables; the MG tier adds FDA-cleared ECG and AFib screening. For an Oura-and-Whoop household, both are genuinely excellent.</p>
+    <p class="body">And yet the discourse has curdled. A widely shared TechRadar essay this week argued that wearable tech is sliding "from cool to surveillance-capitalism dreck" — as Oura, Whoop, Garmin and Meta all move features behind subscriptions, and as an always-on ring quietly becomes a thing that watches you rather than a thing you own.<sup class="fnref">2</sup> The cultural tell was a resurfaced clip of a podcaster lamenting that two glasses of wine had "ruined three days" of his recovery data — and being roundly mocked for it.</p>
+
+    <div class="pull">The question a 2026 wearable poses is no longer "how am I sleeping?" but "who is keeping the answer, and what did it cost me to know?"</div>
+
+    <p class="body tight">The healthy reframe, and the one this desk keeps landing on: read the multi-week <em>trend</em>, not the nightly number; own your data where you can; and don't let a score run your wedding. The most optimised thing you can do with a recovery metric is occasionally ignore it and dance.</p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter</div>
+      <p>The subscription creep is now the whole conversation: Google's screenless "Fitbit Air" strips community features and pipes advice through a paid AI coach — one that testers say dispenses the occasional "unhinged" workout. The counter-movement is small but real: rings like Ultrahuman's, sold without a mandatory subscription, are cited constantly in the threads.</p>
+      <p class="src">— TechRadar; T3; Gadgetflow (Jun–Jul)</p>
+    </div>
+  </div>
+
+  <div class="grid g-12-narrow" style="margin-top:2px">
+    <div class="inbrief">
+      <h4>Object · the 10-year cans</h4>
+      <p><b>Sony WH-1000X "The Collexion"</b> — a leather-and-metal, decade-anniversary spin on the WH-1000 line at ~$650. Overkill for most; catnip for collectors who want every ANC flagship.<sup class="fnref">3</sup></p>
+    </div>
+    <div class="inbrief">
+      <h4>The walls you wear</h4>
+      <p>AR glasses keep advancing — ROG's Xreal R1 (a 171-inch virtual screen, ~$850) ships this month — but June also brought reports of students using AI eyewear to cheat exams. Snap's $2,195 Specs and Meta's $299 frames stay one-line.<sup class="fnref">4</sup></p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Gadgetflow, Whoop vs Oura (2026). 2. TechRadar (4 Jul). 3. BGR gadgets round-up (Jun). 4. BGR; Glass Almanac; CNN (Jun). General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 10 — THE CONNECTED HOME ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Connected Home</span><span>Walls That Listen</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker teal">Connected Home · HA 2026.7</div>
+    <div class="hed">A House That Explains Itself</div>
+    <div class="dek">Home Assistant's July release makes a local-first home both easier to build and — at last — easy to debug. For a Lutron migrant, the moment to move keeps getting more inviting.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">Home Assistant 2026.7 landed on 1 July with a title that doubles as a thesis: "automations that speak your language."<sup class="fnref">1</sup> The headline change graduates purpose-based triggers from the Labs sandbox to the default editor — so instead of knowing a sensor's exact entity ID, you search "Motion," pick a room, and the system watches every motion sensor in that area. "More power, less complexity," as lead developer Frenck puts it. For a newcomer migrating off Lutron, it collapses the intimidating middle of the learning curve.<sup class="fnref">2</sup></p>
+    <p class="body">The quieter, deeper change is under the hood. The Python Matter server has been rewritten in TypeScript as matter.js — now final — bringing Matter 1.5.1 compliance, faster device reconnection, a Thread network visualiser, and, crucially, native diagnostic sensors: Reboot Count, Uptime, Boot Reason, plus Hardware, Radio and Network fault flags and Wi-Fi RSSI.<sup class="fnref">1</sup> These answer the question every Matter owner has muttered at a vanished smart plug — <em>was it a power blip, a firmware crash, or the mesh?</em> — locally, with no vendor app and no cloud.</p>
+
+    <div class="pull">The whole point of a local-first home is that when something breaks, the house can tell you why — without phoning a server you don't control.</div>
+
+    <p class="body tight">It rhymes with the week's larger theme. The same instinct that's driving people back to analog childhoods and to trackers they actually own is the one that makes a cloud-proof home feel less like hobbyism and more like prudence. Matter 1.5.1 also unlocks cameras, doorbells and closures; a dedicated IR/RF settings pane continues last month's work pulling decades-old "dumb" devices into the fold.</p>
+
+    <div class="chatter teal">
+      <div class="lbl">The Chatter</div>
+      <p>Power users are mostly delighted and slightly wary. The intent editor abstracts away the entity model that veterans learned to love; a few worry the "friendly" layer hides the plumbing they occasionally need. Consensus in the forums: keep areas tidy, and the new triggers are a clear win.</p>
+      <p class="src">— Smart Home Junkie; XDA; Matter Alpha (Jul)</p>
+    </div>
+    <div class="inbrief">
+      <h4>In brief</h4>
+      <p><b>Dropbox backups</b> arrive as a native integration; Raspberry Pi firmware updates can now be pushed from within HA.</p>
+      <p><b>ZHA Zigbee</b> gets a management overhaul; a Matter soil-moisture device type lands for the garden crowd.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Home Assistant blog, 2026.7 (1 Jul); Matter Alpha. 2. TechTimes; XDA-Developers (Jun–Jul 2026). Continuity: Meridian No. 34.</div>
+    <div class="fnbar"><span>Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 11 — THE GOOD LIFE ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker gold">The Good Life · Objects &amp; escapes</div>
+    <div class="hed">A Hundred Years of Keeping the Water Out</div>
+    <div class="dek">Rolex's Oyster case turns 100 — an object built for one dull, durable purpose. It's the right anniversary for a weekend about homecoming: the things that simply keep working while everything else rotates.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">Watchmaking spends a fortune chasing the exotic; the centenary worth marking this year honours the mundane. In 2026 the Rolex Oyster case — the first waterproof wristwatch case, patented in 1926 — turns one hundred, and the brand celebrated with an Oyster Perpetual whose lacquer dial spells "Rolex" in a mosaic of more than ten colours, from about US$6,750.<sup class="fnref">1</sup> The playful dial is beside the point. The point is the case: a sealed, screw-down promise that the thing on your wrist will keep working after a swim, a decade, a life.</p>
+    <p class="body">That is a fitting object for a homecoming issue. In a market whose auction rooms just set records for independent craft (No. 34), and whose store-of-value obsessions swing from gold to bitcoin week to week, there is something clarifying about a design whose whole ambition is to <em>not change</em> — to hold. The luxury here is durability, not novelty; the flex is that it will outlast the trend.</p>
+
+    <div class="chatter gold">
+      <div class="lbl">The Chatter</div>
+      <p>Grand Seiko's 2026 "Ushio" Ultra-Fine-Accuracy diver (±20s a <em>year</em>, ~US$12,400) and its hand-engraved Micro Artist pieces prove the Japanese houses are climbing the same durability-as-luxury ladder — the soft-yen backdrop (¥ still near multi-decade lows) only sweetening the case for buying a keeper on your next trip north.</p>
+      <p class="src">— Oracle Time; Gear Patrol (2026)</p>
+    </div>
+  </div>
+
+  <div class="subhead" style="margin-top:6px">The Escape · buy the experience</div>
+  <div class="grid g-21" style="gap:8mm">
+    <div>
+      <p class="body">If the object this week argues for keeping, the escape argues for spending — on the thing you can't resell. The reader's calendar has an unusually easy option hiding in plain sight: a great city a five-hour hop away, cheaper than almost anywhere comparable, and photo-rich in a way that flatters a Leica. This weekend's Grand Tour goes deep on Taipei (p21); read it as the Good Life's travel pick too — camera streets, hot springs, and the best night-market food per dollar in Asia.</p>
+      <p class="body tight">The counsel is the same one the durability object makes, inverted: own the watch, but rent the memory-making. One holds its value by lasting; the other by being spent.</p>
+    </div>
+    <div>
+      <div class="inbrief">
+        <h4>The soft-yen window</h4>
+        <p>With the yen still weak and Japan's tax-free reform bedding in, a keeper bought in Ginza or Kanazawa remains a live idea — cross-referenced to the Macro Desk's FX read, p15.</p>
+      </div>
+      <div class="stat"><div class="n">1926</div><div class="c">The Oyster case is patented</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Gear Patrol, Watches &amp; Wonders 2026; Rolex Oyster centenary. GS: Oracle Time; Luxury Bazaar (2026). Rotating object slot; not investment advice.</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 12 — SCREEN & SOUND ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker vermilion">Screen &amp; Sound · The summer slate</div>
+    <div class="hed">The Summer of the Homecoming</div>
+    <div class="dek">Christopher Nolan drags Homer's oldest story — a man trying to get home — into IMAX 70mm, and the demand is Oppenheimer-plus. It anchors the most crowded, most confident July at the box office since before the pandemic.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">On 17 July, Nolan releases <em>The Odyssey</em> — the Trojan-War aftermath rendered as a summer tentpole, with Matt Damon, Tom Holland and Zendaya in the tunics.<sup class="fnref">1</sup> The tell is the presale: advance IMAX demand has outpaced <em>Oppenheimer</em>'s 2023 run, and at one New York cinema, pairs of 70mm tickets have resold for up to US$1,500.<sup class="fnref">2</sup> There is a lovely rhyme in it — the culture's most technically maximalist filmmaker choosing, of all stories, the one about the long way home.</p>
+    <p class="body">He lands into a genuinely healthy summer. 2026's domestic box office is running ~13% ahead of last year and pacing within a whisker of 2019; the four-month season should top $4 billion for only the second time since the pandemic.<sup class="fnref">3</sup> <em>Toy Story 5</em> (No. 34) opened to a franchise-record $160M and keeps earning; two weeks after Nolan, on 31 July, Sony's <em>Spider-Man: Brand New Day</em> arrives with sell-outs already reported.<sup class="fnref">2</sup></p>
+
+    <div class="pull">The most maximalist filmmaker alive chose the oldest homecoming story ever told — and the tickets are reselling for the price of a flight.</div>
+
+    <p class="body tight"><em>Supergirl</em>, demoted here under the three-consecutive-lead rule, faded after a soft open — a one-line close. The season's real oddity: A24's <em>Backrooms</em> and Focus's <em>Obsession</em>, both by directors who built their craft on YouTube, have become breakout hits, with <em>Obsession</em> on course to clear $240M domestic <em>without ever being the week's number one</em> — a feat matched only by <em>Oppenheimer</em>, <em>Sing</em> and <em>My Big Fat Greek Wedding</em>.<sup class="fnref">2</sup></p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter</div>
+      <p>Exhibitors are giddy and a little superstitious: "week after week, it's not been just one film." The nervous question is whether Nolan and Spider-Man are genuine strength or quarter-end sugar — and whether the YouTube-auteur horror boom is a fluke or the new pipeline.</p>
+      <p class="src">— Variety; Screendollars; AMC's Adam Aron (Jun)</p>
+    </div>
+  </div>
+
+  <div class="grid g-12-narrow">
+    <div class="inbrief">
+      <h4>New music · the women of July</h4>
+      <p>Madonna and Ariana Grande both have albums due before month's end; the Rolling Stones drop <em>Splat!</em> mid-July. Olivia Rodrigo stays a one-line mention (saturated).<sup class="fnref">4</sup></p>
+    </div>
+    <div class="inbrief">
+      <h4>On screen at home</h4>
+      <p>A quieter note for the sci-fi shelf: PlayStation confirmed it will end physical-disc production for new games by 2028 — the slow, gradual end of another format you can hold.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Variety, box-office previews (2026). 2. Screendollars; Variety; LA Mag (Jun). 3. Variety/Rentrak (Jun). 4. Billboard; Metacritic (Jul).</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 13 — FAMILY (1/2) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>Raising Them Well</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker">The Family Desk · The analog turn</div>
+    <div class="hed">The Analog Summer</div>
+    <div class="dek">Dumbphones, board games, a bike ride to a friend's house: 2026's most talked-about parenting trend is a deliberate turn away from screens and toward the real — and the summer holiday is where it gets tested.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">The buzz-phrase in parenting circles this year is "going analog," and for once the trend and the evidence point the same way. Families are reaching for old-school defaults — landline-style "tin-can" phones for kids, board games, VHS nights, and, above all, unsupervised outdoor time — as a conscious push-back against passive screens and the AI-saturated internet.<sup class="fnref">1</sup> It isn't Luddism; it's a reset of defaults, and it dovetails with a run of research this desk has tracked, from last month's case for the boredom of an empty afternoon to the developmental value of a little risk.</p>
+    <p class="body">The summer holiday is where the theory meets the calendar. Children's health behaviours — physical activity, diet, sleep, mood — reliably slip over the long break; a 2026 Delphi study of "levelling-up summer" programmes found that <em>some</em> structure helps, provided it leaves room for genuine autonomy.<sup class="fnref">2</sup> The synthesis isn't "ban the iPad" versus "let them roam." It's the same line as last month: structure the unstructured. Anchor the day — a swim, a chore, a shared meal — then defend the long, undirected middle where a bored eleven-year-old invents her own afternoon.</p>
+
+    <div class="pull">Analog isn't anti-technology. It's the small, unglamorous work of choosing the default — and then getting out of the way.</div>
+
+    <p class="body tight">For a tween specifically, the stakes are also social and physical: girls commonly enter puberty at nine to eleven, and the research keeps returning to the same protective factor — high-quality, low-drama conversation with a parent, which predicts better decision-making far more reliably than any gadget ban.<sup class="fnref">3</sup></p>
+
+    <div class="chatter">
+      <div class="lbl">The Chatter</div>
+      <p>The "dumbphone" is no longer fringe. 2026's parenting trend round-ups put brick phones, wired home lines and deliberately "low-tech summers" near the top of the list — and, tellingly, parents who grew up online are visibly tiring of performative "gentle parenting," trading the scripts for plainer authority paired with warmth. The mood is less anti-tech than pro-real.</p>
+      <p class="src">— TheEveryMom; Scary Mommy; The Cut (2026)</p>
+    </div>
+
+    <div class="inbrief">
+      <h4>The summer-slide, in one line</h4>
+      <p>Activity, diet, sleep and mood reliably drift over the long holiday; the evidence favours a light daily <b>anchor</b> plus a defended block of <b>unstructured</b> time — not a packed camp schedule, and not a screen free-for-all.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. TheEveryMom; Scary Mommy, "2026 parenting trends" (2026). 2. "Levelling-up summer," Delphi study, PMC (2024–25). 3. Media Aware Parent: Tween study (NCT06408818); Child Mind Institute. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 14 — FAMILY (2/2) — The Tween Years ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>The Tween Years</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="byline">Don't be alarmist · the practical version</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:2px;gap:8mm">
+    <div>
+      <p class="body">The alarmist reading of "analog" is that a phone or a screen is poison and abstinence is the cure. That's neither true nor useful. A capable smartphone is, for many families, also how an eleven-year-old reaches you, finds her way home, and keeps up with friends — and a "dumbphone" can be a sensible <em>bridge</em> rather than a moral victory. The move that actually pays off is duller and harder: deciding, per household, what the <em>defaults</em> are — where devices live overnight, what the first hour after school looks like, which afternoons are deliberately empty — and then holding them lightly enough to bend on a rainy day.</p>
+      <p class="body">Watch for the difference between developmental boredom, which is generative and passes, and a persistent flatness that doesn't lift with company or a change of scene. The first is the raw material of a good summer. The second is a conversation, and — if it lingers — a reason to talk to a professional. Neither is a reason to panic, and neither is fixed by a gadget.</p>
+      <p class="body">The independence piece deserves its own line, because it is where "analog" does real developmental work. A tween biking to a friend's house, ordering her own bubble tea, or navigating a small errand alone is practising the competence that a supervised, screen-mediated childhood quietly postpones. The best-evidenced parental move is not surveillance but scaffolding — widen the leash in deliberate steps, then debrief warmly rather than interrogate. The communication, again, is the intervention.</p>
+      <p class="body tight">The through-line to this whole issue is worth naming for the family too: the pull toward the real — a friend on a bike, a game on the table, a walk with no plan — is the same instinct showing up in grown-up life as a friendship revival (p17) and a return to homes and tools we actually control. The kids are just better at it.</p>
+    </div>
+
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">Don't Be Alarmist</div>
+        <p>"Analog" is a default, not a purity test. Screens aren't the enemy; unexamined <em>defaults</em> are. A dumbphone can be a bridge; a board game is not a cure; and the best-evidenced protective factor for a tween remains an unhurried, non-judgemental conversation with a parent.</p>
+        <p class="src">— Meridian, from the cited research</p>
+      </div>
+      <div class="stat"><div class="n">9–11</div><div class="c">Common age puberty begins for girls</div></div>
+      <div class="hairline"></div>
+      <div class="inbrief">
+        <h4>Try this week</h4>
+        <p><b>Name one empty afternoon.</b> Block it, announce it, then vanish.</p>
+        <p><b>Pick the overnight spot</b> for every device — including yours.</p>
+        <p><b>One analog ritual</b> — a game, a walk, a build — on repeat, no photos required.</p>
+      </div>
+      <div class="hairline"></div>
+      <div class="stat"><div class="n">1 : 1</div><div class="c">The best-evidenced tool for a tween: unhurried, non-judgemental talk</div></div>
+      <div class="inbrief">
+        <h4>What the evidence likes</h4>
+        <p><b>Scaffolded independence</b> over surveillance; <b>warm debriefs</b> over interrogation; a device that's a <b>bridge</b>, not a verdict.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Child Mind Institute, "Parenting tweens"; AAP guidance; the studies cited on p13. General guidance, not medical advice; consult a professional for persistent concerns.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 15 — THE MACRO DESK ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Macro Desk</span><span>The Big Picture</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker slate">The Macro Desk · The portfolio lens</div>
+    <div class="hed">The Rotation, Not the Retreat</div>
+    <div class="dek">A soft jobs print and cheaper oil cooled the rate-hike scare just as the AI trade cracked — and the money didn't leave, it rotated. The broad market made records while the megacaps stumbled.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="grid g-21" style="margin-top:6px;gap:8mm">
+    <div>
+      <p class="body dropcap">The week's tape told one connected story. June payrolls came in at just 57,000 — roughly half what was expected — the softest reading in four months, though unemployment ticked <em>down</em> to 4.2% as workers left the force.<sup class="fnref">1</sup> Soft labour data plus a continued slide in oil (Brent back to the low-$70s as Hormuz traffic recovered) took the sting out of the inflation fight: with May CPI still hot at 4.2% year-on-year, markets had been pricing the Fed's next move as possibly a <em>hike</em>. After the jobs print, the odds of a July hike fell to roughly one-in-five, and the near-certainty of a December move softened.<sup class="fnref">1</sup></p>
+      <p class="body">New chair Kevin Warsh, who has stripped forward guidance in favour of pure data-dependence, told the ECB's Sintra forum that "inflation risks have come down."<sup class="fnref">2</sup> The regime, then: still higher-for-longer, but with the hike scare receding — and, crucially, a great <em>rotation</em>. As the AI trade unwound (Meta's compute glut, an OpenAI listing slipping to 2027), money didn't flee equities; it broadened. The Dow closed at records and the equal-weight S&amp;P and Russell 2000 hit fresh highs even as the Nasdaq wobbled.<sup class="fnref">3</sup> For a diversified portfolio, that broadening is the friendly part.</p>
+
+      <div class="pull">The AI trade cracked and the money didn't leave the building — it just walked to the other side of the room.</div>
+
+      <p class="body tight">The dollar, notably, had its worst week since April, which lifted gold ~2% off an eight-month low and helped bitcoin bounce back above $61k, with on-chain data showing long-term holders quietly accumulating.<sup class="fnref">4</sup></p>
+
+      <div class="chatter slate">
+        <div class="lbl">What it means for VWRA, global bonds, gold &amp; BTC</div>
+        <p><b>VWRA</b> (the anchor you hold) sits near its record at $189.82 — but leadership is rotating from megacap tech to the broad market, so the diversification inside the fund is finally <em>helping</em>. <b>Global bonds</b> took a small knock as the 10-year backed up ~10bp to 4.48%, yet the equity–bond mix behaved better this week as breadth improved. <b>Gold</b> (read only) rebounded on the softer dollar and lower real-yield pressure. <b>BTC</b> (read only, high-vol) bounced with liquidity and risk appetite — a sensitivity, not a recommendation. Education, not advice; no fabricated prints.</p>
+      </div>
+    </div>
+
+    <div>
+      <table class="tbl">
+        <tr><th>Instrument</th><th>Level</th><th>Read</th></tr>
+        <tr><td>VWRA</td><td class="n">$189.82</td><td>near ATH</td></tr>
+        <tr><td>S&amp;P 500</td><td class="n">~7,500</td><td>broad ↑</td></tr>
+        <tr><td>Nasdaq</td><td class="n">~25.3k</td><td>wobbly</td></tr>
+        <tr><td>STI</td><td class="n">5,244</td><td>record</td></tr>
+        <tr><td>US 10Y</td><td class="n">4.48%</td><td class="dn">+10bp</td></tr>
+        <tr><td>DXY</td><td class="n">~101</td><td class="up">worst wk since Apr</td></tr>
+        <tr><td>USD/JPY</td><td class="n">~¥160</td><td>yen still weak</td></tr>
+        <tr><td>USD/SGD</td><td class="n">1.292</td><td>SGD soft</td></tr>
+        <tr><td>Brent</td><td class="n">$70.6</td><td class="up">↓ Hormuz eases</td></tr>
+        <tr><td>Gold</td><td class="n">$4,170</td><td class="up">+2% wk</td></tr>
+        <tr><td>BTC</td><td class="n">~$61.3k</td><td>bounce</td></tr>
+      </table>
+      <div class="imgcap">Levels to the close of Thu 3 Jul 2026 (US shut Fri). Verified prints; unverifiable numbers held.</div>
+      <div style="margin-top:4px">
+        <span class="tag s">Higher-for-longer</span><span class="tag">Rotation</span><span class="tag v">Risk-on (broad)</span><span class="tag g">Dollar soft</span>
+      </div>
+      <div class="stat" style="margin-top:6px"><div class="n">~18%</div><div class="c">Odds of a July Fed hike, post-jobs (was ~29%)</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. T. Rowe Price weekly; Schwab (2 Jul 2026). 2. TheStreet; CNBC, Sintra (1 Jul). 3. Trading Economics; Yahoo Finance (2 Jul). 4. Trading Economics, gold/BTC (3 Jul). Market education, not investment advice.</div>
+    <div class="fnbar"><span>The Macro Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 16 — CURIOSITIES ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Curiosities</span><span>The Far Edges</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker vermilion">Curiosities · The visitor departs</div>
+    <div class="hed">The Oldest Traveller Leaves</div>
+    <div class="dek">A year to the day after it was spotted, the interstellar comet 3I/ATLAS — older than the Sun — turns for the exit, never to return. Its farewell science is a small marvel: a message from a colder, more ancient galaxy.</div>
+  </div>
+  <div class="rule"></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/3I-ATLAS%20Hubble%20heic2509a.jpg?width=1400" alt="Hubble image of interstellar comet 3I/ATLAS" loading="lazy"><div class="ph-cap">3I/ATLAS by Hubble, 21 July 2025 — a teardrop cocoon of dust; the streaks are background stars, smeared as the scope tracked the comet. <i>3I-ATLAS Hubble heic2509a.jpg · NASA, ESA, D. Jewitt et al. / ESA-Hubble · CC BY 4.0</i></div></div>
+
+  <div class="grid g-21" style="margin-top:8px;gap:8mm">
+    <div>
+      <p class="body dropcap">It arrived a year ago — flagged on 1 July 2025 by the ATLAS survey in Chile — only the third confirmed object ever seen passing through our solar system from beyond it.<sup class="fnref">1</sup> Now 3I/ATLAS is on its way out for good, on a hyperbolic path that will carry it back into interstellar dark, never to return. Before it goes, it has left astronomers a parting gift of data.</p>
+      <p class="body">Webb and the VLT caught its chemistry as it warmed past the Sun. The verdict, published in <em>Nature Astronomy</em>, is that this is something genuinely alien: a deuterium — "heavy water" — signature unlike any solar-system comet, plus fingerprints of methane, methanol, ethane and an unexplained trace of nickel vapour.<sup class="fnref">2</sup> The heavy-water ratio points to a birth in extreme cold; the object is estimated at ten to twelve billion years old — meaning it was already ancient when our Sun was born.</p>
+
+      <div class="pull">It formed in the deep cold of another star system, older than our Sun — and we got one year to say hello before it left forever.</div>
+
+      <p class="body tight">And no, it isn't a spaceship. A SETI search through nearly 74 million radio signals turned up 211 candidates, every one of them human or satellite interference — ruling out any transmitter of even modest power.<sup class="fnref">3</sup> The romance is the science, not the rumour.</p>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="200" height="150" fill="#14110e"/>
+          <g fill="#6f665a"><circle cx="20" cy="20" r="1"/><circle cx="170" cy="30" r="1.2"/><circle cx="60" cy="120" r="1"/><circle cx="150" cy="110" r="1"/><circle cx="100" cy="18" r="0.9"/><circle cx="35" cy="80" r="0.9"/><circle cx="185" cy="80" r="1"/></g>
+          <circle cx="100" cy="80" r="9" fill="#b08738"/>
+          <text x="100" y="103" font-family="Poppins,sans-serif" font-size="6" fill="#e8dccb" text-anchor="middle">Sun</text>
+          <path d="M14,140 C 70,120 120,70 150,20" fill="none" stroke="#c1462e" stroke-width="1.6" stroke-dasharray="2 3"/>
+          <circle cx="150" cy="20" r="2.6" fill="#e8dccb"/>
+          <path d="M150,20 L168,8" stroke="#e8dccb" stroke-width="1" opacity="0.7"/>
+          <text x="150" y="36" font-family="Poppins,sans-serif" font-size="6" fill="#e8dccb" text-anchor="middle">3I/ATLAS →</text>
+          <text x="14" y="135" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">a one-way hyperbolic pass</text>
+        </svg>
+        <div class="imgcap">Meridian original · a schematic of an orbit that never closes.</div>
+      </div>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>The bigger news may be the telescope that nearly beat ATLAS to it: the Vera Rubin Observatory quietly imaged 3I/ATLAS days before its official discovery. Rubin should find roughly one interstellar comet a year — and ESA's Comet Interceptor (launch ~2029) is being built to lie in wait and chase the next one.</p>
+        <p class="src">— NASA; Sky &amp; Telescope; Space.com (Jun)</p>
+      </div>
+      <div class="stat"><div class="n">10–12 Gyr</div><div class="c">Estimated age · older than the Sun</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. NASA Science, 3I/ATLAS (2026). 2. Cordiner et al., <i>Nature Astronomy</i> (Jun 2026); Sky &amp; Telescope. 3. Sheikh et al., <i>Astronomical Journal</i> (2026). This is a sensitive topic only in that it's cosmic; no advice implied.</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 17 — LOVE & LIFE ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker">Love &amp; Life · The examined life</div>
+    <div class="hed">The Friendship Recession</div>
+    <div class="dek">The quiet crisis of midlife isn't romance — it's the slow evaporation of friendship, especially for men, especially for parents. The good news: unlike the weather, this one you can do something about.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">The numbers are startling because they are so gradual. The share of American men with no close friends rose from 3% in 1990 to 15% by 2021 — a fivefold jump — and the share reporting at least six close friends fell by half.<sup class="fnref">1</sup> Women's circles shrank too, from a lower base. The Survey Center on American Life's Daniel Cox calls it a "friendship recession," and the causes are structural, not personal: longer work hours, geographic churn, later marriage, and the slow substitution of screens for the standing table.<sup class="fnref">1</sup></p>
+    <p class="body">This is not a soft concern. The 2023 US Surgeon General's advisory placed loneliness alongside smoking and obesity as a mortality risk; social isolation is associated with a 29% higher risk of premature death — the oft-cited equivalent of fifteen cigarettes a day.<sup class="fnref">2</sup> And the longest-running study of human happiness — Harvard's, now 88 years in — keeps returning the same finding: the quality of your relationships predicts a long, good life better than wealth, fame, IQ or genes.<sup class="fnref">3</sup></p>
+
+    <div class="pull">Adult friendship doesn't end in a fight. It ends in a series of postponed coffees — which is exactly why a calendar beats good intentions.</div>
+
+    <p class="body tight">For the reader most exposed — a partnered parent in his mid-forties — the trap is specific: childcare and work quietly consume the bandwidth friendship used to occupy, and the loss is invisible until it's large. The fix is unromantic. Because the causes are structural, the answer is too: recurring, low-effort <em>systems</em> — the standing monthly dinner, the walk on the same day, the group chat with a purpose — beat willpower every time.</p>
+
+    <div class="chatter slate">
+      <div class="lbl">The Sceptic</div>
+      <p>A caveat before you audit your social life at midnight: some of these figures are correlational, and a few real friends beat a wide, shallow network — Dunbar's work suggests the number that matters is small. This is a nudge, not a diagnosis. But the direction is clear enough to act on.</p>
+      <p class="src">— from Cox (2021); Dunbar, <i>Friends</i> (2021)</p>
+    </div>
+    <div class="stat"><div class="n">5×</div><div class="c">Rise in men reporting <i>no</i> close friends since 1990 (3% → 15%)</div></div>
+    <div class="inbrief">
+      <h4>The repair kit</h4>
+      <p><b>Make it recurring.</b> A standing monthly date beats ten good intentions.</p>
+      <p><b>Lower the bar.</b> A walk, not a dinner party; proximity beats production values.</p>
+      <p><b>Say the real thing.</b> A little vulnerability is what turns an acquaintance into a friend.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Survey Center on American Life, "State of American Friendship" (2021); Mindfuse compilation (Jun 2026). 2. US Surgeon General advisory (2023). 3. Harvard Study of Adult Development. General reflection, not clinical advice.</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 18 — FITNESS ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Fitness</span><span>The Long Game</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker teal">Fitness · The evidence, revisited</div>
+    <div class="hed">The Zone-2 Myth, Examined</div>
+    <div class="dek">The internet's favourite longevity hack gets a cold-eyed review — and the verdict is liberating: build the base, but stop worshipping the zone. What survives the debate is an unglamorous, durable plan.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="grid g-21" style="margin-top:8px;gap:8mm">
+    <div>
+      <p class="body dropcap">Zone 2 — the low, conversational aerobic pace — became gospel on the strength of its mitochondrial magic. A 2026 narrative review in <em>Sports Medicine</em>, with exercise scientist Brad Schoenfeld among the authors, asks the awkward question: is Zone 2 <em>uniquely</em> effective, or does its reputation outrun the data? Their answer: when total training volume is matched, higher-intensity work produces equal or greater mitochondrial adaptation.<sup class="fnref">1</sup> In other words, the base-building is real; the zone-worship is not.</p>
+      <p class="body">This complicates — rather than overturns — the bookended week this desk floated last month. The polarised "mostly easy, a little hard" model still stands; what falls is the idea that a heart-rate number is doing something magic. For a time-crunched forty-something, that's freeing: you don't need a lab test and a strict zone to get most of the benefit. You need consistency, some genuinely hard efforts, and — the part the cardio debate keeps underselling — strength.</p>
+
+      <div class="pull">Build the aerobic base. Add a couple of genuinely hard efforts. Lift twice a week. Then stop optimising and go do it for a decade.</div>
+
+      <p class="body tight">On strength, the number that keeps holding up is a June 2026 BJSM analysis of 147,000 adults: a "sweet spot" of about 90–120 minutes of resistance training a week for the biggest longevity return (No. 32) — muscle as an under-rated organ of aging well.<sup class="fnref">2</sup></p>
+    </div>
+
+    <div>
+      <div class="inbrief">
+        <h4>The plan that survives the debate</h4>
+        <p><b>Base:</b> 3–4 easy aerobic sessions/wk — walk, ride, row. Don't fuss the zone.</p>
+        <p><b>Sharpen:</b> 1–2 genuinely hard efforts (intervals, hills).</p>
+        <p><b>Lift:</b> 2–3 strength sessions, ~90–120 min total.</p>
+        <p><b>Repeat</b> for years. Consistency beats any single protocol.</p>
+      </div>
+      <div class="chatter teal">
+        <div class="lbl">The Sceptic</div>
+        <p>Two honest caveats: the Zone-2 studies are volume-<em>matched</em> and often in trained subjects, so for a beginner easy cardio (a brisk incline walk) is still the friendliest on-ramp. And your wearable's VO₂max estimate is a trend line, not a truth — read it the way you read your recovery score (p9). Not medical advice; clear new intensity with a clinician.</p>
+      </div>
+      <div class="stat"><div class="n">90–120</div><div class="c">Minutes/wk of strength · the "sweet spot"</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Schoenfeld et al., narrative review, <i>Sports Medicine</i> (2026); Health Crunch summary. 2. Zhang et al., <i>Br J Sports Med</i> (Jun 2026). General guidance, not medical advice.</div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 19 — TRAVEL DESK · DEPARTURES (1/2) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Travel Desk</span><span>Departures</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker gold">The Travel Desk · Departures</div>
+    <div class="hed">Polishing the Nest</div>
+    <div class="dek">While Terminal 5 is still a decade off, Singapore Airlines is spending real money on the home it has now — a $50M rebuild of its T3 lounges — as the summer route map keeps thickening.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">The headline delta this weekend is a lounge. On 4 July, SIA announced a $50 million upgrade of its flagship SilverKris lounges at Changi Terminal 3 — following a separate $45 million T2 lounge remodel now under way.<sup class="fnref">1</sup> With the mega-terminal T5 not opening until the mid-2030s, these will be the carrier's home-base lounges for the next decade, so the spend is less vanity than necessity. Pair it with the new First and Business cabins rolling out across the A350 fleet through 2026, and the "polish the nest while the new house is built" logic is clear.</p>
+    <p class="body">The route map keeps thickening on schedule. Manchester steps up to <em>daily</em> this month; Oman Air's Muscat–Singapore service launched 2 July, restoring another Gulf link as the Middle East corridor recovers (see The World, p3).<sup class="fnref">2</sup> Further out, October brings a European cluster — Madrid, London Gatwick, Milan Malpensa, more Munich — and Western Sydney goes daily from November.<sup class="fnref">2</sup></p>
+
+    <div class="chatter gold">
+      <div class="lbl">The Chatter</div>
+      <p>The fun delta: Scoot has wrapped two aircraft — an A321neo and a 787 — in a <em>Spider-Man: Brand New Day</em> livery through 13 September (cross-ref Screen &amp; Sound, p12). More usefully for miles-watchers, Scoot's new KrisFlyer award chart starts economy redemptions from just 1,500 miles.<sup class="fnref">3</sup></p>
+      <p class="src">— SIA/Scoot newsroom (Jun–Jul)</p>
+    </div>
+
+    <div class="inbrief">
+      <h4>In brief · ex-Singapore</h4>
+      <p><b>New route</b> — Oman Air SIN–MCT, from 2 Jul.</p>
+      <p><b>Frequency</b> — SIA Manchester to daily (Jul); Hangzhou daily; Riyadh restored.</p>
+      <p><b>Points</b> — Scoot's revamped KrisFlyer award chart (from 1,500 miles).</p>
+      <p><b>Lounge</b> — SIA T3 ($50M) &amp; T2 ($45M) rebuilds; new A350 cabins rolling out.</p>
+      <p><b>Cabins</b> — all-new First &amp; Business debut on the A350 through 2026; A380 Suites stay flagship.</p>
+      <p><b>Corridor</b> — Gulf links recovering; Hormuz de-escalation holds for now.</p>
+    </div>
+    <div class="stat"><div class="n">$95M</div><div class="c">Combined SIA spend on the T2 + T3 SilverKris lounges</div></div>
+  </div>
+
+  <div class="lede-strip">
+    <span class="li"><b>SIN → Taipei</b> ~4h45</span>
+    <span class="li"><b>Carriers</b> SIA · Scoot · EVA · China Airlines</span>
+    <span class="li"><b>Scoot's Asian focus city</b> Taipei Taoyuan</span>
+  </div>
+  <div class="imgcap">The hand-off: Scoot's own Asian focus city is Taoyuan — the gateway to this weekend's Grand Tour, overleaf.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Singapore Airlines newsroom (4 Jul 2026). 2. SIA newsroom; Travel And Tour World (2026). 3. Scoot media centre (2026). Delta-only per the New-Peg Test.</div>
+    <div class="fnbar"><span>The Travel Desk</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 20 — TRAVEL DESK · DEPARTURES (2/2) — the landscape ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Travel Desk</span><span>Departures · continued</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="byline">The wider board · what's changed</div>
+  </div>
+
+  <div class="grid g-12-narrow" style="margin-top:2px">
+    <div class="inbrief">
+      <h4>Cabins &amp; hardware</h4>
+      <p>SIA's all-new First and Business seats are rolling out across the A350 through 2026; A380 Suites stay the flagship. The long ULR hops to Newark/JFK remain two-cabin until the new First arrives from 2027.</p>
+    </div>
+    <div class="inbrief">
+      <h4>The FX tailwind</h4>
+      <p>The yen sits near multi-decade lows (~¥160) and the Singdollar is soft against the greenback (~1.29) — read the Macro Desk (p15) for the currency picture before you book a big-ticket trip north.</p>
+    </div>
+    <div class="inbrief">
+      <h4>Regional adds</h4>
+      <p>Scoot's E190-E2s keep opening secondary Indonesia (Belitung, Pontianak); more Chiang Rai and Okinawa. The theme is thinner, more frequent regional links rather than headline long-haul.</p>
+    </div>
+    <div class="inbrief">
+      <h4>Entry &amp; tax · delta only</h4>
+      <p>Japan's ¥ departure tax and tax-free reform are already tracked (No. 34) — a one-line reminder, not a re-explainer. No material change to regional entry rules this week worth a booking decision.</p>
+    </div>
+    <div class="inbrief">
+      <h4>The T5 horizon</h4>
+      <p>Changi Terminal 5 broke ground in 2025 but opens only in the mid-2030s — which is precisely why SIA's lounge and cabin spend on the terminals it has now is the sensible read, not a stopgap.</p>
+    </div>
+    <div class="inbrief">
+      <h4>Points watch</h4>
+      <p>Beyond Scoot's lower award floor, KrisFlyer's dynamic pricing keeps sweet spots on short-haul Asia; Star Alliance partner space to North Asia remains the best-value redemption for a family of three.</p>
+    </div>
+  </div>
+
+  <p class="body" style="margin-top:6px">The weekend read on all of it: 2026 is a <em>consolidation</em> year for the Singapore flyer, not a revolution. The exciting frontiers — non-stop Christchurch, the European cluster, Western Sydney — load in the Northern-Winter timetable from late October, which is exactly when several of them start to matter (and, conveniently, when this weekend's destination is also at its best). For now, the smart move is a short-haul that rewards a spontaneous booking. Which brings us, overleaf, to a city most Singaporeans treat as a long weekend and could happily give a week.</p>
+
+  <div class="chatter">
+    <div class="lbl">Planning note</div>
+    <p>Changi's own attractions are worth arriving early for even without a boarding pass — Jewel's Rain Vortex and the T3 pop-ups run through the school holidays. If you're flying SIA or Scoot on points, note the T2/T3 lounge works mean temporary layout changes; check the app 48 hours out.</p>
+    <p class="src">— Meridian, from Changi/SIA advisories</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Deep Arrival SIA guide; Mainly Miles (T5); SIA/Scoot newsroom (2026). FX: Trading Economics (3 Jul). Continuity: Meridian No. 34 (Japan tax reform).</div>
+    <div class="fnbar"><span>The Travel Desk</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 21 — THE GRAND TOUR · TAIPEI (1/2) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Travel Desk</span><span>The Grand Tour</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker vermilion">The Grand Tour · Taipei, Taiwan</div>
+    <div class="hed">The Great City an Easy Hour Away</div>
+    <div class="dek">Under five hours from Changi, cheaper than almost anywhere comparable, and quietly one of Asia's best cities for food, cameras and hot springs. Most Singaporeans give Taipei a long weekend. It deserves a week.</div>
+  </div>
+  <div class="rule"></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Taipei%20Skyline%202022.06.29.jpg?width=1400" alt="Taipei skyline from Elephant Mountain" loading="lazy"><div class="ph-cap">Taipei from Elephant Mountain — the short, sweaty climb the piece recommends for the postcard shot. <i>Taipei Skyline 2022.06.29.jpg · Heeheemalu · CC BY-SA 2.0 · Wikimedia Commons</i></div></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">Taipei is the rare capital that over-delivers and under-charges. A world-class MRT knits together night markets, thousand-year temples, a mountain skyline and volcanic hot springs; a comfortable day runs roughly US$90–150, a fraction of Tokyo, Seoul or home.<sup class="fnref">1</sup> The most common planning mistake, the guides agree, is giving it too little time — a 48-hour stopover — or too much in the city when a couple of those days belong on day trips. Three days is the minimum to "get it"; five is the sweet spot.</p>
+    <p class="subhead">When to go — and it isn't now</p>
+    <p class="body tight">Be honest with yourself about the calendar: July and August are the wrong window. This is peak summer heat — 33–35°C and humid enough that locals compare it to standing in a rice cooker — and the heart of typhoon season, which peaks in August and can shut trails and flights.<sup class="fnref">2</sup> The city is famously typhoon-resilient (covered arcades, universal air-con, hot springs for a wet afternoon), so a summer trip is doable with buffer days — but the trip to <em>plan</em> is October to early December or March to April, when the humidity drops, the skies clear, and Taipei 101 finally emerges sharp against the mountains.<sup class="fnref">2</sup></p>
+
+    <div class="pull">Give it three days and you'll like it; give it five and you'll start plotting how to come back for a week.</div>
+
+    <p class="subhead">Getting there &amp; where to base</p>
+    <p class="body tight">SIA, Scoot (Taoyuan is its Asian focus city), EVA and China Airlines all fly it in ~4h45; land at Taoyuan (TPE, Airport MRT into town) or the downtown Songshan (TSA).<sup class="fnref">1</sup> For this reader, base in <b>Zhongshan</b> (Japanese-era alleys, chic cafés, department stores) or leafy, foodie <b>Da'an</b> (Yongkang Street on your doorstep); <b>Ximending</b> for youthful buzz and proximity to the old city; <b>Taipei Main Station</b> if day trips are the priority.<sup class="fnref">3</sup></p>
+
+    <p class="subhead">Getting around</p>
+    <p class="body tight">Buy an <b>EasyCard</b> at any MRT station and stop thinking about it: it taps you onto the metro, buses, the Maokong gondola, most convenience stores and even some taxis. The MRT is clean, cheap, punctual and blessedly air-conditioned — the single best reason a summer trip is survivable. English signage is thorough; Google Maps handles the buses. Budget roughly NT$500 (~US$16) a day of stored value for a couple who ride a lot, more if you're day-tripping to the coast.<sup class="fnref">1</sup></p>
+
+    <div class="lede-strip">
+      <span class="li"><b>3 days</b> to like it</span>
+      <span class="li"><b>5 days</b> the sweet spot</span>
+      <span class="li"><b>US$90–150</b> a comfortable day</span>
+      <span class="li"><b>Oct–Dec</b> the window to book</span>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Taipei Tourism Guide; JustaiwanTour (2026). 2. Traveloka; Taiwan Obsessed; Hotels.com weather (2026). 3. Taiwan Obsessed; Traveloka neighbourhoods (2026). Fares/dates verified; forum sentiment flagged as such.</div>
+    <div class="fnbar"><span>The Travel Desk</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 22 — THE GRAND TOUR · TAIPEI (2/2) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Travel Desk</span><span>The Grand Tour · continued</span></div>
+
+  <div class="grid g-21" style="margin-top:3mm;gap:8mm">
+    <div>
+      <div class="subhead">The experiences that earn the trip</div>
+      <p class="body tight">The set-pieces are real: Taipei 101 and the short, sweaty hike up <b>Elephant Mountain</b> for the postcard skyline; the incense hush of <b>Longshan Temple</b>; the National Palace Museum's imperial hoard; the <b>Maokong</b> gondola up to the tea plantations. But Taipei rewards the specialist. For a camera person, the pilgrimage is <b>Boai Road</b> — the old camera street near Beimen, thick with new and vintage gear and film-era service shops — plus Guang Hua for electronics.<sup class="fnref">1</sup> For a hot-springs soak, <b>Beitou</b> is a short MRT ride to volcanic waters and a Japanese-colonial bathhouse legacy. And the food is the quiet headline: beef noodle soup, the xiao-long-bao that Din Tai Fung took global, and the best per-dollar night-market eating in Asia at Ningxia, Raohe or Keelung's Miaokou (40 minutes by train).</p>
+
+      <div class="subhead">Day trips &amp; family logistics</div>
+      <p class="body tight">The classic loop is <b>Jiufen</b> — the lantern-lit mountain village — usually paired with <b>Shifen</b>'s sky lanterns and waterfall, and <b>Yehliu</b>'s wind-carved rock. It's very doable with an eleven-year-old; the MRT, convenience stores and safe streets make Taipei one of Asia's easiest cities to travel with kids. Carry cash — about NT$1,000 (~US$32) a day — for night markets, small restaurants and older taxis.<sup class="fnref">2</sup></p>
+
+      <div class="chatter">
+        <div class="lbl">What the forums actually say</div>
+        <p><b>Jiufen is packed</b> — "absolutely packed every day," regulars warn; go around 10am as shops open or ~6pm when the lanterns light and the crowds thin, not midday. The famous village is worth it, but not on autopilot.</p>
+        <p><b>Don't over-city it</b> — the recurring r/travel gripe is people spending a full week in Taipei proper when two of those days belong in Tainan, Taroko or the hot springs.</p>
+        <p><b>Camera street, with a caveat</b> — Boai's repair shops are a delight and a lottery; one TripAdvisor reviewer had a Leica IIIc mirror "fixed" with a smear of super-glue. Vet the shop; the good ones are very good.</p>
+        <p><b>Book the dumplings, arrive early</b> — the original Din Tai Fung on Xinyi Road runs long waits by mid-morning; regulars take a number, wander, and come back. Same logic for Beitou's public hot springs on a weekend.</p>
+        <p class="src">— r/travel, r/JapanTravel-style threads; TripAdvisor Camera Street; Taiwan Obsessed (2026)</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 190 150" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="190" height="150" fill="#fbf8f1"/>
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" letter-spacing="1">TAIPEI · THE SHAPE OF IT</text>
+          <!-- river -->
+          <path d="M10,120 C 60,100 120,110 180,80" stroke="#2b6b66" stroke-width="2" fill="none" opacity="0.5"/>
+          <!-- markers -->
+          <circle cx="120" cy="95" r="3" fill="#c1462e"/><text x="126" y="98" font-family="Poppins,sans-serif" font-size="6.4" fill="#403a32">Taipei 101 / Xinyi</text>
+          <circle cx="128" cy="106" r="2.4" fill="#b08738"/><text x="133" y="116" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">Elephant Mtn</text>
+          <circle cx="70" cy="70" r="3" fill="#2f4858"/><text x="76" y="73" font-family="Poppins,sans-serif" font-size="6.4" fill="#403a32">Zhongshan / Da'an</text>
+          <circle cx="50" cy="95" r="2.6" fill="#403a32"/><text x="18" y="98" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264" text-anchor="end">Ximen / Boai</text>
+          <circle cx="60" cy="30" r="3" fill="#c1462e"/><text x="66" y="33" font-family="Poppins,sans-serif" font-size="6.4" fill="#403a32">Beitou hot springs</text>
+          <path d="M50,95 L60,30" stroke="#d8cfbd" stroke-width="0.8" stroke-dasharray="2 2"/>
+          <text x="150" y="140" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264" text-anchor="end">Meridian original · schematic, not to scale</text>
+        </svg>
+        <div class="imgcap">Base south of the river; the hot springs and the mountain are both a short MRT hop.</div>
+      </div>
+      <div class="stat"><div class="n">~US$32</div><div class="c">Cash to carry per day (night markets)</div></div>
+      <div class="stat"><div class="n">~4h45</div><div class="c">Changi → Taipei · short-haul, high value</div></div>
+      <div class="hairline"></div>
+      <div class="inbrief">
+        <h4>The honest verdict</h4>
+        <p><b>Go in autumn.</b> Skip the July heat/typhoon window unless you're flexible.</p>
+        <p><b>Five days.</b> Three in the city, two on day trips.</p>
+        <p><b>Best value in Asia</b> for food and cameras — and a genuinely easy trip with a kid.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Taiwan Obsessed; TripAdvisor "Camera Street," Zhongzheng (2026). 2. JustaiwanTour; Taipei Tourism Guide (2026). Forum sentiment summarised in Meridian's words and flagged as chatter; hard claims verified.</div>
+    <div class="fnbar"><span>The Travel Desk</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 23 — THE DIARY (1/2) — SG + The Table ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>What's Worth Booking</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker">The Diary · Singapore</div>
+    <div class="hed sm">The Dated Agenda</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="grid g-12-narrow" style="margin-top:7px">
+    <div>
+      <div class="agenda-h">Singapore <span class="sub">Jul–Aug 2026</span></div>
+      <div class="evt">
+        <div class="evt-date star">09<span class="mo">AUG</span></div>
+        <div><div class="evt-name">National Day Parade 2026 <span class="st">★</span></div><div class="evt-meta">National Stadium · SG61 · ballot · family</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">11·18<span class="mo">JUL</span></div>
+        <div><div class="evt-name">NDP NE Shows &amp; Previews</div><div class="evt-meta">+ previews 25 Jul, 1 Aug · free fireworks most Sats</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">12<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Peanuts Summer Sports @ Changi T3</div><div class="evt-meta">Last days · no boarding pass needed · family</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">NOW<span class="mo">ON</span></div>
+        <div><div class="evt-name">"Hundred Acre Wood" @ Gardens by the Bay</div><div class="evt-meta">Winnie-the-Pooh floral display · school-holiday · family</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">17<span class="mo">OCT</span></div>
+        <div><div class="evt-name">BIGBANG — 20th-anniversary tour</div><div class="evt-meta">National Stadium · SG on-sale still pending</div></div>
+      </div>
+      <div class="chatter" style="margin-top:8px">
+        <div class="lbl">Planning notes</div>
+        <p>NDP 2026 is new in three ways: an indoor <b>300-drone show</b>, the Presidential Gun Salute at Kallang Basin, and — for safety — no Red Lions or mobile column this year. Tickets are free but balloted; if you miss out, the rehearsal Saturdays offer full fireworks from the free viewing spots.</p>
+        <p class="src">— NDP 2026 organisers; Sassy Mama; Urban List (Jul)</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="agenda-h gold">The Table <span class="sub">SG's newest tables</span></div>
+      <p class="body tight" style="margin-bottom:5px">This month's openings lean hype and pedigree — with the usual honesty rule: the biggest name isn't reviewed yet.</p>
+      <div class="evt">
+        <div class="evt-date">MID<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Tiffany &amp; Co. Blue Box Cafe</div><div class="evt-meta">ION Orchard · menu by Julien Royer (Odette) · not halal</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">NOW<span class="mo">OPEN</span></div>
+        <div><div class="evt-name">Behind Clay</div><div class="evt-meta">Clarke Quay · secret lounge · Sorrentino × Yip</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">NOW<span class="mo">OPEN</span></div>
+        <div><div class="evt-name">Sam Sam Sam</div><div class="evt-meta">Novena · samgyetang · "1980s herbal-shop" concept · fr $25</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">03<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Food Republic reopens @ Jewel</div><div class="evt-meta">14 stalls · 4 Michelin Bib Gourmand · value pick</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">NEW</div>
+        <div><div class="evt-name">Sukiyaki Jin</div><div class="evt-meta">SG's first A5-wagyu tomato sukiyaki · date-night splurge</div></div>
+      </div>
+      <div class="chatter gold">
+        <div class="lbl">The buzz / the verdict</div>
+        <p><b>Tiffany's Blue Box Cafe</b> is "easily one of the most anticipated openings of the year," and the Odette pedigree is real — but it's not reviewed yet, so: too new to call. Book the reservation drop.</p>
+        <p><b>Now reviewed:</b> <b>Milli</b> (National Gallery, No. 34's "early days" pick) has its fuller notices in — a forward-looking Singaporean menu from LG Han × Vijay Mudaliar, lunch from $38 — New-Peg satisfied.</p>
+        <p class="src">— Eatbook; FZINE; Time Out; The Ranting Panda (Jul)</p>
+      </div>
+      <div style="margin-top:4px">
+        <span class="tag v">Hyped</span><span class="tag">Not halal</span><span class="tag g">Now reviewed</span><span class="tag s">Value</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;NDP: Sassy Mama; Urban List (Jul 2026). The Table: Eatbook, FZINE, Time Out, HungryGoWhere, The Ranting Panda (Jul). Buzz summarised in our words; "too new to call" flagged honestly.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 24 — THE DIARY (2/2) — Japan / region ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>Plan the Flights</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker gold">The Diary · Japan &amp; the region</div>
+    <div class="hed sm">Summer of Matsuri</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="grid g-12-narrow" style="margin-top:7px">
+    <div>
+      <div class="agenda-h slate">Japan <span class="sub">the festival season</span></div>
+      <div class="evt">
+        <div class="evt-date rng">17·24<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Gion Matsuri, Kyoto <span class="st">★</span></div><div class="evt-meta">Yamaboko float processions · Yoiyama stands (paid, book ahead)</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">25<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Sumida River Fireworks, Tokyo <span class="st">★</span></div><div class="evt-meta">~20,000 fireworks · ~1M people · arrive very early</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">24·25<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Tenjin Matsuri, Osaka</div><div class="evt-meta">Boat procession + fireworks on the Okawa</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">24·26<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Fuji Rock, Naeba</div><div class="evt-meta">+ Mt Fuji climbing season now open</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">JUL</div>
+        <div><div class="evt-name">Grand Sumo, Nagoya (Basho)</div><div class="evt-meta">The July tournament · new IG Arena venue</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">02·07<span class="mo">AUG</span></div>
+        <div><div class="evt-name">Nebuta, Aomori · Kanto, Akita</div><div class="evt-meta">Giant illuminated floats · plan the Tohoku loop now</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">06·08<span class="mo">AUG</span></div>
+        <div><div class="evt-name">Tanabata, Sendai</div><div class="evt-meta">Streamers by the thousand · the third of the Tohoku "big three"</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">12·15<span class="mo">AUG</span></div>
+        <div><div class="evt-name">Awa Odori, Tokushima</div><div class="evt-meta">Japan's largest dance festival · books out months ahead</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="agenda-h">The wider region <span class="sub">worth the flight</span></div>
+      <div class="evt">
+        <div class="evt-date rng">24·02<span class="mo">JUL</span></div>
+        <div><div class="evt-name">Boryeong Mud Festival, Korea</div><div class="evt-meta">Late Jul into Aug · gloriously silly · very family-friendly</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">13·16<span class="mo">AUG</span></div>
+        <div><div class="evt-name">Obon, nationwide (Japan)</div><div class="evt-meta">Bon-odori everywhere · but transport surges — plan around it</div></div>
+      </div>
+      <div class="evt">
+        <div class="evt-date">10<span class="mo">OCT</span></div>
+        <div><div class="evt-name">Double Ten Day, Taipei</div><div class="evt-meta">The autumn window this weekend's Grand Tour recommends</div></div>
+      </div>
+
+      <div class="chatter slate">
+        <div class="lbl">Planning notes</div>
+        <p><b>Book the seats early.</b> Most matsuri are free to attend, but the paid viewing stands — Gion's Yoiyama, Sumida's box seats — typically go on sale one to two months ahead.</p>
+        <p><b>Book the beds earlier.</b> Hotels in smaller festival cities (Aomori, Tokushima) sell out months in advance.</p>
+        <p><b>Mind the heat.</b> Japanese summers routinely clear 35°C; the fireworks are glorious, the queues less so. This is where the Grand Tour's "go in autumn" logic (p21) applies to Taipei too.</p>
+        <p class="src">— japan-guide; Fest in Japan; JapanNook (2026)</p>
+      </div>
+      <div class="inbrief">
+        <h4>Hand-off from the Travel Desk</h4>
+        <p>The Travel Desk set the landscape and the destination; the Diary carries the dates. If you took the Taipei deep-dive to heart, the bookable window is <b>October–December</b> — pencil it now.</p>
+      </div>
+      <div class="stat"><div class="n">1–2 mo</div><div class="c">How far ahead paid festival stands typically sell</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;japan-guide.com event calendar; Fest in Japan; JapanNook; Visit Korea (2026). Dates follow published committee schedules; verify current-year details before booking.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 24</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 25 — THE LONG READ (1/3) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Long Read</span></div>
+
+  <div style="margin-top:2mm">
+    <div class="kicker gold">The Long Read · An essay</div>
+    <div class="hed" style="font-size:30pt">The Long Way Home</div>
+    <div class="dek">Nolan drags Homer's oldest story into an IMAX; a comet older than the Sun turns for the exit; a culture quietly turns back toward the real. This week, everything was about coming home — and the surprise is that home was never a place.</div>
+  </div>
+  <div class="rule"></div>
+
+  <div class="cols2" style="margin-top:8px">
+    <p class="body dropcap">The oldest story we still tell is about a man trying to get home. Not to conquer, not to discover — to <em>return</em>. The <em>Odyssey</em> spends twenty-four books and ten years getting one middle-aged veteran back to a small, rocky island and a wife who has been holding it together without him. That Christopher Nolan — the most technically maximalist filmmaker alive — has chosen this, of all epics, to render in 70-millimetre IMAX, and that people are paying scalpers the price of a flight to see it, tells you the appetite is not for spectacle alone.<sup class="fnref">1</sup> It is for the shape of the thing. Departure, trial, and the long way back.</p>
+
+    <p class="body">The Greeks had a word for it: <em>nostos</em>, the homecoming — the root that, twenty-six centuries later, a homesick Swiss medical student named Johannes Hofer would splice with <em>algos</em>, pain, to coin "nostalgia" in his 1688 Basel dissertation.<sup class="fnref">2</sup> Hofer was describing a real and sometimes fatal affliction among Swiss mercenaries far from their valleys; a particular herding tune, the <em>Kuhreihen</em>, was said to be banned in the ranks lest it kill the men with longing.<sup class="fnref">2</sup> Homesickness as a diagnosable disease. We have softened the word into a fondness for old songs, but its origin is severe: the pull of home was once strong enough to be lethal.</p>
+
+    <div class="pull">The oldest story we still tell is not about conquest or discovery. It is about a middle-aged man trying, for ten years, to get back to a small rocky island.</div>
+
+    <p class="body">You can feel that same pull, gentler and un-lethal, running under this whole edition. It surfaces as a cultural turn <em>toward</em> the real — the thing you can touch, own, and be present for. In the Family Desk (p13), parents are reaching for analog childhoods: board games, bikes, a bored afternoon with no screen in it. In Love &amp; Life (p17), the quiet crisis of midlife turns out to be not romance but the slow evaporation of friendship, and the cure is a homecoming to the standing table. In the Connected Home (p10) and The Kit (p9), the instinct is sovereignty: a house that runs on your own hardware, a tracker whose data you actually own. Even the market (p15) came home this week — the money rotating out of the speculative and back toward the broad, dull, durable economy.</p>
+
+    <p class="body tight">Four different desks, one gesture: a turning-back. The question worth an essay is <em>why now</em> — and what, exactly, we think we are returning to.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Variety; Screendollars, on <i>The Odyssey</i> presales (2026). 2. J. Hofer, "Dissertatio Medica de Nostalgia" (Basel, 1688); standard histories of medicine.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 25</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 26 — THE LONG READ (2/3) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Long Read · continued</span></div>
+
+  <div class="grid g-21" style="margin-top:3mm;gap:8mm">
+    <div>
+      <p class="body">Here is the twist Homer buries in the middle of the poem, and it is the whole argument. Odysseus does reach Ithaca. He wins the hall back, he passes the test of the marriage bed — the one carved into a living olive tree, rooted and immovable, a home that cannot be faked or moved.<sup class="fnref">1</sup> And then, in the underworld, the prophet Tiresias has already told him the catch: reaching home is not the end. He must set out <em>again</em>, carrying an oar inland until he meets people so far from the sea they mistake it for a winnowing-fan.<sup class="fnref">1</sup> The homecoming is not a finish line. It is a turn in a longer road.</p>
+
+      <p class="body">And what was Penelope doing all those years? Weaving. Every day she worked at a shroud on the loom, and every night she unravelled what she had woven, to hold off the suitors — buying time by refusing to finish.<sup class="fnref">1</sup> It is the most quietly radical image in the poem. Home is not the completed cloth. Home is the <em>daily act of weaving and re-weaving</em> — the thing you do again each morning precisely because it is never done.</p>
+
+      <div class="pull">Home is not the finished cloth. It is Penelope's loom — woven each day and unravelled each night, a thing that only exists in the doing.</div>
+
+      <p class="body">This reframes everything the issue is reaching for. The analog afternoon is not a state you achieve; it is a default you choose again on Tuesday, and again the Tuesday after. The lost friendship does not come back because you resolved, once, to be a better friend; it comes back through the recurring dinner, the same day each month, the low-effort <em>system</em> that beats willpower (p17). The local-first home is not a project you complete; it is a house you keep, patch and understand. Even the index fund the reader holds — the boring global tracker at the centre of the Macro Desk — is homecoming as practice: you feed it on the days nothing happens, and the compounding is entirely in the repetition. None of these is an arrival. All of them are looms.</p>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 180 165" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="180" height="165" fill="#fbf8f1"/>
+          <text x="8" y="14" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" letter-spacing="1">TWO JOURNEYS</text>
+          <!-- the loop: nostos, returns -->
+          <path d="M40,120 C 0,60 120,40 90,95 C 78,118 55,118 60,100" fill="none" stroke="#c1462e" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="40" cy="120" r="3" fill="#b08738"/>
+          <text x="16" y="140" font-family="Poppins,sans-serif" font-size="6.6" fill="#403a32">nostos — the road that returns</text>
+          <!-- the open curve: the comet, never returns -->
+          <path d="M30,150 C 90,140 130,90 168,20" fill="none" stroke="#2f4858" stroke-width="1.6" stroke-dasharray="3 3"/>
+          <circle cx="168" cy="20" r="2.6" fill="#2f4858"/>
+          <text x="60" y="160" font-family="Poppins,sans-serif" font-size="6.6" fill="#403a32">the comet — the road that doesn't</text>
+        </svg>
+        <div class="imgcap">Meridian original · the closed loop of homecoming against the open curve of a one-way pass.</div>
+      </div>
+      <div class="chatter gold">
+        <div class="lbl">The threads</div>
+        <p><b>The Odyssey</b> (p12) — homecoming as the human template.</p>
+        <p><b>Analog &amp; friendship</b> (p13, p17) — coming home to the real.</p>
+        <p><b>Local-first &amp; owned data</b> (p9, p10) — coming home to your own tools.</p>
+        <p><b>The market's rotation</b> (p15) — coming home to fundamentals.</p>
+        <p><b>3I/ATLAS &amp; a coffin to Mashhad</b> (p16, p3) — the roads that don't return.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Homer, <i>Odyssey</i>, Books II (Penelope's loom), XI (Tiresias's prophecy), XXIII (the rooted bed); standard translations. Historical/textual claims verified; interpretation is the author's.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 26</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 27 — THE LONG READ (3/3) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Long Read · continued</span></div>
+
+  <div class="cols2" style="margin-top:3mm">
+    <p class="body">Which is why the counter-image matters so much. In Curiosities (p16), the interstellar comet 3I/ATLAS — older than the Sun, born in the deep cold of another star system — swings once past our Sun and leaves for good, on an orbit that never closes.<sup class="fnref">1</sup> It is the anti-Odysseus: a traveller with no nostos, no Ithaca, no loom. We got one year to say hello and it is already gone forever. And in the harder register of The World (p3), a coffin is being carried the long way to Mashhad — homecoming in its oldest and most final sense, the body returned to the birthplace, the one journey every one of us makes exactly once.<sup class="fnref">2</sup></p>
+
+    <p class="body">Set the closed loop against the open curve and the value of the return becomes obvious. The one-way roads — the comet's, the mortal's — are what make the round trips precious. A homecoming is not guaranteed by the physics; most of the universe is the comet's story, not Penelope's. Which is exactly why the daily weaving is not sentimental housekeeping but a kind of defiance: the deliberate construction of a loop in a cosmos that mostly runs one way.</p>
+
+    <div class="pull">The one-way roads are what make the round trips precious. Home is a loop you build by hand, against a universe that mostly runs one way.</div>
+
+    <p class="body">So why now? Perhaps because the last few years taught us the opposite lesson — that everything could be outsourced, streamed, optimised and held in a cloud we don't own, and that the frictionless life is also a strangely homeless one. The turn this week is a correction: back to the touchable afternoon, the friend you actually see, the tools you actually control, the fundamentals a portfolio actually rests on. It rhymes with older corrections — the "return to normalcy" an exhausted America voted for in 1920 after its own long war.<sup class="fnref">3</sup> Every era eventually walks its oar inland and comes home.</p>
+
+    <p class="body">You could see the smaller version of it play out on a trading screen this week. For two years the market's story was a handful of enormous names and a single, thrilling idea; this week the money finally rotated back toward the broad, unglamorous economy — the equal-weight index and the small-caps making records while the megacaps caught their breath (p15). Call it a homecoming to fundamentals: mean reversion is just nostos with a ticker. The boring anchor at the centre of a sensible portfolio was, all along, the loom you kept feeding on the days nothing happened.</p>
+
+    <p class="body">The reader who keeps this magazine will notice the callbacks: the "small self" that awe produces (No. 33), the way big changes arrive gradually and then suddenly (No. 34). This is their sequel. If awe is the antidote to a self-magnifying feed, and if change has two speeds, then <em>nostos</em> is the discipline that survives both — the practice of returning, on the ordinary days, to the few things that are actually yours.</p>
+
+    <p class="body tight">Bashō, setting out in 1694 on a walk he did not expect to survive, got there first and said it plainest: the journey itself is home.<sup class="fnref">4</sup> Not the hut he left. Not the shrine he was walking toward. The daily act of going — and, wherever he stopped, of making it home for the night. Odysseus finally understood the same thing, oar over his shoulder, walking away from Ithaca to secure it. Home was never the island. It was the weaving. Do it again tomorrow.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. NASA; <i>Nature Astronomy</i> (2026). 2. Reuters/AP, Mashhad burial (Jul 2026). 3. W. G. Harding, "return to normalcy" (1920). 4. Bashō, <i>Oku no Hosomichi</i> (1694). Callbacks: Meridian No. 33–34.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 27</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 28 — BACK COVER ============ -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 35 · Singapore</span></div>
+
+  <div style="position:absolute;top:32mm;left:16mm;right:16mm">
+    <div class="kicker gold" style="color:var(--gold)">The Last Word</div>
+    <div style="font-family:'Lora',serif;font-weight:700;font-size:24pt;line-height:1.1;color:var(--paper);margin:6px 0 10px">The Oar Over the Shoulder</div>
+    <p style="font-family:'Lora',serif;font-size:11pt;line-height:1.5;color:var(--blush);margin-bottom:9px">A traveller from another star passed through this week and left for good; a filmmaker spent a fortune to remind us that the hardest voyage in literature is the one <em>back</em>. Between the comet and the coffin, the homecoming and the loom, one small instruction survives: on the ordinary day, when nothing happens, return to the few things that are actually yours — the friend, the afternoon, the home you can hold. That is not nostalgia. That is the work.</p>
+    <div class="hairline"></div>
+    <p style="font-family:'Poppins',sans-serif;font-size:7.4pt;letter-spacing:.02em;line-height:1.55;color:var(--muted);margin-top:8px">
+      <b style="color:var(--blush);letter-spacing:.14em">CONSOLIDATED SOURCES —</b>
+      The World: PBS, AP, Reuters, CNN, CBS, NPR. Singapore: Trading Economics, PMO SG. Property: URA, CBRE, ERA, 99.co. Technology: FT via CNBC/Bloomberg, SiliconANGLE, Tom's Hardware, MLQ. The Kit: TechRadar, Gadgetflow, T3, BGR. Connected Home: Home Assistant, Matter Alpha, XDA. Good Life: Gear Patrol, Oracle Time. Screen &amp; Sound: Variety, Screendollars, Billboard. Family: TheEveryMom, Scary Mommy, PMC, Child Mind Institute. Macro: T. Rowe Price, Schwab, TheStreet, Trading Economics, Investing.com. Curiosities: NASA, <i>Nature Astronomy</i>, Sky &amp; Telescope, Space.com. Love &amp; Life: Survey Center on American Life, US Surgeon General, Harvard SAD. Fitness: <i>Sports Medicine</i>, <i>BJSM</i>. Travel: SIA/Scoot newsroom, Taipei Tourism Guide, Taiwan Obsessed, TripAdvisor. Diary: NDP organisers, Eatbook, Time Out, japan-guide, Fest in Japan. The Long Read: Homer, Hofer (1688), Bashō (1694).
+    </p>
+  </div>
+
+  <div style="position:absolute;bottom:30mm;left:16mm;right:16mm;text-align:center">
+    <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:34pt;letter-spacing:-.02em;color:var(--paper)">MERIDIAN</div>
+    <div style="width:44mm;height:2pt;background:var(--gold);margin:8px auto"></div>
+    <div style="font-family:'Lora',serif;font-style:italic;font-size:11pt;color:var(--blush)">Twelve desks. One world.</div>
+  </div>
+
+  <div class="cover-foot">
+    <span>No. 35 · Sunday 5 July 2026</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</section>
+
+</body>
+</html>

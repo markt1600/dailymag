@@ -32,8 +32,11 @@ git add index.html meridian-latest.pdf meridian-brand-prompt.md state/ && git co
 | `qa.py` | **Full-book QA gate.** Measures each page's real content overflow **in the DOM** (not pixel heuristics) so it catches content colliding with the absolutely-positioned footer — the failure the old trailing-white detector was blind to. Hard-fails a real collision (blocks the build); flags *tight* (<4mm clear) and *underfill* as advisories. Also writes 6-up contact sheets for the mandatory eyeball pass. |
 | `validate.py` | Pre-flight lint: per-page footnote numbering is a gapless 1..k with matching sources; cross-references (`p15`) point to pages that exist. |
 | `make_photo_edition.py` | Derives `index.html` (the Photo Edition). Inlines CSS + fonts; adds the sticky desk-nav, reading-progress bar, Paper/Night reading toggle, auto-linked in-issue cross-references, responsive page scaling, honest sign-based market arrows, and verified photo heroes from `state/images.json`. All screen-only; print untouched. |
-| `extract_state.py` | Parses the brand-prompt ledger tables into `state/*.json` (issue log w/ next-number + used-quotes, coverage subjects, destinations) for fast, reliable dedup. |
-| `build.sh` | Runs validate → render → QA → photo-edition in order. |
+| `extract_state.py` | Parses the brand-prompt ledger tables into `state/*.json` (issue log w/ next-number + used-quotes + full notes, coverage subjects, destinations) for fast, reliable dedup and for the archive search index. |
+| `archive.py` | Snapshots the **outgoing** root `index.html` + PDF into `archive/no-<prev>/` before a new issue overwrites root. Run at the start of a build. |
+| `build_manifest.py` | Builds `archive/manifest.json` from the issue log + the recovered files — the searchable index (metadata + full-text) the Photo Edition's Archive menu embeds. |
+| `backfill_archive.py` | One-time (re-runnable) recovery of past Photo Editions from git history into `archive/no-NN/`. |
+| `build.sh` | Runs validate → render → QA → manifest → photo-edition in order. |
 
 ## `state/`
 

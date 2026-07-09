@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+</style>
+<style>
+/* ---- Issue-local styling (No. 19) ---- */
+.rhrule{position:absolute;top:12mm;left:16mm;right:16mm;height:2.5pt;background:var(--ink);}
+.contents-list{list-style:none;}
+.contents-list li{display:flex;justify-content:space-between;align-items:baseline;border-bottom:.5pt solid var(--line);padding:5.5px 0;break-inside:avoid;}
+.contents-list .nm{font-family:'Lora',serif;font-weight:700;font-size:11pt;color:var(--ink);}
+.contents-list .sub{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-left:8px;}
+.contents-list .pg{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;color:var(--vermilion);}
+.fromdesk{background:var(--ink);color:var(--paper);padding:13px 15px;border-radius:3px;border-top:3pt solid var(--gold);}
+.fromdesk .q{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:13pt;line-height:1.3;color:var(--paper);}
+.fromdesk .a{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-top:6px;}
+.fromdesk p{font-size:8.6pt;line-height:1.45;color:var(--blush);margin-top:8px;}
+.mkt{display:flex;gap:0;border:.6pt solid var(--line);border-radius:3px;overflow:hidden;margin-top:7px;}
+.mkt div{flex:1;padding:6px 4px;text-align:center;border-right:.5pt solid var(--line);}
+.mkt div:last-child{border-right:none;}
+.mkt .v{font-family:'Poppins',sans-serif;font-weight:700;font-size:11pt;color:var(--ink);line-height:1;}
+.mkt .v.up{color:var(--vermilion);} .mkt .v.dn{color:var(--teal);}
+.mkt .l{font-family:'Poppins',sans-serif;font-size:5.6pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+.minihed{font-family:'Poppins',sans-serif;font-weight:700;font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);border-bottom:1.5pt solid var(--gold);padding-bottom:3px;margin:4px 0 6px;}
+.shelf{background:var(--paper2);border:.6pt solid var(--line);border-radius:2px;padding:8px 10px;break-inside:avoid;margin:7px 0;}
+.shelf .h{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.18em;text-transform:uppercase;color:var(--slate);margin-bottom:4px;}
+.shelf p{font-size:8pt;line-height:1.4;color:var(--ink2);margin-bottom:3px;}
+.shelf p:last-child{margin-bottom:0;}
+.shelf b{color:var(--ink);}
+.byline{font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+.figcap-note{font-family:'Poppins',sans-serif;font-size:6.5pt;color:var(--muted);font-style:italic;}
+.evt-body{font-family:'Lora',serif;font-size:8.6pt;line-height:1.34;color:var(--ink2);}
+.evt-body b{color:var(--ink);}
+.tbl-row{display:flex;gap:9px;align-items:flex-start;padding:7px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.tbl-row:last-child{border-bottom:none;}
+.tbl-num{flex:0 0 20px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13pt;color:var(--vermilion);line-height:1;}
+.tbl-main .nm{font-family:'Lora',serif;font-weight:700;font-size:10.5pt;color:var(--ink);}
+.tbl-main .meta{font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:2px 0 4px;}
+.tbl-main p{font-family:'Lora',serif;font-size:8.4pt;line-height:1.34;color:var(--ink2);margin-bottom:3px;}
+
+/* ---- Photo Edition flow overrides ---- */
+.page{height:auto;min-height:297mm;overflow:visible;}
+.page.dark{height:297mm;min-height:297mm;overflow:hidden;}  /* keep cover/back fixed canvas */
+.pgfoot{position:static;margin-top:14px;}
+.rhrule{position:absolute;}
+.ph-frame{width:100%;aspect-ratio:16/8;overflow:hidden;border-radius:3px;margin:4px 0 2px;background:var(--paper2);border:.6pt solid var(--line);}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.ph-cap{font-family:'Poppins',sans-serif;font-size:6.4pt;line-height:1.35;color:var(--muted);margin:3px 0 6px;font-style:italic;}
+.ph-cap b{font-style:normal;color:var(--ink2);}
+
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 — COVER ============ -->
+<div class="page dark">
+  <div class="topbar"><span></span><span>No. 19 · Singapore</span></div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+  </div>
+
+  <!-- Cover hero: wireframe globe + energy arcs + flame core -->
+  <div style="position:absolute;top:78mm;left:0;right:0;display:flex;justify-content:center;">
+  <svg width="150mm" height="118mm" viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="core" cx="50%" cy="54%" r="50%">
+        <stop offset="0%" stop-color="#e2693f"/>
+        <stop offset="45%" stop-color="#c1462e"/>
+        <stop offset="100%" stop-color="#9c3422" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stop-color="#b08738"/>
+        <stop offset="60%" stop-color="#c1462e"/>
+        <stop offset="100%" stop-color="#e8dccb"/>
+      </linearGradient>
+    </defs>
+    <!-- radiating energy arcs -->
+    <g stroke="#b08738" stroke-width="0.9" fill="none" opacity="0.55">
+      <ellipse cx="300" cy="235" rx="250" ry="250"/>
+      <ellipse cx="300" cy="235" rx="250" ry="90"/>
+      <ellipse cx="300" cy="235" rx="250" ry="160"/>
+      <ellipse cx="300" cy="235" rx="120" ry="250"/>
+      <ellipse cx="300" cy="235" rx="200" ry="250"/>
+    </g>
+    <!-- globe meridians -->
+    <g stroke="#3a342c" stroke-width="1" fill="none">
+      <circle cx="300" cy="235" r="250"/>
+    </g>
+    <g stroke="#5a5040" stroke-width="0.8" fill="none" opacity="0.8">
+      <line x1="50" y1="235" x2="550" y2="235"/>
+    </g>
+    <!-- connection nodes -->
+    <g fill="#b08738">
+      <circle cx="120" cy="150" r="3.2"/><circle cx="470" cy="170" r="3.2"/>
+      <circle cx="180" cy="360" r="3.2"/><circle cx="430" cy="345" r="3.2"/>
+      <circle cx="300" cy="60" r="3.2"/><circle cx="300" cy="410" r="3.2"/>
+    </g>
+    <g stroke="#c1462e" stroke-width="1.1" fill="none" opacity="0.85">
+      <path d="M120 150 Q260 90 300 60"/>
+      <path d="M470 170 Q360 110 300 60"/>
+      <path d="M180 360 Q230 300 300 235"/>
+      <path d="M430 345 Q360 300 300 235"/>
+    </g>
+    <!-- flame core -->
+    <circle cx="300" cy="250" r="120" fill="url(#core)"/>
+    <path d="M300 150 C330 200 350 215 340 255 C335 280 312 292 300 320 C288 292 265 280 260 255 C250 215 270 200 300 150 Z" fill="url(#flame)" opacity="0.95"/>
+    <path d="M300 195 C315 222 322 235 316 258 C312 274 305 282 300 298 C295 282 288 274 284 258 C278 235 285 222 300 195 Z" fill="#f6f2e9" opacity="0.85"/>
+  </svg>
+  </div>
+
+  <div class="cover-teasers">
+    <div style="font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);">Thursday · 11 June 2026</div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:var(--vermilion);">The World</div>
+        <div class="ht">A truce that won't hold, and the bill arrives: US inflation tops 4%</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">Technology</div>
+        <div class="ht">The other AI bill — when the data centre meets your power grid</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--blush);">The Long Read</div>
+        <div class="ht">The price of fire: energy as the currency under every price</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Twelve Desks · One World</span>
+    <span>An independent briefing</span>
+  </div>
+</div>
+
+<!-- ============ PAGE 2 — CONTENTS + FROM THE DESK ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Contents</span><span>The Order of the Day</span></div>
+  <div class="rhrule"></div>
+
+  <div class="grid g-21" style="margin-top:6mm;">
+    <div>
+      <div class="kicker">In This Edition</div>
+      <div class="hed sm" style="margin-bottom:8px;">No. 19 · The Weekday Briefing</div>
+      <ul class="contents-list">
+        <li><span><span class="nm">The World</span><span class="sub">The Meridian Dispatch</span></span><span class="pg">03</span></li>
+        <li><span><span class="nm">Singapore</span><span class="sub">The Little Red Dot</span></span><span class="pg">05</span></li>
+        <li><span><span class="nm">Property</span><span class="sub">Bricks &amp; Mortar</span></span><span class="pg">06</span></li>
+        <li><span><span class="nm">Technology</span><span class="sub">Silicon &amp; Sovereignty</span></span><span class="pg">07</span></li>
+        <li><span><span class="nm">The Kit</span><span class="sub">Gear We're Watching</span></span><span class="pg">09</span></li>
+        <li><span><span class="nm">The Connected Home</span><span class="sub">Walls That Listen</span></span><span class="pg">10</span></li>
+        <li><span><span class="nm">The Good Life</span><span class="sub">Objects &amp; Escapes</span></span><span class="pg">11</span></li>
+        <li><span><span class="nm">Screen &amp; Sound</span><span class="sub">Culture Desk</span></span><span class="pg">12</span></li>
+        <li><span><span class="nm">The Family Desk</span><span class="sub">Raising Them Well</span></span><span class="pg">13</span></li>
+        <li><span><span class="nm">The Whisper Desk</span><span class="sub">Strictly Off the Record</span></span><span class="pg">15</span></li>
+        <li><span><span class="nm">Curiosities</span><span class="sub">The Far Edges</span></span><span class="pg">16</span></li>
+        <li><span><span class="nm">Love &amp; Life</span><span class="sub">The Human Desk</span></span><span class="pg">17</span></li>
+        <li><span><span class="nm">Fitness</span><span class="sub">The Long Game</span></span><span class="pg">18</span></li>
+        <li><span><span class="nm">The Diary</span><span class="sub">What's Worth Booking</span></span><span class="pg">19</span></li>
+        <li><span><span class="nm">The Long Read</span><span class="sub">The Price of Fire</span></span><span class="pg">21</span></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="fromdesk">
+        <div class="kicker gold" style="color:var(--gold);">From the Desk</div>
+        <div class="q">"All things are an exchange for fire, and fire for all things, as goods for gold and gold for goods."</div>
+        <div class="a">— Heraclitus, <span style="text-transform:none;font-style:italic;">Fragments</span> (c. 500 BC)</div>
+        <p>Twenty-five centuries before a barrel chart, Heraclitus named the thing this week keeps circling back to: fire — energy — is the currency everything else is priced against. An oil shock pushes American inflation past 4%; it lands on a Singapore power bill, a developer's break-even, a data centre's draw on the grid. Read the issue and the same coin keeps turning.</p>
+      </div>
+
+      <div class="minihed" style="margin-top:11px;">The Markets, in Brief</div>
+      <div class="mkt">
+        <div><div class="v">$93.9</div><div class="l">Brent · bbl</div></div>
+        <div><div class="v">$89.7</div><div class="l">WTI · bbl</div></div>
+        <div><div class="v up">4.2%</div><div class="l">US CPI · May</div></div>
+      </div>
+      <div class="mkt" style="margin-top:6px;">
+        <div><div class="v dn">−7.2M</div><div class="l">US crude · 7th draw</div></div>
+        <div><div class="v">+6.0%</div><div class="l">SG GDP · Q1</div></div>
+        <div><div class="v">¥160</div><div class="l">USD/JPY</div></div>
+      </div>
+      <p class="figcap-note" style="margin-top:6px;">Brent −9.8% on the month yet +35% on the year; US crude stocks have drawn for a seventh straight week. SG April CPI 1.8%.</p>
+
+      <div class="shelf" style="margin-top:10px;">
+        <div class="h">The Thread of the Week</div>
+        <p><b>The price of fire.</b> Energy is the input under every other input. When it spikes, inflation, tariffs, construction costs and compute all re-price at once — and the durable answers, history says, are new sources and substitution, not rationing. The Long Read draws the line (p.21).</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · TradingEconomics / Investing.com (Brent, WTI, inventories), 10 Jun 2026; US Bureau of Labor Statistics via CNN/CBS (May CPI 4.2%); MTI Singapore (Q1 GDP, Apr CPI). Heraclitus, <i>Fragments</i> (Burnet trans.).</div>
+    <div class="fnbar"><span>Meridian · Contents</span><span>Page 2</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 3 — THE WORLD (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+      <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Oil%20refinery%20004.JPG?width=1400" alt="Oil refinery at night (representative)" loading="lazy"></div>
+  <div class="ph-cap">A representative image — an oil refinery, not a specific facility in this report. <b>Source:</b> Wikimedia Commons, "File:Oil refinery 004.JPG" · CC BY-SA 3.0 · Cusack5239. Subject verified from the Commons file page.</div>
+  <div class="kicker">The Middle East · Energy</div>
+    <div class="hed">A truce too thin to hold — and the bill lands at home</div>
+    <div class="dek">Days after the first direct Israel–Iran exchange since April, the guns are quiet but the diplomacy is not. Trump talks of fresh strikes; the IAEA demands access; and the war's true reach shows up in an American price index.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The pattern of the 2026 war has become grimly familiar: a flare, a pause, a warning, a pause. After the 7–8 June missile exchange over Israel's Lebanon offensive — the first time the two states struck each other directly since the April ceasefire<sup class="fnref">1</sup> — both halted fire and reopened airspace. By midweek the calm was already fraying. On 9–10 June Washington and Tehran traded fresh airstrikes after President Trump blamed Iran for downing a US Army helicopter over the Gulf, and Iran launched retaliatory attacks on several Gulf states.<sup class="fnref">2</sup></p>
+    <p class="body">Trump's message hardened with it: Iran had "taken too long" to negotiate and would "have to pay the price," he said, adding he was close to ordering strikes on Iranian plants and bridges.<sup class="fnref">2</sup> On the same day the IAEA's Board of Governors demanded urgent Iranian cooperation and access to nuclear sites — the inspection regime, not the rhetoric, being the thing that would make any deal mean something.</p>
+    <p class="body">The Hormuz 60-day MOU still sits where it has sat for weeks: described in every capital, signed in none. Traffic through the strait remains badly disrupted, with Iran blocking most shipping and the US restricting Iranian ports — though Energy Secretary Chris Wright insists Gulf vessel traffic and exports are "rising very meaningfully."<sup class="fnref">3</sup> Oil read the ambiguity its own way: Brent settled near US$94 after a 3% war-scare slide, down almost 10% on the month yet still a third above a year ago. US crude inventories drew for a seventh straight week (−7.2m barrels).<sup class="fnref">3</sup></p>
+    <p class="body">What changes the story this week is not the front line but the cash register. US consumer prices rose at a 4.2% annual rate in May — the hottest since 2023 — with energy up 23.5% year-on-year and petrol up roughly 40%.<sup class="fnref">4</sup> The Labor Department put energy at more than 60% of the month's entire increase. Real wages fell for a second month. The shock that began in a strait is now a line on every receipt — the surest sign that an unresolved war keeps a price even where no missiles fall.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:7px;">
+    <div class="stat"><div class="n">4.2%</div><div class="c">US CPI, May — a 3-yr high</div></div>
+    <div class="stat"><div class="n">23.5%</div><div class="c">US energy prices, y-o-y</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · Markets desk</div>
+    <p>Oxford Economics' read is that May may mark the 2026 inflation peak — core prices barely moved, and new vehicles, furniture and prescription drugs actually fell, suggesting the heat is energy, not a broadening spiral.</p>
+    <p class="src">— Summarised from CNN / CBS News coverage of the May CPI report, 10 Jun 2026.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Sceptic</div>
+    <p>The consoling "energy-only" framing has a catch the bulls skip: a fresh tariff wave on some 60 trading partners is still in the pipeline, and J.P. Morgan's base case keeps Brent near US$100 for the rest of 2026 if Hormuz stays choked. A peak is not the same as a descent.</p>
+    <p class="src">— Contrarian note, per JPM / KPMG economists cited in CBS News.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. CNBC, "China is helping to cushion global oil prices," 8 Jun 2026. 2. AP via Encyclopædia Britannica, "2026 Iran war" timeline, 9–10 Jun 2026. 3. TradingEconomics / Investing.com (Brent, WTI, EIA inventories), 10 Jun 2026. 4. CBS News / CNN, "US inflation tops 4%," 10 Jun 2026; Tech Times.</div>
+    <div class="fnbar"><span>Meridian · The World</span><span>Page 3</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 4 — THE WORLD (2) — VIEWPOINTS + SECONDARIES ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>Around the Desks</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker slate">Four Capitals, One Strait</div>
+    <div class="hed sm">How the same week reads from four windows</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="desk">
+      <div class="flag"><span>Tehran</span><span class="geo">State media</span></div>
+      <p>Operations against Israel have "ended"; the helicopter strikes were self-defence after American provocation. The message to Washington: a deal is possible, but not under threat — and the side better prepared the day after it is signed is the side that wins it.</p>
+    </div>
+    <div class="desk">
+      <div class="flag"><span>Washington</span><span class="geo">The White House</span></div>
+      <p>Trump: Iran "will have to pay the price"; strikes on plants and bridges remain on the table. Energy Secretary Wright stresses Gulf traffic is recovering — an attempt to talk the risk premium down even as the carriers stay cautious.</p>
+    </div>
+  </div>
+  <div class="grid g-12" style="margin-top:2px;">
+    <div class="desk" style="border-top-color:var(--vermilion);">
+      <div class="flag"><span>Vienna</span><span class="geo">IAEA</span></div>
+      <p>The Board demands urgent access to Iranian sites. Grossi's people frame verification as the precondition for any framework — echoing a colder logic: trust is only affordable once it can be checked.</p>
+    </div>
+    <div class="desk" style="border-top-color:var(--gold);">
+      <div class="flag"><span>Beijing</span><span class="geo">Customs &amp; the press</span></div>
+      <p>Chinese crude imports sit near a ten-year low, cushioning Beijing against the price spike and quietly easing world demand. State commentary casts the US as the destabiliser and China as the steady buyer of last resort.</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="minihed">Also on the Wire</div>
+  <div class="cols2">
+    <p class="body tight"><b>Colombia counts down.</b> The 21 June presidential run-off pits Abelardo de la Espriella (43.7% in the first round) against Iván Cepeda (40.9%) — a tight, polarised finish that markets are watching for its read-through to Latin American oil and coal supply just as the Gulf wobbles.<sup class="fnref">5</sup></p>
+    <p class="body tight"><b>Ukraine keeps hitting the tap.</b> Long-range drones again struck Russian refining and oil-terminal infrastructure, with the Volgograd refinery reported offline — a reminder that this war, too, is now fought over energy nodes rather than front lines, and that the global supply map has more than one pressure point.<sup class="fnref">6</sup></p>
+  </div>
+
+  <div class="chatter teal">
+    <div class="lbl">The Long View</div>
+    <p>The IEA quietly dialled back its 2026 oversupply warning this week after a winter of shocks — a small but telling concession that the glut everyone forecast a year ago has been postponed by a war that refuses to end cleanly.</p>
+    <p class="src">— Per OilPrice.com market wire, 10 Jun 2026.</p>
+  </div>
+
+  <div class="figframe" style="margin-top:7px;">
+    <svg width="100%" height="92" viewBox="0 0 560 92" xmlns="http://www.w3.org/2000/svg">
+      <text x="6" y="14" font-family="Poppins,sans-serif" font-size="9" font-weight="700" fill="#191613" letter-spacing="1.4">BRENT, LAST 30 DAYS — THE WAR-SCARE WHIPSAW (US$/bbl)</text>
+      <polyline fill="none" stroke="#c1462e" stroke-width="2.2" points="10,40 70,34 130,30 190,46 250,55 310,40 370,33 430,58 490,52 540,49"/>
+      <line x1="10" y1="70" x2="540" y2="70" stroke="#d8cfbd" stroke-width="1"/>
+      <text x="10" y="84" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264">~$104 mid-May</text>
+      <text x="240" y="84" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264">8 Jun exchange</text>
+      <text x="470" y="84" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264">~$94 now</text>
+      <circle cx="430" cy="58" r="3" fill="#c1462e"/>
+    </svg>
+    <div class="imgcap">A Meridian chart from daily Brent closes (TradingEconomics). Down ~10% on the month, up ~35% on the year — the risk premium keeps re-pricing with each headline.</div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 5. Reuters / wire coverage of Colombia's 21 Jun run-off. 6. AP / Reuters on Ukraine strikes (Volgograd). IAEA Board statement, 10 Jun; IEA via OilPrice.com.</div>
+    <div class="fnbar"><span>Meridian · The World</span><span>Page 4</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 5 — SINGAPORE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+      <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marina%20Bay%20Sands%20and%20the%20skyline%20of%20the%20Central%20Business%20District%2C%20Singapore%2C%20at%20dusk%20-%2020120805.jpg?width=1400" alt="Singapore CBD skyline at dusk (representative)" loading="lazy"></div>
+  <div class="ph-cap">Representative — the Singapore CBD skyline at dusk. <b>Source:</b> Wikimedia Commons, "File:Marina Bay Sands and the skyline of the Central Business District, Singapore, at dusk - 20120805.jpg" · CC BY-SA 2.0 (via Flickr). Subject verified from the Commons file page.</div>
+  <div class="kicker">Cost of Living · Energy</div>
+    <div class="hed">The relief calendar meets a war that won't quit</div>
+    <div class="dek">A city that imports nearly all its energy is watching the same oil chart as Washington — and has built the month into a sequence of cushions. The question underneath is how long a cushion can hold against a structural shock.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">For a household here, the Gulf war is read not in barrels but in bills. Some 95% of Singapore's electricity is generated from imported natural gas, so a sustained oil-and-gas shock flows almost directly into tariffs.<sup class="fnref">1</sup> The Q2 power tariff (29.72 cents/kWh) was only partly exposed; the EMA has repeatedly flagged that the July quarter is the one set to "fully reflect the conflict cost," with sharper increases likely as the war damages infrastructure rather than merely re-routes it.<sup class="fnref">2</sup></p>
+    <p class="body">Against that, the state has sequenced the summer into a relief calendar: S$500 in CDC vouchers for every household this June, U-Save and S&amp;CC rebates in July, GST Vouchers in August, cost-of-living support in September. DPM Gan Kim Yong and acting transport minister Jeffrey Siow have framed the squeeze as the most severe global energy disruption since the 1973 embargo — and warned it may persist even after a ceasefire, because destroyed capacity does not come back on a politician's timetable.<sup class="fnref">3</sup></p>
+    <p class="body">The macro picture is, for now, resilient: Q1 GDP came in at 6% on AI-driven demand, April CPI a contained 1.8% — well below the 4.2% Americans just printed. Parliament has been pressing a sharper question behind the vouchers: whether the city holds sufficient strategic stockpiles of energy and essential inputs to buffer a prolonged Hormuz disruption, and how exposed its refining and petrochemical hub is to higher feedstock costs.<sup class="fnref">4</sup> That is the part a voucher cannot answer.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">29.72¢</div><div class="c">Q2 power tariff /kWh — July to "fully reflect" the war</div></div>
+    <div class="stat"><div class="n">S$500</div><div class="c">CDC vouchers per household, June</div></div>
+  </div>
+
+  <div class="chatter gold">
+    <div class="lbl">The Chatter · Heartland economics</div>
+    <p>The honest read on the relief package is that it smooths the shock rather than absorbs it. A 4-room HDB household's bill moves by a couple of dollars a quarter on the regulated tariff — but those on expiring retail contracts face the real step-up at renewal, exactly when fuel costs are highest.</p>
+    <p class="src">— Synthesised from EMA guidance and SP Group tariff notes.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">In Brief · The Little Red Dot</div>
+    <p><b>Strategic autonomy.</b> The WP / Pritam Singh leadership question advances by a line only — the 28 June secret-ballot cadres conference still pending, the Law Society's referral now before the Court of Three Judges. <span style="color:var(--muted);">(Saturated; one-line delta, per the ledger.)</span></p>
+    <p><b>Building for 2040.</b> The National AI Strategy update and the Changi T5 / Punggol testbed agenda keep "trust" as the watchword — Singapore positioning as an active shaper of AI governance, not a passive adopter.</p>
+  </div>
+
+  <div class="pull">"Households must be prepared for higher and more volatile energy costs." — EMA, on the quarters ahead</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1–2. EMA / SP Group tariff releases (29.72¢/kWh, Q2 2026); The Star / Malay Mail. 3. Malay Mail, "Singapore unveils support package," 8 Apr 2026; CDC voucher schedule. 4. Singapore Parliament Order Paper (energy stockpiles, refining exposure); MTI Q1 GDP / Apr CPI.</div>
+    <div class="fnbar"><span>Meridian · Singapore</span><span>Page 5</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 6 — PROPERTY ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+      <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kovan%20HDB%20flats.JPG?width=1400" alt="HDB public housing flats, Singapore (representative)" loading="lazy"></div>
+  <div class="ph-cap">Representative — HDB public-housing flats (Kovan), not a specific project in this report. <b>Source:</b> Wikimedia Commons, "File:Kovan HDB flats.JPG" · CC BY 3.0 · Angcr. Subject verified from the Commons file page.</div>
+  <div class="kicker">Singapore Real Estate</div>
+    <div class="hed">The cost of building is the floor under the price</div>
+    <div class="dek">With a global energy shock pushing inflation to multi-year highs, the least-discussed number in Singapore property is the one developers can't escape: what it costs to put up the building in the first place.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">Rates have dominated the property conversation for a year — and this desk has, on the editor's instruction, retired that thread to a footnote. The more durable story for an owner is on the supply side, and it runs straight through the same energy shock that is lifting power bills. Construction costs have climbed roughly 40% over the past decade and remain elevated; recent Government Land Sales plots have carried break-even estimates north of S$2,400 psf, and an oil shock that raises the price of steel, cement, glass and freight does not make the next plot cheaper.<sup class="fnref">1</sup> Replacement cost is quietly becoming the floor under launch prices.</p>
+    <p class="body">Pulling the other way is a supply tap the state is keeping open. The June BTO exercise is now live — about 6,900 flats across seven projects, headlined by the ~1,200-unit Bishan Lakeview, the first new HDB in the Upper Thomson area in over four decades.<sup class="fnref">2</sup> The URA's 2H2026 Confirmed List adds roughly 4,745 private units, lifting the visible pipeline toward ~61,000. More supply caps how far prices can run; a high cost floor stops them falling far. The result is the market's current signature: private prices edging up (+0.9% in Q1), HDB resale dipping for the first time since 2019 (−0.1%), and neither moving violently.<sup class="fnref">3</sup></p>
+    <p class="body">For the multiple-property owner, the read-through is unglamorous but useful. In an inflationary year, bricks behave like a partial hedge — their replacement cost rises with everything else — but the upside is capped by a Government determined to keep building. The plays that work are specific, not directional: tight, well-located stock where the supply tap runs thin, not a bet on the index.</p>
+  </div>
+
+  <div class="figframe" style="margin-top:6px;">
+    <svg width="100%" height="96" viewBox="0 0 560 96" xmlns="http://www.w3.org/2000/svg">
+      <text x="6" y="14" font-family="Poppins,sans-serif" font-size="9" font-weight="700" fill="#191613" letter-spacing="1.2">TWO FORCES, ONE MARKET</text>
+      <rect x="40" y="30" width="90" height="46" fill="#c1462e"/>
+      <rect x="160" y="40" width="90" height="36" fill="#b08738"/>
+      <rect x="300" y="26" width="90" height="50" fill="#2f4858"/>
+      <rect x="420" y="52" width="90" height="24" fill="#2b6b66"/>
+      <text x="85" y="88" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Build cost ↑</text>
+      <text x="205" y="88" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Private px +0.9%</text>
+      <text x="345" y="88" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Supply pipeline ↑</text>
+      <text x="465" y="88" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">HDB resale −0.1%</text>
+    </svg>
+    <div class="imgcap">A Meridian schematic. A rising cost floor and an open supply tap produce a market that grinds rather than swings. Source: URA / HDB Q1 2026; BCA construction-cost commentary.</div>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Sceptic</div>
+    <p>"Replacement cost as a floor" is true until it isn't. If a recession follows the inflation, owners discover that break-even psf is the developer's problem, not the buyer's — distressed plots get re-priced, and a high build cost becomes a write-down, not a moat. Floors hold only while demand does.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">Still on the Shelf</div>
+    <p><b>June BTO</b> — now live; subscription rates the next real peg, not the launch. <b>2H GLS Confirmed List</b> — watch the Orchard Boulevard tender. <b>SORA / refinancing</b> — one-line continuity only: 3M SORA near the trough, fixed and floating both still under HDB's 2.6%. <span style="color:var(--muted);">(Rates retired per the ledger.)</span></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. BCA construction-cost commentary; GLS break-even estimates via PropertyPathway / sgluxurycondo. 2. SmartCalculator / ERA / 99.co (June 2026 BTO, Bishan Lakeview). 3. URA &amp; HDB Q1 2026 statistics (24 Apr); Stacked Homes (URA 2H GLS list).</div>
+    <div class="fnbar"><span>Meridian · Property</span><span>Page 6</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 7 — TECHNOLOGY (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker gold">AI &amp; the Grid</div>
+    <div class="hed">The other AI bill — and it isn't denominated in tokens</div>
+    <div class="dek">While the world argues about which model tops which benchmark, the binding constraint on artificial intelligence has quietly become electricity. This week the US Department of Energy admitted as much — by building a simulator for the collision.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">On 2 June the DOE launched <i>Agora</i>, a platform that replicates the electrical behaviour of hyperscale AI campuses so utilities and regulators can model what happens when a gigawatt of volatile, spiky demand plugs into an already-strained grid.<sup class="fnref">1</sup> That a government felt the need to build it is the story. US data-centre demand is forecast to nearly double from roughly 80 to 150 gigawatts between 2025 and 2028 — the equivalent of bolting a country the size of Spain onto the system in three years.<sup class="fnref">2</sup></p>
+    <p class="body">The bill does not stay inside the fence. Carnegie Mellon researchers estimate data centres and crypto could raise the average US electricity bill ~8% by 2030, and over 25% in the hottest markets such as northern Virginia, where data centres already account for nearly 40% of state consumption.<sup class="fnref">3</sup> In 2026 alone, lawmakers in more than 30 states have introduced 300-plus bills on data-centre moratoriums, tax and energy policy. The AI boom, in other words, is becoming an energy-politics story — and it lands in the same week American inflation tops 4% on energy.</p>
+    <p class="body">For this reader the lesson rhymes with the chip wars. The scarce input keeps moving: first compute, then memory (HBM still eats three-to-four times the wafer area of plain DRAM), now megawatts. Nvidia's own answer — shifting inference GPUs to power-sipping LPDDR5 by year-end — is a tell. Efficiency, not raw flops, is the new frontier, because the wall the industry is hitting is not silicon. It is the substation.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">~150 GW</div><div class="c">Projected US data-centre demand by 2028 (from ~80)</div></div>
+    <div class="stat"><div class="n">300+</div><div class="c">US state bills on data centres in 2026 alone</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · r/hardware &amp; the grid forums</div>
+    <p>The recurring take among self-hosters: the cloud's power problem is the home lab's quiet advantage. A frontier-class open model running locally at 250 watts is not just private — it's outside the queue for a substation upgrade that may not arrive until 2028.</p>
+    <p class="src">— Synthesised from enthusiast forums and DOE / IEA grid coverage.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Sceptic</div>
+    <p>The IEA's own base case is calmer: data centres are under 10% of global electricity-demand growth to 2030 — dwarfed by EVs, air-conditioning and industry. The grid strain is real but local and lumpy, clustered in a few towns. "AI will eat the power system" is a Virginia story sold as a planetary one.</p>
+    <p class="src">— Contrarian note, per IEA <i>Energy and AI</i> / Brookings.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Data Center Knowledge, "DOE's Agora," 2 Jun 2026. 2. Consumer Reports / Bloom Energy (80→150 GW). 3. Pew / Carnegie Mellon (bill impact); Belfer Center (Virginia); Multistate (state bills); Fortune (Nvidia LPDDR5). IEA <i>Energy and AI</i>.</div>
+    <div class="fnbar"><span>Meridian · Technology</span><span>Page 7</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 8 — TECHNOLOGY (2) — THE HOME LAB ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>The Home Lab</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker">Self-Hosting · Efficiency</div>
+    <div class="hed sm">Tokens per watt is the metric that matters now</div>
+    <div class="dek">If the cloud's constraint is megawatts, the home lab's discipline should be the same one in miniature: not how fast, but how much intelligence per unit of energy.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body">The case for keeping the model local was always partly about privacy and control. The energy story sharpens it. The desk-class boxes flagged here in recent weeks — Nvidia's RTX Spark Superchip (128GB LPDDR5X, ~120B-param models locally), the cheaper Strix Halo, a four-node Mac Studio cluster — share a quiet virtue: they deliver frontier-class inference inside a domestic power budget, on the order of 250 watts, rather than renting time on a rack that is itself waiting for a grid upgrade.<sup class="fnref">4</sup> When power is the binding constraint, the efficient end of the market is also the sovereign end.</p>
+    <p class="body">The open-weight frontier, meanwhile, stays where it was — GLM-5.1 the strongest all-rounder, Kimi K2.6 leading on knowledge, DeepSeek V4-Pro on long context — with no dethroning this week. That is a feature, not a gap: a stable, locally-runnable field is exactly what lets an owner optimise for efficiency instead of chasing a new download every Friday. The smart move now is to tune the rig you have for tokens-per-watt — quantise sensibly, cap the context to what the task needs, schedule heavy jobs for cool hours — and treat the electricity meter as part of the benchmark.<sup class="fnref">5</sup></p>
+  </div>
+
+  <div class="figframe" style="margin-top:6px;">
+    <svg width="100%" height="120" viewBox="0 0 560 120" xmlns="http://www.w3.org/2000/svg">
+      <text x="6" y="14" font-family="Poppins,sans-serif" font-size="9" font-weight="700" fill="#191613" letter-spacing="1.2">INTELLIGENCE PER WATT — WHERE THE INFERENCE RUNS</text>
+      <!-- axis -->
+      <line x1="40" y1="100" x2="540" y2="100" stroke="#d8cfbd" stroke-width="1"/>
+      <line x1="40" y1="24" x2="40" y2="100" stroke="#d8cfbd" stroke-width="1"/>
+      <!-- bars: efficiency proxy -->
+      <rect x="70" y="40" width="70" height="60" fill="#2b6b66"/>
+      <rect x="190" y="34" width="70" height="66" fill="#b08738"/>
+      <rect x="310" y="50" width="70" height="50" fill="#2f4858"/>
+      <rect x="430" y="70" width="70" height="30" fill="#c1462e"/>
+      <text x="105" y="113" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Spark ~250W</text>
+      <text x="225" y="113" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Strix Halo</text>
+      <text x="345" y="113" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Mac cluster</text>
+      <text x="465" y="113" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Cloud rack*</text>
+      <text x="44" y="22" font-family="Poppins,sans-serif" font-size="6.5" fill="#7a7264">relative tokens / watt (illustrative)</text>
+    </svg>
+    <div class="imgcap">A Meridian schematic, illustrative — local desk-class hardware trades peak throughput for inference inside a home power envelope. *Cloud's per-token efficiency is high; its constraint is shared grid capacity, not the chip.</div>
+  </div>
+
+  <div class="shelf">
+    <div class="h">Still on the Shelf</div>
+    <p><b>Open-weight frontier</b> — GLM-5.1 / Kimi K2.6 / DeepSeek V4-Pro, unchanged; no new top model this week. <b>WWDC "Gemini-Siri"</b> — delta only: Apple's rebuilt Siri rents a ~1.2T-param Google model on Google Cloud (~US$1bn/yr); autumn betas are the next peg. <b>H200 / China</b> — delta only: still cleared, still ~undelivered, Beijing steering to Huawei.</p>
+  </div>
+
+    <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">~250W</div><div class="c">a desk-class inference box at full tilt — against a data-centre rack's many kilowatts</div></div>
+    <div class="stat"><div class="n">~150GW</div><div class="c">projected US data-centre demand by 2028, roughly double today's</div></div>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Sovereign Angle</div>
+    <p>The home-lab case isn't only thrift. A model running entirely on a box under the desk answers to no usage meter, no rate-limit, and no quietly-revised terms of service — and the data never leaves the room. In a year when the grid is the bottleneck and the cloud keeps re-pricing, "tokens you own outright" reads as a hedge as much as a hobby. The open-weight frontier — GLM-5.1, Kimi K2.6, DeepSeek V4-Pro — is what makes that hedge viable at the desk.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 4. Computex coverage of Nvidia RTX Spark Superchip (No. 18); DGX Spark / Strix Halo / Mac Studio cluster benchmarks (No. 16). 5. llm-stats open-weight leaderboard, Jun 2026; enthusiast efficiency guidance.</div>
+    <div class="fnbar"><span>Meridian · Technology</span><span>Page 8</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 9 — THE KIT ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker">Wearables</div>
+    <div class="hed">The $99 screenless tracker that undercuts the ring</div>
+    <div class="dek">Google's Fitbit Air drops the display, the price and most of the friction — and quietly stakes a claim on the category Oura and Whoop built.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The interesting wearable this month is the one that refuses to show you anything. The Google Fitbit Air is a screenless, distraction-free health band at US$99.99 — a week of battery, advanced sensors under interchangeable straps, and activity, sleep and wellbeing tracking through the Google Health app, with an optional Gemini-powered Health Coach behind a $9.99/month tier.<sup class="fnref">1</sup> <i>Men's Health</i> called it "a reinvigoration of the Fitbit brand," and the price is the headline: the screenless-tracker idea that Whoop and Oura turned into a subscription business is now available for a hundred dollars, no band fee.</p>
+    <p class="body">For a reader already wearing an Oura ring and a Whoop, the Air is less an upgrade than a provocation. It asks whether the premium players' moat is hardware or habit — and whether the next member of the household needs a $400 ring or a $99 band that does 80% of the job without a glowing screen on the wrist at 11pm. In a year when memory and component costs are pushing most gadget prices up, a wearable that gets cheaper and simpler is its own quiet statement.</p>
+  </div>
+
+  <div class="chatter teal">
+    <div class="lbl">The Chatter · Wearables forums</div>
+    <p>The screenless camp's argument has hardened into orthodoxy: the best fitness tracker is the one you forget you're wearing. A display invites the doomscroll the device was meant to replace; a band that just collects data and shuts up is, for many, the more honest tool.</p>
+    <p class="src">— Synthesised from wearables communities and the BGR / Men's Health write-ups.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Sceptic</div>
+    <p>A $99 sticker with a $120/year coach behind it is the razor-and-blades model in athleisure form. The honest cost of "screenless wellness" is the subscription you'll forget to cancel — and a second data trove handed to a company that already knows a great deal about you.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">Still on the Shelf</div>
+    <p><b>Garmin Forerunner 70 / 170</b> — the back-to-basics running watches; ship/price the next peg. <b>Klipsch Heritage "Rebellion" · Schiit "Vestri"</b> — awaiting first reviews. <b>Oura Ring 5</b> — shipped; blood-pressure validation outstanding. <b>Sony Xperia 1 VIII · Sony a7R VI · Sennheiser Momentum 5</b> — shipped; on merit-buy watch. <b>Smart glasses</b> — Apple's N50 pushed to late 2027; Google audio-first pair due autumn.</p>
+  </div>
+
+  <div class="pull">"The best tracker is the one you forget you're wearing."</div>
+
+    <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">US$99.99</div><div class="c">launch price — undercutting the Oura and Whoop subscriptions it targets</div></div>
+    <div class="stat"><div class="n">~1 week</div><div class="c">claimed battery; the Gemini Health Coach add-on runs US$9.99/mo</div></div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. BGR, "9 new gadgets," May 2026 (Google Fitbit Air, US$99.99, Google Health Coach); <i>Men's Health</i> first look. TechRadar wearables roundup (Apple / Google smart-glasses roadmap).</div>
+    <div class="fnbar"><span>Meridian · The Kit</span><span>Page 9</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 10 — THE CONNECTED HOME ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker teal">Smart Home · Energy</div>
+    <div class="hed">When the meter starts to matter, the house becomes an instrument</div>
+    <div class="dek">In a high-tariff year, the smart home stops being a convenience and becomes a measuring device — and the migrator's instinct to keep that data local turns out to be the practical choice, not the purist one.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">Most of the time a smart home is theatre: scenes, voice, a light that follows you down the hall. A year of rising power tariffs reframes it as something duller and more useful — a meter you can actually read. Home Assistant's Energy dashboard, sharpened over the 2026 releases, now shows real-time power, gas and water flow in a single "Now" view, and Matter's energy sensors increasingly report consumption natively rather than through a vendor cloud.<sup class="fnref">1</sup> The migrator's case writes itself: the household whose own consumption data lives on a box in the cupboard can shift heavy loads to cheaper hours, surface the always-on draws no one notices, and tune the circadian-lighting and aircon schedules that quietly dominate a tropical bill — without renting the insight back from whoever made the plug.</p>
+    <p class="body">The discipline is the same one running through this whole issue: when the input gets expensive, you measure it, and you keep the measurement where you control it. A local-first home doesn't lower the tariff. It tells you, honestly and in real time, where the kilowatts go — which is the first step to spending fewer of them.</p>
+  </div>
+
+  <div class="stat" style="margin-top:6px;"><div class="n">~95%</div><div class="c">of SG electricity from imported gas — which is why the meter is worth watching</div></div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · r/homeassistant</div>
+    <p>The energy dashboard is the feature that converts sceptical spouses. Once the always-on phantom loads show up as a number — the idle game console, the second fridge, the towel rail left on — the behaviour change is immediate and the smart home finally pays for itself.</p>
+    <p class="src">— Synthesised from Home Assistant community threads.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">Still on the Shelf</div>
+    <p><b>Matter 1.5 cameras</b> — now on shelves (SmartThings first); the CSA's inaugural "Unify" event runs 16–18 June in Austin. One-line callback, per the ledger. <b>Home Assistant 2026.6</b> ("Pick a card," shipped 3 Jun) — continuity; 2026.7 the next peg. <b>Apple homeOS / HomePad</b> — previewed at WWDC, autumn ship; keep the brain local, treat the HomePad as a voice surface.</p>
+  </div>
+
+  <div class="pull">"Keep the brain local; treat everything else as a surface."</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Home Assistant 2026.3 / 2026.6 release notes (Energy "Now" view, Matter energy sensors); Matter Alpha; Maison &amp; Domotique. CSA "Unify" 16–18 Jun (Austin). EMA (95% gas-fired generation).</div>
+    <div class="fnbar"><span>Meridian · Connected Home</span><span>Page 10</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 11 — THE GOOD LIFE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker gold">Premium Audio</div>
+    <div class="hed">Bowers &amp; Wilkins rebuilds its reference — the 800 D5 lands</div>
+    <div class="dek">When the price of everything else is rising, the durable object earns its keep. The fifth generation of the most quietly famous loudspeaker in high-end audio is a study in owning, not renting.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">Bowers &amp; Wilkins has unveiled the fifth generation of its 800 Series Diamond — the range the company, not unreasonably, calls "the world's most revered and iconic" high-end loudspeaker line. The D5 spans seven models, one bookshelf and four floorstanders among them, each with a reworked aesthetic, four new finishes and a long list of acoustic, mechanical and electrical revisions over the 2021 D4 predecessors.<sup class="fnref">1</sup> This is not a gadget refresh; it is a maker returning to a design it has been refining since 1979 and asking what another half-decade of metallurgy and cabinet science can wring from it.</p>
+    <p class="body">That is the point worth dwelling on in an inflationary year. A reference loudspeaker is the opposite of the subscription model creeping through the rest of the audio world: bought once, serviced, kept, handed on. Its value does not evaporate when a server is retired or a codec deprecated. Around it this month sit smaller pleasures for the same instinct — Cambridge Audio's muscular Evo 300 streaming amp, FiiO's Vienna High-End desktop lineup, Denon's first Bluetooth turntable — but the D5 is the statement: in a year of rising prices, the most rational luxury is the one designed to outlast the inflation.</p>
+  </div>
+
+  <div class="chatter gold">
+    <div class="lbl">The Chatter · the audio forums</div>
+    <p>The reaction among 800-series owners is less about the spec sheet than the principle: B&amp;W still iterates a flagship every few years rather than chasing a trend, so a 2021 D4 isn't orphaned — it's the previous chapter of a continuous book. That continuity is half of what the badge is worth.</p>
+    <p class="src">— Synthesised from hi-fi communities and Gear Patrol's June roundup.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">On the Block · the auction barometer</div>
+    <p><b>NY watch week, the eve.</b> The gavel falls this week — Christie's (12 Jun), Phillips (13–14 Jun) and Sotheby's "Shapes of Cartier" (15 Jun) — all <i>after</i> this issue goes out. We hold results to No. 20 by policy; the read to watch is whether the vintage/provenance fever holds while the modern-boutique end stays cool. <b>Soft-yen Japan</b> — USD/JPY near ¥160 keeps the connoisseur's early-July window open. <b>June novelties</b> (Zenith G.F.J. × Naoya Hida, GP Laureato Fifty, Tudor BB Chrono 39) — covered last issue.</p>
+  </div>
+
+  <div class="pull">"The most rational luxury in an inflationary year is the one built to outlast the inflation."</div>
+
+    <div class="shelf">
+    <div class="h">Still on the Shelf · the audio bench</div>
+    <p><b>Cambridge Audio Evo 300</b> — the do-everything streaming amp still the sensible one-box heart of a system. <b>FiiO "Vienna"</b> — the brand's continued march upmarket. <b>Denon DP-500BT</b> — a Bluetooth turntable for the no-fuss vinyl re-entrant. None re-reviewed here; listed for the shopper tracking the category.</p>
+  </div>
+
+  <div class="stat" style="margin-top:6px;"><div class="n">5th gen</div><div class="c">the 800 Series Diamond's first full redesign since the 2021 D4 — 7 models</div></div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Gear Patrol, "Best new hi-fi releases 2026," Jun week 1 (B&amp;W 800 Series Diamond D5; Cambridge Evo 300; Denon DP-500BT); Best of High End (FiiO, Vienna). Auction dates per houses' calendars.</div>
+    <div class="fnbar"><span>Meridian · The Good Life</span><span>Page 11</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 12 — SCREEN & SOUND ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker">Film &amp; Music</div>
+    <div class="hed">"Deeply profound": the first word on Toy Story 5</div>
+    <div class="dek">Pixar's fifth chapter draws raves before it opens, Olivia Rodrigo's third album lands tomorrow, and a literary prize is crowned tonight. A full week before the curtain rises.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The first reactions to <i>Toy Story 5</i> arrived ahead of its 19 June release, and they were warmer than a fifth instalment of anything has a right to expect: critics called it "deeply profound" and "moving," with several placing it alongside the 1995 original.<sup class="fnref">1</sup> For a household with an eleven-year-old, it is the rare summer tentpole that lands as a family event rather than a babysitting decision — and a reminder that the franchise has aged alongside the children who grew up with it.</p>
+    <p class="body">Tomorrow brings the week's other arrival. Olivia Rodrigo's third album, produced again with Dan Nigro, drops 12 June; its lead single has already posted a career-best streaming debut, and the rollout — a Robert Smith feature, a Primavera reveal — has been a masterclass in patience.<sup class="fnref">2</sup> And tonight in London's Bedford Square Gardens, the Women's Prizes for Fiction and Non-Fiction are crowned (late evening BST, the small hours here) — Susan Choi's <i>Flashlight</i> and Katie Kitamura's <i>Audition</i> among the shortlisted six. We hold the winner to No. 20.<sup class="fnref">3</sup></p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">19 Jun</div><div class="c">Toy Story 5 — first reactions "rank alongside the original"</div></div>
+    <div class="stat"><div class="n">12 Jun</div><div class="c">Olivia Rodrigo, 3rd album — out tomorrow</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the culture feeds</div>
+    <p>The pre-release enthusiasm for a fifth Toy Story has the same shape every time Pixar gets a sequel right: relief, then surprise, then the quiet admission that the studio still knows how to make adults cry in a children's film. Manage expectations; the reactions are from a friendly first screening, not the wide release.</p>
+    <p class="src">— Synthesised from Variety's "first reactions" coverage.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">Also Releasing</div>
+    <p><b>Avatar: Fire and Ash + Pixar's Hoppers</b> arrive on Disney+ this month — the collapsing theatrical window, covered last issue, continuing apace. <b>The Booker dozen</b> lands 28 July. <b>Women's Prize</b> — winner tonight, here next issue.</p>
+  </div>
+
+    <div class="chatter teal">
+    <div class="lbl">The Listening Room</div>
+    <p>Olivia Rodrigo's third album lands tomorrow, again produced with Dan Nigro — the partnership that has defined her sound since "SOUR." Expectations are high precisely because the first two delivered; the interesting question is whether a third act stays in the guitar-driven lane or breaks from it. We'll have a verdict once it's actually out, not before.</p>
+    <p class="src">— Screen &amp; Sound, on the week's biggest release.</p>
+  </div>
+
+  <div class="pull">"Pixar's whole trick is making the adults cry in the children's film. Five for five, if the first word holds."</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Variety, "Toy Story 5 first reactions," 9 Jun 2026. 2. Screen &amp; music coverage of Olivia Rodrigo's 3rd album (out 12 Jun, prod. Dan Nigro). 3. Women's Prize for Fiction / Non-Fiction (winners 11 Jun, Bedford Square Gardens); shortlist via Waterstones / Women's Prize.</div>
+    <div class="fnbar"><span>Meridian · Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 13 — FAMILY (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>Raising Them Well</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker teal">Money &amp; Children · Ages 10–13</div>
+    <div class="hed">Raising a money-literate tween in a year of rising prices</div>
+    <div class="dek">When the grocery bill is visibly climbing, the instinct is to shield children from it. The better move, the evidence suggests, is to let them see a little of the arithmetic — at exactly the age the habits set.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">There is a striking finding in the financial-education literature that ought to change how a parent treats the supermarket queue. Researchers at Cambridge, working with the UK's Money Advice Service, concluded that the core money habits of adult life are largely formed by around the age of seven — well before most schools teach a single lesson on the subject.<sup class="fnref">1</sup> By the tween years, a child is not a blank slate to be lectured; she is a working economist running on rules she has already absorbed, mostly by watching the adults around her.</p>
+    <p class="body">That reframes the inflationary year as an opportunity rather than a threat. A ten- or eleven-year-old is precisely old enough to grasp that the same note buys less than it did, that a "want" and a "need" are different categories, and that waiting can be a strategy rather than a punishment. The grocery aisle becomes the classroom: comparing unit prices, noticing which staples have moved most, letting her hold the budget for one part of the trip and keep the difference if she comes in under. The lesson lands because the stakes are real and small at the same time.</p>
+    <p class="body">The mechanics that researchers and credit-union educators most often recommend are unglamorous and durable: a predictable allowance tied to nothing dramatic (US surveys cluster around roughly seven to ten dollars a week for a ten-year-old, but the figure matters far less than the regularity); a split between spend, save and give; and at least one <em>goal-based</em> savings target the child names herself, so that deferral has a face on it.<sup class="fnref">2</sup> A jar, a simple tracker, or a child-mode banking app all work; the medium is less important than the visible gap closing between what she has and what she's aiming at.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">~age 7</div><div class="c">when core money habits are largely set, per Cambridge/MAS</div></div>
+    <div class="stat"><div class="n">11–13</div><div class="c">the window when children start transacting online themselves</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · what actually sticks</div>
+    <p>The recurring theme across parent forums and the financial-literacy researchers is the same: children copy what they see far more than what they're told. A parent who narrates a small trade-off out loud — "we'll skip this today, the price jumped, we'll get it when it settles" — teaches more than any lecture on compound interest. Model, don't sermonise.</p>
+    <p class="src">— Synthesised from Institute for Family Studies and credit-union financial-education guidance.</p>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">Don't be alarmist</div>
+    <p>The line worth not crossing: letting a child carry the household's money anxiety. The goal is competence, not vigilance. Children who absorb a parent's financial fear tend to grow more avoidant about money, not more capable. Show the arithmetic; keep the worry yours.</p>
+  </div>
+
+  <div class="figcap-note" style="margin-top:7px;">General guidance for parents, not financial advice. Allowance norms vary widely by country and household; the figures above are illustrative ranges from published surveys, not recommendations.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Cambridge University / UK Money Advice Service study on the early formation of money habits (habits largely set by ~age 7). 2. Institute for Family Studies; Members Trust / credit-union financial-education guidance; High Country (allowance norms, spend/save/give framework).</div>
+    <div class="fnbar"><span>Meridian · The Family Desk</span><span>Page 13</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 14 — FAMILY (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>The Tween Years</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker teal">Values · The Examined Allowance</div>
+    <div class="hed">From price tags to values — and the screen in between</div>
+    <div class="dek">The second half of money education is the part no app teaches: what it's <em>for</em>. For a generation that meets money first as a number on a screen, the values conversation and the screen-time conversation have quietly become the same one.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The "give" portion of the spend-save-give split is the one parents most often drop, and the one researchers most often defend. Letting a child direct even a small sum toward something she chooses — a cause, a class fundraiser, a gift bought with her own saved money rather than a parent's card — does something the spending and saving columns cannot: it attaches money to meaning. The tween years, when a child's sense of fairness is sharpening fast, are when that lesson is most legible.</p>
+    <p class="body">It collides, usefully, with the other defining feature of this age: the move online. Eleven to thirteen is the window when children begin to <em>transact</em> in digital spaces — in-game currencies, app stores, the frictionless tap that turns a real S$10 into a skin or a battle pass with no physical money changing hands. The danger isn't the spending; it's the <em>abstraction</em>. Money on a screen doesn't feel like money, and the design is engineered to keep it that way. The counter-move is to make the digital concrete: convert the in-game purchase back into real terms out loud ("that's two weeks of your allowance"), set a standing rule that online buys are discussed before they happen, and treat a regretted purchase as a lesson rather than a crime.</p>
+    <p class="body">There's an entrepreneurial flip-side worth encouraging, too. A child who wants the thing the budget won't cover can be pointed not at "no" but at "how" — a small venture, a service for neighbours, a way to <em>earn</em> the gap rather than be handed it. It reframes scarcity as a problem to solve, which is the single most useful money attitude an inflationary decade can hand a ten-year-old.</p>
+  </div>
+
+  <div class="pull teal">"The aim isn't a child who fears money. It's a child who isn't mystified by it."</div>
+
+  <div class="shelf">
+    <div class="h">In Brief · The Tween Years</div>
+    <p><b>The transparency dial.</b> Age-appropriate honesty about household trade-offs builds competence; sharing the full weight of financial stress does the opposite. Calibrate to the child, not the headline.</p>
+    <p><b>One concrete habit.</b> A named savings goal with a visible tracker beats every abstract lesson — deferral needs a face.</p>
+    <p><b>The screen rule.</b> Online purchases discussed <em>before</em>, not discovered after. The friction is the teaching.</p>
+  </div>
+
+  <div class="figcap-note" style="margin-top:7px;">General parenting guidance, not financial or psychological advice. Children differ; adapt to your own child's temperament and your family's circumstances.</div>
+
+    <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">spend / save / give</div><div class="c">the three-jar split educators most often recommend — the "give" column the one parents most often drop</div></div>
+    <div class="stat"><div class="n">"how," not "no"</div><div class="c">point a child at earning the gap, not just being refused it</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the entrepreneurial flip-side</div>
+    <p>A recurring note from family-finance educators: the child who wants the thing the budget won't cover is handed a problem worth solving, not just a "no." A small service for neighbours, a tiny venture, a way to earn the difference — it reframes scarcity as something to work around. In an inflationary decade, that attitude is the most durable thing the lesson can leave behind.</p>
+    <p class="src">— Synthesised from credit-union and IFS financial-education guidance.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Institute for Family Studies (giving, values, and money). 2. Members Trust Credit Union; High Country financial-education resources (digital money, abstraction, entrepreneurship). 3. Cambridge / MAS (developmental window).</div>
+    <div class="fnbar"><span>Meridian · The Family Desk</span><span>Page 14</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 15 — WHISPER ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Whisper Desk</span><span>Strictly Off the Record</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker gold">Reported &amp; Rumoured · Read Accordingly</div>
+    <div class="hed">The wedding that keeps getting married off</div>
+    <div class="dek">Every item below is gossip — flagged, sourced to the tabloid ecosystem, and offered as such. This issue's lead doubles as a small lesson in reading the rumour mill itself.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The most instructive celebrity story of the week is one where almost nothing happened. Taylor Swift and Travis Kelce, engaged since August 2025, spent the past fortnight being married off by the internet on dates they have not confirmed. A widely-shared "June 13 Rhode Island wedding" was debunked; the reporting that survives scrutiny points instead to a reported early-July ceremony — one outlet says July 3 in the New York area, venue kept deliberately quiet — and even that should be held loosely until the couple says so.<sup class="fnref">1</sup> Running alongside it, a flurry of "trouble in paradise" breakup posts traced back to parody and engagement-farming accounts rather than anything resembling a source.</p>
+    <p class="body">Which is the point. The same fortnight produced a genuine tabloid haul: Megan Thee Stallion and Klay Thompson reportedly splitting after roughly a year; Emily Ratajkowski making a red-carpet debut with director Romain Gavras; a much-chewed-over Alix Earle and Tom Brady item that one gossip aggregator's own sources downgraded to "a fling at best"; and Dak Prescott's engagement reportedly called off.<sup class="fnref">2</sup> All reported, none confirmed here — and that mix of the real, the exaggerated and the entirely invented is exactly why the desk runs with a permanent flag.</p>
+  </div>
+
+  <div class="chatter gold">
+    <div class="lbl">The Three Questions · a standing strip</div>
+    <p>Before you believe a piece of celebrity "news," three questions sort most of it: <b>Who is the source</b> — a named outlet, or a screenshot of an anonymous account? <b>What's the peg</b> — did something actually happen, or is it a slow day dressed as a scoop? <b>Who benefits</b> — engagement-farming accounts manufacture breakups because outrage travels. The Swift–Kelce "breakup" failed all three.</p>
+    <p class="src">— A Meridian media-literacy note. Applies well beyond the gossip page.</p>
+  </div>
+
+  <div class="shelf">
+    <div class="h">The Whisper Roundup · all unconfirmed</div>
+    <p><b>Megan Thee Stallion &amp; Klay Thompson</b> — reportedly split (≈April), per tabloid reporting. <b>Emily Ratajkowski &amp; Romain Gavras</b> — red-carpet debut; read into it what you like. <b>Alix Earle &amp; Tom Brady</b> — "a fling at best," per one aggregator's own sources. <b>Dak Prescott</b> — engagement reportedly off.</p>
+  </div>
+
+  <div class="figcap-note" style="margin-top:6px;">Everything on this page is reported or rumoured and flagged as such; Meridian confirms none of it independently.</div>
+
+    <div class="pull gold">"Three questions sort most of it: who's the source, what's the peg, and who benefits from your believing it."</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Morning Honey; Hollywood Life (Swift–Kelce wedding timing; June-13 debunk; reported July date). 2. BuzzFeed; DeuxMoi-adjacent aggregators (Megan/Klay; Ratajkowski/Gavras; Earle/Brady; Prescott). All items reported/rumoured.</div>
+    <div class="fnbar"><span>Meridian · The Whisper Desk</span><span>Page 15</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 16 — CURIOSITIES ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Curiosities</span><span>The Far Edges</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker slate">Astrochemistry · The Far Edges</div>
+    <div class="hed">A sugar in the dark between the stars</div>
+    <div class="dek">Astronomers report detecting a four-carbon sugar in the interstellar medium — a molecule on the road to the building blocks of life, found not in a comet or a lab but in the cold gas between the stars.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">A preprint circulating this week describes the first detection of a four-carbon sugar in interstellar space — a meaningfully larger and more complex sugar than anything previously identified out there, and a step closer to the molecules biology actually runs on.<sup class="fnref">1</sup> The significance isn't that anyone expects to find life in a gas cloud. It's that the cloud is doing the chemistry on its own. The molecular precursors of life appear to assemble in the cold, near-empty dark long before a planet exists to host them, which quietly tilts the odds on a very old question: when worlds form, they may not start from scratch. They may inherit a head start, delivered.</p>
+    <p class="body">It is the kind of result that rewards a reader's sense of scale. The interstellar medium is the most rarefied chemistry lab imaginable — a few atoms per cubic centimetre, near absolute zero, lit by starlight and cosmic rays — and yet it keeps turning out molecules of real complexity. Each detection narrows the gap between "the ingredients exist somewhere" and "the ingredients are common."</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="minihed" style="grid-column:1/-1;margin-bottom:2px;">Also at the Far Edges</div>
+    <div class="chatter slate" style="margin:0;">
+      <div class="lbl">Mapping the Moon, in X-rays</div>
+      <p>A newly described compact X-ray telescope is designed to chemically map the lunar surface — reading the Moon's elemental fingerprint from orbit rather than from a single landed sample. A small instrument aimed at a very old neighbour.</p>
+    </div>
+    <div class="chatter slate" style="margin:0;">
+      <div class="lbl">Catching black holes that flicker</div>
+      <p>A new method spots hidden supermassive black-hole pairs by watching for repeating flashes as stars are torn apart on a regular beat — turning a galaxy's brightest tragedies into a metronome that betrays two giants orbiting where we thought there was one.</p>
+    </div>
+  </div>
+
+  <div class="pull slate">"The dark between the stars is not empty. It is a slow, patient chemist."</div>
+
+  <div class="figcap-note" style="margin-top:6px;">The interstellar-sugar result is reported from a preprint and awaits peer review; treated here as promising, not settled.</div>
+
+    <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">~few/cm³</div><div class="c">atom density of the interstellar medium — the most rarefied lab imaginable</div></div>
+    <div class="stat"><div class="n">4 carbons</div><div class="c">the largest sugar yet identified in that gas — a step toward life's molecules</div></div>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · why it matters</div>
+    <p>Each such detection nudges the same old question: when a planet forms, does it start its chemistry from scratch, or inherit a head-start delivered from the cloud it was born in? Finding bigger, more biologically-relevant molecules out in the cold dark tilts the odds, gently, toward "inherited."</p>
+    <p class="src">— Synthesised from astrochemistry reporting; result is a preprint, pre-peer-review.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. arXiv preprint via Universe Today / ScienceDaily (first detection of a four-carbon sugar in the interstellar medium, ~9–10 Jun 2026). 2. ScienceDaily (compact lunar X-ray mapping telescope, 6 Jun). 3. ScienceDaily (repeating stellar flares revealing supermassive black-hole pairs, 5 Jun).</div>
+    <div class="fnbar"><span>Meridian · Curiosities</span><span>Page 16</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 17 — LOVE & LIFE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker">The Examined Life · Connection</div>
+    <div class="hed">Where you met still matters</div>
+    <div class="dek">A decade into the swipe era, the research keeps finding the same quiet result: couples who met in person tend to report happier relationships than those who met online. The interesting part is what 2026 is doing about it.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">It is one of the more durable and least fashionable findings in relationship research: people who meet their partner offline report, on average, somewhat happier and more stable relationships than those who meet through an app.<sup class="fnref">1</sup> The effect is modest and much-debated, and the obvious caveat does a lot of work — the people still meeting offline may differ in ways that have nothing to do with the venue (denser social networks, shared communities, a friend who vouched). Self-selection, not magic. But the finding has survived enough re-tests to be worth sitting with rather than waving away.</p>
+    <p class="body">What makes it timely is that 2026 has, for the first time in a decade, begun to agree with it. The trend forecasters are calling it the year of "friendfluence" and the in-person revival; the dating apps themselves are pivoting, with Hinge and others leaning into a more "human-first" pitch as a cohort of younger users drifts away from the swipe entirely.<sup class="fnref">2</sup> The market is, belatedly, responding to what the research has said all along: connection that begins embedded in a real social context — through friends, communities, shared rooms — carries something the algorithm struggles to manufacture.</p>
+    <p class="body">For a settled reader, the read-through isn't about how a relationship started; that ship has sailed and the data wouldn't license second-guessing it anyway. It's the adjacent finding worth keeping: the couples who do best tend to be the ones whose marriage sits inside a web of <em>other</em> strong ties — friendships, not just the partnership carrying the entire emotional load. The venue you met at is fixed. The social world you tend around the relationship is not.</p>
+  </div>
+
+  <div class="chatter">
+    <div class="lbl">The Chatter · the honest caveat</div>
+    <p>Don't over-read the offline-happiness gap. It's a population average riddled with confounds, not a verdict on any individual couple — plenty of the happiest marriages started with a swipe. The defensible takeaway isn't "apps are bad." It's "relationships embedded in a wider social fabric tend to do better," whatever the origin story.</p>
+    <p class="src">— Synthesised from Institute for Family Studies and relationship-research commentary.</p>
+  </div>
+
+  <div class="pull">"The question was never how you met. It's what you built a life inside of afterward."</div>
+
+    <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">2026</div><div class="c">the year forecasters call the in-person revival — apps pivoting "human-first"</div></div>
+    <div class="stat"><div class="n">self-selection</div><div class="c">the caveat that does most of the work — venue may proxy for social context, not cause</div></div>
+  </div>
+
+  <div class="shelf">
+    <div class="h">In Brief · the adjacent finding</div>
+    <p><b>Marriage inside a web.</b> Research on long-married couples keeps surfacing the same pattern: the partnerships that thrive tend to sit inside a wider mesh of strong friendships, rather than asking the marriage to carry the entire emotional load. The origin story is fixed; the social world you tend around it is not.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Institute for Family Studies (offline-vs-online relationship-satisfaction research; self-selection caveats). 2. Future Laboratory / trend forecasting ("friendfluence," in-person revival); reporting on Hinge's "human-first" pivot and Gen-Z app fatigue.</div>
+    <div class="fnbar"><span>Meridian · Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 18 — FITNESS ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Fitness</span><span>The Long Game</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker teal">The Long Game · Ageing &amp; Strength</div>
+    <div class="hed">Decline starts around 35. So does the case for starting now</div>
+    <div class="dek">A 47-year Swedish cohort maps the long arc of physical capacity with unusual clarity. The headline reads grim. The fine print is quietly encouraging for anyone in their mid-40s.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">A long-running Karolinska cohort — following participants across nearly half a century — gives one of the cleaner pictures yet of how physical capacity changes with age. The blunt finding: measurable decline tends to begin around 35 and accelerates from there, across strength, aerobic capacity and the rest.<sup class="fnref">1</sup> Read alone, that's the sort of stat that sends a 45-year-old back to the sofa in resignation.</p>
+    <p class="body">But the cohort's more useful message is in the variance, not the average. Within every age band, training history moved the line dramatically — and crucially, people who <em>started late</em> still gained. The trajectory bends with what you do, not just with the calendar. For a reader in his mid-40s, the takeaway isn't "the window has closed"; it's the opposite. The decline is real, it's already underway, and it remains strikingly responsive to load. The cost of waiting another year is higher than it was last year. That's an argument for starting, not for mourning.</p>
+    <p class="body">If there's one idea worth trying out of the current discourse, it's <em>rucking</em> — walking under a weighted pack. It's unglamorous and almost suspiciously simple, but it stacks a Zone-2 cardio stimulus and a loaded, bone- and posture-friendly resistance stimulus into the same unremarkable walk, scales precisely (add or remove weight), and demands no skill acquisition. For someone whose calendar resists another hour in a gym, the efficiency is the whole point.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">~35</div><div class="c">age the long-run decline tends to begin, per the cohort</div></div>
+    <div class="stat"><div class="n">47 yrs</div><div class="c">span of the Karolinska follow-up</div></div>
+  </div>
+
+  <div class="chatter slate">
+    <div class="lbl">The Longevity-Discourse Sceptic</div>
+    <p>A note of caution against the supplement-and-biohack industrial complex this finding will be used to sell: the cohort's lesson is boring and free. Progressive load, consistency, sleep, protein. No peptide, ring, or S$400 longevity panel beats showing up. Be suspicious of anyone monetising a study whose actual conclusion is "lift things, keep walking."</p>
+  </div>
+
+  <div class="figcap-note" style="margin-top:7px;">General fitness information, not medical advice. New loading — including rucking — should be introduced gradually and cleared with a clinician if you have relevant conditions.</div>
+
+    <div class="shelf">
+    <div class="h">One Idea to Try · rucking</div>
+    <p><b>What it is.</b> Walking under a weighted pack. <b>Why it's efficient.</b> It stacks a Zone-2 cardio stimulus and a loaded, posture- and bone-friendly resistance stimulus into one ordinary walk. <b>How to scale.</b> Start light (a few kilos in a proper pack, not a sling bag), add gradually, keep the spine neutral. <b>The catch.</b> Build up slowly; loaded walking punishes a rushed progression.</p>
+  </div>
+
+  <div class="pull teal">"The cohort's actual conclusion is boring and free: lift things, keep walking, and start before next year costs more than this one."</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. ScienceDaily reporting on a Karolinska Institutet 47-year cohort on physical capacity and ageing (15 May 2026). Rucking framed as a general training idea, not a prescription.</div>
+    <div class="fnbar"><span>Meridian · Fitness</span><span>Page 18</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 19 — THE DIARY (1) SINGAPORE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>What's Worth Booking</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker gold">The Diary · Singapore</div>
+    <div class="hed">A city lit up for June</div>
+    <div class="dek">Light on the water, dragon boats on the river, and a run of festival eating — the school-holiday calendar is dense this fortnight. The marquee picks are starred.</div>
+  </div>
+
+  <div class="agenda-h">Singapore · book it now</div>
+  <div class="evt">
+    <div class="evt-date star rng">5–28<span class="mo">JUN</span></div>
+    <div class="evt-body"><b><span style="color:var(--vermilion)">★</span> i Light Singapore</b> — the sustainable light-art festival returns to Marina Bay with 14 installations along the waterfront promenade. Free, walkable, after-dark, and genuinely good with a child. Go on a weeknight to dodge the weekend crush.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date star">19<span class="mo">JUN</span></div>
+    <div class="evt-body"><b><span style="color:var(--vermilion)">★</span> Dragon Boat / Duanwu Festival</b> — the public holiday lands mid-fortnight; competitive races follow on 27–28 Jun. Zongzi everywhere; a good, low-effort culture day for the family.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">5–28<span class="mo">JUN</span></div>
+    <div class="evt-body"><b>GastroBeats 2026</b> — the food-and-music sprawl at Bayfront returns, this year adding a pickleball zone to the hawker-meets-festival format. Big, loud, crowd-pleasing.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">11–29<span class="mo">JUN</span></div>
+    <div class="evt-body"><b>Takashimaya Food Fiesta</b> — 55 brands under one roof at Ngee Ann City; the reliable rainy-afternoon graze.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">to 12<span class="mo">JUL</span></div>
+    <div class="evt-body"><b>Snoopy &amp; Peanuts at Changi T3</b> — a gentle, free, photogenic stop if an airport run coincides with a restless child.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">25 Jun<span class="mo">–12 JUL</span></div>
+    <div class="evt-body"><b>DRUM TAO</b> — the Japanese taiko spectacle returns to the stage; high-energy and family-legible.</div>
+  </div>
+
+  <div class="chatter gold" style="margin-top:7px;">
+    <div class="lbl">Planning Notes</div>
+    <p>i Light and GastroBeats overlap the entire fortnight and both sit at Marina Bay/Bayfront — pair them on one evening. Looking ahead: <b>HONNE</b> plays in August, <b>National Day (★ 9 Aug)</b> ballot and rehearsal weekends are the usual scramble, and the <b>F1 night race</b> (Sept/Oct) is the one to book flights-and-hotels around now, not later.</p>
+  </div>
+
+    <div class="agenda-h" style="margin-top:8px;">Around the region · worth the flight</div>
+  <div class="evt">
+    <div class="evt-date rng">late<span class="mo">JUN</span></div>
+    <div class="evt-body"><b>Rainforest World Music Festival, Sarawak</b> — the long-running Borneo festival in the rainforest near Kuching; a genuinely distinctive long-weekend. Confirm the 2026 dates and book lodging early — it sells out.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">Jul<span class="mo">KOR</span></div>
+    <div class="evt-body"><b>Boryeong Mud Festival, South Korea</b> — the famously chaotic, family-friendly summer festival on the west coast. Annual in July; dates vary year to year, so check before committing flights.</div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · VisitSingapore; Time Out Singapore; festival organiser listings (i Light Singapore, GastroBeats 2026, Takashimaya Food Fiesta, Changi Airport, DRUM TAO). Dates current as of 10 Jun 2026; confirm before booking.</div>
+    <div class="fnbar"><span>Meridian · The Diary</span><span>Page 19</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 20 — THE DIARY (2) JAPAN + THE TABLE ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>Plan the Flights</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+      <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gion%20Matsuri%20of%20Kyoto%20Japan%201920s.jpg?width=1400" alt="Gion Matsuri, Kyoto — a 1920s view (representative)" loading="lazy"></div>
+  <div class="ph-cap">Representative — a 1920s view of Kyoto's Gion Matsuri. <b>Source:</b> Wikimedia Commons, "File:Gion Matsuri of Kyoto Japan 1920s.jpg" · public domain (1920s). Subject verified from the Commons file page.</div>
+  <div class="kicker gold">The Diary · Japan</div>
+    <div class="hed">A weak yen and a summer of festivals</div>
+    <div class="dek">With the yen parked near ¥160, the maths on a Japan summer keeps getting friendlier — and the matsuri calendar from July is one of the best in years to plan around.</div>
+  </div>
+
+  <div class="agenda-h">Japan · plan the flights</div>
+  <div class="evt">
+    <div class="evt-date rng">~1<span class="mo">JUL</span></div>
+    <div class="evt-body"><b>Mt Fuji — Yoshida Trail opens</b> for the climbing season. Book huts early; the new crowd-control measures and fees apply, so read the current rules before committing.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">12–26<span class="mo">JUL</span></div>
+    <div class="evt-body"><b>Nagoya Grand Sumo Basho</b> — the July tournament; a great first sumo for a family, calmer to ticket than Tokyo's.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">17&amp;24<span class="mo">JUL</span></div>
+    <div class="evt-body"><b>Gion Matsuri, Kyoto</b> — the grand float processions (Yamaboko Junko). The headline event of the Japanese festival summer; hotels in Kyoto are already tight.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date rng">24–25<span class="mo">JUL</span></div>
+    <div class="evt-body"><b>Tenjin Matsuri, Osaka</b> — river processions and fireworks; one of the country's three great festivals.</div>
+  </div>
+  <div class="evt">
+    <div class="evt-date star rng">25<span class="mo">JUL</span></div>
+    <div class="evt-body"><b><span style="color:var(--vermilion)">★</span> Sumida River Fireworks, Tokyo</b> — the capital's signature hanabi night. Paid riverside seating sells out months ahead; decide now if it's the trip's centrepiece.</div>
+  </div>
+
+  <div class="chatter gold" style="margin-top:6px;">
+    <div class="lbl">Planning Notes</div>
+    <p>July is peak domestic-travel season — shinkansen reserved seats and Kyoto/Osaka hotels go first. <b>teamLab</b> remains the reliable indoor day with a child. At ¥160, the yen advantage is real but so are the crowds; a weekday-anchored itinerary buys back a lot of sanity.</p>
+  </div>
+
+  <div class="minihed" style="margin-top:9px;">The Table · Singapore's newest tables</div>
+  <div class="tbl-row">
+    <div class="tbl-num">1</div>
+    <div class="tbl-main">
+      <div class="nm">Sabòr <span class="tag v">Hyped</span><span class="tag s">Halal-check</span></div>
+      <div class="meta">Spanish · Chijmes courtyard · from the Duomo / Solo group</div>
+      <p>The team behind Duomo and Solo opens a Spanish concept in the Chijmes courtyard, with chef Javier Vicente Rejas on tapas and paella. Early local-media coverage is warm and the setting is a genuine draw; still close enough to opening that the consensus is "promising, worth booking" rather than settled. Book the courtyard, not the indoor room.</p>
+      <p class="src">Buzz: positive early notices (Eatbook / Tatler-tier coverage); not yet a deep review pool. Verify halal status directly — not assumed.</p>
+    </div>
+  </div>
+  <div class="tbl-row">
+    <div class="tbl-num">2</div>
+    <div class="tbl-main">
+      <div class="nm">Niku Niku Oh!! Kome <span class="tag g">Value</span><span class="tag s">Not halal</span></div>
+      <div class="meta">Japanese hamburg · Westgate / Sentosa · ~S$16.80 set</div>
+      <p>A budget Japanese hamburg specialist riding the city's ongoing "hamburg wars" — sets around S$16.80 with the theatrical hot-stone finish. The draw is value and novelty for a family lunch; chatter is enthusiastic on price, mixed on whether it beats the incumbents. Not halal.</p>
+      <p class="src">Buzz: strong on value per local food media; the category is crowded, so manage expectations.</p>
+    </div>
+  </div>
+  <div class="tbl-row">
+    <div class="tbl-num">3</div>
+    <div class="tbl-main">
+      <div class="nm">King of Dessert <span class="tag">Soft launch</span></div>
+      <div class="meta">Chinese snow-ice &amp; desserts · Sim Lim Square</div>
+      <p>A snow-ice and Chinese-dessert spot bringing a cooling, kid-pleasing menu to Sim Lim Square. Too new for a real verdict — flagged here as just-opened, an easy family detour rather than a destination.</p>
+      <p class="src">Buzz: too new to call. Listed for the school-holiday relevance, not on the strength of reviews.</p>
+    </div>
+  </div>
+  <div class="shelf" style="margin-top:6px;">
+    <div class="h">Callback · now reviewed</div>
+    <p><b>Yang's Dumplings</b> — flagged "too new to call" in No. 18 — now has its first reviews in: solid, well-priced, no queue-justifying hype. A keeper for the rotation, not a pilgrimage.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · Japan: official festival/tournament listings (Gion Matsuri, Tenjin Matsuri, Sumida fireworks, Nagoya Basho, Mt Fuji Yoshida Trail). The Table: Eatbook, DanielFoodDiary, Tatler Asia, Time Out SG; halal status to be verified at source. Dates/openings current 10 Jun 2026.</div>
+    <div class="fnbar"><span>Meridian · The Diary</span><span>Page 20</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 21 — THE LONG READ (1) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Essay</span><span>The Long Read</span></div>
+  <div class="rhrule"></div>
+
+  <div style="margin-top:6mm;">
+    <div class="kicker gold">The Long Read · An Essay</div>
+    <div class="hed" style="font-size:30pt;line-height:1.04;">The Price of Fire</div>
+    <div class="dek" style="font-size:11pt;">A war in the Gulf moved a number on a screen, and the number moved everything else — bills, rents, the cost of a building, the power to run a model. This is an essay about the oldest input there is, and the strange mercy hidden inside its price.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">Twenty-five centuries ago, before economics had a vocabulary, Heraclitus of Ephesus reached for the only universal he trusted to explain a world in flux. "All things," he wrote, "are an exchange for fire, and fire for all things, as goods for gold and gold for goods."<sup class="fnref">1</sup> He meant it as metaphysics — fire as the restless substance underlying all change. But read it in the week just past and it scans as something closer to a market report. Strip the poetry and Heraclitus is describing an exchange rate: everything in the world is priced, ultimately, in energy, and energy is priced in everything.</p>
+    <p class="body">This issue is, almost despite itself, a single story told twelve times. A fragile truce in the Gulf wobbles, oil twitches, and the tremor propagates outward through every desk in the book. American consumer prices print at a three-year high, with energy doing most of the lifting.<sup class="fnref">2</sup> Singapore — which makes nearly all its electricity from imported gas — builds the month into a relief calendar and braces for a July tariff set to "fully reflect" the war.<sup class="fnref">3</sup> A property desk discovers that the least-discussed number in real estate, the cost of putting up the building, is really an energy number wearing a hard hat. And the technology desk finds the same input throttling the future from the other end: the binding constraint on artificial intelligence, it turns out, is not chips or data but <em>watts</em> — power to feed the grid the models are hungry to drain.</p>
+    <p class="body">Fire, in other words, is still the currency Heraclitus said it was. We have simply built a civilisation elaborate enough to disguise the fact — to let a household experience an oil shock as a slightly larger electricity bill, a developer experience it as a higher break-even psf, a researcher experience it as a queue for grid capacity. The disguises are so good that it takes a war to remind us they're disguises, and that under every price in the book sits the same shimmering, expensive thing.</p>
+  </div>
+
+  <div class="pull gold">"Everything in the world is priced, ultimately, in energy — and energy is priced in everything."</div>
+
+  <div class="cols2">
+    <p class="body">What makes this more than a tidy observation is a question hiding inside it, the one the rest of this essay is about. If fire is the universal input, then a spike in its price ought to make everything poorer, full stop. And yet the long history of energy says something stranger and more hopeful: that the price of fire and the price of what we actually <em>want</em> from fire — warmth, light, motion, now thought itself — have spent centuries pulling apart. The bill went up this week. The thing the bill buys has, over any horizon that matters, become almost unimaginably cheap. Both are true at once, and the gap between them is the most important number nobody quotes.</p>
+  </div>
+
+    <div class="shelf" style="margin-top:4px;">
+    <div class="h">The Threads · what runs through this issue</div>
+    <p><b>1 · Energy as the master input</b> — the Gulf shock reaching every desk, from US inflation to a Singapore tariff to a developer's break-even. <b>2 · The contested grid</b> — AI's binding constraint turning out to be power, not chips. <b>3 · Efficiency's paradox</b> — leaner models that may enlarge, not shrink, the problem. <b>4 · What endures when money inflates</b> — the case for owning the durable thing. <b>5 · The widening wedge</b> — between the price of the fuel and the price of what we want from it.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Heraclitus, Fragments (c. 500 BC), DK B90, John Burnet translation. 2. US CPI, May 2026 (4.2% y/y; energy the dominant contributor); CBS/CNN reporting. 3. EMA / SP Group tariff guidance; Malay Mail.</div>
+    <div class="fnbar"><span>Meridian · The Long Read</span><span>Page 21</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 22 — THE LONG READ (2) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Essay</span><span>The Long Read · continued</span></div>
+  <div class="rhrule"></div>
+
+  <div class="cols2" style="margin-top:7mm;">
+    <p class="body">To see why the bill and the benefit diverge, start with a German chemist and a barrel. In the 1840s Justus von Liebig formalised what farmers half-knew: a crop's growth is governed not by the total nutrients available but by the single scarcest one — the "limiting factor." Pour on all the nitrogen you like; if phosphorus is short, the harvest stalls at what the phosphorus permits. Liebig's Law of the Minimum is usually drawn as a barrel with staves of unequal height: the water level — the yield — is set by the <em>shortest</em> stave, no matter how tall the others stand.<sup class="fnref">1</sup></p>
+    <p class="body">It is a law about bottlenecks, and it explains this week with uncomfortable precision. For a decade the limiting stave on computing was silicon — the chips. We spent accordingly, and the industry optimised ferociously against that one constraint. But solve a bottleneck and you don't end scarcity; you just promote the next-shortest stave to binding. The technology desk's reporting this fortnight — a US Department of Energy grid simulator launched to model the crunch, data-centre demand forecast to roughly double toward 150 gigawatts by 2028, three hundred-plus state bills fighting over who pays — is the sound of a whole industry discovering that its limiting factor has quietly changed from chips to <em>power</em>.<sup class="fnref">2</sup> The harvest is now set by the watts stave. And watts, this week, means fire, which means the same Gulf shock that is sitting on the household electricity bill.</p>
+  </div>
+
+  <div class="figframe" style="margin-top:4px;">
+    <svg width="100%" height="150" viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg">
+      <text x="6" y="14" font-family="Poppins,sans-serif" font-size="9" font-weight="700" fill="#191613" letter-spacing="1.2">LIEBIG'S BARREL — THE BINDING STAVE MOVES</text>
+      <!-- barrel 1: chips short -->
+      <g>
+        <rect x="40" y="40" width="14" height="90" fill="#2f4858"/>
+        <rect x="58" y="60" width="14" height="70" fill="#2f4858"/>
+        <rect x="76" y="35" width="14" height="95" fill="#2f4858"/>
+        <rect x="94" y="72" width="14" height="58" fill="#c1462e"/>
+        <rect x="112" y="45" width="14" height="85" fill="#2f4858"/>
+        <rect x="40" y="86" width="86" height="44" fill="#b08738" opacity="0.28"/>
+        <text x="83" y="145" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Yesterday: chips bind</text>
+        <text x="101" y="70" font-family="Poppins,sans-serif" font-size="6.5" fill="#c1462e" text-anchor="middle" font-weight="700">chips</text>
+      </g>
+      <text x="240" y="92" font-family="Poppins,sans-serif" font-size="22" fill="#7a7264" text-anchor="middle">→</text>
+      <!-- barrel 2: power short -->
+      <g>
+        <rect x="330" y="40" width="14" height="90" fill="#2f4858"/>
+        <rect x="348" y="50" width="14" height="80" fill="#2f4858"/>
+        <rect x="366" y="35" width="14" height="95" fill="#2f4858"/>
+        <rect x="384" y="44" width="14" height="86" fill="#2f4858"/>
+        <rect x="402" y="80" width="14" height="50" fill="#c1462e"/>
+        <rect x="330" y="92" width="86" height="38" fill="#b08738" opacity="0.28"/>
+        <text x="373" y="145" font-family="Poppins,sans-serif" font-size="7" fill="#7a7264" text-anchor="middle">Today: power binds</text>
+        <text x="409" y="76" font-family="Poppins,sans-serif" font-size="6.5" fill="#c1462e" text-anchor="middle" font-weight="700">watts</text>
+      </g>
+      <text x="492" y="86" font-family="Lora,serif" font-size="8" font-style="italic" fill="#403a32" text-anchor="middle">solve one</text>
+      <text x="492" y="98" font-family="Lora,serif" font-size="8" font-style="italic" fill="#403a32" text-anchor="middle">stave, the</text>
+      <text x="492" y="110" font-family="Lora,serif" font-size="8" font-style="italic" fill="#403a32" text-anchor="middle">next binds</text>
+    </svg>
+    <div class="imgcap">A Meridian schematic after Liebig (1840s). Output is set by the shortest stave; relieve it and the constraint simply migrates. For AI, the binding stave has moved from chips to power. Source: concept after Liebig's Law of the Minimum.</div>
+  </div>
+
+  <div class="cols2">
+    <p class="body dropcap">Here is where intuition fails, and where the second thinker earns his place. Faced with an energy bottleneck, the natural hope is efficiency: make the models leaner, the chips do more per watt, and surely the power problem shrinks. In 1865 a young English economist named William Stanley Jevons demolished exactly that hope. Studying Britain's coal, he observed that James Watt's far more efficient steam engine had not reduced the nation's coal consumption — it had <em>multiplied</em> it. By making coal-power cheaper and more useful, efficiency had made it worth using for a thousand new things. Consumption exploded.<sup class="fnref">3</sup></p>
+    <p class="body">The Jevons Paradox is the most counter-intuitive idea in this issue and the one that should most temper the optimism on the home-lab page. Yes, the new desk-class boxes deliver remarkable tokens-per-watt; yes, the open-weight models keep getting leaner. But if history holds, that efficiency will not calm the grid — it will recruit the next ten thousand uses, the next million users, the next layer of always-on inference nobody has imagined yet, until the aggregate draw is higher than before the saving. Efficiency is not an exit from the energy problem. Frequently it is the on-ramp.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. Justus von Liebig, Law of the Minimum (1840s agricultural chemistry). 2. US DOE grid simulator launch (2 Jun 2026); data-centre demand forecasts (Bloom Energy; ~80→150 GW by 2028); state-legislation tracking (Pew / Belfer). 3. W. S. Jevons, "The Coal Question" (1865) — the rebound effect.</div>
+    <div class="fnbar"><span>Meridian · The Long Read</span><span>Page 22</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 23 — THE LONG READ (3) ============ -->
+<div class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Essay</span><span>The Long Read · continued</span></div>
+  <div class="rhrule"></div>
+
+  <div class="cols2" style="margin-top:7mm;">
+    <p class="body">So far the ledger reads grim: fire is the universal price (Heraclitus), the bottleneck has migrated to power (Liebig), and efficiency may dig the hole deeper, not fill it (Jevons). If the essay stopped here it would be a counsel of despair. It doesn't, because of a quieter piece of scholarship that reframes everything above. In 1996 the economist William Nordhaus asked a deceptively simple question: across human history, what has it actually cost to light a room?<sup class="fnref">1</sup></p>
+    <p class="body">His answer is one of the great underappreciated facts of economics. Measured in the hours of work needed to buy a given amount of light, illumination has not become a little cheaper since the days of the campfire and the tallow candle. It has become cheaper by a factor in the <em>thousands</em> — arguably tens of thousands. A modern worker earns a night's worth of bright, clean light in seconds of labour; an ancient one spent the better part of a day's wages for a guttering, smoky fraction of it. The price of fire, in Heraclitus's sense, rose and fell and rose again across those centuries. The price of what we wanted <em>from</em> fire — the lumens, the actual light — collapsed almost to nothing.</p>
+    <p class="body">That is the gap this essay has been circling. We persistently mistake the price of the input for the price of the want. Fire got expensive this week; warmth, light, motion and, increasingly, computation did not — not on any horizon longer than the news cycle. The entire arc of energy history is the widening of the wedge between what we pay for the fuel and what we get for the paying, driven by exactly the two forces the gloomy half of this essay distrusted: efficiency (which lowers the cost per unit of service) and substitution (which, when one fire gets dear, lights another). Jevons is right that efficiency raises total consumption — but he is describing a world getting so much <em>richer in light</em> that it can afford to flood itself with it. The rebound is a symptom of abundance, not its refutation.</p>
+  </div>
+
+  <div class="pull gold">"We mistake the price of the fuel for the price of the warmth. The whole human project is the widening of the gap between them."</div>
+
+  <div class="cols2">
+    <p class="body">Which is why the durable answer to an energy shock has never, historically, been rationing — the managed shrinking of the want. It has been the next source and the better engine: from wood to coal to oil to gas to the split atom and the captured photon, each transition lighting the room more cheaply than the last even as the headline price of the day's fuel screamed. This issue's home-lab reader, fretting over tokens-per-watt, is living a miniature of the same story Nordhaus told about candles. The watts stave binds today. It will be relieved — not by using less, but by the same restless substitution Heraclitus saw at the bottom of everything: fire exchanged for fire, endlessly, on slightly better terms each time.</p>
+    <p class="body">There is a thread here that this publication keeps pulling. We have argued before, with Cicero, that a civilisation rests on a substrate it forgets to fund (No. 16); with Pasteur, that the prepared mind and the held reserve meet the crisis better than the panicked one (No. 14); and, with Thoreau, that the true cost of anything is the amount of life you exchange for it (No. 10). Put them together and the price of fire resolves into something almost consoling. The bill is real, and this week it stings. But the life we exchange for light has been falling for three thousand years, and a Gulf tremor — grave as its human cost is — does not reverse an arc that long. Heraclitus was right that all things flow. He just didn't mention that, for the things we actually want, they have mostly flowed our way.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> · 1. William D. Nordhaus, "Do Real-Output and Real-Wage Measures Capture Reality? The History of Lighting Suggests Not" (1996) — the long-run real price of light. Callbacks: Cicero (No. 16), Pasteur (No. 14), Thoreau (No. 10).</div>
+    <div class="fnbar"><span>Meridian · The Long Read</span><span>Page 23</span></div>
+  </div>
+</div>
+
+<!-- ============ PAGE 24 — BACK COVER ============ -->
+<div class="page dark" style="display:flex;flex-direction:column;">
+  <div class="topbar"><span></span><span>No. 19 · Singapore</span></div>
+
+  <div style="margin-top:20mm;padding:0 4mm;">
+    <div style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);">The Last Word</div>
+    <div style="font-family:'Lora',serif;font-weight:700;font-size:24pt;line-height:1.08;color:var(--paper);margin-top:8px;">On reading a war in your electricity bill</div>
+    <div style="font-family:'Lora',serif;font-size:11pt;line-height:1.5;color:var(--blush);margin-top:14px;max-width:150mm;">
+      <p style="margin-bottom:10px;">There is a particular vertigo to a fortnight like this one — the sense of a distant, dreadful event reaching into the most domestic corners of a life half a world away. A missile over the Gulf becomes a line on a Singapore tariff sheet; a downed helicopter becomes a number an American family reads at the petrol pump. It can feel like fragility.</p>
+      <p style="margin-bottom:10px;">But the same wiring that transmits the shock is the thing that, over any horizon longer than a headline, has made light and warmth and motion almost free. The connectedness that lets a faraway war touch your meter is the connectedness that lets a better, cheaper source of fire — when it arrives — reach you just as fast. The grid cuts both ways. This week it carried the cost. Most weeks, quietly, it carries the mercy.</p>
+      <p>Mind the bill. Don't mistake it for the whole story.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:auto;padding:0 4mm 4mm;">
+    <div style="border-top:1pt solid var(--gold);padding-top:10px;">
+      <div style="font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;">Consolidated Sources · No. 19</div>
+      <div style="font-family:'Poppins',sans-serif;font-size:6.4pt;line-height:1.5;color:var(--blush);column-count:2;column-gap:10mm;">
+        <b>The World:</b> AP / Britannica ("2026 Iran war"); CNBC; CBS/CNN (US CPI May 2026); Reuters (IAEA Board); TradingEconomics. <b>Singapore:</b> EMA / SP Group; Malay Mail; SG Parliament Order Paper; MTI (Q1 GDP, Apr CPI). <b>Property:</b> BCA; URA &amp; HDB Q1 2026; SmartCalculator / ERA / 99.co; Stacked Homes. <b>Technology:</b> Data Center Knowledge (DOE "Agora," 2 Jun); Bloom Energy; Pew / Belfer; Consumer Reports; Fortune; IEA. <b>The Kit:</b> BGR; Men's Health (Google Fitbit Air). <b>Connected Home:</b> Home Assistant release notes (2026.6); Matter / CSA. <b>Good Life:</b> Gear Patrol (B&amp;W 800 D5). <b>Screen &amp; Sound:</b> Variety; Women's Prize / Waterstones. <b>Family:</b> Cambridge / UK MAS; Institute for Family Studies; Members Trust CU; High Country. <b>Whisper:</b> Morning Honey; Hollywood Life; BuzzFeed (all reported/rumoured). <b>Curiosities:</b> Universe Today; ScienceDaily (arXiv preprint). <b>Love &amp; Life:</b> Institute for Family Studies; Future Laboratory. <b>Fitness:</b> ScienceDaily (Karolinska 47-yr cohort). <b>The Diary:</b> VisitSingapore; Time Out SG; Eatbook; DanielFoodDiary; Tatler Asia; festival organiser listings. <b>The Long Read:</b> Heraclitus (Burnet trans.); Liebig; W. S. Jevons (1865); W. D. Nordhaus (1996).
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:14px;">
+      <div>
+        <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:13pt;letter-spacing:.08em;color:var(--paper);">MERIDIAN</div>
+        <div style="font-family:'Lora',serif;font-style:italic;font-size:9pt;color:var(--gold);">Twelve Desks · One World</div>
+      </div>
+      <div style="text-align:right;font-family:'Poppins',sans-serif;font-size:6.4pt;line-height:1.6;color:var(--muted);">
+        No. 19 · Thursday 11 June 2026<br>
+        An independent briefing · Singapore<br>
+        Quotes &amp; data sourced; gossip flagged; family &amp; fitness items are general guidance, not advice.
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
