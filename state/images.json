@@ -1,0 +1,17 @@
+{
+  "_comment": "MERIDIAN verified-image manifest. `verified` is the growable library of Wikimedia Commons files whose subject + licence + author have been confirmed from the file's own Commons page (add to it only from a network-connected session that can open the page). `heroes` assigns library files to desks for a given issue; the Photo-Edition build reads `heroes`, filters by `issue`, and inserts each as a .ph-frame above that desk's headline. Honesty rule: never mislabel. `specific:true` = the image IS the named subject; `specific:false` = a clearly-labelled representative/generic image. Conceptual figures (charts, maps, diagrams) always stay as original SVG — never a photo.",
+  "verified": [
+    {"file": "Singapore Marina Bay Dusk 2018-02-27.jpg", "subject": "Marina Bay, Singapore, at dusk", "license": "CC BY-SA 4.0", "author": "Benh Lieu Song", "note": "Commons Featured Picture"},
+    {"file": "Chips on 6-Inch-Wafer 01.jpg", "subject": "semiconductor dies on a silicon wafer (generic)", "license": "CC BY-SA 3.0", "author": "Kuebi / Armin Kübelbeck"},
+    {"file": "Headphones 1.jpg", "subject": "over-ear headphones (generic)", "license": "CC BY-SA 2.5", "author": ""},
+    {"file": "ESO - Milky Way.jpg", "subject": "the Milky Way over Paranal", "license": "CC BY 4.0", "author": "ESO", "note": "Commons Featured Picture"},
+    {"file": "3I-ATLAS Hubble heic2509a.jpg", "subject": "interstellar comet 3I/ATLAS (Hubble)", "license": "CC BY 4.0", "author": "NASA/ESA/D. Jewitt et al. (ESA-Hubble)"},
+    {"file": "Taipei Skyline 2022.06.29.jpg", "subject": "Taipei skyline incl. Taipei 101", "license": "CC BY-SA 2.0", "author": "Heeheemalu"}
+  ],
+  "heroes": [
+    {"issue": "37", "anchor": "Meridian · Singapore</span><span>The Little Red Dot", "file": "Singapore Marina Bay Dusk 2018-02-27.jpg", "license": "CC BY-SA 4.0", "author": "Benh Lieu Song", "specific": true, "caption": "Marina Bay at dusk — representative of the island the Circle Line now loops."},
+    {"issue": "37", "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty", "file": "Chips on 6-Inch-Wafer 01.jpg", "license": "CC BY-SA 3.0", "author": "Kuebi / Armin Kübelbeck", "specific": false, "caption": "Semiconductor dies on a wafer — representative, not the specific memory parts discussed."},
+    {"issue": "37", "anchor": "Meridian · The Kit</span><span>Gear We're Watching", "file": "Headphones 1.jpg", "license": "CC BY-SA 2.5", "author": "", "specific": false, "caption": "Personal audio — representative; NOT the Nothing Ear (3a) reviewed here."},
+    {"issue": "37", "anchor": "Meridian · Curiosities</span><span>The Far Edges", "file": "ESO - Milky Way.jpg", "license": "CC BY 4.0", "author": "ESO", "specific": true, "caption": "The Milky Way — representative deep sky, not the Euclid quasar field."}
+  ]
+}
