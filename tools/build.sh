@@ -15,6 +15,8 @@ cp -f meridian.css build/meridian.css 2>/dev/null || true
 echo "== validate =="            ; python3 tools/validate.py "$H"
 echo "== render =="              ; python3 tools/render.py "$H" "$P"
 echo "== QA gate =="             ; python3 tools/qa.py "$H" "$P"      # non-zero exit blocks on collision
+echo "== archive manifest =="    ; python3 tools/build_manifest.py "$NN"  # (run extract_state.py first so the new issue is included + searchable)
 echo "== photo edition =="       ; python3 tools/make_photo_edition.py "$H" build/index.html "$NN" "$DATE"
 echo
 echo "OK — review build/sheet-*.png, then place deliverables and commit."
+echo "Reminder: archive the OUTGOING issue BEFORE overwriting root — run tools/archive.py while root still holds it."

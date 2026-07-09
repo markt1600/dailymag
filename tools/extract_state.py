@@ -47,7 +47,7 @@ for cells in rows_under("ISSUE LOG"):
         "date": cells[1],
         "quote": cells[2].strip('"'),
         "author": cells[3],
-        "note": (cells[4][:300] if len(cells) > 4 else ""),
+        "note": (cells[4] if len(cells) > 4 else ""),   # full note: build_manifest parses title + search text from it
     })
 issues.sort(key=lambda x: x["no"])
 next_no = (max((i["no"] for i in issues), default=0) + 1) if issues else 1

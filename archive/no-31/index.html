@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+
+/* ---- Photo Edition screen-flow overrides (scoped to non-dark pages) ---- */
+body{background:#5a5650;}
+.page:not(.dark){height:auto;min-height:297mm;overflow:visible;}
+.page:not(.dark) .pgfoot{position:static;margin-top:8mm;}
+.ph-frame{width:100%;aspect-ratio:16/8;overflow:hidden;border-radius:2px;margin:6px 0 2px;background:#e8dccb;}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.ph-cap{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.04em;color:#7a7264;margin:3px 0 4px;}
+
+</style>
+<title>MERIDIAN — No. 31</title>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 — COVER ===================== -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 31 · Singapore</span></div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+    <div style="font-family:'Poppins',sans-serif;font-size:8.5pt;letter-spacing:.3em;text-transform:uppercase;color:#cdbfa6;margin-top:9px;">Thursday · 25 June 2026</div>
+  </div>
+
+  <!-- Cover hero: the high-water mark -->
+  <div style="position:absolute;top:92mm;left:14mm;right:14mm;">
+    <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+      <defs>
+        <linearGradient id="tide" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2b6b66" stop-opacity="0.0"/>
+          <stop offset="1" stop-color="#2b6b66" stop-opacity="0.55"/>
+        </linearGradient>
+        <linearGradient id="crest" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#b08738"/>
+          <stop offset="0.55" stop-color="#c1462e"/>
+          <stop offset="1" stop-color="#9c3422"/>
+        </linearGradient>
+      </defs>
+      <!-- faint measuring grid -->
+      <g stroke="#3a342c" stroke-width="1">
+        <line x1="40" y1="40" x2="40" y2="300"/>
+        <line x1="40" y1="300" x2="680" y2="300"/>
+      </g>
+      <g stroke="#4a4236" stroke-width="0.8" font-family="Poppins, sans-serif" font-size="9" fill="#7a7264">
+        <line x1="36" y1="86" x2="44" y2="86"/><text x="14" y="90">VI</text>
+        <line x1="36" y1="140" x2="44" y2="140"/><text x="12" y="144">IV</text>
+        <line x1="36" y1="194" x2="44" y2="194"/><text x="16" y="198">II</text>
+        <line x1="36" y1="248" x2="44" y2="248"/><text x="22" y="252">0</text>
+      </g>
+      <!-- the rising-then-cresting curve (a peak) -->
+      <path d="M40,288 C150,280 210,250 280,150 C320,92 350,70 392,86 C440,104 470,210 560,250 C610,272 650,282 680,286"
+            fill="none" stroke="url(#crest)" stroke-width="5" stroke-linecap="round"/>
+      <!-- water filling beneath the crest line -->
+      <path d="M40,288 C150,280 210,250 280,150 C320,92 350,70 392,86 C440,104 470,210 560,250 C610,272 650,282 680,286 L680,300 L40,300 Z"
+            fill="url(#tide)" opacity="0.5"/>
+      <!-- the high-water mark line + label -->
+      <line x1="40" y1="78" x2="680" y2="78" stroke="#b08738" stroke-width="1.4" stroke-dasharray="2 5"/>
+      <circle cx="392" cy="78" r="4.5" fill="#b08738"/>
+      <text x="404" y="73" font-family="Poppins, sans-serif" font-size="11" letter-spacing="3" fill="#cdbfa6">HIGH-WATER MARK</text>
+      <!-- a small wheel-of-fortune turning at the crest -->
+      <g transform="translate(392,86)" stroke="#efe9db" stroke-width="1.2" fill="none" opacity="0.85">
+        <circle r="17"/>
+        <line x1="-17" y1="0" x2="17" y2="0"/><line x1="0" y1="-17" x2="0" y2="17"/>
+        <line x1="-12" y1="-12" x2="12" y2="12"/><line x1="-12" y1="12" x2="12" y2="-12"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="cover-teasers">
+    <div style="font-family:'Lora',serif;font-style:italic;font-size:12.5pt;color:#e8dccb;border-top:1.5pt solid #b08738;padding-top:8px;">
+      Is this the top? Gold off a quarter, oil off forty per cent, an inflation gauge at its expected peak — and the discipline of not calling a summit from below it.
+    </div>
+    <div class="row">
+      <div class="col"><div class="lbl" style="color:#e2a08f;">The World</div><div class="ht">One deal, two readings — and a strait that won't say who owns it</div></div>
+      <div class="col"><div class="lbl" style="color:#d9b97a;">The Macro Desk</div><div class="ht">The print lands today: reading a peak before it has a far side</div></div>
+      <div class="col"><div class="lbl" style="color:#8fb5b0;">Technology</div><div class="ht">A $1.3-trillion stress-test for the crowded AI trade</div></div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>The Current Briefing</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</section>
+
+<!-- ===================== PAGE 2 — CONTENTS + FROM THE DESK ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Contents</span><span>The Current Briefing</span></div>
+
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2.5pt solid var(--ink);padding-bottom:7px;margin-top:6mm;">
+    <div>
+      <div class="kicker">In This Edition</div>
+      <div style="font-family:'Lora',serif;font-weight:700;font-size:23pt;letter-spacing:-.01em;line-height:1;margin-top:3px;">Contents</div>
+    </div>
+    <div style="text-align:right;font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);line-height:1.5;">
+      No. 31 · Singapore<br>Thursday 25 June 2026<br>Twenty-four pages
+    </div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:8px;">
+    <!-- LEFT: contents list -->
+    <div>
+      <div style="columns:2;column-gap:8mm;">
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">03</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The World</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">One deal, two readings</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">05</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Singapore</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">A cooler inflation read</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">06</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Property</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">Frozen near the high mark</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">07</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Technology</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">A $1.3-trillion stress-test</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">09</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The Kit</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">The wired renaissance</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">10</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Connected Home</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">The spec runs ahead</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">11</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The Good Life</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">A soft-yen window</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">12</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Screen &amp; Sound</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">The gate, not the guess</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">13</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The Family Desk</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">A grade is a data point</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">15</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The Macro Desk</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">Inflation, priced four ways</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">16</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Curiosities</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">Life after the impact</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">17</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Love &amp; Life</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">The market vs the build</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">18</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">Fitness</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">Defending the high mark</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">19</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The Diary</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">What's worth booking</span></div>
+        <div style="break-inside:avoid;margin-bottom:7px;"><span style="font-family:'Poppins';font-weight:700;color:var(--vermilion);font-size:8pt;">21</span> &nbsp;<b style="font-family:'Lora';font-size:10.5pt;">The Long Read</b><br><span style="font-family:'Poppins';font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);">The High-Water Mark</span></div>
+      </div>
+    </div>
+
+    <!-- RIGHT: From the Desk -->
+    <div>
+      <div class="chatter gold" style="margin-top:0;">
+        <div class="lbl">From the Desk</div>
+        <div style="font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:12.5pt;line-height:1.26;color:var(--ink);margin-bottom:6px;">"I turn the wheel that spins; I delight to see the high come down and the low ascend."</div>
+        <p style="font-family:'Poppins';font-size:7.4pt;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:7px;">— Fortune, in Boethius, <i>The Consolation of Philosophy</i>, Book II (c.&nbsp;524)</p>
+        <p>Boethius wrote it in a prison cell, awaiting execution, having reached the very summit of office a year before. Fortune's point is not that the wheel is cruel but that it is a <i>wheel</i> — the top is a position on it, not a destination off it. This week the markets are crowded with apparent summits: gold a quarter below its January peak, oil down two-fifths from its war spike, the dollar at a thirteen-month high, an inflation gauge widely tipped to crest. A summit, though, is a thing you can only confirm from its far side. The whole book reads under that discipline.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MARKET STRIP -->
+  <div style="margin-top:7px;border-top:2.5pt solid var(--ink);padding-top:6px;">
+    <div class="kicker slate" style="margin-bottom:5px;">The Strip · levels at the close, 24 June 2026</div>
+    <table style="width:100%;border-collapse:collapse;font-family:'Poppins',sans-serif;">
+      <tr style="font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:.5pt solid var(--line);">
+        <th style="padding:3px 4px;font-weight:600;">Instrument</th><th style="padding:3px 4px;font-weight:600;">Level</th><th style="padding:3px 4px;font-weight:600;">Read</th>
+        <th style="padding:3px 4px;font-weight:600;">Instrument</th><th style="padding:3px 4px;font-weight:600;">Level</th><th style="padding:3px 4px;font-weight:600;">Read</th>
+      </tr>
+      <tr style="font-size:8pt;border-bottom:.5pt solid var(--line);">
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">VWRA</td><td style="padding:4px;color:var(--ink2);">held</td><td style="padding:4px;color:var(--muted);font-size:7pt;">AI-cap drag, value cushion</td>
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">USD/SGD</td><td style="padding:4px;color:var(--ink2);">~1.29</td><td style="padding:4px;color:var(--muted);font-size:7pt;">soft on dollar bid</td>
+      </tr>
+      <tr style="font-size:8pt;border-bottom:.5pt solid var(--line);">
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">Global bonds</td><td style="padding:4px;color:var(--teal);">rallied</td><td style="padding:4px;color:var(--muted);font-size:7pt;">haven bid, EU cut repricing</td>
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">USD/JPY</td><td style="padding:4px;color:var(--ink2);">~&yen;162</td><td style="padding:4px;color:var(--muted);font-size:7pt;">2-yr high, soft yen</td>
+      </tr>
+      <tr style="font-size:8pt;border-bottom:.5pt solid var(--line);">
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">US 10Y</td><td style="padding:4px;color:var(--ink2);">~4.50%</td><td style="padding:4px;color:var(--muted);font-size:7pt;">2Y ~4.20%, hawkish hold</td>
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">Brent</td><td style="padding:4px;color:var(--ink2);">~$76</td><td style="padding:4px;color:var(--muted);font-size:7pt;">−40% off war peak</td>
+      </tr>
+      <tr style="font-size:8pt;border-bottom:.5pt solid var(--line);">
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">DXY</td><td style="padding:4px;color:var(--vermilion);">~101.6</td><td style="padding:4px;color:var(--muted);font-size:7pt;">13-month high</td>
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">Gold</td><td style="padding:4px;color:var(--ink2);">~$3,968</td><td style="padding:4px;color:var(--muted);font-size:7pt;">below $4,000, −25% off ATH</td>
+      </tr>
+      <tr style="font-size:8pt;">
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">STI</td><td style="padding:4px;color:var(--ink2);">~5,185</td><td style="padding:4px;color:var(--muted);font-size:7pt;">near record</td>
+        <td style="padding:4px;font-family:'Lora';font-weight:700;">BTC</td><td style="padding:4px;color:var(--ink2);">~$62.5k</td><td style="padding:4px;color:var(--muted);font-size:7pt;">−18% off May; high vol</td>
+      </tr>
+    </table>
+    <p style="font-family:'Poppins';font-size:6.2pt;color:var(--muted);margin-top:5px;line-height:1.4;">Levels are indicative, rounded, and for explanation only — not investment advice. VWRA and global bonds are the portfolio anchors; gold and bitcoin are read for macro sensitivity, not endorsed. Bitcoin carries far higher volatility. Full Macro Desk treatment on p.&nbsp;15.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Market levels: LSEG / exchange data, intra-day 24 Jun 2026 (indicative). Boethius, <i>Consolatio Philosophiae</i>, Bk II pr. 2 (trans. after H.&nbsp;R. James, 1897).</div>
+    <div class="fnbar"><span>Contents</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 3 — THE WORLD ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The World</span><span>The Meridian Dispatch</span></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Strait%20of%20Hormuz%20%28MODIS%202020-12-04%29.jpg?width=1400" alt="The Meridian Dispatch hero" loading="lazy"></div>
+  <div class="ph-cap">Source: Wikimedia Commons — File:Strait of Hormuz (MODIS 2020-12-04).jpg · Public domain (NASA/MODIS Terra) · <i>representative</i> 2020 satellite view, not this week’s traffic.</div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">The Meridian Dispatch · Tehran &amp; Washington</div>
+    <div class="hed">One signature, two road maps</div>
+    <div class="dek">A remotely-signed memorandum was meant to chart Iran's return to inspections. Its two signatories now describe completely different documents — and the strait below it still won't say who controls it.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:4px;">
+    <p class="body dropcap">The Islamabad Memorandum, signed remotely on 17 June, was supposed to be the off-ramp: a framework under which Iran readmits inspectors from the International Atomic Energy Agency and a wider settlement follows. A week on, the two governments that signed it are narrating two different texts.<sup class="fnref">1</sup></p>
+    <p class="body">From Washington, Vice-President Vance and President Trump have told supporters that Iran agreed to let inspectors back in "this week," and at other moments that the door reopens at some far-off point tied to a final accord. From Tehran, foreign-ministry spokesman Baghaei and deputy minister Gharibabadi describe no fixed timetable at all — access, they insist, comes only <i>after</i> a final deal is struck, not before, and there is "no clear schedule."<sup class="fnref">2</sup></p>
+    <p class="body">The gap is not cosmetic. The IAEA's last verified accounting of Iran's most sensitive material dates to 13 June 2025: roughly 441&nbsp;kg of uranium enriched to 60%, a short technical step from weapons grade. Where that stockpile sits today, after a war that scattered and buried parts of the programme, no inspector can currently say.<sup class="fnref">3</sup></p>
+    <p class="body">On Wednesday the Agency's director-general, Rafael Grossi, broke a notable silence — fittingly, while standing at Japan's Fukushima Daiichi plant. Inspection will have to happen, he said; the only open question is whether that is "the day after tomorrow or in ten days." It was the first hard signal that the Agency intends to force the calendar the memorandum left blank.<sup class="fnref">4</sup></p>
+
+    <div class="chatter teal">
+      <div class="lbl">The Chatter</div>
+      <p>Non-proliferation analysts on the wires read the split plainly: a deliberately ambiguous text lets each side sell a different win at home. <span class="src">— wire-service round-up</span></p>
+      <p>The sceptic's note: a memorandum that both parties can describe in incompatible terms is not yet an agreement — it is an agreement to keep talking.</p>
+    </div>
+
+    <p class="body">Beneath the diplomacy sits the Strait of Hormuz, reopening but contested. Iranian officials frame the reopening as a concession they administer — "Iran will manage it" — while warning traffic will "never return" to pre-war levels. On Monday 22 June, shipping trackers logged the busiest day since the war: somewhere between 35 and 39 vessels, still only about a third of the roughly 120 a day that transited before.<sup class="fnref">5</sup></p>
+    <p class="body">The International Maritime Organization is helping evacuate some 11,000 stranded seafarers. A 60-day US oil-sanctions waiver has freed an estimated 67 million barrels, with Chinese refiners the largest buyers — the quiet plumbing that pulled Brent back below $80 toward the mid-$70s.<sup class="fnref">6</sup></p>
+  </div>
+
+  <div class="pull" style="margin-top:6px;">"Whether the day after tomorrow or in ten days" — the inspector who would not let the calendar stay blank.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Reuters, AP, Iranian foreign-ministry briefings, 17–24 Jun 2026. 3 IAEA verification report (last full count 13 Jun 2025). 4 Grossi remarks at Fukushima Daiichi, 24 Jun 2026. 5–6 Lloyd's List / TankerTrackers / IMO statements, 22–24 Jun 2026.</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 4 — THE WORLD (viewpoints + secondaries) ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The World</span><span>Around the Desks</span></div>
+
+  <div style="margin-top:5mm;display:flex;justify-content:space-between;align-items:baseline;border-bottom:2.5pt solid var(--ink);padding-bottom:5px;">
+    <div class="kicker slate">Four Capitals, One Document</div>
+    <div style="font-family:'Poppins';font-size:7pt;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);">How the memorandum reads from each desk</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div class="desk">
+      <div class="flag">Washington <span class="geo">Pool / briefings</span></div>
+      <p>Framed as a win already banked: inspectors return imminently, pressure worked, the strait is open. The timeline is asserted rather than documented — and shifts between tellings.</p>
+    </div>
+    <div class="desk">
+      <div class="flag">Tehran <span class="geo">IRNA / MFA</span></div>
+      <p>Access follows a final deal, not the memorandum; "no clear schedule." Hormuz is reopened as a sovereign favour Iran administers, not a right restored — and not to pre-war volumes.</p>
+    </div>
+    <div class="desk">
+      <div class="flag">Vienna <span class="geo">IAEA</span></div>
+      <p>Grossi forces the question the text dodged: inspection is not optional and not distant. The Agency's leverage is its last verified number — 441&nbsp;kg at 60% — and the fact that nobody else can replace it.</p>
+    </div>
+    <div class="desk">
+      <div class="flag">Beijing <span class="geo">State media / refiners</span></div>
+      <p>Pragmatic and acquisitive: Chinese refiners are the biggest buyers of the waiver barrels. The framing is stability-and-supply, with the West's timetable treated as someone else's drama.</p>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div>
+      <div class="kicker">Westminster · The landslide that curdled</div>
+      <div class="hed sm">Eighteen months from a landslide to a resignation</div>
+      <div class="cols2" style="margin-top:4px;">
+        <p class="body tight">On Monday 22 June, Sir Keir Starmer resigned — barely eighteen months after the 2024 general election handed Labour a crushing majority of 174 seats on 403 won. A mandate that vast, unwound that fast, is its own kind of high-water mark: a peak visible only once the tide has plainly turned.<sup class="fnref">1</sup></p>
+        <p class="body tight">Attention has swung to Andy Burnham, who re-entered the Commons by winning the Makerfield by-election on 18 June with 54.8% of the vote. Wes Streeting has backed him; press counts put around 200 MPs in his column, raising the prospect of a near-coronation rather than a drawn-out contest. Nominations are expected to run 9–16 July, with a new prime minister possibly installed around 17–18 July.<sup class="fnref">2</sup></p>
+        <p class="body tight">Should it hold, Burnham would become Britain's seventh leader in a decade — a cadence of churn that has become the country's settled condition rather than its exception.</p>
+      </div>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>A "coronation" counted in pledges before a ballot is a snapshot of momentum, not a result. Westminster has mis-counted these before. <span class="src">— lobby commentary</span></p>
+      </div>
+      <div class="stat"><div class="n">7th</div><div class="c">UK leader in a decade, if confirmed</div></div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="cols3" style="margin-top:2px;">
+    <p class="body tight"><b style="font-family:'Lora';">Lebanon.</b> The truce frayed again: two people were killed on Tuesday 24 June in renewed cross-border fire, a reminder that a ceasefire is a pause held open by both hands, not a settled line.<sup class="fnref">3</sup></p>
+    <p class="body tight"><b style="font-family:'Lora';">Colombia.</b> First-round results confirmed: de la Espriella 43.7% to Cepeda 40.9%, sending a polarised contest to a run-off and continuing the region's anti-incumbent drift.<sup class="fnref">4</sup></p>
+    <p class="body tight"><b style="font-family:'Lora';">Ukraine.</b> Long-range strikes on Russian refining capacity continued through the week — the slow-burn energy-attrition campaign advancing by degrees rather than headlines.<sup class="fnref">5</sup></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 BBC, Guardian, PA Media, 18–24 Jun 2026; Makerfield by-election result 18 Jun. 3 Reuters / AFP, 24 Jun 2026. 4 Colombia Registraduría first-round count. 5 Ukrainian General Staff / open-source monitoring, w/c 23 Jun 2026.</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 5 — SINGAPORE ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Singapore</span><span>The Little Red Dot</span></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1400" alt="The Little Red Dot hero" loading="lazy"></div>
+  <div class="ph-cap">Source: Wikimedia Commons — File:Singapore Marina Bay Dusk 2018-02-27.jpg · CC BY-SA 4.0 · Benh Lieu Song.</div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">The Little Red Dot · Prices</div>
+    <div class="hed">May prices cooled — a local read on a global peak</div>
+    <div class="dek">Singapore's inflation print came in softer than economists expected, easing services costs just as the global inflation debate turns on whether the worst is now behind it.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">May's consumer-price data, released this week, undershot expectations: services costs eased and the headline number drifted below the pace economists had pencilled in. April had run at 1.8% headline and 1.4% core; the May read pulls the trend gently lower rather than sharply down.<sup class="fnref">1</sup></p>
+      <p class="body">MAS and the trade ministry are holding their 2026 forecast band at 1.5–2.5%, with the risks tilted to the upside on energy. The practical implication for the Monetary Authority's July review is that a hold looks the path of least resistance — the data give it no reason to move, and the global backdrop gives it several to wait.<sup class="fnref">2</sup></p>
+      <p class="body">The read-through to the reader's own anchors is on the Macro Desk (p.&nbsp;15): a cooler local print is the Singapore corner of a worldwide argument about whether May was the high-water mark for inflation and June the start of the ebb.</p>
+      <p class="body">Two structural shifts land on 1 July. The retirement age rises from 63 to 64 and the re-employment ceiling from 68 to 69 — incremental steps in a long demographic adjustment that quietly reshapes the back half of a working life and the maths of an early exit from it.<sup class="fnref">3</sup></p>
+      <p class="body">The oil collapse helps here too: with Brent down roughly two-fifths from its war peak, the lagged energy-tariff pressure that the desk flagged last issue should ease rather than build into the second half.<sup class="fnref">4</sup></p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">63→64</div><div class="c">Retirement age, from 1 July</div></div>
+      <div class="hairline"></div>
+      <div class="stat"><div class="n">1.5–2.5%</div><div class="c">MAS/MTI 2026 inflation band, held</div></div>
+      <div class="hairline"></div>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>Local forums read the cooler print through the cost-of-living lens they always do: relief in the number, scepticism in the trolley. <span class="src">— r/singapore round-up</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-12" style="margin-top:2px;">
+    <div>
+      <div class="kicker slate">The index at its own peak</div>
+      <p class="body tight" style="margin-top:3px;">The Straits Times Index has held near a record around 5,185 even as a $1.3-trillion rout tore through global tech this week — Singapore's own high-water mark, propped by the value-and-yield tilt that has lately been a virtue rather than a drag. Whether that resilience is strength or simply a different exposure is the question the Macro Desk takes up.<sup class="fnref">5</sup></p>
+    </div>
+    <div>
+      <div class="kicker slate">In brief</div>
+      <p class="body tight" style="margin-top:3px;"><b>NODX</b> surged +38.4% in the latest print — strong, and noted, but a volatile series best read as a trend than a turn.<sup class="fnref">6</sup> &nbsp;<b>Nuclear.</b> The SMR question stays parked at a 2027 decision horizon; the Asia Nuclear &amp; SMR summit lands in Singapore 30 Jun–1 Jul, a marker on the calendar rather than a commitment on the grid.<sup class="fnref">7</sup></p>
+    </div>
+  </div>
+
+  <div class="pull">A cooler print is the local corner of a global question: was May the peak, and is June the ebb?</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 SingStat / MAS-MTI release, w/c 23 Jun 2026; April baseline 1.8% headline / 1.4% core. 3 MOM, re-employment &amp; retirement-age changes effective 1 Jul 2026. 4 ICE Brent, intra-day 24 Jun. 5 SGX / STI, 23–24 Jun. 6 Enterprise SG NODX print. 7 Asia Nuclear &amp; SMR summit programme, 30 Jun–1 Jul 2026.</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 6 — PROPERTY ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">Bricks &amp; Mortar · The land bid vs the launch</div>
+    <div class="hed">Developers still bid firm — even as buyers go quiet</div>
+    <div class="dek">A fresh city-fringe land benchmark says the people who build are confident; a three-month low in monthly sales says the people who buy are not. The market is frozen near its own high mark.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">The clearest tell this fortnight was a tender, not a launch. The River Valley Green (Parcel C) government-land site closed on 18 June with a top bid of S$750.57&nbsp;million from a Sunway–MCL and CSC Land tie-up — about S$1,730 per square foot per plot ratio, a fresh Core Central Region benchmark, drawn from four bids.<sup class="fnref">1</sup></p>
+      <p class="body">That is the confident half of the market. The other half showed up in the monthly tally: developer sales fell to roughly 447 units in May, a three-month low, against about 1,548 in April. Land is bid as if demand is durable; units move as if buyers have stepped back to watch. Both can be true at a frozen peak — the gap between them <i>is</i> the freeze.<sup class="fnref">2</sup></p>
+      <p class="body">The floor under prices is poured in concrete, not sentiment. With break-even costs on prime sites now north of S$2,400 psf, the construction-cost base limits how far a developer can discount even into a slow month — which is why a quiet sales print does not translate into a soft land bid.<sup class="fnref">3</sup></p>
+      <p class="body">The pipeline ties to last issue's threads. Vela Bay, SingHaiyi's first private launch in the Bayshore precinct, sits right at Bayshore MRT — knitting together the Thomson-East Coast Line Stage 4 opening we covered in No.&nbsp;30 and the 15 July Bayshore land tender still to come. The precinct is being priced before it is fully built.<sup class="fnref">4</sup></p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">$1,730</div><div class="c">psf ppr — River Valley Green C top bid</div></div>
+      <div class="hairline"></div>
+      <div class="stat"><div class="n">447</div><div class="c">May new-home sales — a 3-month low</div></div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>A record land bid in a slow sales month is not a contradiction to resolve — it is a cost floor meeting a confidence ceiling. Watch which one cracks first. <span class="src">— agency desk note</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-12" style="margin-top:2px;">
+    <div>
+      <div class="kicker slate">The year ahead</div>
+      <p class="body tight" style="margin-top:3px;">Roughly 22 launches and about 9,700 units are slated for 2026, with some 85% in the Rest of Central and Outside Central regions — supply tilted firmly toward the mass-market and city-fringe, not the prime core. It is a volume story with a geography, and the geography favours the commuter line over the postcode.<sup class="fnref">5</sup></p>
+    </div>
+    <div>
+      <div class="kicker slate">Still on the shelf</div>
+      <p class="body tight" style="margin-top:3px;"><b>SORA</b> drifts with the global rate repricing — a one-line continuity item, not a lead, exactly as the standing note requires.<sup class="fnref">6</sup> &nbsp;<b>The EC overhaul</b> of 8 May (No.&nbsp;28) stays on the books; no new peg this fortnight, so it holds its place without a headline.</p>
+    </div>
+  </div>
+
+  <div class="pull">Land bid like demand is durable; units sold like buyers have stepped back. The gap between them is the freeze.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 URA GLS tender close, River Valley Green Parcel C, 18 Jun 2026. 2 URA / developer monthly sales, May 2026 (vs April). 3 Industry break-even estimates, prime GLS, mid-2026. 4 SingHaiyi / Vela Bay launch materials; Bayshore GLS tender 15 Jul. 5 Consultancy 2026 launch pipeline estimates. 6 SORA, MAS published rate, w/c 23 Jun.</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 7 — TECHNOLOGY ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Servers%20in%20a%20Rack.jpg?width=1400" alt="Silicon &amp; Sovereignty hero" loading="lazy"></div>
+  <div class="ph-cap">Source: Wikimedia Commons — File:Servers in a Rack.jpg · CC BY-SA 3.0 · Abigor · <i>representative</i> data-centre rack, not the reader’s home lab.</div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Silicon &amp; Sovereignty · The stress-test</div>
+    <div class="hed">A $1.3-trillion stress-test for the crowded trade</div>
+    <div class="dek">After a nine-week run, the AI complex met its first hard sell-off of the season — beginning in Asia, ending in a single global question: a breakdown, or a leadership group finally getting tested?</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">It started where the trading day starts. On Tuesday 23 June the rout opened in Asia — the KOSPI down about 10%, the Nikkei off 3.5% — and rolled west. Memory and silicon led the fall: Micron off 10–11%, Sandisk down 11.7%, Marvell 8%, Qualcomm 8.6%, Arm 8.4%, TSMC 5.2%, the SMH semiconductor ETF down 6.5%.<sup class="fnref">1</sup></p>
+      <p class="body">The Nasdaq-100 ended more than 7% below its intramonth peak, unwinding a nine-week advance in a couple of sessions. The most violent move was off-index: SpaceX fell about 35% on the week, erasing over $600 billion and dropping below its $150 IPO open; Cerebras shed 12%. Roughly $1.3&nbsp;trillion in value evaporated across the complex.<sup class="fnref">2</sup></p>
+      <p class="body">Schwab's framing was the one that travelled: a crowded leadership group finally getting stress-tested after an extended run, "not necessarily a breakdown." That is the honest read — a peak being probed, not yet a top confirmed.<sup class="fnref">3</sup></p>
+      <p class="body">The deeper anxiety is circular financing. The Nvidia-to-OpenAI capital loop the desk flagged last issue, Alphabet reported to be seeking some $85&nbsp;billion, and a steady talent churn — a DeepMind scientist decamping to Anthropic among them — all feed one worry: that AI capex is increasingly funded by the same few balance sheets it enriches.<sup class="fnref">4</sup></p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="6" y="14" font-family="Poppins" font-size="9" font-weight="700" fill="#191613">ONE-DAY MOVE, 23 JUN</text>
+          <g font-family="Poppins" font-size="8" fill="#403a32">
+            <text x="6" y="40">SpaceX (wk)</text><rect x="92" y="33" width="120" height="9" fill="#9c3422"/><text x="216" y="40">−35</text>
+            <text x="6" y="58">Sandisk</text><rect x="92" y="51" width="40" height="9" fill="#c1462e"/><text x="136" y="58">−12</text>
+            <text x="6" y="76">Cerebras</text><rect x="92" y="69" width="41" height="9" fill="#c1462e"/><text x="137" y="76">−12</text>
+            <text x="6" y="94">Micron</text><rect x="92" y="87" width="37" height="9" fill="#c1462e"/><text x="133" y="94">−11</text>
+            <text x="6" y="112">Qualcomm</text><rect x="92" y="105" width="29" height="9" fill="#b08738"/><text x="125" y="112">−8.6</text>
+            <text x="6" y="130">Arm</text><rect x="92" y="123" width="28" height="9" fill="#b08738"/><text x="124" y="130">−8.4</text>
+            <text x="6" y="148">SMH ETF</text><rect x="92" y="141" width="22" height="9" fill="#2f4858"/><text x="118" y="148">−6.5</text>
+            <text x="6" y="166">TSMC</text><rect x="92" y="159" width="18" height="9" fill="#2f4858"/><text x="114" y="166">−5.2</text>
+            <text x="6" y="184">Nasdaq-100*</text><rect x="92" y="177" width="24" height="9" fill="#2f4858"/><text x="120" y="184">−7 pk</text>
+          </g>
+          <text x="6" y="197" font-family="Poppins" font-size="5.6" fill="#7a7264">*off intramonth peak · per cent · Meridian original</text>
+        </svg>
+        <div class="imgcap">The week the AI complex was tested. Source: exchange data, 23–24 Jun 2026.</div>
+      </div>
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The Sceptic</div>
+        <p>"Nine weeks up, two days down" is what a crowded trade looks like under a flashlight — not proof the lights are off. <span class="src">— strategist note</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:2px;">
+    <div>
+      <div class="kicker slate">The next test</div>
+      <p class="body tight" style="margin-top:3px;">Micron reported after Tuesday's close. Consensus looked for EPS near $20.38 and revenue around $35.5&nbsp;billion — up some 280% year-on-year — at gross margins near 81%, with HBM4 destined for Nvidia's Rubin generation. Held honestly here as the read that follows the rout, not pre-judged.<sup class="fnref">5</sup></p>
+    </div>
+    <div>
+      <div class="kicker slate">Still on the shelf</div>
+      <p class="body tight" style="margin-top:3px;"><b>H200-to-China</b> stays a one-line continuity item under the saturation cap — no decisive new peg this fortnight, so it holds without a headline.<sup class="fnref">6</sup></p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Exchange data &amp; index closes, 23–24 Jun 2026 (KOSPI, Nikkei, Nasdaq-100, SMH; SpaceX/Cerebras secondary-market marks). 3 Charles Schwab market commentary, 23 Jun. 4 Reuters / FT reporting on AI-capex financing, w/c 23 Jun. 5 Micron FQ3 consensus &amp; guidance, reported 24 Jun. 6 Continuity item.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 8 — THE HOME LAB ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Technology</span><span>The Home Lab</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">The Home Lab · The build delta</div>
+    <div class="hed">While the trade wobbled, the local stack got better</div>
+    <div class="dek">The week's lesson for the self-hoster: the frontier you can run at home keeps advancing regardless of what the AI trade does on any given Tuesday.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">The open-weight stack moved while the listed names sold off — a useful reminder that the part of this technology the reader actually controls is decoupled from its share price. The headline delta is Gemma&nbsp;4, now circulating in 12B and 31B variants that sit squarely in the range a single prosumer GPU can serve.<sup class="fnref">1</sup></p>
+      <p class="body">Tooling kept pace. Ollama's 0.30 line and the broader MLX push on Apple silicon, plus LM Studio's MLX KV-cache work flagged in No.&nbsp;29, continue to squeeze more usable context out of the same memory. The practical sweet spot remains around 24&nbsp;GB; the working assumption among builders has hardened into a slogan — "16&nbsp;GB is the new floor."<sup class="fnref">2</sup></p>
+      <p class="body">The most reader-relevant thread is the quiet maturation of local-LLM-into-Home-Assistant: running a model on the box in the cupboard and wiring it to the house, so the smart home answers from the LAN rather than someone else's cloud. The Connected Home desk (p.&nbsp;10) picks up the reliability side of that same migration.</p>
+      <p class="body">Open-weight frontier models remain, as ever, "still on the shelf" — advancing steadily, neither a revolution nor a disappointment, exactly the cadence a home lab is built to absorb.</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">24 GB</div><div class="c">The practical local sweet spot</div></div>
+      <div class="hairline"></div>
+      <div class="chatter teal">
+        <div class="lbl">The Chatter</div>
+        <p>"16GB is the new floor" has gone from hot take to received wisdom on the local-LLM boards — the quantised 12B models made it true. <span class="src">— r/LocalLLaMA round-up</span></p>
+      </div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>A bigger model you can load is not a better assistant you'll use. The bottleneck moved from VRAM to the boring part: plumbing it into things that matter. <span class="src">— self-host forum</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">The part of this technology the reader actually controls is decoupled from its share price.</div>
+
+  <div style="margin-top:4px;">
+    <span class="tag g">Gemma 4</span><span class="tag">Ollama 0.30</span><span class="tag">MLX KV-cache</span><span class="tag s">24GB sweet spot</span><span class="tag">HA integration</span>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-21" style="margin-top:2px;">
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 460 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="6" y="14" font-family="Poppins" font-size="9" font-weight="700" fill="#191613">WHAT FITS IN 24 GB (4-BIT QUANT, INDICATIVE)</text>
+          <line x1="120" y1="26" x2="120" y2="132" stroke="#d8cfbd" stroke-width="1"/>
+          <g font-family="Poppins" font-size="8" fill="#403a32">
+            <text x="6" y="44">12B · Q4</text><rect x="124" y="36" width="90" height="11" fill="#2b6b66"/><text x="220" y="45">~8 GB · roomy</text>
+            <text x="6" y="68">12B · Q6</text><rect x="124" y="60" width="120" height="11" fill="#2b6b66"/><text x="250" y="69">~11 GB · headroom</text>
+            <text x="6" y="92">31B · Q4</text><rect x="124" y="84" width="245" height="11" fill="#b08738"/><text x="375" y="93">~19 GB · tight</text>
+            <text x="6" y="116">31B · Q6</text><rect x="124" y="108" width="300" height="11" fill="#9c3422"/><text x="430" y="117" text-anchor="end" fill="#fff" font-size="7"> over</text>
+          </g>
+          <line x1="300" y1="26" x2="300" y2="132" stroke="#9c3422" stroke-width="1" stroke-dasharray="3 3"/>
+          <text x="304" y="146" font-family="Poppins" font-size="6.4" fill="#9c3422">24 GB ceiling (less KV-cache &amp; context)</text>
+        </svg>
+        <div class="imgcap">Why 24 GB is the sweet spot and 16 GB the floor: the 12B class fits with room for context; the 31B class is a squeeze. Community VRAM estimates, not benchmarks. Meridian original.</div>
+      </div>
+    </div>
+    <div>
+      <div class="kicker slate">In brief</div>
+      <p class="body tight" style="margin-top:3px;"><b>Two sizes, one family.</b> Gemma&nbsp;4's 12B is the daily-driver; the 31B is the weekend model for the 24&nbsp;GB card, quantised hard.<sup class="fnref">1</sup></p>
+      <p class="body tight"><b>Apple silicon caught up.</b> The MLX path plus LM Studio's KV-cache work (No.&nbsp;29) means a unified-memory Mac is now a credible local box, not a compromise.<sup class="fnref">2</sup></p>
+      <p class="body tight"><b>The real frontier is plumbing.</b> The interesting work this fortnight is wiring a local model into Home Assistant — the desk picks up the reliability half on p.&nbsp;10.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 Gemma 4 open-weight release notes (12B / 31B), Jun 2026. 2 Ollama 0.30 changelog; MLX / LM Studio KV-cache (cf. No.&nbsp;29); community VRAM guidance &amp; quant-size estimates, r/LocalLLaMA, w/c 23 Jun 2026 (indicative, not benchmarked).</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 9 — THE KIT ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Kit</span><span>Gear We're Watching</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Gear We're Watching · The wired renaissance</div>
+    <div class="hed">As the wireless premium peaks, value retreats to the cable</div>
+    <div class="dek">The most interesting gear this fortnight runs against the cordless tide: a CD player, a budget turntable, and lossless wired earphones for the price of a good dinner.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">There is a high-water mark in audio too — the point at which the wireless-premium era stops adding value and starts adding price. As flagship cans push past it, the genuinely interesting releases this fortnight all share a cable. The first is NAD's C&nbsp;589 CD player: a serious transport at a moment when the disc was supposed to be dead.<sup class="fnref">1</sup></p>
+      <p class="body">Gear Patrol's week-three round-up (21 June) added an affordable audiophile turntable to the same current — the sub-flagship deck that gets a newcomer onto vinyl without a remortgage. And at the smallest end, a clutch of sub-$100 lossless wired in-ears (the Zero:Red, around $50, the touchstone) now deliver a measurable chunk of what $300 of wireless once promised.<sup class="fnref">2</sup></p>
+      <p class="body">The thread is value, not nostalgia. When the premium moves into convenience features — spatial audio, adaptive cancellation, a charging case the size of a stone — the cable becomes the place where a dollar buys the most fidelity. That is a peak being read from below: the wireless ceiling is high enough now that wires look like the value trade again.</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">~$50</div><div class="c">Lossless wired IEMs (Zero:Red ref.)</div></div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>Wired isn't <i>strictly</i> better — it's better per dollar. The cable you forget at home is worse than the earbud in your pocket. Convenience is a spec too. <span class="src">— head-fi forum</span></p>
+      </div>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>The CD revival reads as a reaction to subscription churn: own the disc, own the rip, never lose the album to a licensing dispute. <span class="src">— audio subreddit</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="kicker slate">Still on the shelf</div>
+  <div class="cols3" style="margin-top:3px;">
+    <p class="body tight"><b>Sony 1000X ColleXion</b> ($650) — flagship-priced, still the wireless high mark (No.&nbsp;27).<br><b>Soundcore Liberty 5 Pro Max</b> — value-end ANC, holding.<br><b>ATH-WP900SE × Fujigen</b> — wood-cup limited, on the list.</p>
+    <p class="body tight"><b>Snap Specs</b> — camera glasses, watching.<br><b>Meze Arta</b> — mid-fi open-back, still circulating.<br><b>WiiM Bar</b> — streaming soundbar, no new peg.</p>
+    <p class="body tight"><b>ROG Xreal R1</b> ($850 / 171" / 240Hz) — AR glasses, on the shelf.<br><b>Surface Pro X2</b> — convertible, holding.<br><span style="color:var(--muted);font-size:7pt;">One-line continuity — no new peg this issue.</span></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 NAD C&nbsp;589 product launch &amp; specs, Jun 2026. 2 Gear Patrol weekly round-up, 21 Jun 2026; budget IEM coverage (Zero:Red ~$50 ref.). Prior items: Meridian Issue Log No.&nbsp;27 (Sony ColleXion) etc.</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 10 — THE CONNECTED HOME ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Connected Home</span><span>Walls That Listen</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">Walls That Listen · Spec vs shelf</div>
+    <div class="hed">Matter 1.6 ships — months ahead of the shelf it describes</div>
+    <div class="dek">The standard advances on schedule; the devices that honour it do not. For the local-first migrator, the rule holds: buy the certified product, not the version number.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">Matter 1.6 was released on 17 June — a genuine new peg against the desk's last full treatment in No.&nbsp;26. The headline gains are in the unglamorous middle of the stack: smoother setup, better multi-ecosystem management, thermostat improvements, and NFC-assisted commissioning. What it does <i>not</i> add is new device categories — the visible thing a buyer would notice on a box.<sup class="fnref">1</sup></p>
+      <p class="body">It lands only months after 1.5.1 (31 March), and there is the rub: the specification now runs well ahead of the retail shelf and the app exposure. A standard can ship a feature in June that no device in a Singapore electronics aisle will reliably expose until well into next year. Announced is not adopted.<sup class="fnref">2</sup></p>
+      <p class="body">For the reader mid-migration to Home Assistant, the practical tool is on the HA side, not the spec side. The matter.js rebuild, the new Thread mesh view, and Matter 1.5.1 support (the No.&nbsp;30 delta) are what actually make a local-first setup legible and reliable — you can finally <i>see</i> the mesh you're depending on.<sup class="fnref">3</sup></p>
+      <p class="body">The standing rule survives another release intact: buy the device that is certified and verified to do the thing today, not the one that shares a version number with a press release. The spec is a promise; the certification is the receipt.</p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="6" y="14" font-family="Poppins" font-size="8.5" font-weight="700" fill="#191613">SPEC AHEAD OF SHELF</text>
+          <line x1="20" y1="120" x2="210" y2="120" stroke="#d8cfbd" stroke-width="1"/>
+          <line x1="20" y1="30" x2="20" y2="120" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="30" y="135" font-family="Poppins" font-size="7" fill="#7a7264">Mar</text>
+          <text x="100" y="135" font-family="Poppins" font-size="7" fill="#7a7264">Jun</text>
+          <text x="170" y="135" font-family="Poppins" font-size="7" fill="#7a7264">2027 →</text>
+          <polyline points="30,100 100,60 175,40" fill="none" stroke="#2b6b66" stroke-width="2.5"/>
+          <polyline points="30,112 100,104 175,90" fill="none" stroke="#9c3422" stroke-width="2.5" stroke-dasharray="3 3"/>
+          <circle cx="100" cy="60" r="3.5" fill="#2b6b66"/><text x="106" y="58" font-family="Poppins" font-size="6.5" fill="#2b6b66">1.6 spec</text>
+          <text x="106" y="104" font-family="Poppins" font-size="6.5" fill="#9c3422">device support</text>
+        </svg>
+        <div class="imgcap">The gap the buyer pays for. Meridian original.</div>
+      </div>
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The Sceptic</div>
+        <p>Every Matter point-release ships to applause and then waits eighteen months for hardware. Read the certification list, not the changelog. <span class="src">— HA community forum</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:2px;">
+    <span class="tag g">Matter 1.6</span><span class="tag">NFC commissioning</span><span class="tag s">Thread mesh view</span><span class="tag">matter.js</span>
+    <p class="body tight" style="margin-top:5px;"><b>Continuity:</b> HA 2026.6 brought the IR universal-remote work and 2026.5 native RF — both holding as the local-first backbone, no new peg required.</p>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-12" style="margin-top:2px;">
+    <div>
+      <div class="kicker slate">What 1.6 actually adds</div>
+      <p class="body tight" style="margin-top:3px;">
+        <b>Setup &amp; commissioning.</b> Smoother onboarding plus NFC-assisted commissioning — tap to add, fewer QR fumbles.<br>
+        <b>Multi-ecosystem management.</b> Better behaviour when a device lives in more than one platform at once — the migrator's daily pain point.<br>
+        <b>Thermostat improvements.</b> A more complete climate model.<br>
+        <b style="color:var(--vermilion);">What it doesn't add:</b> new device categories. Nothing on the box looks different.<sup class="fnref">1</sup>
+      </p>
+    </div>
+    <div>
+      <div class="chatter">
+        <div class="lbl">The buyer's rule</div>
+        <p>Ignore the version number on the marketing. Check the Connectivity Standards Alliance certification listing for the specific model, on the specific feature, before you buy. A spec is a promise to manufacturers; certification is the receipt that one of them kept it.</p>
+      </div>
+      <div class="stat" style="margin-top:4px;"><div class="n">~3 mo</div><div class="c">Between 1.5.1 (31 Mar) and 1.6 (17 Jun)</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Connectivity Standards Alliance, Matter 1.6 release, 17 Jun 2026 (vs 1.5.1, 31 Mar). 3 Home Assistant release notes — matter.js rebuild, Thread mesh view, Matter 1.5.1 support (cf. No.&nbsp;30); HA 2026.5 / 2026.6 continuity. Certification guidance per CSA listings.</div>
+    <div class="fnbar"><span>Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 11 — THE GOOD LIFE ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Lake%20Kawaguchi%20%282015-10-26%29.jpg?width=1400" alt="Objects &amp; Escapes hero" loading="lazy"></div>
+  <div class="ph-cap">Source: Wikimedia Commons — File:Mount Fuji from Lake Kawaguchi (2015-10-26).jpg · CC BY-SA 4.0 · Alpsdake · <i>representative</i> seasonal view.</div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">Objects &amp; Escapes · The yen at its low</div>
+    <div class="hed">A soft-yen window, near its multi-decade mark</div>
+    <div class="dek">With the yen close to levels not seen since the 1980s, Japan is — for the connoisseur buyer of watches, cameras and audio — at a generational high-water mark. The honest caveat: a window for one is a strain for another.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">The number that frames the desk is a currency, not a watch. USD/JPY sits near ¥162 — close to 1980s lows and a two-year high for the dollar — with SGD/JPY around ¥126. For the reader who buys premium Japanese gear at source, the maths has rarely been this favourable: a Tokyo grey-market camera counter or a used-watch dealer in Nakano is, in Singapore-dollar terms, on sale.<sup class="fnref">1</sup></p>
+      <p class="body">There is a clock on it. Japan's consumption-tax-free reform takes effect 1 November, changing how the refund works for visitors; and the Bank of Japan is openly debating a hike that would, at the margin, firm the yen. The window is real but not permanent — which is the whole theme of this issue, arriving via the exchange rate.<sup class="fnref">2</sup></p>
+      <p class="body">The honest box: a soft yen is a visitor's gift and a resident's squeeze. The same rate that makes a Leica counter feel generous makes imported essentials dearer for the people who live there. Enjoy the window; don't mistake it for a free lunch. The Macro Desk carries the currency read in full.</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">~&yen;162</div><div class="c">USD/JPY — near a 2-year high</div></div>
+      <div class="hairline"></div>
+      <div class="chatter gold">
+        <div class="lbl">The Culture Desk</div>
+        <p>The watch market read its own peak this fortnight: an F.P. Journe Chronomètre à Résonance sold for <b>$13.9&nbsp;million</b> at Phillips — the auction season reopening with a record that asks its own "is this the top?" question. MB&amp;F, meanwhile, showed a watch that transforms into a robot, because of course it did. <span class="src">— Robb Report, 16 Jun</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="grid g-12" style="margin-top:2px;">
+    <div>
+      <div class="kicker slate">The Object</div>
+      <div style="font-family:'Lora';font-weight:700;font-size:13pt;margin-top:3px;line-height:1.1;">Christopher Ward C60 Pool Diver × Seconde/Seconde/</div>
+      <p class="body tight" style="margin-top:4px;">The fortnight's ownable pick (12 June): a witty, genuinely attainable collaboration between the value-watchmaking house and the irreverent dial-artist Seconde/Seconde/. It is the antidote to a $13.9-million résonance — a dive watch that wears its joke lightly and its price honestly. Value, not flex; the rotating Object slot's whole point.<sup class="fnref">3</sup></p>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>A record auction price and a soft-yen shopping window are the same story told twice: the watch market at a high tide. Buy what you'll wear, not what you'll watch quoted. <span class="src">— collector forum</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 USD/JPY &amp; SGD/JPY, intra-day 24 Jun 2026. 2 Japan tax-free reform effective 1 Nov 2026; BoJ policy commentary. 3 Robb Report, Phillips result (F.P. Journe Résonance, $13.9m), 16 Jun; Christopher Ward × Seconde/Seconde/ launch, 12 Jun 2026.</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 12 — SCREEN & SOUND ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Culture Desk · The gate, not the guess</div>
+    <div class="hed">Supergirl opens with its expectations already past their peak</div>
+    <div class="dek">Tracking has slid for weeks before a single ticket sold. The honest posture here is the issue's posture everywhere: mark the gate when it opens, don't pre-judge the number.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">Supergirl — Milly Alcock in the lead, Craig Gillespie directing, Gunn and Safran producing — is the fortnight's test case for reading a peak. Opening-weekend tracking has slid from north of $55&nbsp;million in early June to a $39–51&nbsp;million range before the film even opened domestically, against a reported $175&nbsp;million budget and a global break-even somewhere near $315&nbsp;million.<sup class="fnref">1</sup></p>
+      <p class="body">Reviews lifted as the embargo broke around today. Early reactions read "mixed-positive": praise for Alcock and for the Krypton-set opening, weaker notes on the story's shape. A promotional push reportedly worth some $100&nbsp;million across 80-plus brand partners has done the pre-selling; international rolled out from 24 June, with the US opening Friday 26 June.<sup class="fnref">2</sup></p>
+      <p class="body">Meridian's posture is to mark the gate, not guess the gross: the expectation peaked, then slid, and the actual result is a thing we'll know from its far side, this weekend. No pre-judged number goes in this column.</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">$39–51M</div><div class="c">Latest opening tracking range</div></div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>Tracking is a mood ring, not a forecast — it has been wrong in both directions on exactly this kind of title. Wait for Sunday's actuals. <span class="src">— box-office forum</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="kicker slate">Also dropping</div>
+  <div class="cols3" style="margin-top:3px;">
+    <p class="body tight"><b style="font-family:'Lora';">The Strokes — <i>Reality Awaits</i>.</b> Out Friday 26 June (first flagged No.&nbsp;28); the long-gestating return finally lands.</p>
+    <p class="body tight"><b style="font-family:'Lora';">Muse — <i>The Wow! Signal</i>.</b> Also Friday 26 June (No.&nbsp;28) — the title nodding, aptly for this issue, at a signal heard once and never confirmed again.</p>
+    <p class="body tight"><b style="font-family:'Lora';">In brief.</b> Charli XCX continues her run (No.&nbsp;30); <i>Minions &amp; Monsters</i> opens in five days — the family-holiday counterprogramming to Supergirl.</p>
+  </div>
+
+  <div class="pull">Mark the gate when it opens; the gross is a thing you know only from its far side.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Box-office tracking &amp; trade reporting (Deadline / Variety / THR), w/c 23 Jun 2026; review aggregation as embargo lifted ~25 Jun; US release 26 Jun, international from 24 Jun. Music: label release calendars, 26 Jun 2026 (cf. No.&nbsp;28).</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 13 — THE FAMILY DESK ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Family Desk</span><span>Raising Them Well</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Raising Them Well · Results season</div>
+    <div class="hed">A grade is a data point, not a verdict</div>
+    <div class="dek">As Singapore's mid-year results come home, the most useful thing the evidence offers a parent is a sense of proportion: a single mark measures a moment, not a child.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">It is mid-year results season, and report cards are landing on kitchen tables across the island. The temptation — for a high-achieving household especially — is to read each mark as a referendum. The research literature, read honestly, argues for the opposite: a grade is one observation in a noisy series, and the response to it matters more than the number.<sup class="fnref">1</sup></p>
+      <p class="body">Carol Dweck's growth-mindset work is the usual reference point: the finding that praising effort and strategy rather than fixed ability supports resilience after a setback. The honest caveat — which the desk insists on — is that the replication record is mixed; the average effects are modest and context-dependent, strongest for struggling students and easy to overstate. It is a useful posture, not a magic lever.<sup class="fnref">2</sup></p>
+      <p class="body">Ann Masten's framing is the steadier one: resilience is "ordinary magic," not a rare gift. The systems that protect children after a disappointment — a stable relationship, a sense of competence, a routine — are common and buildable, not the property of exceptional families. A bad mark is, in that light, an ordinary occasion for an ordinary protective response.<sup class="fnref">3</sup></p>
+      <p class="body">There is also a developmental floor worth knowing. The well-replicated dip in self-esteem and mood in early adolescence is a trough most children pass through and out of — a feature of the age, not a verdict on the trajectory. Reading a low point as a slope is the classic error of confusing a high-water mark with a permanent shoreline.<sup class="fnref">4</sup></p>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">Don't Be Alarmist</div>
+        <p>One soft term is not a pattern, and the urge to intervene hard is usually the parent's anxiety, not the child's need. Most dips self-correct with a steady relationship and time. <span class="src">— developmental-psych consensus</span></p>
+      </div>
+      <div class="stat" style="margin-top:6px;"><div class="n">#1</div><div class="c">predictor of a child's screen habits: the parent's own</div></div>
+      <div class="hairline"></div>
+      <p class="body tight"><b>The label:</b> this desk is general guidance, not medical advice. A genuine, persistent change in mood, sleep or function is a reason to consult a professional — not something to manage from a magazine.</p>
+    </div>
+  </div>
+
+  <div class="pull">Reading a low point as a slope is the classic error — mistaking a high-water mark for a permanent shoreline.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 General educational-psychology literature on assessment &amp; feedback. 2 Dweck, mindset research, with replication caveats (Sisk et&nbsp;al. meta-analyses). 3 Masten, "Ordinary Magic" (resilience). 4 Longitudinal self-esteem studies across adolescence (Robins et&nbsp;al.). General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 14 — THE FAMILY DESK (the evidence) ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Family Desk</span><span>The Tween Years</span></div>
+
+  <div style="margin-top:5mm;display:flex;justify-content:space-between;align-items:baseline;border-bottom:2.5pt solid var(--ink);padding-bottom:5px;">
+    <div class="kicker teal">What the evidence actually supports</div>
+    <div style="font-family:'Poppins';font-size:7pt;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);">Read with the caveats, not past them</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:8px;">
+    <div>
+      <div class="kicker slate">The relationship is the buffer</div>
+      <p class="body tight" style="margin-top:3px;">The thread the desk has carried since No.&nbsp;25–26: across the resilience literature, a single dependable relationship is the most consistently protective factor after a setback. Not a tutor, not an app — a person who stays steady when the mark is bad. The grade fades; the response is what the child files away.<sup class="fnref">1</sup></p>
+    </div>
+    <div>
+      <div class="kicker slate">The parent sets the thermostat</div>
+      <p class="body tight" style="margin-top:3px;">From No.&nbsp;28: a parent's own behaviour is the strongest predictor of a child's — with devices, with stress, with how a disappointment is metabolised. A household that treats a result as information, not identity, teaches that posture more durably than any lecture about it.<sup class="fnref">2</sup></p>
+    </div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:4px;">
+    <div>
+      <div class="kicker slate">The affluent-home risk</div>
+      <p class="body tight" style="margin-top:3px;">The No.&nbsp;29 caution still holds: high-achieving, well-resourced homes carry a specific hazard — achievement pressure that reads love as conditional on performance. The antidote is boringly concrete: make clear, often, that the regard is not indexed to the grade. The evidence rewards the unglamorous reassurance.<sup class="fnref">3</sup></p>
+    </div>
+    <div>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>Parent forums in results week split predictably — the "every mark matters" camp and the "it's one test" camp. The evidence sits closer to the second, with the first's diligence and none of its panic. <span class="src">— local parenting groups</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+
+  <div class="figframe" style="margin-top:2px;">
+    <svg viewBox="0 0 480 96" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+      <text x="6" y="14" font-family="Poppins" font-size="9" font-weight="700" fill="#191613">THE ADOLESCENT DIP — A TROUGH, NOT A TRAJECTORY</text>
+      <line x1="30" y1="78" x2="470" y2="78" stroke="#d8cfbd" stroke-width="1"/>
+      <path d="M30,40 C120,42 170,72 240,72 C310,72 380,48 470,38" fill="none" stroke="#c1462e" stroke-width="2.5"/>
+      <circle cx="240" cy="72" r="3.5" fill="#9c3422"/>
+      <text x="200" y="90" font-family="Poppins" font-size="7" fill="#7a7264">early adolescence</text>
+      <text x="36" y="34" font-family="Poppins" font-size="7" fill="#7a7264">self-esteem</text>
+      <text x="250" y="68" font-family="Poppins" font-size="6.5" fill="#9c3422">most pass through and out of it</text>
+    </svg>
+    <div class="imgcap">Schematic of a well-replicated pattern; not a clinical chart. Meridian original after the longitudinal literature.</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:7px;">
+    <div>
+      <div class="kicker slate">What "growth mindset" really shows</div>
+      <p class="body tight" style="margin-top:3px;">The popular version oversells it; the careful version still earns its place. The largest test — a randomised national study of roughly 12,500 US ninth-graders — found a short online growth-mindset exercise nudged grades only modestly on average, but more for lower-achieving students and in schools whose culture supported it. Replications since have been mixed and the effect sizes small. The honest read for a parent: believing ability can grow with effort is worth modelling, but it is a frame, not a fix — and it works best paired with a concrete next step rather than a slogan.<sup class="fnref">4</sup></p>
+    </div>
+    <div>
+      <div class="kicker slate">The praise that travels</div>
+      <p class="body tight" style="margin-top:3px;">A durable finding from the same body of work: praising the child ("you're so clever") trains a fragile, performance-protecting stance, while praising the process ("you found a way through that") carries better to the next hard problem. After a poor result the instinct is to reassure the talent; the evidence prefers naming the effort and the strategy. It is the gap between "you're a maths person" and "you stuck with that one" — and the second is the line a child can actually pick up and use again.<sup class="fnref">5</sup></p>
+    </div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:6px;">
+    <div class="stat"><div class="n">~½</div><div class="c">of the national study's benefit fell to lower-achieving students — the average hides who it helps</div></div>
+    <div class="stat"><div class="n">process &gt; person</div><div class="c">praise the effort and the route, not the cleverness — repeated across the literature</div></div>
+  </div>
+
+  <div class="pull" style="margin-top:8px;">A grade measures one morning. What the child takes from the morning is set at the kitchen table, not in the marking.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 Resilience literature (Masten and others); cf. Meridian No.&nbsp;25–26. 2 Parental-modelling research; cf. No.&nbsp;28. 3 Luthar et&nbsp;al. on affluence &amp; achievement pressure; cf. No.&nbsp;29. 4 Yeager et&nbsp;al., National Study of Learning Mindsets (*Nature*, 2019); replications mixed. 5 Process- vs person-praise literature (Mueller &amp; Dweck and successors). General guidance, not medical advice.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 15 — THE MACRO DESK ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Macro Desk</span><span>The Big Picture</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker slate">The Big Picture · Inflation, priced four ways</div>
+    <div class="hed">A peak everyone expects — and the print that confirms it</div>
+    <div class="dek">May's US inflation gauge lands today. Economists widely call it the year's high-water mark. Here is the causal chain that puts that single number into four instruments at once.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">The week's whole macro story runs through one release. May PCE — the Fed's preferred inflation gauge — prints at 8:30am EDT today, 8:30pm Singapore time. Consensus looks for roughly +0.5% on the month and +4.1% year-on-year on the headline (which would be the hottest since April 2023), with core near +0.37% and +3.3%. <b>Held honestly: the desk is awaiting the print, not asserting it.</b><sup class="fnref">1</sup></p>
+      <p class="body">The reason it matters is the consensus <i>around</i> it: economists widely expect May to be the year's inflation peak, with June cooling as gasoline has fallen some 56 cents a gallon since 20 May. So the print is a high-water mark that markets are already trying to read from below — exactly the issue's theme, rendered in a data release.<sup class="fnref">2</sup></p>
+      <p class="body">The chain: a hawkish-hold Fed (Warsh's framing) plus sticky inflation pushes the dollar to a 13-month high (DXY ~101.6, a third straight up day) and holds the 10-year near 4.50% (2-year ~4.20%). Odds of a September hike have leapt to about 68% from 29% a week ago, with Deutsche and BofA now penciling one in.<sup class="fnref">3</sup></p>
+      <p class="body">Meanwhile the war premium drains. As Hormuz reopens, Brent has fallen to about $76 — down some 40% from its war peak — and gold has slipped below $4,000 to around $3,968, a quarter below its 28 January all-time high. The standout tell: gold <i>fell</i> on a risk-off day (KOSPI −10%, Nasdaq −2%). The haven that wasn't — because the dollar and real yields dominated the monetary premium.<sup class="fnref">4</sup></p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">68%</div><div class="c">Sept-hike odds (from 29% a week ago)</div></div>
+      <div class="hairline"></div>
+      <div class="stat"><div class="n">−25%</div><div class="c">Gold, off its 28 Jan all-time high</div></div>
+      <div class="hairline"></div>
+      <div style="margin-top:4px;"><span class="tag s">Higher-for-longer</span><span class="tag v">Dollar bid</span><span class="tag">Risk-capped</span></div>
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The Standout</div>
+        <p>Gold falling on a risk-off day is the week in one line: when the dollar and real yields lead, the haven trade doesn't get the memo. <span class="src">— desk read</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="chatter gold" style="margin-top:2px;">
+    <div class="lbl">What it means for VWRA, global bonds, gold &amp; BTC</div>
+    <p><b>VWRA</b> — dinged by mega-cap-AI concentration in the rout, cushioned by its Singapore and value exposure; the thing the reader holds did its job by being diversified. <b>Global bonds</b> — <i>rallied</i> on the haven bid and a repricing of EU rate cuts: a correlation flip toward diversification working <i>this week</i>. Flag it honestly as one week, not a confirmed regime change — the owl of Minerva, per the Long Read, flies at dusk. <b>Gold</b> — off its peak as the haven premium drained, though the monetary premium is intact. <b>BTC</b> — around $62.5k, down ~18% from its 25 May high near $77.6k, briefly below $60k on 23 June and under its 200-week average; far higher volatility flagged, MSTR below $100. Education, not advice; gold and BTC read for sensitivity only.</p>
+  </div>
+
+  <div class="pull">A hot print → a higher-for-longer path → a firmer dollar and real yields → a headwind for gold and a drag on bitcoin. One system, not four headlines.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 BEA PCE release scheduled 25 Jun 2026, 8:30 EDT (consensus figures; awaiting print). 3 CME FedWatch, DXY, US Treasury yields, 24 Jun. 4 ICE Brent; LBMA/spot gold; BTC spot, 23–24 Jun 2026. Market explanation &amp; education — NOT investment advice; no level fabricated; gold &amp; BTC read for macro sensitivity only.</div>
+    <div class="fnbar"><span>The Macro Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 16 — CURIOSITIES ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Curiosities</span><span>The Far Edges</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">The Far Edges · After the impact</div>
+    <div class="hed">The crater that killed the dinosaurs also sheltered life</div>
+    <div class="dek">New work on Chicxulub suggests the dinosaur-killer impact carved out a warm, water-fed habitat that hosted a thriving microbial world for far longer than anyone expected — life regrouping at the very site of the catastrophe.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">The Chicxulub impact, 66 million years ago, is the textbook full stop on the age of dinosaurs. New research reframes its aftermath: the same strike that ended a world also created one. The shattered, heated crust drove a long-lived hydrothermal system — warm, mineral-rich water circulating through fractured rock — that sustained a subsurface microbial biosphere for perhaps millions of years after the sky cleared.<sup class="fnref">1</sup></p>
+      <p class="body">It is a tidy inversion of the issue's theme. A catastrophe is a kind of peak — the maximum of destruction — but life does not read it as an ending so much as a new floor to build up from. The crater's hidden ecosystem is a high-water mark of disaster that became, underground, a nursery.<sup class="fnref">2</sup></p>
+      <p class="body">The finding lands alongside a more speculative idea making the rounds: that some mass extinctions might be timed to the solar system's passages through the galaxy — a "planetary flyby" hypothesis. The desk flags it clearly as hypothesis, not result; it is a provocative correlation in search of a mechanism, and worth watching rather than believing.<sup class="fnref">3</sup></p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <rect x="0" y="0" width="200" height="150" fill="#fbf8f1"/>
+          <path d="M0,70 Q60,40 100,70 Q140,40 200,70 L200,150 L0,150 Z" fill="#efe9db"/>
+          <path d="M55,72 Q100,120 145,72" fill="none" stroke="#9c3422" stroke-width="2"/>
+          <path d="M62,74 Q100,108 138,74" fill="none" stroke="#c1462e" stroke-width="1.4"/>
+          <g stroke="#2b6b66" stroke-width="1" opacity="0.8">
+            <line x1="80" y1="100" x2="80" y2="118"/><line x1="100" y1="104" x2="100" y2="124"/><line x1="120" y1="100" x2="120" y2="118"/>
+          </g>
+          <circle cx="80" cy="120" r="2" fill="#2b6b66"/><circle cx="100" cy="126" r="2" fill="#2b6b66"/><circle cx="120" cy="120" r="2" fill="#2b6b66"/>
+          <text x="8" y="16" font-family="Poppins" font-size="8" font-weight="700" fill="#191613">CRATER → HYDROTHERMAL HABITAT</text>
+          <text x="60" y="142" font-family="Poppins" font-size="6.5" fill="#7a7264">warm water · microbial life · millions of yrs</text>
+        </svg>
+        <div class="imgcap">Schematic, not to scale. Meridian original after the published reconstruction.</div>
+      </div>
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">In brief</div>
+        <p><b>Weekend sky:</b> an asteroid passes Earth safely on Saturday, bright enough for a telescope or good binoculars (ESA) — see the Diary for the observing window. <b>ISS:</b> NASA's Cold Atom Lab is making exotic ultracold matter in orbit. <b>Cosmology:</b> a Sarkar / Oxford-Tata reanalysis again asks whether the universe's acceleration is as firm as claimed (cf. No.&nbsp;29) — contested, flagged.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">A catastrophe is a kind of peak — but life reads it not as an ending, only as a new floor to build from.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Universe Today, reporting on Chicxulub hydrothermal-biosphere research, 23 Jun 2026. 3 "Planetary flyby" mass-extinction hypothesis (flagged as hypothesis). In brief: ESA near-Earth-asteroid notice; NASA Cold Atom Lab; Sarkar et&nbsp;al. dark-energy reanalysis (contested; cf. No.&nbsp;29).</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 17 — LOVE & LIFE ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">The Human Desk · The market vs the build</div>
+    <div class="hed">How we read our own "market" — and why the snapshot lies</div>
+    <div class="dek">New work links biological age to how people rate their own romantic prospects. The reframe for anyone past the first flush: a market snapshot is a high-water mark too, and the relationship you build compounds past it.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">A study circulated this week finds that people's biological age — not just their calendar age — predicts how they appraise their own standing in the dating "market." The fitter and younger one's biology reads, the more buoyant the self-assessment. It is an intuitive result with a sting in the framing: it treats a person as a quote on a board.<sup class="fnref">1</sup></p>
+      <p class="body">The honest caveat is methodological: much of this rests on self-report, which measures perception as much as reality. People who feel well rate themselves well; the arrow between biology, mood and self-appraisal points several ways at once.<sup class="fnref">2</sup></p>
+      <p class="body">The reframe the desk has carried since No.&nbsp;19–20 is the useful part. A market snapshot — like any of this issue's peaks — is a reading taken at a moment, not a verdict on the whole. The thing that actually compounds is the built relationship: the shared history, trust and accommodation that a market valuation cannot price and time only deepens. You don't trade out of a marriage at the top.</p>
+      <p class="body">There is a measurable version of this. The same research tradition that scores "mate value" also finds those self-ratings are volatile — they move with mood, health and recent feedback — while satisfaction in long partnerships rests on slower variables: responsiveness, repair, the sense of being known. One is a quote that reprices by the hour; the other is a position held for years. Confusing the two is how a good thing gets sold at a noisy low.</p>
+    </div>
+    <div>
+      <div class="chatter slate">
+        <div class="lbl">The Contrarian</div>
+        <p>A wry one for the file: new work (n≈1,497, Polish sample, average age 48) links covert hostility and relational aggression to <i>higher</i> fertility. Selection, it turns out, does not optimise for being pleasant — and emphatically does not optimise for a good life. What gets passed on and what is worth living are different functions. <span class="src">— Evolutionary Psych. Science, via PsyPost, 24 Jun</span></p>
+      </div>
+      <div class="stat" style="margin-top:6px;"><div class="n">n≈1,497</div><div class="c">Polish sample, avg age 48 (fertility study)</div></div>
+      <div class="chatter teal" style="margin-top:6px;">
+        <div class="lbl">The build</div>
+        <p>The snapshot is cheap to take and cheap to believe. The build — trust, repair, being known — is the part no appraisal prices and time only deepens. Read the mark; don't trade the marriage. <span class="src">— the desk</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">A market snapshot is a high-water mark too — and you don't trade out of a marriage at the top.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 PsyPost, biological-age &amp; mate-value research, ~22 Jun 2026 (self-report caveat noted). Contrarian: Evolutionary Psychological Science, via PsyPost, 24 Jun 2026 (n≈1,497). Cf. Meridian No.&nbsp;19–20 for the "market vs the build" frame.</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 18 — FITNESS ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Fitness</span><span>The Long Game</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">The Long Game · Defending the peak</div>
+    <div class="hed">Holding a high-water mark costs far less than reaching it</div>
+    <div class="dek">The most reassuring finding in the training literature is asymmetric: fitness erodes when you stop, but maintaining hard-won gains takes a fraction of the work that built them. For the mid-40s schedule, that is a licence to coast on purpose.</div>
+  </div>
+
+  <div class="grid g-21" style="margin-top:4px;">
+    <div class="cols2">
+      <p class="body dropcap">Every training peak has a far side, and the question that haunts a busy mid-40s schedule is how fast you slide down it. The detraining literature gives a usefully precise answer — and a generous one. Cardiovascular fitness does fade within weeks of stopping; a chunk of the aerobic adaptation softens in the first two to four weeks off.<sup class="fnref">1</sup></p>
+      <p class="body">But strength is stubborn, and — this is the key asymmetry — <i>maintaining</i> a gain costs far less than making it. The classic maintenance work (Mujika and Padilla's detraining reviews; Bickel and colleagues on reduced training) converges on a reassuring rule: you can drop training frequency and volume substantially and still hold strength for weeks, provided intensity stays high. One hard session can defend what three built.<sup class="fnref">2</sup></p>
+      <p class="body">The application writes itself for this reader. A travel stretch, a bout of illness, a work crunch that flattens the calendar — none of it has to mean starting over. A reduced-but-intense holding pattern defends the high-water mark until normal service resumes. The trick is to plan the coast, not to panic at it.<sup class="fnref">3</sup></p>
+      <p class="body">A complementary idea: a quarterly self-test done <i>without</i> a wearable — a benchmark lift, a fixed run, a timed carry — to read fitness directly rather than through a ring or a strap. The device is a proxy; occasionally it is worth checking the thing itself.</p>
+    </div>
+    <div>
+      <div class="stat"><div class="n">1 of 3</div><div class="c">Sessions can hold strength if intensity stays high</div></div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>The maintenance numbers are population averages — individual variation is large, and age, training history and the specific lift all move them. Use the principle, verify on yourself. <span class="src">— strength-coach forum</span></p>
+      </div>
+      <div class="chatter">
+        <div class="lbl">The Chatter</div>
+        <p>The longevity boards love this finding because it reframes consistency: the goal isn't never missing — it's never fully detraining. A maintenance floor beats a heroic restart. <span class="src">— r/fitness / longevity round-up</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">One hard session can defend what three built. Plan the coast; don't panic at it.</div>
+
+  <div style="margin-top:2px;"><p class="body tight"><b>The label:</b> general guidance, not medical advice. Around illness, injury or a long layoff, return gradually and check with a professional before loading hard.</p></div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Detraining &amp; maintenance literature — Mujika &amp; Padilla (detraining reviews); Bickel et&nbsp;al. (reduced training volume); presented as established principle, not a new 2026 study. 3 Application synthesis. General guidance, not medical advice.</div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 19 — THE DIARY ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Diary</span><span>What's Worth Booking</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">What's Worth Booking · The dated agenda</div>
+    <div class="hed">Plan the flights, mark the calendar</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:5px;">
+    <div>
+      <div class="agenda-h">Singapore <span class="sub">Book early ★ = marquee</span></div>
+      <div class="evt"><div class="evt-date star rng">17<span class="mo">OCT</span></div><div><div class="evt-name"><span class="st">★</span> BIGBANG "20/26 World Tour"</div><div class="evt-meta">National Stadium · on-sale status below</div></div></div>
+      <div class="evt"><div class="evt-date rng">27–28<span class="mo">JUN</span></div><div><div class="evt-name">DBS Marina Regatta / Dragon Boat</div><div class="evt-meta">Marina Bay · free</div></div></div>
+      <div class="evt"><div class="evt-date star">12<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> DRUM TAO</div><div class="evt-meta">Taiko spectacle · ticketed</div></div></div>
+      <div class="evt"><div class="evt-date">09<span class="mo">AUG</span></div><div><div class="evt-name">National Day Parade</div><div class="evt-meta">The Float / Padang · ballot</div></div></div>
+      <div class="evt"><div class="evt-date rng">—<span class="mo">SUM</span></div><div><div class="evt-name">GastroBeats · World Cup screenings · Children's Festival</div><div class="evt-meta">Various · family-friendly</div></div></div>
+      <div class="evt"><div class="evt-date rng">AUT<span class="mo">'26</span></div><div><div class="evt-name">EXO · Mitski · F1 night race</div><div class="evt-meta">On the horizon · register interest</div></div></div>
+
+      <div class="chatter slate" style="margin-top:7px;">
+        <div class="lbl">Planning Note · BIGBANG on-sale</div>
+        <p>The global general-sale opens <b>Friday 26 June — but for US and Europe dates only.</b> Singapore and the rest of Asia/Oceania remain "Coming Soon" on YG / b.stage at press time. Register on b.stage for the local on-sale; "11 Sep" is the New Jersey / MetLife date, <i>not</i> Singapore. Treat resale-site listings as unofficial. Price reference: Korea ₩154k–275k; North America / Europe ~$80–350. October is crowded — F1 lands the same month.<sup class="fnref">1</sup></p>
+      </div>
+    </div>
+
+    <div>
+      <div class="agenda-h gold">Japan <span class="sub">Soft-yen window</span></div>
+      <div class="evt"><div class="evt-date">01<span class="mo">JUL</span></div><div><div class="evt-name">Mt Fuji climbing season opens</div><div class="evt-meta">Yoshida trail · permit/booking</div></div></div>
+      <div class="evt"><div class="evt-date">07<span class="mo">JUL</span></div><div><div class="evt-name">Tanabata star festival</div><div class="evt-meta">Nationwide</div></div></div>
+      <div class="evt"><div class="evt-date rng">17·24<span class="mo">JUL</span></div><div><div class="evt-name">Gion Matsuri floats</div><div class="evt-meta">Kyoto · the two parades</div></div></div>
+      <div class="evt"><div class="evt-date rng">24–25<span class="mo">JUL</span></div><div><div class="evt-name">Tenjin Matsuri</div><div class="evt-meta">Osaka · river procession &amp; fireworks</div></div></div>
+      <div class="evt"><div class="evt-date star rng">24–26<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Fuji Rock Festival</div><div class="evt-meta">Naeba · tickets open</div></div></div>
+      <div class="evt"><div class="evt-date rng">LATE<span class="mo">JUL</span></div><div><div class="evt-name">Sumida River fireworks · Nagoya Sumo</div><div class="evt-meta">Tokyo / Nagoya</div></div></div>
+
+      <div class="agenda-h slate" style="margin-top:8px;">Wider region <span class="sub">Worth the trip</span></div>
+      <div class="evt"><div class="evt-date star rng">11–13<span class="mo">JUL</span></div><div><div class="evt-name"><span class="st">★</span> Naadam Festival</div><div class="evt-meta">Mongolia · book now</div></div></div>
+      <div class="evt"><div class="evt-date rng">JUL<span class="mo">'26</span></div><div><div class="evt-name">Rainforest World Music Festival</div><div class="evt-meta">Sarawak, Malaysia</div></div></div>
+      <div class="evt"><div class="evt-date rng">JUL<span class="mo">'26</span></div><div><div class="evt-name">Boryeong Mud Festival</div><div class="evt-meta">South Korea</div></div></div>
+
+      <div class="chatter gold" style="margin-top:7px;">
+        <div class="lbl">Soft-yen playbook</div>
+        <p>With USD/JPY near ¥162 (SGD/JPY ~¥126), the early-July window favours the visitor — but two dated changes bite from this trip on: the departure tax rises to ¥3,000 (1&nbsp;Jul) and tax-free shifts to an airport-refund model (1&nbsp;Nov). Book Fuji huts and Gion-week lodging early; both sell out fast. A soft yen is the traveller's gift and the resident's strain — tip and spend accordingly.<sup class="fnref">2</sup></p>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:4px;"><p class="body tight"><b>Cross-ref ·</b> Curiosities (p.&nbsp;16) flags a telescope-visible asteroid pass this Saturday — a free weekend's observing for anyone with binoculars and a dark patch of sky.</p></div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 YG Entertainment / b.stage tour announcements &amp; on-sale notices (US/Europe GA 26 Jun; Asia "Coming Soon" at press time); price refs from announced markets. 2 Japan tourist-tax reforms (departure levy ¥3,000 from 1 Jul; tax-free airport-refund switch 1 Nov); FX per this issue's market strip. Festival &amp; event dates from official organiser calendars, as of 24 Jun 2026.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 20 — THE DIARY / THE TABLE ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Diary</span><span>The Table</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">The Table · Singapore's newest openings</div>
+    <div class="hed">A scene at a frothy peak — which ones earn the trip</div>
+    <div class="dek">Openings keep coming even as the closures pile up beside them — a restaurant high-water mark of its own. Four new tables, honestly read, and one we said we'd come back to.</div>
+  </div>
+
+  <div class="grid g-12" style="margin-top:4px;">
+    <div>
+      <div style="font-family:'Lora';font-weight:700;font-size:12.5pt;line-height:1.1;">Park Side <span style="font-family:'Poppins';font-size:7pt;font-weight:600;color:var(--muted);">· PS Cafe group</span></div>
+      <div style="margin:3px 0;"><span class="tag g">All-day</span><span class="tag s">Family-friendly</span></div>
+      <p class="body tight">PS Cafe's new all-day modern-Asian room in the Singapore Botanic Gardens — pet- and family-friendly, with the group's reliably handsome setting. Early reception is warm: a safe, pretty, well-run choice rather than a daring one, which for a Gardens lunch is precisely the brief.<sup class="fnref">1</sup></p>
+
+      <div style="font-family:'Lora';font-weight:700;font-size:12.5pt;line-height:1.1;margin-top:8px;">Mozmoji <span style="font-family:'Poppins';font-size:7pt;font-weight:600;color:var(--muted);">· South Bridge Rd</span></div>
+      <div style="margin:3px 0;"><span class="tag v">Soft launch</span><span class="tag">Craft</span></div>
+      <p class="body tight">A ceramics-gallery café in Chinatown where you pick your own handcrafted cup — the design-and-craft pick of the fortnight. Too new to call on the food, but the concept is the draw; go for the object as much as the coffee.<sup class="fnref">2</sup></p>
+    </div>
+    <div>
+      <div style="font-family:'Lora';font-weight:700;font-size:12.5pt;line-height:1.1;">Keming Bing Sat <span style="font-family:'Poppins';font-size:7pt;font-weight:600;color:var(--muted);">· Plaza Singapura</span></div>
+      <div style="margin:3px 0;"><span class="tag">HK import</span><span class="tag s">Kid-friendly</span></div>
+      <p class="body tight">A Hong Kong cha-chaan-teng chain (140+ outlets) that opened 22 May, trading on a "China's No.&nbsp;1 char siew rice" billing. Cheerful, fast, family-easy; the hype is the chain's, so judge the plate, not the slogan.<sup class="fnref">3</sup></p>
+
+      <div style="font-family:'Lora';font-weight:700;font-size:12.5pt;line-height:1.1;margin-top:8px;">Steak Gatz <span style="font-family:'Poppins';font-size:7pt;font-weight:600;color:var(--muted);">· gyukatsu</span></div>
+      <div style="margin:3px 0;"><span class="tag g">Value</span><span class="tag v">Not halal</span></div>
+      <p class="body tight">Japanese gyukatsu at a keen price — sets from around S$13.80 with free-flow rice. A value play for the cutlet-and-grill-stone ritual. Flagged not-halal.<sup class="fnref">4</sup></p>
+    </div>
+  </div>
+
+  <div class="chatter" style="margin-top:4px;">
+    <div class="lbl">Now reviewed · we said we'd come back</div>
+    <p>Noci Bakehouse — the hyped opening we flagged back in No.&nbsp;18 — is now open at Suntec (Gold Moon group), and the viral item is real: a Korean butter-tteok that has done the rounds on socials. Verdict: the queue is the price of admission; the pastry mostly justifies it. <span class="src">— local food media + socials</span></p>
+  </div>
+
+  <div class="chatter slate" style="margin-top:4px;">
+    <div class="lbl">The Verdict</div>
+    <p>Of the four: Park Side for the setting and the family lunch; Mozmoji for the object and the curiosity; Keming for a fast cheerful feed; Steak Gatz for the value ritual. None is a destination omakase — and in a month this crowded with openings, "pleasant and well-judged" is itself a recommendation. <span class="src">— The Table</span></p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–4 Local food media (Eatbook, SETHLUI, HungryGoWhere, Time Out SG) &amp; socials, Jun 2026; opening dates &amp; pricing as published (Keming Bing Sat opened 22 May; Steak Gatz sets ~S$13.80). Noci Bakehouse: now-open follow-up to No.&nbsp;18. "Too new to call" used where unreviewed.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 21 — THE LONG READ (1) ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Long Read</span><span>The Long Read</span></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker slate">The Long Read · An essay</div>
+    <div class="hed" style="font-size:30pt;">The High-Water Mark</div>
+    <div class="dek">The week is crowded with apparent summits — gold, oil, the dollar, an inflation gauge, a landslide majority. A summit, though, is a thing you can confirm only from its far side. The discipline of a dawn-reporting magazine is to mark the visible water, flag the unseen depth, and call neither shoreline nor bottom permanent.</div>
+  </div>
+
+  <div class="cols2" style="margin-top:5px;">
+    <p class="body dropcap">On the lower Mississippi, before the river was a thing you could read from a screen, a man stood at the bow and threw a weighted, knotted line into the brown water to find the bottom. He called the depth back in fathoms. Two fathoms — twelve feet, just enough for a steamboat to pass without tearing out her hull — came back in the leadsman's chant as two words: "mark twain."<sup class="fnref">1</sup></p>
+    <p class="body">A young pilot named Samuel Clemens heard that call a thousand times, and years later, when he needed a name to publish under, he reached for it. Mark Twain: a measure of how much water you have between you and disaster, called out by a man who cannot see the bottom and is reading it by feel. It is the perfect name for a writer, and a nearly perfect motto for anyone trying to navigate a market. You do not see the bottom. You read the depth by the best instrument you have, and you call it honestly, and you keep moving.<sup class="fnref">2</sup></p>
+    <p class="body">This issue is full of leadsmen calling marks. The Macro Desk waits on an inflation print that economists have all but agreed will be the year's high. Gold sits a quarter below its January peak; oil two-fifths below its war spike; the dollar at a thirteen-month high; a British governing majority of 174 seats has unwound into a resignation in eighteen months. Each of these is being described, somewhere, as a top. And each of them is, strictly speaking, unconfirmable as a top until the tide has plainly gone out — which is to say, until it is too late to act on the knowledge.</p>
+    <p class="body">That is the trouble with a high-water mark. The phrase comes from the simplest of observations: after a flood, you can see exactly how high the water rose, because it leaves a line — silt on a wall, debris in a hedge, a stain on the stone of a bridge. But you can only see that line <i>afterwards</i>. While the water is still rising, every level looks like it might be the highest, and none of them announces itself as such. The mark is real. Its finality is a thing only hindsight confers.</p>
+
+    <div class="pull">You do not see the bottom. You read the depth by the best instrument you have, call it honestly, and keep moving.</div>
+
+    <p class="body">There is a famous instance of the phrase carved into a battlefield. At Gettysburg, a low stone wall and a copse of trees mark the point where, on 3 July 1863 — a hundred and sixty-three years ago next week — the Confederate infantry of Pickett's charge reached the Union line, held it for a few violent minutes, and were thrown back. A monument there calls it the "High Water Mark of the Rebellion."<sup class="fnref">3</sup></p>
+    <p class="body">But notice the tense. Nobody standing at that wall on the afternoon of the charge knew it was a high-water mark. To the men climbing it, it might have been a breakthrough — the beginning of the flood, not its limit. It became the high-water mark only because of everything that happened afterward, over two more years of war. The name was applied by historians looking back at a line the water never again reached. The summit was legible only from its far side.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1–2 Etymology of "mark twain" (leadline soundings, two fathoms) and Samuel Clemens's adoption of the pen name; standard biographical record. 3 "High Water Mark of the Rebellion" monument, Gettysburg; Pickett's Charge, 3 Jul 1863.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 22 — THE LONG READ (2) ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Long Read</span><span>The Long Read · continued</span></div>
+
+  <div class="cols2" style="margin-top:6mm;">
+    <p class="body">If the battlefield shows a high-water mark named correctly in hindsight, finance offers the more cautionary case: a top named confidently in advance, and wrongly. On 16 October 1929, the economist Irving Fisher — the most distinguished monetary thinker of his generation — told an audience that stock prices had reached "what looks like a permanently high plateau." It was, he believed, not a peak but a new floor: the water had risen and would stay risen.<sup class="fnref">1</sup></p>
+    <p class="body">Eight days later the market began the crash that would erase nearly nine-tenths of its value over the next three years and take Fisher's own fortune with it. His error was not stupidity — he was a brilliant man — but a category mistake. He looked at a high-water mark and called it a plateau. He mistook the top of the flood for the new level of the sea. It is the single most expensive sentence in the history of economic forecasting, and its lesson is not "tops are obvious" but the reverse: the moment you feel most certain a high level is permanent is precisely the moment to distrust the feeling.</p>
+
+    <div class="pull">He looked at a high-water mark and called it a plateau — mistook the top of the flood for the new level of the sea.</div>
+
+    <p class="body">The deepest version of the lesson is older and comes wrapped in a story usually told wrong. King Canute — Cnut, who ruled an empire around the North Sea a thousand years ago — is remembered as the fool who set his throne on the beach and commanded the tide to halt, and got his feet wet for his arrogance. But the medieval chronicler Henry of Huntingdon, who recorded it, tells it the other way around. Canute staged the whole thing precisely to <i>prove</i> he could not command the tide — to rebuke flattering courtiers who said his power was boundless. The water rose over his feet exactly as he knew it would. The point was the humility, not the hubris.<sup class="fnref">2</sup></p>
+    <p class="body">That is the posture this magazine tries to hold every issue, and especially this one. You can mark the high water. You cannot command it. A reporter who tells you, with confidence, that gold has peaked, or that inflation has crested, or that the AI trade has broken, is Canute's flatterer, not Canute. The honest figure is the leadsman: <i>this is the depth I read, here is the instrument I read it with, and I cannot see the bottom.</i></p>
+    <p class="body">Apply it to the week's actual numbers and the discipline becomes concrete. May's inflation print may well be the year's high — the gasoline math and the consensus both lean that way — but "may well be" is the leadsman's honest call, not a confirmed mark. Gold falling on a risk-off day told us something real about which force was leading the market this week; it did not tell us the monetary premium has topped. The bond rally that helped diversification this week is one week of data, not a confirmed turn in a correlation regime. Each is a sounding, not a shoreline.</p>
+    <p class="body">The temptation in all of it is Fisher's: to take a vivid recent level and declare it the new permanent state of the world. Higher-for-longer becomes higher-forever; a soft yen becomes a structurally cheap Japan; a frozen property market becomes a floor that cannot fall. Each of those may turn out true. None of them is knowable now, and treating a current reading as a settled fact is the precise error the high-water mark warns against.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 Irving Fisher, "permanently high plateau" remark, 16 Oct 1929 (widely documented). 2 Henry of Huntingdon, <i>Historia Anglorum</i>, the Cnut-and-the-tide episode (the humility reading).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 23 — THE LONG READ (3) ===================== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Long Read</span><span>The Long Read · continued</span></div>
+
+  <div class="grid g-21" style="margin-top:6mm;">
+    <div class="cols2">
+      <p class="body">So what does the leadsman's discipline actually counsel, for a reader holding a portfolio rather than a steamboat's wheel? Not paralysis. The man at the bow does not stop the boat because he cannot see the bottom; he calls the depth and the pilot steers with a margin. The financial translation of "a margin" has a dull and unglamorous name, and it is the quiet hero of this whole issue: diversification.<sup class="fnref">1</sup></p>
+      <p class="body">If you are not all-in on a single tide, you do not need to call its top. The reader's two anchors — a global all-world equity fund and a global bond allocation — are precisely a refusal to bet the boat on one reading of the water. This was the week that refusal paid: equities took the AI-trade stress-test on the chin while bonds rallied on the haven bid, and the blend held better than either alone. That is not a forecast vindicated. It is a margin doing its job — the whole point of carrying one.</p>
+      <p class="body">We have been here before in these pages, by other names. Hegel's owl of Minerva, in No.&nbsp;29, takes flight only at dusk: wisdom about an age arrives after the age is over, which is exactly why the high-water mark is legible only from its far side. Lao Tzu, in No.&nbsp;22, counselled the yielding posture that outlasts the rigid one — water, fittingly, that wears down what resists it. And Churchill, last issue, on the difference between an opening and a load-bearing thing.<sup class="fnref">2</sup></p>
+      <p class="body">Boethius, from this issue's desk, closes the circle. He wrote his consolation at the very moment his own high-water mark had passed — at the top of office one year, in a death cell the next — and Fortune's lesson to him was not that the wheel is cruel but that it is a <i>wheel</i>. The top is a position on it, not a place you arrive and stay. To know that, while you are near the top, is the whole of the wisdom on offer.</p>
+      <p class="body">This magazine reports at dawn, into a day whose shape it cannot yet see. It will mark the water it can measure, flag the depths it cannot, and refuse — politely, on principle — to tell you it has spotted a summit it could only confirm from a vantage it does not yet hold. That refusal is not timidity. It is the leadsman's honesty, carried to the reader's desk: the depth, the instrument, and the standing admission that the bottom is out of sight.</p>
+    </div>
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 200 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <rect x="0" y="0" width="200" height="280" fill="#fbf8f1"/>
+          <text x="10" y="20" font-family="Poppins" font-size="8.5" font-weight="700" fill="#191613">THE LEADSMAN'S CALL</text>
+          <!-- water -->
+          <rect x="0" y="150" width="200" height="130" fill="#2b6b66" opacity="0.18"/>
+          <line x1="0" y1="150" x2="200" y2="150" stroke="#2b6b66" stroke-width="1.5"/>
+          <text x="10" y="145" font-family="Poppins" font-size="6.5" fill="#2b6b66">surface — what you can read</text>
+          <!-- leadline -->
+          <line x1="120" y1="40" x2="120" y2="235" stroke="#403a32" stroke-width="1.3"/>
+          <circle cx="120" cy="235" r="5" fill="#9c3422"/>
+          <!-- knots / marks -->
+          <g stroke="#b08738" stroke-width="1.4">
+            <line x1="112" y1="175" x2="128" y2="175"/><line x1="112" y1="200" x2="128" y2="200"/>
+          </g>
+          <text x="132" y="178" font-family="Poppins" font-size="6.5" fill="#b08738">mark twain</text>
+          <text x="132" y="203" font-family="Poppins" font-size="6.5" fill="#7a7264">deeper marks</text>
+          <!-- high water line -->
+          <line x1="0" y1="95" x2="200" y2="95" stroke="#c1462e" stroke-width="1.2" stroke-dasharray="3 4"/>
+          <text x="10" y="90" font-family="Poppins" font-size="6.5" fill="#c1462e">high-water line — seen only after</text>
+          <!-- bottom unseen -->
+          <text x="40" y="258" font-family="Poppins" font-size="6.5" fill="#7a7264" font-style="italic">the bottom: out of sight</text>
+          <path d="M0,268 Q50,260 100,268 T200,268" fill="none" stroke="#7a7264" stroke-width="0.8" stroke-dasharray="2 3"/>
+        </svg>
+        <div class="imgcap">Reading depth you cannot see. Meridian original.</div>
+      </div>
+      <div class="chatter gold" style="margin-top:7px;">
+        <div class="lbl">The Threads</div>
+        <p>Five peaks, one posture: gold off its high, oil off its spike, the dollar at a top, an inflation gauge cresting, a landslide unwound. The connective tissue is not the direction of any one — it is the humility of refusing to call a summit from below it.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull">If you are not all-in on a single tide, you do not need to call its top.</div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1 Diversification as risk-margin (standard portfolio theory; framed as education, not advice). 2 Meridian callbacks: Hegel (No.&nbsp;29), Lao Tzu (No.&nbsp;22), Churchill (No.&nbsp;30); Boethius, this issue's "From the Desk."</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 24 — BACK COVER ===================== -->
+<section class="page dark">
+  <div style="padding:20mm 18mm 16mm 18mm;height:100%;display:flex;flex-direction:column;">
+    <div style="font-family:'Poppins';font-size:8.5pt;letter-spacing:.4em;text-transform:uppercase;color:#b08738;">The Last Word</div>
+    <div class="gold-rule" style="margin:10px 0 14px 0;"></div>
+
+    <div style="font-family:'Lora';font-weight:700;font-size:21pt;line-height:1.12;color:var(--paper);max-width:150mm;">Mark the water. Flag the depth. Call neither shoreline nor bottom permanent.</div>
+
+    <p style="font-family:'Lora';font-size:10pt;line-height:1.5;color:#cdbfa6;margin-top:14px;max-width:150mm;text-align:justify;">This edition met a week of apparent summits — gold a quarter off its peak, oil down two-fifths, the dollar at a thirteen-month high, an inflation gauge widely tipped to crest, a landslide majority unwound. The thread running through all twelve desks was not the direction of any single tide but the discipline of reading one: a high-water mark is legible only from its far side, so the honest posture is the leadsman's — call the depth you can measure, admit the bottom you cannot see, and keep a margin. For the reader, that margin has a dull and reliable name: diversification. You need not call the top if you are not all-in on the tide.</p>
+
+    <div style="margin-top:auto;">
+      <div style="border-top:1px solid #3a342c;padding-top:10px;">
+        <div style="font-family:'Poppins';font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:#7a7264;margin-bottom:5px;">Sources, this edition — consolidated</div>
+        <p style="font-family:'Poppins';font-size:6.4pt;line-height:1.5;color:#9a9082;">Reuters · AP · BBC · Guardian · PA Media · Al Jazeera · FT · CNBC · Lloyd's List · IAEA · IMO · Charles Schwab · CME FedWatch · BEA · LSEG / exchange data · ICE · LBMA · SGX · SingStat · MAS-MTI · MOM · URA · Connectivity Standards Alliance · Home Assistant · Gear Patrol · NAD · Robb Report · Phillips · Christopher Ward · Universe Today · ESA · NASA · PsyPost · Evolutionary Psychological Science · YG Entertainment / b.stage · Eatbook / SETHLUI / HungryGoWhere / Time Out SG · detraining literature (Mujika &amp; Padilla; Bickel) · Dweck / Masten / Luthar (with caveats). Historical: Boethius, <i>Consolatio</i>; Mark Twain leadline etymology; Gettysburg "High Water Mark"; Irving Fisher (1929); Henry of Huntingdon (Cnut). Market levels indicative &amp; for explanation only — not investment advice.</p>
+      </div>
+
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:14px;">
+        <div>
+          <div style="font-family:'Poppins';font-weight:700;font-size:13pt;letter-spacing:.02em;color:var(--paper);">MERIDIAN</div>
+          <div style="font-family:'Lora';font-style:italic;font-size:9pt;color:#b08738;">Twelve Desks · One World</div>
+        </div>
+        <div style="text-align:right;font-family:'Poppins';font-size:7pt;letter-spacing:.16em;text-transform:uppercase;color:#7a7264;line-height:1.6;">
+          No. 31 · Singapore<br>Thursday 25 June 2026<br>The Current Briefing
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

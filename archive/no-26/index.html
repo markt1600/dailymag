@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+</style>
+<style>
+/* Issue-local refinements only (No. 26). Never edits meridian.css. */
+.hed.xl{font-size:30pt;}
+.cap-note{font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.04em;color:var(--muted);}
+.mini{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.04em;color:var(--ink2);line-height:1.4;}
+.tbl{width:100%;border-collapse:collapse;margin:6px 0;}
+.tbl th,.tbl td{font-family:'Poppins',sans-serif;font-size:7.4pt;text-align:left;padding:3px 5px;border-bottom:.5pt solid var(--line);}
+.tbl th{color:var(--vermilion);text-transform:uppercase;letter-spacing:.1em;font-weight:700;font-size:6.8pt;}
+.tbl td.n{text-align:right;font-weight:600;color:var(--ink);}
+.lede-strip{display:flex;gap:5mm;border-top:2pt solid var(--ink);border-bottom:.6pt solid var(--line);padding:5px 0;margin:6px 0;}
+.lede-strip .it{flex:1;}
+.lede-strip .it .k{font-family:'Poppins',sans-serif;font-size:6.4pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+.lede-strip .it .v{font-family:'Poppins',sans-serif;font-size:13pt;font-weight:700;color:var(--vermilion);line-height:1.05;}
+.lede-strip .it .s{font-family:'Poppins',sans-serif;font-size:6.2pt;color:var(--ink2);}
+.quietmark{font-family:'Lora',serif;font-style:italic;color:var(--gold);}
+</style>
+<style>
+/* ====== PHOTO EDITION — screen-flow overrides (No. 26) ====== */
+body{background:#2a2622;margin:0;padding:24px 0;}
+.page{height:auto;min-height:297mm;overflow:visible;margin:0 auto 26px;box-shadow:0 18px 60px rgba(0,0,0,.45);}
+.page.dark{min-height:297mm;}
+.pgfoot,.fnbar{position:static;}
+.rh{position:absolute;}
+/* photo hero frame */
+.ph-frame{position:relative;width:100%;aspect-ratio:16/8;overflow:hidden;border-radius:3px;margin:4mm 0 2mm;background:var(--paper2);}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.ph-cap{font-family:'Poppins',sans-serif;font-size:6.4pt;letter-spacing:.03em;color:var(--muted);line-height:1.4;margin:0 0 4mm;}
+.ph-cap b{color:var(--ink2);letter-spacing:.1em;text-transform:uppercase;font-size:6pt;}
+@media (max-width:880px){.page{width:100%;min-height:0;padding:7vw 6vw;}}
+</style>
+</head>
+<body>
+
+<!-- ============== PAGE 1 — COVER ============== -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 26 · Singapore</span></div>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+    <div style="font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.32em;color:#cdbf9f;margin-top:9px;text-transform:uppercase;">Thursday · 18 June 2026</div>
+  </div>
+
+  <!-- Cover hero: a waveform speaking, then falling to a level line — sound resolving into the eloquent flat of silence -->
+  <div style="position:absolute;top:108mm;left:16mm;right:16mm;">
+    <svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+      <defs>
+        <linearGradient id="cg" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c1462e"/><stop offset="0.62" stop-color="#b08738"/><stop offset="1" stop-color="#7a7264"/>
+        </linearGradient>
+      </defs>
+      <!-- faint orbit arcs -->
+      <ellipse cx="300" cy="130" rx="270" ry="92" fill="none" stroke="#3a342c" stroke-width="1"/>
+      <ellipse cx="300" cy="130" rx="210" ry="60" fill="none" stroke="#2f4858" stroke-width="1" opacity="0.7"/>
+      <!-- speaking waveform on the left, decaying to a single flat line on the right -->
+      <g stroke="url(#cg)" stroke-width="3" stroke-linecap="round" fill="none">
+        <path d="M20 130 C 40 30, 60 230, 80 130 C 100 50, 120 210, 140 130 C 158 70, 176 192, 196 130
+                 C 214 86, 232 176, 252 130 C 268 100, 286 162, 306 130 C 320 112, 336 150, 352 130
+                 C 366 120, 382 142, 398 130 C 412 124, 428 137, 446 130 L 580 130"/>
+      </g>
+      <!-- the diminishing vertical ticks -->
+      <g stroke="#cdbf9f" stroke-width="1.4" opacity="0.55">
+        <line x1="470" y1="124" x2="470" y2="136"/><line x1="500" y1="126" x2="500" y2="134"/>
+        <line x1="530" y1="127" x2="530" y2="133"/><line x1="560" y1="128.5" x2="560" y2="131.5"/>
+      </g>
+      <circle cx="580" cy="130" r="4.5" fill="#b08738"/>
+      <text x="300" y="246" text-anchor="middle" font-family="Poppins,sans-serif" font-size="11" letter-spacing="3" fill="#cdbf9f">THE WORD WITHHELD</text>
+    </svg>
+  </div>
+
+  <div class="cover-teasers">
+    <div style="font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;border-top:1.5pt solid #3a342c;padding-top:8px;">Inside this edition</div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:var(--vermilion);">The World</div>
+        <div class="ht">Warsh says less, and means it: the Fed's 130-word debut</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:var(--gold);">Technology</div>
+        <div class="ht">The model that fits in 16 gigs — and tells your cloud nothing</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:#7fb0aa;">Curiosities</div>
+        <div class="ht">A black hole that may hide no secret at its core</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>The Current Briefing</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</section>
+
+
+<!-- ============== PAGE 2 — CONTENTS + FROM THE DESK ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Contents</span><span>The Current Briefing · No. 26</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="grid g-21" style="margin-top:7mm;">
+    <!-- left: contents list -->
+    <div>
+      <div class="kicker">In this edition</div>
+      <h1 class="hed xl" style="margin-bottom:2px;">The eloquence of the unsaid.</h1>
+      <p class="dek">A new Fed chair governs by subtraction; a peace is known by the text it will not publish; a great model shrinks; a black hole may keep no secret. What is withheld, this week, did the talking.</p>
+
+      <div class="cols2" style="margin-top:4px;">
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">03 · THE WORLD</b><br>Warsh's 130-word debut; oil's quiet retreat; Geneva eve.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">05 · SINGAPORE</b><br>The loudest number in the book comes from the quietest desk.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">06 · PROPERTY</b><br>Scarcity by design: the land tap kept half-closed.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">07 · TECHNOLOGY</b><br>The model that fits in 16 gigs, and says nothing to the cloud.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">09 · THE KIT</b><br>The flagship that does less, on purpose.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">10 · CONNECTED HOME</b><br>Matter 1.6 tries to dissolve the walls.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">11 · THE GOOD LIFE</b><br>The window holds; the watch that whispers.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">12 · SCREEN &amp; SOUND</b><br>A record opening; the charts rewrite what they count.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">13 · THE FAMILY DESK</b><br>Friendship is the buffer; the afternoon you don't fill.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">15 · THE WHISPER DESK</b><br>What a publicist says by saying almost nothing.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">16 · CURIOSITIES</b><br>The hole at the centre of the unsayable.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">17 · LOVE &amp; LIFE</b><br>Two kinds of quiet, and the line between them.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">18 · FITNESS</b><br>The deload: strength built in the backing-off.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">19 · THE DIARY</b><br>What's worth booking; BIGBANG's date is set.</p>
+        <p class="mini" style="margin-bottom:2px;"><b style="color:var(--vermilion);">21 · THE LONG READ</b><br>"Whereof one cannot speak" — the discipline of restraint.</p>
+      </div>
+    </div>
+
+    <!-- right: From the Desk + market strip -->
+    <div>
+      <div class="chatter gold" style="margin-top:2px;">
+        <div class="lbl">From the Desk</div>
+        <p style="font-family:'Lora',serif;font-style:italic;font-size:11pt;line-height:1.34;color:var(--ink);">"Whereof one cannot speak, thereof one must be silent."</p>
+        <p class="src">— Ludwig Wittgenstein, <span style="font-style:italic;">Tractatus Logico-Philosophicus</span>, proposition 7 (1921)</p>
+        <p style="margin-top:5px;">The famous last line of a famously austere book — a whole philosophy ending in an instruction to stop talking. We borrowed it because the week kept proving it. A Fed chair cut his statement to 130 words and declined to forecast at all. Two governments agreed to a peace whose text neither would publish. The best new machines got smaller and quieter. And astronomers asked whether the universe's darkest object hides anything at its centre — or whether the silence behind the horizon is the whole story. Restraint, it turns out, is not the absence of a message. Sometimes it is the message.</p>
+      </div>
+
+      <div style="border:.6pt solid var(--line);background:#fbf8f1;border-radius:2px;padding:8px 10px;margin-top:7px;">
+        <div class="kicker slate" style="font-size:7.5pt;">The Tape · 17 Jun close</div>
+        <table class="tbl" style="margin-top:3px;">
+          <tr><td>Brent crude</td><td class="n">US$78.96</td><td class="n" style="color:var(--teal);">3-mo low</td></tr>
+          <tr><td>US Fed funds</td><td class="n">3.50–3.75%</td><td class="n" style="color:var(--muted);">held</td></tr>
+          <tr><td>US CPI (May, y/y)</td><td class="n">4.2%</td><td class="n" style="color:var(--vermilion);">3-yr high</td></tr>
+          <tr><td>Gold (spot)</td><td class="n">~US$4,330</td><td class="n" style="color:var(--muted);">off Jan peak</td></tr>
+          <tr><td>USD / JPY</td><td class="n">~¥159</td><td class="n" style="color:var(--muted);">soft</td></tr>
+          <tr><td>SG NODX (May, y/y)</td><td class="n">+38.4%</td><td class="n" style="color:var(--teal);">23-yr high</td></tr>
+        </table>
+        <p class="cap-note" style="margin-top:2px;">Sources: CNBC, Federal Reserve, EIA, Enterprise Singapore, Trading Economics (17 Jun 2026). Figures rounded; markets move.</p>
+      </div>
+
+      <div class="stat" style="margin-top:8px;">
+        <div class="n">130</div>
+        <div class="c">words in the FOMC's 17 Jun statement — down from 341 in April</div>
+      </div>
+      <div class="hairline"></div>
+      <p class="mini" style="text-align:center;color:var(--muted);">A briefing for one city, written for anyone. No names, no borders — just the week, read closely.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> CNBC &amp; Fox Business (FOMC, 17 Jun 2026); Enterprise Singapore / Trading Economics (NODX, May 2026); EIA &amp; CNBC (Brent, 16–17 Jun); Wittgenstein, <span style="font-style:italic;">Tractatus</span> (1921, Ogden trans.).</div>
+    <div class="fnbar"><span>The Current Briefing</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 3 — THE WORLD (1) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">The Federal Reserve · Washington</div>
+    <h1 class="hed xl">The chairman who governs by subtraction</h1>
+    <p class="dek">Kevin Warsh held rates, deleted the forward guidance, declined to mark his own dot, and shrank the statement to 130 words. On the eve of a peace signed in Geneva, the loudest signal in markets was a central bank choosing to say less.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">For nine years Meridian's predecessors in the financial press complained that the Federal Reserve talked too much&#8202;&mdash;&#8202;a blizzard of dots, projections and guidance that markets parsed like scripture. On 17 June, at his first meeting as the seventeenth chair, Kevin Warsh answered the complaint with a blade.<sup class="fnref">1</sup> The Federal Open Market Committee left its benchmark range at 3.50&ndash;3.75% for a fourth straight meeting, exactly as priced. Then it did the unexpected things.</p>
+
+      <p class="body">The post-meeting statement ran to about 130 words, against 341 in April&#8202;&mdash;&#8202;stripped of the easing-bias language that had hinted at cuts, reduced to a brief read of conditions and a vow to control inflation.<sup class="fnref">2</sup> The updated dot plot erased the one 2026 cut that March had pencilled in; nine of eighteen participants now sketch a hike before year-end, six of them two. And Warsh himself declined to submit a dot at all, a forecast he has long criticised, while announcing five task forces to overhaul how the Fed communicates, measures and operates.<sup class="fnref">3</sup></p>
+
+      <p class="body">The economics are hawkish enough on their own. May CPI ran 4.2% year on year, a three-year high and a third straight monthly acceleration, with energy up 23.5% on the Iran war. The committee now sees PCE inflation at 3.6% by year-end (2.7% in March), growth easing to 2.2%, unemployment at 4.3%.<sup class="fnref">4</sup> But the market story was about voice, not the rate. As one Wharton scholar put it, the more opaque the Fed is about its future path, the harder it is for politicians to pin it down&#8202;&mdash;&#8202;a pointed virtue under a president who said before the meeting there was "no reason" to raise.<sup class="fnref">5</sup></p>
+
+      <p class="body">There is a through-line to the whole week here, and it is not only monetary. A chair declined to tell you what he doesn't know. In Geneva, two governments prepared to sign a peace whose text they would not release. The discipline of the unsaid was, for once, the policy itself.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · markets desk</div>
+        <p>"He didn't dodge the dot, he killed the genre," ran one widely-shared take on the trading forums. Others were drier: a 130-word statement is harder to trade against than a 341-word one, which may be the point.</p>
+        <p class="src">Aggregated, FedWatch &amp; r/economics reaction, 17 Jun</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="14" font-family="Poppins,sans-serif" font-size="9" font-weight="700" fill="#191613">THE DOT THAT VANISHED</text>
+          <text x="8" y="26" font-family="Poppins,sans-serif" font-size="6.2" fill="#7a7264">Median 2026 year-end fed funds, % (target midpoint)</text>
+          <line x1="30" y1="120" x2="240" y2="120" stroke="#d8cfbd" stroke-width="1"/>
+          <line x1="30" y1="40" x2="30" y2="120" stroke="#d8cfbd" stroke-width="1"/>
+          <!-- March: 3.4 (one cut below) -->
+          <circle cx="80" cy="98" r="6" fill="#2f4858"/>
+          <text x="80" y="138" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.4" fill="#7a7264">MAR</text>
+          <text x="80" y="90" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.4" fill="#2f4858">3.4</text>
+          <!-- June: 3.6 (cut gone, hike risk) -->
+          <circle cx="190" cy="64" r="6" fill="#c1462e"/>
+          <text x="190" y="138" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.4" fill="#7a7264">JUN</text>
+          <text x="190" y="56" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.4" fill="#c1462e">3.6+</text>
+          <!-- ghost of the deleted dot -->
+          <circle cx="190" cy="98" r="6" fill="none" stroke="#b08738" stroke-width="1.2" stroke-dasharray="2 2"/>
+          <text x="208" y="101" font-family="Poppins,sans-serif" font-size="5.6" fill="#b08738">deleted cut</text>
+          <path d="M86 96 Q 140 70 184 66" stroke="#403a32" stroke-width="1" fill="none" stroke-dasharray="3 2"/>
+        </svg>
+        <div class="imgcap">Meridian chart. The March median implied one cut; June erased it and leaned to a hike. Source: FOMC SEP (Mar &amp; Jun 2026).</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">9 of 18</div>
+        <div class="c">FOMC participants now project a 2026 hike — none a cut</div>
+      </div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>Less guidance is not free. Markets that lose the Fed's map rebuild it themselves, often noisily; a debut built on opacity can raise volatility before it lowers it. Restraint reads as wisdom only if the data cooperate.</p>
+        <p class="src">Oxford Economics &amp; REX Shares previews</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 1&ndash;3. CNBC, "Fed holds rates steady," 17 Jun 2026; Fox Business, "Warsh era begins," 17 Jun. 4. Fox Business / FOMC SEP, 17 Jun. 5. P. Conti-Brown via TechTimes, 16 Jun; REX Shares FOMC preview, 16 Jun.</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 4 — THE WORLD (2) — viewpoints ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The World</span><span>Around the Desks</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="grid g-12" style="margin-top:5mm;">
+    <div>
+      <div class="kicker slate">Read four ways · the Geneva eve</div>
+      <h2 class="hed sm">A peace described everywhere, published nowhere</h2>
+      <p class="body tight">The US and Iran are set to sign a memorandum in Geneva on Friday 19 June, ending a war that began 28 February. Hormuz reopens "toll-free," the US naval blockade lifts, frozen Iranian assets move toward reconstruction. The catch is the one the desk keeps returning to: each side gives a different account, and the text itself is unpublished&#8202;&mdash;&#8202;to be released "later this week."<sup class="fnref">6</sup> Below, the same Thursday, four windows.</p>
+
+      <div class="desk">
+        <div class="flag"><span>Washington</span><span class="geo">Truth Social / CNBC</span></div>
+        <p>"The Deal&hellip; is now complete." The president authorises the strait's reopening and the blockade's removal&#8202;&mdash;&#8202;"Ships of the World, start your engines." Sanctions relief is immediate on signing, conditioned on no weapon, neutralised uranium, free passage.</p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Tehran</span><span class="geo">Al Jazeera / SNSC</span></div>
+        <p>The Supreme National Security Council confirms a finalised MoU and says the US blockade lifts at once&#8202;&mdash;&#8202;but "negotiations for a final agreement will be postponed until after the other party has fulfilled its obligations." The peace is the floor, not the building.</p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Geneva &middot; markets</span><span class="geo">EIA / Reuters</span></div>
+        <p>Brent closed at US$78.96 on 16 Jun&#8202;&mdash;&#8202;below US$80 for the first time since March, a fifth straight fall, ~40% off the war peak&#8202;&mdash;&#8202;as 100-plus laden tankers wait to move. The EIA's quiet number: practical reopening takes months; pre-war flow may not return until early 2027.</p>
+      </div>
+      <div class="desk">
+        <div class="flag"><span>Beijing</span><span class="geo">CGTN</span></div>
+        <p>State media leads on the blockade's removal and freedom of navigation as a stabiliser for "developing countries most vulnerable to instability"&#8202;&mdash;&#8202;Chinese crude imports, a ten-year low through the war, the unstated beneficiary of a calmer strait.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 120" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8.4" font-weight="700" fill="#191613">BRENT, THE WAR PREMIUM DRAINS</text>
+          <text x="8" y="24" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">US$/bbl, indicative path Mar&ndash;Jun 2026</text>
+          <polyline points="20,92 55,40 95,52 130,60 165,74 205,98 240,100" fill="none" stroke="#c1462e" stroke-width="2.2"/>
+          <line x1="20" y1="98" x2="240" y2="98" stroke="#d8cfbd" stroke-width="1" stroke-dasharray="3 2"/>
+          <text x="20" y="110" font-family="Poppins,sans-serif" font-size="5.8" fill="#7a7264">$70 pre-war floor</text>
+          <circle cx="55" cy="40" r="2.6" fill="#9c3422"/><text x="50" y="36" font-family="Poppins,sans-serif" font-size="5.6" fill="#9c3422">~$113 peak</text>
+          <circle cx="240" cy="100" r="3" fill="#c1462e"/><text x="210" y="116" font-family="Poppins,sans-serif" font-size="6" fill="#c1462e">$78.96</text>
+        </svg>
+        <div class="imgcap">Meridian chart; levels per CNBC/EIA. The premium is nearly gone; the physical reopening is not.</div>
+      </div>
+
+      <div class="pull" style="margin-top:6px;">The signature arrives Friday. The working strait takes months. Mind the lag.</div>
+
+      <p class="body tight"><b>The lag, again.</b> Markets price the peace; physics prices the reopening. Mines must be cleared, insurance re-rated, idled fields restarted&#8202;&mdash;&#8202;the same months-long gap that followed the Suez Canal's 1975 reopening, eight years after it shut. The undisputed number this week is not the oil price but the calendar between a deal and a working waterway.<sup class="fnref">7</sup></p>
+
+      <div class="chatter teal">
+        <div class="lbl">Also on the wire</div>
+        <p><b>G7 &middot; &Eacute;vian.</b> Macron's summit closed Tuesday 17 Jun, Iran dominating; rare-earth dependence on China and AI rules the unfinished business. Zelenskyy proposed direct talks with Putin.</p>
+        <p><b>Colombia.</b> The presidential run-off falls Sunday 21 June&#8202;&mdash;&#8202;de la Espriella (43.7% first round) against Cepeda (40.9%).</p>
+        <p><b>World Bank.</b> 2026 global growth cut to 2.5%, the weakest since the pandemic.</p>
+        <p class="src">CNBC, Reuters, World Reporter, 15&ndash;17 Jun</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 6. Al Jazeera, "US, Iran to sign a peace deal Friday," 15 Jun; CNN live, 14 Jun; CGTN, 15 Jun. 7. EIA Short-Term Energy Outlook, 9 Jun; CNBC, "Brent below $80," 16 Jun; Morgan Stanley note via CNBC.</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 5 — SINGAPORE ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Singapore's Marina Bay skyline at dusk" loading="lazy"></div>
+  <p class="ph-cap"><b>Marina Bay, Singapore.</b> The city-state shipping the AI build-out it rarely talks about. Source: Wikimedia Commons &mdash; File:Singapore Marina Bay Dusk 2018-02-27.jpg &middot; CC&nbsp;BY-SA&nbsp;4.0 &middot; Benh Lieu Song &middot; Subject verified from the Commons file page.</p>
+  <div style="margin-top:5mm;">
+    <div class="kicker">Trade · the AI supply chain</div>
+    <h1 class="hed">The loudest number in the book, from the quietest desk</h1>
+    <p class="dek">Non-oil domestic exports jumped 38.4% in May&#8202;&mdash;&#8202;the fastest since December 2003&#8202;&mdash;&#8202;on a 94.8% surge in electronics. Singapore isn't talking about the AI boom. It's shipping it.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">While the world's capitals traded statements about peace and rates, the city-state quietly posted a trade figure that made economists look twice. May NODX rose 38.4% year on year&#8202;&mdash;&#8202;a ninth straight month of expansion, beating forecasts of 30%, and the strongest reading in more than two decades.<sup class="fnref">8</sup> The headline hides in the breakdown: electronics shipments leapt 94.8%, with disk-media products up 227.8%, PCs 140.9% and integrated circuits 80.9%.</p>
+
+      <p class="body">Read the categories and you can see the data centre being built. Disk media is a proxy for storage; ICs for the chips inside the racks; the destinations&#8202;&mdash;&#8202;Taiwan (+135%), the US (+81%), South Korea (+67%)&#8202;&mdash;&#8202;are the three nodes of the AI-hardware world.<sup class="fnref">9</sup> Enterprise Singapore has lifted its 2026 export forecast, framing the surge not as a one-quarter blip but a structural shift. Q1 GDP already printed 6%.</p>
+
+      <p class="body">There is a Meridian-ish lesson in the shape of it. Singapore makes almost none of the noise in the AI story&#8202;&mdash;&#8202;no trillion-dollar listing, no founder on a stage. It sells the picks and shovels and lets the number do the talking. Even the non-electronic line carried a tell: non-monetary gold exports rose 83.2%, a quiet echo of last week's MAS bullion-hub push.<sup class="fnref">10</sup></p>
+
+      <div class="chatter gold">
+        <div class="lbl">For the owner</div>
+        <p>A 6% economy and a record export run are the unglamorous foundation under STI dividends, the jobs market and, eventually, the property floor on the next page. The risk is concentration: when one buyer&#8202;&mdash;&#8202;AI infrastructure&#8202;&mdash;&#8202;drives a quarter of the basket, a pause in the buildout is felt here first.</p>
+        <p class="src">Meridian read-through</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 168" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8.6" font-weight="700" fill="#191613">MAY EXPORTS, y/y %</text>
+          <text x="8" y="24" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">Selected NODX electronics lines</text>
+          <!-- bars -->
+          <g font-family="Poppins,sans-serif" font-size="6.4" fill="#403a32">
+            <rect x="78" y="34" width="150" height="13" fill="#c1462e"/><text x="8" y="44">Disk media</text><text x="232" y="44" fill="#9c3422">+227.8</text>
+            <rect x="78" y="54" width="93" height="13" fill="#b08738"/><text x="8" y="64">PCs</text><text x="175" y="64" fill="#8a6a28">+140.9</text>
+            <rect x="78" y="74" width="62" height="13" fill="#2f4858"/><text x="8" y="84">Electronics (all)</text><text x="144" y="84" fill="#2f4858">+94.8</text>
+            <rect x="78" y="94" width="53" height="13" fill="#2b6b66"/><text x="8" y="104">ICs (chips)</text><text x="135" y="104" fill="#2b6b66">+80.9</text>
+            <rect x="78" y="114" width="25" height="13" fill="#7a7264"/><text x="8" y="124">NODX total</text><text x="107" y="124">+38.4</text>
+          </g>
+          <line x1="78" y1="30" x2="78" y2="132" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="78" y="150" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">Fastest NODX growth since Dec 2003</text>
+        </svg>
+        <div class="imgcap">Meridian chart. Source: Enterprise Singapore / Trading Economics, May 2026 NODX.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">+227.8%</div>
+        <div class="c">disk-media exports, y/y — the data centre's storage, leaving port</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic · the lag at home</div>
+        <p>Peace is arriving in Geneva, but Singapore's July power tariff still bites: ~95% of generation runs on imported gas, and the 29.72&cent;/kWh Q2 rate was set on pre-war prices. The relief calendar (June CDC vouchers &rarr; July U-Save &rarr; Aug GSTV) was built for a war that may be ending&#8202;&mdash;&#8202;cheaper Brent helps only with a lag.</p>
+        <p class="src">EMA; Meridian continuity (Nos. 23&ndash;25)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 8&ndash;9. Trading Economics / Enterprise Singapore, "Singapore NODX growth highest since 2003," 17 Jun 2026; Cryptobriefing, 17 Jun. 10. Enterprise Singapore destination data; MAS/SBMA bullion-hub push (Meridian No. 25). Energy: EMA, Q2 tariff.</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 6 — PROPERTY ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Land sales · the calibrated tap</div>
+    <h1 class="hed">Scarcity by design</h1>
+    <p class="dek">With the Fed's hold keeping borrowing cheap, the market's other support is the one nobody legislates loudly: a land supply deliberately kept half-closed. The Bayshore Drive mega-tender, closing 15 July, is the next reading.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:3mm;">
+    <div>
+      <p class="body dropcap">One of the three answers an owner was waiting on last week has arrived: the Fed held, so the SORA trough that has made refinancing cheap stays put for now. The second arrives 15 July, when URA's Bayshore Drive mixed-use tender closes&#8202;&mdash;&#8202;a 616,506&nbsp;sq&nbsp;ft plot integrated with Bedok South MRT, ~1,280 homes plus retail, that analysts think could fetch up to ~S$2 billion (~S$1,200&ndash;1,300 psf ppr) and become the highest-ever bid for a mixed-use site.<sup class="fnref">11</sup></p>
+
+      <p class="body">But the structural story is restraint. The 1H2026 confirmed list&#8202;&mdash;&#8202;nine sites, ~4,575 private units&#8202;&mdash;&#8202;is the lowest in three years, the second consecutive half the government has trimmed.<sup class="fnref">12</sup> The state is not flooding the market; it is metering it, letting demand find a thinner supply. The brand of policy here is quiet: no fanfare, just a tap turned a quarter-closed.</p>
+
+      <p class="body">Under it sits the floor Meridian has tracked all month: construction costs up ~40% a decade, GLS break-evens north of S$2,400 psf. A peace dividend on oil won't reach the price of pouring concrete. Prices hold less because demand roars than because the cost of building&#8202;&mdash;&#8202;and the supply withheld&#8202;&mdash;&#8202;refuses to let them fall.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · upgrader forums</div>
+        <p>"Everyone's waiting on Bayshore to set the East Coast benchmark." Recent integrated launches&#8202;&mdash;&#8202;Pinery Residences sold 92.5% at ~S$2,546 psf&#8202;&mdash;&#8202;keep the comp high. Bedok 4- and 5-room resale flats at S$860k and S$1m-plus feed the upgrader pool.</p>
+        <p class="src">EdgeProp / Stacked Homes, Bayshore previews</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8.4" font-weight="700" fill="#191613">THE TAP, KEPT HALF-CLOSED</text>
+          <text x="8" y="24" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">Confirmed-list private units, per half-year GLS</text>
+          <g font-family="Poppins,sans-serif" font-size="6">
+            <rect x="30" y="44" width="38" height="70" fill="#d8cfbd"/><text x="49" y="124" text-anchor="middle" fill="#7a7264">1H25</text><text x="49" y="40" text-anchor="middle" fill="#7a7264">5.0k</text>
+            <rect x="90" y="50" width="38" height="64" fill="#b08738"/><text x="109" y="124" text-anchor="middle" fill="#7a7264">2H25</text><text x="109" y="46" text-anchor="middle" fill="#8a6a28">4.7k</text>
+            <rect x="150" y="58" width="38" height="56" fill="#c1462e"/><text x="169" y="124" text-anchor="middle" fill="#7a7264">1H26</text><text x="169" y="54" text-anchor="middle" fill="#9c3422">4.6k</text>
+          </g>
+          <line x1="24" y1="114" x2="200" y2="114" stroke="#403a32" stroke-width="1"/>
+          <text x="208" y="86" font-family="Poppins,sans-serif" font-size="5.8" fill="#7a7264" transform="rotate(90 208 86)">3-yr low</text>
+        </svg>
+        <div class="imgcap">Meridian chart. Source: MND/URA 1H2026 GLS; PropNex. Confirmed-list supply at its lowest in three years.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">&gt;S$2,400</div>
+        <div class="c">psf — the GLS break-even floor under prices, build costs +~40%/decade</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>Metered supply supports prices but also affordability strain; a record Bayshore bid would feed straight into 2027&ndash;28 launch pricing. Cheap rates plus thin land is a recipe the authorities watch closely&#8202;&mdash;&#8202;new cooling measures remain the unspoken backstop.</p>
+        <p class="src">Cushman &amp; Wakefield; Meridian read</p>
+      </div>
+      <p class="mini" style="margin-top:5px;color:var(--muted);"><b>Still on the shelf:</b> SORA refinancing window (saturated, one line); June BTO results; URA Q1 final +0.9% (slowest in 8 quarters).</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 11. EdgeProp / Stacked Homes / Yahoo SG, "Bayshore Drive GLS tender," closes 15 Jul 2026. 12. cos.sg / PropNex, "Land supply for private housing continues to fall, 1H2026"; MND 1H2026 GLS programme.</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 7 — TECHNOLOGY (1) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Servers%20in%20a%20Rack.jpg?width=1600" alt="Servers mounted in a rack" loading="lazy"></div>
+  <p class="ph-cap"><b>Representative image.</b> Server racks &mdash; not the reader’s home lab; the point this month is the model that needs none of them. Source: Wikimedia Commons &mdash; File:Servers in a Rack.jpg &middot; CC&nbsp;BY-SA&nbsp;3.0 &middot; Abigor &middot; Subject verified from the Commons file page.</p>
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">Open weights · the turn to small</div>
+    <h1 class="hed xl">The model that fits in sixteen gigs &mdash; and tells your cloud nothing</h1>
+    <p class="dek">The frontier spent two years chasing the biggest model. This month the most interesting releases ran the other way: frontier-grade intelligence small enough to live on the machine you already own, speaking to no one's server. Restraint, as engineering.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">If the AI story has a recurring villain on this desk, it is the memory tax&#8202;&mdash;&#8202;the DRAM squeeze that has roughly quadrupled the cost of the RAM these systems eat (No. 24). The squeeze is still here. But this month the open-weight world answered it not by buying more memory, but by needing less of it.</p>
+
+      <p class="body">Google's Gemma&nbsp;4 12B, released 3 June, runs in 16&nbsp;GB of RAM with native audio and vision&#8202;&mdash;&#8202;no separate encoders, the architecture folded down to a single pass&#8202;&mdash;&#8202;and Google claims it nears its bigger sibling at less than half the memory footprint.<sup class="fnref">13</sup> Ollama's 12 June update (v0.30.8) broadened the hardware it will run on and sharpened the Apple-silicon engine; MiniMax's M3 shipped with a sparse-attention scheme that only looks at the blocks it needs.<sup class="fnref">14</sup> Microsoft's Phi-4-mini, at 3.8B, runs on a CPU with no GPU at all.</p>
+
+      <p class="body">The shift is philosophical as much as technical. For three years "better" meant "bigger," and bigger meant a rented endpoint on someone else's cloud. The 2026 efficiency wave inverts the test: how much intelligence can you fit on hardware you control, talking to no one? The answer, suddenly, is "most of it"&#8202;&mdash;&#8202;and for a reader who keeps a home lab, that is the whole game.</p>
+
+      <p class="body">Even the labs are practising a kind of restraint about restraint. OpenAI on 16 June introduced "Deployment Simulation," a method that replays past conversations through a candidate model before release and grades the results&#8202;&mdash;&#8202;testing what a model will say by rehearsing it against what people have already said, rather than guessing.<sup class="fnref">15</sup> The quietest releases, this month, were the loudest.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · r/LocalLLaMA</div>
+        <p>"Gemma 4 12B with audio in on a 16GB Mac mini is genuinely absurd." The consensus mood is less hype than relief: the memory tax made cloud feel mandatory; small-but-good makes local the default again.</p>
+        <p class="src">Aggregated local-LLM forums, June 2026</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8.4" font-weight="700" fill="#191613">LESS, DOING MORE</text>
+          <text x="8" y="24" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">Capability rising as footprint falls (schematic)</text>
+          <!-- axes -->
+          <line x1="28" y1="34" x2="28" y2="120" stroke="#d8cfbd" stroke-width="1"/>
+          <line x1="28" y1="120" x2="240" y2="120" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="6" y="80" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264" transform="rotate(-90 6 80)">capability &rarr;</text>
+          <text x="132" y="134" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">memory footprint &rarr;</text>
+          <!-- old: big -->
+          <circle cx="205" cy="52" r="15" fill="#2f4858" opacity="0.85"/><text x="205" y="55" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6" fill="#fff">cloud</text>
+          <!-- new: small, high -->
+          <circle cx="74" cy="46" r="7.5" fill="#c1462e"/><text x="74" y="34" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.8" fill="#9c3422">Gemma 4 12B</text>
+          <circle cx="52" cy="66" r="5" fill="#b08738"/><text x="52" y="80" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.6" fill="#8a6a28">Phi-4-mini</text>
+          <path d="M195 60 Q 130 30 82 48" stroke="#403a32" stroke-width="1" fill="none" stroke-dasharray="3 2"/>
+          <text x="118" y="100" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.8" fill="#7a7264">the year of the 16-GB frontier</text>
+        </svg>
+        <div class="imgcap">Meridian schematic. The arrow of 2026: toward the top-left&#8202;&mdash;&#8202;more capability, less memory.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">16 GB</div>
+        <div class="c">RAM to run a multimodal frontier-class model locally (Gemma 4 12B)</div>
+      </div>
+      <div class="hairline"></div>
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic</div>
+        <p>"Frontier-class" is doing work in that sentence. A 12B model is not a 1T model; for the hardest agentic coding the big hosted systems still win. And the memory tax that makes efficiency precious also raises the price of the RAM you'd buy to run it. Small is liberating, not magic.</p>
+        <p class="src">IEEE Spectrum / Fortune (W. Shih), memory cycle</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 13. Pinggy / Hugging Face model notes, Gemma 4 12B (3 Jun 2026). 14. PromptQuorum, "Ollama v0.30.8" (12 Jun); LLM-Stats, MiniMax M3 / MSA sparse attention. 15. LLM-Stats news, "OpenAI Deployment Simulation," 16 Jun.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 8 — TECHNOLOGY (2) — The Home Lab ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Technology</span><span>The Home Lab</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="grid g-12" style="margin-top:5mm;">
+    <div>
+      <div class="kicker">The build · own vs rent</div>
+      <h2 class="hed sm">Wiring a model that answers only to you</h2>
+      <p class="body tight">The practical project this fortnight: drop one of the new small models behind your own walls. Ollama pulls Gemma&nbsp;4 12B or Phi-4-mini in a line; point it at Home Assistant as a local conversation agent, and the house gets an assistant that never phones home. Where Apple's rebuilt Siri rents a ~1.2-trillion-parameter Gemini on Google's cloud (No. 17), the home-lab move is the opposite: a smaller brain you keep, that says nothing to anyone.<sup class="fnref">16</sup></p>
+
+      <p class="body tight">The economics favour it more each month. A desk-class box draws ~250&nbsp;W and runs these models at usable speed; the recurring cost is electricity, not tokens. The constraint is still memory&#8202;&mdash;&#8202;DRAM remains ~4&ndash;5&times; off its 2025 low&#8202;&mdash;&#8202;which is exactly why the efficiency turn matters: a model that fits in 16&nbsp;GB is a model you can afford to own.</p>
+
+      <div class="chatter teal">
+        <div class="lbl">The recipe</div>
+        <p>1 &middot; <span class="sans">ollama pull gemma4:12b</span> (or phi-4-mini for a no-GPU box). 2 &middot; expose it on your LAN. 3 &middot; add the Ollama conversation integration in Home Assistant. 4 &middot; route voice through a local pipeline. The assistant now runs even when the internet doesn't.</p>
+        <p class="src">Home Assistant + Ollama docs</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 128" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8.2" font-weight="700" fill="#191613">RENT vs OWN, THE MODEL</text>
+          <!-- rent side -->
+          <rect x="16" y="28" width="100" height="80" rx="3" fill="#fbf8f1" stroke="#d8cfbd"/>
+          <text x="66" y="42" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7" font-weight="700" fill="#2f4858">RENT</text>
+          <circle cx="66" cy="66" r="16" fill="#2f4858" opacity="0.85"/><text x="66" y="69" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6" fill="#fff">~1.2T</text>
+          <text x="66" y="98" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#7a7264">cloud · per-token · phones home</text>
+          <!-- own side -->
+          <rect x="134" y="28" width="100" height="80" rx="3" fill="#fbf8f1" stroke="#d8cfbd"/>
+          <text x="184" y="42" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7" font-weight="700" fill="#c1462e">OWN</text>
+          <circle cx="184" cy="66" r="8" fill="#c1462e"/><text x="184" y="69" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#fff">12B</text>
+          <text x="184" y="98" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#7a7264">local · ~250W · silent</text>
+        </svg>
+        <div class="imgcap">Meridian diagram. The home-lab trade: a smaller brain, kept private, for the cost of the power it draws.</div>
+      </div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">Still on the shelf</div>
+        <p><b>The listings.</b> SpaceX's record Nasdaq debut (No. 25) made Musk a paper trillionaire; OpenAI and Anthropic S-1s circle. Delta only&#8202;&mdash;&#8202;the binding constraint stays power, not capital.</p>
+        <p><b>Silicon.</b> Nvidia's Vera Rubin platform is in full production for 2H deployment (AWS, Google, Microsoft, OCI); RTX/DGX Spark desk boxes continuity. Open-weight frontier (GLM-5.1, Kimi K2.6, DeepSeek V4-Pro) unchanged.</p>
+        <p class="src">NVIDIA newsroom; Meridian Nos. 24&ndash;25</p>
+      </div>
+      <div class="pull" style="margin-top:5px;">The cloud rents you a giant that listens. The home lab keeps a smaller one that doesn't.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 16. Home Assistant / Ollama integration docs; WWDC Gemini-Siri (Meridian No. 17). Silicon: NVIDIA, "Rubin platform in full production," GTC 2026. Memory: Fortune / IEEE Spectrum DRAM cycle.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 9 — THE KIT ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">Audio · the anniversary edition</div>
+    <h1 class="hed">Ten years of the same good idea, in better leather</h1>
+    <p class="dek">Sony marks a decade of its 1000X headphones with a "ColleXion" build&#8202;&mdash;&#8202;not a new chip, a new finish. The week's gear has a theme: do less, last longer, say it quietly.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">The most-anticipated headphone of the month adds almost nothing you can hear. Sony's tenth-anniversary 1000X&#8202;&mdash;&#8202;the line that has owned premium noise-cancelling since 2016&#8202;&mdash;&#8202;arrives as a materials exercise: machined metal where there was plastic, protein leather, a numbered build, around US$650.<sup class="fnref">17</sup> The acoustics carry over from the model the reader already knows. You are paying for the object, not the spec sheet.</p>
+
+      <p class="body">That is the through-line of the week's kit. After three years of every wearable racing to add a sensor, the interesting launches are subtracting. The headline number on the new crop of fitness watches is not a new metric&#8202;&mdash;&#8202;it is battery life: three weeks between charges, on hardware that has quietly stopped chasing the smartwatch.<sup class="fnref">18</sup> The pitch is endurance, not novelty; a device that disappears onto the wrist rather than demanding the nightly ritual of the charger.</p>
+
+      <p class="body">Hold that against the loudest category in gear&#8202;&mdash;&#8202;AR glasses&#8202;&mdash;&#8202;and the contrast is the story. Xreal's display-glasses line pushes forward (the R1 tier ships in July around US$850; a lighter a01 sits near US$299), and Snap's Specs (No. 25) keep the camera-on-your-face conversation alive.<sup class="fnref">19</sup> The face computer wants to add a layer to the world. The anniversary headphone and the three-week watch want to take one away.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · r/headphones, head-fi</div>
+        <p>The split is predictable and sincere: collectors want the numbered metal build and call it the nicest 1000X ever made; the value crowd notes you can buy the outgoing model, which sounds identical, for two-thirds the price the day the anniversary stock lands.</p>
+        <p class="src">Forum consensus, paraphrased</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8.2" font-weight="700" fill="#191613">THE WEEK'S AXIS</text>
+          <text x="8" y="24" font-family="Poppins,sans-serif" font-size="5.8" fill="#7a7264">what each device asks of you</text>
+          <line x1="20" y1="84" x2="232" y2="84" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="20" y="98" font-family="Poppins,sans-serif" font-size="6" fill="#2b6b66">SUBTRACTS</text>
+          <text x="232" y="98" text-anchor="end" font-family="Poppins,sans-serif" font-size="6" fill="#c1462e">ADDS A LAYER</text>
+          <circle cx="46" cy="84" r="7" fill="#b08738"/><text x="46" y="72" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">1000X</text>
+          <circle cx="86" cy="84" r="7" fill="#2b6b66"/><text x="86" y="72" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">21-day watch</text>
+          <circle cx="196" cy="84" r="7" fill="#c1462e"/><text x="196" y="72" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">AR glasses</text>
+          <text x="125" y="132" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">Endurance vs. augmentation</text>
+        </svg>
+        <div class="imgcap">Meridian diagram. The quiet kit subtracts; the loud kit adds.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">~21 days</div>
+        <div class="c">claimed battery on the new endurance-first fitness watches — the only spec that moved</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">Still on the shelf</div>
+        <p><b>Ships now.</b> Sony Xperia 1 VIII lands 19 Jun. <b>Holding.</b> Sennheiser Momentum 5 (57hr ANC), Sony a7R VI, LG C6 OLED, Garmin's mid-range refresh, Fitbit's clip-on&#8202;&mdash;&#8202;all known, no new peg. <b>Watching.</b> Razer's handheld and the next Whoop band.</p>
+        <p class="src">Meridian continuity (Nos. 22&ndash;25)</p>
+      </div>
+      <div class="pull" style="margin-top:5px;">Premium has stopped meaning "more." This week it means "longer, and out of the way."</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 17. Sony press materials / The Verge, 10th-anniversary 1000X, Jun 2026 (price indicative). 18. Wearable-maker briefings; battery claims unverified pending review&#8202;&mdash;&#8202;treat as manufacturer figures. 19. Xreal product pages; Snap Specs (Meridian No. 25).</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 10 — CONNECTED HOME ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">Standards · Matter 1.6</div>
+    <h1 class="hed">One network for the whole house&#8202;&mdash;&#8202;on paper</h1>
+    <p class="dek">At its Austin summit the Connectivity Standards Alliance announced Matter 1.6 with Joint Fabric: a single shared network spanning Apple, Google, Alexa and SmartThings. The promise is control in your hands, not the platform's box. The catch is the word "announced."</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">For the reader migrating off Lutron toward Home Assistant, Matter 1.6 is the most interesting spec release of the year&#8202;&mdash;&#8202;because its headline feature is about ownership, not gadgets. Joint Fabric lets multiple ecosystems share one commissioning network, so a device need not be enrolled separately into Apple Home, Google Home and Alexa and SmartThings; the home becomes one fabric the householder administers, rather than four walled gardens that each demand a copy.<sup class="fnref">20</sup></p>
+
+      <p class="body">The release pairs it with quieter, useful plumbing: tap-to-pair over NFC, so a device can be paired before it is even powered up and without the old Bluetooth dance; Thermostat Suggestions, a tighter energy hook; and a Product Security 1.1 tier raising the floor on what a certified device must defend.<sup class="fnref">21</sup> Read together, the theme is restraint as a feature&#8202;&mdash;&#8202;fewer apps, fewer accounts, fewer middlemen between the switch and the bulb.</p>
+
+      <p class="body">Then the sceptic clears his throat. "Announced" is not "shipping," and the smart-home graveyard is full of standards that demoed beautifully in Austin and arrived in firmware eighteen months late, if at all. The precedent is the alliance's own Fabric Sync, blessed on stage and still thinly adopted; until Apple, Google and Amazon each ship Joint Fabric into the boxes people actually own, it is a slide, not a network.<sup class="fnref">22</sup></p>
+
+      <div class="chatter slate">
+        <div class="lbl">The Sceptic · r/homeassistant, The Verge</div>
+        <p>The standard is only as real as the slowest platform that implements it&#8202;&mdash;&#8202;and the platforms have every commercial reason to drag. A shared fabric is good for you and bad for lock-in. Watch what ships, not what's certified.</p>
+        <p class="src">Tuohy / community consensus, paraphrased</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 168" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">FOUR GARDENS &rarr; ONE FABRIC</text>
+          <!-- before -->
+          <text x="8" y="30" font-family="Poppins,sans-serif" font-size="6" fill="#7a7264">BEFORE</text>
+          <g font-family="Poppins,sans-serif" font-size="5">
+            <rect x="8" y="36" width="50" height="20" rx="2" fill="#fbf8f1" stroke="#d8cfbd"/><text x="33" y="49" text-anchor="middle" fill="#403a32">Apple</text>
+            <rect x="64" y="36" width="50" height="20" rx="2" fill="#fbf8f1" stroke="#d8cfbd"/><text x="89" y="49" text-anchor="middle" fill="#403a32">Google</text>
+            <rect x="120" y="36" width="50" height="20" rx="2" fill="#fbf8f1" stroke="#d8cfbd"/><text x="145" y="49" text-anchor="middle" fill="#403a32">Alexa</text>
+            <rect x="176" y="36" width="60" height="20" rx="2" fill="#fbf8f1" stroke="#d8cfbd"/><text x="206" y="49" text-anchor="middle" fill="#403a32">SmartThings</text>
+          </g>
+          <!-- after -->
+          <text x="8" y="86" font-family="Poppins,sans-serif" font-size="6" fill="#2b6b66">AFTER · Joint Fabric</text>
+          <rect x="40" y="94" width="170" height="26" rx="4" fill="#2b6b66" opacity="0.9"/>
+          <text x="125" y="111" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7" font-weight="700" fill="#fff">ONE shared network</text>
+          <g stroke="#b08738" stroke-width="1.1" opacity="0.8">
+            <line x1="33" y1="56" x2="80" y2="94"/><line x1="89" y1="56" x2="105" y2="94"/>
+            <line x1="145" y1="56" x2="150" y2="94"/><line x1="206" y1="56" x2="175" y2="94"/>
+          </g>
+          <text x="125" y="140" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.6" fill="#c1462e">administered by you, not the platform</text>
+          <text x="125" y="152" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#7a7264">if&#8202;&mdash;&#8202;and when&#8202;&mdash;&#8202;the platforms ship it</text>
+        </svg>
+        <div class="imgcap">Meridian diagram. Joint Fabric, as specified June 2026.</div>
+      </div>
+
+      <div class="chatter teal" style="margin-top:6px;">
+        <div class="lbl">For the migrator</div>
+        <p>The Matter 1.5 camera spec (No. 24) still has only SmartThings as a working controller, and Home Assistant has no native support&#8202;&mdash;&#8202;the RTSP fallback remains the honest path. Lesson: certify late, adopt later. Build your HA setup as if the platforms will be the last to comply.</p>
+        <p class="src">Meridian continuity (No. 24)</p>
+      </div>
+      <div class="stat" style="margin-top:6px;">
+        <div class="n">1.6</div>
+        <div class="c">the version on the slide — adoption, as ever, is the variable that matters</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 20&ndash;21. CSA, Matter 1.6 announcement, CSA Unify (Austin), 16&ndash;18 Jun 2026; The Verge smart-home coverage. 22. J. Tuohy / The Verge on adoption lag; Fabric Sync precedent. Matter 1.5 cameras: Meridian No. 24.</div>
+    <div class="fnbar"><span>The Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 11 — THE GOOD LIFE ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">Travel · the soft-yen window</div>
+    <h1 class="hed">The watch that whispers, in a country that's still cheap</h1>
+    <p class="dek">The yen holds near &yen;159, the Strait reopens, and the long-haul calculus tilts back to Japan. Two new costs are coming&#8202;&mdash;&#8202;but the quietest luxury on the shelf is a Grand Seiko bought tax-free in Ginza.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:3mm;">
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 180" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <defs><radialGradient id="dial" cx="0.4" cy="0.35" r="0.8">
+            <stop offset="0" stop-color="#eef1f3"/><stop offset="0.7" stop-color="#c9d2d8"/><stop offset="1" stop-color="#9aa7af"/>
+          </radialGradient></defs>
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">THE OBJECT</text>
+          <text x="8" y="23" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">spring-drive, the snowflake dial</text>
+          <circle cx="125" cy="104" r="62" fill="url(#dial)" stroke="#7a7264" stroke-width="2"/>
+          <circle cx="125" cy="104" r="62" fill="none" stroke="#b08738" stroke-width="1" opacity="0.5"/>
+          <!-- markers -->
+          <g stroke="#2f4858" stroke-width="2">
+            <line x1="125" y1="48" x2="125" y2="58"/><line x1="125" y1="150" x2="125" y2="160"/>
+            <line x1="69" y1="104" x2="79" y2="104"/><line x1="171" y1="104" x2="181" y2="104"/>
+          </g>
+          <!-- hands: smooth glide -->
+          <line x1="125" y1="104" x2="125" y2="64" stroke="#191613" stroke-width="2.4" stroke-linecap="round"/>
+          <line x1="125" y1="104" x2="156" y2="118" stroke="#191613" stroke-width="2" stroke-linecap="round"/>
+          <line x1="125" y1="104" x2="108" y2="140" stroke="#c1462e" stroke-width="1" stroke-linecap="round"/>
+          <circle cx="125" cy="104" r="3" fill="#b08738"/>
+          <text x="125" y="178" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#7a7264">no logo shouting; a seconds hand that doesn't tick, it flows</text>
+        </svg>
+        <div class="imgcap">Meridian illustration. A representative spring-drive dial&#8202;&mdash;&#8202;not a specific reference.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">~&yen;159</div>
+        <div class="c">to the dollar — the yen has held weaker than &yen;150 for roughly three years</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">Read the calendar before you book</div>
+        <p>Two new frictions land soon: the international departure tax triples to &yen;3,000, and from 1 November the tax-free shopping system shifts to a refund model&#8202;&mdash;&#8202;pay the consumption tax at the till, claim it back on exit. Buy before November and the old in-store exemption still applies. Auctions remain closed (Nos. 22&ndash;24); the object to chase is on a shop floor, not a paddle.</p>
+        <p class="src">JNTO / Japan tourism agency notices</p>
+      </div>
+    </div>
+
+    <div class="cols2">
+      <p class="body dropcap">For three years the weak yen has been the quiet subsidy under every Japan trip, and with the Strait crisis easing the long-haul maths tilts east again. But the headline this issue is not the airfare&#8202;&mdash;&#8202;it is the object you carry home, and the kind of luxury it represents.</p>
+
+      <p class="body">Grand Seiko is the watch that argues against the whole logic of a status piece. No oversized logo, no waitlist theatre, no crown that announces itself across a room; instead a spring-drive movement whose seconds hand glides rather than ticks, and a dial finished to catch Hokkaido light. It is the horological version of this issue's spine&#8202;&mdash;&#8202;eloquence by restraint, a thing that says less precisely so it can mean more to the one person who recognises it.<sup class="fnref">23</sup></p>
+
+      <p class="body">Bought in Ginza before 1 November, it still clears the counter with the consumption tax simply removed&#8202;&mdash;&#8202;roughly a tenth off, no paperwork on the way out. After November you will pay it and reclaim it. Either way the soft-yen window does the heavy lifting; a piece that lists for a certain figure at home costs meaningfully less assembled in the country that makes it.<sup class="fnref">24</sup></p>
+
+      <div class="chatter gold">
+        <div class="lbl">The Chatter · r/Watches, JDM connoisseurs</div>
+        <p>The enthusiast's case is that the quiet pieces are the ones you keep&#8202;&mdash;&#8202;the loud purchase is the one you trade in a year. The dissent is equally honest: "quiet luxury" is still luxury, and the cheapest version of this watch is the one you don't buy at all.</p>
+        <p class="src">Forum consensus, paraphrased</p>
+      </div>
+      <div class="pull">A thing that says less precisely so it can mean more to the one person who notices.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 23. Grand Seiko / spring-drive background; representative illustration, not a specific reference. 24. JNTO and Japan Tourism Agency: &yen;3,000 departure tax and 1 Nov 2026 tax-free refund reform; consumption-tax exemption rules. Yen level: market data, 17 Jun 2026.</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 12 — SCREEN & SOUND ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Film · the franchise that won't quit</div>
+    <h1 class="hed">A toy story about the thing stealing your child's attention</h1>
+    <p class="dek">Pixar's fifth Toy Story opens this weekend tracking toward a franchise-record start&#8202;&mdash;&#8202;and its villain is a screen. Below it, a quieter shift: the charts are changing what they count.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">Toy Story 5 opens in the US on 19 June with tracking that points to the biggest start the franchise has had&#8202;&mdash;&#8202;estimates cluster near a quarter-billion dollars worldwide on the opening frame.<sup class="fnref">25</sup> Pixar has done the unsubtle thing and made the antagonist a tablet: a device called Lilypad whose whole motive is to capture a child's gaze and not give it back. A studio that built its empire on attention has cast attention-capture as the monster.</p>
+
+      <p class="body">It is hard to imagine a cleaner rhyme with the Family Desk two pages on, where the protective factor for a tween turns out to be the unstructured time a screen is forever trying to colonise. The film says, loudly and in primary colours, what the research says quietly: the thing competing for the child is engineered to win, and the counter is human and analogue.<sup class="fnref">26</sup></p>
+
+      <p class="body">In music, the story is structural rather than thematic. Billboard is changing how it weights streaming for 2026&#8202;&mdash;&#8202;adjusting the value of subscription versus ad-supported and programmed plays&#8202;&mdash;&#8202;and the Recording Academy has rewritten several Grammy rules, including a new Asian-pop category.<sup class="fnref">27</sup> The on-spine reading: the chart didn't change what music exists; it changed what it chooses to count, and counting is its own kind of statement.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · Letterboxd, r/boxoffice</div>
+        <p>The pre-release split: franchise faithful are moved that Pixar made the fourth ending mean something and are wary it didn't need a fifth; the box-office crowd just notes that "tracking record" and "did it need to exist" have never once been the same conversation.</p>
+        <p class="src">Social consensus, paraphrased</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">OPENING-WEEKEND TRACKING</text>
+          <text x="8" y="23" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">worldwide, indicative est. (US$m)</text>
+          <g font-family="Poppins,sans-serif" font-size="6" fill="#403a32">
+            <rect x="70" y="34" width="60" height="14" fill="#7a7264"/><text x="8" y="44">TS3 (2010)</text><text x="134" y="44">~150</text>
+            <rect x="70" y="56" width="98" height="14" fill="#b08738"/><text x="8" y="66">TS4 (2019)</text><text x="172" y="66">~245</text>
+            <rect x="70" y="78" width="110" height="14" fill="#c1462e"/><text x="8" y="88">TS5 (track)</text><text x="184" y="88" fill="#9c3422">~275</text>
+          </g>
+          <line x1="70" y1="30" x2="70" y2="96" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="125" y="120" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">Tracking only&#8202;&mdash;&#8202;not a result. Numbers settle Sunday.</text>
+        </svg>
+        <div class="imgcap">Meridian chart. Source: trade tracking estimates, pre-release; treat as projection.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">Lilypad</div>
+        <div class="c">the villain is a tablet built to hold a child's gaze and never let go</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">In brief</div>
+        <p><b>Awards.</b> A Taylor Swift original, "I Knew It, I Knew You," enters the Oscar-song conversation. <b>Drops.</b> The Strokes' <i>Reality Awaits</i> (Rubin) lands 26 Jun. <b>Charts.</b> Drake's <i>Iceman</i> holds No. 1 a fourth week&#8202;&mdash;&#8202;saturated, one line. <b>Closed.</b> Olivia Rodrigo's third album: no new peg.</p>
+        <p class="src">Meridian continuity (Nos. 24&ndash;25)</p>
+      </div>
+      <div class="pull" style="margin-top:5px;">It didn't change the music. It changed what the chart agrees to count.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 25&ndash;26. Studio/trade tracking for Toy Story 5 (US release 19 Jun 2026); figures are pre-release projections. 27. Billboard 2026 streaming-weighting change; Recording Academy Grammy rule updates incl. new Asian-pop category.</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 13 — THE FAMILY DESK (1) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Family Desk</span><span>Raising Them Well</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">The tween years · what protects them</div>
+    <h1 class="hed">The space you don't fill</h1>
+    <p class="dek">A run of new developmental work keeps landing on the same unglamorous finding: for a child of eleven, the strongest protective factor isn't a programme or an app&#8202;&mdash;&#8202;it's unstructured time with a friend. The parenting move is restraint.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">Last issue's Family Desk closed on a line worth keeping: the relationship is the buffer.<sup class="fnref">28</sup> The newest cluster of research extends it in a specific direction&#8202;&mdash;&#8202;toward friendship as the developmental task of the tween years, and toward the kind of friendship that grows in time nobody has organised. Not the play-date with an itinerary; the long, pointless, unsupervised afternoon in which children negotiate, get bored, fall out and repair&#8202;&mdash;&#8202;the social gym.</p>
+
+      <p class="body">A large school-based trial in Denmark has been testing exactly this lever: structured "screen-free time with friends" for nine-to-eleven-year-olds across eighteen schools, randomised by cluster.<sup class="fnref">29</sup> The honest status is that the results are not in&#8202;&mdash;&#8202;the read-out is expected at the end of 2026&#8202;&mdash;&#8202;so this is a hypothesis being tested at scale, not a finding to act on yet. Meridian flags it as promising and unproven, in that order.</p>
+
+      <p class="body">What is better established is the parent's own role, and it is humbling. In the large US cohort work, the single strongest predictor of a child's screen habits is the parent's own use; a consistent bedtime-device rule outperforms most content controls; and quiet monitoring beats a reward-and-punishment economy that teaches children to hide.<sup class="fnref">30</sup> The active ingredient keeps turning out to be the adult's behaviour, not the child's settings.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · r/Parenting, r/singaporeparents</div>
+        <p>The thread that keeps recurring: the hardest part of "unstructured time with a friend" in a high-optimisation city is logistics, not philosophy&#8202;&mdash;&#8202;two working parents, two calendars, and a default that every hour should improve the child. The win is letting one afternoon be merely pleasant.</p>
+        <p class="src">Forum consensus, paraphrased</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 168" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">WHAT MOVES THE NEEDLE</text>
+          <text x="8" y="23" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">predictors of healthier tween screen habits</text>
+          <g font-family="Poppins,sans-serif" font-size="6" fill="#403a32">
+            <rect x="96" y="34" width="120" height="13" fill="#2b6b66"/><text x="8" y="44">Parent's own use</text>
+            <rect x="96" y="54" width="92" height="13" fill="#b08738"/><text x="8" y="64">Bedtime rule</text>
+            <rect x="96" y="74" width="78" height="13" fill="#2f4858"/><text x="8" y="84">Quiet monitoring</text>
+            <rect x="96" y="94" width="40" height="13" fill="#7a7264"/><text x="8" y="104">Reward/punish</text>
+            <rect x="96" y="114" width="28" height="13" fill="#c8bca8"/><text x="8" y="124">App controls</text>
+          </g>
+          <line x1="96" y1="30" x2="96" y2="132" stroke="#d8cfbd" stroke-width="1"/>
+          <text x="125" y="150" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#7a7264">Schematic of cohort findings&#8202;&mdash;&#8202;direction, not exact effect sizes</text>
+        </svg>
+        <div class="imgcap">Meridian schematic, after UCSF/ABCD-type cohort work. General guidance, not medical advice.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">#1</div>
+        <div class="c">predictor of a child's screen use is the parent's own — the lever is in the adult's hand</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">Don't be alarmist</div>
+        <p>The honest counterweight: across the best studies the direct effect of screen time on wellbeing is small, and family circumstance and sleep explain far more than minutes on a device. A well-cited 2023 analysis found near-null effects once confounders were handled. Protect sleep and friendship; don't catastrophise the tablet.</p>
+        <p class="src">Meridian read; general guidance, not medical advice</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 28. Ferschmann et al. (Meridian No. 25). 29. Danish cluster-RCT, "screen-free time with friends," ages 9&ndash;11, 18 schools; results pending late 2026 (pre-results&#8202;&mdash;&#8202;treat as hypothesis). 30. Nagata / UCSF, ABCD cohort analyses on parental modelling and bedtime rules.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 14 — THE FAMILY DESK (2) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Family Desk</span><span>The Tween Years</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="grid g-12" style="margin-top:14mm;">
+    <div>
+      <div class="chatter teal">
+        <div class="lbl">Try this week</div>
+        <p><b>One unscheduled afternoon.</b> Block it, invite one friend, and resist the urge to programme it. The boredom is the curriculum.</p>
+        <p><b>Model the rule you set.</b> The bedtime-device rule the cohort data likes most is the one the adults also keep. Phones to charge outside the bedroom&#8202;&mdash;&#8202;everyone's.</p>
+        <p><b>Monitor quietly.</b> Stay close enough to know, light enough that hiding never becomes the skill she practises.</p>
+      </div>
+
+      <div class="stat" style="margin-top:8px;">
+        <div class="n">2026</div>
+        <div class="c">when the Danish trial reports — file the friendship hypothesis as "watch this space"</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The honest caveat</div>
+        <p>None of this is a prescription. Children differ, contexts differ, and a single afternoon is not a study. Treat the desk as a set of low-risk defaults worth trying, not findings to enforce. Anything touching mood, sleep or anxiety beyond the everyday belongs with your paediatrician, not a magazine.</p>
+        <p class="src">General guidance, not medical advice</p>
+      </div>
+    </div>
+
+    <div class="cols2">
+      <p class="body dropcap">There is a reason restraint is hard for the modern parent, and it is the same reason it is hard for the modern central banker on page three: doing less looks like doing nothing, and doing nothing feels like negligence. The whole apparatus of contemporary childhood&#8202;&mdash;&#8202;enrichment, tracking, the optimised calendar&#8202;&mdash;&#8202;is built to convert love into activity. The evidence keeps gently suggesting that some of the most important growth happens in the gaps that apparatus is designed to remove.</p>
+
+      <p class="body">The friendship finding, if the Danish trial confirms it, will not be a new programme to enrol in. It will be permission to leave a space empty&#8202;&mdash;&#8202;to let an eleven-year-old spend three unimproved hours with one other eleven-year-old and trust that something is being built that no curriculum could install. The parent's job in that window is custodial, not directive: keep them safe, keep the screens at bay, and otherwise get out of the way.</p>
+
+      <p class="body">It connects, quietly, to the issue's spine. The eloquent thing a parent can do is often the unsaid one&#8202;&mdash;&#8202;the instruction withheld, the silence that lets a child finish a thought, the afternoon left unplanned. Strength in restraint is not a slogan here. It is, increasingly, what the data is describing.</p>
+
+      <div class="pull">Doing less looks like doing nothing&#8202;&mdash;&#8202;and the gap is where the growth hides.</div>
+
+      <div class="chatter gold">
+        <div class="lbl">For the reader's daughter, specifically</div>
+        <p>At eleven, the developmental work is the peer group: reading a room, holding a friendship through a rough patch, learning that repair is a skill. The most useful gift this year may be the one that's hardest to schedule&#8202;&mdash;&#8202;time, with a friend, that you don't curate.</p>
+        <p class="src">Meridian, on-spine</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> Continued from p.13. Developmental framing of mid-childhood friendship; cohort findings on parental modelling. All Family Desk content is general guidance, not medical advice; consult a paediatrician for individual concerns.</div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 15 — THE WHISPER DESK ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Whisper Desk</span><span>Strictly Off the Record</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker slate">Reported · rumour · unconfirmed</div>
+    <h1 class="hed">Confirmed months later: the art of the non-statement</h1>
+    <p class="dek">The week's gossip shares the issue's theme by accident. Each item is a thing that was true for ages before anyone said it&#8202;&mdash;&#8202;the publicist's silence outlasting the relationship it protected. Every line below is reported and unverified; read it as such.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">The confirmation that travelled this week was a split that had, by the telling, already happened. Ariana Grande and Ethan Slater are reported to have separated&#8202;&mdash;&#8202;with sources framing it as a parting that occurred "months ago," the public note arriving long after the private fact.<sup class="fnref">31</sup> Treat it as reported, not announced; the pattern, not the couple, is the point. The statement lagged the truth, which is the whole genre.</p>
+
+      <p class="body">Elsewhere the rumour mill runs its usual mix. Mika Abdalla and Jake Short are reported to have ended their engagement at the start of June; the Katy Perry&ndash;Orlando Bloom file has flipped again to reconciliation hints after the spring of separation talk; and an unconfirmed engagement whisper attaches to Zo&euml; Kravitz and Harry Styles.<sup class="fnref">32</sup> None of it is on the record. All of it is the same machine deciding when&#8202;&mdash;&#8202;or whether&#8202;&mdash;&#8202;to speak.</p>
+
+      <p class="body">The Meridian house view on this desk never changes: a non-denial is not a confirmation, an unnamed source is not a fact, and "stepping back from public life" is a sentence engineered to say nothing while seeming to say something. The eloquence of the unsaid has a tabloid dialect, and it is fluent.</p>
+
+      <div class="chatter slate">
+        <div class="lbl">Read the silence · three questions</div>
+        <p>Before you believe a whisper: <b>Who benefits</b> from this being public now? <b>Who is named</b>&#8202;&mdash;&#8202;a source, or no one? <b>What's the verb</b>&#8202;&mdash;&#8202;"confirmed," or "is said to"? If the answers are vague, the story is vapour with good lighting.</p>
+        <p class="src">Meridian media-literacy note</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">THE CONFIRMATION LAG</text>
+          <text x="8" y="23" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">when it ended vs. when it was said</text>
+          <line x1="30" y1="70" x2="220" y2="70" stroke="#d8cfbd" stroke-width="2"/>
+          <circle cx="70" cy="70" r="6" fill="#2f4858"/><text x="70" y="58" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#403a32">it ends</text>
+          <text x="70" y="88" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5" fill="#7a7264">(private)</text>
+          <circle cx="186" cy="70" r="6" fill="#c1462e"/><text x="186" y="58" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#403a32">it's "confirmed"</text>
+          <text x="186" y="88" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5" fill="#7a7264">(public)</text>
+          <path d="M76 70 H180" stroke="#b08738" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <text x="128" y="108" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6" fill="#9c3422">months of silence</text>
+          <text x="128" y="124" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#7a7264">the statement protects the gap</text>
+        </svg>
+        <div class="imgcap">Meridian diagram. The genre's grammar: the truth, then the timing.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">"months ago"</div>
+        <div class="c">the phrase doing the heavy lifting — the fact aged in private before going public</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter">
+        <div class="lbl">The tags that matter</div>
+        <p>Every item on this page carries the same invisible label: <i>reported, unconfirmed</i>. Meridian prints the whisper to examine the machine, not to vouch for the claim. If a name here matters to you, wait for the verb to change.</p>
+        <p class="src">House rule</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 31&ndash;32. Entertainment press aggregation, week of 16 Jun 2026; all items reported/unconfirmed and presented as rumour. No item on this desk should be read as verified fact.</div>
+    <div class="fnbar"><span>The Whisper Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 16 — CURIOSITIES ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Curiosities</span><span>The Far Edges</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">Cosmology · the unsayable interior</div>
+    <h1 class="hed">The black hole may keep no secret at all</h1>
+    <p class="dek">A new theoretical study argues that a collapsing massive star might never form a singularity behind its horizon&#8202;&mdash;&#8202;that the universe's most famous hidden thing may hide nothing. It is a proposal, not a measurement. Which is the point.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">The event horizon is physics's perfect metaphor for the unsaid: a boundary past which no information can return, wrapped around a centre we can describe only by saying our equations break there. A new theoretical paper now suggests the centre may be less dramatic than the legend&#8202;&mdash;&#8202;that under certain models a collapsing star settles into something without a true singularity, no infinite density, no point where the maths simply stops.<sup class="fnref">33</sup></p>
+
+      <p class="body">The honest framing matters more than the headline. This is theory&#8202;&mdash;&#8202;a proposed solution within a class of models, not an observation; nobody has been inside a black hole, and the horizon guarantees nobody will report back. The result is interesting precisely because it lives in the region the universe has declared off-limits to speech. We are reasoning about a place defined by its refusal to be measured, and saying: perhaps there is less there than we feared.</p>
+
+      <p class="body">Two smaller items rhyme with it. The SETI community has revised its post-detection "Declaration of Principles," tightening the discipline that disclosure follows verification rather than excitement&#8202;&mdash;&#8202;restraint encoded as protocol, a callback to the consider-the-source desk of No. 18.<sup class="fnref">34</sup> And dark energy, the largest unexplained term in cosmology, has quietly survived another major observational challenge: the boring confirmation that rarely makes a headline because nothing changed.<sup class="fnref">35</sup></p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · r/cosmology, r/astrophysics</div>
+        <p>The thread's sober take: "no singularity" papers arrive every few years, each elegant, none yet decisive, and the horizon ensures the argument stays theoretical for the foreseeable future. Enjoy the idea; don't reach for the word "proven." The interior remains the thing we are allowed to model but never visit.</p>
+        <p class="src">Forum consensus, paraphrased</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 168" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <defs><radialGradient id="bh" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0" stop-color="#191613"/><stop offset="0.62" stop-color="#191613"/>
+            <stop offset="0.72" stop-color="#9c3422"/><stop offset="0.85" stop-color="#b08738"/><stop offset="1" stop-color="#f6f2e9"/>
+          </radialGradient></defs>
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">THE BOUNDARY OF SPEECH</text>
+          <circle cx="125" cy="92" r="62" fill="url(#bh)"/>
+          <circle cx="125" cy="92" r="40" fill="none" stroke="#cdbf9f" stroke-width="0.8" stroke-dasharray="3 3"/>
+          <text x="125" y="92" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6" fill="#cdbf9f">?</text>
+          <text x="125" y="60" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5" fill="#f6f2e9">event horizon</text>
+          <text x="125" y="166" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#7a7264">inside the dashed line: modelled, never measured</text>
+        </svg>
+        <div class="imgcap">Meridian illustration. A schematic horizon&#8202;&mdash;&#8202;not an image of a specific black hole.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">theoretical</div>
+        <div class="c">the proper label on "no singularity" — a model's claim, not a measurement</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter teal" style="margin-top:6px;">
+        <div class="lbl">The far edges · in brief</div>
+        <p><b>SETI.</b> Disclosure now formally follows verification&#8202;&mdash;&#8202;say it only when you can stand behind it. <b>Dark energy.</b> Survives another challenge; the quiet "nothing changed" result. <b>Not re-led:</b> the Milky Way's gravitational-wave hum (No. 25) and JWST's little red dots (No. 24) advance only as continuity.</p>
+        <p class="src">Meridian continuity (Nos. 18, 24&ndash;25)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 33. Theoretical study on non-singular gravitational collapse, ScienceDaily summary, ~14 Jun 2026 (proposed model, not observation). 34. SETI post-detection protocol revision. 35. Dark-energy survey result; "survives challenge." Continuity: Meridian Nos. 18, 24&ndash;25.</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 17 — LOVE & LIFE ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">The examined life · two kinds of quiet</div>
+    <h1 class="hed">The silence that includes you, and the one that shuts the door</h1>
+    <p class="dek">A new review pulls apart two things that look identical from outside: the comfortable silence of people at ease, and the silent treatment that punishes. The difference isn't volume. It's whether the other person is being let in or shut out.</p>
+  </div>
+
+  <div class="grid g-12" style="margin-top:3mm;">
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 176" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">SAME QUIET, OPPOSITE DOOR</text>
+          <!-- including -->
+          <rect x="14" y="28" width="100" height="120" rx="4" fill="#fbf8f1" stroke="#2b6b66" stroke-width="1.4"/>
+          <text x="64" y="44" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.4" font-weight="700" fill="#2b6b66">INCLUDING</text>
+          <circle cx="48" cy="78" r="11" fill="#2b6b66" opacity="0.85"/><circle cx="80" cy="78" r="11" fill="#b08738" opacity="0.85"/>
+          <path d="M59 78 H69" stroke="#191613" stroke-width="1.5"/>
+          <text x="64" y="116" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">at ease together</text>
+          <text x="64" y="128" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">silence as comfort</text>
+          <!-- excluding -->
+          <rect x="136" y="28" width="100" height="120" rx="4" fill="#fbf8f1" stroke="#c1462e" stroke-width="1.4"/>
+          <text x="186" y="44" text-anchor="middle" font-family="Poppins,sans-serif" font-size="6.4" font-weight="700" fill="#c1462e">EXCLUDING</text>
+          <circle cx="170" cy="78" r="11" fill="#7a7264" opacity="0.7"/><circle cx="202" cy="78" r="11" fill="#9c3422" opacity="0.85"/>
+          <line x1="186" y1="66" x2="186" y2="90" stroke="#9c3422" stroke-width="1.5"/>
+          <text x="186" y="116" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">withdrawal as weapon</text>
+          <text x="186" y="128" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">silence as punishment</text>
+          <text x="125" y="166" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.4" fill="#7a7264">the difference is the door, not the decibels</text>
+        </svg>
+        <div class="imgcap">Meridian diagram, after a 2026 review on silence in relationships.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">both lose</div>
+        <div class="c">stonewalling raises distress for the one withholding too, not just the one shut out</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The repair line</div>
+        <p>One evidence-backed move, courtesy of the well-being researchers: when a sentence comes out wrong, say <i>"let me try that again"</i> and restart. It interrupts the spiral, signals the door is still open, and costs nothing but the small pride of the first draft.</p>
+        <p class="src">After L. Santos / well-being research</p>
+      </div>
+    </div>
+
+    <div class="cols2">
+      <p class="body dropcap">This issue has spent twenty pages praising restraint&#8202;&mdash;&#8202;the withheld word, the unplanned afternoon, the watch that doesn't shout. The Human Desk is where that praise has to earn its keep, because not all silence is wisdom. A systematic review this year sets the two apart with unusual clarity, and the distinction is one every long relationship eventually needs.<sup class="fnref">36</sup></p>
+
+      <p class="body">There is the silence that includes&#8202;&mdash;&#8202;two people comfortable enough to sit in a room and say nothing, the quiet that the No. 22 essay called useful emptiness, a sign of safety. And there is the silence that excludes: the silent treatment, stonewalling, withdrawal deployed to punish or control. From across the room they can look the same. Inside the relationship they are opposites, and the review is blunt that the second kind corrodes&#8202;&mdash;&#8202;raising instability and distress for both the person frozen out and, notably, the person doing the freezing.<sup class="fnref">37</sup></p>
+
+      <p class="body">The test is not whether words are spoken. It is whether the other person is being let in or shut out. Restraint that makes room for the other is the eloquence this issue admires. Restraint that closes the door and calls it dignity is just a colder way of speaking, and it says something cruel. The spine of the magazine has a limit, and this is it: silence is a gift only when it includes you.</p>
+
+      <div class="chatter gold">
+        <div class="lbl">The Chatter · r/relationships</div>
+        <p>The most-upvoted reframing: "silent treatment" isn't the absence of a fight, it's a fight conducted by other means. The mature version of going quiet still tells the other person you're going quiet&#8202;&mdash;&#8202;"I need an hour" is a sentence; vanishing is a sentence too, just a worse one.</p>
+        <p class="src">Forum consensus, paraphrased</p>
+      </div>
+      <div class="pull">Silence is a gift only when it includes you. Otherwise it's just a colder way of speaking.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 36&ndash;37. Systematic review on silence and withdrawal in close relationships, Frontiers in Psychology, 2026; distinction between comfortable/including silence and stonewalling. Repair phrasing after well-being research (L. Santos). Callback: Meridian No. 22.</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 18 — FITNESS ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · Fitness</span><span>The Long Game</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker teal">The long game · strength in backing off</div>
+    <h1 class="hed">The week you don't train is part of the training</h1>
+    <p class="dek">A new controlled trial puts numbers on the deload&#8202;&mdash;&#8202;the planned easy week lifters have used on instinct for decades. For a mid-40s body where recovery is the binding constraint, the gains may live in the gaps, not the grind.</p>
+  </div>
+
+  <div class="grid g-21" style="margin-top:3mm;">
+    <div class="cols2">
+      <p class="body dropcap">For a reader in his mid-forties tracking sleep on an Oura and strain on a Whoop, the most useful fitness idea of the month is permission to do less on purpose. A 2026 randomised trial tested a structured deload&#8202;&mdash;&#8202;a programmed light week inside a training block&#8202;&mdash;&#8202;and found the planned back-off did not cost strength or size, and plausibly protected both by letting fatigue clear.<sup class="fnref">38</sup> The week off the gas is not lost ground. It is the body cashing the cheque the hard weeks wrote.</p>
+
+      <p class="body">It sits alongside a quieter literature that keeps lowering the minimum effective dose. Minimal-dose resistance reviews suggest a few hard sets per muscle per week hold most of the strength you would chase with far more volume; and a large cohort puts a "longevity floor" near seventy-five minutes of moderate activity a week, where the curve bends most steeply&#8202;&mdash;&#8202;the first hour buys the most life.<sup class="fnref">39</sup> Past a point, more is just more.</p>
+
+      <p class="body">The on-spine reading writes itself. After a decade of fitness culture measuring everything&#8202;&mdash;&#8202;the No. 24 warning against training the score&#8202;&mdash;&#8202;the recovery science keeps describing restraint: the deload week, the rest day the No. 22 essay defended, the dose you don't add. For the reader specifically, the binding constraint at forty-five is not willpower or time. It is recovery, and the deload is how you respect it.</p>
+
+      <div class="chatter">
+        <div class="lbl">The Chatter · r/fitness, longevity discourse</div>
+        <p>The longevity crowd loves a deload because it sounds like science and feels like a holiday; the lifting crowd warns that "deload" is also the word people use to quit for a fortnight. Both are right. The deload that works is planned, brief and followed by the return&#8202;&mdash;&#8202;not the one you keep extending.</p>
+        <p class="src">Forum consensus, paraphrased</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="13" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">FATIGUE vs. FITNESS</text>
+          <text x="8" y="23" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">why the easy week lifts the line</text>
+          <line x1="22" y1="130" x2="234" y2="130" stroke="#d8cfbd" stroke-width="1"/>
+          <line x1="22" y1="30" x2="22" y2="130" stroke="#d8cfbd" stroke-width="1"/>
+          <!-- fitness rising with a step up after deload -->
+          <path d="M22 110 L70 96 L118 84 L140 84 L188 64 L234 50" fill="none" stroke="#2b6b66" stroke-width="2.4"/>
+          <!-- fatigue rising then dropping in deload -->
+          <path d="M22 120 L70 96 L118 70 L140 104 L188 84 L234 70" fill="none" stroke="#c1462e" stroke-width="2" stroke-dasharray="4 3"/>
+          <rect x="118" y="30" width="22" height="100" fill="#b08738" opacity="0.12"/>
+          <text x="129" y="44" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5" fill="#8a6a28">deload</text>
+          <text x="200" y="44" font-family="Poppins,sans-serif" font-size="5.4" fill="#2b6b66">fitness</text>
+          <text x="200" y="96" font-family="Poppins,sans-serif" font-size="5.4" fill="#c1462e">fatigue</text>
+          <text x="128" y="150" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#7a7264">Schematic&#8202;&mdash;&#8202;the back-off lets fatigue fall so fitness shows</text>
+        </svg>
+        <div class="imgcap">Meridian schematic of the fitness-fatigue model. General guidance, not medical advice.</div>
+      </div>
+
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">~75 min</div>
+        <div class="c">weekly moderate activity where the longevity curve bends hardest — the first hour earns most</div>
+      </div>
+      <div class="hairline"></div>
+
+      <div class="chatter slate" style="margin-top:6px;">
+        <div class="lbl">The Sceptic</div>
+        <p>Hold the enthusiasm: the new deload trial is small and run on untrained young men, and deload research overall is thin and short. The direction is sensible and the downside is near-zero, but this is a reasonable default, not a proven protocol. Your knees and your calendar still outrank a study of nineteen.</p>
+        <p class="src">Meridian read; general guidance, not medical advice</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 38. Pancar et al., deload RCT, Scientific Reports, 2026 (within-subject; 19 untrained young men&#8202;&mdash;&#8202;small sample). 39. Minimal-dose resistance reviews; cohort on ~75 min/week longevity floor (large Chinese adult sample). Callbacks: Meridian Nos. 22, 24. Not medical advice.</div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 19 — THE DIARY (1) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Diary</span><span>What's Worth Booking</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Lake%20Kawaguchi%20s2.jpg?width=1600" alt="Mount Fuji seen across Lake Kawaguchi" loading="lazy"></div>
+  <p class="ph-cap"><b>Representative image.</b> Mount Fuji from Lake Kawaguchi &mdash; the season the Diary points toward (Fuji opens 1 July). Source: Wikimedia Commons &mdash; File:Mount Fuji from Lake Kawaguchi s2.jpg &middot; CC&nbsp;BY-SA&nbsp;4.0 &middot; Alpsdake &middot; Subject verified from the Commons file page.</p>
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">The Diary · book it before it sells</div>
+    <h1 class="hed sm">What's worth your calendar</h1>
+    <p class="dek" style="margin-bottom:3mm;">The marquee is set for October&#8202;&mdash;&#8202;and still hasn't put tickets on sale. The honest entry says so. Below it, a full Singapore season worth blocking out.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div>
+      <div class="agenda-h">Singapore <span class="sub">city &amp; island</span></div>
+
+      <div class="evt">
+        <div class="evt-date star">17<span class="mo">OCT</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> BIGBANG 20/26 World Tour</div>
+          <div class="evt-meta">National Stadium · K-pop · marquee</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng star">27&ndash;28<span class="mo">JUN</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> DBS Marina Regatta · Dragon Boat</div>
+          <div class="evt-meta">Marina Bay · free · this weekend</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">to&nbsp;20<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name">World Cup viewing parties</div>
+          <div class="evt-meta">Lau Pa Sat · CHIJMES · late nights SGT</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">5<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name">runDisney Singapore</div>
+          <div class="evt-meta">Palawan, Sentosa · family · costumes</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">10&ndash;19<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name">Glow Festival · Sentosa</div>
+          <div class="evt-meta">wellness · Derulo, Alessia Cara</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">to&nbsp;12<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name">DRUM TAO</div>
+          <div class="evt-meta">Japanese taiko · Sands Theatre</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date star">9<span class="mo">AUG</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> National Day Parade</div>
+          <div class="evt-meta">ballot closed · catch the rehearsals</div>
+        </div>
+      </div>
+
+      <div class="chatter slate" style="margin-top:7px;">
+        <div class="lbl">The honest line · BIGBANG</div>
+        <p>Tracked since No. 23, the marquee date holds&#8202;&mdash;&#8202;National Stadium, Sat 17 Oct&#8202;&mdash;&#8202;but the general on-sale still isn't live. One listings site shows "11 Sep," which we read as an error against the venue date; wait for the official drop and the presale code before you plan flights around it.</p>
+        <p class="src">Meridian continuity (Nos. 23&ndash;25); honesty rule</p>
+      </div>
+
+      <div class="chatter teal" style="margin-top:7px;">
+        <div class="lbl">Planning notes</div>
+        <p><b>Family-friendly:</b> runDisney (5 Jul) and the Dragon Boat finals are the easy wins with an eleven-year-old; the Sumida fireworks need paid seating booked far ahead. <b>Ballots &amp; sell-outs:</b> the NDP ballot has closed&#8202;&mdash;&#8202;the rehearsals on the preceding weekends are the open, uncrowded alternative. <b>The long lead:</b> anything in October (the marquee, the F1 window) wants flights and rooms held now, before the school-holiday squeeze.</p>
+        <p class="src">Meridian</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="agenda-h gold">Japan <span class="sub">soft-yen season</span></div>
+
+      <div class="evt">
+        <div class="evt-date star">1<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> Mt Fuji climbing season opens</div>
+          <div class="evt-meta">Yoshida trail · book huts early</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">12&ndash;26<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name">Grand Sumo · Nagoya Basho</div>
+          <div class="evt-meta">new IG Arena · day tickets tough</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date star">17&amp;24<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> Gion Matsuri · Kyoto</div>
+          <div class="evt-meta">Yamaboko floats · the great procession</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date star">25<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> Sumida River Fireworks · Tokyo</div>
+          <div class="evt-meta">~20,000 shells · paid seating sells out</div>
+        </div>
+      </div>
+
+      <div class="chatter gold" style="margin-top:6px;">
+        <div class="lbl">Plan the flights</div>
+        <p>The yen (~&yen;159) still does the work, but two costs bite soon&#8202;&mdash;&#8202;the departure tax triples to &yen;3,000, and tax-free shopping moves to a refund model from 1 Nov (see The Good Life). Summer matsuri seating and Fuji huts sell out weeks ahead; book before you fly.</p>
+        <p class="src">JNTO; Meridian No. 26 cross-ref</p>
+      </div>
+
+      <div class="agenda-h slate" style="margin-top:7px;">Region <span class="sub">worth the trip</span></div>
+      <div class="evt">
+        <div class="evt-date rng">to&nbsp;27<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name">Boryeong Mud Festival · Korea</div>
+          <div class="evt-meta">Daecheon Beach · gloriously silly</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">27&ndash;29<span class="mo">JUN</span></div>
+        <div>
+          <div class="evt-name">Rainforest World Music Festival</div>
+          <div class="evt-meta">Kuching, Sarawak · this weekend</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng star">11&ndash;13<span class="mo">JUL</span></div>
+        <div>
+          <div class="evt-name"><span class="st">&#9733;</span> Naadam Festival · Mongolia</div>
+          <div class="evt-meta">Ulaanbaatar · wrestling, archery, horses</div>
+        </div>
+      </div>
+      <div class="evt">
+        <div class="evt-date rng">to&nbsp;31<span class="mo">AUG</span></div>
+        <div>
+          <div class="evt-name">Splendour &amp; winter-sun escapes</div>
+          <div class="evt-meta">Bali / Phuket low-season fares · book ahead</div>
+        </div>
+      </div>
+
+      <div class="chatter slate" style="margin-top:7px;">
+        <div class="lbl">Worth the flight?</div>
+        <p>The honest filter for a regional trip this quarter: go for the thing that only happens here and now&#8202;&mdash;&#8202;Naadam, Gion, the Sumida sky&#8202;&mdash;&#8202;not the beach that will still be there in March. With the yen soft and the Strait reopening, Japan is the value pick of the season; the rest is opportunistic. Hold dates loosely until on-sales confirm; chase festivals, not FOMO.</p>
+        <p class="src">Meridian, on-spine</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 40. Event organisers / venue calendars and JNTO, Jun 2026. BIGBANG date per Meridian continuity (Nos. 23&ndash;25); on-sale unconfirmed at press time. Japan tax changes: Japan Tourism Agency.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 20 — THE DIARY (2) · THE TABLE ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Diary</span><span>The Table</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker">The Table · what just opened</div>
+    <h1 class="hed sm">Three new tables, and one the queue finally judged</h1>
+    <p class="dek" style="margin-bottom:3mm;">A warm Spanish room on Amoy Street, a heartland favourite reborn, and a high-tea worth a child's eyes&#8202;&mdash;&#8202;plus the verdict on a tonkatsu queue we flagged earlier.</p>
+  </div>
+
+  <div class="grid g-12">
+    <div class="cols2">
+      <p class="body"><b>Amor &middot; Amoy Street.</b> A Spanish room from the team behind some of the street's better-liked tables, leading with charcoal&#8202;&mdash;&#8202;BBQ oysters around S$10, a playful "Happy Eggggg," a weekday set near S$38. Early local coverage reads warm rather than ecstatic: a confident, convivial opening that knows what it is.<sup class="fnref">41</sup></p>
+      <div class="row" style="margin:2px 0 6px;"><span class="tag">New</span> <span class="tag g">Spanish</span> <span class="tag v">Time Out pick</span></div>
+
+      <p class="body"><b>Malaysia Boleh! &middot; Jurong Point.</b> The heartland hawker-tribute concept reopens after a revamp, leaning on a few outlet-exclusive dishes&#8202;&mdash;&#8202;a pared-back comeback rather than a reinvention, which is rather the point on a restraint-themed week.<sup class="fnref">42</sup></p>
+      <div class="row" style="margin:2px 0 6px;"><span class="tag">Reopening</span> <span class="tag s">Heartland</span> <span class="tag">Halal-friendly options</span></div>
+
+      <p class="body"><b>SKAI Winnie-the-Pooh High Tea &middot; Swiss&ocirc;tel, L70.</b> A licensed, seasonal high tea on the 70th floor, 1 Jun&ndash;31 Aug&#8202;&mdash;&#8202;the family/occasion pick of the issue. Note for planners: <b>not halal-certified.</b> Book the window seats ahead.<sup class="fnref">43</sup></p>
+      <div class="row" style="margin:2px 0 6px;"><span class="tag v">Family</span> <span class="tag g">Seasonal</span> <span class="tag s">Not halal</span></div>
+
+      <div class="chatter gold" style="margin-top:4px;">
+        <div class="lbl">Now reviewed · Tonkatsu Daiki</div>
+        <p>Flagged when it landed in Ngee Ann City&#8202;&mdash;&#8202;the Osaka katsu name with a Michelin mention back home. The verdict after the queues settled: the hour-plus wait is, annoyingly, warranted; the cutlet holds up. Go at off-peak or accept the line.</p>
+        <p class="src">Local food media + forums, paraphrased; Meridian continuity</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="14" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">THE TABLE · BUZZ READ</text>
+          <text x="8" y="25" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">how hot, how proven (Meridian read)</text>
+          <line x1="22" y1="120" x2="234" y2="120" stroke="#d8cfbd"/>
+          <line x1="22" y1="34" x2="22" y2="120" stroke="#d8cfbd"/>
+          <text x="6" y="40" font-family="Poppins,sans-serif" font-size="5" fill="#7a7264" transform="rotate(-90 6 40)">buzz &rarr;</text>
+          <circle cx="120" cy="64" r="9" fill="#c1462e" opacity="0.85"/><text x="120" y="52" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">Amor</text>
+          <circle cx="70" cy="96" r="8" fill="#2f4858" opacity="0.8"/><text x="70" y="84" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">M'sia Boleh!</text>
+          <circle cx="160" cy="84" r="8" fill="#b08738" opacity="0.85"/><text x="168" y="74" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">SKAI tea</text>
+          <circle cx="196" cy="50" r="9" fill="#2b6b66" opacity="0.85"/><text x="196" y="40" text-anchor="middle" font-family="Poppins,sans-serif" font-size="5.2" fill="#403a32">Daiki</text>
+          <text x="234" y="134" text-anchor="end" font-family="Poppins,sans-serif" font-size="5" fill="#7a7264">proven &rarr;</text>
+        </svg>
+        <div class="imgcap">Meridian read of local coverage + social chatter. Subjective, not a score.</div>
+      </div>
+
+      <div class="chatter slate" style="margin-top:7px;">
+        <div class="lbl">Honesty rule</div>
+        <p>Amor and Malaysia Boleh! are fresh enough that the reviews are first impressions, not consensus&#8202;&mdash;&#8202;treat the warmth as early, not settled. SKAI's high tea is a licensed seasonal experience, judged on occasion more than cuisine. Where a place is too new to call, we say so rather than invent praise.</p>
+        <p class="src">The Table standing rule</p>
+      </div>
+
+      <div class="chatter teal" style="margin-top:6px;">
+        <div class="lbl">Booking tips</div>
+        <p><b>Amor:</b> walk-ins possible early week; weekends book ahead. <b>SKAI:</b> reserve the 70th-floor window slots. <b>Daiki:</b> off-peak or expect 60+ min. Rotating out: the venues reviewed in Nos. 24&ndash;25.</p>
+        <p class="src">Meridian</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 41. Time Out SG / local food media on Amor, Amoy St, Jun 2026 (early coverage). 42. Mall/operator notices, Malaysia Boleh! Jurong Point reopening. 43. Swiss&ocirc;tel The Stamford SKAI seasonal high tea, 1 Jun&ndash;31 Aug 2026; not halal-certified. Daiki: aggregated local reviews.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 21 — THE LONG READ (1) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Long Read</span><span>The Long Read</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div style="margin-top:5mm;">
+    <div class="kicker gold">The Long Read · the essay</div>
+    <h1 class="hed xl">The Eloquence of the Unsaid</h1>
+    <p class="dek">A new Fed chairman governs in 130 words and declines to publish his own forecast. A treaty arrives unwritten. A model shrinks. A black hole, it turns out, may hide nothing at all. What this issue keeps describing is an old discipline rediscovered: that the most powerful thing you can do with a sentence is leave part of it out.</p>
+  </div>
+
+  <div class="cols2" style="margin-top:4mm;">
+    <p class="body dropcap">Ludwig Wittgenstein ended the <i>Tractatus</i>, in 1921, with a proposition so famous it has become a kind of incantation: whereof one cannot speak, thereof one must be silent.<sup class="fnref">44</sup> It is usually read as a wall&#8202;&mdash;&#8202;a boundary marking where language fails and metaphysics should shut up. But it can be read the other way, as a discipline rather than a defeat: a rule for the honest use of words, which begins by knowing which words you have not earned. This issue, almost by accident, is a catalogue of people relearning that rule.</p>
+
+    <p class="body">Start with the man who set the week's tone by subtraction. The new Federal Reserve chairman held rates, and then did something stranger than any cut or hike: he shrank the statement from three hundred and forty-one words to a hundred and thirty, deleted the forward-guidance language his predecessors had agonised over, and declined to publish his own dot in the projection chart.<sup class="fnref">45</sup> Markets, trained for a decade to parse every adverb, were handed a near-blank page. The message was the absence of one. A central bank that had spent fifteen years saying more and more&#8202;&mdash;&#8202;forward guidance, dot plots, press conferences thick with calibration&#8202;&mdash;&#8202;was told by its new chair that some of that speech had been a liability, a hostage given to a future nobody can see.</p>
+
+    <div class="pull">The most powerful thing you can do with a sentence is leave part of it out&#8202;&mdash;&#8202;and mean the part you left.</div>
+
+    <p class="body">There is a long pedigree for this, and the Spartans wrote the opening chapter. When Philip II of Macedon sent word that if he entered Laconia he would raze it to the ground&#8202;&mdash;&#8202;"if I enter Laconia, I will level it"&#8202;&mdash;&#8202;the Spartans are said to have replied with a single word: "If."<sup class="fnref">46</sup> The whole genre of <i>laconic</i> speech takes its name from that region, and its logic is exactly the chairman's. The shorter message is the stronger one because it implies a confidence that does not need to argue. You do not threaten back at length when one syllable will do; the brevity itself is the show of force. Restraint, used well, is not weakness wearing a smaller coat. It is power that has learned it need not shout.</p>
+
+    <p class="body">The diplomats of the week understood the same thing in a different key. The agreement easing the Strait crisis was, at press time, unsigned and&#8202;&mdash;&#8202;more tellingly&#8202;&mdash;&#8202;unpublished, with the parties offering deliberately divergent accounts of what it would contain.<sup class="fnref">47</sup> That is not a failure of the process. It is the process. An ambiguous text that each side can sell to its own hardliners is often the only text that can exist; the unsaid clause is load-bearing, holding up a peace that a fully explicit one would collapse.</p>
+
+    <div class="pull">More words became a liability&#8202;&mdash;&#8202;a hostage handed to a future no one can read.</div>
+
+    <p class="body">It is worth pausing on how strange this is, because the age we live in was built on the opposite faith. The whole architecture of modern institutions&#8202;&mdash;&#8202;forward guidance, the published forecast, the press conference, the disclosure regime&#8202;&mdash;&#8202;rests on the premise that more transparency is more trust, that the cure for uncertainty is always another sentence. The chairman's wager, and the diplomat's, is that this faith overshot: past a point each extra word is not information but exposure, a commitment hostage to events. The discipline they are reaching for is not secrecy. It is the older art of saying exactly enough and not one clause more.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 44. Wittgenstein, <i>Tractatus Logico-Philosophicus</i>, prop. 7 (1921). 45. FOMC statement and projections, 17 Jun 2026 (Meridian p.3). 46. Plutarch and the laconic tradition (Philip II / Sparta, "If"). 47. Strait/Hormuz easing, unpublished text (Meridian p.4).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 22 — THE LONG READ (2) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Long Read</span><span>The Long Read · continued</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="grid g-21" style="margin-top:14mm;">
+    <div class="cols2">
+      <p class="body">There is a second, older tradition of the unsaid, and it runs through theology rather than statecraft. The <i>via negativa</i>&#8202;&mdash;&#8202;the apophatic way&#8202;&mdash;&#8202;held that the highest truths could be approached only by negation: you say what God is not, because every positive thing you say is too small and therefore false. Maimonides built a whole epistemology on it; Pseudo-Dionysius made it a ladder.<sup class="fnref">48</sup> The conviction underneath is precise and modern: there are things about which the honest move is to refuse the confident sentence, because the confident sentence would be a lie dressed as knowledge. The new chairman declining his own dot is, whether he knows it or not, an apophatic act. He is saying: I will not pretend to a forecast I cannot stand behind.</p>
+
+      <p class="body">Which is where the week's technology folds neatly into its theology. The most interesting machines this issue are the ones that got smaller&#8202;&mdash;&#8202;a capable model that now fits in sixteen gigabytes, run on a desk, owned rather than rented.<sup class="fnref">49</sup> For three years the industry's only verb was <i>more</i>: more parameters, more data, more power, more cloud. The efficiency turn is a kind of technical restraint, and it carries the same dividend the Spartans found&#8202;&mdash;&#8202;the smaller thing, kept close, is the stronger position. A model you can hold doesn't phone home. It keeps its own counsel, which is another way of saying it keeps yours.</p>
+
+      <div class="pull">The honest move is sometimes to refuse the confident sentence&#8202;&mdash;&#8202;because the confident sentence would be a lie dressed as knowledge.</div>
+
+      <p class="body">And then, at the far edge, the cosmos offered the issue its purest image. A theoretical paper proposed that behind the event horizon there may be no singularity&#8202;&mdash;&#8202;that the universe's most famous hidden interior may hide nothing dramatic at all.<sup class="fnref">50</sup> Whether or not the model holds, the horizon itself is the perfect figure for everything else on these pages: a boundary the universe has drawn around a region from which no information can return, a thing we are permitted to model but never to measure. Physics built Wittgenstein's proposition into the structure of spacetime. Whereof one cannot speak&#8202;&mdash;&#8202;and across an event horizon, one literally cannot&#8202;&mdash;&#8202;thereof one must be silent.</p>
+    </div>
+
+    <div>
+      <div class="figframe">
+        <svg viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <text x="8" y="14" font-family="Poppins,sans-serif" font-size="8" font-weight="700" fill="#191613">FOUR WAYS TO MEAN MORE</text>
+          <text x="8" y="25" font-family="Poppins,sans-serif" font-size="5.6" fill="#7a7264">by saying less</text>
+          <g font-family="Poppins,sans-serif">
+            <rect x="14" y="36" width="222" height="44" rx="4" fill="#fbf8f1" stroke="#c1462e"/>
+            <text x="24" y="52" font-size="7" font-weight="700" fill="#c1462e">THE STATEMENT</text>
+            <text x="24" y="64" font-size="5.6" fill="#403a32">130 words; the dot withheld.</text>
+            <text x="24" y="73" font-size="5.2" fill="#7a7264">restraint as credibility</text>
+
+            <rect x="14" y="86" width="222" height="44" rx="4" fill="#fbf8f1" stroke="#2f4858"/>
+            <text x="24" y="102" font-size="7" font-weight="700" fill="#2f4858">THE TREATY</text>
+            <text x="24" y="114" font-size="5.6" fill="#403a32">text unpublished, kept vague.</text>
+            <text x="24" y="123" font-size="5.2" fill="#7a7264">ambiguity as load-bearing</text>
+
+            <rect x="14" y="136" width="222" height="44" rx="4" fill="#fbf8f1" stroke="#2b6b66"/>
+            <text x="24" y="152" font-size="7" font-weight="700" fill="#2b6b66">THE MODEL</text>
+            <text x="24" y="164" font-size="5.6" fill="#403a32">16GB; owned, silent, local.</text>
+            <text x="24" y="173" font-size="5.2" fill="#7a7264">subtraction as sovereignty</text>
+
+            <rect x="14" y="186" width="222" height="44" rx="4" fill="#191613"/>
+            <text x="24" y="202" font-size="7" font-weight="700" fill="#b08738">THE HORIZON</text>
+            <text x="24" y="214" font-size="5.6" fill="#efe9db">no information returns.</text>
+            <text x="24" y="223" font-size="5.2" fill="#cdbf9f">silence built into spacetime</text>
+          </g>
+        </svg>
+        <div class="imgcap">Meridian diagram. The issue's spine, four times over.</div>
+      </div>
+      <div class="stat" style="margin-top:7px;">
+        <div class="n">130</div>
+        <div class="c">words in the statement that moved markets by what it refused to say</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 48. Apophatic theology: Maimonides, <i>Guide for the Perplexed</i>; Pseudo-Dionysius, the <i>via negativa</i>. 49. The small-model turn (Meridian pp.7&ndash;8). 50. Non-singular collapse, theoretical (Meridian p.16).</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 23 — THE LONG READ (3) ============== -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span>&nbsp; Meridian · The Long Read</span><span>The Long Read · continued</span></div>
+  <div class="rule" style="margin-top:13mm;"></div>
+
+  <div class="grid g-12" style="margin-top:14mm;">
+    <div>
+      <div class="chatter gold">
+        <div class="lbl">The threads</div>
+        <p><b>Restraint as power.</b> The Spartan "If," the 130-word statement&#8202;&mdash;&#8202;brevity that implies a confidence it needn't argue.</p>
+        <p><b>The honest unsaid.</b> The withheld dot, the apophatic refusal&#8202;&mdash;&#8202;not claiming the sentence you haven't earned.</p>
+        <p><b>Subtraction as sovereignty.</b> The 16GB model, the watch that whispers&#8202;&mdash;&#8202;smaller, closer, yours.</p>
+        <p><b>The limit.</b> The silent treatment (p.17)&#8202;&mdash;&#8202;restraint that excludes is just cruelty in a quieter font.</p>
+      </div>
+
+      <div class="pull" style="margin-top:8px;">There is a silence that includes and a silence that shuts the door. Only one of them is wisdom.</div>
+
+      <div class="chatter slate" style="margin-top:8px;">
+        <div class="lbl">The callbacks</div>
+        <p>This is the desk's fourth visit to the territory of less: No. 22 on useful emptiness, No. 20 on Seneca's economy, No. 18 on consider-the-source. Where No. 22 read negative space as structure, this issue reads it as <i>discipline</i>&#8202;&mdash;&#8202;the active choice to withhold, not the shape left behind.</p>
+        <p class="src">Meridian continuity</p>
+      </div>
+    </div>
+
+    <div class="cols2">
+      <p class="body dropcap">So the threads converge, and they converge on a warning as much as a celebration. Restraint is this issue's hero&#8202;&mdash;&#8202;the chairman's, the diplomat's, the engineer's, the watchmaker's&#8202;&mdash;&#8202;but the Human Desk on page seventeen is where the magazine had to check its own enthusiasm. Because there is a silence that includes and a silence that excludes, and from the outside they are indistinguishable. The first is the comfortable quiet of people at ease, the diplomat's productive ambiguity, the parent leaving an afternoon unplanned. The second is the silent treatment: withdrawal as a weapon, the door closed and the closing called dignity.</p>
+
+      <p class="body">The test, in the end, is the direction of the silence&#8202;&mdash;&#8202;whether it opens a space for the other person or seals them out of one. Wittgenstein's proposition is a discipline of honesty, not a licence for evasion; the apophatic tradition refuses the small sentence in order to gesture at a larger truth, not to hide. The chairman's 130 words are eloquent because the restraint is in service of credibility&#8202;&mdash;&#8202;he is saying less so that what he does say can be trusted. The silent treatment is restraint in service of control, and that is why it corrodes.</p>
+
+      <p class="body">Which is the only lesson the issue is willing to stand behind. The unsaid is not virtuous in itself; a blank page is not wisdom, and a withheld word can be generosity or it can be a fist. What this week's better actors share is that their silence is offered, not imposed&#8202;&mdash;&#8202;a space made for the future, the counterparty, the reader, the child. Say less, by all means. But say less the way the chairman did, and not the way the door does. Whereof one cannot honestly speak, be silent&#8202;&mdash;&#8202;and leave the silence open, so someone else can walk in.</p>
+
+      <div class="pull">A blank page is not wisdom. The unsaid word can be generosity&#8202;&mdash;&#8202;or it can be a fist.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES&nbsp;</b> 51. The including/excluding distinction (Meridian p.17, Frontiers in Psychology 2026). Callbacks: Meridian Nos. 18, 20, 22. Wittgenstein, <i>Tractatus</i> prop. 7, as discipline rather than wall.</div>
+    <div class="fnbar"><span>The Long Read</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ============== PAGE 24 — BACK COVER ============== -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 26 · Singapore</span></div>
+
+  <div style="position:absolute;top:34mm;left:16mm;right:16mm;">
+    <div style="font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.42em;text-transform:uppercase;color:#b08738;">The Last Word</div>
+    <div class="gold-rule" style="margin:10px 0;"></div>
+    <h1 style="font-family:'Lora',serif;font-weight:700;font-size:26pt;line-height:1.12;color:#f6f2e9;max-width:150mm;">In praise of the sentence you didn't finish</h1>
+
+    <div style="max-width:150mm;margin-top:8mm;font-family:'Lora',serif;font-size:11.5pt;line-height:1.62;color:#efe9db;">
+      <p style="margin-bottom:5mm;">A chairman moved the world's largest economy by deleting two-thirds of a paragraph. A treaty held a strait open by staying unwritten. A machine got smaller and, in getting smaller, got harder to surveil. None of it was achieved by saying more.</p>
+      <p style="margin-bottom:5mm;">We are leaving you, as ever, with the issue's quote, because it earned its place this week more than most: <span style="font-style:italic;color:#cdbf9f;">whereof one cannot speak, thereof one must be silent.</span> Wittgenstein meant it as a wall. Read it instead as good manners&#8202;&mdash;&#8202;the discipline of not claiming the word you haven't earned, and of leaving the quiet open so someone else can speak into it.</p>
+      <p>Then close the magazine, and try an afternoon you don't fill.</p>
+    </div>
+  </div>
+
+  <div style="position:absolute;bottom:30mm;left:16mm;right:16mm;">
+    <div style="font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;color:#b08738;margin-bottom:4px;">This issue, sourced</div>
+    <div style="font-family:'Poppins',sans-serif;font-size:6.6pt;line-height:1.5;color:#cdbf9f;column-count:2;column-gap:8mm;">
+      Federal Reserve, FOMC statement &amp; projections (17 Jun 2026) · Reuters, CNBC, FT on the chairman's debut · Strait/Hormuz easing &amp; G7 Évian readouts · Trading Economics / Enterprise Singapore, May NODX · EMA Q2 tariff · URA / GLS Bayshore Drive · Google Gemma 4, Ollama, MiniMax, OpenAI · NVIDIA Rubin · CSA Matter 1.6 (Austin) · The Verge / J. Tuohy · Sony 1000X anniversary · Xreal · JNTO &amp; Japan Tourism Agency · Grand Seiko background · Toy Story 5 trade tracking · Billboard / Recording Academy rule changes · UCSF/ABCD &amp; Danish cluster-RCT (pending) · Frontiers in Psychology, silence review (2026) · Pancar et al., deload RCT, Scientific Reports (2026) · ScienceDaily, non-singular collapse · SETI protocol revision · Time Out SG &amp; local food media (The Table) · Plutarch (the laconic "If") · Wittgenstein, Tractatus (1921) · Maimonides; Pseudo-Dionysius. Family &amp; Fitness items are general guidance, not medical advice. Gossip is reported/unconfirmed. Photo Edition heroes verified from their Wikimedia Commons file pages.
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>MERIDIAN · No. 26</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</section>
+
+</body>
+</html>

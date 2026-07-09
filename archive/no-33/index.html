@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   MERIDIAN — Master Stylesheet (v1)
+   The canonical design system for every edition of MERIDIAN.
+   Standing tagline (fixed, every issue): "Twelve desks. One world."
+   Fonts required (installed locally): Lora (serif) + Poppins (sans).
+   Page: A4 portrait. Render via headless Chromium (Playwright):
+     emulate print media, prefer_css_page_size=True, print_background=True.
+   Reuse this file unchanged so every issue is visually identical.
+   ============================================================ */
+
+/* ---------- 1. PALETTE (do not change) ---------- */
+:root{
+  --paper:#f6f2e9;   --paper2:#efe9db;  --ink:#191613;     --ink2:#403a32;
+  --muted:#7a7264;   --line:#d8cfbd;    --vermilion:#c1462e;--vermilion-d:#9c3422;
+  --gold:#b08738;    --slate:#2f4858;   --teal:#2b6b66;     --blush:#e8dccb;
+}
+
+/* ---------- 2. RESET & PAGE ---------- */
+*{box-sizing:border-box;margin:0;padding:0;}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+@page{size:210mm 297mm;margin:0;}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
+.page:last-child{page-break-after:auto;}
+.page.dark{background:var(--ink);color:var(--paper);padding:0;} /* cover & back cover */
+
+/* ---------- 3. TYPOGRAPHY ---------- */
+.sans{font-family:'Poppins',sans-serif;}
+.kicker{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;letter-spacing:.28em;text-transform:uppercase;color:var(--vermilion);}
+.kicker.slate{color:var(--slate);} .kicker.gold{color:var(--gold);} .kicker.teal{color:var(--teal);}
+h1,h2,h3{font-weight:700;line-height:1.04;}
+.hed{font-family:'Lora',serif;font-weight:700;font-size:25pt;line-height:1.05;letter-spacing:-.01em;margin:5px 0 6px;}
+.hed.sm{font-size:18pt;}
+.dek{font-family:'Lora',serif;font-style:italic;font-size:11.5pt;color:var(--ink2);line-height:1.32;margin-bottom:9px;}
+p.body{font-size:9.7pt;line-height:1.5;color:var(--ink2);text-align:justify;hyphens:auto;margin-bottom:7px;}
+p.body.tight{font-size:9.2pt;line-height:1.46;}
+sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;font-weight:700;}
+.dropcap::first-letter{font-family:'Lora',serif;font-weight:700;float:left;font-size:46pt;line-height:.78;padding:4px 7px 0 0;color:var(--vermilion);}
+
+/* ---------- 4. RUNNING HEADER & FOOTER / FOOTNOTES ---------- */
+.rh{position:absolute;top:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);}
+.rh .dot{color:var(--vermilion);}
+.pgfoot{position:absolute;bottom:6.5mm;left:16mm;right:16mm;}
+.fn{font-family:'Poppins',sans-serif;font-size:6pt;letter-spacing:.02em;color:var(--muted);line-height:1.4;margin-bottom:4px;}
+.fn b{color:var(--ink2);letter-spacing:.16em;}            /* the "SOURCES" label */
+.fnbar{display:flex;justify-content:space-between;align-items:center;border-top:.5pt solid var(--line);padding-top:3px;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+/* ---------- 5. RULES & DIVIDERS ---------- */
+.rule{height:2.5pt;background:var(--ink);width:100%;}
+.rule.v{background:var(--vermilion);}
+.hairline{height:.5pt;background:var(--line);width:100%;margin:8px 0;}
+
+/* ---------- 6. LAYOUT UTILITIES ---------- */
+.cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+.nobreak{break-inside:avoid;}
+.grid{display:grid;gap:7mm;}
+.g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
+.g-12-narrow{grid-template-columns:1fr 1fr;gap:6mm;}
+
+/* ---------- 7. SIGNATURE COMPONENTS ---------- */
+/* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter.slate{border-left-color:var(--slate);}
+.chatter.gold{border-left-color:var(--gold);}
+.chatter.teal{border-left-color:var(--teal);}
+.chatter .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--vermilion);margin-bottom:4px;}
+.chatter.slate .lbl{color:var(--slate);} .chatter.gold .lbl{color:var(--gold);} .chatter.teal .lbl{color:var(--teal);}
+.chatter p{font-size:8.6pt;line-height:1.42;color:var(--ink2);margin-bottom:4px;}
+.chatter p:last-child{margin-bottom:0;}
+.chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
+
+/* Viewpoint panel — used in The World to compare geopolitical framings. */
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
+.desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
+.desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
+
+/* Pull quote */
+.pull{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:15pt;line-height:1.18;color:var(--ink);border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);padding:8px 0;margin:8px 0;break-inside:avoid;}
+
+/* Stat callout */
+.stat{break-inside:avoid;text-align:center;padding:4px 0;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:700;font-size:22pt;color:var(--vermilion);line-height:1;}
+.stat .c{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+
+/* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
+.imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+
+/* Tag pill */
+.tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}
+.tag.v{background:var(--vermilion);} .tag.g{background:var(--gold);} .tag.s{background:var(--slate);}
+
+/* ---------- 8. THE DIARY — dated event agenda ---------- */
+.agenda-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:9pt;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);border-bottom:2pt solid var(--vermilion);padding-bottom:4px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:baseline;}
+.agenda-h.slate{border-bottom-color:var(--slate);} .agenda-h.gold{border-bottom-color:var(--gold);}
+.agenda-h .sub{font-weight:600;font-size:6.5pt;letter-spacing:.1em;color:var(--muted);}
+.evt{display:flex;gap:8px;align-items:flex-start;padding:5px 0;border-bottom:.5pt solid var(--line);break-inside:avoid;}
+.evt:last-child{border-bottom:none;}
+.evt-date{flex:0 0 38px;text-align:center;background:var(--ink);color:var(--paper);border-radius:3px;padding:4px 2px;font-family:'Poppins',sans-serif;font-weight:700;font-size:13.5pt;line-height:1;}
+.evt-date.star{background:var(--vermilion);}             /* marquee pick */
+.evt-date.rng{font-size:8.5pt;padding:5px 2px;}          /* date range */
+.evt-date .mo{display:block;font-size:5.8pt;letter-spacing:.12em;margin-top:3px;color:var(--gold);font-weight:700;}
+.evt-name{font-family:'Lora',serif;font-weight:700;font-size:10pt;line-height:1.12;color:var(--ink);}
+.evt-name .st{color:var(--vermilion);}                   /* the ★ marker */
+.evt-meta{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-top:2px;}
+
+/* ---------- 9. COVER & BACK COVER (brand identity) ---------- */
+/* Apply on a .page.dark. See brand prompt for exact markup. */
+.topbar{position:absolute;top:0;left:0;right:0;height:14mm;background:var(--vermilion);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;}
+.topbar span{font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#fff;}
+.cover-head{position:absolute;top:24mm;left:0;right:0;text-align:center;}
+.eyebrow{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.masthead{font-family:'Poppins',sans-serif;font-weight:700;font-size:62pt;letter-spacing:-.02em;line-height:.9;color:var(--paper);}
+.gold-rule{width:60mm;height:2pt;background:var(--gold);margin:10px auto;}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:12pt;color:var(--blush);} /* "Twelve desks. One world." */
+.cover-teasers{position:absolute;bottom:30mm;left:16mm;right:16mm;}
+.cover-teasers .row{display:flex;gap:6mm;margin-top:8px;}
+.cover-teasers .col{flex:1;}
+.cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
+.cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.dark .hairline{background:#3a342c;}                      /* divider on dark pages */
+
+</style>
+<title>MERIDIAN — No. 33 · Photo Edition</title>
+<style>
+/* Issue-local additions only (canonical styles live in meridian.css) */
+.starfield-bg{fill:#0e0c0a;}
+.cover-credit{position:absolute;bottom:9mm;left:16mm;right:16mm;text-align:center;font-family:'Poppins',sans-serif;font-size:6.5pt;letter-spacing:.18em;color:#6f6656;text-transform:uppercase;}
+.toc-row{display:flex;justify-content:space-between;align-items:baseline;border-bottom:.5pt solid var(--line);padding:3.6px 0;}
+.toc-row .nm{font-family:'Lora',serif;font-weight:700;font-size:9.6pt;color:var(--ink);}
+.toc-row .sub{font-family:'Poppins',sans-serif;font-size:6.6pt;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;}
+.toc-row .pg{font-family:'Poppins',sans-serif;font-weight:700;font-size:8.5pt;color:var(--vermilion);}
+.mini{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;}
+.strip-tbl{width:100%;border-collapse:collapse;}
+.strip-tbl td{border-top:.5pt solid var(--line);padding:2.6px 0;font-family:'Poppins',sans-serif;font-size:7.6pt;color:var(--ink2);}
+.strip-tbl td.r{text-align:right;font-weight:600;}
+.strip-tbl td .u{color:var(--teal);} .strip-tbl td .dn{color:var(--vermilion-d);}
+.lede-strip{background:var(--paper2);border:.6pt solid var(--line);border-radius:3px;padding:7px 10px;margin:7px 0;}
+.deck-art{width:100%;border:.6pt solid var(--line);border-radius:3px;background:#fff;display:block;}
+.fj{font-family:'Lora',serif;font-style:italic;color:var(--ink2);}
+</style>
+
+<style>
+/* ===== PHOTO EDITION — screen-flow overrides ===== */
+body{background:#cfc7b6;}
+.page{margin:22px auto;box-shadow:0 10px 34px rgba(0,0,0,.22);}
+.page:not(.dark){height:auto;min-height:297mm;overflow:visible;}
+.page:not(.dark) .pgfoot{position:static;margin-top:20px;left:auto;right:auto;bottom:auto;}
+.page:not(.dark) .rh{position:static;margin:-4mm 0 6px;left:auto;right:auto;}
+.ph-frame{aspect-ratio:16/8;overflow:hidden;border:.6pt solid var(--line);border-radius:3px;background:#e7e0d2;margin:2px 0 12px;}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+.ph-cap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.03em;color:var(--muted);margin:4px 0 10px;}
+.ph-cap b{color:var(--ink2);}
+@media (max-width:760px){.page{width:100%;min-height:0;padding:8mm 6mm;}}
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 — COVER ============ -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 33 · Singapore</span></div>
+
+  <!-- Hero artwork: the small figure beneath a vast arc — the issue's "small self" -->
+  <svg viewBox="0 0 760 360" style="position:absolute;top:96mm;left:0;right:0;width:100%;height:118mm;" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <defs>
+      <radialGradient id="sky" cx="50%" cy="18%" r="95%">
+        <stop offset="0%" stop-color="#23303a"/>
+        <stop offset="48%" stop-color="#161a1d"/>
+        <stop offset="100%" stop-color="#0e0c0a"/>
+      </radialGradient>
+      <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1b211f"/><stop offset="100%" stop-color="#0e0c0a"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="760" height="360" fill="url(#sky)"/>
+    <!-- concentric arcs of vastness -->
+    <g stroke="#b08738" fill="none" opacity="0.5">
+      <circle cx="380" cy="372" r="120" stroke-width="0.8"/>
+      <circle cx="380" cy="372" r="190" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="380" cy="372" r="262" stroke-width="0.8" opacity="0.5"/>
+      <circle cx="380" cy="372" r="336" stroke-width="0.8" opacity="0.35"/>
+    </g>
+    <!-- scattered stars -->
+    <g fill="#f6f2e9">
+      <circle cx="90" cy="56" r="1.5"/><circle cx="150" cy="120" r="1"/><circle cx="220" cy="40" r="1.2"/>
+      <circle cx="300" cy="92" r="1"/><circle cx="360" cy="44" r="1.6"/><circle cx="430" cy="100" r="1"/>
+      <circle cx="500" cy="50" r="1.3"/><circle cx="566" cy="110" r="1"/><circle cx="630" cy="58" r="1.5"/>
+      <circle cx="690" cy="128" r="1"/><circle cx="120" cy="190" r="1"/><circle cx="660" cy="200" r="1.1"/>
+      <circle cx="250" cy="150" r="0.9"/><circle cx="470" cy="150" r="0.9"/><circle cx="40" cy="120" r="1"/>
+      <circle cx="720" cy="78" r="1"/><circle cx="190" cy="70" r="0.8" opacity="0.8"/><circle cx="540" cy="150" r="0.8"/>
+    </g>
+    <!-- vermilion arc-comet (the bow-and-arrow / the wonder) -->
+    <path d="M120 250 Q 380 70 640 250" stroke="#c1462e" stroke-width="2.4" fill="none" opacity="0.92"/>
+    <circle cx="640" cy="250" r="4.6" fill="#c1462e"/>
+    <!-- horizon hill -->
+    <path d="M0 300 Q 200 268 380 286 T 760 300 L760 360 L0 360 Z" fill="url(#hill)"/>
+    <!-- a single small figure on the ridge -->
+    <g transform="translate(372,272)" fill="#0a0908" stroke="#b08738" stroke-width="0.7">
+      <line x1="8" y1="0" x2="8" y2="22" stroke="#cdbf9a" stroke-width="2.2"/>
+      <circle cx="8" cy="-4" r="3.1" fill="#cdbf9a" stroke="none"/>
+    </g>
+  </svg>
+
+  <div class="cover-head">
+    <div class="eyebrow">The Current Briefing of</div>
+    <div class="masthead">MERIDIAN</div>
+    <div class="gold-rule"></div>
+    <div class="tagline">Twelve desks. One world.</div>
+  </div>
+
+  <div class="cover-teasers">
+    <div style="font-family:'Poppins',sans-serif;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:#b08738;border-top:1.4pt solid #b08738;padding-top:7px;">Inside the Weekend Edition</div>
+    <div class="row">
+      <div class="col">
+        <div class="lbl" style="color:#c1462e;">Curiosities</div>
+        <div class="ht">A galaxy shaped like a drawn bow — and the student who found it</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:#b08738;">The Grand Tour</div>
+        <div class="ht">Kanazawa: the quieter Kyoto, on a record-soft yen</div>
+      </div>
+      <div class="col">
+        <div class="lbl" style="color:#2b6b66;">Love &amp; Life</div>
+        <div class="ht">The small self: why feeling tiny is good for you</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <span>Saturday · 27 June 2026 · The Weekend Edition</span>
+    <span>Twelve Desks · One World</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 2 — CONTENTS + FROM THE DESK ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Contents</span><span>The Weekend Briefing</span></div>
+  <div class="rule"></div>
+
+  <div class="grid g-21" style="margin-top:10px;">
+    <div>
+      <div class="kicker">In This Issue</div>
+      <h2 class="hed sm" style="margin-bottom:8px;">No. 33 — twenty-eight pages, a coffee, and a slower clock</h2>
+      <div class="toc-row"><div><span class="nm">The World</span></div><div class="sub">The Meridian Dispatch</div><div class="pg">03</div></div>
+      <div class="toc-row"><div><span class="nm">Singapore</span></div><div class="sub">The Little Red Dot</div><div class="pg">05</div></div>
+      <div class="toc-row"><div><span class="nm">Property</span></div><div class="sub">Bricks &amp; Mortar</div><div class="pg">06</div></div>
+      <div class="toc-row"><div><span class="nm">Technology</span></div><div class="sub">The Home Lab</div><div class="pg">07</div></div>
+      <div class="toc-row"><div><span class="nm">The Kit</span></div><div class="sub">Gear We're Watching</div><div class="pg">09</div></div>
+      <div class="toc-row"><div><span class="nm">The Connected Home</span></div><div class="sub">Walls That Listen</div><div class="pg">10</div></div>
+      <div class="toc-row"><div><span class="nm">The Good Life</span></div><div class="sub">Objects &amp; Escapes</div><div class="pg">11</div></div>
+      <div class="toc-row"><div><span class="nm">Screen &amp; Sound</span></div><div class="sub">Culture Desk</div><div class="pg">12</div></div>
+      <div class="toc-row"><div><span class="nm">The Family Desk</span></div><div class="sub">Raising Them Well</div><div class="pg">13</div></div>
+      <div class="toc-row"><div><span class="nm">The Macro Desk</span></div><div class="sub">The Big Picture</div><div class="pg">15</div></div>
+      <div class="toc-row"><div><span class="nm">Curiosities</span></div><div class="sub">The Far Edges</div><div class="pg">16</div></div>
+      <div class="toc-row"><div><span class="nm">Love &amp; Life</span></div><div class="sub">The Human Desk</div><div class="pg">17</div></div>
+      <div class="toc-row"><div><span class="nm">Fitness</span></div><div class="sub">The Long Game</div><div class="pg">18</div></div>
+      <div class="toc-row"><div><span class="nm">The Travel Desk</span> <span class="mini">— weekend supplement</span></div><div class="sub">Departures · The Grand Tour</div><div class="pg">19</div></div>
+      <div class="toc-row"><div><span class="nm">The Diary</span></div><div class="sub">What's Worth Booking</div><div class="pg">23</div></div>
+      <div class="toc-row"><div><span class="nm">The Long Read</span></div><div class="sub">The Small Self</div><div class="pg">25</div></div>
+    </div>
+
+    <div>
+      <div class="chatter gold nobreak" style="margin-top:0;">
+        <div class="lbl">From the Desk</div>
+        <p class="fj" style="font-size:9.4pt;line-height:1.4;">"Two things fill the mind with ever new and increasing admiration and awe, the more often and the more steadily we reflect upon them: the starry heavens above me and the moral law within me."</p>
+        <p class="src">— Immanuel Kant, <span class="fj">Critique of Practical Reason</span> (1788)<sup class="fnref">1</sup></p>
+        <p style="margin-top:5px;">Kant had the conclusion of his second <span class="fj">Critique</span> carved on his tombstone. It is the issue in a sentence: two vastnesses, one above and one within, that both shrink us and steady us. This weekend's book is built around that smallness — a galaxy drawn like a bow, a garden engineered to feel infinite, a record named for a signal from the deep, and the plain science that being made to feel tiny is, reliably, good for you.</p>
+      </div>
+
+      <div class="lede-strip nobreak">
+        <div class="mini" style="color:var(--ink);letter-spacing:.16em;margin-bottom:4px;">The Strip · Friday's close</div>
+        <table class="strip-tbl">
+          <tr><td>STI</td><td class="r">5,210 <span class="u">▲ rec.</span></td></tr>
+          <tr><td>VWRA (all-world)</td><td class="r">held<sup class="fnref">2</sup></td></tr>
+          <tr><td>US 10Y</td><td class="r">~4.45%</td></tr>
+          <tr><td>DXY</td><td class="r">~101.6 <span class="dn">▼</span></td></tr>
+          <tr><td>USD/SGD</td><td class="r">~1.28</td></tr>
+          <tr><td>USD/JPY</td><td class="r">~161.6</td></tr>
+          <tr><td>Brent</td><td class="r">~US$74 <span class="dn">▼</span></td></tr>
+          <tr><td>Gold</td><td class="r">~US$4,030</td></tr>
+          <tr><td>Bitcoin</td><td class="r">~US$60k</td></tr>
+        </table>
+        <div class="mini" style="font-size:6.2pt;margin-top:4px;color:var(--muted);">Levels to Fri 26 Jun close; markets shut for the weekend. The Macro Desk, p15.</div>
+      </div>
+
+      <div class="stat nobreak" style="margin-top:8px;">
+        <div class="n">28</div><div class="c">pages this weekend · +4pp Travel Desk</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <p class="body tight" style="column-count:2;column-gap:8mm;">Welcome to the Weekend Edition. The hard desks still run — Iran's inspectors, a paused property market, the week's one big inflation print — but they run lean and reflective, the way news reads over a slow Saturday. The weight of the book sits where the weekend does: the night sky, a Japanese garden town on a record-soft yen, the family adventure, the long walk, the records worth pressing play on. Our spine is borrowed from Kant and from the astronauts who came after him — the curious, documented fact that the surest route to feeling steadier is to be reminded, on purpose, how small you are.<sup class="fnref">3</sup> Pour the coffee.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Kant, <i>Kritik der praktischen Vernunft</i> (1788), conclusion. &nbsp;2. VWRA / global-aggregate bond levels carried qualitatively; markets closed weekend — see Macro Desk. &nbsp;3. Awe &amp; the "small self": Piff et al., <i>JPSP</i> 2015; Keltner, <i>Awe</i> (2023) — see Love &amp; Life, p17.</div>
+    <div class="fnbar"><span>Contents · From the Desk</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 3 — THE WORLD ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>The Meridian Dispatch</span></div>
+  <div class="rule"></div>
+
+  <figure class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Strait%20of%20Hormuz%20%28MODIS%202020-12-04%29.jpg?width=1400" alt="The Strait of Hormuz from orbit" loading="lazy"></figure><div class="ph-cap">The Strait of Hormuz from orbit. <b>Representative.</b> Source: Wikimedia Commons — File:Strait of Hormuz (MODIS 2020-12-04).jpg · Public domain (NASA) · NASA / MODIS.</div>
+<div class="kicker">Iran · Verification</div>
+  <h1 class="hed">The deal is signed. Now everyone is waiting for an inspector.</h1>
+  <div class="dek">A week after the ceremony that wasn't, the same fight has narrowed to a single, unglamorous word — access. The watchdog says it is coming; Tehran says only after the sanctions go.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The interim peace held through another fragile week, and the argument moved exactly where the experts said it would: not to oil, not to missiles, but to whether anyone outside Iran is allowed to look. On Friday, from the Japan National Press Club in Tokyo, IAEA director-general Rafael Grossi gave the agency's firmest reading yet — the memorandum of understanding signed by both presidents, he said, states "explicitly" that nuclear activities will be supervised by his inspectors, and "initial conversations have taken place."<sup class="fnref">1</sup> Two days earlier, from the tsunami-scarred Fukushima Daiichi plant, he had put it more bluntly: "Obviously, to do that, we will have to inspect."<sup class="fnref">2</sup></p>
+
+      <p class="body">Tehran heard it differently. Deputy foreign minister Kazem Gharibabadi said there were no plans to admit inspectors to the bombed sites or to the material itself — those matters, he wrote, would be "examined and settled" only inside a final agreement, and only after Washington's "practical action" to lift sanctions.<sup class="fnref">3</sup> The gap is not rhetorical. The agency last verified Iran's stockpile in June 2025 — about 440.9 kg enriched to 60%, close enough to weapons grade to worry every capital that can do the arithmetic — and has not seen it since.<sup class="fnref">2</sup> Without eyes on the seals, "compliance" is a word, not a fact. It is a small, technical standoff that happens to be the whole ballgame; the rest of the deal rests on it.</p>
+
+      <div class="pull">A peace you cannot inspect is a peace you can only hope is real.</div>
+
+      <p class="body tight">The market read the calm, not the doubt. Brent slid under US$74 — its lowest since the conflict began — as tankers moved through a re-opening Hormuz and the war premium drained out of the barrel.<sup class="fnref">4</sup> The wider board stayed quiet: in <b>Britain</b>, the Labour leadership race to replace Starmer narrowed to Andy Burnham, with nominations 9–16 July and a new prime minister expected around the 17th — the seventh UK leader in a decade. The Israel–Hezbollah truce in southern Lebanon frayed again midweek; Colombia's run-off result (de la Espriella 43.7% to Cepeda 40.9%) held; Ukraine kept hitting Russian refineries. None of it headlined. On a weekend, the dispatch is shorter on purpose.</p>
+    </div>
+
+    <div>
+      <div class="desk nobreak">
+        <div class="flag"><span>Washington</span><span class="geo">The White House</span></div>
+        <p>Vance says Iran agreed to inspections of damaged sites; Trump promises inspectors "at the appropriate time" and "no rush." Rubio, from Kuwait, vows to stay "completely aligned" with Gulf partners through the 60-day talks.<sup class="fnref">3</sup></p>
+      </div>
+      <div class="desk nobreak" style="border-top-color:var(--vermilion);">
+        <div class="flag"><span>Tehran</span><span class="geo">The Foreign Ministry</span></div>
+        <p>Gharibabadi calls the framework a settlement of equals and the access question premature: "These issues will be reviewed only within a final agreement … you cannot advance a 'stir up and take over' policy with media hype."<sup class="fnref">3</sup></p>
+      </div>
+
+      <div class="stat nobreak"><div class="n">440.9<span style="font-size:11pt;">kg</span></div><div class="c">60%-enriched uranium, last verified Jun 2025</div></div>
+
+      <div class="chatter slate nobreak">
+        <div class="lbl">The Sceptic</div>
+        <p>Non-proliferation desks note the obvious: a stockpile last seen a year ago, at a site that has since been bombed, is a stockpile whose location no one can presently confirm. "This is going to happen," Grossi insists — "whether the day after tomorrow or in ten days … important, but not essential."<sup class="fnref">2</sup> The verification, not the signature, is the deal.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. <i>Times of Israel</i> / Modern Diplomacy, 26 Jun 2026 (Grossi, Tokyo). &nbsp;2. NPR / CBS News, 24 Jun 2026 (Grossi, Fukushima). &nbsp;3. Al Jazeera; CBS News, 23–24 Jun 2026 (Gharibabadi; Vance; Rubio). &nbsp;4. Barchart / Neil Sethi market notes, 24 Jun 2026 (Brent &lt;US$74).</div>
+    <div class="fnbar"><span>The World</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 4 — THE WORLD (continued) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>Around the Desks</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker slate">The Weekend Long View</div>
+  <h1 class="hed sm">The barrel falls, the corridor reopens, and travel quietly picks up the pieces</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body">The clearest dividend of a fragile peace this week was logistical, not diplomatic. With the Strait of Hormuz toll-free again and vessels moving, the airspace over the Gulf began to reopen — and the first carrier to act on it was one Singaporeans actually fly. On 22 June, Scoot's flight TR796 touched down in Jeddah, the airline's first Middle East service since it grounded the route on 28 February when the war shut the skies.<sup class="fnref">1</sup> It is a small thing and an honest one: the geopolitics of a corridor read most plainly in a departures board. (The Travel Desk takes it from here — p19.)</p>
+
+    <p class="body">Singapore Airlines is moving more slowly. Its daily Dubai service stays suspended until at least 2 August; the long-trailed Riyadh route — SIA's first Saudi flying in twelve years — has slipped to 1 September; Oman Air's new Muscat–Singapore link starts 2 July.<sup class="fnref">1</sup> Caution, in other words, is the house style. A ceasefire is a permission, not a guarantee, and the carriers are pricing the difference.</p>
+
+    <div class="figframe nobreak" style="margin:4px 0 8px;">
+      <svg class="deck-art" viewBox="0 0 360 130" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="360" height="130" fill="#fbf8f1"/>
+        <text x="10" y="18" font-family="Poppins" font-size="9" font-weight="700" fill="#2f4858">BRENT CRUDE · THE WAR PREMIUM DRAINS</text>
+        <polyline points="14,40 70,34 120,46 165,30 210,58 260,86 310,100 346,104" fill="none" stroke="#c1462e" stroke-width="2.2"/>
+        <line x1="14" y1="104" x2="346" y2="104" stroke="#d8cfbd" stroke-width="1"/>
+        <text x="14" y="120" font-family="Poppins" font-size="6.6" fill="#7a7264">~US$98 peak (Jun)</text>
+        <text x="300" y="120" font-family="Poppins" font-size="6.6" fill="#7a7264">~US$74 (26 Jun)</text>
+        <circle cx="346" cy="104" r="3" fill="#c1462e"/>
+      </svg>
+      <div class="imgcap">A <i>Meridian</i> sketch. Brent has retraced almost the whole conflict spike as Hormuz reopens. Source: Barchart / market notes, 24–26 Jun 2026.</div>
+    </div>
+
+    <div class="chatter teal nobreak">
+      <div class="lbl">Around the Desks</div>
+      <p><span class="src">Britain.</span> Burnham, who won the Makerfield by-election, is the bookmakers' and the MPs' front-runner; nominations 9–16 Jul, a new PM by ~17 Jul.</p>
+      <p><span class="src">Lebanon.</span> The Israel–Hezbollah truce frayed again; tit-for-tat strikes resumed midweek without collapsing the wider ceasefire.</p>
+      <p><span class="src">Ukraine.</span> Long-range drones kept hitting Russian refineries; the slow attritional pattern is unchanged from last week.</p>
+    </div>
+
+    <p class="body tight">Why lead a weekend dispatch with an airline schedule rather than a summit? Because that is how the week's one durable fact actually reached the reader: not as a communiqué but as a flight that flew. The summits are still talking; the talks resume next week in Switzerland under Pakistani mediation. But the part you can verify — a plane on the ground in Jeddah, a barrel back near US$74 — is the part that quietly rearranges a holiday. The rest is a hope with a 60-day clock on it.</p>
+
+    <div class="stat nobreak"><div class="n">2 Jul</div><div class="c">Oman Air's first Muscat–Singapore flight</div></div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. AeroTime, 24 Jun 2026 (Scoot Jeddah resumption; SIA Dubai/Riyadh; Oman Air); Changi Air Hub commentary. &nbsp;Developing-situation deltas (UK, Lebanon, Colombia, Ukraine) carried from the wires, 22–26 Jun 2026.</div>
+    <div class="fnbar"><span>The World</span><span>Page 4</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 5 — SINGAPORE ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Singapore</span><span>The Little Red Dot</span></div>
+  <div class="rule"></div>
+
+  <figure class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1400" alt="Singapore's Marina Bay at dusk" loading="lazy"></figure><div class="ph-cap">Singapore's Marina Bay at dusk. Source: Wikimedia Commons — File:Singapore Marina Bay Dusk 2018-02-27.jpg · CC BY-SA 4.0 · Benh Lieu Song.</div>
+<div class="kicker">A Deadline With Your Name On It</div>
+  <h1 class="hed">The change lands on Tuesday. The move to make is this weekend.</h1>
+  <div class="dek">From 1 July the retirement age rises 63 → 64. It changes less than the headlines suggest — but for one quiet account, the date you act on it can lock in a number for life.</div>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">First, the calming part. From 1 July the statutory <b>retirement age rises from 63 to 64</b> and the re-employment age from 68 to 69 — but the CPF payout eligibility age stays at 65, so this does <i>not</i> push back when LIFE payouts begin.<sup class="fnref">1</sup> The retirement age is not a "stop working" age; it is the minimum age at which an employer may require you to retire. The change adds employment protection. It does not move your pension.</p>
+
+    <p class="body">The wrinkle worth a Saturday's attention sits in the <b>Supplementary Retirement Scheme</b>. Under SRS rules, penalty-free withdrawals can generally be made from the statutory retirement age <i>that applied when you made your first contribution</i>. Make that first contribution before 1 July, and your prescribed age may be locked at 63; make it on or after, and it may be set at the higher 64.<sup class="fnref">1</sup> A dollar does it. For anyone who has been meaning to open and seed an SRS account, the difference between "this weekend" and "next week" is, potentially, a year of earlier penalty-free access — the rare personal-finance deadline that is both real and trivially cheap to meet.</p>
+
+    <div class="chatter nobreak">
+      <div class="lbl">The Weekend Move</div>
+      <p>If SRS is on your list and you want the earlier age: open the account and make a first contribution — even a nominal one — before 1 July. The tax relief and the investing come later; the age is set by the first dollar in. Idle SRS cash earns just 0.05% p.a., so don't leave it un-invested.<sup class="fnref">1</sup></p>
+    </div>
+
+    <p class="body tight">Beyond the household ledger, the tape stayed buoyant. The <b>STI</b> printed a fresh record near 5,210 this week — up roughly a third on the year, the three local banks doing the heavy lifting<sup class="fnref">2</sup> — even as global tech wobbled. And May's inflation print came in soft, the gauge easing back toward the middle of MAS's band; whether June marks the genuine ebb is a question for the Macro Desk (p15), where the same number reads as a portfolio signal rather than a household one. For a Saturday, that is the whole local picture: a record index, a cooling price level, and one small account with a Tuesday deadline.</p>
+
+    <div class="stat nobreak"><div class="n">$1</div><div class="c">the SRS first contribution that sets your withdrawal age</div></div>
+
+    <div class="chatter slate nobreak">
+      <div class="lbl">A Caveat, Not Advice</div>
+      <p>SRS rules have edges — the income tax treatment on withdrawal, the 10-year withdrawal window, foreigner caps. This is a prompt to check your own situation before Tuesday, not a recommendation. <i>Meridian</i> isn't your financial adviser.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Growbeansprout, "Retirement age to rise from 1 July 2026," Jun 2026 (retirement/re-employment ages; CPF payout age; SRS first-contribution rule). &nbsp;2. Yahoo Finance / TradingView, STI ~5,210, record 5,241.80 on 23 Jun 2026.</div>
+    <div class="fnbar"><span>Singapore</span><span>Page 5</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 6 — PROPERTY ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker slate">The Market That's Holding Its Breath</div>
+  <h1 class="hed sm">Frozen near the high mark, waiting on one tender and one launch</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">A weekend read on the market for someone who owns one: it has gone quiet, and the quiet is informative. URA's Q1 index rose a slim +0.9% on thin volumes; developer sales slumped to a three-month low in May (447 units, against 1,548 in April).<sup class="fnref">1</sup> Prices have not broken — but buyers and sellers are circling a stand-off, each waiting for the other to flinch, and for two specific events to set the next benchmark.</p>
+
+    <p class="body">The first is land. The mixed-use <b>Bayshore Drive GLS</b> on the East Coast — now served by Thomson-East Coast Line Stage 4 — closes its tender at noon on 15 July, the price-discovery a paused market is waiting on.<sup class="fnref">1</sup> The second is a launch: <b>Vela Bay</b> (SingHaiyi), the first private project in the new Bayshore precinct in over two decades, will test whether an OCR address can clear toward the ~S$2,600–2,800 psf zone that build costs now demand. With construction floors near S$2,400 psf, the market's support is structural, not sentimental.</p>
+
+    <div class="chatter nobreak">
+      <div class="lbl">For an Owner</div>
+      <p>June's BTO put ~6,900 flats across five towns, roughly half of them Plus/Prime with the longer 10-year MOP and subsidy clawback — a deliberate thinning of the future resale pool. The read-through for existing resale owners is unchanged and quietly supportive: scarcer subsidised competition downstream.<sup class="fnref">1</sup></p>
+    </div>
+
+    <p class="body tight">Rates? One line, by editorial standing: SORA has drifted, refinancing windows remain open, and none of it is news — we stopped leading on it months ago. The story that matters is supply and the price it clears at, and both answers arrive in mid-July. Until then, the most honest thing to say about Singapore property is that it is waiting — for a tender result on the 15th and a launch price soon after — and that waiting, here, is a position, not a failure to have one.</p>
+
+    <div class="stat nobreak"><div class="n">15 Jul</div><div class="c">Bayshore Drive GLS tender closes — the next benchmark</div></div>
+
+    <div class="chatter teal nobreak">
+      <div class="lbl">Still On The Shelf</div>
+      <p>River Valley Green Parcel C — the S$1,730 psf ppr CCR benchmark from 18 Jun (No. 31) — now a continuity line. The EC "flip-after-five is dead" overhaul (No. 28) gets its first live read at the Sembawang Drive tender. No new pegs; no re-explainers.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. URA Q1 final +0.9%; developer-sales May 447 (3-mo low); Bayshore Drive GLS (closes noon 15 Jul); Vela Bay; June BTO ~6,900 — carried/updated from the property wires, Jun 2026.</div>
+    <div class="fnbar"><span>Property</span><span>Page 6</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 7 — TECHNOLOGY (Silicon & Sovereignty) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Backdrop</div>
+  <h1 class="hed sm">The memory cycle just answered its own stress-test</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">A weekend doesn't need the whole earnings call, just the verdict. After Tuesday's $1.3-trillion memory-and-AI selloff rattled Asia, <b>Micron</b> walked in on Wednesday and answered it: fiscal-Q3 revenue of $41.46B (+74% q/q, +346% y/y, a ~$5.5B beat), record gross margin near 84.9%, and HBM3E/HBM4 sold out through CY2027 into 2028. The stock jumped ~14.6% after hours to about $1,199.<sup class="fnref">1</sup></p>
+
+    <p class="body">The bull case reads it as proof the AI memory demand is real, not a story. The bear case — held even-handed — notes how much of that demand traces back through a circular loop of Nvidia-and-OpenAI financing, where the same dollars appear to fund both the buyer and the seller. Both can be true at once: a genuine boom and a fragile capital structure underneath it. The H200-into-China licence question stays a one-liner; nothing changed this week.</p>
+
+      <p class="body">There are two read-throughs for a reader of this magazine, and they point in opposite directions. The first is the household one: the same HBM shortage that prints Micron's record margin is the reason consumer memory and GPU prices stay stubbornly high — the "memory tax" (No. 24) that sets the ceiling on every home-lab build. Sold-out HBM into 2028 means the card you want for a local model won't get cheap soon. The second is the portfolio one: VWRA, the all-world anchor on the Macro Desk (p15), is heavily weighted toward exactly these names, which means you already own this cycle — its records and its fragility both — whether or not you ever run a model yourself. The chart on this page is, quietly, a holding in your own book.</p>
+
+      <p class="body">It is also the reason this desk is called <i>Silicon &amp; Sovereignty</i>. A cycle this concentrated turns a memory shortage into a geopolitical fact. The high-bandwidth memory that AI now runs on comes from essentially three firms — Micron, SK Hynix, Samsung; the logic from one, TSMC; the systems from one, Nvidia. When a resource that narrow becomes that essential, it starts to behave like oil: priced by who can pay, rationed by who is allowed to buy. The H200 export licence to China is not a footnote to this story. It is the story — compute as a strategic commodity, allocated by states as much as by markets.</p>
+
+      <p class="body">Which loops back, at household scale, to the page after this one. You cannot onshore a fab over a weekend, and you cannot un-concentrate an industry by wishing. But the small, answerable version of the sovereignty question is the one you can act on: a model that runs on a card you own, in a room you control, answering to no one's allocation policy. It will never match the rented frontier. It will, however, be yours — which, this issue keeps arguing, is a different and underrated kind of good.</p>
+
+      <p class="body tight">The point for the reader sits on the next page, where the cycle stops being a stock chart and becomes a question about your own machine: rent the intelligence, or own it?</p>
+
+    <div class="figframe nobreak" style="margin:4px 0 8px;">
+      <svg class="deck-art" viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+        <rect width="360" height="120" fill="#fbf8f1"/>
+        <text x="10" y="17" font-family="Poppins" font-size="9" font-weight="700" fill="#2f4858">MICRON FISCAL-Q3 · THE ANSWER</text>
+        <g font-family="Poppins" font-size="7.4" fill="#403a32">
+          <text x="14" y="42">Revenue</text><rect x="120" y="34" width="210" height="10" fill="#c1462e"/><text x="248" y="42" fill="#fff" font-weight="700">$41.46B · +74% q/q</text>
+          <text x="14" y="64">Gross margin</text><rect x="120" y="56" width="170" height="10" fill="#b08738"/><text x="196" y="64" fill="#fff" font-weight="700">~84.9% (record)</text>
+          <text x="14" y="86">HBM order book</text><rect x="120" y="78" width="200" height="10" fill="#2b6b66"/><text x="170" y="86" fill="#fff" font-weight="700">sold out into 2028</text>
+          <text x="14" y="108">Stock (AH)</text><rect x="120" y="100" width="120" height="10" fill="#2f4858"/><text x="150" y="108" fill="#fff" font-weight="700">~+14.6%</text>
+        </g>
+      </svg>
+      <div class="imgcap">A <i>Meridian</i> chart from reported figures. Source: Micron fiscal-Q3, reported after close 24 Jun 2026.</div>
+    </div>
+
+    <div class="chatter slate nobreak">
+      <div class="lbl">The Sceptic</div>
+      <p>"Sold out into 2028" is a wonderful sentence until you remember the same phrase preceded every prior memory glut. A cycle that prints record margins is, definitionally, near a high mark. The honest position: real demand, real fragility, and a circular-financing tail no one has fully mapped.<sup class="fnref">1</sup></p>
+    </div>
+    <div class="stat nobreak"><div class="n">+346%</div><div class="c">Micron revenue, year-on-year — a number that only looks like a top in hindsight</div></div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Micron fiscal-Q3 (after close 24 Jun 2026): rev $41.46B (+74% q/q, +346% y/y), adj EPS $25.11, GM ~84.9%, HBM sold out into 2028, stock ~+14.6% AH; bull/bear (Nvidia↔OpenAI financing) per market notes.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 7</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 8 — TECHNOLOGY (The Home Lab) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>The Home Lab</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker gold">A Saturday Project</div>
+  <h1 class="hed">Own the intelligence in your house, don't rent it</h1>
+  <div class="dek">The case for a quiet weekend build: a capable open model that fits on a card you already own, wired into Home Assistant, answering to no one's server but yours.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">While the memory cycle prints records on the page before this one, the more interesting development for a home lab is how good the models you can run <i>yourself</i> have become. June's open-weight wave brought the consumer sweet spot into focus: <b>Qwen 3.6 27B</b> posts ~77% on SWE-bench and fits in roughly 22 GB at 4-bit on a 24 GB card; <b>Gemma 4 12B</b> runs encoder-free multimodal inside 16 GB; <b>Ollama 0.30.8</b> (12 Jun) ships GGUF plus Apple-Silicon MLX.<sup class="fnref">1</sup> The frontier datacentre models — MiniMax, Nemotron, the rest — stay on the shelf, where they belong for this purpose. The question isn't the leaderboard. It's tokens-you-actually-get.</p>
+
+      <p class="body">The Saturday build is small and satisfying. Point Ollama at a model that fits your card; wire it into <b>Home Assistant</b> as a local conversation agent; and now the voice that runs your lights, your blinds and your morning scene is talking to a model on a box in your own home — not to a ~1.2-trillion-parameter system rented on someone else's cloud at a dollar a year per user. "Run the model that fits, and measure the throughput" is the whole discipline: benchmark prints are marketing; the token rate on <i>your</i> hardware is the truth.<sup class="fnref">1</sup></p>
+
+      <div class="pull">A benchmark is a brochure. Throughput on your own card is the receipt.</div>
+
+      <p class="body tight">There's a sovereignty argument buried in the convenience one, and it rhymes with this issue's spine. The networked house that listens is wonderful right up until the listening leaves the building. Keeping the brain local is not paranoia; it is the same instinct that makes a person prefer a garden they can stand in to a postcard of one — the difference between a thing you own and a thing you're shown. The Connected Home desk (p10) takes the wiring from here.</p>
+    </div>
+
+    <div>
+      <div class="figframe nobreak">
+        <svg class="deck-art" viewBox="0 0 230 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="230" height="250" fill="#fbf8f1"/>
+          <text x="12" y="20" font-family="Poppins" font-size="8.5" font-weight="700" fill="#2f4858">FITS A 24GB CARD?</text>
+          <line x1="12" y1="28" x2="218" y2="28" stroke="#d8cfbd"/>
+          <g font-family="Poppins" font-size="7">
+            <text x="12" y="48" fill="#403a32">Gemma 4 12B (Q4)</text>
+            <rect x="12" y="52" width="70" height="9" fill="#2b6b66"/><text x="86" y="60" fill="#2b6b66" font-weight="700">~9GB ✓</text>
+            <text x="12" y="80" fill="#403a32">Qwen 3.6 27B (Q4)</text>
+            <rect x="12" y="84" width="150" height="9" fill="#b08738"/><text x="166" y="92" fill="#b08738" font-weight="700">~22GB ✓</text>
+            <text x="12" y="112" fill="#403a32">Gemma 4 31B (Q4)</text>
+            <rect x="12" y="116" width="178" height="9" fill="#c1462e"/><text x="150" y="133" fill="#c1462e" font-weight="700">tight</text>
+            <text x="12" y="150" fill="#403a32">70B-class (Q4)</text>
+            <rect x="12" y="154" width="206" height="9" fill="#9c3422" opacity="0.4"/><text x="120" y="171" fill="#9c3422" font-weight="700">won't fit</text>
+          </g>
+          <line x1="190" y1="36" x2="190" y2="180" stroke="#191613" stroke-dasharray="3 3" stroke-width="1"/>
+          <text x="150" y="196" font-family="Poppins" font-size="6.4" fill="#7a7264">— dashed line = 24GB VRAM ceiling</text>
+          <text x="12" y="222" font-family="Poppins" font-size="6.6" fill="#7a7264">16GB is the new floor; 24GB</text>
+          <text x="12" y="232" font-family="Poppins" font-size="6.6" fill="#7a7264">is the consumer sweet spot.</text>
+        </svg>
+        <div class="imgcap">A <i>Meridian</i> figure — indicative 4-bit footprints, Jun 2026.</div>
+      </div>
+
+      <div class="chatter gold nobreak">
+        <div class="lbl">The Stack</div>
+        <p>Ollama 0.30.8 → a model that fits → Home Assistant's conversation agent. Local voice, local lights, no round-trip to a cloud. The "memory tax" (No. 24) still sets the ceiling; buy the card on merit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Ollama 0.30.8 (12 Jun 2026, GGUF + MLX); Qwen 3.6 27B (~77% SWE-bench, ~22GB Q4); Gemma 4 12B (16GB, encoder-free multimodal) — open-weight release notes, Jun 2026.</div>
+    <div class="fnbar"><span>Technology</span><span>Page 8</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 9 — THE KIT ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Kit</span><span>Gear We're Watching</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Camera For The Lanes</div>
+  <h1 class="hed sm">A slow year for cameras, a perfect one for the camera you already love</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">2026 has been, by the trade's own admission, a very slow year for new cameras outside the gimbal aisle.<sup class="fnref">1</sup> Which is the right cue for a weekend that's about a soft-yen trip to Japan (p21): the best travel camera this summer is almost certainly the small, fixed-lens compact you can already carry down a lantern-lit lane without it announcing you — the Fujifilm X100VI, the Leica Q3, a Ricoh GR, a Sony RX1R III. The renaissance of the pocketable "proper" camera is the quiet story the spec wars keep missing.</p>
+
+    <p class="body">Two pieces of genuine news, both forward-looking. <b>Leica</b> has confirmed it is developing its own image sensor — chairman Andreas Kaufmann said as much on a January podcast — a striking move for a marque that has long bought Sony silicon, and the strongest signal yet that the next M is a 2027 event.<sup class="fnref">1</sup> Separately, the rumour mill (flagged as exactly that) has Sony readying a ~180-megapixel medium-format sensor destined for Fujifilm and Hasselblad, whose shared 100 MP chip is now seven years old.<sup class="fnref">1</sup> And October brings the 30th anniversary of the Ricoh GR1, with commemorative items teased. None of it ships this weekend. All of it says the same thing: the interesting cameras are about craft and restraint, not megapixels.</p>
+
+    <div class="chatter slate nobreak">
+      <div class="lbl">The Contrarian</div>
+      <p>Forum heretics will remind you that you can now buy a film-recipe preset that fakes "the Leica look" for thousands less than a Leica — and that in a blind test, plenty of people couldn't tell.<sup class="fnref">1</sup> True, and beside the point. You don't buy the rendering. You buy the way the thing makes you slow down and look. On a Kanazawa morning, that's the whole feature.</p>
+    </div>
+
+    <p class="body tight">So the buying advice for the trip is almost anti-consumerist: don't wait for a 2027 sensor or a rumoured 180 MP back. Take the small camera you trust, a single fast prime, and the discipline to shoot less. The Travel Desk and the Good Life desk are about the same instinct from two angles — the object that earns the journey, and the journey that earns the object.</p>
+
+    <div class="chatter teal nobreak">
+      <div class="lbl">Still On The Shelf</div>
+      <p>Garmin Forerunner 70/170 — now reviewed (No. 32), the full physio stack at the entry tier. Snap Specs; Sony 1000X "ColleXion"; Meze Arta; WiiM Bar. No new pegs; carried as continuity, not re-led.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. RedShark / Digital Camera World / DPReview camera-rumour roundups, Feb–Jun 2026 (slow 2026 cameras; Leica own-sensor confirmed by A. Kaufmann; Sony ~180MP MF sensor — rumour, flagged; Ricoh GR1 30th anniversary). "Leica-look" preset chatter: DPReview forums.</div>
+    <div class="fnbar"><span>The Kit</span><span>Page 9</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 10 — THE CONNECTED HOME ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Connected Home</span><span>Walls That Listen</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker teal">The House That Knows It's Saturday</div>
+  <h1 class="hed sm">Automate the room, not the sensor — and keep the keys at home</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">A weekend scene, the local-first way: the blinds lift a notch when the living room actually brightens, the coffee machine warms when the kitchen senses someone up, and nothing in the chain phones a server in another country to do it. The update that makes this gentler arrived in beta this week. <b>Home Assistant 2026.7</b> ("A betta title," 24 Jun) introduces intent-based triggers and conditions that target a <i>room</i> rather than a named entity — "when the study gets warm," not "when sensor_4 crosses 26°."<sup class="fnref">1</sup> You describe the place and the state; the system finds the devices. It is a small abstraction that makes a home automation read like a sentence.</p>
+
+    <p class="body">The standards churn underneath stays a one-liner, as it should. <b>Matter 1.6</b> (17 Jun) added setup, multi-ecosystem and NFC-commissioning polish but no new device categories; HA's engine sits on the matter.js / Matter 1.5.1 base with 1.6 "coming soon."<sup class="fnref">2</sup> The rule hasn't changed since No. 31: buy the certified device, not the version number. And a quiet proof of the local-first thesis landed in the release notes — Home Assistant's Microsoft Teams integration was removed after Microsoft retired its Office 365 connectors on 22 May. When a cloud dependency vanishes, the automation that lived on your own network simply… keeps working.<sup class="fnref">1</sup></p>
+
+    <div class="chatter nobreak">
+      <div class="lbl">The Migrator's Note</div>
+      <p>Room-level intents are the friendliest on-ramp yet for the Lutron-to-Home-Assistant crowd: you can express a scene in plain language and let HA resolve the hardware. Pair it with a local LLM (p8) and the voice layer never leaves the house either.</p>
+    </div>
+
+    <p class="body tight">The sceptic's footnote is fair: an abstraction layer is still the same back-end with a nicer label, and "automate the room" can hide which sensor actually fired when something misbehaves. True. But for a weekend morning the trade is worth it — fewer brittle entity names, more scenes that survive a device swap. The deeper point is the one this whole issue keeps circling: a home that listens is a privilege only while the listening stays inside the walls.</p>
+
+    <div class="stat nobreak"><div class="n">2026.7</div><div class="c">Home Assistant beta — room-level intents</div></div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Home Assistant 2026.7 beta ("A betta title," 24 Jun 2026) — intent-based room triggers; Teams integration removed (O365 connectors retired 22 May). &nbsp;2. Matter 1.6 (17 Jun 2026) vs 1.5.1 (31 Mar) — release notes; "buy the certified device" (No. 31).</div>
+    <div class="fnbar"><span>Connected Home</span><span>Page 10</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 11 — THE GOOD LIFE ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker gold">The Soft-Yen Window</div>
+  <h1 class="hed">A weak yen, a quiet craft, and the watch you buy where it's made</h1>
+  <div class="dek">The yen is near a 39-year low. The temptation is the obvious flex bought cheap. The better object is the one a Japanese artisan finished by hand — and the window for buying it tax-free is closing in November.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The number first, because it sets everything else. USD/JPY closed Friday near ¥161.6 — territory not seen since 1986 — with SGD/JPY around ¥125, despite repeated verbal intervention and a Bank of Japan that meets again on 31 July.<sup class="fnref">1</sup> For a Singapore traveller, Japan is the rare luxury that has quietly gone on sale and stayed there. The lazy move is to spend the discount on a Swiss flex bought below home prices. The interesting one is to spend it on something you can only properly buy there: a watch finished by a Japanese hand.</p>
+
+      <p class="body">This is a genuine moment for the craft. Independents like <b>Kurono Tokyo</b> — Hajime Asaoka's more attainable line — turn out limited lacquer-dialled pieces that sell out in minutes; <b>Naoya Hida</b>'s 2026 collection runs to roughly 87 examples across seven references; brands like <b>Knot</b> offer "Japan Concept" dials worked in <i>urushi</i> lacquer, gold dust and mother-of-pearl by a single local craftsman.<sup class="fnref">2</sup> That last detail is the through-line to this weekend's Grand Tour: the gold leaf on a Knot dial and the gold leaf on a Kanazawa teahouse wall come from the same 99%-of-Japan source (p21). The object and the journey share a material.</p>
+
+      <div class="pull">Spend a weak yen on a thing a hand made, not a thing a logo sells.</div>
+    </div>
+
+    <div>
+      <div class="chatter gold nobreak" style="margin-top:0;">
+        <div class="lbl">The Object</div>
+        <p><span class="src">A Japanese lacquer dial.</span> Not one model but a category having a moment — Kurono, Naoya Hida, Credor's <i>urushi</i> work, Knot's gold-dust dials. The value isn't the discount; it's the maker. Buy the craft, not the currency.<sup class="fnref">2</sup></p>
+      </div>
+      <div class="chatter slate nobreak">
+        <div class="lbl">The Fine Print</div>
+        <p>The tax-free clock is ticking. Until <b>1 November 2026</b>, Japan applies the 10% consumption-tax exemption instantly at checkout (purchases over ¥5,000, passport required). After that it switches to a refund-on-departure system — same saving, more friction.<sup class="fnref">3</sup> If a craft watch is the plan, the pre-November trip is the cleaner one.</p>
+      </div>
+      <div class="stat nobreak"><div class="n">¥161.6</div><div class="c">USD/JPY, Fri 26 Jun — near a 1986 low</div></div>
+    </div>
+  </div>
+
+  <p class="body tight" style="margin-top:6px;">A closing caution against the obvious: a weak yen is a tailwind, not a thesis. Buy what you'd want at ¥140, not what only tempts you at ¥161 — currencies turn, and a watch bought for the discount becomes a watch you don't wear. The craft pieces survive that test because the reason to own them was never the exchange rate. Which is, come to think of it, the same advice the Macro Desk gives about everything else this weekend (p15).</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. TradingEconomics / Investing.com, USD/JPY ~¥161.6 on 26 Jun 2026 (near 1986 low); BoJ decision 31 Jul. &nbsp;2. ItiMaker / Teddy Baldassarre / Gear Patrol / WatchTime, 2026 (Kurono Tokyo; Naoya Hida 2026; Knot "Japan Concept"; Credor urushi). &nbsp;3. ItiMaker, Japan tax-free reform — instant exemption to 1 Nov 2026, refund-based thereafter.</div>
+    <div class="fnbar"><span>The Good Life</span><span>Page 11</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 12 — SCREEN & SOUND ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Weekend the Cosmos Showed Up</div>
+  <h1 class="hed sm">Two records named for the deep, and a galaxy drawn like a bow</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">Press play this weekend. Friday delivered two of the year's most-anticipated rock records at once. <b>Muse</b>'s <i>The Wow! Signal</i> — titled for the 1977 SETI burst that astronomers still can't explain — arrived to the band's strongest reviews in two decades; <b>The Strokes</b>' <i>Reality Awaits</i> landed the same day, their first in five years.<sup class="fnref">1</sup> First-week chart numbers are the honest next peg and won't print until midweek; we're holding them rather than guessing. But the timing is the story: a record named for a signal from the deep drops in the same 48 hours that a real telescope ships for launch and a genuinely strange galaxy makes the wires (Curiosities, p16). The culture and the cosmos rhymed.</p>
+
+    <p class="body">On screens, the verdict is almost in but not quite. <b>Supergirl</b> (Milly Alcock, dir. Craig Gillespie) opened Friday to a soft start — $7.8M in Thursday previews, ~$13M globally on day one, a 57% Rotten Tomatoes critics' score against a 77% audience mark — and is tracking to a $40–51M domestic weekend, well shy of the ~$315M it reportedly needs to break even, and certain to lose its own opening frame to <i>Toy Story 5</i>'s second weekend.<sup class="fnref">2</sup> The reviews are united on one thing: Alcock outshines the script. We're holding the final gross — it prints Sunday — and noting only that we demoted this story two issues ago and won't re-inflate it now.</p>
+
+    <div class="chatter slate nobreak">
+      <div class="lbl">A Media-Literacy Aside</div>
+      <p>If you searched "Glastonbury 2026 lineup" this week and found a confident bill of headliners — ignore it. 2026 is a <i>fallow year</i>; the Eavis family confirmed during the 2025 festival that Worthy Farm rests this summer, with the next edition in 2027.<sup class="fnref">3</sup> Those "lineups" are SEO fabrications. A small reminder that a clean layout is not the same as a true fact.</p>
+    </div>
+
+    <p class="body tight">So the weekend's listening, honestly framed: the Muse record if you want scale and the cosmic theme; the Strokes if you want the opposite of scale, four men in a room. Save the chart-position arguments for next week, when the numbers are real. The film can wait for its Sunday total. And the actual spectacle this weekend isn't on a screen at all — it's overhead, and it's free.</p>
+
+    <div class="stat nobreak"><div class="n">1977</div><div class="c">the "Wow! Signal" that named the Muse record</div></div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Muse <i>The Wow! Signal</i> &amp; The Strokes <i>Reality Awaits</i>, both released 26 Jun 2026; first-week charts held. &nbsp;2. Variety / THR / Deadline, 26 Jun 2026 (Supergirl previews $7.8M, RT 57%, $40–51M tracking, ~$315M break-even; gross prints Sun). &nbsp;3. Wikipedia / Time Out — Glastonbury 2026 fallow year (next 2027).</div>
+    <div class="fnbar"><span>Screen &amp; Sound</span><span>Page 12</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 13 — THE FAMILY DESK ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>Raising Them Well</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Case For The Adventure</div>
+  <h1 class="hed">As safe as necessary — not as safe as possible</h1>
+  <div class="dek">A new evidence review makes the unfashionable case that a little risk, a lot of agency, and time in wild places aren't hazards to be managed out of childhood. They're the mechanism through which children grow.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">It is the perfect weekend to make this argument, because the Grand Tour two pages on is a trip you'd take an eleven-year-old on. A December scoping review in <i>Behavioural Sciences</i> — Tonia Gray and colleagues, PRISMA-ScR, 40 empirical studies from 2015–2025 — synthesised what risky outdoor play and adventure education actually do for children and adolescents. All 40 studies reported positive associations, across eight themes: resilience and confidence, wellbeing, physical skills, autonomy and agency, nature-connectedness, quality play, educator influence.<sup class="fnref">1</sup> The organising principle is a phrase worth taping to the fridge: design childhood to be <i>"as safe as necessary, rather than as safe as possible."</i></p>
+
+      <p class="body">The mechanism matters more than the slogan. Across early childhood and the school years, the review found that <b>authentic agency and autonomy</b> — the child genuinely choosing, judging, and occasionally failing — were the critical channel through which the benefits arrived.<sup class="fnref">1</sup> A climbing frame supervised into total safety teaches less than a slightly-too-high branch the child decides to trust. "How high can I go? Is this branch strong enough?" are not risks to be eliminated; they are the curriculum.<sup class="fnref">2</sup> This is not, to be clear, a licence for carelessness. It is a recalibration of the default from <i>prevent everything</i> to <i>permit the useful difficulty</i>.</p>
+
+      <div class="pull">The slightly-too-high branch is not the hazard. It's the lesson.</div>
+    </div>
+
+    <div>
+      <div class="chatter nobreak" style="margin-top:0;">
+        <div class="lbl">Don't Be Alarmist</div>
+        <p>"Acceptable risk" is the opposite of recklessness — it is risk a child can assess and manage, with an adult nearby and a soft-enough landing. The benefit–risk frame asks one question of any activity: does removing the risk also remove the point? If it does, keep the risk and lower the stakes, don't cancel the climb.</p>
+      </div>
+      <div class="stat nobreak"><div class="n">40</div><div class="c">studies; <i>all</i> reported positive associations</div></div>
+      <div class="chatter teal nobreak">
+        <div class="lbl">The Dose</div>
+        <p>The nature half compounds: roughly <b>120 minutes a week</b> in green space tracks with better wellbeing, and early "wild" experience predicts a lifelong comfort in nature.<sup class="fnref">3</sup> It rhymes with our myopia note from No. 21 — two hours of daylight a day protects young eyes <i>and</i>, it turns out, young minds.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Gray, T. et al., "Risky Outdoor Play and Adventure Education in Nature for Child and Adolescent Wellbeing: A Scoping Review," <i>Behav. Sci.</i> (19 Dec 2025), PRISMA-ScR, 40 studies. &nbsp;2. Australasian Soc. for Developmental Paediatrics (benefit–risk framing). &nbsp;3. White et al., <i>Sci Rep</i> 2019 (120 min/week). &nbsp;<i>General guidance, not medical advice.</i></div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 13</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 14 — THE FAMILY DESK (continued) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>Putting It To Work</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker slate">From Review To Itinerary</div>
+  <h1 class="hed sm">What the evidence looks like on an actual family trip</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">Translate the research into a weekend, or a week away. The studies converge on a second finding that's easy to act on: family outdoor adventure lifts <i>family</i> wellbeing — not only the child's — and it does so through two specific things, <b>unmediated time together</b> and <b>the making and re-telling of memories</b>.<sup class="fnref">1</sup> The benefit isn't only in the doing; it's in the recollecting afterward. Which means the cheapest upgrade to any trip is to leave room for the experience to be <i>had</i> rather than documented, and then to talk about it later.</p>
+
+    <p class="body">It maps almost too neatly onto this issue's Grand Tour. Kanazawa for a child is a sequence of agency-rich, low-stakes adventures: the optical illusion of the Leandro Erlich pool at the 21st Century Museum (a child can stand "underwater" and look up); the trap-doors and hidden staircases of Myōryū-ji, the so-called Ninja Temple; pressing a sheet of gold leaf onto a dish in a Higashi Chaya workshop; getting pleasantly lost in Omicho Market deciding which grilled scallop to point at.<sup class="fnref">2</sup> None of it is risky in the alarming sense. All of it hands the child real choices in an unfamiliar place — which is, per the review, the active ingredient.</p>
+
+    <div class="chatter nobreak">
+      <div class="lbl">The Practical Version</div>
+      <p>One adventure a day, child-chosen where possible. A camera <i>they</i> hold. An hour unscheduled. And the dinner-table ritual of "what was the best thing today?" — the recollection step the research says does real work.<sup class="fnref">1</sup></p>
+    </div>
+
+    <p class="body tight">The honest caveats apply, as ever. This is associational evidence, mostly from Western samples; "agency" looks different for a four-year-old and a fourteen-year-old; and a holiday is not therapy. But the direction is unusually consistent, and the prescription is benign and cheap: more daylight, more choice, less supervision-for-its-own-sake, and a few protected hours where nobody is optimising anything. The Fitness desk makes the same case for the adult version on the next spread — the long, slow, phone-free walk.</p>
+
+    <div class="stat nobreak"><div class="n">1/day</div><div class="c">child-chosen adventure — the simplest rule that works</div></div>
+
+    <div class="chatter teal nobreak">
+      <div class="lbl">A Word On Screens</div>
+      <p>Note what this desk is <i>not</i> doing: re-litigating screen time. That argument is saturated. The more useful lever this weekend is the positive one — what to add (daylight, agency, a wild-ish place), not only what to subtract.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Pomfret &amp; Varley (2019), family outdoor adventure &amp; family wellbeing; C&amp;NN research digest (memory-making/recollection). &nbsp;2. VISIT KANAZAWA official guide; Japan Specialty Traveler, 2026 (21st Century Museum / Leandro Erlich pool; Myōryū-ji; gold-leaf workshops; Omicho). &nbsp;<i>General guidance, not medical advice.</i></div>
+    <div class="fnbar"><span>The Family Desk</span><span>Page 14</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 15 — THE MACRO DESK ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Macro Desk</span><span>The Big Picture</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Week's One Number</div>
+  <h1 class="hed sm">The hot print everyone feared — and why Friday's market shrugged</h1>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">Markets are shut for the weekend, so this is a reflection on closes, not a live read. The number that mattered landed Thursday: May <b>core PCE</b> — the Fed's preferred gauge — rose to 3.4% year-on-year, the hottest since October 2023.<sup class="fnref">1</sup> On paper, ugly. In context, less so. It is a <i>backward-looking</i> print that captures the spring tariff-and-oil shock and predates the past fortnight's collapse in crude as Hormuz reopened. It is, plausibly, the expected peak rather than a new trend — the high-water mark of a wave already receding.</p>
+
+      <p class="body">The tell was the dollar. Having touched a 13-month high, the DXY <i>eased</i> on Friday (~101.6) as a soft tape and falling oil trimmed the odds of further Fed tightening; the 10-year sat near 4.45%.<sup class="fnref">1</sup> The regime label still fits — higher-for-longer, dollar-bid — but the edge came off it this week. The honest framing: one hot, stale print did not move the needle the way a fresh one would have, because the forward-looking inputs (oil, the barrel, the corridor) are all pulling the other way.</p>
+
+      <p class="body tight">For the equity–bond engine that anchors most diversified portfolios, the read is steadying. With growth wobbling on the tech selloff and yields drifting down, stocks and bonds spent the week behaving like the diversifiers they're supposed to be — bonds catching a bid as equities sold — rather than falling together. That negative correlation is the quiet thing that makes a balanced book work, and it showed up when it was needed.</p>
+    </div>
+
+    <div>
+      <div class="lede-strip nobreak" style="margin-top:0;">
+        <div class="mini" style="color:var(--ink);letter-spacing:.14em;margin-bottom:4px;">Four Instruments · Fri 26 Jun close</div>
+        <table class="strip-tbl">
+          <tr><td><b>VWRA</b> · global equities</td><td class="r">anchor</td></tr>
+          <tr><td><b>Global bonds</b> (AGGU/BNDW)</td><td class="r">anchor ▲</td></tr>
+          <tr><td>Gold (XAU)</td><td class="r">~$4,030</td></tr>
+          <tr><td>Bitcoin (BTC)</td><td class="r">~$60k</td></tr>
+        </table>
+        <div class="mini" style="font-size:6.2pt;margin-top:4px;color:var(--muted);">Anchors held; gold &amp; BTC read for sensitivity, not as calls.</div>
+      </div>
+
+      <div class="chatter gold nobreak">
+        <div class="lbl">Gold &amp; Bitcoin — The Read-Through</div>
+        <p><span class="src">Gold</span> slid to a year-low midweek before steadying near $4,030 — analysts say it "lost the debasement trade" as real-yield and dollar strength bit.<sup class="fnref">2</sup> <span class="src">Bitcoin</span> flash-dipped below $60k in the tech rout, then rebounded toward ~$60–61k after Micron. High-beta, contested store of value — flagged, not endorsed.</p>
+      </div>
+
+      <div class="stat nobreak"><div class="n">3.4%</div><div class="c">May core PCE — likely the peak, not the trend</div></div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <p class="body tight"><b>What it means for VWRA, global bonds, gold &amp; BTC.</b> A receding inflation wave and an easing dollar are, on balance, friendly to the two anchors — and the week's restored equity–bond negative correlation is the diversification working as designed. Gold and Bitcoin are read here for what they reveal about real yields, the dollar and risk appetite, not as buy or sell calls; Bitcoin's volatility (a sub-$60k flush and a same-week rebound) is exactly why it isn't an anchor. The desk explains the weather. It does not tell you to change your coat. <i>Education, not investment advice; no level here is a recommendation, and none is fabricated.</i></p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. May core PCE 3.4% y/y (reported 25 Jun 2026); DXY ~101.6 off 13-mo high, US10Y ~4.45% (Investing.com/Reuters, 26 Jun). &nbsp;2. Neil Sethi market notes / Investing.com, 24–26 Jun (gold year-low then ~$4,030, "lost the debasement trade"; BTC sub-$60k then ~$60–61k post-Micron).</div>
+    <div class="fnbar"><span>The Macro Desk</span><span>Page 15</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 16 — CURIOSITIES ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Curiosities</span><span>The Far Edges</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">A Galaxy Drawn Like A Bow</div>
+  <h1 class="hed">It is falling at supersonic speed, and ploughing a 1.8-million-light-year arc</h1>
+  <div class="dek">A galaxy unlike anything in the textbooks — found not by a professor but by a student combing telescope data from a Himalayan hillside.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The object is called RAD-BAARG, and the astronomer who found its like — after 25 years studying such things — says he has never seen its equal.<sup class="fnref">1</sup> It is falling supersonically into a distant cluster of galaxies, and as it ploughs through the thin hot gas between them it kicks up a glowing arc of radio plasma nearly <b>1.8 million light-years</b> across, shaped uncannily like a bow with its string drawn. It is, astronomers say, the clearest view yet of a <i>bow shock</i> — a structure long predicted but almost never glimpsed, the cosmic equivalent of the wake before a ship's prow, scaled to the size of a small galaxy's whole journey.</p>
+
+      <p class="body">The human detail is the one that lands. The first person to spot the bow was not a professional but a <b>student</b>, combing through archived telescope data from a remote hillside in the Himalayas.<sup class="fnref">1</sup> It is a quietly perfect emblem for this issue: vastness on a scale that makes the self vanish, noticed by one small person paying close attention from a mountainside. The universe is full of accommodation-demanding facts; this is one of them, and a teenager found it in a spreadsheet.</p>
+
+      <div class="pull">A wake 1.8 million light-years wide — and a student on a hillside saw it first.</div>
+    </div>
+
+    <div>
+      <div class="figframe nobreak" style="margin-top:0;">
+        <svg class="deck-art" viewBox="0 0 230 150" xmlns="http://www.w3.org/2000/svg">
+          <rect width="230" height="150" fill="#0e0c0a"/>
+          <g fill="#f6f2e9"><circle cx="30" cy="30" r="0.9"/><circle cx="80" cy="20" r="0.7"/><circle cx="150" cy="34" r="1"/><circle cx="200" cy="24" r="0.8"/><circle cx="60" cy="120" r="0.8"/><circle cx="190" cy="120" r="0.9"/><circle cx="110" cy="14" r="0.7"/></g>
+          <path d="M40 120 Q 115 20 190 120" fill="none" stroke="#c1462e" stroke-width="2.4"/>
+          <path d="M40 120 L190 120" stroke="#b08738" stroke-width="1.1" stroke-dasharray="3 3"/>
+          <circle cx="115" cy="120" r="4.5" fill="#cdbf9a"/>
+          <line x1="115" y1="120" x2="115" y2="70" stroke="#cdbf9a" stroke-width="1.2"/>
+          <text x="12" y="142" font-family="Poppins" font-size="6.4" fill="#7a7264">A Meridian sketch — the "bow" of radio plasma, the galaxy at the arrow's nock.</text>
+        </svg>
+        <div class="imgcap">Source: Universe Today, 26 Jun 2026.</div>
+      </div>
+
+      <div class="chatter teal nobreak">
+        <div class="lbl">Also This Week</div>
+        <p><span class="src">The fog-clearer.</span> Hubble caught a tiny, furious galaxy in the act of burning away the cosmic fog just 1.4 billion years after the Big Bang — a possible "smoking gun" for how the universe first turned clear.<sup class="fnref">2</sup></p>
+        <p><span class="src">Shipped for launch.</span> NASA's <b>Nancy Grace Roman</b> Space Telescope reached Kennedy on 21 Jun — eight months early — for a launch no earlier than 30 Aug. Its 300-megapixel camera will survey billions of galaxies.<sup class="fnref">3</sup></p>
+      </div>
+
+      <div class="chatter slate nobreak">
+        <div class="lbl">In Brief</div>
+        <p>A University of New Hampshire study finds that in the days after a solar storm, parts of North America see sharp weather shifts — including drops in rainfall — the bigger the storm, the bigger the effect. The mechanism is still unexplained.<sup class="fnref">4</sup></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Universe Today, 26 Jun 2026 (RAD-BAARG; bow shock ~1.8M ly; student discoverer, Himalayas). &nbsp;2. Universe Today / NASA, 25 Jun 2026 (Hubble reionization galaxy, 1.4 Gyr after Big Bang). &nbsp;3. Discover / NASA, 21 Jun 2026 (Roman at KSC, launch NET 30 Aug, 300MP). &nbsp;4. Universe Today, 26 Jun 2026 (UNH solar-storm/weather study).</div>
+    <div class="fnbar"><span>Curiosities</span><span>Page 16</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 17 — LOVE & LIFE ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Small Self</div>
+  <h1 class="hed">Why feeling tiny is one of the best things you can do for yourself</h1>
+  <div class="dek">For two decades, psychology has been quietly assembling the case that awe — the goosebump emotion you get from vastness — is among the most therapeutic states a human can occupy. This is its field guide.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">Awe spent a long time being ignored by science — too rare, too vague, too close to the religious to feel like a serious subject. Then, in 2003, Dacher Keltner and Jonathan Haidt gave it a definition crisp enough to study: the emotion elicited by perceived <b>vastness that exceeds your existing mental structures</b> — something so large, physically or conceptually or morally, that your mind has to rearrange itself to take it in.<sup class="fnref">1</sup> Twenty years of research later, the goosebumps turn out to do real work. Awe shrinks the ruminating self, expands felt time, increases generosity, quiets the brain's self-referential default-mode network, and — in some studies — even lowers markers of inflammation.<sup class="fnref">2</sup></p>
+
+      <p class="body">The flagship finding is the one this whole issue is named for. Across five studies (N = 2,078), Paul Piff and colleagues showed that awe produces a <b>"small self"</b> — a diminished sense of one's own importance and concerns — and that this smallness reliably makes people more generous and more ethical. In one study, participants who simply stood for a minute in a grove of towering eucalyptus behaved more prosocially afterward than those who'd looked at an ordinary building.<sup class="fnref">3</sup> Feeling small, it turns out, doesn't diminish you. It connects you — to other people, to a longer clock, to something past the edge of your own week.</p>
+
+      <div class="pull">Feeling small doesn't diminish you. It connects you.</div>
+    </div>
+
+    <div>
+      <div class="chatter nobreak" style="margin-top:0;">
+        <div class="lbl">How To Dose It</div>
+        <p><span class="src">The awe walk.</span> In one UCSF study, older adults sent on weekly "awe walks" — same route, instruction to attend to the vast and unexpected — showed greater joy, more prosocial feeling, and literally bigger smiles than ordinary walkers.<sup class="fnref">4</sup></p>
+        <p><span class="src">The night sky.</span> Free, reliable, overhead. Conceptual vastness — deep time, the scale of a galaxy (p16) — produces the full response too.</p>
+        <p><span class="src">Human goodness.</span> Keltner's data ranks <i>witnessing moral beauty</i> — courage, kindness, skill — as everyday awe's single largest source. A counter-feed to the one optimised for outrage.</p>
+      </div>
+      <div class="stat nobreak"><div class="n">N=2,078</div><div class="c">the "small self" studies — awe → generosity</div></div>
+    </div>
+  </div>
+
+  <div class="hairline"></div>
+  <p class="body tight"><b>The honest caveat.</b> Much of this is short-term and lab-based; a 2025 randomised trial found awe reduced depressive symptoms, but awe is a nudge, not a cure, and the research rewards <i>frequency over intensity</i> — small, repeatable doses beat the once-a-decade canyon.<sup class="fnref">2</sup> Still, of all the wellbeing prescriptions this magazine has reported, this is the cheapest and least demanding: step outside this weekend, find something larger than your own concerns — a garden, a coastline, the sky, a stranger being good — and let it make you small for a minute. It threads every desk in this issue, and it costs nothing.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. Keltner &amp; Haidt, "Approaching awe," <i>Cogn. Emot.</i> (2003). &nbsp;2. Monroy &amp; Keltner (2022/2023); <i>Sci Rep</i> RCT (2025), awe reduces depressive symptoms; Simply Psychology synthesis (2026). &nbsp;3. Piff et al., "Awe, the small self, and prosocial behavior," <i>JPSP</i> (2015), N=2,078. &nbsp;4. Sturm et al. (UCSF), "Big smile, small self," awe walks in older adults.</div>
+    <div class="fnbar"><span>Love &amp; Life</span><span>Page 17</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 18 — FITNESS ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · Fitness</span><span>The Long Game</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">An Idea To Try This Weekend</div>
+  <h1 class="hed sm">The long slow effort, and the four-minute one — the two ends of the same week</h1>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">Here is a weekend programming idea that asks for no gym and no gadget: bookend your week with the two opposite ends of the cardio spectrum. On the weekend, the <b>long, slow effort</b> — a Zone-2 walk, ride or hike long enough to be boring, easy enough to hold a conversation. It builds the aerobic base that underwrites everything else, and (per the Love &amp; Life desk opposite) if you take it somewhere vast and leave the phone in your pocket, it doubles as an awe walk.<sup class="fnref">1</sup> On weekdays, the opposite: the <b>"exercise snack"</b> — short, vigorous, incidental bursts. Climb the stairs hard. Carry the shopping fast. Sprint for the bus and don't stop at the stop.</p>
+
+      <p class="body">The snack idea has real science behind the viral framing. Vigorous intermittent lifestyle physical activity — VILPA — in bouts as short as a minute or two, accumulated across a day, tracks with meaningfully lower mortality in large observational studies; the headline "four minutes can punch above a longer moderate walk" captures the intensity effect, even if the exact ratio is marketing.<sup class="fnref">1</sup> The mechanism is the one worth caring about: brief hard efforts are the most time-efficient way to nudge cardiorespiratory fitness, and fitness is among the strongest predictors of how long and how well you live.<sup class="fnref">2</sup></p>
+
+      <div class="pull">Long and slow on Saturday. Short and hard on Tuesday. That's the whole program.</div>
+    </div>
+
+    <div>
+      <div class="chatter slate nobreak" style="margin-top:0;">
+        <div class="lbl">The Sceptic's Asterisk</div>
+        <p>VILPA evidence is observational — fitter people may simply take more stairs. The "4 minutes beats 30" line is a ratio, not a law. And both halves are still just aerobic fitness by another name: consistency dominates the protocol.<sup class="fnref">1</sup></p>
+      </div>
+      <div class="stat nobreak"><div class="n">Z2 + ::</div><div class="c">long-slow base + vigorous snacks</div></div>
+      <div class="chatter teal nobreak">
+        <div class="lbl">Don't Re-Lead</div>
+        <p>We're not re-running the strength "sweet spot" (No. 32, the ~30–60 min/week resistance finding) or the VO₂max-as-marker argument. Both stand; both are callbacks, not this weekend's idea. Keep lifting twice a week regardless.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="body tight" style="margin-top:4px;">Why frame it as an "idea to try" rather than a prescription? Because the evidence supports the <i>shape</i> — base plus bursts — more confidently than any exact dose, and because a weekend is the right time to test the pleasant half. Take the long walk first. Notice whether somewhere vast makes the time pass differently (it will). Then let Tuesday's stairs be the deposit you didn't have to schedule. <i>General guidance, not medical advice — clear vigorous bursts with a clinician if you've a cardiac history.</i></p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. VILPA evidence (Stamatakis et al., <i>Nature Medicine</i> 2022 and follow-ups); "4 min" framing per 2026 popular coverage — observational, flagged. &nbsp;2. Mandsager et al., <i>JAMA Netw Open</i> (2018), cardiorespiratory fitness &amp; all-cause mortality. &nbsp;<i>General guidance, not medical advice.</i></div>
+    <div class="fnbar"><span>Fitness</span><span>Page 18</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 19 — TRAVEL DESK · DEPARTURES ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Travel Desk</span><span>Departures · Weekend Supplement</span></div>
+  <div class="rule v"></div>
+
+  <div class="kicker">Departures</div>
+  <h1 class="hed">A corridor reopens, and the departures board tells the truth</h1>
+  <div class="dek">The clearest sign that the Middle East peace is holding isn't a communiqué — it's a Scoot flight on the ground in Jeddah, and a cautious flag carrier still keeping Dubai dark.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">The Travel Desk opens its four-page weekend supplement where The World left off (p4), because the geopolitics of an airspace are read most honestly in a schedule. On 22 June, <b>Scoot</b>'s flight TR796 landed in Jeddah — its first Middle East service since it grounded the route on 28 February, when the US–Iran war shut the Gulf skies. A planned 18 April restart had been scrubbed as conditions stayed unstable; this time it stuck, three times weekly, timed to the start of the diplomatic talks.<sup class="fnref">1</sup> Scoot's return means every one of Changi's Middle East partners — Emirates, Etihad, Gulf Air, Qatar, Saudia — is flying again.</p>
+
+      <p class="body"><b>Singapore Airlines</b> is moving more carefully, and the caution is the story. Its daily Dubai service (SQ494/495) stays suspended until at least 2 August; the long-trailed Riyadh route — SIA's first Saudi flying in twelve years — has slipped to 1 September; <b>Oman Air</b> opens Muscat–Singapore on 2 July.<sup class="fnref">1</sup> Read together, it's a precise picture of a region coming back online at two speeds: the low-cost arm testing the water first, the full-service flag carrier waiting for the all-clear it can stand behind.</p>
+
+      <div class="chatter teal nobreak">
+        <div class="lbl">In Brief · New & Restored</div>
+        <p><span class="src">Scoot · Pontianak</span> — 3×/wk from 29 Jun (E190-E2), West Kalimantan's equator city, no Jakarta transit.<sup class="fnref">2</sup></p>
+        <p><span class="src">Scoot · Lombok</span> — ramped 4 → 10×/wk from June, decongesting Bali.<sup class="fnref">2</sup></p>
+        <p><span class="src">SIA · Hangzhou</span> — new daily from June; Western Sydney non-stop daily from Oct/Nov.<sup class="fnref">2</sup></p>
+      </div>
+    </div>
+
+    <div>
+      <div class="figframe nobreak" style="margin-top:0;">
+        <svg class="deck-art" viewBox="0 0 230 170" xmlns="http://www.w3.org/2000/svg">
+          <rect width="230" height="170" fill="#fbf8f1"/>
+          <text x="12" y="18" font-family="Poppins" font-size="8.4" font-weight="700" fill="#2f4858">THE GULF, AT TWO SPEEDS</text>
+          <g font-family="Poppins" font-size="7.2">
+            <circle cx="20" cy="44" r="3" fill="#2b6b66"/><text x="30" y="47" fill="#403a32">Scoot Jeddah — flying (22 Jun)</text>
+            <circle cx="20" cy="70" r="3" fill="#2b6b66"/><text x="30" y="73" fill="#403a32">Gulf Air, Emirates, Qatar — back</text>
+            <circle cx="20" cy="96" r="3" fill="#b08738"/><text x="30" y="99" fill="#403a32">Oman Air Muscat — opens 2 Jul</text>
+            <circle cx="20" cy="122" r="3" fill="#c1462e"/><text x="30" y="125" fill="#403a32">SIA Dubai — dark to ≥2 Aug</text>
+            <circle cx="20" cy="148" r="3" fill="#c1462e"/><text x="30" y="151" fill="#403a32">SIA Riyadh — slips to 1 Sep</text>
+          </g>
+        </svg>
+        <div class="imgcap">Source: AeroTime / Changi Air Hub, Jun 2026.</div>
+      </div>
+
+      <div class="chatter gold nobreak">
+        <div class="lbl">Points &amp; The Fine Print</div>
+        <p>The KrisFlyer golden rule still holds: hoard miles for an SIA premium-cabin redemption, not a Scoot booking — awards on the low-cost arm are revenue-based and poor value. And on Scoot, pre-buy the bag at booking; paying at the Changi desk is the expensive way.<sup class="fnref">2</sup></p>
+      </div>
+      <div class="stat nobreak"><div class="n">22 Jun</div><div class="c">Scoot's Jeddah return — the corridor's first real signal</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. AeroTime, 24 Jun 2026 (Scoot TR796 Jeddah, 22 Jun; SIA Dubai ≥2 Aug; Riyadh 1 Sep; Oman Air 2 Jul; partners resumed). &nbsp;2. Travel &amp; Tour World / Mainly Miles / Changi, 2026 (Pontianak 29 Jun; Lombok 4→10; SIA Hangzhou/W. Sydney; KrisFlyer/baggage notes).</div>
+    <div class="fnbar"><span>The Travel Desk · Departures</span><span>Page 19</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 20 — TRAVEL DESK · DEPARTURES (Japan focus) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Travel Desk</span><span>Departures · Japan Now</span></div>
+  <div class="rule v"></div>
+
+  <div class="kicker gold">Why Japan, Why Now</div>
+  <h1 class="hed sm">The yen is on sale, the routes are filling back in, and the tax clock is ticking</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">If the Gulf is the week's geopolitics, Japan is the weekend's temptation — and the case is mostly arithmetic. With USD/JPY near ¥161.6 and SGD/JPY around ¥125 (the Good Life desk, p11, and the Macro Desk, p15), a Singapore traveller's yen stretches as far as it has since the 1980s.<sup class="fnref">1</sup> The connectivity is recovering to match: <b>Scoot</b> is restoring two links it lost — <b>Okinawa</b> and Labuan Bajo — after Jetstar Asia's exit thinned the board, and the carrier's wider regional push keeps adding secondary-city routes.<sup class="fnref">2</sup></p>
+
+    <p class="body">There's a new place to sleep, too, in an underrated city. <b>OMO7 Yokohama by Hoshino Resorts</b> has opened inside the former Yokohama City Hall — a heritage-meets-neighbourhood hotel that turns one of Japan's most overlooked port cities into a base worth a night or two.<sup class="fnref">3</sup> It's the kind of opening that rewards the traveller going one stop past the obvious — which is precisely the thesis of this weekend's Grand Tour, two pages on.</p>
+
+    <div class="chatter slate nobreak">
+      <div class="lbl">Time-Sensitive · The Tax Switch</div>
+      <p>Japan's tourist tax-free system changes on <b>1 November 2026</b>. Until then, the 10% consumption-tax exemption is applied <i>instantly</i> at checkout (purchases over ¥5,000, passport in hand). After 1 Nov it becomes a refund-on-departure scheme — the same money back, but claimed at the airport instead of saved at the till.<sup class="fnref">1</sup> If shopping is part of the plan — a craft watch, a knife, a camera — the pre-November trip is materially less fuss.</p>
+    </div>
+
+    <p class="body tight">The honest counterweight: a weak yen is precisely why Japan is also more crowded than ever, and "revenge of the secondary city" is becoming its own kind of crowd. The move isn't to chase the discount into the same three cities everyone else is discounting; it's to use the cheap yen to go somewhere the crowds haven't fully found yet — and to go before November, before the tax-free queue moves to the departure hall. Which brings us, at last, to Kanazawa.</p>
+
+    <div class="stat nobreak"><div class="n">1 Nov</div><div class="c">Japan's tax-free system goes refund-based</div></div>
+
+    <div class="chatter teal nobreak">
+      <div class="lbl">Entry Notes</div>
+      <p>Visa-free for Singapore passports (90 days); the Visit Japan Web pre-registration still speeds customs/immigration; a physical JR Pass remains the cleanest way to cover the Shinkansen legs the Grand Tour describes. IC cards (Suica/ICOCA) work nationwide.</p>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. USD/JPY ~¥161.6 (26 Jun 2026); Japan tax-free reform to 1 Nov 2026 (ItiMaker). &nbsp;2. Mainly Miles, 2026 (Scoot restoring Okinawa &amp; Labuan Bajo post-Jetstar Asia exit). &nbsp;3. Spirited Asia, 2026 (OMO7 Yokohama by Hoshino Resorts, former City Hall).</div>
+    <div class="fnbar"><span>The Travel Desk · Departures</span><span>Page 20</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 21 — THE GRAND TOUR · KANAZAWA ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Grand Tour</span><span>Kanazawa, Ishikawa</span></div>
+  <div class="rule v"></div>
+
+  <figure class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kotoji%20Toro%20and%20Nijibashi%20Bridge%20in%20Kenroku%20Garden.JPG?width=1400" alt="The two-legged Kotoji stone lantern and Nijibashi bridge, Kenrokuen, Kanazawa" loading="lazy"></figure><div class="ph-cap">The two-legged Kotoji stone lantern and Nijibashi bridge, Kenrokuen, Kanazawa. Source: Wikimedia Commons — File:Kotoji Toro and Nijibashi Bridge in Kenroku Garden.JPG · CC BY-SA 4.0 · そらみみ (Soramimi).</div>
+<div class="kicker gold">The Grand Tour · No. 33</div>
+  <h1 class="hed">Kanazawa: the Kyoto you get to keep to yourself</h1>
+  <div class="dek">Two and a half hours from Tokyo on the wrong coast, a samurai city kept its gardens, its geisha quarters and its gold leaf intact — and somehow stayed off most itineraries. Go for the calm, the seafood, and the rain.</div>
+
+  <div class="grid g-21">
+    <div>
+      <p class="body dropcap">Every traveller eventually graduates from the Golden Route — Tokyo, Kyoto, Osaka — and starts asking the better question: where is the Kyoto without the crush? The most convincing answer sits on the Sea of Japan side, two and a half hours from Tokyo on the Hokuriku Shinkansen. <b>Kanazawa</b> was the seat of the Maeda lords, the second-wealthiest domain in feudal Japan, and it spent that wealth on culture rather than war. The result survived the centuries — and the bombs of the 1940s — almost whole: a great garden, preserved geisha and samurai districts, a market that still feels like a working town's larder, and a craft tradition that supplies 99% of Japan's gold leaf.<sup class="fnref">1</sup></p>
+
+      <p class="body">Start at <b>Kenrokuen</b>, ranked among Japan's three great gardens. Its name means "the garden of six attributes" — spaciousness, seclusion, artifice, antiquity, water, and a commanding view — the six qualities a classical Chinese text said could never coexist, here arranged so they do.<sup class="fnref">1</sup> Its emblem is the two-legged <i>Kotoji</i> stone lantern, shaped like the bridge of a koto; in winter the gardeners rig the pines with <i>yukitsuri</i>, conical rope cages that hold the branches against the snow — one of the most photographed images in all of Japan. Then walk the lattice-fronted lanes of <b>Higashi Chaya</b>, the largest of the city's geisha quarters and, with Kyoto's Gion and Kanazawa's own Kazue-machi, one of only three such districts designated a national Cultural Asset.<sup class="fnref">2</sup></p>
+
+      <p class="body">Then let the city slow you down. <b>Nagamachi</b> is the samurai quarter — earthen walls, narrow lanes, the texture of old Kanazawa with no single headline attraction and all the better for it; it's the place to put the phone away and just walk. <b>Omicho Market</b>, 200-plus stalls of Sea-of-Japan seafood, is the city's briny heart — less "local" than it was, the regulars admit, but still worlds better than the tourist-trap markets of Kyoto, Tokyo and Osaka.<sup class="fnref">2</sup> And for a change of register, two museums sit at opposite poles: the <b>21st Century Museum of Contemporary Art</b>, with Leandro Erlich's optical-illusion swimming pool (a child can stand "underwater" and wave up at you), and the <b>D.T. Suzuki Museum</b>, a spare, water-mirrored building built for sitting still and thinking about Zen. Spectacle and silence, ten minutes apart.</p>
+
+      <p class="pull" style="border-top:2pt solid var(--vermilion);border-bottom:.6pt solid var(--line);font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:14pt;line-height:1.2;padding:8px 0;margin:8px 0;">A city that spent its fortune on gardens and gold leaf, and kept the receipts.</p>
+    </div>
+
+    <div>
+      <div class="figframe nobreak" style="margin-top:0;">
+        <svg class="deck-art" viewBox="0 0 230 168" xmlns="http://www.w3.org/2000/svg">
+          <rect width="230" height="168" fill="#fbf8f1"/>
+          <text x="12" y="17" font-family="Poppins" font-size="8.2" font-weight="700" fill="#2f4858">GETTING THERE (ex-SIN)</text>
+          <line x1="12" y1="24" x2="218" y2="24" stroke="#d8cfbd"/>
+          <g font-family="Poppins" font-size="7">
+            <text x="12" y="42" fill="#403a32" font-weight="700">Via Tokyo</text>
+            <text x="12" y="54" fill="#7a7264">SIN ✈ HND/NRT, then</text>
+            <text x="12" y="65" fill="#7a7264">Hokuriku Shinkansen ~2h30</text>
+            <text x="12" y="88" fill="#403a32" font-weight="700">Via Osaka/Kyoto</text>
+            <text x="12" y="100" fill="#7a7264">SIN ✈ KIX, Thunderbird to</text>
+            <text x="12" y="111" fill="#7a7264">Tsuruga, change to Shinkansen</text>
+            <text x="12" y="122" fill="#7a7264">(~2h15–2h30 total)</text>
+            <text x="12" y="145" fill="#2b6b66" font-weight="700">JR Pass covers both legs.</text>
+            <text x="12" y="158" fill="#7a7264">No direct SIN–Komatsu flight.</text>
+          </g>
+        </svg>
+        <div class="imgcap">Source: Japan Specialty Traveler / ItiMaker, 2026.</div>
+      </div>
+
+      <div class="chatter gold nobreak">
+        <div class="lbl">The Gold-Leaf Connection</div>
+        <p>Kanazawa makes <b>99%</b> of Japan's gold leaf — the same craft on the Knot watch dials in the Good Life desk (p11). Press a sheet yourself in a Higashi Chaya workshop (¥500–1,200), or just order the gold-leaf soft serve and feel slightly ridiculous. Both count.<sup class="fnref">2</sup></p>
+      </div>
+      <div class="stat nobreak"><div class="n">99%</div><div class="c">of Japan's gold leaf, made here</div></div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. VISIT KANAZAWA official guide; Japanese Taste, 2026 (Maeda/Kaga domain; Kenrokuen "six attributes," Kotoji lantern, yukitsuri; gold leaf 99%). &nbsp;2. Bon Traveler / Maddy's Avenue / Japan Specialty Traveler, 2026 (Higashi Chaya; Cultural Asset w/ Gion &amp; Kazue-machi; gold-leaf workshops).</div>
+    <div class="fnbar"><span>The Grand Tour</span><span>Page 21</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 22 — THE GRAND TOUR · KANAZAWA (continued) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Grand Tour</span><span>Kanazawa · When &amp; How</span></div>
+  <div class="rule v"></div>
+
+  <figure class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Higashi%20Chaya%20district%2C%20Kanazawa%20%283810720612%29.jpg?width=1400" alt="The lattice-fronted teahouse lanes of the Higashi Chaya district, Kanazawa" loading="lazy"></figure><div class="ph-cap">The lattice-fronted teahouse lanes of the Higashi Chaya district, Kanazawa. Source: Wikimedia Commons — File:Higashi Chaya district, Kanazawa (3810720612).jpg · CC BY 2.0 · Andrea Schaffer.</div>
+<div class="kicker gold">Planning It Honestly</div>
+  <h1 class="hed sm">When to go, where to sleep, and what the forums actually say</h1>
+
+  <div class="grid g-12">
+    <div>
+      <p class="body"><b>When.</b> Two windows reward you. <b>Autumn</b> (late October to mid-November) gives Kyoto-grade foliage with a fraction of the crowds — Kenrokuen, Nagamachi and Oyama Shrine all turn. <b>Winter</b> (December–February) is the foodie's secret: snow crab and yellowtail at their peak, the <i>yukitsuri</i> ropes lit at night, and hotel rates 20–40% lower.<sup class="fnref">1</sup> Spring sakura runs about a week behind Kyoto's — so you can catch blossoms there, then ride the Thunderbird and catch them again here. One local proverb governs all seasons: <i>"You can forget your lunch, but never your umbrella."</i> It rains. Pack for it.</p>
+
+      <p class="body tight"><b>Where to base.</b> Three good options, all on the ¥800 Loop Bus: the <b>Station</b> area (most convenient, under that extraordinary Tsuzumi-mon gate); <b>Korinbo–Katamachi</b> (central, best for dining and nightlife); or a <b>machiya</b> townhouse in Higashi Chaya itself, for atmosphere over convenience.<sup class="fnref">1</sup> The city is small and genuinely walkable — Kenrokuen to Higashi Chaya to Omicho Market is a comfortable half-day on foot, which after Tokyo feels like a holiday from the holiday.</p>
+
+      <div class="chatter gold nobreak">
+        <div class="lbl">Beyond The City</div>
+        <p>Day trips stack up: <b>Shirakawa-go</b>'s thatched gassho-zukuri villages (direct bus ~1h15 from the East Gate), the quieter <b>Gokayama</b>, the castle town of <b>Takayama</b>, and Toyama just 20 minutes on by Shinkansen. A rail pass makes these effortless; without one, think twice.<sup class="fnref">2</sup></p>
+      </div>
+    </div>
+
+    <div>
+      <div class="chatter nobreak" style="margin-top:0;">
+        <div class="lbl">What The Forums Actually Say</div>
+        <p>The veterans split, usefully. One camp: <i>"One full day is enough"</i> for the core sights. The other, just as firm: <i>"Two nights and a half-day each side wasn't enough — one of my favourite places in Japan."</i> The tie-breaker is what you're there for: gardens, geisha, samurai and seafood reward a slower stay; a checklist doesn't.<sup class="fnref">2</sup></p>
+        <p>One thing they agree on: <b>don't day-trip it from Tokyo without a rail pass</b> — it's too dear for the time, and the Shinkansen back isn't frequent. And Omicho Market, while "not so local anymore," still beats the tourist-trap markets of Kyoto, Tokyo and Osaka by a wide margin.<sup class="fnref">2</sup></p>
+      </div>
+
+      <div class="chatter slate nobreak">
+        <div class="lbl">An Honest Note On Noto</div>
+        <p>If the Noto Peninsula tempts you north, go with eyes open. The M7.6 quake of 1 January 2024 killed more than 500 people; two years on, most major sites and roads have reopened, but roughly <b>half the onsen inns remain closed</b>, and Wajima's famous morning market now runs from a relocated plaza with ~30–35 stalls.<sup class="fnref">3</sup> Locals frame visiting as "hope tourism" — your spending helps. Kanazawa city itself escaped major damage. Go to support, not to gawk, and check what's open first.</p>
+      </div>
+      <div class="stat nobreak"><div class="n">¥800</div><div class="c">Loop Bus day pass — the whole city</div></div>
+    </div>
+  </div>
+
+  <p class="body tight" style="margin-top:2px;">National Geographic put Kanazawa on its "Best of the World" list; Condé Nast called it a bright idea. Both are right, and both slightly miss the point. The reason to come isn't a ranking — it's that this is a city built, four centuries ago, to stage beauty at human scale: a garden that makes you feel small in a few hectares, a teahouse lane that slows your walk, a market that rewards attention over speed. It is, in other words, this whole issue's argument with a train station attached. Bring the small camera (p9), the soft yen (p11), and the eleven-year-old (p13).</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;1. ItiMaker / Japan Highlights / Maddy's Avenue, 2026 (seasons; rates; base areas; Loop Bus ¥800; umbrella proverb). &nbsp;2. Tripadvisor Kanazawa &amp; Japan forums; Japanese Taste, 2026 (one-day vs longer; rail-pass caveat; Omicho; day trips). &nbsp;3. Japan-Guide / Travel&amp;TourWorld / Adventure.com, 2026 (Noto M7.6, 1 Jan 2024, 500+ deaths; ~half onsen inns closed; Wajima market relocated; "hope tourism").</div>
+    <div class="fnbar"><span>The Grand Tour</span><span>Page 22</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 23 — THE DIARY ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>What's Worth Booking · Singapore</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Diary · Singapore</div>
+  <h1 class="hed sm">A festival's last weekend, a marquee on sale, and a table or two</h1>
+
+  <div class="grid g-12-narrow">
+    <div>
+      <div class="agenda-h">This Weekend &amp; Soon <span class="sub">SG</span></div>
+      <div class="evt"><div class="evt-date rng">5–28<span class="mo">JUN</span></div><div><div class="evt-name">GastroBeats 2026 — final weekend</div><div class="evt-meta">Bayfront Event Space · free · pet &amp; family · 40+ vendors · ends Sun, with i Light's Festival Village</div></div></div>
+      <div class="evt"><div class="evt-date rng">to 28<span class="mo">JUN</span></div><div><div class="evt-name">i Light Singapore</div><div class="evt-meta">Marina Bay · light-art trail · closes this Sunday</div></div></div>
+      <div class="evt"><div class="evt-date star">★<span class="mo">OCT</span></div><div><div class="evt-name"><span class="st">★</span> BIGBANG · "20/26" World Tour</div><div class="evt-meta">National Stadium · 17 Oct · NA/EU GA on sale 26 Jun · SG/Asia on-sale still pending — register interest at b.stage</div></div></div>
+      <div class="evt"><div class="evt-date">9<span class="mo">AUG</span></div><div><div class="evt-name">NDP 2026 — 61st birthday</div><div class="evt-meta">National Stadium (42k) · 300+ drone show · no Red Lions/mobile column/aerial this year · no heartland shows</div></div></div>
+      <div class="evt"><div class="evt-date rng">to 13<span class="mo">SEP</span></div><div><div class="evt-name">Minecraft Experience: Villager Rescue</div><div class="evt-meta">Mandai Wildlife Reserve · Asia debut · 8 rooms · for kids &amp; the young-at-heart</div></div></div>
+    </div>
+
+    <div>
+      <div class="chatter nobreak" style="margin-top:0;">
+        <div class="lbl">The Table · New Openings</div>
+        <p><span class="src">Jellyfish, by Bjorn Shen</span> (New Bahru). A 10-seat counter of deliberately un-traditional sushi — bread sushi, risotto sushi, sea urchin with scrambled egg on charred bread; up to 12 courses, ~$165, menu rotates every few months. The chef's gamble: exciting and polarising by design. <i>Too new to call</i> — but the most interesting reservation on this list.<sup class="fnref">1</sup></p>
+        <p><span class="src">People People Brewing Co.</span> (Sentosa). Dave Pynt (Burnt Ends) and Loh Lik Peng on house-brewed beer and wood-fired sharing plates — miso beef short-rib pizza, salt-and-pepper squid. A weekend hang with a pedigree. <i>Too new to call.</i><sup class="fnref">1</sup></p>
+        <p><span class="src">Souper Tang 汤师父</span> (Raffles City). A popular Malaysian herbal-soup chain's SG debut — comfort and value, the antidote to the two above.<sup class="fnref">1</sup></p>
+      </div>
+
+      <div class="chatter teal nobreak">
+        <div class="lbl">Now Reviewed</div>
+        <p><span class="src">Smash Street</span> (Carpenter St), the Scarpetta team's standing burger bar (opened 3 Apr), is in — Black Angus brisket/chuck/short-rib blend smashed for crisp edges, classic from $14; <i>Time Out</i>-approved. The "too new to call" pick from earlier in the year, called.<sup class="fnref">2</sup></p>
+      </div>
+      <div class="mini" style="margin-top:6px;color:var(--muted);font-size:6.4pt;letter-spacing:.04em;">The Table honesty rule: we say "too new to call" rather than invent praise — and we don't relist a venue we've retired.</div>
+    </div>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Her World / Sassymama / Spirited Asia, Jun 2026 (GastroBeats 5–28 Jun; i Light to 28 Jun; NDP 9 Aug; Minecraft to 13 Sep); BIGBANG "20/26" (Nat. Stadium 17 Oct; SG on-sale pending). &nbsp;1. Ordinary Patrons / DanielFoodDiary, Jun 2026 (Jellyfish; PPBc; Souper Tang). &nbsp;2. Time Out / Tatler, Jun 2026 (Smash Street, opened 3 Apr).</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 23</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 24 — THE DIARY (Japan / Region) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>Japan &amp; The Region</span></div>
+  <div class="rule"></div>
+
+  <figure class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fuji%20from%20Lake%20Kawaguchi%20%282015-10-26%29.jpg?width=1400" alt="Mt Fuji, whose climbing season opens 1 July, from Lake Kawaguchi" loading="lazy"></figure><div class="ph-cap">Mt Fuji, whose climbing season opens 1 July, from Lake Kawaguchi. <b>Representative.</b> Source: Wikimedia Commons — File:Mount Fuji from Lake Kawaguchi (2015-10-26).jpg · CC BY-SA 4.0 · Alpsdake.</div>
+<div class="kicker gold">The Diary · Japan &amp; Region</div>
+  <h1 class="hed sm">A summer of matsuri — if the soft yen is pulling you north</h1>
+
+  <div class="grid g-12-narrow">
+    <div>
+      <div class="agenda-h gold">July in Japan <span class="sub">festival season</span></div>
+      <div class="evt"><div class="evt-date">1<span class="mo">JUL</span></div><div><div class="evt-name">Mt Fuji climbing season opens</div><div class="evt-meta">Yoshida trail · reservations &amp; toll in force</div></div></div>
+      <div class="evt"><div class="evt-date rng">1–15<span class="mo">JUL</span></div><div><div class="evt-name">Hakata Gion Yamakasa</div><div class="evt-meta">Fukuoka · racing one-tonne floats · climax 15 Jul dawn</div></div></div>
+      <div class="evt"><div class="evt-date">7<span class="mo">JUL</span></div><div><div class="evt-name">Tanabata — the star festival</div><div class="evt-meta">nationwide · wishes on bamboo · fittingly cosmic</div></div></div>
+      <div class="evt"><div class="evt-date">17<span class="mo">JUL</span></div><div><div class="evt-name">Gion Matsuri · Yamaboko Junko</div><div class="evt-meta">Kyoto · the great float procession (and again 24 Jul)</div></div></div>
+      <div class="evt"><div class="evt-date rng">24–25<span class="mo">JUL</span></div><div><div class="evt-name">Tenjin Matsuri</div><div class="evt-meta">Osaka · river processions &amp; fireworks</div></div></div>
+      <div class="evt"><div class="evt-date rng">24–26<span class="mo">JUL</span></div><div><div class="evt-name">Fuji Rock Festival</div><div class="evt-meta">Naeba · the mountains' music weekend</div></div></div>
+    </div>
+
+    <div>
+      <div class="agenda-h slate">Late July &amp; The Region <span class="sub">more</span></div>
+      <div class="evt"><div class="evt-date rng">late<span class="mo">JUL</span></div><div><div class="evt-name">Sumida River Fireworks</div><div class="evt-meta">Tokyo · ~20,000 shells · the classic hanabi</div></div></div>
+      <div class="evt"><div class="evt-date rng">JUL<span class="mo">2026</span></div><div><div class="evt-name">Nagoya Grand Sumo Basho</div><div class="evt-meta">IG Arena · the July honbasho</div></div></div>
+      <div class="evt"><div class="evt-date rng">11–13<span class="mo">JUL</span></div><div><div class="evt-name">Naadam Festival</div><div class="evt-meta">Mongolia · wrestling, archery, horse-racing · the steppe's games</div></div></div>
+
+      <div class="chatter gold nobreak">
+        <div class="lbl">A Note On Timing</div>
+        <p>The matsuri are the argument <i>against</i> the Grand Tour's calm in July — Kyoto in Gion season is glorious and packed. The reconciliation: base in Kanazawa, day-trip the festivals, sleep where the crowds aren't. Or save Kanazawa itself for the quiet autumn-foliage window the Travel Desk recommends (p22) and do July purely for the festivals.</p>
+      </div>
+
+      <div class="chatter teal nobreak">
+        <div class="lbl">Where To Stay, New</div>
+        <p>OMO7 Yokohama by Hoshino Resorts (p20) opens a heritage base in an underrated port city — the kind of one-stop-past-the-obvious move this issue keeps recommending.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="body tight" style="margin-top:2px;">We hand off cleanly from the Travel Desk here rather than re-survey Kanazawa — the city had its two pages (p21–22); the Diary's job is the calendar. The through-line, if you want one, is Tanabata on 7 July: a festival of wishes written on paper and tied to bamboo, timed to the one night the celestial lovers Orihime and Hikoboshi — the stars Vega and Altair — are said to cross the Milky Way. A whole country looking up and writing down a hope. The Curiosities desk would approve; so, on the next page, would the Long Read.</p>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES</b> &nbsp;Japan festival calendar 2026 (Mt Fuji opening 1 Jul; Hakata Gion Yamakasa 1–15 Jul; Tanabata 7 Jul; Gion 17 &amp; 24 Jul; Tenjin 24–25 Jul; Fuji Rock 24–26 Jul; Sumida late Jul; Nagoya basho Jul); Naadam (Mongolia) 11–13 Jul — carried from regional listings.</div>
+    <div class="fnbar"><span>The Diary</span><span>Page 24</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 25 — THE LONG READ (1 of 3) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>Essay · 1 of 3</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker">The Long Read</div>
+  <h1 class="hed">The Small Self</h1>
+  <div class="dek">On awe, the uses of feeling tiny, and a quiet rebellion against the machinery that wants you to feel enormous.</div>
+
+  <div class="cols2" style="margin-top:8px;">
+    <p class="body dropcap">There is a particular kind of relief that has no good name in English. It arrives when you stand at the foot of something vast — a mountain, a cathedral, a clear night sky far from any city — and feel yourself, pleasantly, shrink. The petty griefs of the week lose their grip. Time seems to slow and widen. You become, for a moment, a small thing in a large world, and instead of frightening you, it steadies you. Every culture has noticed this. Ours has nearly automated it away. This essay is about the emotion the psychologists now call awe, the long tradition of thinkers who took it seriously, and the strange fact that a feeling defined by smallness might be the most useful thing a self can do.</p>
+
+    <p class="body">The modern science begins, as the Love &amp; Life desk noted earlier (p17), with a definition. In 2003 two psychologists, Dacher Keltner and Jonathan Haidt, proposed that awe is the emotion you feel in the presence of <i>perceived vastness that exceeds your existing mental structures</i> — something so big that your mind has to accommodate, to rebuild itself slightly, to fit the new fact in.<sup class="fnref">1</sup> Two ingredients, then: vastness, and the need to update. A skyscraper is large but not awesome; you already have a category for it. A galaxy ploughing a 1.8-million-light-year wake through intergalactic space, found by a student on a Himalayan hillside (p16), is large in a way your categories cannot hold — and so it produces the goosebumps, the dropped jaw, the involuntary <i>oh</i>.</p>
+
+    <p class="body">What the research then found is that this small, ancient feeling has outsized effects. Awe diminishes the sense of self-importance — Paul Piff's studies call it the "small self" — and that diminishment makes people measurably more generous, more ethical, more patient, more connected to those around them.<sup class="fnref">2</sup> It expands the felt experience of time, so that an awestruck afternoon seems longer and more spacious than a busy one. Neuroscience offers a mechanism: awe quiets the brain's default-mode network, the circuitry of self-referential thought, the part that narrates your worries back to you on a loop. For a moment, the narrator goes quiet. The self gets smaller, and the world gets larger, and the trade is overwhelmingly in your favour.</p>
+
+    <p class="body">There is even an effect on the most modern of scarcities: time. In a set of experiments, Melanie Rudd and colleagues found that awe makes the present moment feel more abundant — people who had just felt it reported having more time available, were more willing to volunteer it to others, and judged their lives more satisfying.<sup class="fnref">3</sup> The feeling, in other words, does the opposite of the rushed Saturday it interrupts: it slows the clock down and loosens the grip of the to-do list. And the "small self" appears to be close to universal — researchers have documented it from California to Beijing, with cultural variations in how the diminishment is felt but a common core: in the presence of vastness, the loud, defended, comparing self goes quiet, and something more connected takes its place.<sup class="fnref">3</sup></p>
+
+    <p class="body">None of this would have surprised the philosophers. The feeling we now measure with questionnaires and fMRI was, for centuries, the central concern of an entire aesthetic tradition — the tradition of the <i>sublime</i>. And to understand why feeling small is good for you, it helps to go back to the people who first tried to explain why we seek out the very things that make us feel that way.</p>
+
+    <div class="pull">A feeling defined by smallness may be the most useful thing a self can do.</div>
+
+    <p class="body tight">That tradition runs from a young Irishman's first book, through a German philosopher's tombstone, to a photograph taken six billion kilometres from Earth — and it arrives, eventually, at a Japanese garden engineered to make infinity fit inside a few hectares. It is, in its way, the most practical lineage in the history of ideas: a 250-year argument that the cure for taking yourself too seriously is to go and stand near something that doesn't.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES &amp; NOTES</b> &nbsp;1. Keltner &amp; Haidt, "Approaching awe, a moral, spiritual, and aesthetic emotion," <i>Cognition &amp; Emotion</i> (2003). &nbsp;2. Piff et al., <i>JPSP</i> (2015); Keltner, <i>Awe: The New Science of Everyday Wonder</i> (2023). &nbsp;3. Rudd, Vohs &amp; Aaker, "Awe expands people's perception of time," <i>Psychological Science</i> (2012); Bai et al., "Awe, the diminished self," <i>JPSP</i> (2017). Continues overleaf.</div>
+    <div class="fnbar"><span>The Long Read · The Small Self</span><span>Page 25</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 26 — THE LONG READ (2 of 3) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>Essay · 2 of 3</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker slate">II · The Sublime</div>
+  <h1 class="hed sm">Burke's terror, Kant's tombstone, and the man with his back to us</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">In 1757 a young Edmund Burke — better known later as a statesman — published <i>A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful</i>. Its central move was to split apart two things we tend to lump together. The <i>beautiful</i>, Burke argued, is what we love — the small, the smooth, the harmonious, the safely pleasing. The <i>sublime</i> is something else entirely: the vast, the obscure, the powerful, the things that brush against terror. A still lake is beautiful; the ocean in a storm is sublime. And crucially, Burke insisted, we are drawn to the sublime precisely <i>because</i> it overwhelms us — provided we are safe enough to feel the overwhelming as awe rather than fear. Vastness, viewed from a place of safety, becomes a pleasure of a deeper kind than mere prettiness.<sup class="fnref">1</sup></p>
+
+    <p class="body">A generation later, Immanuel Kant gave the idea its most enduring sentence — the one this issue borrowed for its epigraph (p2). At the close of his <i>Critique of Practical Reason</i> (1788) he wrote that two things filled him with "ever new and increasing admiration and awe": the starry heavens above, and the moral law within.<sup class="fnref">2</sup> The pairing is the whole point. For Kant, the sublime was not really <i>out there</i> in the storm or the stars; it was the mind's own response to its smallness before them, and the surprising discovery, in that smallness, of its own dignity. To stand under the night sky and feel tiny was, paradoxically, to be reminded that you are the kind of creature who can comprehend that sky at all. He had the sentence carved on his tombstone in Königsberg. It is, as far as last words go, an argument that feeling small and feeling significant are not opposites but partners.</p>
+
+    <p class="body">The Romantics painted it. Around 1818 Caspar David Friedrich finished <i>Wanderer above the Sea of Fog</i> — a lone figure, seen from behind, standing on a dark crag above a churning ocean of cloud, the peaks rising beyond. We never see his face; we are placed <i>with</i> him, looking out. It is the most famous image of the sublime ever made, and it works because of its arithmetic: one small human, an immensity of world, and the strange exaltation of being the former in the presence of the latter.<sup class="fnref">3</sup> Friedrich's wanderer is doing, in oil, exactly what Piff's subjects did in a grove of eucalyptus and what a UCSF study's pensioners did on their awe walks (p17) — standing before vastness and being remade, briefly, smaller and better.</p>
+
+    <div class="pull">To feel tiny under the stars is to remember you are the creature who can comprehend them.</div>
+
+    <p class="body tight">For most of human history, the sublime was rare and required a journey — a mountain pass, a cathedral, an ocean crossing. You had to go to it. What changed everything was a camera carried further from home than anything humans had ever sent, and a scientist who understood that the most overwhelming vastness of all might be the view back toward ourselves.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES &amp; NOTES</b> &nbsp;1. Edmund Burke, <i>A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful</i> (1757). &nbsp;2. Kant, <i>Critique of Practical Reason</i> (1788), conclusion. &nbsp;3. Caspar David Friedrich, <i>Wanderer above the Sea of Fog</i> (c. 1818), Kunsthalle Hamburg. Continues overleaf.</div>
+    <div class="fnbar"><span>The Long Read · The Small Self</span><span>Page 26</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 27 — THE LONG READ (3 of 3) ============ -->
+<section class="page">
+  <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>Essay · 3 of 3</span></div>
+  <div class="rule"></div>
+
+  <div class="kicker gold">III · The Mote &amp; The Garden</div>
+  <h1 class="hed sm">A pale blue dot, an overview, and a garden that fakes the infinite</h1>
+
+  <div class="cols2" style="margin-top:6px;">
+    <p class="body dropcap">On 14 February 1990, at Carl Sagan's urging, the Voyager 1 spacecraft turned its camera back toward home from beyond Neptune and photographed the Earth as a single pale blue pixel, suspended in a band of scattered sunlight. Sagan's words about that image have outlived almost everything else written in the era: that everyone you love, everyone who ever was, every triumph and atrocity of history, lived out their lives on "a mote of dust suspended in a sunbeam."<sup class="fnref">1</sup> It is the sublime inverted — not a vastness we look up at, but a smallness we are forced to look down upon. And its effect is identical to Friedrich's wanderer and Kant's starry sky: it shrinks the self, widens the perspective, and makes the ordinary cruelties of the species look as small as they actually are.</p>
+
+    <p class="body">The astronauts gave the experience a name. Frank White, interviewing those who had seen Earth whole from space, called it the <b>Overview Effect</b>: a reliable cognitive shift in which the planet's borders vanish, its fragility becomes viscerally obvious, and the observer returns changed — more protective, less tribal, permanently re-scaled.<sup class="fnref">2</sup> It is awe delivered at the maximum dose, and it is the reason a 300-megapixel telescope shipping for an August launch (p16) is not merely an instrument but a kind of civic medicine: every deep-field image is an invitation to the small self, mass-produced.</p>
+
+    <p class="body">But here is the quiet twist, and the reason this issue's Grand Tour went to a garden town. You do not need a spacecraft. Four centuries ago, Japanese garden masters worked out how to manufacture the sublime at human scale — to make a few hectares feel infinite. The technique called <i>shakkei</i>, "borrowed scenery," pulls a distant mountain into a garden's composition so that the bounded space seems to extend forever. The aesthetic of <i>yūgen</i> — a profound, dimly-felt grace, more suggested than shown — does in a raked courtyard what the Overview Effect does from orbit. Kenrokuen, which the Travel Desk walked you through (p21), is precisely this: an engineered vastness, a designed awe, proof that the small self can be summoned in a garden as surely as under the stars.<sup class="fnref">3</sup></p>
+
+    <div class="pull">The feed wants you enormous. The garden, the sky, and the sea want you small. Trust the older technology.</div>
+
+    <p class="body tight">Which leaves the rebellion. We have built, in the feed, the most powerful self-magnifying machine in history — an apparatus whose entire business model is to keep <i>you</i> at the centre of the frame, aggrieved, comparing, enormous. Awe is its precise opposite, and its cheapest antidote. It asks nothing but attention and something large to point it at: a night sky, a coastline, a garden, a stranger being unexpectedly good (Keltner's data says human goodness is the most common everyday source of all<sup class="fnref">4</sup>). John Muir said he only went out for a walk and concluded to stay out till sundown, "for going out, I found, was really going in" (No. 27). Lao Tzu prized the emptiness that makes a vessel useful (No. 22). Annie Dillard reminded us that how we spend our days is how we spend our lives (No. 21). They were all describing the same manoeuvre. This weekend, perform it. Find something vast. Let it make you small. It is free, it is good for you, and it is the oldest technology we have for being briefly, gratefully, sane.</p>
+  </div>
+
+  <div class="pgfoot">
+    <div class="fn"><b>SOURCES &amp; NOTES</b> &nbsp;1. Carl Sagan, <i>Pale Blue Dot</i> (1994); Voyager 1 image, 14 Feb 1990. &nbsp;2. Frank White, <i>The Overview Effect</i> (1987). &nbsp;3. On <i>shakkei</i> &amp; <i>yūgen</i>: classical Japanese garden aesthetics; Kenrokuen (p21). &nbsp;4. Keltner, <i>Awe</i> (2023); callbacks: Muir (No. 27), Lao Tzu (No. 22), Dillard (No. 21).</div>
+    <div class="fnbar"><span>The Long Read · The Small Self</span><span>Page 27</span></div>
+  </div>
+</section>
+
+<!-- ============ PAGE 28 — BACK COVER ============ -->
+<section class="page dark">
+  <div class="topbar"><span></span><span>No. 33 · The Weekend Edition</span></div>
+
+  <div style="position:absolute;top:40mm;left:18mm;right:18mm;">
+    <div class="eyebrow" style="text-align:left;color:#b08738;">The Last Word</div>
+    <div style="font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:19pt;line-height:1.34;color:var(--paper);margin-top:8px;">
+      Go out this weekend and find something larger than your own week — a garden, a coastline, the sky, a stranger being good — and let it make you small for a minute.
+    </div>
+    <div style="font-family:'Poppins',sans-serif;font-size:8.5pt;letter-spacing:.16em;color:#cdbf9a;text-transform:uppercase;margin-top:14px;">It is free, it is good for you, and it is the oldest medicine we have.</div>
+  </div>
+
+  <div style="position:absolute;top:138mm;left:18mm;right:18mm;">
+    <div class="hairline" style="background:#3a342c;"></div>
+    <div style="font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;color:#8a8068;margin:8px 0 6px;">This Issue Was Built From</div>
+    <div style="font-family:'Poppins',sans-serif;font-size:6.6pt;line-height:1.62;color:#9a907c;">
+      IAEA / Times of Israel / Al Jazeera / NPR / CBS News (Iran inspections) · AeroTime / Changi Air Hub (Scoot Jeddah, SIA Gulf routes) · Barchart / Neil Sethi notes (Brent, gold, BTC) · Micron fiscal-Q3 · Ollama / Qwen / Gemma release notes · Home Assistant 2026.7 &amp; Matter 1.6 · TradingEconomics / Investing.com (USD/JPY, DXY, US10Y; May core PCE) · Yahoo Finance / TradingView (STI) · Growbeansprout (SRS / retirement age) · Variety / THR / Deadline (Supergirl) · Muse &amp; The Strokes releases · Universe Today / NASA / Discover (RAD-BAARG, Hubble, Roman) · Gray et al., <i>Behav. Sci.</i> 2025 (risky play) · Keltner &amp; Haidt 2003; Piff et al., <i>JPSP</i> 2015; Sturm et al. (awe) · VISIT KANAZAWA / Japan Specialty Traveler / Tripadvisor forums / Japan-Guide (Kanazawa &amp; Noto) · Burke (1757); Kant (1788); Friedrich (c.1818); Sagan (1990/94); White (1987).
+    </div>
+    <div style="font-family:'Poppins',sans-serif;font-size:6.4pt;line-height:1.5;color:#7a7060;margin-top:7px;">
+      A near-daily digest, independently compiled. Figures and levels were accurate to best available reporting at the Friday 26 June close; markets were shut for the weekend. Family &amp; Fitness items are general guidance, not medical advice; the Macro Desk is education, not investment advice. Where a result was still pending — an opening-weekend gross, a first-week chart, an inspector's visit — we said so rather than guess.
+    </div>
+  </div>
+
+  <div style="position:absolute;bottom:16mm;left:18mm;right:18mm;display:flex;justify-content:space-between;align-items:flex-end;">
+    <div>
+      <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:15pt;letter-spacing:.02em;color:var(--paper);">MERIDIAN</div>
+      <div style="font-family:'Lora',serif;font-style:italic;font-size:9.5pt;color:#cdbf9a;">Twelve desks. One world.</div>
+    </div>
+    <div style="text-align:right;font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;color:#8a8068;text-transform:uppercase;">
+      No. 33 · Saturday 27 June 2026<br>The Weekend Edition · Singapore
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

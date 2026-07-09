@@ -36,6 +36,11 @@ img_path = root / "state" / "images.json"
 if img_path.exists():
     images = json.loads(img_path.read_text())
 
+manifest = {}
+man_path = root / "archive" / "manifest.json"
+if man_path.exists():
+    manifest = json.loads(man_path.read_text())
+
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
          '<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">')
@@ -152,6 +157,37 @@ SCREEN_CSS = """
   :root[data-theme="night"] .figframe{ background:#f4efe4; }        /* light card for SVGs */
   :root[data-theme="night"] .figframe .imgcap{ color:#6d6556; }
   :root[data-theme="night"] .rule{ background:var(--ink); }
+
+  /* ---- Archive overlay + search ---- */
+  .march-overlay{ position:fixed; inset:0; z-index:200; background:rgba(20,17,13,.55);
+    display:flex; justify-content:center; align-items:flex-start; padding:5vh 4vw; }
+  .march-overlay[hidden]{ display:none; }
+  .march-panel{ background:var(--paper); color:var(--ink); width:min(760px,100%);
+    max-height:90vh; display:flex; flex-direction:column; border-radius:4px;
+    box-shadow:0 12px 54px rgba(0,0,0,.5); border-top:4px solid var(--vermilion); }
+  .march-head{ display:flex; align-items:baseline; gap:10px; padding:14px 18px 8px; }
+  .march-head h2{ font-family:'Poppins',sans-serif; font-size:11pt; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--ink); margin:0; }
+  .march-head .marchct{ font-family:'Poppins',sans-serif; font-size:8pt; color:var(--muted); }
+  .march-close{ margin-left:auto; background:none; border:none; font-size:17pt; cursor:pointer;
+    color:var(--muted); line-height:1; padding:0 4px; }
+  .march-close:hover{ color:var(--vermilion); }
+  .march-search{ margin:0 18px 8px; padding:9px 12px; font-family:'Poppins',sans-serif;
+    font-size:10pt; border:1px solid var(--line); border-radius:3px; background:var(--paper2); color:var(--ink); }
+  .march-list{ overflow-y:auto; padding:2px 12px 14px; }
+  .marchi{ padding:9px 6px; border-bottom:1px solid var(--line); }
+  .marchi:hover{ background:var(--paper2); }
+  .marchi .no{ font-family:'Poppins',sans-serif; font-weight:700; font-size:8pt; letter-spacing:.08em; color:var(--vermilion); }
+  .marchi .no .mode{ color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.1em; }
+  .marchi .ti{ font-family:'Lora',serif; font-weight:700; font-size:12.5pt; line-height:1.1; margin:1px 0; }
+  .marchi .sp{ font-family:'Lora',serif; font-style:italic; font-size:9.5pt; color:var(--ink2); }
+  .marchi .acts{ margin-top:4px; }
+  .marchi .acts a{ font-family:'Poppins',sans-serif; font-size:7.5pt; font-weight:600; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--paper); background:var(--ink); padding:2px 9px; border-radius:9px; text-decoration:none; margin-right:5px; }
+  .marchi .acts a.pdf{ background:var(--vermilion); }
+  .marchi .acts a:hover{ background:var(--gold); color:var(--ink); }
+  .marchi .acts .na{ font-family:'Poppins',sans-serif; font-size:7pt; color:var(--muted); letter-spacing:.06em; }
+  .march-none{ padding:22px; text-align:center; color:var(--muted); font-family:'Poppins',sans-serif; font-size:9pt; }
 }
 /* keep the print deliverable pristine */
 @media print { .ph-frame, #mprog, .m-chrome{ display:none !important; } }
@@ -169,8 +205,18 @@ CHROME = ('<body>\n'
           '<div class="m-chrome">\n'
           f'  <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
           f'  <nav class="mnav">{nav_links}'
+          '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
+if manifest:
+    CHROME += (
+        '\n<div id="marchive" class="march-overlay" hidden><div class="march-panel">'
+        '<div class="march-head"><h2>The Archive</h2><span class="marchct"></span>'
+        '<button class="march-close" type="button" aria-label="Close">×</button></div>'
+        '<input class="march-search" type="search" placeholder="Search past issues — a topic, a desk, a quote…" aria-label="Search past issues">'
+        '<div class="march-list"></div></div></div>'
+        '\n<script type="application/json" id="marchive-data">'
+        + json.dumps(manifest, ensure_ascii=False) + '</script>')
 html = html.replace('<body>', CHROME, 1)
 
 # ---- 6. photo heroes from images.json (subject-verified / representative) ----
@@ -256,6 +302,42 @@ JS = """
         window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-chromeH()-6, behavior:'smooth'}); }
     });
   });
+
+  // Archive + search overlay (data embedded at build time; works from file://)
+  var mdata=document.getElementById('marchive-data');
+  var march=document.getElementById('march');
+  if(mdata && march){
+    var data=JSON.parse(mdata.textContent);
+    var ov=document.getElementById('marchive');
+    var listEl=ov.querySelector('.march-list');
+    var searchEl=ov.querySelector('.march-search');
+    var ctEl=ov.querySelector('.marchct');
+    function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+    function render(q){
+      q=(q||'').toLowerCase().trim();
+      var items=data.issues.filter(function(it){
+        if(!q) return true;
+        return (it.no+' '+it.date+' '+it.mode+' '+it.spine+' '+it.title+' '+it.quote+' '+it.author+' '+it.text).toLowerCase().indexOf(q)>=0;
+      });
+      ctEl.textContent=items.length+' of '+data.issues.length+' issues';
+      if(!items.length){ listEl.innerHTML='<div class="march-none">No issues match \\u201c'+esc(q)+'\\u201d.</div>'; return; }
+      listEl.innerHTML=items.map(function(it){
+        var acts= it.href ? '<a href="'+it.href+'">'+(it.current?'Read · current':'Read')+'</a>' : '<span class="na">git history only</span>';
+        if(it.pdf) acts+='<a class="pdf" href="'+it.pdf+'" download>PDF</a>';
+        return '<div class="marchi"><div class="no">No. '+it.no+' &middot; '+esc(it.date)+(it.mode?' <span class="mode">&middot; '+esc(it.mode)+'</span>':'')+'</div>'+
+          (it.title?'<div class="ti">'+esc(it.title)+'</div>':'')+
+          (it.spine?'<div class="sp">'+esc(it.spine)+'</div>':'')+
+          '<div class="acts">'+acts+'</div></div>';
+      }).join('');
+    }
+    function openA(){ ov.hidden=false; render(searchEl.value); setTimeout(function(){searchEl.focus();},30); }
+    function closeA(){ ov.hidden=true; }
+    march.addEventListener('click', openA);
+    ov.querySelector('.march-close').addEventListener('click', closeA);
+    ov.addEventListener('click', function(e){ if(e.target===ov) closeA(); });
+    searchEl.addEventListener('input', function(){ render(this.value); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !ov.hidden) closeA(); });
+  }
 
   // Paper / Night reading theme, persisted
   var btn=document.getElementById('mtheme');
