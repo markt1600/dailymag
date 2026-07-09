@@ -158,42 +158,85 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 </style>
 
 <style>
-/* ===== MERIDIAN No.37 — Photo Edition (screen) overrides ===== */
+/* ===== MERIDIAN Photo Edition — screen investment (print untouched) ===== */
 @media screen {
-  html,body { background:#dcd8d0; }
+  html,body { background:#cfcabf; scroll-behavior:smooth; }
+  :root[data-theme="night"] html, :root[data-theme="night"] body { background:#0f0d0a; }
+
+  /* pages flow on screen */
   .page:not(.dark){
     height:auto !important; min-height:297mm; overflow:visible !important;
-    box-shadow:0 2px 22px rgba(0,0,0,.16); margin:9mm auto; background:#fbf8f1;
+    box-shadow:0 3px 26px rgba(0,0,0,.20); margin:9mm auto; background:var(--paper);
+    zoom:var(--pzoom,1);
   }
+  .page.dark{ zoom:var(--pzoom,1); margin:9mm auto; box-shadow:0 3px 26px rgba(0,0,0,.28); }
   .page:not(.dark) .pgfoot{ position:static !important; margin-top:9mm; }
+
+  /* photo heroes */
   .ph-frame{ margin:5mm 0 4mm; width:100%; }
-  .ph-frame img{
-    width:100%; aspect-ratio:16/8; object-fit:cover; display:block;
-    background:#e6e1d6; border-radius:2px;
+  .ph-frame img{ width:100%; aspect-ratio:16/8; object-fit:cover; display:block;
+    background:#e6e1d6; border-radius:2px; }
+  .ph-cred{ font-family:'Poppins',sans-serif; font-size:6.5pt; letter-spacing:.02em;
+    color:var(--muted); margin-top:3px; text-align:right; }
+
+  /* in-issue cross-reference links */
+  a.xref{ color:var(--vermilion); text-decoration:none; border-bottom:1px dotted var(--vermilion); }
+  a.xref:hover{ background:var(--vermilion); color:var(--paper); }
+
+  /* direction arrows are added by JS from the number's actual SIGN (not the
+     colour class, which the edition sometimes uses for sentiment) — honest. */
+  .mchg{ font-size:.72em; }
+
+  /* ---- reading progress ---- */
+  #mprog{ position:fixed; top:0; left:0; height:3px; width:0%; z-index:120;
+    background:linear-gradient(90deg,var(--gold),var(--vermilion)); transition:width .1s linear; }
+
+  /* ---- sticky chrome: download bar + desk nav ---- */
+  .m-chrome{ position:sticky; top:0; z-index:100; }
+  .pdf-dl{ display:block; text-decoration:none; text-align:center;
+    font-family:'Poppins',sans-serif; font-weight:600; font-size:10pt; letter-spacing:.06em;
+    background:var(--vermilion); color:var(--paper); padding:2.6mm 4mm;
+    border-bottom:2px solid var(--gold); }
+  .pdf-dl:hover{ background:var(--vermilion-d); }
+  .mnav{ display:flex; align-items:center; gap:2px; overflow-x:auto; scrollbar-width:thin;
+    background:var(--ink); padding:0 8px; -webkit-overflow-scrolling:touch; }
+  .mnav::-webkit-scrollbar{ height:0; }
+  .mnav-link{ flex:0 0 auto; font-family:'Poppins',sans-serif; font-size:8pt; font-weight:600;
+    letter-spacing:.04em; color:var(--blush); text-decoration:none; padding:6px 9px;
+    border-bottom:2px solid transparent; white-space:nowrap; }
+  .mnav-link:hover{ color:var(--paper); }
+  .mnav-link.active{ color:var(--gold); border-bottom-color:var(--gold); }
+  .m-toggle{ flex:0 0 auto; margin-left:auto; background:none; border:1px solid #4a443a;
+    color:var(--blush); font-family:'Poppins',sans-serif; font-size:8pt; font-weight:600;
+    padding:5px 10px; border-radius:12px; cursor:pointer; white-space:nowrap; }
+  .m-toggle:hover{ color:var(--gold); border-color:var(--gold); }
+
+  /* ---- NIGHT reading theme (token flip; keep figure/photo cards light so the
+     hardcoded-hex SVGs stay legible) ---- */
+  :root[data-theme="night"]{
+    --paper:#17140f; --paper2:#221e17; --ink:#efe9db; --ink2:#d6cdbe;
+    --muted:#918876; --line:#3a342c; --blush:#cdbf8f;
   }
-  .ph-cred{
-    font-family:'Poppins',sans-serif; font-size:6.5pt; letter-spacing:.02em;
-    color:var(--muted,#7a7264); margin-top:3px; text-align:right;
-  }
+  :root[data-theme="night"] .desk{ background:#221e17; }
+  :root[data-theme="night"] .lede-strip{ background:#221e17; }
+  :root[data-theme="night"] .figframe{ background:#f4efe4; }        /* light card for SVGs */
+  :root[data-theme="night"] .figframe .imgcap{ color:#6d6556; }
+  :root[data-theme="night"] .rule{ background:var(--ink); }
 }
-@media print { .ph-frame{ display:none !important; } }
-.pdf-dl{
-  display:block; text-decoration:none; text-align:center;
-  font-family:'Poppins',sans-serif; font-weight:600; font-size:10.5pt; letter-spacing:.08em;
-  background:var(--vermilion,#c1462e); color:var(--paper,#f6f2e9);
-  padding:3.2mm 4mm; border-bottom:2px solid var(--gold,#b08738);
-  max-width:210mm; margin:0 auto;
-}
-.pdf-dl:hover{ background:var(--vermilion-d,#9c3422); }
-@media print { .pdf-dl{ display:none !important; } }
+/* keep the print deliverable pristine */
+@media print { .ph-frame, #mprog, .m-chrome{ display:none !important; } }
 </style>
 
 </head>
 <body>
-<a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. 37 · 9 July 2026</a>
+<div id="mprog"></div>
+<div class="m-chrome">
+  <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. 37 · 9 July 2026</a>
+  <nav class="mnav"><a class="mnav-link" href="#p1" data-target="p1">Cover</a><a class="mnav-link" href="#p2" data-target="p2">Contents</a><a class="mnav-link" href="#p3" data-target="p3">The World</a><a class="mnav-link" href="#p5" data-target="p5">Singapore</a><a class="mnav-link" href="#p6" data-target="p6">Property</a><a class="mnav-link" href="#p7" data-target="p7">Technology</a><a class="mnav-link" href="#p9" data-target="p9">The Kit</a><a class="mnav-link" href="#p10" data-target="p10">The Connected Home</a><a class="mnav-link" href="#p11" data-target="p11">The Good Life</a><a class="mnav-link" href="#p12" data-target="p12">Screen &amp; Sound</a><a class="mnav-link" href="#p13" data-target="p13">The Family Desk</a><a class="mnav-link" href="#p15" data-target="p15">The Macro Desk</a><a class="mnav-link" href="#p16" data-target="p16">Curiosities</a><a class="mnav-link" href="#p17" data-target="p17">Love &amp; Life</a><a class="mnav-link" href="#p18" data-target="p18">Fitness</a><a class="mnav-link" href="#p19" data-target="p19">The Diary</a><a class="mnav-link" href="#p21" data-target="p21">The Long Read</a><a class="mnav-link" href="#p24" data-target="p24">Back</a><button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>
+</div>
 
 <!-- ============ PAGE 1 — COVER ============ -->
-<section class="page dark">
+<section id="p1" class="page dark">
   <div class="topbar"><span></span><span>No. 37 · Singapore</span></div>
   <div class="cover-head">
     <div class="eyebrow">The Current Briefing of</div>
@@ -273,7 +316,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 2 — CONTENTS + FROM THE DESK ============ -->
-<section class="page">
+<section id="p2" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Contents</span><span>No. 37 · Thursday 9 July 2026</span></div>
   <div class="rule"></div>
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin:8px 0 4px;">
@@ -329,7 +372,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
         <tr><td>Gold</td><td>~$4,050</td><td>fell on war news</td></tr>
         <tr><td>BTC</td><td>&lt;$63k</td><td>rejected at $64k</td></tr>
       </table>
-      <div class="cap-note">Dated levels, held honestly; Wednesday's US closes are provisional prints. VWRA's 8 Jul price was unverifiable at press — see Macro, p15. Market data is explanation, not advice.</div>
+      <div class="cap-note">Dated levels, held honestly; Wednesday's US closes are provisional prints. VWRA's 8 Jul price was unverifiable at press — see Macro, <a class="xref" href="#p15">p15</a>. Market data is explanation, not advice.</div>
     </div>
   </div>
 
@@ -339,7 +382,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 3 — THE WORLD (lead) ============ -->
-<section class="page">
+<section id="p3" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>The Meridian Dispatch</span></div>
   <div class="rule"></div>
   <div class="kicker">The World · Iran &amp; the Gulf</div>
@@ -352,7 +395,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 
       <p class="body">On Wednesday, from the NATO summit in Ankara, the President declared the 60-day framework "over," threatened to reinstate the naval blockade, and — most strikingly — to "take over Kharg Island… there's not a thing they could do about it."<sup class="fnref">3</sup> Iran's foreign minister called the strikes "wholly unprovoked"; President Pezeshkian warned that "global order will be shaken." Whether the Doha channel survives was left ambiguous — Mr Trump said it was for the negotiators, then softened: "I don't think it's going to start again."<sup class="fnref">4</sup></p>
 
-      <p class="body">The bitter arithmetic is that the deal was working slowly — which may be why it died. Doha had produced a communication channel and a meeting on releasing $6bn in frozen Iranian funds; Hormuz transits had crawled back to ~34 ships a day by Sunday.<sup class="fnref">5</sup> The market's verdict was instant: Brent jumped 5.2 per cent to $78.02, the war premium priced straight back in (see Macro, p15). And the strikes landed mid-funeral: the rites for Ayatollah Khamenei — assassinated 28 February — end today with burial at Mashhad, while his son and successor Mojtaba, wounded in the same strike, has not appeared once. Iran has crowned a leader its public has neither seen nor heard.<sup class="fnref">6</sup></p>
+      <p class="body">The bitter arithmetic is that the deal was working slowly — which may be why it died. Doha had produced a communication channel and a meeting on releasing $6bn in frozen Iranian funds; Hormuz transits had crawled back to ~34 ships a day by Sunday.<sup class="fnref">5</sup> The market's verdict was instant: Brent jumped 5.2 per cent to $78.02, the war premium priced straight back in (see Macro, <a class="xref" href="#p15">p15</a>). And the strikes landed mid-funeral: the rites for Ayatollah Khamenei — assassinated 28 February — end today with burial at Mashhad, while his son and successor Mojtaba, wounded in the same strike, has not appeared once. Iran has crowned a leader its public has neither seen nor heard.<sup class="fnref">6</sup></p>
     </div>
 
     <div>
@@ -395,7 +438,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 4 — THE WORLD (around the desks) ============ -->
-<section class="page">
+<section id="p4" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The World</span><span>Around the Desks</span></div>
   <div class="rule"></div>
   <div class="kicker slate">The World · The Wider Board</div>
@@ -405,7 +448,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   <div class="cols2">
     <p class="body"><b>The Cup.</b> The round of sixteen ended the hosts' tournament and one of football's oldest certainties. Norway beat Brazil 2–1 on Sunday — Erling Haaland scoring twice in the final eleven minutes for his sixth and seventh goals of the tournament — to reach the first quarter-final in the country's history and hand Brazil its earliest exit since 1990.<sup class="fnref">1</sup> A day later Belgium dismantled the United States 4–1 in Seattle; coach Mauricio Pochettino declined the ready-made excuse: "We were not good enough today."<sup class="fnref">2</sup> Spain edged Portugal 1–0 in Arlington, England survived Mexico 3–2, Morocco swept Canada 3–0, France ground past Paraguay 1–0, Argentina needed a 92nd-minute Enzo Fernández header to see off Egypt 3–2, and Switzerland outlasted Colombia on penalties.</p>
     <p class="body">The last eight: France–Morocco tonight in Foxborough (a 2022 semi-final rematch), Spain–Belgium at SoFi on Friday, and Saturday's double bill of Norway–England in Miami and Argentina–Switzerland in Kansas City.<sup class="fnref">3</sup> Of the eight, only Argentina and Morocco interrupt an otherwise European bracket at an American party — the "other party," as FIFA's president keeps calling it, of the republic's 250th summer.</p>
-    <p class="body"><b>Ankara.</b> All 32 leaders convened at the Beştepe compound for a summit chaired by Mark Rutte and overshadowed by the man running the Iran escalation from its margins (p3). Mr Trump attacked Spain as "a terrible partner in NATO"; Hegseth announced a review of the entire US force posture in Europe, to conclude in "six months or less."<sup class="fnref">4</sup> The communiqué reaffirmed that an attack on one is an attack on all; the corridor conversation was about which one, and whether all still means all.</p>
+    <p class="body"><b>Ankara.</b> All 32 leaders convened at the Beştepe compound for a summit chaired by Mark Rutte and overshadowed by the man running the Iran escalation from its margins (<a class="xref" href="#p3">p3</a>). Mr Trump attacked Spain as "a terrible partner in NATO"; Hegseth announced a review of the entire US force posture in Europe, to conclude in "six months or less."<sup class="fnref">4</sup> The communiqué reaffirmed that an attack on one is an attack on all; the corridor conversation was about which one, and whether all still means all.</p>
     <p class="body"><b>Rehabilitation by instalments.</b> The IOC on Tuesday provisionally restored Russia's Olympic Committee, opening a path to Los Angeles 2028 — flag and anthem still banned, each federation to decide its own terms. Kyiv's foreign ministry called it "a troubling signal for the entire international community" — delivered the same week Russian missile waves killed at least 22 Ukrainians and Ukrainian drones reached 3,000&nbsp;km into Siberia (see In brief).<sup class="fnref">5</sup></p>
     <p class="body"><b>Paris.</b> An appeals court upheld Marine Le Pen's EU-funds embezzlement conviction — three years (two suspended, one at home under electronic monitor) and a €100,000 fine — but trimmed the office ban so she stays eligible for the April 2027 presidential race. She says she will run; a further appeal suspends the ankle tag in the interim. France may get a frontrunner campaigning in an electronic bracelet.<sup class="fnref">6</sup></p>
 
@@ -452,10 +495,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 5 — SINGAPORE ============ -->
-<section class="page">
+<section id="p5" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Singapore</span><span>The Little Red Dot</span></div>
   <div class="rule"></div>
-  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Marina Bay at dusk — representative of the island the Circle Line now loops." loading="lazy"><div class="ph-cred">Marina Bay at dusk — representative of the island the Circle Line now loops. Source: Wikimedia Commons — "File:Singapore Marina Bay Dusk 2018-02-27.jpg" · CC BY-SA 4.0 · Benh Lieu Song. Subject verified from the Commons file page.</div></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Singapore%20Marina%20Bay%20Dusk%202018-02-27.jpg?width=1600" alt="Marina Bay at dusk" loading="lazy"><div class="ph-cred">Marina Bay at dusk — representative of the island the Circle Line now loops. Source: Wikimedia Commons — "File:Singapore Marina Bay Dusk 2018-02-27.jpg" · CC BY-SA 4.0 · Benh Lieu Song. Subject verified from the Commons file page.</div></div>
 
   <div class="kicker">Singapore · Transport &amp; the Cost of Moving</div>
   <div class="hed">The loop closes on Sunday</div>
@@ -465,7 +508,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     <div>
       <p class="body dropcap">There is a satisfying finality to it: on Sunday 12 July, Circle Line Stage 6 opens its three stations — Keppel, Cantonment and Prince Edward Road — and the orange line on the map stops being a horseshoe. The 4&nbsp;km closing arc links HarbourFront to Marina Bay, completing a 39&nbsp;km, 33-station loop that now interchanges with every other line on the network; roughly 17 years separate the first CCL passengers (2009) from the last brick.<sup class="fnref">1</sup> The public got a preview on 4 July — free rides, open house — and the crowds treated it like what it is: the rare piece of national infrastructure that finishes. For the reader's map, the practical wins are the southern waterfront: Cantonment sits by the old Tanjong Pagar railway land and Keppel serves the districts the Greater Southern Waterfront plan (No. 36) will spend two decades filling in.</p>
       <p class="body">The counterpoint arrived on Wednesday, at the first July COE tender. Premiums rose in every category. A Category A certificate — the mass-market car — closed at a record S$129,000, past October's all-time high; Cat B hit S$130,889, the Open category S$129,801, and commercial vehicles set their own record at S$95,000. Even motorcycles firmed past S$10,000.<sup class="fnref">2</sup> The juxtaposition is the story: in one week the state finished a loop that makes the car less necessary, and the market priced the car further out of reach than it has ever been. A household weighing a replacement car against two EZ-Link cards has rarely had the arithmetic drawn so starkly.</p>
-      <p class="body">The exuberance is not confined to the forecourt. The STI, which set a record 5,244 last Friday, kept climbing — 5,256 on Monday and roughly 5,379 by Wednesday's close (a provisional print), intraday above 5,400 for the first time.<sup class="fnref">3</sup> Asset prices at records, certificates at records, and a power tariff up 17 per cent this month (No. 36): the Little Red Dot's ledger is booming and expensive at once — a theme the Macro Desk picks up on p15.</p>
+      <p class="body">The exuberance is not confined to the forecourt. The STI, which set a record 5,244 last Friday, kept climbing — 5,256 on Monday and roughly 5,379 by Wednesday's close (a provisional print), intraday above 5,400 for the first time.<sup class="fnref">3</sup> Asset prices at records, certificates at records, and a power tariff up 17 per cent this month (No. 36): the Little Red Dot's ledger is booming and expensive at once — a theme the Macro Desk picks up on <a class="xref" href="#p15">p15</a>.</p>
       <div class="pull">The state finished a loop that makes the car less necessary; the market priced the car further away than ever.</div>
       <p class="body">In Parliament on Monday, the transport ministry told members the network the loop joins is holding its standard — the rail system has met its 1-million-train-km-between-failures reliability target — and that the Singapore Rail Academy's mandate will expand to standardise training across all operators, with LTA co-funding upskilling in predictive maintenance. The pipeline behind CCL6 rolls on.<sup class="fnref">4</sup></p>
     </div>
@@ -494,7 +537,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 6 — PROPERTY ============ -->
-<section class="page">
+<section id="p6" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Property</span><span>Bricks &amp; Mortar</span></div>
   <div class="rule"></div>
   <div class="kicker teal">Property · Launches &amp; the Ladder</div>
@@ -534,10 +577,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 7 — TECHNOLOGY (Silicon & Sovereignty) ============ -->
-<section class="page">
+<section id="p7" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>Silicon &amp; Sovereignty</span></div>
   <div class="rule"></div>
-  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chips%20on%206-Inch-Wafer%2001.jpg?width=1600" alt="Semiconductor dies on a wafer — representative, not the specific memory parts discussed." loading="lazy"><div class="ph-cred">Semiconductor dies on a wafer — representative, not the specific memory parts discussed. Source: Wikimedia Commons — "File:Chips on 6-Inch-Wafer 01.jpg" · CC BY-SA 3.0 · Kuebi / Armin Kübelbeck. Verified from the Commons file page.</div></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chips%20on%206-Inch-Wafer%2001.jpg?width=1600" alt="Semiconductor dies on a wafer" loading="lazy"><div class="ph-cred">Semiconductor dies on a wafer — representative, not the specific memory parts discussed. Source: Wikimedia Commons — "File:Chips on 6-Inch-Wafer 01.jpg" · CC BY-SA 3.0 · Kuebi / Armin Kübelbeck. Representative image; subject class verified from the Commons file page.</div></div>
 
   <div class="kicker slate">Technology · The AI Trade's Earnings Test</div>
   <div class="hed">A nineteen-fold profit, and it wasn't enough</div>
@@ -576,7 +619,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 8 — TECHNOLOGY (The Home Lab) ============ -->
-<section class="page">
+<section id="p8" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Technology</span><span>The Home Lab</span></div>
   <div class="rule"></div>
   <div class="kicker teal">The Home Lab · Sovereignty at Desk Scale</div>
@@ -618,7 +661,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     </div>
 
     <div class="brief-h">Still on the shelf</div>
-    <p class="brief-item nobreak"><b>SK hynix SKHY</b> — the listing your RAM bill is funding trades Friday (p7). <b>GLM-5.2 / DeepSeek V4</b> — the local-weights watch continues; V4 weights availability unconfirmed. <b>HA 2026.8</b> — the next release lands early August.</p>
+    <p class="brief-item nobreak"><b>SK hynix SKHY</b> — the listing your RAM bill is funding trades Friday (<a class="xref" href="#p7">p7</a>). <b>GLM-5.2 / DeepSeek V4</b> — the local-weights watch continues; V4 weights availability unconfirmed. <b>HA 2026.8</b> — the next release lands early August.</p>
   </div>
 
   <div class="pgfoot">
@@ -627,10 +670,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 9 — THE KIT ============ -->
-<section class="page">
+<section id="p9" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Kit</span><span>Gear We're Watching</span></div>
   <div class="rule"></div>
-  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Headphones%201.jpg?width=1600" alt="Personal audio — representative; NOT the Nothing Ear (3a) reviewed here." loading="lazy"><div class="ph-cred">Personal audio — representative; NOT the Nothing Ear (3a) reviewed here. Source: Wikimedia Commons — "File:Headphones 1.jpg" · CC BY-SA 2.5. Verified from the Commons file page.</div></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Headphones%201.jpg?width=1600" alt="Personal audio" loading="lazy"><div class="ph-cred">Personal audio — representative; NOT the Nothing Ear (3a) reviewed here. Source: Wikimedia Commons — "File:Headphones 1.jpg" · CC BY-SA 2.5. Representative image; subject class verified from the Commons file page.</div></div>
 
   <div class="kicker gold">The Kit · Value, With a Memory</div>
   <div class="hed sm">The $99 earbuds that remember what you heard</div>
@@ -638,7 +681,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 
   <div class="grid g-21" style="gap:8mm;">
     <div>
-      <p class="body dropcap">The spec sheet reads like a mid-tier flagship mugged in an alley: 12mm dynamic drivers, 45dB adaptive ANC, LDAC, IP54, ten hours a charge (42 with the case), a new XS tip size for small ears, and a little LED status matrix on a rounder case — for US$99.<sup class="fnref">1</sup> Gizmodo's verdict — "still Nothing's value king" — came with the detail that matters: the reviewer couldn't reliably hear the difference against the $179 Ear 3.<sup class="fnref">2</sup> In a week when the memory in everything got dearer (p8), a $99 product that embarrasses its own $179 sibling is the counter-cyclical story.</p>
+      <p class="body dropcap">The spec sheet reads like a mid-tier flagship mugged in an alley: 12mm dynamic drivers, 45dB adaptive ANC, LDAC, IP54, ten hours a charge (42 with the case), a new XS tip size for small ears, and a little LED status matrix on a rounder case — for US$99.<sup class="fnref">1</sup> Gizmodo's verdict — "still Nothing's value king" — came with the detail that matters: the reviewer couldn't reliably hear the difference against the $179 Ear 3.<sup class="fnref">2</sup> In a week when the memory in everything got dearer (<a class="xref" href="#p8">p8</a>), a $99 product that embarrasses its own $179 sibling is the counter-cyclical story.</p>
       <p class="body">The genuinely new thing is 32MB of onboard flash put to novel use: "Audio Snapshot" — pinch a stem and the buds save the last sixty seconds of audio — and call recording up to two hours, synced through the Nothing X app. No mainstream earbud has shipped this. It is, depending on the light, a brilliant answer to "what did she just say to remember for Friday?" — or a wearable voice recorder that everyone around you doesn't know you're wearing. The etiquette (and in some places, the law) of one-party recording just moved into your ears; see the sceptic's box before pinching anything in a meeting.</p>
       <p class="body">Elsewhere on the bench: Samsung has dated its next Unpacked — 22 July, London, an invitation animated with a wider, shorter silhouette and the line "A New Shape Unfolds," which the rumour mill reads as a changed fold format; everything else is guesswork until the keynote, and we'll treat it that way.<sup class="fnref">3</sup> And the GoPro Mission 1 Pro's review wave has crested warmly — Engadget's 8.7/10 called it the best action-cam video on the market (1-inch 50MP sensor, 8K/60, three-plus hours at 4K/30), with the caveats of weight and a $699 sticker, $270 above the rivals it out-shoots.<sup class="fnref">4</sup></p>
       <div class="pull">A wearable voice recorder everyone around you doesn't know you're wearing.</div>
@@ -673,7 +716,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 10 — THE CONNECTED HOME ============ -->
-<section class="page">
+<section id="p10" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Connected Home</span><span>Walls That Listen</span></div>
   <div class="rule"></div>
   <div class="kicker teal">The Connected Home · Presence, Not Pictures</div>
@@ -683,7 +726,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   <div class="cols2">
     <p class="body dropcap">The humblest sensor in the smart home is also its biggest liar. The PIR motion sensor — the little dome in the corner — detects <i>movement</i>, not <i>people</i>: sit still with a book for four minutes and the lights conclude the room is empty. Every migrator has written the same embarrassing workaround (a longer timeout, a "reading mode" toggle). Millimetre-wave radar fixes the lie at the physics layer: it senses micro-motion — breathing, a turning page — and so knows the difference between an empty room and a still one.<sup class="fnref">1</sup></p>
     <p class="body">Hence the skirmish. SwitchBot has just shipped a battery-powered mmWave presence sensor, arriving days after Aqara announced its own equivalent — the two ecosystems racing to own the "occupancy" entity in your dashboard, alongside SwitchBot's new AI hub aimed squarely at Amazon's Echo Hub.<sup class="fnref">2</sup> Battery power matters more than it sounds: mains-tethered radar limited placement to wherever a socket lived; a battery unit goes above the reading chair, in the store room, over the stairs. For a Lutron-to-Home-Assistant household, a presence entity per room is the missing input that turns HA 2026.7's room-intent automations (No. 35) from clever to correct — "lights off when the room is <i>empty</i>" finally means empty.</p>
-    <p class="body">The deeper appeal is what radar doesn't do. It has no lens. In the year of the wearable-surveillance backlash (No. 35) and earbuds that record (p9), a sensor that can say "someone is here, breathing" without being able to say <i>who</i> — or store a face — is the privacy-budget bargain of the category. Walls that listen are one thing; walls that watch are another, and radar lets you refuse the second while keeping the automation.</p>
+    <p class="body">The deeper appeal is what radar doesn't do. It has no lens. In the year of the wearable-surveillance backlash (No. 35) and earbuds that record (<a class="xref" href="#p9">p9</a>), a sensor that can say "someone is here, breathing" without being able to say <i>who</i> — or store a face — is the privacy-budget bargain of the category. Walls that listen are one thing; walls that watch are another, and radar lets you refuse the second while keeping the automation.</p>
     <div class="pull">Radar can say "someone is here" without ever being able to say who.</div>
     <p class="body">The migrator's caveats, honestly: mmWave is fussier to place than PIR (it sees through thin partitions and can count a ceiling fan as a heartbeat), the SwitchBot/Aqara launch timings reached us via trade press rather than spec sheets — check regional availability before ordering — and integration depth varies: native Matter support versus a vendor bridge is the difference between an entity you own and one you rent.<sup class="fnref">2</sup> The pattern from the Matter saga applies here too: buy the certified device, not the announcement (No. 31).</p>
 
@@ -738,7 +781,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 11 — THE GOOD LIFE ============ -->
-<section class="page">
+<section id="p11" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Good Life</span><span>Objects &amp; Escapes</span></div>
   <div class="rule"></div>
   <div class="kicker gold">The Good Life · The Collectors Return</div>
@@ -778,7 +821,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 12 — SCREEN & SOUND ============ -->
-<section class="page">
+<section id="p12" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Screen &amp; Sound</span><span>Culture Desk</span></div>
   <div class="rule"></div>
   <div class="kicker">Screen &amp; Sound · Awards Season Opens</div>
@@ -818,7 +861,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 13 — THE FAMILY DESK (1) ============ -->
-<section class="page">
+<section id="p13" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>Raising Them Well</span></div>
   <div class="rule"></div>
   <div class="kicker teal">The Family Desk · Sport &amp; the Sideline</div>
@@ -862,7 +905,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 14 — THE FAMILY DESK (2) ============ -->
-<section class="page">
+<section id="p14" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Family Desk</span><span>The Tween Years</span></div>
   <div class="rule"></div>
   <div class="kicker gold">The Family Desk · Don't Be Alarmist</div>
@@ -874,7 +917,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     <p class="body">If some answers are yes, the swap is mechanical, not spiritual. Replace the debrief with logistics and food ("great effort — hungry?"); replace comparison with specificity about <i>her</i> ("that press in the second half"); and move genuine coaching input — if you truly have it — to a scheduled, invited conversation, never the drive home. Behaviour-change research is unanimous that removing a cue beats resisting one: sit, or stand, where you cannot easily be seen from the pitch. The one-line job description from page 13 bears repeating because it is the entire syllabus: <i>I love watching you play.</i><sup class="fnref">1</sup></p>
     <p class="body">Keep the base rates in view, too. Most children quit sport for structural reasons — cost, scheduling, the activity simply losing to better competition for finite hours — and a quit is not a failure event. The physical-literacy goal is <i>a</i> movement practice through adolescence, not <i>this</i> one: a girl who trades netball for climbing, or team sport for a running habit with a friend, has not left the path. The alarm threshold sits elsewhere: if she stops <i>all</i> movement and withdraws from the friendships that came with it, that is a pattern worth a gentle conversation — and if mood or sleep change with it, worth a professional one. That is a small minority of quits.<sup class="fnref">2</sup></p>
     <div class="pull">Children are robust to incidents; what wears them is weather.</div>
-    <p class="body">And the eleven-year-old's version of agency applies here as everywhere in this desk's recent run — the empty afternoon (No. 34), the analog summer (No. 35), the algorithm she'd like a say over (p13): the strongest predictor of a sport surviving is that it is <i>hers</i>. Let her pick the sport, the intensity, and — hardest of all — the ambition. A recreational player for a decade banks more than a burned-out competitor by fourteen. The long game, as the Fitness desk would put it, is the only one on the fixture list.</p>
+    <p class="body">And the eleven-year-old's version of agency applies here as everywhere in this desk's recent run — the empty afternoon (No. 34), the analog summer (No. 35), the algorithm she'd like a say over (<a class="xref" href="#p13">p13</a>): the strongest predictor of a sport surviving is that it is <i>hers</i>. Let her pick the sport, the intensity, and — hardest of all — the ambition. A recreational player for a decade banks more than a burned-out competitor by fourteen. The long game, as the Fitness desk would put it, is the only one on the fixture list.</p>
 
     <div class="chatter gold nobreak">
       <div class="lbl">The Reassurance</div>
@@ -917,7 +960,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 15 — THE MACRO DESK ============ -->
-<section class="page">
+<section id="p15" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Macro Desk</span><span>The Big Picture</span></div>
   <div class="rule"></div>
   <div class="kicker slate">The Macro Desk · Four Instruments, One Shock</div>
@@ -938,11 +981,11 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 
   <div class="grid g-21" style="gap:8mm;margin-top:4px;">
     <div>
-      <p class="body dropcap">The causal chain ran in one direction all week: from a strait, through a barrel, into the bond market, and out through every risk asset. Monday belonged to the old regime — a record Dow (53,056), the S&amp;P at 7,537, on revived AI optimism.<sup class="fnref">1</sup> Tuesday broke the AI leg: Samsung's paradoxical quarter (p7) took the semiconductor index down 5.7 per cent. Wednesday broke the peace leg: the Iran ceasefire's collapse (p3) sent Brent up 5.2 per cent, and the June FOMC minutes — the only on-record signal in a dot-plot-less regime — revealed "a few" officials had argued for a June hike, the committee split on the year-end path.<sup class="fnref">2</sup> Two-year yields rose to 4.19 per cent, tens to 4.57, September hike odds repriced from ~58 to ~69 per cent, and the Dow gave back 586 points.</p>
+      <p class="body dropcap">The causal chain ran in one direction all week: from a strait, through a barrel, into the bond market, and out through every risk asset. Monday belonged to the old regime — a record Dow (53,056), the S&amp;P at 7,537, on revived AI optimism.<sup class="fnref">1</sup> Tuesday broke the AI leg: Samsung's paradoxical quarter (<a class="xref" href="#p7">p7</a>) took the semiconductor index down 5.7 per cent. Wednesday broke the peace leg: the Iran ceasefire's collapse (<a class="xref" href="#p3">p3</a>) sent Brent up 5.2 per cent, and the June FOMC minutes — the only on-record signal in a dot-plot-less regime — revealed "a few" officials had argued for a June hike, the committee split on the year-end path.<sup class="fnref">2</sup> Two-year yields rose to 4.19 per cent, tens to 4.57, September hike odds repriced from ~58 to ~69 per cent, and the Dow gave back 586 points.</p>
       <p class="body">Read it through the two instruments the reader holds. For <b>VWRA</b>, the week is a reminder that June's "rotation, not retreat" (Nos. 35–36) had quietly become a bet on cheap oil: the broad market's records were financed by a drained war premium, and Wednesday clawed some of that financing back. For <b>global bonds</b>, the news was worse at both ends — an energy shock is an inflation impulse (yields up), and Japan's long end kept selling: the 10-year JGB touched 2.825 per cent on Monday, its highest since 1996.<sup class="fnref">3</sup> When oil, the Fed and Tokyo push yields the same way, the diversification in a 60/40 book does less than its owner assumes — this was an equities-down, bonds-down week.</p>
       <p class="body">The alternatives told the sharper story. <b>Gold fell</b> about one per cent on a day of American strikes on Iran — the "war means haven demand" reflex lost to the "war means inflation means a hawkish Fed" chain, the week's most instructive price action.<sup class="fnref">4</sup> <b>Bitcoin</b> spent the week rejected at $64,000 and below $63,000 — up from 2 July's ~$61k but behaving like a liquidity asset, not a bunker. Neither is a recommendation; both read the same dial.</p>
       <div class="pull">June's records were financed by a drained war premium; Wednesday clawed some of the financing back.</div>
-      <p class="body">The docket does not relent: June CPI prints 14 July, SKHY opens Friday (p7), the Section 122 tariff sunsets 24 July — expiry is not relief.<sup class="fnref">5</sup> Regime call, tightened in odds: <b>higher-for-longer re-armed; oil re-premiumed; dollar steady</b>.</p>
+      <p class="body">The docket does not relent: June CPI prints 14 July, SKHY opens Friday (<a class="xref" href="#p7">p7</a>), the Section 122 tariff sunsets 24 July — expiry is not relief.<sup class="fnref">5</sup> Regime call, tightened in odds: <b>higher-for-longer re-armed; oil re-premiumed; dollar steady</b>.</p>
     </div>
 
     <div>
@@ -966,10 +1009,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 16 — CURIOSITIES ============ -->
-<section class="page">
+<section id="p16" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Curiosities</span><span>The Far Edges</span></div>
   <div class="rule"></div>
-  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/ESO%20-%20Milky%20Way.jpg?width=1600" alt="The deep sky — representative; not the Euclid quasar field." loading="lazy"><div class="ph-cred">The deep sky — representative; not the Euclid quasar field. Source: Wikimedia Commons — "File:ESO - Milky Way.jpg" · CC BY 4.0 · ESO. Verified from the Commons file page.</div></div>
+  <div class="ph-frame"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/ESO%20-%20Milky%20Way.jpg?width=1600" alt="The Milky Way" loading="lazy"><div class="ph-cred">The Milky Way — representative deep sky, not the Euclid quasar field. Source: Wikimedia Commons — "File:ESO - Milky Way.jpg" · CC BY 4.0 · ESO. Subject verified from the Commons file page.</div></div>
 
   <div class="kicker teal">Curiosities · Light From Before</div>
   <div class="hed sm">Thirty-one lamps from the dawn</div>
@@ -1035,7 +1078,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 17 — LOVE & LIFE ============ -->
-<section class="page">
+<section id="p17" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Love &amp; Life</span><span>The Human Desk</span></div>
   <div class="rule"></div>
   <div class="kicker">Love &amp; Life · The Stories We Tell About Endings</div>
@@ -1073,7 +1116,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 18 — FITNESS ============ -->
-<section class="page">
+<section id="p18" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · Fitness</span><span>The Long Game</span></div>
   <div class="rule"></div>
   <div class="kicker gold">Fitness · The Molecular Case for Starting Now</div>
@@ -1113,7 +1156,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 19 — THE DIARY (1) ============ -->
-<section class="page">
+<section id="p19" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>What's Worth Booking</span></div>
   <div class="rule"></div>
   <div class="kicker">The Diary · Dated &amp; Bookable</div>
@@ -1153,7 +1196,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 
       <div class="chatter nobreak" style="margin-top:7px;">
         <div class="lbl">Planning Notes</div>
-        <p><b>teamLab</b> — timed-entry; the reopened Flow zone will be busiest in its first fortnight. <b>Sumo on-sale (8 Aug)</b> — set a reminder; weekend and senshuraku (final-day) seats vanish in minutes. <b>Gion Matsuri</b> — the yamaboko float procession is a morning event; the atmospheric evenings are the yoiyama nights before. <b>Soft yen (~¥162)</b> favours all of it — see The Good Life, p11.</p>
+        <p><b>teamLab</b> — timed-entry; the reopened Flow zone will be busiest in its first fortnight. <b>Sumo on-sale (8 Aug)</b> — set a reminder; weekend and senshuraku (final-day) seats vanish in minutes. <b>Gion Matsuri</b> — the yamaboko float procession is a morning event; the atmospheric evenings are the yoiyama nights before. <b>Soft yen (~¥162)</b> favours all of it — see The Good Life, <a class="xref" href="#p11">p11</a>.</p>
       </div>
     </div>
   </div>
@@ -1164,7 +1207,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 20 — THE DIARY (2) — THE TABLE ============ -->
-<section class="page">
+<section id="p20" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Diary</span><span>The Table</span></div>
   <div class="rule"></div>
   <div class="kicker gold">The Table · Singapore's Newest Openings</div>
@@ -1210,7 +1253,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 21 — THE LONG READ (1) ============ -->
-<section class="page">
+<section id="p21" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Long Read</span></div>
   <div class="rule"></div>
   <div class="kicker">The Long Read · An Essay</div>
@@ -1230,19 +1273,19 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 
   <div class="pgfoot">
-    <div class="fn"><b>SOURCES</b> · 1 See The World, p3; The Macro Desk, p15 (8 Jul 2026). 2 See Singapore, p5; LTA (CCL6 opens 12 Jul). 3 Ecclesiastes 7:8 (KJV). 4 Armistice of 11 November 1918, Compiègne; H. G. Wells, <i>The War That Will End War</i> (1914). 5 D. Fromkin, <i>A Peace to End All Peace</i> (1989); the second Compiègne signing, 22 Jun 1940. 6 Korean Armistice Agreement, Panmunjom, 27 Jul 1953 — an armistice, not a peace treaty.</div>
+    <div class="fn"><b>SOURCES</b> · 1 See The World, <a class="xref" href="#p3">p3</a>; The Macro Desk, <a class="xref" href="#p15">p15</a> (8 Jul 2026). 2 See Singapore, <a class="xref" href="#p5">p5</a>; LTA (CCL6 opens 12 Jul). 3 Ecclesiastes 7:8 (KJV). 4 Armistice of 11 November 1918, Compiègne; H. G. Wells, <i>The War That Will End War</i> (1914). 5 D. Fromkin, <i>A Peace to End All Peace</i> (1989); the second Compiègne signing, 22 Jun 1940. 6 Korean Armistice Agreement, Panmunjom, 27 Jul 1953 — an armistice, not a peace treaty.</div>
     <div class="fnbar"><span>Meridian · The Long Read</span><span>Page 21</span></div>
   </div>
 </section>
 <!-- ============ PAGE 22 — THE LONG READ (2) ============ -->
-<section class="page">
+<section id="p22" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Long Read · continued</span></div>
   <div class="rule"></div>
 
   <div class="cols2">
     <p class="body">There is a book behind the title of this essay, and it is worth naming, because it explains why we are so bad at this. In 1967 the critic Frank Kermode gave a set of lectures published as <i>The Sense of an Ending</i>, an inquiry into why human beings cannot bear a story without a shape. His central example was the ticking clock: we hear it as "tick-tock," he observed, giving the bare sound a fictional beginning and end — <i>tick</i> the origin, <i>tock</i> the conclusion — when physically it is only ever the same undifferentiated click, click, click. We are, Kermode argued, "in the middest": born after the start, dying before the end, and forever imposing endings on a reality that offers none, because a middle we cannot see the edges of is unbearable to us.<sup class="fnref">1</sup></p>
 
-    <p class="body">This is the psychological engine under every declared ending in the news. The President who says a war is "over" is performing a <i>tock</i> — supplying the conclusion the story seems to demand, whether or not the facts have finished arriving. The market that priced Brent back down to the low seventies in June was doing the same thing: reaching for the reassuring shape of "the crisis has ended," which is why it lurched so violently on Wednesday when the crisis declined to honour the shape (see Macro, p15). Kermode's word for the danger was "degenerate fiction" — the ending imposed so forcefully that it stops us seeing what is actually happening in the middle. An armistice mistaken for a peace is a degenerate fiction with an army attached.</p>
+    <p class="body">This is the psychological engine under every declared ending in the news. The President who says a war is "over" is performing a <i>tock</i> — supplying the conclusion the story seems to demand, whether or not the facts have finished arriving. The market that priced Brent back down to the low seventies in June was doing the same thing: reaching for the reassuring shape of "the crisis has ended," which is why it lurched so violently on Wednesday when the crisis declined to honour the shape (see Macro, <a class="xref" href="#p15">p15</a>). Kermode's word for the danger was "degenerate fiction" — the ending imposed so forcefully that it stops us seeing what is actually happening in the middle. An armistice mistaken for a peace is a degenerate fiction with an army attached.</p>
 
     <div class="pull">We are always in the middest — imposing endings on a reality that offers none.</div>
 
@@ -1250,9 +1293,9 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 
     <p class="body">Singapore's closing loop is a small, secular version of the same thing. No one will make a speech on Sunday about "ending" the Circle Line; the three new stations will just open, and the horseshoe will be a circle, and a project begun in 2009 will have quietly reached the state its planners drew a generation ago.<sup class="fnref">3</sup> The reason it feels satisfying — the reason rail enthusiasts turned out in force for a free-ride preview of a train — is precisely that finished infrastructure is so rare. We are surrounded by declared endings (wars "over," problems "solved," eras "ended") and starved of built ones. A loop that actually closes scratches an itch the news cannot reach.</p>
 
-    <p class="body">The grandest declared ending of our own lifetimes makes the point. In 1989, as the Berlin Wall came down, Francis Fukuyama announced "the end of history" — not that events would stop, but that the argument about how to organise a society had been settled.<sup class="fnref">4</sup> It was the ultimate <i>tock</i>: a conclusion supplied to a story still mid-sentence. The three decades since — populism, the return of great-power war, a Fed that cannot declare inflation beaten (p15) — have been history declining, firmly, to have ended. The appetite to announce a conclusion is strongest exactly when the middle is most bewildering, which is when the announcement is least reliable.</p>
+    <p class="body">The grandest declared ending of our own lifetimes makes the point. In 1989, as the Berlin Wall came down, Francis Fukuyama announced "the end of history" — not that events would stop, but that the argument about how to organise a society had been settled.<sup class="fnref">4</sup> It was the ultimate <i>tock</i>: a conclusion supplied to a story still mid-sentence. The three decades since — populism, the return of great-power war, a Fed that cannot declare inflation beaten (<a class="xref" href="#p15">p15</a>) — have been history declining, firmly, to have ended. The appetite to announce a conclusion is strongest exactly when the middle is most bewildering, which is when the announcement is least reliable.</p>
 
-    <p class="body">The same distinction quietly organised the rest of this issue. The Emmy nominations rewarded, above all, shows that simply kept working — a real-time hospital drama with the most nominations, a comedy setting records in its long grind, a farewell season honoured for finishing well (p12). Madonna's <i>Confessions II</i> is being praised not as a beginning but as a <i>closing</i> — a sequel that lands an argument opened twenty-one years ago (p12). Even the science bent this way: Euclid's thirty-one ancient quasars are light that finished its journey after thirteen billion years in transit, arriving exactly, if late, at a lens built to catch it (p16); and the muscle biology from Duke-NUS carried the least comfortable version of the lesson — that a repair mechanism, left unused too long, may not release at all, so the ending you want (a strong body at seventy) has to be <i>built</i> from decades out, not declared at the door of the gym (p18).</p>
+    <p class="body">The same distinction quietly organised the rest of this issue. The Emmy nominations rewarded, above all, shows that simply kept working — a real-time hospital drama with the most nominations, a comedy setting records in its long grind, a farewell season honoured for finishing well (<a class="xref" href="#p12">p12</a>). Madonna's <i>Confessions II</i> is being praised not as a beginning but as a <i>closing</i> — a sequel that lands an argument opened twenty-one years ago (<a class="xref" href="#p12">p12</a>). Even the science bent this way: Euclid's thirty-one ancient quasars are light that finished its journey after thirteen billion years in transit, arriving exactly, if late, at a lens built to catch it (<a class="xref" href="#p16">p16</a>); and the muscle biology from Duke-NUS carried the least comfortable version of the lesson — that a repair mechanism, left unused too long, may not release at all, so the ending you want (a strong body at seventy) has to be <i>built</i> from decades out, not declared at the door of the gym (<a class="xref" href="#p18">p18</a>).</p>
   </div>
 
   <div class="pgfoot">
@@ -1261,7 +1304,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 23 — THE LONG READ (3) ============ -->
-<section class="page">
+<section id="p23" class="page">
   <div class="rh"><span><span class="dot">●</span> Meridian · The Long Read</span><span>The Long Read · continued</span></div>
   <div class="rule"></div>
 
@@ -1269,7 +1312,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     <div class="cols2" style="column-gap:8mm;">
       <p class="body">There is a temptation, having drawn this line, to moralise it into "declared endings bad, built endings good," and the temptation should be resisted, because declaring an ending is sometimes exactly the right thing to do. A ceasefire, even an armistice that is only a ceasefire, stops the shooting <i>now</i>; the guns fell silent at Compiègne and at Panmunjom and real people did not die who otherwise would have. The declared ending buys the time in which the built ending might be constructed. The error is not in declaring; it is in <i>mistaking the declaration for the construction</i> — in filing the memorandum and going home, as if the word "over" were load-bearing. The 1918 armistice was a legitimate act. Treating it as a finished peace, and building nothing sturdier for twenty years, was the catastrophe.</p>
 
-      <p class="body">This is not, in the end, only a lesson about statecraft, and MERIDIAN would be dishonest to pretend it read the week purely through Hormuz. Every reader carries a folder of declared endings that were never built — the argument "resolved" by one person announcing it was over, the project "finished" at the demo and abandoned before the last mile, the resolution declared each January and constructed by no one. The muscle study is the whole parable in miniature: the body you will inhabit at seventy is being built, or not built, on the ordinary Tuesdays of your forties, and no amount of declaring at sixty-five that you intend to get fit will release a brake that patience alone unlocks (p18). The patient in spirit, said the Preacher, are better than the proud — not as a moral compliment, but as an engineering fact. Only the patient actually finish things.</p>
+      <p class="body">This is not, in the end, only a lesson about statecraft, and MERIDIAN would be dishonest to pretend it read the week purely through Hormuz. Every reader carries a folder of declared endings that were never built — the argument "resolved" by one person announcing it was over, the project "finished" at the demo and abandoned before the last mile, the resolution declared each January and constructed by no one. The muscle study is the whole parable in miniature: the body you will inhabit at seventy is being built, or not built, on the ordinary Tuesdays of your forties, and no amount of declaring at sixty-five that you intend to get fit will release a brake that patience alone unlocks (<a class="xref" href="#p18">p18</a>). The patient in spirit, said the Preacher, are better than the proud — not as a moral compliment, but as an engineering fact. Only the patient actually finish things.</p>
 
       <p class="body">So the discipline the week recommends is a small, unglamorous one: distrust the endings that arrive as sentences, and honour the ones that arrive as last pieces. When something is proclaimed over — a war, a market crisis, an era, a diet — ask what was actually <i>built</i> to make it so, and hold the proclamation lightly until you find it. And when something quietly, undramatically finishes — a loop closes, a long grind gets its award, a body proves strong at an age its owner once dreaded — mark it, because a finished thing is the rarest object in the news, and worth more than a hundred declarations of "over."</p>
 
@@ -1279,10 +1322,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     <div>
       <div class="chatter gold nobreak" style="margin-top:0;">
         <div class="lbl">The Threads</div>
-        <p><b>The declared ending</b> — Iran's "60-day" peace pronounced over (p3); the market that un-priced it (p15).</p>
-        <p><b>The built ending</b> — a rail loop that closes on schedule after 17 years (p5).</p>
-        <p><b>Finishing honoured</b> — the Emmys reward durability (p12); Madonna's 21-year sequel (p12).</p>
-        <p><b>Built from decades out</b> — the muscle brake that only patience releases (p18); light 13 Gyr in transit (p16).</p>
+        <p><b>The declared ending</b> — Iran's "60-day" peace pronounced over (<a class="xref" href="#p3">p3</a>); the market that un-priced it (<a class="xref" href="#p15">p15</a>).</p>
+        <p><b>The built ending</b> — a rail loop that closes on schedule after 17 years (<a class="xref" href="#p5">p5</a>).</p>
+        <p><b>Finishing honoured</b> — the Emmys reward durability (<a class="xref" href="#p12">p12</a>); Madonna's 21-year sequel (<a class="xref" href="#p12">p12</a>).</p>
+        <p><b>Built from decades out</b> — the muscle brake that only patience releases (<a class="xref" href="#p18">p18</a>); light 13 Gyr in transit (<a class="xref" href="#p16">p16</a>).</p>
       </div>
       <div class="pull" style="margin-top:8px;">Only the patient actually finish things.</div>
       <div class="chatter slate nobreak">
@@ -1320,7 +1363,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 <!-- ============ PAGE 24 — BACK COVER ============ -->
-<section class="page dark">
+<section id="p24" class="page dark">
   <div style="position:absolute;top:22mm;left:16mm;right:16mm;">
     <div class="eyebrow" style="text-align:left;">The Last Word</div>
     <div class="gold-rule" style="margin:10px 0;"></div>
@@ -1360,5 +1403,73 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   </div>
 </section>
 
+
+<script>
+(function(){
+  var root=document.documentElement;
+  var prog=document.getElementById('mprog');
+  var chrome=document.querySelector('.m-chrome');
+  var links=[].slice.call(document.querySelectorAll('.mnav-link'));
+  var pages=[].slice.call(document.querySelectorAll('.page'));
+
+  // honest direction arrows on the market strips: read the number's SIGN,
+  // not the colour class. A "+5.2%" always gets an up-arrow even if styled red.
+  document.querySelectorAll('.tbl td .up, .tbl td .dn, .lede-strip .up, .lede-strip .dn').forEach(function(el){
+    var t=el.textContent||'';
+    var up=/[+]|\bup\b/i.test(t), dn=/[-\u2212]|\bfell\b|\bdown\b/i.test(t);
+    if(up===dn) return;                        // ambiguous or neither -> no arrow
+    var s=document.createElement('span'); s.className='mchg';
+    s.textContent=up?' \u25B2':' \u25BC'; el.appendChild(s);
+  });
+
+  // responsive: shrink the fixed-A4 page to fit narrow viewports
+  function fit(){
+    var pw=210*96/25.4;                       // 210mm in css px
+    var avail=Math.min(window.innerWidth-24, pw);
+    root.style.setProperty('--pzoom', (avail/pw).toFixed(4));
+  }
+  fit(); window.addEventListener('resize', fit);
+
+  // reading progress
+  function onScroll(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    prog.style.width=(h>0?(window.scrollY/h*100):0)+'%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // active desk in the nav via IntersectionObserver
+  var byId={}; links.forEach(function(a){ byId[a.dataset.target]=a; });
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        var a=byId[e.target.id];
+        if(a){ links.forEach(function(l){l.classList.remove('active');}); a.classList.add('active');
+          a.scrollIntoView({inline:'center',block:'nearest'}); }
+      }
+    });
+  },{rootMargin:'-45% 0px -50% 0px'});
+  pages.forEach(function(p){ if(byId[p.id]) io.observe(p); });
+
+  // offset smooth-scroll so the sticky chrome doesn't cover the target
+  function chromeH(){ return chrome?chrome.getBoundingClientRect().height:0; }
+  document.querySelectorAll('a[href^="#p"]').forEach(function(a){
+    a.addEventListener('click', function(ev){
+      var t=document.getElementById(a.getAttribute('href').slice(1));
+      if(t){ ev.preventDefault();
+        window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-chromeH()-6, behavior:'smooth'}); }
+    });
+  });
+
+  // Paper / Night reading theme, persisted
+  var btn=document.getElementById('mtheme');
+  function apply(t){ if(t==='night'){root.setAttribute('data-theme','night'); btn.innerHTML='\u2600 Paper';}
+    else{root.removeAttribute('data-theme'); btn.innerHTML='\u263e Night';} }
+  try{ apply(localStorage.getItem('meridian-theme')||'paper'); }catch(e){}
+  btn.addEventListener('click', function(){
+    var t=root.getAttribute('data-theme')==='night'?'paper':'night';
+    apply(t); try{ localStorage.setItem('meridian-theme',t); }catch(e){}
+  });
+})();
+</script>
 </body>
 </html>
