@@ -1,79 +1,77 @@
 {
  "publication": "MERIDIAN",
- "issue": 38,
- "date": "10 July 2026",
- "generated": "2026-07-10T12:48:58+08:00",
+ "issue": 39,
+ "date": "11 July 2026",
+ "generated": "2026-07-11T06:54:04+08:00",
  "quote": {
-  "text": "War is merely the continuation of policy by other means.",
-  "author": "Carl von Clausewitz, On War (1832)"
+  "text": "I refute it thus.",
+  "author": "Samuel Johnson, kicking a stone, as recorded in James Boswell's Life of Johnson (1791)"
  },
  "macro": {
   "title": "What It Means — VWRA, Global Bonds, Gold & BTC",
   "reads": [
    {
     "label": "VWRA",
-    "text": "the index is pricing calibrated conflict, not peace — it rises with every strike that spares Kharg and will fall the day one doesn't; the deductible is smaller, not gone."
+    "text": "pushed by two forces at once — discounted war premium plus an unrelated chip re-rating."
    },
    {
-    "label": "Global bonds",
-    "text": "genuinely better week — hike odds eased and Tokyo's long end rallied; the ballast is breathing again, pending Tuesday's CPI."
+    "label": "Bonds",
+    "text": "last issue's relief is NOT confirmed; Japan's long end is contested, a live correlation risk."
    },
    {
     "label": "Gold",
-    "text": "the bounce confirms the regime rather than escaping it — real yields still set the ceiling; $4,123 is a floor test passed, not a breakout."
+    "text": "a floor test, not a breakout."
    },
    {
     "label": "BTC",
-    "text": "below $64k the story is liquidity, and this week liquidity was the KOSPI's, not bitcoin's."
+    "text": "through $64k on borrowed risk appetite, not its own story."
    }
   ],
-  "note": "Education, not advice; forecasts are forecasts.",
+  "note": "Education, not advice.",
   "regime": [
-   "War premium, discounted",
-   "Higher-for-longer, easing",
-   "CPI Tuesday",
-   "Risk-on, selectively"
+   "Bond ballast, unconfirmed",
+   "War premium, discounted"
   ],
   "anchor": "p15"
  },
  "stories": [
   {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · Under the hammer, tomorrow",
+   "headline": "A Rainbow, Once, Anywhere",
+   "dek": "Australia's largest-ever Swiss-watch consignment opens for bidding tomorrow, led by a Daytona reference that has never before been offered at auction — anywhere in the world.",
+   "anchor": "p11",
+   "featured": true
+  },
+  {
+   "desk": "Curiosities",
+   "sub": "The Far Edges",
+   "category": "Science",
+   "kicker": "Curiosities · The depths",
+   "headline": "The Shark Nobody Had Seen Alive",
+   "dek": "A \"living fossil\" older than most of the seafloor it swims over has finally been filmed breathing — not once, but twice, five years and 700 metres apart, in two of the loneliest stretches of the Pacific.",
+   "anchor": "p16",
+   "featured": true
+  },
+  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · Iran & the Gulf",
-   "headline": "The reply was addressed to be intercepted",
-   "dek": "Hours after burying its leader, Iran fired ten missiles and a wave of drones at four US-allied states — nearly all shot down, which may have been the intention. Ninety American targets later, the one that matters stands untouched. The talks never stopped.",
+   "kicker": "The World · The same room, a new sign on the door",
+   "headline": "\"Over,\" and Still Going",
+   "dek": "Washington says the Hormuz ceasefire is finished. The negotiators are back at the same table in Doha today anyway — a reminder that a declaration and the thing it describes don't always move together.",
    "anchor": "p3",
-   "featured": true
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · The Listing",
-   "headline": "Korea's crown jewel rings the bell in New York",
-   "dek": "SK hynix priced its American depositary shares at $149 on Thursday — a premium to Seoul, seven times oversubscribed, $26.5 billion raised: the largest US listing by a foreign company in history. Two days after the market torched the memory sector, it paid up to own it.",
-   "anchor": "p7",
-   "featured": true
-  },
-  {
-   "desk": "The Macro Desk",
-   "sub": "The Big Picture",
-   "category": "Markets",
-   "kicker": "The Macro Desk · Four Instruments, One Reading",
-   "headline": "The market read the target list",
-   "dek": "On the second day of American strikes, equities rose, oil fell and gold recovered — a combination that looks perverse until you notice what the market noticed: the one target that wasn't on the list. Restraint, it turns out, is a price signal.",
-   "anchor": "p15",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Ledger & the Ledger-Keeper",
-   "headline": "Half a trillion, kept a quarter liquid",
-   "dek": "Temasek's portfolio hit a record S$518 billion the same week the Straits Times Index closed above 5,400 for the first time and DBS crossed seventy dollars. The state investor's most telling number, though, isn't the record — it's how much it keeps ready for the day the record stops.",
+   "kicker": "Singapore · Tonight's fireworks",
+   "headline": "The Parade Comes Home to the Stadium",
+   "dek": "After a decade at the Padang, National Day's rehearsal season opens tonight back at the National Stadium — a genuine homecoming for a show that outgrew its old address, and tonight's fireworks are free to watch.",
    "anchor": "p5",
    "featured": false
   },
@@ -81,49 +79,49 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Launches & the Collective Bet",
-   "headline": "The gallery doors open at three thousand a foot",
-   "dek": "Dunearn House opens its showflat this morning with the full price list now public — and the bigger units carry a number Bukit Timah has never asked for. Across town, a seventy-two-unit freehold tries the en-bloc market for the fourth time.",
+   "kicker": "Property · The Q2 flash, read properly",
+   "headline": "One Market, Splitting in Two",
+   "dek": "The headline number says the market is cooling. The composition underneath says something more interesting: prime and landed are reheating while the mass market pulls back — which means where you own now matters more than the average ever did.",
    "anchor": "p6",
+   "featured": false
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Belief, priced",
+   "headline": "The Market Just Agreed With the Hype",
+   "dek": "SK hynix's Nasdaq debut wasn't just oversubscribed on paper — it closed up 13% on real trading, confirming the largest-ever US listing by a foreign company. The memory supercycle stopped being a story and became a print.",
+   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Verdicts In",
-   "headline": "The $99 tracker that wants to disappear",
-   "dek": "Google's Fitbit Air shipped in late May; the review verdicts have now landed, and they're warmer than the spec sheet suggested. A five-gram screenless pebble is making a quiet argument the reader — who wears a ring on one hand and a strap on the other — already believes: the best tracker is the one you forget.",
+   "kicker": "The Kit · Pack for the flight",
+   "headline": "A Cinema That Folds Into a Case",
+   "dek": "Xreal's cheapest glasses yet got their first reviews this week — a $299, 62-gram pair of AR glasses that turn a phone or laptop into a 147-inch virtual screen. For a reader who flies to Tokyo more than most, that's not a gimmick, it's carry-on gear.",
    "anchor": "p9",
    "featured": false
   },
   {
-   "desk": "The Connected Home",
+   "desk": "Connected Home",
    "sub": "Walls That Listen",
-   "category": "Smart Home",
-   "kicker": "The Connected Home · Standards & Reality",
-   "headline": "The first Matter camera works in exactly one app",
-   "dek": "Aqara's Camera Hub G350 is drawing the best reviews of any camera the company has made — and it carries a milestone certification whose promise, today, is honoured by a single platform. The gap between \"certified\" and \"works in your dashboard\" is this desk's oldest lesson, freshly illustrated.",
+   "category": "Connected Home",
+   "kicker": "Connected Home · The migrator's weekend project",
+   "headline": "Hue Finally Speaks Thread — Almost on Its Own",
+   "dek": "A firmware update lets existing Hue bulbs talk Zigbee and Matter-over-Thread at once. It's real local-first progress for a Lutron migrant — with one honest asterisk: you still need someone else's box in the loop.",
    "anchor": "p10",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Objects & Escapes",
-   "headline": "The cocktail hour, priced — and a two-minute sell-out",
-   "dek": "The Presage refresh we held for want of a price now has one, and it lands where Seiko is most dangerous: under five hundred euros with nothing missing. Meanwhile a preppy collaboration sold its entire run before the coffee cooled, and a London microbrand is chiselling cases by hand.",
-   "anchor": "p11",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Openings",
-   "headline": "The remake sails into a reef",
-   "dek": "Disney's live-action Moana opens tomorrow carrying the worst reviews any of its theatrical remakes has ever taken to sea — in the same week Christopher Nolan's Odyssey premiered to something close to rapture. Two ways to spend a fortune on a familiar story; only one of them held anything back.",
+   "kicker": "Screen & Sound · The test, arriving",
+   "headline": "Reviews Weren't Lying, for Once",
+   "dek": "Last issue asked whether Moana's worst-reviewed-remake reception would show up at the till. Thursday's soft previews and a sliding weekend forecast say yes — while a scrappy horror sequel quietly tracks toward a franchise record.",
    "anchor": "p12",
    "featured": false
   },
@@ -131,29 +129,29 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Peer Scaffold",
-   "headline": "Friendship is the intervention",
-   "dek": "A new national report on girlhood opens with the bleak numbers everyone expects — half of tween girls already want to change how they look — and then makes an unfashionable argument: the strongest lever isn't a rule, an app or a programme. It's whether a friend is standing next to her.",
+   "kicker": "The Family Desk · Who is she telling?",
+   "headline": "A Bill, a Number, and a Better Question",
+   "dek": "A new federal bill wants chatbots to disclose themselves and stop harvesting children's data. The evidence behind it is real — and so is the reminder that the number driving the panic is mostly about teenagers who aren't eleven yet.",
    "anchor": "p13",
    "featured": false
   },
   {
-   "desk": "Curiosities",
-   "sub": "The Far Edges",
-   "category": "Science",
-   "kicker": "Curiosities · Deep Time, Collected",
-   "headline": "The first fossil collector wore a toga",
-   "dek": "In a second-century Roman rubbish pit in Colchester, archaeologists found a vertebra that had already been dead for 180 million years when its owner picked it up. Someone in Roman Britain collected a sea monster — and became, as far as the record knows, the first of us to do it.",
-   "anchor": "p16",
+   "desk": "The Macro Desk",
+   "sub": "The Big Picture",
+   "category": "Markets",
+   "kicker": "The Macro Desk · Four instruments, one reading",
+   "headline": "A Correction, on Ourselves",
+   "dek": "Last issue read Tokyo's long bond as finally breathing easier. Fresher reporting says the opposite — Japan's 10-year is testing a fresh three-decade high, not falling from one. We're printing the conflict, not picking the flattering number.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · The Second Reading",
-   "headline": "It's the logistics, not the pride",
-   "dek": "Wednesday's study said the old story about higher-earning wives didn't hold. Now a far bigger dataset — half a million couples across twenty-nine countries — says what actually does: not wounded masculinity, but the unabsorbed shock of who covers the childcare when the earner can't.",
+   "kicker": "Love & Life · The examined life",
+   "headline": "You Don't Need a Twin, You Need a Fan",
+   "dek": "A new study of nearly 1,500 friends politely demolishes the \"birds of a feather\" theory of bonding. What predicts a happy friendship isn't how alike you actually are — it's how generously you see each other.",
    "anchor": "p17",
    "featured": false
   },
@@ -161,30 +159,30 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Sleep Is Training",
-   "headline": "The circuit that turns deep sleep into repair",
-   "dek": "Berkeley neuroscientists have mapped the wiring that connects slow-wave sleep to growth-hormone release — with a feedback loop nobody expected. For anyone who wears a recovery ring to bed, it's the mechanism behind the number you check every morning.",
+   "kicker": "Fitness · An idea to try",
+   "headline": "Lift Heavy Through the Change",
+   "dek": "A small Canadian trial puts real numbers behind an idea gym-goers have long suspected: heavy, supervised strength work through perimenopause doesn't just preserve muscle and bone — it's the waitlist group that quietly loses ground.",
    "anchor": "p18",
+   "featured": false
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "The Travel Desk · Departures",
+   "headline": "SIA Goes Back to Madrid",
+   "dek": "After 22 years away, Singapore Airlines returns to the Spanish capital this October — one line in a European build-out that keeps thickening, while at home a decades-old tax finally goes live.",
+   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Dated & Bookable",
-   "headline": "What's worth booking",
-   "dek": "A metal band returns after eleven years, K-pop stakes out 2027's calendar, Bruno Mars opens a Tokyo Dome lottery — and the National Day fireworks start tomorrow. Plus the on-sale this city still cannot buy.",
-   "anchor": "p19",
-   "featured": false
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Long Read",
-   "category": "Essay",
-   "kicker": "The Long Read · An Essay",
-   "headline": "Fight, fight; talk, talk",
-   "dek": "This week missiles were fired to be intercepted, ninety targets were struck so that one could be conspicuously spared, and the negotiators never hung up the phone. This looks like madness and is in fact a grammar — one with a long history, exacting rules, and a single catastrophic failure mode: being read literally.",
-   "anchor": "p21",
+   "kicker": "The Diary · Singapore",
+   "headline": "The Dated Agenda",
+   "dek": "",
+   "anchor": "p23",
    "featured": false
   }
  ]
