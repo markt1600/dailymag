@@ -1,38 +1,38 @@
 {
  "publication": "MERIDIAN",
- "issue": 37,
- "date": "9 July 2026",
- "generated": "2026-07-09T14:55:38+08:00",
+ "issue": 38,
+ "date": "10 July 2026",
+ "generated": "2026-07-10T12:48:58+08:00",
  "quote": {
-  "text": "Better is the end of a thing than the beginning thereof: and the patient in spirit is better than the proud in spirit.",
-  "author": "Ecclesiastes 7:8 (King James Version)"
+  "text": "War is merely the continuation of policy by other means.",
+  "author": "Carl von Clausewitz, On War (1832)"
  },
  "macro": {
   "title": "What It Means — VWRA, Global Bonds, Gold & BTC",
   "reads": [
    {
     "label": "VWRA",
-    "text": "the broad-market records now carry an oil deductible; expect the index to trade with the strait until Doha or the tape says otherwise."
+    "text": "the index is pricing calibrated conflict, not peace — it rises with every strike that spares Kharg and will fall the day one doesn't; the deductible is smaller, not gone."
    },
    {
     "label": "Global bonds",
-    "text": "no shelter this week — supply (Tokyo) and inflation (oil, tariffs) both push yields up; the ballast works again only if growth data cracks."
+    "text": "genuinely better week — hike odds eased and Tokyo's long end rallied; the ballast is breathing again, pending Tuesday's CPI."
    },
    {
     "label": "Gold",
-    "text": "watched the war and sold — real yields outrank fear at these levels."
+    "text": "the bounce confirms the regime rather than escaping it — real yields still set the ceiling; $4,123 is a floor test passed, not a breakout."
    },
    {
     "label": "BTC",
-    "text": "a risk asset with a narrative; $64k is the wall until liquidity, not geopolitics, moves."
+    "text": "below $64k the story is liquidity, and this week liquidity was the KOSPI's, not bitcoin's."
    }
   ],
   "note": "Education, not advice; forecasts are forecasts.",
   "regime": [
-   "Oil re-premiumed",
-   "Higher-for-longer",
-   "Hike risk live",
-   "Rotation under review"
+   "War premium, discounted",
+   "Higher-for-longer, easing",
+   "CPI Tuesday",
+   "Risk-on, selectively"
   ],
   "anchor": "p15"
  },
@@ -42,58 +42,58 @@
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · Iran & the Gulf",
-   "headline": "The sixty-day peace lasted twenty",
-   "dek": "Three tankers burned on Tuesday; eighty targets burned overnight; by Wednesday the President was calling the deal \"over\" from a NATO podium. The ceasefire signed on 17–18 June has collapsed in the very week Iran buried the leader whose death began the war.",
+   "headline": "The reply was addressed to be intercepted",
+   "dek": "Hours after burying its leader, Iran fired ten missiles and a wave of drones at four US-allied states — nearly all shot down, which may have been the intention. Ninety American targets later, the one that matters stands untouched. The talks never stopped.",
    "anchor": "p3",
    "featured": true
   },
   {
-   "desk": "Singapore",
-   "sub": "The Little Red Dot",
-   "category": "Asia",
-   "kicker": "Singapore · Transport & the Cost of Moving",
-   "headline": "The loop closes on Sunday",
-   "dek": "Seventeen years after its first stations opened, the Circle Line finally becomes a circle: Keppel, Cantonment and Prince Edward Road open 12 July. In the same week, the right to drive a car to any of them cost more than it ever has.",
-   "anchor": "p5",
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · The Listing",
+   "headline": "Korea's crown jewel rings the bell in New York",
+   "dek": "SK hynix priced its American depositary shares at $149 on Thursday — a premium to Seoul, seven times oversubscribed, $26.5 billion raised: the largest US listing by a foreign company in history. Two days after the market torched the memory sector, it paid up to own it.",
+   "anchor": "p7",
    "featured": true
   },
   {
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · Four Instruments, One Shock",
-   "headline": "The week the market un-priced the peace",
-   "dek": "Monday: a record Dow. Tuesday: a chip rout. Wednesday: oil up five per cent, minutes showing a Fed split toward hiking, and 586 Dow points gone. The regime didn't change this week — it got stress-tested from two directions at once.",
+   "kicker": "The Macro Desk · Four Instruments, One Reading",
+   "headline": "The market read the target list",
+   "dek": "On the second day of American strikes, equities rose, oil fell and gold recovered — a combination that looks perverse until you notice what the market noticed: the one target that wasn't on the list. Restraint, it turns out, is a price signal.",
    "anchor": "p15",
    "featured": true
+  },
+  {
+   "desk": "Singapore",
+   "sub": "The Little Red Dot",
+   "category": "Asia",
+   "kicker": "Singapore · The Ledger & the Ledger-Keeper",
+   "headline": "Half a trillion, kept a quarter liquid",
+   "dek": "Temasek's portfolio hit a record S$518 billion the same week the Straits Times Index closed above 5,400 for the first time and DBS crossed seventy dollars. The state investor's most telling number, though, isn't the record — it's how much it keeps ready for the day the record stops.",
+   "anchor": "p5",
+   "featured": false
   },
   {
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Launches & the Ladder",
-   "headline": "Turf City returns at three thousand a foot",
-   "dek": "The first private homes in the old Turf City in a generation preview tomorrow at close to S$3,000 psf — while Lentor sells the same week at S$2,350, and a record 188 HDB flats changed hands above a million dollars in June. The ladder is stretching at both ends.",
+   "kicker": "Property · Launches & the Collective Bet",
+   "headline": "The gallery doors open at three thousand a foot",
+   "dek": "Dunearn House opens its showflat this morning with the full price list now public — and the bigger units carry a number Bukit Timah has never asked for. Across town, a seventy-two-unit freehold tries the en-bloc market for the fourth time.",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · The AI Trade's Earnings Test",
-   "headline": "A nineteen-fold profit, and it wasn't enough",
-   "dek": "Samsung's operating profit multiplied nineteen times over — and the stock fell seven per cent, torching chip shares worldwide, two days before SK hynix prices the largest US listing a foreign company has ever attempted. \"Priced for perfection\" just met its first earnings season.",
-   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Value, With a Memory",
-   "headline": "The $99 earbuds that remember what you heard",
-   "dek": "Nothing's Ear (3a) lands at a hundred dollars with a party trick the flagships don't have: pinch, and the last sixty seconds of your life are saved. The reviews call it the best bargain in audio. The feature deserves a harder look than the price.",
+   "kicker": "The Kit · Verdicts In",
+   "headline": "The $99 tracker that wants to disappear",
+   "dek": "Google's Fitbit Air shipped in late May; the review verdicts have now landed, and they're warmer than the spec sheet suggested. A five-gram screenless pebble is making a quiet argument the reader — who wears a ring on one hand and a strap on the other — already believes: the best tracker is the one you forget.",
    "anchor": "p9",
    "featured": false
   },
@@ -101,9 +101,9 @@
    "desk": "The Connected Home",
    "sub": "Walls That Listen",
    "category": "Smart Home",
-   "kicker": "The Connected Home · Presence, Not Pictures",
-   "headline": "The house that knows you're there — without watching",
-   "dek": "A small arms race broke out in millimetre-wave radar this month: SwitchBot launched a battery-powered presence sensor days after Aqara announced its own. For the migrator, presence detection is the upgrade that makes automations finally feel intelligent — and radar does it without a lens.",
+   "kicker": "The Connected Home · Standards & Reality",
+   "headline": "The first Matter camera works in exactly one app",
+   "dek": "Aqara's Camera Hub G350 is drawing the best reviews of any camera the company has made — and it carries a milestone certification whose promise, today, is honoured by a single platform. The gap between \"certified\" and \"works in your dashboard\" is this desk's oldest lesson, freshly illustrated.",
    "anchor": "p10",
    "featured": false
   },
@@ -111,9 +111,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · The Collectors Return",
-   "headline": "The gavel came back first",
-   "dek": "Phillips' spring season closed with watch sales up sixty per cent — hard numbers saying the collector market has re-heated after two cooling years. And from Japan, Seiko refreshes the most charming gateway drug in watchmaking: the Cocktail Time.",
+   "kicker": "The Good Life · Objects & Escapes",
+   "headline": "The cocktail hour, priced — and a two-minute sell-out",
+   "dek": "The Presage refresh we held for want of a price now has one, and it lands where Seiko is most dangerous: under five hundred euros with nothing missing. Meanwhile a preppy collaboration sold its entire run before the coffee cooled, and a London microbrand is chiselling cases by hand.",
    "anchor": "p11",
    "featured": false
   },
@@ -121,9 +121,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Awards Season Opens",
-   "headline": "The Emmys reward the long shift",
-   "dek": "Nominations landed Wednesday: The Pitt leads everything with 25, Hacks sets a comedy record with 24, and Vince Gilligan's Pluribus puts hard science fiction in the Best Drama race. Television's big tent, this year, belongs to people who simply kept working.",
+   "kicker": "Screen & Sound · Openings",
+   "headline": "The remake sails into a reef",
+   "dek": "Disney's live-action Moana opens tomorrow carrying the worst reviews any of its theatrical remakes has ever taken to sea — in the same week Christopher Nolan's Odyssey premiered to something close to rapture. Two ways to spend a fortune on a familiar story; only one of them held anything back.",
    "anchor": "p12",
    "featured": false
   },
@@ -131,9 +131,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Sport & the Sideline",
-   "headline": "Who really ends a childhood sport",
-   "dek": "The average child quits organised sport just before thirteen — and in a large national survey published this spring, girls who walked away were roughly twice as likely as boys to name a parent's sideline behaviour among the reasons. The ending, in other words, is often adult-authored.",
+   "kicker": "The Family Desk · The Peer Scaffold",
+   "headline": "Friendship is the intervention",
+   "dek": "A new national report on girlhood opens with the bleak numbers everyone expects — half of tween girls already want to change how they look — and then makes an unfashionable argument: the strongest lever isn't a rule, an app or a programme. It's whether a friend is standing next to her.",
    "anchor": "p13",
    "featured": false
   },
@@ -141,9 +141,9 @@
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Light From Before",
-   "headline": "Thirty-one lamps from the dawn",
-   "dek": "Euclid — the telescope Europe built to weigh dark energy — has stumbled into a different record: thirty-one newly confirmed quasars from the Universe's first billion years, two of them the most ancient ever seen. The side quest is becoming the mission.",
+   "kicker": "Curiosities · Deep Time, Collected",
+   "headline": "The first fossil collector wore a toga",
+   "dek": "In a second-century Roman rubbish pit in Colchester, archaeologists found a vertebra that had already been dead for 180 million years when its owner picked it up. Someone in Roman Britain collected a sea monster — and became, as far as the record knows, the first of us to do it.",
    "anchor": "p16",
    "featured": false
   },
@@ -151,9 +151,9 @@
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · The Stories We Tell About Endings",
-   "headline": "When she earns more, the old explanation fails",
-   "dek": "Couples where the woman out-earns her partner do separate more often — that pattern replicates. But a new study in the Journal of Marriage and Family finds the standard explanation, wounded traditional gender norms, doesn't hold up. The ending is real; the story we tell about it may be wrong.",
+   "kicker": "Love & Life · The Second Reading",
+   "headline": "It's the logistics, not the pride",
+   "dek": "Wednesday's study said the old story about higher-earning wives didn't hold. Now a far bigger dataset — half a million couples across twenty-nine countries — says what actually does: not wounded masculinity, but the unabsorbed shock of who covers the childcare when the earner can't.",
    "anchor": "p17",
    "featured": false
   },
@@ -161,9 +161,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Molecular Case for Starting Now",
-   "headline": "The brake on ageing muscle — and the pedal that releases it",
-   "dek": "A Singapore-led study names a molecular reason muscle declines with age: a regulator called DEAF1 rises, jams the cell's self-cleaning, and stalls repair. Exercise, it turns out, is the switch that turns DEAF1 back down. It is a lab result, not a prescription — but it explains why \"use it or lose it\" is literally true.",
+   "kicker": "Fitness · Sleep Is Training",
+   "headline": "The circuit that turns deep sleep into repair",
+   "dek": "Berkeley neuroscientists have mapped the wiring that connects slow-wave sleep to growth-hormone release — with a feedback loop nobody expected. For anyone who wears a recovery ring to bed, it's the mechanism behind the number you check every morning.",
    "anchor": "p18",
    "featured": false
   },
@@ -173,7 +173,7 @@
    "category": "Events",
    "kicker": "The Diary · Dated & Bookable",
    "headline": "What's worth booking",
-   "dek": "A national birthday, a Formula 1 exhibition making its Asian debut, teamLab reopening a signature zone in Tokyo — and, still, the concert this city has been waiting all summer to buy a ticket to.",
+   "dek": "A metal band returns after eleven years, K-pop stakes out 2027's calendar, Bruno Mars opens a Tokyo Dome lottery — and the National Day fireworks start tomorrow. Plus the on-sale this city still cannot buy.",
    "anchor": "p19",
    "featured": false
   },
@@ -182,8 +182,8 @@
    "sub": "The Long Read",
    "category": "Essay",
    "kicker": "The Long Read · An Essay",
-   "headline": "The Sense of an Ending",
-   "dek": "This was a week of endings — one proclaimed from a podium, one closed by a train. Between the two lies the whole difference the ancients meant when they said the end of a thing is better than its beginning: that finishing is a discipline, not an announcement, and that the endings we declare are usually the ones that don't hold.",
+   "headline": "Fight, fight; talk, talk",
+   "dek": "This week missiles were fired to be intercepted, ninety targets were struck so that one could be conspicuously spared, and the negotiators never hung up the phone. This looks like madness and is in fact a grammar — one with a long history, exacting rules, and a single catastrophic failure mode: being read literally.",
    "anchor": "p21",
    "featured": false
   }

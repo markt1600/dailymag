@@ -1,12 +1,138 @@
 {
-  "count": 180,
+  "count": 196,
   "subjects": [
+    {
+      "subject": "GPT-5.6 (Luna/Terra/Sol)",
+      "type": "AI release",
+      "last_covered": "No. 38",
+      "last_peg": "Home Lab LEAD — reception: Sol 88.8% Terminal-Bench SOTA but METR found the highest reward-hacking rate ever measured (11.3h vs 270h horizon — the gauge broke); Terra $2.50/$15 the workhorse; Sol gated",
+      "next_peg": "Next peg = Sol general availability, a major eval revision, or DeepSeek V4 head-to-head."
+    },
+    {
+      "subject": "Moana (live-action, 2026)",
+      "type": "Film",
+      "last_covered": "No. 38",
+      "last_peg": "Screen & Sound LEAD — opens 11 Jul at RT ~33%: worst-reviewed theatrical Disney live-action remake; tracking $45–60M dom",
+      "next_peg": "Next peg = actual opening grosses (the sceptic's test: reviews ≠ tickets); then close."
+    },
+    {
+      "subject": "Rolling Stones — *Foreign Tongues*",
+      "type": "Music release",
+      "last_covered": "No. 38",
+      "last_peg": "Screen & Sound — released 10 Jul (25th LP, Watt; McCartney/Winwood/R. Smith guests; mixed-positive)",
+      "next_peg": "Next peg = first-week chart / a notable critical consensus shift."
+    },
+    {
+      "subject": "Balestier Regency en-bloc (4th attempt)",
+      "type": "Property tender",
+      "last_covered": "No. 38",
+      "last_peg": "Property — tender CLOSED 9 Jul (S$255M guide); result unreported at press, held",
+      "next_peg": "Next peg = the result (or failure) — a live referendum on the en-bloc mechanism + MinLaw review tie."
+    },
+    {
+      "subject": "Rowing Blazers × Wind Vintage × Seiko Rally Divers",
+      "type": "Product",
+      "last_covered": "No. 38",
+      "last_peg": "Good Life — $495, 2,500/ref, sold out ~2 min (community-reported; secondary $750+ flagged unverified)",
+      "next_peg": "CLOSED — a restock or an official secondary-market note would be the only peg."
+    },
+    {
+      "subject": "Anoma A1 Prehistoric",
+      "type": "Product",
+      "last_covered": "No. 38",
+      "last_peg": "Good Life — hand-chiselled case (Brunel, ~5h), ~600 hand-cut dial lines, £2,900, 100 pcs, Oct delivery",
+      "next_peg": "Next peg = delivery/first hands-on; otherwise closed."
+    },
+    {
+      "subject": "Final DX10000 CL (diamond diaphragm)",
+      "type": "Product (audio)",
+      "last_covered": "No. 38",
+      "last_peg": "Good Life audio corner — pre-orders opened 9 Jul; $8,499/$8,999 first-150; Head-Fi awe-and-eye-roll",
+      "next_peg": "Next peg = first independent measurements/reviews — the \"True Diamond\" claims need third-party ears."
+    },
+    {
+      "subject": "Aqara Camera Hub G350",
+      "type": "Product (smart home)",
+      "last_covered": "No. 38",
+      "last_peg": "Connected Home LEAD — review verdicts in (\"excellent indoor Matter camera\"); first Matter-certified camera but streams SmartThings-only; HA 2026.7 matter.js = the dated path",
+      "next_peg": "Next peg = Matter camera streams landing in HA/other ecosystems — log the date the badge becomes a feature."
+    },
+    {
+      "subject": "GSUSA \"State of the Girl 2026\"",
+      "type": "Report",
+      "last_covered": "No. 38",
+      "last_peg": "Family LEAD — friendship-as-intervention (52%→92% friend effect); infrastructure-not-deficit framing; + GPIR STEM-belonging companion",
+      "next_peg": "CLOSED — next year's edition, or a major follow-up study."
+    },
+    {
+      "subject": "Adolescent gaming vs compulsion (CHB 2026)",
+      "type": "Study",
+      "last_covered": "No. 38",
+      "last_peg": "Family p14 — hours ≠ cognitive harm; failed-stop attempts = the signal; stop-button test",
+      "next_peg": "CLOSED unless replication/major critique."
+    },
+    {
+      "subject": "Female-breadwinner separation mechanism (Gonalons-Pons, JMF)",
+      "type": "Study",
+      "last_covered": "No. 38",
+      "last_peg": "Love & Life LEAD — 544,911 couples/29 countries: +36% overall, +49% w/ children vs +23% childless; logistics-not-machismo; day-2 pairing with No. 37's norms critique",
+      "next_peg": "CLOSED unless a direct challenge or the authors' follow-up."
+    },
+    {
+      "subject": "Deep-sleep → growth-hormone circuit (UC Berkeley, *Cell*)",
+      "type": "Study",
+      "last_covered": "No. 38",
+      "last_peg": "Fitness LEAD — GHRH/somatostatin gate + locus-coeruleus feedback; wearable deep-sleep tie-in; animal-model caveat",
+      "next_peg": "CLOSED unless human follow-up."
+    },
+    {
+      "subject": "Roman-collected ichthyosaur fossil (Colchester, *Britannia*)",
+      "type": "Science",
+      "last_covered": "No. 38",
+      "last_peg": "Curiosities LEAD — earliest known deliberately collected ichthyosaur fossil (2nd-c. AD pit; 17 centuries before Anning)",
+      "next_peg": "CLOSED — unless further Roman sites yield curated fossils (the sceptic's watch)."
+    },
+    {
+      "subject": "Webb 4th-anniversary Centaurus A image",
+      "type": "Science",
+      "last_covered": "No. 38",
+      "last_peg": "Curiosities — infrared portrait; unexplained S-shaped feature near the SMBH; release date unpinned, flagged",
+      "next_peg": "Next peg = an explanation of the S-feature, or year-5 imagery."
+    },
+    {
+      "subject": "Avenged Sevenfold — SG, 13 Oct 2026",
+      "type": "Event",
+      "last_covered": "No. 38",
+      "last_peg": "Diary — first SG show in 11 years; Indoor Stadium; ON SALE fr S$128",
+      "next_peg": "Now booking — re-list only on sell-out or date change."
+    },
+    {
+      "subject": "ENHYPEN — National Stadium, 14 Mar 2027",
+      "type": "Event",
+      "last_covered": "No. 38",
+      "last_peg": "Diary ★ — first NS show; on-sale reported Tue 15 Jul but YEAR AMBIGUOUS in listings — verify-flagged in print",
+      "next_peg": "Next peg = the verified on-sale (check Ticketmaster SG Tue)."
+    },
+    {
+      "subject": "Bruno Mars — Tokyo Dome, 27–28 Jan 2027",
+      "type": "Event",
+      "last_covered": "No. 38",
+      "last_peg": "Diary Japan ★ — Live Nation pre-sale lottery OPEN (from ¥11,800); enter-now-decide-later note",
+      "next_peg": "Next peg = lottery results window / general sale."
+    },
+    {
+      "subject": "Temasek Review 2026",
+      "type": "Report",
+      "last_covered": "No. 38",
+      "last_peg": "Singapore LEAD — record S$518bn NPV (+S$49bn; TSR 10.5%); AI 6%→15% plan; ~25% liquid the tell",
+      "next_peg": "CLOSED — annual; next peg = Review 2027 or a major strategy move in between."
+    },
     {
       "subject": "SK hynix Nasdaq ADR (SKHY)",
       "type": "IPO / listing",
-      "last_covered": "No. 37",
-      "last_peg": "Technology LEAD — the ~US$28bn ADR bookbuild closed a day early, oversubscribed (largest-ever US listing by a foreign firm, would beat Alibaba); SKHY trades Fri 10 Jul; Seoul shares −17% MTD (\"cycle or belief\")",
-      "next_peg": "Next peg = the actual first-day trade / pricing, then delta only. Don't re-explain the offering."
+      "last_covered": "No. 38",
+      "last_peg": "Technology LEAD — PRICED $149/ADR (~2.9% premium to Seoul), ~$26.5bn raised, >7× books: largest-ever US listing by a foreign company; KOSPI +3.6% on the day; first Nasdaq prints landed AFTER press (held; conditional ~$158 flagged grey)",
+      "next_peg": "Next peg = the actual first-day/first-week prints — cover the outcome, then close unless a major move."
     },
     {
       "subject": "Nothing Ear (3a)",
@@ -25,16 +151,16 @@
     {
       "subject": "Madonna — *Confessions II*",
       "type": "Music release",
-      "last_covered": "No. 37",
-      "last_peg": "Screen & Sound — reviews \"best in 20 years,\" 13.07M day-one Spotify, UK midweek #1; Billboard 200 print pending (five-decades superlative HELD); No. 36 lead carried",
-      "next_peg": "Next peg = the first-week Billboard 200 chart, then closed. Don't re-cover on \"still out.\""
+      "last_covered": "No. 38",
+      "last_peg": "Screen & Sound — Billboard #1 PROJECTION (~101k; 10th US #1, first dance #1 since Renaissance) held honestly as projection-not-print",
+      "next_peg": "Next peg = the actual Billboard 200 print (Mon SGT) — report the number, then close."
     },
     {
       "subject": "Dunearn House / Turf City (first private launch)",
       "type": "Housing launch",
-      "last_covered": "No. 37",
-      "last_peg": "Property LEAD — Frasers/CSC/Sekisui, 380 units, first private condo of the Bukit Timah Turf City transformation (~33 yrs); preview 10 Jul, books 25 Jul; 3BR ~$2,978 psf",
-      "next_peg": "Next peg = booking-day take-up / actual transacted psf, then delta. Don't restate the launch."
+      "last_covered": "No. 38",
+      "last_peg": "Property LEAD — FULL price list published (3BR fr $2,978 psf, 4BR fr $3,030 psf — CCR number in Turf City); preview opened 10 Jul, crowd data pending",
+      "next_peg": "Next peg = booking-day result 25 Jul (vs Lentor Gardens 18 Jul as the control)."
     },
     {
       "subject": "Lentor Gardens Residences",
@@ -53,9 +179,9 @@
     {
       "subject": "Seiko Presage Cocktail Time (2026 refresh)",
       "type": "Product (Good Life OBJECT)",
-      "last_covered": "No. 37",
-      "last_peg": "Good Life OBJECT — new HCB \"double shot\" models (Fratello, 7 Jul); specs/pricing HELD pending detail",
-      "next_peg": "Next peg = confirmed specs/pricing / a hands-on, then rotate. Don't re-feature without a new reference."
+      "last_covered": "No. 38",
+      "last_peg": "Good Life OBJECT — pricing/specs PUBLISHED (€490/¥68,200≈US$421; 38.5mm, 4R35); soft-yen Tokyo-purchase arithmetic (~S$580)",
+      "next_peg": "CLOSED unless a notable review wave, availability issue, or price move."
     },
     {
       "subject": "DEAF1 / FOXO muscle-ageing (Duke-NUS)",
@@ -193,9 +319,9 @@
     {
       "subject": "Nolan's *Odyssey* (all-IMAX 70mm)",
       "type": "Film",
-      "last_covered": "No. 15",
-      "last_peg": "Demoted (\"still in their trailers\")",
-      "next_peg": "Next peg = trailer, firm date, or first footage."
+      "last_covered": "No. 38",
+      "last_peg": "Screen & Sound — world-premiere reactions (\"staggering/flawless\"; tracking $80–120M > Oppenheimer pace; 70mm sold out a year out), paired against Moana's 33% as the withheld-vs-spent contrast",
+      "next_peg": "Next peg = opening weekend actuals (17 Jul) + first full reviews."
     },
     {
       "subject": "BTS reunion / National Stadium shows",
@@ -284,9 +410,9 @@
     {
       "subject": "Singapore new-restaurant openings (\"The Table\")",
       "type": "Dining (recurring / standing)",
-      "last_covered": "No. 27",
-      "last_peg": "Diary dining strip ROTATED: Torikizoku (Japan's accessible-izakaya giant, first SG outlet, VivoCity 15 Jun, flat S$3.90++/item, NOT halal — \"too new to call\"), Hathaway Autograph (modern-Peranakan flagship, Varel/Selegie), SukiyakiJin (Les Amis sukiyaki, Shaw Centre, premium) — each researched; \"now reviewed\" callback: Hikiniku to Come (VivoCity, ~S$27.90++, hype \"warranted\"). Prior venues (Satori",
-      "next_peg": "STANDING Diary feature, every edition. Rotate venues; apply the New-Peg Test to each restaurant (now-open → first reviews → notable change e.g. 2nd outlet / Michelin nod). Don't re-list the same opening without a new peg. **No. 27 ROTATED:** The Margin (halal-friendly S. American smokehouse, Forty7) the lead; Hikiniku to Come (Tokyo hamburg import, VivoCity, ~S$27.90++, NOT halal) the hyped import"
+      "last_covered": "No. 38",
+      "last_peg": "Diary strip ran the HONESTY LEDGER as the page — no fresh venues existed (July round-ups recycling Nos. 35–36 batches: Yi Man Fen, MENSHO X '25); verdict watch advanced (Mimmo stands; Sukiyaki Jin/Sam Sam Sam now open, unreviewed)",
+      "next_peg": "Standing — rotate when genuinely fresh doors open; Blue Box verdicts next issue are the obvious lead."
     },
     {
       "subject": "June 2026 BTO (Prime-heavy / Lakeview–Shunfu)",
@@ -375,9 +501,9 @@
     {
       "subject": "Google Fitbit \"Air\"",
       "type": "Product",
-      "last_covered": "No. 24",
-      "last_peg": "Demoted to \"still on the shelf\" again (No. 24 Kit strip); No. 19 Kit LEAD",
-      "next_peg": "Next peg = ship / first independent reviews / the coach's real-world utility, then delta only."
+      "last_covered": "No. 38",
+      "last_peg": "Kit LEAD — the sanctioned REVIEW peg fired: verdicts in ($99/5.2g, ~7-day; Tom's Guide \"best no-fuss tracker 2026\"; no GPS/altimeter, Google-Health lock-in)",
+      "next_peg": "CLOSED unless price cut, recall, or an \"Air 2.\""
     },
     {
       "subject": "AI grid power / DOE \"Agora\" grid simulator",
@@ -1115,13 +1241,6 @@
       "next_peg": "Next peg = an independent confirmation or follow-up; then closed. Don't re-cover without a new result."
     },
     {
-      "subject": "SK hynix Nasdaq ADR listing",
-      "type": "IPO / product (developing)",
-      "last_covered": "No. 34",
-      "last_peg": "Technology LEAD (\"Silicon & Sovereignty\") — SK hynix filed 24 Jun for a ~US$29.4–29.65bn Nasdaq ADR listing (17.79M shares; debut tentatively ~10 Jul; 2nd-largest US listing ever, ahead of Aramco); world's top HBM supplier ~60% share & Nvidia's key supplier; Q1 rev +198% YoY, ~77% net margin, stock +280% YTD, mkt cap >US$1T, overtook Samsung; Yongin cluster (4 fabs, 1st 2027, >$200B) + $4B Indiana",
-      "next_peg": "Developing — next peg = the actual listing/pricing, a debut print, or a notable HBM4 milestone; delta only, don't re-explain the oligopoly. Not investment advice. **No. 36 (Technology LEAD — the peg fulfilled):** the ADR **debut ~10 Jul** = the actual listing (the new peg vs the No. 34/35 filing); ~US$29.4bn, a top-5 US listing ever; “the memory cycle goes public” (VWRA already owns it), ~70% of 2"
-    },
-    {
       "subject": "Air NZ / SIA New Zealand South Island expansion (NW2026)",
       "type": "Travel / routes (developing)",
       "last_covered": "No. 34",
@@ -1199,13 +1318,6 @@
       "next_peg": "Developing — delta only. Next peg = a concrete resale programme, a capex revision, or a decisive break in the AI-infra trade."
     },
     {
-      "subject": "SK hynix Nasdaq ADR",
-      "type": "Corporate / listing",
-      "last_covered": "No. 35",
-      "last_peg": "One-line Tech continuity — the SK hynix US ADR debut flagged for ~10 Jul (world's top HBM supplier; No. 34 continuity)",
-      "next_peg": "Next peg = the actual debut / pricing, then closed unless a material follow-on."
-    },
-    {
       "subject": "Rolex Oyster case centenary (OP \"Celebration\")",
       "type": "Product / anniversary",
       "last_covered": "No. 35",
@@ -1222,9 +1334,9 @@
     {
       "subject": "Tiffany & Co. Blue Box Cafe (SG)",
       "type": "Dining",
-      "last_covered": "No. 35",
-      "last_peg": "Diary \"The Table\" LEAD — ION Orchard, mid-Jul, first in SG/SEA, menu by Julien Royer (Odette); \"most anticipated of the year\" but \"too new to call\" (not halal)",
-      "next_peg": "Apply the New-Peg Test — next peg = first reviews / an opening confirmation. Don't re-list without a new peg."
+      "last_covered": "No. 38",
+      "last_peg": "Diary \"The Table\" LEAD — opening date CONFIRMED Wed 15 Jul; Royer menu public (Confit Yellow Chicken, spot-prawn dumpling, Oita-egg+Oscietra breakfast); \"a date is not a dish\" — verdict still held",
+      "next_peg": "Next peg = first paying-table verdicts (expect the price-vs-value debate); then Michelin/second-site only."
     },
     {
       "subject": "3I/ATLAS (interstellar comet)",
