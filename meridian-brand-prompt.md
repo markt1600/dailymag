@@ -61,7 +61,7 @@ MERIDIAN is now built **inside a git repository** by Claude Code, which reads th
 
 ## PROMPT (copy from here ↓)
 
-Create **"MERIDIAN"** — a recurring magazine-style PDF news digest. Every edition must be instantly recognizable as the SAME publication by following the BRAND \& DESIGN SYSTEM below exactly. It must read and look like a real magazine you'd enjoy flipping through — a rich, DENSELY-PACKED layout (multi-column text, artwork, pull quotes, sidebars) that fills the page, NOT a sparse research report with air around it. Use the current date; cover roughly the past few days of news. Each edition runs twelve news desks and closes with a 2–3 page original long-form essay ("The Long Read") that ties the issue's themes together through historical analogy.
+Create **"MERIDIAN"** — a recurring magazine-style PDF news digest. Every edition must be instantly recognizable as the SAME publication by following the BRAND \& DESIGN SYSTEM below exactly. It must read and look like a real magazine you'd enjoy flipping through — a rich, DENSELY-PACKED layout (multi-column text, artwork, pull quotes, sidebars) that fills the page, NOT a sparse research report with air around it. Use the current date **in Singapore time (Asia/Singapore, UTC+8) — the governing clock for the edition date, the issue-log row, and the weekday/weekend mode check** (a 22:00 UTC build session is already the NEXT morning in Singapore; run `TZ=Asia/Singapore date` and trust it, not the container's UTC clock); cover roughly the past few days of news. Each edition runs twelve news desks and closes with a 2–3 page original long-form essay ("The Long Read") that ties the issue's themes together through historical analogy.
 
 ### BRAND \& DESIGN SYSTEM (keep IDENTICAL every edition)
 
