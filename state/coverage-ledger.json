@@ -1,5 +1,5 @@
 {
-  "count": 196,
+  "count": 205,
   "subjects": [
     {
       "subject": "GPT-5.6 (Luna/Terra/Sol)",
@@ -9,11 +9,74 @@
       "next_peg": "Next peg = Sol general availability, a major eval revision, or DeepSeek V4 head-to-head."
     },
     {
+      "subject": "Xreal a01+ AR glasses",
+      "type": "Product",
+      "last_covered": "No. 39",
+      "last_peg": "The Kit LEAD — first reviews (Gizmodo, The Gadgeteer, Engadget, 10 Jul): $299, 62g, 147\" virtual screen via USB-C DisplayPort, side-by-side 3D only",
+      "next_peg": "Next peg = a hands-on comparison review vs RayNeo Air 4 Pro, or a price cut."
+    },
+    {
+      "subject": "Rolex Daytona \"Rainbow\" ref. 126598RBOW (First State Auctions)",
+      "type": "Auction",
+      "last_covered": "No. 39",
+      "last_peg": "The Good Life LEAD — Australia's largest-ever Swiss-watch consignment (28 lots) opens 12 Jul; first example of this reference ever at auction, est. >$500k",
+      "next_peg": "Next peg = the actual hammer price/result."
+    },
+    {
+      "subject": "Evil Dead Burn",
+      "type": "Film",
+      "last_covered": "No. 39",
+      "last_peg": "Screen & Sound secondary — tracking $30–40M domestic opening, a potential franchise record (vs Evil Dead Rise's $24.5M, 2023)",
+      "next_peg": "Next peg = confirmed opening-weekend actuals."
+    },
+    {
+      "subject": "Kelela — \"new avatar\"",
+      "type": "Music release",
+      "last_covered": "No. 39",
+      "last_peg": "Screen & Sound — released 10 Jul, Metacritic 88 (5 reviews), Paste \"one of the best pop albums of the year\"",
+      "next_peg": "Next peg = first-week chart data or a notable award nod."
+    },
+    {
+      "subject": "STOP-EM (perimenopause strength trial)",
+      "type": "Study",
+      "last_covered": "No. 39",
+      "last_peg": "Fitness LEAD — Univ. of Calgary, *Bone Reports* (Jun 2026), n=40 feasibility trial: heavy 80–90%-1RM training preserved lean mass/leg power/bone density vs a waitlist control that lost ground on all three",
+      "next_peg": "Next peg = a definitive, larger follow-up RCT."
+    },
+    {
+      "subject": "Goblin shark filmed alive (*Mitsukurina owstoni*)",
+      "type": "Science",
+      "last_covered": "No. 39",
+      "last_peg": "Curiosities LEAD — Minderoo-UWA/Univ. of Hawai'i, *Journal of Fish Biology*: two sightings (2019 Jarvis Is., 2024 Tonga Trench 1,997m, a new depth record) — first-ever live footage of the species",
+      "next_peg": "Next peg = a further sighting/expedition, or formal population data."
+    },
+    {
+      "subject": "Philips Hue Zigbee + Matter-over-Thread firmware",
+      "type": "Product (smart home)",
+      "last_covered": "No. 39",
+      "last_peg": "Connected Home LEAD — firmware (rolling out later 2026) lets existing Hue bulbs run Zigbee and Thread simultaneously; Bridge Pro remains a bridge, not a Border Router",
+      "next_peg": "Next peg = the firmware's actual release date, or Hue shipping its own Border Router hardware."
+    },
+    {
+      "subject": "People-First Chatbot Act (H.R. 9619)",
+      "type": "Policy (developing, dated)",
+      "last_covered": "No. 39",
+      "last_peg": "The Family Desk LEAD — introduced 9 Jul by Reps. Foushee & Casar: disclosure mandate, child-data ban, compulsive-use safety checks",
+      "next_peg": "Next peg = committee movement, or a competing bill (GUARD Act / CHATBOT Act) advancing further."
+    },
+    {
+      "subject": "SIA Madrid via Barcelona",
+      "type": "Travel / routes",
+      "last_covered": "No. 39",
+      "last_peg": "The Travel Desk — new route from 26 Oct, 5x weekly A350-900, SIA's first Madrid service in 22 years, 15th European destination",
+      "next_peg": "Next peg = the inaugural flight, or the route's load-factor/performance once flying."
+    },
+    {
       "subject": "Moana (live-action, 2026)",
       "type": "Film",
-      "last_covered": "No. 38",
-      "last_peg": "Screen & Sound LEAD — opens 11 Jul at RT ~33%: worst-reviewed theatrical Disney live-action remake; tracking $45–60M dom",
-      "next_peg": "Next peg = actual opening grosses (the sceptic's test: reviews ≠ tickets); then close."
+      "last_covered": "No. 39",
+      "last_peg": "Screen & Sound — Thu previews soft ($4.5M), weekend tracking slid to $47–55M dom (was $70–89M) — the reviews-vs-tickets test resolved toward the sceptics",
+      "next_peg": "CLOSED — outcome covered; do not re-lead absent a major new angle (e.g. a sequel greenlight/cancellation)."
     },
     {
       "subject": "Rolling Stones — *Foreign Tongues*",
@@ -130,9 +193,9 @@
     {
       "subject": "SK hynix Nasdaq ADR (SKHY)",
       "type": "IPO / listing",
-      "last_covered": "No. 38",
-      "last_peg": "Technology LEAD — PRICED $149/ADR (~2.9% premium to Seoul), ~$26.5bn raised, >7× books: largest-ever US listing by a foreign company; KOSPI +3.6% on the day; first Nasdaq prints landed AFTER press (held; conditional ~$158 flagged grey)",
-      "next_peg": "Next peg = the actual first-day/first-week prints — cover the outcome, then close unless a major move."
+      "last_covered": "No. 39",
+      "last_peg": "Technology LEAD — first trading day closed +13% at $168.01, confirming the largest-ever US listing by a foreign company (beats Alibaba 2014); ticker SKHYV→SKHY from Tuesday",
+      "next_peg": "CLOSED — outcome priced and covered; only a major reversal or a first full-week close earns a fresh line."
     },
     {
       "subject": "Nothing Ear (3a)",
