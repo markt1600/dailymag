@@ -46,12 +46,19 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">')
 
 # ---- 1. number the pages and read their desk names from the running header ----
+# Tolerate sources that already carry id="pN" (e.g. copied from a prior
+# Photo Edition as a template) as well as the raw <section class="page">
+# form the brand prompt documents — either way, every page ends up with a
+# sequential id and NPAGES reflects the true page count.
 counter = {"n": 0}
 def add_id(m):
     counter["n"] += 1
     return f'<section id="p{counter["n"]}" class="page' + m.group(1)
-html = re.sub(r'<section class="page(["\s])', add_id, html)
-NPAGES = counter["n"]
+if re.search(r'<section id="p\d+" class="page', html):
+    NPAGES = len(re.findall(r'<section id="p\d+" class="page', html))
+else:
+    html = re.sub(r'<section class="page(["\s])', add_id, html)
+    NPAGES = counter["n"]
 
 # desk label per page (from .rh left span; cover/contents/back handled specially)
 navitems = []  # (page_no, label)
