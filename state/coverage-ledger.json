@@ -1,5 +1,5 @@
 {
-  "count": 205,
+  "count": 215,
   "subjects": [
     {
       "subject": "GPT-5.6 (Luna/Terra/Sol)",
@@ -25,9 +25,9 @@
     {
       "subject": "Evil Dead Burn",
       "type": "Film",
-      "last_covered": "No. 39",
-      "last_peg": "Screen & Sound secondary — tracking $30–40M domestic opening, a potential franchise record (vs Evil Dead Rise's $24.5M, 2023)",
-      "next_peg": "Next peg = confirmed opening-weekend actuals."
+      "last_covered": "No. 40",
+      "last_peg": "Screen & Sound — actual opening landed at $14.5M domestic ($6.5M first day), well under the $25–35M franchise-record projections tracked in No. 39; still profitable on a $15–20M budget",
+      "next_peg": "Closed unless a genuinely new peg (a multi-week hold, an international total, or a franchise-future decision)."
     },
     {
       "subject": "Kelela — \"new avatar\"",
@@ -1435,6 +1435,76 @@
       "last_covered": "No. 35",
       "last_peg": "Diary \"The Table\" ROTATED (fresh): Tiffany Blue Box Cafe (LEAD, too-new), Behind Clay (Clarke Quay speakeasy), Sam Sam Sam (Novena samgyetang), Food Republic @ Jewel reopens (3 Jul, value), Sukiyaki Jin (A5-wagyu tomato sukiyaki); \"now reviewed\" = Milli (No. 34 \"early days\" → fuller notices in). **Hikiniku to Come correctly NOT relisted — the RETIRED flag (No. 28) fired again** (the No. 32 saturat",
       "next_peg": "Apply the New-Peg Test per venue (too-new → first reviews → 2nd outlet / Michelin). Don't re-list without a new peg; Hikiniku stays RETIRED."
+    },
+    {
+      "subject": "Nvidia Rubin architecture",
+      "type": "Product / infrastructure",
+      "last_covered": "No. 40",
+      "last_peg": "Technology LEAD — confirmed in full production ~2 quarters ahead of its original schedule, against a Blackwell backlog of ~3.6M units across major cloud providers",
+      "next_peg": "Next peg = first independent Rubin benchmarks or a shipping customer announcement."
+    },
+    {
+      "subject": "Ollama Series B ($65M, Theory Ventures)",
+      "type": "Funding / product",
+      "last_covered": "No. 40",
+      "last_peg": "Home Lab LEAD — 8.9M monthly active developers; framed as \"the other kind of AI money\" against hyperscaler capex",
+      "next_peg": "Next peg = a notably new funding round, a major feature launch, or a usage-milestone update."
+    },
+    {
+      "subject": "Google & Samsung \"Intelligent Eyewear\" (Gentle Monster / Warby Parker)",
+      "type": "Product",
+      "last_covered": "No. 40",
+      "last_peg": "The Kit LEAD — first public look, fall 2026 launch, audio-first + display tiers, ~$600–900 estimated; supersedes the stale No. 17 Android XR note",
+      "next_peg": "Next peg = confirmed pricing, a hands-on review, or the actual fall launch."
+    },
+    {
+      "subject": "Home Assistant Green pricing ($99→$199)",
+      "type": "Product / pricing",
+      "last_covered": "No. 40",
+      "last_peg": "Connected Home LEAD — retail price doubled since 2023 launch, Nabu Casa attributes it to RAM/component cost pass-through; local-first principle holding at a real cost",
+      "next_peg": "Next peg = a further price move, a hardware refresh, or a subscription-model change."
+    },
+    {
+      "subject": "Sullivans Cove — 4th World's Best Single Cask Single Malt",
+      "type": "Award",
+      "last_covered": "No. 40",
+      "last_peg": "The Good Life LEAD — 2026 World Whiskies Awards, no other distillery has matched the feat; the whisky-trail credential behind this issue's Tasmania Grand Tour, p11/p21–22",
+      "next_peg": "Closed unless a genuinely new award cycle or release."
+    },
+    {
+      "subject": "ABCD Study — media-parenting practices \\& adolescent screen use",
+      "type": "Study",
+      "last_covered": "No. 40",
+      "last_peg": "The Family Desk LEAD — parental limit-setting/active monitoring predict lower problematic use; a parent's OWN screen use predicts more of it; \"don't be alarmist\" contrarian note; deliberately reframes rather than re-covers screen-time (saturated, No. 34)",
+      "next_peg": "Recurring (Family) — re-cover only on a notably new dataset/endpoint; general guidance, not medical advice."
+    },
+    {
+      "subject": "Resistance training \\& type 2 diabetes (Zhang et al., JAMA Network Open)",
+      "type": "Study",
+      "last_covered": "No. 40",
+      "last_peg": "Fitness LEAD — 143,715 adults, ~19.2-yr mean follow-up (Nurses' Health Study / HPFS); sustained (not merely started) training tied to 27–42% lower diabetes risk depending on volume/combination with aerobic activity",
+      "next_peg": "Recurring (Fitness) — re-cover only on a notably new dataset; general guidance, not medical advice."
+    },
+    {
+      "subject": "Romantic-deception typology (Journal of Social and Personal Relationships, 4 Jul)",
+      "type": "Study",
+      "last_covered": "No. 40",
+      "last_peg": "Love & Life LEAD — lies sorted by underlying motive (\"protecting the relationship\" vs \"protecting myself from it\"), paired with a compatibility-perception study",
+      "next_peg": "Recurring (Love & Life) — re-cover only on a notably new dataset."
+    },
+    {
+      "subject": "\"The Table\" No. 40 (MENSHO X / Yi Man Fen Dessert)",
+      "type": "Dining",
+      "last_covered": "No. 40",
+      "last_peg": "Diary \"The Table\" ROTATED (fresh): MENSHO X (Tokyo ramen brand's global debut, Raffles Place, chef Tomoharu Shono), Yi Man Fen Dessert / \"Sugar Rush\" (China's fastest-growing dessert chain, first outlet outside China, 313 Somerset) — both genuine international firsts, \"too new to call\" on the eating; Tiffany Blue Box Cafe (No. 38) still pre-open, one-line reminder only",
+      "next_peg": "Apply the New-Peg Test per venue (too-new → first reviews → 2nd outlet / Michelin). Don't re-list without a new peg."
+    },
+    {
+      "subject": "IMO Singapore-led Hormuz transit-rights resolution",
+      "type": "Diplomacy",
+      "last_covered": "No. 40",
+      "last_peg": "Singapore/World LEAD — 137th Council session, 30 co-sponsors incl. Indonesia \\& Malaysia; a rules-based marker on free transit, not an instrument that reopens the strait — deliberately distinguished from progress on the underlying ceasefire",
+      "next_peg": "Closed as a discrete event unless a concrete follow-on (enforcement mechanism, a new co-sponsor bloc, a breach dispute)."
     }
   ]
 }

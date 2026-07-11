@@ -17,9 +17,9 @@ import sys, re, pathlib
 
 html = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html").read_text()
 
-# split into page sections (each <section class="page ...">...)
-sections = re.split(r'(?=<section class="page)', html)
-pages = [s for s in sections if s.startswith('<section class="page')]
+# split into page sections (each <section ... class="page ...">...)
+sections = re.split(r'(?=<section[^>]*\bclass="page)', html)
+pages = [s for s in sections if re.match(r'<section[^>]*\bclass="page', s)]
 errors, warns = [], []
 
 npages = len(pages)
