@@ -1,77 +1,79 @@
 {
  "publication": "MERIDIAN",
- "issue": 40,
- "date": "12 July 2026",
- "generated": "2026-07-12T07:00:30+08:00",
+ "issue": 41,
+ "date": "13 July 2026",
+ "generated": "2026-07-13T06:51:42+08:00",
  "quote": {
-  "text": "For one human being to love another: that is perhaps the most difficult of all our tasks... the work for which all other work is but preparation.",
-  "author": "Rainer Maria Rilke, Letters to a Young Poet (1929)"
+  "text": "The truth is rarely pure and never simple.",
+  "author": "Oscar Wilde, The Importance of Being Earnest (1895)"
  },
  "macro": {
   "title": "What It Means — VWRA, Global Bonds, Gold & BTC",
   "reads": [
    {
     "label": "VWRA",
-    "text": "two-engine rally paused at the weekend, Monday is the real test of whether it continues."
+    "text": "equities shrugged off the hawkish shift on AI-chip optimism — valuations still assume rate-cut conditions the Fed now disputes."
    },
    {
-    "label": "Bonds",
-    "text": "Japan's long end remains genuinely unresolved — a live correlation risk, not a settled relief."
+    "label": "Global bonds",
+    "text": "yields whipsawed on policy repricing, not a steady trend — up on hawkish minutes, down on oil relief and a Tokyo pension-fund assist."
    },
    {
     "label": "Gold",
-    "text": "still a floor test, not a breakout."
+    "text": "holding roughly $4,060–4,160, its Hormuz safe-haven bid offset by dollar strength; forecasters range from $4,900 to $6,000 by year-end."
    },
    {
     "label": "BTC",
-    "text": "tracking equities' risk appetite, not an independent signal."
+    "text": "unmoved near $64,340, showing no clear correlation to the rates repricing."
    }
   ],
-  "note": "Education, not advice.",
+  "note": "Education, not advice; forecasts are forecasts.",
   "regime": [
-   "JGB, unresolved",
-   "Brent, cooling not closed"
+   "Hawkish pivot",
+   "Hormuz risk premium",
+   "CPI Tuesday",
+   "Earnings season opens"
   ],
   "anchor": "p15"
  },
  "stories": [
   {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Proven, again",
-   "headline": "Four Times, Not Once",
-   "dek": "A Tasmanian distillery has now been named the world's best single-cask single malt four separate times — a record no other producer has matched. It's the credential behind why this issue's Grand Tour takes the island's whisky trail seriously rather than as an afterthought.",
-   "anchor": "p11",
+   "desk": "The World",
+   "sub": "The Meridian Dispatch",
+   "category": "World",
+   "kicker": "The World · Gulf Crisis",
+   "headline": "Third strike wave hits Iran as Hormuz status splits into rival realities",
+   "dek": "Washington and Tehran traded a fresh round of attacks over the weekend, with Iranian strikes reaching five Gulf states. The Strait of Hormuz is now simultaneously \"closed\" and \"open,\" depending on who is asked.",
+   "anchor": "p3",
+   "featured": true
+  },
+  {
+   "desk": "The Macro Desk",
+   "sub": "The Big Picture",
+   "category": "Markets",
+   "kicker": "The Macro Desk · Four Instruments, One Reading",
+   "headline": "Fed's dot-plot flips: rate-cut odds vanish, September hike bets jump to roughly 70%",
+   "dek": "Hawkish June FOMC minutes, a Hormuz-rattled oil market and a blockbuster SK Hynix Nasdaq debut reset the board for equities, bonds, gold and bitcoin — ahead of Tuesday's US CPI and bank earnings season.",
+   "anchor": "p15",
    "featured": true
   },
   {
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · The dress rehearsal",
-   "headline": "The Dry Run, 800 Metres Out",
-   "dek": "A Japanese spacecraft flew within 800 metres of a two-lobed, snowman-shaped asteroid this fortnight — not to study it for its own sake, primarily, but to rehearse a manoeuvre it won't actually need until 2031.",
+   "kicker": "Curiosities · Deep Sea & Deep Sky",
+   "headline": "The ugliest shark on Earth was filmed alive for the first time in 125 million years of trying",
+   "dek": "A goblin shark swimming free at 4,058ft off Jarvis Island ends a run of accident-only sightings — plus Webb's four-years-in-the-making portrait of a galaxy crash, and a crystal that proves the quantum world doesn't stop at the atom.",
    "anchor": "p16",
    "featured": true
-  },
-  {
-   "desk": "The World",
-   "sub": "The Meridian Dispatch",
-   "category": "World",
-   "kicker": "The World · Delta only",
-   "headline": "A Label, and the Room Behind It",
-   "dek": "Last issue's \"over\" still hasn't changed the substance underneath it — the Doha channel reopened on schedule, exactly where it left off. Elsewhere, a World Cup quarterfinal actually did resolve, cleanly, while its neighbour was still being played as this issue closed.",
-   "anchor": "p3",
-   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The quieter kind of diplomacy",
-   "headline": "Thirty Signatures, No Applause",
-   "dek": "While the Hormuz ceasefire keeps generating headlines by not quite resolving, Singapore spent the week co-sponsoring something that made almost none — a shipping-lane resolution that thirty governments actually agreed to sign.",
+   "kicker": "Singapore · Transport",
+   "headline": "Circle Line closes the loop: CCL6 opens, cutting up to 10 minutes off Marina Bay trips",
+   "dek": "Three new stations — Keppel, Cantonment and Prince Edward Road — opened for passenger service on Sunday, completing a 39km, 33-station ring that finally links HarbourFront directly to Marina Bay.",
    "anchor": "p5",
    "featured": false
   },
@@ -79,9 +81,9 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Two tenders, still unresolved",
-   "headline": "Two Tenders, Still Not Real",
-   "dek": "A month on from Balestier Regency's fourth collective-sale attempt and five weeks on from High Point's fifth, neither has produced a result — a genuinely useful reminder that a tender closing is not the same event as a sale happening.",
+   "kicker": "Property · Resale Market",
+   "headline": "HDB resale index falls for a second straight quarter — even as million-dollar flats hit a record share",
+   "dek": "Fresh Q2 data complicates the resale story: the official price index is down 0.3% quarter-on-quarter, but June's flash reading shows a market bifurcating between mature-estate trophy flats and a softer non-mature segment — even as a mega Bayshore GLS site and a new Lentor preview keep private supply flowing.",
    "anchor": "p6",
    "featured": false
   },
@@ -89,9 +91,9 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · Ahead of schedule",
-   "headline": "Arriving Before It Was Due",
-   "dek": "Nvidia's next architecture is showing up roughly two quarters early, into a market where its current one is already sold out through mid-2026. That's not a company racing a rival — it's a company racing its own backlog.",
+   "kicker": "Technology · The SK hynix ticker switchover",
+   "headline": "SKHYV becomes SKHY today — and the memory maker's US investors get their first Monday to decide if $168 was a fair price",
+   "dek": "SK hynix's Nasdaq-listed shares trade under a new symbol from today, two trading days after a $26.5bn debut. The number Wall Street is now arguing over: how much of the AI-memory boom is already in the price.",
    "anchor": "p7",
    "featured": false
   },
@@ -99,29 +101,39 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · A first look, not yet a ship date",
-   "headline": "Google and Samsung Finally Show Up",
-   "dek": "Every serious AR-glasses story this year has come from a small player — Xreal, RayNeo. This week the two companies with the actual scale to make the category mainstream gave the first real look at what they're building, in partnership with eyewear houses that already know how to make glasses people want to wear.",
+   "kicker": "The Kit · A $35 tracker card, finally",
+   "headline": "Eufy's first Find Hub tracker lands two years late — and undercuts everyone by half",
+   "dek": "The SmartTrack Card E40 is Anker's Eufy brand joining Android's Find Hub network at $34.99, roughly the price of two cinema tickets and well under what Tile and Samsung charge for the same wallet-card form factor.",
    "anchor": "p9",
    "featured": false
   },
   {
-   "desk": "Connected Home",
+   "desk": "The Connected Home",
    "sub": "Walls That Listen",
-   "category": "Connected Home",
-   "kicker": "Connected Home · What local-first actually costs",
-   "headline": "The Price of Staying Local",
-   "dek": "The cheapest, most privacy-respecting way into a self-hosted smart home has doubled in price since 2023 — not because the hardware improved, but because the memory inside it got caught in the same shortage squeezing every other chip this year.",
+   "category": "Smart Home",
+   "kicker": "Connected Home · Two hubs, two philosophies",
+   "headline": "Home Assistant rewrote its Matter server from scratch. Apple Home added 4K and let Apple Intelligence watch your camera clips. Same week, opposite bets",
+   "dek": "Home Assistant 2026.7 went stable on 1 July with a from-scratch Matter server and plain-language automations. Days later, Apple shipped what reporting calls its biggest Home update in years. One is open-source infrastructure; the other is a walled garden getting more capable — and pricier.",
    "anchor": "p10",
+   "featured": false
+  },
+  {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · Object Lead",
+   "headline": "The Best-Laid Cabin: Singapore Airlines' New Business Seat Slips to 2027, Even as the A350 Lands This Month",
+   "dek": "Plus: a German audio house's biggest launch yet, and the wait goes on for a hammer price on the rarest Daytona to reach an Australian block.",
+   "anchor": "p11",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Projection vs. actual",
-   "headline": "What the Projection Missed",
-   "dek": "Two issues ago this desk flagged a horror sequel tracking for a franchise-record opening. It opened instead to well under half that projection — a clean, uncomfortable lesson in how far industry tracking can drift from what audiences actually do.",
+   "kicker": "Screen & Sound · Charts & Reels",
+   "headline": "Madonna Beats Her Own Projection: \"CONFESSIONS II\" Debuts at 134,000 Units for a 10th Billboard No.1",
+   "dek": "Moana's live-action remake confirms a soft ~$37M opening as Nolan's \"The Odyssey\" heads into its review embargo, and the first dissenting voice cracks the reaction consensus.",
    "anchor": "p12",
    "featured": false
   },
@@ -129,29 +141,19 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The variable that's actually yours",
-   "headline": "It Isn't the Hours, It's the House Rule",
-   "dek": "A large new study of American adolescents found something more useful than another screen-time-hours warning: what predicts problematic use isn't how much time a teenager spends on a device, it's whether a parent sets limits — and whether the parent's own screen habits match the rule they're asking for.",
+   "kicker": "The Family Desk · Screens & Wellbeing",
+   "headline": "The Screen-Time Study Everyone's Quoting — And What Its Numbers Actually Say",
+   "dek": "A new analysis of 50,231 American children puts hard figures on heavy screen use and mood. Before rewriting tonight's house rules, here's what the data can and can't tell you.",
    "anchor": "p13",
-   "featured": false
-  },
-  {
-   "desk": "The Macro Desk",
-   "sub": "The Big Picture",
-   "category": "Markets",
-   "kicker": "The Macro Desk · Four instruments, one reading",
-   "headline": "Held, Not Fresh",
-   "dek": "Markets closed Friday and stay closed through this issue's Sunday date — so this page does something a daily briefing doesn't have to: it tells you plainly which numbers are this week's close, and which are simply the last print available, carried forward rather than invented.",
-   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · The examined life",
-   "headline": "The Kind Lie, and the Other Kind",
-   "dek": "New research on deception between romantic partners doesn't treat all lying as equally corrosive — it sorts liars into distinct types, and the distinction between \"protecting the relationship\" and \"protecting myself from it\" turns out to matter more than whether a lie was told at all.",
+   "kicker": "Love & Life · Modern Dating",
+   "headline": "Swiping Left on the Other Party: Politics Now Outweighs Chemistry on Dating Apps",
+   "dek": "A new vignette study of young Americans finds the penalty for dating across party lines is bigger than the reward for dating within it.",
    "anchor": "p17",
    "featured": false
   },
@@ -159,30 +161,30 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Nineteen years of data",
-   "headline": "The Payoff Is in the Sustaining",
-   "dek": "A study following 143,715 adults for nearly two decades found resistance training's biggest protective effect wasn't tied to any single trial period — it was tied to keeping the habit going across midlife specifically, not starting it, stopping it, or picking it up late.",
+   "kicker": "Fitness · The Long Game",
+   "headline": "Why Doing Many Different Workouts Beats Doing More Of One",
+   "dek": "Thirty years of tracking more than 100,000 adults finds variety — not just volume — predicts a longer life. Plus: an early, small trial on creatine for the perimenopausal brain.",
    "anchor": "p18",
-   "featured": false
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · Departures",
-   "headline": "Small Additions, Steady Accretion",
-   "dek": "No single transformative route this fortnight — instead, a handful of frequency bumps and city-pair additions that quietly widen the board for a Singapore-based flyer, plus one genuinely new route worth a specific mention.",
-   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Singapore",
-   "headline": "The Dated Agenda",
-   "dek": "",
-   "anchor": "p23",
+   "kicker": "The Diary · Dated & Bookable",
+   "headline": "ENHYPEN's Singapore date finally gets its year — 2027, not 2026",
+   "dek": "A stadium show long filed under \"sometime soon\" gets a fixed calendar slot this week, a Jakarta leg of the same tour opens sales first, and Singapore's longest-running ticket chase enters its seventh unresolved issue.",
+   "anchor": "p19",
+   "featured": false
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Long Read",
+   "category": "Essay",
+   "kicker": "The Essay · The Long Read",
+   "headline": "What the Next Ship Reports",
+   "dek": "Twice this week, two capitals described the same stretch of water in opposite, sincere terms. It's an old problem. The old fix was never propaganda — it was patience, and the discipline of saying \"not yet\" out loud.",
+   "anchor": "p21",
    "featured": false
   }
  ]
