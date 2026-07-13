@@ -1,49 +1,21 @@
 {
  "publication": "MERIDIAN",
- "issue": 41,
- "date": "13 July 2026",
- "generated": "2026-07-13T06:51:42+08:00",
+ "issue": 42,
+ "date": "14 July 2026",
+ "generated": "2026-07-14T06:50:34+08:00",
  "quote": {
-  "text": "The truth is rarely pure and never simple.",
-  "author": "Oscar Wilde, The Importance of Being Earnest (1895)"
+  "text": "Uneasy lies the head that wears a crown.",
+  "author": "William Shakespeare, Henry IV, Part 2 (1597)"
  },
- "macro": {
-  "title": "What It Means — VWRA, Global Bonds, Gold & BTC",
-  "reads": [
-   {
-    "label": "VWRA",
-    "text": "equities shrugged off the hawkish shift on AI-chip optimism — valuations still assume rate-cut conditions the Fed now disputes."
-   },
-   {
-    "label": "Global bonds",
-    "text": "yields whipsawed on policy repricing, not a steady trend — up on hawkish minutes, down on oil relief and a Tokyo pension-fund assist."
-   },
-   {
-    "label": "Gold",
-    "text": "holding roughly $4,060–4,160, its Hormuz safe-haven bid offset by dollar strength; forecasters range from $4,900 to $6,000 by year-end."
-   },
-   {
-    "label": "BTC",
-    "text": "unmoved near $64,340, showing no clear correlation to the rates repricing."
-   }
-  ],
-  "note": "Education, not advice; forecasts are forecasts.",
-  "regime": [
-   "Hawkish pivot",
-   "Hormuz risk premium",
-   "CPI Tuesday",
-   "Earnings season opens"
-  ],
-  "anchor": "p15"
- },
+ "macro": null,
  "stories": [
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · Gulf Crisis",
-   "headline": "Third strike wave hits Iran as Hormuz status splits into rival realities",
-   "dek": "Washington and Tehran traded a fresh round of attacks over the weekend, with Iranian strikes reaching five Gulf states. The Strait of Hormuz is now simultaneously \"closed\" and \"open,\" depending on who is asked.",
+   "headline": "Trump names the US \"Guardian of the Strait,\" sets a 20% Hormuz toll — and finds no takers",
+   "dek": "A third weekend of strikes gave way Monday to a unilateral American toll on the world's busiest oil chokepoint. The Gulf states, the IMO and Beijing all said no before the gate even came down.",
    "anchor": "p3",
    "featured": true
   },
@@ -51,9 +23,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · Four Instruments, One Reading",
-   "headline": "Fed's dot-plot flips: rate-cut odds vanish, September hike bets jump to roughly 70%",
-   "dek": "Hawkish June FOMC minutes, a Hormuz-rattled oil market and a blockbuster SK Hynix Nasdaq debut reset the board for equities, bonds, gold and bitcoin — ahead of Tuesday's US CPI and bank earnings season.",
+   "kicker": "The Macro Desk · Market Explanation, Not Advice",
+   "headline": "Today's inflation print measures a June that's already out of date",
+   "dek": "US CPI and five banks' Q2 earnings land the same morning the Fed's own rate-hike odds have cooled — just as a fresh oil shock starts pricing a July the data hasn't caught up to yet.",
    "anchor": "p15",
    "featured": true
   },
@@ -61,9 +33,9 @@
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Deep Sea & Deep Sky",
-   "headline": "The ugliest shark on Earth was filmed alive for the first time in 125 million years of trying",
-   "dek": "A goblin shark swimming free at 4,058ft off Jarvis Island ends a run of accident-only sightings — plus Webb's four-years-in-the-making portrait of a galaxy crash, and a crystal that proves the quantum world doesn't stop at the atom.",
+   "kicker": "Curiosities · Space",
+   "headline": "A snowman-shaped asteroid, and a checklist for the coldest \"stars\" in the galaxy",
+   "dek": "Japan's Hayabusa2 delivers a close-up of a contact binary 100 million kilometres out, while a new study sets observable criteria for spotting a Dyson sphere — without claiming to have found one.",
    "anchor": "p16",
    "featured": true
   },
@@ -71,9 +43,9 @@
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Transport",
-   "headline": "Circle Line closes the loop: CCL6 opens, cutting up to 10 minutes off Marina Bay trips",
-   "dek": "Three new stations — Keppel, Cantonment and Prince Edward Road — opened for passenger service on Sunday, completing a 39km, 33-station ring that finally links HarbourFront directly to Marina Bay.",
+   "kicker": "Singapore · Economy",
+   "headline": "The number lands at 8am — and so, likely, does the haze",
+   "dek": "MTI's advance Q2 GDP estimate is due this morning, with economists split on whether growth held near Q1's pace or eased toward it. Separately, the El Niño season now carries a \"red\" risk rating for transboundary haze.",
    "anchor": "p5",
    "featured": false
   },
@@ -81,9 +53,9 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Resale Market",
-   "headline": "HDB resale index falls for a second straight quarter — even as million-dollar flats hit a record share",
-   "dek": "Fresh Q2 data complicates the resale story: the official price index is down 0.3% quarter-on-quarter, but June's flash reading shows a market bifurcating between mature-estate trophy flats and a softer non-mature segment — even as a mega Bayshore GLS site and a new Lentor preview keep private supply flowing.",
+   "kicker": "Property · Supply",
+   "headline": "Jurong Lake District's white site goes to tender — the biggest supply move of the second half",
+   "dek": "Nine Confirmed List sites join the 2H2026 government land sales programme, headlined by a mixed-use white site that could reshape Singapore's second CBD.",
    "anchor": "p6",
    "featured": false
   },
@@ -91,9 +63,9 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · The SK hynix ticker switchover",
-   "headline": "SKHYV becomes SKHY today — and the memory maker's US investors get their first Monday to decide if $168 was a fair price",
-   "dek": "SK hynix's Nasdaq-listed shares trade under a new symbol from today, two trading days after a $26.5bn debut. The number Wall Street is now arguing over: how much of the AI-memory boom is already in the price.",
+   "kicker": "Technology · AI & Chips",
+   "headline": "DeepSeek starts building its own chip, and finally sets a date for V4",
+   "dek": "A year-old, quietly-run effort to cut loose from Nvidia and Huawei surfaces the same week the model it's meant to serve gets a release date.",
    "anchor": "p7",
    "featured": false
   },
@@ -101,19 +73,19 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · A $35 tracker card, finally",
-   "headline": "Eufy's first Find Hub tracker lands two years late — and undercuts everyone by half",
-   "dek": "The SmartTrack Card E40 is Anker's Eufy brand joining Android's Find Hub network at $34.99, roughly the price of two cinema tickets and well under what Tile and Samsung charge for the same wallet-card form factor.",
+   "kicker": "The Kit · Confirmed",
+   "headline": "Samsung locks in 22 July — and the leaked Fold shape is a real departure",
+   "dek": "Unpacked is officially on the calendar, with Samsung signalling a foldable that looks nothing like the last four generations.",
    "anchor": "p9",
    "featured": false
   },
   {
-   "desk": "The Connected Home",
+   "desk": "Connected Home",
    "sub": "Walls That Listen",
-   "category": "Smart Home",
-   "kicker": "Connected Home · Two hubs, two philosophies",
-   "headline": "Home Assistant rewrote its Matter server from scratch. Apple Home added 4K and let Apple Intelligence watch your camera clips. Same week, opposite bets",
-   "dek": "Home Assistant 2026.7 went stable on 1 July with a from-scratch Matter server and plain-language automations. Days later, Apple shipped what reporting calls its biggest Home update in years. One is open-source infrastructure; the other is a walled garden getting more capable — and pricier.",
+   "category": "Connected Home",
+   "kicker": "Connected Home · Two Philosophies",
+   "headline": "Apple teaches its cameras to describe what they see; Home Assistant teaches its network to explain itself",
+   "dek": "The same July brought the two ecosystems' biggest updates in years — and they solved for almost opposite problems.",
    "anchor": "p10",
    "featured": false
   },
@@ -121,9 +93,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Object Lead",
-   "headline": "The Best-Laid Cabin: Singapore Airlines' New Business Seat Slips to 2027, Even as the A350 Lands This Month",
-   "dek": "Plus: a German audio house's biggest launch yet, and the wait goes on for a hammer price on the rarest Daytona to reach an Australian block.",
+   "kicker": "The Good Life · Audio",
+   "headline": "Sennheiser's new flagship makes its battery a spare part, not a warranty claim",
+   "dek": "Two premium-audio houses mark this July differently — one with a genuine spec jump, the other with an anniversary edition of a proven design.",
    "anchor": "p11",
    "featured": false
   },
@@ -131,9 +103,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Charts & Reels",
-   "headline": "Madonna Beats Her Own Projection: \"CONFESSIONS II\" Debuts at 134,000 Units for a 10th Billboard No.1",
-   "dek": "Moana's live-action remake confirms a soft ~$37M opening as Nolan's \"The Odyssey\" heads into its review embargo, and the first dissenting voice cracks the reaction consensus.",
+   "kicker": "Screen & Sound · Box Office",
+   "headline": "The Odyssey's tracking jumps past Oppenheimer's opening — a day before anyone's allowed to review it",
+   "dek": "Industry forecasters have revised Nolan's opening-weekend estimate sharply upward since the first reactions landed. The formal review embargo lifts tomorrow.",
    "anchor": "p12",
    "featured": false
   },
@@ -141,9 +113,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Screens & Wellbeing",
-   "headline": "The Screen-Time Study Everyone's Quoting — And What Its Numbers Actually Say",
-   "dek": "A new analysis of 50,231 American children puts hard figures on heavy screen use and mood. Before rewriting tonight's house rules, here's what the data can and can't tell you.",
+   "kicker": "The Family Desk · AI & Kids",
+   "headline": "Chatbot-safety laws reach the states — 78 bills, 27 legislatures, and counting",
+   "dek": "Oregon became the latest state to pass a chatbot-safety bill this week, part of a wave built almost entirely around one specific risk: AI \"companion\" apps designed to feel like a relationship.",
    "anchor": "p13",
    "featured": false
   },
@@ -151,9 +123,9 @@
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · Modern Dating",
-   "headline": "Swiping Left on the Other Party: Politics Now Outweighs Chemistry on Dating Apps",
-   "dek": "A new vignette study of young Americans finds the penalty for dating across party lines is bigger than the reward for dating within it.",
+   "kicker": "Love & Life · Dating",
+   "headline": "The \"dating recession\": most young adults who want marriage aren't dating at all",
+   "dek": "A large, nationally representative US survey finds low dating activity paired with low resilience — most who want serious relationships still say a single bad experience is enough to make them stop trying.",
    "anchor": "p17",
    "featured": false
   },
@@ -161,9 +133,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Long Game",
-   "headline": "Why Doing Many Different Workouts Beats Doing More Of One",
-   "dek": "Thirty years of tracking more than 100,000 adults finds variety — not just volume — predicts a longer life. Plus: an early, small trial on creatine for the perimenopausal brain.",
+   "kicker": "Fitness · Longevity",
+   "headline": "Ninety to 120 minutes a week — the strength-training sweet spot, from 30 years of data",
+   "dek": "A large new dataset finds a mortality-risk floor for resistance training, and it isn't \"more is always better.\" General guidance, not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -171,19 +143,19 @@
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Dated & Bookable",
-   "headline": "ENHYPEN's Singapore date finally gets its year — 2027, not 2026",
-   "dek": "A stadium show long filed under \"sometime soon\" gets a fixed calendar slot this week, a Jakarta leg of the same tour opens sales first, and Singapore's longest-running ticket chase enters its seventh unresolved issue.",
+   "kicker": "The Diary · The Agenda",
+   "headline": "ENHYPEN's on-sale finally opens tomorrow — BIGBANG's still hasn't, for an eighth straight issue",
+   "dek": "One long-running K-pop chase resolves on schedule; the other, dated and confirmed since No. 27, is still waiting on the one detail that actually lets a fan buy a ticket.",
    "anchor": "p19",
    "featured": false
   },
   {
-   "desk": "The Long Read",
+   "desk": "The Essay",
    "sub": "The Long Read",
-   "category": "Essay",
-   "kicker": "The Essay · The Long Read",
-   "headline": "What the Next Ship Reports",
-   "dek": "Twice this week, two capitals described the same stretch of water in opposite, sincere terms. It's an old problem. The old fix was never propaganda — it was patience, and the discipline of saying \"not yet\" out loud.",
+   "category": "The Essay",
+   "kicker": "The Long Read",
+   "headline": "The Sound and the Strait",
+   "dek": "On tolls nobody else signed off on, crowns nobody else conferred, and the much duller discipline — measurement — that eventually settles both arguments.",
    "anchor": "p21",
    "featured": false
   }
