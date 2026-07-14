@@ -1,25 +1,88 @@
 {
-  "count": 222,
+  "count": 231,
   "subjects": [
+    {
+      "subject": "Sony 1000X The Collexion",
+      "type": "Product",
+      "last_covered": "No. 43",
+      "last_peg": "The Good Life — 10th-anniversary flagship reviews land: wins on materials, but The Verge/Engadget both find ANC and sound quality a step down from Sony's own cheaper WH-1000XM6 ($650 vs $450)",
+      "next_peg": "Closed unless a notable revision or price cut."
+    },
+    {
+      "subject": "Meta camera-glasses privacy escalation",
+      "type": "Product/Policy (smart glasses)",
+      "last_covered": "No. 43",
+      "last_peg": "The Kit — Meta shipped a tamper-proof LED kill switch for its Ray-Ban camera glasses, then reports surfaced of an always-on \"super sensing\" prototype and new AI-feature rate limits, the same week",
+      "next_peg": "Next peg = the \"super sensing\" prototype's actual release status, or a formal Meta response to the backlash."
+    },
+    {
+      "subject": "IKEA DIRIGERA Matter Controller firmware",
+      "type": "Product (smart home)",
+      "last_covered": "No. 43",
+      "last_peg": "Connected Home — firmware 2.805.6 turns existing DIRIGERA hubs into full Matter Controllers and activates a previously-dormant Thread Border Router, no new hardware required",
+      "next_peg": "Next peg = the feature exiting beta, or IKEA's own Matter device lineup expanding."
+    },
+    {
+      "subject": "Home Assistant 2026.7",
+      "type": "Software (smart home)",
+      "last_covered": "No. 43",
+      "last_peg": "Connected Home LEAD — new matter.js-based Matter server (1.5.1 compliance) plus intent-based natural-language automations, released 1 Jul",
+      "next_peg": "Closed unless a notable follow-up release."
+    },
+    {
+      "subject": "ENHYPEN BLOOD SAGA World Tour — Singapore (National Stadium)",
+      "type": "Event",
+      "last_covered": "No. 43",
+      "last_peg": "Diary — Ticketmaster SG ENGENE-membership presale opened 15 Jul, the group's first National Stadium show (14 Mar 2027); general sale expected 17 Jul",
+      "next_peg": "Next peg = confirmation of sellout/pricing reception, or the general on-sale."
+    },
+    {
+      "subject": "Sukiyaki Jin (Les Amis Group, Shaw Centre)",
+      "type": "Restaurant",
+      "last_covered": "No. 43",
+      "last_peg": "The Table — first independent reviews land after 3 issues unreviewed: wagyu praised, portions/price and overcooking flagged; Time Out's verdict \"not necessarily a must-queue place\"",
+      "next_peg": "Closed unless a notable change (a second outlet, a Michelin nod)."
+    },
+    {
+      "subject": "MENSHO X (Raffles Place)",
+      "type": "Restaurant",
+      "last_covered": "No. 43",
+      "last_peg": "The Table — genuinely new sub-brand/location (distinct from the Sentosa Weave MENSHO X already on this ledger) opened 14 Jul, CBD fast-casual ramen counter",
+      "next_peg": "Next peg = first independent lunch-crowd review."
+    },
+    {
+      "subject": "Tiffany \\& Co. Blue Box Café (ION Orchard)",
+      "type": "Restaurant",
+      "last_covered": "No. 43",
+      "last_peg": "The Table — Singapore's first Blue Box Café, built with chef Julien Royer (Odette), opened 15 Jul; too new for a review at press time",
+      "next_peg": "Next peg = opening-week reception/first reviews."
+    },
+    {
+      "subject": "\"The Odyssey\" (Christopher Nolan film)",
+      "type": "Film",
+      "last_covered": "No. 43",
+      "last_peg": "Screen \\& Sound LEAD — review embargo lifted 15 Jul to near-unanimous raves (one dissent, IndieWire's Ehrlich); tracking climbed to a $98–132m opening estimate; opens SG 16 Jul, US 17 Jul, no actual numbers yet",
+      "next_peg": "Next peg = the actual opening-weekend box office."
+    },
     {
       "subject": "DeepSeek own inference chip \\& V4",
       "type": "AI release",
-      "last_covered": "No. 42",
-      "last_peg": "Technology LEAD — in-house inference chip effort (~1yr, early-stage, unnamed partners) surfaced alongside a confirmed mid-July V4 GA date + new peak-time API pricing",
-      "next_peg": "Next peg = V4's actual GA date, or the chip's first named partner/tape-out."
+      "last_covered": "No. 43",
+      "last_peg": "Technology LEAD — V4 still labelled \"preview\" past its promised mid-July GA; DeepSeek reportedly in talks for a ~$71B funding round/IPO prep instead; still no named foundry partner (an SMIC claim circulating is unconfirmed)",
+      "next_peg": "Next peg = V4's actual GA date, the funding round's outcome, or the chip's first named partner/tape-out."
     },
     {
       "subject": "Samsung Galaxy Unpacked / Z Fold 8",
       "type": "Event",
-      "last_covered": "No. 42",
-      "last_peg": "The Kit LEAD — Unpacked formally confirmed for 22 Jul London; pre-event leaks point to a wider, ~4:3 unfolded Z Fold 8, a real departure from the narrow form factor since 2019",
+      "last_covered": "No. 43",
+      "last_peg": "The Kit — event confirmed 22 Jul London; now also teased \"possibly\" Samsung's first smart glasses alongside the Z Fold 8/Z Flip 8",
       "next_peg": "Next peg = the actual Unpacked reveal (22 Jul)."
     },
     {
       "subject": "Even Realities G2",
       "type": "Product",
-      "last_covered": "No. 42",
-      "last_peg": "The Kit — no-camera, subtle-HUD smart glasses named most quietly impressive of CES 2026 by reviewers; positioned against Xreal/Ray-Ban Meta's camera-first approach",
+      "last_covered": "No. 43",
+      "last_peg": "The Kit — recontextualised against Meta's camera-glasses privacy escalation (LED-tamper kill switch, a \"super sensing\" prototype) as the no-camera counter-bet",
       "next_peg": "Next peg = a hands-on review or a price/availability update for this market."
     },
     {
@@ -39,8 +102,8 @@
     {
       "subject": "BIGBANG 20/26 World Tour (SG date)",
       "type": "Event",
-      "last_covered": "No. 42",
-      "last_peg": "Diary — SG on-sale/pricing still pending; the gap since the National Stadium date was confirmed (No. 27) has now stretched past seven weeks with no promoter explanation, even as other tour legs opened sales within days of their own venue confirmations. Standing chase since No. 25.",
+      "last_covered": "No. 43",
+      "last_peg": "Diary — SG on-sale/pricing still unannounced, now an 8th straight issue; sharpened this issue by the tour's own Goyang (Korea) home shows opening presale/general sale the same week — an unusually long gap for a market this size. Standing chase since No. 25.",
       "next_peg": "Next peg = the SG on-sale date/pricing, then the show itself (17 Oct). Don't re-lead without a fresh peg."
     },
     {
@@ -60,9 +123,9 @@
     {
       "subject": "Rolex Daytona \"Rainbow\" ref. 126598RBOW (First State Auctions)",
       "type": "Auction",
-      "last_covered": "No. 42",
-      "last_peg": "The Good Life — auction runs to 19 Jul; hammer price still unpublished a second issue running (No. 39 → No. 42), held rather than guessed",
-      "next_peg": "Next peg = the actual hammer price/result."
+      "last_covered": "No. 43",
+      "last_peg": "The Good Life — mystery resolved: the auction simply runs 12–19 Jul, so there was never a withheld hammer price; pre-sale estimate ~US$347,000–$417,000",
+      "next_peg": "Next peg = the actual hammer price, after 19 Jul."
     },
     {
       "subject": "Evil Dead Burn",
@@ -95,8 +158,8 @@
     {
       "subject": "Philips Hue Zigbee + Matter-over-Thread firmware",
       "type": "Product (smart home)",
-      "last_covered": "No. 39",
-      "last_peg": "Connected Home LEAD — firmware (rolling out later 2026) lets existing Hue bulbs run Zigbee and Thread simultaneously; Bridge Pro remains a bridge, not a Border Router",
+      "last_covered": "No. 43",
+      "last_peg": "Connected Home — CTO George Yianni confirmed the concurrent Zigbee-plus-Thread rollout to mains-powered bulbs via ordinary firmware update, later 2026",
       "next_peg": "Next peg = the firmware's actual release date, or Hue shipping its own Border Router hardware."
     },
     {
