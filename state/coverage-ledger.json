@@ -1,6 +1,76 @@
 {
-  "count": 231,
+  "count": 241,
   "subjects": [
+    {
+      "subject": "Nvidia Asia compliance whitelist",
+      "type": "Policy (AI chips)",
+      "last_covered": "No. 44",
+      "last_peg": "Technology LEAD — new buyer-screening system for Singapore/Malaysia/Japan customers, Nvidia says over half of past customers evaluated have failed; a \"trivial\" H200-to-China shipment confirmed same week",
+      "next_peg": "Next peg = the whitelist's actual pass-rate stabilising, a named buyer's rejection/appeal, or a policy revision."
+    },
+    {
+      "subject": "DeepSeek V4 (official release)",
+      "type": "AI release",
+      "last_covered": "No. 44",
+      "last_peg": "Technology — graduates preview→official with 1M-token context window standard + peak-hour API pricing (2x baseline); legacy model names retire 24 Jul",
+      "next_peg": "Next peg = independent benchmarks against GPT-5.6/Terra-Sol, or the retirement date landing."
+    },
+    {
+      "subject": "Samsung Galaxy Glasses",
+      "type": "Product (smart glasses)",
+      "last_covered": "No. 44",
+      "last_peg": "The Kit LEAD — confirmed for 22 Jul Unpacked London; two frames (Gentle Monster/Warby Parker), Snapdragon AR1, Spotify-via-Gemini",
+      "next_peg": "Next peg = the actual Unpacked reveal/hands-on (22 Jul) — don't restate the pre-launch specs."
+    },
+    {
+      "subject": "RingConn Gen 3",
+      "type": "Product (wearable)",
+      "last_covered": "No. 44",
+      "last_peg": "The Kit — independent review in: 17-day battery life, $349, undercuts Oura Ring 5 by ~$50, HR accuracy improved but still trails Oura/Galaxy Ring",
+      "next_peg": "Closed unless a notable price cut or a Gen 4 announcement."
+    },
+    {
+      "subject": "Sotheby's Tokyo watch sale",
+      "type": "Auction",
+      "last_covered": "No. 44",
+      "last_peg": "The Good Life LEAD — 21-24 Jul, first standalone Asia watch auction of the year; framed as a test of whether the independent-watchmaker premium travels east; result not yet in",
+      "next_peg": "Next peg = the actual results once the sale closes — don't assume the Geneva/NY pattern repeats."
+    },
+    {
+      "subject": "University of Arkansas Dyson-sphere checklist",
+      "type": "Study (space)",
+      "last_covered": "No. 44",
+      "last_peg": "Curiosities LEAD — a four-test checklist (temperature/dust signatures) timed to the JWST/Rubin/Roman 2026 convergence; 60 candidate stars already flagged, none confirmed",
+      "next_peg": "Next peg = a specific candidate ruled in/out by the new criteria, or fresh 2026 telescope data."
+    },
+    {
+      "subject": "University of Zurich long-term-singles study",
+      "type": "Study (relationships)",
+      "last_covered": "No. 44",
+      "last_peg": "Love \\& Life LEAD — sharper life-satisfaction/loneliness decline for extended singlehood, sharpest in the late twenties; read against Gallup married-loneliness data (up to 30% report it too)",
+      "next_peg": "Closed unless a notable follow-up dataset or a directly contradicting study."
+    },
+    {
+      "subject": "BJSM strength-training longevity dose (90-120 min/wk)",
+      "type": "Study (fitness)",
+      "last_covered": "No. 44",
+      "last_peg": "Fitness LEAD — 147,374 people/30 years; 13% lower all-cause mortality, 19% lower CVD mortality, benefits plateau beyond 90-120 min/week; paired with a Harvard exercise-variety study",
+      "next_peg": "Closed unless a notable follow-up or a directly contradicting study; the ACSM position-stand (No. 28) stays the standing longevity-guideline callback."
+    },
+    {
+      "subject": "Bloomberg defamation verdict (Shanmugam/Tan See Leng)",
+      "type": "Legal / press",
+      "last_covered": "No. 44",
+      "last_peg": "Singapore LEAD — S$230k each awarded, judge finds \"unprecedented\" malice over a Dec 2024 GCB-secrecy article; CPJ warns of a chilling effect",
+      "next_peg": "Closed as a discrete verdict unless a notable appeal is filed."
+    },
+    {
+      "subject": "Zero new private-home launches, June 2026",
+      "type": "Market data (property)",
+      "last_covered": "No. 44",
+      "last_peg": "Property LEAD — first zero-launch month in 19 years of URA developer-sales records, 156 units sold (2-yr low)",
+      "next_peg": "Closed as a discrete June data point; July/August launch-calendar rebound is the natural next peg, not a re-statement of June."
+    },
     {
       "subject": "Sony 1000X The Collexion",
       "type": "Product",
@@ -60,9 +130,9 @@
     {
       "subject": "\"The Odyssey\" (Christopher Nolan film)",
       "type": "Film",
-      "last_covered": "No. 43",
-      "last_peg": "Screen \\& Sound LEAD — review embargo lifted 15 Jul to near-unanimous raves (one dissent, IndieWire's Ehrlich); tracking climbed to a $98–132m opening estimate; opens SG 16 Jul, US 17 Jul, no actual numbers yet",
-      "next_peg": "Next peg = the actual opening-weekend box office."
+      "last_covered": "No. 44",
+      "last_peg": "Screen \\& Sound — not re-led; carried as a one-line delta (Nolan called casting/fidelity backlash \"irrelevant,\" drawing fresh pushback) opposite Steve Lacy's Oh Yeah? as the desk's actual LEAD; opens SG 16 Jul, US 17 Jul, still no numbers",
+      "next_peg": "Next peg = the actual opening-weekend box office — do not re-cover the reviews again."
     },
     {
       "subject": "DeepSeek own inference chip \\& V4",
@@ -221,9 +291,9 @@
     {
       "subject": "Aqara Camera Hub G350",
       "type": "Product (smart home)",
-      "last_covered": "No. 38",
-      "last_peg": "Connected Home LEAD — review verdicts in (\"excellent indoor Matter camera\"); first Matter-certified camera but streams SmartThings-only; HA 2026.7 matter.js = the dated path",
-      "next_peg": "Next peg = Matter camera streams landing in HA/other ecosystems — log the date the badge becomes a feature."
+      "last_covered": "No. 44",
+      "last_peg": "Connected Home LEAD — the dated path arrives: SmartThings bridged beta support ships, and HA 2026.7's Matter 1.5.1 compliance (No. 43) is revealed as the same unlock enabling camera/doorbell categories in HA",
+      "next_peg": "Next peg = SmartThings general release, or PTZ/recording support landing in a later firmware."
     },
     {
       "subject": "GSUSA \"State of the Girl 2026\"",
