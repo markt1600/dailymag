@@ -1,21 +1,44 @@
 {
  "publication": "MERIDIAN",
- "issue": 44,
- "date": "16 July 2026",
- "generated": "2026-07-16T06:47:17+08:00",
+ "issue": 45,
+ "date": "17 July 2026",
+ "generated": "2026-07-17T06:56:39+08:00",
  "quote": {
-  "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
-  "author": "Marcus Aurelius, Meditations, Book VI (written on campaign, c. 170s AD)"
+  "text": "Not everything that counts can be counted, and not everything that can be counted counts.",
+  "author": "William Bruce Cameron, Informal Sociology: A Casual Introduction to Sociological Thinking (1963)"
  },
- "macro": null,
+ "macro": {
+  "title": "What It Means for VWRA, Global Bonds, Gold & BTC",
+  "reads": [
+   {
+    "label": "VWRA & global bonds",
+    "text": "the dominant force on a globally diversified portfolio remains the cooling rate-hike path — easier yields help both anchors at once, and this week's equity weakness is a sector story (chips, one company's AI-delivery miss) rather than a broad macro signal worth reacting to."
+   },
+   {
+    "label": "Gold",
+    "text": "its failure to rally on an escalating war is the genuine story this fortnight — a real break from the textbook \"geopolitical premium\" pattern, worth understanding rather than trading on; one plausible read is that prolonged-war fiscal-uncertainty concerns have undermined the classic risk-off appeal of gold and Treasuries simultaneously."
+   },
+   {
+    "label": "Bitcoin",
+    "text": "flat and soft, consistent with its usual behaviour as a high-beta liquidity proxy rather than a haven."
+   }
+  ],
+  "note": "Education, not advice — none of this is a signal to buy, sell or hold anything; forecasts are flagged as forecasts and no level here should be read as a call.",
+  "regime": [
+   "Disinflation trade",
+   "Oil, one-month high",
+   "Gold decoupled"
+  ],
+  "anchor": "p15"
+ },
  "stories": [
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · Gulf Crisis",
-   "headline": "The 20% Hormuz toll is gone for good; a fourth wave of US strikes makes this the war's deadliest week yet",
-   "dek": "The reversal flagged in No. 43 has hardened into settled policy. What hasn't stopped is the blockade underneath it — or the casualty count.",
+   "headline": "Washington weighs seizing Kharg Island itself, as a sixth night of strikes makes this the war's deadliest week",
+   "dek": "The 20% Hormuz toll (No. 43-44) is old news now. What has actually widened is the target list — and, reportedly, the ambition.",
    "anchor": "p3",
    "featured": true
   },
@@ -23,29 +46,29 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · New Sales",
-   "headline": "Zero new launches in June — a first in nineteen years of URA developer-sales records",
-   "dek": "Developers sold just 156 units, the weakest month since February 2024, without releasing a single new project to the market.",
+   "kicker": "Property · Land Sales",
+   "headline": "Bayshore Drive draws a $2.128 billion bid — the first non-CBD GLS site ever to cross that line",
+   "dek": "A month after developers launched nothing at all, the same industry just placed only the third bid above $2 billion in the programme's history.",
    "anchor": "p6",
    "featured": true
   },
   {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · Music",
-   "headline": "Steve Lacy breaks a three-year silence tomorrow, in the most crowded release week of the summer",
-   "dek": "Oh Yeah? is his first album since Gemini Rights turned him into a genre unto himself — and it lands the same day as Nolan's The Odyssey and a five-deep album slate.",
-   "anchor": "p12",
+   "desk": "Curiosities",
+   "sub": "The Far Edges",
+   "category": "Science",
+   "kicker": "Curiosities · Space",
+   "headline": "James Webb quietly rules out two Dyson-sphere candidates, and finds a new planet nobody photographed",
+   "dek": "Both stories share the same discipline: don't trust an anomaly until you've ruled out the mundane explanation first.",
+   "anchor": "p16",
    "featured": true
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Courts & Press",
-   "headline": "Two ministers win S$460,000 from Bloomberg as a judge finds \"unprecedented\" malice",
-   "dek": "A defamation suit over a December 2024 property story ends with the harshest judicial language this desk has logged against a foreign outlet in years.",
+   "kicker": "Singapore · Aviation & Transit",
+   "headline": "Changi eyes six new routes ahead of Terminal 5, as the Downtown Line closes early tonight for testing",
+   "dek": "The airport's own capacity plan and a commuter's Friday night collide this week — both quietly about the same thing: what the next decade of Singapore's infrastructure looks like.",
    "anchor": "p5",
    "featured": false
   },
@@ -54,8 +77,8 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · AI Chips",
-   "headline": "Nvidia's new \"whitelist\" fails over half its past Asian buyers, as DeepSeek V4 graduates to official release",
-   "dek": "A compliance crackdown tightens who in Singapore can even buy the good chips, the same week a Chinese rival's flagship model leaves preview.",
+   "headline": "Nvidia's whitelist finally names a casualty, as DeepSeek V4's legacy-model grace window narrows to a week",
+   "dek": "The compliance rule this desk covered as an abstraction in No. 44 just became a specific company's problem.",
    "anchor": "p7",
    "featured": false
   },
@@ -63,19 +86,19 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Wearables",
-   "headline": "Samsung's Galaxy Glasses are confirmed for 22 July, built with Google, Qualcomm and Warby Parker",
-   "dek": "Two frame styles, a Snapdragon AR1 chip and a Spotify-via-Gemini party trick round out the fullest picture yet of Meta's first real challenger.",
+   "kicker": "The Kit · Wearables & AR",
+   "headline": "A $849 pair of gaming glasses ships in September, days before Samsung's own smart-glasses reveal",
+   "dek": "Two very different bets on what a face-worn screen is actually for, landing inside the same fortnight.",
    "anchor": "p9",
    "featured": false
   },
   {
-   "desk": "The Connected Home",
+   "desk": "Connected Home",
    "sub": "Walls That Listen",
-   "category": "Smart Home",
-   "kicker": "Connected Home · Matter",
-   "headline": "Matter's first camera arrives, a year after the standard promised one",
-   "dek": "Aqara's G350 becomes the standard's proof of concept for video devices, with SmartThings and Home Assistant both racing to catch up.",
+   "category": "Connected Home",
+   "kicker": "Connected Home · Matter & Thread",
+   "headline": "A firmware update switches on a radio IKEA's own hub has been quietly carrying for years",
+   "dek": "Nothing new was installed. The capability was already there, waiting for a software flag to turn it on — this desk's favourite kind of upgrade.",
    "anchor": "p10",
    "featured": false
   },
@@ -83,19 +106,29 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Watches",
-   "headline": "Sotheby's brings its watch sale to Tokyo this week — a real test of whether the independent premium travels",
-   "dek": "After a spring of independent watchmakers repeatedly out-earning the storied maisons in Geneva and New York, the format faces its first Asia-market test.",
+   "kicker": "The Good Life · Watches & Auctions",
+   "headline": "Three live watch auctions, none of them resolved yet — and this desk is holding every one honestly",
+   "dek": "A Rolex \"Rainbow\" Daytona, a Sotheby's Singapore sale, and a Sotheby's Tokyo sale all sit somewhere between opened and closed this week.",
    "anchor": "p11",
+   "featured": false
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound · Film & Music",
+   "headline": "The Odyssey opens today on an $85-120M tracking range; the actual number isn't in yet, and we're saying so",
+   "dek": "The most crowded release week of the summer lands on the same discipline this issue keeps applying everywhere else — report the tracking, not a guess at the gross.",
+   "anchor": "p12",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · AI at Home",
-   "headline": "The gap between what kids do with AI and what parents think they do",
-   "dek": "New survey data puts real numbers on a suspicion most parents of an 11-year-old already have — general guidance only, not a diagnosis of any one household.",
+   "kicker": "The Family Desk · Nutrition & Development",
+   "headline": "A toddler-nutrition study finds smaller brain regions linked to ultra-processed food — and no cognitive difference at all",
+   "dek": "A Children's Hospital Los Angeles/USC cohort measured real structural differences by age six. What it didn't find may be the more important half of the story.",
    "anchor": "p13",
    "featured": false
   },
@@ -104,28 +137,18 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · Market Explanation, Not Advice",
-   "headline": "Apple hits a record high the same session chipmakers fall as much as 8%",
-   "dek": "Wednesday's rally split cleanly down the middle — mega-cap AI winners versus the suppliers caught in Nvidia's new China-compliance squeeze.",
+   "headline": "Softer inflation eases yields even as the Gulf war pushes oil to a one-month high",
+   "dek": "Gold, this war's traditional hedge, is doing neither — down more than 20% since February and heading for its worst quarter since 2013.",
    "anchor": "p15",
-   "featured": false
-  },
-  {
-   "desk": "Curiosities",
-   "sub": "The Far Edges",
-   "category": "Science",
-   "kicker": "Curiosities · Space",
-   "headline": "A four-test checklist narrows the hunt for an alien megastructure",
-   "dek": "A University of Arkansas study times its search criteria to 2026's rare convergence of three major space telescopes.",
-   "anchor": "p16",
    "featured": false
   },
   {
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · Relationships",
-   "headline": "A Zurich study puts a number on the real cost of staying single into your late twenties",
-   "dek": "The decline is real and measurable — but the same data complicates the idea that marriage itself is the fix.",
+   "kicker": "Love & Life · Dating & Relationships",
+   "headline": "As dating-app burnout deepens, searches for a human matchmaker nearly double in a year",
+   "dek": "The algorithmic \"match\" stopped confirming its own promise for enough people that a much older signal is back in demand.",
    "anchor": "p17",
    "featured": false
   },
@@ -133,9 +156,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Longevity",
-   "headline": "The exact weekly dose of strength training that buys the most years",
-   "dek": "A 30-year, 147,000-person dataset finally puts a number on the \"how much is enough\" question this desk gets asked most.",
+   "kicker": "Fitness · Longevity Science",
+   "headline": "The DEAF1 gene switch this desk flagged in a mouse model (No. 37) now shows up in trained human muscle",
+   "dek": "General guidance, not medical advice — the human data the ledger was waiting for has arrived, and it's still a mechanism, not yet a therapy.",
    "anchor": "p18",
    "featured": false
   },
@@ -144,8 +167,8 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary · The Agenda",
-   "headline": "ENHYPEN's general sale lands tomorrow; BIGBANG's Singapore silence stretches into a ninth straight issue",
-   "dek": "National Day tickets aside, this fortnight's calendar is dominated by presales, not yet purchases — worth flagging early rather than late.",
+   "headline": "ENHYPEN's general sale opens this morning; Kyoto's Gion Matsuri procession runs today, and Osaka's Tenjin Matsuri is a week out",
+   "dek": "BIGBANG's Singapore silence, meanwhile, reaches a ninth straight issue with nothing new to report.",
    "anchor": "p19",
    "featured": false
   },
@@ -154,8 +177,8 @@
    "sub": "The Long Read",
    "category": "The Essay",
    "kicker": "The Long Read",
-   "headline": "An Election, Not Postponed",
-   "dek": "Kyiv holds a parliamentary vote for a new prime minister today, in the middle of an active war. This issue's real theme is everything else that also refused to wait for calmer weather.",
+   "headline": "The Canary That Stopped Singing",
+   "dek": "Gold just had its worst quarter since 2013, in the middle of a war it should theoretically love. This issue is full of signals that quietly stopped confirming the stories built around them — and a few that correctly refused to guess at all.",
    "anchor": "p21",
    "featured": false
   }

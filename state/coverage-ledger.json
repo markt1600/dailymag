@@ -1,26 +1,89 @@
 {
-  "count": 241,
+  "count": 251,
   "subjects": [
+    {
+      "subject": "Bayshore Drive GLS tender",
+      "type": "Land sale",
+      "last_covered": "No. 45",
+      "last_peg": "Property LEAD — top bid S$2.128bn/S$1,323 psf ppr (Frasers/Sunway MCL/Sekisui/Lum Chang JV), the first non-CBD GLS site ever to draw a bid over S$2bn",
+      "next_peg": "Next peg = the actual award confirmation, or a challenge to the result."
+    },
+    {
+      "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
+      "type": "Product (smart home)",
+      "last_covered": "No. 45",
+      "last_peg": "Connected Home LEAD — firmware v2.805.6 activates a Matter Controller function and a previously-dormant Thread Border Router already inside the hub (beta, manual enable)",
+      "next_peg": "Next peg = the features exiting beta, or a confirmed firmware-version verification from IKEA's own notes."
+    },
+    {
+      "subject": "ASUS ROG Xreal R1 (AR gaming glasses)",
+      "type": "Product",
+      "last_covered": "No. 45",
+      "last_peg": "The Kit LEAD — preorders opened, US$849, 240Hz Micro-OLED, ship date for new orders slips to September (previously flagged \"shipping July\" since No. 30)",
+      "next_peg": "Next peg = first independent reviews once units ship."
+    },
+    {
+      "subject": "Ultra-processed food / toddler brain-structure study (CHLA-USC)",
+      "type": "Study",
+      "last_covered": "No. 45",
+      "last_peg": "Family Desk LEAD — 144 mother-infant pairs, *Amer. J. Clinical Nutrition*: higher UPF intake linked to ~2% lower subcortical brain volume per 10% intake increase by age 6, with NO associated cognitive-score difference",
+      "next_peg": "Next peg = a larger replication cohort or a later-childhood cognitive/behavioural follow-up. General guidance, not medical advice."
+    },
+    {
+      "subject": "Beta Pictoris d (JWST)",
+      "type": "Science",
+      "last_covered": "No. 45",
+      "last_peg": "Curiosities — third directly-imaged planet in the Beta Pictoris system, the faintest exoplanet ever directly imaged, found via its spectroscopic atmospheric fingerprint rather than coronagraphic imaging",
+      "next_peg": "Next peg = further atmospheric characterisation, or the technique finding another faint world."
+    },
+    {
+      "subject": "Matchmaker surge / dating-app burnout",
+      "type": "Trend",
+      "last_covered": "No. 45",
+      "last_peg": "Love \\& Life LEAD — US \"matchmaker\" search volume up ~175% since early 2025, Match Group workforce cuts citing declining Gen Z engagement, industry-wide dating-app revenue's first-ever annual contraction",
+      "next_peg": "Next peg = a platform's own response, or data comparing matchmaker- vs app-sourced relationship outcomes."
+    },
+    {
+      "subject": "Ex-partner emotional fade (Fraley \\& Chong)",
+      "type": "Study",
+      "last_covered": "No. 45",
+      "last_peg": "Love \\& Life secondary — *Social Psychological and Personality Science*, n=320: attachment to an ex fades gradually, median ~4.18 years, moderated by attachment style and continued contact",
+      "next_peg": "Closed unless a notable follow-up dataset."
+    },
+    {
+      "subject": "Mozmoji (Chinatown ceramics-café)",
+      "type": "Restaurant",
+      "last_covered": "No. 45",
+      "last_peg": "The Table — mixed-positive verdict now established (aesthetics/concept praised, price and slow service flagged), opened May",
+      "next_peg": "Closed unless a notable change (expansion, a price move)."
+    },
+    {
+      "subject": "Yi Man Fen Dessert (313 Somerset)",
+      "type": "Restaurant",
+      "last_covered": "No. 45",
+      "last_peg": "The Table — a stalled \"coming soon\" (pruned for staleness, No. 44) returns with a real address; first Singapore/overseas outlet of a 90-outlet China chain",
+      "next_peg": "Next peg = first independent review."
+    },
     {
       "subject": "Nvidia Asia compliance whitelist",
       "type": "Policy (AI chips)",
-      "last_covered": "No. 44",
-      "last_peg": "Technology LEAD — new buyer-screening system for Singapore/Malaysia/Japan customers, Nvidia says over half of past customers evaluated have failed; a \"trivial\" H200-to-China shipment confirmed same week",
-      "next_peg": "Next peg = the whitelist's actual pass-rate stabilising, a named buyer's rejection/appeal, or a policy revision."
+      "last_covered": "No. 45",
+      "last_peg": "Technology LEAD — the whitelist's first named casualty: Megaspeed (Singapore-based) flagged for allegedly facilitating banned-equipment transfers Jun 2024-Jun 2025; no appeals timeline published",
+      "next_peg": "Next peg = Megaspeed's appeal/outcome, or another named buyer."
     },
     {
       "subject": "DeepSeek V4 (official release)",
       "type": "AI release",
-      "last_covered": "No. 44",
-      "last_peg": "Technology — graduates preview→official with 1M-token context window standard + peak-hour API pricing (2x baseline); legacy model names retire 24 Jul",
-      "next_peg": "Next peg = independent benchmarks against GPT-5.6/Terra-Sol, or the retirement date landing."
+      "last_covered": "No. 45",
+      "last_peg": "Technology — legacy deepseek-chat/deepseek-reasoner API retirement narrows to one week (24 Jul); still no independent GPT-5.6-specific benchmark found",
+      "next_peg": "Next peg = the 24 Jul retirement landing, or a genuine GPT-5.6 head-to-head."
     },
     {
       "subject": "Samsung Galaxy Glasses",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 44",
-      "last_peg": "The Kit LEAD — confirmed for 22 Jul Unpacked London; two frames (Gentle Monster/Warby Parker), Snapdragon AR1, Spotify-via-Gemini",
-      "next_peg": "Next peg = the actual Unpacked reveal/hands-on (22 Jul) — don't restate the pre-launch specs."
+      "last_covered": "No. 45",
+      "last_peg": "The Kit — pre-Unpacked leaks (unconfirmed): ~50g, 12MP camera, 155mAh battery, dual privacy LEDs, rumoured $379-499, no display (2027 for that tier)",
+      "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
     },
     {
       "subject": "RingConn Gen 3",
@@ -32,16 +95,16 @@
     {
       "subject": "Sotheby's Tokyo watch sale",
       "type": "Auction",
-      "last_covered": "No. 44",
-      "last_peg": "The Good Life LEAD — 21-24 Jul, first standalone Asia watch auction of the year; framed as a test of whether the independent-watchmaker premium travels east; result not yet in",
-      "next_peg": "Next peg = the actual results once the sale closes — don't assume the Geneva/NY pattern repeats."
+      "last_covered": "No. 45",
+      "last_peg": "The Good Life — a Singapore \"Luxury Week\" leg (15-17 Jul) has concluded with no results published; the Tokyo sale itself (21-24 Jul) remains the closer-watched test, still unresolved",
+      "next_peg": "Next peg = the actual results once either sale closes — don't assume the Geneva/NY pattern repeats."
     },
     {
       "subject": "University of Arkansas Dyson-sphere checklist",
       "type": "Study (space)",
-      "last_covered": "No. 44",
-      "last_peg": "Curiosities LEAD — a four-test checklist (temperature/dust signatures) timed to the JWST/Rubin/Roman 2026 convergence; 60 candidate stars already flagged, none confirmed",
-      "next_peg": "Next peg = a specific candidate ruled in/out by the new criteria, or fresh 2026 telescope data."
+      "last_covered": "No. 45",
+      "last_peg": "Curiosities — a Project Hephaistos IV JWST follow-up rules OUT two of the 60 flagged candidates (D and E — background galaxies, not megastructures); ~4-5 remain genuinely unexplained",
+      "next_peg": "Next peg = a further candidate ruled in/out, or fresh 2026 telescope data."
     },
     {
       "subject": "University of Zurich long-term-singles study",
@@ -123,16 +186,30 @@
     {
       "subject": "Tiffany \\& Co. Blue Box Café (ION Orchard)",
       "type": "Restaurant",
-      "last_covered": "No. 43",
-      "last_peg": "The Table — Singapore's first Blue Box Café, built with chef Julien Royer (Odette), opened 15 Jul; too new for a review at press time",
-      "next_peg": "Next peg = opening-week reception/first reviews."
+      "last_covered": "No. 45",
+      "last_peg": "The Table — genuinely unreviewed a full issue after opening (No. 43-44); correctly demoted to a one-line status check rather than re-served without a new peg",
+      "next_peg": "Next peg = the actual first paying-table reviews — do not re-describe the opening again."
     },
     {
       "subject": "\"The Odyssey\" (Christopher Nolan film)",
       "type": "Film",
-      "last_covered": "No. 44",
-      "last_peg": "Screen \\& Sound — not re-led; carried as a one-line delta (Nolan called casting/fidelity backlash \"irrelevant,\" drawing fresh pushback) opposite Steve Lacy's Oh Yeah? as the desk's actual LEAD; opens SG 16 Jul, US 17 Jul, still no numbers",
-      "next_peg": "Next peg = the actual opening-weekend box office — do not re-cover the reviews again."
+      "last_covered": "No. 45",
+      "last_peg": "Screen \\& Sound LEAD — opens wide 17 Jul on an $85-120M tracking range (Variety/Forbes/Deadline); no actual gross published at press time, held honestly as tracking not fact",
+      "next_peg": "Next peg = the actual opening-weekend gross once studios report it."
+    },
+    {
+      "subject": "Steve Lacy — \"Oh Yeah?\"",
+      "type": "Music release",
+      "last_covered": "No. 45",
+      "last_peg": "Screen \\& Sound — ends a 3-year recording silence, released 17 Jul; reviewed as \"one of the most purely enjoyable albums of the year\" (Stereogum), weak lyrics the main knock",
+      "next_peg": "Next peg = first-week chart data."
+    },
+    {
+      "subject": "Gracie Abrams — \"Daughter From Hell\"",
+      "type": "Music release",
+      "last_covered": "No. 45",
+      "last_peg": "Screen \\& Sound — 3rd album, released 17 Jul; genuinely split critical reception (Rolling Stone \"her best yet\" vs Guardian \"melodramatic\")",
+      "next_peg": "Next peg = first-week chart data or a notable award nod."
     },
     {
       "subject": "DeepSeek own inference chip \\& V4",
@@ -193,9 +270,9 @@
     {
       "subject": "Rolex Daytona \"Rainbow\" ref. 126598RBOW (First State Auctions)",
       "type": "Auction",
-      "last_covered": "No. 43",
-      "last_peg": "The Good Life — mystery resolved: the auction simply runs 12–19 Jul, so there was never a withheld hammer price; pre-sale estimate ~US$347,000–$417,000",
-      "next_peg": "Next peg = the actual hammer price, after 19 Jul."
+      "last_covered": "No. 45",
+      "last_peg": "The Good Life — still genuinely pending: first tranche closes 19 Jul, second 19-26 Jul; part of a 28-piece, $2M+ collection, estimate \"in excess of $500,000\"",
+      "next_peg": "Next peg = the actual hammer price, after 19 Jul — do not guess at one."
     },
     {
       "subject": "Evil Dead Burn",
@@ -424,9 +501,9 @@
     {
       "subject": "DEAF1 / FOXO muscle-ageing (Duke-NUS)",
       "type": "Study",
-      "last_covered": "No. 37",
-      "last_peg": "Fitness LEAD — Duke-NUS / *Autophagy*: DEAF1 rises with age → mTORC1 overdrive → autophagy suppressed → repair stalls; exercise activates FOXO to lower DEAF1 (mouse/cell model; \"start at 45 not 60\"); UCLA NDRG1 (3 Jul) complements",
-      "next_peg": "Next peg = human data or a notable new endpoint; keep the model-not-prescription caveat. General guidance, not medical advice."
+      "last_covered": "No. 45",
+      "last_peg": "Fitness LEAD — the human-data advance the No. 37 mouse/cell model was waiting for: Duke-NUS, *Nature Aging*, confirms DEAF1 behaves the same way in trained human muscle tissue (rises with age, falls with consistent exercise)",
+      "next_peg": "Next peg = a further human endpoint or a notable clinical trial; keep the mechanism-not-prescription caveat. General guidance, not medical advice."
     },
     {
       "subject": "Euclid ancient quasars (z 6.6–7.8)",
@@ -1568,13 +1645,6 @@
       "last_covered": "No. 35",
       "last_peg": "Screen & Sound LEAD (cover) — the 17 Jul IMAX 70mm release (demand outpacing *Oppenheimer*; 70mm pairs reselling to ~$1,500; Damon/Holland/Zendaya) anchoring the issue's homecoming spine",
       "next_peg": "Next peg = opening-weekend result (held honestly, no fabricated gross) / reviews, then a possible one-line. Previously a one-line across Nos. 06–24."
-    },
-    {
-      "subject": "Tiffany & Co. Blue Box Cafe (SG)",
-      "type": "Dining",
-      "last_covered": "No. 42",
-      "last_peg": "Diary \"The Table\" LEAD — the confirmed 15 Jul opening (No. 38) has arrived: opens tomorrow at press time; still pre-verdict",
-      "next_peg": "Next peg = first paying-table verdicts (expect the price-vs-value debate); then Michelin/second-site only."
     },
     {
       "subject": "3I/ATLAS (interstellar comet)",
