@@ -1,11 +1,11 @@
 {
-  "count": 251,
+  "count": 257,
   "subjects": [
     {
       "subject": "Bayshore Drive GLS tender",
       "type": "Land sale",
-      "last_covered": "No. 45",
-      "last_peg": "Property LEAD — top bid S$2.128bn/S$1,323 psf ppr (Frasers/Sunway MCL/Sekisui/Lum Chang JV), the first non-CBD GLS site ever to draw a bid over S$2bn",
+      "last_covered": "No. 46",
+      "last_peg": "Property — the S$2.128bn top bid remains pending government approval, no award confirmed; a sceptic's read flags a ~S$2,750-3,100 psf breakeven-implied launch price as a steep ask against softening OCR prices",
       "next_peg": "Next peg = the actual award confirmation, or a challenge to the result."
     },
     {
@@ -18,8 +18,8 @@
     {
       "subject": "ASUS ROG Xreal R1 (AR gaming glasses)",
       "type": "Product",
-      "last_covered": "No. 45",
-      "last_peg": "The Kit LEAD — preorders opened, US$849, 240Hz Micro-OLED, ship date for new orders slips to September (previously flagged \"shipping July\" since No. 30)",
+      "last_covered": "No. 46",
+      "last_peg": "The Kit — the September slip is now visible on Xreal's own storefront (both IPD variants listed sold out), not just reported; price unchanged at $849",
       "next_peg": "Next peg = first independent reviews once units ship."
     },
     {
@@ -60,29 +60,29 @@
     {
       "subject": "Yi Man Fen Dessert (313 Somerset)",
       "type": "Restaurant",
-      "last_covered": "No. 45",
-      "last_peg": "The Table — a stalled \"coming soon\" (pruned for staleness, No. 44) returns with a real address; first Singapore/overseas outlet of a 90-outlet China chain",
-      "next_peg": "Next peg = first independent review."
+      "last_covered": "No. 46",
+      "last_peg": "The Table — first independent review lands: recommended, \"modern spins on traditional desserts,\" pistachio kataifi singled out",
+      "next_peg": "Next peg = whether Singapore queues match the China chain's scale, or a second outlet."
     },
     {
       "subject": "Nvidia Asia compliance whitelist",
       "type": "Policy (AI chips)",
-      "last_covered": "No. 45",
-      "last_peg": "Technology LEAD — the whitelist's first named casualty: Megaspeed (Singapore-based) flagged for allegedly facilitating banned-equipment transfers Jun 2024-Jun 2025; no appeals timeline published",
+      "last_covered": "No. 46",
+      "last_peg": "Technology LEAD — Megaspeed case gains real texture: tied to ~$2bn in potential orders, a Singapore Police investigation confirmed alongside a US Commerce probe, but Nvidia's own site visits found \"no evidence of diversion\" — first case with both sides on record",
       "next_peg": "Next peg = Megaspeed's appeal/outcome, or another named buyer."
     },
     {
       "subject": "DeepSeek V4 (official release)",
       "type": "AI release",
-      "last_covered": "No. 45",
-      "last_peg": "Technology — legacy deepseek-chat/deepseek-reasoner API retirement narrows to one week (24 Jul); still no independent GPT-5.6-specific benchmark found",
+      "last_covered": "No. 46",
+      "last_peg": "Technology — legacy deepseek-chat/deepseek-reasoner retirement now a hard, dated deadline (15:59 UTC 24 Jul, no extension); deepseek-reasoner silently remaps to Flash-tier, not Pro",
       "next_peg": "Next peg = the 24 Jul retirement landing, or a genuine GPT-5.6 head-to-head."
     },
     {
       "subject": "Samsung Galaxy Glasses",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 45",
-      "last_peg": "The Kit — pre-Unpacked leaks (unconfirmed): ~50g, 12MP camera, 155mAh battery, dual privacy LEDs, rumoured $379-499, no display (2027 for that tier)",
+      "last_covered": "No. 46",
+      "last_peg": "The Kit — sharper pre-Unpacked leaks: audio-only/no display confirmed in leak detail, Snapdragon AR1, Gentle Monster/Warby Parker frames, Gemini onboard, $379-499, a 2027 display tier rumoured",
       "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
     },
     {
@@ -186,9 +186,9 @@
     {
       "subject": "Tiffany \\& Co. Blue Box Café (ION Orchard)",
       "type": "Restaurant",
-      "last_covered": "No. 45",
-      "last_peg": "The Table — genuinely unreviewed a full issue after opening (No. 43-44); correctly demoted to a one-line status check rather than re-served without a new peg",
-      "next_peg": "Next peg = the actual first paying-table reviews — do not re-describe the opening again."
+      "last_covered": "No. 46",
+      "last_peg": "The Table — first reviews land, early and favourable (Eatbook, Time Out, TheSmartLocal), though still close to press-preview tone with no forum chatter yet",
+      "next_peg": "Next peg = a fully independent/forum verdict beyond the early press coverage."
     },
     {
       "subject": "\"The Odyssey\" (Christopher Nolan film)",
@@ -270,8 +270,8 @@
     {
       "subject": "Rolex Daytona \"Rainbow\" ref. 126598RBOW (First State Auctions)",
       "type": "Auction",
-      "last_covered": "No. 45",
-      "last_peg": "The Good Life — still genuinely pending: first tranche closes 19 Jul, second 19-26 Jul; part of a 28-piece, $2M+ collection, estimate \"in excess of $500,000\"",
+      "last_covered": "No. 46",
+      "last_peg": "The Good Life — still genuinely pending one issue later: first tranche closes 19 Jul (tomorrow at press time), second 19-26 Jul; held open again rather than guessed",
       "next_peg": "Next peg = the actual hammer price, after 19 Jul — do not guess at one."
     },
     {
@@ -662,9 +662,9 @@
     {
       "subject": "Apple homeOS / HomePad",
       "type": "Product",
-      "last_covered": "No. 17",
-      "last_peg": "Connected Home — previewed at WWDC 2026: homeOS (first new Apple OS since visionOS) + HomePad (HomePod + 7-inch display + A18, FaceTime without an iPhone, ships autumn) + a HomeKit Face-ID camera; read through the local-first migrator's lens",
-      "next_peg": "Next peg = ship date / price / first hands-on, then delta only."
+      "last_covered": "No. 46",
+      "last_peg": "Connected Home — the iOS 27 public beta carrying the Home app overhaul is now live (since 13 Jul), full release confirmed for September; a separate, unconfirmed dedicated smart-home hub rumour surfaced",
+      "next_peg": "Next peg = September's actual release, or the hub rumour being confirmed/denied."
     },
     {
       "subject": "GLP-1 muscle preservation (Stanford PGDHi)",
@@ -1615,7 +1615,7 @@
       "subject": "Milli / ASIN / Bouillon Gavroche / Jellyfish (\"The Table\")",
       "type": "Dining",
       "last_covered": "No. 34",
-      "last_peg": "Diary \"The Table\" ROTATED (fresh): **Milli** (National Gallery, opened 31 May; LG Han×Vijay Mudaliar team; local-celebration menu — Chilli Crab Ice Cream, lunch fr $38, Padang views — \"early days,\" LEAD), **ASIN** (Ace Tan, Boat Quay, progressive Asian / *shi liao*, 8-course $188++), **Bouillon Gavroche** (Mandarin Gallery, \"SG's first traditional Parisian Bouillon,\" affordable French); \"now revie",
+      "last_peg": "Diary \"The Table\" ROTATED (fresh): **Milli** (National Gallery, opened 31 May; LG Han×Vijay Mudaliar team; local-celebration menu — Chilli Crab Ice Cream, lunch fr $38, Padang views — \"early days,\" LEAD), **ASIN** (Ace Tan, Boat Quay, progressive Asian / *shi liao*, 8-course $188++), **Bouillon Gavroche** (Mandarin Gallery, \"SG's first traditional Parisian Bouillon,\" affordable French; No. 46 upda",
       "next_peg": "Apply the New-Peg Test per venue (too-new → first reviews → 2nd outlet / Michelin). Milli/ASIN/Bouillon Gavroche = watch for fuller reviews. Don't re-list without a new peg; Hikiniku stays RETIRED."
     },
     {
@@ -1642,9 +1642,9 @@
     {
       "subject": "Christopher Nolan's *The Odyssey*",
       "type": "Film",
-      "last_covered": "No. 35",
-      "last_peg": "Screen & Sound LEAD (cover) — the 17 Jul IMAX 70mm release (demand outpacing *Oppenheimer*; 70mm pairs reselling to ~$1,500; Damon/Holland/Zendaya) anchoring the issue's homecoming spine",
-      "next_peg": "Next peg = opening-weekend result (held honestly, no fabricated gross) / reviews, then a possible one-line. Previously a one-line across Nos. 06–24."
+      "last_covered": "No. 46",
+      "last_peg": "Screen & Sound LEAD — the held-open tracking range resolved: $117-120.5M opening weekend (top of range), 96% RT (Nolan's career-best), biggest opening of Matt Damon's career as lead",
+      "next_peg": "Closed thread — next peg only if a notable award/re-release development arises."
     },
     {
       "subject": "3I/ATLAS (interstellar comet)",
@@ -1757,6 +1757,48 @@
       "last_covered": "No. 40",
       "last_peg": "Singapore/World LEAD — 137th Council session, 30 co-sponsors incl. Indonesia \\& Malaysia; a rules-based marker on free transit, not an instrument that reopens the strait — deliberately distinguished from progress on the underlying ceasefire",
       "next_peg": "Closed as a discrete event unless a concrete follow-on (enforcement mechanism, a new co-sponsor bloc, a breach dispute)."
+    },
+    {
+      "subject": "Overtone (Justin McLeod matchmaking startup)",
+      "type": "Product / trend",
+      "last_covered": "No. 46",
+      "last_peg": "Love & Life LEAD — Hinge founder's $18M-raised, voice-first, no-swipe-feed matchmaking service (Match Group/FirstMark/Pace backed, Esther Perel on the board), the industry's funded answer to the matchmaker-search surge (No. 45)",
+      "next_peg": "Next peg = the actual launch, later this year, or first user reception."
+    },
+    {
+      "subject": "LHS 1140 b (exoplanet atmosphere)",
+      "type": "Science",
+      "last_covered": "No. 46",
+      "last_peg": "Curiosities LEAD — first atmosphere ever detected on a rocky, habitable-zone exoplanet; a helium signature seen in 2024, absent in 2025, confirmed real in 2026",
+      "next_peg": "Next peg = further atmospheric characterisation, or a habitability read."
+    },
+    {
+      "subject": "NOX4 (ageing-muscle gene)",
+      "type": "Study",
+      "last_covered": "No. 46",
+      "last_peg": "Fitness LEAD — a second, independently discovered ageing-muscle gene switch, confirmed in human tissue (vastus lateralis biopsies), distinct from DEAF1 (No. 45); a broccoli-compound restoration angle is early-stage",
+      "next_peg": "Next peg = any human intervention trial targeting the pathway."
+    },
+    {
+      "subject": "California \"Non-Ultraprocessed Certified\" food seal",
+      "type": "Policy / housing (developing)",
+      "last_covered": "No. 46",
+      "last_peg": "The Family Desk LEAD — first-in-the-nation voluntary certification seal + grocery shelf-space requirement, passed against a Nature Food critique that NOVA's own criteria are contested",
+      "next_peg": "Next peg = the bill's signing/enactment, or the classification-system debate resolving."
+    },
+    {
+      "subject": "IKEA KLIPPBOK water-leak sensor",
+      "type": "Product (smart home)",
+      "last_covered": "No. 46",
+      "last_peg": "Connected Home — $10, Matter-over-Thread, works standalone or via a Thread Border Router; a cheap, concrete migrator's purchase",
+      "next_peg": "Next peg = a firmware update or a notable price/availability change."
+    },
+    {
+      "subject": "Foura (IMBA Theatre, Gardens by the Bay)",
+      "type": "Restaurant",
+      "last_covered": "No. 46",
+      "last_peg": "The Table — wellness-led dining (Blue Zones longevity menu) inside Southeast Asia's largest immersive theatre venue, opened 9 Jul; one early review calls the vision \"well realised\" but the dishes not yet fully compelling",
+      "next_peg": "Next peg = a second independent verdict."
     }
   ]
 }
