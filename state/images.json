@@ -1,225 +1,261 @@
 {
- "_comment": "MERIDIAN verified-image manifest. `verified` is the growable library of Wikimedia Commons files whose subject + licence + author have been confirmed from the file's own Commons page (add to it only from a network-connected session that can open the page). `heroes` assigns library files to desks for a given issue; the Photo-Edition build reads `heroes`, filters by `issue`, and inserts each as a .ph-frame above that desk's headline. Honesty rule: never mislabel. `specific:true` = the image IS the named subject; `specific:false` = a clearly-labelled representative/generic image. Conceptual figures (charts, maps, diagrams) always stay as original SVG — never a photo.",
- "verified": [
-  {
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "subject": "Marina Bay, Singapore, at dusk",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "note": "Commons Featured Picture"
-  },
-  {
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "subject": "semiconductor dies on a silicon wafer (generic)",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck"
-  },
-  {
-   "file": "Headphones 1.jpg",
-   "subject": "over-ear headphones (generic)",
-   "license": "CC BY-SA 2.5",
-   "author": ""
-  },
-  {
-   "file": "ESO - Milky Way.jpg",
-   "subject": "the Milky Way over Paranal",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "note": "Commons Featured Picture"
-  },
-  {
-   "file": "3I-ATLAS Hubble heic2509a.jpg",
-   "subject": "interstellar comet 3I/ATLAS (Hubble)",
-   "license": "CC BY 4.0",
-   "author": "NASA/ESA/D. Jewitt et al. (ESA-Hubble)"
-  },
-  {
-   "file": "Taipei Skyline 2022.06.29.jpg",
-   "subject": "Taipei skyline incl. Taipei 101",
-   "license": "CC BY-SA 2.0",
-   "author": "Heeheemalu"
-  }
- ],
- "heroes": [
-  {
-   "issue": "37",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — representative of the island the Circle Line now loops."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not the specific memory parts discussed."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "file": "Headphones 1.jpg",
-   "license": "CC BY-SA 2.5",
-   "author": "",
-   "specific": false,
-   "caption": "Personal audio — representative; NOT the Nothing Ear (3a) reviewed here."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": true,
-   "caption": "The Milky Way — representative deep sky, not the Euclid quasar field."
-  },
-  {
-   "issue": "38",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline whose ledger set three records this week."
-  },
-  {
-   "issue": "38",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative; not SK hynix parts."
-  },
-  {
-   "issue": "38",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky for Webb's anniversary week, not the Centaurus A image."
-  },
-  {
-   "issue": "39",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline NDP's fireworks light up from the Stadium tonight."
-  },
-  {
-   "issue": "39",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
-  },
-  {
-   "issue": "41",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline the newly-closed Circle Line loop now serves directly."
-  },
-  {
-   "issue": "41",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
-  },
-  {
-   "issue": "43",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline behind this week's 5.7% GDP print."
-  },
-  {
-   "issue": "43",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not DeepSeek's own in-house chip design discussed here."
-  },
-  {
-   "issue": "43",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not Kamoʻoalewa or the Euclid quasar field discussed here."
-  },
-  {
-   "issue": "44",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline the week's defamation ruling and defence pact both played out under."
-  },
-  {
-   "issue": "44",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
-  },
-  {
-   "issue": "44",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars discussed here."
-  },
-  {
-   "issue": "45",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan is quietly built to serve."
-  },
-  {
-   "issue": "45",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
-  },
-  {
-   "issue": "45",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars or Beta Pictoris system discussed here."
-  }
- ]
+  "_comment": "MERIDIAN verified-image manifest. `verified` is the growable library of Wikimedia Commons files whose subject + licence + author have been confirmed from the file's own Commons page (add to it only from a network-connected session that can open the page). `heroes` assigns library files to desks for a given issue; the Photo-Edition build reads `heroes`, filters by `issue`, and inserts each as a .ph-frame above that desk's headline. Honesty rule: never mislabel. `specific:true` = the image IS the named subject; `specific:false` = a clearly-labelled representative/generic image. Conceptual figures (charts, maps, diagrams) always stay as original SVG — never a photo.",
+  "verified": [
+    {
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "subject": "Marina Bay, Singapore, at dusk",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "note": "Commons Featured Picture"
+    },
+    {
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "subject": "semiconductor dies on a silicon wafer (generic)",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck"
+    },
+    {
+      "file": "Headphones 1.jpg",
+      "subject": "over-ear headphones (generic)",
+      "license": "CC BY-SA 2.5",
+      "author": ""
+    },
+    {
+      "file": "ESO - Milky Way.jpg",
+      "subject": "the Milky Way over Paranal",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "note": "Commons Featured Picture"
+    },
+    {
+      "file": "3I-ATLAS Hubble heic2509a.jpg",
+      "subject": "interstellar comet 3I/ATLAS (Hubble)",
+      "license": "CC BY 4.0",
+      "author": "NASA/ESA/D. Jewitt et al. (ESA-Hubble)"
+    },
+    {
+      "file": "Taipei Skyline 2022.06.29.jpg",
+      "subject": "Taipei skyline incl. Taipei 101",
+      "license": "CC BY-SA 2.0",
+      "author": "Heeheemalu"
+    }
+  ],
+  "heroes": [
+    {
+      "issue": "37",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — representative of the island the Circle Line now loops."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not the specific memory parts discussed."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "file": "Headphones 1.jpg",
+      "license": "CC BY-SA 2.5",
+      "author": "",
+      "specific": false,
+      "caption": "Personal audio — representative; NOT the Nothing Ear (3a) reviewed here."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": true,
+      "caption": "The Milky Way — representative deep sky, not the Euclid quasar field."
+    },
+    {
+      "issue": "38",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline whose ledger set three records this week."
+    },
+    {
+      "issue": "38",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative; not SK hynix parts."
+    },
+    {
+      "issue": "38",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky for Webb's anniversary week, not the Centaurus A image."
+    },
+    {
+      "issue": "39",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline NDP's fireworks light up from the Stadium tonight."
+    },
+    {
+      "issue": "39",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
+    },
+    {
+      "issue": "41",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline the newly-closed Circle Line loop now serves directly."
+    },
+    {
+      "issue": "41",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
+    },
+    {
+      "issue": "43",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline behind this week's 5.7% GDP print."
+    },
+    {
+      "issue": "43",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not DeepSeek's own in-house chip design discussed here."
+    },
+    {
+      "issue": "43",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not Kamoʻoalewa or the Euclid quasar field discussed here."
+    },
+    {
+      "issue": "44",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline the week's defamation ruling and defence pact both played out under."
+    },
+    {
+      "issue": "44",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
+    },
+    {
+      "issue": "44",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars discussed here."
+    },
+    {
+      "issue": "45",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan is quietly built to serve."
+    },
+    {
+      "issue": "45",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
+    },
+    {
+      "issue": "45",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars or Beta Pictoris system discussed here."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan and the Auditor-General's report both sit quietly under."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not Nvidia's or DeepSeek's own hardware discussed here."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not the LHS 1140 b system discussed here."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "file": "Headphones 1.jpg",
+      "license": "CC BY-SA 2.5",
+      "author": "",
+      "specific": false,
+      "caption": "Over-ear headphones — representative, not Final's DX10000 CL or the other premium audio releases discussed here."
+    }
+  ]
 }
