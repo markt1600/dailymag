@@ -1,11 +1,11 @@
 {
-  "count": 257,
+  "count": 264,
   "subjects": [
     {
       "subject": "Bayshore Drive GLS tender",
       "type": "Land sale",
-      "last_covered": "No. 46",
-      "last_peg": "Property — the S$2.128bn top bid remains pending government approval, no award confirmed; a sceptic's read flags a ~S$2,750-3,100 psf breakeven-implied launch price as a steep ask against softening OCR prices",
+      "last_covered": "No. 47",
+      "last_peg": "Property/Singapore — still explicitly pending one issue later (top bid S$2.128bn / S$1,323 psf ppr, Frasers/Sunway MCL/Sekisui/Lum Chang JV), no award confirmed; this desk continues correcting \"awarded\" to \"top bid, pending approval\"",
       "next_peg": "Next peg = the actual award confirmation, or a challenge to the result."
     },
     {
@@ -18,9 +18,9 @@
     {
       "subject": "ASUS ROG Xreal R1 (AR gaming glasses)",
       "type": "Product",
-      "last_covered": "No. 46",
-      "last_peg": "The Kit — the September slip is now visible on Xreal's own storefront (both IPD variants listed sold out), not just reported; price unchanged at $849",
-      "next_peg": "Next peg = first independent reviews once units ship."
+      "last_covered": "No. 47",
+      "last_peg": "The Kit LEAD — sequential Japan shipping began 14 Jul; first-unit reviews now live (Tom's Hardware, Android Headlines, CGMagazine), all praising the hardware (240Hz micro-OLED, Bose-tuned audio) but unanimously flagging the $849.99 price",
+      "next_peg": "Closed thread — next peg only if a notable price move or a second-wave review consensus shifts."
     },
     {
       "subject": "Ultra-processed food / toddler brain-structure study (CHLA-USC)",
@@ -65,24 +65,24 @@
       "next_peg": "Next peg = whether Singapore queues match the China chain's scale, or a second outlet."
     },
     {
-      "subject": "Nvidia Asia compliance whitelist",
+      "subject": "Nvidia Asia compliance whitelist / Megaspeed case",
       "type": "Policy (AI chips)",
-      "last_covered": "No. 46",
-      "last_peg": "Technology LEAD — Megaspeed case gains real texture: tied to ~$2bn in potential orders, a Singapore Police investigation confirmed alongside a US Commerce probe, but Nvidia's own site visits found \"no evidence of diversion\" — first case with both sides on record",
-      "next_peg": "Next peg = Megaspeed's appeal/outcome, or another named buyer."
+      "last_covered": "No. 47",
+      "last_peg": "Technology LEAD — moves from investigation to courtroom: CEO Alan Wei Zhaolun pleads not guilty (6 Jul) to 11 fraud/money-laundering charges, a S$55m bungalow under a disposal order; Nvidia's own whitelist now disqualifies over half of past Asian buyers (14 Jul)",
+      "next_peg": "Next peg = Wei's trial date once set, or the whitelist naming another buyer."
     },
     {
       "subject": "DeepSeek V4 (official release)",
       "type": "AI release",
-      "last_covered": "No. 46",
-      "last_peg": "Technology — legacy deepseek-chat/deepseek-reasoner retirement now a hard, dated deadline (15:59 UTC 24 Jul, no extension); deepseek-reasoner silently remaps to Flash-tier, not Pro",
-      "next_peg": "Next peg = the 24 Jul retirement landing, or a genuine GPT-5.6 head-to-head."
+      "last_covered": "No. 47",
+      "last_peg": "Technology — legacy deepseek-chat/deepseek-reasoner retirement confirmed as a hard cutoff, no grace period found; DeepSeek quietly added a native Anthropic-format endpoint, easing Claude-Code-style tool routing",
+      "next_peg": "Next peg = the 24 Jul retirement actually landing."
     },
     {
       "subject": "Samsung Galaxy Glasses",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 46",
-      "last_peg": "The Kit — sharper pre-Unpacked leaks: audio-only/no display confirmed in leak detail, Snapdragon AR1, Gentle Monster/Warby Parker frames, Gemini onboard, $379-499, a 2027 display tier rumoured",
+      "last_covered": "No. 47",
+      "last_peg": "The Kit — Unpacked confirmed for London, 22 Jul, 9am ET; leaks now show three foldables alongside the glasses (Z Fold 8, Z Fold 8 Ultra, Z Flip 8) plus a bigger-battery Watch 9/Ultra 2 — still explicitly leak, not confirmed",
       "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
     },
     {
@@ -95,9 +95,9 @@
     {
       "subject": "Sotheby's Tokyo watch sale",
       "type": "Auction",
-      "last_covered": "No. 45",
-      "last_peg": "The Good Life — a Singapore \"Luxury Week\" leg (15-17 Jul) has concluded with no results published; the Tokyo sale itself (21-24 Jul) remains the closer-watched test, still unresolved",
-      "next_peg": "Next peg = the actual results once either sale closes — don't assume the Geneva/NY pattern repeats."
+      "last_covered": "No. 47",
+      "last_peg": "The Good Life — Singapore \"Luxury Week\" results remain unpublished two issues later; Tokyo (21-24 Jul) has not yet opened; a Rolex \"Rainbow\" Daytona at a separate house (First State Auctions) hammered $612,000 all-in in the meantime, a new Australian record",
+      "next_peg": "Next peg = the actual Singapore or Tokyo results once published."
     },
     {
       "subject": "University of Arkansas Dyson-sphere checklist",
@@ -186,16 +186,16 @@
     {
       "subject": "Tiffany \\& Co. Blue Box Café (ION Orchard)",
       "type": "Restaurant",
-      "last_covered": "No. 46",
-      "last_peg": "The Table — first reviews land, early and favourable (Eatbook, Time Out, TheSmartLocal), though still close to press-preview tone with no forum chatter yet",
-      "next_peg": "Next peg = a fully independent/forum verdict beyond the early press coverage."
+      "last_covered": "No. 47",
+      "last_peg": "The Table — fuller press consensus now in (Timeout, Grazia, TheSmartLocal): the room is the draw, food read as competent rather than transcendent; still no forum/Reddit chatter, so the \"regular diners\" verdict remains explicitly open",
+      "next_peg": "Next peg = a genuine forum/Reddit verdict, not another press review."
     },
     {
       "subject": "\"The Odyssey\" (Christopher Nolan film)",
       "type": "Film",
-      "last_covered": "No. 45",
-      "last_peg": "Screen \\& Sound LEAD — opens wide 17 Jul on an $85-120M tracking range (Variety/Forbes/Deadline); no actual gross published at press time, held honestly as tracking not fact",
-      "next_peg": "Next peg = the actual opening-weekend gross once studios report it."
+      "last_covered": "No. 47",
+      "last_peg": "Screen \\& Sound — final confirmed numbers: $124.5m domestic / $257.8m worldwide (a Nolan career record), 95% Certified Fresh critics / 97% audience Popcornmeter (his best-ever audience score)",
+      "next_peg": "Closed thread — next peg only if a second-weekend hold or award-season development arises."
     },
     {
       "subject": "Steve Lacy — \"Oh Yeah?\"",
@@ -270,9 +270,9 @@
     {
       "subject": "Rolex Daytona \"Rainbow\" ref. 126598RBOW (First State Auctions)",
       "type": "Auction",
-      "last_covered": "No. 46",
-      "last_peg": "The Good Life — still genuinely pending one issue later: first tranche closes 19 Jul (tomorrow at press time), second 19-26 Jul; held open again rather than guessed",
-      "next_peg": "Next peg = the actual hammer price, after 19 Jul — do not guess at one."
+      "last_covered": "No. 47",
+      "last_peg": "The Good Life LEAD — first tranche closed 19 Jul: hammered $510,000 (est. $500-600K), $612,000 all-in with premium — a new Australian watch-auction record, eclipsing a 2023 Patek Philippe result",
+      "next_peg": "Closed thread — next peg only if the second tranche (19-26 Jul) produces a bigger single-lot result."
     },
     {
       "subject": "Evil Dead Burn",
@@ -1799,6 +1799,55 @@
       "last_covered": "No. 46",
       "last_peg": "The Table — wellness-led dining (Blue Zones longevity menu) inside Southeast Asia's largest immersive theatre venue, opened 9 Jul; one early review calls the vision \"well realised\" but the dishes not yet fully compelling",
       "next_peg": "Next peg = a second independent verdict."
+    },
+    {
+      "subject": "Home Assistant 2026.7 (\"Automations that speak your language\")",
+      "type": "Product (smart home)",
+      "last_covered": "No. 47",
+      "last_peg": "Connected Home LEAD — Matter server rebuilt Python-to-TypeScript (matter.js) for Matter 1.5.1 compliance, outcome-based automation triggers, a Thread network visualiser, 10 new integrations; community forums flag a pylutron login-timeout crash on upgrade",
+      "next_peg": "Next peg = a patched pylutron fix, or the next monthly release."
+    },
+    {
+      "subject": "Roblox age-banded verification rollout",
+      "type": "Policy / product (child safety)",
+      "last_covered": "No. 47",
+      "last_peg": "The Family Desk LEAD — global rollout complete (six age bands, facial-age-estimation certified to 1.4yrs), DAUs down to 132m from a 152m peak, ~$6.7bn market cap erased 1 May; South Dakota reached an $8.6m settlement mandating statewide verification (13 Jul), 170+ suits consolidated in MDL 3166",
+      "next_peg": "Next peg = the MDL's progress, or another state settlement."
+    },
+    {
+      "subject": "Mensho X (6 Battery Road, Raffles Place)",
+      "type": "Restaurant",
+      "last_covered": "No. 47",
+      "last_peg": "The Table LEAD — fast-casual Mensho Tokyo spin-off (chef Tomoharu Shono), Singapore as the global testbed for a leaner CBD-lunch concept, opened 14 Jul; positive-to-enthusiastic reception (Eatbook, Ranting Panda, Ah Boy Like Ramen), extra-spicy Firebird's seasoning the one recurring gripe",
+      "next_peg": "Next peg = a second outlet, or a Tokyo-flagship comparison piece."
+    },
+    {
+      "subject": "Erythrulose (interstellar \"true sugar\")",
+      "type": "Science",
+      "last_covered": "No. 47",
+      "last_peg": "Curiosities LEAD — first true sugar detected in interstellar space (molecular cloud near the Milky Way's core, Yebes-40m/IRAM-30m), the first prebiotic interstellar molecule structurally close to RNA-precursor chemistry",
+      "next_peg": "Next peg = a further prebiotic-molecule detection, or a lab-replication result."
+    },
+    {
+      "subject": "Skyroot Aerospace Vikram-1",
+      "type": "Space milestone",
+      "last_covered": "No. 47",
+      "last_peg": "Curiosities secondary — India's first private orbital launch (18 Jul, Satish Dhawan Space Centre), reaching a 450km LEO in 17 minutes and making India the third nation with private orbital launch capability",
+      "next_peg": "Next peg = Skyroot's next test flight, en route to 2027 commercial readiness."
+    },
+    {
+      "subject": "Resistance-training mortality ceiling (147,374-person BJSM study)",
+      "type": "Study",
+      "last_covered": "No. 47",
+      "last_peg": "Fitness LEAD — 30-year dataset finds 90-120 min/week of resistance training the point of maximal mortality benefit, with no added benefit measured above it; observational, not a randomised trial",
+      "next_peg": "Next peg = a randomised-trial replication, or a mechanism study on the neurological-disease-risk finding specifically."
+    },
+    {
+      "subject": "US divorce-rate reframe / gray divorce",
+      "type": "Trend",
+      "last_covered": "No. 47",
+      "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
+      "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
     }
   ]
 }
