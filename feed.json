@@ -1,74 +1,57 @@
 {
  "publication": "MERIDIAN",
- "issue": 46,
- "date": "18 July 2026",
- "generated": "2026-07-19T01:21:19+08:00",
+ "issue": 47,
+ "date": "20 July 2026",
+ "generated": "2026-07-20T06:46:05+08:00",
  "quote": {
-  "text": "Trust, but verify.",
-  "author": "Russian proverb (\"доверяй, но проверяй\"), popularised in English by Ronald Reagan during the 1987 INF Treaty negotiations"
+  "text": "Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.",
+  "author": "Louis D. Brandeis, \"What Publicity Can Do,\" Harper's Weekly (20 Dec 1913), reprinted in Other People's Money, and How the Bankers Use It (1914)"
  },
  "macro": {
-  "title": "What It Means for VWRA, Global Bonds, Gold & BTC",
-  "reads": [
-   {
-    "label": "VWRA & bonds",
-    "text": "squeezed by a hawkish Fed and an idiosyncratic AI selloff at once; energy strength offers no equity offset since it's stagflationary, not a demand signal."
-   },
-   {
-    "label": "Gold",
-    "text": "its worst week in six months — the oil-inflation scare is doing more to it than the war, extending the decoupling this desk flagged in No. 45."
-   },
-   {
-    "label": "Bitcoin",
-    "text": "fell with risk-off equities, the high-beta liquidity proxy this desk has always read it as, not a hedge."
-   }
-  ],
-  "note": "Education, not advice.",
-  "regime": [
-   "Higher-for-longer",
-   "Oil-driven inflation risk",
-   "AI valuation reset"
-  ],
+  "title": "What It Means For VWRA, Global Bonds, Gold & BTC",
+  "reads": [],
+  "note": "",
+  "regime": [],
   "anchor": "p15"
  },
  "stories": [
   {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · Film & Music",
-   "headline": "The Odyssey's tracking range resolves into the biggest opening of Nolan's career, and the highest Tomatometer score of it too",
-   "dek": "Last issue's \"$85-120M, no actual number yet\" is this issue's real number — and it landed at the top of the range, not the middle.",
-   "anchor": "p12",
+   "desk": "The World",
+   "sub": "The Meridian Dispatch",
+   "category": "World",
+   "kicker": "The World · Iran-Israel War, Day 27",
+   "headline": "Tehran suspends the peace it signed a month ago",
+   "dek": "Iran formally walks back the Islamabad MoU as strikes reach a Kuwaiti oil terminal and two more American service members are killed — three capitals, three very different stories about who broke it first.",
+   "anchor": "p3",
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Silicon & Sovereignty",
+   "headline": "A whitelist filing becomes eleven criminal charges",
+   "dek": "The Megaspeed case has moved from investigation to courtroom — the first Nvidia-chip-diversion allegation in Asia with both a prosecutor and a defendant on record.",
+   "anchor": "p7",
    "featured": true
   },
   {
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Space",
-   "headline": "A nearby rocky world's atmosphere was there in 2024, gone in 2025, and back again — and an amateur beats the geologists to a 390-million-year-old crater",
-   "dek": "Both stories share the same discipline: don't call an anomaly permanent, or a shape a coincidence, until you've checked it more than once.",
+   "kicker": "Curiosities",
+   "headline": "Sugar, found drifting between the stars",
+   "dek": "Erythrulose is the first \"true sugar\" ever detected in interstellar space — and the first find structurally close to what living chemistry actually runs on.",
    "anchor": "p16",
    "featured": true
-  },
-  {
-   "desk": "The World",
-   "sub": "The Meridian Dispatch",
-   "category": "World",
-   "kicker": "The World · Gulf Crisis",
-   "headline": "Iran formally suspends its ceasefire commitments, on the war's bloodiest and longest week yet",
-   "dek": "The Islamabad MoU passed its own halfway point this week. Tehran's answer was to say, plainly, that it no longer considers itself bound by it.",
-   "anchor": "p3",
-   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Aviation & Governance",
-   "headline": "Changi's route wishlist finally gets a timeline, as the Auditor-General flags lapses across several agencies",
-   "dek": "A decade-out capacity plan gets some honest scheduling detail, in the same week a routine annual report does its quiet job of keeping everyone else honest.",
+   "kicker": "Singapore",
+   "headline": "A S$2.128 billion bid, still unsigned",
+   "dek": "Bayshore Drive drew Singapore's first-ever S$2bn-plus bid for a site outside the CBD. The award, notably, has not actually been made yet.",
    "anchor": "p5",
    "featured": false
   },
@@ -76,29 +59,19 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Launches & Supply",
-   "headline": "Four projects, 1,679 units — June's zero-launch drought breaks wide, and a price index quietly splits by postcode",
-   "dek": "The rebound spans everything from Turf City to Jurong Lake — but Q2's flash numbers show prime and mass-market prices no longer moving together.",
+   "kicker": "Property",
+   "headline": "A Saturday launch clears 54% at $2,350 psf",
+   "dek": "Lentor Gardens Residences' booking day complicates the \"only the centre is strong\" story — outer-ring demand isn't dead, it just needed the right precinct.",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · AI Chips",
-   "headline": "DeepSeek's legacy API gets a hard, dateable deadline — and Megaspeed's whitelist case finally has real texture",
-   "dek": "Two compliance stories this fortnight are both graduating from abstraction to specifics — a 404 error with a date attached, and a named company's actual defence.",
-   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Wearables & AR",
-   "headline": "Samsung's Galaxy Glasses leak as screenless and audio-first, four days before Unpacked says so officially",
-   "dek": "A deliberate bet against a display, mirroring Meta's own playbook — and a very different pair of glasses shipping the same season for a very different buyer.",
+   "kicker": "The Kit",
+   "headline": "The Xreal R1 shipped. The reviews agree on one thing.",
+   "dek": "ASUS ROG's AR gaming glasses have graduated from \"delayed\" to \"reviewed\" — and every review lands on the same complaint.",
    "anchor": "p9",
    "featured": false
   },
@@ -106,9 +79,9 @@
    "desk": "Connected Home",
    "sub": "Walls That Listen",
    "category": "Connected Home",
-   "kicker": "Connected Home · Matter & Thread",
-   "headline": "A $10 leak sensor and a rumoured Apple hub sit at opposite ends of the same migration",
-   "dek": "Apple Home's promised overhaul stops being vapourware this fortnight — a public beta is out and a ship date is finally attached.",
+   "kicker": "The Connected Home",
+   "headline": "Home Assistant stops thinking in entity IDs",
+   "dek": "2026.7's real news for a Lutron migrator is a rebuilt Matter server and automations you can describe in a sentence.",
    "anchor": "p10",
    "featured": false
   },
@@ -116,19 +89,29 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Audio & Auctions",
-   "headline": "A diamond diaphragm and a 40th-anniversary speaker lead a strong week for premium audio, as two watch auctions edge toward an answer",
-   "dek": "The Rainbow Daytona's first tranche closes tomorrow — the last of three live sales this desk has held open two issues running.",
+   "kicker": "The Good Life",
+   "headline": "A Rainbow Daytona breaks Australia's watch-auction record",
+   "dek": "$510,000 hammer, $612,000 all-in — and it's still not the biggest result of the week to come.",
    "anchor": "p11",
+   "featured": false
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound",
+   "headline": "Three albums, one Friday",
+   "dek": "Gracie Abrams, Steve Lacy and Rick Ross all released the same day — and for once, that's the actual story, not a chip-stock echo of last issue's box office.",
+   "anchor": "p12",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Nutrition Policy",
-   "headline": "California moves to certify \"non-ultraprocessed\" food, as the category doing the alarming turns out to be poorly defined itself",
-   "dek": "A policy delta on the ultra-processed-food story No. 45 introduced — and a genuine scientific complaint about the label at the centre of it.",
+   "kicker": "The Family Desk",
+   "headline": "Roblox's age bands get real teeth",
+   "dek": "General guidance, not medical or legal advice. A safety policy that used to be mostly paperwork now has a stock-price cost and a state settlement attached.",
    "anchor": "p13",
    "featured": false
   },
@@ -136,9 +119,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · Market Explanation, Not Advice",
-   "headline": "A hawkish Fed and an oil shock pull the same portfolio from two directions at once, with an AI-valuation wobble layered on top",
-   "dek": "Gold's decoupling from war risk (No. 45) keeps going — but this week it's an oil-driven inflation scare doing more to it than the war itself.",
+   "kicker": "The Macro Desk",
+   "headline": "One oil shock, four different instruments",
+   "dek": "Market explanation and education, not investment advice. Forecasts are flagged as forecasts throughout.",
    "anchor": "p15",
    "featured": false
   },
@@ -146,9 +129,9 @@
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · Dating & Relationships",
-   "headline": "Hinge's own founder builds the thing the matchmaker surge (No. 45) was asking for",
-   "dek": "A voice-first, no-swipe-feed matchmaking startup, backed by the very company whose engagement numbers are sliding.",
+   "kicker": "Love & Life",
+   "headline": "The divorce rate is at a 50-year low. That's not quite good news.",
+   "dek": "The number is real. The story it's usually told as — marriages getting happier — probably isn't.",
    "anchor": "p17",
    "featured": false
   },
@@ -156,40 +139,30 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Longevity Science",
-   "headline": "A second, independent ageing-muscle gene switch turns up — before the first one (No. 45) has even settled in",
-   "dek": "General guidance, not medical advice — a broccoli-derived compound is the early, honestly-flagged hook, not a prescription.",
+   "kicker": "Fitness · The Long Game",
+   "headline": "More strength training stops paying off around two hours a week",
+   "dek": "General guidance, not medical advice. A 30-year, 147,000-person dataset finds a ceiling — not a floor.",
    "anchor": "p18",
-   "featured": false
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · Departures",
-   "headline": "A Slipped Cabin, a Fare Sale, and a Tunnel That's Actually Finished",
-   "dek": "No single transformative route this fortnight — a delayed product launch, a genuinely useful sale, and one real piece of underground concrete poured on schedule.",
-   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · The Agenda",
-   "headline": "Three of Japan's biggest summer matsuri land on the same weekend, resolving the \"following week\" note this desk held open last issue",
-   "dek": "BIGBANG's Singapore silence, meanwhile, reaches a tenth straight issue — sharpened by its Korea shows selling out so fast that extra tickets had to open.",
-   "anchor": "p23",
+   "kicker": "The Diary",
+   "headline": "BIGBANG finally confirms Singapore",
+   "dek": "After ten straight issues of silence, a date — though not yet a ticket.",
+   "anchor": "p19",
    "featured": false
   },
   {
-   "desk": "The Essay",
-   "sub": "The Long Read",
-   "category": "The Essay",
+   "desk": "The Long Read",
+   "sub": "The Cost of Daylight",
+   "category": "Essay",
    "kicker": "The Long Read",
-   "headline": "The Long Look",
-   "dek": "A ceasefire that finally says \"suspended.\" A planet whose atmosphere vanished for a year before reappearing. A watch valley that won't call an instrument accurate until it has failed to prove itself wrong for two straight weeks. This issue is full of things that only tell the truth to whoever is patient enough to keep checking.",
-   "anchor": "p25",
+   "headline": "The Cost of Daylight",
+   "dek": "Three episodes, a century and a half apart, about what actually happens once a quiet rule gets noticed — and one honest case, from this very issue, where noticing wasn't enough.",
+   "anchor": "p21",
    "featured": false
   }
  ]
