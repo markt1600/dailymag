@@ -1,11 +1,158 @@
 {
-  "count": 264,
+  "count": 285,
   "subjects": [
+    {
+      "subject": "Tungsten hexafluoride (WF6) chipmaking-gas chokepoint",
+      "type": "Supply chain / materials",
+      "last_covered": "No. 48",
+      "last_peg": "Technology LEAD — China's tungsten-export curbs force Kanto Denka + Central Glass (Japan) to permanently halt WF6 production from 1 Jul; ~25% of global high-purity capacity gone, ~2,000t H2 shortfall; final shipments to Samsung/SK hynix/TSMC on 30 Jun",
+      "next_peg": "Next peg = a named substitute source, a price pass-through to chips, or a second material curbed."
+    },
+    {
+      "subject": "Global memory shortage (DRAM/NAND/GDDR)",
+      "type": "Market / supply chain",
+      "last_covered": "No. 48",
+      "last_peg": "Home Lab — Micron CEO Mehrotra concedes tight supply \"beyond 2027\" (2026 DRAM contract pricing +355%/NAND +510% potential); DGX Spark MSRP up to $4,699, AMD +10% GDDR-bundle hike, Mac Studio slipped to Oct; RTX 5090 ~$4,329",
+      "next_peg": "Next peg = the first 2026 contract-price prints landing, or a supply-side capacity add."
+    },
+    {
+      "subject": "Roblox child-safety litigation (state settlements + MDL 3166)",
+      "type": "Legal",
+      "last_covered": "No. 48",
+      "last_peg": "Family Desk LEAD — settlements now span five states (Nevada/Alabama/West Virginia/Mississippi/South Dakota, ~$54-59m); federal settlement master Thomas Perrelli named in MDL 3166 (170+ suits); next case-management conference 24 Aug",
+      "next_peg": "Next peg = the 24 Aug conference, a sixth state, or a federal settlement figure."
+    },
+    {
+      "subject": "Google AI Overview/AI Mode child-safety rating (Common Sense Media)",
+      "type": "Study / report",
+      "last_covered": "No. 48",
+      "last_peg": "Family Desk (sceptic page) — Common Sense Media's Youth AI Safety Institute rates Google AI Overview/AI Mode \"unacceptable risk\" (2,600 test searches, 29% missed explicit suicide cues, deepfake how-tos); Google calls the queries \"contrived\"",
+      "next_peg": "Next peg = a Google product change, a regulator taking it up, or a follow-up assessment."
+    },
+    {
+      "subject": "Flagship hi-fi audio wave (McIntosh MX124 / Ortofon MC Vertex / Marantz CD 70)",
+      "type": "Product (audio)",
+      "last_covered": "No. 48",
+      "last_peg": "Good Life LEAD — three landmark components within days: McIntosh MX124 A/V processor (~$15k), Ortofon MC Vertex cartridge ($16,999), Marantz CD 70 CD player ($750, ships 15 Aug)",
+      "next_peg": "Next peg = ships / first reviews for any of the three."
+    },
+    {
+      "subject": "Marshall Billie Joe Armstrong 1959BJA amp",
+      "type": "Product (audio)",
+      "last_covered": "No. 48",
+      "last_peg": "Good Life — Marshall's first artist-signature amp in 14 years, at retail 21 Jul, $3,999.99, hand-wired 100W; first surfaced at Green Day's 2026 Super Bowl set",
+      "next_peg": "Closed unless a notable follow-up (reviews, a wider signature line)."
+    },
+    {
+      "subject": "Sony RX10 V superzoom",
+      "type": "Product (camera)",
+      "last_covered": "No. 48",
+      "last_peg": "The Kit — announced 9 Jul, $2,299.99, 24-600mm Zeiss on a 20.1MP stacked sensor, 4K120; revives a 9-year-dormant line, ships Aug",
+      "next_peg": "Next peg = ships / first reviews."
+    },
+    {
+      "subject": "Samsung Galaxy Watch Ultra 2 / Watch 9",
+      "type": "Product (wearable)",
+      "last_covered": "No. 48",
+      "last_peg": "The Kit — pre-Unpacked leaks sharpen: ~800mAh (was 590), up to 5,000-nit, Snapdragon Wear Elite (Samsung's first non-Exynos Galaxy Watch); Unpacked 22 Jul",
+      "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
+    },
+    {
+      "subject": "Apple TV+ Hall H takeover / SDCC 2026",
+      "type": "Event",
+      "last_covered": "No. 48",
+      "last_peg": "Screen \\& Sound LEAD — Apple TV+'s first solo Hall H session (25 Jul: Widow's Bay/Matchbox/Mayday/Dark Matter/Silo); SDCC runs 22-26 Jul",
+      "next_peg": "Next peg = the panels' actual reactions, or trailers/dates dropped (e.g. Blade Runner 2099)."
+    },
+    {
+      "subject": "Rick Ross — \"Set In Stone\"",
+      "type": "Music release",
+      "last_covered": "No. 48",
+      "last_peg": "Screen \\& Sound — the 17 Jul New Music Friday's loose end; reviews split (one 7.8/10 vs \"bloated, feature-heavy\")",
+      "next_peg": "Closed unless a chart- or single-driven follow-up."
+    },
+    {
+      "subject": "Grip strength × Alzheimer's-biomarker study (WashU, GeroScience)",
+      "type": "Study (fitness)",
+      "last_covered": "No. 48",
+      "last_peg": "Fitness LEAD — n=348, Aging Adult Brain Connectome cohort; grip strength modifies how blood Alzheimer's markers relate to cognition, stronger in women; cross-sectional, not causal",
+      "next_peg": "Next peg = a longitudinal or interventional follow-up."
+    },
+    {
+      "subject": "Financial-compatibility dealbreaker study (Northwestern Mutual/Harris Poll)",
+      "type": "Study (relationships)",
+      "last_covered": "No. 48",
+      "last_peg": "Love \\& Life — n=4,375; six in ten call poor money habits a dealbreaker, ranked above chemistry by those in serious relationships",
+      "next_peg": "Closed unless a replication or a platform acting on it."
+    },
+    {
+      "subject": "Loneliness triangulated-methods study (Nature Comms)",
+      "type": "Study (relationships)",
+      "last_covered": "No. 48",
+      "last_peg": "Love \\& Life — Bristol/Nesta/Amsterdam UMC/Oxford/Manchester; three methods (observation, sibling, Mendelian randomisation) converge that loneliness worsens mental/general health, no clear physical-disease effect yet",
+      "next_peg": "Next peg = a follow-up isolating a physical-disease pathway."
+    },
+    {
+      "subject": "Overtone (Hinge founder's AI matchmaker)",
+      "type": "Product / app",
+      "last_covered": "No. 48",
+      "last_peg": "Love \\& Life LEAD — the backlash: Justin McLeod's $18m no-swipe voice matchmaker (covered at raise in No.46) draws \"Black Mirror/Hang the DJ\" comparisons; Esther Perel joins the board; still not live until later 2026",
+      "next_peg": "Next peg = the actual launch, or first user outcomes."
+    },
+    {
+      "subject": "Cyborg-cockroach oxygen \"diving suit\" (NTU/Waseda)",
+      "type": "Science",
+      "last_covered": "No. 48",
+      "last_peg": "Curiosities LEAD — NTU Singapore + Waseda oxygen-generating spiracle suit (Nature Comms) lets cyborg cockroaches operate ~3h submerged/low-oxygen for disaster search; live ethics debate",
+      "next_peg": "Closed unless a field trial or a rival approach."
+    },
+    {
+      "subject": "Bristle-worm \"bio-metal\" jaw (TU Wien)",
+      "type": "Science",
+      "last_covered": "No. 48",
+      "last_peg": "Curiosities — Perinereis cultrifera jaw proposed as a new \"bio-metal\" material class (Biophysics Reviews, 14 Jul); grown in cold seawater, no heat",
+      "next_peg": "Closed unless a materials-engineering application follows."
+    },
+    {
+      "subject": "F1 Singapore GP 2026 (entertainment lineup)",
+      "type": "Event",
+      "last_covered": "No. 48",
+      "last_peg": "Diary MARQUEE ★ — 9-11 Oct; full 10-stage entertainment bill locked 17 Jul (JJ Lin/The Killers/Lana Del Rey + Janet Jackson, Zara Larsson, DJ Snake)",
+      "next_peg": "Next peg = sell-out news or a schedule change; then the race weekend."
+    },
+    {
+      "subject": "ZoukOut 2026 (20th anniversary)",
+      "type": "Event",
+      "last_covered": "No. 48",
+      "last_peg": "Diary — Siloso Beach 2-3 Dec; Carl Cox/Armin van Buuren/Martin Garrix/Fisher; early-bird tickets flagged",
+      "next_peg": "Next peg = sell-out or lineup additions."
+    },
+    {
+      "subject": "The Table — La Saigon Café (East Coast reopening)",
+      "type": "Restaurant",
+      "last_covered": "No. 48",
+      "last_peg": "Diary/Table — reopened 20 Jul with an old-Saigon-French refresh; proven brand (4.8★, ~500 reviews), new \"Vietnamese High Tea\"/tasting-bar menu not yet reviewed",
+      "next_peg": "Next peg = first independent reviews of the relaunch menu."
+    },
+    {
+      "subject": "The Table — Madeleine's Portuguese Egg Tart (Aperia)",
+      "type": "Restaurant",
+      "last_covered": "No. 48",
+      "last_peg": "Diary/Table — the shut-in-2024 institution returns 21 Jun as a Macau cha chaan teng; a month of reviews split (concept lands, tart batches inconsistent)",
+      "next_peg": "Next peg = a consistency turnaround, or a Bib/Michelin nod."
+    },
+    {
+      "subject": "The Table — Shu Bakery (Kovan) / Niku Niku Oh!! Kome (Westgate)",
+      "type": "Restaurant",
+      "last_covered": "No. 48",
+      "last_peg": "Diary/Table — both flagged too-new-to-call: Shu Bakery (Chu \\& Co sit-down café, opened 9 May), Niku Niku Oh!! Kome (teppan hamburg 2nd outlet, sets from $16.80)",
+      "next_peg": "Next peg = first independent verdicts."
+    },
     {
       "subject": "Bayshore Drive GLS tender",
       "type": "Land sale",
-      "last_covered": "No. 47",
-      "last_peg": "Property/Singapore — still explicitly pending one issue later (top bid S$2.128bn / S$1,323 psf ppr, Frasers/Sunway MCL/Sekisui/Lum Chang JV), no award confirmed; this desk continues correcting \"awarded\" to \"top bid, pending approval\"",
+      "last_covered": "No. 48",
+      "last_peg": "Property/Singapore — still unconfirmed a second issue running (top bid S$2.128bn / S$1,323 psf ppr, Frasers/Sunway MCL/Sekisui/Lum Chang JV); no award notice, government approval still pending; used this issue as the East-Coast benchmark against Jurong's cheaper, state-subsidised Town Hall Link",
       "next_peg": "Next peg = the actual award confirmation, or a challenge to the result."
     },
     {
@@ -67,22 +214,22 @@
     {
       "subject": "Nvidia Asia compliance whitelist / Megaspeed case",
       "type": "Policy (AI chips)",
-      "last_covered": "No. 47",
-      "last_peg": "Technology LEAD — moves from investigation to courtroom: CEO Alan Wei Zhaolun pleads not guilty (6 Jul) to 11 fraud/money-laundering charges, a S$55m bungalow under a disposal order; Nvidia's own whitelist now disqualifies over half of past Asian buyers (14 Jul)",
+      "last_covered": "No. 48",
+      "last_peg": "Technology (In Brief) — held as continuity: Wei's trial date still unset three weeks after the 6 Jul plea, and no second flagged buyer publicly named; no fresh peg this issue",
       "next_peg": "Next peg = Wei's trial date once set, or the whitelist naming another buyer."
     },
     {
       "subject": "DeepSeek V4 (official release)",
       "type": "AI release",
-      "last_covered": "No. 47",
-      "last_peg": "Technology — legacy deepseek-chat/deepseek-reasoner retirement confirmed as a hard cutoff, no grace period found; DeepSeek quietly added a native Anthropic-format endpoint, easing Claude-Code-style tool routing",
-      "next_peg": "Next peg = the 24 Jul retirement actually landing."
+      "last_covered": "No. 48",
+      "last_peg": "Technology (In Brief) — the hard legacy-API cutover now 3 days out (15:59 UTC, 24 Jul), still no grace period found",
+      "next_peg": "Next peg = the 24 Jul retirement actually landing, and any fallout for tooling built on the old endpoints."
     },
     {
       "subject": "Samsung Galaxy Glasses",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 47",
-      "last_peg": "The Kit — Unpacked confirmed for London, 22 Jul, 9am ET; leaks now show three foldables alongside the glasses (Z Fold 8, Z Fold 8 Ultra, Z Flip 8) plus a bigger-battery Watch 9/Ultra 2 — still explicitly leak, not confirmed",
+      "last_covered": "No. 48",
+      "last_peg": "The Kit — the night before Unpacked (22 Jul): watch leaks sharpened (see own row) while Galaxy Glasses stays leak-only (audio-only, Gemini on Snapdragon AR1, est. $379-499), Korean coverage framing price vs Meta's $299 line",
       "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
     },
     {
@@ -95,8 +242,8 @@
     {
       "subject": "Sotheby's Tokyo watch sale",
       "type": "Auction",
-      "last_covered": "No. 47",
-      "last_peg": "The Good Life — Singapore \"Luxury Week\" results remain unpublished two issues later; Tokyo (21-24 Jul) has not yet opened; a Rolex \"Rainbow\" Daytona at a separate house (First State Auctions) hammered $612,000 all-in in the meantime, a new Australian record",
+      "last_covered": "No. 48",
+      "last_peg": "The Good Life — Singapore \"Luxury Week\" results STILL unpublished four days after the 17 Jul close (a 2nd issue running); Tokyo opens today (21 Jul); First State Auctions' 2nd tranche runs to 26 Jul, no interim result",
       "next_peg": "Next peg = the actual Singapore or Tokyo results once published."
     },
     {
@@ -144,9 +291,9 @@
     {
       "subject": "Meta camera-glasses privacy escalation",
       "type": "Product/Policy (smart glasses)",
-      "last_covered": "No. 43",
-      "last_peg": "The Kit — Meta shipped a tamper-proof LED kill switch for its Ray-Ban camera glasses, then reports surfaced of an always-on \"super sensing\" prototype and new AI-feature rate limits, the same week",
-      "next_peg": "Next peg = the \"super sensing\" prototype's actual release status, or a formal Meta response to the backlash."
+      "last_covered": "No. 48",
+      "last_peg": "The Kit — the two tracks side by side: an 8 Jul LED-tamper kill-switch (shipped) vs a \"super sensing\" always-on prototype (codenames Aperol/Bellini, late-2026 target) reportedly meant to run with no recording light lit",
+      "next_peg": "Next peg = the \"super sensing\" prototype's actual release status, or a formal Meta response."
     },
     {
       "subject": "IKEA DIRIGERA Matter Controller firmware",
@@ -158,9 +305,9 @@
     {
       "subject": "Home Assistant 2026.7",
       "type": "Software (smart home)",
-      "last_covered": "No. 43",
-      "last_peg": "Connected Home LEAD — new matter.js-based Matter server (1.5.1 compliance) plus intent-based natural-language automations, released 1 Jul",
-      "next_peg": "Closed unless a notable follow-up release."
+      "last_covered": "No. 48",
+      "last_peg": "Connected Home LEAD — the Matter Server beta (matter.js 0.17.5) now ships full Matter 1.6 a month after ratification: ICD device management, expanded Thread diagnostics, multi-network Wi-Fi/Thread credential storage; the No.47 pylutron login-timeout crash (#167153) traced to a merged 0.4.1 fix",
+      "next_peg": "Next peg = the Matter 1.6 features exiting beta into a stable release."
     },
     {
       "subject": "ENHYPEN BLOOD SAGA World Tour — Singapore (National Stadium)",
@@ -242,15 +389,15 @@
     {
       "subject": "Jurong Lake District white site (2H2026 GLS)",
       "type": "Policy / Launch",
-      "last_covered": "No. 42",
-      "last_peg": "Property LEAD — white site (~186,000 sqm mixed-use, incl. ≥40,000 sqm office, up to 1,200 homes) launches for tender July, headlining the 2H2026 Confirmed List (9 sites) + Reserve List (13 sites)",
-      "next_peg": "Next peg = the tender result / winning bid."
+      "last_covered": "No. 48",
+      "last_peg": "Property LEAD — the 3.72ha Town Hall Link white site opened for tender 3 Jul (closes 17 Nov): ~half the failed-2023 parcel's size, with the STATE now funding the on-site district-cooling plant + pneumatic-waste station to de-risk it; est. ~S$1.8bn, 2-4 bids expected at ~S$1,100-1,200 psf ppr",
+      "next_peg": "Next peg = the 17 Nov tender result / winning bid, or another no-award."
     },
     {
       "subject": "BIGBANG 20/26 World Tour (SG date)",
       "type": "Event",
-      "last_covered": "No. 43",
-      "last_peg": "Diary — SG on-sale/pricing still unannounced, now an 8th straight issue; sharpened this issue by the tour's own Goyang (Korea) home shows opening presale/general sale the same week — an unusually long gap for a market this size. Standing chase since No. 25.",
+      "last_covered": "No. 48",
+      "last_peg": "Diary (Still on the shelf) — the 17 Oct National Stadium date confirmed in No.47 but Singapore still listed \"Coming Soon\" a week on, the one 20/26 stop without an on-sale date even as NA/Europe sold through. Standing chase since No. 25.",
       "next_peg": "Next peg = the SG on-sale date/pricing, then the show itself (17 Oct). Don't re-lead without a fresh peg."
     },
     {
