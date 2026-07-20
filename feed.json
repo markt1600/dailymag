@@ -1,11 +1,11 @@
 {
  "publication": "MERIDIAN",
- "issue": 47,
- "date": "20 July 2026",
- "generated": "2026-07-20T06:46:05+08:00",
+ "issue": 48,
+ "date": "21 July 2026",
+ "generated": "2026-07-21T07:27:51+08:00",
  "quote": {
-  "text": "Sunlight is said to be the best of disinfectants; electric light the most efficient policeman.",
-  "author": "Louis D. Brandeis, \"What Publicity Can Do,\" Harper's Weekly (20 Dec 1913), reprinted in Other People's Money, and How the Bankers Use It (1914)"
+  "text": "In every chain of reasoning, the evidence of the last conclusion can be no greater than that of the weakest link of the chain, whatever may be the strength of the rest.",
+  "author": "Thomas Reid, Essays on the Intellectual Powers of Man (1786), Essay VII"
  },
  "macro": {
   "title": "What It Means For VWRA, Global Bonds, Gold & BTC",
@@ -19,30 +19,10 @@
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · Iran-Israel War, Day 27",
-   "headline": "Tehran suspends the peace it signed a month ago",
-   "dek": "Iran formally walks back the Islamabad MoU as strikes reach a Kuwaiti oil terminal and two more American service members are killed — three capitals, three very different stories about who broke it first.",
+   "kicker": "The World · The Gulf War, Day 28",
+   "headline": "Houthis Blockade Saudi Arabia as the Gulf War Widens Further",
+   "dek": "A third American service member is dead and Iranian fire has now reached six Gulf states in 72 hours, as Yemen's Houthis open a new front against Riyadh in the Red Sea.",
    "anchor": "p3",
-   "featured": true
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Silicon & Sovereignty",
-   "headline": "A whitelist filing becomes eleven criminal charges",
-   "dek": "The Megaspeed case has moved from investigation to courtroom — the first Nvidia-chip-diversion allegation in Asia with both a prosecutor and a defendant on record.",
-   "anchor": "p7",
-   "featured": true
-  },
-  {
-   "desk": "Curiosities",
-   "sub": "The Far Edges",
-   "category": "Science",
-   "kicker": "Curiosities",
-   "headline": "Sugar, found drifting between the stars",
-   "dek": "Erythrulose is the first \"true sugar\" ever detected in interstellar space — and the first find structurally close to what living chemistry actually runs on.",
-   "anchor": "p16",
    "featured": true
   },
   {
@@ -50,18 +30,28 @@
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore",
-   "headline": "A S$2.128 billion bid, still unsigned",
-   "dek": "Bayshore Drive drew Singapore's first-ever S$2bn-plus bid for a site outside the CBD. The award, notably, has not actually been made yet.",
+   "headline": "Faishal Ibrahim resigns as minister and MP over conduct lapse",
+   "dek": "A month-old email about \"inappropriate interactions\" ends a front-bench career within a day of reaching the Prime Minister's Office — the Home Affairs and Muslim Affairs portfolios reassigned same-day, no criminal charges brought against either party.",
    "anchor": "p5",
-   "featured": false
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Silicon & Sovereignty",
+   "headline": "The chokepoint moved from the chip to the gas cylinder",
+   "dek": "China's tungsten export curbs just took a quarter of the world's high-purity chipmaking gas offline — permanently. It's a smaller, quieter lever than an export ban, and it lands at exactly the manufacturing step a GPU's own memory stack depends on.",
+   "anchor": "p7",
+   "featured": true
   },
   {
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
    "kicker": "Property",
-   "headline": "A Saturday launch clears 54% at $2,350 psf",
-   "dek": "Lentor Gardens Residences' booking day complicates the \"only the centre is strong\" story — outer-ring demand isn't dead, it just needed the right precinct.",
+   "headline": "Jurong's second-CBD anchor site returns — smaller, and state-subsidised",
+   "dek": "URA relaunches the Town Hall Link white site at roughly half its old size, with the government now absorbing the district infrastructure bill — an unusually generous fix for a 2023 mega-parcel that drew one bid, deemed too low, and no award.",
    "anchor": "p6",
    "featured": false
   },
@@ -70,8 +60,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit",
-   "headline": "The Xreal R1 shipped. The reviews agree on one thing.",
-   "dek": "ASUS ROG's AR gaming glasses have graduated from \"delayed\" to \"reviewed\" — and every review lands on the same complaint.",
+   "headline": "The night before Unpacked, the watches do the talking",
+   "dek": "Galaxy Watch Ultra 2 and Watch 9 leaks sharpen to specific numbers hours before Wednesday's London event — the glasses stay the quieter, unconfirmed story until then.",
    "anchor": "p9",
    "featured": false
   },
@@ -80,8 +70,8 @@
    "sub": "Walls That Listen",
    "category": "Connected Home",
    "kicker": "The Connected Home",
-   "headline": "Home Assistant stops thinking in entity IDs",
-   "dek": "2026.7's real news for a Lutron migrator is a rebuilt Matter server and automations you can describe in a sentence.",
+   "headline": "The Matter server catches up to the spec it just chased",
+   "dek": "A beta already ships full Matter 1.6 support barely a month after ratification — and the pylutron crash flagged last issue traces to a fix that's already merged.",
    "anchor": "p10",
    "featured": false
   },
@@ -90,8 +80,8 @@
    "sub": "Objects & Escapes",
    "category": "Design",
    "kicker": "The Good Life",
-   "headline": "A Rainbow Daytona breaks Australia's watch-auction record",
-   "dek": "$510,000 hammer, $612,000 all-in — and it's still not the biggest result of the week to come.",
+   "headline": "A flagship season for high-end audio, while two watch-auction results stay genuinely unresolved",
+   "dek": "McIntosh, Ortofon and Marantz all shipped landmark components this fortnight — Sotheby's Singapore, closed four days ago, still hasn't published a number.",
    "anchor": "p11",
    "featured": false
   },
@@ -100,8 +90,8 @@
    "sub": "Culture Desk",
    "category": "Culture",
    "kicker": "Screen & Sound",
-   "headline": "Three albums, one Friday",
-   "dek": "Gracie Abrams, Steve Lacy and Rick Ross all released the same day — and for once, that's the actual story, not a chip-stock echo of last issue's box office.",
+   "headline": "Apple TV+ takes Hall H for the first time, as San Diego Comic-Con opens to a genuinely new headliner",
+   "dek": "Preview night is tomorrow; by Saturday, a streamer with no Marvel or Star Wars behind it is running the convention's biggest room solo.",
    "anchor": "p12",
    "featured": false
   },
@@ -110,8 +100,8 @@
    "sub": "Raising Them Well",
    "category": "Family",
    "kicker": "The Family Desk",
-   "headline": "Roblox's age bands get real teeth",
-   "dek": "General guidance, not medical or legal advice. A safety policy that used to be mostly paperwork now has a stock-price cost and a state settlement attached.",
+   "headline": "Roblox's settlement math: five states, one mediator",
+   "dek": "General guidance, not legal or medical advice. What was one state's settlement last issue is now a five-state pattern — and the federal case has quietly acquired a mediator.",
    "anchor": "p13",
    "featured": false
   },
@@ -120,9 +110,19 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk",
-   "headline": "One oil shock, four different instruments",
-   "dek": "Market explanation and education, not investment advice. Forecasts are flagged as forecasts throughout.",
+   "headline": "From the wellhead to the tap",
+   "dek": "Iran's war on Gulf energy widens to Kuwait's drinking water and stalls Hormuz shipping; Chair Warsh's hawkish week repriced the 28–29 July FOMC; gold's war-hedge decoupling holds rather than reverses. Market explanation and education, not investment advice — forecasts are flagged as forecasts throughout.",
    "anchor": "p15",
+   "featured": false
+  },
+  {
+   "desk": "Curiosities",
+   "sub": "The Far Edges",
+   "category": "Science",
+   "kicker": "Curiosities",
+   "headline": "Breathing room",
+   "dek": "A Singapore–Japan lab teaches cockroaches to dive; a bristle worm's jaw turns out to be a material science hasn't named yet; and three bones filed away for thirty years become a new giant salamander.",
+   "anchor": "p16",
    "featured": false
   },
   {
@@ -130,8 +130,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life",
-   "headline": "The divorce rate is at a 50-year low. That's not quite good news.",
-   "dek": "The number is real. The story it's usually told as — marriages getting happier — probably isn't.",
+   "headline": "An algorithm wants to pick who you fall for. The internet noticed.",
+   "dek": "Hinge's founder built a matchmaker with no swiping and no profiles. The backlash arrived faster than the product will.",
    "anchor": "p17",
    "featured": false
   },
@@ -140,8 +140,8 @@
    "sub": "The Long Game",
    "category": "Health",
    "kicker": "Fitness · The Long Game",
-   "headline": "More strength training stops paying off around two hours a week",
-   "dek": "General guidance, not medical advice. A 30-year, 147,000-person dataset finds a ceiling — not a floor.",
+   "headline": "Your handshake might be buffering your brain",
+   "dek": "General guidance, not medical advice. A new grip-strength finding is genuinely interesting — and easy to over-read.",
    "anchor": "p18",
    "featured": false
   },
@@ -150,18 +150,18 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary",
-   "headline": "BIGBANG finally confirms Singapore",
-   "dek": "After ten straight issues of silence, a date — though not yet a ticket.",
+   "headline": "The October Squeeze",
+   "dek": "A Grand Prix weekend, a stadium K-pop date, two national festival peaks and a Test match all land within six weeks of each other — book the flights before the hotels do.",
    "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
-   "sub": "The Cost of Daylight",
+   "sub": "The Narrowest Point",
    "category": "Essay",
    "kicker": "The Long Read",
-   "headline": "The Cost of Daylight",
-   "dek": "Three episodes, a century and a half apart, about what actually happens once a quiet rule gets noticed — and one honest case, from this very issue, where noticing wasn't enough.",
+   "headline": "The Narrowest Point",
+   "dek": "A strait, a manufacturing gas, a single desalination plant, one email: this week's news kept turning on parts too small or too boring to have been defended — the places a system is actually weakest. Three episodes, two thousand years apart, about what happens when someone finds the narrow point first.",
    "anchor": "p21",
    "featured": false
   }
