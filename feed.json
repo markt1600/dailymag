@@ -1,11 +1,11 @@
 {
  "publication": "MERIDIAN",
- "issue": 48,
- "date": "21 July 2026",
- "generated": "2026-07-21T07:27:51+08:00",
+ "issue": 49,
+ "date": "22 July 2026",
+ "generated": "2026-07-22T06:54:56+08:00",
  "quote": {
-  "text": "In every chain of reasoning, the evidence of the last conclusion can be no greater than that of the weakest link of the chain, whatever may be the strength of the rest.",
-  "author": "Thomas Reid, Essays on the Intellectual Powers of Man (1786), Essay VII"
+  "text": "It may be observed in general that the future is purchased by the present.",
+  "author": "Samuel Johnson, The Rambler No. 175 (19 November 1751)"
  },
  "macro": {
   "title": "What It Means For VWRA, Global Bonds, Gold & BTC",
@@ -19,20 +19,10 @@
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Gulf War, Day 28",
-   "headline": "Houthis Blockade Saudi Arabia as the Gulf War Widens Further",
-   "dek": "A third American service member is dead and Iranian fire has now reached six Gulf states in 72 hours, as Yemen's Houthis open a new front against Riyadh in the Red Sea.",
+   "kicker": "The World · The Gulf War, Day 29",
+   "headline": "The Houthi Blockade of Saudi Arabia Becomes Real",
+   "dek": "A declaration made last weekend hardened this week into convoy escorts and threatened shipping, as the Gulf war kept narrowing onto the two straits it cannot stop returning to.",
    "anchor": "p3",
-   "featured": true
-  },
-  {
-   "desk": "Singapore",
-   "sub": "The Little Red Dot",
-   "category": "Asia",
-   "kicker": "Singapore",
-   "headline": "Faishal Ibrahim resigns as minister and MP over conduct lapse",
-   "dek": "A month-old email about \"inappropriate interactions\" ends a front-bench career within a day of reaching the Prime Minister's Office — the Home Affairs and Muslim Affairs portfolios reassigned same-day, no criminal charges brought against either party.",
-   "anchor": "p5",
    "featured": true
   },
   {
@@ -40,18 +30,38 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · Silicon & Sovereignty",
-   "headline": "The chokepoint moved from the chip to the gas cylinder",
-   "dek": "China's tungsten export curbs just took a quarter of the world's high-purity chipmaking gas offline — permanently. It's a smaller, quieter lever than an export ban, and it lands at exactly the manufacturing step a GPU's own memory stack depends on.",
+   "headline": "For a Few Hours, the Biggest Company Made Phones",
+   "dek": "Apple briefly retook the market-cap crown from Nvidia as the AI-chip trade wobbled; the tungsten-gas squeeze found a price; and the next Nvidia platform entered full production even as its China sales stayed near zero.",
    "anchor": "p7",
    "featured": true
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound",
+   "headline": "Half a Billion Views for a Film Ten Months Away",
+   "dek": "The first Avengers: Doomsday trailer set a record the week before Comic-Con — where Marvel returns to Hall H and Apple TV+ arrives for the first time.",
+   "anchor": "p12",
+   "featured": true
+  },
+  {
+   "desk": "Singapore",
+   "sub": "The Little Red Dot",
+   "category": "Asia",
+   "kicker": "Singapore",
+   "headline": "A New Chief Justice, Named Nineteen Months Ahead",
+   "dek": "Sushil Nair will succeed Sundaresh Menon in February 2027 — a long-lead succession announced the same week the government closed the book on a resigned minister's seat.",
+   "anchor": "p5",
+   "featured": false
   },
   {
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
    "kicker": "Property",
-   "headline": "Jurong's second-CBD anchor site returns — smaller, and state-subsidised",
-   "dek": "URA relaunches the Town Hall Link white site at roughly half its old size, with the government now absorbing the district infrastructure bill — an unusually generous fix for a 2023 mega-parcel that drew one bid, deemed too low, and no award.",
+   "headline": "Bedok's Record Bid, Now Confirmed",
+   "dek": "A Frasers-led consortium's S$2.13 billion offer for the Bayshore Drive site is the top bid at tender close — Singapore's largest non-central land sale — while Turf City's first private condo opens its books this weekend.",
    "anchor": "p6",
    "featured": false
   },
@@ -60,8 +70,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit",
-   "headline": "The night before Unpacked, the watches do the talking",
-   "dek": "Galaxy Watch Ultra 2 and Watch 9 leaks sharpen to specific numbers hours before Wednesday's London event — the glasses stay the quieter, unconfirmed story until then.",
+   "headline": "Unpacked Comes to London: A Wider Fold, and Glasses With No Screen",
+   "dek": "Samsung held its first London Unpacked in fourteen years on 22 July, unveiling a reshaped foldable line, its first commercial AI glasses — and a set of prices that keep climbing.",
    "anchor": "p9",
    "featured": false
   },
@@ -70,8 +80,8 @@
    "sub": "Walls That Listen",
    "category": "Connected Home",
    "kicker": "The Connected Home",
-   "headline": "The Matter server catches up to the spec it just chased",
-   "dek": "A beta already ships full Matter 1.6 support barely a month after ratification — and the pylutron crash flagged last issue traces to a fix that's already merged.",
+   "headline": "The Spec Runs Ahead Again",
+   "dek": "Home Assistant's July release finally rebuilt its Matter server just as Matter itself jumped to 1.6 — NFC-tap setup, cross-ecosystem sharing, smarter thermostats. The migrator's takeaway: adopt slowly.",
    "anchor": "p10",
    "featured": false
   },
@@ -80,19 +90,9 @@
    "sub": "Objects & Escapes",
    "category": "Design",
    "kicker": "The Good Life",
-   "headline": "A flagship season for high-end audio, while two watch-auction results stay genuinely unresolved",
-   "dek": "McIntosh, Ortofon and Marantz all shipped landmark components this fortnight — Sotheby's Singapore, closed four days ago, still hasn't published a number.",
+   "headline": "A Flagship Season for the Ear",
+   "dek": "From a $399 headphone to a $210,000 speaker, the summer's audio launches span the whole ladder at once — while the auction market that sets watch prices just posted its strongest half in years.",
    "anchor": "p11",
-   "featured": false
-  },
-  {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound",
-   "headline": "Apple TV+ takes Hall H for the first time, as San Diego Comic-Con opens to a genuinely new headliner",
-   "dek": "Preview night is tomorrow; by Saturday, a streamer with no Marvel or Star Wars behind it is running the convention's biggest room solo.",
-   "anchor": "p12",
    "featured": false
   },
   {
@@ -100,8 +100,8 @@
    "sub": "Raising Them Well",
    "category": "Family",
    "kicker": "The Family Desk",
-   "headline": "Roblox's settlement math: five states, one mediator",
-   "dek": "General guidance, not legal or medical advice. What was one state's settlement last issue is now a five-state pattern — and the federal case has quietly acquired a mediator.",
+   "headline": "The Paediatricians Drop the Clock",
+   "dek": "New guidance retires the decade-old \"hours per day\" rule for screens in favour of content, context and the individual child — a quieter, harder message than a number. General guidance, not medical advice.",
    "anchor": "p13",
    "featured": false
   },
@@ -110,8 +110,8 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk",
-   "headline": "From the wellhead to the tap",
-   "dek": "Iran's war on Gulf energy widens to Kuwait's drinking water and stalls Hormuz shipping; Chair Warsh's hawkish week repriced the 28–29 July FOMC; gold's war-hedge decoupling holds rather than reverses. Market explanation and education, not investment advice — forecasts are flagged as forecasts throughout.",
+   "headline": "An oil bid, a coin-flip Fed, and gold at a record",
+   "dek": "A widening Gulf war keeps a bid under crude just as a hawkish chair drags July's meeting toward a live call; gold prints a record while bitcoin only nudges a five-week high. Market explanation and education, not investment advice — forecasts are flagged as forecasts throughout.",
    "anchor": "p15",
    "featured": false
   },
@@ -120,8 +120,8 @@
    "sub": "The Far Edges",
    "category": "Science",
    "kicker": "Curiosities",
-   "headline": "Breathing room",
-   "dek": "A Singapore–Japan lab teaches cockroaches to dive; a bristle worm's jaw turns out to be a material science hasn't named yet; and three bones filed away for thirty years become a new giant salamander.",
+   "headline": "The Third Visitor From Another Star",
+   "dek": "An interstellar comet is crossing our sky this week, the gravitational-wave catalogue just passed 390, and NTU found exotic light hiding in a 200-year-old shadow.",
    "anchor": "p16",
    "featured": false
   },
@@ -130,8 +130,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life",
-   "headline": "An algorithm wants to pick who you fall for. The internet noticed.",
-   "dek": "Hinge's founder built a matchmaker with no swiping and no profiles. The backlash arrived faster than the product will.",
+   "headline": "Feeling Loved Beats Being Loving",
+   "dek": "A new study separates two things we usually blur — and finds that the sense of being loved does more for a relationship than the act of loving. Meanwhile, three in four online daters say they would date a machine.",
    "anchor": "p17",
    "featured": false
   },
@@ -140,8 +140,8 @@
    "sub": "The Long Game",
    "category": "Health",
    "kicker": "Fitness · The Long Game",
-   "headline": "Your handshake might be buffering your brain",
-   "dek": "General guidance, not medical advice. A new grip-strength finding is genuinely interesting — and easy to over-read.",
+   "headline": "The Strength Dose That Comes With a Ceiling",
+   "dek": "A large study points to 90–120 minutes of strength training a week as the sweet spot — with no bonus above it — and a wearable head-to-head suggests which recovery number to trust. General guidance, not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -150,18 +150,18 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary",
-   "headline": "The October Squeeze",
-   "dek": "A Grand Prix weekend, a stadium K-pop date, two national festival peaks and a Test match all land within six weeks of each other — book the flights before the hotels do.",
+   "headline": "The Autumn Squeeze",
+   "dek": "Three arena-sized names land within a month of each other this autumn — book the travel before the tickets.",
    "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
-   "sub": "The Narrowest Point",
+   "sub": "Pricing the Unarrived",
    "category": "Essay",
    "kicker": "The Long Read",
-   "headline": "The Narrowest Point",
-   "dek": "A strait, a manufacturing gas, a single desalination plant, one email: this week's news kept turning on parts too small or too boring to have been defended — the places a system is actually weakest. Three episodes, two thousand years apart, about what happens when someone finds the narrow point first.",
+   "headline": "Pricing the Unarrived",
+   "dek": "Half a billion trailer views, a Fed meeting not yet sat, a bid on empty land, a war premium on oil still flowing: this week was thick with prices for things that have not happened. Three episodes — a rice market, a bubble and a mania — about what a society is really doing when it buys the future.",
    "anchor": "p21",
    "featured": false
   }
