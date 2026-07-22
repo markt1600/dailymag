@@ -1,6 +1,118 @@
 {
-  "count": 296,
+  "count": 310,
   "subjects": [
+    {
+      "subject": "TSMC AI-capex earnings cycle (Q2 2026 record)",
+      "type": "Earnings / market",
+      "last_covered": "No. 50",
+      "last_peg": "Technology LEAD — record Q2 revenue US$40.2bn (+36% YoY), HPC ~66% of wafer revenue (+20% QoQ), CoWoS \"sold out through 2026,\" FY guidance >40%, 2026 capex US$60–64bn + US$100bn Arizona; framed against Alphabet's US$175–185bn capex guide and its capex-driven share drop",
+      "next_peg": "Next peg = the Q3 print, a CoWoS capacity add, or a hyperscaler capex reversal."
+    },
+    {
+      "subject": "Kimi K3 (Moonshot open-weights)",
+      "type": "AI release",
+      "last_covered": "No. 50",
+      "last_peg": "Technology/Home Lab — 2.8T-param sparse MoE (16/896 experts), 1M context, \"Kimi Delta Attention,\" API from 16 Jul at $3/$15 per Mtok; full open weights due 27 Jul under a modified-MIT licence; cluster-scale, not single-GPU",
+      "next_peg": "Next peg = the 27 Jul weight drop actually landing, and any home-lab-viable distillations."
+    },
+    {
+      "subject": "Samsung Galaxy Glasses (AI eyewear)",
+      "type": "Product (smart glasses)",
+      "last_covered": "No. 50",
+      "last_peg": "The Kit LEAD — detailed at Unpacked London (22 Jul): screenless/audio-only, Snapdragon AR1 Gen 1, Gemini as the interface, ~9h audio + 7 case charges, Gentle Monster/Warby Parker; \"fall 2026, select markets,\" NO price named (leaked ~$379–499 held as unverified)",
+      "next_peg": "Next peg = the actual price + on-sale date, or first independent reviews — don't restate the leak as confirmed."
+    },
+    {
+      "subject": "Samsung Galaxy Z Fold 8 / Fold 8 Ultra",
+      "type": "Product (foldable)",
+      "last_covered": "No. 50",
+      "last_peg": "The Kit — revealed at Unpacked: Z Fold 8 from US$1,899 (+$100 YoY, wider 5.5″ cover / 7.6″ main, \"Flex Titanium\") and a new Z Fold 8 Ultra from US$2,099; early hands-on favours the cheaper standard Fold",
+      "next_peg": "Next peg = ships / first reviews."
+    },
+    {
+      "subject": "Samsung Galaxy Watch Ultra 2 / Watch 9",
+      "type": "Product (wearable)",
+      "last_covered": "No. 50",
+      "last_peg": "The Kit — made official at Unpacked: Watch Ultra 2 US$699.99 (800mAh, +35%; ~5,000-nit; Snapdragon \"Wear Elite\"; on sale ~7 Aug); Watch 9 from US$349 (3,000-nit, Galaxy AI health suite), ships early Aug",
+      "next_peg": "Next peg = ships / first independent reviews (no longer a leak)."
+    },
+    {
+      "subject": "Skullcandy Crusher 1080 ANC",
+      "type": "Product (audio)",
+      "last_covered": "No. 50",
+      "last_peg": "The Kit — launched 15 Jul, US$279.99, \"Sound by Bose\" ANC + spatial audio, 60h battery; Bose tuning at a non-Bose price",
+      "next_peg": "Closed unless a notable review consensus or price move."
+    },
+    {
+      "subject": "Tissot Seastar 2000 Professional (44mm)",
+      "type": "Product (watch)",
+      "last_covered": "No. 50",
+      "last_peg": "Good Life LEAD — the sized-down revision: 46→44mm, 16.25→15.29mm, ~US$1,050 rubber / $1,100 bracelet (−~$225), keeps Powermatic 80 (80h), helium valve, ceramic bezel, ISO 6425, 600m WR",
+      "next_peg": "Next peg = wide independent reviews, or a variant."
+    },
+    {
+      "subject": "Shelly Gen4 Matter-over-Thread",
+      "type": "Product (smart home)",
+      "last_covered": "No. 50",
+      "last_peg": "Connected Home LEAD — Shelly (founder Dimitrov) publicly weighing first-party Matter-over-Thread for Gen4 (ESP32-C6, currently Matter-over-Wi-Fi only); a third-party open-source firmware (automatous-io) already ships it; HA 2026.7.4 patch 19 Jul",
+      "next_peg": "Next peg = an official Shelly Thread build, or the feature exiting concept stage."
+    },
+    {
+      "subject": "The Odyssey (Christopher Nolan)",
+      "type": "Film release",
+      "last_covered": "No. 50",
+      "last_peg": "Screen & Sound — biggest global opening of Nolan's career: US$124.5m domestic / US$264.1m worldwide (17–19 Jul), topping The Dark Knight Rises; 2026's 2nd-biggest domestic opening, top R-rated debut",
+      "next_peg": "Closed unless a legs/awards-season peg."
+    },
+    {
+      "subject": "Avengers: Doomsday (SDCC 2026 / trailer)",
+      "type": "Film / event",
+      "last_covered": "No. 50",
+      "last_peg": "Screen & Sound LEAD — SDCC opened 23 Jul; the 503M-view trailer (No. 49) carries into a Marvel Hall H cast reveal on 25 Jul; Apple TV+'s first solo Hall H later in the con; Dec 2026 release",
+      "next_peg": "Next peg = the Hall H reactions/reveals, or a trailer/date drop."
+    },
+    {
+      "subject": "\"Japanese walking\" / Interval Walking Training",
+      "type": "Trend / study (fitness)",
+      "last_covered": "No. 50",
+      "last_peg": "Fitness LEAD — viral IWT (3 min brisk / 3 min easy ×5, 4+ days/wk); anchor RCT Nemoto et al., Mayo Clinic Proceedings 2007, n=246 (mean age 63): ~10% aerobic/thigh-strength gain vs continuous walking; influencer \"adds 7 years\" claims flagged as not from the trial",
+      "next_peg": "Closed unless a new interventional trial in a younger cohort."
+    },
+    {
+      "subject": "Chatfishing (AI-written dating messages)",
+      "type": "Trend",
+      "last_covered": "No. 50",
+      "last_peg": "Love & Life LEAD — Bloomberg (20–21 Jul): daters routing chats through ChatGPT/Claude; Match–Kinsey survey n=5,001 (26% adults / 49% Gen Z used AI for dating); platforms ban AI photos but permit AI text; the inversion of No. 49's \"date a bot\"",
+      "next_peg": "Next peg = a platform policy change, or prevalence data (vs the search-spike proxy)."
+    },
+    {
+      "subject": "\"Techxiety\" parental-tech-anxiety survey",
+      "type": "Survey / trend (family)",
+      "last_covered": "No. 50",
+      "last_peg": "Family Desk LEAD — Talker Research/Cosmopolitan poll, n=2,000 US parents (fielded 22–29 May): ~7h sleep lost/wk to worry, 73% of kids own a phone (47% of 5-yr-olds'); a commissioned poll (sentiment, not measured harm)",
+      "next_peg": "Closed unless a peer-reviewed follow-up."
+    },
+    {
+      "subject": "JWST supermassive-black-hole feeding (NGC 4696)",
+      "type": "Science (astronomy)",
+      "last_covered": "No. 50",
+      "last_peg": "Curiosities LEAD — U. de Montréal team, ApJL: 7.7h NIRSpec on NGC 4696 (Centaurus Cluster) resolves an ~800-ly feeding disk (gas ≤600 km/s) and a self-regulated AGN-feedback \"recycling\" loop",
+      "next_peg": "Closed unless a follow-up characterisation or a second system."
+    },
+    {
+      "subject": "The Table — Behind Clay (Clarke Quay) / Foura (Gardens by the Bay) / SAM SAM SAM (Novena)",
+      "type": "Restaurant",
+      "last_covered": "No. 50",
+      "last_peg": "Diary/Table — three new openings: Behind Clay (hidden behind Il Clay's pizza oven, chef Ciro Sorrentino, ~late Jun; promising/early), Foura (wellness-led Blue-Zones dining, opened 9 Jul; too-new-to-call), SAM SAM SAM (samgyetang, ~May, Muslim-friendly; solid not blockbuster)",
+      "next_peg": "Next peg = fuller independent verdicts for any of the three."
+    },
+    {
+      "subject": "EXO / BIGBANG (Singapore shows)",
+      "type": "Event (concert)",
+      "last_covered": "No. 50",
+      "last_peg": "Diary — EXO's two farewell-era nights (24 & 26 Jul, Indoor Stadium, first as a group since 2019); BIGBANG \"20/26\" Tour at National Stadium (17 Oct, tickets \"coming soon\"), the week after the F1 GP",
+      "next_peg": "Next peg = BIGBANG on-sale/pricing, or sellout news."
+    },
     {
       "subject": "Tungsten hexafluoride (WF6) chipmaking-gas chokepoint",
       "type": "Supply chain / materials",
@@ -49,13 +161,6 @@
       "last_covered": "No. 48",
       "last_peg": "The Kit — announced 9 Jul, $2,299.99, 24-600mm Zeiss on a 20.1MP stacked sensor, 4K120; revives a 9-year-dormant line, ships Aug",
       "next_peg": "Next peg = ships / first reviews."
-    },
-    {
-      "subject": "Samsung Galaxy Watch Ultra 2 / Watch 9",
-      "type": "Product (wearable)",
-      "last_covered": "No. 48",
-      "last_peg": "The Kit — pre-Unpacked leaks sharpen: ~800mAh (was 590), up to 5,000-nit, Snapdragon Wear Elite (Samsung's first non-Exynos Galaxy Watch); Unpacked 22 Jul",
-      "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
     },
     {
       "subject": "Apple TV+ Hall H takeover / SDCC 2026",
@@ -224,13 +329,6 @@
       "last_covered": "No. 48",
       "last_peg": "Technology (In Brief) — the hard legacy-API cutover now 3 days out (15:59 UTC, 24 Jul), still no grace period found",
       "next_peg": "Next peg = the 24 Jul retirement actually landing, and any fallout for tooling built on the old endpoints."
-    },
-    {
-      "subject": "Samsung Galaxy Glasses",
-      "type": "Product (smart glasses)",
-      "last_covered": "No. 48",
-      "last_peg": "The Kit — the night before Unpacked (22 Jul): watch leaks sharpened (see own row) while Galaxy Glasses stays leak-only (audio-only, Gemini on Snapdragon AR1, est. $379-499), Korean coverage framing price vs Meta's $299 line",
-      "next_peg": "Next peg = the actual 22 Jul Unpacked reveal — don't restate the leak as confirmed."
     },
     {
       "subject": "RingConn Gen 3",
