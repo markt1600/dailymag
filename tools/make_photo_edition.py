@@ -197,7 +197,15 @@ SCREEN_CSS = """
   .march-none{ padding:22px; text-align:center; color:var(--muted); font-family:'Poppins',sans-serif; font-size:9pt; }
 }
 /* keep the print deliverable pristine */
-@media print { .ph-frame, #mprog, .m-chrome{ display:none !important; } }
+.fbrow{ display:flex; justify-content:flex-end; gap:6px; margin:-2px 0 4px;
+  font-family:'Poppins',sans-serif; font-size:8.4px; color:var(--muted); opacity:.55; }
+.fbrow:hover{ opacity:1; }
+.fbrow button{ background:none; border:.6pt solid var(--line); border-radius:9px;
+  padding:1px 7px; cursor:pointer; color:inherit; font:inherit; line-height:1.5; }
+.fbrow button:hover{ border-color:var(--gold); }
+.fbrow button.on{ color:var(--vermilion); border-color:var(--vermilion); opacity:1; }
+.fbrow .fbk{ letter-spacing:.08em; text-transform:uppercase; align-self:center; }
+@media print { .ph-frame, #mprog, .m-chrome, .fbrow{ display:none !important; } }
 </style>
 """
 
@@ -206,6 +214,32 @@ html = html.replace('<link rel="stylesheet" href="meridian.css">',
                     FONTS + '\n<style>\n' + css + '\n</style>')
 html = html.replace('</head>', SCREEN_CSS + '\n</head>')
 
+# ---- 4b. reader feedback: subtle thumbs on each desk's lead article ----
+# One row per desk (main articles only, per the editor), right-aligned and
+# muted; votes POST to marktan.ai/api/feedback and land in the mainpage repo,
+# which tomorrow's build session reads. Screen-only; print never sees it.
+import re as _re
+_secs = _re.split(r'(?=<section[^>]*class="page)', html)
+_seen_desks, _out = set(), []
+for _sec in _secs:
+    _m = _re.search(r'<div class="rh"><span><span class="dot">●</span> Meridian · ([^<]+)</span>', _sec)
+    if _m:
+        _desk = _m.group(1).strip()
+        if _desk not in _seen_desks and _desk not in ('Contents',):
+            _seen_desks.add(_desk)
+            _dek = _sec.find('</div>', _sec.find('<div class="dek">')) if '<div class="dek">' in _sec else -1
+            _kick = _re.search(r'<div class="kicker[^"]*">(.*?)</div>', _sec, _re.S)
+            _topic = _re.sub(r'<[^>]+>', '', _kick.group(1)).strip() if _kick else _desk
+            if _dek != -1:
+                _end = _dek + len('</div>')
+                _fb = ('\n  <div class="fbrow" data-desk="' + _desk.replace('"','') + '" data-topic="' + _topic.replace('"','') + '">'
+                       '<span class="fbk">this story</span>'
+                       '<button type="button" data-v="1" aria-label="More like this">👍</button>'
+                       '<button type="button" data-v="-1" aria-label="Less like this">👎</button></div>')
+                _sec = _sec[:_end] + _fb + _sec[_end:]
+    _out.append(_sec)
+html = ''.join(_out)
+
 # ---- 5. body-top chrome ----
 CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'
@@ -213,6 +247,7 @@ CHROME = ('<body>\n'
           f'  <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
           f'  <nav class="mnav">{nav_links}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
+          '<button class="m-toggle" id="mnote" type="button">✎ Note</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
 if manifest:
@@ -290,6 +325,30 @@ if count < 5:
 
 # ---- 7. behaviour (inline, CSP-safe) ----
 JS = """
+(function(){
+  var API='https://marktan.ai/api/feedback', ISS=document.querySelector('.pdf-dl');
+  var issue=(ISS&&(ISS.textContent.match(/No\\.\\s*(\\d+)/)||[])[1])||'';
+  function post(p){ try{ fetch(API,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify(p)}); }catch(e){} }
+  document.querySelectorAll('.fbrow').forEach(function(row){
+    var key='mfb-'+issue+'-'+row.dataset.desk;
+    var prev=null; try{ prev=localStorage.getItem(key); }catch(e){}
+    row.querySelectorAll('button').forEach(function(b){
+      if(prev===b.dataset.v) b.classList.add('on');
+      b.addEventListener('click',function(){
+        row.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});
+        b.classList.add('on');
+        try{ localStorage.setItem(key,b.dataset.v); }catch(e){}
+        post({type:'vote',issue:issue,desk:row.dataset.desk,topic:row.dataset.topic,vote:+b.dataset.v});
+      });
+    });
+  });
+  var mn=document.getElementById('mnote');
+  if(mn) mn.addEventListener('click',function(){
+    var t=prompt('Note to the editor — lands in tomorrow\\'s build:');
+    if(t&&t.trim()){ post({type:'note',issue:issue,text:t.trim().slice(0,1000)}); mn.textContent='✓ Sent'; setTimeout(function(){mn.textContent='✎ Note';},2500); }
+  });
+})();
+""" + """
 <script>
 (function(){
   var root=document.documentElement;
