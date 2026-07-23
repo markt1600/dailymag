@@ -241,10 +241,15 @@ def hero(entry):
     slug = entry.get("asset")
     if slug and _asset_ok(slug):
         url = ASSET_BASE + slug + ".jpg"
+    elif entry.get("url"):
+        url = entry["url"]
     else:
         fn = entry["file"]
         url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + fn.replace(' ', '%20') + "?width=1600"
-    cred = entry["caption"] + ' Source: Wikimedia Commons — "File:' + entry["file"] + '"'
+    if entry.get("source"):
+        cred = entry["caption"] + ' Source: ' + entry["source"]
+    else:
+        cred = entry["caption"] + ' Source: Wikimedia Commons — "File:' + entry.get("file","") + '"'
     if entry.get("license"):
         cred += ' · ' + entry["license"]
     if entry.get("author"):
