@@ -73,6 +73,26 @@ if _cs.bad:
                   + ", ".join(f"{p} ({n}×)" for p, n in sorted(_cs.bad.items()))
                   + " — set interior body in columns like a magazine, or mark a deliberate opener with class=\"body fullmeasure\"")
 
+# house-style regression gate: structural fingerprints of a real MERIDIAN
+# (calibrated on No. 38; floors ~50-60% so weekday AND weekend books pass).
+# No. 50-era drift shipped 0 figframes and 0 brief strips — these floors
+# make that impossible to ship again.
+STYLE_FLOORS = [
+    ('class="chatter',   18, "chatter boxes"),
+    ('chatter slate',     8, "sceptic/contrarian (.chatter.slate) boxes"),
+    ('class="stat',      14, ".stat callouts"),
+    ('class="pull',       4, ".pull quotes"),
+    ('class="desk',       2, "viewpoint (.desk) panels on The World"),
+    ('body dropcap',      8, "dropcaps"),
+    ('class="figframe',   2, "figframes (original SVG figures)"),
+    ('class="brief-h',    8, '"in brief"/"still on the shelf" strips (.brief-h)'),
+    ('fnref',            60, "footnote markers"),
+]
+for needle, floor, label in STYLE_FLOORS:
+    n = html.count(needle)
+    if n < floor:
+        errors.append(f"house style: only {n} {label} (floor {floor}) — the book is under-furnished; add real, sourced material per the density discipline")
+
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
     ref = int(m.group(1))
