@@ -46,6 +46,33 @@ for idx, sec in enumerate(pages, 1):
         if missing and fnblock:
             warns.append(f"page {idx}: markers {missing} have no obvious matching SOURCES entry (verify)")
 
+# column discipline: interior body copy must live in columns (.cols2/.cols3 or
+# a .grid cell), never run the full A4 measure — full-width paragraphs are the
+# single most magazine-breaking layout drift (reader-reported, No. 50 era).
+# Escape hatch for a deliberate feature opener: class="body fullmeasure".
+from html.parser import HTMLParser
+class _ColScan(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.stack=[]; self.page=0; self.bad={}
+    def handle_starttag(self, tag, attrs):
+        cls = dict(attrs).get('class', '') or ''
+        if tag == 'section' and 'page' in cls.split(): self.page += 1
+        self.stack.append((tag, cls))
+        if tag == 'p' and 'body' in cls.split() and 'fullmeasure' not in cls.split():
+            if self.page in (1,): return  # cover exempt
+            in_col = any(any(k in c.split() for k in ('cols2','cols3','grid'))
+                         for _, c in self.stack[:-1])
+            if not in_col:
+                self.bad[self.page] = self.bad.get(self.page, 0) + 1
+    def handle_endtag(self, tag):
+        for i in range(len(self.stack)-1, -1, -1):
+            if self.stack[i][0] == tag: del self.stack[i]; break
+_cs = _ColScan(); _cs.feed(html)
+if _cs.bad:
+    errors.append("full-width body copy (not in .cols2/.cols3/.grid) on page(s) "
+                  + ", ".join(f"{p} ({n}×)" for p, n in sorted(_cs.bad.items()))
+                  + " — set interior body in columns like a magazine, or mark a deliberate opener with class=\"body fullmeasure\"")
+
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
     ref = int(m.group(1))

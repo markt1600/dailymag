@@ -1,0 +1,11 @@
+{
+  "_comment": "Hero-image library manifest. Each entry is fetched from Wikimedia Commons by .github/workflows/fetch-heroes.yml (the build sandbox cannot reach Commons) and committed as assets/heroes/<slug>.jpg. Editions reference the committed copies via raw.githubusercontent, so images never break for readers. Add entries (exact Commons 'File:' name, minus the prefix) + push to main; the Action does the rest. Failed fetches are skipped, never faked.",
+  "images": [
+    { "slug": "marina-bay",  "file": "Singapore Marina Bay Dusk 2018-02-27.jpg" },
+    { "slug": "wafer",       "file": "Chips on 6-Inch-Wafer 01.jpg" },
+    { "slug": "milky-way",   "file": "ESO - Milky Way.jpg" },
+    { "slug": "headphones",  "file": "Headphones 1.jpg" },
+    { "slug": "comet-atlas", "file": "3I-ATLAS Hubble heic2509a.jpg" },
+    { "slug": "taipei",      "file": "Taipei Skyline 2022.06.29.jpg" }
+  ]
+}
