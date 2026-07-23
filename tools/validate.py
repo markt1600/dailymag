@@ -119,6 +119,45 @@ for _desk, _secs in _desk_pages.items():
     if _blob.count('chatter slate') < 1:
         errors.append(f"desk '{_desk}': no sceptic/contrarian (.chatter.slate) box — the pass-3 cross-examination is missing")
 
+# page-two feature rotation (from No. 51): Friday needs The Meridian Index,
+# Saturday needs The Scoreboard. Weekday read from the cover's date line.
+_issm = re.search(r'No\.\s*(\d{1,3})\s*·\s*Singapore', html)
+_issno = int(_issm.group(1)) if _issm else 0
+_daym = re.search(r'\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b', pages[0] if pages else '')
+_day = _daym.group(1) if _daym else ''
+if _issno >= 51:
+    if _day == 'Friday' and 'The Meridian Index' not in html:
+        errors.append("Friday issue is missing 'The Meridian Index' page-two feature (see THE PAGE-TWO FEATURE)")
+    if _day == 'Saturday' and 'The Scoreboard' not in html:
+        errors.append("Saturday issue is missing 'The Scoreboard' page-two feature (see PREDICTIONS PROTOCOL)")
+
+# voice card: banned-tic counts (warn) + phrase recycling vs archived issues (warn)
+_text = re.sub(r'<[^>]+>', ' ', html).lower()
+for _tic in ('is the story', 'the arithmetic', 'writes itself', 'the tell is', 'in one sentence', 'quietly became', 'does the pre-selling'):
+    _n = _text.count(_tic)
+    if _n > 1:
+        warns.append(f"voice: banned tic '{_tic}' used {_n}× (max 1) — rewrite per the VOICE CARD")
+import pathlib as _pl
+def _prose(h):
+    # editorial prose only: body paragraphs, deks, pulls — not chrome/furniture
+    parts = re.findall(r'<p class="body[^"]*">(.*?)</p>', h, re.S)
+    parts += re.findall(r'<div class="dek">(.*?)</div>', h, re.S)
+    parts += re.findall(r'<div class="pull">(.*?)</div>', h, re.S)
+    return re.sub(r'<[^>]+>', ' ', ' '.join(parts)).lower()
+_arch = sorted(_pl.Path('archive').glob('no-*/index.html'),
+               key=lambda f: int(re.search(r'no-(\d+)', str(f)).group(1)))
+_arch = [f for f in _arch if _issno and int(re.search(r'no-(\d+)', str(f)).group(1)) < _issno][-3:]
+if _arch:
+    _prev = ' '.join(_prose(f.read_text()) for f in _arch if f.exists())
+    _words = re.findall(r"[a-z']+", _prose(html))
+    _stop = set('the a an of to in on for and or but with as at by from is are was were be it its this that'.split())
+    _grams = {' '.join(_words[i:i+4]) for i in range(len(_words)-3)
+              if sum(1 for w in _words[i:i+4] if w not in _stop) >= 3}
+    _recycled = sorted(g for g in _grams if g in _prev)
+    if len(_recycled) > 40:
+        _ex = ', '.join(f'"{g}"' for g in _recycled[:5])
+        warns.append(f"voice: {len(_recycled)} distinctive 4-word prose phrases recycled from the last 3 issues (e.g. {_ex}) — phrase fatigue; vary the language per the VOICE CARD")
+
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
     ref = int(m.group(1))
