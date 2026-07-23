@@ -226,31 +226,62 @@ if manifest:
         + json.dumps(manifest, ensure_ascii=False) + '</script>')
 html = html.replace('<body>', CHROME, 1)
 
-# ---- 6. photo heroes from images.json (subject-verified / representative) ----
+# ---- 6. photo heroes: repo-hosted library + standing per-desk fallbacks ----
+# Images live IN the repo (assets/heroes/<slug>.jpg, fetched from Commons by
+# .github/workflows/fetch-heroes.yml) and are embedded via raw.githubusercontent
+# so they load for readers, in archives, and are even testable from the build
+# sandbox (the one image host it can reach). Every issue MUST carry photos:
+# desks with no issue-specific hero fall back to the standing entry for that
+# desk, and the build fails outright if fewer than 3 heroes land.
+ASSET_BASE = "https://raw.githubusercontent.com/markt1600/dailymag/main/assets/heroes/"
+import os as _os
+def _asset_ok(slug):
+    return _os.path.exists(_os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "assets", "heroes", slug + ".jpg"))
 def hero(entry):
-    fn = entry["file"]
-    url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + fn.replace(' ', '%20') + "?width=1600"
-    cred = entry["caption"] + ' Source: Wikimedia Commons — "File:' + fn + '" · ' + entry["license"]
+    slug = entry.get("asset")
+    if slug and _asset_ok(slug):
+        url = ASSET_BASE + slug + ".jpg"
+    else:
+        fn = entry["file"]
+        url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + fn.replace(' ', '%20') + "?width=1600"
+    cred = entry["caption"] + ' Source: Wikimedia Commons — "File:' + entry["file"] + '"'
+    if entry.get("license"):
+        cred += ' · ' + entry["license"]
     if entry.get("author"):
         cred += " · " + entry["author"]
-    cred += ". " + ("Subject verified from the Commons file page." if entry.get("specific") else "Representative image; subject class verified from the Commons file page.")
+    cred += ". " + ("Specific subject." if entry.get("specific") else "Representative image, honestly labelled.")
     alt = entry["caption"].split(" — ")[0]
     return (f'  <div class="ph-frame"><img src="{url}" alt="{alt}" loading="lazy">'
             f'<div class="ph-cred">{cred}</div></div>\n')
 
-count = 0
-for entry in images.get("heroes", []):
-    if entry.get("issue") and str(entry["issue"]) != str(ISSUE):
-        continue
+count, used_anchors = 0, set()
+def inject(entry):
+    global html, count
     anchor = entry["anchor"]
     idx = html.find(anchor)
     if idx == -1:
         print("  (skip hero, anchor not found:", anchor, ")")
-        continue
+        return
+    if anchor in used_anchors:
+        return
     rule = html.find('<div class="rule"></div>', idx)
     end = rule + len('<div class="rule"></div>')
     html = html[:end] + '\n' + hero(entry) + html[end:]
-    count += 1
+    used_anchors.add(anchor); count += 1
+
+for entry in images.get("heroes", []):
+    if entry.get("issue") and str(entry["issue"]) != str(ISSUE):
+        continue
+    inject(entry)
+# standing fallbacks: guarantee photos even when the session assigned none
+for entry in images.get("standing", []):
+    inject(entry)
+if count < 3:
+    print(f"FAIL: only {count} photo hero(s) landed — the Photo Edition must carry images every issue.")
+    print("      Check state/images.json anchors vs the running headers, and assets/heroes/.")
+    raise SystemExit(1)
+if count < 5:
+    print(f"  (advisory: only {count} heroes — consider assigning issue-specific picks)")
 
 # ---- 7. behaviour (inline, CSP-safe) ----
 JS = """
