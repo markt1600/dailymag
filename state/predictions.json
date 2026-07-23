@@ -1,4 +1,68 @@
 {
  "_comment": "The Scoreboard's ledger. During EVERY build, log each scoreable claim the issue prints (tracking numbers, odds, 'too new to call' verdicts, forecasts) as {issue, desk, claim, check_by (ISO date or event), outcome:null}. Each SATURDAY edition grades everything gradeable (outcome: 'right'|'wrong'|'push' + one-line result) and prints The Scoreboard from the graded rows. Prune graded rows older than ~3 weeks.",
- "claims": []
+ "claims": [
+  {
+   "issue": 51,
+   "desk": "Macro",
+   "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), per ~83% market-implied odds",
+   "check_by": "2026-07-30",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Macro",
+   "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
+   "check_by": "2026-07-28",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Macro",
+   "claim": "Regime call: higher-for-longer, oil-driven inflation bid, firm dollar persists",
+   "check_by": "2026-08-15",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Technology",
+   "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised",
+   "check_by": "2026-07-29",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Technology",
+   "claim": "DeepSeek legacy chat/reasoner API endpoints stop resolving after 15:59 UTC 24 Jul",
+   "check_by": "2026-07-26",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens above US$180m domestic (31 Jul)",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Property",
+   "claim": "Dunearn House sells more than half its units on 25 Jul launch day",
+   "check_by": "2026-07-28",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "The Long Read",
+   "claim": "A Western major (NYT/BBC/Reuters/FT) runs a feature on China's guzi/emotional-value economy within ~4 weeks",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "The World",
+   "claim": "The 10-day Gulf ceasefire proposal is not accepted by both sides within a week",
+   "check_by": "2026-07-31",
+   "outcome": null
+  }
+ ]
 }

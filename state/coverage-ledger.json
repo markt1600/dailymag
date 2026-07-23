@@ -1,5 +1,5 @@
 {
-  "count": 310,
+  "count": 318,
   "subjects": [
     {
       "subject": "TSMC AI-capex earnings cycle (Q2 2026 record)",
@@ -2160,9 +2160,9 @@
     {
       "subject": "Blue Box Café by Tiffany \\& Co. (ION Orchard)",
       "type": "Restaurant",
-      "last_covered": "No. 49",
-      "last_peg": "The Table — SE Asia's first Tiffany café (opened 15 Jul), menu by Julien Royer (Odette); most-hyped opening of the month, Time Out flags mains that \"don't justify the price\"",
-      "next_peg": "Next peg = a settled critical verdict, or a second outlet."
+      "last_covered": "No. 51",
+      "last_peg": "The Table — OPENED 15 Jul, SEA-first café w/ Julien Royer (Odette); \"Tea at Tiffany's\" S$98++",
+      "next_peg": "too new to judge → next peg first real reviews"
     },
     {
       "subject": "MENSHO X (Raffles Place)",
@@ -2170,6 +2170,62 @@
       "last_covered": "No. 49",
       "last_peg": "The Table — global debut of a fast-casual Mensho Tokyo spin-off (chef Tomoharu Shono, 14 Jul), menu exclusive to this outlet, everything under S$22; the value pick",
       "next_peg": "Next peg = a settled verdict, or expansion."
+    },
+    {
+      "subject": "Sony FX5 (Cinema Line camera)",
+      "type": "Product (camera)",
+      "last_covered": "No. 51",
+      "last_peg": "The Kit LEAD — announced 22 Jul: 16.6MP stacked, first FX Open Gate + internal X-OCN RAW, US$4,899, ships Aug",
+      "next_peg": "now-announced → next peg ships / independent tests"
+    },
+    {
+      "subject": "Phillips watch auctions (H1 2026 record)",
+      "type": "Auction / market",
+      "last_covered": "No. 51",
+      "last_peg": "The Good Life LEAD — $235.5m watches, 99.8% Geneva sell-through, +55% avg lot, 40% first-time buyers",
+      "next_peg": "next peg autumn sales / a reversal"
+    },
+    {
+      "subject": "Spider-Man: Brand New Day",
+      "type": "Film release",
+      "last_covered": "No. 51",
+      "last_peg": "Screen & Sound LEAD — opens 31 Jul, presales tracking $180m+ (projection)",
+      "next_peg": "next peg actual opening weekend"
+    },
+    {
+      "subject": "Dunearn House (Turf City, D11)",
+      "type": "Property launch",
+      "last_covered": "No. 51",
+      "last_peg": "Property LEAD — books 25 Jul, Turf City's first private condo, ~S$2,799 psf from S$1.475m",
+      "next_peg": "next peg booking-day take-up"
+    },
+    {
+      "subject": "Thinking Machines \"Inkling\" (open weights)",
+      "type": "AI release",
+      "last_covered": "No. 51",
+      "last_peg": "Home Lab — 975B/41B MoE, Apache 2.0, ~270GB at 1-bit (multi-box)",
+      "next_peg": "next peg adoption / smaller distills"
+    },
+    {
+      "subject": "Home Assistant 2026.7",
+      "type": "Software release",
+      "last_covered": "No. 51",
+      "last_peg": "Connected Home LEAD — intent-based (area) automations from Labs to default",
+      "next_peg": "next peg 2026.8 (~5 Aug)"
+    },
+    {
+      "subject": "Nvidia Asia compliance whitelist / Aperia-Megaspeed case",
+      "type": "Export-control / legal",
+      "last_covered": "No. 51",
+      "last_peg": "Technology LEAD — >50% Asian buyers cut, in-person audits; Alan Wei not guilty (6 Jul), S$55m GCB seized",
+      "next_peg": "developing — delta only"
+    },
+    {
+      "subject": "China guzi / 痛包 \"emotional-value\" economy",
+      "type": "Trend (Asia/essay)",
+      "last_covered": "No. 51",
+      "last_peg": "The Long Read (Undercurrent) — ~US$24bn character-merch category, 痛一切 escalation",
+      "next_peg": "don't re-run without a genuine new angle"
     }
   ]
 }
