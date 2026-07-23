@@ -93,6 +93,32 @@ for needle, floor, label in STYLE_FLOORS:
     if n < floor:
         errors.append(f"house style: only {n} {label} (floor {floor}) — the book is under-furnished; add real, sourced material per the density discipline")
 
+# per-desk research receipts: every desk must carry the residue of the
+# three-pass protocol — a chatter box (pass 2: the community read), a slate
+# sceptic/contrarian box (pass 3: the cross-examination), and real footnote
+# density. Cover/contents/back cover exempt; the Long Read is exempt from
+# chatter/slate (its furniture is pulls + sources) but not from footnotes.
+_desk_pages = {}
+for _i, _sec in enumerate(pages, 1):
+    _m = re.search(r'<div class="rh"><span><span class="dot">●</span> Meridian · ([^<]+)</span>', _sec)
+    if not _m:
+        continue
+    _desk = _m.group(1).strip()
+    if _desk in ('Contents',):
+        continue
+    _desk_pages.setdefault(_desk, []).append(_sec)
+for _desk, _secs in _desk_pages.items():
+    _blob = ''.join(_secs)
+    _fn = len(re.findall(r'<sup class="fnref">', _blob))
+    if _fn < 4:
+        errors.append(f"desk '{_desk}': only {_fn} footnote markers across its pages (floor 4) — verification residue missing")
+    if _desk == 'The Long Read':
+        continue
+    if _blob.count('class="chatter') < 1:
+        errors.append(f"desk '{_desk}': no Chatter box — the pass-2 community read is missing")
+    if _blob.count('chatter slate') < 1:
+        errors.append(f"desk '{_desk}': no sceptic/contrarian (.chatter.slate) box — the pass-3 cross-examination is missing")
+
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
     ref = int(m.group(1))
