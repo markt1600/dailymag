@@ -1,0 +1,4 @@
+{
+ "_comment": "The Scoreboard's ledger. During EVERY build, log each scoreable claim the issue prints (tracking numbers, odds, 'too new to call' verdicts, forecasts) as {issue, desk, claim, check_by (ISO date or event), outcome:null}. Each SATURDAY edition grades everything gradeable (outcome: 'right'|'wrong'|'push' + one-line result) and prints The Scoreboard from the graded rows. Prune graded rows older than ~3 weeks.",
+ "claims": []
+}
