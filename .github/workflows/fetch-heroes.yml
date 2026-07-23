@@ -30,8 +30,11 @@ jobs:
               dst = f"assets/heroes/{e['slug']}.jpg"
               if os.path.exists(dst) and os.path.getsize(dst) > 10000:
                   print("have", dst); continue
-              url = ("https://commons.wikimedia.org/wiki/Special:FilePath/"
-                     + urllib.parse.quote(e["file"]) + "?width=1600")
+              if e.get("url"):                     # any internet source
+                  url = e["url"]
+              else:                                # Wikimedia Commons filename
+                  url = ("https://commons.wikimedia.org/wiki/Special:FilePath/"
+                         + urllib.parse.quote(e["file"]) + "?width=1600")
               try:
                   req = urllib.request.Request(url, headers={"User-Agent": "meridian-hero-fetch/1.0"})
                   data = urllib.request.urlopen(req, timeout=60).read()

@@ -1,5 +1,5 @@
 {
-  "_comment": "Hero-image library manifest. Each entry is fetched from Wikimedia Commons by .github/workflows/fetch-heroes.yml (the build sandbox cannot reach Commons) and committed as assets/heroes/<slug>.jpg. Editions reference the committed copies via raw.githubusercontent, so images never break for readers. Add entries (exact Commons 'File:' name, minus the prefix) + push to main; the Action does the rest. Failed fetches are skipped, never faked.",
+  "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked.",
   "images": [
     {
       "slug": "marina-bay",
