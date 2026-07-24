@@ -34,7 +34,8 @@
    "desk": "Technology",
    "claim": "DeepSeek legacy chat/reasoner API endpoints stop resolving after 15:59 UTC 24 Jul",
    "check_by": "2026-07-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "Retired on schedule at 15:59 UTC 24 Jul; the deepseek-chat/-reasoner aliases now fail (graded on No. 52 Scoreboard)."
   },
   {
    "issue": 51,
@@ -62,6 +63,49 @@
    "desk": "The World",
    "claim": "The 10-day Gulf ceasefire proposal is not accepted by both sides within a week",
    "check_by": "2026-07-31",
+   "outcome": "right",
+   "result": "Iran rejected the Iraqi-brokered 10-day truce outright on 24 Jul over Hormuz; unaccepted within the week."
+  },
+  {
+   "issue": 52,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens above US$230m domestic (30-31 Jul)",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Property",
+   "claim": "CCR's Q2 price outperformance does not persist into Q3 2026 absent an ABSD relaxation",
+   "check_by": "2026-10-30",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Macro",
+   "claim": "Gold holds its bid above US$4,000/oz through August as the oil-inflation regime persists",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Technology",
+   "claim": "Kimi K3's independent Artificial Analysis composite lands within ~2 points of the claimed 57 once open weights are tested",
+   "check_by": "2026-08-10",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "The World",
+   "claim": "No signed US-Iran/Gulf ceasefire by 15 August despite the rejected 10-day proposal",
+   "check_by": "2026-08-16",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Travel",
+   "claim": "Japan's departure tax is confirmed/legislated at Y3,000 (not merely proposed) by end-2026",
+   "check_by": "2026-12-31",
    "outcome": null
   }
  ]
