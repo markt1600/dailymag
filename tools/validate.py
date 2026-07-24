@@ -154,9 +154,26 @@ if _arch:
     _grams = {' '.join(_words[i:i+4]) for i in range(len(_words)-3)
               if sum(1 for w in _words[i:i+4] if w not in _stop) >= 3}
     _recycled = sorted(g for g in _grams if g in _prev)
-    if len(_recycled) > 40:
-        _ex = ', '.join(f'"{g}"' for g in _recycled[:5])
-        warns.append(f"voice: {len(_recycled)} distinctive 4-word prose phrases recycled from the last 3 issues (e.g. {_ex}) — phrase fatigue; vary the language per the VOICE CARD")
+    _ceiling = max(30, 70 - max(0, _issno - 52)) if _issno >= 52 else 999
+    _ex = ', '.join(f'"{g}"' for g in _recycled[:5])
+    if len(_recycled) > _ceiling:
+        errors.append(f"voice: {len(_recycled)} distinctive 4-word prose phrases recycled from the last 3 issues (ceiling {_ceiling}, tightening by 1 per issue toward 30; e.g. {_ex}) — rewrite per the VOICE CARD")
+    elif len(_recycled) > _ceiling - 15:
+        warns.append(f"voice: {len(_recycled)} recycled prose phrases (ceiling {_ceiling} — headroom {_ceiling - len(_recycled)}; e.g. {_ex})")
+
+# AI-tell scan: phrases that read as generated filler, not house prose.
+# Calibrated: Nos. 38 and 51 score zero. Any hit is a warning; >4 total fails.
+_TELLS = ['delve', 'tapestry', 'testament to', 'serves as a reminder', 'underscores the',
+ 'seamlessly', 'game-changer', "in today's fast-paced", 'at the intersection of',
+ "isn't just about", 'navigate the complexities', 'dive deep', 'stands as a',
+ 'ever-evolving', 'in a world where', 'the humble', 'elevate your', 'a deep dive into',
+ 'rich history', 'nestled', 'vibrant', 'crucial role', 'plays a pivotal']
+_pl_ = _prose(html)
+_tellhits = {t: _pl_.count(t) for t in _TELLS if _pl_.count(t)}
+for _t, _n in _tellhits.items():
+    warns.append(f"voice/AI-tell: '{_t}' ×{_n} — generated-filler phrasing; rewrite in the house register")
+if sum(_tellhits.values()) > 4:
+    errors.append(f"voice/AI-tell: {sum(_tellhits.values())} generated-filler phrases across the issue (max 4) — the prose needs a human-register pass")
 
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):

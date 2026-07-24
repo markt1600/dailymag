@@ -315,13 +315,31 @@ def inject(entry):
     html = html[:end] + '\n' + hero(entry) + html[end:]
     used_anchors.add(anchor); count += 1
 
+_standing_slugs = {e.get("asset") for e in images.get("standing", [])}
+_recent_slugs = {e.get("asset") for e in images.get("heroes", [])
+                 if e.get("issue") and e.get("asset")
+                 and str(e["issue"]) != str(ISSUE)
+                 and str(e["issue"]).isdigit() and int(e["issue"]) >= int(ISSUE) - 3}
+fresh = 0
 for entry in images.get("heroes", []):
     if entry.get("issue") and str(entry["issue"]) != str(ISSUE):
         continue
+    _slug = entry.get("asset")
+    if _slug and _slug not in _standing_slugs and _slug not in _recent_slugs and _asset_ok(_slug):
+        fresh += 1
+    elif _slug and _slug in _recent_slugs:
+        print(f"  (advisory: hero '{_slug}' was used within the last 3 issues — recycled imagery)")
     inject(entry)
 # standing fallbacks: guarantee photos even when the session assigned none
 for entry in images.get("standing", []):
     inject(entry)
+if fresh < 2:
+    print(f"FAIL: only {fresh} FRESH story-specific hero image(s) this issue (min 2; aim for one per desk lead).")
+    print("      Add press/product/agency images via assets/heroes/manifest.json (fetch-heroes Action),")
+    print("      then assign them in state/images.json — standing images are an emergency fallback, not the plan.")
+    raise SystemExit(1)
+if fresh < 6:
+    print(f"  (advisory: {fresh} fresh story-specific heroes — the editor wants one per desk lead)")
 if count < 3:
     print(f"FAIL: only {count} photo hero(s) landed — the Photo Edition must carry images every issue.")
     print("      Check state/images.json anchors vs the running headers, and assets/heroes/.")
@@ -331,6 +349,7 @@ if count < 5:
 
 # ---- 7. behaviour (inline, CSP-safe) ----
 JS = """
+<script>
 (function(){
   var API='https://marktan.ai/api/feedback', ISS=document.querySelector('.pdf-dl');
   var issue=(ISS&&(ISS.textContent.match(/No\\.\\s*(\\d+)/)||[])[1])||'';
@@ -357,7 +376,6 @@ JS = """
   });
 })();
 """ + """
-<script>
 (function(){
   var root=document.documentElement;
   var prog=document.getElementById('mprog');
