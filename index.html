@@ -270,13 +270,19 @@ a.xref{color:var(--vermilion);text-decoration:none;}
   .march-none{ padding:22px; text-align:center; color:var(--muted); font-family:'Poppins',sans-serif; font-size:9pt; }
 }
 /* keep the print deliverable pristine */
-.fbrow{ display:flex; justify-content:flex-end; gap:6px; margin:-2px 0 4px;
-  font-family:'Poppins',sans-serif; font-size:8.4px; color:var(--muted); opacity:.55; }
-.fbrow:hover{ opacity:1; }
-.fbrow button{ background:none; border:.6pt solid var(--line); border-radius:9px;
-  padding:1px 7px; cursor:pointer; color:inherit; font:inherit; line-height:1.5; }
+.fbrow{ display:flex; justify-content:flex-end; align-items:center; gap:6px; margin:-2px 0 4px;
+  font-family:'Poppins',sans-serif; font-size:8.4px; color:var(--muted); opacity:.6; transition:opacity .15s ease; }
+/* NB: don't dim with opacity on a per-button basis — a parent opacity flattens the
+   group, so a child cannot brighten itself. The chosen state uses a filled pill and
+   the whole row goes fully opaque once a vote lands, which reads even on emoji. */
+.fbrow:hover, .fbrow.voted{ opacity:1; }
+.fbrow button{ background:none; border:.8pt solid var(--line); border-radius:10px;
+  padding:1px 8px; cursor:pointer; color:inherit; font:inherit; line-height:1.6;
+  transition:background .12s ease, border-color .12s ease, transform .12s ease, box-shadow .12s ease; }
 .fbrow button:hover{ border-color:var(--gold); }
-.fbrow button.on{ color:var(--vermilion); border-color:var(--vermilion); opacity:1; }
+.fbrow button.on{ background:var(--vermilion); border-color:var(--vermilion); color:var(--paper);
+  transform:scale(1.08); box-shadow:0 1px 5px rgba(193,70,46,.4); }
+.fbrow.voted .fbk{ color:var(--vermilion); }
 .fbrow .fbk{ letter-spacing:.08em; text-transform:uppercase; align-self:center; }
 @media print { .ph-frame, #mprog, .m-chrome, .fbrow{ display:none !important; } }
 </style>
@@ -1094,11 +1100,13 @@ a.xref{color:var(--vermilion);text-decoration:none;}
   document.querySelectorAll('.fbrow').forEach(function(row){
     var key='mfb-'+issue+'-'+row.dataset.desk;
     var prev=null; try{ prev=localStorage.getItem(key); }catch(e){}
+    var fbk=row.querySelector('.fbk');
+    function mark(){ row.classList.add('voted'); if(fbk) fbk.textContent='\u2713 noted'; }
     row.querySelectorAll('button').forEach(function(b){
-      if(prev===b.dataset.v) b.classList.add('on');
+      if(prev===b.dataset.v){ b.classList.add('on'); mark(); }
       b.addEventListener('click',function(){
         row.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});
-        b.classList.add('on');
+        b.classList.add('on'); mark();
         try{ localStorage.setItem(key,b.dataset.v); }catch(e){}
         post({type:'vote',issue:issue,desk:row.dataset.desk,topic:row.dataset.topic,vote:+b.dataset.v});
       });
