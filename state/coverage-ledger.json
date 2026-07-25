@@ -1,5 +1,5 @@
 {
-  "count": 318,
+  "count": 322,
   "subjects": [
     {
       "subject": "TSMC AI-capex earnings cycle (Q2 2026 record)",
@@ -11,16 +11,44 @@
     {
       "subject": "Kimi K3 (Moonshot open-weights)",
       "type": "AI release",
-      "last_covered": "No. 50",
-      "last_peg": "Technology/Home Lab — 2.8T-param sparse MoE (16/896 experts), 1M context, \"Kimi Delta Attention,\" API from 16 Jul at $3/$15 per Mtok; full open weights due 27 Jul under a modified-MIT licence; cluster-scale, not single-GPU",
-      "next_peg": "Next peg = the 27 Jul weight drop actually landing, and any home-lab-viable distillations."
+      "last_covered": "No. 53",
+      "last_peg": "Technology LEAD — first independent verdicts landed ahead of the 27 Jul open-weights drop and cut against the launch charts: UK AISI + US CAISI found it below frontier on offensive-cyber but unable to refuse the attempt; a 51% hallucination rate (up from 39%) was omitted from Moonshot's own slides; ~1.4TB at 4-bit needs a ~$3–4M rack to load (\"open ≠ runnable\")",
+      "next_peg": "Next peg = the weights landing + independent re-runs of the leaderboard scores; any home-lab-viable distillation."
     },
     {
       "subject": "Samsung Galaxy Glasses (AI eyewear)",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 50",
-      "last_peg": "The Kit LEAD — detailed at Unpacked London (22 Jul): screenless/audio-only, Snapdragon AR1 Gen 1, Gemini as the interface, ~9h audio + 7 case charges, Gentle Monster/Warby Parker; \"fall 2026, select markets,\" NO price named (leaked ~$379–499 held as unverified)",
-      "next_peg": "Next peg = the actual price + on-sale date, or first independent reviews — don't restate the leak as confirmed."
+      "last_covered": "No. 53",
+      "last_peg": "The Kit LEAD — post-Unpacked hands-on delta: official name \"Galaxy Intelligent Eyewear,\" two frames (Gentle Monster + Warby Parker), audio-only/no-display for 2026 (AR \"Haean\" a 2027 item), ~50g, Snapdragon AR1, ~9h + case; still NO price ($379–499 analyst estimate, held), \"fall\" only; the Galaxy Watch viewfinder the one genuine idea",
+      "next_peg": "Next peg = the actual price + on-sale date, or first independent reviews — the AR display model is the real 2027 story."
+    },
+    {
+      "subject": "Thinking Machines Inkling (open-weights)",
+      "type": "AI release",
+      "last_covered": "No. 53",
+      "last_peg": "Technology/Home Lab — the \"open AND runnable\" counterpoint to Kimi K3: 975B total / 41B active, Apache-2.0, multimodal, 1M context; community 1–2-bit quants fit ~270–317GB (a maxed Mac Studio) vs 1.9TB BF16; index debut 41; wins instruction-following, loses reasoning/agentic coding",
+      "next_peg": "Next peg = independent low-bit re-runs, and whether it displaces Qwen3 30B as the home daily driver."
+    },
+    {
+      "subject": "Sony 1000X \"The ColleXion\" (anniversary flagship)",
+      "type": "Product (audio)",
+      "last_covered": "No. 53",
+      "last_peg": "The Good Life — 10th-anniversary all-metal flagship, US$649, 12-mic ANC, 30mm carbon drivers, 24h; reviewers split (What Hi-Fi? \"detailed but sacrifices fun,\" left off best-of; Gizmodo \"for Sony superfans\")",
+      "next_peg": "Next peg = a price cut, a successor, or a settled critical consensus."
+    },
+    {
+      "subject": "Dunearn House (Turf City's first condo)",
+      "type": "Launch (property)",
+      "last_covered": "No. 53",
+      "last_peg": "Property LEAD — 380 units, 99-yr lease, D11/CCR, from Frasers/CSC Land/Sekisui House; booked 26 Jul from ~S$2,799 psf; the circulating ~99% take-up / ~S$2,953 psf figure HELD pending a named source; ~5,900 preview visitors",
+      "next_peg": "Next peg = the confirmed launch-weekend take-up from a named outlet, and Turf City infrastructure milestones."
+    },
+    {
+      "subject": "Spider-Man: Brand New Day (film)",
+      "type": "Release (film)",
+      "last_covered": "No. 53",
+      "last_peg": "Screen & Sound — opens 31 Jul; tracking the biggest debut of 2026 ($180m+ Deadline / $230–250m Boxoffice Pro); trailer the first to 1bn views (in 4 days); Cretton directing, real-locations bet",
+      "next_peg": "Next peg = the actual opening-weekend receipts (vs No Way Home's $260.1m) and the second-weekend hold."
     },
     {
       "subject": "Samsung Galaxy Z Fold 8 / Fold 8 Ultra",

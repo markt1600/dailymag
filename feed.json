@@ -1,15 +1,32 @@
 {
  "publication": "MERIDIAN",
- "issue": 52,
- "date": "25 July 2026",
- "generated": "2026-07-25T06:33:04+08:00",
+ "issue": 53,
+ "date": "26 July 2026",
+ "generated": "2026-07-26T06:15:14+08:00",
  "quote": {
-  "text": "The Moving Finger writes; and, having writ, / Moves on: nor all thy Piety nor Wit / Shall lure it back to cancel half a Line, / Nor all thy Tears wash out a Word of it.",
-  "author": "Omar Khayyám, Rubáiyát (Edward FitzGerald trans., 1859)"
+  "text": "To see what is in front of one's nose needs a constant struggle.",
+  "author": "George Orwell, \"In Front of Your Nose,\" Tribune (22 March 1946)"
  },
  "macro": {
-  "title": "What It Means For VWRA, Global Bonds, Gold & BTC",
-  "reads": [],
+  "title": "What It Means — VWRA, Bonds, Gold & BTC",
+  "reads": [
+   {
+    "label": "VWRA (held)",
+    "text": "two-sided into the Fed — a Warsh hold plus Oman de-escalation is relief; a hike or resumed strikes cracks the eggshells. Thursday's earnings are the bigger single-week swing than the Fed."
+   },
+   {
+    "label": "Global bonds (held)",
+    "text": "the enemy is a hike plus sticky inflation plus the oil premium, all pressing the front end; hedged exposure cushions the firm dollar."
+   },
+   {
+    "label": "Gold (read only)",
+    "text": "the cleanest hedge here, bid by both war-premium and stagflation-lite."
+   },
+   {
+    "label": "Bitcoin (read only)",
+    "text": "trading as high-beta risk, not gold's twin — ETF outflows and a fearful tape say defensive positioning. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
+   }
+  ],
   "note": "",
   "regime": [],
   "anchor": "p15"
@@ -20,8 +37,8 @@
    "sub": "Culture Desk",
    "category": "Culture",
    "kicker": "Screen & Sound · The Box Office",
-   "headline": "Nolan Fills the Cinema, and the Theatre Finds a Pulse",
-   "dek": "The Odyssey opened to the biggest launch of his career and a 95% score; a week later Spider-Man opens here on Thursday to record presales. Two proofs in a fortnight that the big-screen event still pulls a crowd off the sofa.",
+   "headline": "A Billion Views, and a Week to Go",
+   "dek": "Spider-Man: Brand New Day opens Friday to what trackers already call the biggest debut of 2026. Its trailer became the first in history to cross a billion views — and did it in four days. The spread on the forecast, though, is the honest tell.",
    "anchor": "p12",
    "featured": true
   },
@@ -29,9 +46,9 @@
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Archaeology",
-   "headline": "A Line of Homer, Folded Into a Mummy",
-   "dek": "A fragment of the Iliad's \"Catalogue of Ships\" was found placed on the abdomen of a Roman-era Egyptian mummy some 1,600 years ago — the poem, if the reading holds, sent into the afterlife alongside the dead.",
+   "kicker": "Curiosities · Planetary Science",
+   "headline": "The Planet We Filed as Dead",
+   "dek": "New 3D simulations suggest some of Venus's giant rift valleys formed recently — and may still be widening today. We needed thirty-year-old radar and a new supercomputer model to notice the world next door might still be tearing itself open.",
    "anchor": "p16",
    "featured": true
   },
@@ -40,8 +57,8 @@
    "sub": "Departures",
    "category": "Travel",
    "kicker": "The Travel Desk · Departures",
-   "headline": "Changi Draws Up Its Pre-Terminal-5 Wish List",
-   "dek": "Ahead of the fifth terminal, the airport has floated six under-served routes it wants flown — while KrisFlyer quietly walls off award searches for near-empty accounts, and Singapore Airlines reshuffles its widebodies for the autumn.",
+   "headline": "Check Your Connections Before You Book",
+   "dek": "The Gulf disruption reaches the departures board this weekend, a rail pass gets pricier but only if you buy it the old way, and Changi names the next places it wants to fly. A brisk read for anyone with a trip in the diary.",
    "anchor": "p19",
    "featured": true
   },
@@ -50,8 +67,8 @@
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Gulf War",
-   "headline": "Tehran Says No, and the Barrel Cools",
-   "dek": "A month into a war that runs through both straits, Iran rejected the Iraqi-brokered ten-day truce on Friday — even as oil, which had touched a hundred dollars on the fear, gave back four per cent, the market pricing the next tanker rather than this one.",
+   "headline": "The Guns Go Quiet, and Oman Lands in Tehran",
+   "dek": "Friday's order was the one that hadn't come in thirteen nights: hold. As an Omani delegation flew into Tehran to talk Hormuz \"mechanisms,\" the war paused — not because either side had bent, but because both, for a night, chose to let the mediator breathe.",
    "anchor": "p3",
    "featured": false
   },
@@ -60,8 +77,8 @@
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore · Trade",
-   "headline": "Washington Files Singapore Under \"Forced Labour\"",
-   "dek": "A new 12.5% US tariff on roughly a third of the island's exports took effect on Friday — the fruit of a forced-labour finding Singapore flatly rejects — even as the chips and medicines that are the real engine were spared. What it does, and does not, cost a household.",
+   "headline": "The Tariff You Cannot Appeal",
+   "dek": "The 12.5% duty landed Thursday; by the weekend the manufacturers were surveying their own exposure and rejecting the label that justified it. The awkward part is that the number was set by category, not by evidence — which is exactly what makes it hard to argue down.",
    "anchor": "p5",
    "featured": false
   },
@@ -69,9 +86,9 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · The Quarter in the Books",
-   "headline": "The Prime End Inverts the Market",
-   "dek": "URA's final second-quarter numbers landed on Friday, and the usual order flipped: Core Central and landed homes led while the outer rings fell — even as Turf City's first-ever private condo books today, a live test of whether the school belt still pays up.",
+   "kicker": "Property · New Launch",
+   "headline": "Turf City Opens Its Book",
+   "dek": "Dunearn House, the first private condo in the Bukit Timah masterplan, took bookings on Saturday at around three thousand dollars a square foot. Whether it sold out is a number we are holding until a named source confirms it — because scarcity, not a market turn, is what a first-mover really tests.",
    "anchor": "p6",
    "featured": false
   },
@@ -80,8 +97,8 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · Open Weights",
-   "headline": "The Biggest Open Model Yet Lands Monday",
-   "dek": "Moonshot's Kimi K3 — 2.8 trillion parameters, priced at Western parity rather than under it — opens its weights on 27 July, the closest an open model has come to the frontier. The catch is that \"open\" now means \"if you own a cluster.\"",
+   "headline": "The Verdicts Arrive Before the Weights",
+   "dek": "Kimi K3's open weights still land Monday. But the first independent assessments came in over the weekend, and they cut against the launch charts: below the frontier on offensive-cyber tasks, unable to stop itself trying anyway, and hiding a hallucination rate that doubled.",
    "anchor": "p7",
    "featured": false
   },
@@ -90,8 +107,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit · Wearables",
-   "headline": "Garmin's Answer to Whoop Has No Screen — and No Fee",
-   "dek": "The CIRQA, on sale this week at US$199, is a screenless recovery-and-sleep band that aims straight at Whoop's business model: all your data in the app, no annual subscription. Whether it undercuts its own launch is the open question.",
+   "headline": "Named, Framed, and You Still Can't Wear Them",
+   "dek": "The hands-on reviews arrived after Unpacked, and firmed up three things about Samsung's smart glasses: an official name, two fashion-house frames — and that the 2026 model has no display, no price, and no date beyond \"fall.\"",
    "anchor": "p9",
    "featured": false
   },
@@ -99,9 +116,9 @@
    "desk": "The Connected Home",
    "sub": "Walls That Listen",
    "category": "Smart Home",
-   "kicker": "The Connected Home · The Weekend House",
-   "headline": "The House That Knows It's Saturday",
-   "dek": "Not another gadget this week, but a weekend-morning argument for the local-first setup — where the blinds, the lights and the coffee follow the day with no cloud in the loop — and the cheapest week yet to finish leaving Lutron.",
+   "kicker": "The Connected Home · Local Voice",
+   "headline": "The Assistant That Never Phones Home",
+   "dek": "You can now run a thirty-billion-parameter voice assistant inside Home Assistant with not one byte leaving the house. The catch is the one the community keeps relearning: on the wrong hardware it thinks at walking pace, and the wall paddle still wins.",
    "anchor": "p10",
    "featured": false
   },
@@ -109,9 +126,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · The Watch Market",
-   "headline": "The Index Keeps Rising, and Rolex Keeps Slipping",
-   "dek": "Four straight quarters of gains on the broad watch index — and yet the one name everyone owns is easing at the top. July's read is of a market rising and cooling at once, depending entirely on which watch you happen to hold.",
+   "kicker": "The Good Life · Watches",
+   "headline": "The Tokyo Watch Run Has a Closing Date",
+   "dek": "The instant tax-free discount that made Japan a pilgrimage through the weak-yen years ends on 1 November. From then you pay full price and chase a refund at the departure gate — which quietly changes what the trip is actually worth.",
    "anchor": "p11",
    "featured": false
   },
@@ -119,9 +136,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Evidence",
-   "headline": "The Rulebook Stopped Counting Hours",
-   "dek": "America's paediatricians retired the decade-old \"limit the hours\" advice for a harder set of questions — is the screen any good, is it displacing sleep and movement, can she stop? For a parent of an eleven-year-old, it points the worry somewhere far more useful.",
+   "kicker": "The Family Desk · Sleep",
+   "headline": "It May Be Puberty, Not the Phone",
+   "dek": "A new study finds the adolescent slide to later, shorter sleep tracks pubertal stage more tightly than age — so an early-maturing eleven-year-old can already be running a teenager's body clock in a child's routine. General guidance, not medical advice.",
    "anchor": "p13",
    "featured": false
   },
@@ -129,9 +146,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk",
-   "headline": "The barrel eases, but the Fed's question stays \"hike?\"",
-   "dek": "Oil round-tripped through a hundred dollars and came back — yet a month of it has done the damage: yields ran to fresh highs, the dollar firmed, equities had their worst day in a month, and gold took the crown. The FOMC and the MAS statement both land next week. Market explanation and education, not investment advice; forecasts flagged as forecasts.",
+   "kicker": "The Macro Desk · The Week Ahead",
+   "headline": "Fed Versus Oil, and the Question Is Still \"Hike?\"",
+   "dek": "The barrel round-tripped a hundred dollars again on peace-talk hopes; the dollar sits near a three-week high; and Wednesday's Fed meeting carries a live hike tail, not a cut. A quiet Sunday reading before a loud week. Market explanation, not investment advice.",
    "anchor": "p15",
    "featured": false
   },
@@ -140,8 +157,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life · The Examined Life",
-   "headline": "The Companion That Deepens the Loneliness",
-   "dek": "A year-long study across four countries found that turning to an AI companion for comfort predicts not less loneliness but more — the short-term balm and the long-term cost pointing in opposite directions. A quiet preview of the world an eleven-year-old will inherit.",
+   "headline": "The Buffer Is Shared Time — If You Both Mean It",
+   "dek": "A long diary study finds what slows a marriage's decline isn't grand gestures but ordinary shared hours — and the protection only holds when both partners are genuinely invested. Going through the motions doesn't buy it.",
    "anchor": "p17",
    "featured": false
   },
@@ -149,9 +166,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Long Game",
-   "headline": "We're Buying Extra Years, and Spending Them Sick",
-   "dek": "Life expectancy keeps rising; the trouble is that the added years are increasingly lived in poor health. The fix is not a new molecule but the dull, well-evidenced levers — and a warning about the \"biological age\" number your ring keeps showing you.",
+   "kicker": "Fitness · Longevity",
+   "headline": "Fifteen Minutes a Day, and More Buys Nothing",
+   "dek": "A thirty-year study pins the mortality-optimal dose of lifting at ninety to a hundred and twenty minutes a week — and finds no extra survival benefit above it. The optimizer's instinct to do more is, for once, the wrong one. General information, not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -159,19 +176,19 @@
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary",
-   "headline": "The Nearer Nights, and the October Clash",
-   "dek": "The bookable calendar firms up: Singapore's free late-August Night Festival, a stack of stadium shows into an October squeezed by the first-ever F1 Sprint, and three new tables — two now with verdicts. Book the clashes first.",
+   "kicker": "The Diary · Singapore",
+   "headline": "The Autumn Calendar Comes Into Focus",
+   "dek": "Race week now has its full bill, Mid-Autumn lights the Gardens, and a run of concerts firms up — the dated, bookable agenda for a reader planning the next three months.",
    "anchor": "p23",
    "featured": false
   },
   {
    "desk": "The Long Read",
-   "sub": "The Reckoning",
+   "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Long Read",
-   "headline": "The Reckoning",
-   "dek": "On a Saturday this magazine keeps its own accounts. The habit is older than double-entry, older than money — and its history carries a warning: the ledger you try to burn is the one that comes back to collect.",
+   "kicker": "The Long Read · The Undercurrent",
+   "headline": "The Backpackers of Huaqiangbei",
+   "dek": "A generation of young Chinese has started to vacation inside the largest electronics market on earth — arriving with empty backpacks, leaving with component hauls, and vlogging the whole thing. It is a small, strange story that the West, which has written about this place for a decade, has managed not to see.",
    "anchor": "p25",
    "featured": false
   }
