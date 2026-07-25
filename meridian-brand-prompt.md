@@ -82,7 +82,9 @@ The build step (below) must ensure `meridian.css` sits in the SAME folder as the
 * **Standing tagline, printed on every cover, never changed: "Twelve desks. One world."** (The twelve desks are the fixed sections listed below.)
 * Masthead: the word MERIDIAN in Poppins 700, \~62pt, tight letter-spacing, on dark ink, with a gold rule beneath and the italic tagline under that.
 * Top cover bar: vermilion band showing "No. \[N] · Singapore" on the right ONLY. The left side of the topbar is intentionally empty — do not add an edition label, "Weekend Edition" subtitle, or any other text there. The brand line lives in the eyebrow. Set **\[N] = (highest number in the Issue Log) + 1** unless the user specifies otherwise.
-* Cover also shows: the issue date, ONE abstract custom SVG artwork (e.g. a wireframe globe with connection arcs), and 3 teaser headlines from different desks. NEVER print any reader name or personal identifier anywhere — it must be shareable.
+* Cover also shows: the issue date, **a real PHOTOGRAPHIC cover hero (from No. 52 — editor's directive; the SVG-art cover era is over)**, and 3 teaser headlines from different desks. NEVER print any reader name or personal identifier anywhere — it must be shareable.
+  * **The cover photo:** a strong, dramatic image tied to the day's LEAD story (or the issue's spine), sourced fresh through the assets pipeline during Pass-2 research — an agency/press photo, an official image, the launch shot. Reference it by its LOCAL repo path (`<img src="assets/heroes/<slug>.jpg">`) so the print PDF renders it too (the Photo Edition build rewrites local asset paths to absolute URLs automatically). Size it to command the cover's mid-zone (the slot the SVG used to fill, or larger/full-bleed behind the teasers if the image carries it); keep the masthead, gold rule, tagline and topbar exactly as always. Add a small photo credit line near the cover foot (`Source: …`). Crop boldly — a magazine cover, not a caption illustration.
+  * **Fallback, flagged:** if no cover-worthy photograph can be sourced for the day's lead, an original SVG may run ONE more day — but say so in the Issue Log note, and treat two SVG covers in a row as a failure of Pass-2 image research. `tools/validate.py` enforces a real `<img>` on the cover from No. 52.
 
 **Palette (exact)**
 `--paper:#f6f2e9; --paper2:#efe9db; --ink:#191613; --ink2:#403a32; --muted:#7a7264; --line:#d8cfbd; --vermilion:#c1462e; --vermilion-d:#9c3422; --gold:#b08738; --slate:#2f4858; --teal:#2b6b66; --blush:#e8dccb;`
@@ -115,7 +117,7 @@ MERIDIAN should read like a well-packed magazine spread, not a report with air a
 * `.desk` — viewpoint panel for comparing geopolitical framings (`.flag` header = "\[City] — \[Outlet]").
 * `.pull` (pull quote), `.stat` (callout), `.figframe`/`.imgcap` (wrap every SVG), `.tag` (pill).
 * `.agenda-h` + `.evt` family — The Diary's dated event rows; `.evt-date.star` and `.st` (★) mark marquee picks.
-* **Artwork rule:** the PDF uses original SVG artwork; the HTML Photo Edition uses verified real photos (see BUILD \& RENDER). Always source every photo and verify its subject; never mislabel an image.
+* **Artwork rule:** the COVER is photographic in BOTH editions (see cover brief). Interior PDF artwork remains original SVG (charts, conceptual figures, The Mechanism); the HTML Photo Edition swaps in real photos per desk (see BUILD \& RENDER). Always source every photo honestly; never mislabel an image.
 
 **Fixed page order \& desk sub-titles (the recognizable skeleton)**
 

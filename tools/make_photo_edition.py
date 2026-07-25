@@ -246,6 +246,12 @@ for _sec in _secs:
     _out.append(_sec)
 html = ''.join(_out)
 
+# ---- 4c. local asset paths -> absolute URLs (cover photo et al.) ----
+# Sessions reference cover/interior photos by local repo path so the print
+# render (Chromium, local file) sees them; on screen the same tags must load
+# from the repo's raw URL so they work on the site, in archives, anywhere.
+html = html.replace('src="assets/heroes/', 'src="' + ASSET_BASE.rsplit('assets/heroes/',1)[0] + 'assets/heroes/')
+
 # ---- 5. body-top chrome ----
 CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'

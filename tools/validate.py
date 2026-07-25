@@ -131,6 +131,10 @@ if _issno >= 51:
     if _day == 'Saturday' and 'The Scoreboard' not in html:
         errors.append("Saturday issue is missing 'The Scoreboard' page-two feature (see PREDICTIONS PROTOCOL)")
 
+# photographic cover (from No. 52, editor's directive): page 1 must carry a real <img>
+if _issno >= 52 and pages and '<img' not in pages[0]:
+    errors.append("cover has no photograph — covers are photographic from No. 52 (see the cover brief; SVG fallback must be declared in the Issue Log)")
+
 # voice card: banned-tic counts (warn) + phrase recycling vs archived issues (warn)
 _text = re.sub(r'<[^>]+>', ' ', html).lower()
 for _tic in ('is the story', 'the arithmetic', 'writes itself', 'the tell is', 'in one sentence', 'quietly became', 'does the pre-selling'):
