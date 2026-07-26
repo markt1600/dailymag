@@ -1,30 +1,30 @@
 {
  "publication": "MERIDIAN",
- "issue": 53,
- "date": "26 July 2026",
- "generated": "2026-07-26T06:15:14+08:00",
+ "issue": 54,
+ "date": "27 July 2026",
+ "generated": "2026-07-27T05:58:33+08:00",
  "quote": {
-  "text": "To see what is in front of one's nose needs a constant struggle.",
-  "author": "George Orwell, \"In Front of Your Nose,\" Tribune (22 March 1946)"
+  "text": "When you have to make a choice and don't make it, that is in itself a choice.",
+  "author": "William James, The Principles of Psychology (1890)"
  },
  "macro": {
   "title": "What It Means — VWRA, Bonds, Gold & BTC",
   "reads": [
    {
     "label": "VWRA (held)",
-    "text": "two-sided into the Fed — a Warsh hold plus Oman de-escalation is relief; a hike or resumed strikes cracks the eggshells. Thursday's earnings are the bigger single-week swing than the Fed."
+    "text": "two-sided into Wednesday — a Warsh hold plus a signed Hormuz formula is relief; a hike or resumed strikes cracks the eggshells, and Thursday's earnings swing it more than the Fed."
    },
    {
     "label": "Global bonds (held)",
-    "text": "the enemy is a hike plus sticky inflation plus the oil premium, all pressing the front end; hedged exposure cushions the firm dollar."
+    "text": "the enemy is a hike plus sticky inflation plus any oil re-spike, all pressing the front end; the currency hedge cushions the firm dollar."
    },
    {
     "label": "Gold (read only)",
-    "text": "the cleanest hedge here, bid by both war-premium and stagflation-lite."
+    "text": "near its record, bid by both the war premium and stagflation-lite — the cleanest hedge on the board."
    },
    {
     "label": "Bitcoin (read only)",
-    "text": "trading as high-beta risk, not gold's twin — ETF outflows and a fearful tape say defensive positioning. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
+    "text": "range-bound around $64.5k, trading as high-beta risk, not gold's twin. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
    }
   ],
   "note": "",
@@ -33,52 +33,42 @@
  },
  "stories": [
   {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · The Box Office",
-   "headline": "A Billion Views, and a Week to Go",
-   "dek": "Spider-Man: Brand New Day opens Friday to what trackers already call the biggest debut of 2026. Its trailer became the first in history to cross a billion views — and did it in four days. The spread on the forecast, though, is the honest tell.",
-   "anchor": "p12",
-   "featured": true
-  },
-  {
-   "desk": "Curiosities",
-   "sub": "The Far Edges",
-   "category": "Science",
-   "kicker": "Curiosities · Planetary Science",
-   "headline": "The Planet We Filed as Dead",
-   "dek": "New 3D simulations suggest some of Venus's giant rift valleys formed recently — and may still be widening today. We needed thirty-year-old radar and a new supercomputer model to notice the world next door might still be tearing itself open.",
-   "anchor": "p16",
-   "featured": true
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · Departures",
-   "headline": "Check Your Connections Before You Book",
-   "dek": "The Gulf disruption reaches the departures board this weekend, a rail pass gets pricier but only if you buy it the old way, and Changi names the next places it wants to fly. A brisk read for anyone with a trip in the diary.",
-   "anchor": "p19",
-   "featured": true
-  },
-  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Gulf War",
-   "headline": "The Guns Go Quiet, and Oman Lands in Tehran",
-   "dek": "Friday's order was the one that hadn't come in thirteen nights: hold. As an Omani delegation flew into Tehran to talk Hormuz \"mechanisms,\" the war paused — not because either side had bent, but because both, for a night, chose to let the mediator breathe.",
+   "headline": "The Guns Stay Quiet, and Oman Drafts the Formula",
+   "dek": "A single held night has hardened into a third day of mutual restraint, and in Tehran an Omani delegation is drafting who runs the Strait of Hormuz. The document exists; the signatures do not. Two regional sources say any deal still needs Trump's approval — which is another way of saying the verdict is not in.",
    "anchor": "p3",
-   "featured": false
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Open Weights",
+   "headline": "The Biggest Open Model Ever, Unloadable by Design",
+   "dek": "Moonshot's Kimi K3 — 2.8 trillion parameters — publishes its weights on Hugging Face at eight o'clock this morning, our time. It is the largest open-weights release in history and, for all but a handful of data centres, the least usable. \"Open,\" this week, becomes a thing you can read about but not run.",
+   "anchor": "p7",
+   "featured": true
+  },
+  {
+   "desk": "The Macro Desk",
+   "sub": "The Big Picture",
+   "category": "Markets",
+   "kicker": "The Macro Desk · The Week Ahead",
+   "headline": "Two Central Banks, and the Question Is Still \"Hike?\"",
+   "dek": "Singapore rules this morning, the Fed on Wednesday, and the barrel has come off the boil on the Oman talks. A hold is the base case in both rooms — but the live tail in Washington is a hike, not a cut, and that is what keeps the dollar firm and the tape on eggshells. Market explanation, not investment advice.",
+   "anchor": "p15",
+   "featured": true
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Trade",
-   "headline": "The Tariff You Cannot Appeal",
-   "dek": "The 12.5% duty landed Thursday; by the weekend the manufacturers were surveying their own exposure and rejecting the label that justified it. The awkward part is that the number was set by category, not by evidence — which is exactly what makes it hard to argue down.",
+   "kicker": "Singapore · Monetary Policy",
+   "headline": "Two Verdicts Land Before Lunch",
+   "dek": "The central bank rules this morning on a quarter that grew 5.7% and an inflation rate still mild — and it does so with a US forced-labour tariff now costed by the manufacturers themselves. The consensus is a hold. The interesting sentence will be the one about what comes next.",
    "anchor": "p5",
    "featured": false
   },
@@ -86,29 +76,19 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · New Launch",
-   "headline": "Turf City Opens Its Book",
-   "dek": "Dunearn House, the first private condo in the Bukit Timah masterplan, took bookings on Saturday at around three thousand dollars a square foot. Whether it sold out is a number we are holding until a named source confirms it — because scarcity, not a market turn, is what a first-mover really tests.",
+   "kicker": "Property · New Launches",
+   "headline": "Turf City Opens Its Book, and Half of It Sells",
+   "dek": "Dunearn House moved 211 of 380 units at launch — the three-bedders sold out, but 55% is well shy of this year's ~76% norm. Correcting our own held figure from No. 53: the reflexive prime-district bid has a ceiling, and this is the clearest reading of it yet.",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Open Weights",
-   "headline": "The Verdicts Arrive Before the Weights",
-   "dek": "Kimi K3's open weights still land Monday. But the first independent assessments came in over the weekend, and they cut against the launch charts: below the frontier on offensive-cyber tasks, unable to stop itself trying anyway, and hiding a hallucination rate that doubled.",
-   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Wearables",
-   "headline": "Named, Framed, and You Still Can't Wear Them",
-   "dek": "The hands-on reviews arrived after Unpacked, and firmed up three things about Samsung's smart glasses: an official name, two fashion-house frames — and that the 2026 model has no display, no price, and no date beyond \"fall.\"",
+   "kicker": "The Kit · Cameras",
+   "headline": "The FX5 Gets Its Number",
+   "dek": "Sony's first Open Gate Cinema Line body moves from \"price TBA\" to a real peg: US$4,899, pre-orders open, shipping mid-August. The differentiators — internal RAW and a full-frame open gate in a compact body — are exactly the ones that only prove out on footage.",
    "anchor": "p9",
    "featured": false
   },
@@ -116,9 +96,9 @@
    "desk": "The Connected Home",
    "sub": "Walls That Listen",
    "category": "Smart Home",
-   "kicker": "The Connected Home · Local Voice",
-   "headline": "The Assistant That Never Phones Home",
-   "dek": "You can now run a thirty-billion-parameter voice assistant inside Home Assistant with not one byte leaving the house. The catch is the one the community keeps relearning: on the wrong hardware it thinks at walking pace, and the wall paddle still wins.",
+   "kicker": "The Connected Home · Automations",
+   "headline": "Plain English Is Now the Default",
+   "dek": "Home Assistant's current release makes intent-based triggers the standard way to write an automation — \"when the living room gets dark,\" not a page of entity plumbing. For a household migrating off Lutron's app onto HA, that is precisely the layer worth finishing the move for.",
    "anchor": "p10",
    "featured": false
   },
@@ -127,29 +107,39 @@
    "sub": "Objects & Escapes",
    "category": "Design",
    "kicker": "The Good Life · Watches",
-   "headline": "The Tokyo Watch Run Has a Closing Date",
-   "dek": "The instant tax-free discount that made Japan a pilgrimage through the weak-yen years ends on 1 November. From then you pay full price and chase a refund at the departure gate — which quietly changes what the trip is actually worth.",
+   "headline": "Gold on an Everyday Case, and an Argument About the Price",
+   "dek": "Grand Seiko's SBGH376 \"Sakura-Wakaba\" is the brand's first non-limited 62GS in solid yellow gold — a soft-yen-era object with a hard-currency sticker of S$41,400. It is exactly the tension this desk tracks: superb metal and finishing, against a resale market that still discounts the name.",
    "anchor": "p11",
+   "featured": false
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound · Box Office",
+   "headline": "The Verdict Breaks This Week — Without an IMAX Screen",
+   "dek": "Reactions to Spider-Man: Brand New Day post tonight, the review embargo lifts tomorrow, and Singapore sees it Thursday. The tracking says biggest opening of the year. The oddity says it is doing it on standard screens, because Nolan is holding the large-format ones.",
+   "anchor": "p12",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Sleep",
-   "headline": "It May Be Puberty, Not the Phone",
-   "dek": "A new study finds the adolescent slide to later, shorter sleep tracks pubertal stage more tightly than age — so an early-maturing eleven-year-old can already be running a teenager's body clock in a child's routine. General guidance, not medical advice.",
+   "kicker": "The Family Desk · Development",
+   "headline": "The Timeline No Parent Set",
+   "dek": "Two new cohorts point the same way: the driver of a preteen's low mood may be the pace and timing of puberty itself, not her screen. Earlier-maturing children — girls and boys — carry higher odds of depression, and a hormone can move before anything shows. General guidance, not medical advice.",
    "anchor": "p13",
    "featured": false
   },
   {
-   "desk": "The Macro Desk",
-   "sub": "The Big Picture",
-   "category": "Markets",
-   "kicker": "The Macro Desk · The Week Ahead",
-   "headline": "Fed Versus Oil, and the Question Is Still \"Hike?\"",
-   "dek": "The barrel round-tripped a hundred dollars again on peace-talk hopes; the dollar sits near a three-week high; and Wednesday's Fed meeting carries a live hike tail, not a cut. A quiet Sunday reading before a loud week. Market explanation, not investment advice.",
-   "anchor": "p15",
+   "desk": "Curiosities",
+   "sub": "The Far Edges",
+   "category": "Science",
+   "kicker": "Curiosities · Ecology",
+   "headline": "The Bumblebee Drinks the Dirtier Cup",
+   "dek": "Foraging the same fields as honeybees, bumblebees come home carrying several times as much toxic metal — arsenic, cadmium, lead — even in gentle English countryside. Same landscape, same flowers, very different dose. The dinner-party version: not all pollinators sip from the same glass.",
+   "anchor": "p16",
    "featured": false
   },
   {
@@ -157,8 +147,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life · The Examined Life",
-   "headline": "The Buffer Is Shared Time — If You Both Mean It",
-   "dek": "A long diary study finds what slows a marriage's decline isn't grand gestures but ordinary shared hours — and the protection only holds when both partners are genuinely invested. Going through the motions doesn't buy it.",
+   "headline": "Loneliness Looks Less Like a Symptom Than a Cause",
+   "dek": "A large new study runs three independent methods — observational, sibling-comparison and genetic — and they converge: loneliness may not merely travel with poor mental health, it may help drive it. It advances a story this desk has been tracking from \"condition\" to \"cause.\"",
    "anchor": "p17",
    "featured": false
   },
@@ -166,9 +156,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Longevity",
-   "headline": "Fifteen Minutes a Day, and More Buys Nothing",
-   "dek": "A thirty-year study pins the mortality-optimal dose of lifting at ninety to a hundred and twenty minutes a week — and finds no extra survival benefit above it. The optimizer's instinct to do more is, for once, the wrong one. General information, not medical advice.",
+   "kicker": "Fitness · Recovery",
+   "headline": "The Cheapest Lever Is Eighty Minutes of Sleep",
+   "dek": "A randomised trial trimmed sleep by about eighty minutes a night for six weeks, and metabolically at-risk adults gained weight — with the mechanism being movement, not appetite. They didn't eat more; they moved less. For a busy forty-five-year-old, recovery is a training variable, not a luxury. Not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -176,20 +166,20 @@
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Singapore",
-   "headline": "The Autumn Calendar Comes Into Focus",
-   "dek": "Race week now has its full bill, Mid-Autumn lights the Gardens, and a run of concerts firms up — the dated, bookable agenda for a reader planning the next three months.",
-   "anchor": "p23",
+   "kicker": "The Diary · Singapore & the Region",
+   "headline": "The Autumn Calendar Hardens",
+   "dek": "Race week grows its bill again, a K-pop anniversary tour lands, and the spring racing carnival down under comes into booking range — the dated agenda for a reader planning September to November.",
+   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
-   "sub": "The Undercurrent",
+   "sub": "The Long View",
    "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent",
-   "headline": "The Backpackers of Huaqiangbei",
-   "dek": "A generation of young Chinese has started to vacation inside the largest electronics market on earth — arriving with empty backpacks, leaving with component hauls, and vlogging the whole thing. It is a small, strange story that the West, which has written about this place for a decade, has managed not to see.",
-   "anchor": "p25",
+   "kicker": "The Long Read · An Essay",
+   "headline": "The Sealed Room",
+   "dek": "This week a reader waits on half a dozen verdicts — two central banks, a Gulf transit deal, a film's embargo, a model's release. It is worth asking why so many of our decisions are made behind a locked door, and handed down only when someone decides the waiting is complete. The answer is older than the Fed, and it is not about secrecy. It is about how a decision becomes a verdict.",
+   "anchor": "p21",
    "featured": false
   }
  ]
