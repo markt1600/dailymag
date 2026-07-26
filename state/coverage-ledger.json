@@ -1,5 +1,5 @@
 {
-  "count": 322,
+  "count": 326,
   "subjects": [
     {
       "subject": "TSMC AI-capex earnings cycle (Q2 2026 record)",
@@ -11,14 +11,14 @@
     {
       "subject": "Kimi K3 (Moonshot open-weights)",
       "type": "AI release",
-      "last_covered": "No. 53",
-      "last_peg": "Technology LEAD — first independent verdicts landed ahead of the 27 Jul open-weights drop and cut against the launch charts: UK AISI + US CAISI found it below frontier on offensive-cyber but unable to refuse the attempt; a 51% hallucination rate (up from 39%) was omitted from Moonshot's own slides; ~1.4TB at 4-bit needs a ~$3–4M rack to load (\"open ≠ runnable\")",
-      "next_peg": "Next peg = the weights landing + independent re-runs of the leaderboard scores; any home-lab-viable distillation."
+      "last_covered": "No. 54",
+      "last_peg": "Technology LEAD — first independent verdicts landed ahead of the 27 Jul open-weights drop and cut against the launch charts: UK AISI + US CAISI found it below frontier on offensive-cyber but unable to refuse the attempt; a 51% hallucination rate (up from 39%) was omitted from Moonshot's own slides; open weights due 08:00 SGT 27 Jul (~594GB MXFP4 / ~1.4TB full, ~8×H100 floor — \"unloadable by design",
+      "next_peg": "Next peg = confirmed repo population + community BF16/GGUF re-quants and whether any distillation becomes home-lab-viable."
     },
     {
       "subject": "Samsung Galaxy Glasses (AI eyewear)",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 53",
+      "last_covered": "No. 54",
       "last_peg": "The Kit LEAD — post-Unpacked hands-on delta: official name \"Galaxy Intelligent Eyewear,\" two frames (Gentle Monster + Warby Parker), audio-only/no-display for 2026 (AR \"Haean\" a 2027 item), ~50g, Snapdragon AR1, ~9h + case; still NO price ($379–499 analyst estimate, held), \"fall\" only; the Galaxy Watch viewfinder the one genuine idea",
       "next_peg": "Next peg = the actual price + on-sale date, or first independent reviews — the AR display model is the real 2027 story."
     },
@@ -39,16 +39,44 @@
     {
       "subject": "Dunearn House (Turf City's first condo)",
       "type": "Launch (property)",
-      "last_covered": "No. 53",
-      "last_peg": "Property LEAD — 380 units, 99-yr lease, D11/CCR, from Frasers/CSC Land/Sekisui House; booked 26 Jul from ~S$2,799 psf; the circulating ~99% take-up / ~S$2,953 psf figure HELD pending a named source; ~5,900 preview visitors",
-      "next_peg": "Next peg = the confirmed launch-weekend take-up from a named outlet, and Turf City infrastructure milestones."
+      "last_covered": "No. 54",
+      "last_peg": "Property LEAD — 380 units, 99-yr lease, D11/CCR, from Frasers/CSC Land/Sekisui House; RESULT IN (No. 54): 211/380 = 55.5% at launch (3-bed & 3-bed+flexi SOLD OUT, ~73% of 2-bed+study, from ~S$2,799 psf), well under the ~76% 2026 average — the reflexive CCR bid has a ceiling; corrects the held ~99%",
+      "next_peg": "Next peg = whether the unsold ~45% (larger/pricier mix) clears over the next month without a price cut; Turf City infrastructure milestones."
     },
     {
       "subject": "Spider-Man: Brand New Day (film)",
       "type": "Release (film)",
-      "last_covered": "No. 53",
-      "last_peg": "Screen & Sound — opens 31 Jul; tracking the biggest debut of 2026 ($180m+ Deadline / $230–250m Boxoffice Pro); trailer the first to 1bn views (in 4 days); Cretton directing, real-locations bet",
-      "next_peg": "Next peg = the actual opening-weekend receipts (vs No Way Home's $260.1m) and the second-weekend hold."
+      "last_covered": "No. 54",
+      "last_peg": "Screen & Sound — opens 31 Jul; tracking the biggest debut of 2026 ($180m+ Deadline / $230–250m Boxoffice Pro); verdict week — reactions Mon night, review embargo Tue 28, SG opens Wed 30 Jul; tracking $230–250m (biggest 2026; single-tracker $260–300m held); NO IMAX (Nolan's Odyssey holding the large-format screens)",
+      "next_peg": "Next peg = the actual opening-weekend receipts (vs No Way Home's $260.1m), first RT/Letterboxd scores, and the second-weekend hold."
+    },
+    {
+      "subject": "Sony FX5 (Cinema Line camera)",
+      "type": "Product (camera)",
+      "last_covered": "No. 54",
+      "last_peg": "The Kit LEAD — priced at US$4,899.99 (XLR kit ~£5,200); pre-orders opened 22 Jul, body ships mid-August; first FX-series with Open Gate + in-camera X-OCN RAW, 5K/60, triple-ISO — closes the No. 52–53 \"price TBA\"",
+      "next_peg": "Next peg = first shipping-unit footage/reviews (Aug), or a price move."
+    },
+    {
+      "subject": "Grand Seiko SBGH376 \"Sakura-Wakaba\"",
+      "type": "Product (watch)",
+      "last_covered": "No. 54",
+      "last_peg": "The Good Life LEAD — first non-limited 62GS in solid 18k yellow gold, 38mm, Hi-Beat 9S85; US$32,800 / S$41,400 incl. GST; reviewers split on whether a gold GS earns Swiss-gold money (Deployant \"steep\" — held); a wear-it not flip-it call",
+      "next_peg": "Next peg = first retail sightings/availability, secondary-market read, or a limited-edition sibling."
+    },
+    {
+      "subject": "Garmin CIRQA (screenless tracker)",
+      "type": "Product (wearable)",
+      "last_covered": "No. 54",
+      "last_peg": "The Kit — first verdicts in (Tom's Guide slots it between Fitbit and subscription-Whoop, \"rivals should be worried\"; $199, 10-day battery, no subscription, no built-in GPS)",
+      "next_peg": "Next peg = wide-release reviews, real-world accuracy tests, or a GPS-equipped successor."
+    },
+    {
+      "subject": "The Table (SG openings, No. 54)",
+      "type": "Standing (dining)",
+      "last_covered": "No. 54",
+      "last_peg": "Sam Sam Sam (body-matched samgyetang, Novena, Muslim-friendly), POP Bakery by POP MART (RWS, opens 30 Jul, Labubu — too new to call), FreakyNoods (Chinatown, Japanese pasta soft-launch), Sushidan private omakase (chef Hiroyuki Sato, from S$98)",
+      "next_peg": "Next peg = first reviews of POP Bakery/Sushidan; rotate to new openings next issue."
     },
     {
       "subject": "Samsung Galaxy Z Fold 8 / Fold 8 Ultra",
