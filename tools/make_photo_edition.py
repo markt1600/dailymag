@@ -250,7 +250,49 @@ html = ''.join(_out)
 # Sessions reference cover/interior photos by local repo path so the print
 # render (Chromium, local file) sees them; on screen the same tags must load
 # from the repo's raw URL so they work on the site, in archives, anywhere.
-html = html.replace('src="assets/heroes/', 'src="' + ASSET_BASE.rsplit('assets/heroes/',1)[0] + 'assets/heroes/')
+html = html.replace('src="assets/heroes/', 'src="https://raw.githubusercontent.com/markt1600/dailymag/main/assets/heroes/')
+
+# ---- 4d. the Destinations picker: past Grand Tours, deep-linked ----
+# A dropdown in the menu bar listing every covered Travel Desk destination,
+# each linking to its back issue's Grand Tour pages in the archive (anchor
+# found by scanning the archived photo edition for the Grand Tour running
+# header). Data: state/destination-ledger.json.
+def _grand_tour_url(issue_no, current_issue, html_now):
+    import pathlib as _plh
+    if str(issue_no) == str(current_issue):
+        m = _re.search(r'<section id="(p\d+)"[^>]*>(?:(?!</section>).)*?The Grand Tour', html_now, _re.S)
+        return '#' + m.group(1) if m else None
+    f = _plh.Path(f'archive/no-{issue_no}/index.html')
+    if not f.exists():
+        return None
+    ah = f.read_text(errors='ignore')
+    i = ah.find('The Grand Tour')
+    anchor = ''
+    if i != -1:
+        ids = _re.findall(r'<section id="(p\d+)"', ah[:i])
+        anchor = '#' + ids[-1] if ids else ''
+    return f'archive/no-{issue_no}/index.html{anchor}'
+
+dest_options = []
+try:
+    with open('state/destination-ledger.json') as _fh:
+        _dl = json.load(_fh)
+    _rows = []
+    for _d in _dl.get('destinations', []):
+        _m = _re.search(r'No\.\s*(\d+)', _d.get('issue', ''))
+        if not _m:
+            continue
+        _no = int(_m.group(1))
+        _url = _grand_tour_url(_no, ISSUE, html)
+        if _url:
+            _rows.append((_no, _d['destination'].replace('\\&', '&'), _url))
+    for _no, _name, _url in sorted(_rows, reverse=True):
+        dest_options.append(f'<option value="{_url}">{_name} · No. {_no}</option>')
+except Exception as _e:
+    print('  (destinations picker skipped:', _e, ')')
+DEST_SELECT = ('<select class="m-toggle" id="mdest" aria-label="Past Grand Tour destinations">'
+               '<option value="">✈ Destinations</option>' + ''.join(dest_options) + '</select>') if dest_options else ''
+print(f'  destinations picker: {len(dest_options)} entries')
 
 # ---- 5. body-top chrome ----
 CHROME = ('<body>\n'
@@ -259,6 +301,7 @@ CHROME = ('<body>\n'
           f'  <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
           f'  <nav class="mnav">{nav_links}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
+          + DEST_SELECT +
           '<button class="m-toggle" id="mnote" type="button">✎ Note</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
@@ -375,6 +418,8 @@ JS = """
       });
     });
   });
+  var md=document.getElementById('mdest');
+  if(md) md.addEventListener('change',function(){ if(md.value){ location.href=md.value; md.selectedIndex=0; } });
   var mn=document.getElementById('mnote');
   if(mn) mn.addEventListener('click',function(){
     var t=prompt('Note to the editor — lands in tomorrow\\'s build:');
