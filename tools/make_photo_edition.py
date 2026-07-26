@@ -266,8 +266,9 @@ def _grand_tour_url(issue_no, current_issue, html_now):
     if not f.exists():
         return None
     ah = f.read_text(errors='ignore')
-    i = ah.find('The Grand Tour')
+    _mrh = _re.search(r'Meridian · The Travel Desk</span><span>[^<]*Grand Tour', ah)
     anchor = ''
+    i = _mrh.start() if _mrh else -1
     if i != -1:
         ids = _re.findall(r'<section id="(p\d+)"', ah[:i])
         anchor = '#' + ids[-1] if ids else ''
