@@ -1,217 +1,280 @@
 {
-  "_comment": "The Scoreboard's ledger. During EVERY build, log each scoreable claim the issue prints (tracking numbers, odds, 'too new to call' verdicts, forecasts) as {issue, desk, claim, check_by (ISO date or event), outcome:null}. Each SATURDAY edition grades everything gradeable (outcome: 'right'|'wrong'|'push' + one-line result) and prints The Scoreboard from the graded rows. Prune graded rows older than ~3 weeks.",
-  "claims": [
-    {
-      "issue": 51,
-      "desk": "Macro",
-      "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), per ~83% market-implied odds",
-      "check_by": "2026-07-30",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "Macro",
-      "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
-      "check_by": "2026-07-28",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "Macro",
-      "claim": "Regime call: higher-for-longer, oil-driven inflation bid, firm dollar persists",
-      "check_by": "2026-08-15",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "Technology",
-      "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised",
-      "check_by": "2026-07-29",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "Technology",
-      "claim": "DeepSeek legacy chat/reasoner API endpoints stop resolving after 15:59 UTC 24 Jul",
-      "check_by": "2026-07-26",
-      "outcome": "right",
-      "result": "Retired on schedule at 15:59 UTC 24 Jul; the deepseek-chat/-reasoner aliases now fail (graded on No. 52 Scoreboard)."
-    },
-    {
-      "issue": 51,
-      "desk": "Screen & Sound",
-      "claim": "Spider-Man: Brand New Day opens above US$180m domestic (31 Jul)",
-      "check_by": "2026-08-03",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "Property",
-      "claim": "Dunearn House sells more than half its units on 25 Jul launch day",
-      "check_by": "2026-07-28",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "The Long Read",
-      "claim": "A Western major (NYT/BBC/Reuters/FT) runs a feature on China's guzi/emotional-value economy within ~4 weeks",
-      "check_by": "2026-08-24",
-      "outcome": null
-    },
-    {
-      "issue": 51,
-      "desk": "The World",
-      "claim": "The 10-day Gulf ceasefire proposal is not accepted by both sides within a week",
-      "check_by": "2026-07-31",
-      "outcome": "right",
-      "result": "Iran rejected the Iraqi-brokered 10-day truce outright on 24 Jul over Hormuz; unaccepted within the week."
-    },
-    {
-      "issue": 52,
-      "desk": "Screen & Sound",
-      "claim": "Spider-Man: Brand New Day opens above US$230m domestic (30-31 Jul)",
-      "check_by": "2026-08-03",
-      "outcome": null
-    },
-    {
-      "issue": 52,
-      "desk": "Property",
-      "claim": "CCR's Q2 price outperformance does not persist into Q3 2026 absent an ABSD relaxation",
-      "check_by": "2026-10-30",
-      "outcome": null
-    },
-    {
-      "issue": 52,
-      "desk": "Macro",
-      "claim": "Gold holds its bid above US$4,000/oz through August as the oil-inflation regime persists",
-      "check_by": "2026-08-31",
-      "outcome": null
-    },
-    {
-      "issue": 52,
-      "desk": "Technology",
-      "claim": "Kimi K3's independent Artificial Analysis composite lands within ~2 points of the claimed 57 once open weights are tested",
-      "check_by": "2026-08-10",
-      "outcome": null
-    },
-    {
-      "issue": 52,
-      "desk": "The World",
-      "claim": "No signed US-Iran/Gulf ceasefire by 15 August despite the rejected 10-day proposal",
-      "check_by": "2026-08-16",
-      "outcome": null
-    },
-    {
-      "issue": 52,
-      "desk": "Travel",
-      "claim": "Japan's departure tax is confirmed/legislated at Y3,000 (not merely proposed) by end-2026",
-      "check_by": "2026-12-31",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Macro",
-      "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), the ~63% base case over the ~36% hike tail",
-      "check_by": "2026-07-30",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Macro",
-      "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
-      "check_by": "2026-07-29",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Technology",
-      "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised (no further slip)",
-      "check_by": "2026-07-30",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Technology",
-      "claim": "Kimi K3's elevated hallucination rate (~51% on AA Omniscience) is confirmed by independent testing once the weights are public",
-      "check_by": "2026-08-17",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Screen & Sound",
-      "claim": "Spider-Man: Brand New Day opens above US$180m domestic on its 31 Jul debut",
-      "check_by": "2026-08-03",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Property",
-      "claim": "Dunearn House's launch-weekend take-up is confirmed above 70% by a named outlet (the ~99% figure was held)",
-      "check_by": "2026-08-03",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "Travel",
-      "claim": "Japan replaces its instant point-of-sale tax exemption with the refund-at-departure system on 1 Nov 2026 as scheduled",
-      "check_by": "2026-11-05",
-      "outcome": null
-    },
-    {
-      "issue": 53,
-      "desk": "The Long Read",
-      "claim": "A Western major (NYT/BBC/Reuters/FT/Economist) runs a feature on Huaqiangbei as a Gen-Z tourism/identity phenomenon within ~4 weeks",
-      "check_by": "2026-08-24",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "Singapore",
-      "claim": "MAS keeps the S$NEER band unchanged (slope, width, centre) at its 27 Jul statement",
-      "check_by": "2026-07-27",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "The Macro Desk",
-      "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
-      "check_by": "2026-07-29",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "The World",
-      "claim": "The US–Iran mutual pause over Hormuz survives past 48 hours from publication (no fresh US strike by 29 Jul)",
-      "check_by": "2026-07-29",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "Property",
-      "claim": "Dunearn House's unsold ~45% does NOT clear (stays >20% unsold) within four weeks without a price cut",
-      "check_by": "2026-08-24",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "Technology",
-      "claim": "Kimi K3 open weights are published on the official moonshotai HF org by end of 27 Jul, and community BF16/GGUF re-quants appear within a week",
-      "check_by": "2026-08-03",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "Screen & Sound",
-      "claim": "Spider-Man: Brand New Day opens at or above $230m domestic (Box Office Pro's lower bound)",
-      "check_by": "2026-08-03",
-      "outcome": null
-    },
-    {
-      "issue": 54,
-      "desk": "The Kit",
-      "claim": "Sony FX5 bodies ship to buyers in August 2026 at the US$4,899 price",
-      "check_by": "2026-09-01",
-      "outcome": null
-    }
-  ]
+ "_comment": "The Scoreboard's ledger. During EVERY build, log each scoreable claim the issue prints (tracking numbers, odds, 'too new to call' verdicts, forecasts) as {issue, desk, claim, check_by (ISO date or event), outcome:null}. Each SATURDAY edition grades everything gradeable (outcome: 'right'|'wrong'|'push' + one-line result) and prints The Scoreboard from the graded rows. Prune graded rows older than ~3 weeks.",
+ "claims": [
+  {
+   "issue": 51,
+   "desk": "Macro",
+   "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), per ~83% market-implied odds",
+   "check_by": "2026-07-30",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Macro",
+   "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
+   "check_by": "2026-07-28",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Macro",
+   "claim": "Regime call: higher-for-longer, oil-driven inflation bid, firm dollar persists",
+   "check_by": "2026-08-15",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Technology",
+   "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised",
+   "check_by": "2026-07-29",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Technology",
+   "claim": "DeepSeek legacy chat/reasoner API endpoints stop resolving after 15:59 UTC 24 Jul",
+   "check_by": "2026-07-26",
+   "outcome": "right",
+   "result": "Retired on schedule at 15:59 UTC 24 Jul; the deepseek-chat/-reasoner aliases now fail (graded on No. 52 Scoreboard)."
+  },
+  {
+   "issue": 51,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens above US$180m domestic (31 Jul)",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "Property",
+   "claim": "Dunearn House sells more than half its units on 25 Jul launch day",
+   "check_by": "2026-07-28",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "The Long Read",
+   "claim": "A Western major (NYT/BBC/Reuters/FT) runs a feature on China's guzi/emotional-value economy within ~4 weeks",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 51,
+   "desk": "The World",
+   "claim": "The 10-day Gulf ceasefire proposal is not accepted by both sides within a week",
+   "check_by": "2026-07-31",
+   "outcome": "right",
+   "result": "Iran rejected the Iraqi-brokered 10-day truce outright on 24 Jul over Hormuz; unaccepted within the week."
+  },
+  {
+   "issue": 52,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens above US$230m domestic (30-31 Jul)",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Property",
+   "claim": "CCR's Q2 price outperformance does not persist into Q3 2026 absent an ABSD relaxation",
+   "check_by": "2026-10-30",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Macro",
+   "claim": "Gold holds its bid above US$4,000/oz through August as the oil-inflation regime persists",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Technology",
+   "claim": "Kimi K3's independent Artificial Analysis composite lands within ~2 points of the claimed 57 once open weights are tested",
+   "check_by": "2026-08-10",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "The World",
+   "claim": "No signed US-Iran/Gulf ceasefire by 15 August despite the rejected 10-day proposal",
+   "check_by": "2026-08-16",
+   "outcome": null
+  },
+  {
+   "issue": 52,
+   "desk": "Travel",
+   "claim": "Japan's departure tax is confirmed/legislated at Y3,000 (not merely proposed) by end-2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Macro",
+   "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), the ~63% base case over the ~36% hike tail",
+   "check_by": "2026-07-30",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Macro",
+   "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
+   "check_by": "2026-07-29",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Technology",
+   "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised (no further slip)",
+   "check_by": "2026-07-30",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Technology",
+   "claim": "Kimi K3's elevated hallucination rate (~51% on AA Omniscience) is confirmed by independent testing once the weights are public",
+   "check_by": "2026-08-17",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens above US$180m domestic on its 31 Jul debut",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Property",
+   "claim": "Dunearn House's launch-weekend take-up is confirmed above 70% by a named outlet (the ~99% figure was held)",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "Travel",
+   "claim": "Japan replaces its instant point-of-sale tax exemption with the refund-at-departure system on 1 Nov 2026 as scheduled",
+   "check_by": "2026-11-05",
+   "outcome": null
+  },
+  {
+   "issue": 53,
+   "desk": "The Long Read",
+   "claim": "A Western major (NYT/BBC/Reuters/FT/Economist) runs a feature on Huaqiangbei as a Gen-Z tourism/identity phenomenon within ~4 weeks",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "Singapore",
+   "claim": "MAS keeps the S$NEER band unchanged (slope, width, centre) at its 27 Jul statement",
+   "check_by": "2026-07-27",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "The Macro Desk",
+   "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
+   "check_by": "2026-07-29",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "The World",
+   "claim": "The US–Iran mutual pause over Hormuz survives past 48 hours from publication (no fresh US strike by 29 Jul)",
+   "check_by": "2026-07-29",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "Property",
+   "claim": "Dunearn House's unsold ~45% does NOT clear (stays >20% unsold) within four weeks without a price cut",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "Technology",
+   "claim": "Kimi K3 open weights are published on the official moonshotai HF org by end of 27 Jul, and community BF16/GGUF re-quants appear within a week",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens at or above $230m domestic (Box Office Pro's lower bound)",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 54,
+   "desk": "The Kit",
+   "claim": "Sony FX5 bodies ship to buyers in August 2026 at the US$4,899 price",
+   "check_by": "2026-09-01",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "The Macro Desk",
+   "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
+   "check_by": "2026-07-30",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "The Macro Desk",
+   "claim": "Brent stays below US$95 through mid-August as the Gulf war-premium stays unwound",
+   "check_by": "2026-08-15",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "The Macro Desk",
+   "claim": "Gold holds its bid above US$4,000/oz through August",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "Singapore",
+   "claim": "MAS's 27 Jul move was a slight tightening (steeper S$NEER slope), not a flat hold — and the SGD trades firmer into August",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "Technology",
+   "claim": "Kimi K3's independent Artificial Analysis Intelligence Index holds within ~2 points of ~57 once the novelty fades",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day's Rotten Tomatoes critic score lands in the high-80s-to-mid-90s (i.e. ≥85%) when the embargo lifts",
+   "check_by": "2026-07-30",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day opens at or above US$230m domestic on its 31 Jul debut",
+   "check_by": "2026-08-03",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "Property",
+   "claim": "Singapore private home prices stay flat-to-soft (≤+0.5% q/q) in Q3 2026 as the 9,320-unit GLS pipeline weighs",
+   "check_by": "2026-10-30",
+   "outcome": null
+  },
+  {
+   "issue": 55,
+   "desk": "The Long Read",
+   "claim": "No Western major (NYT/BBC/Reuters/FT/Economist) runs a feature on China's pindou (perler-bead) craze within three weeks",
+   "check_by": "2026-08-18",
+   "outcome": null
+  }
+ ]
 }
