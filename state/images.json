@@ -48,6 +48,50 @@
  ],
  "heroes": [
   {
+   "issue": "55",
+   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+   "asset": "oil-refinery",
+   "source": "Wikimedia Commons — \"File:Mina-Al-Ahmadi oil refinery night.jpg\"",
+   "specific": false,
+   "caption": "A Gulf oil refinery at night — representative of the barrel shedding its war premium, not a specific facility."
+  },
+  {
+   "issue": "55",
+   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+   "asset": "nvidia-h100",
+   "source": "Wikimedia Commons — \"File:NVIDIA H100 (Geekerwan) 016.png\"",
+   "specific": false,
+   "caption": "An Nvidia H100 accelerator — representative of the data-centre silicon a 2.8-trillion-parameter model needs, not the specific parts."
+  },
+  {
+   "issue": "55",
+   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+   "asset": "headphones-audio",
+   "source": "Wikimedia Commons",
+   "specific": false,
+   "caption": "High-end personal audio — representative of the turntable-and-headphone week, not the specific Clearaudio deck."
+  },
+  {
+   "issue": "55",
+   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+   "asset": "beta-pic",
+   "source": "NASA / ESA / CSA — James Webb Space Telescope (MIRI, weic2401b)",
+   "license": "CC BY 4.0",
+   "author": "NASA/ESA/CSA",
+   "specific": true,
+   "caption": "The Beta Pictoris system imaged by JWST/MIRI — the star system where a planet was just found by reading its atmosphere."
+  },
+  {
+   "issue": "55",
+   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+   "asset": "fed-eccles",
+   "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
+   "license": "CC BY-SA 3.0",
+   "author": "AgnosticPreachersKid",
+   "specific": true,
+   "caption": "The Marriner S. Eccles Federal Reserve building — where the FOMC rules on Wednesday."
+  },
+  {
    "issue": "37",
    "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
    "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
