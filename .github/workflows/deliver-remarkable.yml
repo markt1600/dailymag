@@ -1,0 +1,56 @@
+# Deliver each new edition's PDF to the reMarkable cloud.
+#
+# Fires when status.json changes on main (i.e. an edition just shipped).
+# Decrypts the pairing config (see pair-remarkable.yml), uploads the PDF as
+# "MERIDIAN No. NN - <date>" into the /MERIDIAN folder, and prunes the
+# folder to the seven most recent issues so the tablet doesn't silt up.
+name: Deliver to reMarkable
+
+on:
+  push:
+    branches: [main]
+    paths: ["status.json"]
+  workflow_dispatch:
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip if not paired
+        id: gate
+        env:
+          PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
+        run: |
+          if [ -z "$PASSPHRASE" ] || [ ! -f assets/remarkable/rmapi.conf.enc ]; then
+            echo "not paired yet — skipping"; echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-go@v5
+        if: steps.gate.outputs.go == 'yes'
+        with: { go-version: 'stable' }
+      - name: Install rmapi
+        if: steps.gate.outputs.go == 'yes'
+        run: go install github.com/ddvk/rmapi@latest
+      - name: Deliver the edition
+        if: steps.gate.outputs.go == 'yes'
+        env:
+          PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
+        run: |
+          mkdir -p ~/.config/rmapi
+          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:PASSPHRASE \
+            -in assets/remarkable/rmapi.conf.enc -out ~/.config/rmapi/rmapi.conf
+          RMAPI=$(go env GOPATH)/bin/rmapi
+          ISSUE=$(python3 -c "import json;d=json.load(open('status.json'));print(d['issue'])")
+          DATE=$(python3 -c "import json;d=json.load(open('status.json'));print(d['date'])")
+          NAME="MERIDIAN No. $ISSUE - $DATE"
+          $RMAPI mkdir /MERIDIAN 2>/dev/null || true
+          cp meridian-latest.pdf "$NAME.pdf"
+          $RMAPI put "$NAME.pdf" /MERIDIAN
+          echo "delivered: $NAME"
+          # prune: keep the 7 newest issues (by number)
+          $RMAPI ls /MERIDIAN | sed -n 's/^\[f\]\t*//p' | grep -oE 'MERIDIAN No\. [0-9]+.*' | \
+            sort -t. -k2 -n | head -n -7 | while IFS= read -r old; do
+              echo "pruning: $old"; $RMAPI rm "/MERIDIAN/$old" || true
+            done
