@@ -390,6 +390,19 @@ for entry in images.get("heroes", []):
 # standing fallbacks: guarantee photos even when the session assigned none
 for entry in images.get("standing", []):
     inject(entry)
+# genuine-product rule (editor's standing directive): product desks should
+# carry the actual product's image, not a representative stand-in.
+_PRODUCT_DESKS = ('The Kit', 'The Good Life', 'The Connected Home')
+for entry in images.get("heroes", []):
+    if entry.get("issue") and str(entry["issue"]) != str(ISSUE):
+        continue
+    for _pd in _PRODUCT_DESKS:
+        if _pd in entry.get("anchor", "") and not entry.get("specific"):
+            print(f"  (advisory: {_pd} hero is REPRESENTATIVE — the genuine-product rule wants the actual product's press image when obtainable)")
+for entry in images.get("standing", []):
+    for _pd in _PRODUCT_DESKS:
+        if _pd in entry.get("anchor", "") and entry["anchor"] in used_anchors:
+            print(f"  (advisory: {_pd} fell back to the STANDING image — genuine product imagery preferred by rule)")
 if fresh < 2:
     print(f"FAIL: only {fresh} FRESH story-specific hero image(s) this issue (min 2; aim for one per desk lead).")
     print("      Add press/product/agency images via assets/heroes/manifest.json (fetch-heroes Action),")
