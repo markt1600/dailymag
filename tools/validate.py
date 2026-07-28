@@ -224,6 +224,20 @@ if len(pages) >= 2:
     if _t == -1:
         errors.append("contents page: no market strip (.tbl table or .lede-strip) found — The Strip is standing p2 furniture")
 
+# Diary furniture discipline: .agenda-h is a SECTION header (a geography or
+# strip name + .sub note), never a spreadsheet column header; events run as
+# .evt rows. (No. 55 shipped "Date | Event · Venue" column headers.)
+if re.search(r'agenda-h[^>]*"><span>\s*Date\s*</span>', html, re.I):
+    errors.append("The Diary: .agenda-h repurposed as a Date/Event/Venue column header — it is a SECTION header (e.g. 'Singapore <span class=\"sub\">book now · plan ahead</span>'); events are .evt rows, not table rows")
+_diary = _desk_pages.get('The Diary', [])
+if _diary:
+    _dblob = ''.join(_diary)
+    _nevt = _dblob.count('class="evt"')
+    if _nevt < 6:
+        errors.append(f"The Diary: only {_nevt} .evt rows (floor 6) — the dated agenda uses the standing .evt/.evt-date/.evt-meta furniture")
+    if 'Singapore' not in _dblob.split('agenda-h')[0] and not any('Singapore' in _re_ah for _re_ah in re.findall(r'agenda-h[^>]*">([^<]*)', _dblob)):
+        warns.append("The Diary: no 'Singapore' agenda-h section found — the SG events section leads the Diary by design")
+
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
     ref = int(m.group(1))

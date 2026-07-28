@@ -116,7 +116,7 @@ MERIDIAN should read like a well-packed magazine spread, not a report with air a
 * `.chatter` (+ .slate/.gold/.teal) — forum/Reddit/analyst commentary; slate variant = sceptic/contrarian.
 * `.desk` — viewpoint panel for comparing geopolitical framings (`.flag` header = "\[City] — \[Outlet]").
 * `.pull` (pull quote), `.stat` (callout), `.figframe`/`.imgcap` (wrap every SVG), `.tag` (pill).
-* `.agenda-h` + `.evt` family — The Diary's dated event rows; `.evt-date.star` and `.st` (★) mark marquee picks.
+* `.agenda-h` + `.evt` family — The Diary's dated event rows; `.evt-date.star` and `.st` (★) mark marquee picks. **`.agenda-h` is a SECTION header — a geography or strip name plus a `.sub` note ("Singapore <span class=\"sub\">book now · plan ahead</span>") — NEVER a spreadsheet column header ("Date | Event · Venue" is banned and gated; No. 55's drift). The Singapore section leads the Diary; events run as `.evt` rows, minimum six per issue.** More generally: **no invented furniture** — build every page from the standing component classes above; a new visual component is an editor's decision, not a session's improvisation.
 * **Artwork rule:** the COVER is photographic in BOTH editions (see cover brief). Interior PDF artwork remains original SVG (charts, conceptual figures, The Mechanism); the HTML Photo Edition swaps in real photos per desk (see BUILD \& RENDER). Always source every photo honestly; never mislabel an image.
 
 **Fixed page order \& desk sub-titles (the recognizable skeleton)**
