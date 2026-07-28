@@ -27,6 +27,30 @@ def clean(s):
     return re.sub(r'\s+', ' ', s).strip()
 
 
+def from_archive(no):
+    """Fallback: pull the essay title + contents headline straight from the
+    archived Photo Edition — the pages always carry them, however loosely the
+    session wrote its Issue Log row."""
+    f = pathlib.Path(f"archive/no-{no}/index.html")
+    if not f.exists():
+        f = pathlib.Path("index.html")   # current issue, not yet archived
+        if not f.exists():
+            return "", ""
+    h = f.read_text(errors="ignore")
+    title = sub = ""
+    secs = re.split(r'(?=<section[^>]*class="page)', h)
+    lr = [x for x in secs if 'Meridian · The Long Read' in x[:400]]
+    if lr:
+        m = re.search(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', lr[0], re.S)
+        if m:
+            title = clean(re.sub(r'<[^>]+>', '', m.group(1)))
+    p2 = [x for x in secs if 'Meridian · Contents' in x[:400]]
+    if p2:
+        m = re.search(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', p2[0], re.S)
+        if m:
+            sub = clean(re.sub(r'<[^>]+>', '', m.group(1)))
+    return title, sub
+
 def parse(note):
     mode = spine = title = ""
     m = re.match(r'\s*\*\*([^*]+)\*\*', note)
@@ -36,6 +60,10 @@ def parse(note):
     if m:
         spine = clean(m.group(1))
     m = re.search(r'THE LONG READ[^:]*:\s*\*\*[“"”\'‘’]*([^”"”*\'‘’]+)', note)
+    if not m:   # variant phrasings sessions have used
+        m = re.search(r'(?:Essay type|LONG READ|THE ESSAY)[^(“"]*[(]?[“"”]\s*([^”"“]{4,60})[”"]', note)
+    if not m:
+        m = re.search(r'[“"]([^”"]{4,60})[”"]\s*[—–-]\s*(?:the essay|Type [AB])', note)
     if m:
         title = clean(m.group(1))
     return mode, spine, title
@@ -45,6 +73,10 @@ issues = []
 for it in sorted(il["issues"], key=lambda x: -x["no"]):
     no = it["no"]
     mode, spine, title = parse(it.get("note", ""))
+    if not title or not spine:
+        a_title, a_sub = from_archive(no)
+        title = title or a_title
+        spine = spine or a_sub
     if no == CURRENT:
         href, pdf = "index.html", "meridian-latest.pdf"
     else:
