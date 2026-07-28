@@ -182,6 +182,13 @@ SCREEN_CSS = """
   .march-search{ margin:0 18px 8px; padding:9px 12px; font-family:'Poppins',sans-serif;
     font-size:10pt; border:1px solid var(--line); border-radius:3px; background:var(--paper2); color:var(--ink); }
   .march-list{ overflow-y:auto; padding:2px 12px 14px; }
+  .marchi .hits{ margin:4px 0 2px; display:flex; flex-direction:column; gap:2px; }
+  .marchi .hit{ font-family:'Poppins',sans-serif; font-size:11px; line-height:1.45; color:#403a32;
+    text-decoration:none; padding:2px 0 2px 10px; border-left:2px solid #b08738; display:block; }
+  a.hit:hover{ color:#9c3422; }
+  .marchi .hit .hd{ font-weight:600; letter-spacing:.04em; text-transform:uppercase; font-size:9px; color:#7a7264; margin-right:4px; }
+  .marchi .hit .pg{ color:#b08738; font-size:9.5px; }
+
   .marchi{ padding:9px 6px; border-bottom:1px solid var(--line); }
   .marchi:hover{ background:var(--paper2); }
   .marchi .no{ font-family:'Poppins',sans-serif; font-weight:700; font-size:8pt; letter-spacing:.08em; color:var(--vermilion); }
@@ -493,23 +500,49 @@ JS = """
     var searchEl=ov.querySelector('.march-search');
     var ctEl=ov.querySelector('.marchct');
     function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+    function artHits(it,q){
+      if(!q) return [];
+      return (it.articles||[]).filter(function(a){
+        return (a.d+' '+a.h+' '+a.x).toLowerCase().indexOf(q)>=0;
+      }).slice(0,5);
+    }
     function render(q){
       q=(q||'').toLowerCase().trim();
-      var items=data.issues.filter(function(it){
-        if(!q) return true;
-        return (it.no+' '+it.date+' '+it.mode+' '+it.spine+' '+it.title+' '+it.quote+' '+it.author+' '+it.text).toLowerCase().indexOf(q)>=0;
-      });
-      ctEl.textContent=items.length+' of '+data.issues.length+' issues';
+      var nArts=0;
+      var items=data.issues.map(function(it){
+        var hits=artHits(it,q);
+        var selfMatch=!q || (it.no+' '+it.date+' '+it.mode+' '+it.spine+' '+it.title+' '+it.quote+' '+it.author+' '+it.text).toLowerCase().indexOf(q)>=0;
+        if(!selfMatch && !hits.length) return null;
+        nArts+=hits.length;
+        return {it:it, hits:hits};
+      }).filter(Boolean);
+      ctEl.textContent=q ? items.length+' issues'+(nArts?' \\u00b7 '+nArts+' articles':'') : items.length+' of '+data.issues.length+' issues';
       if(!items.length){ listEl.innerHTML='<div class="march-none">No issues match \\u201c'+esc(q)+'\\u201d.</div>'; return; }
-      listEl.innerHTML=items.map(function(it){
+      listEl.innerHTML=items.map(function(row){
+        var it=row.it;
         var acts= it.href ? '<a href="'+it.href+'">'+(it.current?'Read · current':'Read')+'</a>' : '<span class="na">git history only</span>';
         if(it.pdf) acts+='<a class="pdf" href="'+it.pdf+'" download>PDF</a>';
+        var hitsHtml='';
+        if(row.hits.length){
+          hitsHtml='<div class="hits">'+row.hits.map(function(a){
+            var url=it.current?('#'+a.a):(it.href?it.href+'#'+a.a:null);
+            var label='<span class="hd">'+esc(a.d)+'</span> '+esc(a.h);
+            return url?'<a class="hit" href="'+url+'">'+label+' <span class="pg">'+a.a.replace('p','p. ')+' \\u2192</span></a>'
+                      :'<span class="hit">'+label+'</span>';
+          }).join('')+'</div>';
+        }
         return '<div class="marchi"><div class="no">No. '+it.no+' &middot; '+esc(it.date)+(it.mode?' <span class="mode">&middot; '+esc(it.mode)+'</span>':'')+'</div>'+
           (it.title?'<div class="ti">'+esc(it.title)+'</div>':'')+
           (it.spine?'<div class="sp">'+esc(it.spine)+'</div>':'')+
+          hitsHtml+
           '<div class="acts">'+acts+'</div></div>';
       }).join('');
     }
+    listEl.addEventListener('click', function(e){
+      var t=e.target;
+      while(t && t!==listEl && !(t.tagName==='A' && t.className==='hit')) t=t.parentNode;
+      if(t && t!==listEl && t.getAttribute('href') && t.getAttribute('href').charAt(0)==='#') closeA();
+    });
     function openA(){ ov.hidden=false; render(searchEl.value); setTimeout(function(){searchEl.focus();},30); }
     function closeA(){ ov.hidden=true; }
     march.addEventListener('click', openA);

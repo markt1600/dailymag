@@ -51,6 +51,34 @@ def from_archive(no):
             sub = clean(re.sub(r'<[^>]+>', '', m.group(1)))
     return title, sub
 
+def articles_for(no, is_current):
+    """Article-level search index: for issues whose pages carry section ids,
+    one entry per desk page with a headline — {a: anchor, d: desk, h: headline,
+    x: snippet}. Lets the archive search deep-link to the article itself."""
+    f = pathlib.Path("index.html") if is_current else pathlib.Path(f"archive/no-{no}/index.html")
+    if not f.exists():
+        return []
+    h = f.read_text(errors="ignore")
+    out = []
+    for sec in re.split(r'(?=<section[^>]*class="page)', h):
+        mid = re.match(r'<section id="(p\d+)"', sec)
+        mrh = re.search(r'Meridian · ([^<]+)</span>', sec[:400])
+        if not mid or not mrh:
+            continue
+        desk = clean(mrh.group(1))
+        if desk in ("Contents",):
+            continue
+        mh = re.search(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', sec, re.S)
+        if not mh:
+            continue
+        hed = clean(re.sub(r'<[^>]+>', '', mh.group(1)))
+        md = re.search(r'<div class="dek">(.*?)</div>', sec, re.S)
+        bodies = re.findall(r'<p class="body[^"]*">(.*?)</p>', sec, re.S)[:2]
+        raw = (md.group(1) if md else '') + ' ' + ' '.join(bodies)
+        snip = clean(re.sub(r'<[^>]+>', ' ', raw))[:220]
+        out.append({"a": mid.group(1), "d": desk, "h": hed, "x": snip})
+    return out
+
 def parse(note):
     mode = spine = title = ""
     m = re.match(r'\s*\*\*([^*]+)\*\*', note)
@@ -77,6 +105,7 @@ for it in sorted(il["issues"], key=lambda x: -x["no"]):
         a_title, a_sub = from_archive(no)
         title = title or a_title
         spine = spine or a_sub
+    arts = articles_for(no, is_current=(str(no) == str(CURRENT)))
     if no == CURRENT:
         href, pdf = "index.html", "meridian-latest.pdf"
     else:
@@ -86,6 +115,7 @@ for it in sorted(il["issues"], key=lambda x: -x["no"]):
     issues.append({
         "no": no, "date": it.get("date", ""), "mode": mode, "spine": spine,
         "title": title, "quote": it.get("quote", ""), "author": clean(it.get("author", "")),
+        "articles": arts,
         "href": href, "pdf": pdf, "current": no == CURRENT,
         "text": clean(it.get("note", ""))[:TEXT_CAP],
     })
