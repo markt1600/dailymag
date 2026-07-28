@@ -179,6 +179,51 @@ for _t, _n in _tellhits.items():
 if sum(_tellhits.values()) > 4:
     errors.append(f"voice/AI-tell: {sum(_tellhits.values())} generated-filler phrases across the issue (max 4) — the prose needs a human-register pass")
 
+# issue-local classes: any class used in the body MUST have CSS defined —
+# No. 55 shipped .tbl/.lede-strip/.brief-h/.mini markup with no styles at all
+# (rendered as bare stacked text). The issue-local style block is mandatory.
+_stylepart = html[html.find('<style'):html.rfind('</style>')] if '<style' in html else ''
+for _cls in ('tbl', 'lede-strip', 'brief-h', 'brief-item', 'mini', 'cap-note', 'byline', 'figcluster'):
+    _used = f'class="{_cls}"' in html or f'class="{_cls} ' in html
+    _defined = f'.{_cls}{{' in _stylepart or f'.{_cls} {{' in _stylepart
+    if _used and not _defined:
+        errors.append(f"class '{_cls}' is used but has NO CSS defined — copy the issue-local style block from the previous issue (it is part of the fixed design system)")
+
+# contents page (p2) layout is FIXED: two-column grid; From the Desk + The
+# Strip live in the RIGHT column, never full-width below the list.
+if len(pages) >= 2:
+    _p2 = pages[1]
+    _g = max(_p2.find('grid g-21'), _p2.find('grid g-12'))
+    _f = _p2.find('From the Desk')
+    _t = max(_p2.find('class="tbl'), _p2.find('lede-strip'))
+    if _g == -1:
+        errors.append("contents page: missing the two-column grid (g-21/g-12) layout — p2's structure is FIXED (list one side; From the Desk + The Strip the other)")
+    # descendant check: the From-the-Desk chatter must live INSIDE the grid
+    class _P2Scan(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.stack=[]; self.in_grid_quote=False; self.grid_depth=None
+        def handle_starttag(self, tag, attrs):
+            cls = dict(attrs).get('class','') or ''
+            self.stack.append((tag, cls))
+            if 'grid' in cls.split() and self.grid_depth is None:
+                self.grid_depth = len(self.stack)
+        def handle_endtag(self, tag):
+            if self.grid_depth is not None and len(self.stack) < self.grid_depth:
+                self.grid_depth = None
+            for _i in range(len(self.stack)-1, -1, -1):
+                if self.stack[_i][0] == tag:
+                    if self.grid_depth is not None and _i+1 <= self.grid_depth-1 and 'grid' in self.stack[_i][1].split():
+                        self.grid_depth = None
+                    del self.stack[_i]; break
+        def handle_data(self, d):
+            if 'From the Desk' in d and self.grid_depth is not None and len(self.stack) >= self.grid_depth:
+                self.in_grid_quote = True
+    _sc2 = _P2Scan(); _sc2.feed(_p2)
+    if _f != -1 and not _sc2.in_grid_quote:
+        errors.append("contents page: 'From the Desk' sits OUTSIDE the two-column grid (full-width below the list) — it belongs INSIDE the grid, in its own column, per the fixed p2 design")
+    if _t == -1:
+        errors.append("contents page: no market strip (.tbl table or .lede-strip) found — The Strip is standing p2 furniture")
+
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
     ref = int(m.group(1))

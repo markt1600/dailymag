@@ -7,6 +7,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+/* ---- Issue-local styles (canonical set, retro-injected) — meridian.css is canonical & untouched ---- */
+.tbl{width:100%;border-collapse:collapse;font-family:'Poppins',sans-serif;margin:6px 0;}
+.tbl th{font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;padding:3px 4px;border-bottom:1pt solid var(--ink);}
+.tbl th:first-child{text-align:left;}
+.tbl td{font-size:8pt;padding:3px 4px;text-align:right;border-bottom:.5pt solid var(--line);color:var(--ink2);}
+.tbl td:first-child{text-align:left;font-weight:600;color:var(--ink);}
+.tbl td .up{color:var(--teal);font-weight:700;} .tbl td .dn{color:var(--vermilion);font-weight:700;}
+.lede-strip{display:flex;gap:0;border:.6pt solid var(--line);border-radius:2px;overflow:hidden;margin:8px 0;background:#fbf8f1;}
+.lede-strip .cell{flex:1;padding:6px 8px;border-right:.6pt solid var(--line);text-align:center;}
+.lede-strip .cell:last-child{border-right:none;}
+.lede-strip .k{font-family:'Poppins',sans-serif;font-size:6.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.lede-strip .v{font-family:'Poppins',sans-serif;font-weight:700;font-size:11pt;color:var(--ink);line-height:1.1;margin-top:2px;}
+.lede-strip .v .dn{color:var(--vermilion);} .lede-strip .v .up{color:var(--teal);}
+.mini{font-family:'Poppins',sans-serif;font-size:7.4pt;line-height:1.4;color:var(--ink2);}
+.mini b{color:var(--ink);}
+.byline{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;}
+.brief-h{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.6pt;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);border-bottom:1.5pt solid var(--gold);padding-bottom:3px;margin:6px 0 5px;}
+.brief-item{font-size:8.6pt;line-height:1.4;color:var(--ink2);margin-bottom:5px;}
+.brief-item b{color:var(--ink);}
+.cap-note{font-family:'Poppins',sans-serif;font-size:6.6pt;color:var(--muted);letter-spacing:.03em;margin-top:2px;}
+
 /* ============================================================
    MERIDIAN — Master Stylesheet (v1)
    The canonical design system for every edition of MERIDIAN.

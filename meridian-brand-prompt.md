@@ -309,6 +309,23 @@ Every edition ships **two files**: (A) the canonical **print PDF**, and (B) a **
 3. **After a weekend issue is final:** move the chosen destination to **Covered** (issue no. + one-line angle), top up the pipeline with one or two fresh candidates, and keep each candidate's reader-fit note and source list current. "Departures" developments that are discrete/evergreen (a named new route, a cabin product, a hotel opening) go in the **Coverage Ledger** under the New-Peg Test, same as any product.
 4. The reader-fit rationale is **internal only** — it shapes selection and emphasis; it is never printed (same rule as the READER PROFILE).
 
+### THE CONTENTS PAGE (PAGE 2) — FIXED LAYOUT, LIKE THE COVER
+
+Page 2's structure is part of the recognizable skeleton and is NOT reinvented per issue (reader-reported drift, Nos. ~51–55: the quote box wandered full-width below the list and the market strip degraded to unstyled text). The fixed skeleton, enforced by `tools/validate.py`:
+
+```html
+<div class="grid g-21" style="gap:8mm;">
+  <div>            <!-- LEFT: "The Desks" contents list, in .cols2, .mini entries -->
+  </div>
+  <div>            <!-- RIGHT column, in THIS order: -->
+    <!-- 1. From the Desk — .chatter.gold with the quote, source, and blurb -->
+    <!-- 2. "The Strip — at <day> close" — a .tbl table of ~9 key levels + .cap-note -->
+  </div>
+</div>
+```
+
+Hard rules: the **From the Desk box lives INSIDE the grid** (never full-width below the list); the **market strip is a ruled `.tbl` table** (or a styled `.lede-strip`), never bare text; and **every issue-local class used (`.tbl`, `.lede-strip`, `.brief-h`, `.mini`, `.cap-note`, …) must have its CSS present in the issue's `<style>` block — copy the issue-local style block from the previous issue's HTML as the first act of assembly.** A class with no CSS renders as plain text and is a build failure. No. 38 (`archive/no-38/index.html`) is the reference implementation.
+
 ### READER FEEDBACK PROTOCOL (standing, every build)
 
 The Photo Edition carries two feedback channels: a subtle 👍/👎 on each desk's lead article, and a "✎ Note" free-text box. Both land in **`https://raw.githubusercontent.com/markt1600/mainpage/main/data/meridian-feedback.json`** (`{votes:[{ts,issue,desk,topic,vote}], notes:[{ts,issue,text}]}`) — fetch it at the START of every build (the sandbox CAN reach raw.githubusercontent).
