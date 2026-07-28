@@ -54,3 +54,15 @@ subject/licence on the Commons page from a network-connected session).
   no collision there.
 - `pypdf` is intentionally not used (a system cryptography/cffi conflict crashes
   its import); page counts come from `pdfinfo`.
+
+## reMarkable delivery
+
+Each edition's PDF is pushed to the reader's reMarkable automatically:
+`deliver-remarkable.yml` fires when `status.json` changes on main, decrypts
+the device pairing (`assets/remarkable/rmapi.conf.enc`, AES-256 with the
+`RMAPI_PASSPHRASE` repo secret), uploads the PDF as "MERIDIAN No. NN - date"
+into the tablet's `/MERIDIAN` folder via rmapi, and prunes to the 7 newest
+issues. One-time setup: add the `RMAPI_PASSPHRASE` secret, then run the
+"Pair reMarkable" workflow with a code from my.remarkable.com. Uses the
+community rmapi client (unofficial API — if reMarkable changes their cloud,
+re-run the pairing after an rmapi update).
