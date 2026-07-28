@@ -28,12 +28,14 @@ jobs:
       - uses: actions/setup-go@v5
         with: { go-version: 'stable' }
       - name: Install rmapi
-        run: go install github.com/ddvk/rmapi@latest
+        run: |
+          git clone --depth 1 https://github.com/ddvk/rmapi /tmp/rmapi-src
+          cd /tmp/rmapi-src && go build -o "$HOME/rmapi" .
       - name: Register with the one-time code
         env:
           CODE: ${{ github.event.inputs.code }}
         run: |
-          printf '%s\n' "$CODE" | $(go env GOPATH)/bin/rmapi ls
+          printf '%s\n' "$CODE" | "$HOME"/rmapi ls
           test -s ~/.config/rmapi/rmapi.conf || { echo "registration failed"; exit 1; }
       - name: Encrypt and commit the auth config
         env:

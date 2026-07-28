@@ -32,7 +32,9 @@ jobs:
         with: { go-version: 'stable' }
       - name: Install rmapi
         if: steps.gate.outputs.go == 'yes'
-        run: go install github.com/ddvk/rmapi@latest
+        run: |
+          git clone --depth 1 https://github.com/ddvk/rmapi /tmp/rmapi-src
+          cd /tmp/rmapi-src && go build -o "$HOME/rmapi" .
       - name: Deliver the edition
         if: steps.gate.outputs.go == 'yes'
         env:
@@ -41,7 +43,7 @@ jobs:
           mkdir -p ~/.config/rmapi
           openssl enc -d -aes-256-cbc -pbkdf2 -pass env:PASSPHRASE \
             -in assets/remarkable/rmapi.conf.enc -out ~/.config/rmapi/rmapi.conf
-          RMAPI=$(go env GOPATH)/bin/rmapi
+          RMAPI="$HOME"/rmapi
           ISSUE=$(python3 -c "import json;d=json.load(open('status.json'));print(d['issue'])")
           DATE=$(python3 -c "import json;d=json.load(open('status.json'));print(d['date'])")
           NAME="MERIDIAN No. $ISSUE - $DATE"
