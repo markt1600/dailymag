@@ -1,30 +1,30 @@
 {
  "publication": "MERIDIAN",
- "issue": 55,
- "date": "28 July 2026",
- "generated": "2026-07-28T06:11:14+08:00",
+ "issue": 56,
+ "date": "29 July 2026",
+ "generated": "2026-07-29T06:01:28+08:00",
  "quote": {
-  "text": "Men, it has been well said, think in herds; it will be seen that they go mad in herds, while they only recover their senses slowly, and one by one.",
-  "author": "Charles Mackay, Extraordinary Popular Delusions and the Madness of Crowds (preface, 1852 ed.)"
+  "text": "Between the idea / And the reality / Between the motion / And the act / Falls the Shadow.",
+  "author": "T. S. Eliot, The Hollow Men (1925)"
  },
  "macro": {
   "title": "What It Means — VWRA, Bonds, Gold & BTC",
   "reads": [
    {
     "label": "VWRA (held)",
-    "text": "near its record; a softer barrel and a softer dollar are a relief, but Wednesday's Warsh statement is the swing, and this week's mega-cap earnings move it more than the Fed."
+    "text": "eased to ~$185 as global equities mark time; the swing is not the Fed but Microsoft and Meta after Wednesday’s bell — their AI-capex guidance moves a world index more than 25 basis points would."
    },
    {
     "label": "Global bonds (held)",
-    "text": "the −4bp in the 10-year and an easier dollar both help; the enemy remains a hawkish surprise or an oil re-spike."
+    "text": "the 10-year barely moved at 4.62%; a hold-and-hawkish statement is the base case, an out-of-consensus hike the tail."
    },
    {
     "label": "Gold (read only)",
-    "text": "near a record and decoupling higher on the softer dollar even as oil fell — the cleanest hedge on the board."
+    "text": "near $4,030 and soft on the firmer dollar — and the honest correction: it sits roughly 15 per cent below January’s ~$4,736 record, so “near a record” no longer fits."
    },
    {
     "label": "Bitcoin (read only)",
-    "text": "range-bound near $65k, trading as high-beta risk, not gold's twin. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
+    "text": "below $64k, trading as high-beta risk on the stronger dollar, not as gold’s twin. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
    }
   ],
   "note": "",
@@ -37,19 +37,19 @@
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Gulf",
-   "headline": "The Guns Stay Quiet, and the Barrel Loses Its Nerve",
-   "dek": "A fourth day without a strike, an Omani draft that still needs a signature, and a market that decided not to wait for one. Brent fell 8.7 per cent on Monday — the sharpest drop since the war began — as traders sold the fear faster than the diplomats could earn it.",
+   "headline": "Five Quiet Days, and the Barrel Still Sells",
+   "dek": "The pause held into a fifth day as Iran, Saudi Arabia and Oman talked the Strait in Muscat and Washington talked up a deal. Still no signature on the twin-corridor draft — and Brent slid again to $84, its lowest in over a week. The tape is pricing the peace faster than anyone will sign it.",
    "anchor": "p3",
    "featured": true
   },
   {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Open Weights",
-   "headline": "The Biggest Open Model Ever, and Almost No One Can Run It",
-   "dek": "Moonshot shipped Kimi K3 on schedule, and the independent scores are in: an intelligence index around 57, top-three or -four in the world, Opus-4.8-class at a fraction of the price. It is also 2.8 trillion parameters, hallucinates more than its predecessor, and is unloadable by design. A flag planted, not a tool delivered.",
-   "anchor": "p7",
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound · Box Office",
+   "headline": "Certified Fresh, and Swinging Into Singapore Tomorrow",
+   "dek": "The embargo No. 55 was waiting on has lifted, and the number exists: Spider-Man: Brand New Day is Certified Fresh at 91 per cent — the best-reviewed Marvel film since Shang-Chi, and the weakest of Tom Holland’s four solos. It opens here Wednesday, tracking as the biggest debut of 2026. The verdict landed; the box office has not.",
+   "anchor": "p12",
    "featured": true
   },
   {
@@ -57,8 +57,8 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · The Portfolio Lens",
-   "headline": "The Barrel Falls, and the Hike Tail Thins",
-   "dek": "One number drove the whole board this week: Brent down 8.7 per cent. That single slide loosened the dollar, cooled the priced odds of a Fed hike, and let gold decouple higher on the softer greenback — even as Singapore's own bank leaned the other way and tightened. Market explanation, not investment advice.",
+   "headline": "Everything Waits for Warsh",
+   "dek": "The board went quiet before it goes loud. Oil kept sliding and the dollar firmed to a four-week high, but equities, gold and bitcoin all marked time — because the week’s real events land after this issue does: the Fed’s first decision under Kevin Warsh tonight, and Microsoft and Meta’s earnings after the bell. Market explanation, not investment advice.",
    "anchor": "p15",
    "featured": true
   },
@@ -67,8 +67,8 @@
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore · Monetary Policy",
-   "headline": "The Bank Was Meant to Hold. It Tightened.",
-   "dek": "Almost every desk on the Street had pencilled in a hold for Monday's statement. Instead the Monetary Authority of Singapore steepened the slope of its currency band a second straight time — a small move, but a hawkish surprise, and a bet that the inflation still in the pipe outweighs the oil shock already fading.",
+   "headline": "The Bank Banks Twenty Billion, and Doubles Down",
+   "dek": "Two days after tightening when the Street had pencilled in a hold, the Monetary Authority of Singapore posted a S$20 billion profit — and used the same week to signal the squeeze is not finished. Core inflation is set to step up from this month, the output gap is now seen widening, and October is the date to watch.",
    "anchor": "p5",
    "featured": false
   },
@@ -76,10 +76,20 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Supply",
-   "headline": "Nine Thousand Plots Hit the Launch Pad",
-   "dek": "The story on the ground is no longer the price of money — it's the volume of land. The government's confirmed release for 2026 now runs to 9,320 units, more than half again the ten-year average, and the newest launch cleared just 54 per cent on its opening day. The pipeline, not demand, is setting the pace.",
+   "kicker": "Property · Cooling Measures",
+   "headline": "The First Wall Comes Down",
+   "dek": "For the first time since the market turned, a cooling measure has been unwound. The government has scrapped the fifteen-month wait a private-home owner faced before buying an HDB resale flat — effective at once — and given en-bloc developers up to two more years to sell. Loosening, not tightening, is now the direction of travel.",
    "anchor": "p6",
+   "featured": false
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Open Weights",
+   "headline": "Open Weights, With Strings Attached",
+   "dek": "The biggest open model ever released turns out to be open with an asterisk: Kimi K3 ships under a custom licence, not a free one, and its own benchmark charts quietly left out a hallucination rate above fifty per cent. Behind it, the harder sovereignty number lands — Nvidia’s China share said to have fallen from forty per cent to eight in a year.",
+   "anchor": "p7",
    "featured": false
   },
   {
@@ -87,8 +97,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit · Cameras",
-   "headline": "Sony Puts a Price on Internal RAW",
-   "dek": "The FX5 we flagged at announcement now has a number and a ship date: US$4,899 for the body, mid-August, with 5K Open Gate and 16-bit internal RAW — a first for the FX line. Below it, a screenless recovery band goes at Whoop for two hundred dollars and no subscription, and Samsung names its glasses without daring to price them.",
+   "headline": "Sony Dates Its RAW Cine Body",
+   "dek": "The FX5 is official and priced — US$4,898 for the body, shipping mid-August, with 5K Open Gate and internal 16-bit RAW, the first Cinema Line under BURANO to record it. Above it, Samsung breaks its price silence on the Galaxy Glasses without quite naming a number; below, Garmin buys the software the endurance crowd already trains on.",
    "anchor": "p9",
    "featured": false
   },
@@ -96,9 +106,9 @@
    "desk": "The Connected Home",
    "sub": "Walls That Listen",
    "category": "Smart Home",
-   "kicker": "The Connected Home · Local Voice",
-   "headline": "The Assistant That Lives in Your House Grows Up",
-   "dek": "With Home Assistant 2026.8 now in beta and due the first Wednesday of August, the interesting change isn't a headline feature — it's the quiet maturing of the fully-local voice stack. Ollama sub-entries, a Whisper-and-Piper pipeline, and a Lutron integration that talks to the hardware without the cloud: the migrator's payoff, arriving in pieces.",
+   "kicker": "The Connected Home · Compatibility",
+   "headline": "A Wikipedia of Devices, Built From the Houses Themselves",
+   "dek": "Home Assistant’s Open Home Foundation opened its Device Database to the public this week — a searchable record of what actually works, built not from one-time lab certification but from anonymised data flowing out of real homes. Two thousand devices in, it answers the only question a migrator ever asks: will this thing work with mine?",
    "anchor": "p10",
    "featured": false
   },
@@ -106,29 +116,19 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Audio",
-   "headline": "A Turntable Dressed as a Beatles Sleeve",
-   "dek": "Clearaudio has built a deck to mark the 60th anniversary of Revolver — monochrome, like the record's cover, and bundled with a fresh pressing of the album itself. At US$17,900 it is a beautiful object and an honest question: how much of the price is engineering, and how much is the sleeve?",
+   "kicker": "The Good Life · Watches",
+   "headline": "Bond’s Car, Rebuilt on the Wrist",
+   "dek": "Breitling and Aston Martin have turned the DB5 — the most famous car in cinema — into a trio of chronographs, down to a wooden ring that echoes the steering wheel and subdials shaped like the dashboard gauges. From US$11,400 to $41,500, it is a beautiful piece of film memorabilia, and the honest question is how much of the price is the watch and how much is the movie.",
    "anchor": "p11",
-   "featured": false
-  },
-  {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · Box Office",
-   "headline": "The Verdict Is Written, and Sealed Until Tonight",
-   "dek": "Reviews of Spider-Man: Brand New Day are embargoed until nine o'clock tonight, Singapore time — so as this issue goes out, the critic score does not yet exist. The social first-reactions are ecstatic; the prediction markets are pricing a low-nineties. Both are guesses, and the film opens here Wednesday. Meanwhile, Nolan quietly owns the big screens.",
-   "anchor": "p12",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Sleep",
-   "headline": "Your Child Sleeps an Hour Less Than You Think",
-   "dek": "Ask a parent whether their primary-schooler gets enough sleep and most say yes. Strap a movement sensor to the same child's wrist and the yes collapses. In one study, 83 per cent of children \"met\" the sleep guideline by parental estimate — and under 15 per cent actually did. General guidance, not medical advice.",
+   "kicker": "The Family Desk · Movement",
+   "headline": "The Lever Isn’t the Screen. It’s the Legs.",
+   "dek": "Amid a year of headlines about what to take away from children, a large UK cohort study points at something to add. Movement measured on the wrist at age seven predicted fewer emotional and peer problems at eleven and fourteen — an argument for the pitch and the playground, not just the parental-controls menu. General guidance, not medical advice.",
    "anchor": "p13",
    "featured": false
   },
@@ -137,8 +137,8 @@
    "sub": "The Far Edges",
    "category": "Science",
    "kicker": "Curiosities · Astronomy",
-   "headline": "A Planet Found by Tasting Its Air",
-   "dek": "Some worlds are too faint to photograph. Astronomers found a new one anyway — a gas giant orbiting Beta Pictoris, 100 times dimmer than its known sibling — not by seeing it, but by reading the carbon monoxide, water and methane in its atmosphere. Two teams caught the same ghost, independently.",
+   "headline": "A Rocky World, 48 Light-Years Off, Is Leaking Helium",
+   "dek": "Astronomers have confirmed the first atmosphere on a rocky planet in a star’s habitable zone — not by seeing air, but by catching helium escaping the top of it. The world is a super-Earth around a red dwarf, and the surprise is not that it might be alive. It is that a small rocky planet kept its air at all.",
    "anchor": "p16",
    "featured": false
   },
@@ -146,9 +146,9 @@
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · Compatibility",
-   "headline": "Opposites Don't Attract. Idealising Does.",
-   "dek": "A study across 74 countries and 41,606 people tested the old questions — do we want a partner like us, or better than us? The answer splits by trait. For kindness and looks, happiness peaks when you rate your partner above yourself. For politics and religion, only actual similarity will do.",
+   "kicker": "Love & Life · Friendship",
+   "headline": "The Quiet Collapse of the Close Friend",
+   "dek": "The dating recession has a companion statistic, and it is starker. The share of American men with no close friends rose fivefold in a generation — from 3 per cent to 15 — as the informal machinery that used to manufacture friendship quietly shut down. For a reader in his mid-40s, it is the relationship trend that matters most and gets discussed least.",
    "anchor": "p17",
    "featured": false
   },
@@ -156,9 +156,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Longevity",
-   "headline": "Ninety Minutes of Lifting. No Bonus for More.",
-   "dek": "A pooled analysis of 147,374 adults, tracked up to thirty years, found the longevity return on strength training concentrated in a narrow band: 90 to 119 minutes a week bought most of the benefit, and past about two hours there was none. For a mid-40s reader, that is permission, not pressure. Not medical advice.",
+   "kicker": "Fitness · Cardio",
+   "headline": "Much Ado About Zone 2",
+   "dek": "The most fashionable idea in midlife fitness — that slow, below-threshold cardio is uniquely magic for the mitochondria — is getting a careful walking-back. Match the total work and harder intervals do as much or more, and for anyone training under six hours a week, intensity is simply the better use of the time. Not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -167,8 +167,8 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary · Singapore",
-   "headline": "A Sprint Comes to Marina Bay",
-   "dek": "The Grand Prix year just got a full Saturday race and a bigger bill — and around it, the autumn concert calendar hardens into a set of real decisions about which nights to hold.",
+   "headline": "The Autumn Calendar Firms Up",
+   "dek": "The concert diary hardens into real decisions — The Weeknd’s tickets are already out, the Grand Prix adds a Sprint and a stadium-grade bill — while the seats worth setting an alarm for open next week.",
    "anchor": "p19",
    "featured": false
   },
@@ -176,9 +176,9 @@
    "desk": "The Long Read",
    "sub": "The Long View",
    "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent",
-   "headline": "Mechanical Healing",
-   "dek": "In eighteen months, a craft of ironing plastic beads into pixel-art went from a niche hobby to a national craze in China to a price war that is shuttering shops this month. The West has not written it up yet. By the time it does, the boom will be a bust — and that speed is the actual story.",
+   "kicker": "The Long Read · An Essay",
+   "headline": "The Battle Fought After the Peace",
+   "dek": "On 8 January 1815, British and American armies met at New Orleans and left two thousand casualties on the field. The war they were fighting had already ended — a peace signed in Ghent two weeks earlier, still crossing the Atlantic by sail. For most of history the deadly gap sat between an event and the news of it. We spent two centuries closing that gap. Then we did something stranger.",
    "anchor": "p21",
    "featured": false
   }

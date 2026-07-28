@@ -1,6 +1,34 @@
 {
-  "count": 329,
+  "count": 333,
   "subjects": [
+    {
+      "subject": "Breitling Top Time B01 \"Aston Martin DB5\" trio",
+      "type": "Product (watch)",
+      "last_covered": "No. 56",
+      "last_peg": "Good Life LEAD — Bond DB5 crossover; steel US$11,400/1,022 pcs, steel-platinum $18,600/315, 18k red-gold onyx $41,500/250; in-house Caliber 01, COSC, 70h reserve; dashboard-gauge subdials, DB5-steering-wheel wooden ring",
+      "next_peg": "Next peg = retail availability / secondary-market read; not investment advice."
+    },
+    {
+      "subject": "Milli — Sky Dining, Bar & Lounge (SG)",
+      "type": "Opening (dining)",
+      "last_covered": "No. 56",
+      "last_peg": "The Table — rooftop atop National Gallery Singapore; Chef LG Han (1-Michelin Labyrinth) + cocktails by Vijay Mudaliar (Native); Time Out 4/5, opened 31 May, mains from $24",
+      "next_peg": "Next peg = a settled critical consensus, a menu change, or a notable award"
+    },
+    {
+      "subject": "Open Home Foundation Device Database",
+      "type": "Product (smart-home tool)",
+      "last_covered": "No. 56",
+      "last_peg": "Connected Home LEAD — public preview 23 Jul; anonymised real-world data across 2,000+ devices / 160+ integrations; searchable by internet-required/integration/protocol",
+      "next_peg": "Next peg = a coverage milestone (device count), GA, or a notable integration"
+    },
+    {
+      "subject": "AMD Ryzen AI Max+ 395 \"Strix Halo\" (local-LLM mini-PC)",
+      "type": "Product (hardware)",
+      "last_covered": "No. 56",
+      "last_peg": "Home Lab LEAD — 128GB unified LPDDR5X in a $1,499–1,999 box; 96–100GB allocatable to GPU on Linux; ~100 tok/s Qwen3-30B, runs 120B-class; bandwidth (not capacity) is the caveat",
+      "next_peg": "Next peg = a price move, a successor, or independent throughput benchmarks"
+    },
     {
       "subject": "TSMC AI-capex earnings cycle (Q2 2026 record)",
       "type": "Earnings / market",
@@ -11,15 +39,15 @@
     {
       "subject": "Kimi K3 (Moonshot open-weights)",
       "type": "AI release",
-      "last_covered": "No. 55",
-      "last_peg": "Technology LEAD — SHIPPED ~08:00 SGT 27 Jul (moonshotai/Kimi-K3; 2.8T-A50B, ~594GB MXFP4); independent AA Intelligence Index ~57, top-3/4, \"Opus-4.8-class\" at Sonnet-5 pricing, but hallucination 39%→51% and \"unloadable by design\"",
-      "next_peg": "Played out at launch — next peg only on a K3.x update, a reproduced AA score, or a runnable distilled variant"
+      "last_covered": "No. 56",
+      "last_peg": "Technology LEAD — \"open with strings\" delta: full weights ~1.56TB/96 shards under a custom \"Kimi K3 Licence\" (not MIT; MaaS >$20M/yr sign separate, >100M MAU must display \"Kimi K3\"); ~51% hallucination omitted from Moonshot's own charts; AA Index ~57 / #1 Arena frontend-code",
+      "next_peg": "Played out — next peg on a reproduced AA score, a K3.x update, or a runnable distilled variant"
     },
     {
       "subject": "Samsung Galaxy Glasses (AI eyewear)",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 55",
-      "last_peg": "The Kit secondary — named at Unpacked London 22 Jul (Android XR + Gemini, audio-only 2026, Warby Parker/Gentle Monster); still no official price ($379–499 reported)",
+      "last_covered": "No. 56",
+      "last_peg": "The Kit secondary — 28 Jul price-tease: \"premium,\" sold via Gentle Monster/Warby Parker, STILL no official number ($379–499 leaked, display-free Gen 1, fall 2026)",
       "next_peg": "Next peg = an OFFICIAL price or a ship date — not another tease"
     },
     {
@@ -46,16 +74,16 @@
     {
       "subject": "Spider-Man: Brand New Day (film)",
       "type": "Release (film)",
-      "last_covered": "No. 55",
-      "last_peg": "Screen & Sound LEAD — verdict PENDING: written-review embargo lifts 9pm SGT 28 Jul (Tomatometer 0 at publish; social first-reactions ecstatic; ~91–92% held as a wager); SG opens 30 Jul, US 31 Jul",
-      "next_peg": "Next peg = the actual RT score + opening-weekend gross (grade on the Sat Scoreboard)"
+      "last_covered": "No. 56",
+      "last_peg": "Screen & Sound LEAD — reviews LANDED: RT 91% Certified Fresh (77 reviews), Metacritic low-70s, best MCU since Shang-Chi but lowest of Holland's four solos; SG opens 30 Jul; tracking biggest 2026 debut (~$190m Sony–$280m; ~$800m global); no IMAX (Odyssey holds them)",
+      "next_peg": "Next peg = actual opening-weekend gross (grade on the Sat Scoreboard); a legs/hold read"
     },
     {
       "subject": "Sony FX5 (Cinema Line camera)",
       "type": "Product (camera)",
-      "last_covered": "No. 55",
-      "last_peg": "The Kit LEAD — ship delta: launched 22 Jul, ships mid-Aug; body US$4,899.99 / XLR kit $5,499.99; 5K Open Gate + 16-bit internal X-OCN RAW (FX-line first)",
-      "next_peg": "Next peg = first shipping-unit reviews / real-world RAW workflow verdicts (Sep)"
+      "last_covered": "No. 56",
+      "last_peg": "The Kit LEAD — launch figures settled: body US$4,898 / XLR kit $5,498, ships mid-Aug; 5K Open Gate + 16-bit internal X-OCN RAW (first Cinema Line under BURANO); 15+ stops (reconciled from No.55's $4,899.99/\"16 stops\")",
+      "next_peg": "Next peg = first shipping-unit reviews / real-world RAW verdicts (Sep)"
     },
     {
       "subject": "Grand Seiko SBGH376 \"Sakura-Wakaba\"",
