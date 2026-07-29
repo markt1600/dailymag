@@ -387,22 +387,55 @@ for entry in images.get("heroes", []):
     elif _slug and _slug in _recent_slugs:
         print(f"  (advisory: hero '{_slug}' was used within the last 3 issues — recycled imagery)")
     inject(entry)
-# standing fallbacks: guarantee photos even when the session assigned none
+# standing fallbacks: guarantee photos even when the session assigned none —
+# but a standing asset may NOT run two issues in a row (reader-reported
+# fatigue: the same Marina Bay every morning). A skipped fallback lowers the
+# hero count toward the floor, which is the point: source something fresh.
+_prev_html = ''
+try:
+    _prevno = int(str(ISSUE)) - 1
+    _pf = _os.path.join('archive', f'no-{_prevno}', 'index.html')
+    if _os.path.exists(_pf):
+        _prev_html = open(_pf, errors='ignore').read()
+except (ValueError, OSError):
+    pass
 for entry in images.get("standing", []):
+    _slug = entry.get("asset", "")
+    if _slug and _prev_html and (ASSET_BASE + _slug + '.jpg') in _prev_html:
+        print(f"  (standing image '{_slug}' ran in No. {_prevno} — SKIPPED for fatigue; source a fresh image for this desk)")
+        continue
     inject(entry)
-# genuine-product rule (editor's standing directive): product desks should
-# carry the actual product's image, not a representative stand-in.
-_PRODUCT_DESKS = ('The Kit', 'The Good Life', 'The Connected Home')
+# THE GENUINE-PRODUCT RULE — now a HARD GATE for the two pure-product desks.
+# The Kit and The Good Life write about named products; their heroes must be
+# the actual product (specific:true, press/official image). The one escape:
+# the hero entry carries a "no_image" attestation describing the FAILED hunt
+# ("searched Breitling newsroom, official page, launch coverage — none
+# usable"), which prints into the log as a deliberate, visible exception.
+_PRODUCT_HARD = ('The Kit', 'The Good Life')
+_violations = []
 for entry in images.get("heroes", []):
     if entry.get("issue") and str(entry["issue"]) != str(ISSUE):
         continue
-    for _pd in _PRODUCT_DESKS:
+    for _pd in _PRODUCT_HARD:
         if _pd in entry.get("anchor", "") and not entry.get("specific"):
-            print(f"  (advisory: {_pd} hero is REPRESENTATIVE — the genuine-product rule wants the actual product's press image when obtainable)")
+            if entry.get("no_image"):
+                print(f"  ({_pd}: representative image ATTESTED — {entry['no_image'][:100]})")
+            else:
+                _violations.append(_pd)
 for entry in images.get("standing", []):
-    for _pd in _PRODUCT_DESKS:
+    for _pd in _PRODUCT_HARD:
         if _pd in entry.get("anchor", "") and entry["anchor"] in used_anchors:
-            print(f"  (advisory: {_pd} fell back to the STANDING image — genuine product imagery preferred by rule)")
+            _violations.append(_pd + " (standing fallback)")
+for entry in images.get("heroes", []):
+    if str(entry.get("issue")) == str(ISSUE) and 'The Connected Home' in entry.get("anchor","") and not entry.get("specific"):
+        print("  (advisory: Connected Home hero is representative — genuine product image preferred)")
+if _violations:
+    print("FAIL: the genuine-product rule — these desks shipped generic imagery with no attestation:")
+    for _v in _violations:
+        print("      -", _v)
+    print("      Source the actual product's press image (maker newsroom -> official page -> credited")
+    print("      launch coverage -> agency), or add a 'no_image' attestation to the hero entry.")
+    raise SystemExit(1)
 if fresh < 2:
     print(f"FAIL: only {fresh} FRESH story-specific hero image(s) this issue (min 2; aim for one per desk lead).")
     print("      Add press/product/agency images via assets/heroes/manifest.json (fetch-heroes Action),")
