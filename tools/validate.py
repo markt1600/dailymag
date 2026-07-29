@@ -223,6 +223,11 @@ if len(pages) >= 2:
         errors.append("contents page: 'From the Desk' sits OUTSIDE the two-column grid (full-width below the list) — it belongs INSIDE the grid, in its own column, per the fixed p2 design")
     if _t == -1:
         errors.append("contents page: no market strip (.tbl table or .lede-strip) found — The Strip is standing p2 furniture")
+    if 'class="cols2' not in _p2:
+        errors.append("contents page: the desks list is not in .cols2 — one-entry-per-row full-width lists are the reported drift; the list runs as two columns of .mini entries inside the grid (No. 38 is the reference)")
+    if _p2.count('class="mini') < 12:
+        _nmini = _p2.count('class="mini')
+        errors.append(f"contents page: only {_nmini} .mini desk entries — the contents list covers all desks (floor 12)")
 
 # Diary furniture discipline: .agenda-h is a SECTION header (a geography or
 # strip name + .sub note), never a spreadsheet column header; events run as
@@ -232,6 +237,8 @@ if re.search(r'agenda-h[^>]*"><span>\s*Date\s*</span>', html, re.I):
 _diary = _desk_pages.get('The Diary', [])
 if _diary:
     _dblob = ''.join(_diary)
+    if _dblob.count('<p class="body') < 2:
+        errors.append("The Diary: no prose paragraphs — 'The Table' is written as PROSE reviews (p.body with buzz chatter + tags), never as .evt rows; .evt rows are for the dated events agenda only")
     _nevt = _dblob.count('class="evt"')
     if _nevt < 6:
         errors.append(f"The Diary: only {_nevt} .evt rows (floor 6) — the dated agenda uses the standing .evt/.evt-date/.evt-meta furniture")
