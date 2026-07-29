@@ -357,20 +357,26 @@ def hero(entry):
     return (f'  <div class="ph-frame"><img src="{url}" alt="{alt}" loading="lazy">'
             f'<div class="ph-cred">{cred}</div></div>\n')
 
-count, used_anchors = 0, set()
+count, used_anchors, used_assets = 0, set(), set()
 def inject(entry):
     global html, count
     anchor = entry["anchor"]
+    _slug = entry.get("asset")
     idx = html.find(anchor)
     if idx == -1:
         print("  (skip hero, anchor not found:", anchor, ")")
         return
     if anchor in used_anchors:
         return
+    if _slug and _slug in used_assets:
+        print(f"  (skip hero '{_slug}' for {anchor[:40]} — same image already ran this issue; one asset, one appearance)")
+        return
     rule = html.find('<div class="rule"></div>', idx)
     end = rule + len('<div class="rule"></div>')
     html = html[:end] + '\n' + hero(entry) + html[end:]
-    used_anchors.add(anchor); count += 1
+    used_anchors.add(anchor)
+    if _slug: used_assets.add(_slug)
+    count += 1
 
 _standing_slugs = {e.get("asset") for e in images.get("standing", [])}
 _recent_slugs = {e.get("asset") for e in images.get("heroes", [])
