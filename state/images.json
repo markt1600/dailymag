@@ -44,6 +44,36 @@
    "subject": "Book of the Dead of Hunefer — weighing of the heart (British Museum)",
    "license": "Public domain",
    "author": "British Museum"
+  },
+  {
+   "file": "Bank of Japan headquarters in Tokyo, Japan.jpg",
+   "subject": "Bank of Japan head office, Tokyo",
+   "license": "CC BY-SA 3.0",
+   "author": ""
+  },
+  {
+   "file": "Black hole - Messier 87 crop max res.jpg",
+   "subject": "M87 supermassive black hole (Event Horizon Telescope)",
+   "license": "CC BY 4.0",
+   "author": "EHT Collaboration"
+  },
+  {
+   "file": "HMS Queen Elizabeth (1913) RMG N16769.jpg",
+   "subject": "HMS Queen Elizabeth (1913), first oil-fired super-dreadnought",
+   "license": "Public domain",
+   "author": "Royal Museums Greenwich"
+  },
+  {
+   "file": "LNG tanker Christophe de Margerie.jpg",
+   "subject": "an LNG carrier at sea (representative)",
+   "license": "CC BY-SA",
+   "author": ""
+  },
+  {
+   "file": "The Earth seen from Apollo 17.jpg",
+   "subject": "the whole Earth (Blue Marble, Apollo 17)",
+   "license": "Public domain",
+   "author": "NASA"
   }
  ],
  "heroes": [
@@ -462,6 +492,63 @@
    "author": "Wikimedia contributor",
    "specific": true,
    "caption": "Fans at a Jiangsu Football City League (苏超) match, Huai'an, June 2025 — the amateur league the essay is about."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+   "asset": "strait-hormuz",
+   "source": "Wikimedia Commons — \"File:Strait of Hormuz (MODIS 2020-12-04).jpg\"",
+   "specific": false,
+   "caption": "The Strait of Hormuz from orbit — the chokepoint a widening Gulf war put under fire this week (p3), and the shipping lane whose disruption lifts the gas price. Representative."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+   "asset": "cirqa",
+   "source": "Garmin newsroom press image (\"Meet CIRQA\")",
+   "specific": true,
+   "caption": "The Garmin CIRQA — the screen-free health band whose older Gen-4 sensor drew this week's reviews (p9). Specific subject."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+   "asset": "boj-building",
+   "source": "Wikimedia Commons — \"File:Bank of Japan headquarters in Tokyo, Japan.jpg\"",
+   "specific": true,
+   "caption": "The Bank of Japan headquarters, Tokyo — the central bank that held its rate at 1.00% this week as the yen sat near a 40-year low (p15). Specific subject."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+   "asset": "black-hole",
+   "source": "Wikimedia Commons — \"File:Black hole - Messier 87 crop max res.jpg\" (Event Horizon Telescope)",
+   "specific": false,
+   "caption": "The M87 supermassive black hole imaged by the Event Horizon Telescope — representative of the quasar whose 300,000-light-year wind XRISM measured (p16), not that object itself. Representative."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · Fitness</span><span>The Long Game",
+   "asset": "gym-squat",
+   "source": "Wikimedia Commons — \"File:Woman doing squat workout in gym with barbell.jpg\"",
+   "specific": false,
+   "caption": "Barbell strength work — representative of the resistance-exercise the week's muscle-repair proteomics study examined (p18). Representative. General guidance, not medical advice."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · The Long Read</span><span>The Long View",
+   "asset": "hms-qe",
+   "source": "Wikimedia Commons — \"File:HMS Queen Elizabeth (1913) RMG N16769.jpg\" (Royal Museums Greenwich)",
+   "specific": false,
+   "caption": "HMS Queen Elizabeth, name-ship of the first class of oil-fired super-dreadnoughts (1913) — the vessels at the heart of Churchill's coal-to-oil bargain (p21). Representative, period photograph."
+  },
+  {
+   "issue": "58",
+   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+   "asset": "world-map",
+   "source": "Wikimedia Commons — \"File:The Earth seen from Apollo 17.jpg\" (NASA, PD)",
+   "specific": false,
+   "caption": "The whole earth from space — representative of the hand-painted world-map dial of the IFL x Perrelet Weekend GMT Atlas (p11), not the watch itself.",
+   "no_image": "Searched the IFL Watches product page, Fratello, Deployant and Review Central ME for the Weekend GMT Atlas (ref A1304/S1, a 50-piece hand-painted collaboration). Its photography lives only inside those watch-media galleries and the IFL storefront; the model is not carried by Perrelet's own site or by any watch database (WatchCharts, Chrono24, Monochrome, aBlogtoWatch). A WebSearch hunt surfaced no directly-fetchable image URL of the specific product for the hero pipeline, so a representative image of the whole earth runs in its place, honestly labelled, matching the watch's hand-painted world-map dial."
   }
  ],
  "standing": [
