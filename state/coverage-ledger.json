@@ -1,5 +1,5 @@
 {
-  "count": 336,
+  "count": 340,
   "subjects": [
     {
       "subject": "Breitling Top Time B01 \"Aston Martin DB5\" trio",
@@ -60,16 +60,16 @@
     {
       "subject": "Kimi K3 (Moonshot open-weights)",
       "type": "AI release",
-      "last_covered": "No. 57",
-      "last_peg": "Technology delta — weights on 9 providers day-0 at $3/$15 per M; bespoke non-MIT licence; home-lab verdict = unrunnable at home (~1.56TB/96 shards, needs 64+ accelerator supernodes) — rent, don't self-host",
-      "next_peg": "Played out — next peg on a K3.x update or a runnable distilled variant"
+      "last_covered": "No. 58",
+      "last_peg": "Technology LEAD — independent verdict in: Artificial Analysis #3–4 of 189 (~57, Opus-4.8-class) at ~$0.94/task, but hallucination rose 39%→51% on Omniscience (absent from Moonshot's charts) and a distillation cloud (an OSTP official alleged Claude distillation; unproven); home-lab = unrunnable (594GB MXFP4 / 1.56TB, no llama.cpp/Ollama, KDA on vLLM only)",
+      "next_peg": "Played out for now — next peg on a K3.x update, a runnable distilled variant, or the distillation claim resolving"
     },
     {
       "subject": "Samsung Galaxy Glasses (AI eyewear)",
       "type": "Product (smart glasses)",
-      "last_covered": "No. 56",
-      "last_peg": "The Kit secondary — 28 Jul price-tease: \"premium,\" sold via Gentle Monster/Warby Parker, STILL no official number ($379–499 leaked, display-free Gen 1, fall 2026)",
-      "next_peg": "Next peg = an OFFICIAL price or a ship date — not another tease"
+      "last_covered": "No. 58",
+      "last_peg": "The Kit shelf — announced at Unpacked 22 Jul: display-free, Snapdragon AR1, Gemini-first, Gentle Monster/Warby Parker frames, ~50g, up to 9h; ships this fall, price STILL unstated ($379–499 leaked)",
+      "next_peg": "Next peg = an OFFICIAL price or ship date — not another tease"
     },
     {
       "subject": "Thinking Machines Inkling (open-weights)",
@@ -95,9 +95,9 @@
     {
       "subject": "Spider-Man: Brand New Day (film)",
       "type": "Release (film)",
-      "last_covered": "No. 57",
-      "last_peg": "Screen & Sound LEAD — opened SG 30 Jul; verdict landed (RT ~91%/~126 reviews, MC low-70s, lowest of Holland's four solos); box office PENDING (Fandango's biggest pre-seller of 2026, beat The Odyssey; tracking ~$180–250m+ dom / ~$425m ww; CinemaScore unpublished)",
-      "next_peg": "Next peg = actual opening-weekend gross (grade on the Sat Scoreboard); legs/hold read"
+      "last_covered": "No. 58",
+      "last_peg": "Screen & Sound LEAD — opened wide (US) 31 Jul; RT 91% Certified Fresh across 151 reviews, MC ~70 (lowest of Holland's four); box office STILL PENDING (no actual gross/CinemaScore printed — Sony's ~$195m projection flagged; analysts $230–250m, worldwide ~$425–465m)",
+      "next_peg": "Next peg = actual opening-weekend gross (grade on a Sat Scoreboard); legs/hold"
     },
     {
       "subject": "Sony FX5 (Cinema Line camera)",
@@ -116,9 +116,9 @@
     {
       "subject": "Garmin CIRQA (screenless tracker)",
       "type": "Product (wearable)",
-      "last_covered": "No. 57",
-      "last_peg": "The Kit LEAD — now shipping/reviewed: US$199.99 from 24 Jul, screen-free, NO subscription (the Whoop-without-the-fee); ~10-day battery, HRV Status/Body Battery/skin temp; enthusiast read = no-sub Whoop rival, fewer sensors than a Venu",
-      "next_peg": "Next peg = independent accuracy reviews vs Whoop/Oura"
+      "last_covered": "No. 58",
+      "last_peg": "The Kit LEAD — first reviews + the Gen-4-sensor row: CIRQA uses the older Elevate Gen 4, not Gen 5 (the5krunner \"does not add up,\" Index Sleep Monitor runs Gen 5 at 7.8mm vs CIRQA's 9mm; DC Rainmaker calls the gap \"negligible\" for non-workout use). US$199.99, no subscription. Genuine Garmin press hero (specific)",
+      "next_peg": "Next peg = long-term accuracy vs Whoop/Oura, or a v2 sensor"
     },
     {
       "subject": "The Table (SG openings, No. 54)",
@@ -2352,6 +2352,34 @@
       "last_covered": "No. 55",
       "last_peg": "Curiosities LEAD — gas giant ~100× fainter than Beta Pic b, found by atmospheric CO/water/methane (not imaged); 2 teams, *ApJL* 15 Jul 2026",
       "next_peg": "Discrete — next peg only on a direct image or a follow-up characterisation"
+    },
+    {
+      "subject": "IFL Watches × Perrelet Weekend GMT Atlas (watch)",
+      "type": "Product (watch)",
+      "last_covered": "No. 58",
+      "last_peg": "Good Life LEAD — a 50-piece limited edition (ref A1304/S1) with an individually hand-painted compass-rose / world-map dial; 39mm steel, Perrelet calibre P-401 (Soprod-based), 42h, GMT+date; on sale 27 Jul, US$2,990; sold on paint + scarcity, soft resale; NOT investment advice. Hero: no fetchable static image URL of the specific watch — ran a representative Blue-Marble hero + a no_image attestation",
+      "next_peg": "Discrete/played out — next peg only on a review verdict or a follow-up collab"
+    },
+    {
+      "subject": "Insta360 X6 (360 camera)",
+      "type": "Product (camera)",
+      "last_covered": "No. 58",
+      "last_peg": "The Kit shelf — broke cover ~26–30 Jul via a retail-box/FCC leak: 8K/50fps, Replaceable Lenses 2.0, a compact Osmo-like body; NO official press release, price or ship date as of 31 Jul (leak imagery/specs only) — held as imminent-not-confirmed",
+      "next_peg": "Next peg = the official launch (PR + price + ship date)"
+    },
+    {
+      "subject": "Home Assistant 2026.8",
+      "type": "Software (smart home)",
+      "last_covered": "No. 58",
+      "last_peg": "Connected Home LEAD — beta changelog previewed ahead of the ~5 Aug release: new HA OS installs drop the \":8123\" port; network config moves into the UI with a 5-min auto-rollback failsafe; NeoPool (local Modbus TCP); Moon event entities; companion app drops iOS15/watchOS8/macOS11; ESPHome 2026.7 Zigbee SDK 2.0.2 (re-join)",
+      "next_peg": "Next peg = the 2026.8 stable release notes (5 Aug), or a real Matter 1.6 capability shipping"
+    },
+    {
+      "subject": "The Table (SG openings, No. 58)",
+      "type": "Standing (dining)",
+      "last_covered": "No. 58",
+      "last_peg": "Ginza Sushi Arai (Parkroyal Collection Marina Bay — Tokyo edomae, master Arai in residence Jul–Sep = the book-now window; S$398++); Jiin Omakase (Shaw Centre, Les Amis Group, ise-ebi/lobster pao fan, from S$138); Visitors Café (Seongsu-style Korean, Tanjong Pagar, family/pet-friendly, too-crowded); Yi Man Fen \"Sugar Rush\" (313@Somerset, viral CN dessert, opened 15 Jul, too-new)",
+      "next_peg": "Rotate venues next issue; re-peg on first settled reviews of Jiin/Sugar Rush"
     }
   ]
 }

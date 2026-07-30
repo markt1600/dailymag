@@ -1,30 +1,30 @@
 {
  "publication": "MERIDIAN",
- "issue": 57,
- "date": "30 July 2026",
- "generated": "2026-07-30T07:28:08+08:00",
+ "issue": 58,
+ "date": "31 July 2026",
+ "generated": "2026-07-31T06:52:57+08:00",
  "quote": {
-  "text": "Cities have the capability of providing something for everybody, only because, and only when, they are created by everybody.",
-  "author": "Jane Jacobs, The Death and Life of Great American Cities (1961)"
+  "text": "Safety and certainty in oil lie in variety, and variety alone.",
+  "author": "Winston Churchill, House of Commons, 17 July 1913"
  },
  "macro": {
   "title": "What It Means — VWRA, Global Bonds, Gold & BTC",
   "reads": [
    {
     "label": "VWRA (held)",
-    "text": "capped — the AI-capex tape is bifurcating and rising long yields press valuations."
+    "text": "the index masks a widening split — the cloud leaders (AWS, Azure) carry it while the laggards (Apple services, Meta) drag; the diversification is inside the tape, not just across it."
    },
    {
     "label": "Global bonds (held)",
-    "text": "duration is the sore spot, long-end yields at multi-year highs; USD-hedged AGGU is the friend against a bid dollar."
+    "text": "long yields stay high, so duration is still the sore spot; a softer dollar is a mild relief for a USD-hedged AGGU holder but the level, not the currency, is the point."
    },
    {
     "label": "Gold (read only)",
-    "text": "holding US$4k as a geopolitical hedge but pinned below its record by real yields and a strong dollar."
+    "text": "bid toward US$4,100 on the Gulf and an easing dollar, still well below its January peak."
    },
    {
     "label": "BTC (read only)",
-    "text": "trading as high-beta risk, not a haven. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
+    "text": "firm near US$64.5k but on thin ETF flows — high-beta risk, not a haven. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
    }
   ],
   "note": "",
@@ -37,19 +37,19 @@
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Gulf",
-   "headline": "Five Quiet Days, Then the Missiles",
-   "dek": "The Gulf pause the oil market had sold for five straight sessions ended in a ballistic-missile salvo at American forces in Jordan. Washington and Riyadh struck back inside Iraq, Trump promised “a beating,” and Brent leapt back above $90 in a single day. Oman’s twin-corridor draft is not unsigned now — it is rejected.",
+   "headline": "The Beating Lands, and the War Finds Egypt",
+   "dek": "Washington answered the missile salvo with a “heavy wave” on the Revolutionary Guard; Tehran vowed to punish the aggressor the same day; and for the first time the fighting reached Egypt, where a drone set a gas terminal alight. The barrel jumped eight per cent — then faded. The market is still betting the strait stays open.",
    "anchor": "p3",
    "featured": true
   },
   {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · Film",
-   "headline": "The Verdict Lands; the Ticket Is Yours to Tear",
-   "dek": "Spider-Man: Brand New Day opens in Singapore today with its critics' verdict already in — Certified Fresh at about ninety-one, but the lowest-rated of Tom Holland's four solo films. The box office, the one number not yet printed, lands over the weekend.",
-   "anchor": "p12",
+   "desk": "Singapore",
+   "sub": "The Little Red Dot",
+   "category": "Asia",
+   "kicker": "Singapore · Energy",
+   "headline": "The First Bill Under the New Name",
+   "dek": "A week after energy entered the trade ministry’s title, the number that makes the point lands on the reader’s own account: household electricity is up 17 per cent this quarter, to 31.91 cents a unit — and the reason runs straight back to the gas ships burning off Egypt (p3).",
+   "anchor": "p5",
    "featured": true
   },
   {
@@ -57,28 +57,18 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · The Portfolio Lens",
-   "headline": "The Verdicts Land, and Not as Priced",
-   "dek": "The interval closed overnight. The Fed held — a fifth straight — but with three dissenters who wanted a hike; Microsoft beat and Meta missed on the same night; and the barrel bought back its war premium (p3). The market had priced calm. It got the opposite.",
+   "headline": "The Dollar Was Supposed to Rise. It Fell.",
+   "dek": "The Bank of Japan held but leaned hawkish, Amazon’s cloud blew past every estimate, and gold pushed toward $4,100 on the Gulf. And yet the dollar, the one thing a rate-and-war story is meant to lift, slipped a full per cent. The clean signal this week is not the Fed — it is the AI cloud pulling the tape apart.",
    "anchor": "p15",
    "featured": true
-  },
-  {
-   "desk": "Singapore",
-   "sub": "The Little Red Dot",
-   "category": "Asia",
-   "kicker": "Singapore · Government",
-   "headline": "A New Cabinet Sits, and Trade Gets an Energy Portfolio",
-   "dek": "Lawrence Wong's reshuffle took effect on 27 July, so this is the first news week under the new line-up — and its quiet signal is a name change. From October the Ministry of Trade and Industry becomes the Ministry of Energy, Trade and Industry.",
-   "anchor": "p5",
-   "featured": false
   },
   {
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Cooling Measures",
-   "headline": "The First Brake Comes Off",
-   "dek": "Since 28 July a private-property owner can buy a non-subsidised HDB resale flat the day the deal is done — the fifteen-month wait-out is gone. It is the first cooling lever loosened since the market turned.",
+   "kicker": "Property · The Resale Market",
+   "headline": "Two Speeds in One Quarter",
+   "dek": "The HDB resale index fell for a second straight quarter — and in the same three months a record 491 flats changed hands above a million dollars. A cooling average and a heating ceiling are the same market now — which is why last week’s wait-out removal looks less like a gamble.",
    "anchor": "p6",
    "featured": false
   },
@@ -87,8 +77,8 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · Silicon & Sovereignty",
-   "headline": "Nvidia's China Share Falls to a Number: Zero",
-   "dek": "Jensen Huang told a Citadel audience the company has gone \"from ninety-five per cent to zero\" in China, and that US export policy \"has already largely backfired.\" The licences came back this summer; the buyers did not.",
+   "headline": "It Answers More — and Invents More",
+   "dek": "Kimi K3’s independent scores are in: third or fourth of 189 models, Opus-4.8-class, at a third of the price. The same testing found the catch — a hallucination rate that climbed to 51 per cent. The best open model in the world is also, by this measure, the most confidently wrong.",
    "anchor": "p7",
    "featured": false
   },
@@ -97,8 +87,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit · Wearables",
-   "headline": "Garmin Answers Whoop Without the Subscription",
-   "dek": "The CIRQA is Garmin’s screen-free band — Body Battery, Sleep Score, HRV Status, skin temperature, a ten-day battery — and its pitch is the one number Whoop cannot match: two hundred dollars, once, and no monthly fee.",
+   "headline": "The Cheaper Sensor, and Whether You Can Train on It",
+   "dek": "Garmin’s CIRQA — the $200 screen-free band that undercuts Whoop’s subscription — drew its first reviews this week, and they landed on one question: it carries an older heart-rate sensor than Garmin’s own newer watches. For a reader who trains on the number, that is the whole review.",
    "anchor": "p9",
    "featured": false
   },
@@ -107,8 +97,8 @@
    "sub": "Walls That Listen",
    "category": "Smart Home",
    "kicker": "The Connected Home · Home Assistant",
-   "headline": "Home Assistant Aims for the Non-Tinkerer",
-   "dek": "The 2026.8 beta’s stated goal is a Home Assistant “you don’t need to be technical to use.” The migrator’s fine print is quieter: from this release the companion app drops iOS 15, watchOS 8 and macOS 11.",
+   "headline": "The Release That Kills the Port Number",
+   "dek": "The 2026.8 beta’s changelog is now readable ahead of next week’s release, and its most telling line is small: new installs drop the “:8123” from the address bar, and network settings move out of YAML into the interface — with a five-minute failsafe so you cannot lock yourself out. The “non-technical” Home Assistant, in concrete form.",
    "anchor": "p10",
    "featured": false
   },
@@ -117,9 +107,19 @@
    "sub": "Objects & Escapes",
    "category": "Design",
    "kicker": "The Good Life · Watches",
-   "headline": "The Anti-Bigness Watch",
-   "dek": "Nomos has made two new versions of its smallest watch — a hand-wound Bauhaus square just 27.5mm on a side — in a market that has spent a decade getting larger. A quiet act of counter-programming for the wrist, at a shade over two thousand dollars.",
+   "headline": "A Watch You Wear to Read the World",
+   "dek": "A Dubai atelier has taken Perrelet’s travel GMT and hand-painted its dial into a compass rose ringed by the four corners of the globe — no two alike, fifty made, US$2,990. A lovely, honest object, sold on paint and scarcity rather than horology. Read it as education, not endorsement.",
    "anchor": "p11",
+   "featured": false
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound · Film",
+   "headline": "Every Number Is In but the One That Counts",
+   "dek": "Spider-Man: Brand New Day goes wide in America today, its verdict now firmed — Certified Fresh at ninety-one across a hundred and fifty-one reviews, and still the lowest of Tom Holland’s four solos. The one figure the weekend has not yet printed is the money, and everyone is guessing at it.",
+   "anchor": "p12",
    "featured": false
   },
   {
@@ -127,8 +127,8 @@
    "sub": "Raising Them Well",
    "category": "Family",
    "kicker": "The Family Desk · Screens & Policy",
-   "headline": "France Draws the Line at Fifteen",
-   "dek": "France has become the first EU country to ban under-15s from social media — no new TikTok, Snapchat or Instagram accounts from September, existing ones deactivated by year’s end. For a parent of an eleven-year-old the cutoff is two years off, and the evidence behind it is shakier than the vote suggests.",
+   "headline": "A Line Drawn, and the Fight Over Enforcing It",
+   "dek": "France’s under-15 social-media ban is law — but lawmakers stripped out its enforcement mechanism, and the real fight has moved to Australia, where Elon Musk’s X is challenging the crackdown. Meanwhile a large new study says the harm the bans assume is still not proven.",
    "anchor": "p13",
    "featured": false
   },
@@ -136,9 +136,9 @@
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Palaeontology",
-   "headline": "The Dinosaur They Spotted From a Boat",
-   "dek": "A new 210-million-year-old dinosaur was found jutting from the rock above a Zimbabwean lake — noticed during a boat survey, then dug out. It shared its world with a larger cousin, and it makes the Late Triassic of southern Africa look more crowded than anyone expected.",
+   "kicker": "Curiosities · Astrophysics",
+   "headline": "A Wind Three Hundred Thousand Light-Years Wide",
+   "dek": "Japan’s XRISM X-ray satellite measured the wind off a distant quasar’s black hole and found it carrying a hundred times the energy anyone had estimated — enough to stir gas across three hundred thousand light-years, far beyond the galaxy that hosts it.",
    "anchor": "p16",
    "featured": false
   },
@@ -147,8 +147,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life · The Examined Life",
-   "headline": "It’s the Feeling, Not the Headcount",
-   "dek": "A new study that uses genetics as a natural experiment finds loneliness itself drives poorer health — and does so more strongly than objective social isolation. The felt state, not the friend count, is what the body seems to register.",
+   "headline": "The Deal-Breaker Is a Way of Life, Not a Ballot",
+   "dek": "A new experiment finds young Americans reject a date across party lines far more than they reward one within them — and the reason isn’t “bad character.” It’s the lifestyle, the values it implies, and the fear of what family and friends will say.",
    "anchor": "p17",
    "featured": false
   },
@@ -157,8 +157,8 @@
    "sub": "The Long Game",
    "category": "Health",
    "kicker": "Fitness · The Long Game",
-   "headline": "The Metric on Your Wrist, Aged Gracefully",
-   "dek": "A global cohort of hundred-marathon runners had their VO2max pulled from their own wearables — and sat above the population’s 95th percentile at every age band. The age-related decline in the number these devices surface can, apparently, be nearly flattened. Read it carefully.",
+   "headline": "Now We Can See the Repair Crew at Work",
+   "dek": "A new proteomics study took muscle biopsies before and after a hard lifting session and watched what happens next: the heavy load damages the contractile proteins, and a repair network tags the damage for clearance while building fresh protein to replace it. It is the machinery behind “use it or lose it,” finally photographed.",
    "anchor": "p18",
    "featured": false
   },
@@ -167,8 +167,8 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary · Singapore",
-   "headline": "The Autumn Calendar, Corrected and Confirmed",
-   "dek": "A correction first: BTS's four Singapore nights are real and sold out — this desk got that wrong last week. Then the season firms up, and the seats worth an alarm open next week.",
+   "headline": "The Week the Alarms Go Off",
+   "dek": "Two of the autumn’s biggest on-sales land in the same August week — sumo tickets on the 8th, BIGBANG’s presale on the 11th — and MAMAMOO plays tonight. Set the alarms; the good seats do not wait.",
    "anchor": "p19",
    "featured": false
   },
@@ -176,9 +176,9 @@
    "desk": "The Long Read",
    "sub": "The Long View",
    "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent",
-   "headline": "The League That Beat the Galácticos",
-   "dek": "In Jiangsu, thirteen cities field teams of delivery drivers and schoolteachers, a ticket costs 9.9 yuan, and the stands hold sixty thousand. It has become the most effective consumption stimulus in China this year — and it is the exact opposite of everything Beijing spent a decade and a fortune trying to build.",
+   "kicker": "The Long Read · Energy & Empire",
+   "headline": "The Admiral’s Bargain",
+   "dek": "In 1911 Winston Churchill chose to run the Royal Navy on oil it did not have instead of the coal it did — trading British security for foreign speed, and buying an oil company to cover the risk. Every leap in power since has struck the same bargain. This week’s version runs on electricity, and the reader is paying its first instalment.",
    "anchor": "p21",
    "featured": false
   }
