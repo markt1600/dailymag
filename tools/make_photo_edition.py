@@ -371,8 +371,23 @@ def inject(entry):
     if _slug and _slug in used_assets:
         print(f"  (skip hero '{_slug}' for {anchor[:40]} — same image already ran this issue; one asset, one appearance)")
         return
+    # Insert after the .rule divider that follows the anchor. Some pages (e.g.
+    # a Long Read opener) have no rule — fall back to just after the anchor's
+    # enclosing element (the running-header close). NEVER trust a raw find()
+    # result: -1 + len(needle) silently splices the hero into byte ~23 of the
+    # document, splitting the <html> tag (the No. 57 giant-image-at-top bug).
     rule = html.find('<div class="rule"></div>', idx)
-    end = rule + len('<div class="rule"></div>')
+    if rule != -1:
+        end = rule + len('<div class="rule"></div>')
+    else:
+        close = html.find('</div>', idx)
+        if close == -1:
+            print(f"  (skip hero '{_slug}' — no insertion point after anchor)")
+            return
+        end = close + len('</div>')
+    if end <= html.find('<body'):
+        print(f"  (skip hero '{_slug}' — computed insertion point precedes <body>; refusing to corrupt the document)")
+        return
     html = html[:end] + '\n' + hero(entry) + html[end:]
     used_anchors.add(anchor)
     if _slug: used_assets.add(_slug)
@@ -424,14 +439,38 @@ for entry in images.get("heroes", []):
         continue
     for _pd in _PRODUCT_HARD:
         if _pd in entry.get("anchor", "") and not entry.get("specific"):
-            if entry.get("no_image"):
-                print(f"  ({_pd}: representative image ATTESTED — {entry['no_image'][:100]})")
+            _att = str(entry.get("no_image") or "")
+            # An attestation is only valid if it documents a WEBSEARCH hunt that
+            # came up empty. Sandbox reachability is irrelevant (the sandbox can
+            # reach no image host by design; the fetch-heroes Action does the
+            # download with full internet) — an attestation blaming the sandbox
+            # is the No. 57 failure mode and does NOT satisfy the gate.
+            _bogus = [w for w in ('sandbox', '403', '429', 'blocked', 'unreachable',
+                                  'could not fetch', "couldn't fetch", 'fetch failed')
+                      if w in _att.lower()]
+            if _att and not _bogus:
+                print(f"  ({_pd}: representative image ATTESTED — {_att[:100]})")
+            elif _att:
+                _violations.append(f"{_pd} (attestation blames the sandbox: {', '.join(_bogus)} — "
+                                   "invalid; the hunt is WebSearch, the download is the fetch-heroes Action)")
             else:
                 _violations.append(_pd)
 for entry in images.get("standing", []):
     for _pd in _PRODUCT_HARD:
         if _pd in entry.get("anchor", "") and entry["anchor"] in used_anchors:
             _violations.append(_pd + " (standing fallback)")
+# OMISSION is not an escape either (the No. 57 dodge: no Kit/Good Life entry at
+# all, so the per-entry checks above never fired). If the desk's page is in the
+# book, it needs a current-issue hero entry — specific:true or a valid no_image
+# attestation. Original SVG artwork "kept" is not attested compliance.
+for _pd in _PRODUCT_HARD:
+    if f'Meridian · {_pd}<' in html or f'Meridian · {_pd}</span>' in html:
+        _has = any(str(e.get("issue")) == str(ISSUE) and _pd in e.get("anchor", "")
+                   for e in images.get("heroes", []))
+        if not _has:
+            _violations.append(f"{_pd} (NO hero entry at all — omission is not compliance; "
+                               "hunt via WebSearch, add {{slug,url}} to assets/heroes/manifest.json, "
+                               "push, let the fetch-heroes Action download it, or attest a genuinely empty hunt)")
 for entry in images.get("heroes", []):
     if str(entry.get("issue")) == str(ISSUE) and 'The Connected Home' in entry.get("anchor","") and not entry.get("specific"):
         print("  (advisory: Connected Home hero is representative — genuine product image preferred)")
@@ -617,6 +656,22 @@ JS = """
 </script>
 </body>"""
 html = html.replace('</body>', JS, 1)
+
+# ---- 8. structural integrity gate ----
+# The document must still be a well-formed page: intact doctype + <html> tag,
+# and no hero markup before <body>. (No. 57 shipped with a hero spliced into
+# the <html lang="en"> tag itself — a giant image above the page chrome.)
+if not html.lstrip().startswith('<!DOCTYPE html>'):
+    raise SystemExit("FAIL: output does not start with <!DOCTYPE html> — document corrupted")
+import re as _re_gate
+if not _re_gate.search(r'<html\s+lang="en">', html[:200]):
+    raise SystemExit('FAIL: <html lang="en"> tag missing or corrupted in the first 200 bytes')
+_bodyat = html.find('<body')
+if _bodyat == -1:
+    raise SystemExit("FAIL: no <body> tag in output")
+_first_hero = html.find('<div class="ph-frame">')
+if _first_hero != -1 and _first_hero < _bodyat:
+    raise SystemExit("FAIL: a photo hero was injected before <body> — anchor resolution corrupted the document")
 
 out.write_text(html)
 print(f"wrote {out}  ({len(html)} bytes)  · {NPAGES} pages · {len(navitems)} nav items · {count} photo heroes")

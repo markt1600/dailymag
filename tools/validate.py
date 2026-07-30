@@ -236,14 +236,41 @@ if re.search(r'agenda-h[^>]*"><span>\s*Date\s*</span>', html, re.I):
     errors.append("The Diary: .agenda-h repurposed as a Date/Event/Venue column header — it is a SECTION header (e.g. 'Singapore <span class=\"sub\">book now · plan ahead</span>'); events are .evt rows, not table rows")
 _diary = _desk_pages.get('The Diary', [])
 if _diary:
-    _dblob = ''.join(_diary)
-    if _dblob.count('<p class="body') < 2:
-        errors.append("The Diary: no prose paragraphs — 'The Table' is written as PROSE reviews (p.body with buzz chatter + tags), never as .evt rows; .evt rows are for the dated events agenda only")
-    _nevt = _dblob.count('class="evt"')
-    if _nevt < 6:
-        errors.append(f"The Diary: only {_nevt} .evt rows (floor 6) — the dated agenda uses the standing .evt/.evt-date/.evt-meta furniture")
-    if 'Singapore' not in _dblob.split('agenda-h')[0] and not any('Singapore' in _re_ah for _re_ah in re.findall(r'agenda-h[^>]*">([^<]*)', _dblob)):
-        warns.append("The Diary: no 'Singapore' agenda-h section found — the SG events section leads the Diary by design")
+    # THE DIARY FIXED LAYOUT (editor, 30 Jul 2026 — No. 38 / archive/no-38 is
+    # the mandatory reference, exactly like the contents page):
+    #   Diary page 1 — the events agenda: the Singapore section AND the
+    #     Japan/Region section TOGETHER on ONE page, side by side in a
+    #     two-column .grid of .evt rows. No 'The Table' content here.
+    #   Diary page 2 — The Table gets its OWN full page: prose reviews
+    #     (p.body + buzz chatter + tags), ZERO .evt rows, no geography headers.
+    if len(_diary) != 2:
+        errors.append(f"The Diary: {len(_diary)} Diary page(s) — the Diary is a fixed 2-page desk (agenda page + The Table page, No. 38 layout)")
+    # page blobs run to the next <section, so trailing inter-page comments
+    # (e.g. "P20 THE DIARY — The Table") would false-positive — cut at </section>
+    _d1 = _diary[0].split('</section>')[0]
+    _d2 = _diary[1].split('</section>')[0] if len(_diary) > 1 else ''
+    _d1_heads = re.findall(r'class="agenda-h[^"]*"[^>]*>([^<]*)', _d1)
+    if not any('Singapore' in _h for _h in _d1_heads):
+        errors.append("The Diary p1: no 'Singapore' agenda-h — the agenda page carries the Singapore section (left column, No. 38 layout)")
+    if not any('Japan' in _h for _h in _d1_heads):
+        errors.append("The Diary p1: no 'Japan' agenda-h — Singapore AND Japan & the Region sit TOGETHER on the first Diary page, side by side (No. 38 layout); Japan on its own page is the reported drift")
+    if 'class="grid' not in _d1:
+        errors.append("The Diary p1: agenda sections are not in a two-column .grid (g-12) — Singapore left, Japan & the Region right, per No. 38")
+    _n1 = _d1.count('class="evt"')
+    if _n1 < 10:
+        errors.append(f"The Diary p1: only {_n1} .evt rows (floor 10; No. 38 carries 11) — the agenda uses the standing .evt/.evt-date/.evt-meta furniture, both geographies on this page")
+    if 'The Table' in _d1:
+        errors.append("The Diary p1: 'The Table' appears on the agenda page — The Table gets its OWN separate page (Diary p2), never shares with the agenda (No. 38 layout)")
+    if _d2:
+        if 'The Table' not in _d2:
+            errors.append("The Diary p2: 'The Table' not found — the second Diary page IS The Table, full page (No. 38 layout)")
+        _p2body = _d2.count('<p class="body')
+        if _p2body < 3:
+            errors.append(f"The Diary p2 (The Table): only {_p2body} prose paragraphs (floor 3) — reviews are PROSE (p.body + buzz chatter + tags), never rows")
+        if 'class="evt"' in _d2:
+            errors.append("The Diary p2 (The Table): contains .evt rows — the Table page carries prose reviews only; all dated events belong on Diary p1")
+        if re.search(r'class="agenda-h[^"]*"[^>]*>[^<]*(Singapore|Japan)', _d2):
+            errors.append("The Diary p2 (The Table): carries a geography agenda-h — the Singapore/Japan agenda lives on Diary p1 only")
 
 # cross-reference page numbers must exist
 for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
