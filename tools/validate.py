@@ -261,6 +261,16 @@ if _diary:
         errors.append(f"The Diary p1: only {_n1} .evt rows (floor 10; No. 38 carries 11) — the agenda uses the standing .evt/.evt-date/.evt-meta furniture, both geographies on this page")
     if 'The Table' in _d1:
         errors.append("The Diary p1: 'The Table' appears on the agenda page — The Table gets its OWN separate page (Diary p2), never shares with the agenda (No. 38 layout)")
+    # date-box typography (No. 38 idiom): a single date is '25<span class="mo">SEP</span>'
+    # (big day, tiny month); a range/phrase uses class 'rng' (smaller face) with a <br>;
+    # a marquee pick is marked by the red .star BACKGROUND, never a '★' glyph in the box.
+    # No. 57 shipped '★ 17–22 Dec' as full-size text — oversized dates, the reported drift.
+    for _db_cls, _db_in in re.findall(r'<div class="(evt-date[^"]*)">(.*?)</div>', _d1, re.S):
+        _txt = re.sub(r'<[^>]+>', '', re.sub(r'<span class="mo">.*?</span>', '', _db_in)).strip()
+        if '★' in _db_in:
+            errors.append(f"The Diary p1: '★' glyph inside a date box ('{_txt}') — marquee picks are marked by the .star class (red box), not a star character (No. 38 idiom)")
+        if 'rng' not in _db_cls and len(_txt) > 4:
+            errors.append(f"The Diary p1: date box '{_txt}' is long text at full size — use '25<span class=\"mo\">SEP</span>' for single dates or class 'rng' (smaller face, <br> line break) for ranges (No. 38 idiom)")
     if _d2:
         if 'The Table' not in _d2:
             errors.append("The Diary p2: 'The Table' not found — the second Diary page IS The Table, full page (No. 38 layout)")
