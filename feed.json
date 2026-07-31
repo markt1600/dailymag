@@ -1,74 +1,77 @@
 {
  "publication": "MERIDIAN",
- "issue": 58,
- "date": "31 July 2026",
- "generated": "2026-07-31T06:52:57+08:00",
+ "issue": 59,
+ "date": "1 August 2026",
+ "generated": "2026-08-01T06:27:28+08:00",
  "quote": {
-  "text": "Safety and certainty in oil lie in variety, and variety alone.",
-  "author": "Winston Churchill, House of Commons, 17 July 1913"
+  "text": "All of humanity's problems stem from man's inability to sit quietly in a room alone.",
+  "author": "Blaise Pascal, Pensées, 1670"
  },
  "macro": {
-  "title": "What It Means — VWRA, Global Bonds, Gold & BTC",
-  "reads": [
-   {
-    "label": "VWRA (held)",
-    "text": "the index masks a widening split — the cloud leaders (AWS, Azure) carry it while the laggards (Apple services, Meta) drag; the diversification is inside the tape, not just across it."
-   },
-   {
-    "label": "Global bonds (held)",
-    "text": "long yields stay high, so duration is still the sore spot; a softer dollar is a mild relief for a USD-hedged AGGU holder but the level, not the currency, is the point."
-   },
-   {
-    "label": "Gold (read only)",
-    "text": "bid toward US$4,100 on the Gulf and an easing dollar, still well below its January peak."
-   },
-   {
-    "label": "BTC (read only)",
-    "text": "firm near US$64.5k but on thin ETF flows — high-beta risk, not a haven. The two he holds stay VWRA and global bonds; the two he only reads stay gold and BTC."
-   }
-  ],
+  "title": "What It Means — VWRA, Bonds, Gold & BTC",
+  "reads": [],
   "note": "",
   "regime": [],
   "anchor": "p15"
  },
  "stories": [
   {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · Watches",
+   "headline": "Twelve Gold Helmets, One Castle, Twenty-Eight Watches",
+   "dek": "Roger Dubuis has made the watch you wear to read a battlefield. On the dial of the Excalibur Kabuto Legacy, twelve hand-engraved 18-karat helmets — each a famed early-Edo commander — ring a miniature Edo Castle. It is 45mm of pink gold, limited to twenty-eight pieces, and priced, reportedly, at US$384,000. Wearable sculpture, aimed squarely at a reader who loves Japan.",
+   "anchor": "p11",
+   "featured": true
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound · Film",
+   "headline": "The Biggest Preview Night Ever — and the Lowest of the Five",
+   "dek": "Spider-Man: Brand New Day took US$72 million in Thursday previews, the largest in Hollywood history, and a US$167-million-plus opening Friday, another record. Audiences gave it a 98 per cent that ties the MCU's best. And the critics, uniquely among Tom Holland's five, ranked it last. Both things are true, and the gap between them is the whole picture.",
+   "anchor": "p12",
+   "featured": true
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "The Travel Desk · Departures",
+   "headline": "Japan Gets Dearer to Leave — and Changi Digs Its Future",
+   "dek": "The month's real developments for a Singapore flyer are small in dollars and large in signal: Japan's departure tax has tripled, the entry-fee creep continues across the region, SIA has settled its A380 map — and, under the ground at Changi, the tunnels to Terminal 5 are finished. Delta only; a route already covered gets a line, not a re-explainer.",
+   "anchor": "p19",
+   "featured": true
+  },
+  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Gulf",
-   "headline": "The Beating Lands, and the War Finds Egypt",
-   "dek": "Washington answered the missile salvo with a “heavy wave” on the Revolutionary Guard; Tehran vowed to punish the aggressor the same day; and for the first time the fighting reached Egypt, where a drone set a gas terminal alight. The barrel jumped eight per cent — then faded. The market is still betting the strait stays open.",
+   "headline": "A War That Has Run Out of Ceasefire",
+   "dek": "A five-night pause meant to give talks room ended the way the others did — with a \"heavy wave\" of American strikes and Iranian missiles answering. Then a drone crossed a line no one had crossed before, into Egypt, and set a gas terminal alight. Cairo can no longer pretend the war is someone else's.",
    "anchor": "p3",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Energy",
-   "headline": "The First Bill Under the New Name",
-   "dek": "A week after energy entered the trade ministry’s title, the number that makes the point lands on the reader’s own account: household electricity is up 17 per cent this quarter, to 31.91 cents a unit — and the reason runs straight back to the gas ships burning off Egypt (p3).",
+   "kicker": "Singapore · Energy & the Long Weekend",
+   "headline": "The Bill and the Government Take the Same Word",
+   "dek": "Last week's story was a rename and a tariff arriving together; this weekend it settles into what it means for a household. The 17 per cent power rise is now on the bill, the ministry becomes \"Energy, Trade and Industry\" in October — and the island goes into a long National Day weekend with the cost of keeping the lights on quietly reframed as a matter of state.",
    "anchor": "p5",
-   "featured": true
-  },
-  {
-   "desk": "The Macro Desk",
-   "sub": "The Big Picture",
-   "category": "Markets",
-   "kicker": "The Macro Desk · The Portfolio Lens",
-   "headline": "The Dollar Was Supposed to Rise. It Fell.",
-   "dek": "The Bank of Japan held but leaned hawkish, Amazon’s cloud blew past every estimate, and gold pushed toward $4,100 on the Gulf. And yet the dollar, the one thing a rate-and-war story is meant to lift, slipped a full per cent. The clean signal this week is not the Fed — it is the AI cloud pulling the tape apart.",
-   "anchor": "p15",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · The Resale Market",
-   "headline": "Two Speeds in One Quarter",
-   "dek": "The HDB resale index fell for a second straight quarter — and in the same three months a record 491 flats changed hands above a million dollars. A cooling average and a heating ceiling are the same market now — which is why last week’s wait-out removal looks less like a gamble.",
+   "kicker": "Property · Supply",
+   "headline": "The Buyer's Market Arrives — and the State Keeps Pouring",
+   "dek": "The froth is off. HDB resale prices fell a second straight quarter, a big mass-market launch cleared barely half its units, and low-balling is back on the forums. Into exactly that market the government has just launched a 1,200-home white site — and offered to build the roads itself. For an owner, the question shifts from \"how high\" to \"how patient.\"",
    "anchor": "p6",
    "featured": false
   },
@@ -77,8 +80,8 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · Silicon & Sovereignty",
-   "headline": "It Answers More — and Invents More",
-   "dek": "Kimi K3’s independent scores are in: third or fourth of 189 models, Opus-4.8-class, at a third of the price. The same testing found the catch — a hallucination rate that climbed to 51 per cent. The best open model in the world is also, by this measure, the most confidently wrong.",
+   "headline": "The Smuggling Probe Reaches a Desk in Taipei",
+   "dek": "For a year the export-control story was about which chips America would allow China to buy. This week it became about enforcement: Taiwan detained a man local media identify as an Nvidia employee in a widening probe into servers routed to China, and Jensen Huang went to Washington. The sovereignty fight has left the policy papers and reached a police station.",
    "anchor": "p7",
    "featured": false
   },
@@ -87,8 +90,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit · Wearables",
-   "headline": "The Cheaper Sensor, and Whether You Can Train on It",
-   "dek": "Garmin’s CIRQA — the $200 screen-free band that undercuts Whoop’s subscription — drew its first reviews this week, and they landed on one question: it carries an older heart-rate sensor than Garmin’s own newer watches. For a reader who trains on the number, that is the whole review.",
+   "headline": "A Camera You Wear, So You Don't Have To Watch",
+   "dek": "The Looki L1 is a 32-gram clip-on that films your day and hands back a searchable, auto-edited diary of it — US$199, IP67, most of a day's battery. It is precisely the object a tech-forward reader is curious about and wary of: the logical end of the wearable, and a small ethics problem you strap to your shirt.",
    "anchor": "p9",
    "featured": false
   },
@@ -97,29 +100,9 @@
    "sub": "Walls That Listen",
    "category": "Smart Home",
    "kicker": "The Connected Home · Home Assistant",
-   "headline": "The Release That Kills the Port Number",
-   "dek": "The 2026.8 beta’s changelog is now readable ahead of next week’s release, and its most telling line is small: new installs drop the “:8123” from the address bar, and network settings move out of YAML into the interface — with a five-minute failsafe so you cannot lock yourself out. The “non-technical” Home Assistant, in concrete form.",
+   "headline": "The Release That Deletes the Port Number — and the Net Behind It",
+   "dek": "Home Assistant 2026.8 lands this week, and the headline — no more typing \":8123\" — is the least of it. Buried in the notes is the change a Lutron migrator actually wants: you can now set the network config from the interface, and the system applies it, then waits for you to confirm it still works before it commits. It is the end of locking yourself out with a bad edit.",
    "anchor": "p10",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Watches",
-   "headline": "A Watch You Wear to Read the World",
-   "dek": "A Dubai atelier has taken Perrelet’s travel GMT and hand-painted its dial into a compass rose ringed by the four corners of the globe — no two alike, fifty made, US$2,990. A lovely, honest object, sold on paint and scarcity rather than horology. Read it as education, not endorsement.",
-   "anchor": "p11",
-   "featured": false
-  },
-  {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · Film",
-   "headline": "Every Number Is In but the One That Counts",
-   "dek": "Spider-Man: Brand New Day goes wide in America today, its verdict now firmed — Certified Fresh at ninety-one across a hundred and fifty-one reviews, and still the lowest of Tom Holland’s four solos. The one figure the weekend has not yet printed is the money, and everyone is guessing at it.",
-   "anchor": "p12",
    "featured": false
   },
   {
@@ -127,18 +110,28 @@
    "sub": "Raising Them Well",
    "category": "Family",
    "kicker": "The Family Desk · Screens & Policy",
-   "headline": "A Line Drawn, and the Fight Over Enforcing It",
-   "dek": "France’s under-15 social-media ban is law — but lawmakers stripped out its enforcement mechanism, and the real fight has moved to Australia, where Elon Musk’s X is challenging the crackdown. Meanwhile a large new study says the harm the bans assume is still not proven.",
+   "headline": "Nine in Ten Parents Want the Phone Kept Close",
+   "dek": "The delta on last week's age-gating law is the parent's own contradiction. As school phone bans spread across more than thirty-five US states, a survey finds ninety per cent of parents still want their child reachable by phone at school — and parents at ban schools report more anxiety, not less. The panic is real. The evidence that bans fix it is thinner than the panic.",
    "anchor": "p13",
+   "featured": false
+  },
+  {
+   "desk": "The Macro Desk",
+   "sub": "The Big Picture",
+   "category": "Markets",
+   "kicker": "The Macro Desk · The Portfolio Lens",
+   "headline": "Both Central Banks Blinked Hawkish — and the Sing Dollar Did the Reader's Work",
+   "dek": "The Fed held, but three members wanted a hike. The Bank of Japan held, but bought yen the same morning. And MAS quietly tightened a week earlier. For a VWRA-and-global-bonds holder banking in Singapore dollars, the week's mercy is currency: the same forces lifting his import bill are lifting the dollar he earns in. Market explanation, not advice.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Astrophysics",
-   "headline": "A Wind Three Hundred Thousand Light-Years Wide",
-   "dek": "Japan’s XRISM X-ray satellite measured the wind off a distant quasar’s black hole and found it carrying a hundred times the energy anyone had estimated — enough to stir gas across three hundred thousand light-years, far beyond the galaxy that hosts it.",
+   "kicker": "Curiosities · Archaeology",
+   "headline": "Half a Kilo of Gold, and an Emperor's Ring on the Seabed",
+   "dek": "Off the Croatian island of Mljet, divers on a Byzantine wreck have raised the largest haul of Byzantine gold ever recovered from any Mediterranean shipwreck — more than six hundred grams, four ceremonial belt sets set with emeralds and rubies, and a signet ring bearing an emperor's image. Somebody important went down with that ship about thirteen hundred years ago. Probably.",
    "anchor": "p16",
    "featured": false
   },
@@ -147,8 +140,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life · The Examined Life",
-   "headline": "The Deal-Breaker Is a Way of Life, Not a Ballot",
-   "dek": "A new experiment finds young Americans reject a date across party lines far more than they reward one within them — and the reason isn’t “bad character.” It’s the lifestyle, the values it implies, and the fear of what family and friends will say.",
+   "headline": "The Friendship Recession Reaches Midlife",
+   "dek": "The quieter human story this weekend is not dating but its foundation. The share of adults with no close friend has climbed, the collapse is steepest among men — and for the first time a major survey finds men over forty-five lonelier than women. The cause is not too little contact. It is too much of the wrong kind, and a friendship that no longer forms by accident.",
    "anchor": "p17",
    "featured": false
   },
@@ -157,8 +150,8 @@
    "sub": "The Long Game",
    "category": "Health",
    "kicker": "Fitness · The Long Game",
-   "headline": "Now We Can See the Repair Crew at Work",
-   "dek": "A new proteomics study took muscle biopsies before and after a hard lifting session and watched what happens next: the heavy load damages the contractile proteins, and a repair network tags the damage for clearance while building fresh protein to replace it. It is the machinery behind “use it or lose it,” finally photographed.",
+   "headline": "The Longevity Number You Can Buy for Twenty Dollars",
+   "dek": "The metric the longevity crowd re-centred on this summer is grip strength, and the reason is a study of five thousand older women: every seven kilograms of grip tracked twelve per cent lower mortality, the top quartile a third lower than the bottom. Grip is to total-body muscle what VO2 max is to the aerobic engine — and a hand dynamometer turns it into a home number. General information, not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -167,19 +160,19 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary · Singapore",
-   "headline": "The Week the Alarms Go Off",
-   "dek": "Two of the autumn’s biggest on-sales land in the same August week — sumo tickets on the 8th, BIGBANG’s presale on the 11th — and MAMAMOO plays tonight. Set the alarms; the good seats do not wait.",
-   "anchor": "p19",
+   "headline": "The On-Sale to Set an Alarm For",
+   "dek": "The autumn calendar is filling: The Weeknd and the first-ever Singapore Sprint weekend both land in early October, sumo tickets open on 8 August, and the long National Day weekend is here. Set the alarms — the good seats do not wait, and the sold-out ones breed scams.",
+   "anchor": "p23",
    "featured": false
   },
   {
    "desk": "The Long Read",
    "sub": "The Long View",
    "category": "Essay",
-   "kicker": "The Long Read · Energy & Empire",
-   "headline": "The Admiral’s Bargain",
-   "dek": "In 1911 Winston Churchill chose to run the Royal Navy on oil it did not have instead of the coal it did — trading British security for foreign speed, and buying an oil company to cover the risk. Every leap in power since has struck the same bargain. This week’s version runs on electricity, and the reader is paying its first instalment.",
-   "anchor": "p21",
+   "kicker": "The Long Read · The Undercurrent",
+   "headline": "The Five-Hundred-Metre Life",
+   "dek": "A generation in China is shrinking its world to the radius of a walk — the park downstairs, the wet market, a one-night stay one metro stop away — and calling it recovery. Chinese media has a name for it: huixue-gan xiaofei, \"blood-replenishing consumption.\" Read from the ground, it is the sound of an experience economy downsizing to fit a flattened set of expectations — and the West has not written it up yet.",
+   "anchor": "p25",
    "featured": false
   }
  ]

@@ -6,14 +6,16 @@
    "desk": "Macro",
    "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), per ~83% market-implied odds",
    "check_by": "2026-07-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Fed HELD 3.50-3.75% at the 28-29 Jul FOMC — 5th straight hold — but on a hawkish 9-3 split, with three dissents wanting a HIKE (graded No. 59)."
   },
   {
    "issue": 51,
    "desk": "Macro",
    "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
    "check_by": "2026-07-28",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS. MAS TIGHTENED (steeper S$NEER slope) at its 27 Jul statement rather than holding pat (graded No. 59)."
   },
   {
    "issue": 51,
@@ -27,7 +29,8 @@
    "desk": "Technology",
    "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised",
    "check_by": "2026-07-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Kimi K3 weights went live ~26-27 Jul as promised; Unsloth published dynamic GGUF quants on 29 Jul (graded No. 59)."
   },
   {
    "issue": 51,
@@ -42,7 +45,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens above US$180m domestic (31 Jul)",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Effectively locked: $72M Thursday previews (an all-time US record) and a $167M+ opening DAY (also a record) make a 3-day above $180M a formality; audience score 98% (ties the MCU record). The 3-day final lands Mon 3 Aug (graded No. 59)."
   },
   {
    "issue": 51,
@@ -92,7 +96,8 @@
    "desk": "Technology",
    "claim": "Kimi K3's independent Artificial Analysis composite lands within ~2 points of the claimed 57 once open weights are tested",
    "check_by": "2026-08-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "Independent testing put Kimi K3 near the top of the field (~57 AA Intelligence Index; #1 Frontend Code Arena at 1,679 Elo) — within the ~2-point band (graded No. 59)."
   },
   {
    "issue": 52,
@@ -113,35 +118,40 @@
    "desk": "Macro",
    "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), the ~63% base case over the ~36% hike tail",
    "check_by": "2026-07-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Fed HELD 3.50-3.75% at the 28-29 Jul FOMC — 5th straight hold — but on a hawkish 9-3 split, with three dissents wanting a HIKE (graded No. 59)."
   },
   {
    "issue": 53,
    "desk": "Macro",
    "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
    "check_by": "2026-07-29",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS. MAS TIGHTENED the S$NEER slope on 27 Jul, not a flat hold (graded No. 59)."
   },
   {
    "issue": 53,
    "desk": "Technology",
    "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised (no further slip)",
    "check_by": "2026-07-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Kimi K3 weights went live ~26-27 Jul as promised; Unsloth published dynamic GGUF quants on 29 Jul (graded No. 59)."
   },
   {
    "issue": 53,
    "desk": "Technology",
    "claim": "Kimi K3's elevated hallucination rate (~51% on AA Omniscience) is confirmed by independent testing once the weights are public",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "Confirmed: independent testers put Kimi K3 at ~51% on AA-Omniscience — up from K2.6’s 39% and omitted from Moonshot’s own charts (graded No. 59)."
   },
   {
    "issue": 53,
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens above US$180m domestic on its 31 Jul debut",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Effectively locked: $72M Thursday previews (an all-time US record) and a $167M+ opening DAY (also a record) make a 3-day above $180M a formality; audience score 98% (ties the MCU record). The 3-day final lands Mon 3 Aug (graded No. 59)."
   },
   {
    "issue": 53,
@@ -169,14 +179,16 @@
    "desk": "Singapore",
    "claim": "MAS keeps the S$NEER band unchanged (slope, width, centre) at its 27 Jul statement",
    "check_by": "2026-07-27",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS. MAS did NOT stand pat: on 27 Jul it TIGHTENED, steepening the S$NEER appreciation slope (band width and centre unchanged). We called a flat hold; the slope moved (graded No. 59)."
   },
   {
    "issue": 54,
    "desk": "The Macro Desk",
    "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
    "check_by": "2026-07-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Fed HELD 3.50-3.75% on 29 Jul (9-3 hawkish, 3 hike dissents) — the ~1/3 hike tail did not fire (graded No. 59)."
   },
   {
    "issue": 54,
@@ -197,7 +209,8 @@
    "desk": "Technology",
    "claim": "Kimi K3 open weights are published on the official moonshotai HF org by end of 27 Jul, and community BF16/GGUF re-quants appear within a week",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Kimi K3 weights went live ~26-27 Jul as promised; Unsloth published dynamic GGUF quants on 29 Jul (graded No. 59)."
   },
   {
    "issue": 54,
@@ -218,7 +231,8 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
    "check_by": "2026-07-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Fed HELD 3.50-3.75% on 29 Jul (9-3 hawkish, 3 hike dissents) — the ~1/3 hike tail did not fire (graded No. 59)."
   },
   {
    "issue": 55,
@@ -239,7 +253,8 @@
    "desk": "Singapore",
    "claim": "MAS's 27 Jul move was a slight tightening (steeper S$NEER slope), not a flat hold — and the SGD trades firmer into August",
    "check_by": "2026-08-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "RIGHT on the call No. 54 got wrong: MAS did steepen the S$NEER slope on 27 Jul. (The SGD-firmer-into-August leg checks 31 Aug.) (partial-graded No. 59)."
   },
   {
    "issue": 55,
@@ -253,7 +268,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day's Rotten Tomatoes critic score lands in the high-80s-to-mid-90s (i.e. ≥85%) when the embargo lifts",
    "check_by": "2026-07-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day opened at 90% Certified Fresh on Rotten Tomatoes (~230 reviews) — clears the ≥85% call, though it is the LOWEST critics’ score of Holland’s five Spider-films (graded No. 59)."
   },
   {
    "issue": 55,
@@ -281,7 +297,8 @@
    "desk": "Macro",
    "claim": "The Fed HOLDS at the 28-29 Jul FOMC (Warsh's first meeting), the 5th straight hold, per ~62-65% market-implied odds",
    "check_by": "2026-07-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Fed HELD 3.50-3.75% at the 28-29 Jul FOMC — 5th straight hold — but on a hawkish 9-3 split, with three dissents wanting a HIKE (graded No. 59)."
   },
   {
    "issue": 56,
@@ -337,7 +354,8 @@
    "desk": "The Macro Desk",
    "claim": "BoJ holds at 1.00% on 31 Jul 2026",
    "check_by": "2026-07-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "BoJ HELD at 1.00% on 31 Jul (8-1), and — hours earlier — Japan intervened to BUY yen (first in 3 months, reportedly coordinated with the US Treasury) (graded No. 59)."
   },
   {
    "issue": 57,
@@ -400,7 +418,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens above US$180m domestic on its 31 Jul-3 Aug debut weekend",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Effectively locked: $72M Thursday previews (an all-time US record) and a $167M+ opening DAY (also a record) make a 3-day above $180M a formality; audience score 98% (ties the MCU record). The 3-day final lands Mon 3 Aug (graded No. 59)."
   },
   {
    "issue": 58,
@@ -432,6 +451,83 @@
   },
   {
    "issue": 58,
+   "desk": "The Kit",
+   "claim": "Insta360 X6 gets an official launch (press release + price) by end-August 2026",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "The Macro Desk",
+   "claim": "The Fed's hawkish 9-3 hold means NO rate cut in 2026; DXY does not sustainably reclaim ~101.6 through August despite the hawkish dots",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "The Macro Desk",
+   "claim": "MAS's 27 Jul slope tightening keeps USD/SGD firm — below ~1.30 through August — cushioning imported inflation",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "The Macro Desk",
+   "claim": "Gold holds its bid above US$4,000/oz through August even as it sits ~28% below its 28 Jan record",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day's 3-day domestic opening finalises at or above US$250m (reported Mon 3 Aug)",
+   "check_by": "2026-08-04",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "Screen & Sound",
+   "claim": "Ariana Grande's 'petal' debuts at No. 1 on the Billboard 200",
+   "check_by": "2026-08-12",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "Technology",
+   "claim": "DeepSeek V4 (MIT, 19 Jul GA) becomes the reference genuinely-open big model as Qwen keeps its flagship API-only; V4's ~80% SWE-bench Verified holds under independent testing",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "The World",
+   "claim": "Colombia's 7 Aug inauguration of De la Espriella proceeds (indoors in Cali) despite Petro's boycott and annulment suit",
+   "check_by": "2026-08-07",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "Curiosities",
+   "claim": "NASA's Nancy Grace Roman Space Telescope launches on or about 2 Aug 2026 from Kennedy",
+   "check_by": "2026-08-05",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "The Travel Desk",
+   "claim": "The JB–Woodlands RTS Link does NOT begin passenger service in December 2026, slipping toward 2027",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
+   "desk": "The Long Read",
+   "claim": "No dedicated NYT/BBC/Reuters/FT/Economist feature names China's hyperlocal '附近 / 回血感' micro-recovery reframe (as distinct from generic 'citywalk' or 'consumption downgrade') by 31 Oct 2026",
+   "check_by": "2026-10-31",
+   "outcome": null
+  },
+  {
+   "issue": 59,
    "desk": "The Kit",
    "claim": "Insta360 X6 gets an official launch (press release + price) by end-August 2026",
    "check_by": "2026-08-31",

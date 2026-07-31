@@ -1,5 +1,5 @@
 {
-  "count": 340,
+  "count": 345,
   "subjects": [
     {
       "subject": "Breitling Top Time B01 \"Aston Martin DB5\" trio",
@@ -96,7 +96,7 @@
       "subject": "Spider-Man: Brand New Day (film)",
       "type": "Release (film)",
       "last_covered": "No. 58",
-      "last_peg": "Screen & Sound LEAD — opened wide (US) 31 Jul; RT 91% Certified Fresh across 151 reviews, MC ~70 (lowest of Holland's four); box office STILL PENDING (no actual gross/CinemaScore printed — Sony's ~$195m projection flagged; analysts $230–250m, worldwide ~$425–465m)",
+      "last_peg": "Screen & Sound LEAD — opened wide (US) 31 Jul; RT 91% Certified Fresh across 151 reviews, MC ~70 (lowest of Holland's four); box office RESOLVED on the No. 59 Scoreboard — record $72m previews + $167m-plus opening DAY, audience 98% / critics 90%; graded RIGHT (≥$180m, ≥RT-85%); 3-day final Mon 3 Aug. Prior No. 58 print pending (no actual gross/CinemaScore printed — Sony's ~$195m projection flagged",
       "next_peg": "Next peg = actual opening-weekend gross (grade on a Sat Scoreboard); legs/hold"
     },
     {
@@ -119,6 +119,41 @@
       "last_covered": "No. 58",
       "last_peg": "The Kit LEAD — first reviews + the Gen-4-sensor row: CIRQA uses the older Elevate Gen 4, not Gen 5 (the5krunner \"does not add up,\" Index Sleep Monitor runs Gen 5 at 7.8mm vs CIRQA's 9mm; DC Rainmaker calls the gap \"negligible\" for non-workout use). US$199.99, no subscription. Genuine Garmin press hero (specific)",
       "next_peg": "Next peg = long-term accuracy vs Whoop/Oura, or a v2 sensor"
+    },
+    {
+      "subject": "Roger Dubuis Excalibur Kabuto Legacy (watch)",
+      "type": "Product (watch)",
+      "last_covered": "No. 59",
+      "last_peg": "Good Life LEAD — 45mm 18k pink gold, cal. RD821 (48h/4Hz), 12 hand-engraved 18k kabuto around a micro-sculpture of Edo Castle, limited to 28; reported US$384,000 (single-sourced; some outlets “price on request”); SJX/hands-on — “not a watch in the typical sense,” wearable art; himeji representative hero + no_image attestation; not investment advice",
+      "next_peg": "Next peg = retail delivery, a secondary-market read, or a sibling reference"
+    },
+    {
+      "subject": "Looki L1 (wearable AI camera)",
+      "type": "Product (gadget)",
+      "last_covered": "No. 59",
+      "last_peg": "The Kit LEAD — US$199, 32g clip-on, IP67, ~9–13h, auto Daily/Fitness/Expo modes turning clips into a searchable auto-diary; several features flagged beta, small maker, on-device-privacy caveat; representative wearable hero + no_image attestation (single-outlet the-gadgeteer coverage, no fetchable product URL)",
+      "next_peg": "Next peg = shipping-unit reviews, an on-device-storage confirmation, or a v2"
+    },
+    {
+      "subject": "DeepSeek V4 (open-weights)",
+      "type": "AI release",
+      "last_covered": "No. 59",
+      "last_peg": "Technology/Home Lab — the genuinely-runnable open frontier vs Qwen’s API-only retreat: MIT, GA 19 Jul; V4-Pro 1.6T/49B active (~865GB), V4-Flash 284B/13B active (~160GB, the home-lab pick), reported 80.6% SWE-bench Verified (single-source, flagged)",
+      "next_peg": "Next peg = broad independent leaderboard replication, a sub-512GB low-bit quant, or a V4.x"
+    },
+    {
+      "subject": "Home Assistant 2026.8 (release)",
+      "type": "Software release",
+      "last_covered": "No. 59",
+      "last_peg": "Connected Home LEAD — stable ~5 Aug; new HAOS installs drop the :8123 port (existing installs unchanged), in-UI network config with apply-then-confirm auto-rollback; lutron_caseta local push (Caséta/RA2 Select/RadioRA 3/QSX); Matter doorbell events (de-emphasized)",
+      "next_peg": "Next peg = the next monthly release or a Lutron-relevant integration change"
+    },
+    {
+      "subject": "Sennheiser MOMENTUM 5 Wireless (replaceable-battery variant)",
+      "type": "Product (audio)",
+      "last_covered": "No. 59",
+      "last_peg": "The Good Life shelf — US$399.95; news peg a user-replaceable battery for the flagship over-ear; 42mm drivers, claimed ~57h, adaptive ANC, aptX Lossless; the 2024 nameplate, the fresh hook is serviceability; not investment advice",
+      "next_peg": "Next peg = a review verdict on the new variant or a price move"
     },
     {
       "subject": "The Table (SG openings, No. 54)",
