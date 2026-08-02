@@ -1,6 +1,104 @@
 {
-  "count": 350,
+  "count": 364,
   "subjects": [
+    {
+      "subject": "Garmin CIRQA",
+      "type": "Product (wearable)",
+      "last_covered": "No. 61",
+      "last_peg": "The Kit LEAD — announced 21 Jul, ships 24 Jul, US$199.99 screen-free subscription-free Whoop rival; paywall reversed",
+      "next_peg": "Next peg = firmware fixing interval/rapid-movement HR accuracy, or a v2. Interval accuracy flagged (\"Fail #2\")."
+    },
+    {
+      "subject": "Hamilton × Nolan Khaki Field \"The Odyssey\"",
+      "type": "Product (watch)",
+      "last_covered": "No. 61",
+      "last_peg": "Good Life LEAD — launched 17 Jul, bronze, US$1,495, ed. 2,112, never on screen",
+      "next_peg": "Next peg = secondary-market pricing at 6–12 mo (does it hold above retail?). Prediction logged."
+    },
+    {
+      "subject": "Grand Seiko SBGH376",
+      "type": "Product (watch)",
+      "last_covered": "No. 61",
+      "last_peg": "Good Life shelf — 38mm 18k gold spring-green Heritage, US$32,800",
+      "next_peg": "Closed unless a review peg or a variant."
+    },
+    {
+      "subject": "Meze Audio ARTA",
+      "type": "Product (audio)",
+      "last_covered": "No. 61",
+      "last_peg": "Good Life shelf — US$6,000 open-back planar reference, Rinaro MZ5",
+      "next_peg": "Next peg = wide reviews / used-price settling (~US$4,000 chatter)."
+    },
+    {
+      "subject": "DeepSeek V4-Flash",
+      "type": "Product (AI model)",
+      "last_covered": "No. 61",
+      "last_peg": "Technology LEAD — V4-Flash-0731 GA 31 Jul, MIT, 284B/13B-active, beats own V4-Pro (self-reported)",
+      "next_peg": "Next peg = held-out/independent benchmarks confirming or deflating the scores."
+    },
+    {
+      "subject": "Home Assistant (release train)",
+      "type": "Product (software)",
+      "last_covered": "No. 61",
+      "last_peg": "Connected Home — 2026.8 beta (Activity feed, ZHA overhaul); stable 5 Aug",
+      "next_peg": "Developing; delta only each release. Watch entity-merge regression / Lutron breakage."
+    },
+    {
+      "subject": "Spider-Man: Brand New Day",
+      "type": "Film release",
+      "last_covered": "No. 61",
+      "last_peg": "Screen & Sound LEAD — opened 31 Jul, US$355m domestic (2nd-biggest ever), RT 90/98",
+      "next_peg": "Next peg = second-weekend drop (8–10 Aug) / global total. Prediction logged."
+    },
+    {
+      "subject": "Bayshore Drive GLS (mixed-use)",
+      "type": "Land sale / development",
+      "last_covered": "No. 61",
+      "last_peg": "Property LEAD — record S$2.128b bid (Frasers-led), 15 Jul close, 1,280 homes",
+      "next_peg": "Next peg = launch pricing vs ~S$2,700–3,100 psf breakeven. Prediction logged."
+    },
+    {
+      "subject": "Cross Island Line Phase 3",
+      "type": "Infrastructure",
+      "last_covered": "No. 61",
+      "last_peg": "Singapore LEAD — alignment fixed 31 Jul, 4 stations JLD→Gul Circle",
+      "next_peg": "Developing; construction 2027, stations late-2030s. Delta only."
+    },
+    {
+      "subject": "Loulouca (dessert atelier, Ann Siang)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 61",
+      "last_peg": "The Table — opened 29 Jul, Louisa Lim (ex-Odette), \"too new to call\"",
+      "next_peg": "Next peg = first real reviews. Watch for the verdict."
+    },
+    {
+      "subject": "Xava Skybar (National Gallery roof)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 61",
+      "last_peg": "The Table — opened 1 Aug, view-led rooftop, first-look only",
+      "next_peg": "Next peg = lived-in reviews."
+    },
+    {
+      "subject": "Sushi Tenrai (Pickering St)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 61",
+      "last_peg": "The Table — value CBD omakase (lunch S$38++), early positive",
+      "next_peg": "Next peg = broader review consensus."
+    },
+    {
+      "subject": "Betelgeuse companion \"Siwarha\"",
+      "type": "Science (astronomy)",
+      "last_covered": "No. 61",
+      "last_peg": "Curiosities LEAD — imaged VLT/SPHERE, 6.1σ candidate, A&A 28 Jul",
+      "next_peg": "Next peg = confirming observation late 2027. Prediction logged."
+    },
+    {
+      "subject": "LHS 1140 b atmosphere",
+      "type": "Science (astronomy)",
+      "last_covered": "No. 61",
+      "last_peg": "Curiosities — first atmosphere on habitable-zone rocky planet (helium), Science",
+      "next_peg": "Next peg = repeat detection confirming variability (2024 seen / 2025 absent)."
+    },
     {
       "subject": "Oura Ring 5",
       "type": "Product (wearable)",

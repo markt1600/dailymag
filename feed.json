@@ -1,67 +1,74 @@
 {
  "publication": "MERIDIAN",
- "issue": 60,
- "date": "2 August 2026",
- "generated": "2026-08-02T06:37:36+08:00",
+ "issue": 61,
+ "date": "3 August 2026",
+ "generated": "2026-08-03T06:10:02+08:00",
  "quote": {
-  "text": "Whosoever commands the sea commands the trade; whosoever commands the trade of the world commands the riches of the world, and consequently the world itself.",
-  "author": "Sir Walter Raleigh, A Discourse of the Invention of Ships (c. 1650)"
+  "text": "Well done is better than well said.",
+  "author": "Benjamin Franklin, Poor Richard's Almanack (1737)"
  },
  "macro": {
   "title": "What It Means — VWRA, Bonds, Gold & BTC",
-  "reads": [],
+  "reads": [
+   {
+    "label": "VWRA (held)",
+    "text": "still near 52-week highs; equities grind up, but a credibility-shy Fed and firm real yields are a headwind if the \"prove-it\" mood persists."
+   },
+   {
+    "label": "Global bonds (held)",
+    "text": "actively bearish — a 30-year at a 2007 high is a real repricing, so the equity–bond hedge is working less well."
+   },
+   {
+    "label": "Gold (read)",
+    "text": "caught between war-haven demand and higher real yields; net, a deep pullback from January's record even with the war live."
+   },
+   {
+    "label": "Bitcoin (read)",
+    "text": "trading as a risk asset, not a hedge — soft below resistance in a liquidity-tight tape. The two you hold stay VWRA and global bonds; gold and BTC are read for sensitivity, not endorsed — and BTC's volatility is in a different league."
+   }
+  ],
   "note": "",
   "regime": [],
   "anchor": "p15"
  },
  "stories": [
   {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Watches",
-   "headline": "The Cosmos on the Wrist, Now in Rose Gold",
-   "dek": "Ulysse Nardin's Blast Moonstruck folds five astronomical indications — a moonphase good for forty years, a worldtimer, the live positions of Sun and Moon, and the tides they pull — into a single 45mm case. This July it returns in 18-karat rose gold, twenty pieces, at just past a hundred thousand euros. A telescope you strap to your wrist, in the same issue a real one slips its launch (p16).",
-   "anchor": "p11",
+   "desk": "The World",
+   "sub": "The Meridian Dispatch",
+   "category": "World",
+   "kicker": "The World · The Gulf",
+   "headline": "A Ceasefire Announced Over a Strait Still Shut",
+   "dek": "Late Saturday, Trump called off the weekend's planned strikes on Iran and said the \"perimeters\" of a deal were set — the immediate opening of Hormuz, an end to the nuclear threat. By Sunday the strait was still closed, Tehran's hardliners were promising a \"decisive response,\" and eleven US embassies were telling Americans to think about leaving.",
+   "anchor": "p3",
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Open Models",
+   "headline": "The Budget Model That Laps Its Own Flagship",
+   "dek": "DeepSeek pushed V4-Flash-0731 to general availability on the last day of July — MIT-licensed, free to run, and beating the larger V4-Pro on its own agent benchmarks. It got there not by growing, but by being retrained. And at 13 billion active parameters, it is the first frontier-tier open model in months that plausibly fits on a single home rig.",
+   "anchor": "p7",
    "featured": true
   },
   {
    "desk": "Curiosities",
    "sub": "The Far Edges",
    "category": "Science",
-   "kicker": "Curiosities · Space",
-   "headline": "The Telescope That Didn't Launch, and the Comet That Was Caught",
-   "dek": "The Nancy Grace Roman Space Telescope was penciled for this weekend; instead it slipped to the end of August, fuelled and waiting on the pad. Meanwhile a Chinese orbiter at Mars did something rarer than a launch — it photographed an interstellar comet racing past the planet, only the third such visitor ever tracked through our solar system.",
+   "kicker": "Curiosities · Astronomy",
+   "headline": "The Companion in the Glare, Named at Last",
+   "dek": "For a century, astronomers suspected a second star hid inside Betelgeuse's light. Now a team has imaged it — a candidate at 6.1 sigma — and named it Siwarha, \"her bracelet.\" It is also, they think, doomed: dragged inward, to be swallowed within ten thousand years.",
    "anchor": "p16",
    "featured": true
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · Departures",
-   "headline": "New Routes, a New Gulf Link, a Deeper Malaysia Map",
-   "dek": "The weekend's genuine deltas are about where you can now fly direct. Scoot has thickened its Malaysia network toward a hundred and thirty weekly flights, Oman Air has opened a Muscat link from Changi, and SIA has quietly turned Manchester and Hangzhou daily. Under the ground, the T5 tunnels are done and the RTS Link inches toward year-end. Delta only — a route already covered gets a line, not a re-explainer.",
-   "anchor": "p19",
-   "featured": true
-  },
-  {
-   "desk": "The World",
-   "sub": "The Meridian Dispatch",
-   "category": "World",
-   "kicker": "The World · The Gulf",
-   "headline": "The War Finds the American Bases",
-   "dek": "For six months Washington fought Iran's reach and left its own soil alone. On the last day of July that line went too: Iranian drones on US bases in Kuwait and Bahrain, two more tankers hit inside the Strait, and a barrel back near ninety dollars. Each capital now says the same thing in different words — that it can absorb more than the other can.",
-   "anchor": "p3",
-   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Long Weekend",
-   "headline": "A Sixty-First Birthday, and a Bill to Read First",
-   "dek": "The island goes into its National Day weekend with the parade back at the Stadium next Sunday and a new drone show overhead — and, on the same kitchen table, July's 17 per cent power rise now landed and a second support package announced to soften it. The celebration and the cost of living arrive in the same envelope.",
+   "kicker": "Singapore · Transport",
+   "headline": "The West Gets Its Line — in the Late 2030s",
+   "dek": "LTA and SLA have fixed the alignment for Cross Island Line Phase 3: four stations from Jurong Lake District to Gul Circle, up to fifty minutes shaved off a far-western commute. Construction starts in 2027. The trains run \"late 2030s.\" The relief is real; so is the wait.",
    "anchor": "p5",
    "featured": false
   },
@@ -69,20 +76,10 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Supply",
-   "headline": "Nine More Sites, and a Two-Billion-Dollar Marquee",
-   "dek": "The buyer's market that arrived last quarter is not being rescued — it is being fed. Into a cooling resale market and a top-end-led private one, the second-half land programme keeps nine sites coming, led by a Bayshore plot analysts tip at up to two billion dollars. For an owner, the signal has not changed: supply, by design, for years.",
+   "kicker": "Property · Land Sales",
+   "headline": "A Two-Billion-Dollar Bid Into a Cooling Market",
+   "dek": "The Bayshore Drive site drew a record S$2.128 billion — the first government land parcel outside the CBD ever to clear two billion. It was placed the same fortnight URA's own data showed private prices decelerating and the segment next door falling. Confidence, or a bet against the statistics?",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Silicon & Sovereignty",
-   "headline": "Fifty Firms Ask Washington to Keep the Weights Open",
-   "dek": "The export fight has a new front, and it faces inward. An Nvidia- and Microsoft-led letter — signed inside a day by some fifty companies, from OpenAI and Google to Hugging Face and Mozilla, and pointedly not by Amazon or Anthropic — asks the administration to protect open-weight models rather than lock them down. The same machinery built to fence China out of American chips can, turned a few degrees, fence Americans in.",
-   "anchor": "p7",
    "featured": false
   },
   {
@@ -90,8 +87,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit · Wearables",
-   "headline": "The Smallest Ring Wins the Wearable Argument",
-   "dek": "Oura's fifth ring is 40 per cent thinner than the fourth, runs six to nine days on a charge, and — now the summer reviews are in — is being called the best smart ring you can buy. For a reader already wearing an Oura and a Whoop, the useful question isn't whether it's good. It's whether one finger should be doing this much accounting.",
+   "headline": "Garmin Built a Screenless Whoop — and Forgot the Subscription",
+   "dek": "The CIRQA is a fabric band you wear round the clock for sleep, recovery and readiness. It ships at US$199.99, runs ten days on a charge, and — the part that stung the incumbents — works without a monthly fee. Whether it works during intervals is the open question.",
    "anchor": "p9",
    "featured": false
   },
@@ -100,18 +97,28 @@
    "sub": "Walls That Listen",
    "category": "Smart Home",
    "kicker": "The Connected Home · Home Assistant",
-   "headline": "The Release Grows Up Around the Edges",
-   "dek": "Last week 2026.8 was a beta with a cosmetic headline. This week it ships, and the substance is in the plumbing a Lutron household actually touches: dedicated infrared and radio-frequency panels, a rebuilt Zigbee stack, an activity timeline and a one-button \"update everything.\" The catch is a quiet breaking change to the phone app — read it before you tap update.",
+   "headline": "Home Assistant Rebuilds the Logbook — and Hands You the Delete Key",
+   "dek": "The 2026.8 beta turns the old Logbook into a day-grouped \"Activity\" feed, overhauls the Zigbee device manager, and gathers every IR blaster and RF bridge into one panel. It also ships a single button that can wipe a household's entire event history — and, for anyone mid-migration off Lutron, a reason to wait for the Friday patch.",
    "anchor": "p10",
+   "featured": false
+  },
+  {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · Watches",
+   "headline": "A Myth You Can Wear, From a Film It Never Appears In",
+   "dek": "Hamilton and Christopher Nolan built a bronze field watch around The Odyssey — helmet-textured dial, sword-shaped hands, a caseback the director signed. It costs US$1,495, comes in an edition of 2,112, and is the purest object-lesson in the gap between the story and the thing: the watch is set in a Bronze Age that had no watches.",
+   "anchor": "p11",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Film",
-   "headline": "The Second-Biggest Opening Ever, and the Coolest Reviews",
-   "dek": "The number No. 59 was still projecting has landed. Spider-Man: Brand New Day is estimated at around US$325 million domestic for the weekend — behind only Endgame — and close to US$925 million worldwide, on studio numbers that lock Monday. Audiences gave it a 98 that ties Marvel's best. The critics, uniquely of Tom Holland's five, ranked it last. The gap between those two facts is the whole picture.",
+   "kicker": "Screen & Sound · Box Office",
+   "headline": "Two Million Dollars Short of History",
+   "dek": "\"Spider-Man: Brand New Day\" opened to an estimated US$355 million domestic — the second-biggest debut ever, and just US$2 million behind \"Avengers: Endgame.\" Critics gave it a 90; audiences, a 98. The record it missed is what it will chase into its second weekend.",
    "anchor": "p12",
    "featured": false
   },
@@ -119,9 +126,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Screens & Evidence",
-   "headline": "The Screen-Time Panic Is Being Walked Back",
-   "dek": "The scary headline is easy to find: a 2026 study of fifty thousand children links four-plus hours a day of screens to sharply higher anxiety and depression. The quieter, more important story is that the American Academy of Pediatrics has just retired its decade-old hourly limits. The number was never the thing. What she watches, with whom, and what it displaces is.",
+   "kicker": "The Family Desk · Schools",
+   "headline": "The Bans Arrive; the Parents Aren't Sure They Want Them",
+   "dek": "More than 35 US states now restrict phones in school, and this summer three of them — Illinois, Indiana, California — moved from law to live classroom. Yet in the same weeks, a survey found nine in ten parents still want their own child reachable during the day. The policy is the word; \"techxiety\" is what parents feel about the deed.",
    "anchor": "p13",
    "featured": false
   },
@@ -129,9 +136,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The Portfolio Lens",
-   "headline": "A Softer Dollar Meets a Firmer Barrel",
-   "dek": "No central bank moved this week, so the tape was written by two data points pulling opposite ways: a cooler June inflation print that knocked the dollar below 100, and a war that pushed Brent back toward ninety and the ten-year yield up to 4.75. The result is a crosscurrent, not a trend — US equities firm, Asia soft, and the reader's payrolls test still a week away. Market explanation, not advice.",
+   "kicker": "The Macro Desk · Rates & the Regime",
+   "headline": "A New Fed Chair Talks Tough; the Thirty-Year Says Prove It",
+   "dek": "Kevin Warsh's Fed held rates on a bruising 9–3 vote — three dissents wanting a hike — and the bond market answered by sending the 30-year to its highest since 2007. Add a surprise MAS tightening and a firm dollar, and the regime writes itself: higher-for-longer, dollar-bid, and a portfolio that has to work with rising real yields.",
    "anchor": "p15",
    "featured": false
   },
@@ -139,9 +146,9 @@
    "desk": "Love & Life",
    "sub": "The Human Desk",
    "category": "Life",
-   "kicker": "Love & Life · The Examined Life",
-   "headline": "The Apps Quietly Won — and One of Them Is Winning",
-   "dek": "A decade of hand-wringing about dating apps obscured the plainer fact: they are now simply how couples meet. About one in ten partnered adults — one in five under thirty — found their partner online, and among app-made marriages the field has consolidated hard around the app that sells intent over volume. The medium was never the problem. The volume was.",
+   "kicker": "Love & Life · Demography",
+   "headline": "The Children You Want May Depend on the Friends You Keep",
+   "dek": "A new fertility report finds that the young adults with the most supportive friendships want, on average, a full extra child compared with the loneliest — a gap that rivals religion. It is a striking correlation. It is also from an advocacy think tank, and measures what people say they want, not what they have.",
    "anchor": "p17",
    "featured": false
   },
@@ -149,9 +156,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Long Game",
-   "headline": "Zone 2 Isn't the Magic Bullet — It's the Floor",
-   "dek": "The longevity crowd spent a year worshipping easy \"Zone 2\" cardio; the 2026 reckoning is that it's necessary, not sufficient. A Sports Medicine review finds both easy volume and hard intervals raise the number that actually predicts how long you live — intervals faster, Zone 2 supplying the base you recover from. The prescription is both, plus the barbell. General information, not medical advice.",
+   "kicker": "Fitness · The Science",
+   "headline": "Thirty Minutes in the Heat Moves Your Whole Immune System",
+   "dek": "A Finnish study found a single sauna session sends every class of white blood cell surging into the bloodstream — and back to normal within half an hour. It is a vivid finding, widely oversold. The floor of the longevity case, meanwhile, is still the least glamorous thing in the gym: the barbell.",
    "anchor": "p18",
    "featured": false
   },
@@ -159,20 +166,20 @@
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Singapore",
-   "headline": "The On-Sale to Set an Alarm For",
-   "dek": "This weekend's alarm to set is the sumo: Aki Basho advance tickets open 8 August and the best seats vanish within hours. Behind it, an October stacked with arena nights — The Weeknd, the first F1 Sprint weekend, BIGBANG — and, before any of it, National Day itself.",
-   "anchor": "p23",
+   "kicker": "The Diary · The Dated Agenda",
+   "headline": "The On-Sales to Set an Alarm For",
+   "dek": "A heavy Singapore concert autumn, a marquee Grand Prix that becomes a two-race weekend, and a Tokyo calendar tilting into festival season. Two on-sale dates below are worth a reminder — the deed of booking beats the word of \"I'll get to it.\"",
+   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
-   "sub": "The Long View",
+   "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Long Read · The Narrows",
-   "headline": "The Narrows",
-   "dek": "Three of this issue's stories are the same story in different clothes: a strait, a chip, and a harbour. Each turns on the oldest lever in geopolitics — control of the narrow place through which everyone must pass. History is unusually clear about how that power ends.",
-   "anchor": "p25",
+   "kicker": "The Long Read · The Undercurrent",
+   "headline": "The County That Dared to Spend",
+   "dek": "The Western story about China this year is deflation, cautious consumers, youth who have given up. In the counties — the third-tier towns most correspondents never file from — a different story is running the other way. And in mid-July, China's own press declared it out loud: county spending had \"walked out of the sinking-market narrative.\" When the FT writes this in three weeks, remember where you read it first.",
+   "anchor": "p21",
    "featured": false
   }
  ]

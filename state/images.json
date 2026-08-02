@@ -657,6 +657,87 @@
    "specific": false,
    "caption": "A star system imaged by Webb — representative of the astronomical complication of the Ulysse Nardin Blast Moonstruck (p11), NOT the watch itself.",
    "no_image": "Searched the Ulysse Nardin newsroom and the Monochrome / HauteTime / Space.com coverage of the Blast Moonstruck rose gold via WebSearch; the press imagery sits inside those editorial galleries and the maker's site with no stable directly-fetchable image FILE URL surfaced for the fetch-heroes {url} pipeline. A representative astronomical image runs in its place, honestly labelled, matching the watch's five-indication celestial display."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+   "asset": "patriot-launcher",
+   "source": "Wikimedia Commons — \"File:German Patriot missile launcher (cropped).jpg\" · CC BY 2.0",
+   "specific": false,
+   "caption": "A Patriot air-defence launcher — representative of the interceptor systems now flowing to the Gulf rather than to Kyiv (p4), not a unit in the story."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+   "asset": "sg-mrt",
+   "source": "Wikimedia Commons — \"File:SMRT C151.jpg\"",
+   "specific": false,
+   "caption": "A Singapore MRT train — representative of the rail network the Cross Island Line will extend into the far west (p5); the new stations are not due until the late 2030s."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+   "asset": "rtx-gpu",
+   "source": "Wikimedia Commons — \"File:Zotac GeForce RTX 3060 12GB VRAM LHR video card.jpg\"",
+   "specific": false,
+   "caption": "A GeForce RTX graphics card — representative of the GPUs whose street prices are climbing on the AI memory shortage (p8), not the specific part."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+   "asset": "cirqa",
+   "source": "Garmin newsroom press image",
+   "specific": true,
+   "caption": "The Garmin CIRQA — the screen-free, subscription-free recovery band reviewed here (p9)."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+   "asset": "greek-helmet",
+   "source": "Wikimedia Commons — \"File:Bronze helmet of the Corinthian type MET 3424.jpg\"",
+   "specific": false,
+   "caption": "An ancient Greek Corinthian bronze helmet — a representative image evoking the Hamilton × Nolan \"Odyssey\" watch's bronze case and helmet-textured dial (p11), not the watch itself.",
+   "no_image": "Searched the Hamilton newsroom, the official H70675530 product page, and the launch coverage (Forbes, Monochrome, WatchTime, The Gadgeteer) via WebSearch for a directly-fetchable product-image file URL to feed the manifest {url} pipeline; none was surfaced — Hamilton serves its media via cache-hashed catalogue paths and the retailers via CDNs without a discoverable direct file URL. A representative bronze-helmet image runs in its place, honestly labelled, never presented as the watch."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
+   "asset": "classroom",
+   "source": "Wikimedia Commons — \"File:Students are learning in the classroom.jpg\" · CC BY-SA 4.0",
+   "specific": false,
+   "caption": "A school classroom — representative of the phone-ban rollout reshaping the school day across 35-plus states (p13), not a specific school."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+   "asset": "warsh",
+   "source": "Federal Reserve — official portrait",
+   "specific": true,
+   "caption": "Federal Reserve Chair Kevin Warsh — whose \"talk is cheap\" hold drew a bond-market rebuke, the 30-year at a 2007 high (p15)."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+   "asset": "betelgeuse",
+   "source": "ESO / Wikimedia Commons — \"File:Nebula and betelgeuse VLT.jpg\"",
+   "specific": true,
+   "caption": "The red supergiant Betelgeuse, imaged with ESO's VLT — the star whose century-suspected companion, Siwarha, has now been imaged (p16)."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · Fitness</span><span>The Long Game",
+   "asset": "sauna",
+   "source": "Wikimedia Commons — \"File:Sauna-löyly.jpg\"",
+   "specific": false,
+   "caption": "A traditional Finnish sauna — representative of the setting of the immune-mobilisation study (p18), not the study's own facility."
+  },
+  {
+   "issue": "61",
+   "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
+   "asset": "mixue-county",
+   "source": "Wikimedia Commons — \"File:Mixue icecream and tea in fujian fuding.jpg\"",
+   "specific": true,
+   "caption": "A Mixue tea-and-ice-cream store in Fuding, a county-level city in Fujian — the ¥6 daily luxury that is the physical spine of the county-consumption trend (p21)."
   }
  ],
  "standing": [
