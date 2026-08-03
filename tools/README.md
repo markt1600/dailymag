@@ -18,7 +18,7 @@ On a clean QA pass, place the deliverables and refresh state:
 ```bash
 cp build/meridian38.pdf  meridian-latest.pdf
 cp build/index.html      index.html
-# ...edit the ledgers in meridian-brand-prompt.md, then:
+# ...edit the ledgers in ledgers/*.md, then:
 python3 tools/extract_state.py       # regenerate state/*.json
 git add index.html meridian-latest.pdf meridian-brand-prompt.md state/ && git commit …
 ```

@@ -13,7 +13,16 @@ Run after editing the ledgers each issue:  python3 tools/extract_state.py
 """
 import re, json, pathlib
 
+# The ledgers live in their own files since 3 Aug 2026 (the tables outgrew the
+# brand prompt — 570KB of a 650KB file). Concatenate spec + ledgers so the
+# section-scanning below sees one document either way; rows_under() anchors on
+# the LAST occurrence of each heading, so the pointer stubs left in the brand
+# prompt never shadow the real tables.
 md = pathlib.Path("meridian-brand-prompt.md").read_text()
+for _lf in ("ledgers/issue-log.md", "ledgers/coverage-ledger.md", "ledgers/destination-ledger.md"):
+    _p = pathlib.Path(_lf)
+    if _p.exists():
+        md += "\n" + _p.read_text()
 state = pathlib.Path("state"); state.mkdir(exist_ok=True)
 
 
@@ -22,7 +31,7 @@ def rows_under(title):
     (up to the next '## ' heading). Anchors on the real H2 heading so it doesn't
     match a '### <title> PROTOCOL' subheading."""
     head = "\n## " + title
-    i = md.find(head)
+    i = md.rfind(head)
     if i == -1:
         return
     j = md.find("\n## ", i + len(head))
