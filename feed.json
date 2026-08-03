@@ -1,30 +1,30 @@
 {
  "publication": "MERIDIAN",
- "issue": 61,
- "date": "3 August 2026",
- "generated": "2026-08-03T06:10:02+08:00",
+ "issue": 62,
+ "date": "4 August 2026",
+ "generated": "2026-08-04T06:34:32+08:00",
  "quote": {
-  "text": "Well done is better than well said.",
-  "author": "Benjamin Franklin, Poor Richard's Almanack (1737)"
+  "text": "Nature loves to hide.",
+  "author": "Heraclitus, fragment (DK B123), c. 500 BCE"
  },
  "macro": {
   "title": "What It Means — VWRA, Bonds, Gold & BTC",
   "reads": [
    {
-    "label": "VWRA (held)",
-    "text": "still near 52-week highs; equities grind up, but a credibility-shy Fed and firm real yields are a headwind if the \"prove-it\" mood persists."
+    "label": "VWRA",
+    "text": "priced this week by the de-escalation relief and lower oil, not rates — hence record highs; the risk is a credibility-shy Fed and a firm long end reasserting once the oil relief is spent."
    },
    {
-    "label": "Global bonds (held)",
-    "text": "actively bearish — a 30-year at a 2007 high is a real repricing, so the equity–bond hedge is working less well."
+    "label": "Global bonds",
+    "text": "pinned near 52-week lows by the long-end selloff, so the equity–bond hedge works less well just as equities turn rich."
    },
    {
-    "label": "Gold (read)",
-    "text": "caught between war-haven demand and higher real yields; net, a deep pullback from January's record even with the war live."
+    "label": "Gold",
+    "text": "caught two ways — haven premium unwinding versus a softer dollar and a Fed-credibility hedge; net firmer near US$4,065."
    },
    {
-    "label": "Bitcoin (read)",
-    "text": "trading as a risk asset, not a hedge — soft below resistance in a liquidity-tight tape. The two you hold stay VWRA and global bonds; gold and BTC are read for sensitivity, not endorsed — and BTC's volatility is in a different league."
+    "label": "Bitcoin",
+    "text": "the tell — it did not join the record rally, slipping ~1.3% while stocks made highs, because tight liquidity prices it more than any Iran headline. Analysis of the moves, not a call."
    }
   ],
   "note": "",
@@ -37,8 +37,8 @@
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Gulf",
-   "headline": "A Ceasefire Announced Over a Strait Still Shut",
-   "dek": "Late Saturday, Trump called off the weekend's planned strikes on Iran and said the \"perimeters\" of a deal were set — the immediate opening of Hormuz, an end to the nuclear threat. By Sunday the strait was still closed, Tehran's hardliners were promising a \"decisive response,\" and eleven US embassies were telling Americans to think about leaving.",
+   "headline": "The Deal Both Sides Say Isn't Happening",
+   "dek": "A week after Trump called off the weekend strikes and claimed the \"perimeters\" of a deal, the deal has un-happened. On Monday Tehran denied it is talking to Washington at all, US officials told CBS no new negotiations are planned, and the president — contradicting both — pivoted to demanding \"Total Surrender.\" Oil, at least, took him at the softer word: Brent fell almost 5%.",
    "anchor": "p3",
    "featured": true
   },
@@ -47,8 +47,8 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · Open Models",
-   "headline": "The Budget Model That Laps Its Own Flagship",
-   "dek": "DeepSeek pushed V4-Flash-0731 to general availability on the last day of July — MIT-licensed, free to run, and beating the larger V4-Pro on its own agent benchmarks. It got there not by growing, but by being retrained. And at 13 billion active parameters, it is the first frontier-tier open model in months that plausibly fits on a single home rig.",
+   "headline": "Frontier Video, Open Weights, One Card",
+   "dek": "MiniMax dropped the weights of its H3 video model on Hugging Face this week, and ComfyUI merged native support the same day. It makes fifteen-second 2K clips with stereo sound in a single pass — and, at a 42-gigabyte footprint, it is the first frontier-class video generator that fits on a workstation instead of a cluster. The catch is in the licence, not the hardware.",
    "anchor": "p7",
    "featured": true
   },
@@ -57,8 +57,8 @@
    "sub": "The Far Edges",
    "category": "Science",
    "kicker": "Curiosities · Astronomy",
-   "headline": "The Companion in the Glare, Named at Last",
-   "dek": "For a century, astronomers suspected a second star hid inside Betelgeuse's light. Now a team has imaged it — a candidate at 6.1 sigma — and named it Siwarha, \"her bracelet.\" It is also, they think, doomed: dragged inward, to be swallowed within ten thousand years.",
+   "headline": "Two Rival Nations Catch Mars Losing Its Air",
+   "dek": "A study out this week caught the solar wind whipping waves onto the very edge of Mars's atmosphere and flinging it to space — and confirming it took NASA's and China's spacecraft watching at once. It is a detection, like this fortnight's others, made by reading a trace rather than seeing the thing.",
    "anchor": "p16",
    "featured": true
   },
@@ -66,9 +66,9 @@
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Transport",
-   "headline": "The West Gets Its Line — in the Late 2030s",
-   "dek": "LTA and SLA have fixed the alignment for Cross Island Line Phase 3: four stations from Jurong Lake District to Gul Circle, up to fifty minutes shaved off a far-western commute. Construction starts in 2027. The trains run \"late 2030s.\" The relief is real; so is the wait.",
+   "kicker": "Singapore · National Day",
+   "headline": "SG61 Comes Home to Kallang — Under a Red Sky Warning",
+   "dek": "Sunday's National Day Parade returns to the National Stadium for the first time in a decade, promising an indoor drone show and the biggest effects in NDP's history. Overhead, a forecast nobody controls: the region's haze outlook is on red for only the second time since 2019, with August and September named the danger months.",
    "anchor": "p5",
    "featured": false
   },
@@ -77,8 +77,8 @@
    "sub": "Bricks & Mortar",
    "category": "Property",
    "kicker": "Property · Land Sales",
-   "headline": "A Two-Billion-Dollar Bid Into a Cooling Market",
-   "dek": "The Bayshore Drive site drew a record S$2.128 billion — the first government land parcel outside the CBD ever to clear two billion. It was placed the same fortnight URA's own data showed private prices decelerating and the segment next door falling. Confidence, or a bet against the statistics?",
+   "headline": "A Tender Closes on the Southern Waterfront — and Nobody Yet Knows the Bid",
+   "dek": "At noon today the state's first land parcel in the Greater Southern Waterfront closes for tender, and the analysts can't agree whether developers will show up. One house sees four bidders and a cautious price; another sees seven and pays up. The bids reveal at the close — a rare case where the guess is all we have.",
    "anchor": "p6",
    "featured": false
   },
@@ -87,8 +87,8 @@
    "sub": "Gear We're Watching",
    "category": "Gadgets",
    "kicker": "The Kit · Wearables",
-   "headline": "Garmin Built a Screenless Whoop — and Forgot the Subscription",
-   "dek": "The CIRQA is a fabric band you wear round the clock for sleep, recovery and readiness. It ships at US$199.99, runs ten days on a charge, and — the part that stung the incumbents — works without a monthly fee. Whether it works during intervals is the open question.",
+   "headline": "A Bigger Battery, a Thinner Case, a Seven-Hundred-Dollar Ask",
+   "dek": "The Galaxy Watch Ultra 2 starts reaching wrists this week — 47mm of titanium, a screen that hits five thousand nits, and a battery a third larger than before. Reviewers call it Samsung's best watch yet. The awkward part: the endurance gain is smaller than the battery suggests, and the far cheaper Watch 9 does most of the same job.",
    "anchor": "p9",
    "featured": false
   },
@@ -96,9 +96,9 @@
    "desk": "The Connected Home",
    "sub": "Walls That Listen",
    "category": "Smart Home",
-   "kicker": "The Connected Home · Home Assistant",
-   "headline": "Home Assistant Rebuilds the Logbook — and Hands You the Delete Key",
-   "dek": "The 2026.8 beta turns the old Logbook into a day-grouped \"Activity\" feed, overhauls the Zigbee device manager, and gathers every IR blaster and RF bridge into one panel. It also ships a single button that can wipe a household's entire event history — and, for anyone mid-migration off Lutron, a reason to wait for the Friday patch.",
+   "kicker": "The Connected Home · Lighting",
+   "headline": "One Dimmer for Every Awkward Load",
+   "dek": "Lutron's new LED+ Pro Max dimmers reach distributors and Home Depot's site this month — a single switch engineered to tame the whole messy list of modern LED loads without the flicker and the buzz. They are, pointedly, not smart. For a Lutron-plus-Home-Assistant house, that is exactly the point.",
    "anchor": "p10",
    "featured": false
   },
@@ -106,9 +106,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Watches",
-   "headline": "A Myth You Can Wear, From a Film It Never Appears In",
-   "dek": "Hamilton and Christopher Nolan built a bronze field watch around The Odyssey — helmet-textured dial, sword-shaped hands, a caseback the director signed. It costs US$1,495, comes in an edition of 2,112, and is the purest object-lesson in the gap between the story and the thing: the watch is set in a Bronze Age that had no watches.",
+   "kicker": "The Good Life · Escapes",
+   "headline": "Japan Puts a Private Room Back on the Bullet Train",
+   "dek": "From October the Tokaido and Sanyo Shinkansen get \"Supreme Class\" private compartments — proper cabins with a door that shuts, the first of their kind on Japan's mainline bullet trains in a generation. Tickets open 15 September. And the yen, even after this week's rare rescue, is still soft enough to make the splurge sting less (p15).",
    "anchor": "p11",
    "featured": false
   },
@@ -117,8 +117,8 @@
    "sub": "Culture Desk",
    "category": "Culture",
    "kicker": "Screen & Sound · Box Office",
-   "headline": "Two Million Dollars Short of History",
-   "dek": "\"Spider-Man: Brand New Day\" opened to an estimated US$355 million domestic — the second-biggest debut ever, and just US$2 million behind \"Avengers: Endgame.\" Critics gave it a 90; audiences, a 98. The record it missed is what it will chase into its second weekend.",
+   "headline": "The Biggest Weekend the Movies Have Ever Had",
+   "dek": "Two films did it together. \"Spider-Man: Brand New Day\" opened to a record-setting US$355 million while Nolan's \"The Odyssey\" refused to fade — and between them Hollywood posted its largest domestic weekend in history, US$429 million, past the 2019 \"Endgame\" frame. The receipts are real. Whether the numbers mean what the headlines say is the honest question.",
    "anchor": "p12",
    "featured": false
   },
@@ -126,9 +126,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Schools",
-   "headline": "The Bans Arrive; the Parents Aren't Sure They Want Them",
-   "dek": "More than 35 US states now restrict phones in school, and this summer three of them — Illinois, Indiana, California — moved from law to live classroom. Yet in the same weeks, a survey found nine in ten parents still want their own child reachable during the day. The policy is the word; \"techxiety\" is what parents feel about the deed.",
+   "kicker": "The Family Desk · Screens",
+   "headline": "The World's Toughest Phone Law Meets Its First Report Card",
+   "dek": "Australia banned under-16s from social media outright — the furthest any country has gone. Eight months in, the first hard data landed this week: teen usage fell barely four points, accounts fell ten, and half the children were never even asked to prove their age. The lesson isn't that the ban failed. It's exactly what a ban can and can't do.",
    "anchor": "p13",
    "featured": false
   },
@@ -137,8 +137,8 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · Rates & the Regime",
-   "headline": "A New Fed Chair Talks Tough; the Thirty-Year Says Prove It",
-   "dek": "Kevin Warsh's Fed held rates on a bruising 9–3 vote — three dissents wanting a hike — and the bond market answered by sending the 30-year to its highest since 2007. Add a surprise MAS tightening and a firm dollar, and the regime writes itself: higher-for-longer, dollar-bid, and a portfolio that has to work with rising real yields.",
+   "headline": "Oil Crashes, Stocks Cheer — and the Bond Market Shrugs",
+   "dek": "The Iran de-escalation knocked almost 6% off crude in a day and lit a risk-on rally to fresh records — the S&P's first close above 7,600. But the long end of the bond market never flinched: the 30-year sits at a 2007 high, and the new Fed chair's credibility gap is untouched. Bitcoin, tellingly, sat the party out. Two clocks, running at different speeds.",
    "anchor": "p15",
    "featured": false
   },
@@ -147,8 +147,8 @@
    "sub": "The Human Desk",
    "category": "Life",
    "kicker": "Love & Life · Demography",
-   "headline": "The Children You Want May Depend on the Friends You Keep",
-   "dek": "A new fertility report finds that the young adults with the most supportive friendships want, on average, a full extra child compared with the loneliest — a gap that rivals religion. It is a striking correlation. It is also from an advocacy think tank, and measures what people say they want, not what they have.",
+   "headline": "Young People Still Want Families. They Say They Can't Afford Them.",
+   "dek": "The largest survey of its kind — 108,000 people across 73 countries — finds the barrier to the children young adults say they want isn't a change of heart. It's a bank balance: money, housing, job security. In the city with one of the world's lowest birth rates, that reads less like foreign news than a mirror.",
    "anchor": "p17",
    "featured": false
   },
@@ -157,8 +157,8 @@
    "sub": "The Long Game",
    "category": "Health",
    "kicker": "Fitness · The Science",
-   "headline": "Thirty Minutes in the Heat Moves Your Whole Immune System",
-   "dek": "A Finnish study found a single sauna session sends every class of white blood cell surging into the bloodstream — and back to normal within half an hour. It is a vivid finding, widely oversold. The floor of the longevity case, meanwhile, is still the least glamorous thing in the gym: the barbell.",
+   "headline": "It May Matter When You Train, Not Just How Much",
+   "dek": "A large ageing study finds that people whose activity is more rhythmic, regular and earlier in the day have higher aerobic fitness and move more efficiently — independent of how much they do in total. Treat it as an idea gaining traction, not a law. And the field's own scientists are quietly cooling the longevity hype the reader is sold daily.",
    "anchor": "p18",
    "featured": false
   },
@@ -168,17 +168,17 @@
    "category": "Events",
    "kicker": "The Diary · The Dated Agenda",
    "headline": "The On-Sales to Set an Alarm For",
-   "dek": "A heavy Singapore concert autumn, a marquee Grand Prix that becomes a two-race weekend, and a Tokyo calendar tilting into festival season. Two on-sale dates below are worth a reminder — the deed of booking beats the word of \"I'll get to it.\"",
+   "dek": "National Day comes home to Kallang, the Grand Prix confirms a two-race weekend with its headliners named, and a rare August sky invites a dark-sky trip. Two on-sale dates below are worth a reminder — the booking, not the intention, is what gets you in.",
    "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
-   "sub": "The Undercurrent",
+   "sub": "The Long Read",
    "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent",
-   "headline": "The County That Dared to Spend",
-   "dek": "The Western story about China this year is deflation, cautious consumers, youth who have given up. In the counties — the third-tier towns most correspondents never file from — a different story is running the other way. And in mid-July, China's own press declared it out loud: county spending had \"walked out of the sinking-market narrative.\" When the FT writes this in three weeks, remember where you read it first.",
+   "kicker": "The Long Read · Detection",
+   "headline": "The Planet at the Tip of a Pen",
+   "dek": "On a September night in 1846, an astronomer aimed his telescope at a patch of apparently empty sky and found a planet that had been discovered on paper first — deduced entirely from the wobble it left in another world's orbit. It is the founding story of a habit this whole issue runs on: when the thing itself won't show, read the trace it leaves.",
    "anchor": "p21",
    "featured": false
   }

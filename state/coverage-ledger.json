@@ -1,5 +1,5 @@
 {
-  "count": 364,
+  "count": 379,
   "subjects": [
     {
       "subject": "Garmin CIRQA",
@@ -2517,9 +2517,9 @@
     {
       "subject": "Beta Pictoris d (JWST exoplanet)",
       "type": "Science finding",
-      "last_covered": "No. 55",
-      "last_peg": "Curiosities LEAD — gas giant ~100× fainter than Beta Pic b, found by atmospheric CO/water/methane (not imaged); 2 teams, *ApJL* 15 Jul 2026",
-      "next_peg": "Discrete — next peg only on a direct image or a follow-up characterisation"
+      "last_covered": "No. 62",
+      "last_peg": "Curiosities LEAD No. 55; **called back (not re-led) in No. 62** as the exemplar of detection-by-chemistry threaded through the Long Read — no new peg, find has only firmed, confirmation still pending",
+      "next_peg": "Discrete/played out — next peg ONLY on a direct image or an independent confirming characterisation; do not re-lead without one"
     },
     {
       "subject": "IFL Watches × Perrelet Weekend GMT Atlas (watch)",
@@ -2548,6 +2548,111 @@
       "last_covered": "No. 58",
       "last_peg": "Ginza Sushi Arai (Parkroyal Collection Marina Bay — Tokyo edomae, master Arai in residence Jul–Sep = the book-now window; S$398++); Jiin Omakase (Shaw Centre, Les Amis Group, ise-ebi/lobster pao fan, from S$138); Visitors Café (Seongsu-style Korean, Tanjong Pagar, family/pet-friendly, too-crowded); Yi Man Fen \"Sugar Rush\" (313@Somerset, viral CN dessert, opened 15 Jul, too-new)",
       "next_peg": "Rotate venues next issue; re-peg on first settled reviews of Jiin/Sugar Rush"
+    },
+    {
+      "subject": "Samsung Galaxy Watch Ultra 2",
+      "type": "Product (wearable)",
+      "last_covered": "No. 62",
+      "last_peg": "The Kit LEAD — 47mm titanium, 5,000-nit AMOLED, 800mAh (+35%), Snapdragon Wear Elite; US$699/€749, early deliveries 4 Aug / GA 7 Aug; sceptic = runtime gain not proportional, no rotating bezel, Watch 9 near-identical, health gated to Samsung phones. Hero **gw-ultra2** (specific)",
+      "next_peg": "New-Peg: a Watch Ultra 3 or a real health-feature; skip a \"still on sale\" re-list"
+    },
+    {
+      "subject": "MiniMax H3 (Hailuo) open-weights video model",
+      "type": "AI model",
+      "last_covered": "No. 62",
+      "last_peg": "Technology LEAD — omni-modal video, 33B/~42.5GB (one card), open weights on HF 2–3 Aug, Day-1 ComfyUI PR #15224, \"Community License\" (>US$20M gated); sceptic = no benchmark table, trails Gemini/Seedance outside video-editing",
+      "next_peg": "New-Peg: the pending technical report / held-out benchmarks, or a successor"
+    },
+    {
+      "subject": "Kimi K3 (Moonshot open model)",
+      "type": "AI model",
+      "last_covered": "No. 62",
+      "last_peg": "Technology p8 — 2.8T/104B-active, ~1M ctx, #1 WebDev Arena (1,678 Elo); the \"un-runnable at home\" foil (~1.4TB, 96 shards); benchmark-gaming caveat",
+      "next_peg": "Developing — delta only (a runnable distill, or independent benchmark replication)"
+    },
+    {
+      "subject": "AMD/Nvidia 2026 GPU price hikes (DRAM shortage)",
+      "type": "Hardware trend",
+      "last_covered": "No. 62",
+      "last_peg": "Technology p8 — AMD's ~10% Radeon hike LIVE 1 Aug (both vendors aligned); RTX 5090 street ~$3,000+, RTX 60 to 2028, DRAM squeeze; SK Hynix \"2027 worst supply year\"",
+      "next_peg": "Developing — advance only on a real inflection (a price cut, a supply normalisation, a new SKU)"
+    },
+    {
+      "subject": "Lutron LED+ Pro Max dimmers",
+      "type": "Product (smart home)",
+      "last_covered": "No. 62",
+      "last_peg": "Connected Home LEAD — standalone (no-hub, no-app) mixed-load dimmers (Diva/Maestro/Sunnata); distributors + HomeDepot.com Aug, stores Sept; MSRP unpublished (trade SKU). Migrator angle = the \"dumb on purpose\" circuits",
+      "next_peg": "New-Peg: a connected variant, a price, or first installer reviews"
+    },
+    {
+      "subject": "Shinkansen \"Supreme Class\" private cabins",
+      "type": "Travel product",
+      "last_covered": "No. 62",
+      "last_peg": "Good Life LEAD — Tokaido/Sanyo private compartments from 1 Oct (¥60,500 two-person Car 7 / ¥42,100 solo Car 10); on sale 15 Sep via SmartEX. Hero **shinkansen-n700**",
+      "next_peg": "New-Peg: on-sale reception (15 Sep) or a first ride review; delta only after"
+    },
+    {
+      "subject": "KEF LS LUXE (wireless speakers)",
+      "type": "Product (audio)",
+      "last_covered": "No. 62",
+      "last_peg": "Good Life secondary — Ross Lovegrove design, 12th-gen Uni-Q, W2 platform 24/384+DSD; ~US$4,000/£3,500 pair, announced 30 Jul, What Hi-Fi 5★; Roon Ready slips to 2027 (the sceptic). No genuine LS LUXE image was directly fetchable this session; Good Life hard gate cleared instead with the specific Shinkansen escape hero, KEF given full text — NOT a mislabel",
+      "next_peg": "New-Peg: Roon Ready shipping (2027), or a review verdict/measurements"
+    },
+    {
+      "subject": "Spider-Man: Brand New Day (film)",
+      "type": "Product (film)",
+      "last_covered": "No. 62",
+      "last_peg": "Screen & Sound LEAD — RESOLVED & record: $354.8m domestic open (2nd-ever, $2.3m behind Endgame), $168m opening-DAY record, part of the record ~$429m all-films domestic weekend; RT 90/98; nominal-not-real sceptic",
+      "next_peg": "Played out — next peg = the 2nd-weekend hold (8–10 Aug, logged) or a real milestone; do not re-run the opening"
+    },
+    {
+      "subject": "The Odyssey (Nolan film)",
+      "type": "Product (film)",
+      "last_covered": "No. 62",
+      "last_peg": "Screen & Sound co-lead — >$320m domestic in 12 days ($727.9m WW, Nolan's biggest global bow); fuelled the record weekend",
+      "next_peg": "Played out — next peg = a final total or awards run, not a running tally"
+    },
+    {
+      "subject": "Blue Box Café by Tiffany × Julien Royer",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 62",
+      "last_peg": "The Table — first reviews in (opened 15 Jul): stunning room, \"camera-workout\" food critique; \"$78 Breakfast at Tiffany's,\" Royer/Odette menu",
+      "next_peg": "Played out — next peg only on a second outlet or a Michelin/critic verdict; The Table rotates"
+    },
+    {
+      "subject": "POP BAKERY (POP MART, RWS)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 62",
+      "last_peg": "The Table — now open (30 Jul) & reviewed: Labubu butter cookies, the daughter/collector pick; \"desserts won't appeal to everyone\"",
+      "next_peg": "Played out — next peg only on a real menu change or a second outlet"
+    },
+    {
+      "subject": "Tavola Aperta (Plaza Singapura)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 62",
+      "last_peg": "The Table — sub-S$20 handmade pasta, chef Mark Tan (ex-Felix Trattoria); \"too new to call\" (listings-level only)",
+      "next_peg": "New-Peg: a first full sit-down review (the value claim tested)"
+    },
+    {
+      "subject": "Australia under-16 social-media ban (first data)",
+      "type": "Policy/study",
+      "last_covered": "No. 62",
+      "last_peg": "Family Desk LEAD — eSafety report 31 Jul: use 85.9%→81.5%, accounts 52.4%→42.1%, ~half not age-checked, ~11% parent-assisted bypass; BMJ 12–13yo use unchanged; the \"legislating ≠ enforcing\" thread",
+      "next_peg": "Developing — next peg = the 12-month data (logged prediction) or an enforcement change"
+    },
+    {
+      "subject": "Mars atmospheric loss — Kelvin–Helmholtz waves",
+      "type": "Science finding",
+      "last_covered": "No. 62",
+      "last_peg": "Curiosities LEAD — *Science Advances* 1 Aug; NASA MAVEN + China Tianwen-1 dual observation catch the solar wind whipping \"wind-on-water\" waves that strip Mars's air",
+      "next_peg": "Discrete — next peg only on a follow-up or a competing mechanism"
+    },
+    {
+      "subject": "The Table (SG openings, No. 62)",
+      "type": "Standing (dining)",
+      "last_covered": "No. 62",
+      "last_peg": "Blue Box Café by Tiffany × Royer (ION, camera-workout); POP BAKERY/Labubu (RWS, the daughter pick); Tavola Aperta (Plaza Singapura, sub-S$20 pasta, too-new)",
+      "next_peg": "Rotate venues next issue; re-peg on Tavola Aperta's first full review"
     }
   ]
 }
