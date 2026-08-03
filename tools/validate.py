@@ -141,6 +141,17 @@ for _tic in ('is the story', 'the arithmetic', 'writes itself', 'the tell is', '
     _n = _text.count(_tic)
     if _n > 1:
         warns.append(f"voice: banned tic '{_tic}' used {_n}× (max 1) — rewrite per the VOICE CARD")
+# retired boilerplate — HARD errors (reader directive, 3 Aug / No. 61): the
+# Macro desk must never restate which instruments the reader holds; the daily
+# "the two you hold stay VWRA and global bonds; gold and BTC are read for
+# sensitivity" recital is banned outright (it also misstated the holdings —
+# the reader owns BTC). Analyse the instruments; skip the ownership commentary.
+if _issno >= 62:
+    for _ban in ('the two you hold', 'you hold stay', 'the reader holds',
+                 'read for sensitivity', 'read for their macro sensitivity',
+                 'not a recommendation to hold', 'anchors the reader actually holds'):
+        if _ban in _text:
+            errors.append(f"voice: retired boilerplate '{_ban}' — never restate the reader's holdings in print (reader directive, No. 61)")
 import pathlib as _pl
 def _prose(h):
     # editorial prose only: body paragraphs, deks, pulls — not chrome/furniture
