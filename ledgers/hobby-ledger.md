@@ -7,6 +7,15 @@
 |Hobby|Issue|Angle / one-line note|
 |-|-|-|
 
+### Queued (editor-selected — run in THIS order before consulting votes/pipeline; delete each row as it runs)
+
+|Hobby|Run order|Editor's focus|
+|-|-|-|
+|S&M (within consensual relationships)|1 (No. 63)|The consensual-kink community as a hobby world: the communities (FetLife, r/BDSMcommunity, munches, workshops), the craft-and-gear landscape (rope, leather, quality makers), the safety-and-consent culture (SSC/RACK, negotiation, aftercare) as the hobby's core discipline. Mature, tasteful, culture-focused — a window into the world, not a how-to manual and never explicit.|
+|Home electronic music production|2 (No. 64)|FOCUS: how the latest AI tools are actually used in the home studio (stem separation, AI mastering, generative plugins, the community's love/hate debates) alongside the classic DAW/hardware landscape (Ableton, synths, controllers).|
+|Home gardening|3 (No. 65)|FOCUS: people who do this in condos/apartments — balcony and indoor growing, grow lights, hydroponics/Kratky, the SG high-rise gardening scene (NParks community, local FB groups), what actually survives a tropical balcony.|
+|Sim racing|4 (No. 66)|FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room.|
+
 ### On-deck pipeline
 
 |Hobby|Category|Main communities to mine|Why this reader|
@@ -21,7 +30,6 @@
 |Fountain pens|Craft / collecting|r/fountainpens, Fountain Pen Network, Goulet/JetPens orbit, pen-show culture|Ink chemistry, grail pens, the analog-writing revival|
 |FPV drones|Making / sport|r/fpv, IntoFPV forum, Oscar Liang, Joshua Bardwell's channel, local flying groups|Build culture (solder-your-own), regulation reality in SG, racing vs freestyle|
 |Astrophotography|Nature / tech|r/AskAstrophotography, Cloudy Nights, Astrobin, smart-telescope wave (Seestar/Dwarf)|Smart telescopes just democratized it; light-pollution workarounds relevant to SG|
-|Sim racing|Sport / tech|r/simracing, iRacing forums, RaceDepartment, Boosted Media/GamerMuscle|Rig economics (wheel/pedals/motion), the e-sports crossover|
 |Bonsai|Nature / art|Bonsai Nut forum, r/Bonsai, Mirai Live (Ryan Neil), local SG bonsai societies|Patience-as-craft; tropical species actually suit Singapore|
 |Home brewing (beer)|Food / drink|r/Homebrewing, HomeBrewTalk, Brülosophy experiments|Process nerdery + the exBEERiment culture of testing brewing myths|
 |Birding|Nature|eBird/Cornell Lab orbit, r/birding, BirdForum, Singapore Birds Project & local FB groups|SG is genuinely world-class for it (Sungei Buloh); optics gear meta (binoculars/scopes)|

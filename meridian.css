@@ -123,3 +123,12 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 .cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
 .dark .hairline{background:#3a342c;}                      /* divider on dark pages */
  
+
+/* ---- The Rabbit Hole: "Next Descents" closing box (candidates for the next
+   hobby deep dive; the Photo Edition turns each .nextpick into a vote chip) */
+.nexthole{border:1px solid var(--line);border-left:3px solid var(--gold);background:var(--paper2);
+  padding:3mm 4mm;margin-top:4mm;}
+.nexthole .lbl{font-family:'Poppins',sans-serif;font-weight:700;font-size:7pt;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--gold-d,#8a6d1f);margin-bottom:2mm;}
+.nextpick{font-size:8.6pt;line-height:1.35;padding:1.2mm 0;border-top:1px dotted var(--line);}
+.nexthole .lbl + .nextpick{border-top:none;}

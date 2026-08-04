@@ -218,7 +218,18 @@ SCREEN_CSS = """
   transform:scale(1.08); box-shadow:0 1px 5px rgba(193,70,46,.4); }
 .fbrow.voted .fbk{ color:var(--vermilion); }
 .fbrow .fbk{ letter-spacing:.08em; text-transform:uppercase; align-self:center; }
-@media print { .ph-frame, #mprog, .m-chrome, .fbrow{ display:none !important; } }
+/* Next Descents: candidates become tappable vote chips on screen */
+.nextpick{ cursor:pointer; border-radius:3px; padding-left:6px !important; padding-right:6px !important;
+  transition:background .12s ease, box-shadow .12s ease; position:relative; }
+.nextpick:hover{ background:rgba(200,160,60,.12); }
+.nextpick.picked{ background:rgba(193,70,46,.10); box-shadow:inset 3px 0 0 var(--vermilion); }
+.nextpick.picked::after{ content:'\\2713 your pick'; font-family:'Poppins',sans-serif; font-size:7px;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--vermilion); float:right; margin-top:2px; }
+.nexthole .lbl::after{ content:' \\00b7 tap one to choose tomorrow\\2019s descent';
+  text-transform:none; letter-spacing:.02em; color:var(--muted); font-weight:400; }
+@media print { .ph-frame, #mprog, .m-chrome, .fbrow{ display:none !important; }
+  .nextpick.picked::after, .nexthole .lbl::after{ content:none !important; }
+  .nextpick.picked{ background:none; box-shadow:none; } }
 </style>
 """
 
@@ -514,6 +525,20 @@ JS = """
       });
     });
   });
+  var picks=[].slice.call(document.querySelectorAll('.nextpick'));
+  if(picks.length){
+    var pkey='mfb-'+issue+'-nexthole';
+    var chosen=null; try{ chosen=localStorage.getItem(pkey); }catch(e){}
+    picks.forEach(function(p){
+      if(chosen===p.dataset.hobby) p.classList.add('picked');
+      p.addEventListener('click',function(){
+        picks.forEach(function(x){x.classList.remove('picked');});
+        p.classList.add('picked');
+        try{ localStorage.setItem(pkey,p.dataset.hobby); }catch(e){}
+        post({type:'vote',issue:issue,desk:'Rabbit Hole Next',topic:p.dataset.hobby,vote:1});
+      });
+    });
+  }
   var md=document.getElementById('mdest');
   if(md) md.addEventListener('change',function(){ if(md.value){ location.href=md.value; md.selectedIndex=0; } });
   var mn=document.getElementById('mnote');
