@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # to dispatch the delivery workflows (see below)
 
 jobs:
   promote:
@@ -27,10 +28,12 @@ jobs:
           fetch-depth: 0
 
       - name: Fast-forward main to the edition commit
+        id: promote
         run: |
           git config user.name "meridian-promote"
           git config user.email "actions@users.noreply.github.com"
           git checkout main
+          OLD=$(git rev-parse main)
           if git merge --ff-only "$GITHUB_SHA"; then
             echo "fast-forwarded main to $GITHUB_SHA"
           else
@@ -39,6 +42,23 @@ jobs:
             git merge --no-edit "$GITHUB_SHA"
           fi
           git push origin main
+          echo "changed=$(git diff --name-only "$OLD" main | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      # A push made with GITHUB_TOKEN never triggers other push-based
+      # workflows (recursion guard), so path-triggered jobs would silently
+      # skip for promoted editions. workflow_dispatch is the documented
+      # exception — dispatch the deliveries the promoted commits call for.
+      - name: Dispatch follow-on workflows
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHANGED: ${{ steps.promote.outputs.changed }}
+        run: |
+          case " $CHANGED " in *" status.json "*)
+            gh workflow run deliver-remarkable.yml --ref main && echo "dispatched: deliver-remarkable";; esac
+          case " $CHANGED " in *" state/specials.json "*)
+            gh workflow run deliver-special.yml --ref main && echo "dispatched: deliver-special";; esac
+          case " $CHANGED " in *" assets/heroes/manifest.json "*)
+            gh workflow run fetch-heroes.yml --ref main && echo "dispatched: fetch-heroes";; esac
 
       - name: Clean up the routine branch
         run: git push origin --delete "${GITHUB_REF_NAME}" || true
