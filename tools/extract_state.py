@@ -21,7 +21,7 @@ import re, json, pathlib
 md = pathlib.Path("meridian-brand-prompt.md").read_text()
 for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
             "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
-            "ledgers/destination-ledger.md"):
+            "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -91,8 +91,23 @@ for cells in rows_under("DESTINATION LEDGER"):
 (state / "destination-ledger.json").write_text(json.dumps(
     {"count": len(dest), "destinations": dest}, indent=2, ensure_ascii=False))
 
+# ---- Hobby Ledger (The Rabbit Hole: Covered |Hobby|Issue|Angle| = 3 cells;
+# On-deck pipeline |Hobby|Category|Communities|Why| = 4 cells) ----
+hob_cov, hob_pipe = [], []
+for cells in rows_under("HOBBY LEDGER"):
+    if cells[0] in ("Hobby",):
+        continue
+    if len(cells) == 3:
+        hob_cov.append({"hobby": cells[0].strip("*"), "issue": cells[1], "angle": cells[2][:300]})
+    elif len(cells) >= 4:
+        hob_pipe.append({"hobby": cells[0].strip("*"), "category": cells[1],
+                         "communities": cells[2][:300], "fit": cells[3][:300]})
+(state / "hobby-ledger.json").write_text(json.dumps(
+    {"covered": hob_cov, "pipeline": hob_pipe}, indent=2, ensure_ascii=False))
+
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
-      f"{len(coverage)} coverage subjects, {len(dest)} destinations")
+      f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
+      f"{len(hob_cov)} hobbies covered / {len(hob_pipe)} on deck")
 
 # ---- note-discipline nudges (editor, 4 Aug 2026; soft warnings, never fail) ----
 # The newest note should be working memory (<=3,000 chars target) and must end

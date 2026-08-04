@@ -183,6 +183,38 @@ if _issno >= 63:
             errors.append(f"coverage: CLOSED/SATURATED subject '{_key}' at headline level — ruling: "
                           f"{_s['next_peg'][:90]}… To reopen on a genuinely major new peg, update the "
                           "subject's Coverage Ledger row first (ledgers/coverage-ledger.md), then rebuild state")
+
+# THE RABBIT HOLE (editor, 4 Aug 2026; from No. 63): the 3-page hobby deep
+# dive replaces The Connected Home, Curiosities and Love & Life — retired
+# desks may not reappear; the desk runs EVERY edition at exactly 3 pages
+# with deep-research footnote density; a hobby is covered ONCE, ever.
+if _issno >= 63:
+    for _dead in ('The Connected Home', 'Curiosities', 'Love & Life', 'Love &amp; Life'):
+        if _dead in _desk_pages:
+            errors.append(f"retired desk '{_dead}' is in the book — replaced by The Rabbit Hole (editor, 4 Aug 2026)")
+    _rh = _desk_pages.get('The Rabbit Hole', [])
+    if len(_rh) != 3:
+        errors.append(f"The Rabbit Hole: {len(_rh)} page(s) — the hobby deep dive is a fixed 3-page desk, every edition")
+    if _rh:
+        _rhblob = ''.join(_rh)
+        _rhfn = len(re.findall(r'<sup class="fnref">', _rhblob))
+        if _rhfn < 12:
+            errors.append(f"The Rabbit Hole: only {_rhfn} footnote markers (floor 12) — the deepest desk in the book must carry its research residue")
+        # once-only rule: a Covered hobby from an EARLIER issue must not headline again
+        import json as _json2
+        try:
+            _hob = _json2.load(open('state/hobby-ledger.json'))['covered']
+        except (OSError, ValueError, KeyError):
+            _hob = []
+        _rhheads = ' '.join(re.findall(r'<div class="(?:hed|dek|kicker)[^"]*"[^>]*>(.*?)</div>', _rhblob, re.S))
+        _rhheads = re.sub(r'<[^>]+>', ' ', _rhheads).lower()
+        for _hb in _hob:
+            _hm = re.search(r'(\d+)', str(_hb.get('issue', '')))
+            if _hm and int(_hm.group(1)) == _issno:
+                continue  # this issue's own row, logged before validation
+            _hkey = re.sub(r'\s*\(.*?\)', '', _hb['hobby']).strip().lower()
+            if len(_hkey) >= 5 and _hkey in _rhheads:
+                errors.append(f"The Rabbit Hole: hobby '{_hb['hobby']}' was already covered (No. {_hb.get('issue')}) — a hobby is covered ONCE, ever; pick from the pipeline in ledgers/hobby-ledger.md")
 import pathlib as _pl
 def _prose(h):
     # editorial prose only: body paragraphs, deks, pulls — not chrome/furniture

@@ -471,9 +471,6 @@ for _pd in _PRODUCT_HARD:
             _violations.append(f"{_pd} (NO hero entry at all — omission is not compliance; "
                                "hunt via WebSearch, add {{slug,url}} to assets/heroes/manifest.json, "
                                "push, let the fetch-heroes Action download it, or attest a genuinely empty hunt)")
-for entry in images.get("heroes", []):
-    if str(entry.get("issue")) == str(ISSUE) and 'The Connected Home' in entry.get("anchor","") and not entry.get("specific"):
-        print("  (advisory: Connected Home hero is representative — genuine product image preferred)")
 if _violations:
     print("FAIL: the genuine-product rule — these desks shipped generic imagery with no attestation:")
     for _v in _violations:
