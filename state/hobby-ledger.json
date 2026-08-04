@@ -1,5 +1,27 @@
 {
   "covered": [],
+  "queued": [
+    {
+      "hobby": "S&M (within consensual relationships)",
+      "order": "1 (No. 63)",
+      "focus": "The consensual-kink community as a hobby world: the communities (FetLife, r/BDSMcommunity, munches, workshops), the craft-and-gear landscape (rope, leather, quality makers), the safety-and-consent culture (SSC/RACK, negotiation, aftercare) as the hobby's core discipline. Mature, tasteful, culture-focused — a window into the world, not a how-to manual and never explicit."
+    },
+    {
+      "hobby": "Home electronic music production",
+      "order": "2 (No. 64)",
+      "focus": "FOCUS: how the latest AI tools are actually used in the home studio (stem separation, AI mastering, generative plugins, the community's love/hate debates) alongside the classic DAW/hardware landscape (Ableton, synths, controllers)."
+    },
+    {
+      "hobby": "Home gardening",
+      "order": "3 (No. 65)",
+      "focus": "FOCUS: people who do this in condos/apartments — balcony and indoor growing, grow lights, hydroponics/Kratky, the SG high-rise gardening scene (NParks community, local FB groups), what actually survives a tropical balcony."
+    },
+    {
+      "hobby": "Sim racing",
+      "order": "4 (No. 66)",
+      "focus": "FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room."
+    }
+  ],
   "pipeline": [
     {
       "hobby": "Headphone enthusiasts (IEMs & over-ears)",
@@ -60,12 +82,6 @@
       "category": "Nature / tech",
       "communities": "r/AskAstrophotography, Cloudy Nights, Astrobin, smart-telescope wave (Seestar/Dwarf)",
       "fit": "Smart telescopes just democratized it; light-pollution workarounds relevant to SG"
-    },
-    {
-      "hobby": "Sim racing",
-      "category": "Sport / tech",
-      "communities": "r/simracing, iRacing forums, RaceDepartment, Boosted Media/GamerMuscle",
-      "fit": "Rig economics (wheel/pedals/motion), the e-sports crossover"
     },
     {
       "hobby": "Bonsai",

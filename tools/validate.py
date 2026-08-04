@@ -200,6 +200,12 @@ if _issno >= 63:
         _rhfn = len(re.findall(r'<sup class="fnref">', _rhblob))
         if _rhfn < 12:
             errors.append(f"The Rabbit Hole: only {_rhfn} footnote markers (floor 12) — the deepest desk in the book must carry its research residue")
+        # Next Descents: the desk must close with exactly 3 vote-able candidates
+        _np = re.findall(r'class="nextpick"[^>]*data-hobby="([^"]+)"', _rhblob)
+        if len(_np) != 3:
+            errors.append(f"The Rabbit Hole: {len(_np)} Next-Descents candidates (need exactly 3 .nextpick items with data-hobby attrs in a .nexthole box) — the reader picks tomorrow's hobby from these")
+        elif 'class="nexthole"' not in _rhblob:
+            errors.append("The Rabbit Hole: .nextpick items found but no .nexthole wrapper — use the standing box (see the desk brief)")
         # once-only rule: a Covered hobby from an EARLIER issue must not headline again
         import json as _json2
         try:

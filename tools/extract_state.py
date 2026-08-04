@@ -91,19 +91,36 @@ for cells in rows_under("DESTINATION LEDGER"):
 (state / "destination-ledger.json").write_text(json.dumps(
     {"count": len(dest), "destinations": dest}, indent=2, ensure_ascii=False))
 
-# ---- Hobby Ledger (The Rabbit Hole: Covered |Hobby|Issue|Angle| = 3 cells;
-# On-deck pipeline |Hobby|Category|Communities|Why| = 4 cells) ----
-hob_cov, hob_pipe = [], []
-for cells in rows_under("HOBBY LEDGER"):
-    if cells[0] in ("Hobby",):
-        continue
-    if len(cells) == 3:
-        hob_cov.append({"hobby": cells[0].strip("*"), "issue": cells[1], "angle": cells[2][:300]})
-    elif len(cells) >= 4:
-        hob_pipe.append({"hobby": cells[0].strip("*"), "category": cells[1],
-                         "communities": cells[2][:300], "fit": cells[3][:300]})
+# ---- Hobby Ledger (The Rabbit Hole). Parsed by SUBSECTION because Covered
+# (|Hobby|Issue|Angle|) and Queued (|Hobby|Run order|Focus|) share a 3-cell
+# shape: '### Covered', '### Queued …', '### On-deck pipeline'. ----
+hob_cov, hob_queue, hob_pipe = [], [], []
+for _hm in re.finditer(r"(?m)^## HOBBY LEDGER\s*$", md):
+    _hend = md.find("\n## ", _hm.end())
+    _hblock = md[_hm.start(): _hend if _hend != -1 else len(md)]
+    for _sub in re.split(r"(?m)^### ", _hblock)[1:]:
+        _rows = []
+        for line in _sub.splitlines()[1:]:
+            s = line.strip()
+            if not s.startswith("|"):
+                continue
+            cells = [c.strip() for c in s.strip("|").split("|")]
+            if all(set(c) <= {"-", ":", " "} for c in cells) or cells[0] == "Hobby":
+                continue
+            _rows.append(cells)
+        _title = _sub.splitlines()[0].lower()
+        if _title.startswith("covered"):
+            hob_cov += [{"hobby": c[0].strip("*"), "issue": c[1], "angle": c[2][:300]}
+                        for c in _rows if len(c) >= 3]
+        elif _title.startswith("queued"):
+            hob_queue += [{"hobby": c[0].strip("*"), "order": c[1], "focus": c[2][:500]}
+                          for c in _rows if len(c) >= 3]
+        elif _title.startswith("on-deck"):
+            hob_pipe += [{"hobby": c[0].strip("*"), "category": c[1],
+                          "communities": c[2][:300], "fit": c[3][:300]}
+                         for c in _rows if len(c) >= 4]
 (state / "hobby-ledger.json").write_text(json.dumps(
-    {"covered": hob_cov, "pipeline": hob_pipe}, indent=2, ensure_ascii=False))
+    {"covered": hob_cov, "queued": hob_queue, "pipeline": hob_pipe}, indent=2, ensure_ascii=False))
 
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
