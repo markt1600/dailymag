@@ -6,12 +6,12 @@
 
 |Hobby|Issue|Angle / one-line note|
 |-|-|-|
+|S&M (within consensual relationships)|63|Consensual kink as a craft-and-community hobby world — shibari/rope makers and real prices, munches and FetLife, the SSC/RACK/PRICK consent discipline, the Singapore scene (SLAP!/ASS/U35), and the FetLife-failures sceptic. Tasteful, culture-focused, non-explicit.|
 
 ### Queued (editor-selected — run in THIS order before consulting votes/pipeline; delete each row as it runs)
 
 |Hobby|Run order|Editor's focus|
 |-|-|-|
-|S&M (within consensual relationships)|1 (No. 63)|The consensual-kink community as a hobby world: the communities (FetLife, r/BDSMcommunity, munches, workshops), the craft-and-gear landscape (rope, leather, quality makers), the safety-and-consent culture (SSC/RACK, negotiation, aftercare) as the hobby's core discipline. Mature, tasteful, culture-focused — a window into the world, not a how-to manual and never explicit.|
 |Gloomhaven playing|2 (No. 64)|The biggest board game of its era as a lifestyle: the campaign-night ritual, the organizer/insert economy, Frosthaven and the second-edition landscape, digital vs tabletop, the community's spoiler-averse culture (r/Gloomhaven, BGG), and what a hundred-plus-hour campaign does to a friend group.|
 |Home gardening|3 (No. 65)|FOCUS: people who do this in condos/apartments — balcony and indoor growing, grow lights, hydroponics/Kratky, the SG high-rise gardening scene (NParks community, local FB groups), what actually survives a tropical balcony.|
 |Sim racing|4 (No. 66)|FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room.|
