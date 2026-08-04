@@ -136,7 +136,10 @@ if _issno >= 52 and pages and '<img' not in pages[0]:
     errors.append("cover has no photograph — covers are photographic from No. 52 (see the cover brief; SVG fallback must be declared in the Issue Log)")
 
 # voice card: banned-tic counts (warn) + phrase recycling vs archived issues (warn)
-_text = re.sub(r'<[^>]+>', ' ', html).lower()
+# (strip <script> blocks first: the Photo Edition embeds the archive-search
+# manifest — old issues' text — inside scripts, which is not this book's prose)
+_noscript = re.sub(r'<script\b.*?</script>', ' ', html, flags=re.S | re.I)
+_text = re.sub(r'<[^>]+>', ' ', _noscript).lower()
 for _tic in ('is the story', 'the arithmetic', 'writes itself', 'the tell is', 'in one sentence', 'quietly became', 'does the pre-selling'):
     _n = _text.count(_tic)
     if _n > 1:
@@ -152,6 +155,34 @@ if _issno >= 62:
                  'not a recommendation to hold', 'anchors the reader actually holds'):
         if _ban in _text:
             errors.append(f"voice: retired boilerplate '{_ban}' — never restate the reader's holdings in print (reader directive, No. 61)")
+
+# THE CLOSED-SUBJECT GATE (editor, 4 Aug 2026; hard from No. 63): a Coverage
+# Ledger subject whose ruling says CLOSED or SATURATED may not appear at
+# HEADLINE level (hed/dek/kicker). Body-copy one-line deltas stay legal. To
+# legitimately reopen a subject on a genuinely major new peg, UPDATE ITS
+# LEDGER ROW FIRST (replace the ruling with the new peg) — this gate reads
+# the current row, so an updated ledger clears it; that is the point.
+if _issno >= 63:
+    import json as _json
+    try:
+        _cov = _json.load(open('state/coverage-ledger.json'))['subjects']
+    except (OSError, ValueError, KeyError):
+        _cov = []
+    _headline = ' '.join(re.findall(
+        r'<div class="(?:hed|dek|kicker)[^"]*"[^>]*>(.*?)</div>', html, re.S))
+    _headline = re.sub(r'<[^>]+>', ' ', _headline).lower()
+    _seen_keys = set()
+    for _s in _cov:
+        if not re.search(r'^\s*(\*\*)?(CLOSED|SATURATED)\b', _s.get('next_peg', '')):
+            continue
+        _key = re.sub(r'\s*\(.*?\)', '', _s['subject']).replace('*', '').strip()
+        if len(_key) < 6 or _key.lower() in _seen_keys:
+            continue
+        _seen_keys.add(_key.lower())
+        if _key.lower() in _headline:
+            errors.append(f"coverage: CLOSED/SATURATED subject '{_key}' at headline level — ruling: "
+                          f"{_s['next_peg'][:90]}… To reopen on a genuinely major new peg, update the "
+                          "subject's Coverage Ledger row first (ledgers/coverage-ledger.md), then rebuild state")
 import pathlib as _pl
 def _prose(h):
     # editorial prose only: body paragraphs, deks, pulls — not chrome/furniture

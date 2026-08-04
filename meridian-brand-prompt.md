@@ -301,10 +301,11 @@ Every edition ships **two files**: (A) the canonical **print PDF**, and (B) a **
 
 ### COVERAGE LEDGER PROTOCOL
 
-1. The **Coverage Ledger** (after the Issue Log) tracks DISCRETE / EVERGREEN subjects only — products, releases, awards, named events — *not* every passing news mention and *not* developing situations (those live in the Issue Log notes).
-2. **Before selection** (PROCESS step 2): check each discrete candidate against the ledger and apply the New-Peg Test. If it's listed and there's no new peg/angle, demote or drop it.
-3. **After the issue is final:** for any discrete subject given real coverage this edition, add a new row or update its existing row with the new peg and issue number. One row per subject; keep the "last peg covered" current.
-4. **Prune** rows whose subject is stale or fully played out (typically 30–60 days after its last live peg, or once an event has passed) so the ledger stays a fast lookup, not an archive.
+1. The **Coverage Ledger** (`ledgers/coverage-ledger.md`) tracks DISCRETE / EVERGREEN subjects only — products, releases, awards, named events — *not* every passing news mention and *not* developing situations (those live in the Issue Log notes). **Two files:** the working file holds the last ~15 issues' subjects plus every standing ruling; `ledgers/coverage-ledger-archive.md` holds aged-out concluded rows verbatim. Both feed `state/coverage-ledger.json` — the complete, fast dedup lookup.
+2. **Before selection** (PROCESS step 2): check each discrete candidate against `state/coverage-ledger.json` and apply the New-Peg Test. If it's listed and there's no new peg/angle, demote or drop it — and name it in the note's `Ledger check:` receipt.
+3. **THE CLOSED-SUBJECT HARD GATE (editor, 4 Aug 2026; enforced by `validate.py` from No. 63).** A subject whose ledger ruling begins **CLOSED** or **SATURATED** may not appear at HEADLINE level (hed/dek/kicker) — the build fails. A one-line body-copy delta stays legal where genuinely warranted. **To reopen a closed subject on a genuinely major new peg** (recall, discontinuation, a class-defining rival — the bar in the ruling itself): update the subject's ledger row FIRST, replacing the ruling with the new peg, run `extract_state.py`, and only then give it a slot — the gate reads the current row, so an honestly-updated ledger clears it. Editing the ruling without a real peg to cite is falsifying the ledger; don't.
+4. **After the issue is final:** for any discrete subject given real coverage this edition, add a new row or update its existing row with the new peg and issue number. One row per subject; keep the "last peg covered" current.
+5. **Prune** by moving rows to `ledgers/coverage-ledger-archive.md` once a subject is stale or fully played out (typically 30–60 days after its last live peg) — CLOSED/SATURATED rows NEVER leave the working file; they are the gate's source.
 
 ### DESTINATION LEDGER PROTOCOL (Weekend Travel Desk)
 
