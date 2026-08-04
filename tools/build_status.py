@@ -72,11 +72,16 @@ if stamp.exists():
 
 # token total measured by make_photo_edition (build/colophon.json) — the sum
 # of all request usage in this session's transcripts, subagents included.
-build_tokens = None
+build_tokens = token_breakdown = None
 colo = pathlib.Path("build/colophon.json")
 if colo.exists():
     try:
-        build_tokens = json.loads(colo.read_text()).get("tokens")
+        _c = json.loads(colo.read_text())
+        build_tokens = _c.get("tokens")
+        if build_tokens:
+            token_breakdown = {"input": _c.get("tokens_input"),
+                               "cached": _c.get("tokens_cached"),
+                               "output": _c.get("tokens_output")}
     except (ValueError, OSError):
         pass
 
@@ -89,6 +94,7 @@ status = {
     "startedAt": started_at,
     "buildMinutes": build_minutes,
     "buildTokens": build_tokens,
+    "buildTokenBreakdown": token_breakdown,
     "pages": pages,
     "qa": "pass",
     "url": "https://dailymag.marktan.ai",

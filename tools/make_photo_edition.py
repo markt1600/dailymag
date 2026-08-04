@@ -397,7 +397,7 @@ def _build_stats():
             st['minutes'] = round(_mins)
     except Exception:
         pass
-    tot = 0; out_toks = 0
+    tot = 0; in_toks = 0; cache_toks = 0; out_toks = 0
     try:
         for f in _glob.glob(_os.path.expanduser('~/.claude/projects/*/*.jsonl')):
             if _t0 and _os.path.getmtime(f) < _t0 - 300:
@@ -412,14 +412,17 @@ def _build_stats():
                         continue
                     if not isinstance(_u, dict):
                         continue
-                    tot += ((_u.get('input_tokens') or 0) + (_u.get('output_tokens') or 0)
-                            + (_u.get('cache_read_input_tokens') or 0)
-                            + (_u.get('cache_creation_input_tokens') or 0))
-                    out_toks += (_u.get('output_tokens') or 0)
+                    _in = (_u.get('input_tokens') or 0) + (_u.get('cache_creation_input_tokens') or 0)
+                    _cr = _u.get('cache_read_input_tokens') or 0
+                    _ot = _u.get('output_tokens') or 0
+                    in_toks += _in; cache_toks += _cr; out_toks += _ot
+                    tot += _in + _cr + _ot
     except Exception:
         pass
     if tot > 10000:
         st['tokens'] = tot
+        st['tokens_input'] = in_toks       # fresh input (incl. cache writes)
+        st['tokens_cached'] = cache_toks   # cache reads
         st['tokens_output'] = out_toks
     return st
 
@@ -432,7 +435,10 @@ if _stats.get('minutes'):
     _m = _stats['minutes']
     _parts.append(f"assembled in {_m//60}h{_m%60:02d}m" if _m >= 60 else f"assembled in {_m} min")
 if _stats.get('tokens'):
-    _parts.append(f"~{_fmt_tokens(_stats['tokens'])} tokens")
+    _parts.append(f"~{_fmt_tokens(_stats['tokens'])} tokens "
+                  f"({_fmt_tokens(_stats['tokens_input'])} in · "
+                  f"{_fmt_tokens(_stats['tokens_cached'])} cached · "
+                  f"{_fmt_tokens(_stats['tokens_output'])} out)")
 if _parts:
     _colo = '<div class="build-colophon">' + ' · '.join(_parts) + '</div>\n'
     _cend = html.find('</section>')
