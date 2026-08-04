@@ -20,6 +20,21 @@
       "hobby": "Sim racing",
       "order": "4 (No. 66)",
       "focus": "FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room."
+    },
+    {
+      "hobby": "Home beer making",
+      "order": "5",
+      "focus": "The all-grain-vs-extract path, the gear tiers (stovetop kit → all-in-one systems like Grainfather/Brewzilla → kegging and fermentation control), the exBEERiment culture of testing brewing myths (Brülosophy), recipe communities, and the tropical-climate fermentation problem a Singapore brewer actually faces."
+    },
+    {
+      "hobby": "Terrarium making",
+      "order": "6",
+      "focus": "Closed vs open terrariums, the bioactive/springtail ecosystem craft, the gear and materials landscape (glassware, aroids, mosses, substrate science, grow lights), the aesthetic schools (lush jungle vs hardscape), and the strong Singapore/SEA scene (tropical plants at hand, local makers and workshops)."
+    },
+    {
+      "hobby": "Gloomhaven playing",
+      "order": "7",
+      "focus": "The biggest board game of its era as a lifestyle: the campaign-night ritual, the organizer/insert economy, Frosthaven and the second-edition landscape, digital vs tabletop, the community's spoiler-averse culture (r/Gloomhaven, BGG), and what a hundred-plus-hour campaign does to a friend group."
     }
   ],
   "pipeline": [
@@ -88,12 +103,6 @@
       "category": "Nature / art",
       "communities": "Bonsai Nut forum, r/Bonsai, Mirai Live (Ryan Neil), local SG bonsai societies",
       "fit": "Patience-as-craft; tropical species actually suit Singapore"
-    },
-    {
-      "hobby": "Home brewing (beer)",
-      "category": "Food / drink",
-      "communities": "r/Homebrewing, HomeBrewTalk, Brülosophy experiments",
-      "fit": "Process nerdery + the exBEERiment culture of testing brewing myths"
     },
     {
       "hobby": "Birding",

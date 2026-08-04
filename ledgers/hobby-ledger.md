@@ -15,6 +15,9 @@
 |Home electronic music production|2 (No. 64)|FOCUS: how the latest AI tools are actually used in the home studio (stem separation, AI mastering, generative plugins, the community's love/hate debates) alongside the classic DAW/hardware landscape (Ableton, synths, controllers).|
 |Home gardening|3 (No. 65)|FOCUS: people who do this in condos/apartments — balcony and indoor growing, grow lights, hydroponics/Kratky, the SG high-rise gardening scene (NParks community, local FB groups), what actually survives a tropical balcony.|
 |Sim racing|4 (No. 66)|FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room.|
+|Home beer making|5|The all-grain-vs-extract path, the gear tiers (stovetop kit → all-in-one systems like Grainfather/Brewzilla → kegging and fermentation control), the exBEERiment culture of testing brewing myths (Brülosophy), recipe communities, and the tropical-climate fermentation problem a Singapore brewer actually faces.|
+|Terrarium making|6|Closed vs open terrariums, the bioactive/springtail ecosystem craft, the gear and materials landscape (glassware, aroids, mosses, substrate science, grow lights), the aesthetic schools (lush jungle vs hardscape), and the strong Singapore/SEA scene (tropical plants at hand, local makers and workshops).|
+|Gloomhaven playing|7|The biggest board game of its era as a lifestyle: the campaign-night ritual, the organizer/insert economy, Frosthaven and the second-edition landscape, digital vs tabletop, the community's spoiler-averse culture (r/Gloomhaven, BGG), and what a hundred-plus-hour campaign does to a friend group.|
 
 ### On-deck pipeline
 
@@ -31,7 +34,6 @@
 |FPV drones|Making / sport|r/fpv, IntoFPV forum, Oscar Liang, Joshua Bardwell's channel, local flying groups|Build culture (solder-your-own), regulation reality in SG, racing vs freestyle|
 |Astrophotography|Nature / tech|r/AskAstrophotography, Cloudy Nights, Astrobin, smart-telescope wave (Seestar/Dwarf)|Smart telescopes just democratized it; light-pollution workarounds relevant to SG|
 |Bonsai|Nature / art|Bonsai Nut forum, r/Bonsai, Mirai Live (Ryan Neil), local SG bonsai societies|Patience-as-craft; tropical species actually suit Singapore|
-|Home brewing (beer)|Food / drink|r/Homebrewing, HomeBrewTalk, Brülosophy experiments|Process nerdery + the exBEERiment culture of testing brewing myths|
 |Birding|Nature|eBird/Cornell Lab orbit, r/birding, BirdForum, Singapore Birds Project & local FB groups|SG is genuinely world-class for it (Sungei Buloh); optics gear meta (binoculars/scopes)|
 |Vintage watch collecting (affordable end)|Collecting|r/Watches, Omega Forums, Watchuseek vintage boards, eBay/auction sniping culture|Distinct from Good Life's new-release beat: the hunt, servicing, franken-watch perils|
 |LEGO (adult fans — AFOL)|Making / collecting|r/lego, Eurobricks, BrickLink MOC economy, RLFM YouTube|Investment sets vs building culture; the MOC design world|
