@@ -70,6 +70,16 @@ if stamp.exists():
     except ValueError:
         pass
 
+# token total measured by make_photo_edition (build/colophon.json) — the sum
+# of all request usage in this session's transcripts, subagents included.
+build_tokens = None
+colo = pathlib.Path("build/colophon.json")
+if colo.exists():
+    try:
+        build_tokens = json.loads(colo.read_text()).get("tokens")
+    except (ValueError, OSError):
+        pass
+
 status = {
     "publication": "MERIDIAN",
     "issue": issue,
@@ -78,6 +88,7 @@ status = {
     "builtAt": built_dt.isoformat(timespec="seconds"),
     "startedAt": started_at,
     "buildMinutes": build_minutes,
+    "buildTokens": build_tokens,
     "pages": pages,
     "qa": "pass",
     "url": "https://dailymag.marktan.ai",

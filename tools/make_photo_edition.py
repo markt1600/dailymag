@@ -227,6 +227,10 @@ SCREEN_CSS = """
   transform:scale(1.08); box-shadow:0 1px 5px rgba(193,70,46,.4); }
 .fbrow.voted .fbk{ color:var(--vermilion); }
 .fbrow .fbk{ letter-spacing:.08em; text-transform:uppercase; align-self:center; }
+/* the cover colophon: measured build time + tokens (machine-room honesty) */
+.build-colophon{ position:absolute; bottom:4mm; left:0; right:0; text-align:center;
+  font-family:'Poppins',sans-serif; font-size:6.5pt; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--blush); opacity:.72; }
 /* Next Descents: candidates become tappable vote chips on screen */
 .nextpick{ cursor:pointer; border-radius:3px; padding-left:6px !important; padding-right:6px !important;
   transition:background .12s ease, box-shadow .12s ease; position:relative; }
@@ -236,7 +240,7 @@ SCREEN_CSS = """
   letter-spacing:.1em; text-transform:uppercase; color:var(--vermilion); float:right; margin-top:2px; }
 .nexthole .lbl::after{ content:' \\00b7 tap one to choose tomorrow\\2019s descent';
   text-transform:none; letter-spacing:.02em; color:var(--muted); font-weight:400; }
-@media print { .ph-frame, #mprog, .m-chrome, .fbrow{ display:none !important; }
+@media print { .ph-frame, #mprog, .m-chrome, .fbrow, .build-colophon{ display:none !important; }
   .nextpick.picked::after, .nexthole .lbl::after{ content:none !important; }
   .nextpick.picked{ background:none; box-shadow:none; } }
 </style>
@@ -375,6 +379,71 @@ SPEC_SELECT = ('<select class="m-toggle" id="mspec" aria-label="Special editions
                + ('' if spec_options else ' hidden')
                + '><option value="">★ Specials</option>' + ''.join(spec_options) + '</select>')
 print(f'  specials picker: {len(spec_options)} entries at build time (runtime-refreshed)')
+
+# ---- 4e. the cover colophon: build time + tokens (screen-only, honest) ----
+# Time comes from build/.session-start (setup.sh stamps it at SessionStart);
+# tokens are summed from the session's own transcript files (~/.claude/projects/
+# */*.jsonl carry per-request usage, including subagents). Both are measured,
+# never estimated; if either can't be measured it is omitted, not invented.
+def _build_stats():
+    import os as _os, glob as _glob, time as _time, datetime as _dt
+    st = {}
+    _t0 = None
+    try:
+        _t0dt = _dt.datetime.fromisoformat(open('build/.session-start').read().strip())
+        _t0 = _t0dt.timestamp()
+        _mins = (_time.time() - _t0) / 60
+        if 0 < _mins < 600:
+            st['minutes'] = round(_mins)
+    except Exception:
+        pass
+    tot = 0; out_toks = 0
+    try:
+        for f in _glob.glob(_os.path.expanduser('~/.claude/projects/*/*.jsonl')):
+            if _t0 and _os.path.getmtime(f) < _t0 - 300:
+                continue  # stale transcript from another session in this container
+            with open(f, errors='ignore') as fh:
+                for line in fh:
+                    if '"usage"' not in line:
+                        continue
+                    try:
+                        _u = (json.loads(line).get('message') or {}).get('usage') or {}
+                    except Exception:
+                        continue
+                    if not isinstance(_u, dict):
+                        continue
+                    tot += ((_u.get('input_tokens') or 0) + (_u.get('output_tokens') or 0)
+                            + (_u.get('cache_read_input_tokens') or 0)
+                            + (_u.get('cache_creation_input_tokens') or 0))
+                    out_toks += (_u.get('output_tokens') or 0)
+    except Exception:
+        pass
+    if tot > 10000:
+        st['tokens'] = tot
+        st['tokens_output'] = out_toks
+    return st
+
+def _fmt_tokens(n):
+    return f"{n/1e9:.2f}B" if n >= 1e9 else (f"{n/1e6:.1f}M" if n >= 1e6 else f"{n/1e3:.0f}k")
+
+_stats = _build_stats()
+_parts = []
+if _stats.get('minutes'):
+    _m = _stats['minutes']
+    _parts.append(f"assembled in {_m//60}h{_m%60:02d}m" if _m >= 60 else f"assembled in {_m} min")
+if _stats.get('tokens'):
+    _parts.append(f"~{_fmt_tokens(_stats['tokens'])} tokens")
+if _parts:
+    _colo = '<div class="build-colophon">' + ' · '.join(_parts) + '</div>\n'
+    _cend = html.find('</section>')
+    if _cend != -1:
+        html = html[:_cend] + _colo + html[_cend:]
+    try:
+        pathlib.Path('build').mkdir(exist_ok=True)
+        pathlib.Path('build/colophon.json').write_text(json.dumps(_stats))
+    except OSError:
+        pass
+    print('  colophon:', ' · '.join(_parts))
 
 # ---- 5. body-top chrome ----
 CHROME = ('<body>\n'
