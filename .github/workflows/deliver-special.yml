@@ -1,0 +1,51 @@
+# Deliver a new SPECIAL EDITION's PDF to the reMarkable cloud.
+# Fires when state/specials.json changes on main (a special just shipped).
+name: Deliver special edition to reMarkable
+
+on:
+  push:
+    branches: [main]
+    paths: ["state/specials.json"]
+  workflow_dispatch:
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip if not paired or no specials
+        id: gate
+        env:
+          PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
+        run: |
+          COUNT=$(python3 -c "import json;print(len(json.load(open('state/specials.json')).get('specials',[])))")
+          if [ -z "$PASSPHRASE" ] || [ ! -f assets/remarkable/rmapi.conf.enc ] || [ "$COUNT" = "0" ]; then
+            echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-go@v5
+        if: steps.gate.outputs.go == 'yes'
+        with: { go-version: 'stable' }
+      - name: Install rmapi
+        if: steps.gate.outputs.go == 'yes'
+        run: |
+          git clone --depth 1 https://github.com/ddvk/rmapi /tmp/rmapi-src
+          cd /tmp/rmapi-src && go build -o "$HOME/rmapi" .
+      - name: Deliver the newest special
+        if: steps.gate.outputs.go == 'yes'
+        env:
+          PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
+        run: |
+          mkdir -p ~/.config/rmapi
+          openssl enc -d -aes-256-cbc -pbkdf2 -pass env:PASSPHRASE \
+            -in assets/remarkable/rmapi.conf.enc -out ~/.config/rmapi/rmapi.conf
+          RMAPI="$HOME"/rmapi
+          NO=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['no'])")
+          TOPIC=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['topic'])")
+          PDF=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['pdf'])")
+          NAME="MERIDIAN No. $NO - SPECIAL - $TOPIC"
+          $RMAPI mkdir /MERIDIAN 2>/dev/null || true
+          cp "$PDF" "$NAME.pdf"
+          $RMAPI put "$NAME.pdf" /MERIDIAN
+          echo "delivered: $NAME"

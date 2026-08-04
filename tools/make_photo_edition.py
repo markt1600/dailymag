@@ -27,6 +27,10 @@ src = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html")
 out = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "index.html")
 ISSUE = sys.argv[3] if len(sys.argv) > 3 else "37"
 DATE = sys.argv[4] if len(sys.argv) > 4 else "9 July 2026"
+# special editions pass "NN.5" — integer comparisons use the base issue
+ISSUE_BASE = int(float(ISSUE))
+# special editions also pass their own PDF filename (daily default unchanged)
+PDF_HREF = sys.argv[5] if len(sys.argv) > 5 else "meridian-latest.pdf"
 
 html = src.read_text()
 css = pathlib.Path("meridian.css").read_text()
@@ -356,14 +360,30 @@ HOB_SELECT = ('<select class="m-toggle" id="mhob" aria-label="Past Rabbit Hole h
               '<option value="">🕳 Hobbies</option>' + ''.join(hob_options) + '</select>') if hob_options else ''
 print(f'  hobbies picker: {len(hob_options)} entries')
 
+# special editions (one-topic NN.5 deep dives): options at build time from the
+# local ledger, then refreshed at page load from raw (a special published
+# mid-morning appears without rebuilding the daily). Hidden while empty.
+spec_options = []
+try:
+    with open('state/specials.json') as _fh:
+        for _sp in json.load(_fh).get('specials', []):
+            spec_options.append(f"<option value=\"{_sp['path']}\">No. {_sp['no']} · {_sp['topic']}</option>")
+except Exception:
+    pass
+spec_options.reverse()
+SPEC_SELECT = ('<select class="m-toggle" id="mspec" aria-label="Special editions"'
+               + ('' if spec_options else ' hidden')
+               + '><option value="">★ Specials</option>' + ''.join(spec_options) + '</select>')
+print(f'  specials picker: {len(spec_options)} entries at build time (runtime-refreshed)')
+
 # ---- 5. body-top chrome ----
 CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'
           '<div class="m-chrome">\n'
-          f'  <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
+          f'  <a class="pdf-dl" href="{PDF_HREF}" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
           f'  <nav class="mnav">{SECT_SELECT}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
-          + DEST_SELECT + HOB_SELECT +
+          + DEST_SELECT + HOB_SELECT + SPEC_SELECT +
           '<button class="m-toggle" id="mnote" type="button">✎ Note</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
@@ -451,7 +471,7 @@ _standing_slugs = {e.get("asset") for e in images.get("standing", [])}
 _recent_slugs = {e.get("asset") for e in images.get("heroes", [])
                  if e.get("issue") and e.get("asset")
                  and str(e["issue"]) != str(ISSUE)
-                 and str(e["issue"]).isdigit() and int(e["issue"]) >= int(ISSUE) - 3}
+                 and str(e["issue"]).isdigit() and int(e["issue"]) >= ISSUE_BASE - 3}
 fresh = 0
 for entry in images.get("heroes", []):
     if entry.get("issue") and str(entry["issue"]) != str(ISSUE):
@@ -468,7 +488,7 @@ for entry in images.get("heroes", []):
 # hero count toward the floor, which is the point: source something fresh.
 _prev_html = ''
 try:
-    _prevno = int(str(ISSUE)) - 1
+    _prevno = ISSUE_BASE - 1
     _pf = _os.path.join('archive', f'no-{_prevno}', 'index.html')
     if _os.path.exists(_pf):
         _prev_html = open(_pf, errors='ignore').read()
@@ -567,6 +587,16 @@ JS = """
         post({type:'vote',issue:issue,desk:row.dataset.desk,topic:row.dataset.topic,vote:+b.dataset.v});
       });
     });
+    var gd=document.createElement('button');
+    gd.type='button'; gd.textContent='\u2921'; gd.title='Request an ULTRA DEEP DIVE — a dedicated special edition on this topic';
+    gd.setAttribute('aria-label', gd.title);
+    gd.addEventListener('click',function(){
+      if(!confirm('Request a dedicated SPECIAL EDITION (a full ultra-deep-dive issue) on:\n\n\u201c'+row.dataset.topic+'\u201d?\n\nIt will be researched and published as No. '+issue+'.5.')) return;
+      post({type:'note',issue:issue,text:'SPECIAL EDITION REQUEST: '+row.dataset.topic+' (desk: '+row.dataset.desk+')'});
+      gd.textContent='\u2713'; gd.disabled=true;
+      if(fbk) fbk.textContent='deep dive requested';
+    });
+    row.appendChild(gd);
   });
   var picks=[].slice.call(document.querySelectorAll('.nextpick'));
   if(picks.length){
@@ -639,6 +669,21 @@ JS = """
     var t=document.getElementById(msel.value);
     if(t) window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-chromeH()-6, behavior:'smooth'});
   });
+  var ms=document.getElementById('mspec');
+  if(ms){
+    ms.addEventListener('change', function(){ if(ms.value){ location.href=ms.value; ms.selectedIndex=0; } });
+    fetch('https://raw.githubusercontent.com/markt1600/dailymag/main/state/specials.json',{cache:'no-store'})
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        var list=(d&&d.specials)||[]; if(!list.length) return;
+        while(ms.options.length>1) ms.remove(1);
+        list.slice().reverse().forEach(function(s){
+          var o=document.createElement('option'); o.value=s.path; o.textContent='No. '+s.no+' \u00b7 '+s.topic;
+          ms.appendChild(o);
+        });
+        ms.hidden=false;
+      }).catch(function(){});
+  }
   var mh=document.getElementById('mhob');
   if(mh) mh.addEventListener('change', function(){
     if(!mh.value) return;
