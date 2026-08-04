@@ -19,7 +19,9 @@ import re, json, pathlib
 # the LAST occurrence of each heading, so the pointer stubs left in the brand
 # prompt never shadow the real tables.
 md = pathlib.Path("meridian-brand-prompt.md").read_text()
-for _lf in ("ledgers/issue-log.md", "ledgers/coverage-ledger.md", "ledgers/destination-ledger.md"):
+for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
+            "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
+            "ledgers/destination-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -27,23 +29,24 @@ state = pathlib.Path("state"); state.mkdir(exist_ok=True)
 
 
 def rows_under(title):
-    """Yield the cells of each markdown table row in the '## <title>' section
-    (up to the next '## ' heading). Anchors on the real H2 heading so it doesn't
-    match a '### <title> PROTOCOL' subheading."""
-    head = "\n## " + title
-    i = md.rfind(head)
-    if i == -1:
-        return
-    j = md.find("\n## ", i + len(head))
-    block = md[i: j if j != -1 else len(md)]
-    for line in block.splitlines():
-        s = line.strip()
-        if not s.startswith("|"):
-            continue
-        cells = [c.strip() for c in s.strip("|").split("|")]
-        if all(set(c) <= {"-", ":", " "} for c in cells):   # separator row
-            continue
-        yield cells
+    """Yield the cells of each markdown table row from EVERY '## <title>'
+    section in the concatenated document (each section runs to the next '## '
+    heading). Aggregating all same-titled sections lets a ledger live in
+    several files — the working file plus an archive of trimmed rows — while
+    the pointer stub in the brand prompt (no table rows) contributes nothing.
+    Requires the exact H2 heading on its own line, so a '### <title> PROTOCOL'
+    subheading never matches."""
+    for m in re.finditer(r"(?m)^## " + re.escape(title) + r"\s*$", md):
+        j = md.find("\n## ", m.end())
+        block = md[m.start(): j if j != -1 else len(md)]
+        for line in block.splitlines():
+            s = line.strip()
+            if not s.startswith("|"):
+                continue
+            cells = [c.strip() for c in s.strip("|").split("|")]
+            if all(set(c) <= {"-", ":", " "} for c in cells):   # separator row
+                continue
+            yield cells
 
 
 # ---- Issue Log ----
