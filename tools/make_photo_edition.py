@@ -83,7 +83,12 @@ for sec in sections:
     seen_labels.add(label)
     navitems.append((pno, label))
 
-nav_links = "".join(f'<a class="mnav-link" href="#p{p}" data-target="p{p}">{lbl}</a>' for p, lbl in navitems)
+# One compact dropdown instead of a link per desk (editor, 4 Aug 2026 — the
+# nav row had outgrown the bar). The scroll-spy keeps it showing the current
+# section; choosing an entry jumps there.
+SECT_SELECT = ('<select class="m-toggle" id="msect" style="margin-left:0" aria-label="Jump to a section">'
+               + "".join(f'<option value="p{p}">{lbl}</option>' for p, lbl in navitems)
+               + '</select>')
 
 # ---- 2. auto-link in-issue cross references (body only) ----
 head_end = html.find("</head>")  # linkify only after head to avoid CSS
@@ -313,14 +318,52 @@ DEST_SELECT = ('<select class="m-toggle" id="mdest" aria-label="Past Grand Tour 
                '<option value="">✈ Destinations</option>' + ''.join(dest_options) + '</select>') if dest_options else ''
 print(f'  destinations picker: {len(dest_options)} entries')
 
+def _rabbit_hole_url(issue_no, current_issue, html_now):
+    import pathlib as _plh
+    if str(issue_no) == str(current_issue):
+        m = _re.search(r'<section id="(p\d+)"[^>]*>\s*<div class="rh"><span>(?:(?!</section>).)*?Meridian · The Rabbit Hole', html_now, _re.S)
+        return '#' + m.group(1) if m else None
+    f = _plh.Path(f'archive/no-{issue_no}/index.html')
+    if not f.exists():
+        return None
+    ah = f.read_text(errors='ignore')
+    _mrh = _re.search(r'Meridian · The Rabbit Hole</span>', ah)
+    anchor = ''
+    i = _mrh.start() if _mrh else -1
+    if i != -1:
+        ids = _re.findall(r'<section id="(p\d+)"', ah[:i])
+        anchor = '#' + ids[-1] if ids else ''
+    return f'archive/no-{issue_no}/index.html{anchor}'
+
+hob_options = []
+try:
+    with open('state/hobby-ledger.json') as _fh:
+        _hl = json.load(_fh)
+    _hrows = []
+    for _hb in _hl.get('covered', []):
+        _m = _re.search(r'(\d+)', str(_hb.get('issue', '')))
+        if not _m:
+            continue
+        _no = int(_m.group(1))
+        _url = _rabbit_hole_url(_no, ISSUE, html)
+        if _url:
+            _hrows.append((_no, _hb['hobby'].replace('\\&', '&'), _url))
+    for _no, _name, _url in sorted(_hrows, reverse=True):
+        hob_options.append(f'<option value="{_url}">{_name} · No. {_no}</option>')
+except Exception as _e:
+    print('  (hobbies picker skipped:', _e, ')')
+HOB_SELECT = ('<select class="m-toggle" id="mhob" aria-label="Past Rabbit Hole hobbies">'
+              '<option value="">🕳 Hobbies</option>' + ''.join(hob_options) + '</select>') if hob_options else ''
+print(f'  hobbies picker: {len(hob_options)} entries')
+
 # ---- 5. body-top chrome ----
 CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'
           '<div class="m-chrome">\n'
           f'  <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
-          f'  <nav class="mnav">{nav_links}'
+          f'  <nav class="mnav">{SECT_SELECT}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
-          + DEST_SELECT +
+          + DEST_SELECT + HOB_SELECT +
           '<button class="m-toggle" id="mnote" type="button">✎ Note</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
@@ -552,7 +595,6 @@ JS = """
   var root=document.documentElement;
   var prog=document.getElementById('mprog');
   var chrome=document.querySelector('.m-chrome');
-  var links=[].slice.call(document.querySelectorAll('.mnav-link'));
   var pages=[].slice.call(document.querySelectorAll('.page'));
 
   // honest direction arrows on the market strips: read the number's SIGN,
@@ -580,21 +622,32 @@ JS = """
   }
   window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
 
-  // active desk in the nav via IntersectionObserver
-  var byId={}; links.forEach(function(a){ byId[a.dataset.target]=a; });
+  // scroll-spy: the Sections dropdown always shows the section being read
+  var msel=document.getElementById('msect');
+  var sectIds={};
+  if(msel) [].forEach.call(msel.options,function(o){ sectIds[o.value]=true; });
   var io=new IntersectionObserver(function(es){
     es.forEach(function(e){
-      if(e.isIntersecting){
-        var a=byId[e.target.id];
-        if(a){ links.forEach(function(l){l.classList.remove('active');}); a.classList.add('active');
-          a.scrollIntoView({inline:'center',block:'nearest'}); }
-      }
+      if(e.isIntersecting && msel && sectIds[e.target.id]) msel.value=e.target.id;
     });
   },{rootMargin:'-45% 0px -50% 0px'});
-  pages.forEach(function(p){ if(byId[p.id]) io.observe(p); });
+  pages.forEach(function(p){ if(sectIds[p.id]) io.observe(p); });
 
   // offset smooth-scroll so the sticky chrome doesn't cover the target
   function chromeH(){ return chrome?chrome.getBoundingClientRect().height:0; }
+  if(msel) msel.addEventListener('change', function(){
+    var t=document.getElementById(msel.value);
+    if(t) window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-chromeH()-6, behavior:'smooth'});
+  });
+  var mh=document.getElementById('mhob');
+  if(mh) mh.addEventListener('change', function(){
+    if(!mh.value) return;
+    if(mh.value.charAt(0)==='#'){
+      var t=document.getElementById(mh.value.slice(1));
+      if(t) window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-chromeH()-6, behavior:'smooth'});
+      mh.selectedIndex=0;
+    } else { location.href=mh.value; }
+  });
   document.querySelectorAll('a[href^="#p"]').forEach(function(a){
     a.addEventListener('click', function(ev){
       var t=document.getElementById(a.getAttribute('href').slice(1));
