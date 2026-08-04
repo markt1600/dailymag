@@ -121,11 +121,15 @@ for _desk, _secs in _desk_pages.items():
 
 # page-two feature rotation (from No. 51): Friday needs The Meridian Index,
 # Saturday needs The Scoreboard. Weekday read from the cover's date line.
-_issm = re.search(r'No\.\s*(\d{1,3})\s*·\s*Singapore', html)
+_issm = re.search(r'No\.\s*(\d{1,3})(?:\.5)?\s*·\s*Singapore', html)
 _issno = int(_issm.group(1)) if _issm else 0
+# SPECIAL EDITIONS (No. NN.5): one-topic 24pp deep dives keep the full visual
+# system and quality floors but not the daily desk structure — desk-structure
+# gates are skipped for them below.
+_special = bool(re.search(r'No\.\s*\d+\.5\s*·\s*Singapore', html))
 _daym = re.search(r'\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b', pages[0] if pages else '')
 _day = _daym.group(1) if _daym else ''
-if _issno >= 51:
+if _issno >= 51 and not _special:
     if _day == 'Friday' and 'The Meridian Index' not in html:
         errors.append("Friday issue is missing 'The Meridian Index' page-two feature (see THE PAGE-TWO FEATURE)")
     if _day == 'Saturday' and 'The Scoreboard' not in html:
@@ -162,7 +166,8 @@ if _issno >= 62:
 # legitimately reopen a subject on a genuinely major new peg, UPDATE ITS
 # LEDGER ROW FIRST (replace the ruling with the new peg) — this gate reads
 # the current row, so an updated ledger clears it; that is the point.
-if _issno >= 63:
+# (Specials are exempt: an ultra-deep-dive request IS the editor reopening it.)
+if _issno >= 63 and not _special:
     import json as _json
     try:
         _cov = _json.load(open('state/coverage-ledger.json'))['subjects']
@@ -192,6 +197,7 @@ if _issno >= 63:
     for _dead in ('The Connected Home', 'Curiosities', 'Love & Life', 'Love &amp; Life'):
         if _dead in _desk_pages:
             errors.append(f"retired desk '{_dead}' is in the book — replaced by The Rabbit Hole (editor, 4 Aug 2026)")
+if _issno >= 63 and not _special:
     _rh = _desk_pages.get('The Rabbit Hole', [])
     if len(_rh) != 3:
         errors.append(f"The Rabbit Hole: {len(_rh)} page(s) — the hobby deep dive is a fixed 3-page desk, every edition")
