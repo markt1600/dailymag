@@ -1,11 +1,17 @@
 {
  "publication": "MERIDIAN",
- "issue": 62,
- "date": "4 August 2026",
- "isoDate": "2026-08-04",
- "builtAt": "2026-08-04T06:34:32+08:00",
+ "issue": 63,
+ "date": "5 August 2026",
+ "isoDate": "2026-08-05",
+ "builtAt": "2026-08-05T06:22:33+08:00",
  "startedAt": null,
  "buildMinutes": null,
+ "buildTokens": 94105608,
+ "buildTokenBreakdown": {
+  "input": 1543665,
+  "cached": 91653190,
+  "output": 908753
+ },
  "pages": 24,
  "qa": "pass",
  "url": "https://dailymag.marktan.ai"

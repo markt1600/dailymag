@@ -1,74 +1,51 @@
 {
  "publication": "MERIDIAN",
- "issue": 62,
- "date": "4 August 2026",
- "generated": "2026-08-04T06:34:32+08:00",
+ "issue": 63,
+ "date": "5 August 2026",
+ "generated": "2026-08-05T06:22:33+08:00",
  "quote": {
-  "text": "Nature loves to hide.",
-  "author": "Heraclitus, fragment (DK B123), c. 500 BCE"
+  "text": "It is not the oath that makes us believe the man, but the man the oath.",
+  "author": "Aeschylus, fragment (5th c. BCE)"
  },
- "macro": {
-  "title": "What It Means — VWRA, Bonds, Gold & BTC",
-  "reads": [
-   {
-    "label": "VWRA",
-    "text": "priced this week by the de-escalation relief and lower oil, not rates — hence record highs; the risk is a credibility-shy Fed and a firm long end reasserting once the oil relief is spent."
-   },
-   {
-    "label": "Global bonds",
-    "text": "pinned near 52-week lows by the long-end selloff, so the equity–bond hedge works less well just as equities turn rich."
-   },
-   {
-    "label": "Gold",
-    "text": "caught two ways — haven premium unwinding versus a softer dollar and a Fed-credibility hedge; net firmer near US$4,065."
-   },
-   {
-    "label": "Bitcoin",
-    "text": "the tell — it did not join the record rally, slipping ~1.3% while stocks made highs, because tight liquidity prices it more than any Iran headline. Analysis of the moves, not a call."
-   }
-  ],
-  "note": "",
-  "regime": [],
-  "anchor": "p15"
- },
+ "macro": null,
  "stories": [
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Gulf",
-   "headline": "The Deal Both Sides Say Isn't Happening",
-   "dek": "A week after Trump called off the weekend strikes and claimed the \"perimeters\" of a deal, the deal has un-happened. On Monday Tehran denied it is talking to Washington at all, US officials told CBS no new negotiations are planned, and the president — contradicting both — pivoted to demanding \"Total Surrender.\" Oil, at least, took him at the softer word: Brent fell almost 5%.",
+   "kicker": "The World · The Strait",
+   "headline": "A Ship Burns Where the Deal Was Supposed to Be",
+   "dek": "A bulker was abandoned in flames off Oman on the night of 3–4 August, one seafarer missing, hours after Trump gave Tehran a \"last chance before decapitation\" and Rubio claimed progress. Iran, again, denied it is talking to Washington at all — only to Oman, only about the strait. Oil, which had fallen on the deal talk, bounced on the fire.",
    "anchor": "p3",
    "featured": true
   },
   {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Open Models",
-   "headline": "Frontier Video, Open Weights, One Card",
-   "dek": "MiniMax dropped the weights of its H3 video model on Hugging Face this week, and ComfyUI merged native support the same day. It makes fifteen-second 2K clips with stereo sound in a single pass — and, at a 42-gigabyte footprint, it is the first frontier-class video generator that fits on a workstation instead of a cluster. The catch is in the licence, not the hardware.",
-   "anchor": "p7",
+   "desk": "The Macro Desk",
+   "sub": "The Big Picture",
+   "category": "Markets",
+   "kicker": "The Macro Desk · The Portfolio Lens",
+   "headline": "A Record High, Bought on an Unsigned Deal",
+   "dek": "Oil fell almost 5%, equities printed records, and a global all-world portfolio sat within a whisker of its all-time high — all of it resting on a Hormuz agreement that, as The World notes on p3, no one has actually signed.",
+   "anchor": "p14",
    "featured": true
   },
   {
-   "desk": "Curiosities",
-   "sub": "The Far Edges",
-   "category": "Science",
-   "kicker": "Curiosities · Astronomy",
-   "headline": "Two Rival Nations Catch Mars Losing Its Air",
-   "dek": "A study out this week caught the solar wind whipping waves onto the very edge of Mars's atmosphere and flinging it to space — and confirming it took NASA's and China's spacecraft watching at once. It is a detection, like this fortnight's others, made by reading a trace rather than seeing the thing.",
-   "anchor": "p16",
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Long Read · The Undercurrent",
+   "headline": "The Cathedral on the Assembly Line",
+   "dek": "This summer, the hottest thing to do in China on a weekend is to go and watch a factory work. It is a Xiaohongshu check-in craze, a policy campaign, and — read closely — a mirror the West is not ready to look into: the same building that means loss in Detroit means the future in Shenzhen.",
+   "anchor": "p21",
    "featured": true
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · National Day",
-   "headline": "SG61 Comes Home to Kallang — Under a Red Sky Warning",
-   "dek": "Sunday's National Day Parade returns to the National Stadium for the first time in a decade, promising an indoor drone show and the biggest effects in NDP's history. Overhead, a forecast nobody controls: the region's haze outlook is on red for only the second time since 2019, with August and September named the danger months.",
+   "kicker": "Singapore · The Courts",
+   "headline": "The Defendant Who Didn't Show",
+   "dek": "Lim Tean was due at the State Courts at noon on 3 August to begin a jail term. He did not arrive, his lawyer could not reach him, and a warrant of arrest was issued for a sitting opposition leader — with a review of that warrant now fixed for 17 August.",
    "anchor": "p5",
    "featured": false
   },
@@ -76,89 +53,79 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · Land Sales",
-   "headline": "A Tender Closes on the Southern Waterfront — and Nobody Yet Knows the Bid",
-   "dek": "At noon today the state's first land parcel in the Greater Southern Waterfront closes for tender, and the analysts can't agree whether developers will show up. One house sees four bidders and a cautious price; another sees seven and pays up. The bids reveal at the close — a rare case where the guess is all we have.",
+   "kicker": "Property · Government Land Sales",
+   "headline": "One Bid for the Waterfront",
+   "dek": "The first residential plot in the Greater Southern Waterfront closed on 4 August with exactly one offer — yet that lone bid came in above what the valuers had guessed. A strong price and a thin field, arriving together, is the tell the whole market is now reading.",
    "anchor": "p6",
+   "featured": false
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · The Compute Wall",
+   "headline": "China Pulls Its Own Silicon Forward",
+   "dek": "Huawei has moved its next accelerator, the Ascend 950DT, into service months early, with DeepSeek's next model lined up to run on it. The pitch is compute independence. The catch is that the fabs behind it still can't make enough — and the price of everyone's silicon is rising in step.",
+   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Wearables",
-   "headline": "A Bigger Battery, a Thinner Case, a Seven-Hundred-Dollar Ask",
-   "dek": "The Galaxy Watch Ultra 2 starts reaching wrists this week — 47mm of titanium, a screen that hits five thousand nits, and a battery a third larger than before. Reviewers call it Samsung's best watch yet. The awkward part: the endurance gain is smaller than the battery suggests, and the far cheaper Watch 9 does most of the same job.",
+   "kicker": "The Kit · Personal Audio",
+   "headline": "The Flagship That Lets You Change the Battery",
+   "dek": "Sennheiser's MOMENTUM 5 Wireless has been out since June; what's new is the verdict. The review wave has settled on a sound-first over-ear whose real trick is quiet heresy in a sealed-in category — a battery the owner can replace.",
    "anchor": "p9",
-   "featured": false
-  },
-  {
-   "desk": "The Connected Home",
-   "sub": "Walls That Listen",
-   "category": "Smart Home",
-   "kicker": "The Connected Home · Lighting",
-   "headline": "One Dimmer for Every Awkward Load",
-   "dek": "Lutron's new LED+ Pro Max dimmers reach distributors and Home Depot's site this month — a single switch engineered to tame the whole messy list of modern LED loads without the flicker and the buzz. They are, pointedly, not smart. For a Lutron-plus-Home-Assistant house, that is exactly the point.",
-   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Escapes",
-   "headline": "Japan Puts a Private Room Back on the Bullet Train",
-   "dek": "From October the Tokaido and Sanyo Shinkansen get \"Supreme Class\" private compartments — proper cabins with a door that shuts, the first of their kind on Japan's mainline bullet trains in a generation. Tickets open 15 September. And the yen, even after this week's rare rescue, is still soft enough to make the splurge sting less (p15).",
-   "anchor": "p11",
+   "kicker": "The Good Life · The Escape",
+   "headline": "A Ryokan Trades Its Kaiseki for a Wine List",
+   "dek": "Hoshino Resorts reopened KAI Matsumoto this week after a full renovation — and did something its brand has never done: replaced the traditional kaiseki dinner with a refined Italian menu paired to Nagano's own wines. It is either a clever read of the modern traveller or a small heresy, depending on who you ask.",
+   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Box Office",
-   "headline": "The Biggest Weekend the Movies Have Ever Had",
-   "dek": "Two films did it together. \"Spider-Man: Brand New Day\" opened to a record-setting US$355 million while Nolan's \"The Odyssey\" refused to fade — and between them Hollywood posted its largest domestic weekend in history, US$429 million, past the 2019 \"Endgame\" frame. The receipts are real. Whether the numbers mean what the headlines say is the honest question.",
-   "anchor": "p12",
+   "kicker": "Screen & Sound · Music",
+   "headline": "Weezer Promises Its Angriest Record",
+   "dek": "Three decades and twenty albums in, Weezer calls the self-titled \"Gold Album,\" out 21 August, \"the most violent Weezer album ever.\" It is a claim, not a review — and the calendar is thick with claims this month, from a sooner DMA's LP to two late-August tentpoles no one has scored yet.",
+   "anchor": "p11",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Screens",
-   "headline": "The World's Toughest Phone Law Meets Its First Report Card",
-   "dek": "Australia banned under-16s from social media outright — the furthest any country has gone. Eight months in, the first hard data landed this week: teen usage fell barely four points, accounts fell ten, and half the children were never even asked to prove their age. The lesson isn't that the ban failed. It's exactly what a ban can and can't do.",
-   "anchor": "p13",
+   "kicker": "The Family Desk · Screens & the Law",
+   "headline": "The Ban They Signed, the Rule They Live",
+   "dek": "Australia wrote the world's toughest law against under-16s on social media. Eight months in, its own regulator finds more than eight in ten of them still scrolling. The lesson for a Singapore household is less about the wall than about the door nobody guarded.",
+   "anchor": "p12",
    "featured": false
   },
   {
-   "desk": "The Macro Desk",
-   "sub": "The Big Picture",
-   "category": "Markets",
-   "kicker": "The Macro Desk · Rates & the Regime",
-   "headline": "Oil Crashes, Stocks Cheer — and the Bond Market Shrugs",
-   "dek": "The Iran de-escalation knocked almost 6% off crude in a day and lit a risk-on rally to fresh records — the S&P's first close above 7,600. But the long end of the bond market never flinched: the 30-year sits at a 2007 high, and the new Fed chair's credibility gap is untouched. Bitcoin, tellingly, sat the party out. Two clocks, running at different speeds.",
+   "desk": "The Rabbit Hole",
+   "sub": "Down the Rabbit Hole",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · The Invitation",
+   "headline": "The Community That Negotiates Everything",
+   "dek": "In a week when the powerful keep announcing agreements no one has signed, this desk descends into the one subculture built the other way round — where nothing proceeds without an explicit, negotiated yes. Strip away the mythology and consensual kink behaves less like a fetish than like a craft: obsessive about gear, organised around workshops, and governed by a discipline it calls consent.",
    "anchor": "p15",
-   "featured": false
-  },
-  {
-   "desk": "Love & Life",
-   "sub": "The Human Desk",
-   "category": "Life",
-   "kicker": "Love & Life · Demography",
-   "headline": "Young People Still Want Families. They Say They Can't Afford Them.",
-   "dek": "The largest survey of its kind — 108,000 people across 73 countries — finds the barrier to the children young adults say they want isn't a change of heart. It's a bank balance: money, housing, job security. In the city with one of the world's lowest birth rates, that reads less like foreign news than a mirror.",
-   "anchor": "p17",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Science",
-   "headline": "It May Matter When You Train, Not Just How Much",
-   "dek": "A large ageing study finds that people whose activity is more rhythmic, regular and earlier in the day have higher aerobic fitness and move more efficiently — independent of how much they do in total. Treat it as an idea gaining traction, not a law. And the field's own scientists are quietly cooling the longevity hype the reader is sold daily.",
+   "kicker": "Fitness · The Dose",
+   "headline": "Two Hours of Iron a Week — and Not Much More",
+   "dek": "A thirty-year study of nearly 150,000 adults finds a strength-training sweet spot around 90 to 120 minutes a week, with the benefit flattening — and in places reversing — past it. For a mid-40s optimiser, the useful news is the ceiling, not the floor.",
    "anchor": "p18",
    "featured": false
   },
@@ -166,20 +133,10 @@
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · The Dated Agenda",
-   "headline": "The On-Sales to Set an Alarm For",
-   "dek": "National Day comes home to Kallang, the Grand Prix confirms a two-race weekend with its headliners named, and a rare August sky invites a dark-sky trip. Two on-sale dates below are worth a reminder — the booking, not the intention, is what gets you in.",
+   "kicker": "The Diary · The Agenda",
+   "headline": "What's Worth Booking",
+   "dek": "A thick autumn is filling up — a stadium run of pop, a sumo basho whose good seats vanish the day they go on sale, and the digital-art room the eleven-year-old will actually thank you for.",
    "anchor": "p19",
-   "featured": false
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Long Read",
-   "category": "Essay",
-   "kicker": "The Long Read · Detection",
-   "headline": "The Planet at the Tip of a Pen",
-   "dek": "On a September night in 1846, an astronomer aimed his telescope at a patch of apparently empty sky and found a planet that had been discovered on paper first — deduced entirely from the wobble it left in another world's orbit. It is the founding story of a habit this whole issue runs on: when the thing itself won't show, read the trace it leaves.",
-   "anchor": "p21",
    "featured": false
   }
  ]

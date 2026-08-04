@@ -1,5 +1,5 @@
 {
-  "count": 379,
+  "count": 387,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1248,6 +1248,62 @@
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
     },
     {
+      "subject": "Huawei Ascend 950DT / DeepSeek V4.2",
+      "type": "Product (AI silicon/model)",
+      "last_covered": "No. 63",
+      "last_peg": "Technology LEAD — Ascend 950DT deployment pulled forward to Aug (from Q4); DeepSeek V4.2 tipped on domestic silicon; ~20% Huawei price rise; compute-independence peg (follows V4 on Ascend 950PR ~2.8× H20)",
+      "next_peg": "Next peg = 950DT go-live confirmed / V4.2 ships (Ascend vs Nvidia); silicon-inflation throughline continues. Prediction logged."
+    },
+    {
+      "subject": "Hoshino KAI Matsumoto (reopening)",
+      "type": "Venue (travel/ryokan)",
+      "last_covered": "No. 63",
+      "last_peg": "Good Life LEAD — reopened 4 Aug after renovation; first KAI to swap kaiseki for a wine-paired Italian menu (Nagano wines); 8 spring types / 13 variations",
+      "next_peg": "Next peg = first trip-report verdicts on the Italian-dinner gamble. Prediction logged."
+    },
+    {
+      "subject": "Weezer — \"Gold Album\"",
+      "type": "Music release",
+      "last_covered": "No. 63",
+      "last_peg": "Screen & Sound LEAD — 20th album, self-titled Gold, out 21 Aug, \"most violent Weezer ever\"; singles \"Shine Again,\" \"We Might As Well Be Strangers\" (feat. Karly Hartzman)",
+      "next_peg": "Next peg = release-day reception (21 Aug); does the \"heavier\" claim survive the reviews? Prediction logged."
+    },
+    {
+      "subject": "Berlayar Drive GLS (GSW site one)",
+      "type": "Land sale / development",
+      "last_covered": "No. 63",
+      "last_peg": "Property LEAD — result: lone bid S$576.78m / S$1,515 psf ppr (Intrepid/Hong Leong + GuocoLand), ~415 units, above valuers; thin-field pattern",
+      "next_peg": "Next peg = launch pricing, or the New Upper Changi GLS result (closes 1 Sep) as the comparison. Prediction logged."
+    },
+    {
+      "subject": "Michelin Guide Singapore 2026",
+      "type": "Award (dining)",
+      "last_covered": "No. 63",
+      "last_peg": "The Table peg — 10th edition unveiled 4 Aug; Seroja promoted to 2 stars; Les Amis/Odette/Zén keep 3; six new 1-stars",
+      "next_peg": "Annual — next peg = the 2027 edition or a mid-year promotion/loss."
+    },
+    {
+      "subject": "Sio Pasta (Raffles City)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 63",
+      "last_peg": "The Table — Japanese-Italian, casual offshoot of chef Shusaku Toba's Michelin-rated Sio Aoyama (Tokyo); \"too new to call\"",
+      "next_peg": "Next peg = first settled reviews."
+    },
+    {
+      "subject": "Tonkatsu Daiki (Ngee Ann City)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 63",
+      "last_peg": "The Table — Osaka's Michelin-rated katsu transplant; early queues; \"too new to call\"",
+      "next_peg": "Next peg = first settled reviews."
+    },
+    {
+      "subject": "Strength-training dose (BJSM 2026)",
+      "type": "Science (fitness)",
+      "last_covered": "No. 63",
+      "last_peg": "Fitness LEAD — 90–120 min/wk sweet spot; n=147,374, 30 yrs; 13/19/27% lower all-cause/CV/neuro mortality; U-curve reversing past ~130–140 min",
+      "next_peg": "Observational — next peg = an RCT confirming/denying the dose-response. Prediction logged."
+    },
+    {
       "subject": "Garmin CIRQA",
       "type": "Product (wearable)",
       "last_covered": "No. 61",
@@ -1530,9 +1586,9 @@
     {
       "subject": "Sennheiser MOMENTUM 5 Wireless (replaceable-battery variant)",
       "type": "Product (audio)",
-      "last_covered": "No. 59",
-      "last_peg": "The Good Life shelf — US$399.95; news peg a user-replaceable battery for the flagship over-ear; 42mm drivers, claimed ~57h, adaptive ANC, aptX Lossless; the 2024 nameplate, the fresh hook is serviceability; not investment advice",
-      "next_peg": "Next peg = a review verdict on the new variant or a price move"
+      "last_covered": "No. 63",
+      "last_peg": "The Kit LEAD — the review-wave verdict landed (SoundGuys/ecoustics): best-value flagship, 57h ANC, user-replaceable battery, aptX Lossless, US$399.99; the awaited \"review verdict\" peg from No. 59; not investment advice",
+      "next_peg": "Played out on the review peg — next peg only a price move or a successor (MOMENTUM True Wireless 5 leaked 19 Aug)"
     },
     {
       "subject": "The Table (SG openings, No. 54)",
@@ -2559,9 +2615,9 @@
     {
       "subject": "MiniMax H3 (Hailuo) open-weights video model",
       "type": "AI model",
-      "last_covered": "No. 62",
-      "last_peg": "Technology LEAD — omni-modal video, 33B/~42.5GB (one card), open weights on HF 2–3 Aug, Day-1 ComfyUI PR #15224, \"Community License\" (>US$20M gated); sceptic = no benchmark table, trails Gemini/Seedance outside video-editing",
-      "next_peg": "New-Peg: the pending technical report / held-out benchmarks, or a successor"
+      "last_covered": "No. 63",
+      "last_peg": "Technology home-lab (No. 62 LEAD; No. 63 the licence delta) — Community License (eff. 2 Aug) excludes US/EU/UK/South Korea; Singapore not listed → reader can legally self-host; 42.5GB smallest variant on one card",
+      "next_peg": "New-Peg: the technical report / held-out benchmarks, a successor, or an IP-based geoblock"
     },
     {
       "subject": "Kimi K3 (Moonshot open model)",
