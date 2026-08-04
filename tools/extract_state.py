@@ -90,3 +90,18 @@ for cells in rows_under("DESTINATION LEDGER"):
 
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations")
+
+# ---- note-discipline nudges (editor, 4 Aug 2026; soft warnings, never fail) ----
+# The newest note should be working memory (<=3,000 chars target) and must end
+# with the "Ledger check:" receipt proving the pre-selection New-Peg pass ran.
+# Applies from No. 63 (older rows are history, kept verbatim).
+if issues:
+    _newest = issues[-1]
+    _note = str(_newest.get("note", ""))
+    if int(str(_newest.get("no", 0)) or 0) >= 63:
+        if len(_note) > 4000:
+            print(f"  WARNING: No. {_newest['no']}'s note is {len(_note):,} chars (target <=3,000) — "
+                  "the note is working memory, not a transcript; see THE NOTE FORMAT in the spec")
+        if "Ledger check:" not in _note:
+            print(f"  WARNING: No. {_newest['no']}'s note has no 'Ledger check:' receipt — "
+                  "the pre-selection New-Peg pass must name what it demoted (or 'none demoted')")
