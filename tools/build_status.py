@@ -78,6 +78,8 @@ if colo.exists():
     try:
         _c = json.loads(colo.read_text())
         build_tokens = _c.get("tokens")
+        if build_minutes is None and _c.get("minutes"):
+            build_minutes = _c["minutes"]
         if build_tokens:
             token_breakdown = {"input": _c.get("tokens_input"),
                                "cached": _c.get("tokens_cached"),

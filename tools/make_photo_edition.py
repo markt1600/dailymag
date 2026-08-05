@@ -398,10 +398,13 @@ def _build_stats():
     except Exception:
         pass
     tot = 0; in_toks = 0; cache_toks = 0; out_toks = 0
+    _earliest = None
     try:
         for f in _glob.glob(_os.path.expanduser('~/.claude/projects/*/*.jsonl')):
             if _t0 and _os.path.getmtime(f) < _t0 - 300:
                 continue  # stale transcript from another session in this container
+            _ct = _os.path.getctime(f)
+            _earliest = _ct if _earliest is None else min(_earliest, _ct)
             with open(f, errors='ignore') as fh:
                 for line in fh:
                     if '"usage"' not in line:
@@ -419,6 +422,12 @@ def _build_stats():
                     tot += _in + _cr + _ot
     except Exception:
         pass
+    # fallback clock: if the session-start stamp was missing/invalid, the
+    # oldest transcript file's creation time is the session's real start
+    if 'minutes' not in st and _earliest:
+        _mins = (_time.time() - _earliest) / 60
+        if 0 < _mins < 600:
+            st['minutes'] = round(_mins)
     if tot > 10000:
         st['tokens'] = tot
         st['tokens_input'] = in_toks       # fresh input (incl. cache writes)
