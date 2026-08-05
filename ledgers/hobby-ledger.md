@@ -7,12 +7,12 @@
 |Hobby|Issue|Angle / one-line note|
 |-|-|-|
 |S&M (within consensual relationships)|63|Consensual kink as a craft-and-community hobby world — shibari/rope makers and real prices, munches and FetLife, the SSC/RACK/PRICK consent discipline, the Singapore scene (SLAP!/ASS/U35), and the FetLife-failures sceptic. Tasteful, culture-focused, non-explicit.|
+|Gloomhaven|64|The hundred-hour contract — a 95-scenario legacy campaign as a lifestyle; r/Gloomhaven (116k) & BGG (its long #1), the insert/organizer economy (Folded Space/Go7/Laserox), Frosthaven & the 2025 Second Edition ("true revision"), digital vs tabletop, spoiler-averse culture, and the bulk/burnout sceptic.|
 
 ### Queued (editor-selected — run in THIS order before consulting votes/pipeline; delete each row as it runs)
 
 |Hobby|Run order|Editor's focus|
 |-|-|-|
-|Gloomhaven playing|2 (No. 64)|The biggest board game of its era as a lifestyle: the campaign-night ritual, the organizer/insert economy, Frosthaven and the second-edition landscape, digital vs tabletop, the community's spoiler-averse culture (r/Gloomhaven, BGG), and what a hundred-plus-hour campaign does to a friend group.|
 |Home gardening|3 (No. 65)|FOCUS: people who do this in condos/apartments — balcony and indoor growing, grow lights, hydroponics/Kratky, the SG high-rise gardening scene (NParks community, local FB groups), what actually survives a tropical balcony.|
 |Sim racing|4 (No. 66)|FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room.|
 |Home beer making|5|The all-grain-vs-extract path, the gear tiers (stovetop kit → all-in-one systems like Grainfather/Brewzilla → kegging and fermentation control), the exBEERiment culture of testing brewing myths (Brülosophy), recipe communities, and the tropical-climate fermentation problem a Singapore brewer actually faces.|
