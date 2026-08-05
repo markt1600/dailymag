@@ -861,6 +861,22 @@ JS = """
 </body>"""
 html = html.replace('</body>', JS, 1)
 
+# ---- 7b. emitted-JS syntax gate ----
+# One bad escape in the JS template silently kills the whole feedback IIFE
+# (No. 63: thumbs dead from a literal newline in a string). Refuse to ship
+# any page whose script blocks don't parse. Uses node when available.
+import subprocess as _sp, tempfile as _tf, shutil as _sh
+if _sh.which('node'):
+    for _k, _scr in enumerate(re.findall(r'<script>(.*?)</script>', html, re.S)):
+        with _tf.NamedTemporaryFile('w', suffix='.js', delete=False) as _fh:
+            _fh.write(_scr); _scrpath = _fh.name
+        _r = _sp.run(['node', '--check', _scrpath], capture_output=True, text=True)
+        if _r.returncode != 0:
+            raise SystemExit(f"FAIL: emitted script block {_k} has a JS syntax error — "
+                             f"the page's interactivity would be dead:\n{_r.stderr[:500]}")
+else:
+    print('  (node not found — emitted-JS syntax gate skipped)')
+
 # ---- 8. structural integrity gate ----
 # The document must still be a well-formed page: intact doctype + <html> tag,
 # and no hero markup before <body>. (No. 57 shipped with a hero spliced into
