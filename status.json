@@ -1,16 +1,16 @@
 {
  "publication": "MERIDIAN",
- "issue": 63,
- "date": "5 August 2026",
- "isoDate": "2026-08-05",
- "builtAt": "2026-08-05T06:22:33+08:00",
+ "issue": 64,
+ "date": "6 August 2026",
+ "isoDate": "2026-08-06",
+ "builtAt": "2026-08-06T06:19:20+08:00",
  "startedAt": null,
  "buildMinutes": null,
- "buildTokens": 94105608,
+ "buildTokens": 86049424,
  "buildTokenBreakdown": {
-  "input": 1543665,
-  "cached": 91653190,
-  "output": 908753
+  "input": 1542304,
+  "cached": 83726010,
+  "output": 781110
  },
  "pages": 24,
  "qa": "pass",
