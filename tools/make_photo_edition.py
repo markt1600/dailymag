@@ -675,7 +675,7 @@ JS = """
     gd.type='button'; gd.textContent='\u2921'; gd.title='Request an ULTRA DEEP DIVE — a dedicated special edition on this topic';
     gd.setAttribute('aria-label', gd.title);
     gd.addEventListener('click',function(){
-      if(!confirm('Request a dedicated SPECIAL EDITION (a full ultra-deep-dive issue) on:\n\n\u201c'+row.dataset.topic+'\u201d?\n\nIt will be researched and published as No. '+issue+'.5.')) return;
+      if(!confirm('Request a dedicated SPECIAL EDITION (a full ultra-deep-dive issue) on:\\n\\n\u201c'+row.dataset.topic+'\u201d?\\n\\nIt will be researched and published as No. '+issue+'.5.')) return;
       post({type:'note',issue:issue,text:'SPECIAL EDITION REQUEST: '+row.dataset.topic+' (desk: '+row.dataset.desk+')'});
       gd.textContent='\u2713'; gd.disabled=true;
       if(fbk) fbk.textContent='deep dive requested';

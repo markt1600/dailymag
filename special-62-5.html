@@ -1251,11 +1251,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     gd.type='button'; gd.textContent='⤡'; gd.title='Request an ULTRA DEEP DIVE — a dedicated special edition on this topic';
     gd.setAttribute('aria-label', gd.title);
     gd.addEventListener('click',function(){
-      if(!confirm('Request a dedicated SPECIAL EDITION (a full ultra-deep-dive issue) on:
-
-“'+row.dataset.topic+'”?
-
-It will be researched and published as No. '+issue+'.5.')) return;
+      if(!confirm('Request a dedicated SPECIAL EDITION (a full ultra-deep-dive issue) on:\n\n“'+row.dataset.topic+'”?\n\nIt will be researched and published as No. '+issue+'.5.')) return;
       post({type:'note',issue:issue,text:'SPECIAL EDITION REQUEST: '+row.dataset.topic+' (desk: '+row.dataset.desk+')'});
       gd.textContent='✓'; gd.disabled=true;
       if(fbk) fbk.textContent='deep dive requested';
