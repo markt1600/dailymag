@@ -219,10 +219,13 @@ SCREEN_CSS = """
    group, so a child cannot brighten itself. The chosen state uses a filled pill and
    the whole row goes fully opaque once a vote lands, which reads even on emoji. */
 .fbrow:hover, .fbrow.voted{ opacity:1; }
-.fbrow button{ background:none; border:.8pt solid var(--line); border-radius:10px;
+/* tap affordance: interactive elements carry a soft blue tint so they read
+   as clickable against the paper (editor, 6 Aug 2026) */
+.fbrow button{ background:rgba(62,118,180,.12); border:.8pt solid rgba(62,118,180,.45); border-radius:10px;
   padding:1px 8px; cursor:pointer; color:inherit; font:inherit; line-height:1.6;
   transition:background .12s ease, border-color .12s ease, transform .12s ease, box-shadow .12s ease; }
-.fbrow button:hover{ border-color:var(--gold); }
+.fbrow button:hover{ background:rgba(62,118,180,.22); border-color:rgba(62,118,180,.8); }
+:root[data-theme="night"] .fbrow button{ background:rgba(120,170,225,.16); border-color:rgba(120,170,225,.45); }
 .fbrow button.on{ background:var(--vermilion); border-color:var(--vermilion); color:var(--paper);
   transform:scale(1.08); box-shadow:0 1px 5px rgba(193,70,46,.4); }
 .fbrow.voted .fbk{ color:var(--vermilion); }
@@ -233,8 +236,10 @@ SCREEN_CSS = """
   text-transform:uppercase; color:var(--blush); opacity:.72; }
 /* Next Descents: candidates become tappable vote chips on screen */
 .nextpick{ cursor:pointer; border-radius:3px; padding-left:6px !important; padding-right:6px !important;
+  background:rgba(62,118,180,.09); box-shadow:inset 2px 0 0 rgba(62,118,180,.5); margin:1px 0;
   transition:background .12s ease, box-shadow .12s ease; position:relative; }
-.nextpick:hover{ background:rgba(200,160,60,.12); }
+.nextpick:hover{ background:rgba(62,118,180,.2); }
+:root[data-theme="night"] .nextpick{ background:rgba(120,170,225,.12); }
 .nextpick.picked{ background:rgba(193,70,46,.10); box-shadow:inset 3px 0 0 var(--vermilion); }
 .nextpick.picked::after{ content:'\\2713 your pick'; font-family:'Poppins',sans-serif; font-size:7px;
   letter-spacing:.1em; text-transform:uppercase; color:var(--vermilion); float:right; margin-top:2px; }
