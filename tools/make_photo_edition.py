@@ -403,8 +403,15 @@ def _build_stats():
         for f in _glob.glob(_os.path.expanduser('~/.claude/projects/*/*.jsonl')):
             if _t0 and _os.path.getmtime(f) < _t0 - 300:
                 continue  # stale transcript from another session in this container
-            _ct = _os.path.getctime(f)
-            _earliest = _ct if _earliest is None else min(_earliest, _ct)
+            # first record's embedded timestamp = when this transcript began
+            # (ctime is useless here: Linux updates it on every append)
+            try:
+                import datetime as _dt2
+                _first = json.loads(open(f, errors='ignore').readline())
+                _ts = _dt2.datetime.fromisoformat(str(_first.get('timestamp', '')).replace('Z', '+00:00')).timestamp()
+                _earliest = _ts if _earliest is None else min(_earliest, _ts)
+            except Exception:
+                pass
             with open(f, errors='ignore') as fh:
                 for line in fh:
                     if '"usage"' not in line:
@@ -422,8 +429,16 @@ def _build_stats():
                     tot += _in + _cr + _ot
     except Exception:
         pass
+    # diagnostic: say WHY the primary clock failed (Nos. 63-64 shipped without
+    # a build time and the container is gone before anyone can ask it)
+    if 'minutes' not in st:
+        try:
+            _raw = open('build/.session-start').read().strip()
+            print(f"  (clock: stamp present but unusable: {_raw!r})")
+        except OSError:
+            print("  (clock: build/.session-start missing — SessionStart hook did not stamp)")
     # fallback clock: if the session-start stamp was missing/invalid, the
-    # oldest transcript file's creation time is the session's real start
+    # transcripts' first-record timestamps give the session's real start
     if 'minutes' not in st and _earliest:
         _mins = (_time.time() - _earliest) / 60
         if 0 < _mins < 600:
