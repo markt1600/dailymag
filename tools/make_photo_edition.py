@@ -549,6 +549,13 @@ def inject(entry):
     if _slug and _slug in used_assets:
         print(f"  (skip hero '{_slug}' for {anchor[:40]} — same image already ran this issue; one asset, one appearance)")
         return
+    # if the source HTML already carries this asset (a session that hand-placed
+    # its ph-frames AND registered them in images.json), injecting again would
+    # double every image — the No. 64.5 bug. Hand-placed wins; skip.
+    if _slug and (ASSET_BASE + _slug + '.jpg') in html:
+        print(f"  (skip hero '{_slug}' — already hand-placed in the source; not injecting a duplicate)")
+        used_assets.add(_slug); used_anchors.add(anchor); count += 1
+        return
     # Insert after the .rule divider that follows the anchor. Some pages (e.g.
     # a Long Read opener) have no rule — fall back to just after the anchor's
     # enclosing element (the running-header close). NEVER trust a raw find()
