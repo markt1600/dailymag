@@ -48,9 +48,15 @@ jobs:
           DATE=$(python3 -c "import json;d=json.load(open('status.json'));print(d['date'])")
           NAME="MERIDIAN No. $ISSUE - $DATE"
           $RMAPI mkdir /MERIDIAN 2>/dev/null || true
-          cp meridian-latest.pdf "$NAME.pdf"
-          $RMAPI put "$NAME.pdf" /MERIDIAN
-          echo "delivered: $NAME"
+          # idempotence: colophon/status backfills re-touch status.json after
+          # delivery day — don't re-upload (put errors on an existing name)
+          if $RMAPI ls /MERIDIAN | grep -qF "$NAME"; then
+            echo "already delivered: $NAME — skipping upload"
+          else
+            cp meridian-latest.pdf "$NAME.pdf"
+            $RMAPI put "$NAME.pdf" /MERIDIAN
+            echo "delivered: $NAME"
+          fi
           # prune: keep the 7 newest issues (by number)
           $RMAPI ls /MERIDIAN | sed -n 's/^\[f\]\t*//p' | grep -oE 'MERIDIAN No\. [0-9]+.*' | \
             sort -t. -k2 -n | head -n -7 | while IFS= read -r old; do

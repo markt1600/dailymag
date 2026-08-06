@@ -388,7 +388,7 @@ SPEC_SELECT = ('<select class="m-toggle" id="mspec" aria-label="Special editions
                + '><option value="">★ Specials</option>' + ''.join(spec_options) + '</select>')
 print(f'  specials picker: {len(spec_options)} entries at build time (runtime-refreshed)')
 
-# ---- 4e. the cover colophon: build time + tokens (screen-only, honest) ----
+# ---- 4e. the cover colophon: build time + tokens + list-price cost ----
 # Time comes from build/.session-start (setup.sh stamps it at SessionStart);
 # tokens are summed from the session's own transcript files (~/.claude/projects/
 # */*.jsonl carry per-request usage, including subagents). Both are measured,
@@ -405,7 +405,17 @@ def _build_stats():
             st['minutes'] = round(_mins)
     except Exception:
         pass
-    tot = 0; in_toks = 0; cache_toks = 0; out_toks = 0
+    tot = 0; in_toks = 0; cache_toks = 0; out_toks = 0; cw_toks = 0
+    # Theoretical cost at Anthropic API list prices, USD per MTok (input,
+    # output); cache reads bill at 0.1x input, cache writes at 1.25x (5-min
+    # TTL). Priced per request against that request's own model (subagents may
+    # run a different tier than the main loop). First substring match wins,
+    # so keep the more specific keys above the generic ones.
+    _PRICES = [('fable-5', (10.0, 50.0)), ('mythos-5', (10.0, 50.0)),
+               ('opus-4-1', (15.0, 75.0)), ('opus-4-2025', (15.0, 75.0)),
+               ('opus', (5.0, 25.0)), ('sonnet', (3.0, 15.0)),
+               ('haiku', (1.0, 5.0))]
+    cost = 0.0; _models = {}
     _earliest = None
     try:
         for f in _glob.glob(_os.path.expanduser('~/.claude/projects/*/*.jsonl')):
@@ -425,16 +435,26 @@ def _build_stats():
                     if '"usage"' not in line:
                         continue
                     try:
-                        _u = (json.loads(line).get('message') or {}).get('usage') or {}
+                        _msg = json.loads(line).get('message') or {}
+                        _u = _msg.get('usage') or {}
                     except Exception:
                         continue
                     if not isinstance(_u, dict):
                         continue
-                    _in = (_u.get('input_tokens') or 0) + (_u.get('cache_creation_input_tokens') or 0)
+                    _raw = _u.get('input_tokens') or 0
+                    _cw = _u.get('cache_creation_input_tokens') or 0
                     _cr = _u.get('cache_read_input_tokens') or 0
                     _ot = _u.get('output_tokens') or 0
-                    in_toks += _in; cache_toks += _cr; out_toks += _ot
-                    tot += _in + _cr + _ot
+                    in_toks += _raw + _cw; cw_toks += _cw
+                    cache_toks += _cr; out_toks += _ot
+                    tot += _raw + _cw + _cr + _ot
+                    _mdl = str(_msg.get('model') or '')
+                    for _k, (_pi, _po) in _PRICES:
+                        if _k in _mdl:
+                            cost += (_raw * _pi + _cw * _pi * 1.25
+                                     + _cr * _pi * 0.1 + _ot * _po) / 1e6
+                            _models[_mdl] = _models.get(_mdl, 0) + _ot
+                            break
     except Exception:
         pass
     # diagnostic: say WHY the primary clock failed (Nos. 63-64 shipped without
@@ -456,6 +476,14 @@ def _build_stats():
         st['tokens_input'] = in_toks       # fresh input (incl. cache writes)
         st['tokens_cached'] = cache_toks   # cache reads
         st['tokens_output'] = out_toks
+        st['tokens_cache_write'] = cw_toks # subset of tokens_input, billed 1.25x
+        if cost > 0:
+            st['cost_usd'] = round(cost, 2)
+            _dominant = max(_models, key=_models.get)
+            st['model'] = _dominant
+            # display form: claude-opus-4-8-20260115 -> opus-4-8
+            st['model_short'] = re.sub(r'-\d{8}$', '',
+                                       _dominant.replace('claude-', ''))
     return st
 
 def _fmt_tokens(n):
@@ -471,6 +499,11 @@ if _stats.get('tokens'):
                   f"({_fmt_tokens(_stats['tokens_input'])} in · "
                   f"{_fmt_tokens(_stats['tokens_cached'])} cached · "
                   f"{_fmt_tokens(_stats['tokens_output'])} out)")
+if _stats.get('cost_usd'):
+    _c = _stats['cost_usd']
+    _cs = f"US${_c:,.0f}" if _c >= 20 else f"US${_c:.2f}"
+    _mdl = f" ({_stats['model_short']})" if _stats.get('model_short') else ''
+    _parts.append(f"≈{_cs} at API list prices{_mdl}")
 if _parts:
     _colo = '<div class="build-colophon">' + ' · '.join(_parts) + '</div>\n'
     _cend = html.find('</section>')
