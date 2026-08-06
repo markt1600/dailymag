@@ -267,7 +267,10 @@ for _sec in _secs:
     _m = _re.search(r'<div class="rh"><span><span class="dot">●</span> Meridian · ([^<]+)</span>', _sec)
     if _m:
         _desk = _m.group(1).strip()
-        if _desk not in _seen_desks and _desk not in ('Contents',):
+        if _desk not in _seen_desks and _desk not in ('Contents',) and 'class="fbrow"' not in _sec:
+            # (the fbrow check: a session that hand-authored its voting rows
+            # already has one on this page — injecting again stacks two rows,
+            # the No. 64.5 bug. Hand-placed wins.)
             _seen_desks.add(_desk)
             _dek = _sec.find('</div>', _sec.find('<div class="dek">')) if '<div class="dek">' in _sec else -1
             _kick = _re.search(r'<div class="kicker[^"]*">(.*?)</div>', _sec, _re.S)
