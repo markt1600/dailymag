@@ -13,14 +13,19 @@
 
 |Hobby|Run order|Editor's focus|
 |-|-|-|
-|Home gardening|3 (No. 65)|FOCUS: people who do this in condos/apartments — balcony and indoor growing, grow lights, hydroponics/Kratky, the SG high-rise gardening scene (NParks community, local FB groups), what actually survives a tropical balcony.|
+|Disney cruise going|3 (No. 65)|The enthusiast subculture around Disney Cruise Line as a hobby in itself: the repeat-cruiser world (Castaway Club tiers, Platinum/Pearl culture, people with dozens of sailings), the booking-strategy meta (opening-day fares, gty rooms, the DCL-vs-price debate), the communities (DISboards cruise forum, r/dcl, the vlogger/podcast circuit), the rituals (fish extenders, pin trading at sea, door magnets, rotational-dining loyalty), the fleet knowledge (classic ships vs the Wish/Treasure class, the Singapore-based Disney Adventure angle — DCL's first Asia home port), and the honest economics of why devotees pay the premium over every other line.|
 |Sim racing|4 (No. 66)|FOCUS: people who BUILD their setups at home — the rig itself (wheelbase/pedals/cockpit tiers, DIY vs Sim-Lab/Trak Racer), motion and triple-screen vs VR debates, the build journey from a desk clamp to a dedicated room.|
 |Home beer making|5|The all-grain-vs-extract path, the gear tiers (stovetop kit → all-in-one systems like Grainfather/Brewzilla → kegging and fermentation control), the exBEERiment culture of testing brewing myths (Brülosophy), recipe communities, and the tropical-climate fermentation problem a Singapore brewer actually faces.|
 |Terrarium making|6|Closed vs open terrariums, the bioactive/springtail ecosystem craft, the gear and materials landscape (glassware, aroids, mosses, substrate science, grow lights), the aesthetic schools (lush jungle vs hardscape), and the strong Singapore/SEA scene (tropical plants at hand, local makers and workshops).|
 |Home electronic music production|7|FOCUS: how the latest AI tools are actually used in the home studio (stem separation, AI mastering, generative plugins, the community's love/hate debates) alongside the classic DAW/hardware landscape (Ableton, synths, controllers).|
 |Pottery|8|The wheel-throwing path from studio memberships to a home setup (wheels, kilns — and what a kiln really means in an apartment), the glaze-chemistry rabbit hole, the ceramics communities (r/Pottery, Ceramic Arts Network, studio-pottery YouTube), the wabi-sabi-vs-production schools, and Singapore's studio scene (Thow Kwang dragon kiln, local classes and open studios).|
 |Watchmaking|9|The HANDS-ON craft, distinct from The Good Life's collecting beat: servicing and building watches at the bench — the tool landscape (from a first screwdriver set to a timegrapher), the movement-kit world (ETA/Seagull builds, the mod scene from Seiko mods up), watchmaking schools and online courses (the BHI, Watch Repair Channel/Mark Lovick), r/watchmaking and the walkthrough culture, and the honest economics of a hobby where the tools outcost the watch.|
-|Disney cruise going|10|The enthusiast subculture around Disney Cruise Line as a hobby in itself: the repeat-cruiser world (Castaway Club tiers, Platinum/Pearl culture, people with dozens of sailings), the booking-strategy meta (opening-day fares, gty rooms, the DCL-vs-price debate), the communities (DISboards cruise forum, r/dcl, the vlogger/podcast circuit), the rituals (fish extenders, pin trading at sea, door magnets, rotational-dining loyalty), the fleet knowledge (classic ships vs the Wish/Treasure class, the Singapore-based Disney Adventure angle — DCL's first Asia home port), and the honest economics of why devotees pay the premium over every other line.|
+
+### Retired (editor's decision — never run, never re-suggest in Next Descents or auto-select)
+
+|Hobby|Retired|Note|
+|-|-|-|
+|Home gardening (condo/balcony)|6 Aug 2026|Cut from the queue before running (was slotted for No. 65); reader eliminated it. Do not resurface.|
 
 ### On-deck pipeline
 
