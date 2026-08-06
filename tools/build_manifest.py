@@ -37,6 +37,12 @@ def from_archive(no):
         if not f.exists():
             return "", ""
     h = f.read_text(errors="ignore")
+    # The root fallback is only trustworthy if root actually holds THIS issue:
+    # build.sh builds the manifest before the new edition is placed at root,
+    # so for the current issue root may still be the PREVIOUS edition (this is
+    # how No. 64 shipped in the archive listing titled as No. 63).
+    if not re.search(rf'No\.\s*{no}\s*(?:&middot;|·)\s*Singapore', h):
+        return "", ""
     title = sub = ""
     secs = re.split(r'(?=<section[^>]*class="page)', h)
     lr = [x for x in secs if 'Meridian · The Long Read' in x[:400]]
@@ -49,6 +55,8 @@ def from_archive(no):
         m = re.search(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', p2[0], re.S)
         if m:
             sub = clean(re.sub(r'<[^>]+>', '', m.group(1)))
+    if sub.lower() == "contents":   # the fixed page-2 layout heds the page
+        sub = ""                    # itself "Contents" — that's not a spine
     return title, sub
 
 def articles_for(no, is_current):
@@ -87,7 +95,14 @@ def parse(note):
     m = re.search(r'(?:Issue spine|Editorial theme|Theme tag)\s*:\s*\*([^*]+)\*', note)
     if m:
         spine = clean(m.group(1))
+    else:
+        # trimmed note style (No. 63+): Spine = **The Unsigned** — the gap …
+        m = re.search(r'Spine\s*[=:]\s*\*\*([^*]+)\*\*(?:\s*[—–-]\s*([^.,(]{4,160}))?', note)
+        if m:
+            spine = clean(m.group(1) + (' — ' + m.group(2) if m.group(2) else ''))
     m = re.search(r'THE LONG READ[^:]*:\s*\*\*[“"”\'‘’]*([^”"”*\'‘’]+)', note)
+    if not m:   # trimmed note style: Essay: Type-B historical — "The Fine Print" (…)
+        m = re.search(r'Essay:[^"“”]{0,80}[“"]([^”"]{4,80})[”"]', note)
     if not m:   # variant phrasings sessions have used
         m = re.search(r'(?:Essay type|LONG READ|THE ESSAY)[^(“"]*[(]?[“"”]\s*([^”"“]{4,60})[”"]', note)
     if not m:
