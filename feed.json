@@ -1,22 +1,22 @@
 {
  "publication": "MERIDIAN",
- "issue": 65,
- "date": "7 August 2026",
- "generated": "2026-08-07T06:34:22+08:00",
+ "issue": 66,
+ "date": "8 August 2026",
+ "generated": "2026-08-08T06:33:52+08:00",
  "quote": {
-  "text": "A cynic is a man who knows the price of everything and the value of nothing.",
-  "author": "Oscar Wilde, Lady Windermere's Fan (1892)"
+  "text": "When the facts change, I change my mind — what do you do, sir?",
+  "author": "widely attributed to John Maynard Keynes; the exact wording is disputed"
  },
  "macro": null,
  "stories": [
   {
-   "desk": "The World",
-   "sub": "The Meridian Dispatch",
-   "category": "World",
-   "kicker": "The World · The Strait",
-   "headline": "Iran Draws the Corridor — and a Toll Booth",
-   "dek": "Tehran says it has agreed the coordinates of a new Hormuz shipping route with Oman. Read past the map to the clause the shipowners are already fighting: a sixty-day grace period, and then a fee to cross a strait no state has ever been allowed to charge for.",
-   "anchor": "p3",
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · The Escape",
+   "headline": "The Panopticon, Now a Suite",
+   "dek": "Hoshino Resorts has opened its ninth HOSHINOYA flagship inside a decommissioned Meiji prison in Nara — the last intact survivor of the great 1900s jails. The solitary cells have been knocked together into forty-eight red-brick rooms. It is the most literal revision in the book: a place built to confine, reopened to indulge.",
+   "anchor": "p10",
    "featured": true
   },
   {
@@ -24,28 +24,28 @@
    "sub": "Down the Rabbit Hole",
    "category": "Hobby",
    "kicker": "The Rabbit Hole · The Invitation",
-   "headline": "The Cruise You Take Twenty-Five Times",
-   "dek": "Most people take a cruise once. A devoted core takes the Disney one again and again — chasing a loyalty tier that tops out at twenty-five sailings, decorating stateroom doors, and exchanging gifts with strangers at sea. And this year, the whole global hobby docked in Singapore.",
+   "headline": "The Men Who Build the Whole Car in a Spare Room",
+   "dek": "Most people who play a racing game use a controller. A devoted world bolts a motor-driven wheel to an aluminium frame, spends more on the brake pedal than the game, and slowly turns a spare room into a cockpit. This week the industry that sells them the parts consolidated under one roof — and a challenger torched the price of torque.",
    "anchor": "p15",
    "featured": true
   },
   {
-   "desk": "The Long Read",
-   "sub": "Life in Four Cuts",
-   "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent",
-   "headline": "Life in Four Cuts",
-   "dek": "In the most camera-saturated country on earth, young Koreans queue to pay ₩4,000 for a strip of four printed photographs. It has become a US$400-million industry — and, in the same breath, a franchise bubble bursting in plain sight. The West hasn't noticed yet.",
-   "anchor": "p21",
-   "featured": true
+   "desk": "The World",
+   "sub": "The Meridian Dispatch",
+   "category": "World",
+   "kicker": "The World · The Strait",
+   "headline": "A Corridor on Paper, and Not One Ship Through It",
+   "dek": "A week on, Iran and Oman say their Hormuz route is in \"final drafting.\" Nothing has been signed, no hull has run it, and the fee it hangs on is still called a toll by one side and a service charge by the other. The announcement has outrun the fact.",
+   "anchor": "p3",
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore · SG61",
-   "headline": "A Parade Under a Roof, a Speech in a Fortnight",
-   "dek": "National Day returns to the National Stadium on Sunday with the country's first indoor drone show and a \"Go Beyond\" theme. The number that will actually shape a household lands two Sundays later, when the Prime Minister rises for the National Day Rally.",
+   "headline": "The Parade Is Tomorrow; the Policy Is a Fortnight Away",
+   "dek": "The country's sixty-first birthday brings the parade back indoors on Sunday, an aerial drone display under the shut roof, and a leader's eve-of-holiday address tonight. What actually reaches a family's budget arrives a fortnight on, at the Rally on the 23rd.",
    "anchor": "p5",
    "featured": false
   },
@@ -54,8 +54,8 @@
    "sub": "Bricks & Mortar",
    "category": "Property",
    "kicker": "Property · Supply & Demand",
-   "headline": "The Showflats Sell Out; the Land Bank Goes Quiet",
-   "dek": "Singapore's new-launch condos are clearing at 88 to 94% in a year with roughly a third fewer projects than the last. In the same market, a state land tender drew a single bid. Buyers are paying up and developers are holding back — the premium is moving to the finished flat.",
+   "headline": "One Bid for the Land — and It Set the Record",
+   "dek": "A state land tender in Telok Blangah drew a single offer, well short of the four-to-six developers analysts expected. Then read the price: it cleared above the top of the guide and set a new benchmark rate for a city-fringe residential plot. The turnout said caution; the number said conviction.",
    "anchor": "p6",
    "featured": false
   },
@@ -64,8 +64,8 @@
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
    "kicker": "Technology · The Open Frontier",
-   "headline": "The Best Open Model on Earth Is Free — and Chinese",
-   "dek": "Moonshot's Kimi K3 shipped its full weights in late July at 2.8 trillion parameters, the largest open-weight model ever released, and independent scoring places it above Claude Opus 4.8. The premium the frontier labs charge for is the thing a Chinese lab just gave away.",
+   "headline": "The First Open Max-Class Weights Are a Week Away — Again",
+   "dek": "Alibaba shipped its biggest model, Qwen3.8-Max, as a closed API this week, and promised to open the weights \"next week.\" If it does, it would be the first time a frontier Max-tier model goes downloadable. As of today it hasn't, and there is no licence line yet. Promised is not shipped.",
    "anchor": "p7",
    "featured": false
   },
@@ -73,29 +73,19 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · One Body, Everything",
-   "headline": "The Camera That Skips the Bag of Lenses",
-   "dek": "Nine years after the last one, Sony has revived its bridge camera as the RX10 V — a single body that reaches from 24 to 600mm, ships this month, and costs about US$2,300. The premium buys reach and never changing a lens. The fine print is the sensor at its heart, which is the same one from 2017.",
+   "kicker": "The Kit · One Body, Every Angle",
+   "headline": "Insta360 Puts a One-Inch Sensor in a Camera That Films Everything",
+   "dek": "The X6, teased this week for a 12 August launch, is the biggest leap the 360 line has taken in years: dual one-inch sensors, a triple AI chip, 8K capture. Point it, film the whole sphere, and choose the shot afterwards. The catch, as ever with a teaser, is that not one reviewer has held it.",
    "anchor": "p9",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · The Escape",
-   "headline": "A Ryokan That Watches the Floating Torii",
-   "dek": "Hoshino's next KAI onsen house opens this summer across the water from Miyajima's great vermilion gate — fifty-four rooms, every one facing the sea, and a bath reviving a method the region had nearly forgotten.",
-   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · The Fortnight",
-   "headline": "A Billion in Six Days, and Then the Real Test",
-   "dek": "Spider-Man crossed a billion dollars faster than almost any film ever made — a premium the marketing machine pre-sold before a single review landed. The number that will actually measure it is next weekend's drop. Meanwhile the album calendar fills: three releases in a fortnight, and the reviews, unlike the receipts, aren't in.",
+   "kicker": "Screen & Sound · The Record",
+   "headline": "Phoebe Bridgers Arrives on a Wall of Perfect Scores",
+   "dek": "Lost Weekend lands on 14 August under near-universal critical acclaim — a Metacritic in the low nineties, a scattering of perfect tens six days early. The revision to watch is the one the users are already making: the boards are cooler than the broadsheets, and that gap will outlast the release-day scores.",
    "anchor": "p11",
    "featured": false
   },
@@ -103,9 +93,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Real Lever",
-   "headline": "It Was Never the Screen. It Was the Sleep.",
-   "dek": "A new analysis of the largest child-brain study in the world finds that among the things a parent can actually change, sleep — not screen time — is the strongest thread between how a ten-to-thirteen-year-old feels and how she does at school and with friends. The highest-yield rule in the house is a bedtime, not an app.",
+   "kicker": "The Family Desk · The Evidence",
+   "headline": "The Study That Undercuts the Ban",
+   "dek": "A prospective analysis of the largest child-brain cohort finds the lever on a child's screen use was never the rule you set — it was the habit you modelled. What parents do with their own phones predicts what their children do with theirs, more reliably than any limit imposed from above. General guidance, not medical advice.",
    "anchor": "p12",
    "featured": false
   },
@@ -113,9 +103,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The Turn",
-   "headline": "The Relief Trade Runs Out of Road",
-   "dek": "Records on Tuesday, a reversal by Thursday. Yields rose, the dollar firmed and oil bounced, and the Dow's record streak snapped — all before the one number that could settle it lands tonight. Gold, at a record, is charging the highest premium of all.",
+   "kicker": "The Macro Desk · The Print",
+   "headline": "America Lost Jobs in July — and the Whole Regime Flipped",
+   "dek": "Payrolls didn't just miss; they went negative, the first contraction since February, with 103,000 shaved off the prior two months. In an afternoon the hawkish \"maybe a hike\" story became a \"when's the cut\" story. Gold set a record, the dollar fell, and equities made new highs on the worst possible reason.",
    "anchor": "p14",
    "featured": false
   },
@@ -123,10 +113,20 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Loaded Walk",
-   "headline": "The Weighted Walk Is Having a Moment — With Numbers",
-   "dek": "Rucking — walking with a loaded pack — is 2026's defining longevity method, and for once the hype comes with a ratio behind it: a fraction of running's injury rate, several times a walk's training stimulus, and a strength-and-bone dose folded into a cardio session. The catch is in how fast you load the bar.",
+   "kicker": "Fitness · The Long Game",
+   "headline": "The Number on Your Watch May Forecast Your Brain",
+   "dek": "A nine-year follow-up to a landmark Norwegian trial finds that a single measure of fitness — VO2 max, the one your wearable already estimates — predicts brain volume and memory a decade on, more reliably than which exercise programme people were assigned. The twist is who aged best. Not medical advice.",
    "anchor": "p18",
+   "featured": false
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "The Travel Desk · Departures",
+   "headline": "What Changed at the Airport",
+   "dek": "Two entry-rule clocks moved this fortnight, a First-Class cabin came back on a European route, and the friction that will actually annoy a camera-buying reader is the end of Japan's walk-out tax-free shopping. The delta, read first through Changi.",
+   "anchor": "p19",
    "featured": false
   },
   {
@@ -135,8 +135,18 @@
    "category": "Events",
    "kicker": "The Diary · The Agenda",
    "headline": "What's Worth Booking",
-   "dek": "A crowded autumn to plan around: Singapore's first F1 Sprint weekend with a Padang full of pop beside it, and a Tokyo sumo basho whose good seats vanish the morning they go on sale — which is tomorrow.",
-   "anchor": "p19",
+   "dek": "One thing to act on before lunch: seats for a Tokyo sumo tournament open this morning, and the good ones empty out by dusk. Beyond it, a packed Singapore autumn fronted by the Grand Prix's debut Sprint weekend.",
+   "anchor": "p23",
+   "featured": false
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Country With Two Seasons",
+   "category": "Essay",
+   "kicker": "The Long Read · The Undercurrent",
+   "headline": "The Country With Two Seasons",
+   "dek": "In December, Japan gave a name to a loss it had felt for a decade: niki — \"two seasons.\" A meteorologist's observation became a national buzzword. The story isn't the weather. It's the first time a rich country has watched climate change come not for its coastline, but for its self-image — and reached for a word to mourn it.",
+   "anchor": "p25",
    "featured": false
   }
  ]
