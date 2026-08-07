@@ -31,17 +31,22 @@ def from_archive(no):
     """Fallback: pull the essay title + contents headline straight from the
     archived Photo Edition — the pages always carry them, however loosely the
     session wrote its Issue Log row."""
-    f = pathlib.Path(f"archive/no-{no}/index.html")
-    if not f.exists():
-        f = pathlib.Path("index.html")   # current issue, not yet archived
-        if not f.exists():
-            return "", ""
-    h = f.read_text(errors="ignore")
-    # The root fallback is only trustworthy if root actually holds THIS issue:
-    # build.sh builds the manifest before the new edition is placed at root,
-    # so for the current issue root may still be the PREVIOUS edition (this is
-    # how No. 64 shipped in the archive listing titled as No. 63).
-    if not re.search(rf'No\.\s*{no}\s*(?:&middot;|·)\s*Singapore', h):
+    # Candidates in trust order: the archived Photo Edition; the staged print
+    # source (present at build time — build.sh runs this before the new edition
+    # reaches root); root itself. Each is only trustworthy if it actually holds
+    # THIS issue — for the current issue root may still be the PREVIOUS edition
+    # (this is how No. 64 shipped in the archive listing titled as No. 63, and
+    # No. 65 shipped with no title at all).
+    h = None
+    for f in (pathlib.Path(f"archive/no-{no}/index.html"),
+              pathlib.Path(f"build/meridian{no}.html"),
+              pathlib.Path("index.html")):
+        if f.exists():
+            t = f.read_text(errors="ignore")
+            if re.search(rf'No\.\s*{no}\s*(?:&middot;|·)\s*Singapore', t):
+                h = t
+                break
+    if h is None:
         return "", ""
     title = sub = ""
     secs = re.split(r'(?=<section[^>]*class="page)', h)
