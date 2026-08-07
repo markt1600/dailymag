@@ -53,7 +53,8 @@
    "desk": "Property",
    "claim": "Dunearn House sells more than half its units on 25 Jul launch day",
    "check_by": "2026-07-28",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Dunearn House moved 56% (212/380) on its launch weekend, avg ~S$3,140 psf — above half, below 70% (graded No. 66). 'More than half on 25 Jul launch day' — take-up reported over the weekend at 56%."
   },
   {
    "issue": 51,
@@ -75,7 +76,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens above US$230m domestic (30-31 Jul)",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
   },
   {
    "issue": 52,
@@ -158,7 +160,8 @@
    "desk": "Property",
    "claim": "Dunearn House's launch-weekend take-up is confirmed above 70% by a named outlet (the ~99% figure was held)",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Dunearn House moved 56% (212/380) on its launch weekend, avg ~S$3,140 psf — above half, below 70% (graded No. 66). The 'above 70% confirmed' call missed (56%)."
   },
   {
    "issue": 53,
@@ -195,7 +198,8 @@
    "desk": "The World",
    "claim": "The US–Iran mutual pause over Hormuz survives past 48 hours from publication (no fresh US strike by 29 Jul)",
    "check_by": "2026-07-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "The late-July US–Iran strike pause held past 48h (no fresh US strike by 29 Jul) — RIGHT (graded No. 66)."
   },
   {
    "issue": 54,
@@ -217,7 +221,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens at or above $230m domestic (Box Office Pro's lower bound)",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
   },
   {
    "issue": 54,
@@ -276,7 +281,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens at or above US$230m domestic on its 31 Jul debut",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
   },
   {
    "issue": 55,
@@ -319,7 +325,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens at or above US$190m domestic and approaches ~$800m worldwide on its opening weekend",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
   },
   {
    "issue": 56,
@@ -347,7 +354,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens to ~$180-250m+ domestic / ~$425m worldwide",
    "check_by": "2026-08-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
   },
   {
    "issue": 57,
@@ -369,7 +377,8 @@
    "desk": "The World",
    "claim": "Colombia's 7 Aug handover to De la Espriella proceeds despite Petro's annulment suit",
    "check_by": "2026-08-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "De la Espriella was inaugurated 7 Aug in Cali (first outside Bogotá); Petro boycotted; no annulment, no violent disruption reported (graded No. 66)."
   },
   {
    "issue": 57,
@@ -440,7 +449,8 @@
    "desk": "The World",
    "claim": "Colombia's 7 Aug inauguration of De la Espriella proceeds (indoors in Cali) despite Petro's annulment suit and boycott",
    "check_by": "2026-08-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "De la Espriella was inaugurated 7 Aug in Cali (first outside Bogotá); Petro boycotted; no annulment, no violent disruption reported (graded No. 66)."
   },
   {
    "issue": 58,
@@ -482,7 +492,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day's 3-day domestic opening finalises at or above US$250m (reported Mon 3 Aug)",
    "check_by": "2026-08-04",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
   },
   {
    "issue": 59,
@@ -503,14 +514,16 @@
    "desk": "The World",
    "claim": "Colombia's 7 Aug inauguration of De la Espriella proceeds (indoors in Cali) despite Petro's boycott and annulment suit",
    "check_by": "2026-08-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "De la Espriella was inaugurated 7 Aug in Cali (first outside Bogotá); Petro boycotted; no annulment, no violent disruption reported (graded No. 66)."
   },
   {
    "issue": 59,
    "desk": "Curiosities",
    "claim": "NASA's Nancy Grace Roman Space Telescope launches on or about 2 Aug 2026 from Kennedy",
    "check_by": "2026-08-05",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "NASA's Roman did NOT launch on/about 2 Aug; it is packing for KSC, targeting 30 Aug on Falcon Heavy — the '2 Aug' call missed; the 'by end-Sep' framing stands (graded No. 66)."
   },
   {
    "issue": 59,
@@ -538,21 +551,24 @@
    "desk": "The Macro Desk",
    "claim": "US July nonfarm payrolls (due 7 Aug) print within ±40k of the ~+85k consensus",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "US July non-farm payrolls FELL 23,000 (first contraction since Feb; private +30k, govt −53k), unemployment eased to 4.1%, wages +3.2% y/y, May–Jun revised down 103k (graded No. 66). ±40k-of-+85k framing missed by ~108k."
   },
   {
    "issue": 60,
    "desk": "The World",
    "claim": "Colombia's 7 Aug presidential handover to De la Espriella proceeds without being annulled or violently disrupted",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "De la Espriella was inaugurated 7 Aug in Cali (first outside Bogotá); Petro boycotted; no annulment, no violent disruption reported (graded No. 66)."
   },
   {
    "issue": 60,
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day's confirmed 3-day domestic opening (actuals, 3 Aug) is the 2nd-biggest of all time, behind only Endgame",
    "check_by": "2026-08-04",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66). It took #1, not #2."
   },
   {
    "issue": 60,
@@ -580,7 +596,8 @@
    "desk": "The Connected Home",
    "claim": "Home Assistant 2026.8 ships stable in the first week of August with the Activity timeline and dedicated IR/RF panels",
    "check_by": "2026-08-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "Home Assistant 2026.8 shipped stable on 5 Aug 2026 — RIGHT (graded No. 66)."
   },
   {
    "issue": 60,
@@ -601,7 +618,8 @@
    "desk": "Macro",
    "claim": "US July payrolls (BLS, 7 Aug) print soft enough (<120k) to pressure the higher-for-longer narrative",
    "check_by": "2026-08-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "US July non-farm payrolls FELL 23,000 (first contraction since Feb; private +30k, govt −53k), unemployment eased to 4.1%, wages +3.2% y/y, May–Jun revised down 103k (graded No. 66). The '<120k' ceiling held."
   },
   {
    "issue": 61,
@@ -615,7 +633,8 @@
    "desk": "Connected Home",
    "claim": "Home Assistant 2026.8 ships stable on 5 Aug with the beta entity-merge regression resolved (or documented) before GA",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "Home Assistant 2026.8 shipped stable on 5 Aug 2026 — RIGHT (graded No. 66)."
   },
   {
    "issue": 61,
@@ -671,7 +690,8 @@
    "desk": "The Macro Desk",
    "claim": "US July non-farm payrolls (BLS, 7 Aug) print soft (<100k), keeping the 'higher-for-longer survives?' question live",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "US July non-farm payrolls FELL 23,000 (first contraction since Feb; private +30k, govt −53k), unemployment eased to 4.1%, wages +3.2% y/y, May–Jun revised down 103k (graded No. 66). The '<100k' ceiling held."
   },
   {
    "issue": 62,
@@ -741,7 +761,8 @@
    "desk": "The Macro Desk",
    "claim": "US July payrolls (BLS, 7 Aug) print soft enough to keep the 'higher-for-longer' narrative softening rather than reversing",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "US July non-farm payrolls FELL 23,000 (first contraction since Feb; private +30k, govt −53k), unemployment eased to 4.1%, wages +3.2% y/y, May–Jun revised down 103k (graded No. 66). Direction (softening) right."
   },
   {
    "issue": 63,
@@ -804,7 +825,8 @@
    "desk": "Macro",
    "claim": "US July payrolls (BLS, 7 Aug) come in soft — consensus ~+110k to +130k, unemployment 4.3% from 4.2%",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "US July non-farm payrolls FELL 23,000 (first contraction since Feb; private +30k, govt −53k), unemployment eased to 4.1%, wages +3.2% y/y, May–Jun revised down 103k (graded No. 66). The '+110–130k, unemployment 4.3%' framing missed on both count and rate."
   },
   {
    "issue": 64,
@@ -867,7 +889,8 @@
    "desk": "The Macro Desk",
    "claim": "US July non-farm payrolls (due 7 Aug) land near consensus ~+85k, unemployment ~4.2%",
    "check_by": "2026-08-08",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "US July non-farm payrolls FELL 23,000 (first contraction since Feb; private +30k, govt −53k), unemployment eased to 4.1%, wages +3.2% y/y, May–Jun revised down 103k (graded No. 66). 'Near +85k, unemployment ~4.2%' blindsided — a contraction with a falling 4.1% rate."
   },
   {
    "issue": 65,
@@ -944,6 +967,90 @@
    "desk": "The Long Read",
    "claim": "Korea's photo-booth sector keeps consolidating (rising revenue, rising closures)",
    "check_by": "2026-09-30",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The Macro Desk",
+   "claim": "US July CPI (12 Aug) does NOT deliver a hot upside surprise that reverses the post-payrolls dovish repricing",
+   "check_by": "2026-08-13",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The Macro Desk",
+   "claim": "The Fed's next meeting (Sept) delivers a rate CUT after the −23k July payrolls, ending the higher-for-longer hold",
+   "check_by": "2026-09-18",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The Macro Desk",
+   "claim": "Gold holds its bid above US$4,000/oz through end-August after the ~$4,348 record",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The World",
+   "claim": "No signed Iran–Oman Hormuz joint text AND no vessel transits the announced corridor by 31 Aug",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "Singapore",
+   "claim": "The National Day Rally (23 Aug) is where substantive housing/cost-of-living policy lands, not the eve Message",
+   "check_by": "2026-08-23",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "Property",
+   "claim": "New Upper Changi Road GLS (closes 1 Sep) draws more than the lone bid Berlayar attracted",
+   "check_by": "2026-09-02",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "Technology",
+   "claim": "Alibaba open-sources Qwen3.8-Max weights + a Qwen3.8-27B dense checkpoint by 17 Aug, with a genuinely permissive licence",
+   "check_by": "2026-08-17",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The Kit",
+   "claim": "Insta360 X6 launches 12 Aug with the teased dual 1-inch sensors confirmed on the spec sheet",
+   "check_by": "2026-08-13",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "Screen & Sound",
+   "claim": "Phoebe Bridgers' Lost Weekend (14 Aug) shows a critic-vs-user gap — user score lands below the critical ~91 Metacritic",
+   "check_by": "2026-08-28",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man: Brand New Day's 2nd weekend (8–10 Aug) drop stays under ~55% (legs, not front-loading)",
+   "check_by": "2026-08-11",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The Travel Desk",
+   "claim": "Japan replaces instant point-of-sale tax exemption with refund-at-departure on 1 Nov 2026 as scheduled",
+   "check_by": "2026-11-05",
+   "outcome": null
+  },
+  {
+   "issue": 66,
+   "desk": "The Long Read",
+   "claim": "By 30 Nov 2026, a major Western outlet (NYT/BBC/Reuters/FT/Economist) runs the identity story — Japan renaming its seasons / the word niki — not just heat deaths",
+   "check_by": "2026-11-30",
    "outcome": null
   }
  ]

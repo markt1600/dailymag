@@ -1,5 +1,5 @@
 {
-  "count": 409,
+  "count": 421,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,90 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Insta360 X6 (360 camera)",
+      "type": "Product (camera)",
+      "last_covered": "No. 66",
+      "last_peg": "The Kit LEAD — first official teaser (\"Rethink 360\"), launch/pre-order 12 Aug; dual 1-inch custom-Sony sensors, triple AI chip, 8K 360; price leak-only (~US$670–795); teased not shipped, no reviews",
+      "next_peg": "Next peg = the 12 Aug launch (spec sheet + price) and first reviews. Prediction logged."
+    },
+    {
+      "subject": "HOSHINOYA Nara Prison",
+      "type": "Venue (hotel/escape)",
+      "last_covered": "No. 66",
+      "last_peg": "Good Life LEAD — Hoshino's 9th HOSHINOYA flagship, opened 25 Jun 2026 in the former Meiji Nara Prison (1908); 48 red-brick rooms from combined solitary cells; from ¥147,000/night, meals extra; Nara Prison Museum opened Apr",
+      "next_peg": "Next peg = first guest reviews / a rate or availability shift. Not a re-run without one."
+    },
+    {
+      "subject": "Assaggi (Neil Road)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 66",
+      "last_peg": "The Table LEAD — contemporary-Italian degustation from chef Denis Lucchi, opens 10 Aug; tasting menus from S$88, lunch from S$58; \"flavour over presentation\"; too new to judge on the plate",
+      "next_peg": "Next peg = settled reviews once open (revisit in a fortnight)."
+    },
+    {
+      "subject": "Katsu by Kyu (OUE Downtown)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 66",
+      "last_peg": "The Table delta — now-open → now-reviewed; first reviews warm (Daniel Food Diary/Little Day Out/HungryGoWhere) on the Jeju-pork dry-age; not halal",
+      "next_peg": "Played out on the opening peg; next peg = a second outlet or a notable accolade."
+    },
+    {
+      "subject": "Phoebe Bridgers — Lost Weekend",
+      "type": "Music release",
+      "last_covered": "No. 66",
+      "last_peg": "Screen LEAD — early review wave, Metacritic low-90s (\"universal acclaim\"), reported perfect scores; out 14 Aug (Dead Oceans); the critic-vs-user gap flagged",
+      "next_peg": "Next peg = release-day + the user-vs-critic settle (grade ~28 Aug). Prediction logged."
+    },
+    {
+      "subject": "Spider-Man: Brand New Day",
+      "type": "Film",
+      "last_covered": "No. 66",
+      "last_peg": "Scoreboard grade — confirmed $360M domestic opening, biggest of ALL TIME (past Endgame $357.1M); our No. 60 \"2nd-biggest\" call graded WRONG (it took #1)",
+      "next_peg": "Next peg = 2nd-weekend hold (8–10 Aug, logged) / worldwide total. Do not re-run the opening."
+    },
+    {
+      "subject": "Qwen3.8-Max / Qwen3.8-27B",
+      "type": "AI model (open weights)",
+      "last_covered": "No. 66",
+      "last_peg": "Tech LEAD — still API-only at filing (8 Aug); open weights + a 27B dense checkpoint promised the week of 10 Aug, no licence stated",
+      "next_peg": "Next peg = weights + a permissive licence actually landing (grade 17 Aug). HELD. Prediction logged."
+    },
+    {
+      "subject": "MiniMax H3 (open weights)",
+      "type": "Product (AI model)",
+      "last_covered": "No. 66",
+      "last_peg": "Home Lab delta — community quants (GGUF Q2–Q5/INT4/INT8/NVFP4) landed ~4 Aug; ComfyUI day-zero; claim \"runs on an RTX 3060\" (full-weight size HELD)",
+      "next_peg": "Next peg = a benchmarked quality-under-quant verdict or a successor."
+    },
+    {
+      "subject": "Corsair–Trak Racer / Fanatec (sim-racing hardware)",
+      "type": "Industry (product/M&A)",
+      "last_covered": "No. 66",
+      "last_peg": "Rabbit Hole — Corsair acquired Trak Racer (5 Aug 2026, ~US$50m) as a Fanatec sub-brand; Moza R21/R25 Ultra ($699/$899) broke the high-torque price floor",
+      "next_peg": "Next peg = a competitor price response or a Fanatec software/QC delta."
+    },
+    {
+      "subject": "Japan tax-free reform + departure tax",
+      "type": "Travel (entry rules)",
+      "last_covered": "No. 66",
+      "last_peg": "Departures — instant in-store tax-free ends 1 Nov 2026 (switch to refund-at-departure); departure tax to triple ¥1,000→¥3,000 in FY2026 (exact date HELD)",
+      "next_peg": "Next peg = the 1 Nov switchover / the legislated departure-tax date. Prediction logged."
+    },
+    {
+      "subject": "Bali Love Bali levy (IDR 150k)",
+      "type": "Travel (entry rules)",
+      "last_covered": "No. 66",
+      "last_peg": "Departures — the ~US$10/S$13 tourist levy, on the honour system ~2 yrs (~⅓ paying), now spot-checked at major sites and the airport; pay via the official portal",
+      "next_peg": "Next peg = a rate change or a material enforcement shift."
+    },
+    {
+      "subject": "SIA First Class SIN–Amsterdam / Oman Air SIN–Muscat",
+      "type": "Travel (route/cabin)",
+      "last_covered": "No. 66",
+      "last_peg": "Departures — SIA restored First on SIN–AMS from 1 Jul (777-300ER); Oman Air resumed the SIN–Muscat nonstop 2 Jul (frequency HELD)",
+      "next_peg": "Next peg = a further network/cabin change on the reader's routes."
     },
     {
       "subject": "Marshall Stanmore IV",

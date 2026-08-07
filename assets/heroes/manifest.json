@@ -356,11 +356,24 @@
   {
    "slug": "seoul-photo-booth",
    "file": "Photo Sticker Shop in Seoul South Korea.JPG"
+  },
+  {
+   "slug": "bali-rice-terrace",
+   "file": "Bali – Rice terrace (2687336831).jpg"
+  },
+  {
+   "slug": "bali-uluwatu",
+   "file": "Uluwatu Temple.jpg"
+  },
+  {
+   "slug": "nara-prison-gate",
+   "file": "Former Nara Prison.jpg"
   }
  ],
  "_fetch_rev": 15,
  "_retrigger2": "No.65 retry torii/disney/seoul 2026-08-07",
  "_retrigger3": "No.65.5 retry shanghai-lujiazui/datacenter-racks/comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
  "_retrigger4": "No.65.5 retry comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
- "_retrigger5": "No.65.5 retry comfyui-nodes/rtx4090-strix 2026-08-07"
+ "_retrigger5": "No.65.5 retry comfyui-nodes/rtx4090-strix 2026-08-07",
+ "_retrigger6": "No.66 heroes: bali-rice-terrace, bali-uluwatu, nara-prison-gate"
 }
