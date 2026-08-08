@@ -368,6 +368,14 @@
   {
    "slug": "nara-prison-gate",
    "file": "130316 Nara Juvenile Prison Nara Japan05s3.jpg"
+  },
+  {
+   "slug": "simrig-cover",
+   "file": "AORUS VR racing simulator Gamescom 2019 (48605696576).jpg"
+  },
+  {
+   "slug": "vintage-racing-wheel",
+   "file": "InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG"
   }
  ],
  "_fetch_rev": 15,
@@ -376,5 +384,6 @@
  "_retrigger4": "No.65.5 retry comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
  "_retrigger5": "No.65.5 retry comfyui-nodes/rtx4090-strix 2026-08-07",
  "_retrigger6": "No.66 heroes: bali-rice-terrace, bali-uluwatu, nara-prison-gate",
- "_retrigger7": "No.66 heroes: corrected Uluwatu + Nara Commons filenames"
+ "_retrigger7": "No.66 heroes: corrected Uluwatu + Nara Commons filenames",
+ "_retrigger8": "No.66.5 special: simrig-cover, vintage-racing-wheel"
 }
