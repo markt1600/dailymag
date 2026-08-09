@@ -1,1476 +1,1554 @@
 {
- "_comment": "MERIDIAN verified-image manifest. `verified` is the growable library of Wikimedia Commons files whose subject + licence + author have been confirmed from the file's own Commons page (add to it only from a network-connected session that can open the page). `heroes` assigns library files to desks for a given issue; the Photo-Edition build reads `heroes`, filters by `issue`, and inserts each as a .ph-frame above that desk's headline. Honesty rule: never mislabel. `specific:true` = the image IS the named subject; `specific:false` = a clearly-labelled representative/generic image. Conceptual figures (charts, maps, diagrams) always stay as original SVG — never a photo.",
- "verified": [
-  {
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "subject": "Marina Bay, Singapore, at dusk",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "note": "Commons Featured Picture"
-  },
-  {
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "subject": "semiconductor dies on a silicon wafer (generic)",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck"
-  },
-  {
-   "file": "Headphones 1.jpg",
-   "subject": "over-ear headphones (generic)",
-   "license": "CC BY-SA 2.5",
-   "author": ""
-  },
-  {
-   "file": "ESO - Milky Way.jpg",
-   "subject": "the Milky Way over Paranal",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "note": "Commons Featured Picture"
-  },
-  {
-   "file": "3I-ATLAS Hubble heic2509a.jpg",
-   "subject": "interstellar comet 3I/ATLAS (Hubble)",
-   "license": "CC BY 4.0",
-   "author": "NASA/ESA/D. Jewitt et al. (ESA-Hubble)"
-  },
-  {
-   "file": "Taipei Skyline 2022.06.29.jpg",
-   "subject": "Taipei skyline incl. Taipei 101",
-   "license": "CC BY-SA 2.0",
-   "author": "Heeheemalu"
-  },
-  {
-   "file": "BD Hunefer.jpg",
-   "subject": "Book of the Dead of Hunefer — weighing of the heart (British Museum)",
-   "license": "Public domain",
-   "author": "British Museum"
-  },
-  {
-   "file": "Bank of Japan headquarters in Tokyo, Japan.jpg",
-   "subject": "Bank of Japan head office, Tokyo",
-   "license": "CC BY-SA 3.0",
-   "author": ""
-  },
-  {
-   "file": "Black hole - Messier 87 crop max res.jpg",
-   "subject": "M87 supermassive black hole (Event Horizon Telescope)",
-   "license": "CC BY 4.0",
-   "author": "EHT Collaboration"
-  },
-  {
-   "file": "HMS Queen Elizabeth (1913) RMG N16769.jpg",
-   "subject": "HMS Queen Elizabeth (1913), first oil-fired super-dreadnought",
-   "license": "Public domain",
-   "author": "Royal Museums Greenwich"
-  },
-  {
-   "file": "LNG tanker Christophe de Margerie.jpg",
-   "subject": "an LNG carrier at sea (representative)",
-   "license": "CC BY-SA",
-   "author": ""
-  },
-  {
-   "file": "The Earth seen from Apollo 17.jpg",
-   "subject": "the whole Earth (Blue Marble, Apollo 17)",
-   "license": "Public domain",
-   "author": "NASA"
-  }
- ],
- "heroes": [
-  {
-   "issue": "55",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "oil-refinery",
-   "source": "Wikimedia Commons — \"File:Mina-Al-Ahmadi oil refinery night.jpg\"",
-   "specific": false,
-   "caption": "A Gulf oil refinery at night — representative of the barrel shedding its war premium, not a specific facility."
-  },
-  {
-   "issue": "55",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "nvidia-h100",
-   "source": "Wikimedia Commons — \"File:NVIDIA H100 (Geekerwan) 016.png\"",
-   "specific": false,
-   "caption": "An Nvidia H100 accelerator — representative of the data-centre silicon a 2.8-trillion-parameter model needs, not the specific parts."
-  },
-  {
-   "issue": "55",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "headphones-audio",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "High-end personal audio — representative of the turntable-and-headphone week, not the specific Clearaudio deck."
-  },
-  {
-   "issue": "55",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "beta-pic",
-   "source": "NASA / ESA / CSA — James Webb Space Telescope (MIRI, weic2401b)",
-   "license": "CC BY 4.0",
-   "author": "NASA/ESA/CSA",
-   "specific": true,
-   "caption": "The Beta Pictoris system imaged by JWST/MIRI — the star system where a planet was just found by reading its atmosphere."
-  },
-  {
-   "issue": "55",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "fed-eccles",
-   "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
-   "license": "CC BY-SA 3.0",
-   "author": "AgnosticPreachersKid",
-   "specific": true,
-   "caption": "The Marriner S. Eccles Federal Reserve building — where the FOMC rules on Wednesday."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — representative of the island the Circle Line now loops."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not the specific memory parts discussed."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "file": "Headphones 1.jpg",
-   "license": "CC BY-SA 2.5",
-   "author": "",
-   "specific": false,
-   "caption": "Personal audio — representative; NOT the Nothing Ear (3a) reviewed here."
-  },
-  {
-   "issue": "37",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": true,
-   "caption": "The Milky Way — representative deep sky, not the Euclid quasar field."
-  },
-  {
-   "issue": "38",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline whose ledger set three records this week."
-  },
-  {
-   "issue": "38",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative; not SK hynix parts."
-  },
-  {
-   "issue": "38",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky for Webb's anniversary week, not the Centaurus A image."
-  },
-  {
-   "issue": "39",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline NDP's fireworks light up from the Stadium tonight."
-  },
-  {
-   "issue": "39",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
-  },
-  {
-   "issue": "41",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline the newly-closed Circle Line loop now serves directly."
-  },
-  {
-   "issue": "41",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
-  },
-  {
-   "issue": "43",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline behind this week's 5.7% GDP print."
-  },
-  {
-   "issue": "43",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not DeepSeek's own in-house chip design discussed here."
-  },
-  {
-   "issue": "43",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not Kamoʻoalewa or the Euclid quasar field discussed here."
-  },
-  {
-   "issue": "44",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline the week's defamation ruling and defence pact both played out under."
-  },
-  {
-   "issue": "44",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
-  },
-  {
-   "issue": "44",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars discussed here."
-  },
-  {
-   "issue": "45",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan is quietly built to serve."
-  },
-  {
-   "issue": "45",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
-  },
-  {
-   "issue": "45",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars or Beta Pictoris system discussed here."
-  },
-  {
-   "issue": "46",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan and the Auditor-General's report both sit quietly under."
-  },
-  {
-   "issue": "46",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative, not Nvidia's or DeepSeek's own hardware discussed here."
-  },
-  {
-   "issue": "46",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative deep sky, not the LHS 1140 b system discussed here."
-  },
-  {
-   "issue": "46",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "file": "Headphones 1.jpg",
-   "license": "CC BY-SA 2.5",
-   "author": "",
-   "specific": false,
-   "caption": "Over-ear headphones — representative, not Final's DX10000 CL or the other premium audio releases discussed here."
-  },
-  {
-   "issue": "50",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": true,
-   "caption": "Marina Bay at dusk — the island whose Cabinet was remade this week. Subject verified from the Commons file page."
-  },
-  {
-   "issue": "50",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative of the foundry economics on this page, not the specific parts discussed. Subject verified from the Commons file page."
-  },
-  {
-   "issue": "50",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "file": "ESO - Milky Way.jpg",
-   "license": "CC BY 4.0",
-   "author": "ESO / S. Brunier",
-   "specific": false,
-   "caption": "The Milky Way over Paranal — representative of the deep sky JWST observes; not NGC 4696 itself. Subject verified from the Commons file page."
-  },
-  {
-   "issue": "52",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "comet-3iatlas",
-   "source": "NASA/ESA Hubble Space Telescope (ESA/Hubble)",
-   "license": "CC BY 4.0",
-   "author": "NASA, ESA, D. Jewitt et al.",
-   "specific": false,
-   "caption": "Interstellar comet 3I/ATLAS, imaged by Hubble — the visitor this desk tracked out of the solar system (No. 51), a past callback now; representative of the deep sky, not the mummy discussed here."
-  },
-  {
-   "issue": "52",
-   "anchor": "Meridian · The Long Read</span><span>The Reckoning",
-   "asset": "book-of-dead",
-   "source": "Wikimedia Commons — the Book of the Dead of Hunefer (British Museum)",
-   "license": "Public domain",
-   "author": "British Museum",
-   "specific": true,
-   "caption": "The weighing of the heart against the feather of Ma'at — the Book of the Dead of Hunefer, c. 1275 BC (British Museum) — the reckoning this essay follows to its oldest form."
-  },
-  {
-   "issue": "52",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "headphones-audio",
-   "source": "Wikimedia Commons",
-   "license": "CC BY-SA 2.5",
-   "author": "",
-   "specific": false,
-   "caption": "Over-ear headphones — representative of the premium audio noted on this desk, not the specific models named."
-  },
-  {
-   "issue": "53",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "venus-real",
-   "source": "NASA/JPL — Mariner 10 (real colour)",
-   "license": "Public domain",
-   "author": "NASA/JPL",
-   "specific": true,
-   "caption": "Venus in real colour (Mariner 10) — the planet a new ETH Zurich study argues may still be splitting at the seams, on a fresh reading of 1990s Magellan radar."
-  },
-  {
-   "issue": "53",
-   "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
-   "asset": "penang-skyline",
-   "source": "Wikimedia Commons — \"File:Skyline of George Town, Penang at dusk May 2025-02.jpg\"",
-   "license": "CC BY-SA 4.0",
-   "specific": true,
-   "caption": "George Town, Penang, at dusk — the UNESCO heritage city an hour and twenty north that this weekend's Grand Tour walks, honestly."
-  },
-  {
-   "issue": "54",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "hormuz-tanker",
-   "source": "US Navy (public domain)",
-   "license": "Public domain",
-   "author": "US Navy",
-   "specific": false,
-   "caption": "A commercial tanker taking on crude at an offshore Gulf terminal — representative of the strait and the barrel the week's lead runs on, not the specific vessels in the story."
-  },
-  {
-   "issue": "54",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "fed-eccles",
-   "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
-   "license": "CC BY-SA 3.0",
-   "author": "AgnosticPreachersKid",
-   "specific": true,
-   "caption": "The Marriner S. Eccles Federal Reserve Board Building, Washington — the sealed room the whole week waits on Wednesday."
-  },
-  {
-   "issue": "56",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "hormuz-tanker",
-   "source": "Wikimedia Commons — U.S. Navy (oil tanker at a Gulf terminal)",
-   "license": "Public domain",
-   "author": "U.S. Navy",
-   "specific": false,
-   "caption": "An oil tanker at a Gulf terminal — representative of the Strait-of-Hormuz shipping the barrel’s price turns on, not the specific vessel."
-  },
-  {
-   "issue": "56",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "nvidia-h100",
-   "source": "Wikimedia Commons — NVIDIA H100 (极客湾Geekerwan)",
-   "license": "CC BY-SA 4.0",
-   "author": "极客湾Geekerwan",
-   "specific": false,
-   "caption": "An NVIDIA H100 accelerator — representative of the AI silicon whose China market is this desk’s story, not a specific part."
-  },
-  {
-   "issue": "56",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "grand-seiko",
-   "source": "Wikimedia Commons — Grand Seiko SBGA011",
-   "license": "CC BY-SA 3.0",
-   "author": "",
-   "specific": false,
-   "caption": "A high-end mechanical watch — representative of the luxury horology on this desk, not the Breitling × Aston Martin DB5 named in the story."
-  },
-  {
-   "issue": "56",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "comet-3iatlas",
-   "source": "NASA/ESA Hubble — interstellar comet 3I/ATLAS",
-   "license": "Public domain",
-   "author": "NASA/ESA",
-   "specific": false,
-   "caption": "Interstellar comet 3I/ATLAS (Hubble) — a representative window on the far edges; LHS 1140 b, this issue’s planet, has no photograph."
-  },
-  {
-   "issue": "57",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "warsh",
-   "source": "Wikimedia Commons — U.S. Federal Reserve (official portrait)",
-   "license": "Public domain (U.S. federal government work)",
-   "author": "Federal Reserve",
-   "specific": true,
-   "caption": "Kevin Warsh, chair of the Federal Reserve — whose first rate decision this issue reports (p15)."
-  },
-  {
-   "issue": "57",
-   "anchor": "Meridian · The Long Read</span><span>The Long View",
-   "asset": "suchao",
-   "source": "Wikimedia Commons",
-   "license": "CC (see file page)",
-   "author": "Wikimedia contributor",
-   "specific": true,
-   "caption": "Fans at a Jiangsu Football City League (苏超) match, Huai'an, June 2025 — the amateur league the essay is about."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "strait-hormuz",
-   "source": "Wikimedia Commons — \"File:Strait of Hormuz (MODIS 2020-12-04).jpg\"",
-   "specific": false,
-   "caption": "The Strait of Hormuz from orbit — the chokepoint a widening Gulf war put under fire this week (p3), and the shipping lane whose disruption lifts the gas price. Representative."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "cirqa",
-   "source": "Garmin newsroom press image (\"Meet CIRQA\")",
-   "specific": true,
-   "caption": "The Garmin CIRQA — the screen-free health band whose older Gen-4 sensor drew this week's reviews (p9). Specific subject."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "boj-building",
-   "source": "Wikimedia Commons — \"File:Bank of Japan headquarters in Tokyo, Japan.jpg\"",
-   "specific": true,
-   "caption": "The Bank of Japan headquarters, Tokyo — the central bank that held its rate at 1.00% this week as the yen sat near a 40-year low (p15). Specific subject."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "black-hole",
-   "source": "Wikimedia Commons — \"File:Black hole - Messier 87 crop max res.jpg\" (Event Horizon Telescope)",
-   "specific": false,
-   "caption": "The M87 supermassive black hole imaged by the Event Horizon Telescope — representative of the quasar whose 300,000-light-year wind XRISM measured (p16), not that object itself. Representative."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "gym-squat",
-   "source": "Wikimedia Commons — \"File:Woman doing squat workout in gym with barbell.jpg\"",
-   "specific": false,
-   "caption": "Barbell strength work — representative of the resistance-exercise the week's muscle-repair proteomics study examined (p18). Representative. General guidance, not medical advice."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · The Long Read</span><span>The Long View",
-   "asset": "hms-qe",
-   "source": "Wikimedia Commons — \"File:HMS Queen Elizabeth (1913) RMG N16769.jpg\" (Royal Museums Greenwich)",
-   "specific": false,
-   "caption": "HMS Queen Elizabeth, name-ship of the first class of oil-fired super-dreadnoughts (1913) — the vessels at the heart of Churchill's coal-to-oil bargain (p21). Representative, period photograph."
-  },
-  {
-   "issue": "58",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "world-map",
-   "source": "Wikimedia Commons — \"File:The Earth seen from Apollo 17.jpg\" (NASA, PD)",
-   "specific": false,
-   "caption": "The whole earth from space — representative of the hand-painted world-map dial of the IFL x Perrelet Weekend GMT Atlas (p11), not the watch itself.",
-   "no_image": "Searched the IFL Watches product page, Fratello, Deployant and Review Central ME for the Weekend GMT Atlas (ref A1304/S1, a 50-piece hand-painted collaboration). Its photography lives only inside those watch-media galleries and the IFL storefront; the model is not carried by Perrelet's own site or by any watch database (WatchCharts, Chrono24, Monochrome, aBlogtoWatch). A WebSearch hunt surfaced no directly-fetchable image URL of the specific product for the hero pipeline, so a representative image of the whole earth runs in its place, honestly labelled, matching the watch's hand-painted world-map dial."
-  },
-  {
-   "issue": "59",
-   "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
-   "asset": "heart-reef",
-   "source": "Wikimedia Commons — \"File:The heart reef, part of the Great Barrier Reef near Airlie Beach, Whitsunday Islands, Queensland.jpg\"",
-   "specific": true,
-   "caption": "Heart Reef, off the Whitsundays — the coral formation you can only see from the air (p21). Specific subject."
-  },
-  {
-   "issue": "59",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "himeji",
-   "source": "Wikimedia Commons — \"File:Himeji Castle The Keep Towers.jpg\"",
-   "specific": false,
-   "caption": "A Japanese castle keep — representative of the hand-engraved Edo-Castle-and-samurai dial of the Roger Dubuis Excalibur Kabuto Legacy (p11), NOT the watch itself.",
-   "no_image": "Hunted the Roger Dubuis newsroom and product page (rogerdubuis.com/excalibur-the-kabuto-legacy-rddbex1139) and the watch-media coverage (aBlogtoWatch, SJX/watchesbysjx, Monochrome, Robb Report, Forbes, Oracle Time) via WebSearch: the 28-piece Kabuto Legacy is richly photographed, but its press images sit only inside those editorial galleries and the maker's own page with no directly-fetchable image URL for the fetch-heroes pipeline, and the session's WebSearch budget (200/200) was exhausted before a stable direct URL could be confirmed. A representative Japanese-castle image runs in its place, honestly labelled, matching the watch's Edo-Castle dial."
-  },
-  {
-   "issue": "59",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "cirqa-alt",
-   "source": "Garmin newsroom press image (representative wearable)",
-   "specific": false,
-   "caption": "A screen-free wearable band — representative of the pocket-sized wearable category the Looki L1 AI camera enters (p9), NOT the Looki L1 itself.",
-   "no_image": "Hunted the Looki L1 via WebSearch (the-gadgeteer launch coverage and the maker's listing): the L1 is a small-maker product whose press imagery was not available as a directly-fetchable image URL for the fetch-heroes pipeline, and the session's WebSearch budget (200/200) was exhausted before a stable product-image URL could be confirmed. A representative wearable-tech image runs in its place, honestly labelled, not presented as the L1."
-  },
-  {
-   "issue": "59",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "fed-eccles",
-   "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
-   "specific": false,
-   "caption": "The Federal Reserve's Eccles Building, Washington — the central bank that HELD at 3.50–3.75% on 29 Jul on a hawkish 9–3 split, three members dissenting for a hike (p15). Representative."
-  },
-  {
-   "issue": "59",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-parliament",
-   "source": "Wikimedia Commons — \"File:Parliament House Singapore.jpg\"",
-   "specific": false,
-   "caption": "Parliament House, Singapore — the state that folded the word “energy” into its trade ministry’s name the same quarter a 17% power bill landed (p5). Representative."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
-   "asset": "hk-skyline",
-   "source": "Wikimedia Commons — \"File:Victoria Harbour (Hong Kong).jpg\"",
-   "specific": true,
-   "caption": "Victoria Harbour and the Hong Kong skyline — this weekend's Grand Tour (p21), read for the dry autumn and the camera streets. Specific subject."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "comet-3iatlas",
-   "source": "Wikimedia Commons — \"File:3I-ATLAS Hubble heic2509a.jpg\" (NASA/ESA/STScI)",
-   "specific": true,
-   "caption": "Interstellar comet 3I/ATLAS, imaged by Hubble — the visitor a Chinese Mars orbiter is now reported to have photographed passing Mars (p16). Specific subject."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "marina-bay",
-   "source": "Wikimedia Commons — \"File:Singapore Marina Bay Dusk 2018-02-27.jpg\" · CC BY-SA 4.0 · Benh Lieu Song",
-   "specific": false,
-   "caption": "Marina Bay at dusk — the city going into its 61st National Day weekend, parade and drone show on the 9th (p5). Representative."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "nvidia-h100",
-   "source": "Wikimedia Commons — NVIDIA H100 (Geekerwan)",
-   "specific": false,
-   "caption": "An Nvidia data-centre GPU — representative of the silicon at the centre of the open-weights letter and the export fight (p7), not the specific parts. Representative."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "lng-carrier",
-   "source": "Wikimedia Commons — \"File:LNG tanker Christophe de Margerie.jpg\"",
-   "specific": false,
-   "caption": "A gas carrier under way — representative of the tankers the Gulf war has put at risk in and around the Strait of Hormuz (p3), not a vessel in the story. Representative."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "oil-refinery",
-   "source": "Wikimedia Commons — \"File:Mina-Al-Ahmadi oil refinery night.jpg\"",
-   "specific": false,
-   "caption": "A Gulf refinery at night — representative of the oil-supply premium (Brent ~$87) reasserting itself in the long end of the yield curve (p15). Representative."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "cirqa-alt",
-   "source": "Garmin newsroom press image (representative wearable)",
-   "specific": false,
-   "caption": "A screen-free wearable band — representative of the smart-wearable category the Oura Ring 5 leads (p9), NOT the Oura Ring 5 itself.",
-   "no_image": "Searched the ŌURA newsroom (ouraring.com/newsroom), the BusinessWire launch release and the July review coverage (Gizmodo, TechRadar) for the Ring 5 via WebSearch; the press imagery is distributed through the newsroom's media-request flow and inside editorial galleries, with no stable directly-fetchable image FILE URL surfaced for the fetch-heroes {url} pipeline. A representative wearable image runs in its place, honestly labelled, not presented as the Ring 5."
-  },
-  {
-   "issue": "60",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "beta-pic",
-   "source": "Wikimedia Commons — \"File:Star system Beta Pictoris (MIRI image, annotated) (weic2401b).jpg\" (NASA/ESA/CSA)",
-   "specific": false,
-   "caption": "A star system imaged by Webb — representative of the astronomical complication of the Ulysse Nardin Blast Moonstruck (p11), NOT the watch itself.",
-   "no_image": "Searched the Ulysse Nardin newsroom and the Monochrome / HauteTime / Space.com coverage of the Blast Moonstruck rose gold via WebSearch; the press imagery sits inside those editorial galleries and the maker's site with no stable directly-fetchable image FILE URL surfaced for the fetch-heroes {url} pipeline. A representative astronomical image runs in its place, honestly labelled, matching the watch's five-indication celestial display."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "patriot-launcher",
-   "source": "Wikimedia Commons — \"File:German Patriot missile launcher (cropped).jpg\" · CC BY 2.0",
-   "specific": false,
-   "caption": "A Patriot air-defence launcher — representative of the interceptor systems now flowing to the Gulf rather than to Kyiv (p4), not a unit in the story."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-mrt",
-   "source": "Wikimedia Commons — \"File:SMRT C151.jpg\"",
-   "specific": false,
-   "caption": "A Singapore MRT train — representative of the rail network the Cross Island Line will extend into the far west (p5); the new stations are not due until the late 2030s."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "rtx-gpu",
-   "source": "Wikimedia Commons — \"File:Zotac GeForce RTX 3060 12GB VRAM LHR video card.jpg\"",
-   "specific": false,
-   "caption": "A GeForce RTX graphics card — representative of the GPUs whose street prices are climbing on the AI memory shortage (p8), not the specific part."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "cirqa",
-   "source": "Garmin newsroom press image",
-   "specific": true,
-   "caption": "The Garmin CIRQA — the screen-free, subscription-free recovery band reviewed here (p9)."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "greek-helmet",
-   "source": "Wikimedia Commons — \"File:Bronze helmet of the Corinthian type MET 3424.jpg\"",
-   "specific": false,
-   "caption": "An ancient Greek Corinthian bronze helmet — a representative image evoking the Hamilton × Nolan \"Odyssey\" watch's bronze case and helmet-textured dial (p11), not the watch itself.",
-   "no_image": "Searched the Hamilton newsroom, the official H70675530 product page, and the launch coverage (Forbes, Monochrome, WatchTime, The Gadgeteer) via WebSearch for a directly-fetchable product-image file URL to feed the manifest {url} pipeline; none was surfaced — Hamilton serves its media via cache-hashed catalogue paths and the retailers via CDNs without a discoverable direct file URL. A representative bronze-helmet image runs in its place, honestly labelled, never presented as the watch."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
-   "asset": "classroom",
-   "source": "Wikimedia Commons — \"File:Students are learning in the classroom.jpg\" · CC BY-SA 4.0",
-   "specific": false,
-   "caption": "A school classroom — representative of the phone-ban rollout reshaping the school day across 35-plus states (p13), not a specific school."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "warsh",
-   "source": "Federal Reserve — official portrait",
-   "specific": true,
-   "caption": "Federal Reserve Chair Kevin Warsh — whose \"talk is cheap\" hold drew a bond-market rebuke, the 30-year at a 2007 high (p15)."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "betelgeuse",
-   "source": "ESO / Wikimedia Commons — \"File:Nebula and betelgeuse VLT.jpg\"",
-   "specific": true,
-   "caption": "The red supergiant Betelgeuse, imaged with ESO's VLT — the star whose century-suspected companion, Siwarha, has now been imaged (p16)."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "sauna",
-   "source": "Wikimedia Commons — \"File:Sauna-löyly.jpg\"",
-   "specific": false,
-   "caption": "A traditional Finnish sauna — representative of the setting of the immune-mobilisation study (p18), not the study's own facility."
-  },
-  {
-   "issue": "61",
-   "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
-   "asset": "mixue-county",
-   "source": "Wikimedia Commons — \"File:Mixue icecream and tea in fujian fuding.jpg\"",
-   "specific": true,
-   "caption": "A Mixue tea-and-ice-cream store in Fuding, a county-level city in Fujian — the ¥6 daily luxury that is the physical spine of the county-consumption trend (p21)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "tanker-hormuz",
-   "source": "Wikimedia Commons — a crude oil tanker underway",
-   "specific": false,
-   "caption": "A crude oil tanker at sea — representative of the crude the Strait of Hormuz still throttles, and the barrel that fell almost 6% the moment the strikes paused (p3, p15)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-sportshub",
-   "source": "Wikimedia Commons — \"File:Singapore Sports Hub.jpg\"",
-   "specific": true,
-   "caption": "Singapore's National Stadium at the Sports Hub — home of NDP 2026, back at Kallang for the first time since 2016 (p5)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "dram-ddr4",
-   "source": "Wikimedia Commons — DDR4 memory module",
-   "specific": false,
-   "caption": "A DDR4 memory module — representative of the DRAM whose AI-driven shortage is lifting GPU prices (p8), not the specific part."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "gw-ultra2",
-   "source": "Samsung / GSMArena product image",
-   "specific": true,
-   "caption": "The Samsung Galaxy Watch Ultra 2 — the 47mm titanium flagship shipping this week at US$699 (p9)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "shinkansen-n700",
-   "source": "Wikimedia Commons — \"File:Shinkansen N700 series at Shin-Yamaguchi Station 2019-02-05.jpg\"",
-   "specific": true,
-   "caption": "An N700-series Shinkansen on the Sanyo line — the Tokaido/Sanyo route gaining private \"Supreme Class\" cabins from 1 October (p11)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
-   "asset": "teen-phones",
-   "source": "Wikimedia Commons — young people using smartphones",
-   "specific": false,
-   "caption": "Teenagers on smartphones — representative; Australia's under-16 social-media ban barely moved reported usage (p13)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "boj-building",
-   "source": "Wikimedia Commons — Bank of Japan head office",
-   "specific": true,
-   "caption": "The Bank of Japan head office — a rare reported joint US–Japan intervention pulled the yen back from ~¥163 toward ~¥156.5 this week (p15)."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · Curiosities</span><span>The Far Edges",
-   "asset": "beta-pic",
-   "source": "Wikimedia Commons — Beta Pictoris system (JWST/MIRI)",
-   "specific": true,
-   "caption": "The Beta Pictoris debris-disk system (JWST) — the planet we first flagged in No. 55, found by its atmospheric chemistry; the detection-by-trace method the desk (p16) and the Long Read (p21) both follow."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "cpet-treadmill",
-   "source": "Wikimedia Commons — exercise/treadmill test",
-   "specific": false,
-   "caption": "A treadmill exercise test — representative of the aerobic-fitness science on p18, not a specific study subject."
-  },
-  {
-   "issue": "62",
-   "anchor": "Meridian · The Long Read</span><span>The Long Read",
-   "asset": "neptune-full",
-   "source": "Wikimedia Commons — \"File:Neptune Full.jpg\" (NASA/JPL, Voyager 2, 1989)",
-   "specific": true,
-   "caption": "Neptune, imaged by Voyager 2 in 1989 — the planet found on paper first, deduced from the wobble it left in Uranus's orbit (p21)."
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · The Invitation</span><span>Chapter One — What This Hobby Actually Is",
-   "asset": "citation-sim-cockpit",
-   "file": "Cessna Citation XLS Simulator Cockpit view.JPG",
-   "caption": "A Cessna Citation XLS flight-simulator cockpit — a genuine training-device cockpit, representative of the entry point into home-cockpit flight simming, not a specific hobbyist's rig.",
-   "source": "Wikimedia Commons — \"File:Cessna Citation XLS Simulator Cockpit view.JPG\"",
-   "specific": false
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · A Short History of Pretending to Fly</span><span>Chapter Two",
-   "asset": "msfs2020-logo",
-   "file": "Microsoft Flight Simulator (2020) logo.png",
-   "caption": "The Microsoft Flight Simulator (2020) mark — the relaunch that reset the entire hobby's baseline for what a home flight simulator looks like.",
-   "source": "Wikimedia Commons — official logo",
-   "specific": true
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · Study-Level Aircraft &amp; the Systems Cult</span><span>Chapter Four",
-   "asset": "a320-glass-cockpit",
-   "file": "Airbus A320 Glass Cockpit.jpg",
-   "caption": "A real Airbus A320 glass cockpit — the actual flight deck the hobby's most obsessive add-ons try to reproduce switch-by-switch.",
-   "source": "Wikimedia Commons",
-   "specific": false
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · The Hardware</span><span>Chapter Five — A Buyer's Ladder",
-   "asset": "saitek-joystick",
-   "file": "Saitek Joystick.JPG",
-   "caption": "A Saitek flight-simulation joystick — representative of the class of hardware this chapter covers, not the specific current-generation sticks named in the text.",
-   "source": "Wikimedia Commons",
-   "specific": false
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · VATSIM &amp; Online ATC</span><span>Chapter Six",
-   "asset": "vatsim-logo",
-   "file": "VATSIM Logo Official.png",
-   "caption": "The VATSIM mark — the volunteer network that put a real human controller behind roughly 190,000 active flight-simmers' radios.",
-   "source": "Wikimedia Commons — official logo",
-   "specific": true
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · DCS World, Combat Sim &amp; VR</span><span>Chapter Nine",
-   "asset": "f111-sim-cockpit",
-   "file": "F-111 cockpit similuator - cockpick view.jpg",
-   "caption": "An F-111 cockpit flight simulator — a museum training device, not a DCS World rig, but a genuine example of the combat-cockpit replicas this chapter's community builds and flies.",
-   "source": "Wikimedia Commons",
-   "specific": false
-  },
-  {
-   "issue": "62.5",
-   "anchor": "Meridian · Singapore &amp; the Glossary</span><span>Chapter Ten",
-   "asset": "changi-t3",
-   "file": "Changi Airport Terminal 3.JPG",
-   "caption": "Changi Airport Terminal 3 — the real FIR that Singapore's volunteer VATSIM controllers staff virtually.",
-   "source": "Wikimedia Commons",
-   "specific": false
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "strait-hormuz",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "The Strait of Hormuz — representative of the passage a burning bulker crossed on 4 August (p3)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-parliament",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Singapore's Parliament House — representative of the Little Red Dot; the week's story sits in the courts (p5)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "nvidia-h100",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "An AI accelerator — representative of the data-centre silicon whose price is climbing on both banks (p7)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "headphones-audio",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a MOMENTUM 5 Wireless press image via WebSearch — the Sennheiser newsroom, Headphones.com and Audio46 product pages, and the launch reviews (SoundGuys, ecoustics). Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and the Action itself could not be dispatched from this session (the integration lacks workflow-dispatch permission). A labelled-representative over-ear hero runs; the manifest entry is queued for the next fetch.",
-   "caption": "Over-ear headphones — representative; the reviewed Sennheiser MOMENTUM 5 is the specific subject (p9)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "himeji",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a KAI Matsumoto press image via WebSearch — the Hoshino Resorts newsroom/press center and launch coverage. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and the Action itself could not be dispatched from this session (the integration lacks workflow-dispatch permission). A labelled-representative castle-town hero runs; Matsumoto is itself a castle town.",
-   "caption": "A Japanese castle — representative of the castle-town escape, not the specific KAI Matsumoto property (p10)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "fed-eccles",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A central bank — representative of the rate-path repricing behind the week's relief rally (p14)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The Rabbit Hole</span><span>Down the Rabbit Hole",
-   "asset": "jute-rope-63",
-   "file": "Jute rope.jpg",
-   "source": "Wikimedia Commons — \"File:Jute rope.jpg\"",
-   "specific": false,
-   "caption": "A coil of natural jute rope — the craft object at the heart of shibari (p15)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "gym-squat",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Strength training — representative of the resistance-training dose behind the week's study (p18)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
-   "asset": "shinkansen-alt",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A shinkansen — representative of the autumn travel the Diary books (p19)."
-  },
-  {
-   "issue": "63",
-   "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
-   "asset": "factory-robots-63",
-   "file": "FANUC 6-axis welding robots.jpg",
-   "source": "Wikimedia Commons — \"File:FANUC 6-axis welding robots.jpg\"",
-   "specific": false,
-   "caption": "A robotic assembly line — representative of the factories China now opens to tourists (p21)."
-  },
-  {
-   "issue": "64",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "oil-refinery",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "An oil refinery at night — representative of the Hormuz oil trade the week's lead turns on (p3)."
-  },
-  {
-   "issue": "64",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "turntable",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a Marshall Stanmore IV press image via WebSearch — the Marshall Group newsroom, marshall.com product page, and the TechRadar/Tom's Guide/What Hi-Fi launch reviews. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative, category-appropriate hero runs; the specific product image is queued for the next fetch.",
-   "caption": "A hi-fi turntable — representative of home audio; the Marshall Stanmore IV is the specific subject (p9)."
-  },
-  {
-   "issue": "64",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "heart-reef",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a DOXA SUB Army 200T press image via WebSearch — the SJX, Gear Patrol and the Watches of Switzerland product page. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative, category-appropriate hero runs; the specific product image is queued for the next fetch.",
-   "caption": "A coral reef — representative of the dive watch's element; the DOXA SUB Army 200T is the specific subject (p10)."
-  },
-  {
-   "issue": "64",
-   "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
-   "asset": "great-wave",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Hokusai's Great Wave — representative of the autumn Japan travel the Diary books (p19)."
-  },
-  {
-   "issue": "64",
-   "anchor": "Meridian · The Long Read</span><span>The Fine Print",
-   "asset": "world-map",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "An old world map — representative of the meridian line the essay traces from Tordesillas (p21)."
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · The Invitation</span><span>What This Trip Actually Is",
-   "asset": "higashi-chaya-street",
-   "file": "Higashiyama Higashi Chaya District Kanazawa (29103739857).jpg",
-   "caption": "Higashiyama, the Higashi Chaya district's main street — the largest of Kanazawa's surviving geisha quarters.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · The Gold City</span><span>99% of a Country's Gold Leaf",
-   "asset": "gold-leaf-icecream",
-   "file": "Gold leaf on soft ice cream - Kanazawa, Japan - DSC00135.jpg",
-   "caption": "Gold leaf lifted onto a soft-serve cone on Higashi Chaya's main street — real, not an urban legend.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · Clay &amp; Silk</span><span>Kutani, Ohi &amp; Kaga Yuzen",
-   "asset": "kutani-gosaide-dish",
-   "file": "Large dish with peony scroll design, Imari ware, Kokutani gosai-de type, Edo period, 17th century, overglaze enamel - Tokyo National Museum - DSC06028.JPG",
-   "caption": "An Edo-period gosai-de style dish in the Ko-Kutani manner, Tokyo National Museum.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · The Tables</span><span>Kaiseki, Sushi &amp; Omicho Market",
-   "asset": "omicho-market",
-   "file": "Omicho covered market western entrance, Kanazawa, 2016.jpg",
-   "caption": "Omicho Market's western entrance — \"Kanazawa's Kitchen\" since 1721.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · Kenroku-en, Properly</span><span>One of Japan's Three Great Gardens",
-   "asset": "kotoji-toro-kenrokuen",
-   "file": "Kotoji-toro lantern, Kenroku-en (3810732114).jpg",
-   "caption": "The Kotoji-toro lantern beside Kasumigaike Pond — an intentionally off-balance form found nowhere else in Japan.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · The Chaya Districts</span><span>Higashi, Nishi &amp; Kazuemachi",
-   "asset": "higashi-chaya-sugidama",
-   "file": "10 Sugidama, Higashi-chaya (Kanazawa).jpg",
-   "caption": "A sugidama — a cedar-frond ball, a traditional sign of a working establishment — hanging in Higashi Chaya.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · Nagamachi &amp; the Private Experience</span><span>A Samurai Garden with a Michelin Rating",
-   "asset": "nagamachi-samurai",
-   "file": "Nagamachi Buke Yashiki District 04.jpg",
-   "caption": "A preserved earthen-walled lane in the Nagamachi samurai district.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · Kayotei — One Night in Yamanaka</span><span>The Centrepiece",
-   "asset": "onsen-rotenburo-rep",
-   "file": "Takanoyu Onsen Rotenburo 003.JPG",
-   "caption": "An open-air rotenburo bath at a Japanese onsen ryokan (Takanoyu Onsen, Tohoku) — representative of the private open-air bath format some Kayotei suites carry, not the specific room.",
-   "source": "Wikimedia Commons",
-   "specific": false
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · The Kaga Onsen Country</span><span>Four Towns, One Lacquerware Street",
-   "asset": "yamanaka-ayatorihashi",
-   "file": "AyatoriHashi 2018.jpg",
-   "caption": "Ayatorihashi Bridge, spanning the Kakusenkei Gorge that runs past Yamanaka Onsen.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "64.5",
-   "anchor": "Meridian · Getting There</span><span>From Singapore, the Timetable Just Changed",
-   "asset": "hokuriku-shinkansen-w7",
-   "file": "W7 series set W3 20150207.jpg",
-   "caption": "A W7 series Hokuriku Shinkansen trainset — the line that shortened Tokyo–Kanazawa to 2h28m.",
-   "source": "Wikimedia Commons",
-   "specific": true
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "strait-hormuz",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "The Strait of Hormuz — representative of the shipping lane the week's lead turns on (p3)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-parliament",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Singapore's Parliament House — representative of the civic week around SG61 (p5)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "nvidia-h100",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "An AI accelerator — representative of the silicon in the chip-sovereignty story, not the specific parts (p7)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "sony-rx10",
-   "source": "Wikimedia Commons — \"File:Sony Cyber-shot DSC-RX10.jpg\" (Adryan R. Villanueva, CC BY-SA 4.0)",
-   "specific": false,
-   "no_image": "Hunted a Sony RX10 V press image via WebSearch — Sony's Alpha Universe newsroom, the PRNewswire launch release, B&H, and the DPReview review. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative hero of the camera's travel-and-wildlife use runs in its place.",
-   "caption": "A Sony RX10-series bridge camera — representative of the line; the specific subject is the new RX10 V (p9)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "onsen-rotenburo-rep",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a KAI Miyajima press image via WebSearch — the Hoshino Resorts newsroom, the press-center 'Umigiri Rooms' first-look page, Journal des Palaces and Hotel Planet. Genuine renders exist, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative hero of the ryokan's setting — the Itsukushima torii it faces — is queued in the manifest; a category-appropriate committed hero runs here.",
-   "caption": "An open-air onsen — representative of KAI Miyajima's baths and Seto-Inland-Sea setting; the ryokan is the specific subject (p10)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
-   "asset": "teen-phones",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Adolescents on their phones — representative of the screens-and-sleep story (p12)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "gym-squat",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Strength work — representative of the loading stimulus; the loaded walk is the subject (p18)."
-  },
-  {
-   "issue": "65",
-   "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
-   "asset": "himeji",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A Japanese castle — representative of the autumn Japan travel the Diary books (p19)."
-  },
-  {
-   "issue": "65.5",
-   "anchor": "Meridian · MiniMax — Company &amp; Lineage</span><span>The Sea Snail and the Cap Table",
-   "asset": "shanghai-lujiazui",
-   "file": "Shanghai - Pudong - Lujiazui.jpg",
-   "caption": "The Lujiazui financial skyline, Pudong, Shanghai — MiniMax's home city.",
-   "source": "Wikimedia Commons",
-   "license": "CC BY 3.0",
-   "specific": false
-  },
-  {
-   "issue": "65.5",
-   "anchor": "Meridian · The Machine</span><span>One Stream, Two Borrowed Parts",
-   "asset": "datacenter-racks",
-   "file": "Datacenter Server Racks (22370909788).jpg",
-   "caption": "Server racks in a data center — representative of the compute H3's hosted API pipeline runs on.",
-   "source": "Wikimedia Commons",
-   "license": "CC BY 2.0",
-   "specific": false
-  },
-  {
-   "issue": "65.5",
-   "anchor": "Meridian · The ComfyUI Story</span><span>The Diff That Shipped It",
-   "asset": "comfyui-screenshot",
-   "file": "ComfyUI Screenshot.png",
-   "caption": "The ComfyUI interface — the actual node-graph environment H3's four new nodes ship inside.",
-   "source": "Wikimedia Commons",
-   "license": "CC BY-SA 4.0",
-   "specific": true
-  },
-  {
-   "issue": "65.5",
-   "anchor": "Meridian · The Gear</span><span>The Memory Tax",
-   "asset": "rtx4090-macro",
-   "file": "NVIDIA RTX 4090 Founders Edition - Nahaufnahme (ZMASLO).png",
-   "caption": "An NVIDIA GeForce RTX 4090 Founders Edition — the consumer-GPU class this issue's buyer's ladder is built around.",
-   "source": "Wikimedia Commons",
-   "license": "CC BY 3.0",
-   "specific": true
-  },
-  {
-   "issue": "65.5",
-   "anchor": "Meridian · The Community Map</span><span>Confirmed, Unconfirmed, Not Found",
-   "asset": "comfyui-nodes",
-   "file": "ComfyUI Nodes.png",
-   "caption": "A ComfyUI node graph — the kind of workflow the community has been building around H3 since day zero.",
-   "source": "Wikimedia Commons",
-   "license": "CC BY-SA 4.0",
-   "specific": false
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "tanker-hormuz",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A tanker in the Gulf — representative of the Hormuz lane the lead turns on (p3)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-national-stadium",
-   "source": "Wikimedia Commons",
-   "specific": true,
-   "caption": "Singapore's National Stadium — the NDP venue tomorrow (p5)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · Technology</span><span>The Home Lab",
-   "asset": "rtx4090-macro",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A consumer GPU — representative of the home-lab hardware the H3 quants target (p8)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "sony-rx10",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted an Insta360 X6 image via WebSearch — the Insta360 newsroom teaser, Imaging Resource, Lowyat and Digital Camera World launch coverage. A genuine official teaser image exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative compact-camera hero runs in its place; the specific subject is the Insta360 X6.",
-   "caption": "A compact camera — representative; the specific subject is the Insta360 X6 (p9)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "nara-prison-gate",
-   "source": "Hoshino Resorts / Wikimedia Commons",
-   "specific": true,
-   "caption": "The red-brick former Nara Prison (1908), now HOSHINOYA Nara Prison (p10).",
-   "file": "130316 Nara Juvenile Prison Nara Japan05s3.jpg"
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
-   "asset": "classroom",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A classroom — representative of the early-adolescent cohort in the screen-parenting research (p12)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "cpet-treadmill",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A cardiopulmonary test — representative of the VO2-max measurement in the study (p18)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Travel Desk</span><span>Departures",
-   "asset": "changi-t3",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Changi Airport — the ex-Singapore lens on the travel deltas (p19)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
-   "asset": "bali-uluwatu",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A Balinese clifftop temple — representative of the Bukit peninsula (p21).",
-   "file": "Pura Luhur Uluwatu, Bali (16306262087).jpg"
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
-   "asset": "itsukushima-torii",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A Japanese landmark — representative of the autumn Japan the Diary books (p23)."
-  },
-  {
-   "issue": "66",
-   "anchor": "Meridian · The Long Read</span><span>The Country With Two Seasons",
-   "asset": "kenroku-lantern-winter",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A Japanese garden keyed to a season — the aesthetic order the essay is about (p25)."
-  },
-  {
-   "issue": "66.5",
-   "anchor": "Meridian · The Circuit</span><span>From a Maths Textbook to a Servo Motor",
-   "asset": "vintage-racing-wheel",
-   "file": "InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG",
-   "caption": "The pedal unit from an early-2000s InterAct V-Thunder console racing-wheel peripheral — representative of the consumer-grade hardware racing games shipped with before direct drive existed, not a Papyrus-era product.",
-   "source": "Wikimedia Commons — \"File:InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG\"",
-   "specific": false
-  },
-  {
-   "issue": "66.5",
-   "anchor": "Meridian · The Rig</span><span>A Buyer's Ladder, Priced Honestly",
-   "asset": "simrig-cover",
-   "file": "AORUS VR racing simulator Gamescom 2019 (48605696576).jpg",
-   "caption": "A racing-simulator rig at Gamescom 2019 — the class of hardware this section's buyer's ladder is built around, not a specific model reviewed in this issue.",
-   "source": "Wikimedia Commons — \"File:AORUS VR racing simulator Gamescom 2019 (48605696576).jpg\"",
-   "specific": false
-  },
-  {
-   "issue": "66.5",
-   "anchor": "Meridian · The Machine</span><span>&ldquo;The Machine&rdquo;",
-   "asset": "rtx4090-macro",
-   "file": "NVIDIA RTX 4090 Founders Edition - Nahaufnahme (ZMASLO).png",
-   "caption": "An NVIDIA GeForce RTX 4090 — the class of consumer GPU that drives triple-monitor and VR sim racing rigs at a stable frame rate, representative rather than a specific reader's card.",
-   "source": "Wikimedia Commons",
-   "license": "CC BY 3.0",
-   "specific": false
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
-   "asset": "tanker-hormuz",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A tanker in the Gulf — representative of the Hormuz lane the lead turns on (p3)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "sg-national-stadium",
-   "source": "Wikimedia Commons",
-   "specific": true,
-   "caption": "The National Stadium — where NDP returned for SG61 (p5)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "datacenter-racks",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A data centre — representative of the frontier-lab compute in the story (p7)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · Technology</span><span>The Home Lab",
-   "asset": "rtx4090-strix",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A consumer GPU — representative of the home-lab hardware the H3 quants target (p8)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
-   "asset": "sony-rx10",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a genuine Insta360 X6 product image via WebSearch — the Insta360 press hub (insta360.com/press), Imaging Resource and RedShark launch coverage, and Geeky Gadgets leak imagery. A genuine official teaser image exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (workflow-dispatch runs post-promote). A labelled-representative compact-camera hero runs in its place; the specific subject is the Insta360 X6.",
-   "caption": "A compact camera — representative; the specific subject is the Insta360 X6, pre-orders 12 Aug (p9)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
-   "asset": "itsukushima-torii",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "no_image": "Hunted a genuine HOSHINOYA/KAI Miyajima press image via WebSearch — the Hoshino Resorts press center (hoshinoresorts.com/en/presscenter), the KAI Miyajima 'Umigiri' room release, and MICE Times coverage. Genuine press images exist, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly. A labelled-representative image of the Itsukushima torii — which KAI Miyajima faces across the water — runs in its place; the specific subject is KAI Miyajima.",
-   "caption": "The Itsukushima torii — representative; KAI Miyajima opens facing it across the water (p10)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · Screen &amp; Sound</span><span>Culture Desk",
-   "asset": "phoebe-bridgers",
-   "source": "Wikimedia Commons (Surly Brewing Festival Field, 2021)",
-   "specific": true,
-   "caption": "Phoebe Bridgers, whose Lost Weekend lands 14 Aug (p11).",
-   "file": "Phoebe Bridgers at Surly Brewing Festival Field in Minneapolis, MN.jpg"
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
-   "asset": "teen-phones",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Adolescents on phones — representative of the screen-parenting research (p12)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
-   "asset": "gold-bullion",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Gold bars — the week's standout, at a seven-week high into the CPI print (p14).",
-   "file": "Gold bullion bars.jpg"
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Rabbit Hole</span><span>Down the Rabbit Hole",
-   "asset": "homebrew-kettle",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "A homebrew kettle draining into a fermenter — the hobby's iconic scene (p15).",
-   "file": "Stainless steel homebrewing kettle draining into a plastic fermenting bucket.jpg"
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · Fitness</span><span>The Long Game",
-   "asset": "gym-squat",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Resistance training — representative of the muscle-preservation the desk argues for (p18)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Travel Desk</span><span>Departures",
-   "asset": "changi-t3",
-   "source": "Wikimedia Commons",
-   "specific": false,
-   "caption": "Changi Airport — the ex-Singapore lens on the travel deltas (p19)."
-  },
-  {
-   "issue": "67",
-   "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
-   "asset": "nakasendo-tsumago",
-   "source": "Wikimedia Commons",
-   "specific": true,
-   "caption": "Tsumago-juku on the Nakasendo — the old post road the Grand Tour walks (p21).",
-   "file": "Tsumago.jpg"
-  }
- ],
- "standing": [
-  {
-   "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
-   "asset": "marina-bay",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": false,
-   "caption": "Marina Bay at dusk — the standing view of the Little Red Dot."
-  },
-  {
-   "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
-   "asset": "wafer",
-   "file": "Chips on 6-Inch-Wafer 01.jpg",
-   "license": "CC BY-SA 3.0",
-   "author": "Kuebi / Armin Kübelbeck",
-   "specific": false,
-   "caption": "Semiconductor dies on a wafer — representative of the silicon in the story, not the specific parts."
-  },
-  {
-   "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
-   "asset": "marina-bay",
-   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
-   "license": "CC BY-SA 4.0",
-   "author": "Benh Lieu Song",
-   "specific": false,
-   "caption": "Singapore at dusk — the city whose calendar this page books."
-  }
- ]
+  "_comment": "MERIDIAN verified-image manifest. `verified` is the growable library of Wikimedia Commons files whose subject + licence + author have been confirmed from the file's own Commons page (add to it only from a network-connected session that can open the page). `heroes` assigns library files to desks for a given issue; the Photo-Edition build reads `heroes`, filters by `issue`, and inserts each as a .ph-frame above that desk's headline. Honesty rule: never mislabel. `specific:true` = the image IS the named subject; `specific:false` = a clearly-labelled representative/generic image. Conceptual figures (charts, maps, diagrams) always stay as original SVG — never a photo.",
+  "verified": [
+    {
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "subject": "Marina Bay, Singapore, at dusk",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "note": "Commons Featured Picture"
+    },
+    {
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "subject": "semiconductor dies on a silicon wafer (generic)",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck"
+    },
+    {
+      "file": "Headphones 1.jpg",
+      "subject": "over-ear headphones (generic)",
+      "license": "CC BY-SA 2.5",
+      "author": ""
+    },
+    {
+      "file": "ESO - Milky Way.jpg",
+      "subject": "the Milky Way over Paranal",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "note": "Commons Featured Picture"
+    },
+    {
+      "file": "3I-ATLAS Hubble heic2509a.jpg",
+      "subject": "interstellar comet 3I/ATLAS (Hubble)",
+      "license": "CC BY 4.0",
+      "author": "NASA/ESA/D. Jewitt et al. (ESA-Hubble)"
+    },
+    {
+      "file": "Taipei Skyline 2022.06.29.jpg",
+      "subject": "Taipei skyline incl. Taipei 101",
+      "license": "CC BY-SA 2.0",
+      "author": "Heeheemalu"
+    },
+    {
+      "file": "BD Hunefer.jpg",
+      "subject": "Book of the Dead of Hunefer — weighing of the heart (British Museum)",
+      "license": "Public domain",
+      "author": "British Museum"
+    },
+    {
+      "file": "Bank of Japan headquarters in Tokyo, Japan.jpg",
+      "subject": "Bank of Japan head office, Tokyo",
+      "license": "CC BY-SA 3.0",
+      "author": ""
+    },
+    {
+      "file": "Black hole - Messier 87 crop max res.jpg",
+      "subject": "M87 supermassive black hole (Event Horizon Telescope)",
+      "license": "CC BY 4.0",
+      "author": "EHT Collaboration"
+    },
+    {
+      "file": "HMS Queen Elizabeth (1913) RMG N16769.jpg",
+      "subject": "HMS Queen Elizabeth (1913), first oil-fired super-dreadnought",
+      "license": "Public domain",
+      "author": "Royal Museums Greenwich"
+    },
+    {
+      "file": "LNG tanker Christophe de Margerie.jpg",
+      "subject": "an LNG carrier at sea (representative)",
+      "license": "CC BY-SA",
+      "author": ""
+    },
+    {
+      "file": "The Earth seen from Apollo 17.jpg",
+      "subject": "the whole Earth (Blue Marble, Apollo 17)",
+      "license": "Public domain",
+      "author": "NASA"
+    }
+  ],
+  "heroes": [
+    {
+      "issue": "55",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "oil-refinery",
+      "source": "Wikimedia Commons — \"File:Mina-Al-Ahmadi oil refinery night.jpg\"",
+      "specific": false,
+      "caption": "A Gulf oil refinery at night — representative of the barrel shedding its war premium, not a specific facility."
+    },
+    {
+      "issue": "55",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "nvidia-h100",
+      "source": "Wikimedia Commons — \"File:NVIDIA H100 (Geekerwan) 016.png\"",
+      "specific": false,
+      "caption": "An Nvidia H100 accelerator — representative of the data-centre silicon a 2.8-trillion-parameter model needs, not the specific parts."
+    },
+    {
+      "issue": "55",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "headphones-audio",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "High-end personal audio — representative of the turntable-and-headphone week, not the specific Clearaudio deck."
+    },
+    {
+      "issue": "55",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "beta-pic",
+      "source": "NASA / ESA / CSA — James Webb Space Telescope (MIRI, weic2401b)",
+      "license": "CC BY 4.0",
+      "author": "NASA/ESA/CSA",
+      "specific": true,
+      "caption": "The Beta Pictoris system imaged by JWST/MIRI — the star system where a planet was just found by reading its atmosphere."
+    },
+    {
+      "issue": "55",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "fed-eccles",
+      "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
+      "license": "CC BY-SA 3.0",
+      "author": "AgnosticPreachersKid",
+      "specific": true,
+      "caption": "The Marriner S. Eccles Federal Reserve building — where the FOMC rules on Wednesday."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — representative of the island the Circle Line now loops."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not the specific memory parts discussed."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "file": "Headphones 1.jpg",
+      "license": "CC BY-SA 2.5",
+      "author": "",
+      "specific": false,
+      "caption": "Personal audio — representative; NOT the Nothing Ear (3a) reviewed here."
+    },
+    {
+      "issue": "37",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": true,
+      "caption": "The Milky Way — representative deep sky, not the Euclid quasar field."
+    },
+    {
+      "issue": "38",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline whose ledger set three records this week."
+    },
+    {
+      "issue": "38",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative; not SK hynix parts."
+    },
+    {
+      "issue": "38",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky for Webb's anniversary week, not the Centaurus A image."
+    },
+    {
+      "issue": "39",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline NDP's fireworks light up from the Stadium tonight."
+    },
+    {
+      "issue": "39",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
+    },
+    {
+      "issue": "41",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline the newly-closed Circle Line loop now serves directly."
+    },
+    {
+      "issue": "41",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative; not SK hynix's own parts."
+    },
+    {
+      "issue": "43",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline behind this week's 5.7% GDP print."
+    },
+    {
+      "issue": "43",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not DeepSeek's own in-house chip design discussed here."
+    },
+    {
+      "issue": "43",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not Kamoʻoalewa or the Euclid quasar field discussed here."
+    },
+    {
+      "issue": "44",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline the week's defamation ruling and defence pact both played out under."
+    },
+    {
+      "issue": "44",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
+    },
+    {
+      "issue": "44",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars discussed here."
+    },
+    {
+      "issue": "45",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan is quietly built to serve."
+    },
+    {
+      "issue": "45",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not Nvidia's own Blackwell-class parts discussed here."
+    },
+    {
+      "issue": "45",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not the Dyson-sphere candidate stars or Beta Pictoris system discussed here."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the skyline Changi's own decade-out capacity plan and the Auditor-General's report both sit quietly under."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative, not Nvidia's or DeepSeek's own hardware discussed here."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative deep sky, not the LHS 1140 b system discussed here."
+    },
+    {
+      "issue": "46",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "file": "Headphones 1.jpg",
+      "license": "CC BY-SA 2.5",
+      "author": "",
+      "specific": false,
+      "caption": "Over-ear headphones — representative, not Final's DX10000 CL or the other premium audio releases discussed here."
+    },
+    {
+      "issue": "50",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": true,
+      "caption": "Marina Bay at dusk — the island whose Cabinet was remade this week. Subject verified from the Commons file page."
+    },
+    {
+      "issue": "50",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative of the foundry economics on this page, not the specific parts discussed. Subject verified from the Commons file page."
+    },
+    {
+      "issue": "50",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "file": "ESO - Milky Way.jpg",
+      "license": "CC BY 4.0",
+      "author": "ESO / S. Brunier",
+      "specific": false,
+      "caption": "The Milky Way over Paranal — representative of the deep sky JWST observes; not NGC 4696 itself. Subject verified from the Commons file page."
+    },
+    {
+      "issue": "52",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "comet-3iatlas",
+      "source": "NASA/ESA Hubble Space Telescope (ESA/Hubble)",
+      "license": "CC BY 4.0",
+      "author": "NASA, ESA, D. Jewitt et al.",
+      "specific": false,
+      "caption": "Interstellar comet 3I/ATLAS, imaged by Hubble — the visitor this desk tracked out of the solar system (No. 51), a past callback now; representative of the deep sky, not the mummy discussed here."
+    },
+    {
+      "issue": "52",
+      "anchor": "Meridian · The Long Read</span><span>The Reckoning",
+      "asset": "book-of-dead",
+      "source": "Wikimedia Commons — the Book of the Dead of Hunefer (British Museum)",
+      "license": "Public domain",
+      "author": "British Museum",
+      "specific": true,
+      "caption": "The weighing of the heart against the feather of Ma'at — the Book of the Dead of Hunefer, c. 1275 BC (British Museum) — the reckoning this essay follows to its oldest form."
+    },
+    {
+      "issue": "52",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "headphones-audio",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "author": "",
+      "specific": false,
+      "caption": "Over-ear headphones — representative of the premium audio noted on this desk, not the specific models named."
+    },
+    {
+      "issue": "53",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "venus-real",
+      "source": "NASA/JPL — Mariner 10 (real colour)",
+      "license": "Public domain",
+      "author": "NASA/JPL",
+      "specific": true,
+      "caption": "Venus in real colour (Mariner 10) — the planet a new ETH Zurich study argues may still be splitting at the seams, on a fresh reading of 1990s Magellan radar."
+    },
+    {
+      "issue": "53",
+      "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
+      "asset": "penang-skyline",
+      "source": "Wikimedia Commons — \"File:Skyline of George Town, Penang at dusk May 2025-02.jpg\"",
+      "license": "CC BY-SA 4.0",
+      "specific": true,
+      "caption": "George Town, Penang, at dusk — the UNESCO heritage city an hour and twenty north that this weekend's Grand Tour walks, honestly."
+    },
+    {
+      "issue": "54",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "hormuz-tanker",
+      "source": "US Navy (public domain)",
+      "license": "Public domain",
+      "author": "US Navy",
+      "specific": false,
+      "caption": "A commercial tanker taking on crude at an offshore Gulf terminal — representative of the strait and the barrel the week's lead runs on, not the specific vessels in the story."
+    },
+    {
+      "issue": "54",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "fed-eccles",
+      "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
+      "license": "CC BY-SA 3.0",
+      "author": "AgnosticPreachersKid",
+      "specific": true,
+      "caption": "The Marriner S. Eccles Federal Reserve Board Building, Washington — the sealed room the whole week waits on Wednesday."
+    },
+    {
+      "issue": "56",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "hormuz-tanker",
+      "source": "Wikimedia Commons — U.S. Navy (oil tanker at a Gulf terminal)",
+      "license": "Public domain",
+      "author": "U.S. Navy",
+      "specific": false,
+      "caption": "An oil tanker at a Gulf terminal — representative of the Strait-of-Hormuz shipping the barrel’s price turns on, not the specific vessel."
+    },
+    {
+      "issue": "56",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "nvidia-h100",
+      "source": "Wikimedia Commons — NVIDIA H100 (极客湾Geekerwan)",
+      "license": "CC BY-SA 4.0",
+      "author": "极客湾Geekerwan",
+      "specific": false,
+      "caption": "An NVIDIA H100 accelerator — representative of the AI silicon whose China market is this desk’s story, not a specific part."
+    },
+    {
+      "issue": "56",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "grand-seiko",
+      "source": "Wikimedia Commons — Grand Seiko SBGA011",
+      "license": "CC BY-SA 3.0",
+      "author": "",
+      "specific": false,
+      "caption": "A high-end mechanical watch — representative of the luxury horology on this desk, not the Breitling × Aston Martin DB5 named in the story."
+    },
+    {
+      "issue": "56",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "comet-3iatlas",
+      "source": "NASA/ESA Hubble — interstellar comet 3I/ATLAS",
+      "license": "Public domain",
+      "author": "NASA/ESA",
+      "specific": false,
+      "caption": "Interstellar comet 3I/ATLAS (Hubble) — a representative window on the far edges; LHS 1140 b, this issue’s planet, has no photograph."
+    },
+    {
+      "issue": "57",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "warsh",
+      "source": "Wikimedia Commons — U.S. Federal Reserve (official portrait)",
+      "license": "Public domain (U.S. federal government work)",
+      "author": "Federal Reserve",
+      "specific": true,
+      "caption": "Kevin Warsh, chair of the Federal Reserve — whose first rate decision this issue reports (p15)."
+    },
+    {
+      "issue": "57",
+      "anchor": "Meridian · The Long Read</span><span>The Long View",
+      "asset": "suchao",
+      "source": "Wikimedia Commons",
+      "license": "CC (see file page)",
+      "author": "Wikimedia contributor",
+      "specific": true,
+      "caption": "Fans at a Jiangsu Football City League (苏超) match, Huai'an, June 2025 — the amateur league the essay is about."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "strait-hormuz",
+      "source": "Wikimedia Commons — \"File:Strait of Hormuz (MODIS 2020-12-04).jpg\"",
+      "specific": false,
+      "caption": "The Strait of Hormuz from orbit — the chokepoint a widening Gulf war put under fire this week (p3), and the shipping lane whose disruption lifts the gas price. Representative."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "cirqa",
+      "source": "Garmin newsroom press image (\"Meet CIRQA\")",
+      "specific": true,
+      "caption": "The Garmin CIRQA — the screen-free health band whose older Gen-4 sensor drew this week's reviews (p9). Specific subject."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "boj-building",
+      "source": "Wikimedia Commons — \"File:Bank of Japan headquarters in Tokyo, Japan.jpg\"",
+      "specific": true,
+      "caption": "The Bank of Japan headquarters, Tokyo — the central bank that held its rate at 1.00% this week as the yen sat near a 40-year low (p15). Specific subject."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "black-hole",
+      "source": "Wikimedia Commons — \"File:Black hole - Messier 87 crop max res.jpg\" (Event Horizon Telescope)",
+      "specific": false,
+      "caption": "The M87 supermassive black hole imaged by the Event Horizon Telescope — representative of the quasar whose 300,000-light-year wind XRISM measured (p16), not that object itself. Representative."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "gym-squat",
+      "source": "Wikimedia Commons — \"File:Woman doing squat workout in gym with barbell.jpg\"",
+      "specific": false,
+      "caption": "Barbell strength work — representative of the resistance-exercise the week's muscle-repair proteomics study examined (p18). Representative. General guidance, not medical advice."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · The Long Read</span><span>The Long View",
+      "asset": "hms-qe",
+      "source": "Wikimedia Commons — \"File:HMS Queen Elizabeth (1913) RMG N16769.jpg\" (Royal Museums Greenwich)",
+      "specific": false,
+      "caption": "HMS Queen Elizabeth, name-ship of the first class of oil-fired super-dreadnoughts (1913) — the vessels at the heart of Churchill's coal-to-oil bargain (p21). Representative, period photograph."
+    },
+    {
+      "issue": "58",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "world-map",
+      "source": "Wikimedia Commons — \"File:The Earth seen from Apollo 17.jpg\" (NASA, PD)",
+      "specific": false,
+      "caption": "The whole earth from space — representative of the hand-painted world-map dial of the IFL x Perrelet Weekend GMT Atlas (p11), not the watch itself.",
+      "no_image": "Searched the IFL Watches product page, Fratello, Deployant and Review Central ME for the Weekend GMT Atlas (ref A1304/S1, a 50-piece hand-painted collaboration). Its photography lives only inside those watch-media galleries and the IFL storefront; the model is not carried by Perrelet's own site or by any watch database (WatchCharts, Chrono24, Monochrome, aBlogtoWatch). A WebSearch hunt surfaced no directly-fetchable image URL of the specific product for the hero pipeline, so a representative image of the whole earth runs in its place, honestly labelled, matching the watch's hand-painted world-map dial."
+    },
+    {
+      "issue": "59",
+      "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
+      "asset": "heart-reef",
+      "source": "Wikimedia Commons — \"File:The heart reef, part of the Great Barrier Reef near Airlie Beach, Whitsunday Islands, Queensland.jpg\"",
+      "specific": true,
+      "caption": "Heart Reef, off the Whitsundays — the coral formation you can only see from the air (p21). Specific subject."
+    },
+    {
+      "issue": "59",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "himeji",
+      "source": "Wikimedia Commons — \"File:Himeji Castle The Keep Towers.jpg\"",
+      "specific": false,
+      "caption": "A Japanese castle keep — representative of the hand-engraved Edo-Castle-and-samurai dial of the Roger Dubuis Excalibur Kabuto Legacy (p11), NOT the watch itself.",
+      "no_image": "Hunted the Roger Dubuis newsroom and product page (rogerdubuis.com/excalibur-the-kabuto-legacy-rddbex1139) and the watch-media coverage (aBlogtoWatch, SJX/watchesbysjx, Monochrome, Robb Report, Forbes, Oracle Time) via WebSearch: the 28-piece Kabuto Legacy is richly photographed, but its press images sit only inside those editorial galleries and the maker's own page with no directly-fetchable image URL for the fetch-heroes pipeline, and the session's WebSearch budget (200/200) was exhausted before a stable direct URL could be confirmed. A representative Japanese-castle image runs in its place, honestly labelled, matching the watch's Edo-Castle dial."
+    },
+    {
+      "issue": "59",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "cirqa-alt",
+      "source": "Garmin newsroom press image (representative wearable)",
+      "specific": false,
+      "caption": "A screen-free wearable band — representative of the pocket-sized wearable category the Looki L1 AI camera enters (p9), NOT the Looki L1 itself.",
+      "no_image": "Hunted the Looki L1 via WebSearch (the-gadgeteer launch coverage and the maker's listing): the L1 is a small-maker product whose press imagery was not available as a directly-fetchable image URL for the fetch-heroes pipeline, and the session's WebSearch budget (200/200) was exhausted before a stable product-image URL could be confirmed. A representative wearable-tech image runs in its place, honestly labelled, not presented as the L1."
+    },
+    {
+      "issue": "59",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "fed-eccles",
+      "source": "Wikimedia Commons — \"File:Marriner S. Eccles Federal Reserve Board Building.jpg\"",
+      "specific": false,
+      "caption": "The Federal Reserve's Eccles Building, Washington — the central bank that HELD at 3.50–3.75% on 29 Jul on a hawkish 9–3 split, three members dissenting for a hike (p15). Representative."
+    },
+    {
+      "issue": "59",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-parliament",
+      "source": "Wikimedia Commons — \"File:Parliament House Singapore.jpg\"",
+      "specific": false,
+      "caption": "Parliament House, Singapore — the state that folded the word “energy” into its trade ministry’s name the same quarter a 17% power bill landed (p5). Representative."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
+      "asset": "hk-skyline",
+      "source": "Wikimedia Commons — \"File:Victoria Harbour (Hong Kong).jpg\"",
+      "specific": true,
+      "caption": "Victoria Harbour and the Hong Kong skyline — this weekend's Grand Tour (p21), read for the dry autumn and the camera streets. Specific subject."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "comet-3iatlas",
+      "source": "Wikimedia Commons — \"File:3I-ATLAS Hubble heic2509a.jpg\" (NASA/ESA/STScI)",
+      "specific": true,
+      "caption": "Interstellar comet 3I/ATLAS, imaged by Hubble — the visitor a Chinese Mars orbiter is now reported to have photographed passing Mars (p16). Specific subject."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "marina-bay",
+      "source": "Wikimedia Commons — \"File:Singapore Marina Bay Dusk 2018-02-27.jpg\" · CC BY-SA 4.0 · Benh Lieu Song",
+      "specific": false,
+      "caption": "Marina Bay at dusk — the city going into its 61st National Day weekend, parade and drone show on the 9th (p5). Representative."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "nvidia-h100",
+      "source": "Wikimedia Commons — NVIDIA H100 (Geekerwan)",
+      "specific": false,
+      "caption": "An Nvidia data-centre GPU — representative of the silicon at the centre of the open-weights letter and the export fight (p7), not the specific parts. Representative."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "lng-carrier",
+      "source": "Wikimedia Commons — \"File:LNG tanker Christophe de Margerie.jpg\"",
+      "specific": false,
+      "caption": "A gas carrier under way — representative of the tankers the Gulf war has put at risk in and around the Strait of Hormuz (p3), not a vessel in the story. Representative."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "oil-refinery",
+      "source": "Wikimedia Commons — \"File:Mina-Al-Ahmadi oil refinery night.jpg\"",
+      "specific": false,
+      "caption": "A Gulf refinery at night — representative of the oil-supply premium (Brent ~$87) reasserting itself in the long end of the yield curve (p15). Representative."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "cirqa-alt",
+      "source": "Garmin newsroom press image (representative wearable)",
+      "specific": false,
+      "caption": "A screen-free wearable band — representative of the smart-wearable category the Oura Ring 5 leads (p9), NOT the Oura Ring 5 itself.",
+      "no_image": "Searched the ŌURA newsroom (ouraring.com/newsroom), the BusinessWire launch release and the July review coverage (Gizmodo, TechRadar) for the Ring 5 via WebSearch; the press imagery is distributed through the newsroom's media-request flow and inside editorial galleries, with no stable directly-fetchable image FILE URL surfaced for the fetch-heroes {url} pipeline. A representative wearable image runs in its place, honestly labelled, not presented as the Ring 5."
+    },
+    {
+      "issue": "60",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "beta-pic",
+      "source": "Wikimedia Commons — \"File:Star system Beta Pictoris (MIRI image, annotated) (weic2401b).jpg\" (NASA/ESA/CSA)",
+      "specific": false,
+      "caption": "A star system imaged by Webb — representative of the astronomical complication of the Ulysse Nardin Blast Moonstruck (p11), NOT the watch itself.",
+      "no_image": "Searched the Ulysse Nardin newsroom and the Monochrome / HauteTime / Space.com coverage of the Blast Moonstruck rose gold via WebSearch; the press imagery sits inside those editorial galleries and the maker's site with no stable directly-fetchable image FILE URL surfaced for the fetch-heroes {url} pipeline. A representative astronomical image runs in its place, honestly labelled, matching the watch's five-indication celestial display."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "patriot-launcher",
+      "source": "Wikimedia Commons — \"File:German Patriot missile launcher (cropped).jpg\" · CC BY 2.0",
+      "specific": false,
+      "caption": "A Patriot air-defence launcher — representative of the interceptor systems now flowing to the Gulf rather than to Kyiv (p4), not a unit in the story."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-mrt",
+      "source": "Wikimedia Commons — \"File:SMRT C151.jpg\"",
+      "specific": false,
+      "caption": "A Singapore MRT train — representative of the rail network the Cross Island Line will extend into the far west (p5); the new stations are not due until the late 2030s."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "rtx-gpu",
+      "source": "Wikimedia Commons — \"File:Zotac GeForce RTX 3060 12GB VRAM LHR video card.jpg\"",
+      "specific": false,
+      "caption": "A GeForce RTX graphics card — representative of the GPUs whose street prices are climbing on the AI memory shortage (p8), not the specific part."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "cirqa",
+      "source": "Garmin newsroom press image",
+      "specific": true,
+      "caption": "The Garmin CIRQA — the screen-free, subscription-free recovery band reviewed here (p9)."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "greek-helmet",
+      "source": "Wikimedia Commons — \"File:Bronze helmet of the Corinthian type MET 3424.jpg\"",
+      "specific": false,
+      "caption": "An ancient Greek Corinthian bronze helmet — a representative image evoking the Hamilton × Nolan \"Odyssey\" watch's bronze case and helmet-textured dial (p11), not the watch itself.",
+      "no_image": "Searched the Hamilton newsroom, the official H70675530 product page, and the launch coverage (Forbes, Monochrome, WatchTime, The Gadgeteer) via WebSearch for a directly-fetchable product-image file URL to feed the manifest {url} pipeline; none was surfaced — Hamilton serves its media via cache-hashed catalogue paths and the retailers via CDNs without a discoverable direct file URL. A representative bronze-helmet image runs in its place, honestly labelled, never presented as the watch."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
+      "asset": "classroom",
+      "source": "Wikimedia Commons — \"File:Students are learning in the classroom.jpg\" · CC BY-SA 4.0",
+      "specific": false,
+      "caption": "A school classroom — representative of the phone-ban rollout reshaping the school day across 35-plus states (p13), not a specific school."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "warsh",
+      "source": "Federal Reserve — official portrait",
+      "specific": true,
+      "caption": "Federal Reserve Chair Kevin Warsh — whose \"talk is cheap\" hold drew a bond-market rebuke, the 30-year at a 2007 high (p15)."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "betelgeuse",
+      "source": "ESO / Wikimedia Commons — \"File:Nebula and betelgeuse VLT.jpg\"",
+      "specific": true,
+      "caption": "The red supergiant Betelgeuse, imaged with ESO's VLT — the star whose century-suspected companion, Siwarha, has now been imaged (p16)."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "sauna",
+      "source": "Wikimedia Commons — \"File:Sauna-löyly.jpg\"",
+      "specific": false,
+      "caption": "A traditional Finnish sauna — representative of the setting of the immune-mobilisation study (p18), not the study's own facility."
+    },
+    {
+      "issue": "61",
+      "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
+      "asset": "mixue-county",
+      "source": "Wikimedia Commons — \"File:Mixue icecream and tea in fujian fuding.jpg\"",
+      "specific": true,
+      "caption": "A Mixue tea-and-ice-cream store in Fuding, a county-level city in Fujian — the ¥6 daily luxury that is the physical spine of the county-consumption trend (p21)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "tanker-hormuz",
+      "source": "Wikimedia Commons — a crude oil tanker underway",
+      "specific": false,
+      "caption": "A crude oil tanker at sea — representative of the crude the Strait of Hormuz still throttles, and the barrel that fell almost 6% the moment the strikes paused (p3, p15)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-sportshub",
+      "source": "Wikimedia Commons — \"File:Singapore Sports Hub.jpg\"",
+      "specific": true,
+      "caption": "Singapore's National Stadium at the Sports Hub — home of NDP 2026, back at Kallang for the first time since 2016 (p5)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "dram-ddr4",
+      "source": "Wikimedia Commons — DDR4 memory module",
+      "specific": false,
+      "caption": "A DDR4 memory module — representative of the DRAM whose AI-driven shortage is lifting GPU prices (p8), not the specific part."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "gw-ultra2",
+      "source": "Samsung / GSMArena product image",
+      "specific": true,
+      "caption": "The Samsung Galaxy Watch Ultra 2 — the 47mm titanium flagship shipping this week at US$699 (p9)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "shinkansen-n700",
+      "source": "Wikimedia Commons — \"File:Shinkansen N700 series at Shin-Yamaguchi Station 2019-02-05.jpg\"",
+      "specific": true,
+      "caption": "An N700-series Shinkansen on the Sanyo line — the Tokaido/Sanyo route gaining private \"Supreme Class\" cabins from 1 October (p11)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
+      "asset": "teen-phones",
+      "source": "Wikimedia Commons — young people using smartphones",
+      "specific": false,
+      "caption": "Teenagers on smartphones — representative; Australia's under-16 social-media ban barely moved reported usage (p13)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "boj-building",
+      "source": "Wikimedia Commons — Bank of Japan head office",
+      "specific": true,
+      "caption": "The Bank of Japan head office — a rare reported joint US–Japan intervention pulled the yen back from ~¥163 toward ~¥156.5 this week (p15)."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · Curiosities</span><span>The Far Edges",
+      "asset": "beta-pic",
+      "source": "Wikimedia Commons — Beta Pictoris system (JWST/MIRI)",
+      "specific": true,
+      "caption": "The Beta Pictoris debris-disk system (JWST) — the planet we first flagged in No. 55, found by its atmospheric chemistry; the detection-by-trace method the desk (p16) and the Long Read (p21) both follow."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "cpet-treadmill",
+      "source": "Wikimedia Commons — exercise/treadmill test",
+      "specific": false,
+      "caption": "A treadmill exercise test — representative of the aerobic-fitness science on p18, not a specific study subject."
+    },
+    {
+      "issue": "62",
+      "anchor": "Meridian · The Long Read</span><span>The Long Read",
+      "asset": "neptune-full",
+      "source": "Wikimedia Commons — \"File:Neptune Full.jpg\" (NASA/JPL, Voyager 2, 1989)",
+      "specific": true,
+      "caption": "Neptune, imaged by Voyager 2 in 1989 — the planet found on paper first, deduced from the wobble it left in Uranus's orbit (p21)."
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · The Invitation</span><span>Chapter One — What This Hobby Actually Is",
+      "asset": "citation-sim-cockpit",
+      "file": "Cessna Citation XLS Simulator Cockpit view.JPG",
+      "caption": "A Cessna Citation XLS flight-simulator cockpit — a genuine training-device cockpit, representative of the entry point into home-cockpit flight simming, not a specific hobbyist's rig.",
+      "source": "Wikimedia Commons — \"File:Cessna Citation XLS Simulator Cockpit view.JPG\"",
+      "specific": false
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · A Short History of Pretending to Fly</span><span>Chapter Two",
+      "asset": "msfs2020-logo",
+      "file": "Microsoft Flight Simulator (2020) logo.png",
+      "caption": "The Microsoft Flight Simulator (2020) mark — the relaunch that reset the entire hobby's baseline for what a home flight simulator looks like.",
+      "source": "Wikimedia Commons — official logo",
+      "specific": true
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · Study-Level Aircraft &amp; the Systems Cult</span><span>Chapter Four",
+      "asset": "a320-glass-cockpit",
+      "file": "Airbus A320 Glass Cockpit.jpg",
+      "caption": "A real Airbus A320 glass cockpit — the actual flight deck the hobby's most obsessive add-ons try to reproduce switch-by-switch.",
+      "source": "Wikimedia Commons",
+      "specific": false
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · The Hardware</span><span>Chapter Five — A Buyer's Ladder",
+      "asset": "saitek-joystick",
+      "file": "Saitek Joystick.JPG",
+      "caption": "A Saitek flight-simulation joystick — representative of the class of hardware this chapter covers, not the specific current-generation sticks named in the text.",
+      "source": "Wikimedia Commons",
+      "specific": false
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · VATSIM &amp; Online ATC</span><span>Chapter Six",
+      "asset": "vatsim-logo",
+      "file": "VATSIM Logo Official.png",
+      "caption": "The VATSIM mark — the volunteer network that put a real human controller behind roughly 190,000 active flight-simmers' radios.",
+      "source": "Wikimedia Commons — official logo",
+      "specific": true
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · DCS World, Combat Sim &amp; VR</span><span>Chapter Nine",
+      "asset": "f111-sim-cockpit",
+      "file": "F-111 cockpit similuator - cockpick view.jpg",
+      "caption": "An F-111 cockpit flight simulator — a museum training device, not a DCS World rig, but a genuine example of the combat-cockpit replicas this chapter's community builds and flies.",
+      "source": "Wikimedia Commons",
+      "specific": false
+    },
+    {
+      "issue": "62.5",
+      "anchor": "Meridian · Singapore &amp; the Glossary</span><span>Chapter Ten",
+      "asset": "changi-t3",
+      "file": "Changi Airport Terminal 3.JPG",
+      "caption": "Changi Airport Terminal 3 — the real FIR that Singapore's volunteer VATSIM controllers staff virtually.",
+      "source": "Wikimedia Commons",
+      "specific": false
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "strait-hormuz",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "The Strait of Hormuz — representative of the passage a burning bulker crossed on 4 August (p3)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-parliament",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Singapore's Parliament House — representative of the Little Red Dot; the week's story sits in the courts (p5)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "nvidia-h100",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "An AI accelerator — representative of the data-centre silicon whose price is climbing on both banks (p7)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "headphones-audio",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a MOMENTUM 5 Wireless press image via WebSearch — the Sennheiser newsroom, Headphones.com and Audio46 product pages, and the launch reviews (SoundGuys, ecoustics). Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and the Action itself could not be dispatched from this session (the integration lacks workflow-dispatch permission). A labelled-representative over-ear hero runs; the manifest entry is queued for the next fetch.",
+      "caption": "Over-ear headphones — representative; the reviewed Sennheiser MOMENTUM 5 is the specific subject (p9)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "himeji",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a KAI Matsumoto press image via WebSearch — the Hoshino Resorts newsroom/press center and launch coverage. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and the Action itself could not be dispatched from this session (the integration lacks workflow-dispatch permission). A labelled-representative castle-town hero runs; Matsumoto is itself a castle town.",
+      "caption": "A Japanese castle — representative of the castle-town escape, not the specific KAI Matsumoto property (p10)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "fed-eccles",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A central bank — representative of the rate-path repricing behind the week's relief rally (p14)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The Rabbit Hole</span><span>Down the Rabbit Hole",
+      "asset": "jute-rope-63",
+      "file": "Jute rope.jpg",
+      "source": "Wikimedia Commons — \"File:Jute rope.jpg\"",
+      "specific": false,
+      "caption": "A coil of natural jute rope — the craft object at the heart of shibari (p15)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "gym-squat",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Strength training — representative of the resistance-training dose behind the week's study (p18)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
+      "asset": "shinkansen-alt",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A shinkansen — representative of the autumn travel the Diary books (p19)."
+    },
+    {
+      "issue": "63",
+      "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
+      "asset": "factory-robots-63",
+      "file": "FANUC 6-axis welding robots.jpg",
+      "source": "Wikimedia Commons — \"File:FANUC 6-axis welding robots.jpg\"",
+      "specific": false,
+      "caption": "A robotic assembly line — representative of the factories China now opens to tourists (p21)."
+    },
+    {
+      "issue": "64",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "oil-refinery",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "An oil refinery at night — representative of the Hormuz oil trade the week's lead turns on (p3)."
+    },
+    {
+      "issue": "64",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "turntable",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a Marshall Stanmore IV press image via WebSearch — the Marshall Group newsroom, marshall.com product page, and the TechRadar/Tom's Guide/What Hi-Fi launch reviews. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative, category-appropriate hero runs; the specific product image is queued for the next fetch.",
+      "caption": "A hi-fi turntable — representative of home audio; the Marshall Stanmore IV is the specific subject (p9)."
+    },
+    {
+      "issue": "64",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "heart-reef",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a DOXA SUB Army 200T press image via WebSearch — the SJX, Gear Patrol and the Watches of Switzerland product page. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative, category-appropriate hero runs; the specific product image is queued for the next fetch.",
+      "caption": "A coral reef — representative of the dive watch's element; the DOXA SUB Army 200T is the specific subject (p10)."
+    },
+    {
+      "issue": "64",
+      "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
+      "asset": "great-wave",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Hokusai's Great Wave — representative of the autumn Japan travel the Diary books (p19)."
+    },
+    {
+      "issue": "64",
+      "anchor": "Meridian · The Long Read</span><span>The Fine Print",
+      "asset": "world-map",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "An old world map — representative of the meridian line the essay traces from Tordesillas (p21)."
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · The Invitation</span><span>What This Trip Actually Is",
+      "asset": "higashi-chaya-street",
+      "file": "Higashiyama Higashi Chaya District Kanazawa (29103739857).jpg",
+      "caption": "Higashiyama, the Higashi Chaya district's main street — the largest of Kanazawa's surviving geisha quarters.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · The Gold City</span><span>99% of a Country's Gold Leaf",
+      "asset": "gold-leaf-icecream",
+      "file": "Gold leaf on soft ice cream - Kanazawa, Japan - DSC00135.jpg",
+      "caption": "Gold leaf lifted onto a soft-serve cone on Higashi Chaya's main street — real, not an urban legend.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · Clay &amp; Silk</span><span>Kutani, Ohi &amp; Kaga Yuzen",
+      "asset": "kutani-gosaide-dish",
+      "file": "Large dish with peony scroll design, Imari ware, Kokutani gosai-de type, Edo period, 17th century, overglaze enamel - Tokyo National Museum - DSC06028.JPG",
+      "caption": "An Edo-period gosai-de style dish in the Ko-Kutani manner, Tokyo National Museum.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · The Tables</span><span>Kaiseki, Sushi &amp; Omicho Market",
+      "asset": "omicho-market",
+      "file": "Omicho covered market western entrance, Kanazawa, 2016.jpg",
+      "caption": "Omicho Market's western entrance — \"Kanazawa's Kitchen\" since 1721.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · Kenroku-en, Properly</span><span>One of Japan's Three Great Gardens",
+      "asset": "kotoji-toro-kenrokuen",
+      "file": "Kotoji-toro lantern, Kenroku-en (3810732114).jpg",
+      "caption": "The Kotoji-toro lantern beside Kasumigaike Pond — an intentionally off-balance form found nowhere else in Japan.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · The Chaya Districts</span><span>Higashi, Nishi &amp; Kazuemachi",
+      "asset": "higashi-chaya-sugidama",
+      "file": "10 Sugidama, Higashi-chaya (Kanazawa).jpg",
+      "caption": "A sugidama — a cedar-frond ball, a traditional sign of a working establishment — hanging in Higashi Chaya.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · Nagamachi &amp; the Private Experience</span><span>A Samurai Garden with a Michelin Rating",
+      "asset": "nagamachi-samurai",
+      "file": "Nagamachi Buke Yashiki District 04.jpg",
+      "caption": "A preserved earthen-walled lane in the Nagamachi samurai district.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · Kayotei — One Night in Yamanaka</span><span>The Centrepiece",
+      "asset": "onsen-rotenburo-rep",
+      "file": "Takanoyu Onsen Rotenburo 003.JPG",
+      "caption": "An open-air rotenburo bath at a Japanese onsen ryokan (Takanoyu Onsen, Tohoku) — representative of the private open-air bath format some Kayotei suites carry, not the specific room.",
+      "source": "Wikimedia Commons",
+      "specific": false
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · The Kaga Onsen Country</span><span>Four Towns, One Lacquerware Street",
+      "asset": "yamanaka-ayatorihashi",
+      "file": "AyatoriHashi 2018.jpg",
+      "caption": "Ayatorihashi Bridge, spanning the Kakusenkei Gorge that runs past Yamanaka Onsen.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "64.5",
+      "anchor": "Meridian · Getting There</span><span>From Singapore, the Timetable Just Changed",
+      "asset": "hokuriku-shinkansen-w7",
+      "file": "W7 series set W3 20150207.jpg",
+      "caption": "A W7 series Hokuriku Shinkansen trainset — the line that shortened Tokyo–Kanazawa to 2h28m.",
+      "source": "Wikimedia Commons",
+      "specific": true
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "strait-hormuz",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "The Strait of Hormuz — representative of the shipping lane the week's lead turns on (p3)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-parliament",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Singapore's Parliament House — representative of the civic week around SG61 (p5)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "nvidia-h100",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "An AI accelerator — representative of the silicon in the chip-sovereignty story, not the specific parts (p7)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "sony-rx10",
+      "source": "Wikimedia Commons — \"File:Sony Cyber-shot DSC-RX10.jpg\" (Adryan R. Villanueva, CC BY-SA 4.0)",
+      "specific": false,
+      "no_image": "Hunted a Sony RX10 V press image via WebSearch — Sony's Alpha Universe newsroom, the PRNewswire launch release, B&H, and the DPReview review. Genuine press photography exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative hero of the camera's travel-and-wildlife use runs in its place.",
+      "caption": "A Sony RX10-series bridge camera — representative of the line; the specific subject is the new RX10 V (p9)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "onsen-rotenburo-rep",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a KAI Miyajima press image via WebSearch — the Hoshino Resorts newsroom, the press-center 'Umigiri Rooms' first-look page, Journal des Palaces and Hotel Planet. Genuine renders exist, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative hero of the ryokan's setting — the Itsukushima torii it faces — is queued in the manifest; a category-appropriate committed hero runs here.",
+      "caption": "An open-air onsen — representative of KAI Miyajima's baths and Seto-Inland-Sea setting; the ryokan is the specific subject (p10)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
+      "asset": "teen-phones",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Adolescents on their phones — representative of the screens-and-sleep story (p12)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "gym-squat",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Strength work — representative of the loading stimulus; the loaded walk is the subject (p18)."
+    },
+    {
+      "issue": "65",
+      "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
+      "asset": "himeji",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A Japanese castle — representative of the autumn Japan travel the Diary books (p19)."
+    },
+    {
+      "issue": "65.5",
+      "anchor": "Meridian · MiniMax — Company &amp; Lineage</span><span>The Sea Snail and the Cap Table",
+      "asset": "shanghai-lujiazui",
+      "file": "Shanghai - Pudong - Lujiazui.jpg",
+      "caption": "The Lujiazui financial skyline, Pudong, Shanghai — MiniMax's home city.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "specific": false
+    },
+    {
+      "issue": "65.5",
+      "anchor": "Meridian · The Machine</span><span>One Stream, Two Borrowed Parts",
+      "asset": "datacenter-racks",
+      "file": "Datacenter Server Racks (22370909788).jpg",
+      "caption": "Server racks in a data center — representative of the compute H3's hosted API pipeline runs on.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "specific": false
+    },
+    {
+      "issue": "65.5",
+      "anchor": "Meridian · The ComfyUI Story</span><span>The Diff That Shipped It",
+      "asset": "comfyui-screenshot",
+      "file": "ComfyUI Screenshot.png",
+      "caption": "The ComfyUI interface — the actual node-graph environment H3's four new nodes ship inside.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "specific": true
+    },
+    {
+      "issue": "65.5",
+      "anchor": "Meridian · The Gear</span><span>The Memory Tax",
+      "asset": "rtx4090-macro",
+      "file": "NVIDIA RTX 4090 Founders Edition - Nahaufnahme (ZMASLO).png",
+      "caption": "An NVIDIA GeForce RTX 4090 Founders Edition — the consumer-GPU class this issue's buyer's ladder is built around.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "specific": true
+    },
+    {
+      "issue": "65.5",
+      "anchor": "Meridian · The Community Map</span><span>Confirmed, Unconfirmed, Not Found",
+      "asset": "comfyui-nodes",
+      "file": "ComfyUI Nodes.png",
+      "caption": "A ComfyUI node graph — the kind of workflow the community has been building around H3 since day zero.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "specific": false
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "tanker-hormuz",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A tanker in the Gulf — representative of the Hormuz lane the lead turns on (p3)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-national-stadium",
+      "source": "Wikimedia Commons",
+      "specific": true,
+      "caption": "Singapore's National Stadium — the NDP venue tomorrow (p5)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · Technology</span><span>The Home Lab",
+      "asset": "rtx4090-macro",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A consumer GPU — representative of the home-lab hardware the H3 quants target (p8)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "sony-rx10",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted an Insta360 X6 image via WebSearch — the Insta360 newsroom teaser, Imaging Resource, Lowyat and Digital Camera World launch coverage. A genuine official teaser image exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (the integration lacks workflow-dispatch permission; the promote workflow dispatches it on a manifest change post-merge). A labelled-representative compact-camera hero runs in its place; the specific subject is the Insta360 X6.",
+      "caption": "A compact camera — representative; the specific subject is the Insta360 X6 (p9)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "nara-prison-gate",
+      "source": "Hoshino Resorts / Wikimedia Commons",
+      "specific": true,
+      "caption": "The red-brick former Nara Prison (1908), now HOSHINOYA Nara Prison (p10).",
+      "file": "130316 Nara Juvenile Prison Nara Japan05s3.jpg"
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
+      "asset": "classroom",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A classroom — representative of the early-adolescent cohort in the screen-parenting research (p12)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "cpet-treadmill",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A cardiopulmonary test — representative of the VO2-max measurement in the study (p18)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Travel Desk</span><span>Departures",
+      "asset": "changi-t3",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Changi Airport — the ex-Singapore lens on the travel deltas (p19)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
+      "asset": "bali-uluwatu",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A Balinese clifftop temple — representative of the Bukit peninsula (p21).",
+      "file": "Pura Luhur Uluwatu, Bali (16306262087).jpg"
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
+      "asset": "itsukushima-torii",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A Japanese landmark — representative of the autumn Japan the Diary books (p23)."
+    },
+    {
+      "issue": "66",
+      "anchor": "Meridian · The Long Read</span><span>The Country With Two Seasons",
+      "asset": "kenroku-lantern-winter",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A Japanese garden keyed to a season — the aesthetic order the essay is about (p25)."
+    },
+    {
+      "issue": "66.5",
+      "anchor": "Meridian · The Circuit</span><span>From a Maths Textbook to a Servo Motor",
+      "asset": "vintage-racing-wheel",
+      "file": "InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG",
+      "caption": "The pedal unit from an early-2000s InterAct V-Thunder console racing-wheel peripheral — representative of the consumer-grade hardware racing games shipped with before direct drive existed, not a Papyrus-era product.",
+      "source": "Wikimedia Commons — \"File:InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG\"",
+      "specific": false
+    },
+    {
+      "issue": "66.5",
+      "anchor": "Meridian · The Rig</span><span>A Buyer's Ladder, Priced Honestly",
+      "asset": "simrig-cover",
+      "file": "AORUS VR racing simulator Gamescom 2019 (48605696576).jpg",
+      "caption": "A racing-simulator rig at Gamescom 2019 — the class of hardware this section's buyer's ladder is built around, not a specific model reviewed in this issue.",
+      "source": "Wikimedia Commons — \"File:AORUS VR racing simulator Gamescom 2019 (48605696576).jpg\"",
+      "specific": false
+    },
+    {
+      "issue": "66.5",
+      "anchor": "Meridian · The Machine</span><span>&ldquo;The Machine&rdquo;",
+      "asset": "rtx4090-macro",
+      "file": "NVIDIA RTX 4090 Founders Edition - Nahaufnahme (ZMASLO).png",
+      "caption": "An NVIDIA GeForce RTX 4090 — the class of consumer GPU that drives triple-monitor and VR sim racing rigs at a stable frame rate, representative rather than a specific reader's card.",
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "specific": false
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "tanker-hormuz",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A tanker in the Gulf — representative of the Hormuz lane the lead turns on (p3)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "sg-national-stadium",
+      "source": "Wikimedia Commons",
+      "specific": true,
+      "caption": "The National Stadium — where NDP returned for SG61 (p5)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "datacenter-racks",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A data centre — representative of the frontier-lab compute in the story (p7)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · Technology</span><span>The Home Lab",
+      "asset": "rtx4090-strix",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A consumer GPU — representative of the home-lab hardware the H3 quants target (p8)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "sony-rx10",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a genuine Insta360 X6 product image via WebSearch — the Insta360 press hub (insta360.com/press), Imaging Resource and RedShark launch coverage, and Geeky Gadgets leak imagery. A genuine official teaser image exists, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly (workflow-dispatch runs post-promote). A labelled-representative compact-camera hero runs in its place; the specific subject is the Insta360 X6.",
+      "caption": "A compact camera — representative; the specific subject is the Insta360 X6, pre-orders 12 Aug (p9)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "itsukushima-torii",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "no_image": "Hunted a genuine HOSHINOYA/KAI Miyajima press image via WebSearch — the Hoshino Resorts press center (hoshinoresorts.com/en/presscenter), the KAI Miyajima 'Umigiri' room release, and MICE Times coverage. Genuine press images exist, but no direct image-file URL was obtainable to hand the fetch-heroes Action, and this Routine session cannot dispatch that Action directly. A labelled-representative image of the Itsukushima torii — which KAI Miyajima faces across the water — runs in its place; the specific subject is KAI Miyajima.",
+      "caption": "The Itsukushima torii — representative; KAI Miyajima opens facing it across the water (p10)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · Screen &amp; Sound</span><span>Culture Desk",
+      "asset": "phoebe-bridgers",
+      "source": "Wikimedia Commons (Surly Brewing Festival Field, 2021)",
+      "specific": true,
+      "caption": "Phoebe Bridgers, whose Lost Weekend lands 14 Aug (p11).",
+      "file": "Phoebe Bridgers at Surly Brewing Festival Field in Minneapolis, MN.jpg"
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Family Desk</span><span>Raising Them Well",
+      "asset": "teen-phones",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Adolescents on phones — representative of the screen-parenting research (p12)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Macro Desk</span><span>The Big Picture",
+      "asset": "gold-bullion",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Gold bars — the week's standout, at a seven-week high into the CPI print (p14).",
+      "file": "Gold bullion bars.jpg"
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Rabbit Hole</span><span>Down the Rabbit Hole",
+      "asset": "homebrew-kettle",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A homebrew kettle draining into a fermenter — the hobby's iconic scene (p15).",
+      "file": "Stainless steel homebrewing kettle draining into a plastic fermenting bucket.jpg"
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "gym-squat",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Resistance training — representative of the muscle-preservation the desk argues for (p18)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Travel Desk</span><span>Departures",
+      "asset": "changi-t3",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Changi Airport — the ex-Singapore lens on the travel deltas (p19)."
+    },
+    {
+      "issue": "67",
+      "anchor": "Meridian · The Travel Desk</span><span>The Grand Tour",
+      "asset": "nakasendo-tsumago",
+      "source": "Wikimedia Commons",
+      "specific": true,
+      "caption": "Tsumago-juku on the Nakasendo — the old post road the Grand Tour walks (p21).",
+      "file": "Tsumago.jpg"
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · The World</span><span>The Meridian Dispatch",
+      "asset": "oil-refinery",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A Gulf oil facility — representative of the Hormuz lane and the barrel the lead turns on, not a specific site."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "mas-building",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Singapore's civic-financial core — representative of the state as the family review heads to the Rally."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "rtx-gpu",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A high-end consumer GPU — representative of the home-lab hardware the desk turns on (single and dual RTX 5090), not the exact card."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · The Good Life</span><span>Objects &amp; Escapes",
+      "asset": "headphones-audio",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A wireless over-ear headphone — representative of the Focal Bathys MG under review.",
+      "no_image": "Hunt for a genuine Focal Bathys MG press image: Focal official product page, Focal media DAM, and retailer/review listings (Amazon, Bloom Audio, Audio46, HeadAmp) all searched; the product's press imagery exists but no direct image-file URL was harvestable into the manifest this build. Representative over-ear used, honestly labelled, pending the maker asset."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · Fitness</span><span>The Long Game",
+      "asset": "sauna",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Recovery and the long game — representative of the longevity-and-training theme, not the study."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · Property</span><span>Bricks &amp; Mortar",
+      "asset": "sg-hdb-68",
+      "file": "View from the tallest HDB flat in Singapore.jpg",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "Singapore HDB blocks — representative of the resale market the lead reads, not a specific estate."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · The Kit</span><span>Gear We're Watching",
+      "asset": "dji-pocket-68",
+      "file": "DJI Osmo Pocket 3.jpg",
+      "source": "Wikimedia Commons",
+      "specific": false,
+      "caption": "A DJI Osmo Pocket gimbal camera — representative of the Pocket line; the reviewed model is the 4P.",
+      "no_image": "Hunt for a genuine DJI Osmo Pocket 4P press image: DJI newsroom, the official Osmo Pocket 4P product page, and launch reviews (Camera Jabber, Notebookcheck, Digital Camera World, Trusted Reviews) all searched; press imagery exists but no direct image-file URL was harvestable into the manifest this build. Representative Pocket-line frame used, honestly labelled."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · The Rabbit Hole</span><span>Down the Rabbit Hole",
+      "asset": "terrarium-68",
+      "file": "Terrarium.JPG",
+      "source": "Wikimedia Commons",
+      "specific": true,
+      "caption": "A planted glass terrarium — the subject of this edition's deep dive."
+    },
+    {
+      "issue": "68",
+      "anchor": "Meridian · The Long Read</span><span>The Long Read",
+      "asset": "kundali-68",
+      "file": "Kundali chart.png",
+      "source": "Wikimedia Commons",
+      "specific": true,
+      "caption": "A traditional Indian kundali (Vedic birth chart) — the ancient practice now delivered by app."
+    }
+  ],
+  "standing": [
+    {
+      "anchor": "Meridian · Singapore</span><span>The Little Red Dot",
+      "asset": "marina-bay",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": false,
+      "caption": "Marina Bay at dusk — the standing view of the Little Red Dot."
+    },
+    {
+      "anchor": "Meridian · Technology</span><span>Silicon &amp; Sovereignty",
+      "asset": "wafer",
+      "file": "Chips on 6-Inch-Wafer 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Kuebi / Armin Kübelbeck",
+      "specific": false,
+      "caption": "Semiconductor dies on a wafer — representative of the silicon in the story, not the specific parts."
+    },
+    {
+      "anchor": "Meridian · The Diary</span><span>What's Worth Booking",
+      "asset": "marina-bay",
+      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Benh Lieu Song",
+      "specific": false,
+      "caption": "Singapore at dusk — the city whose calendar this page books."
+    }
+  ]
 }
