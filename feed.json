@@ -1,61 +1,51 @@
 {
  "publication": "MERIDIAN",
- "issue": 68,
- "date": "10 August 2026",
- "generated": "2026-08-10T06:11:51+08:00",
+ "issue": 69,
+ "date": "11 August 2026",
+ "generated": "2026-08-11T06:37:20+08:00",
  "quote": {
-  "text": "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
-  "author": "Richard P. Feynman, Caltech commencement, 1974"
+  "text": "Action is eloquence.",
+  "author": "William Shakespeare, Coriolanus, Act III (Volumnia)"
  },
  "macro": null,
  "stories": [
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Open, Allegedly",
-   "headline": "The Open Flagship Is the One You Still Can't Download",
-   "dek": "Alibaba shipped Qwen3.8-Max as an API a week ago and promised the open weights \"next week.\" It is now next week, and there is still no download and no licence. Meanwhile Meta — the lab that made open weights a movement — shipped a closed coding agent. The frontier's map has flipped: the \"open\" champion is rented, and the open champion went proprietary.",
-   "anchor": "p7",
-   "featured": true
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · The Travel Can",
-   "headline": "Focal Puts Its Magnesium Dome in a Wireless Can",
-   "dek": "The Bathys MG takes the magnesium \"M\" driver from Focal's wired Clear MG and builds a Bluetooth flagship around it, with an onboard DAC. The audiophile press, rarely unanimous about anything, has lined up behind it as the best-sounding wireless headphone you can buy — at a price that makes you mean it.",
-   "anchor": "p10",
-   "featured": true
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "Down the Rabbit Hole",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · Terrarium Making",
-   "headline": "The Garden That Waters Itself",
-   "dek": "A terrarium is a garden sealed in glass — and the good ones run a rainstorm in miniature, watering themselves for years while you watch. Under a beginner-friendly surface sits a craft of substrate science, plant hunting and small, deliberate ecosystems. This is a hobby Singapore, of all places, is built for.",
-   "anchor": "p15",
-   "featured": true
-  },
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · The Strait",
    "headline": "A Corridor Agreed, and Still No Ship",
-   "dek": "Iran and Oman say they have reached a deal on a \"temporary route\" through Hormuz. Read the small print and it is a metered lane, mostly in Iranian water, that Tehran itself calls less than a reopening — and then hangs on conditions Washington rejects. The talk moved the oil price. No hull has moved through it. The strait has been largely shut since February.",
+   "dek": "A week ago Iran and Oman said they had a deal on a \"temporary route\" through Hormuz. Read the small print then and it was a metered lane, mostly in Iranian water, that Tehran itself called less than a reopening; read it now and nothing has changed but the calendar. The talk moved the oil price. Seven days on, no hull has moved through the lane. The strait has been largely shut since February.",
    "anchor": "p3",
-   "featured": false
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · The One That Shipped",
+   "headline": "Meta Reopens the Door It Shut Last Week",
+   "dek": "Five days after shipping a closed coding agent, Meta released Muse Glimmer — a 30-billion-parameter model under Apache-2.0, on Hugging Face, that fits on a single consumer card. The lab that invented the open-weights movement, then abandoned it, has swung back. And the \"open\" flagship everyone actually waited for, Alibaba's Qwen3.8-Max, is still a promise you pay for by the token.",
+   "anchor": "p7",
+   "featured": true
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Screen & Sound · The Album Nobody's Heard",
+   "headline": "Ninety-One, and Not a Single Listener Yet",
+   "dek": "On Friday Phoebe Bridgers releases Lost Weekend, an album the critics have already scored into the nineties — a Metacritic 91, one perfect hundred — which means the only number that finally matters, the audience's, does not exist. Elsewhere on the culture desk, the summer's tentpole quietly passed $1.6 billion and keeps holding.",
+   "anchor": "p11",
+   "featured": true
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore · The Review",
-   "headline": "A Birthday Message, and a Fortnight's Wait for the Policy",
-   "dek": "In his National Day Message, Prime Minister Wong announced a \"major review\" of how the state supports families — the cost of children, infant and childcare, the load carried \"throughout life's journey.\" It is the post-SG61 follow-through the country was told to watch. It is also, for now, an announcement of an announcement. The number attached to it waits for the Rally on the 23rd.",
+   "headline": "A Full Treasury Meets a Promise Without a Price",
+   "dek": "The economy keeps handing Lawrence Wong room he has not yet spent. Second-quarter growth ran at 5.7%, the forecast upgrade lands this month, and June's exports jumped a fifth on the year — so the \"major review\" of family support he announced on National Day arrives at the Rally with money genuinely available. The question the fortnight settles is no longer whether Singapore can afford to deliver. It is whether it will.",
    "anchor": "p5",
    "featured": false
   },
@@ -63,9 +53,9 @@
    "desk": "Property",
    "sub": "Bricks & Mortar",
    "category": "Property",
-   "kicker": "Property · The Wait-Out Comes Off",
-   "headline": "Resale Volume Rips to a 2026 High — as Prices Fall Again",
-   "dek": "In July, HDB resale transactions jumped nearly a quarter to the highest monthly count of the year. In the same month, resale prices fell again. Both are the direct result of one policy: on 28 July the government scrapped the 15-month wait-out for private downgraders, and the first read shows exactly what it was built to do — more bodies, softer prices. For an owner, the split is the whole story.",
+   "kicker": "Property · The Two Speeds",
+   "headline": "A Record Run of Million-Dollar Flats, Inside a Falling Index",
+   "dek": "The headline that sells papers is the 491 HDB resale flats that crossed a million dollars in the second quarter, a record. The number under it is the one that matters: the resale index is roughly flat on the year for the first time since 2019, and private prices are splitting by region. For a multi-property owner, the story is not the record — it is where the softness is quietly concentrating, and it is not where the cameras point.",
    "anchor": "p6",
    "featured": false
   },
@@ -73,29 +63,29 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · The Pocket Grows Up",
-   "headline": "Two Lenses, One Inch, One Pocket",
-   "dek": "DJI's Osmo Pocket 4P puts a second, 60mm portrait lens beside a one-inch main sensor with a highlight-taming trick borrowed from cinema cameras — the most complete pocket gimbal camera the line has made. It shipped worldwide on 30 July. It just isn't for sale in America yet, which for once puts a Singapore buyer ahead of the queue.",
+   "kicker": "The Kit · The Wait Ends",
+   "headline": "The 360 That Led the Watchlist Finally Goes on Sale",
+   "dek": "The Insta360 X6 has topped this desk's gear watch since June on the strength of two nearly one-inch sensors and an 8K/50 mode. On Tuesday it stops being a leak and becomes an order page — US$699 for the standard bundle, $769 with the essentials. What it still is not, on launch day, is a camera any independent lab has measured. For a buy-once buyer, that is the whole verdict: it looks like the class leader, and nobody has proven it yet.",
    "anchor": "p9",
    "featured": false
   },
   {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · The Billion and the Verdict",
-   "headline": "Spider-Man Crosses a Billion; Bridgers Files at 91",
-   "dek": "The summer's tentpole passed ten figures worldwide and held hard in its second frame. And on Friday, Phoebe Bridgers releases the album the critics have already scored into the nineties — which means the only number that matters, the audience's, does not exist yet.",
-   "anchor": "p11",
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · The Escape",
+   "headline": "Aman Plants Its First Flag in Mexico",
+   "dek": "Amanvari opened this month on Baja California Sur's East Cape, on the Sea of Cortez — eighteen casitas, each with its own heated pool, from about US$4,500 a night, all-in. It is the classic Aman bargain, stated plainly: near-total seclusion, a real drive from the Cabo everyone pictures, priced so you feel the distance. The product is the emptiness around it.",
+   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · From Clock to Context",
-   "headline": "The Paediatricians Retired the Hourly Limit",
-   "dek": "The decade-old \"two hours a day\" screen rule is gone. In its place the American Academy of Pediatrics has adopted five C's — Child, Content, Calm, Crowding Out, Communication — that ask not how long a screen is on but what it displaces and how it's used. For a parent of an eleven-year-old, it is the most usable shift in the guidance in years. General guidance, not medical advice.",
+   "kicker": "The Family Desk · The Ban, Eight Months On",
+   "headline": "The World's First Under-16 Ban Barely Dented the Scrolling",
+   "dek": "Australia banned under-sixteens from social media last December — the first country to try it. Eight months in, its own regulator's data says more than eight in ten are still on the platforms, at about the same frequency as before, while parents' awareness of what their kids actually do has fallen. The lesson for a Singapore parent is not that bans fail. It is that a wall a child walks around can lower the guard that was doing the real work. General guidance, not medical advice.",
    "anchor": "p12",
    "featured": false
   },
@@ -105,17 +95,27 @@
    "category": "Markets",
    "kicker": "The Macro Desk · The Last Quiet Session",
    "headline": "A Jobs Shock Reset the Path; Now the Book Waits on the Print",
-   "dek": "Friday's payrolls didn't miss — they went negative, and the market repriced September from a live hike to a probable hold in a single session. Everything held over the weekend at that Friday close. Tuesday's inflation print decides whether the relief was the start of something or a trap. Market explanation, not investment advice.",
+   "dek": "Friday's payrolls didn't miss — they went negative, and the market repriced September from a live hike to a probable hold in a single session. Monday was the last quiet tape before the test: Tuesday's inflation print, expected tame, decides whether the relief was the start of something or a trap. Market explanation, not investment advice.",
    "anchor": "p14",
+   "featured": false
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "Down the Rabbit Hole",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · The Home Studio",
+   "headline": "The Studio Became an App You Already Own",
+   "dek": "Electronic music production is making finished records in a bedroom, on a laptop, with everything — the drums, the synths, the mixing — either software or a small stack of hardware feeding it. The gateway is a single loop that loops. Under it sits a decades-deep craft, a gear rabbit hole with no bottom, and the argument tearing the community apart right now: what to do about the AI that can master your track, split it back into stems, or write the whole thing for you.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Floor, Not the Target",
-   "headline": "150 Minutes Is Where the Benefit Starts",
-   "dek": "A large accelerometer study says the famous weekly exercise minimum buys only a sliver of the heart protection people assume — and that the real gains sit far higher up the curve. Read carefully, its lesson isn't \"do ten hours.\" It's that intensity, not volume, is the lever. General guidance, not medical advice.",
+   "kicker": "Fitness · Against the Grain",
+   "headline": "The Longevity Move Might Be Less Protein",
+   "dek": "A new review pooling more than 350 studies argues that restricting dietary protein — and three amino acids in particular — reproduces most of the metabolic and lifespan benefit on its own. For a mid-40s lifter who has spent years being told to hit his protein, it is a deliberate provocation. It also runs straight into the muscle-loss problem it can't wish away. General guidance, not medical advice.",
    "anchor": "p18",
    "featured": false
   },
@@ -134,8 +134,8 @@
    "sub": "The Long Read",
    "category": "Essay",
    "kicker": "The Long Read · The Undercurrent",
-   "headline": "The Anxiety Economy Goes Public",
-   "dek": "In the world's fastest-growing major economy, the most Vedic thing in India has quietly become a venture-scale software business — young, precarious Indians paying by the minute for cosmic reassurance about jobs and marriage. Its category leader is profitable, doubling, and heading for an IPO. When the FT writes it up, it will have been running for three years.",
+   "headline": "The Loudest Thing in Java",
+   "dek": "In the second- and third-tier towns of East Java, teenagers are building truck-mounted walls of subwoofers worth more than the houses they shake — and turning them into a working-class entertainment economy that Jakarta neither owns nor understands. Six days before Indonesia's Independence Day, one city just banned it. When the FT writes it up, it will have been rattling windows for a decade.",
    "anchor": "p21",
    "featured": false
   }

@@ -1,5 +1,5 @@
 {
-  "count": 427,
+  "count": 432,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1248,6 +1248,41 @@
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
     },
     {
+      "subject": "Meta Muse Glimmer",
+      "type": "AI model (open weights)",
+      "last_covered": "No. 69",
+      "last_peg": "Tech LEAD — released 10 Aug 2026, 30B open-weight agentic model, Apache-2.0 on Hugging Face; ~24GB VRAM (fits one RTX 5090), DFlash ~3.1× decode, 131k ctx; Meta's return to open weights days after the closed Muse Code (5 Aug); trails on computer-use/terminal per launch coverage",
+      "next_peg": "Next peg = a benchmarked verdict, a successor, or a quality/licence delta. Prediction logged."
+    },
+    {
+      "subject": "Amanvari (Aman resort, Mexico)",
+      "type": "Venue (hotel/escape)",
+      "last_covered": "No. 69",
+      "last_peg": "Good Life LEAD — Aman's FIRST Mexico resort, opened 1 Aug 2026, Baja East Cape / Sea of Cortez (Costa Palmas); 18 casitas w/ private pools, from ~US$4,500/night all-in past ~$7,000 peak; ~4-5 staff/guest, true all-inclusive; too new for a guest verdict",
+      "next_peg": "Next peg = first guest reviews / a rate or availability shift."
+    },
+    {
+      "subject": "1887 by André (Raffles)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 69",
+      "last_peg": "The Table LEAD — André Chiang's Raffles dining room (opened 31 Mar); at Michelin Guide SG 2026 (4 Aug) debuted straight at TWO STARS + Opening of the Year; special-occasion, book-ahead, top-tier tasting price; the one certified verdict of the fortnight",
+      "next_peg": "Next peg = a non-Michelin review wave or an accolade change. Not a re-run without one."
+    },
+    {
+      "subject": "Loulouca (Ann Siang Hill)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 69",
+      "last_peg": "The Table — dessert-only atelier from Louisa Lim (ex-Odette pastry 7 yrs; Asia 50 Best Best Pastry Chef 2023), opened 29 Jul; daytime patisserie → evening plated desserts (from ~S$28), no savouries; too new to judge consistency",
+      "next_peg": "Next peg = settled reviews / the evening format's verdict."
+    },
+    {
+      "subject": "LINKUS 临家 (Takashimaya)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 69",
+      "last_peg": "The Table — 2nd SG outlet (after Suntec) of the Xiamen Minnan heritage chain; queue-heavy Suntec debut (\"long queues + glowing reviews\"); Takashimaya kitchen early to judge",
+      "next_peg": "Next peg = settled reviews of the Takashimaya branch."
+    },
+    {
       "subject": "KAI Miyajima (Hoshino ryokan)",
       "type": "Venue (hotel/escape)",
       "last_covered": "No. 67",
@@ -1271,9 +1306,9 @@
     {
       "subject": "Insta360 X6 (360 camera)",
       "type": "Product (camera)",
-      "last_covered": "No. 67",
-      "last_peg": "The Kit LEAD — new peg = pre-orders open 12 Aug (announced→pre-order); official date + confirmed dual 1-inch custom-Sony sensors, dedicated AI chip, 8K/50fps, ~140min battery, ~195g; price still leak-only (~€689/€789), no independent reviews; wait-for-hands verdict",
-      "next_peg": "Next peg = ship date + first independent reviews. Do not re-run the pre-order beat. Prediction logged."
+      "last_covered": "No. 69",
+      "last_peg": "The Kit LEAD — new peg = ON SALE 12 Aug at Amazon/B&H, US$699 standard / $769 essentials; dual near-1-inch Sony sensors, 8K/50, 4K/120 single-lens, AI chip, ~140min battery; still leak/creator-unit only, NO independent lab review at filing; buy-once verdict = wait for RTINGS/DPReview",
+      "next_peg": "Next peg = the first measured lab review (DR/low-light/stitch). Do not re-run again without one. Prediction logged."
     },
     {
       "subject": "HOSHINOYA Nara Prison",
@@ -1299,23 +1334,23 @@
     {
       "subject": "Phoebe Bridgers — Lost Weekend",
       "type": "Music release",
-      "last_covered": "No. 66",
-      "last_peg": "Screen LEAD — early review wave, Metacritic low-90s (\"universal acclaim\"), reported perfect scores; out 14 Aug (Dead Oceans); the critic-vs-user gap flagged",
+      "last_covered": "No. 69",
+      "last_peg": "Screen LEAD — 3 days out (14 Aug, Dead Oceans); advance Metacritic 91 (\"universal acclaim\"), Guardian 100, AOTY critic ~92; 16 tracks/3 sides, first solo LP since Punisher; audience score does NOT exist until release — the critic-vs-listener gap is the whole story",
       "next_peg": "Next peg = release-day + the user-vs-critic settle (grade ~28 Aug). Prediction logged."
     },
     {
       "subject": "Spider-Man: Brand New Day",
       "type": "Film",
-      "last_covered": "No. 66",
-      "last_peg": "Scoreboard grade — confirmed $360M domestic opening, biggest of ALL TIME (past Endgame $357.1M); our No. 60 \"2nd-biggest\" call graded WRONG (it took #1)",
-      "next_peg": "Next peg = 2nd-weekend hold (8–10 Aug, logged) / worldwide total. Do not re-run the opening."
+      "last_covered": "No. 69",
+      "last_peg": "Screen delta (NOT re-led; covered 66/67/68) — cumulative ~US$1.67B WW as of 10 Aug (~$654M domestic), 2nd weekend ~$143M (among biggest ever); opening record settled/corrected No.67; 3rd weekend ahead",
+      "next_peg": "Next peg = final WW total or a milestone; do not re-cover."
     },
     {
       "subject": "Qwen3.8-Max / Qwen3.8-27B",
       "type": "AI model (open weights)",
-      "last_covered": "No. 66",
-      "last_peg": "Tech LEAD — still API-only at filing (8 Aug); open weights + a 27B dense checkpoint promised the week of 10 Aug, no licence stated",
-      "next_peg": "Next peg = weights + a permissive licence actually landing (grade 17 Aug). HELD. Prediction logged."
+      "last_covered": "No. 69",
+      "last_peg": "Tech delta (NOT re-led; Meta Glimmer led) — open weights + a permissive licence STILL unshipped at filing (wk of 10 Aug), QwenLM repos empty; API-only since 3 Aug",
+      "next_peg": "Next peg = weights + licence actually landing (grade 17 Aug). HELD. Prediction logged."
     },
     {
       "subject": "MiniMax H3 (open weights)",
