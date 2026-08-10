@@ -1,434 +1,439 @@
 {
-  "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429.",
-  "images": [
-    {
-      "slug": "sq-747-tropical-685",
-      "file": "Singapore Airlines B747-400 (9V-SPK) in Tropical livery.jpg"
-    },
-    {
-      "slug": "ertl-f19-diecast-685",
-      "file": "F-19 ERTL diecast toy.jpg"
-    },
-    {
-      "slug": "shanghai-lujiazui",
-      "file": "Shanghai - Pudong - Lujiazui.jpg"
-    },
-    {
-      "slug": "datacenter-racks",
-      "file": "Datacenter Server Racks (22370909788).jpg"
-    },
-    {
-      "slug": "comfyui-screenshot",
-      "file": "ComfyUI Screenshot.png"
-    },
-    {
-      "slug": "rtx4090-macro",
-      "file": "NVIDIA RTX 4090 Founders Edition - Nahaufnahme (ZMASLO).png"
-    },
-    {
-      "slug": "comfyui-nodes",
-      "file": "ComfyUI Nodes.png"
-    },
-    {
-      "slug": "rtx4090-strix",
-      "file": "Asus Strix RTX 4090 operational corner view.jpg"
-    },
-    {
-      "slug": "kenroku-lantern-winter",
-      "file": "Kenroku-en-winter-lantern.jpg"
-    },
-    {
-      "slug": "higashi-chaya-street",
-      "file": "Higashiyama Higashi Chaya District Kanazawa (29103739857).jpg"
-    },
-    {
-      "slug": "gold-leaf-icecream",
-      "file": "Gold leaf on soft ice cream - Kanazawa, Japan - DSC00135.jpg"
-    },
-    {
-      "slug": "kutani-gosaide-dish",
-      "file": "Large dish with peony scroll design, Imari ware, Kokutani gosai-de type, Edo period, 17th century, overglaze enamel - Tokyo National Museum - DSC06028.JPG"
-    },
-    {
-      "slug": "omicho-market",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Omicho_covered_market_western_entrance%2C_Kanazawa%2C_2016.jpg"
-    },
-    {
-      "slug": "kotoji-toro-kenrokuen",
-      "file": "Kotoji-toro lantern, Kenroku-en (3810732114).jpg"
-    },
-    {
-      "slug": "higashi-chaya-sugidama",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/10_Sugidama%2C_Higashi-chaya_%28Kanazawa%29.jpg"
-    },
-    {
-      "slug": "nagamachi-samurai",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nagamachi_Bukeyashiki.jpg"
-    },
-    {
-      "slug": "onsen-rotenburo-rep",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Takanoyu_Onsen_Rotenburo_003.JPG"
-    },
-    {
-      "slug": "yamanaka-ayatorihashi",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ayatorihashi.jpg"
-    },
-    {
-      "slug": "hokuriku-shinkansen-w7",
-      "file": "W7 series set W3 20150207.jpg"
-    },
-    {
-      "slug": "oil-refinery",
-      "file": "Mina-Al-Ahmadi oil refinery night.jpg"
-    },
-    {
-      "slug": "beta-pic",
-      "file": "Star system Beta Pictoris (MIRI image, annotated) (weic2401b).jpg"
-    },
-    {
-      "slug": "turntable",
-      "file": "Pick-up record player.JPG"
-    },
-    {
-      "slug": "mas-building",
-      "file": "MASBuilding-Singapore-20090914.jpg"
-    },
-    {
-      "slug": "marina-bay",
-      "file": "Singapore Marina Bay Dusk 2018-02-27.jpg"
-    },
-    {
-      "slug": "wafer",
-      "file": "Chips on 6-Inch-Wafer 01.jpg"
-    },
-    {
-      "slug": "milky-way",
-      "file": "ESO - Milky Way.jpg"
-    },
-    {
-      "slug": "comet-3iatlas",
-      "file": "3I-ATLAS Hubble heic2509a.jpg"
-    },
-    {
-      "slug": "headphones-audio",
-      "file": "Headphones 1.jpg"
-    },
-    {
-      "slug": "book-of-dead",
-      "file": "BD Hunefer.jpg"
-    },
-    {
-      "slug": "penang-skyline",
-      "file": "Skyline of George Town, Penang at dusk May 2025-02.jpg"
-    },
-    {
-      "slug": "penang-streetart",
-      "file": "Street Art of George Town, Penang.JPG"
-    },
-    {
-      "slug": "venus-globe",
-      "file": "Venus globe.jpg"
-    },
-    {
-      "slug": "venus-real",
-      "file": "Venus-real color.jpg"
-    },
-    {
-      "slug": "hormuz-tanker",
-      "file": "US Navy 030629-N-4790M-006 Commercial oil tanker AbQaiq readies itself to receive oil at Mina-Al-Bkar Oil terminal (MABOT), an off shore Iraqi oil installation.jpg"
-    },
-    {
-      "slug": "fed-eccles",
-      "file": "Marriner S. Eccles Federal Reserve Board Building.jpg"
-    },
-    {
-      "slug": "bumblebee",
-      "file": "White-tailed bumblebee (Bombus iucorum) on a common dandelion (Taraxacum officinale).jpg"
-    },
-    {
-      "slug": "nvidia-h100",
-      "file": "NVIDIA H100 (极客湾Geekerwan) 016.png"
-    },
-    {
-      "slug": "grand-seiko",
-      "file": "Grand Seiko SBGA011.jpg"
-    },
-    {
-      "slug": "gym-squat",
-      "file": "Woman doing squat workout in gym with barbell.jpg"
-    },
-    {
-      "slug": "suchao",
-      "file": "Fans of Huai 'an team in Jiangsu Football City League in June 2025.png"
-    },
-    {
-      "slug": "warsh",
-      "file": "Kevin Warsh, Federal Reserve photo portrait.jpg"
-    },
-    {
-      "slug": "strait-hormuz",
-      "file": "Strait of Hormuz (MODIS 2020-12-04).jpg"
-    },
-    {
-      "slug": "sg-parliament",
-      "file": "Parliament House Singapore.jpg"
-    },
-    {
-      "slug": "cirqa",
-      "url": "https://res.garmin.com/en/products/010-04675-00/v/cf-lg.jpg"
-    },
-    {
-      "slug": "perrelet-atlas",
-      "url": "https://iflwatches.com/cdn/shop/files/perrelet-weekend-gmt-atlas.jpg"
-    },
-    {
-      "slug": "lng-carrier",
-      "file": "LNG tanker Christophe de Margerie.jpg"
-    },
-    {
-      "slug": "black-hole",
-      "file": "Black hole - Messier 87 crop max res.jpg"
-    },
-    {
-      "slug": "boj-building",
-      "file": "Bank of Japan headquarters in Tokyo, Japan.jpg"
-    },
-    {
-      "slug": "hms-qe",
-      "file": "HMS Queen Elizabeth (1913) RMG N16769.jpg"
-    },
-    {
-      "slug": "world-map",
-      "file": "The Earth seen from Apollo 17.jpg"
-    },
-    {
-      "slug": "oldmap",
-      "file": "Cantino planisphere.jpg"
-    },
-    {
-      "slug": "whitehaven",
-      "file": "Whitsunday Island - Whitehaven Beach 01.jpg"
-    },
-    {
-      "slug": "heart-reef",
-      "file": "The heart reef, part of the Great Barrier Reef near Airlie Beach, Whitsunday Islands, Queensland.jpg"
-    },
-    {
-      "slug": "great-wave",
-      "file": "The Great Wave off Kanagawa.jpg"
-    },
-    {
-      "slug": "himeji",
-      "file": "Himeji Castle The Keep Towers.jpg"
-    },
-    {
-      "slug": "hk-skyline",
-      "file": "Victoria Harbour (Hong Kong).jpg"
-    },
-    {
-      "slug": "hk-skyline-alt",
-      "file": "Hong Kong Skyline Restitch - Dec 2007.jpg"
-    },
-    {
-      "slug": "patriot-launcher",
-      "file": "German Patriot missile launcher (cropped).jpg"
-    },
-    {
-      "slug": "sg-mrt",
-      "file": "SMRT C151.jpg"
-    },
-    {
-      "slug": "rtx-gpu",
-      "file": "Zotac GeForce RTX 3060 12GB VRAM LHR video card.jpg"
-    },
-    {
-      "slug": "betelgeuse",
-      "file": "Nebula and betelgeuse VLT.jpg"
-    },
-    {
-      "slug": "sauna",
-      "file": "Sauna-löyly.jpg"
-    },
-    {
-      "slug": "classroom",
-      "file": "Students are learning in the classroom.jpg"
-    },
-    {
-      "slug": "mixue-county",
-      "file": "Mixue icecream and tea in fujian fuding.jpg"
-    },
-    {
-      "slug": "greek-helmet",
-      "file": "Bronze helmet of the Corinthian type MET 3424.jpg"
-    },
-    {
-      "slug": "tanker-hormuz",
-      "file": "Kakariki. Crude Oil Tanker. (22223331981).jpg"
-    },
-    {
-      "slug": "sg-sportshub",
-      "file": "Singapore Sports Hub.jpg"
-    },
-    {
-      "slug": "dram-ddr4",
-      "file": "RAM Module (SDRAM-DDR4).jpg"
-    },
-    {
-      "slug": "teen-phones",
-      "file": "Young people texting on smartphones using thumbs.JPG"
-    },
-    {
-      "slug": "neptune-full",
-      "file": "Neptune Full.jpg"
-    },
-    {
-      "slug": "cpet-treadmill",
-      "file": "Exercise Treadmill Convey Motion.jpg"
-    },
-    {
-      "slug": "betapic-jwst",
-      "file": "Beta Pictoris system annotated.jpg"
-    },
-    {
-      "slug": "gw-ultra2",
-      "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch-ultra2.jpg"
-    },
-    {
-      "slug": "shinkansen-n700",
-      "file": "Shinkansen N700 series at Shin-Yamaguchi Station 2019-02-05.jpg"
-    },
-    {
-      "slug": "shinkansen-alt",
-      "file": "Shinkansen N700S-8000 722 8101 20220917.jpg"
-    },
-    {
-      "slug": "fs-g1000-cockpit",
-      "file": "This is a flight simulator.JPG"
-    },
-    {
-      "slug": "citation-sim-cockpit",
-      "file": "Cessna Citation XLS Simulator Cockpit view.JPG"
-    },
-    {
-      "slug": "msfs2020-logo",
-      "file": "Microsoft Flight Simulator (2020) logo.png"
-    },
-    {
-      "slug": "a320-glass-cockpit",
-      "file": "Airbus A320 Glass Cockpit.jpg"
-    },
-    {
-      "slug": "saitek-joystick",
-      "file": "Saitek Joystick.JPG"
-    },
-    {
-      "slug": "vatsim-logo",
-      "file": "VATSIM Logo Official.png"
-    },
-    {
-      "slug": "f111-sim-cockpit",
-      "file": "F-111 cockpit similuator - cockpick view.jpg"
-    },
-    {
-      "slug": "changi-t3",
-      "file": "Changi Airport Terminal 3.JPG"
-    },
-    {
-      "slug": "factory-robots-63",
-      "file": "FANUC 6-axis welding robots.jpg"
-    },
-    {
-      "slug": "ev-assembly-line-63",
-      "file": "Tesla Motors Assembly Line (6858583426).jpg"
-    },
-    {
-      "slug": "jute-rope-63",
-      "file": "Jute rope.jpg"
-    },
-    {
-      "slug": "sg-national-stadium",
-      "file": "Singapore Singapore-Sports-Hub-with-National-Stadium-01.jpg"
-    },
-    {
-      "slug": "sony-rx10",
-      "file": "Sony Cyber-shot DSC-RX10.jpg"
-    },
-    {
-      "slug": "itsukushima-torii",
-      "file": "Itsukushima Gate.jpg"
-    },
-    {
-      "slug": "disney-dream-ship",
-      "file": "Disney Dream (ship, 2011) 001.jpg"
-    },
-    {
-      "slug": "seoul-photo-booth",
-      "file": "Photo Sticker Shop in Seoul South Korea.JPG"
-    },
-    {
-      "slug": "bali-rice-terrace",
-      "file": "Bali – Rice terrace (2687336831).jpg"
-    },
-    {
-      "slug": "bali-uluwatu",
-      "file": "Pura Luhur Uluwatu, Bali (16306262087).jpg"
-    },
-    {
-      "slug": "nara-prison-gate",
-      "file": "130316 Nara Juvenile Prison Nara Japan05s3.jpg"
-    },
-    {
-      "slug": "simrig-cover",
-      "file": "AORUS VR racing simulator Gamescom 2019 (48605696576).jpg"
-    },
-    {
-      "slug": "vintage-racing-wheel",
-      "file": "InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG"
-    },
-    {
-      "slug": "matsumoto-castle",
-      "file": "Matsumoto Castle05s5s4592.jpg"
-    },
-    {
-      "slug": "nakasendo-tsumago",
-      "file": "Tsumago.jpg"
-    },
-    {
-      "slug": "phoebe-bridgers",
-      "file": "Phoebe Bridgers at Surly Brewing Festival Field in Minneapolis, MN.jpg"
-    },
-    {
-      "slug": "gold-bullion",
-      "file": "Gold bullion bars.jpg"
-    },
-    {
-      "slug": "homebrew-kettle",
-      "file": "Stainless steel homebrewing kettle draining into a plastic fermenting bucket.jpg"
-    },
-    {
-      "slug": "sg-hdb-68",
-      "file": "View from the tallest HDB flat in Singapore.jpg"
-    },
-    {
-      "slug": "dji-pocket-68",
-      "file": "DJI Osmo Pocket 3 - 1.jpg"
-    },
-    {
-      "slug": "terrarium-68",
-      "file": "Terrarium.JPG"
-    },
-    {
-      "slug": "kundali-68",
-      "file": "Kundali chart.png"
-    }
-  ],
-  "_fetch_rev": 15,
-  "_retrigger2": "No.65 retry torii/disney/seoul 2026-08-07",
-  "_retrigger3": "No.65.5 retry shanghai-lujiazui/datacenter-racks/comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
-  "_retrigger4": "No.65.5 retry comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
-  "_retrigger5": "No.65.5 retry comfyui-nodes/rtx4090-strix 2026-08-07",
-  "_retrigger6": "No.66 heroes: bali-rice-terrace, bali-uluwatu, nara-prison-gate",
-  "_retrigger7": "No.66 heroes: corrected Uluwatu + Nara Commons filenames",
-  "_retrigger8": "No.66.5 special: simrig-cover, vintage-racing-wheel",
-  "_retrigger9": "No.68.5 special: sq-747-tropical-685, ertl-f19-diecast-685"
+ "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429.",
+ "images": [
+  {
+   "slug": "sq-747-tropical-685",
+   "file": "Singapore Airlines B747-400 (9V-SPK) in Tropical livery.jpg"
+  },
+  {
+   "slug": "ertl-f19-diecast-685",
+   "file": "F-19 ERTL diecast toy.jpg"
+  },
+  {
+   "slug": "shanghai-lujiazui",
+   "file": "Shanghai - Pudong - Lujiazui.jpg"
+  },
+  {
+   "slug": "datacenter-racks",
+   "file": "Datacenter Server Racks (22370909788).jpg"
+  },
+  {
+   "slug": "comfyui-screenshot",
+   "file": "ComfyUI Screenshot.png"
+  },
+  {
+   "slug": "rtx4090-macro",
+   "file": "NVIDIA RTX 4090 Founders Edition - Nahaufnahme (ZMASLO).png"
+  },
+  {
+   "slug": "comfyui-nodes",
+   "file": "ComfyUI Nodes.png"
+  },
+  {
+   "slug": "rtx4090-strix",
+   "file": "Asus Strix RTX 4090 operational corner view.jpg"
+  },
+  {
+   "slug": "kenroku-lantern-winter",
+   "file": "Kenroku-en-winter-lantern.jpg"
+  },
+  {
+   "slug": "higashi-chaya-street",
+   "file": "Higashiyama Higashi Chaya District Kanazawa (29103739857).jpg"
+  },
+  {
+   "slug": "gold-leaf-icecream",
+   "file": "Gold leaf on soft ice cream - Kanazawa, Japan - DSC00135.jpg"
+  },
+  {
+   "slug": "kutani-gosaide-dish",
+   "file": "Large dish with peony scroll design, Imari ware, Kokutani gosai-de type, Edo period, 17th century, overglaze enamel - Tokyo National Museum - DSC06028.JPG"
+  },
+  {
+   "slug": "omicho-market",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Omicho_covered_market_western_entrance%2C_Kanazawa%2C_2016.jpg"
+  },
+  {
+   "slug": "kotoji-toro-kenrokuen",
+   "file": "Kotoji-toro lantern, Kenroku-en (3810732114).jpg"
+  },
+  {
+   "slug": "higashi-chaya-sugidama",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/10_Sugidama%2C_Higashi-chaya_%28Kanazawa%29.jpg"
+  },
+  {
+   "slug": "nagamachi-samurai",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nagamachi_Bukeyashiki.jpg"
+  },
+  {
+   "slug": "onsen-rotenburo-rep",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Takanoyu_Onsen_Rotenburo_003.JPG"
+  },
+  {
+   "slug": "yamanaka-ayatorihashi",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ayatorihashi.jpg"
+  },
+  {
+   "slug": "hokuriku-shinkansen-w7",
+   "file": "W7 series set W3 20150207.jpg"
+  },
+  {
+   "slug": "oil-refinery",
+   "file": "Mina-Al-Ahmadi oil refinery night.jpg"
+  },
+  {
+   "slug": "beta-pic",
+   "file": "Star system Beta Pictoris (MIRI image, annotated) (weic2401b).jpg"
+  },
+  {
+   "slug": "turntable",
+   "file": "Pick-up record player.JPG"
+  },
+  {
+   "slug": "mas-building",
+   "file": "MASBuilding-Singapore-20090914.jpg"
+  },
+  {
+   "slug": "marina-bay",
+   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg"
+  },
+  {
+   "slug": "wafer",
+   "file": "Chips on 6-Inch-Wafer 01.jpg"
+  },
+  {
+   "slug": "milky-way",
+   "file": "ESO - Milky Way.jpg"
+  },
+  {
+   "slug": "comet-3iatlas",
+   "file": "3I-ATLAS Hubble heic2509a.jpg"
+  },
+  {
+   "slug": "headphones-audio",
+   "file": "Headphones 1.jpg"
+  },
+  {
+   "slug": "book-of-dead",
+   "file": "BD Hunefer.jpg"
+  },
+  {
+   "slug": "penang-skyline",
+   "file": "Skyline of George Town, Penang at dusk May 2025-02.jpg"
+  },
+  {
+   "slug": "penang-streetart",
+   "file": "Street Art of George Town, Penang.JPG"
+  },
+  {
+   "slug": "venus-globe",
+   "file": "Venus globe.jpg"
+  },
+  {
+   "slug": "venus-real",
+   "file": "Venus-real color.jpg"
+  },
+  {
+   "slug": "hormuz-tanker",
+   "file": "US Navy 030629-N-4790M-006 Commercial oil tanker AbQaiq readies itself to receive oil at Mina-Al-Bkar Oil terminal (MABOT), an off shore Iraqi oil installation.jpg"
+  },
+  {
+   "slug": "fed-eccles",
+   "file": "Marriner S. Eccles Federal Reserve Board Building.jpg"
+  },
+  {
+   "slug": "bumblebee",
+   "file": "White-tailed bumblebee (Bombus iucorum) on a common dandelion (Taraxacum officinale).jpg"
+  },
+  {
+   "slug": "nvidia-h100",
+   "file": "NVIDIA H100 (极客湾Geekerwan) 016.png"
+  },
+  {
+   "slug": "grand-seiko",
+   "file": "Grand Seiko SBGA011.jpg"
+  },
+  {
+   "slug": "gym-squat",
+   "file": "Woman doing squat workout in gym with barbell.jpg"
+  },
+  {
+   "slug": "suchao",
+   "file": "Fans of Huai 'an team in Jiangsu Football City League in June 2025.png"
+  },
+  {
+   "slug": "warsh",
+   "file": "Kevin Warsh, Federal Reserve photo portrait.jpg"
+  },
+  {
+   "slug": "strait-hormuz",
+   "file": "Strait of Hormuz (MODIS 2020-12-04).jpg"
+  },
+  {
+   "slug": "sg-parliament",
+   "file": "Parliament House Singapore.jpg"
+  },
+  {
+   "slug": "cirqa",
+   "url": "https://res.garmin.com/en/products/010-04675-00/v/cf-lg.jpg"
+  },
+  {
+   "slug": "perrelet-atlas",
+   "url": "https://iflwatches.com/cdn/shop/files/perrelet-weekend-gmt-atlas.jpg"
+  },
+  {
+   "slug": "lng-carrier",
+   "file": "LNG tanker Christophe de Margerie.jpg"
+  },
+  {
+   "slug": "black-hole",
+   "file": "Black hole - Messier 87 crop max res.jpg"
+  },
+  {
+   "slug": "boj-building",
+   "file": "Bank of Japan headquarters in Tokyo, Japan.jpg"
+  },
+  {
+   "slug": "hms-qe",
+   "file": "HMS Queen Elizabeth (1913) RMG N16769.jpg"
+  },
+  {
+   "slug": "world-map",
+   "file": "The Earth seen from Apollo 17.jpg"
+  },
+  {
+   "slug": "oldmap",
+   "file": "Cantino planisphere.jpg"
+  },
+  {
+   "slug": "whitehaven",
+   "file": "Whitsunday Island - Whitehaven Beach 01.jpg"
+  },
+  {
+   "slug": "heart-reef",
+   "file": "The heart reef, part of the Great Barrier Reef near Airlie Beach, Whitsunday Islands, Queensland.jpg"
+  },
+  {
+   "slug": "great-wave",
+   "file": "The Great Wave off Kanagawa.jpg"
+  },
+  {
+   "slug": "himeji",
+   "file": "Himeji Castle The Keep Towers.jpg"
+  },
+  {
+   "slug": "hk-skyline",
+   "file": "Victoria Harbour (Hong Kong).jpg"
+  },
+  {
+   "slug": "hk-skyline-alt",
+   "file": "Hong Kong Skyline Restitch - Dec 2007.jpg"
+  },
+  {
+   "slug": "patriot-launcher",
+   "file": "German Patriot missile launcher (cropped).jpg"
+  },
+  {
+   "slug": "sg-mrt",
+   "file": "SMRT C151.jpg"
+  },
+  {
+   "slug": "rtx-gpu",
+   "file": "Zotac GeForce RTX 3060 12GB VRAM LHR video card.jpg"
+  },
+  {
+   "slug": "betelgeuse",
+   "file": "Nebula and betelgeuse VLT.jpg"
+  },
+  {
+   "slug": "sauna",
+   "file": "Sauna-löyly.jpg"
+  },
+  {
+   "slug": "classroom",
+   "file": "Students are learning in the classroom.jpg"
+  },
+  {
+   "slug": "mixue-county",
+   "file": "Mixue icecream and tea in fujian fuding.jpg"
+  },
+  {
+   "slug": "greek-helmet",
+   "file": "Bronze helmet of the Corinthian type MET 3424.jpg"
+  },
+  {
+   "slug": "tanker-hormuz",
+   "file": "Kakariki. Crude Oil Tanker. (22223331981).jpg"
+  },
+  {
+   "slug": "sg-sportshub",
+   "file": "Singapore Sports Hub.jpg"
+  },
+  {
+   "slug": "dram-ddr4",
+   "file": "RAM Module (SDRAM-DDR4).jpg"
+  },
+  {
+   "slug": "teen-phones",
+   "file": "Young people texting on smartphones using thumbs.JPG"
+  },
+  {
+   "slug": "neptune-full",
+   "file": "Neptune Full.jpg"
+  },
+  {
+   "slug": "cpet-treadmill",
+   "file": "Exercise Treadmill Convey Motion.jpg"
+  },
+  {
+   "slug": "betapic-jwst",
+   "file": "Beta Pictoris system annotated.jpg"
+  },
+  {
+   "slug": "gw-ultra2",
+   "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch-ultra2.jpg"
+  },
+  {
+   "slug": "shinkansen-n700",
+   "file": "Shinkansen N700 series at Shin-Yamaguchi Station 2019-02-05.jpg"
+  },
+  {
+   "slug": "shinkansen-alt",
+   "file": "Shinkansen N700S-8000 722 8101 20220917.jpg"
+  },
+  {
+   "slug": "fs-g1000-cockpit",
+   "file": "This is a flight simulator.JPG"
+  },
+  {
+   "slug": "citation-sim-cockpit",
+   "file": "Cessna Citation XLS Simulator Cockpit view.JPG"
+  },
+  {
+   "slug": "msfs2020-logo",
+   "file": "Microsoft Flight Simulator (2020) logo.png"
+  },
+  {
+   "slug": "a320-glass-cockpit",
+   "file": "Airbus A320 Glass Cockpit.jpg"
+  },
+  {
+   "slug": "saitek-joystick",
+   "file": "Saitek Joystick.JPG"
+  },
+  {
+   "slug": "vatsim-logo",
+   "file": "VATSIM Logo Official.png"
+  },
+  {
+   "slug": "f111-sim-cockpit",
+   "file": "F-111 cockpit similuator - cockpick view.jpg"
+  },
+  {
+   "slug": "changi-t3",
+   "file": "Changi Airport Terminal 3.JPG"
+  },
+  {
+   "slug": "factory-robots-63",
+   "file": "FANUC 6-axis welding robots.jpg"
+  },
+  {
+   "slug": "ev-assembly-line-63",
+   "file": "Tesla Motors Assembly Line (6858583426).jpg"
+  },
+  {
+   "slug": "jute-rope-63",
+   "file": "Jute rope.jpg"
+  },
+  {
+   "slug": "sg-national-stadium",
+   "file": "Singapore Singapore-Sports-Hub-with-National-Stadium-01.jpg"
+  },
+  {
+   "slug": "sony-rx10",
+   "file": "Sony Cyber-shot DSC-RX10.jpg"
+  },
+  {
+   "slug": "itsukushima-torii",
+   "file": "Itsukushima Gate.jpg"
+  },
+  {
+   "slug": "disney-dream-ship",
+   "file": "Disney Dream (ship, 2011) 001.jpg"
+  },
+  {
+   "slug": "seoul-photo-booth",
+   "file": "Photo Sticker Shop in Seoul South Korea.JPG"
+  },
+  {
+   "slug": "bali-rice-terrace",
+   "file": "Bali – Rice terrace (2687336831).jpg"
+  },
+  {
+   "slug": "bali-uluwatu",
+   "file": "Pura Luhur Uluwatu, Bali (16306262087).jpg"
+  },
+  {
+   "slug": "nara-prison-gate",
+   "file": "130316 Nara Juvenile Prison Nara Japan05s3.jpg"
+  },
+  {
+   "slug": "simrig-cover",
+   "file": "AORUS VR racing simulator Gamescom 2019 (48605696576).jpg"
+  },
+  {
+   "slug": "vintage-racing-wheel",
+   "file": "InterAct V-Thunder Racing Wheel for GameCube (cropped).JPG"
+  },
+  {
+   "slug": "matsumoto-castle",
+   "file": "Matsumoto Castle05s5s4592.jpg"
+  },
+  {
+   "slug": "nakasendo-tsumago",
+   "file": "Tsumago.jpg"
+  },
+  {
+   "slug": "phoebe-bridgers",
+   "file": "Phoebe Bridgers at Surly Brewing Festival Field in Minneapolis, MN.jpg"
+  },
+  {
+   "slug": "gold-bullion",
+   "file": "Gold bullion bars.jpg"
+  },
+  {
+   "slug": "homebrew-kettle",
+   "file": "Stainless steel homebrewing kettle draining into a plastic fermenting bucket.jpg"
+  },
+  {
+   "slug": "sg-hdb-68",
+   "file": "View from the tallest HDB flat in Singapore.jpg"
+  },
+  {
+   "slug": "dji-pocket-68",
+   "file": "DJI Osmo Pocket 3 - 1.jpg"
+  },
+  {
+   "slug": "terrarium-68",
+   "file": "Terrarium.JPG"
+  },
+  {
+   "slug": "kundali-68",
+   "file": "Kundali chart.png"
+  },
+  {
+   "slug": "home-studio-69",
+   "file": "Wall of MOOG.jpg"
+  }
+ ],
+ "_fetch_rev": 15,
+ "_retrigger2": "No.65 retry torii/disney/seoul 2026-08-07",
+ "_retrigger3": "No.65.5 retry shanghai-lujiazui/datacenter-racks/comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
+ "_retrigger4": "No.65.5 retry comfyui-screenshot/rtx4090-macro/comfyui-nodes/rtx4090-strix 2026-08-07",
+ "_retrigger5": "No.65.5 retry comfyui-nodes/rtx4090-strix 2026-08-07",
+ "_retrigger6": "No.66 heroes: bali-rice-terrace, bali-uluwatu, nara-prison-gate",
+ "_retrigger7": "No.66 heroes: corrected Uluwatu + Nara Commons filenames",
+ "_retrigger8": "No.66.5 special: simrig-cover, vintage-racing-wheel",
+ "_retrigger9": "No.68.5 special: sq-747-tropical-685, ertl-f19-diecast-685",
+ "_retrigger10": "No.69 hero: home-studio-69 (Wall of MOOG)"
 }
