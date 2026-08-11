@@ -524,6 +524,7 @@ CHROME = ('<body>\n'
           f'  <nav class="mnav">{SECT_SELECT}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
           + DEST_SELECT + HOB_SELECT + SPEC_SELECT +
+          '<button class="m-toggle" id="mrm" type="button" title="Send this edition to the reMarkable tablet — editions are delivered only on request">⇥ reMarkable</button>'
           '<button class="m-toggle" id="mnote" type="button">✎ Note</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
@@ -816,9 +817,33 @@ JS = """
     var t=document.getElementById(msel.value);
     if(t) window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-chromeH()-6, behavior:'smooth'});
   });
+  // on-demand reMarkable delivery: editions no longer auto-upload (the tablet
+  // was silting up) \u2014 the reader presses the button, the marktan.ai endpoint
+  // fires the repo's deliver workflow_dispatch. GitHub Actions is the fallback.
+  function deliver(type,label,after){
+    if(!confirm('Send '+label+' to the reMarkable tablet?')) return;
+    fetch('https://www.marktan.ai/api/deliver',{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify({type:type})})
+      .then(function(r){ if(!r.ok) throw 0; after(true); })
+      .catch(function(){ after(false);
+        if(confirm('Could not reach the delivery service. Open GitHub Actions to run it by hand?'))
+          window.open('https://github.com/markt1600/dailymag/actions/workflows/deliver-'+(type==='special'?'special':'remarkable')+'.yml','_blank');
+      });
+  }
+  var mrm=document.getElementById('mrm');
+  if(mrm) mrm.addEventListener('click',function(){
+    var dl=document.querySelector('.pdf-dl');
+    var no=(dl&&(dl.textContent.match(/No\\.\\s*\\d+[^\u00b7]*(\u00b7[^\u00b7]*)?/)||[])[0])||'this edition';
+    deliver('edition', no.trim(), function(ok){
+      if(ok){ mrm.textContent='\u2713 On its way'; setTimeout(function(){ mrm.textContent='\u21e5 reMarkable'; }, 5000); }
+    });
+  });
   var ms=document.getElementById('mspec');
   if(ms){
-    ms.addEventListener('change', function(){ if(ms.value){ location.href=ms.value; ms.selectedIndex=0; } });
+    ms.addEventListener('change', function(){
+      if(!ms.value) return;
+      if(ms.value==='!deliver'){ deliver('special', ms.dataset.newest||'the newest special', function(){}); ms.selectedIndex=0; return; }
+      location.href=ms.value; ms.selectedIndex=0;
+    });
     fetch('https://raw.githubusercontent.com/markt1600/dailymag/main/state/specials.json',{cache:'no-store'})
       .then(function(r){ return r.json(); })
       .then(function(d){
@@ -828,6 +853,10 @@ JS = """
           var o=document.createElement('option'); o.value=s.path; o.textContent='No. '+s.no+' \u00b7 '+s.topic;
           ms.appendChild(o);
         });
+        var last=list[list.length-1];
+        ms.dataset.newest='the newest special \u2014 No. '+last.no+' \u00b7 '+last.topic;
+        var dv=document.createElement('option'); dv.value='!deliver'; dv.textContent='\u21e5 Send newest special to tablet';
+        ms.appendChild(dv);
         ms.hidden=false;
       }).catch(function(){});
   }
