@@ -1,15 +1,14 @@
 # Deliver each new edition's PDF to the reMarkable cloud.
 #
-# Fires when status.json changes on main (i.e. an edition just shipped).
-# Decrypts the pairing config (see pair-remarkable.yml), uploads the PDF as
+# ON-DEMAND ONLY (reader's choice — the tablet was getting cluttered with
+# every issue arriving unasked). Fired from the magazine chrome's
+# "⇥ reMarkable" menu item (via marktan.ai/api/deliver → workflow_dispatch)
+# or manually from the Actions tab. Decrypts the pairing config (see pair-remarkable.yml), uploads the PDF as
 # "MERIDIAN No. NN - <date>" into the /MERIDIAN folder, and prunes the
 # folder to the seven most recent issues so the tablet doesn't silt up.
 name: Deliver to reMarkable
 
 on:
-  push:
-    branches: [main]
-    paths: ["status.json"]
   workflow_dispatch:
 
 jobs:

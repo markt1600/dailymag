@@ -1,11 +1,10 @@
-# Deliver a new SPECIAL EDITION's PDF to the reMarkable cloud.
-# Fires when state/specials.json changes on main (a special just shipped).
+# Deliver the NEWEST special edition's PDF to the reMarkable cloud.
+# ON-DEMAND ONLY (reader's choice): fired from the magazine chrome's
+# "⇥ reMarkable" menu item (via marktan.ai/api/deliver → workflow_dispatch)
+# or manually from the Actions tab. No longer auto-fires on promotion.
 name: Deliver special edition to reMarkable
 
 on:
-  push:
-    branches: [main]
-    paths: ["state/specials.json"]
   workflow_dispatch:
 
 jobs:
@@ -46,6 +45,11 @@ jobs:
           PDF=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['pdf'])")
           NAME="MERIDIAN No. $NO - SPECIAL - $TOPIC"
           $RMAPI mkdir /MERIDIAN 2>/dev/null || true
-          cp "$PDF" "$NAME.pdf"
-          $RMAPI put "$NAME.pdf" /MERIDIAN
-          echo "delivered: $NAME"
+          # idempotence: a re-click on the menu item must not error or duplicate
+          if $RMAPI ls /MERIDIAN | grep -qF "$NAME"; then
+            echo "already delivered: $NAME — skipping upload"
+          else
+            cp "$PDF" "$NAME.pdf"
+            $RMAPI put "$NAME.pdf" /MERIDIAN
+            echo "delivered: $NAME"
+          fi
