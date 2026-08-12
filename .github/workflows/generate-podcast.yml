@@ -1,0 +1,66 @@
+# Render The Meridian Briefing — the on-demand ~20-minute podcast.
+#
+# ON-DEMAND ONLY: fired from the 🎙 bar on the Photo Edition (via
+# marktan.ai/api/deliver {type:'podcast'}) or manually from the Actions tab.
+# Reads podcast/script-NN.json (written by the nightly build), renders it via
+# ElevenLabs Text-to-Dialogue (Eleven v3), commits podcast/meridian-NN.mp3.
+# Requires the ELEVENLABS_API_KEY repo secret. Voice casting can be overridden
+# with ELEVEN_VOICE_A / ELEVEN_VOICE_B repo variables.
+name: Generate podcast episode
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Issue number (e.g. 71). Empty = current issue from status.json"
+        required: false
+      force:
+        description: "Re-render even if the mp3 already exists"
+        required: false
+        default: "false"
+
+concurrency:
+  group: podcast-${{ github.event.inputs.issue || 'current' }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve issue + gate
+        id: gate
+        env:
+          KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          ISSUE="${{ github.event.inputs.issue }}"
+          [ -z "$ISSUE" ] && ISSUE=$(python3 -c "import json;print(json.load(open('status.json'))['issue'])")
+          echo "issue=$ISSUE" >> "$GITHUB_OUTPUT"
+          if [ -z "$KEY" ]; then echo "ELEVENLABS_API_KEY secret not set — cannot render"; exit 1; fi
+          if [ ! -f "podcast/script-$ISSUE.json" ]; then echo "no podcast/script-$ISSUE.json — nothing to render"; exit 1; fi
+          if [ -f "podcast/meridian-$ISSUE.mp3" ] && [ "${{ github.event.inputs.force }}" != "true" ]; then
+            echo "already rendered — skipping"; echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Render audio
+        if: steps.gate.outputs.go == 'yes'
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVEN_VOICE_A: ${{ vars.ELEVEN_VOICE_A }}
+          ELEVEN_VOICE_B: ${{ vars.ELEVEN_VOICE_B }}
+        run: python3 tools/podcast_tts.py --issue "${{ steps.gate.outputs.issue }}"
+      - name: Commit episode (prune to newest 6)
+        if: steps.gate.outputs.go == 'yes'
+        run: |
+          git config user.name "meridian-podcast"
+          git config user.email "actions@users.noreply.github.com"
+          ls -t podcast/meridian-*.mp3 2>/dev/null | tail -n +7 | xargs -r git rm -q --
+          git add podcast/
+          git commit -m "podcast: The Meridian Briefing — episode ${{ steps.gate.outputs.issue }}"
+          for i in 1 2 3 4; do
+            git push origin main && exit 0
+            git pull --rebase origin main || exit 1
+            sleep $((i * 2))
+          done
+          exit 1
