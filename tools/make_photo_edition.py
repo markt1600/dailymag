@@ -149,11 +149,13 @@ SCREEN_CSS = """
     background:var(--vermilion); color:var(--paper); padding:2.6mm 4mm;
     border-bottom:2px solid var(--gold); }
   .pdf-dl:hover{ background:var(--vermilion-d); }
-  .pod-bar{ background:var(--ink); border-bottom:1.2pt solid var(--gold); }
-  .pod-bar .pod-link{ display:block; text-align:center; font-family:'Poppins',sans-serif;
-    font-size:8.5pt; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--gold); padding:7px 10px; cursor:pointer; text-decoration:none; }
-  .pod-bar .pod-link:hover{ color:var(--paper); }
+  .pod-bar{ background:var(--ink); border-bottom:1.2pt solid var(--gold); text-align:center; padding:5px 8px; }
+  .pod-bar .pod-link{ display:inline-block; font-family:'Poppins',sans-serif;
+    font-size:8.5pt; font-weight:600; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--gold); border:1.2pt solid var(--gold); border-radius:15px;
+    padding:5px 16px; cursor:pointer; text-decoration:none; }
+  .pod-bar .pod-link:hover{ background:var(--gold); color:var(--ink); }
+  .pod-bar .pod-link:active{ transform:translateY(1px); }
   .pod-bar audio{ width:100%; display:block; height:36px; }
   .pod-bar .pod-row{ display:flex; align-items:center; gap:6px; padding:2px 8px 4px; }
   .pod-bar .pod-row audio{ flex:1; }
@@ -537,7 +539,7 @@ CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'
           '<div class="m-chrome">\n'
           f'  <a class="pdf-dl" href="{PDF_HREF}" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
-          '  <div class="pod-bar" id="mpodbar"><a class="pod-link" id="mpod" role="button" tabindex="0">🎙 The Meridian Briefing — generate the twenty-minute episode</a></div>\n'
+          '  <div class="pod-bar" id="mpodbar"><a class="pod-link" id="mpod" role="button" tabindex="0">🎙 The Meridian Briefing · ▶ tap to generate the twenty-minute episode</a></div>\n'
           f'  <nav class="mnav">{SECT_SELECT}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
           + DEST_SELECT + HOB_SELECT + SPEC_SELECT +
