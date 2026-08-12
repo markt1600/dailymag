@@ -214,6 +214,12 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     background:var(--vermilion); color:var(--paper); padding:2.6mm 4mm;
     border-bottom:2px solid var(--gold); }
   .pdf-dl:hover{ background:var(--vermilion-d); }
+  .pod-bar{ background:var(--ink); border-bottom:1.2pt solid var(--gold); }
+  .pod-bar .pod-link{ display:block; text-align:center; font-family:'Poppins',sans-serif;
+    font-size:8.5pt; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--gold); padding:7px 10px; cursor:pointer; text-decoration:none; }
+  .pod-bar .pod-link:hover{ color:var(--paper); }
+  .pod-bar audio{ width:100%; display:block; height:36px; }
   .mnav{ display:flex; align-items:center; gap:2px; overflow-x:auto; scrollbar-width:thin;
     background:var(--ink); padding:0 8px; -webkit-overflow-scrolling:touch; }
   .mnav::-webkit-scrollbar{ height:0; }
@@ -336,6 +342,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 <div id="mprog"></div>
 <div class="m-chrome">
   <a class="pdf-dl" href="meridian-latest.pdf" download>⤓ Download the print edition (PDF) — No. 70 · 12 August 2026</a>
+  <div class="pod-bar" id="mpodbar"><a class="pod-link" id="mpod" role="button" tabindex="0">🎙 The Meridian Briefing — generate the twenty-minute episode</a></div>
   <nav class="mnav"><select class="m-toggle" id="msect" style="margin-left:0" aria-label="Jump to a section"><option value="p1">Cover</option><option value="p2">Contents</option><option value="p3">The World</option><option value="p5">Singapore</option><option value="p6">Property</option><option value="p7">Technology</option><option value="p9">The Kit</option><option value="p10">The Good Life</option><option value="p11">Screen &amp; Sound</option><option value="p12">The Family Desk</option><option value="p14">The Macro Desk</option><option value="p15">The Rabbit Hole</option><option value="p18">Fitness</option><option value="p19">The Diary</option><option value="p21">The Long Read</option><option value="p24">Back</option></select><button class="m-toggle" id="march" type="button">⧉ Archive</button><select class="m-toggle" id="mdest" aria-label="Past Grand Tour destinations"><option value="">✈ Destinations</option><option value="archive/no-67/index.html#p21">Matsumoto & the Kiso Valley (Nakasendo), Japan · No. 67</option><option value="archive/no-66/index.html#p21">Bali (Ubud & the south), Indonesia · No. 66</option><option value="archive/no-60/index.html#p21">Hong Kong · No. 60</option><option value="archive/no-59/index.html#p21">Queensland’s Whitsundays & the Great Barrier Reef, Australia · No. 59</option><option value="archive/no-53/index.html#p21">Penang (George Town), Malaysia · No. 53</option><option value="archive/no-52/index.html#p21">Seoul, South Korea · No. 52</option><option value="archive/no-52/index.html#p21">Busan & the south coast, South Korea · No. 52</option><option value="archive/no-46/index.html#p21">The Vallée de Joux & the Swiss Alps, a winter return · No. 46</option><option value="archive/no-46/index.html#p21">Switzerland — the watch valleys & the Alps · No. 46</option><option value="archive/no-40/index.html#p21">Tasmania, Australia · No. 40</option><option value="archive/no-35/index.html">Taipei, Taiwan · No. 35</option><option value="archive/no-34/index.html">Queenstown & the Mackenzie (South Island, NZ) · No. 34</option><option value="archive/no-33/index.html">Kanazawa, Japan · No. 33</option><option value="archive/no-28/index.html">Kyoto, Japan · No. 28</option></select><select class="m-toggle" id="mhob" aria-label="Past Rabbit Hole hobbies"><option value="">🕳 Hobbies</option><option value="#p15">Pottery · No. 70</option><option value="archive/no-69/index.html#p15">Home electronic music production · No. 69</option><option value="archive/no-68/index.html#p15">Terrarium making · No. 68</option><option value="archive/no-67/index.html#p15">Home beer making · No. 67</option><option value="archive/no-66/index.html#p15">Sim racing · No. 66</option><option value="archive/no-65/index.html#p15">Disney cruise going · No. 65</option><option value="archive/no-64/index.html#p15">Gloomhaven · No. 64</option><option value="archive/no-63/index.html#p15">S&M (within consensual relationships) · No. 63</option></select><select class="m-toggle" id="mspec" aria-label="Special editions"><option value="">★ Specials</option><option value="special-68-5.html">No. 68.5 · Model passenger plane collecting</option><option value="special-66-5.html">No. 66.5 · Sim racing</option><option value="special-65-5.html">No. 65.5 · MiniMax H3</option><option value="special-64-5.html">No. 64.5 · Kanazawa</option><option value="special-62-5.html">No. 62.5 · Flight simulator enthusiasts</option></select><button class="m-toggle" id="mrm" type="button" title="Send this edition to the reMarkable tablet — editions are delivered only on request">⇥ reMarkable</button><button class="m-toggle" id="mnote" type="button">✎ Note</button><button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>
 </div>
 <div id="marchive" class="march-overlay" hidden><div class="march-panel"><div class="march-head"><h2>The Archive</h2><span class="marchct"></span><button class="march-close" type="button" aria-label="Close">×</button></div><input class="march-search" type="search" placeholder="Search past issues — a topic, a desk, a quote…" aria-label="Search past issues"><div class="march-list"></div></div></div>
@@ -1245,6 +1252,33 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
         if(confirm('Could not reach the delivery service. Open GitHub Actions to run it by hand?'))
           window.open('https://github.com/markt1600/dailymag/actions/workflows/deliver-'+(type==='special'?'special':'remarkable')+'.yml','_blank');
       });
+  }
+  var podbar=document.getElementById('mpodbar'), podlink=document.getElementById('mpod');
+  if(podbar&&podlink){
+    var pdl=document.querySelector('.pdf-dl');
+    var piss=(pdl&&(pdl.textContent.match(/No\.\s*(\d+)/)||[])[1])||'';
+    var PODURL='https://raw.githubusercontent.com/markt1600/dailymag/main/podcast/meridian-'+piss+'.mp3';
+    function podPlayer(){ podbar.innerHTML='<audio controls preload="none" src="'+PODURL+'"></audio>'; }
+    function podCheck(cb){ fetch(PODURL,{method:'HEAD',cache:'no-store'}).then(function(r){cb(r.ok);}).catch(function(){cb(false);}); }
+    podCheck(function(ok){ if(ok) podPlayer(); });
+    var podBusy=false;
+    podlink.addEventListener('click',function(){
+      if(podBusy) return;
+      if(!confirm('Generate the twenty-minute episode of The Meridian Briefing for this issue? Recording takes a few minutes.')) return;
+      fetch('https://www.marktan.ai/api/deliver',{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify({type:'podcast',issue:piss})})
+        .then(function(r){ if(!r.ok) throw 0;
+          podBusy=true; podlink.textContent='⏳ Recording — usually three to eight minutes. This bar becomes a player when the episode is ready.';
+          var tries=0; var iv=setInterval(function(){
+            tries++;
+            if(tries>60){ clearInterval(iv); podBusy=false; podlink.textContent='🎙 Still recording — reload in a few minutes'; return; }
+            podCheck(function(ok){ if(ok){ clearInterval(iv); podPlayer(); } });
+          },20000);
+        })
+        .catch(function(){
+          if(confirm('Could not reach the generator service. Open GitHub Actions to run it by hand?'))
+            window.open('https://github.com/markt1600/dailymag/actions/workflows/generate-podcast.yml','_blank');
+        });
+    });
   }
   var mrm=document.getElementById('mrm');
   if(mrm) mrm.addEventListener('click',function(){

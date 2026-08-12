@@ -149,6 +149,12 @@ SCREEN_CSS = """
     background:var(--vermilion); color:var(--paper); padding:2.6mm 4mm;
     border-bottom:2px solid var(--gold); }
   .pdf-dl:hover{ background:var(--vermilion-d); }
+  .pod-bar{ background:var(--ink); border-bottom:1.2pt solid var(--gold); }
+  .pod-bar .pod-link{ display:block; text-align:center; font-family:'Poppins',sans-serif;
+    font-size:8.5pt; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--gold); padding:7px 10px; cursor:pointer; text-decoration:none; }
+  .pod-bar .pod-link:hover{ color:var(--paper); }
+  .pod-bar audio{ width:100%; display:block; height:36px; }
   .mnav{ display:flex; align-items:center; gap:2px; overflow-x:auto; scrollbar-width:thin;
     background:var(--ink); padding:0 8px; -webkit-overflow-scrolling:touch; }
   .mnav::-webkit-scrollbar{ height:0; }
@@ -525,6 +531,7 @@ CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'
           '<div class="m-chrome">\n'
           f'  <a class="pdf-dl" href="{PDF_HREF}" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
+          '  <div class="pod-bar" id="mpodbar"><a class="pod-link" id="mpod" role="button" tabindex="0">🎙 The Meridian Briefing — generate the twenty-minute episode</a></div>\n'
           f'  <nav class="mnav">{SECT_SELECT}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
           + DEST_SELECT + HOB_SELECT + SPEC_SELECT +
@@ -839,6 +846,36 @@ JS = """
         if(confirm('Could not reach the delivery service. Open GitHub Actions to run it by hand?'))
           window.open('https://github.com/markt1600/dailymag/actions/workflows/deliver-'+(type==='special'?'special':'remarkable')+'.yml','_blank');
       });
+  }
+  // The Meridian Briefing: on-demand podcast. If the episode mp3 exists on
+  // main, the bar becomes a player; otherwise a click fires the render
+  // workflow (via the deliver endpoint) and polls until the audio lands.
+  var podbar=document.getElementById('mpodbar'), podlink=document.getElementById('mpod');
+  if(podbar&&podlink){
+    var pdl=document.querySelector('.pdf-dl');
+    var piss=(pdl&&(pdl.textContent.match(/No\\.\\s*(\\d+)/)||[])[1])||'';
+    var PODURL='https://raw.githubusercontent.com/markt1600/dailymag/main/podcast/meridian-'+piss+'.mp3';
+    function podPlayer(){ podbar.innerHTML='<audio controls preload="none" src="'+PODURL+'"></audio>'; }
+    function podCheck(cb){ fetch(PODURL,{method:'HEAD',cache:'no-store'}).then(function(r){cb(r.ok);}).catch(function(){cb(false);}); }
+    podCheck(function(ok){ if(ok) podPlayer(); });
+    var podBusy=false;
+    podlink.addEventListener('click',function(){
+      if(podBusy) return;
+      if(!confirm('Generate the twenty-minute episode of The Meridian Briefing for this issue? Recording takes a few minutes.')) return;
+      fetch('https://www.marktan.ai/api/deliver',{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify({type:'podcast',issue:piss})})
+        .then(function(r){ if(!r.ok) throw 0;
+          podBusy=true; podlink.textContent='⏳ Recording — usually three to eight minutes. This bar becomes a player when the episode is ready.';
+          var tries=0; var iv=setInterval(function(){
+            tries++;
+            if(tries>60){ clearInterval(iv); podBusy=false; podlink.textContent='🎙 Still recording — reload in a few minutes'; return; }
+            podCheck(function(ok){ if(ok){ clearInterval(iv); podPlayer(); } });
+          },20000);
+        })
+        .catch(function(){
+          if(confirm('Could not reach the generator service. Open GitHub Actions to run it by hand?'))
+            window.open('https://github.com/markt1600/dailymag/actions/workflows/generate-podcast.yml','_blank');
+        });
+    });
   }
   var mrm=document.getElementById('mrm');
   if(mrm) mrm.addEventListener('click',function(){
