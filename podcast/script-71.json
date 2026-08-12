@@ -1,0 +1,516 @@
+{
+  "show": "The Meridian Briefing",
+  "issue": 71,
+  "date": "Thursday, the thirteenth of August, twenty twenty-six",
+  "title": "Signal and Noise",
+  "hosts": {
+    "A": "CLAIRE",
+    "B": "THEO"
+  },
+  "turns": [
+    {
+      "s": "A",
+      "t": "Good morning, Singapore — it's Thursday, the thirteenth of August. This is The Meridian Briefing."
+    },
+    {
+      "s": "B",
+      "t": "Twelve desks. One world. Twenty minutes — let's go."
+    },
+    {
+      "s": "A",
+      "t": "Three to start. Kyiv hands Washington a peace proposal — and won't let anyone read it."
+    },
+    {
+      "s": "B",
+      "t": "Two thirty-billion brains land for a single graphics card in forty-eight hours. I have opinions."
+    },
+    {
+      "s": "A",
+      "t": "And shortwave radio: the band everyone abandoned, and the hobby that refused to die with it."
+    },
+    {
+      "s": "B",
+      "t": "That last one's mine. But you're leading with Ukraine."
+    },
+    {
+      "s": "A",
+      "t": "I am, because the story is what's missing. On Monday night, Zelenskyy said Ukraine had conveyed its proposals to the American side, and was ready for all negotiation formats."
+    },
+    {
+      "s": "B",
+      "t": "Great. What's in the proposals?"
+    },
+    {
+      "s": "A",
+      "t": "He didn't say. That's the whole thing. A plan announced but withheld is a plan meant to be seen wanting, not read."
+    },
+    {
+      "s": "B",
+      "t": "[curious] So it costs Kyiv nothing."
+    },
+    {
+      "s": "A",
+      "t": "Nothing, and commits it to nothing. It looks constructive to Washington without conceding an inch on the ground. Meanwhile Russia's terms haven't moved — full Ukrainian withdrawal from four regions, the demand they've held since June twenty twenty-four."
+    },
+    {
+      "s": "B",
+      "t": "And the American envoys — Witkoff, Kushner — where are they?"
+    },
+    {
+      "s": "A",
+      "t": "Last in Moscow in January. They haven't been to Kyiv since. A push that runs through American shuttle diplomacy needs the shuttle to actually run."
+    },
+    {
+      "s": "B",
+      "t": "So how do the different sides frame it?"
+    },
+    {
+      "s": "A",
+      "t": "Reuters and the Western wires cast Kyiv as the constructive party, Russia as dragging its feet. The Kremlin, through Peskov, says a settlement remains preferable — then flips the condition onto Kyiv: cease fire, leave the four regions, and then a ceasefire comes."
+    },
+    {
+      "s": "B",
+      "t": "That's not a concession, that's a surrender with a bow on it."
+    },
+    {
+      "s": "A",
+      "t": "And the non-aligned read, from Al Jazeera, just foregrounds the mechanism — the land-for-peace swap that hasn't moved a metre. No blame, and no expectations."
+    },
+    {
+      "s": "B",
+      "t": "What's the sceptic line?"
+    },
+    {
+      "s": "A",
+      "t": "That the secrecy could be seriousness, not its absence — a public text becomes a target for maximalists on both flanks. But until we see it, the proposal is worth exactly what its unpublished pages say."
+    },
+    {
+      "s": "B",
+      "t": "Two quick ones on the same desk?"
+    },
+    {
+      "s": "A",
+      "t": "Turkey's parliament passed a conditional pardon for thousands of Kurdish fighters — four hundred sixty-eight to eighty-eight. But it only triggers when the state verifies full disarmament, which hasn't happened. A switch installed, not flipped."
+    },
+    {
+      "s": "B",
+      "t": "And Colombia?"
+    },
+    {
+      "s": "A",
+      "t": "The magnitude seven-point-four quake we logged last issue kept climbing. By Tuesday the toll had passed two hundred fifty, more than five hundred seventy injured. Every figure is provisional — the gap between government and civilian counts is itself the story."
+    },
+    {
+      "s": "B",
+      "t": "Okay. Money block. And I want to start with the print, because you told me it would matter."
+    },
+    {
+      "s": "A",
+      "t": "It did, by not mattering. Last issue the market had an oil-led inflation scare — Brent near eighty-eight US dollars, yields at a one-month high, gold bid, all before the data spoke."
+    },
+    {
+      "s": "B",
+      "t": "And Tuesday the data spoke."
+    },
+    {
+      "s": "A",
+      "t": "July inflation came in at three point four per cent, down from three point five, exactly in line. Core at two point five. Mild."
+    },
+    {
+      "s": "B",
+      "t": "So the scare was noise."
+    },
+    {
+      "s": "A",
+      "t": "The scare was noise. This cycle the Fed's debate is hike versus hold, not cut — and a mild print just lowered the odds of a September hike to about two in five, against a majority for a hold."
+    },
+    {
+      "s": "B",
+      "t": "Textbook. Yields ease, dollar steady, done."
+    },
+    {
+      "s": "A",
+      "t": "Except gold didn't read the textbook. It pushed toward four thousand five hundred US dollars anyway."
+    },
+    {
+      "s": "B",
+      "t": "[curious] Wait — on a cooler print and a firmer dollar? That's backwards."
+    },
+    {
+      "s": "A",
+      "t": "Only if you think gold is an inflation trade. It isn't, not right now. Real yields are still positive — a four-point-six-five per cent ten-year against three-point-four inflation. Gold's bid is fear and haven demand, climbing despite higher-for-longer."
+    },
+    {
+      "s": "B",
+      "t": "And bitcoin?"
+    },
+    {
+      "s": "A",
+      "t": "Went nowhere. It's sat between sixty-two and sixty-six thousand US dollars for five weeks, because a mild print delivered no new liquidity — and liquidity is the only thing bitcoin runs on. One benign number, three prices, three different drivers."
+    },
+    {
+      "s": "B",
+      "t": "That's the whole issue, isn't it. The number everyone watches versus the thing that moves."
+    },
+    {
+      "s": "A",
+      "t": "That's the spine. And Singapore is the same shape. On Monday the Trade Ministry more than doubled the growth forecast — from two-to-four per cent up to four-point-five to five-point-five."
+    },
+    {
+      "s": "B",
+      "t": "Doubled? That's a boom."
+    },
+    {
+      "s": "A",
+      "t": "A genuine one, driven by the A-I chip build-out. Second-quarter electronic exports were up eighty-eight per cent — integrated circuits alone more than ninety."
+    },
+    {
+      "s": "B",
+      "t": "So why does nobody sound happy?"
+    },
+    {
+      "s": "A",
+      "t": "Because the boom is in the export column and almost nowhere a household shops. Retrenchments rose to about four thousand five hundred in the quarter. The forums call it growth we don't feel."
+    },
+    {
+      "s": "B",
+      "t": "And the Rally's on the twenty-third."
+    },
+    {
+      "s": "A",
+      "t": "Where the Prime Minister has to convert a record growth year into something a family feels — recurring relief that changes a behaviour, or one-offs that flatter a Budget and fade. That's the test."
+    },
+    {
+      "s": "B",
+      "t": "Property — you said two opposite signals in one week."
+    },
+    {
+      "s": "A",
+      "t": "The state awarded the Bayshore Drive site at one thousand three hundred twenty-three dollars a square foot — the highest land rate ever paid outside the central region. Confidence at the top."
+    },
+    {
+      "s": "B",
+      "t": "And the bottom?"
+    },
+    {
+      "s": "A",
+      "t": "The July resale flash: flat prices falling for a second straight quarter, even as volume hit a yearly high. A record land bid and a falling flat, in the same fortnight. For an owner weighing the exit, both are the market."
+    },
+    {
+      "s": "B",
+      "t": "So which signal do you trust?"
+    },
+    {
+      "s": "A",
+      "t": "Both, and neither alone. The record rate is a developer's forecast three or four years out — it says confidence in the east coast. The falling resale index says the days of banking on runaway capital gains are over. Liquidity is fine; the price just isn't rising."
+    },
+    {
+      "s": "B",
+      "t": "And there's a bigger plot closing soon."
+    },
+    {
+      "s": "A",
+      "t": "The New Upper Changi site, about a thousand units fronting the Bedok station — the tender closes on the first of September. That result is the real read on whether the eastern pipeline is a ceiling or a floor. Not investment advice, just what two opposite prints are saying."
+    },
+    {
+      "s": "B",
+      "t": "Right. My turn. Technology, and this one I actually care about."
+    },
+    {
+      "s": "A",
+      "t": "Because it runs on your machine."
+    },
+    {
+      "s": "B",
+      "t": "It runs on my machine. In forty-eight hours, NVIDIA and Meta each shipped a thirty-billion-parameter open model built for a single consumer card. And they're opposites."
+    },
+    {
+      "s": "A",
+      "t": "Opposite how?"
+    },
+    {
+      "s": "B",
+      "t": "NVIDIA's Nemotron three-point-five Lightning is the speed king — about twelve hundred tokens a second, day-one support for the usual local tools. Meta's Muse Glimmer is the accuracy king — sharper on the hard problems, does vision, but slower."
+    },
+    {
+      "s": "A",
+      "t": "So which one wins?"
+    },
+    {
+      "s": "B",
+      "t": "Neither — that's the point. Someone ran four of these through twelve hard problems on a single five-thousand-ninety and the verdict was: Glimmer if your card is twenty-four gigabytes and you want vision, Nemotron if your work lives in long documents."
+    },
+    {
+      "s": "A",
+      "t": "And your rig?"
+    },
+    {
+      "s": "B",
+      "t": "One card runs both. Two cards run them properly — full precision and headroom. The interesting models now come to the hardware you already own. That's the actual news."
+    },
+    {
+      "s": "A",
+      "t": "The sceptic?"
+    },
+    {
+      "s": "B",
+      "t": "Every headline number is vendor-published. No independent evaluation yet. And Alibaba's Qwen open weights that were promised this week? Still haven't shipped. We grade that on the seventeenth."
+    },
+    {
+      "s": "A",
+      "t": "The Kit — one line."
+    },
+    {
+      "s": "B",
+      "t": "Google's foldable, the Pixel eleven Pro Fold — eighteen hundred ninety-nine US dollars, a two-nanometre chip, seven years of software support. The longest-supported foldable of the year."
+    },
+    {
+      "s": "A",
+      "t": "But?"
+    },
+    {
+      "s": "B",
+      "t": "But it's a hinge. The longer you plan to keep a phone, the more a moving mechanical joint matters. So it's the buy-once question, tested — watch, don't buy, until the durability reports land in October."
+    },
+    {
+      "s": "A",
+      "t": "And a watch, for the buy-once reader?"
+    },
+    {
+      "s": "B",
+      "t": "Union Glashuette put out a square racing chronograph — the Averin, Sachsen Classic — thirty-seven hundred euros, three hundred fifty pieces, a proper German-finished movement with a silicon hairspring."
+    },
+    {
+      "s": "A",
+      "t": "That's cheap, for a grail."
+    },
+    {
+      "s": "B",
+      "t": "It's not a grail, and it's honest about that. What you're buying is the livery — the seventies racing-car dial — not horological scarcity. Wear it, don't flip it; the resale on a limited edition like this is thin."
+    },
+    {
+      "s": "A",
+      "t": "[chuckles] Which brings us to the part you've been vibrating about all morning."
+    },
+    {
+      "s": "B",
+      "t": "Right — take my hand. We're going down the rabbit hole."
+    },
+    {
+      "s": "A",
+      "t": "[sighs] Every time."
+    },
+    {
+      "s": "B",
+      "t": "Shortwave radio! Here's the paradox. The great international broadcasters have fled the band for a decade — the B-B-C to North America, Radio Australia entirely, the Voice of America went dark last year."
+    },
+    {
+      "s": "A",
+      "t": "So it's a dead hobby."
+    },
+    {
+      "s": "B",
+      "t": "That's what you'd think. Except there are still around six hundred million shortwave sets in the world, and the price of entry collapsed from a two-hundred-dollar receiver to a thirty-dollar U-S-B stick. The broadcasters left. The listeners didn't."
+    },
+    {
+      "s": "A",
+      "t": "What do you even listen to?"
+    },
+    {
+      "s": "B",
+      "t": "This is the good part. Numbers stations. There's one called U-V-B seventy-six, The Buzzer, on four thousand six hundred twenty-five kilohertz — a monotonous drone that's been on the air since the Cold War, occasionally broken by coded Russian voice messages."
+    },
+    {
+      "s": "A",
+      "t": "Broken by what?"
+    },
+    {
+      "s": "B",
+      "t": "Coded voice messages. On the twenty-fourth of June this year it sent about twenty of them in a single day. The serious monitors tie it to a Russian military network. Nobody outside Moscow knows why."
+    },
+    {
+      "s": "A",
+      "t": "[curious] Okay, that's genuinely eerie."
+    },
+    {
+      "s": "B",
+      "t": "And the community's honest with itself. The receiver's cheap — but the real game is the antenna. In a Singapore flat you're drowning in electrical noise, so the money goes on a magnetic loop that rejects the hum. The line everyone repeats is: the antenna is the most important part of your radio."
+    },
+    {
+      "s": "A",
+      "t": "Which is the whole issue again."
+    },
+    {
+      "s": "B",
+      "t": "Signal to noise, literally. The entire craft is pulling one true signal out of a band of static."
+    },
+    {
+      "s": "B",
+      "t": "And the community is three tribes that barely get along — the D-Xers chasing distant signals, the software crowd on their waterfalls, and the preppers who want news that survives the grid going down."
+    },
+    {
+      "s": "A",
+      "t": "What actually changed recently?"
+    },
+    {
+      "s": "B",
+      "t": "Not the radios — the software and the price. You can now record sixty-four megahertz of spectrum at once for under two hundred dollars, something that used to cost fifteen hundred. Evolution, not revolution. Anyone waiting for a miracle receiver should just buy the good one now. And a whole cottage industry has grown around it — magnetic loops, noise filters, remote receivers you can tune from a browser on the other side of the planet."
+    },
+    {
+      "s": "A",
+      "t": "What does it cost to start?"
+    },
+    {
+      "s": "B",
+      "t": "About two hundred forty-four US dollars for the serious kit — a dongle to learn the software, an Airspy receiver to actually hear, and a thirty-five-dollar loop to beat the noise. And the sceptic's case is fair: it's all on the internet now, the noise floor in a city can be brutal. The rebuttal is that a radio needing no grid is worth owning for the one week the grid is gone."
+    },
+    {
+      "s": "A",
+      "t": "And the reader picks the next hobby."
+    },
+    {
+      "s": "B",
+      "t": "Fountain pens, coral reef aquariums, or F-P-V drones. Vote on the page."
+    },
+    {
+      "s": "A",
+      "t": "Culture and the body, quickly. Two comedies for grown-ups opened last weekend, and both died."
+    },
+    {
+      "s": "B",
+      "t": "Both?"
+    },
+    {
+      "s": "A",
+      "t": "A Will Gluck rom-com and a Broken Lizard sequel. But the interesting number is the split — the rom-com scored seventy-two per cent with audiences against forty-seven with critics. Audiences warmer than the reviews."
+    },
+    {
+      "s": "B",
+      "t": "And the opposite happens with Phoebe Bridgers."
+    },
+    {
+      "s": "A",
+      "t": "Exactly. Her new album, Lost Weekend, out tomorrow, is drowning in critical acclaim — a score in the low nineties — before a single fan has lived with it. Critics warmer than any listener. Two gaps between the number and the room, in one week."
+    },
+    {
+      "s": "B",
+      "t": "So what's the honest verdict on both?"
+    },
+    {
+      "s": "A",
+      "t": "Don't pre-write either. One soft weekend isn't a genre's obituary, and one wall of critic scores isn't a fan verdict. Watch the comedy's second weekend, and grade the album against its listeners at the end of the month. The published number and the lived reaction are not the same measurement."
+    },
+    {
+      "s": "B",
+      "t": "The Family desk had my favourite finding."
+    },
+    {
+      "s": "A",
+      "t": "This one's lovely. A study of more than six thousand children aged ten to thirteen looked at four levers — sleep, screens, activity, diet — and asked which best explains how a kid does at school and with friends."
+    },
+    {
+      "s": "B",
+      "t": "And it's not screens."
+    },
+    {
+      "s": "A",
+      "t": "It's sleep, by a distance. Sleep accounted for about thirty-six per cent of the link between anxiety and lower grades. Screen time, the thing parents fixate on, was minor. The lever you watch isn't the lever that moves."
+    },
+    {
+      "s": "B",
+      "t": "And there's a companion finding I liked — that at eleven, she seems fine is a weak reading."
+    },
+    {
+      "s": "A",
+      "t": "Two studies this year found pre-teen girls report more anxiety than their parents can see, and the gap widens through puberty. The instrument under-reads exactly when the signal is rising. The answer isn't surveillance — it's asking directly, and often."
+    },
+    {
+      "s": "B",
+      "t": "So the fix is a bedtime, not a panic."
+    },
+    {
+      "s": "A",
+      "t": "A consistent bedtime, no device in the room after lights-out — the same sleep hygiene this reader already runs on her own wrist, applied to her daughter. General guidance, not medical advice."
+    },
+    {
+      "s": "B",
+      "t": "And Fitness rhymes with it."
+    },
+    {
+      "s": "A",
+      "t": "It does. A trial of three hundred fifteen adults found that one seventy-five-minute brisk walk a week did about as much for fat loss and fitness as three shorter ones — same total dose. The frequency you schedule matters less than the dose inside it."
+    },
+    {
+      "s": "B",
+      "t": "The caveat?"
+    },
+    {
+      "s": "A",
+      "t": "It's a floor, in an untrained group — permission to consolidate on a bad week, not a ceiling. Minimum effective dose isn't maximal dose. And one to book: BIGBANG's general sale is this morning, ten o'clock, ahead of a Formula One weekend that's already half sold out."
+    },
+    {
+      "s": "B",
+      "t": "And then the closing thought. Take us down slow."
+    },
+    {
+      "s": "A",
+      "t": "This is the Undercurrent — a trend running in Asia the Western press hasn't caught. In Japan, it's called nuikatsu."
+    },
+    {
+      "s": "B",
+      "t": "Which is?"
+    },
+    {
+      "s": "A",
+      "t": "Grown adults carrying plush toys as companions. To cafés, to shrines, tucked into hotel beds — and photographed everywhere, with the owner's own face kept out of the frame. The plush is the avatar — you document a life without ever putting your own face in the frame."
+    },
+    {
+      "s": "B",
+      "t": "And this is… big?"
+    },
+    {
+      "s": "A",
+      "t": "The combined revenue of thirty-four plush-toy companies grew about one-point-seven times in four years. There's a hotel plan with a little bed for your plush, in more than fifty-five locations. In June a shrine opened in Kyoto offering memorial rites for worn-out plushies."
+    },
+    {
+      "s": "B",
+      "t": "[pause] There's something sad in that. And tender."
+    },
+    {
+      "s": "A",
+      "t": "Both. In the world's oldest, most single-person society — a country with a Minister of Loneliness since twenty twenty-one — a portable, non-judgemental companion isn't whimsy. It's emotional infrastructure. Young owners describe the plush like a good-luck charm you carry."
+    },
+    {
+      "s": "B",
+      "t": "So what's the argument?"
+    },
+    {
+      "s": "A",
+      "t": "That when a society's fastest-growing consumer ritual is buying company you can hold, the product is telling you what the market for human connection can no longer supply. The visible signal is a cute photograph. The thing it measures is harder. Read the object, not the smile."
+    },
+    {
+      "s": "B",
+      "t": "And the West hasn't written it up."
+    },
+    {
+      "s": "A",
+      "t": "Not the Times, not the B-B-C, not Reuters, not the F-T. When they do, remember you heard it here first."
+    },
+    {
+      "s": "B",
+      "t": "And it travels. This isn't only a Japan story."
+    },
+    {
+      "s": "A",
+      "t": "No. The pressures that made it — shrinking households, a platform culture that rewards presence but punishes exposure — aren't uniquely Japanese. Japan just reaches this stage first and builds the product first. The plush on the café table is a leading indicator, not a curiosity."
+    },
+    {
+      "s": "A",
+      "t": "That's the Briefing — the number is rarely the news; the signal is what changed, and it usually arrives quietly. The full book is on your dashboard — twenty-four pages, footnotes and all."
+    },
+    {
+      "s": "B",
+      "t": "Read the footnotes. See you tomorrow, Singapore."
+    }
+  ]
+}

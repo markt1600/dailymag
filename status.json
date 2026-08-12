@@ -1,18 +1,18 @@
 {
  "publication": "MERIDIAN",
- "issue": 70,
- "date": "12 August 2026",
- "isoDate": "2026-08-12",
- "builtAt": "2026-08-12T06:51:01+08:00",
+ "issue": 71,
+ "date": "13 August 2026",
+ "isoDate": "2026-08-13",
+ "builtAt": "2026-08-13T06:12:04+08:00",
  "startedAt": null,
- "buildMinutes": 98,
- "buildTokens": 209155488,
+ "buildMinutes": 60,
+ "buildTokens": 99538700,
  "buildTokenBreakdown": {
-  "input": 1876673,
-  "cached": 206266593,
-  "output": 1012222
+  "input": 1427155,
+  "cached": 97406650,
+  "output": 704895
  },
- "buildCostUSD": 140.16,
+ "buildCostUSD": 75.24,
  "buildModel": "claude-opus-4-8",
  "pages": 24,
  "qa": "pass",
