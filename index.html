@@ -129,8 +129,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 .cover-teasers .col{flex:1;}
 .cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
 .cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
-.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:flex-start;gap:10mm;}
 .cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.cover-foot span:first-child{white-space:nowrap;flex:0 0 auto;}
+.cover-foot span+span{font-size:6.5pt;letter-spacing:.12em;text-align:right;max-width:118mm;}
 .dark .hairline{background:#3a342c;}                      /* divider on dark pages */
  
 
@@ -313,6 +315,22 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   .nextpick.picked{ background:none; box-shadow:none; } }
 </style>
 
+<style>
+/* print-fit nudges (No. 70): clear the pgfoot on pages that ran 2-7mm deep —
+   found by the tightened qa.py gate; leading trimmed a hair, no content changed */
+@media print{
+#p7 .chatter p{line-height:1.32;}
+#p9 .cols2 p{line-height:1.36;}
+#p10 .cols2 p{line-height:1.36;}
+#p12 .chatter p{line-height:1.36;}
+#p13 .cols2 p{line-height:1.36;}
+#p15 .grid p{line-height:1.28;}
+#p15 .grid{gap:6mm;}
+#p17 .grid p{line-height:1.24;font-size:8.3pt;}
+#p17 .grid{gap:5mm;}
+#p17 .chatter{padding:7px 9px;}
+}
+</style>
 </head>
 <body>
 <div id="mprog"></div>
@@ -332,7 +350,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     <div style="font-family:'Poppins',sans-serif;font-size:8.5pt;letter-spacing:.26em;text-transform:uppercase;color:var(--blush);margin-top:9px;">Wednesday 12 August 2026</div>
   </div>
   <div style="position:absolute;top:70mm;left:0;right:0;height:172mm;overflow:hidden;">
-    <img src="https://raw.githubusercontent.com/markt1600/dailymag/main/assets/heroes/oil-tanker-70.jpg" alt="A crude oil tanker at sea" style="width:100%;height:100%;object-fit:cover;opacity:.9;">
+    <img src="https://raw.githubusercontent.com/markt1600/dailymag/main/assets/heroes/tanker-hormuz.jpg" alt="A crude oil tanker" style="width:100%;height:100%;object-fit:cover;opacity:.9;">
     <div style="position:absolute;inset:0;background:linear-gradient(to bottom, rgba(25,22,19,.34) 0%, rgba(25,22,19,.05) 34%, rgba(25,22,19,.62) 78%, rgba(25,22,19,.9) 100%);"></div>
     <div style="position:absolute;left:16mm;bottom:6mm;font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);">The Squeeze · A Shut Strait, a Gold Record, and a Number That Prints Tonight</div>
   </div>
@@ -344,7 +362,6 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     </div>
   </div>
   <div class="cover-foot"><span>Twelve Desks · One World</span><span>Source: Wikimedia Commons — a crude oil tanker, standing in for the chokepoint the lead turns on (<a class="xref" href="#p3">p3</a>). Representative image.</span></div>
-<div class="build-colophon">assembled by Claude Code · tokens and cost stamped at build</div>
 <div class="build-colophon">assembled in 1h38m · ~209.2M tokens (1.9M in · 206.3M cached · 1.0M out) · ≈US$140 at API list prices (opus-4-8)</div>
 </section>
 

@@ -506,6 +506,10 @@ if _stats.get('cost_usd'):
     _parts.append(f"≈{_cs} at API list prices{_mdl}")
 if _parts:
     _colo = '<div class="build-colophon">' + ' · '.join(_parts) + '</div>\n'
+    # a session that hand-authored a colophon placeholder already has one on
+    # the cover — stamping a second overprints it (No. 70 shipped the two
+    # z-fighting). Replace, never stack.
+    html = _re.sub(r'<div class="build-colophon">.*?</div>\s*', '', html, count=1)
     _cend = html.find('</section>')
     if _cend != -1:
         html = html[:_cend] + _colo + html[_cend:]
@@ -548,6 +552,13 @@ html = html.replace('<body>', CHROME, 1)
 # desk, and the build fails outright if fewer than 3 heroes land.
 ASSET_BASE = "https://raw.githubusercontent.com/markt1600/dailymag/main/assets/heroes/"
 import os as _os
+
+# The PRINT html must reference repo images by LOCAL relative path
+# (src="assets/heroes/x.jpg"): headless Chromium in the build sandbox fails TLS
+# to raw.githubusercontent SILENTLY, and Nos. 67-69 shipped PDFs with a
+# broken-image glyph where the cover hero belonged. The web build wants the
+# absolute raw URL (works from archives and file://) — so rewrite here.
+html = html.replace('src="assets/heroes/', 'src="' + ASSET_BASE)
 def _asset_ok(slug):
     return _os.path.exists(_os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "assets", "heroes", slug + ".jpg"))
 def hero(entry):

@@ -134,8 +134,10 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 .cover-teasers .col{flex:1;}
 .cover-teasers .lbl{font-family:'Poppins',sans-serif;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;}
 .cover-teasers .ht{font-weight:700;font-size:11pt;line-height:1.1;margin-top:3px;color:var(--paper);}
-.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;}
+.cover-foot{position:absolute;bottom:14mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:flex-start;gap:10mm;}
 .cover-foot span{font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:.2em;color:var(--blush);}
+.cover-foot span:first-child{white-space:nowrap;flex:0 0 auto;}
+.cover-foot span+span{font-size:6.5pt;letter-spacing:.12em;text-align:right;max-width:118mm;}
 .dark .hairline{background:#3a342c;}                      /* divider on dark pages */
  
 
@@ -321,6 +323,18 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   .nextpick.picked{ background:none; box-shadow:none; } }
 </style>
 
+<style>
+/* print-fit nudges (No. 69): clear the pgfoot on pages that ran 1.5-4mm deep —
+   found by the tightened qa.py gate; leading trimmed a hair, no content changed */
+@media print{
+#p23 .pull{font-size:13pt;}
+#p6 .chatter p{line-height:1.34;}
+#p14 .grid p{line-height:1.36;}
+#p9 .cols2 p{line-height:1.38;}
+#p10 .cols2 p{line-height:1.38;}
+#p16 .grid p{line-height:1.38;}
+}
+</style>
 </head>
 <body>
 <div id="mprog"></div>
