@@ -24,10 +24,12 @@ Exit non-zero if any interior page is OVERSET, so the build refuses to finalize.
 import os, sys, glob, subprocess, pathlib
 from playwright.sync_api import sync_playwright
 
-# Calibrated against a real book: genuine collisions (body text printing through
-# the footnote) measure ~ -15mm gap; hairline-tight-but-legible pages measure
-# ~ -3..+3mm; comfortable pages >= +8mm. So:
-OVERSET_FAIL_MM = 4.0    # content pushes > this far past the footer top => hard FAIL (overlap)
+# Calibrated against real books, twice. Gross collisions measure ~ +15mm; but
+# No. 69 shipped THREE pages of text-printing-through-the-sources at +2.9..+3.7mm
+# — under the old 4.0mm tolerance — and the reader saw it on the tablet. The
+# sources text starts AT the footer's top edge, so any positive overlap beyond
+# ~1mm of rounding/border-graze is ink on ink. Hence:
+OVERSET_FAIL_MM = 1.2    # content pushes > this far past the footer top => hard FAIL (overlap)
 TIGHT_WARN_MM = 4.0      # clear gap below this (but not failing) => advisory TIGHT
 UNDERFILL_MM = 40        # clear gap larger than this => underfill candidate (advisory)
 DPI = 100
@@ -47,12 +49,19 @@ MEASURE_JS = r"""
       if (b > cbottom) cbottom = b;
     });
     const footTop = foot ? foot.getBoundingClientRect().top : (r.bottom - 16 * pxPerMm);
+    // print-visible imgs that never loaded: Chromium fails TLS to
+    // raw.githubusercontent SILENTLY in the build sandbox, and a broken-image
+    // glyph shipped as the cover of Nos. 67-69. Repo images must be local paths.
+    const broken = [...pg.querySelectorAll('img')]
+      .filter(im => (im.offsetWidth || im.offsetHeight) && !(im.complete && im.naturalWidth > 0))
+      .map(im => im.getAttribute('src'));
     return {
       page: i + 1,
       dark: pg.classList.contains('dark'),
       hasFoot: !!foot,
       overflow_mm: (cbottom - footTop) / pxPerMm,   // >~0 => content hits the footer
-      gap_mm: (footTop - cbottom) / pxPerMm          // clear space before the footer
+      gap_mm: (footTop - cbottom) / pxPerMm,         // clear space before the footer
+      broken
     };
   });
 }
@@ -80,6 +89,7 @@ def main():
     n = len(data)
     print(f"{n} pages measured (DOM, print media)\n")
     flagged, tight = [], []
+    broken = [(d["page"], s) for d in data for s in d.get("broken", [])]
     for d in data:
         i = d["page"]
         exempt = d["dark"] or not d["hasFoot"] or i == 1 or i == n
@@ -112,6 +122,12 @@ def main():
 
     if tight:
         print(f"\nADVISORY: {len(tight)} tight page(s) (<4mm clear, legible): {tight} — open up if convenient.")
+    if broken:
+        print(f"\nFAIL: {len(broken)} print-visible image(s) never loaded (broken-image glyph would ship):")
+        for pg, src in broken:
+            print(f"  page {pg}: {src}")
+        print("  Repo images must use LOCAL relative paths in the print HTML (assets/heroes/...).")
+        sys.exit(1)
     if flagged:
         print(f"\nFAIL: {len(flagged)} interior page(s) overset (real footer collision): {flagged}")
         sys.exit(1)
