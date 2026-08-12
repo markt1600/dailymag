@@ -220,6 +220,12 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     color:var(--gold); padding:7px 10px; cursor:pointer; text-decoration:none; }
   .pod-bar .pod-link:hover{ color:var(--paper); }
   .pod-bar audio{ width:100%; display:block; height:36px; }
+  .pod-bar .pod-row{ display:flex; align-items:center; gap:6px; padding:2px 8px 4px; }
+  .pod-bar .pod-row audio{ flex:1; }
+  .pod-speed{ flex:0 0 auto; background:none; border:1pt solid var(--gold); color:var(--gold);
+    border-radius:10px; font-family:'Poppins',sans-serif; font-size:8pt; font-weight:600;
+    padding:3px 9px; cursor:pointer; }
+  .pod-speed:hover{ background:var(--gold); color:var(--ink); }
   .mnav{ display:flex; align-items:center; gap:2px; overflow-x:auto; scrollbar-width:thin;
     background:var(--ink); padding:0 8px; -webkit-overflow-scrolling:touch; }
   .mnav::-webkit-scrollbar{ height:0; }
@@ -1258,7 +1264,17 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     var pdl=document.querySelector('.pdf-dl');
     var piss=(pdl&&(pdl.textContent.match(/No\.\s*(\d+)/)||[])[1])||'';
     var PODURL='https://raw.githubusercontent.com/markt1600/dailymag/main/podcast/meridian-'+piss+'.mp3';
-    function podPlayer(){ podbar.innerHTML='<audio controls preload="none" src="'+PODURL+'"></audio>'; }
+    function podPlayer(){
+      podbar.innerHTML='<div class="pod-row"><audio controls preload="none" src="'+PODURL+'"></audio><button class="pod-speed" type="button" title="Playback speed"></button></div>';
+      var au=podbar.querySelector('audio'), sb=podbar.querySelector('.pod-speed');
+      var speeds=[1,1.15,1.3,1.5,1.75,2];
+      var sp=1.3; try{ var st=parseFloat(localStorage.getItem('mpod-speed')); if(speeds.indexOf(st)>-1) sp=st; }catch(e){}
+      function apply(){ au.playbackRate=sp; sb.textContent=sp+'\u00d7'; }
+      au.addEventListener('loadedmetadata',function(){ au.playbackRate=sp; });
+      au.addEventListener('play',function(){ au.playbackRate=sp; });
+      sb.addEventListener('click',function(){ sp=speeds[(speeds.indexOf(sp)+1)%speeds.length]; try{ localStorage.setItem('mpod-speed',sp); }catch(e){} apply(); });
+      apply();
+    }
     function podCheck(cb){ fetch(PODURL,{method:'HEAD',cache:'no-store'}).then(function(r){cb(r.ok);}).catch(function(){cb(false);}); }
     podCheck(function(ok){ if(ok) podPlayer(); });
     var podBusy=false;
