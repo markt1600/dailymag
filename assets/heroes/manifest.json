@@ -1,5 +1,5 @@
 {
- "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429.",
+ "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites \u2014 per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429.",
  "images": [
   {
    "slug": "sq-747-tropical-685",
@@ -147,7 +147,7 @@
   },
   {
    "slug": "nvidia-h100",
-   "file": "NVIDIA H100 (极客湾Geekerwan) 016.png"
+   "file": "NVIDIA H100 (\u6781\u5ba2\u6e7eGeekerwan) 016.png"
   },
   {
    "slug": "grand-seiko",
@@ -247,7 +247,7 @@
   },
   {
    "slug": "sauna",
-   "file": "Sauna-löyly.jpg"
+   "file": "Sauna-l\u00f6yly.jpg"
   },
   {
    "slug": "classroom",
@@ -367,7 +367,7 @@
   },
   {
    "slug": "bali-rice-terrace",
-   "file": "Bali – Rice terrace (2687336831).jpg"
+   "file": "Bali \u2013 Rice terrace (2687336831).jpg"
   },
   {
    "slug": "bali-uluwatu",
@@ -427,7 +427,8 @@
   },
   {
    "slug": "oil-tanker-70",
-   "file": "Petroleum Crude Oil tanker.jpg"
+   "file": "Petroleum Crude Oil tanker.jpg",
+   "note": "CAUTION: image is a ROAD TANKER TRUCK on a US freeway, not a ship \u2014 mislabeled on Commons; do not reuse as a maritime/crude-tanker hero (No. 70 shipped it captioned as a ship). Use tanker-hormuz or hormuz-tanker for ships."
   },
   {
    "slug": "gold-bullion-70",
