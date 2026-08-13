@@ -540,11 +540,11 @@
   },
   {
    "slug": "ladder-715",
-   "file": "DVB-T USB dongle with RTL2832U and R820T.jpg"
+   "url": "https://images.pexels.com/photos/7174676/pexels-photo-7174676.jpeg?auto=compress&cs=tinysrgb&w=1600"
   },
   {
    "slug": "ceiling-715",
-   "file": "Hammarlund SP-600 communications receiver side.JPG"
+   "url": "https://images.pexels.com/photos/11162437/pexels-photo-11162437.jpeg?auto=compress&cs=tinysrgb&w=1600"
   },
   {
    "slug": "cutting-715",
@@ -556,7 +556,7 @@
   },
   {
    "slug": "sgdial-715",
-   "file": "Sim Lim Tower 2.JPG"
+   "file": "Sim Lim Tower.JPG"
   },
   {
    "slug": "firstyear-715",
@@ -584,5 +584,6 @@
  "_retrigger15": "No.70.5: switched wheel-generic-705+potteryshop-705 to Pexels direct URLs (Commons still 429ing); retry leach-pottery-705/raku-kiln-705/jingdezhen-zhushan-705/jingdezhen-dish-705/moonjar-705/celadon-705 2026-08-12",
  "_retrigger16": "No.70.5: leach-pottery-705 landed; retry raku-kiln-705/jingdezhen-zhushan-705/jingdezhen-dish-705/moonjar-705/celadon-705 once more 2026-08-12",
  "_retrigger17": "No.71 heroes: swl-dial-71(cover/RabbitHole), plush-hold-71(Undercurrent), zelensky-71(World), tecsun-pl606-71(RabbitHole gear) 2026-08-13",
- "_retrigger18": "No.71.5 special (Shortwave radio SWL): cover-715,longwave-715,community-715,ladder-715,ceiling-715,cutting-715,antenna-715,sgdial-715,firstyear-715,longread-715"
+ "_retrigger18": "No.71.5 special (Shortwave radio SWL): cover-715,longwave-715,community-715,ladder-715,ceiling-715,cutting-715,antenna-715,sgdial-715,firstyear-715,longread-715",
+ "_retrigger19": "No.71.5 retry ladder-715(pexels circuit)/ceiling-715(pexels stereos)/sgdial-715(alt Commons filename Sim Lim Tower.JPG) 2026-08-13"
 }
