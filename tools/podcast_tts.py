@@ -18,7 +18,9 @@ import json, os, re, shutil, subprocess, sys, time, urllib.request
 MAX_CHUNK = 1800
 MODEL = "eleven_v3"
 OUT_FMT = "mp3_44100_128"
-ALLOWED_TAGS = {"laughs", "chuckles", "sighs", "curious", "excited", "whispers", "pause"}
+ALLOWED_TAGS = {"laughs", "chuckles", "sighs", "exhales", "scoffs", "gasps",
+                "curious", "thoughtful", "amused", "skeptical", "excited",
+                "deadpan", "wry", "warmly", "whispers", "pause", "rushed", "drawn out"}
 VOICE_DEFAULTS = {"A": "21m00Tcm4TlvDq8ikWAM",   # Rachel — CLAIRE
                   "B": "JBFqnCBsd6RMkjVDRZzb"}   # George — THEO
 
@@ -45,8 +47,15 @@ def lint(path):
     bad = [g for g in tags if g not in ALLOWED_TAGS]
     if bad:
         problems.append(f"disallowed audio tags: {sorted(set(bad))}")
-    if len(tags) > 30:
-        problems.append(f"{len(tags)} audio tags (> 30) — use them sparingly")
+    # v3 needs the performance written IN — too few tags reads robotic (the
+    # episode-71 complaint); too many (or stacked) degrades the voice.
+    if len(tags) < 25:
+        problems.append(f"only {len(tags)} audio tags — aim for ~35-55; the flat read sounds robotic")
+    if len(tags) > 70:
+        problems.append(f"{len(tags)} audio tags (> 70) — too many; thin them so they still land")
+    stacked = [t["t"] for t in turns if len(re.findall(r"\[[^\]]+\]", t["t"])) > 2]
+    if stacked:
+        problems.append(f"{len(stacked)} turn(s) stack >2 tags — degrades the voice")
     digits = [t["t"] for t in turns if re.search(r"\d", t["t"])]
     if digits:
         problems.append(f"{len(digits)} turn(s) contain digits — spell numbers out "
