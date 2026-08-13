@@ -91,6 +91,16 @@ def tts(batch, voices, key, attempt=0):
             return r.read()
     except Exception as e:
         detail = getattr(e, "read", lambda: b"")()[:300]
+        # Auth/quota/bad-request errors won't fix themselves on retry — fail
+        # fast with a clear message instead of burning the backoff budget.
+        status = getattr(e, "code", None)
+        if status in (400, 401, 403):
+            hint = ""
+            if b"api_key_id_used_as_api_key" in detail or b"invalid_api_key" in detail:
+                hint = ("\n  >>> The ELEVENLABS_API_KEY secret is wrong: it looks like a key ID, "
+                        "not the secret key. Create/rotate a key in ElevenLabs and copy the value "
+                        "that STARTS WITH 'sk_' (shown only once), then update the GitHub secret.")
+            raise SystemExit(f"TTS auth/request error (HTTP {status}) — not retrying: {detail.decode('utf-8','replace')}{hint}")
         if attempt < 3:
             wait = 15 * (attempt + 1)
             print(f"  retry in {wait}s after: {e} {detail}")
