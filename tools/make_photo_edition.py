@@ -121,11 +121,11 @@ SCREEN_CSS = """
     zoom:var(--pzoom,1);
   }
   .page.dark{ zoom:var(--pzoom,1); margin:9mm auto; box-shadow:0 3px 26px rgba(0,0,0,.28); }
-  .page:not(.dark) .pgfoot{ position:static !important; margin-top:9mm; }
+  .page:not(.dark) .pgfoot{ position:static !important; margin-top:5mm; }
 
   /* photo heroes */
-  .ph-frame{ margin:5mm 0 4mm; width:100%; }
-  .ph-frame img{ width:100%; aspect-ratio:16/8; object-fit:cover; display:block;
+  .ph-frame{ margin:3mm 0 3mm; width:100%; }
+  .ph-frame img{ width:100%; height:44mm; object-fit:cover; display:block;
     background:#e6e1d6; border-radius:2px; }
   .ph-cred{ font-family:'Poppins',sans-serif; font-size:6.5pt; letter-spacing:.02em;
     color:var(--muted); margin-top:3px; text-align:right; }
