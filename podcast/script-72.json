@@ -1,0 +1,540 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 72,
+ "date": "Friday 14 August 2026",
+ "title": "The Confident Number and the Honest Doubt",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Friday, the fourteenth of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three to start. Ukraine set a Russian port on fire, and the price of bread twitched."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A frontier artificial-intelligence model got given away for free — with a lock on the door for half the West."
+  },
+  {
+   "s": "A",
+   "t": "And in India, forty million people are paying, by the minute, for someone to tell them it'll be alright."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Okay, that last one's the whole episode for me. But start with the fire."
+  },
+  {
+   "s": "A",
+   "t": "Overnight, the eleventh into the twelfth. Ukraine hit Novorossiysk — Russia's main Black Sea naval base, and its biggest grain port. Drones, missiles, uncrewed boats."
+  },
+  {
+   "s": "B",
+   "t": "Two jobs, one target."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. Four warships damaged — two frigates, a missile ship, a patrol ship. Two grain terminals stopped work. And Chicago wheat futures jumped about three per cent."
+  },
+  {
+   "s": "B",
+   "t": "Wait — wheat? Because it's the export gate?"
+  },
+  {
+   "s": "A",
+   "t": "Russia is the world's largest wheat exporter. Hit the port and you've got a hand on the price of bread from Cairo to Lagos."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the human cost?"
+  },
+  {
+   "s": "A",
+   "t": "At least three killed, including an eight-year-old. A state of emergency. The water was cut for a time."
+  },
+  {
+   "s": "B",
+   "t": "So how did the three desks read it? You always say the framing is the story."
+  },
+  {
+   "s": "A",
+   "t": "It is. Kyiv, through the Western wires, calls it strategically significant — a win against the Black Sea Fleet. Moscow calls it a strike on a civilian port and leads with the child. And Doha follows the wheat downstream — to Africa and the Middle East, who buy the grain and had no part in the war."
+  },
+  {
+   "s": "B",
+   "t": "Three true things, pointing three ways."
+  },
+  {
+   "s": "A",
+   "t": "And here's the tell. Kyiv left one thing standing — the oil terminal part-owned by Chevron and ExxonMobil. On an American request, reportedly from Vice-President Vance."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] They deliberately spared the American oil."
+  },
+  {
+   "s": "A",
+   "t": "Which tells you it isn't a blockade. It's a message. And the sceptic's line — Russia's already rerouting cargo through the Baltic and Caspian. Terminals get repaired in weeks."
+  },
+  {
+   "s": "B",
+   "t": "So symbolic, not decisive."
+  },
+  {
+   "s": "A",
+   "t": "Unless there's a second strike. That's what would change it."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Alright. Money block. And I hear the stock market threw a party."
+  },
+  {
+   "s": "A",
+   "t": "It did. The S and P five hundred closed at a record — seven thousand, seven hundred and ninety-nine. First time ever above seven thousand eight hundred."
+  },
+  {
+   "s": "B",
+   "t": "On what?"
+  },
+  {
+   "s": "A",
+   "t": "A mild inflation print. July consumer prices up three point four per cent on the year — the second cool one running."
+  },
+  {
+   "s": "B",
+   "t": "So everyone's happy. Records everywhere."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] That's the party upstairs. Go to the basement."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] The basement being?"
+  },
+  {
+   "s": "A",
+   "t": "The bond market. Same week, the thirty-year Treasury auction cleared at the dearest financing rate in about twenty-five years. The ten-year, the highest yield since two thousand and seven."
+  },
+  {
+   "s": "B",
+   "t": "So money is more expensive than it's been in a generation — while stocks make records."
+  },
+  {
+   "s": "A",
+   "t": "That's the signal. Stocks are pricing relief. The long bond is pricing a hawkish Fed that has no reason to cut, and a pile of government borrowing. When both stocks and long yields rise together, your bonds aren't cushioning your shares."
+  },
+  {
+   "s": "B",
+   "t": "So for someone holding an all-world tracker and global bonds — diversification's doing less than the record suggests."
+  },
+  {
+   "s": "A",
+   "t": "Less than it looks. Gold's near a record, about four thousand three hundred and ninety dollars, doing the hedge job. Bitcoin's soft, under sixty-four thousand — a firm dollar and high real yields cap it. The regime's one phrase: higher-for-longer, dollar-bid."
+  },
+  {
+   "s": "B",
+   "t": "And to be clear — this is explanation, not advice."
+  },
+  {
+   "s": "A",
+   "t": "Always. We explain the weather. We don't tell you what to wear."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay. Singapore. There was a big one at home."
+  },
+  {
+   "s": "A",
+   "t": "The Workers' Party chief, Pritam Singh, was struck off the roll of lawyers on Thursday. The Court of Three Judges — the profession's highest tribunal. Costs of five thousand, eight hundred and eight dollars."
+  },
+  {
+   "s": "B",
+   "t": "That ends his legal career. Does it end anything else?"
+  },
+  {
+   "s": "A",
+   "t": "That's the whole point — no. Being struck off as a lawyer doesn't vacate a parliamentary seat. He keeps his seat, he keeps the party. It's the automatic consequence of a conviction already litigated last year."
+  },
+  {
+   "s": "B",
+   "t": "So it's symbolic."
+  },
+  {
+   "s": "A",
+   "t": "A symbol with limited leverage. No by-election, no vacancy. The risk is atmospheric — an establishment-versus-opposition mood hardening before the National Day Rally on the twenty-third."
+  },
+  {
+   "s": "B",
+   "t": "And property? You said there was a number that reads two ways."
+  },
+  {
+   "s": "A",
+   "t": "One number, two stories. A waterfront plot at Berlayar Drive set a record land price — one thousand, five hundred and fifteen dollars a square foot. From a single bidder."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] A record set by one guy showing up?"
+  },
+  {
+   "s": "A",
+   "t": "Four to six were expected. One turned up. Read it against a quarterly price index barely positive — up half a per cent, all of it landed homes — and June developer sales at a two-year low. It's a two-speed market: scarce trophy land holding the headline up, the mass market cooling underneath."
+  },
+  {
+   "s": "B",
+   "t": "So if you own, you're not riding a wave."
+  },
+  {
+   "s": "A",
+   "t": "You're watching a split. Not advice — but the July sales print, due around the fifteenth, is the tell."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Right, technology — my corner. The free frontier model."
+  },
+  {
+   "s": "A",
+   "t": "Alibaba posted the weights of Qwen three-point-eight Max. Two-point-four trillion parameters. Anyone can download it."
+  },
+  {
+   "s": "B",
+   "t": "That's genuinely huge. So what's the catch — there's always a catch."
+  },
+  {
+   "s": "A",
+   "t": "The licence. It's a custom, revenue-share licence — not the open Apache terms of before. And one developer read the terms as barring users in the United States, the European Union, Britain and Korea from even downloading it."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] An open model you're not allowed to open."
+  },
+  {
+   "s": "A",
+   "t": "The New Stack called it an API business model wearing an open-source jacket. That reading's disputed and untested — but note, Singapore isn't on the list. A lab here is, on that reading, in the clear."
+  },
+  {
+   "s": "B",
+   "t": "And the bigger picture — this is the chip-war thing, isn't it?"
+  },
+  {
+   "s": "A",
+   "t": "It is. Washington's now reviewing how Chinese firms rent cutting-edge Nvidia compute offshore. The through-line: export controls slowed the hardware, so the answer was to give the software away as weights."
+  },
+  {
+   "s": "B",
+   "t": "So can I actually run the two-point-four-trillion thing at home?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] No. Not at any size. But the sibling — a dense twenty-seven-billion model — lands this weekend, on a countdown to Friday. That one fits a single card."
+  },
+  {
+   "s": "B",
+   "t": "A single five-oh-nine-zero."
+  },
+  {
+   "s": "A",
+   "t": "At eight-bit, about twenty-nine gigabytes — the first single consumer card that runs a model that size at that precision. On two cards, you run it full-precision. But — no spec sheet yet, no benchmarks. It's a countdown, not a review."
+  },
+  {
+   "s": "B",
+   "t": "So pull it and test it yourself. Don't rebuild the rig on a promise."
+  },
+  {
+   "s": "A",
+   "t": "That's the discipline."
+  },
+  {
+   "s": "B",
+   "t": "And gadgets? The Kit?"
+  },
+  {
+   "s": "A",
+   "t": "Two eight-K three-sixty cameras, launched in the same week, cancelling each other out. DJI put the Osmo three-sixty two on stage on Thursday — better on paper. Higher frame rate, replaceable lenses, bigger battery."
+  },
+  {
+   "s": "B",
+   "t": "So buy the DJI."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] With what price? They announced no price. In any market. Not even China. And it may skip American shelves over a regulatory issue."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The better camera is the one you can't buy."
+  },
+  {
+   "s": "A",
+   "t": "The rival, Insta three-sixty's X-six, is on sale now at six hundred and ninety-nine dollars, ninety-nine cents. It's the only one shipping. But we're holding our verdict for the lab bench, around the twenty-sixth."
+  },
+  {
+   "s": "B",
+   "t": "Wait for the numbers. Got it. [pause] Okay. It's time, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "[wry] It's time."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every week with this."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And it's a good one. Pirate radio. Which, funny enough, has an anniversary this very weekend."
+  },
+  {
+   "s": "A",
+   "t": "It does. At the midnight turn of the fourteenth into the fifteenth of August, nineteen sixty-seven — fifty-nine years ago — Britain's Marine Broadcasting Offences Act came into force, and a boatload of disc jockeys anchored in international waters legally became criminals."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Anchored in international waters. Tell me everything."
+  },
+  {
+   "s": "A",
+   "t": "Last week we followed the shortwave listener. This is the same wire from the other end — the act of transmitting. And here's the whole story in one line: pressing receive is legal everywhere. Pressing transmit is a crime almost everywhere."
+  },
+  {
+   "s": "B",
+   "t": "So why do people do it?"
+  },
+  {
+   "s": "A",
+   "t": "The romantic engine, everywhere, is a community the licensed dial ignores. In nineteen sixties Britain, it was pop music the BBC wouldn't play. Radio Caroline launched in nineteen sixty-four off the Essex coast — first record, the Beatles, Can't Buy Me Love."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course it was."
+  },
+  {
+   "s": "A",
+   "t": "And here's the beautiful part. Caroline still broadcasts today — fully legal now, on the medium-wave, from a ship called the Ross Revenge. That ship is on our cover."
+  },
+  {
+   "s": "B",
+   "t": "Outlaw ship to licensed heritage broadcaster, same hull. [pause] But it's not all romance, is it."
+  },
+  {
+   "s": "A",
+   "t": "It isn't. And this is the fact that punctures it. The reason states hunt these stations isn't the music. It's interference. Pirate signals bleed onto safety-of-life bands — there are documented cases of an unlicensed station interfering with an air-traffic control frequency."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Planes."
+  },
+  {
+   "s": "A",
+   "t": "Planes. So regulators send direction-finding vans to triangulate a transmitter. In America, the twenty-twenty PIRATE Act pushed the maximum fine, with inflation, to two point four five million dollars."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Two and a half million. For a radio station in a bedroom."
+  },
+  {
+   "s": "A",
+   "t": "They now fine the landlords too. And the community itself is split. There are the log-keepers — meticulous, watch-don't-touch — and the free-radio activists, who see it as a civil right. Some of the most sympathetic stations are in Brooklyn, broadcasting in Haitian Creole to immigrants the commercial dial priced out."
+  },
+  {
+   "s": "B",
+   "t": "So there the enforcement looks less like protecting a runway and more like policing the poor."
+  },
+  {
+   "s": "A",
+   "t": "Both are true at once. That's the honest tension. And here's the deflating punchline, Theo, since you love the romance."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Go on."
+  },
+  {
+   "s": "A",
+   "t": "In twenty twenty-six, a stream reaches more people than any transmitter. Caroline's crime in nineteen sixty-four was that there was no other way to be heard. Today, a Discord and an audio stream reach further, everywhere, legally. The transmitter is now the least effective way to do the thing pirates actually care about."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] You've just told me the romance is obsolete."
+  },
+  {
+   "s": "A",
+   "t": "I've told you the itch has a legal scratch. Community low-power licences. Ham radio. A stream. Admire the cathedral — don't light the match."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a good line. Alright — and you get to pick the next descent. Astronomy, fountain pens, or coral reef aquariums."
+  },
+  {
+   "s": "A",
+   "t": "Vote on your dashboard. Now — the fast stuff, then the close."
+  },
+  {
+   "s": "B",
+   "t": "Culture. The movies had a record."
+  },
+  {
+   "s": "A",
+   "t": "The biggest box-office summer ever — the American domestic total crossed four billion dollars. Driven by a record Spider-Man opening, about three hundred and sixty million, and Nolan's Odyssey."
+  },
+  {
+   "s": "B",
+   "t": "So cinema's back."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Read the ticket price first. That record leans on record-high ticket prices and premium-format surcharges — nominal dollars, not seats sold. A strong season, not a historic surge."
+  },
+  {
+   "s": "B",
+   "t": "The asterisk. And on the good-life side — speakers?"
+  },
+  {
+   "s": "A",
+   "t": "Bowers and Wilkins redrew its eight hundred series at sixty — the first full redesign since twenty twenty-one. On sale the ninth of September, from fifteen thousand dollars to sixty-five thousand a pair."
+  },
+  {
+   "s": "B",
+   "t": "Sixty-five thousand. [exhales] And is it worth it?"
+  },
+  {
+   "s": "A",
+   "t": "The measurement crowd says the room and the placement matter more than the badge, and the resale is soft. The honest note for a buy-once buyer: demo it in your own room before you fall for the top of the range."
+  },
+  {
+   "s": "B",
+   "t": "Two quick ones for the household. Kids and the body."
+  },
+  {
+   "s": "A",
+   "t": "The family desk: girls quit sport at exactly the tween years — eleven to thirteen — and reaching puberty predicts dropping the individual sports especially. The fix isn't a pep talk. It's keeping her in a team, where the social scaffolding survives the self-consciousness."
+  },
+  {
+   "s": "B",
+   "t": "Keep her in the team. And the skincare panic?"
+  },
+  {
+   "s": "A",
+   "t": "The Sephora-kids study is a hundred videos, not a hundred children. The real risk is a narrow band of harsh ingredients. The boring, evidence-backed answer: a cleanser, a moisturiser, and sunscreen. Only about a quarter of those routines used sunscreen."
+  },
+  {
+   "s": "B",
+   "t": "And fitness — the number I should update?"
+  },
+  {
+   "s": "A",
+   "t": "Protein. The old figure, zero point eight grams per kilo, was set for a sedentary adult. Past forty, when you're losing about a per cent of muscle a year, the target's nearer one to one point two grams per kilo — with two lifting sessions a week. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Lift twice, eat the protein. [pause] Okay. Take us down slow. The Undercurrent."
+  },
+  {
+   "s": "A",
+   "t": "One more for the diary, because the calendar's filling. October in Singapore is a single crowded fortnight — the Formula One weekend adds its first-ever Saturday sprint, and several ticket categories are already sold out."
+  },
+  {
+   "s": "B",
+   "t": "[excited] A sprint at the night race. That's worth planning a weekend around."
+  },
+  {
+   "s": "A",
+   "t": "And book the flights for a Japanese autumn — Ghibli Park's adding Porco Rosso's seaplane from November. But the opening to actually book at home is a restaurant: Assaggi, on Neil Road."
+  },
+  {
+   "s": "B",
+   "t": "Sell me on it."
+  },
+  {
+   "s": "A",
+   "t": "It's the casual sibling to a one-Michelin-star kitchen — the same chef, a set-menu lunch at fifty-eight dollars. A Michelin kitchen at a lunch price. The food desks are, for once, unanimous. Go on a weekday, before the internet finishes discovering it."
+  },
+  {
+   "s": "B",
+   "t": "[amused] A weekday lunch. Noted. Alright — take us down slow."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] India. And it arrived, as these things do, in a funding note. An app called Astrotalk — where you pay to speak, live, by the minute, to one of forty-five thousand astrologers — just crossed a one-billion-dollar valuation. India's newest unicorn."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Astrology. As a billion-dollar business."
+  },
+  {
+   "s": "A",
+   "t": "Forty million users. A market projected to grow from about a hundred and sixty-three million dollars to one point eight billion by twenty thirty. And follow the money to what it's really buying."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "Reassurance. Sixty per cent of the questions are about love and relationships. Queries about whether artificial intelligence will take your job rose about half in a year. This is a generation staring down a tightening job market, delayed marriage, urban loneliness."
+  },
+  {
+   "s": "B",
+   "t": "And there's no-one else to ask."
+  },
+  {
+   "s": "A",
+   "t": "That's the argument. India has roughly zero point seven five psychiatrists per hundred thousand people, against a benchmark near three. An eighty-five per cent treatment gap. Nearly two hundred million people who need care and mostly don't get it."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] So the market is building the thing the state never did."
+  },
+  {
+   "s": "A",
+   "t": "A voice on the line at ten rupees a minute that never puts you on a six-month waitlist. The apps read less like entertainment and more like infrastructure. And the deeper signal — the old idea that a country secularises as it modernises looks simply wrong here. India isn't losing its faith to the smartphone. It's platformising it. Floating a loneliness on the stock exchange."
+  },
+  {
+   "s": "B",
+   "t": "That's a haunting sentence."
+  },
+  {
+   "s": "A",
+   "t": "And a precarious business. The regulator is already forcing disclaimers; most users say they doubt the accuracy; and the fastest-growing line is selling remedies — gemstones — to the anxious. Growth built on distress comes with a regulator attached."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The stars didn't change. The business model did."
+  },
+  {
+   "s": "A",
+   "t": "And that's the thread of the whole issue. A stock index prints a record while the bond market says the opposite. A land price sets a record from a single bidder. And forty million people pay for a certainty no-one can honestly sell."
+  },
+  {
+   "s": "B",
+   "t": "So what's the reader supposed to hold onto?"
+  },
+  {
+   "s": "A",
+   "t": "Voltaire, on the contents page. Doubt is not a pleasant condition — but certainty is absurd. Prefer the honest doubt to the confident number."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Trust the antenna, not the volume."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

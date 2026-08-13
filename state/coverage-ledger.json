@@ -1,5 +1,5 @@
 {
-  "count": 446,
+  "count": 450,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1439,16 +1439,44 @@
     {
       "subject": "Spider-Man: Brand New Day",
       "type": "Film",
-      "last_covered": "No. 69",
-      "last_peg": "Screen delta (NOT re-led; covered 66/67/68) — cumulative ~US$1.67B WW as of 10 Aug (~$654M domestic), 2nd weekend ~$143M (among biggest ever); opening record settled/corrected No.67; 3rd weekend ahead",
-      "next_peg": "Next peg = final WW total or a milestone; do not re-cover."
+      "last_covered": "No. 72",
+      "last_peg": "Screen LEAD (milestone peg, not a re-run of the opening) — summer 2026 domestic box office crossed US$4bn (record), driven by Spidey's ~US$360m all-time opening + Nolan's Odyssey; widening critic-audience gap (RT 90 critics/98 audience, lowest of Holland's four) + ticket-price-inflation sceptic",
+      "next_peg": "Next peg = final season totals / awards run; played out — do not re-cover the film itself."
     },
     {
       "subject": "Qwen3.8-Max / Qwen3.8-27B",
       "type": "AI model (open weights)",
-      "last_covered": "No. 69",
-      "last_peg": "Tech delta (NOT re-led; Meta Glimmer led) — open weights + a permissive licence STILL unshipped at filing (wk of 10 Aug), QwenLM repos empty; API-only since 3 Aug",
-      "next_peg": "Next peg = weights + licence actually landing (grade 17 Aug). HELD. Prediction logged."
+      "last_covered": "No. 72",
+      "last_peg": "Technology LEAD — the held weights LANDED early: Qwen3.8-Max (2.4T MoE, ~95B active, 1M ctx, text-only) posted to Hugging Face ~12–13 Aug under a CUSTOM revenue-share licence (not Apache-2.0) reportedly barring US/EU/UK/Korea download (single-source, disputed); NVIDIA deploy blog 12 Aug; ties to Bloomberg 7 Aug US-reviewing-offshore-Nvidia-access. Home Lab: dense Qwen3.8-27B on a ModelScope countd",
+      "next_peg": "Next peg = the 27B actually landing + independent benchmarks/tok-s on a 5090; the licence tested. Prediction logged."
+    },
+    {
+      "subject": "DJI Osmo 360 II",
+      "type": "Product (camera)",
+      "last_covered": "No. 72",
+      "last_peg": "The Kit LEAD — unveiled 13 Aug 2026 (8K60 10-bit, replaceable lenses, 2,150mAh, 2-inch 800-nit screen, 4-mic); China-first, NO price in any market + possible US FCC block; framed a spec-winner-you-cannot-buy vs the shipping Insta360 X6 (US$699.99). Buy-once verdict = wait",
+      "next_peg": "Next peg = a price + global/SG date, or the first lab review. Prediction logged."
+    },
+    {
+      "subject": "Assaggi (Neil Road)",
+      "type": "Restaurant (SG opening)",
+      "last_covered": "No. 72",
+      "last_peg": "The Table — casual sibling to one-Michelin Buona Terra (Chef Denis Lucchi), opened 10 Aug; set-menu only, lunch S$58++ / dinner tasting S$88++; food-media uniformly warm (a Michelin kitchen at a lunch price); sceptic = set-menu-only/pasta-forward, 20-seat room",
+      "next_peg": "Next peg = first settled crowd reviews / a second outlet; rotate off next issue."
+    },
+    {
+      "subject": "Liora (Clarke Quay)",
+      "type": "Restaurant (SG opening)",
+      "last_covered": "No. 72",
+      "last_peg": "The Table — Korean-European under an ex-Burnt Ends chef; buzz nascent/preview-driven, pricing unconfirmed; flagged TOO NEW TO CALL",
+      "next_peg": "Next peg = a settled critical verdict."
+    },
+    {
+      "subject": "Charcoal Grill Shinpachi (NEX)",
+      "type": "Restaurant (SG opening)",
+      "last_covered": "No. 72",
+      "last_peg": "The Table — Japan's charcoal-grilled fish teishoku, mall-sited, family-friendly; opening 15 Aug; TOO NEW TO CALL (no reviews/pricing at filing)",
+      "next_peg": "Next peg = first reviews / pricing."
     },
     {
       "subject": "MiniMax H3 (open weights)",
@@ -2449,7 +2477,7 @@
       "type": "Developing (politics)",
       "last_covered": "No. 17",
       "last_peg": "Singapore LEAD/DELTA across Nos. 13, 16 & 17 (28 Jun cadres conference; account→step-down→secret ballot; Yee Jenn Jong's public backing, Goh Meng Seng's open letter, CEC's \"judgement calls\", Law Society→Court of Three Judges) — **SATURATED per editor**",
-      "next_peg": "Do NOT lead Singapore on this again unless a genuinely NEW peg (the 28 Jun outcome itself, a fresh CEC/legal development, or a resignation). Otherwise one-line delta at most, or omit."
+      "next_peg": "**No. 72 (Singapore LEAD):** REOPENED on a fresh legal development within the ruling's own escape clause — the Court of Three Judges struck Pritam Singh off the roll of advocates & solicitors (13 Aug 2026; S$5,808 costs; CJ Menon panel); framed as symbolic (livelihood gone, seat/party post intact). SATURATED again — do NOT lead absent another genuinely new peg (an appeal, a fresh conviction, or a "
     },
     {
       "subject": "Garmin Forerunner 70 / 170",
@@ -2769,9 +2797,9 @@
     {
       "subject": "Focal Diva Alta Utopia / B\\&W 800 Series Diamond D5",
       "type": "Product (audio)",
-      "last_covered": "No. 49",
-      "last_peg": "Good Life LEAD — Focal's US$210,000-a-pair wireless flagship and the 5th-gen B\\&W 800 (seven models, orders open 9 Sep) anchor a flagship audio season",
-      "next_peg": "Next peg = B\\&W 800 D5 shipping / reviews."
+      "last_covered": "No. 72",
+      "last_peg": "Good Life LEAD (B\\&W D5 re-covered on a new peg) — final pricing locked + on-sale 9 Sep + first-listen reviews landed: 7 models, 805 D5 fr US$15k to 801 D5 US$65k/pr, revised turbine-head diamond tweeter; What Hi-Fi positive, ASR-orbit sceptic (heritage premium/soft resale)",
+      "next_peg": "Next peg = independent measured reviews / SGD pricing; do not restate the range."
     },
     {
       "subject": "Bayshore Drive GLS (mixed-use, Bedok)",
