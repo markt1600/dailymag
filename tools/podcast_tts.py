@@ -13,7 +13,7 @@ keeping whole consecutive turns, then stitched with ffmpeg.
 Env (render mode): ELEVENLABS_API_KEY (required); ELEVEN_VOICE_A / ELEVEN_VOICE_B
 (voice IDs for hosts A/B; defaults: Rachel / George premades).
 """
-import json, os, re, subprocess, sys, time, urllib.request
+import json, os, re, shutil, subprocess, sys, time, urllib.request
 
 MAX_CHUNK = 1800
 MODEL = "eleven_v3"
@@ -131,16 +131,32 @@ def render(issue):
         parts.append(p)
         print(f"  part {i + 1}/{len(batches)} ({sum(len(t['t']) for t in b)} chars, "
               f"{len(audio) // 1024}kB)")
-    listing = "build/pod/list.txt"
-    with open(listing, "w") as f:
-        f.writelines(f"file '{os.path.abspath(p)}'\n" for p in parts)
     out = f"podcast/meridian-{issue}.mp3"
     os.makedirs("podcast", exist_ok=True)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
-                    "-i", listing, "-c:a", "libmp3lame", "-b:a", "128k", out], check=True)
-    dur = subprocess.run(["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
-                          "-of", "csv=p=0", out], capture_output=True, text=True).stdout.strip()
-    print(f"wrote {out} ({float(dur or 0) / 60:.1f} min)")
+    # Stitch the parts. Prefer ffmpeg (clean concat), but the parts are all the
+    # SAME ElevenLabs mp3 profile (44.1k / 128k CBR), so a raw byte-concat plays
+    # fine in every player — use it as the fallback when ffmpeg isn't on the
+    # runner (No. 71 rendered all 9 parts then died here on a missing ffmpeg).
+    stitched = False
+    if shutil.which("ffmpeg"):
+        listing = "build/pod/list.txt"
+        with open(listing, "w") as f:
+            f.writelines(f"file '{os.path.abspath(p)}'\n" for p in parts)
+        r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                            "-i", listing, "-c:a", "libmp3lame", "-b:a", "128k", out])
+        stitched = r.returncode == 0
+        if not stitched:
+            print("  ffmpeg concat failed — falling back to byte concat")
+    if not stitched:
+        with open(out, "wb") as o:
+            for p in parts:
+                with open(p, "rb") as f:
+                    o.write(f.read())
+        print("  stitched by byte-concat (no ffmpeg re-encode)")
+    size = os.path.getsize(out)
+    if size < 100_000:
+        raise SystemExit(f"stitched file suspiciously small ({size} bytes) — aborting")
+    print(f"wrote {out} ({size // 1024}kB from {len(parts)} parts)")
 
 
 if __name__ == "__main__":
