@@ -109,28 +109,44 @@ def tts(batch, voices, key, attempt=0):
         raise SystemExit(f"TTS failed after retries: {e} {detail}")
 
 
+def mock_silence(chars):
+    # A valid silent MPEG-1 Layer III frame: 44.1kHz, 128kbps, mono, no padding
+    # (frame length 417 bytes). Header FF FB 90 40, then zeroed side-info + data
+    # decodes as silence; players concatenate frames happily. Repeat to roughly
+    # match real timing (~15 chars/sec => 38.28 frames/sec).
+    frame = b"\xff\xfb\x90\x40" + b"\x00" * 413
+    seconds = max(2.0, chars / 15.0)
+    n = int(seconds * 44100 / 1152) + 1     # 1152 samples per MPEG1-L3 frame
+    return frame * n
+
+
 def render(issue):
     path = f"podcast/script-{issue}.json"
     if lint(path):
         raise SystemExit("script fails lint; fix before rendering")
     d, turns = load(path)
+    # MOCK MODE (PODCAST_MOCK=1): render SILENCE locally instead of calling
+    # ElevenLabs — proves the whole render->stitch->commit->player chain for
+    # ZERO credits. Voice quality is the only thing it can't test, and that's
+    # the only part already known to work.
+    mock = os.environ.get("PODCAST_MOCK", "").strip() in ("1", "true", "yes")
     key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
-    if not key:
+    if not key and not mock:
         raise SystemExit("ELEVENLABS_API_KEY not set")
     voices = {"A": os.environ.get("ELEVEN_VOICE_A", "").strip() or VOICE_DEFAULTS["A"],
               "B": os.environ.get("ELEVEN_VOICE_B", "").strip() or VOICE_DEFAULTS["B"]}
     batches = chunk(turns)
-    print(f"rendering {len(turns)} turns in {len(batches)} dialogue requests…")
+    print(f"{'MOCK-' if mock else ''}rendering {len(turns)} turns in {len(batches)} dialogue requests…")
     os.makedirs("build/pod", exist_ok=True)
     parts = []
     for i, b in enumerate(batches):
         p = f"build/pod/part-{i:03d}.mp3"
-        audio = tts(b, voices, key)
+        audio = mock_silence(sum(len(t["t"]) for t in b)) if mock else tts(b, voices, key)
         with open(p, "wb") as f:
             f.write(audio)
         parts.append(p)
-        print(f"  part {i + 1}/{len(batches)} ({sum(len(t['t']) for t in b)} chars, "
-              f"{len(audio) // 1024}kB)")
+        print(f"  {'MOCK ' if mock else ''}part {i + 1}/{len(batches)} "
+              f"({sum(len(t['t']) for t in b)} chars, {len(audio) // 1024}kB)")
     out = f"podcast/meridian-{issue}.mp3"
     os.makedirs("podcast", exist_ok=True)
     # Stitch the parts. Prefer ffmpeg (clean concat), but the parts are all the
