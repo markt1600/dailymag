@@ -1,5 +1,5 @@
 {
-  "count": 450,
+  "count": 456,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1448,7 +1448,7 @@
       "type": "AI model (open weights)",
       "last_covered": "No. 72",
       "last_peg": "Technology LEAD — the held weights LANDED early: Qwen3.8-Max (2.4T MoE, ~95B active, 1M ctx, text-only) posted to Hugging Face ~12–13 Aug under a CUSTOM revenue-share licence (not Apache-2.0) reportedly barring US/EU/UK/Korea download (single-source, disputed); NVIDIA deploy blog 12 Aug; ties to Bloomberg 7 Aug US-reviewing-offshore-Nvidia-access. Home Lab: dense Qwen3.8-27B on a ModelScope countd",
-      "next_peg": "Next peg = the 27B actually landing + independent benchmarks/tok-s on a 5090; the licence tested. Prediction logged."
+      "next_peg": "Next peg = independent (non-vendor) benchmarks/tok-s on a 5090. **No. 73 UPDATE: Qwen3.8-27B SHIPPED 14 Aug** — 27.78B DENSE (not MoE), Apache-2.0, multimodal, 262k ctx; single-5090 4-bit runs it (full ctx won't fit KV), beats Muse Glimmer on vendor benches. Prediction logged."
     },
     {
       "subject": "DJI Osmo 360 II",
@@ -1456,6 +1456,48 @@
       "last_covered": "No. 72",
       "last_peg": "The Kit LEAD — unveiled 13 Aug 2026 (8K60 10-bit, replaceable lenses, 2,150mAh, 2-inch 800-nit screen, 4-mic); China-first, NO price in any market + possible US FCC block; framed a spec-winner-you-cannot-buy vs the shipping Insta360 X6 (US$699.99). Buy-once verdict = wait",
       "next_peg": "Next peg = a price + global/SG date, or the first lab review. Prediction logged."
+    },
+    {
+      "subject": "Insta360 X6",
+      "type": "Product (camera)",
+      "last_covered": "No. 73",
+      "last_peg": "The Kit LEAD — SHIPPED 12 Aug at US$699/$769; dual 1/1.1-inch sensors, native 8K, 14.5 stops, 10-bit/Dolby Vision; near-unanimous reviews (\"king of 360 reclaims its crown,\" beats GoPro Max 2); negatives = price + buggy app; buy-once tension = annual X5->X6 cadence. Representative hero + no_image attestation",
+      "next_peg": "Next peg = MERIDIAN's own lab review (~26 Aug), then a firmware/price change or the X7. Prediction logged."
+    },
+    {
+      "subject": "Bang & Olufsen Beosystem 9000c x Fragment",
+      "type": "Product (audio object)",
+      "last_covered": "No. 73",
+      "last_peg": "The Good Life LEAD — Hiroshi Fujiwara/Fragment reissue of the David Lewis 1990s Beosystem 9000 CD player in black anodised aluminium + Beolab 28; €60,000/~US$69,650 made-to-order; Tokyo-first (Isetan Shinjuku late May), global June; object-as-consolation; sceptic = \"a $55-70k CD system\" premium for a refurbished 90s transport + black finish + logo; resale unknown (made-to-order, region-limited). R",
+      "next_peg": "Next peg = a resale/availability read or a line extension; not a re-run without one."
+    },
+    {
+      "subject": "Phoebe Bridgers — Lost Weekend",
+      "type": "Music release",
+      "last_covered": "No. 73",
+      "last_peg": "Screen & Sound LEAD — released Fri 14 Aug (Dead Oceans); first album since Punisher (2020); Metacritic ~91, 92 critic / 88 listener; \"most confident/cohesive\" record; sceptic = \"cruises past familiar territory,\" 16 tracks feels sprawling; first-week chart too-new-to-call. Prediction logged (chart)",
+      "next_peg": "Next peg = the first-week Billboard 200 print, then CLOSED bar a chart record."
+    },
+    {
+      "subject": "The End of Oak Street",
+      "type": "Film",
+      "last_covered": "No. 73",
+      "last_peg": "Screen & Sound — opened 14 Aug (dir David Robert Mitchell, prod J.J. Abrams; Hathaway/McGregor); 1980s-suburb-meets-dinosaurs; RT ~89% early (45 reviews), \"best dinosaur film since Jurassic Park\" (low, nostalgia-loaded bar); opening ~US$18-23m; sceptic = early/volatile score. Prediction logged (audience-score hold)",
+      "next_peg": "Next peg = the opening-weekend gross + whether the audience score survives the wide release, then delta or CLOSED."
+    },
+    {
+      "subject": "Japan tax-free reform (refund-on-departure)",
+      "type": "Travel (entry/tax rules)",
+      "last_covered": "No. 73",
+      "last_peg": "Travel Desk / Departures — from 1 Nov 2026 tax-free shopping flips from duty-free-at-the-till to \"pay the full 10%, claim an airport refund within 90 days\"; sealed-packaging + consumables rules scrapped; the buy-once shopper's read = more cash float + airport refund time. Paired delta: nationwide JR passes +5-6% from 1 Oct",
+      "next_peg": "Developing/dated — track the 1 Nov switch actually landing; prediction logged (No. 66/53)."
+    },
+    {
+      "subject": "The Table — No. 73 slate (Liora / Jing Studio / Katsu by Kyu / POP Bakery / Xava)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 73",
+      "last_peg": "The Table — five new SG openings, all pre-review (\"too new to call\"): Liora (Clarke Quay, Korean-via-modern-Euro woodfire), Jing Studio (House of Tan Yeok Nee, 8-seat Chinese tea bar, teas from S$7), Katsu by Kyu (OUE Downtown, Jeju pork tonkatsu, 10-day dry-aged), POP Bakery (Resorts World Sentosa, POP MART's first cafe outside China), Xava Skybar (National Gallery rooftop)",
+      "next_peg": "Next peg = settled crowd reviews (~2 weeks) for a verdict; rotate off unless one earns an accolade."
     },
     {
       "subject": "Assaggi (Neil Road)",

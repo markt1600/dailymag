@@ -49,14 +49,14 @@
       "hobby": "Pirate radio (running a station)",
       "issue": "72",
       "angle": "The outlaw airwaves as CULTURE/HISTORY/LAW, not a how-to — the transmitting counterpart to No.71's SWL; anniversary hook (Marine Broadcasting Offences Act in force 14–15 Aug 1967); heritage (Radio Luxembourg \"208\"; Radio Caroline 1964→MV Fredericia→today legal on 648kHz AM from MV Ross Revenge; BBC "
+    },
+    {
+      "hobby": "Astronomy (the telescope world)",
+      "issue": "73",
+      "angle": "The visual-observing craft as a collector's guild — the Saturn/Moon-terminator \"first light\" gateway; ~1M amateurs and a flat ~$1.27bn market where used premium glass barely depreciates; Cloudy Nights (190k)/r-telescopes' \"10x50 binoculars then an 8-inch Dobsonian\" catechism and the department-store"
     }
   ],
   "queued": [
-    {
-      "hobby": "Astronomy — the telescope world",
-      "order": "10",
-      "focus": "The glass ladder, visual-first (imaging stays reserved for a future astrophotography descent). MUST cover the brand **Astro-Physics** properly — Roland Christen's apochromatic refractors and mounts, the notify-list/waitlist culture, why used AP glass (Stowaway, 130GTX) holds or gains value, Mach2GTO — alongside the Takahashi/Tele Vue/Questar heritage tier; the honest beginner path (10x50 binoculars → the r/telescopes 8-inch-Dobsonian catechism → tracking mounts); eyepieces as their own rabbit ho"
-    },
     {
       "hobby": "Card collecting — Pokémon & baseball",
       "order": "11",
@@ -185,6 +185,12 @@
       "category": "Sport / mental",
       "communities": "r/Cubers, SpeedSolving forum, WCA competition culture, cubing YouTube (J Perm)",
       "fit": "Algorithm culture + hardware arms race (magnetic cubes); kid-shareable"
+    },
+    {
+      "hobby": "Astrophotography",
+      "category": "Nature / tech",
+      "communities": "r/AskAstrophotography, Cloudy Nights, AstroBin, smart-telescope wave (Seestar/Dwarf)",
+      "fit": "The imaging counterpart to No.73's visual-first telescope descent — deliberately reserved as its own future rabbit hole (stacking, guiding, processing, the smart-scope democratisation)"
     }
   ]
 }
