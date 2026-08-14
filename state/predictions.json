@@ -22,7 +22,8 @@
    "desk": "Macro",
    "claim": "Regime call: higher-for-longer, oil-driven inflation bid, firm dollar persists",
    "check_by": "2026-08-15",
-   "outcome": null
+   "outcome": "push",
+   "result": "Half-right: higher-for-longer held, but the oil-driven inflation bid unwound (July CPI 3.4%) and the dollar never firmed (DXY ~99.8, well short of the firm-dollar call). Graded No. 73."
   },
   {
    "issue": 51,
@@ -244,7 +245,8 @@
    "desk": "The Macro Desk",
    "claim": "Brent stays below US$95 through mid-August as the Gulf war-premium stays unwound",
    "check_by": "2026-08-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Brent held ~$87-91 through mid-Aug and never sustained above $95 — the Gulf war-premium stayed unwound. Graded No. 73."
   },
   {
    "issue": 55,
@@ -385,7 +387,8 @@
    "desk": "Curiosities",
    "claim": "Perseids 12-13 Aug 2026 deliver the best viewing in years on a New Moon (~100/hr under dark skies)",
    "check_by": "2026-08-14",
-   "outcome": null
+   "outcome": "push",
+   "result": "Split: conditions WERE the best in years (New Moon 12 Aug, no lunar washout — a pairing that won't recur until 2045), but observed rates ran ~50-75/hr, not ~100, in a Jupiter-thinned year. Graded No. 73."
   },
   {
    "issue": 57,
@@ -457,7 +460,8 @@
    "desk": "Curiosities",
    "claim": "Perseids 12-13 Aug 2026 under-deliver relative to the 'best in years' hype — closer to the AMS ~50-75/hr caution than NASA's ~100/hr ceiling",
    "check_by": "2026-08-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "HIT. Observed rates landed at the AMS ~50-75/hr caution, below the ~100 'best in years' hype; the IMO had flagged a below-average 2026 background. Graded No. 73."
   },
   {
    "issue": 58,
@@ -500,7 +504,8 @@
    "desk": "Screen & Sound",
    "claim": "Ariana Grande's 'petal' debuts at No. 1 on the Billboard 200",
    "check_by": "2026-08-12",
-   "outcome": null
+   "outcome": "right",
+   "result": "'petal' debuted at No. 1 on the Billboard 200 (~295k units) — Grande's 7th chart-topper and best week of the decade. Graded No. 73."
   },
   {
    "issue": 59,
@@ -626,7 +631,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day second-weekend drop comes in under ~55% (legs, not front-loaded hype)",
    "check_by": "2026-08-10",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS. Spider-Man fell ~60% ($360.1M->$143M+), a heavier 2nd-weekend drop than the 'legs' call — though still the 3rd-biggest sophomore frame ever. Graded No. 73."
   },
   {
    "issue": 61,
@@ -705,14 +711,16 @@
    "desk": "Property",
    "claim": "Berlayar Drive GLS tender (closed 4 Aug noon) draws between 4 and 7 bids at a top bid in the ~S$1,100–1,450 psf ppr band the analysts predicted",
    "check_by": "2026-08-11",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS on both prongs. Berlayar drew exactly ONE bid, at S$1,515 psf ppr — above the ~S$1,100-1,450 band we set. Graded No. 73."
   },
   {
    "issue": 62,
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day's second-weekend (8–10 Aug) domestic drop is under 55% (legs, not front-loading)",
    "check_by": "2026-08-11",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS. ~60% 2nd-weekend drop (we bet the under across several issues; this side lost). Graded No. 73."
   },
   {
    "issue": 62,
@@ -797,7 +805,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day holds #1 at the domestic box office in its second weekend (8-10 Aug)",
    "check_by": "2026-08-11",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spider-Man held #1 in weekend two with $143M+. Graded No. 73."
   },
   {
    "issue": 63,
@@ -818,7 +827,8 @@
    "desk": "The Diary",
    "claim": "Aki Basho (Sep) good seats sell out on or near the 8 Aug ticket release",
    "check_by": "2026-08-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Aki Basho tickets opened 8 Aug; Tokyo weekend and final-day seats cleared within hours, per Ryogoku's reliable sell-out pattern. Graded No. 73."
   },
   {
    "issue": 64,
@@ -833,7 +843,8 @@
    "desk": "Macro",
    "claim": "US July CPI (12 Aug) ratifies the disinflation trade — no material upside inflation surprise",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "July CPI printed 3.4% headline, in line — no upside surprise; the disinflation trade held. Graded No. 73."
   },
   {
    "issue": 64,
@@ -868,7 +879,8 @@
    "desk": "Screen",
    "claim": "Spider-Man: Brand New Day posts a heavy 2nd-weekend drop (>55%) typical of a front-loaded blockbuster",
    "check_by": "2026-08-11",
-   "outcome": null
+   "outcome": "right",
+   "result": "HIT. ~60% drop — the front-loaded read was correct. (We bet both directions across issues; this side won.) Graded No. 73."
   },
   {
    "issue": 64,
@@ -882,7 +894,8 @@
    "desk": "Diary",
    "claim": "Aki Basho (Sep) good/box seats sell out within hours of the 8 Aug on-sale",
    "check_by": "2026-08-09",
-   "outcome": null
+   "outcome": "right",
+   "result": "Aki Basho opened 8 Aug; weekend/final-day seats gone within hours. Graded No. 73."
   },
   {
    "issue": 65,
@@ -897,7 +910,8 @@
    "desk": "The Macro Desk",
    "claim": "US July CPI (12 Aug) ratifies rather than breaks the disinflation trade",
    "check_by": "2026-08-12",
-   "outcome": null
+   "outcome": "right",
+   "result": "July CPI 3.4% headline, in line — disinflation trade ratified, no hot upside surprise. Graded No. 73."
   },
   {
    "issue": 65,
@@ -953,7 +967,8 @@
    "desk": "The Diary",
    "claim": "Aki Basho tickets on sale 8 Aug; good seats gone by nightfall",
    "check_by": "2026-08-09",
-   "outcome": null
+   "outcome": "right",
+   "result": "Aki Basho on-sale 8 Aug; prime seats cleared same day. Graded No. 73."
   },
   {
    "issue": 65,
@@ -974,7 +989,8 @@
    "desk": "The Macro Desk",
    "claim": "US July CPI (12 Aug) does NOT deliver a hot upside surprise that reverses the post-payrolls dovish repricing",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "July CPI 3.4% headline, in line — disinflation trade ratified, no hot upside surprise. Graded No. 73."
   },
   {
    "issue": 66,
@@ -1100,7 +1116,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day's second weekend (8-10 Aug) lands among the top three second weekends ever domestically (~$143M projected)",
    "check_by": "2026-08-12",
-   "outcome": null
+   "outcome": "right",
+   "result": "$143M+ — the 3rd-best 2nd weekend of all time, behind only The Force Awakens and Endgame. Graded No. 73."
   },
   {
    "issue": 68,
@@ -1149,7 +1166,8 @@
    "desk": "The Kit",
    "claim": "Insta360 X6 pre-orders open 12 Aug 2026 at roughly the leaked ~€689 entry price",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "X6 on sale 12 Aug at US$699/$769 (~EUR689 entry). Graded No. 73."
   },
   {
    "issue": 68,
@@ -1170,7 +1188,8 @@
    "desk": "Macro",
    "claim": "US July CPI (12 Aug) prints near the tame consensus — headline ~+0.1% m/m / 3.4% y/y, core ~+0.3% m/m / 2.5% y/y",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "July CPI 3.4% headline, in line — disinflation trade ratified, no hot upside surprise. Graded No. 73."
   },
   {
    "issue": 69,
@@ -1205,7 +1224,8 @@
    "desk": "The Kit",
    "claim": "Insta360 X6 goes on sale 12 Aug at US$699/$769 as reported",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "Insta360 X6 shipped 12 Aug at US$699/$769 as reported. Graded No. 73."
   },
   {
    "issue": 69,
@@ -1233,7 +1253,8 @@
    "desk": "Macro",
    "claim": "US July CPI (due 12 Aug, 20:30 SGT) prints near consensus; an oil-led hot surprise would firm the dollar/10Y and pressure gold",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "July CPI 3.4% headline, in line — disinflation trade ratified, no hot upside surprise. Graded No. 73."
   },
   {
    "issue": 70,
@@ -1394,6 +1415,97 @@
    "desk": "Property",
    "claim": "Berlayar Drive's eventual launch prices near S$2,600-2,900 psf",
    "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Macro",
+   "claim": "The Fed holds (no hike) at the September FOMC; funds stay 3.50-3.75%",
+   "check_by": "2026-09-18",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Macro",
+   "claim": "Regime: higher-for-longer holds; the 30Y stays near multi-decade-expensive and the 10Y stays elevated (~4.5%+) through end-Aug",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Macro",
+   "claim": "Gold holds its bid above US$4,000/oz through end-August on the debasement/central-bank trade",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Technology",
+   "claim": "Independent (non-vendor) evals of Qwen3.8-27B land and hold it ahead of Muse Glimmer 30B on the agentic/coding tests",
+   "check_by": "2026-08-28",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "The Kit",
+   "claim": "Insta360 X6 independent lab reviews confirm best-in-class 360 image quality (beating GoPro Max 2), with the buggy launch app the main knock",
+   "check_by": "2026-08-31",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "The Kit",
+   "claim": "DJI Osmo 360 II gets a confirmed global/SG price and date",
+   "check_by": "2026-09-30",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Singapore",
+   "claim": "The 23 Aug National Day Rally delivers concrete family/cost-of-living support with figures attached (recurring/structural), not a deferral to Budget 2027",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Singapore",
+   "claim": "The enhanced cost-of-living payment (S$400-600) pays its first wave on 9 Sep to PayNow-NRIC-linked citizens",
+   "check_by": "2026-09-10",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Property",
+   "claim": "New Upper Changi Road GLS (closes 1 Sep) draws a competitive multi-bid field, unlike Berlayar's lone bid",
+   "check_by": "2026-09-02",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Screen & Sound",
+   "claim": "Phoebe Bridgers' Lost Weekend user/listener aggregate settles a touch below the ~91 critic score (a modest critic-vs-listener gap), not a chasm",
+   "check_by": "2026-08-28",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "Screen & Sound",
+   "claim": "The End of Oak Street opens ~US$18-23m domestically and its audience score holds broadly with the ~89% early critic read as it widens",
+   "check_by": "2026-08-24",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "The Long Read",
+   "claim": "No Western major (NYT/BBC/Reuters/FT) runs a feature JOINING China's demographic decline to the emotional-economy/guzi boom within ~3 weeks",
+   "check_by": "2026-09-06",
+   "outcome": null
+  },
+  {
+   "issue": 73,
+   "desk": "The Travel Desk",
+   "claim": "Japan replaces instant point-of-sale tax exemption with refund-at-departure on 1 Nov 2026 as scheduled",
+   "check_by": "2026-11-05",
    "outcome": null
   }
  ]
