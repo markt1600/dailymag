@@ -577,6 +577,50 @@
   {
    "slug": "sg-supreme-court-72",
    "file": "Former Supreme Court Singapore.jpg"
+  },
+  {
+   "slug": "cover-725",
+   "url": "https://images.pexels.com/photos/5474288/pexels-photo-5474288.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "threat-725",
+   "url": "https://images.pexels.com/photos/5934213/pexels-photo-5934213.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "windows-725",
+   "url": "https://images.pexels.com/photos/33693785/pexels-photo-33693785.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "wsl-725",
+   "url": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "macos-725",
+   "url": "https://images.pexels.com/photos/265072/pexels-photo-265072.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "yubikey-725",
+   "file": "YubiKey.jpg"
+  },
+  {
+   "slug": "router-725",
+   "url": "https://images.pexels.com/photos/32698507/pexels-photo-32698507.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "nas-725",
+   "url": "https://images.pexels.com/photos/5203849/pexels-photo-5203849.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "family-725",
+   "url": "https://images.pexels.com/photos/4145078/pexels-photo-4145078.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+   "slug": "singapore-725",
+   "file": "Singapore Marina Bay Dusk 2018-02-27.jpg"
+  },
+  {
+   "slug": "freshpeg-725",
+   "url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1600"
   }
  ],
  "_fetch_rev": 15,
@@ -597,5 +641,6 @@
  "_retrigger16": "No.70.5: leach-pottery-705 landed; retry raku-kiln-705/jingdezhen-zhushan-705/jingdezhen-dish-705/moonjar-705/celadon-705 once more 2026-08-12",
  "_retrigger17": "No.71 heroes: swl-dial-71(cover/RabbitHole), plush-hold-71(Undercurrent), zelensky-71(World), tecsun-pl606-71(RabbitHole gear) 2026-08-13",
  "_retrigger18": "No.71.5 special (Shortwave radio SWL): cover-715,longwave-715,community-715,ladder-715,ceiling-715,cutting-715,antenna-715,sgdial-715,firstyear-715,longread-715",
- "_retrigger19": "No.71.5 retry ladder-715(pexels circuit)/ceiling-715(pexels stereos)/sgdial-715(alt Commons filename Sim Lim Tower.JPG) 2026-08-13"
+ "_retrigger19": "No.71.5 retry ladder-715(pexels circuit)/ceiling-715(pexels stereos)/sgdial-715(alt Commons filename Sim Lim Tower.JPG) 2026-08-13",
+ "_retrigger20": "No.72.5 special (Home cybersecurity): cover-725,threat-725,windows-725,wsl-725,macos-725,yubikey-725,router-725,nas-725,family-725,singapore-725,freshpeg-725"
 }
