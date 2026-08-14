@@ -1,20 +1,16 @@
 # Render The Meridian Briefing — the daily ~20-minute podcast.
 #
-# Fires automatically when an edition lands on main (status.json push), so
-# the episode is ready by reading time; the 🎙 bar on the Photo Edition (via
-# marktan.ai/api/deliver {type:'podcast'}) and the Actions tab re-render on
-# demand (force=true). Reads podcast/script-NN.json (written by the nightly
-# build), renders via ElevenLabs Text-to-Dialogue (Eleven v3), commits
-# podcast/meridian-NN.mp3. Skips gracefully (green, no-op) while the
-# ELEVENLABS_API_KEY secret or the script is missing.
+# ON-DEMAND ONLY (reader's choice — each render spends ElevenLabs credits):
+# fired from the 🎙 bar on the Photo Edition (via marktan.ai/api/deliver
+# {type:'podcast'}) or manually from the Actions tab (force=true re-renders).
+# Reads podcast/script-NN.json (written free by the nightly build), renders
+# via ElevenLabs Text-to-Dialogue (Eleven v3), commits podcast/meridian-NN.mp3.
+# Skips gracefully while the ELEVENLABS_API_KEY secret or script is missing.
 # Requires the ELEVENLABS_API_KEY repo secret. Voice casting can be overridden
 # with ELEVEN_VOICE_A / ELEVEN_VOICE_B repo variables.
 name: Generate podcast episode
 
 on:
-  push:
-    branches: [main]
-    paths: ["status.json"]
   workflow_dispatch:
     inputs:
       issue:
