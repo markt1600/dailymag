@@ -21,7 +21,8 @@ import re, json, pathlib
 md = pathlib.Path("meridian-brand-prompt.md").read_text()
 for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
             "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
-            "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md"):
+            "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md",
+            "ledgers/atelier-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -121,6 +122,36 @@ for _hm in re.finditer(r"(?m)^## HOBBY LEDGER\s*$", md):
                          for c in _rows if len(c) >= 4]
 (state / "hobby-ledger.json").write_text(json.dumps(
     {"covered": hob_cov, "queued": hob_queue, "pipeline": hob_pipe}, indent=2, ensure_ascii=False))
+
+# ---- Atelier Ledger (The Atelier — one purchase category per edition).
+# Same subsection shape as the hobby ledger. ----
+at_cov, at_queue, at_pipe = [], [], []
+for _am in re.finditer(r"(?m)^## ATELIER LEDGER\s*$", md):
+    _aend = md.find("\n## ", _am.end())
+    _ablock = md[_am.start(): _aend if _aend != -1 else len(md)]
+    for _sub in re.split(r"(?m)^### ", _ablock)[1:]:
+        _rows = []
+        for line in _sub.splitlines()[1:]:
+            s = line.strip()
+            if not s.startswith("|"):
+                continue
+            cells = [c.strip() for c in s.strip("|").split("|")]
+            if all(set(c) <= {"-", ":", " "} for c in cells) or cells[0] == "Category":
+                continue
+            _rows.append(cells)
+        _title = _sub.splitlines()[0].lower()
+        if _title.startswith("covered"):
+            at_cov += [{"category": c[0].strip("*"), "issue": c[1], "angle": c[2][:300]}
+                       for c in _rows if len(c) >= 3]
+        elif _title.startswith("queued"):
+            at_queue += [{"category": c[0].strip("*"), "order": c[1], "focus": c[2][:600]}
+                         for c in _rows if len(c) >= 3]
+        elif _title.startswith("on-deck"):
+            at_pipe += [{"category": c[0].strip("*"), "rotation": c[1],
+                         "fit": c[2][:300], "sources": c[3][:300]}
+                        for c in _rows if len(c) >= 4]
+(state / "atelier-ledger.json").write_text(json.dumps(
+    {"covered": at_cov, "queued": at_queue, "pipeline": at_pipe}, indent=2, ensure_ascii=False))
 
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "

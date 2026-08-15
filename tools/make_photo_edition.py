@@ -774,15 +774,25 @@ JS = """
   });
   var picks=[].slice.call(document.querySelectorAll('.nextpick'));
   if(picks.length){
-    var pkey='mfb-'+issue+'-nexthole';
-    var chosen=null; try{ chosen=localStorage.getItem(pkey); }catch(e){}
+    // vote chips are grouped by their target desk (data-votedesk; the Rabbit
+    // Hole's chips predate the attribute and default to 'Rabbit Hole Next')
+    var groups={};
     picks.forEach(function(p){
-      if(chosen===p.dataset.hobby) p.classList.add('picked');
-      p.addEventListener('click',function(){
-        picks.forEach(function(x){x.classList.remove('picked');});
-        p.classList.add('picked');
-        try{ localStorage.setItem(pkey,p.dataset.hobby); }catch(e){}
-        post({type:'vote',issue:issue,desk:'Rabbit Hole Next',topic:p.dataset.hobby,vote:1});
+      var dsk=p.dataset.votedesk||'Rabbit Hole Next';
+      (groups[dsk]=groups[dsk]||[]).push(p);
+    });
+    Object.keys(groups).forEach(function(dsk){
+      var g=groups[dsk];
+      var pkey='mfb-'+issue+'-next-'+dsk.toLowerCase().replace(/[^a-z]+/g,'');
+      var chosen=null; try{ chosen=localStorage.getItem(pkey); }catch(e){}
+      g.forEach(function(p){
+        if(chosen===p.dataset.hobby) p.classList.add('picked');
+        p.addEventListener('click',function(){
+          g.forEach(function(x){x.classList.remove('picked');});
+          p.classList.add('picked');
+          try{ localStorage.setItem(pkey,p.dataset.hobby); }catch(e){}
+          post({type:'vote',issue:issue,desk:dsk,topic:p.dataset.hobby,vote:1});
+        });
       });
     });
   }

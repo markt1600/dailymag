@@ -1,0 +1,35 @@
+## ATELIER LEDGER
+
+> The Atelier's purchase categories. **Covered = permanent — a category is covered ONCE, ever** (hard-gated). The desk's law: makers of GENUINE quality, never brand names for the brand's own sake — teach the materials/construction hierarchy, name the actual workshops (including who white-labels for whom), tier the prices honestly, and let the sceptic call out logo-tax theatre. Selection precedence: editor note → Queued (run the front row, delete as it runs) → reader's "Atelier Next" vote → pipeline rotation. Top the pipeline back up after each issue.
+
+### Covered
+
+|Category|Issue|Angle / one-line note|
+|-|-|-|
+
+### Queued (editor-selected — run in THIS order before consulting votes/pipeline; delete each row as it runs)
+
+|Category|Run order|Editor's focus|
+|-|-|-|
+|Pyjamas & luxury sleepwear|1|The reader's launch request, verbatim ethos: "if I wanted a luxury set — what do people lust over? Makers of genuine quality, not brand names for brand's own sake." Teach the hierarchy from cloth up: two-fold Sea Island cotton and Swiss batiste vs ordinary poplin, silk by momme weight (and why below ~19 momme is lingerie-thin), Irish linen and cotton-cashmere for the cold-room sleeper — then construction (mother-of-pearl buttons, piping, side gussets, French seams, hand-finished buttonholes). The makers to run down honestly: the Jermyn Street/London bench — Derek Rose (the category's standing reference), Emma Willis (cut in her Gloucester workshop, the true bespoke route), Turnbull & Asser and Budd (bespoke PJs to measure), New & Lingwood (the lounge-lizard grail gowns); the Continent — Zimmerli of Switzerland (the quiet "best cotton garments in the world" claim, verify), Schostal of Rome (the old-Rome hold-out), Charvet Paris (the silk grail); the women's-led silk tier — Olivia von Halle (22-momme), Asceno, La Perla honestly assessed; the newer natural-materials wave — Tekla (Copenhagen), Piglet in Bed (linen), General Sleep; and the value-of-quality floor — Sunspel, Hanro. Who actually weaves/sews for whom (white-label truths — many "heritage" PJs come from the same few factories; name what can be verified, hold what can't). Communities to mine: Permanent Style (Simon Crompton has covered bespoke pyjamas), Styleforum's sleepwear/shirting threads, r/BuyItForLife, r/femalefashionadvice silk threads. Prices tiered honestly (entry-of-quality ~S$150-250 Sunspel/Hanro → sweet spot ~S$400-700 Derek Rose/Zimmerli → bespoke/grail S$1,000+ Emma Willis/Charvet/OvH) with the what-you're-paying-for test at each step. SINGAPORE ANGLE, load-bearing: a 28°C bedroom changes the answer — airweight batiste, linen and true lightweight silk over flannel and heavy piped cotton; who ships here / local stockists. Care as the buy-once case (silk laundering honestly; why the batiste set outlives ten fast-fashion sets). Sceptic: the logo-tax tier (monogram-first "luxury" PJs), whether silk is practical at all in the tropics, and the honest line where price stops buying cloth and starts buying packaging.|
+
+### On-deck pipeline (candidates — rotate categories)
+
+|Category|Rotation tag|Why this reader|Makers/communities to mine|
+|-|-|-|-|
+|Bespoke & benchmade shoes|Clothing / footwear|The classic buy-once ladder, and the reader loves craft pedigree|Edward Green, Crockett & Jones handgrade, Gaziano & Girling, Saint Crispin's, Yohei Fukuda and the Japanese bench; Styleforum shoe threads, The Shoe Snob|
+|Kitchen knives|Kitchen|Japanese bladesmiths as living ateliers; strong SG retail scene|Sakai/Seki/Sanjo smiths (Shigefusa, Kato, Konosuke, Masamoto), Kitchen Knife Forums, r/TrueChefKnives, local: Razorsharp/Tower Knives comparisons|
+|Bed linen|Home|Completes the sleep trilogy with pyjamas; hot-climate percale/linen question|Beaumont & Brown, Peter Reed, Rise & Fall (white-label exposé angle), Frette/Sferra honestly assessed, Libeco linen; r/BuyItForLife|
+|Umbrellas & rain kit|Carry|A tropical-city daily object with a genuine artisan tier|Fox Umbrellas, Francesco Maglia (Milan), Ombrelli Torino; Permanent Style's umbrella pieces|
+|Towels|Home|Imabari and the weighted-loop hierarchy; daily-use buy-once|Imabari mills (Ikeuchi, Hartwell), Abyss & Habidecor, Frette; r/BuyItForLife towel threads|
+|Leather briefcases & bags|Carry|The reader's commute + travel life; bridle-leather ateliers|Frank Clegg, Ettinger, Swaine, Rutherfords, Tusting; Japanese ateliers (Ganzo, Herz); Styleforum leather threads|
+|Eyewear (frames)|Clothing / face|Japanese acetate benches vs licensed-logo frames — the desk's thesis in miniature|Jacques Marie Mage honestly assessed, Eyevan, Masunaga, Lunor, Oliver Peoples' manufacturing truths; r/glasses, forum optician threads|
+|Cashmere knitwear|Clothing|Ply/gauge/fibre-length education vs "100% cashmere" theatre|Johnstons of Elgin, William Lockie, Colhay's, Luca Faloni honestly tiered, Loro Piana as the ceiling; Permanent Style knitwear guides|
+|Fountain-pen-adjacent fine stationery & paper|Paper|The daily-writing pleasure tier (distinct from a future pens hobby dive)|Smythson honestly assessed, G. Lalo, Original Crown Mill, Midori/Life Japanese mills, Crane's; r/fountainpens paper threads|
+|Japanese selvedge denim|Clothing|Looms, mills and fade culture — maker-worship done right|Momotaro/Japan Blue, Full Count, Warehouse, Iron Heart, Studio D'Artisan; r/rawdenim, Heddels|
+|Audio cables & desk accessories — the sceptic special|Tech / desk|A category that is MOSTLY theatre: run it as the desk's honesty benchmark|ASR (Audio Science Review) as the debunking community; where money genuinely matters (ergonomics, machining) vs snake oil|
+
+### Retired (editor's decision — never run, never re-suggest)
+
+|Category|Retired|Note|
+|-|-|-|
