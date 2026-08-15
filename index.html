@@ -335,6 +335,19 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   .nextpick.picked{ background:none; box-shadow:none; } }
 </style>
 
+<style>
+/* No. 73 hotfix (screen only): articles were wrapped in a 2fr/1fr grid that
+   squeezed the two-column body beside a sidebar rail — three narrow justified
+   columns. De-grid ONLY the grids that hold a .cols2 body: text returns to
+   full-width two columns, the rail becomes a two-up band below. Grids used
+   for legitimate side-by-side blocks are untouched. Print untouched. */
+@media screen{
+  .grid.g-21:has(> .cols2), .grid.g-12:has(> .cols2){ display:block !important; }
+  .grid.g-21:has(> .cols2) > *, .grid.g-12:has(> .cols2) > *{ margin-bottom:5mm; }
+  .grid.g-21:has(> .cols2) > div:not(.cols2), .grid.g-12:has(> .cols2) > div:not(.cols2){
+    display:grid; grid-template-columns:1fr 1fr; gap:5mm; align-items:start; }
+}
+</style>
 </head>
 <body>
 <div id="mprog"></div>

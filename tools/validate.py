@@ -135,6 +135,17 @@ if _issno >= 51 and not _special:
     if _day == 'Saturday' and 'The Scoreboard' not in html:
         errors.append("Saturday issue is missing 'The Scoreboard' page-two feature (see PREDICTIONS PROTOCOL)")
 
+# body-measure law (from No. 73, editor's directive): article body text is
+# .cols2 at the FULL live-area width. No. 73 nested .cols2 inside grid tracks
+# (2fr/1fr "main + rail"), squeezing body copy into three ~55mm justified
+# columns — unreadable on screen. A .cols2 directly inside any .grid is a
+# hard failure; furniture flows INSIDE the columns or as full-width bands.
+_narrow = re.findall(r'<div class="grid [^"]*"[^>]*>\s*<div class="cols2"', html)
+if _narrow:
+    errors.append(f"{len(_narrow)} article(s) nest .cols2 inside a .grid track — body text must be .cols2 at FULL width (three narrow columns shipped in No. 73; see the body-measure law)")
+if re.search(r'class="cols3"', html):
+    errors.append(".cols3 used for body copy — three columns are never the body measure (body-measure law)")
+
 # photographic cover (from No. 52, editor's directive): page 1 must carry a real <img>
 if _issno >= 52 and pages and '<img' not in pages[0]:
     errors.append("cover has no photograph — covers are photographic from No. 52 (see the cover brief; SVG fallback must be declared in the Issue Log)")
