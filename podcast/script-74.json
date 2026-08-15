@@ -1,0 +1,536 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 74,
+ "date": "Sunday 16 August 2026 · The Weekend Edition",
+ "title": "The Show and the Substance",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the sixteenth of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three things before we start. [pause] A new desk opens today. It's called The Atelier, and it begins, of all places, with pyjamas."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Pyjamas. Okay, I'm already in."
+  },
+  {
+   "s": "A",
+   "t": "The Grand Tour goes up to Chiang Mai — the city with one perfect night, and one month you have to run from."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the one I couldn't stop thinking about — Taiwan turned baseball into a concert, and then started importing the singers from Korea."
+  },
+  {
+   "s": "A",
+   "t": "That's the closer. Hold it. [pause] Let's start where the week is heaviest."
+  },
+  {
+   "s": "A",
+   "t": "The Congo. There's an Ebola outbreak in the Democratic Republic of Congo that is on track to become the deadliest in the disease's history."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Give me the shape of it. Numbers?"
+  },
+  {
+   "s": "A",
+   "t": "As of mid-August — roughly four thousand six hundred confirmed cases, and about two thousand one hundred and eighty deaths. A case-fatality rate near forty-seven per cent."
+  },
+  {
+   "s": "B",
+   "t": "Forty-seven. That's almost one in two."
+  },
+  {
+   "s": "A",
+   "t": "And this strain — it's called Bundibugyo — has no licensed vaccine. The playbook that eventually broke the last big outbreak simply doesn't exist for this one."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And it's still moving."
+  },
+  {
+   "s": "A",
+   "t": "It's in a sixth province now, and it's crossed the border into Uganda. For scale — the last great outbreak, in West Africa, killed around eleven thousand three hundred. The W-H-O chief says at this pace, this one passes it."
+  },
+  {
+   "s": "B",
+   "t": "So why is it spreading like this? Is it the money, or the war?"
+  },
+  {
+   "s": "A",
+   "t": "That's exactly the split, and we ran both. One reading — call it the defunding frame — says a containable outbreak became a catastrophe because the machinery that fights it was taken apart. The W-H-O withdrawal, U-S-A-I-D winding down, the C-D-C cuts."
+  },
+  {
+   "s": "B",
+   "t": "And the other side?"
+  },
+  {
+   "s": "A",
+   "t": "The war frame. That money isn't the binding constraint — the fighting is. You can't trace contacts or isolate the sick while the shooting's going on. The W-H-O's director-general said as much: you cannot build trust while bombs are falling."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And both can be true at once."
+  },
+  {
+   "s": "A",
+   "t": "They can. But here's the sceptic, and it's a sharp one. Deadliest in history is a projection built on numbers everyone agrees are wrong. Forbes reports Congo is counting fewer than half its cases."
+  },
+  {
+   "s": "B",
+   "t": "So it's either already the biggest ever —"
+  },
+  {
+   "s": "A",
+   "t": "— or the fatality rate is badly overstated, because the cases nobody counts are the mild ones that never reach a clinic. You can't trust the milestone and the death rate off the same broken denominator."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's a grim place to open. What else is out there?"
+  },
+  {
+   "s": "A",
+   "t": "Quietly — it's five years since Kabul fell. The register on the ground is safer streets, and a generation of girls whose schooling stopped at grade six and never restarted. The cost of that compounds. It doesn't pause."
+  },
+  {
+   "s": "B",
+   "t": "Alright. Bring us home. What did the markets actually do?"
+  },
+  {
+   "s": "A",
+   "t": "Friday's close. I'd call the regime Goldilocks with an oil tail."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That sounds like a cocktail, not a regime."
+  },
+  {
+   "s": "A",
+   "t": "It's a bit of both. Oil is bid — Brent up in the high eighties — on an open-ended blockade threat in the Gulf. Bid oil keeps inflation sticky, and sticky inflation pins the long end of the bond market. The thirty-year US yield is near five and a quarter per cent — a twenty-five-year high."
+  },
+  {
+   "s": "B",
+   "t": "Even though everyone thinks the Fed is done hiking."
+  },
+  {
+   "s": "A",
+   "t": "Right. And because that hike bet faded, the dollar softened instead of firming. Into that gap, gold ran to a fresh record — just past four thousand three hundred and seventy-five US dollars."
+  },
+  {
+   "s": "B",
+   "t": "And stocks?"
+  },
+  {
+   "s": "A",
+   "t": "The S and P a whisker off its record — seven thousand seven hundred and eighty-five, a third straight weekly gain. And bitcoin, notably, sat the whole haven rally out. Rangebound near sixty-three thousand, decoupled from gold."
+  },
+  {
+   "s": "B",
+   "t": "So the stock market is just climbing the oil wall."
+  },
+  {
+   "s": "A",
+   "t": "That's the phrase the Asian desks used on Friday. The equity bulls point at three straight up weeks; the bond crowd says the long yield is about term premium and the oil shock, not the Fed. Both are staring at the same barrel."
+  },
+  {
+   "s": "B",
+   "t": "So gold's the clear winner."
+  },
+  {
+   "s": "A",
+   "t": "Gold's the winner. And look — this is market explanation, not advice — but the honest sceptic line is this: a record in gold and a twenty-five-year-high bond yield, at the same moment, is not a soft landing. It's the bond market pricing a problem the stock market is choosing to ignore."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] One bad barrel breaks the calm."
+  },
+  {
+   "s": "A",
+   "t": "One bad barrel. And speaking of home — Singapore had a quiet Sunday before a loud one. The National Day Rally is next Sunday, the twenty-third, at I-T-E College Central."
+  },
+  {
+   "s": "B",
+   "t": "What does the reader actually need to do this weekend?"
+  },
+  {
+   "s": "A",
+   "t": "One thing. If you're eligible for the cost-of-living payment — four hundred to six hundred dollars landing from the ninth of September — link your N-R-I-C to PayNow by the thirtieth of August. That's the entire to-do list."
+  },
+  {
+   "s": "B",
+   "t": "Two minutes."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Two minutes."
+  },
+  {
+   "s": "A",
+   "t": "Technology. The paradox of the week: the chips are frozen, but the weights walk free."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Unpack that for me."
+  },
+  {
+   "s": "A",
+   "t": "Washington spent a year building a licensing regime to meter advanced chips into China. About ten firms cleared, seventy-five thousand chips each — and so far, nothing has actually shipped. Meanwhile the open A-I models flow to anyone with a download and no licence at all."
+  },
+  {
+   "s": "B",
+   "t": "So for someone with a home lab —"
+  },
+  {
+   "s": "A",
+   "t": "The fresh one is Qwen three point eight, the twenty-seven-billion-parameter model. And two days in, the real question isn't the benchmark — it's whether it fits one graphics card."
+  },
+  {
+   "s": "B",
+   "t": "Does it?"
+  },
+  {
+   "s": "A",
+   "t": "It does. At four-bit it's about sixteen gigabytes, comfortable on a single five-oh-nine-oh. The catch is the context window. The headline number — two hundred sixty-two thousand tokens — won't sit alongside the weights. Real single-card context is more like thirty-two to sixty-four thousand."
+  },
+  {
+   "s": "B",
+   "t": "And the vendor's big claims?"
+  },
+  {
+   "s": "A",
+   "t": "[skeptical] Two days old, and unconfirmed. They say it beats a frontier model on fifteen of nineteen tests — but that's the vendor picking the tests, on the vendor's own runs. Read it twice."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And if I want the long context?"
+  },
+  {
+   "s": "A",
+   "t": "Feed it text, not pictures. It's multimodal, and images load a vision encoder and a flood of extra tokens — so the lean path on one card is words only. The photos are what the second graphics card is for."
+  },
+  {
+   "s": "B",
+   "t": "Okay, give me something I can actually hold. The Kit."
+  },
+  {
+   "s": "A",
+   "t": "The Ricoh G-R four. A pocket camera with a twelve-month order book."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Twelve months? To buy a camera?"
+  },
+  {
+   "s": "A",
+   "t": "That's the whole point of it. Fifteen hundred US dollars, one great fixed lens, a little metal body — the thing you carry for a decade. No pre-order theatre."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch there?"
+  },
+  {
+   "s": "A",
+   "t": "The sceptic's honest: no viewfinder, the autofocus is middling, and you queue for months to pay. It's a want dressed up as a tool. But it's exactly the reader's kind of want."
+  },
+  {
+   "s": "B",
+   "t": "Anything quieter on the shelf?"
+  },
+  {
+   "s": "A",
+   "t": "The Sennheiser Momentum Five — four hundred US dollars, and a battery you can actually replace. Fifty-seven hours of noise cancelling. That's the buy-once tell of the whole fortnight: repairable beats a spec sheet."
+  },
+  {
+   "s": "B",
+   "t": "And the new desk. Teach me something about pyjamas — genuinely."
+  },
+  {
+   "s": "A",
+   "t": "Read the momme. In silk, momme is the weight of the cloth. Nineteen breathes freely but wears out with washing; twenty-two lasts longer but runs warmer. And in cotton, the tell is two-fold yarn, not a big thread-count number."
+  },
+  {
+   "s": "B",
+   "t": "[amused] I did not expect to learn cloth science before breakfast."
+  },
+  {
+   "s": "A",
+   "t": "Here's the part that matters for us. For a Singapore bedroom, the blunt answer is: skip the silk. At twenty-eight degrees, airweight cotton batiste or Irish linen beats it on comfort, on durability, and on care."
+  },
+  {
+   "s": "B",
+   "t": "So the grail isn't the fancy one."
+  },
+  {
+   "s": "A",
+   "t": "The grail isn't a monogram. It's a batiste set with mother-of-pearl buttons and a hand-sewn buttonhole that survives the wash. That's the whole desk in one line."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Any dirty secret in there?"
+  },
+  {
+   "s": "A",
+   "t": "A good one. Cloth provenance isn't garment provenance. The finest silks and cottons come from a handful of mills, so two very different luxury sets can be the same cloth with a different label sewn in. At the very top, you're paying for the make and the fit — not the name."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every single morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Today it's card collecting. Pokémon and baseball."
+  },
+  {
+   "s": "A",
+   "t": "Two tribes who would never share a lunch table — buying from the same auction house."
+  },
+  {
+   "s": "B",
+   "t": "Hit me with the number that breaks my brain."
+  },
+  {
+   "s": "A",
+   "t": "A single Pokémon card — the Pikachu Illustrator, in a perfect grade — sold in February for sixteen million four hundred and ninety-two thousand US dollars."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] For a picture of Pikachu."
+  },
+  {
+   "s": "A",
+   "t": "For the single best-known copy of one. And that points at the engine of the whole hobby, which is grading. A raw card is an opinion. A graded card is a number the market prices off."
+  },
+  {
+   "s": "B",
+   "t": "Meaning?"
+  },
+  {
+   "s": "A",
+   "t": "Meaning the exact same modern card can go from about fifteen hundred dollars raw to fifty-four hundred in a top slab. You're not really buying the card. You're buying the number on the case."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's slightly insane."
+  },
+  {
+   "s": "A",
+   "t": "It's the business. One grader alone slabbed over nineteen million cards last year, and only about nine per cent come back a perfect ten."
+  },
+  {
+   "s": "B",
+   "t": "Where's the danger in it?"
+  },
+  {
+   "s": "A",
+   "t": "Two places. The sceptic calls it Junk Wax Two point oh — modern cards are printed into oblivion, over four hundred million in one basketball season alone. And the fastest-growing corner, live-breaking on camera, is facing a lawsuit that calls it unregulated gambling."
+  },
+  {
+   "s": "B",
+   "t": "So the rule is —"
+  },
+  {
+   "s": "A",
+   "t": "Buy the card you love, not the ticket you'll flip. And from Singapore you can't even send to the big grader directly. You go through a local middleman, add twenty to thirty dollars a card, and wait months."
+  },
+  {
+   "s": "A",
+   "t": "And the cutting edge is real, by the way. Computer grading is growing fast — machine vision instead of a human eye — but a machine-graded ten still trades below the old red label. The registry moat holds, for now."
+  },
+  {
+   "s": "B",
+   "t": "[wry] So even the robots have to earn their trust."
+  },
+  {
+   "s": "B",
+   "t": "[amused] There's my daughter's college fund, gone in cardboard."
+  },
+  {
+   "s": "A",
+   "t": "Fast culture round. Screen — put Jungle's new record, Sunshine, on the good speakers. Their fifth, a groove album. The early scores are kind but thin, and one review flatly called the formula the death knell. Your call."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Brutal."
+  },
+  {
+   "s": "A",
+   "t": "The charts belonged to someone else entirely — a pop juggernaut called Katseye had the biggest streaming day by a mile. Two different definitions of a hit, same Friday. Your speakers were built for the quieter one."
+  },
+  {
+   "s": "B",
+   "t": "Noted. Family?"
+  },
+  {
+   "s": "A",
+   "t": "The screen panic mismeasured. A study of over fifty thousand American children says most of the harm runs through two things screens push out — movement, and sleep. So the fix isn't a stopwatch."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Then what is it?"
+  },
+  {
+   "s": "A",
+   "t": "A device-free bedroom, and a daily run-around. Charge the phone in the hall. And the paediatric guidance now agrees — they retired the hourly limit this year, in favour of asking what the screen is displacing."
+  },
+  {
+   "s": "B",
+   "t": "That's almost a relief to hear. Fitness — one thing I can do today?"
+  },
+  {
+   "s": "A",
+   "t": "Two tests, thirty seconds each. How hard you can grip, and how fast you can stand out of a chair. In a big study, the strongest-grip group had a third lower mortality — independent of their cardio."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So I should just... squeeze things."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Buy a cheap gripper, do dead hangs, carry heavy bags. You cannot out-run a weak grip. Not medical advice — but it's free, and you can actually move the number."
+  },
+  {
+   "s": "B",
+   "t": "And a splurge for the daydream file?"
+  },
+  {
+   "s": "A",
+   "t": "The Good Life — the Danieli in Venice reopened under Four Seasons, after a thirty-four-million-dollar restoration. Fourteenth-century palazzo, pink-marble atrium. Rate? Pointedly unpublished — so we held it rather than invent one."
+  },
+  {
+   "s": "B",
+   "t": "Very us. And the travel gate — anything I need to know?"
+  },
+  {
+   "s": "A",
+   "t": "Two quick ones. If you fly on miles, Singapore Airlines now blocks award searches for accounts under a thousand miles. And Japan's rail pass rises the first of October, so buy before then. The tax-free discount there also switches to an airport refund on the first of November."
+  },
+  {
+   "s": "B",
+   "t": "And the Grand Tour itself. Sell me Chiang Mai."
+  },
+  {
+   "s": "A",
+   "t": "The Lanna city, read by its seasons. It's a three-hour hop on the one nonstop. The best window is cool and dry, November into February. And the signature night is the lantern festival, the twenty-fourth and twenty-fifth of November."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the month to run from?"
+  },
+  {
+   "s": "A",
+   "t": "The burning season, February to April. This year the air-quality index hit two hundred and sixty-three, and the city topped the global pollution rankings. For a photography trip with a kid — a hard no. Go for the lanterns, not the smoke."
+  },
+  {
+   "s": "B",
+   "t": "And what do I eat while I'm there?"
+  },
+  {
+   "s": "A",
+   "t": "Khao soi. Egg noodles in a rich coconut curry, crisp noodles piled on top. There's a shack on the old city wall that does it for about seventy baht — lunch only, and it sells out by early afternoon. Chase that, not the fancy restaurant."
+  },
+  {
+   "s": "B",
+   "t": "One honest tip?"
+  },
+  {
+   "s": "A",
+   "t": "The postcard shot — a thousand lanterns rising in unison — is mostly a ticketed, staged event. The locals will tell you the free night by the river is the better one."
+  },
+  {
+   "s": "B",
+   "t": "And back home, the diary?"
+  },
+  {
+   "s": "A",
+   "t": "The season fills up. A Formula One night race in October, with Singapore's first-ever sprint. Grand sumo in Tokyo, mid-September, tickets already thin. And a new table worth the trip — Foura, a wellness glasshouse at Gardens by the Bay. Loved so far, just not yet stress-tested."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I do love a place that's too new to fail."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] And the one to sit with. Taiwan."
+  },
+  {
+   "s": "B",
+   "t": "The baseball story."
+  },
+  {
+   "s": "A",
+   "t": "Walk into a Taiwanese ballpark on a Friday night, and half the crowd has its back to the field. They're facing a raised platform of dancers — the cheer squads. In Taiwan, the baseball has quietly become the opening act."
+  },
+  {
+   "s": "B",
+   "t": "And the squads are the headliners."
+  },
+  {
+   "s": "A",
+   "t": "Bigger than any player on the roster. They release singles, front cosmetics campaigns, sell their own trading cards. And here's the reversal that stopped me cold. For twenty years, Asia imported Korean cool."
+  },
+  {
+   "s": "B",
+   "t": "And now?"
+  },
+  {
+   "s": "A",
+   "t": "Taiwan is the first market to make a version good enough to sell back to Seoul. It's out-bidding Korea for Korea's own cheerleaders. One reportedly moved for around three hundred and twenty thousand US dollars — far above a player's salary."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And that number's solid?"
+  },
+  {
+   "s": "A",
+   "t": "It's a Korean-media figure, so we kept it attributed — and the ten-million version floating online is just a bad translation. But the direction is real: the talent is flowing out, and the home clubs are reportedly discussing how to stop it."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] More than the athletes."
+  },
+  {
+   "s": "A",
+   "t": "Attendance hit a record last year — over ten thousand a game. And the deeper read is this: the scarce thing in that stadium isn't athletic excellence. It's affection. The idol economy didn't build a venue next door. It moved inside and took the better seats."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So what does it mean?"
+  },
+  {
+   "s": "A",
+   "t": "Debord wrote it sixty years ago — the spectacle isn't a set of images, it's a relationship between people. The thing everyone gathers to watch turns out to be each other, watching."
+  },
+  {
+   "s": "B",
+   "t": "The game was always an excuse to be together."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] It always was. And when the big papers write this up in three weeks — remember which desk brought you to the mound first."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

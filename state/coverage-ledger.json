@@ -1,5 +1,5 @@
 {
-  "count": 456,
+  "count": 464,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,62 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Ricoh GR IV / GR IV Monochrome",
+      "type": "Product (camera)",
+      "last_covered": "No. 74",
+      "last_peg": "The Kit LEAD — 26MP APS-C, fixed 28mm-eq f/2.8, magnesium, 2EV ND, 5-axis IS; body US$1,499 / Monochrome US$2,199.95; ~12-month order book (Ricoh EMEA); buy-once carry, AF the weak point. Base body shipped Q4 2025; 2026 peg = sustained scarcity + the Monochrome",
+      "next_peg": "Next peg = a successor or a materially new variant/firmware. Not a re-run without one."
+    },
+    {
+      "subject": "Danieli, A Four Seasons Hotel (Venice)",
+      "type": "Venue (hotel/escape)",
+      "last_covered": "No. 74",
+      "last_peg": "Good Life LEAD — 14th-c Gothic palazzo reopened under Four Seasons after a US$34M Pierre-Yves Rochon restoration; ~120 rooms at open (→~168–176 by 2027), spa late 2026; opening date \"now open\"/26 Aug (flagged); nightly rate unpublished (held)",
+      "next_peg": "Next peg = a published rate, the Excelsior-wing completion, or first guest reviews."
+    },
+    {
+      "subject": "Jungle — \"Sunshine\"",
+      "type": "Music release",
+      "last_covered": "No. 74",
+      "last_peg": "Screen LEAD — the UK funk-soul collective's 5th album, out 14 Aug; AOTY ~80 on ~6 reviews (early, flagged); ~11.5M first-day Spotify; a 2/5 \"formula is the death knell\" dissent",
+      "next_peg": "Next peg = a chart milestone or a tour; do not re-cover the release."
+    },
+    {
+      "subject": "Foura (Gardens by the Bay)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 74",
+      "last_peg": "The Table LEAD — 120-seat Blue-Zones glasshouse at the IMBA theatre, opened 9 Jul; toothfish ~S$46, burratina S$28, mains ~S$28–46; warm early consensus, \"loved-so-far, not yet stress-tested\"",
+      "next_peg": "Next peg = a settled review wave or an accolade."
+    },
+    {
+      "subject": "Jiin (omakase, Shaw Centre)",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 74",
+      "last_peg": "The Table — moved into the ex-Zeniya premises \"retaining everything but the name\"; lunch from S$138, dinner from S$288; too new to judge (single-sourced)",
+      "next_peg": "Next peg = settled reviews."
+    },
+    {
+      "subject": "POP MART bakery-café / $22.90 hotpot buffet",
+      "type": "Venue (F&B)",
+      "last_covered": "No. 74",
+      "last_peg": "The Table shelf — a character-IP bakery and a 100+-dish conveyor hotpot buffet; novelty-driven, both too new to judge",
+      "next_peg": "Next peg = settled reviews once the launch queues fade."
+    },
+    {
+      "subject": "Sennheiser Momentum 5 Wireless",
+      "type": "Product (headphones)",
+      "last_covered": "No. 74",
+      "last_peg": "The Kit shelf — US$399, user-replaceable battery, 57h ANC, aptX Lossless; the value flagship / buy-once repairability case (shipped Jun 2026); Sony 1000X \"ColleXion\" LE US$649.99 noted alongside",
+      "next_peg": "Next peg = a successor or a durability read."
+    },
+    {
+      "subject": "Qwen3.8-27B (Tongyi Lab)",
+      "type": "AI model (open weights)",
+      "last_covered": "No. 74",
+      "last_peg": "Tech home-lab DELTA (launch was No. 73) — the two-days-on reality check: 27.78B dense/multimodal/262K/Apache-2.0; Q4 ~16GB fits one 5090, 262K context won't co-reside (~32–64K real), dual-5090 = Q8/long-ctx; vendor benchmarks (8/8 vs Muse Glimmer, 15/19 vs Opus 4.6) flagged, independent confirmation pending",
+      "next_peg": "Next peg = an independent eval or a successor."
     },
     {
       "subject": "NVIDIA Nemotron 3.5 Lightning 30B-A3B",
