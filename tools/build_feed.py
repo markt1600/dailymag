@@ -19,7 +19,7 @@ html = src.read_text()
 
 # desk -> a marktan-friendly category label
 CATEGORY = {
-    "The World": "World", "Singapore": "Asia", "Property": "Property",
+    "The World": "World", "Singapore": "Asia", "Property": "Property", "The Atelier": "Style",
     "Technology": "Tech", "The Kit": "Gadgets", "The Rabbit Hole": "Hobby",
     "The Good Life": "Design", "Screen & Sound": "Culture", "The Family Desk": "Family",
     "The Macro Desk": "Markets",

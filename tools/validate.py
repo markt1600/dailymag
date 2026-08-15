@@ -200,6 +200,35 @@ if _issno >= 63 and not _special:
                           f"{_s['next_peg'][:90]}… To reopen on a genuinely major new peg, update the "
                           "subject's Coverage Ledger row first (ledgers/coverage-ledger.md), then rebuild state")
 
+# THE ATELIER (editor, 15 Aug 2026; from No. 74): the daily maker deep dive
+# replaces Property — the retired desk may not reappear; the desk closes with
+# exactly 3 "Next on the Bench" vote chips; a category is covered ONCE, ever.
+if _issno >= 74 and not _special:
+    if 'Property' in _desk_pages or 'Bricks & Mortar' in html or 'Bricks &amp; Mortar' in html:
+        errors.append("retired desk 'Property' is in the book — replaced by The Atelier (editor, 15 Aug 2026)")
+    _at = _desk_pages.get('The Atelier', [])
+    if not _at:
+        errors.append("The Atelier is missing — the maker deep dive runs every edition (replaces Property from No. 74)")
+    else:
+        _atblob = ''.join(_at)
+        _atp = re.findall(r'class="nextpick"[^>]*data-votedesk="Atelier Next"', _atblob)
+        if len(_atp) != 3:
+            errors.append(f"The Atelier: {len(_atp)} Next-on-the-Bench candidates (need exactly 3 .nextpick chips with data-votedesk=\"Atelier Next\" in a .nexthole box)")
+        import json as _json3
+        try:
+            _atcov = _json3.load(open('state/atelier-ledger.json'))['covered']
+        except (OSError, ValueError, KeyError):
+            _atcov = []
+        _atheads = ' '.join(re.findall(r'<div class="(?:hed|dek|kicker)[^"]*"[^>]*>(.*?)</div>', _atblob, re.S))
+        _atheads = re.sub(r'<[^>]+>', ' ', _atheads).lower()
+        for _ac in _atcov:
+            _am2 = re.search(r'(\d+)', str(_ac.get('issue', '')))
+            if _am2 and int(_am2.group(1)) == _issno:
+                continue
+            _akey = re.sub(r'\s*\(.*?\)', '', _ac['category']).split('&')[0].strip().lower()
+            if len(_akey) >= 5 and _akey in _atheads:
+                errors.append(f"The Atelier: category '{_ac['category']}' was already covered (No. {_ac.get('issue')}) — a category is covered ONCE, ever; pick from ledgers/atelier-ledger.md")
+
 # THE RABBIT HOLE (editor, 4 Aug 2026; from No. 63): the 3-page hobby deep
 # dive replaces The Connected Home, Curiosities and Love & Life — retired
 # desks may not reappear; the desk runs EVERY edition at exactly 3 pages
