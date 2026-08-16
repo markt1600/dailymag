@@ -146,6 +146,15 @@ if _narrow:
 if re.search(r'class="cols3"', html):
     errors.append(".cols3 used for body copy — three columns are never the body measure (body-measure law)")
 
+# one vote row per desk/chapter (from No. 74.5): the feedback row is a
+# per-SUBJECT vote, so a desk spanning several pages carries exactly one.
+# 74.5 shipped a duplicate row on the continuation page of 9 chapters.
+_fbd = re.findall(r'class="fbrow" data-desk="([^"]+)"', html)
+_fbdup = sorted({d for d in _fbd if _fbd.count(d) > 1})
+if _fbdup:
+    errors.append(f"{len(_fbdup)} desk(s) carry more than one feedback row ({', '.join(_fbdup[:4])}"
+                  f"{'…' if len(_fbdup) > 4 else ''}) — one .fbrow per desk/chapter, on its FIRST page only")
+
 # photographic cover (from No. 52, editor's directive): page 1 must carry a real <img>
 if _issno >= 52 and pages and '<img' not in pages[0]:
     errors.append("cover has no photograph — covers are photographic from No. 52 (see the cover brief; SVG fallback must be declared in the Issue Log)")
