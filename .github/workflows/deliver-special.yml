@@ -1,10 +1,18 @@
 # Deliver the NEWEST special edition's PDF to the reMarkable cloud.
-# ON-DEMAND ONLY (reader's choice): fired from the magazine chrome's
-# "⇥ reMarkable" menu item (via marktan.ai/api/deliver → workflow_dispatch)
-# or manually from the Actions tab. No longer auto-fires on promotion.
+#
+# AUTOMATIC for specials (editor, 16 Aug 2026): a special is a
+# reader-commissioned deep dive — it is always wanted, so it ships to the
+# tablet the moment it is promoted (state/specials.json changes on main).
+# DAILY editions stay MANUAL by contrast (see deliver-remarkable.yml) so the
+# tablet doesn't silt up with issues the reader may not want offline.
+# The chrome's "⇥ Send newest special to tablet" menu entry and the Actions
+# tab both still work for a re-send; the upload is idempotent by name.
 name: Deliver special edition to reMarkable
 
 on:
+  push:
+    branches: [main]
+    paths: ["state/specials.json"]
   workflow_dispatch:
 
 jobs:
