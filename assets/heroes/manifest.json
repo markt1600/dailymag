@@ -769,6 +769,18 @@
   {
    "slug": "vaucherlogo-745",
    "file": "Logo de Vaucher Manufacture Fleurier.jpg"
+  },
+  {
+   "slug": "neuchatel-745b",
+   "file": "Château de Neuchâtel.jpg"
+  },
+  {
+   "slug": "bienne-745b",
+   "file": "Lindenegg Biel.jpg"
+  },
+  {
+   "slug": "orchard-745b",
+   "file": "Orchard Road street sign - Singapore (gabbe).jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -796,5 +808,6 @@
  "_retrigger23": "No.74 retry (429 cooldown): danieli/rakuten/t206/ricoh — 2026-08-16",
  "_retrigger24": "No.74 retry2: t206-wagner-74, ricoh-griiix-74 — 2026-08-16",
  "_retrigger25": "No.74.5 special (Hermes Slim d Hermes Neo Brandebourgs Tourbillon): faubourg-cover-745,faubourg-reveal-745,tourbillon-745,tourbillon-745b,palette-745,neuchatel-745,bienne-745,orchard-745,vaucherlogo-745 2026-08-16",
- "_retrigger26": "No.74.5 retry (429 first pass): tourbillon-745,tourbillon-745b,palette-745,neuchatel-745,bienne-745,orchard-745,vaucherlogo-745 2026-08-16"
+ "_retrigger26": "No.74.5 retry (429 first pass): tourbillon-745,tourbillon-745b,palette-745,neuchatel-745,bienne-745,orchard-745,vaucherlogo-745 2026-08-16",
+ "_retrigger27": "No.74.5 retry2 + backup slugs: neuchatel-745,bienne-745,orchard-745,vaucherlogo-745 + neuchatel-745b,bienne-745b,orchard-745b 2026-08-16"
 }
