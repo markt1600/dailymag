@@ -281,7 +281,13 @@ for _sec in _secs:
     _m = _re.search(r'<div class="rh"><span><span class="dot">●</span> Meridian · ([^<]+)</span>', _sec)
     if _m:
         _desk = _m.group(1).strip()
-        if _desk not in _seen_desks and _desk not in ('Contents',) and 'class="fbrow"' not in _sec:
+        _hand_placed = 'class="fbrow"' in _sec
+        if _hand_placed:
+            # A hand-authored row on this page claims the desk: mark it seen so
+            # the desk's CONTINUATION pages don't get an injected second row
+            # (No. 75 shipped duplicates on the 4 multi-page desks otherwise).
+            _seen_desks.add(_desk)
+        if _desk not in _seen_desks and _desk not in ('Contents',) and not _hand_placed:
             # (the fbrow check: a session that hand-authored its voting rows
             # already has one on this page — injecting again stacks two rows,
             # the No. 64.5 bug. Hand-placed wins.)

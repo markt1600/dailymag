@@ -1,0 +1,776 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 75,
+ "date": "Tuesday 18 August 2026",
+ "title": "The Flattering Number",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the eighteenth of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. Africa's second-largest copper producer just held an election, and the president is romping home while the count itself turns ugly."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Singapore posted an export month that looks spectacular — and hides something going backwards underneath it."
+  },
+  {
+   "s": "A",
+   "t": "And a page about audio cables that ends with a tray of wet mud. [deadpan] I promise that will make sense."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] It really won't, but I'm excited."
+  },
+  {
+   "s": "A",
+   "t": "There's a thread running through all of it today, so let me name it early. Every big number in this issue flatters somebody — and every one of them leaves something out."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The quote up front is Goodhart's law. When a measure becomes a target, it stops being a good measure."
+  },
+  {
+   "s": "A",
+   "t": "Right. Except the version we kept finding is quieter. Nobody gamed these numbers. People just believed them."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Zambia. Start with what happened."
+  },
+  {
+   "s": "A",
+   "t": "Zambians voted on Thursday. By Monday, with counts in from about seventy-one per cent of the country's constituencies, President Hakainde Hichilema held roughly sixty-two per cent. His challenger, Brian Mundubile, about thirty-six."
+  },
+  {
+   "s": "B",
+   "t": "That's not close."
+  },
+  {
+   "s": "A",
+   "t": "It's not. And he has a record to run on. He inherited a defaulted economy in twenty twenty-one, and his first term sealed a twelve-billion-dollar debt restructuring. Inflation is down to multi-year lows. The I-M-F has growth at four point three per cent this year."
+  },
+  {
+   "s": "B",
+   "t": "So why does this get the lead instead of a nice reform story?"
+  },
+  {
+   "s": "A",
+   "t": "Because the count stopped. Vote tallying was suspended for about six hours on Friday after reported violence against polling staff and allegations of ballot theft. The electoral commission said the security threat had been, quote, contained."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Contained is doing a lot of work in that sentence."
+  },
+  {
+   "s": "A",
+   "t": "It is. And Mundubile's camp goes further — they allege soldiers seized tallying centres in Mufulira, that result forms went missing, that officials in the north-western copper districts were told to stop releasing figures."
+  },
+  {
+   "s": "B",
+   "t": "Is any of that substantiated?"
+  },
+  {
+   "s": "A",
+   "t": "No. Not yet. And that's the honest position — we're printing it as an allegation, because that's what it is."
+  },
+  {
+   "s": "B",
+   "t": "We ran two framings on this one. Give me both."
+  },
+  {
+   "s": "A",
+   "t": "Al Jazeera leads with the observers. The Southern African mission recorded — but could not verify — reports of intimidation, assault and abduction across five provinces. The European Union's chief observer said the vote unfolded against a backdrop of, quote, constrained democratic space."
+  },
+  {
+   "s": "B",
+   "t": "And the other?"
+  },
+  {
+   "s": "A",
+   "t": "Xinhua. Headline: Zambians vote as peace prevails. Smooth process, deepening China–Zambia partnership, the railway to Dar es Salaam being modernised. Order kept, investment protected."
+  },
+  {
+   "s": "B",
+   "t": "[wry] And the copper stays politely off-page."
+  },
+  {
+   "s": "A",
+   "t": "Precisely."
+  },
+  {
+   "s": "B",
+   "t": "So where does our sceptic land?"
+  },
+  {
+   "s": "A",
+   "t": "On the side of not getting ahead of ourselves. The same European mission that flagged the bias also called election day largely peaceful and orderly, and the race genuinely competitive. And it said plainly it could not corroborate the abduction reports."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the campaign was unfair, and the count might still have been clean. Those are two different claims."
+  },
+  {
+   "s": "A",
+   "t": "That's the whole distinction, and this week they've been travelling together. One is documented. The other is asserted."
+  },
+  {
+   "s": "B",
+   "t": "Why does a Zambian election matter from here, though? Genuinely."
+  },
+  {
+   "s": "A",
+   "t": "Because it's a copper election. Zambia is Africa's second-largest producer, aiming at three million tonnes a year by twenty thirty-one — and Washington and Beijing are both courting Lusaka. The mine and the microchip are the same story told at two ends."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which is a nice handoff, because the other end is us."
+  },
+  {
+   "s": "A",
+   "t": "One more from the world desk first. A magnitude seven point seven earthquake struck off Flores on Saturday morning, and the sea followed — waves of up to about a metre and a half across ten sites in eastern Indonesia."
+  },
+  {
+   "s": "B",
+   "t": "What's the toll?"
+  },
+  {
+   "s": "A",
+   "t": "Sixty-eight as of Monday, up from fifty-four. More than two hundred injured, around nine thousand three hundred displaced, roughly a thousand aftershocks."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And that number will move."
+  },
+  {
+   "s": "A",
+   "t": "It will. And that's not the press getting it wrong — it's the press getting it early. The hardest-hit places are the last ones reached."
+  },
+  {
+   "s": "B",
+   "t": "Alright. The money block. Singapore's export number — you called it spectacular and hollow."
+  },
+  {
+   "s": "A",
+   "t": "Non-oil domestic exports rose twenty-four point two per cent in July. Fourth straight month above twenty. And Enterprise Singapore tore up its own forecast — from three-to-five per cent for the year, to fourteen-to-sixteen."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's not a revision, that's a rewrite."
+  },
+  {
+   "s": "A",
+   "t": "Electronics did it. Electronic exports up a hundred and twelve per cent. Disk media up three hundred and thirty-nine. Integrated circuits up eighty-five. Shipments to the United States alone up three hundred and seventy-nine per cent."
+  },
+  {
+   "s": "B",
+   "t": "The A-I build-out, routed through one island."
+  },
+  {
+   "s": "A",
+   "t": "Physically, yes. Now here's the part the headline drops. Strip out electronics and the picture inverts — non-electronic exports fell two point three per cent. Pharmaceuticals, petrochemicals, food."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So one line item is carrying the whole thing."
+  },
+  {
+   "s": "A",
+   "t": "One demand cycle, and a front-loadable one. Data-centre orders can be pulled forward, and what can be pulled forward can reverse."
+  },
+  {
+   "s": "B",
+   "t": "Is anybody saying that out loud?"
+  },
+  {
+   "s": "A",
+   "t": "Maybank's Chua Hak Bin supplies the optimistic read — momentum could carry into the second half and potentially exceed the official forecast. The narrower caution is that concentration is a single point of failure for a trade-run economy."
+  },
+  {
+   "s": "B",
+   "t": "And meanwhile the cost-of-living cheque still had to be legislated."
+  },
+  {
+   "s": "A",
+   "t": "Two point four million citizens get between four hundred and six hundred Singapore dollars in September. Link your N-R-I-C to PayNow by the thirtieth of August to be paid earliest, on the ninth."
+  },
+  {
+   "s": "B",
+   "t": "The Rally's Sunday."
+  },
+  {
+   "s": "A",
+   "t": "The twenty-third, at I-T-E College Central. We're holding the content until it's spoken. But cost of living and the gap between the growth headline and wages are the throughlines to watch."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Okay, macro. Because something strange happened in bonds."
+  },
+  {
+   "s": "A",
+   "t": "Everything this week told the Federal Reserve to cut. July inflation cooled to three point four per cent. Retail sales fell six tenths — first drop since October. Payrolls were negative."
+  },
+  {
+   "s": "B",
+   "t": "All of which should pull yields down."
+  },
+  {
+   "s": "A",
+   "t": "And the thirty-year Treasury went the other way — to five point three one per cent. Its highest since two thousand and seven."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] On soft data? That's backwards."
+  },
+  {
+   "s": "A",
+   "t": "Only if you think it's about growth. It isn't. And the tell is that it happened globally — Canadian long yields at a twenty-ten high, German bunds back at twenty-eleven levels."
+  },
+  {
+   "s": "B",
+   "t": "So what is the market pricing?"
+  },
+  {
+   "s": "A",
+   "t": "Term premium. Deficits, long-dated supply, five years of above-target inflation — and now an oil tail, with Brent back near ninety. We're holding that number pending the settle, by the way; the sources spread on it."
+  },
+  {
+   "s": "B",
+   "t": "What does that do to a portfolio that owns global equities and global bonds?"
+  },
+  {
+   "s": "A",
+   "t": "It breaks the hedge. On Monday stocks fell and bonds fell together. The long end is leading the move, not cushioning it — so the bond side gave you no ballast at all."
+  },
+  {
+   "s": "B",
+   "t": "And the two hard assets?"
+  },
+  {
+   "s": "A",
+   "t": "Split in two, which is the interesting part. Gold is near a record at about four thousand four hundred dollars — despite high real yields, because central-bank buying and haven demand override its usual inverse. Bitcoin is around sixty-three thousand, in a shallow bear, starved by eight weeks of exchange-traded-fund outflows."
+  },
+  {
+   "s": "B",
+   "t": "So gold's trading as the anti-fiat hedge and bitcoin's trading as a risk asset."
+  },
+  {
+   "s": "A",
+   "t": "That's the split, and it's the signal. Not investment advice — this desk explains, it doesn't recommend."
+  },
+  {
+   "s": "B",
+   "t": "[wry] And the sceptic on our own read?"
+  },
+  {
+   "s": "A",
+   "t": "That the mispriced leg might be equities, not bonds. If the market is pricing fiscal debasement, then a near-record index sitting above a two-thousand-and-seven yield is the thing that looks strange — not the yield."
+  },
+  {
+   "s": "B",
+   "t": "Technology. And this one made me laugh, in a bleak way."
+  },
+  {
+   "s": "A",
+   "t": "On the seventh of August, the Commerce Department's export-control arm started quietly mapping a loophole it cannot yet close."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "You can't sell China the chip. But you can sell China the hour. Chinese firms are renting restricted Nvidia compute in third countries — a data centre in Malaysia, in Thailand — and it is entirely lawful."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] How is that lawful?"
+  },
+  {
+   "s": "A",
+   "t": "Because the export rules define an export as a physical transfer of hardware. The chip never crosses a border. The customer is a login."
+  },
+  {
+   "s": "B",
+   "t": "So the whole enforcement apparatus is built around an object crossing a line —"
+  },
+  {
+   "s": "A",
+   "t": "— and the thing that matters now is a session. Yes."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone noticed?"
+  },
+  {
+   "s": "A",
+   "t": "The House passed the Remote Access Security Act three hundred and sixty-nine to twenty-two."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's not a debate, that's a wince."
+  },
+  {
+   "s": "A",
+   "t": "It's a legislature conceding that the existing rule measures the wrong thing. Which is our whole issue in one vote."
+  },
+  {
+   "s": "B",
+   "t": "Alright — the home lab. What's worth pulling down this week?"
+  },
+  {
+   "s": "A",
+   "t": "Nvidia released Nemotron three point five Lightning on the eleventh. Thirty billion parameters total, but only about three billion active per token — a hybrid mixture-of-experts, genuinely open licence, weights and data and recipes."
+  },
+  {
+   "s": "B",
+   "t": "And on the rig?"
+  },
+  {
+   "s": "A",
+   "t": "This is the good bit. Four-bit weights land in the mid-teens of gigabytes — that fits one card with room for a very long cache. But the full sixteen-bit weights come to roughly sixty gigabytes."
+  },
+  {
+   "s": "B",
+   "t": "Which sits on two cards."
+  },
+  {
+   "s": "A",
+   "t": "Natively. No quantisation at all. That's the dividend of the second card — the right to stop compromising."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Okay, that's genuinely satisfying."
+  },
+  {
+   "s": "A",
+   "t": "With an asterisk. Fast is not smart. It trails the comparable Chinese open model on several evaluations, and the actual open-weights leader scores more than twice as high on one composite index."
+  },
+  {
+   "s": "B",
+   "t": "So it's a fast worker, not a ceiling."
+  },
+  {
+   "s": "A",
+   "t": "Correct. The frontier lives at five hundred billion to a trillion parameters, and it always will on hardware you rent rather than own."
+  },
+  {
+   "s": "B",
+   "t": "The Kit — the augmented-reality glasses."
+  },
+  {
+   "s": "A",
+   "t": "Snap Specs. Two thousand one hundred and ninety-five US dollars, shipping this autumn. Standalone true augmented reality — no phone, no puck, two processors behind the lenses, a fifty-one-degree field of view."
+  },
+  {
+   "s": "B",
+   "t": "That's real AR, not notifications on a lens?"
+  },
+  {
+   "s": "A",
+   "t": "Real. It renders into the world. And the hook for this reader is that the operating system now talks to A-I coding agents — you can point your own tooling at the thing on your face."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the verdict?"
+  },
+  {
+   "s": "A",
+   "t": "Don't buy it. It's a development kit in consumer clothing. The sub-hundred-gram weight is a target, not a shipped spec, and in a first-generation category the quality entry point doesn't exist yet. Let someone else fund the discovery."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] But first — the Atelier. The mud. You promised me mud."
+  },
+  {
+   "s": "A",
+   "t": "Audio cables. And this one's the desk's honesty test, because the reader runs serious hi-fi."
+  },
+  {
+   "s": "B",
+   "t": "Where's the money real?"
+  },
+  {
+   "s": "A",
+   "t": "Geometry, shielding, terminations. Star-quad construction cancels induced hum so well that Mogami claims ten to twenty decibels of signal-to-noise improvement. That's genuine — and it costs about a dollar a foot."
+  },
+  {
+   "s": "B",
+   "t": "A dollar a foot."
+  },
+  {
+   "s": "A",
+   "t": "The model citizen is Blue Jeans Cable, which ships a printed test report with every assembly. And its secret is that there's no secret — its cable is Belden or Canare bulk with proper plugs. The boutique buys industrial cable and solders it well."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the other end of the market?"
+  },
+  {
+   "s": "A",
+   "t": "Directional arrows printed on copper. Cryogenic freezing. Cable lifters to hold the wire off the carpet. When Audio Science Review measured one battery-biased model, the module did — their words — absolutely nothing."
+  },
+  {
+   "s": "B",
+   "t": "Prices?"
+  },
+  {
+   "s": "A",
+   "t": "AudioQuest's Dragon runs about twelve thousand dollars a metre."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] For the same job as the dollar-seventy-two cable."
+  },
+  {
+   "s": "A",
+   "t": "Two thousand times the price. And now the mud. In twenty twenty-four a d-i-y-audio experiment ran a signal through copper, through a banana, and through a tray of wet mud, and asked listeners to pick the copper."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] No."
+  },
+  {
+   "s": "A",
+   "t": "Six of forty-three got it. The experiment's creator noted, and I quote, the mud should sound perfectly awful, but it doesn't."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay. That's the most useful thing I'll hear today."
+  },
+  {
+   "s": "A",
+   "t": "And to be fair to the listeners — they're not lying. Price-primed listening genuinely alters perception, and almost no audition is level-matched. The dispute was never whether cables can differ. It's whether price tracks audibility."
+  },
+  {
+   "s": "B",
+   "t": "So the buy-once answer?"
+  },
+  {
+   "s": "A",
+   "t": "Terminate industrial cable honestly and stop. Then spend the rest on the room — one room mode swings your bass by fifteen to twenty decibels, which is an order of magnitude past any cable difference ever measured."
+  },
+  {
+   "s": "B",
+   "t": "Now the rabbit hole. And it's a race."
+  },
+  {
+   "s": "A",
+   "t": "HYROX. Eight kilometres of running, broken into eight one-kilometre legs, each followed by one of eight fixed stations. Ski erg, sled push, sled pull, burpee broad jumps, rowing, farmers carry, sandbag lunges, and a hundred wall balls."
+  },
+  {
+   "s": "B",
+   "t": "Which sounds like a Saturday at any gym."
+  },
+  {
+   "s": "A",
+   "t": "It is. Every movement is standard equipment. The trick is that the weights and distances are identical at every event on earth."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So you get a comparable time."
+  },
+  {
+   "s": "A",
+   "t": "You get a global leaderboard and a personal best you can carry from city to city. The measure becomes the point — and then the point becomes an obsession."
+  },
+  {
+   "s": "B",
+   "t": "How big is this?"
+  },
+  {
+   "s": "A",
+   "t": "The first race was Hamburg, April twenty eighteen. Six hundred and fifty people."
+  },
+  {
+   "s": "B",
+   "t": "And now?"
+  },
+  {
+   "s": "A",
+   "t": "The season just announced targets around two million athletes across a hundred and seven weekends."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] From six hundred and fifty."
+  },
+  {
+   "s": "A",
+   "t": "Revenue's about two hundred and twenty-five million dollars, ninety per cent of it events. New York sold out in forty minutes. A women's relay in Ghent went in two."
+  },
+  {
+   "s": "B",
+   "t": "Two minutes. What does the gear look like?"
+  },
+  {
+   "s": "A",
+   "t": "The cutting edge landed on the thirty-first of July — Puma shipped the Deviate Nitro Elite Four, the first shoe ever engineered specifically for this race. Two hundred and sixty US dollars."
+  },
+  {
+   "s": "B",
+   "t": "And is it the one to buy?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] The community's answer is refreshingly boring. The default pick is the Saucony Endorphin Pro Five at about two hundred and twenty-five, and the standing counsel is to buy the things that stop you getting hurt — shoes, socks — and stop stressing about the rest."
+  },
+  {
+   "s": "B",
+   "t": "What does the whole thing actually cost?"
+  },
+  {
+   "s": "A",
+   "t": "Entry is eighty to a hundred and fifty US dollars. But all in, a first-timer spends four to six hundred and fifty, and the entry fee is under forty per cent of the weekend. The rest is travel and the gym."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So you're paying to do gym exercises somewhere else."
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic, and it's fair. The honest counter is that you're buying the leaderboard and the arena, not the eight movements. But there's a harder number underneath."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "A peer-reviewed study last year found forty-three per cent of surveyed athletes reported an injury. Mostly overuse — tendon, joint, soft tissue — with recovery habits described as often inconsistent."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Forty-three per cent."
+  },
+  {
+   "s": "A",
+   "t": "And that is the point of the whole issue in one statistic. The leaderboard measures your finishing time. It does not measure your Achilles."
+  },
+  {
+   "s": "B",
+   "t": "And there's a Singapore race."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-seventh to twenty-ninth of November, at the National Stadium. Singles a hundred and ninety-six Singapore dollars."
+  },
+  {
+   "s": "B",
+   "t": "Culture, quickly. Phoebe Bridgers is back."
+  },
+  {
+   "s": "A",
+   "t": "Lost Weekend, out Friday. Her first solo album in six years. Metacritic in the low nineties, Pitchfork gave it eight point four and Best New Music, and Taylor Swift called it an absolute triumph."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Any dissent at all?"
+  },
+  {
+   "s": "A",
+   "t": "A minority strain calls it one-paced across sixteen tracks. But the lowest major review we can verify is still an eight point four."
+  },
+  {
+   "s": "B",
+   "t": "So what's the sceptical read?"
+  },
+  {
+   "s": "A",
+   "t": "That when every outlet lands in the nineties for a beloved artist's return, the score starts measuring the return rather than the record. It's a sampling problem, not a corruption one."
+  },
+  {
+   "s": "B",
+   "t": "And the family pick?"
+  },
+  {
+   "s": "A",
+   "t": "The Magic Faraway Tree opens on the twenty-first. Enid Blyton, Andrew Garfield, Claire Foy — and its actual theme is a family reconnecting away from addictive technology."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Well-timed, given the Family desk this issue."
+  },
+  {
+   "s": "A",
+   "t": "Very. A new study followed the same children through seven annual waves from age twelve. The finding: more than six hours a day on social media meant more than twice the odds of anxiety, more than three times the odds of suicidal thoughts."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Six hours. That's the tail, not the average."
+  },
+  {
+   "s": "A",
+   "t": "That's exactly the distinction, and it's the useful one. The sceptics — Candice Odgers at Irvine, Andrew Przybylski at Oxford — point out these are associations, not causation, and reverse causality is live. Anxious teenagers may seek heavier use."
+  },
+  {
+   "s": "B",
+   "t": "So what does a parent do with that?"
+  },
+  {
+   "s": "A",
+   "t": "Design the evening instead of policing the phone. Devices out of the bedroom overnight, and something the evening is built around so the scroll has to compete with a life. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And fitness — this one's genuinely useful."
+  },
+  {
+   "s": "A",
+   "t": "A Hong Kong trial randomised three hundred and fifteen adults into interval walking once a week, or the same seventy-five minutes split across three sessions."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "Cramming the whole dose into one session cut body fat and improved fitness about as well as spreading it out."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So if the week eats your training slots —"
+  },
+  {
+   "s": "A",
+   "t": "— protect the total, not the schedule. That's the finding. Though note it's a modest sample, and the endpoints are fat and fitness, not mortality."
+  },
+  {
+   "s": "B",
+   "t": "Okay. The Undercurrent. Take us out."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Vietnam has decided to stop importing its idols."
+  },
+  {
+   "s": "B",
+   "t": "Meaning what?"
+  },
+  {
+   "s": "A",
+   "t": "For twenty years, Vietnamese fans bought Korean pop. Now Vietnam is manufacturing its own — on television, through survival shows where thirty men perform and the audience votes them forward, week by week."
+  },
+  {
+   "s": "B",
+   "t": "The Korean format."
+  },
+  {
+   "s": "A",
+   "t": "Imported wholesale. But what it produces isn't a song. It's a roster — thirty artists whose fanbases were assembled on camera, in public, over months. And then sold as a tour, a merchandise line and an advertising inventory all at once."
+  },
+  {
+   "s": "B",
+   "t": "How big has that got?"
+  },
+  {
+   "s": "A",
+   "t": "More than a trillion dong last year across the shows, the artists, the concerts and the merchandise. More than forty billion views across two seasons. My Dinh stadium filled twice in one December."
+  },
+  {
+   "s": "B",
+   "t": "And this month it goes public."
+  },
+  {
+   "s": "A",
+   "t": "The studio behind it is selling shares right now — bookbuilding closes on the seventh of September, listing targeted for October. The chairman's pitch is, in his words, that he wants every Vietnamese family to be a shareholder."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Is this just Korea again, faster?"
+  },
+  {
+   "s": "A",
+   "t": "That's the frame everyone will reach for. But there's a better one. This is import substitution — the old development move where you stop buying the finished good from abroad and build the factory at home. Applied, this time, to devotion."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Huh."
+  },
+  {
+   "s": "A",
+   "t": "And the state is a co-author, not a referee. Cultural industries are about four per cent of Vietnamese output today; the national target is seven per cent by twenty thirty."
+  },
+  {
+   "s": "B",
+   "t": "So where's the catch? There's always a catch."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] Here it is. The company being floated as the engine of a billion-dollar idol economy had revenue fall about eight per cent last year."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Fell? In its biggest year?"
+  },
+  {
+   "s": "A",
+   "t": "In the year of its greatest cultural triumph. And the shares are priced about a third below an independent valuation."
+  },
+  {
+   "s": "B",
+   "t": "Which tells you the sellers know something."
+  },
+  {
+   "s": "A",
+   "t": "It tells you the audience is real and the machine that turns audiences into earnings is not built yet. Vietnam has the crowd, the fandom rituals, the state backing and now a share register. What it doesn't have is a product that travels — the thing Korea took twenty-five years to build."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And that's the issue, isn't it. That's the same shape as everything else."
+  },
+  {
+   "s": "A",
+   "t": "It's the same shape as all of it. An export print read as prosperity. A margin read as legitimacy. A price read as fidelity. A review score read as quality. A finishing time read as health."
+  },
+  {
+   "s": "B",
+   "t": "None of them gamed."
+  },
+  {
+   "s": "A",
+   "t": "None of them gamed. Just believed. Goodhart's famous warning was about targets people cheat on — but the quieter failure is the number nobody cheated at all, that simply got mistaken for the thing it was standing in for."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And the Vietnamese one published its own bad number."
+  },
+  {
+   "s": "A",
+   "t": "In the prospectus. Where anyone can find it. That's not what a bubble looks like — that's what a bet looks like when the people making it have done the arithmetic and decided to place it anyway."
+  },
+  {
+   "s": "B",
+   "t": "[pause] I'll take the honest bet over the flattering number."
+  },
+  {
+   "s": "A",
+   "t": "So will we. And when the big papers write this one up in three weeks — remember who brought you the discount first."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

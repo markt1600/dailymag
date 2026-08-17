@@ -1,81 +1,61 @@
 {
  "publication": "MERIDIAN",
- "issue": 74,
- "date": "16 August 2026",
- "generated": "2026-08-16T06:17:59+08:00",
+ "issue": 75,
+ "date": "18 August 2026",
+ "generated": "2026-08-18T06:20:35+08:00",
  "quote": {
-  "text": "The spectacle is not a collection of images; it is a social relation between people that is mediated by images.",
-  "author": "Guy Debord, The Society of the Spectacle (1967)"
+  "text": "When a measure becomes a target, it ceases to be a good measure.",
+  "author": "Marilyn Strathern's formulation of Goodhart's Law (1997)"
  },
  "macro": null,
  "stories": [
   {
-   "desk": "The Rabbit Hole",
-   "sub": "Down the Rabbit Hole",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · The Invitation",
-   "headline": "The Cardboard Economy",
-   "dek": "Nobody plans to spend seven thousand dollars on a picture of a lizard. It starts with a pack — and two tribes who would never share a lunch table end up buying from the same auction house.",
-   "anchor": "p15",
-   "featured": true
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · Departures",
-   "headline": "What Changed at the Gate",
-   "dek": "A new balance floor on your miles, more Scoot metal to the north — and the one nonstop that makes this weekend's Grand Tour a three-hour hop.",
-   "anchor": "p19",
-   "featured": true
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Long Read",
-   "category": "Essay",
-   "kicker": "The Undercurrent · Taiwan",
-   "headline": "The Girls on the Mound",
-   "dek": "Taiwan turned baseball into a concert — and then started importing Korea's idols to headline it. For twenty years Asia bought Korean cool. This is the first market to manufacture a version good enough to sell back.",
-   "anchor": "p25",
-   "featured": true
-  },
-  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · Central Africa",
-   "headline": "The Outbreak the World Walked Away From",
-   "dek": "A rarer Ebola strain, no licensed vaccine, and a war on top of it — the fastest-spreading epidemic on record is unfolding in the near-absence of the donor that used to run point.",
+   "kicker": "The World · Southern Africa",
+   "headline": "The Copper President Wins Big, and the Count Turns Ugly",
+   "dek": "Hakainde Hichilema is romping to a second term on the strength of a debt rescue — but the tallying stopped for six hours amid violence, and the loser is alleging soldiers seized the count. The margin and the mistrust are both real.",
    "anchor": "p3",
-   "featured": false
-  },
-  {
-   "desk": "Singapore",
-   "sub": "The Little Red Dot",
-   "category": "Asia",
-   "kicker": "Singapore · The Week Before the Rally",
-   "headline": "A Quiet Sunday, and the One Next Week",
-   "dek": "Before the set-piece, a week to ask what \"Go Beyond\" will actually mean for the grocery bill, the flat and the childcare fees — when the Prime Minister stands up seven days from now.",
-   "anchor": "p5",
-   "featured": false
+   "featured": true
   },
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Buy It Once — No. 1 · Sleepwear",
-   "headline": "Read the Momme, Ignore the Adjective",
-   "dek": "A new desk, and the reader's own question to open it: if you wanted one luxury set of pyjamas, what do people actually lust over? The answer starts at the cloth — and a 28°C bedroom rewrites the order.",
+   "kicker": "The Atelier · Buy It Once — No. 2 · Audio Cables",
+   "headline": "The Copper, the Banana and the Tray of Mud",
+   "dek": "The honest split: where a cable's price buys real engineering, and where it buys a story. One blind test settles more than a shelf of reviews.",
    "anchor": "p6",
+   "featured": true
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "Down the Rabbit Hole",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · The Invitation",
+   "headline": "The Race That Made a Gym Workout Into a World Ranking",
+   "dek": "Eight kilometres of running, eight fixed stations, identical in Singapore, London and New York. That sameness is the whole trick — it turns a Saturday workout into a personal best you can chase for the rest of your life. Two million people are now chasing it.",
+   "anchor": "p15",
+   "featured": true
+  },
+  {
+   "desk": "Singapore",
+   "sub": "The Little Red Dot",
+   "category": "Asia",
+   "kicker": "Singapore · Trade",
+   "headline": "A Record Export Month, and the Question It Doesn't Answer",
+   "dek": "Non-oil exports leapt 24.2 per cent in July and the trade agency tripled its forecast for the year. Strip out the AI chips, though, and the rest of what Singapore sells the world is shrinking.",
+   "anchor": "p5",
    "featured": false
   },
   {
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · The Export Paradox",
-   "headline": "The Chips Are Frozen. The Weights Walk Free.",
-   "dek": "Washington spent a year building a licence regime to meter advanced silicon into China. The thing that actually matters to a home lab crossed the border anyway — as a download.",
+   "kicker": "Technology · Export Control",
+   "headline": "The Chips Are Banned. The Compute Isn't.",
+   "dek": "Washington spent two years walling off the hardware. It turns out Chinese labs never needed to own the chips — they can rent them by the hour, one border over, entirely within the law.",
    "anchor": "p7",
    "featured": false
   },
@@ -83,9 +63,9 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · The Object You Queue For",
-   "headline": "A Pocket Camera With a Twelve-Month Order Book",
-   "dek": "No pre-order theatre, no wearable gimmick — the Ricoh GR IV is the anti-hype carry, a magnesium snap-shooter so in demand you grow into the wait.",
+   "kicker": "The Kit · Wearables",
+   "headline": "The First Real AR Glasses You Can Actually Order",
+   "dek": "Snap's Specs beat Meta, Apple and Google to a standalone true-AR consumer launch — no phone, no puck, two chips on your face. At S$3,000 they are a bet dressed as a product.",
    "anchor": "p9",
    "featured": false
   },
@@ -93,9 +73,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · The Escape",
-   "headline": "A Venetian Legend Gets New Keys",
-   "dek": "The Danieli — a Gothic palazzo on the lagoon since the fourteenth century — reopens under Four Seasons, its pink-marble atrium and gilded staircase intact, its nightly rate pointedly unpublished.",
+   "kicker": "The Good Life · Watches",
+   "headline": "A Diver the Colour of an Austrian Lake — and Not for Sale Here",
+   "dek": "Seiko's new green Prospex 1965 re-issue is the sweet-spot heritage diver done right: in-house movement, 300 metres, forty millimetres. The catch is a border — it is a European limited edition, fourteen hundred pieces, that Singapore was not offered.",
    "anchor": "p10",
    "featured": false
   },
@@ -103,9 +83,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · The Record for the Room",
-   "headline": "Jungle Make the Sundown Album Again",
-   "dek": "The British funk-soul collective's fifth, \"Sunshine,\" is a no-skips groove record engineered for good speakers — and a small argument about the cost of a winning formula.",
+   "kicker": "Screen & Sound · Music",
+   "headline": "Six Years Quiet, and the Return Lands at Ninety-Two",
+   "dek": "Phoebe Bridgers' first solo album since 2020 arrived Friday to near-unanimous acclaim — a hushed grief record the critics adored. The one honest question is whether the score is about the songs or the comeback.",
    "anchor": "p11",
    "featured": false
   },
@@ -113,9 +93,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Reframe",
-   "headline": "It Was Never the Hours",
-   "dek": "The 2026 evidence quietly retired the stopwatch. The damage screens do runs mostly through two things they push out — movement and sleep — and those are the two a parent can actually guard.",
+   "kicker": "The Family Desk · Adolescence",
+   "headline": "It Was Never the Hours. It's the Tail.",
+   "dek": "A new seven-year cohort followed children from age twelve finds the alarm belongs at the extreme — more than six hours a day — not at ordinary use. For a parent standing at the threshold with an eleven-year-old, that distinction is the whole ballgame.",
    "anchor": "p12",
    "featured": false
   },
@@ -124,8 +104,8 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · The Regime",
-   "headline": "Goldilocks, With an Oil Tail",
-   "dek": "A record within reach on Wall Street, gold at a fresh high, and a long bond that refuses to fall — three things that should not all be true at once, reconciled by a barrel.",
+   "headline": "The Data Said Cut. The Long Bond Said No.",
+   "dek": "Every soft print this week pointed the front end dovish — and the thirty-year still broke to its highest yield since 2007. When the measure and the market disagree, the market is telling you what the number leaves out.",
    "anchor": "p14",
    "featured": false
   },
@@ -133,9 +113,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Second Axis",
-   "headline": "Two Thirty-Second Tests, Read for Decades",
-   "dek": "The longevity crowd obsesses over aerobic fitness. A 2026 cohort makes the quiet case for the other axis — raw strength — and hands you two free home benchmarks to track it.",
+   "kicker": "Fitness · The Science",
+   "headline": "Seventy-Five Minutes, Once a Week, Did the Same Job",
+   "dek": "A Hong Kong trial split the identical weekly dose three ways and found the calendar barely mattered. It is the most useful finding of the month for anyone whose week keeps eating their training.",
    "anchor": "p18",
    "featured": false
   },
@@ -143,10 +123,20 @@
    "desk": "The Diary",
    "sub": "What's Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · The Season Fills Up",
-   "headline": "What to Book Between Now and the New Year",
+   "kicker": "The Diary · The Crunch Fortnight",
+   "headline": "Book October Now, Because October Is Already Full",
    "dek": "",
-   "anchor": "p23",
+   "anchor": "p19",
+   "featured": false
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Long Read",
+   "category": "Essay",
+   "kicker": "The Long Read · The Undercurrent",
+   "headline": "The Country That Decided to Stop Importing Its Idols",
+   "dek": "Vietnam spent twenty years buying Korean pop. Now it is manufacturing its own boy bands on television, filling stadiums with them — and, this month, floating the studio that makes them on the stock exchange. The bookbuilding closes on 7 September.",
+   "anchor": "p21",
    "featured": false
   }
  ]
