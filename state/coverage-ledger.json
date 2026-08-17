@@ -1,5 +1,5 @@
 {
-  "count": 464,
+  "count": 474,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -3248,6 +3248,76 @@
       "last_covered": "No. 68",
       "last_peg": "Foura (Gardens by the Bay glasshouse, wellness, view>plate), Assaggi (77A Neil Rd, now-open 10 Aug, first-reviews peg from No.67), Liora (Clarke Quay, too-new/price HELD), Charcoal Grill Shinpachi (NEX, opens 15 Aug, too new)",
       "next_peg": "Rotate venues; New-Peg Test each."
+    },
+    {
+      "subject": "Snap Specs (standalone AR glasses)",
+      "type": "Product (wearable)",
+      "last_covered": "No. 75",
+      "last_peg": "The Kit LEAD — US$2,195 (preorder $200 dep / $1,995 on ship), autumn ship US/UK/FR; dual Snapdragon, LCoS, 51° FOV (~+30% area vs Spectacles 5), Swiss TR90, &lt;100g TARGET; Snap OS with OpenAI+Gemini and AI-coding-agent support; sceptic = dev kit in consumer clothing, buy gen 2",
+      "next_peg": "Next peg = shipped units + independent reviews (autumn 2026), or a price/spec change."
+    },
+    {
+      "subject": "Seiko Prospex 1965 Heritage Diver HBC010",
+      "type": "Product (watch)",
+      "last_covered": "No. 75",
+      "last_peg": "The Good Life LEAD — announced 1 Aug 2026, EUR 1,650, 1,400 pieces EUROPE-ONLY; 40×13mm/46.4 L2L, 300m, domed sapphire, in-house 6R55 (24j, 72h, hacking+handwind), \"calmwater green\" sunray; SG buyers = grey import, no local warranty; sceptic = scarcity premium on a mid-tier Prospex",
+      "next_peg": "Next peg = a wider/regular-production release of the colour, or SG availability."
+    },
+    {
+      "subject": "Nemotron 3.5 Lightning (NVIDIA open model)",
+      "type": "Product (AI model)",
+      "last_covered": "No. 75",
+      "last_peg": "Technology home-lab LEAD — released 11 Aug 2026; 30B total/~3B active hybrid Mamba-Transformer MoE, OpenMDW-1.1 (weights+data+recipes), up to 1M ctx; 4-bit mid-teens GB (one 5090 + long KV), BF16 ~60–66GB = dual-5090 NATIVE precision; day-one GGUF; trails Qwen equivalent, Kimi K2.6 53.9 vs ~24 on one composite",
+      "next_peg": "Next peg = independent evals, a successor release, or real agent-loop results."
+    },
+    {
+      "subject": "BIS review of offshore cloud compute (export-control loophole)",
+      "type": "Policy (export control)",
+      "last_covered": "No. 75",
+      "last_peg": "Technology LEAD — Bloomberg 7 Aug 2026: BIS mapping Chinese offshore rental of restricted Nvidia silicon; EAR §734.2 defines export as PHYSICAL transfer so rented hours are lawful; House passed Remote Access Security Act 369–22; named rental routes secondary-sourced only",
+      "next_peg": "DEVELOPING — advance on a rule change, enforcement action, or Senate passage; delta only."
+    },
+    {
+      "subject": "Phoebe Bridgers — Lost Weekend",
+      "type": "Music (album)",
+      "last_covered": "No. 75",
+      "last_peg": "Screen LEAD — released 14 Aug 2026 (Dead Oceans), 1st solo since Punisher (2020); Metacritic ~92, Pitchfork 8.4 + Best New Music, Variety warm, Taylor Swift praise; minority \"one-paced\" dissent (user reviews, no verified numeric low); sceptic = the comeback tax on the aggregate",
+      "next_peg": "Concluded unless a tour, a chart peg or a settled critical reappraisal."
+    },
+    {
+      "subject": "The Magic Faraway Tree (film)",
+      "type": "Film (family)",
+      "last_covered": "No. 75",
+      "last_peg": "Screen family pick — PG, wide 21 Aug 2026; Blyton adaptation (dir. Ben Gregor; Garfield/Foy/Coughlan); ~3.5★; explicit anti-screen theme",
+      "next_peg": "Next peg = actual reviews/box office, or a sequel."
+    },
+    {
+      "subject": "Tian Tian Hainanese Chicken Rice (Jewel flagship)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 75",
+      "last_peg": "The Table LEAD — Maxwell institution + Michelin Bib Gourmand opens a full flagship at Jewel #B2-243/244, daily 10–10; soft launch 11–17 Aug (20% off), grand opening 22 Aug (first 88 diners daily free signature); signature S$11 (dearer than hawker branches), Heritage Platter S$25.80++ for 2–3; not halal",
+      "next_peg": "Next peg = settled reviews once the opening promos clear, or a verdict on the price shift."
+    },
+    {
+      "subject": "Charcoal Grill Shinpachi (NEX)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 75",
+      "last_peg": "The Table delta — the \"opens 15 Aug\" preview (Nos. 64/68/70/72) ACTUALLY OPENED 15 Aug 2026; first intl outlet of the 100+-shop Japanese yakizakana chain; teishoku sets from S$8.90 (price held); 3 days old at press, no reception reported",
+      "next_peg": "Next peg = first settled reviews."
+    },
+    {
+      "subject": "HYROX (the race &amp; its season)",
+      "type": "Standing (sport/hobby)",
+      "last_covered": "No. 75",
+      "last_peg": "Rabbit Hole 3pp — see the Hobby Ledger; live SG peg = AIA HYROX Singapore II, National Stadium 27–29 Nov 2026 (Singles S$196)",
+      "next_peg": "Hobby covered once, ever; the SG race is a Diary/Fitness peg only."
+    },
+    {
+      "subject": "The Table (SG openings, No. 75)",
+      "type": "Standing (dining)",
+      "last_covered": "No. 75",
+      "last_peg": "Tian Tian (Jewel flagship, now open) + Charcoal Grill Shinpachi (NEX, opened 15 Aug); Assaggi/Katsu by Kyu/Liora/Xava DEMOTED to a \"still on the shelf\" strip under the New-Peg Test",
+      "next_peg": "Rotate venues; the fortnight was genuinely thin — do not re-run the demoted four without a settled verdict."
     }
   ]
 }
