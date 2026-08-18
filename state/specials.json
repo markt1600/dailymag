@@ -1,92 +1,93 @@
 {
-  "specials": [
-    {
-      "no": "62.5",
-      "date": "2026-08-04",
-      "topic": "Flight simulator enthusiasts",
-      "path": "special-62-5.html",
-      "pdf": "special-62-5.pdf",
-      "requestTs": "2026-08-04T04:20:09Z"
-    },
-    {
-      "no": "64.5",
-      "date": "2026-08-06",
-      "topic": "Kanazawa",
-      "path": "special-64-5.html",
-      "pdf": "special-64-5.pdf",
-      "requestTs": "2026-08-06T03:08:46Z"
-    },
-    {
-      "no": "65.5",
-      "date": "2026-08-07",
-      "topic": "MiniMax H3",
-      "path": "special-65-5.html",
-      "pdf": "special-65-5.pdf",
-      "requestTs": "2026-08-07T02:35:12Z"
-    },
-    {
-      "no": "66.5",
-      "date": "2026-08-08",
-      "topic": "Sim racing",
-      "path": "special-66-5.html",
-      "pdf": "special-66-5.pdf",
-      "requestTs": "2026-08-08T04:12:38.418Z"
-    },
-    {
-      "no": "68.5",
-      "date": "2026-08-10",
-      "topic": "Model passenger plane collecting",
-      "path": "special-68-5.html",
-      "pdf": "special-68-5.pdf",
-      "requestTs": "2026-08-10T00:41:27Z"
-    },
-    {
-      "no": "70.5",
-      "date": "2026-08-12",
-      "topic": "Studio Pottery",
-      "path": "special-70-5.html",
-      "pdf": "special-70-5.pdf",
-      "requestTs": "2026-08-12T00:23:47.055Z"
-    },
-    {
-      "no": "71.5",
-      "date": "2026-08-13",
-      "topic": "Shortwave radio (listening / SWL)",
-      "path": "special-71-5.html",
-      "pdf": "special-71-5.pdf",
-      "requestTs": "2026-08-13T01:24:38.409Z"
-    },
-    {
-      "no": "72.5",
-      "date": "2026-08-14",
-      "topic": "Home cybersecurity",
-      "path": "special-72-5.html",
-      "pdf": "special-72-5.pdf",
-      "requestTs": "2026-08-14T01:10:34.000Z"
-    },
-    {
-      "no": "73.5",
-      "date": "2026-08-15",
-      "topic": "Da Lat, Vietnam",
-      "path": "special-73-5.html",
-      "pdf": "special-73-5.pdf",
-      "requestTs": "2026-08-15T08:32:07.000Z"
-    },
-    {
-      "no": "74.5",
-      "date": "2026-08-16",
-      "topic": "The Slim d'Hermès Neo Brandebourgs Tourbillon",
-      "path": "special-74-5.html",
-      "pdf": "special-74-5.pdf",
-      "requestTs": "2026-08-15T14:07:23.000Z"
-    },
-    {
-      "no": "75.5",
-      "date": "2026-08-18",
-      "topic": "The Hermès Kelly Bag",
-      "path": "special-75-5.html",
-      "pdf": "special-75-5.pdf",
-      "requestTs": "2026-08-18T05:30:13.000Z"
-    }
-  ]
+ "specials": [
+  {
+   "no": "62.5",
+   "date": "2026-08-04",
+   "topic": "Flight simulator enthusiasts",
+   "path": "special-62-5.html",
+   "pdf": "special-62-5.pdf",
+   "requestTs": "2026-08-04T04:20:09Z"
+  },
+  {
+   "no": "64.5",
+   "date": "2026-08-06",
+   "topic": "Kanazawa",
+   "path": "special-64-5.html",
+   "pdf": "special-64-5.pdf",
+   "requestTs": "2026-08-06T03:08:46Z"
+  },
+  {
+   "no": "65.5",
+   "date": "2026-08-07",
+   "topic": "MiniMax H3",
+   "path": "special-65-5.html",
+   "pdf": "special-65-5.pdf",
+   "requestTs": "2026-08-07T02:35:12Z"
+  },
+  {
+   "no": "66.5",
+   "date": "2026-08-08",
+   "topic": "Sim racing",
+   "path": "special-66-5.html",
+   "pdf": "special-66-5.pdf",
+   "requestTs": "2026-08-08T04:12:38.418Z"
+  },
+  {
+   "no": "68.5",
+   "date": "2026-08-10",
+   "topic": "Model passenger plane collecting",
+   "path": "special-68-5.html",
+   "pdf": "special-68-5.pdf",
+   "requestTs": "2026-08-10T00:41:27Z"
+  },
+  {
+   "no": "70.5",
+   "date": "2026-08-12",
+   "topic": "Studio Pottery",
+   "path": "special-70-5.html",
+   "pdf": "special-70-5.pdf",
+   "requestTs": "2026-08-12T00:23:47.055Z"
+  },
+  {
+   "no": "71.5",
+   "date": "2026-08-13",
+   "topic": "Shortwave radio (listening / SWL)",
+   "path": "special-71-5.html",
+   "pdf": "special-71-5.pdf",
+   "requestTs": "2026-08-13T01:24:38.409Z"
+  },
+  {
+   "no": "72.5",
+   "date": "2026-08-14",
+   "topic": "Home cybersecurity",
+   "path": "special-72-5.html",
+   "pdf": "special-72-5.pdf",
+   "requestTs": "2026-08-14T01:10:34.000Z"
+  },
+  {
+   "no": "73.5",
+   "date": "2026-08-15",
+   "topic": "Da Lat, Vietnam",
+   "path": "special-73-5.html",
+   "pdf": "special-73-5.pdf",
+   "requestTs": "2026-08-15T08:32:07.000Z"
+  },
+  {
+   "no": "74.5",
+   "date": "2026-08-16",
+   "topic": "The Slim d'Hermès Neo Brandebourgs Tourbillon",
+   "path": "special-74-5.html",
+   "pdf": "special-74-5.pdf",
+   "requestTs": "2026-08-15T14:07:23.000Z"
+  },
+  {
+   "no": "75.5",
+   "date": "2026-08-18",
+   "topic": "The Hermès Kelly Bag",
+   "path": "special-75-5.html",
+   "pdf": "special-75-5.pdf",
+   "requestTs": "2026-08-18T05:30:13.000Z"
+  }
+ ],
+ "lastDeliveryRetry": "75.5"
 }
