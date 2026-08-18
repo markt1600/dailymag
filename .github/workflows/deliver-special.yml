@@ -49,7 +49,9 @@ jobs:
             -in assets/remarkable/rmapi.conf.enc -out ~/.config/rmapi/rmapi.conf
           RMAPI="$HOME"/rmapi
           NO=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['no'])")
-          TOPIC=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['topic'])")
+          # ASCII-fold the topic: the reMarkable API 400s on non-ASCII filenames
+          # ("MERIDIAN No. 75.5 - SPECIAL - The Hermès Kelly Bag.pdf" failed).
+          TOPIC=$(python3 -c "import json,unicodedata,re;t=json.load(open('state/specials.json'))['specials'][-1]['topic'];t=unicodedata.normalize('NFKD',t).encode('ascii','ignore').decode();print(re.sub(r'[^A-Za-z0-9 ,.&()-]+',' ',t).strip())")
           PDF=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['pdf'])")
           NAME="MERIDIAN No. $NO - SPECIAL - $TOPIC"
           $RMAPI mkdir /MERIDIAN 2>/dev/null || true
