@@ -121,12 +121,15 @@ for _desk, _secs in _desk_pages.items():
 
 # page-two feature rotation (from No. 51): Friday needs The Meridian Index,
 # Saturday needs The Scoreboard. Weekday read from the cover's date line.
-_issm = re.search(r'No\.\s*(\d{1,3})(?:\.5)?\s*·\s*Singapore', html)
+_issm = re.search(r'No\.\s*(\d{1,3})(?:\.\d)?\s*·\s*Singapore', html)
 _issno = int(_issm.group(1)) if _issm else 0
 # SPECIAL EDITIONS (No. NN.5): one-topic 24pp deep dives keep the full visual
 # system and quality floors but not the daily desk structure — desk-structure
 # gates are skipped for them below.
-_special = bool(re.search(r'No\.\s*\d+\.5\s*·\s*Singapore', html))
+# a special is any decimal issue (NN.5 normally; NN.6+ when a second
+# special is commissioned off the same daily — first case: 74.6, the
+# Kelly bag, after 74.5 took the .5 slot)
+_special = bool(re.search(r'No\.\s*\d+\.\d\s*·\s*Singapore', html))
 _daym = re.search(r'\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b', pages[0] if pages else '')
 _day = _daym.group(1) if _daym else ''
 if _issno >= 51 and not _special:
