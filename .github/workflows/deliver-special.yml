@@ -55,6 +55,23 @@ jobs:
           PDF=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['pdf'])")
           NAME="MERIDIAN No. $NO - SPECIAL - $TOPIC"
           $RMAPI mkdir /MERIDIAN 2>/dev/null || true
+          # The reMarkable cloud 400s on large uploads: a 3.2MB special
+          # delivered fine, a 4.0MB one failed twice. Compress anything over
+          # ~3MB with ghostscript before uploading (text stays sharp; the
+          # photo heroes are print-hidden anyway, so quality loss is minimal).
+          SZ=$(stat -c%s "$PDF")
+          if [ "$SZ" -gt 3100000 ]; then
+            echo "PDF is $SZ bytes — compressing before upload"
+            sudo apt-get update -qq && sudo apt-get install -y -qq ghostscript || true
+            if command -v gs >/dev/null; then
+              gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+                 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=/tmp/_small.pdf "$PDF" && \
+                 NEW=$(stat -c%s /tmp/_small.pdf) && echo "compressed to $NEW bytes" && \
+                 [ "$NEW" -lt "$SZ" ] && [ "$NEW" -gt 100000 ] && PDF=/tmp/_small.pdf
+            else
+              echo "ghostscript unavailable — uploading original, may 400"
+            fi
+          fi
           # idempotence: a re-click on the menu item must not error or duplicate
           if $RMAPI ls /MERIDIAN | grep -qF "$NAME"; then
             echo "already delivered: $NAME — skipping upload"
