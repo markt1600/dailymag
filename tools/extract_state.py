@@ -144,7 +144,11 @@ for _am in re.finditer(r"(?m)^## ATELIER LEDGER\s*$", md):
             at_cov += [{"category": c[0].strip("*"), "issue": c[1], "angle": c[2][:300]}
                        for c in _rows if len(c) >= 3]
         elif _title.startswith("queued"):
-            at_queue += [{"category": c[0].strip("*"), "order": c[1], "focus": c[2][:600]}
+            # 3,000 chars: an editor's Atelier brief carries the whole angle
+            # (mechanism, makers, tiers, white-label truth, sceptic) and a
+            # 600-char slice cut it mid-sentence — the queue is 1-3 rows, so
+            # the state file stays small either way.
+            at_queue += [{"category": c[0].strip("*"), "order": c[1], "focus": c[2][:3000]}
                          for c in _rows if len(c) >= 3]
         elif _title.startswith("on-deck"):
             at_pipe += [{"category": c[0].strip("*"), "rotation": c[1],
