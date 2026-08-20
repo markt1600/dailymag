@@ -39,7 +39,7 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/ddvk/rmapi /tmp/rmapi-src
           cd /tmp/rmapi-src && go build -o "$HOME/rmapi" .
-      - name: Deliver the newest special
+      - name: Deliver specials missing from the tablet
         if: steps.gate.outputs.go == 'yes'
         env:
           PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
@@ -48,35 +48,48 @@ jobs:
           openssl enc -d -aes-256-cbc -pbkdf2 -pass env:PASSPHRASE \
             -in assets/remarkable/rmapi.conf.enc -out ~/.config/rmapi/rmapi.conf
           RMAPI="$HOME"/rmapi
-          NO=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['no'])")
-          # ASCII-fold the topic: the reMarkable API 400s on non-ASCII filenames
-          # ("MERIDIAN No. 75.5 - SPECIAL - The Hermès Kelly Bag.pdf" failed).
-          TOPIC=$(python3 -c "import json,unicodedata,re;t=json.load(open('state/specials.json'))['specials'][-1]['topic'];t=unicodedata.normalize('NFKD',t).encode('ascii','ignore').decode();print(re.sub(r'[^A-Za-z0-9 ,.&()-]+',' ',t).strip())")
-          PDF=$(python3 -c "import json;print(json.load(open('state/specials.json'))['specials'][-1]['pdf'])")
-          NAME="MERIDIAN No. $NO - SPECIAL - $TOPIC"
           $RMAPI mkdir /MERIDIAN 2>/dev/null || true
-          # The reMarkable cloud 400s on large uploads: a 3.2MB special
-          # delivered fine, a 4.0MB one failed twice. Compress anything over
-          # ~3MB with ghostscript before uploading (text stays sharp; the
-          # photo heroes are print-hidden anyway, so quality loss is minimal).
-          SZ=$(stat -c%s "$PDF")
-          if [ "$SZ" -gt 3100000 ]; then
-            echo "PDF is $SZ bytes — compressing before upload"
-            sudo apt-get update -qq && sudo apt-get install -y -qq ghostscript || true
-            if command -v gs >/dev/null; then
-              gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
-                 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=/tmp/_small.pdf "$PDF" && \
-                 NEW=$(stat -c%s /tmp/_small.pdf) && echo "compressed to $NEW bytes" && \
-                 [ "$NEW" -lt "$SZ" ] && [ "$NEW" -gt 100000 ] && PDF=/tmp/_small.pdf
-            else
-              echo "ghostscript unavailable — uploading original, may 400"
+          $RMAPI ls /MERIDIAN > /tmp/_onDevice.txt 2>/dev/null || true
+          # SELF-HEALING: walk the most recent specials and upload any the
+          # tablet is missing, not just the newest. A special that failed to
+          # deliver once (75.5 predates the size fix) would otherwise never
+          # arrive, since a later special moves the "newest" pointer past it.
+          # Topics are ASCII-folded: the reMarkable API 400s on accented names.
+          python3 - <<'PY' > /tmp/_specials.tsv
+          import json, unicodedata, re
+          sp = json.load(open('state/specials.json'))['specials'][-6:]
+          for s in sp:
+              t = unicodedata.normalize('NFKD', s['topic']).encode('ascii','ignore').decode()
+              t = re.sub(r'[^A-Za-z0-9 ,.&()-]+', ' ', t).strip()
+              print(f"{s['no']}\t{t}\t{s['pdf']}")
+          PY
+          while IFS=$'\t' read -r NO TOPIC PDF; do
+            [ -z "$NO" ] && continue
+            NAME="MERIDIAN No. $NO - SPECIAL - $TOPIC"
+            # Match on the ISSUE NUMBER, not the full name: 74.5 was delivered
+            # before the accent-folding fix and sits on the tablet under its
+            # original accented name, so a name match would duplicate it.
+            if grep -qF "MERIDIAN No. $NO - SPECIAL" /tmp/_onDevice.txt; then
+              echo "already on device: No. $NO"; continue
             fi
-          fi
-          # idempotence: a re-click on the menu item must not error or duplicate
-          if $RMAPI ls /MERIDIAN | grep -qF "$NAME"; then
-            echo "already delivered: $NAME — skipping upload"
-          else
-            cp "$PDF" "$NAME.pdf"
-            $RMAPI put "$NAME.pdf" /MERIDIAN
-            echo "delivered: $NAME"
-          fi
+            if [ ! -f "$PDF" ]; then echo "missing file for $NO: $PDF"; continue; fi
+            UP="$PDF"
+            SZ=$(stat -c%s "$PDF")
+            # reMarkable 400s on large uploads (a 4.0MB special failed twice,
+            # 3.2MB succeeded). Compress anything over ~3.1MB first.
+            if [ "$SZ" -gt 3100000 ]; then
+              echo "$NO is $SZ bytes — compressing"
+              command -v gs >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ghostscript || true; }
+              if command -v gs >/dev/null; then
+                if gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+                      -dNOPAUSE -dQUIET -dBATCH -sOutputFile="/tmp/_c_$NO.pdf" "$PDF"; then
+                  NEW=$(stat -c%s "/tmp/_c_$NO.pdf")
+                  echo "  compressed $SZ -> $NEW bytes"
+                  [ "$NEW" -lt "$SZ" ] && [ "$NEW" -gt 100000 ] && UP="/tmp/_c_$NO.pdf"
+                fi
+              fi
+            fi
+            cp "$UP" "$NAME.pdf"
+            $RMAPI put "$NAME.pdf" /MERIDIAN && echo "delivered: $NAME" || echo "FAILED: $NAME"
+            rm -f "$NAME.pdf"
+          done < /tmp/_specials.tsv
