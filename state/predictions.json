@@ -4,42 +4,10 @@
   {
    "issue": 51,
    "desk": "Macro",
-   "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), per ~83% market-implied odds",
-   "check_by": "2026-07-30",
-   "outcome": "right",
-   "result": "Fed HELD 3.50-3.75% at the 28-29 Jul FOMC — 5th straight hold — but on a hawkish 9-3 split, with three dissents wanting a HIKE (graded No. 59)."
-  },
-  {
-   "issue": 51,
-   "desk": "Macro",
-   "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
-   "check_by": "2026-07-28",
-   "outcome": "wrong",
-   "result": "MISS. MAS TIGHTENED (steeper S$NEER slope) at its 27 Jul statement rather than holding pat (graded No. 59)."
-  },
-  {
-   "issue": 51,
-   "desk": "Macro",
    "claim": "Regime call: higher-for-longer, oil-driven inflation bid, firm dollar persists",
    "check_by": "2026-08-15",
    "outcome": "push",
    "result": "Half-right: higher-for-longer held, but the oil-driven inflation bid unwound (July CPI 3.4%) and the dollar never firmed (DXY ~99.8, well short of the firm-dollar call). Graded No. 73."
-  },
-  {
-   "issue": 51,
-   "desk": "Technology",
-   "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised",
-   "check_by": "2026-07-29",
-   "outcome": "right",
-   "result": "Kimi K3 weights went live ~26-27 Jul as promised; Unsloth published dynamic GGUF quants on 29 Jul (graded No. 59)."
-  },
-  {
-   "issue": 51,
-   "desk": "Technology",
-   "claim": "DeepSeek legacy chat/reasoner API endpoints stop resolving after 15:59 UTC 24 Jul",
-   "check_by": "2026-07-26",
-   "outcome": "right",
-   "result": "Retired on schedule at 15:59 UTC 24 Jul; the deepseek-chat/-reasoner aliases now fail (graded on No. 52 Scoreboard)."
   },
   {
    "issue": 51,
@@ -51,26 +19,10 @@
   },
   {
    "issue": 51,
-   "desk": "Property",
-   "claim": "Dunearn House sells more than half its units on 25 Jul launch day",
-   "check_by": "2026-07-28",
-   "outcome": "wrong",
-   "result": "Dunearn House moved 56% (212/380) on its launch weekend, avg ~S$3,140 psf — above half, below 70% (graded No. 66). 'More than half on 25 Jul launch day' — take-up reported over the weekend at 56%."
-  },
-  {
-   "issue": 51,
    "desk": "The Long Read",
    "claim": "A Western major (NYT/BBC/Reuters/FT) runs a feature on China's guzi/emotional-value economy within ~4 weeks",
    "check_by": "2026-08-24",
    "outcome": null
-  },
-  {
-   "issue": 51,
-   "desk": "The World",
-   "claim": "The 10-day Gulf ceasefire proposal is not accepted by both sides within a week",
-   "check_by": "2026-07-31",
-   "outcome": "right",
-   "result": "Iran rejected the Iraqi-brokered 10-day truce outright on 24 Jul over Hormuz; unaccepted within the week."
   },
   {
    "issue": 52,
@@ -107,7 +59,8 @@
    "desk": "The World",
    "claim": "No signed US-Iran/Gulf ceasefire by 15 August despite the rejected 10-day proposal",
    "check_by": "2026-08-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "No US-Iran/Gulf ceasefire signed; the deadline expired 17 Aug and talks stalled again."
   },
   {
    "issue": 52,
@@ -115,30 +68,6 @@
    "claim": "Japan's departure tax is confirmed/legislated at Y3,000 (not merely proposed) by end-2026",
    "check_by": "2026-12-31",
    "outcome": null
-  },
-  {
-   "issue": 53,
-   "desk": "Macro",
-   "claim": "The Fed holds rates at the 28-29 Jul FOMC (no hike), the ~63% base case over the ~36% hike tail",
-   "check_by": "2026-07-30",
-   "outcome": "right",
-   "result": "Fed HELD 3.50-3.75% at the 28-29 Jul FOMC — 5th straight hold — but on a hawkish 9-3 split, with three dissents wanting a HIKE (graded No. 59)."
-  },
-  {
-   "issue": 53,
-   "desk": "Macro",
-   "claim": "MAS keeps policy settings unchanged at its ~27 Jul quarterly statement",
-   "check_by": "2026-07-29",
-   "outcome": "wrong",
-   "result": "MISS. MAS TIGHTENED the S$NEER slope on 27 Jul, not a flat hold (graded No. 59)."
-  },
-  {
-   "issue": 53,
-   "desk": "Technology",
-   "claim": "Moonshot releases Kimi K3 open weights on 27 Jul as promised (no further slip)",
-   "check_by": "2026-07-30",
-   "outcome": "right",
-   "result": "Kimi K3 weights went live ~26-27 Jul as promised; Unsloth published dynamic GGUF quants on 29 Jul (graded No. 59)."
   },
   {
    "issue": 53,
@@ -180,30 +109,6 @@
   },
   {
    "issue": 54,
-   "desk": "Singapore",
-   "claim": "MAS keeps the S$NEER band unchanged (slope, width, centre) at its 27 Jul statement",
-   "check_by": "2026-07-27",
-   "outcome": "wrong",
-   "result": "MISS. MAS did NOT stand pat: on 27 Jul it TIGHTENED, steepening the S$NEER appreciation slope (band width and centre unchanged). We called a flat hold; the slope moved (graded No. 59)."
-  },
-  {
-   "issue": 54,
-   "desk": "The Macro Desk",
-   "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
-   "check_by": "2026-07-29",
-   "outcome": "right",
-   "result": "Fed HELD 3.50-3.75% on 29 Jul (9-3 hawkish, 3 hike dissents) — the ~1/3 hike tail did not fire (graded No. 59)."
-  },
-  {
-   "issue": 54,
-   "desk": "The World",
-   "claim": "The US–Iran mutual pause over Hormuz survives past 48 hours from publication (no fresh US strike by 29 Jul)",
-   "check_by": "2026-07-29",
-   "outcome": "right",
-   "result": "The late-July US–Iran strike pause held past 48h (no fresh US strike by 29 Jul) — RIGHT (graded No. 66)."
-  },
-  {
-   "issue": 54,
    "desk": "Property",
    "claim": "Dunearn House's unsold ~45% does NOT clear (stays >20% unsold) within four weeks without a price cut",
    "check_by": "2026-08-24",
@@ -231,14 +136,6 @@
    "claim": "Sony FX5 bodies ship to buyers in August 2026 at the US$4,899 price",
    "check_by": "2026-09-01",
    "outcome": null
-  },
-  {
-   "issue": 55,
-   "desk": "The Macro Desk",
-   "claim": "The FOMC holds the target at 3.50–3.75% on 29 Jul (the ~1/3 hike tail does not fire)",
-   "check_by": "2026-07-30",
-   "outcome": "right",
-   "result": "Fed HELD 3.50-3.75% on 29 Jul (9-3 hawkish, 3 hike dissents) — the ~1/3 hike tail did not fire (graded No. 59)."
   },
   {
    "issue": 55,
@@ -273,14 +170,6 @@
   {
    "issue": 55,
    "desk": "Screen & Sound",
-   "claim": "Spider-Man: Brand New Day's Rotten Tomatoes critic score lands in the high-80s-to-mid-90s (i.e. ≥85%) when the embargo lifts",
-   "check_by": "2026-07-30",
-   "outcome": "right",
-   "result": "Spider-Man: Brand New Day opened at 90% Certified Fresh on Rotten Tomatoes (~230 reviews) — clears the ≥85% call, though it is the LOWEST critics’ score of Holland’s five Spider-films (graded No. 59)."
-  },
-  {
-   "issue": 55,
-   "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day opens at or above US$230m domestic on its 31 Jul debut",
    "check_by": "2026-08-03",
    "outcome": "right",
@@ -298,15 +187,8 @@
    "desk": "The Long Read",
    "claim": "No Western major (NYT/BBC/Reuters/FT/Economist) runs a feature on China's pindou (perler-bead) craze within three weeks",
    "check_by": "2026-08-18",
-   "outcome": null
-  },
-  {
-   "issue": 56,
-   "desk": "Macro",
-   "claim": "The Fed HOLDS at the 28-29 Jul FOMC (Warsh's first meeting), the 5th straight hold, per ~62-65% market-implied odds",
-   "check_by": "2026-07-30",
    "outcome": "right",
-   "result": "Fed HELD 3.50-3.75% at the 28-29 Jul FOMC — 5th straight hold — but on a hawkish 9-3 split, with three dissents wanting a HIKE (graded No. 59)."
+   "result": "No NYT/BBC/Reuters/FT/Economist feature on the pindou (perler-bead) craze surfaced within three weeks."
   },
   {
    "issue": 56,
@@ -320,7 +202,8 @@
    "desk": "Macro",
    "claim": "Regime call: dollar-bid / higher-for-longer persists; gold stays >10% below its 20 Jan ~$4,736 record",
    "check_by": "2026-08-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS on both legs: the dollar sagged (DXY ~98.8, soft not bid) and gold at ~$4,600 sits only ~3% below the ~$4,736 record, not >10% below."
   },
   {
    "issue": 56,
@@ -335,7 +218,8 @@
    "desk": "Technology",
    "claim": "Independent testers reproduce Kimi K3's Artificial Analysis Intelligence Index of ~57 within a point or two once the novelty fades",
    "check_by": "2026-08-20",
-   "outcome": null
+   "outcome": "push",
+   "result": "Held: Kimi K3's index broadly stood, but a clean independent reproduction of ~57 was not confirmed this pass."
   },
   {
    "issue": 56,
@@ -358,14 +242,6 @@
    "check_by": "2026-08-03",
    "outcome": "right",
    "result": "Spider-Man: Brand New Day's 3-day domestic opening was $360M — the biggest of ALL TIME, past Endgame's $357.1M (graded No. 66)."
-  },
-  {
-   "issue": 57,
-   "desk": "The Macro Desk",
-   "claim": "BoJ holds at 1.00% on 31 Jul 2026",
-   "check_by": "2026-07-31",
-   "outcome": "right",
-   "result": "BoJ HELD at 1.00% on 31 Jul (8-1), and — hours earlier — Japan intervened to BUY yen (first in 3 months, reportedly coordinated with the US Treasury) (graded No. 59)."
   },
   {
    "issue": 57,
@@ -762,7 +638,8 @@
    "desk": "The Macro Desk",
    "claim": "The 'Hormuz relief rally' reverses (oil back above $85 Brent) within two weeks on a failed-talks or fresh-strike headline",
    "check_by": "2026-08-19",
-   "outcome": null
+   "outcome": "right",
+   "result": "The Hormuz relief rally reversed — Brent back to ~$94, well above $85, on renewed Middle-East risk."
   },
   {
    "issue": 63,
@@ -798,7 +675,8 @@
    "desk": "The Kit",
    "claim": "Sennheiser MOMENTUM True Wireless 5 launches ~19 Aug at ~€300",
    "check_by": "2026-08-22",
-   "outcome": null
+   "outcome": "right",
+   "result": "Sennheiser MOMENTUM True Wireless 5 unveiled 20 Aug at €299.90 — a day late, exact on the ~€300 price."
   },
   {
    "issue": 63,
@@ -865,7 +743,8 @@
    "desk": "Technology",
    "claim": "Qwen3.8-Max open weights ship publicly on HuggingFace/ModelScope (promised 'next week' at the 3 Aug launch)",
    "check_by": "2026-08-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Qwen3.8-Max open weights shipped publicly on 12 Aug."
   },
   {
    "issue": 64,
@@ -925,7 +804,8 @@
    "desk": "Technology",
    "claim": "Alibaba open-weights Qwen3.8-Max + a Qwen3.8-27B dense checkpoint the week of 10 Aug",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "Qwen3.8-Max (12 Aug) and the Qwen3.8-27B dense checkpoint (14 Aug) both landed in the week of 10 Aug."
   },
   {
    "issue": 65,
@@ -939,7 +819,8 @@
    "desk": "Singapore",
    "claim": "Lim Tean warrant-of-arrest review proceeds 17 Aug",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "push",
+   "result": "Overtaken by events: CAD arrested Lim Tean on his 11 Aug return from Johor, ahead of any 17 Aug step."
   },
   {
    "issue": 65,
@@ -953,14 +834,16 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man's 2nd weekend (8-9 Aug) is the real legs test after a record open",
    "check_by": "2026-08-11",
-   "outcome": null
+   "outcome": "push",
+   "result": "The legs test ran — Spider-Man: Brand New Day took a record-scale $143M second weekend, but on a 59.9% drop (see the No.66 grade)."
   },
   {
    "issue": 65,
    "desk": "Screen & Sound",
    "claim": "Bridgers 'Lost Weekend' (14 Aug) and Weezer 'The Gold Album' (21 Aug) release; verdicts pending",
    "check_by": "2026-08-22",
-   "outcome": null
+   "outcome": "right",
+   "result": "Both released on schedule — Bridgers' 'Lost Weekend' (14 Aug) and Weezer's 'Gold Album' (21 Aug, Metacritic 80 on a thin 4-review sample)."
   },
   {
    "issue": 65,
@@ -975,7 +858,8 @@
    "desk": "The Diary",
    "claim": "LINKUS earns a verdict; Liora & Xava 'too new to call' — revisit in a fortnight",
    "check_by": "2026-08-21",
-   "outcome": null
+   "outcome": "push",
+   "result": "Revisited: too little settled local coverage to grade LINKUS/Liora & Xava cleanly; treat as unresolved."
   },
   {
    "issue": 65,
@@ -1032,14 +916,16 @@
    "desk": "Technology",
    "claim": "Alibaba open-sources Qwen3.8-Max weights + a Qwen3.8-27B dense checkpoint by 17 Aug, with a genuinely permissive licence",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "push",
+   "result": "Half-right: Qwen3.8-27B shipped Apache-2.0 (permissive), but the Qwen3.8-Max flagship carried a revenue-share licence."
   },
   {
    "issue": 66,
    "desk": "The Kit",
    "claim": "Insta360 X6 launches 12 Aug with the teased dual 1-inch sensors confirmed on the spec sheet",
    "check_by": "2026-08-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "Insta360 X6 launched 12 Aug with the dual 1-inch Sony sensors confirmed and 8K50."
   },
   {
    "issue": 66,
@@ -1053,7 +939,8 @@
    "desk": "Screen & Sound",
    "claim": "Spider-Man: Brand New Day's 2nd weekend (8–10 Aug) drop stays under ~55% (legs, not front-loading)",
    "check_by": "2026-08-11",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS: Spider-Man: Brand New Day's second weekend fell 59.9% (over the ~55% bar) — a record second weekend, but more front-loaded than the call."
   },
   {
    "issue": 66,
@@ -1088,7 +975,8 @@
    "desk": "The Kit",
    "claim": "Insta360 X6 opens pre-orders 12 Aug 2026 with confirmed dual 1-inch sensors + 8K; official price lands near the ~€689/€789 leak",
    "check_by": "2026-08-19",
-   "outcome": null
+   "outcome": "right",
+   "result": "Insta360 X6 opened 12 Aug with dual 1-inch sensors + 8K and US$699.99 — the ~€689 leak held."
   },
   {
    "issue": 67,
@@ -1131,7 +1019,8 @@
    "desk": "Technology",
    "claim": "Qwen3.8-Max open weights + a stated licence actually land (HF/ModelScope) by 17 Aug 2026",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "Qwen3.8-Max open weights + a stated (revenue-share) licence landed on 12 Aug."
   },
   {
    "issue": 68,
@@ -1203,14 +1092,16 @@
    "desk": "Technology",
    "claim": "Alibaba's Qwen3.8-Max open weights + licence remain unshipped as of ~17 Aug (still API-only)",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS: Qwen3.8-Max open weights did NOT remain unshipped — they went live on 12 Aug."
   },
   {
    "issue": 69,
    "desk": "Technology",
    "claim": "Meta Muse Glimmer (30B, Apache-2.0) is genuinely downloadable and runs on a single RTX 5090 (~24GB)",
    "check_by": "2026-08-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Meta Muse Glimmer (30B, Apache-2.0) shipped 10 Aug, under 20GB, genuinely downloadable on Hugging Face and runs on a single consumer GPU."
   },
   {
    "issue": 69,
@@ -1261,7 +1152,8 @@
    "desk": "Technology",
    "claim": "Alibaba's Qwen3.8-27B/Max open weights + licence still not shipped; grade whether they land",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MISS: the Qwen3.8-27B/Max weights DID ship (12-14 Aug), not 'still not shipped'."
   },
   {
    "issue": 70,
@@ -1324,7 +1216,8 @@
    "desk": "Technology",
    "claim": "Qwen3.8-27B / Qwen3.8-Max open weights ship on Hugging Face/ModelScope with a named licence by ~16 Aug",
    "check_by": "2026-08-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "Qwen3.8-27B / Qwen3.8-Max open weights shipped on Hugging Face/ModelScope with a named licence by ~16 Aug."
   },
   {
    "issue": 71,
@@ -1373,7 +1266,8 @@
    "desk": "Technology",
    "claim": "Qwen3.8-27B dense open weights land by the 15 Aug ModelScope countdown",
    "check_by": "2026-08-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "Qwen3.8-27B dense open weights landed on 14 Aug, by the 15 Aug ModelScope countdown."
   },
   {
    "issue": 72,
@@ -1829,6 +1723,102 @@
    "claim": "Chinese H200 uptake stays throttled (<25% of licensed volume) as Beijing steers to Huawei Ascend",
    "check_by": "2026-10-31",
    "outcome": null
+  },
+  {
+   "issue": 79,
+   "desk": "Macro",
+   "claim": "Warsh's Jackson Hole keynote (28 Aug) strikes a broadly neutral tone (neither clearly hawkish nor dovish), per the 69% fund-manager expectation",
+   "check_by": "2026-08-29",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "Macro",
+   "claim": "Gold holds its bid above US$4,000/oz through end-August",
+   "check_by": "2026-08-31",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "Macro",
+   "claim": "Regime call: higher-for-longer with live hike-risk holds; DXY stays soft (below 100) through end-August",
+   "check_by": "2026-08-31",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "Technology",
+   "claim": "Z.ai's GLM-5.3 open weights either ship or remain held as of ~28 Aug (grade whether the ~28 Aug target holds)",
+   "check_by": "2026-08-31",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "Singapore",
+   "claim": "NDR (Sun 23 Aug) leads on the cost of raising children — infant-care/pre-school affordability — plus cost of living",
+   "check_by": "2026-08-24",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "Singapore",
+   "claim": "July 2026 CPI print (~25 Aug) comes in near 1.9-2.2% headline",
+   "check_by": "2026-08-26",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "The Kit",
+   "claim": "Sennheiser MOMENTUM True Wireless 5 ships from 3 Sep at US$299.95",
+   "check_by": "2026-09-10",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "Screen & Sound",
+   "claim": "Weezer's 'Gold Album' fuller Metacritic settles in the 70s (not the low-60s or 80s+)",
+   "check_by": "2026-09-05",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "The Long Read",
+   "claim": "No NYT/BBC/Reuters/FT/Guardian feature on Xiaohongshu as the SEA-diaspora decision-layer within three weeks",
+   "check_by": "2026-09-12",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "The Travel Desk",
+   "claim": "Japan's tax-free shopping switches to a refund-at-departure model on 1 Nov 2026 as scheduled",
+   "check_by": "2026-11-05",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "The Travel Desk",
+   "claim": "SIA's Singapore-Madrid (via Barcelona) 5x-weekly service launches 26 Oct 2026",
+   "check_by": "2026-10-30",
+   "outcome": null,
+   "result": null
+  },
+  {
+   "issue": 79,
+   "desk": "The Diary",
+   "claim": "F1 Singapore GP runs its first-ever Sprint weekend 9-11 Oct 2026",
+   "check_by": "2026-10-12",
+   "outcome": null,
+   "result": null
   }
  ]
 }
