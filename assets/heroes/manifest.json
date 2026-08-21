@@ -2,6 +2,22 @@
  "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429. ",
  "images": [
   {
+   "slug": "kabira-79",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Kabira_Bay_Ishigaki_Island41s3s4500.jpg"
+  },
+  {
+   "slug": "reef-79",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Top_Giant_Ocean_Tank_Coral_Reef_New_England_Aquarium.jpg"
+  },
+  {
+   "slug": "claw-79",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sega_UFO_Catcher.png"
+  },
+  {
+   "slug": "evergrande-79",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Evergrande_Center.jpg"
+  },
+  {
    "slug": "gopro-78",
    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/GoPro_Hero_8_Black_and_Hero_11_Black.JPG"
   },
@@ -972,44 +988,8 @@
    "file": "Hermes Birkin.JPG"
   },
   {
-   "slug": "birkin-pink-785",
-   "file": "Pink Birkin bag.jpg"
-  },
-  {
-   "slug": "birkin-croc-785",
-   "file": "Croc Birkin bag.jpg"
-  },
-  {
-   "slug": "janebirkin-785",
-   "file": "Jane Birkin07.JPG"
-  },
-  {
-   "slug": "kabira-79",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Kabira_Bay_Ishigaki_Island41s3s4500.jpg"
-  },
-  {
    "slug": "taketomi-79",
    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Village_in_Taketomi_Island_-_located_at_southwest_Japan.jpg"
-  },
-  {
-   "slug": "reef-79",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Top_Giant_Ocean_Tank_Coral_Reef_New_England_Aquarium.jpg"
-  },
-  {
-   "slug": "claw-79",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sega_UFO_Catcher.png"
-  },
-  {
-   "slug": "evergrande-79",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Evergrande_Center.jpg"
-  },
-  {
-   "slug": "yaeyama-star-79",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Kabira_Bay_Ishigaki_Island23n4500.jpg"
-  },
-  {
-   "slug": "reef-nano-79",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/55_Gallon_Reef_Tank.jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -1051,5 +1031,6 @@
  "_retrigger37": "no77-heroes",
  "_retrigger38": "No.79 weekend heroes: kabira(cover/travel), taketomi(travel), reef+reef-nano(rabbit hole), claw(atelier), evergrande(world), yaeyama-star(travel) 2026-08-22",
  "_retrigger39": "No.79 heroes -> direct upload.wikimedia.org CDN (Commons Special:FilePath 429) 2026-08-22",
- "_retrigger40": "No.79 heroes retrigger (wikimedia CDN 429 burst cooldown) 2026-08-22 a"
+ "_retrigger40": "No.79 heroes retrigger (wikimedia CDN 429 burst cooldown) 2026-08-22 a",
+ "_retrigger41": "No.79 trim+prioritise kabira/reef/claw/evergrande first (429 burst) 2026-08-22"
 }
