@@ -990,6 +990,34 @@
   {
    "slug": "taketomi-79",
    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Village_in_Taketomi_Island_-_located_at_southwest_Japan.jpg"
+  },
+  {
+   "slug": "pena-palace-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Palacio_Nacional_da_Pena%2C_Sintra%2C_Portugal%2C_2019-05-25%2C_DD_146.jpg"
+  },
+  {
+   "slug": "lisbon-tram-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lissabon-Strassenbahn-28-Linie_28-Alfama-2011-gje.jpg"
+  },
+  {
+   "slug": "alfama-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Lisboa-Alfama-Rua_S%C3%A3o_Miguel-20140917.jpg"
+  },
+  {
+   "slug": "sintra-regaleira-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Initiation_Well%2C_Quinta_da_Regaleira%2C_Light_at_the_End_of_the_Tunnel_(50657854571).jpg"
+  },
+  {
+   "slug": "belem-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Torre_Bel%C3%A9m_April_2009-4a.jpg"
+  },
+  {
+   "slug": "keyboard-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Keychron_K8_Non-Backlight_Wireless_Mechanical_Keyboard_with_Cherry_Profile_Double_-_Shot_PBT_Full_Set_Keycaps_-_Camel.jpg"
+  },
+  {
+   "slug": "umbrella-80",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Making_umbrellas_(Japan)_(9099970800).jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -1033,5 +1061,6 @@
  "_retrigger39": "No.79 heroes -> direct upload.wikimedia.org CDN (Commons Special:FilePath 429) 2026-08-22",
  "_retrigger40": "No.79 heroes retrigger (wikimedia CDN 429 burst cooldown) 2026-08-22 a",
  "_retrigger41": "No.79 trim+prioritise kabira/reef/claw/evergrande first (429 burst) 2026-08-22",
- "_retrigger42": "No.79 final retry claw/evergrande (429 cooldown) 2026-08-22"
+ "_retrigger42": "No.79 final retry claw/evergrande (429 cooldown) 2026-08-22",
+ "_retrigger43": "No.80 weekend heroes: pena-palace(cover/travel), lisbon-tram, alfama, sintra-regaleira, belem (Grand Tour Lisbon), keyboard-80 (Rabbit Hole mech keyboards), umbrella-80 (Atelier) 2026-08-23"
 }
