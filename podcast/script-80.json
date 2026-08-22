@@ -1,0 +1,472 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 80,
+ "date": "Sunday 23 August 2026",
+ "title": "Price Is What You Pay",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the twenty-third of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "It's a weekend book, so we're leading with life, not the wire. Three teases. Lisbon and Sintra, gone deep — the light you have to work for, and the palace the forums tell you to skip."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Grown adults chasing a sound called thock. We go all the way down into custom mechanical keyboards."
+  },
+  {
+   "s": "A",
+   "t": "And the umbrella, hunted to its makers. One idea runs through the whole issue, and it's the oldest one in investing. Price is what you pay. Value is what you get."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Buffett, after Graham. Okay. I already know you're going to make me feel bad about something I bought."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Only if you paid for the surname. Start with the world, quickly."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Quickly is good."
+  },
+  {
+   "s": "A",
+   "t": "The Canada–US trade truce broke two days early. On Friday the talks failed, and Washington put fifty per cent tariffs on about twenty billion dollars of Canadian goods."
+  },
+  {
+   "s": "B",
+   "t": "Wait — fifty per cent? On what, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "Cement and hockey sticks among them. About five per cent of Canada's exports south. Prime Minister Carney called the terms unfair and uneconomic, walked out, and promised to match them dollar for dollar from the eighth of September."
+  },
+  {
+   "s": "B",
+   "t": "So there are two reads on that."
+  },
+  {
+   "s": "A",
+   "t": "There are. Washington's is that leverage, not politeness, rebalances a lopsided deal — the tariff is a squeeze with a target list. Ottawa's is that the goalposts moved at the last minute, and matching them is defence, not escalation."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "The sceptic says it's theatre with an escape hatch — fifty per cent sounds enormous but it's a thin slice of trade, and the eighth of September is itself a two-week off-ramp. The honest worry is the other way: a truce that broke early means the off-ramps are getting shorter."
+  },
+  {
+   "s": "B",
+   "t": "And the story you asked us not to run every day."
+  },
+  {
+   "s": "A",
+   "t": "The strait. So here's the delta, once. The war on Iran is nearly six months old, and the Strait of Hormuz is functionally shut — flows down to about two million barrels a day, against roughly eighteen million before the war."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] From eighteen to two. That's the number under everything else, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "It's the number under the oil price. Brent booked a second straight weekly gain of about six per cent, to near ninety-four dollars — and that drags the money desk. Speaking of which."
+  },
+  {
+   "s": "B",
+   "t": "[curious] The money block. Take me through it, because last weekend you called it a debasement bid, and I want to know what changed."
+  },
+  {
+   "s": "A",
+   "t": "What changed is that the props stopped working. The Treasury doubled its buybacks of long-dated debt to four billion dollars an operation, to hold long yields down. By Friday the rally had fizzled and the thirty-year yield was climbing again — it hit five point three three per cent this week, a nineteen-year high."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the government is buying its own bonds and the market is selling them anyway."
+  },
+  {
+   "s": "A",
+   "t": "That's the tell. And the Fed minutes showed many officials now think the next move might be a hike, not a cut, if inflation won't cool. Long yields near a nineteen-year high, a soft dollar, and hard assets ripping — that's not the textbook pairing. It's a debasement signature."
+  },
+  {
+   "s": "B",
+   "t": "Which is why the fun one moved."
+  },
+  {
+   "s": "A",
+   "t": "Bitcoin, up twenty-two per cent in a single week. Gold rebounding to about four thousand six hundred dollars an ounce — still around seventeen per cent under its January record, so a rebound, not a new high."
+  },
+  {
+   "s": "B",
+   "t": "And what does it mean for the boring, sensible portfolio?"
+  },
+  {
+   "s": "A",
+   "t": "Global equities held up near their highs, which is the surprise. Global bonds are caught between the Treasury buying and the inflation selling — you're earning the coupon, not the price. Market explanation, not advice. And it stitches straight to Singapore."
+  },
+  {
+   "s": "B",
+   "t": "The property thing. Everyone keeps telling me flats are insane now."
+  },
+  {
+   "s": "A",
+   "t": "The headline says runaway — a record four hundred and ninety-one million-dollar resale flats last quarter, a hundred and eighty-eight of them in June alone. But the index quietly fell, zero point three per cent, a second straight quarterly drop — the first back-to-back dip since twenty nineteen."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So prices are actually... down?"
+  },
+  {
+   "s": "A",
+   "t": "The broad market is softening for the first time in years. The million-dollar frenzy is a thin, glittering tail. Read the index, not the headline."
+  },
+  {
+   "s": "B",
+   "t": "There it is again. Read the index, not the headline."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] I told you it was the whole issue. And the National Day Rally is tonight, so we're not reporting a speech we haven't heard."
+  },
+  {
+   "s": "B",
+   "t": "Fair. Technology — the one that made me laugh, in a grim way."
+  },
+  {
+   "s": "A",
+   "t": "The chip loophole. American export controls govern moving a chip across a border. They say nothing about logging in remotely to the same chips sitting legally in another country."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So you don't smuggle the chip. You rent it."
+  },
+  {
+   "s": "A",
+   "t": "You rent it. The reporting says Chinese labs reached restricted Nvidia hardware by renting compute in data centres in Thailand, Malaysia and Japan. One firm allegedly trained the largest open model yet that way. And the enforcers, the hawks and Nvidia itself all call the policy broken."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] When everyone says it's broken, it's broken. What about my box — the thing I can actually run?"
+  },
+  {
+   "s": "A",
+   "t": "Meta shipped a thirty-billion-parameter model called Muse Glimmer, open licence. It fits on a single thirty-two-gigabyte card, and a dual-five-thousand-ninety rig runs it at full precision with the whole long context."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Okay, that's my machine. Is it good?"
+  },
+  {
+   "s": "A",
+   "t": "It's a great hand and a bad memory. The benchmarks have it hallucinating on hard facts far more than a smaller rival, and losing to that rival on agent tasks. The verdict to print — a fine local actuator, a poor local oracle. Let it do things. Don't let it tell you facts unchecked. Wire it to your own files, let it draft and click and fetch, and route anything factual through a real search step."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Let it do things, don't let it tell you facts. Noted. The Kit."
+  },
+  {
+   "s": "A",
+   "t": "Insta three-sixty put a one-inch-equivalent sensor in a three-hundred-and-sixty camera — the X-six. Eight K at fifty frames, in-camera Dolby Vision, six hundred and ninety-nine US dollars. Reviewers say it's the best three-sixty footage they've ever tested. The bigger sensor is the one upgrade you can't fake in software — it's the light."
+  },
+  {
+   "s": "B",
+   "t": "I hear a but coming."
+  },
+  {
+   "s": "A",
+   "t": "[wry] And the app that edits it keeps crashing. It's the most expensive small three-sixty camera you can buy, the marquee feature needs a recent iPhone, and one test had it overheating after about thirty-three minutes. Buy it for the footage, budget for the frustration."
+  },
+  {
+   "s": "B",
+   "t": "Price and value again. And the Atelier — the umbrella. I genuinely never think about umbrellas."
+  },
+  {
+   "s": "A",
+   "t": "You should, in a city that's half squall and half furnace. The quality's all in the frame — fibreglass that flexes and springs back is why storm umbrellas survive wind. And the honest fork is that the storm umbrella and the heirloom are two different tools."
+  },
+  {
+   "s": "B",
+   "t": "Meaning the expensive one isn't the tougher one?"
+  },
+  {
+   "s": "A",
+   "t": "For surviving a Singapore squall, a hundred-and-ten-dollar Senz or Blunt beats a five-hundred-and-eighty-five-dollar Fox stick — the grail is a walking object, not a wind design. Buy the maker, not the surname. And in a city that eats umbrellas in taxis, maybe don't carry the grail at all."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] I have lost four umbrellas this year."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Then you are the entire argument, Theo."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every weekend with this line."
+  },
+  {
+   "s": "B",
+   "t": "It's a good line. Mechanical keyboards. Explain the obsession to me like I've never held one."
+  },
+  {
+   "s": "A",
+   "t": "There's a fork most people never notice. On one side, the sealed gaming keyboard you replace when it dies. On the other, a keyboard you build from chosen parts — a case, a circuit board, switches, keycaps — and tune for how it sounds."
+  },
+  {
+   "s": "B",
+   "t": "[curious] For how it sounds. Not how it types."
+  },
+  {
+   "s": "A",
+   "t": "For how it sounds. The grail is a deep, dampened bottom-out the community spells thock, against a higher, sharper clack. They talk about a keyboard the way an audiophile talks about a turntable."
+  },
+  {
+   "s": "B",
+   "t": "And this is a real world, not a dozen guys?"
+  },
+  {
+   "s": "A",
+   "t": "The main forum passed a million members years ago. The market's a couple of billion dollars, and the enthusiast corner is the fastest-growing slice. Asia-Pacific is about forty per cent of it."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Gear. What does a good one actually cost?"
+  },
+  {
+   "s": "A",
+   "t": "The honest entry is a full-aluminium hot-swap board — a Keychron Q-one Pro or the two-thousand-twenty-four phenomenon, the Wobkey Rainy seventy-five, around a hundred to two hundred dollars. Add good switches and keycaps and you're at maybe two hundred and fifty to four hundred, all in."
+  },
+  {
+   "s": "B",
+   "t": "And the top?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] The top is where it gets silly. A boutique board can run nine hundred dollars, and the blue-chip grail — a TGR Jane — changes hands used for over a thousand. One of the very few that holds its value."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Used, for more than new. That's watches. That's Hermès. That's every rabbit hole we've ever done."
+  },
+  {
+   "s": "A",
+   "t": "It's the pattern. And the cutting edge right now is a gaming crossover — magnetic, rapid-trigger switches. Wooting raised over seven million euros in one campaign. Genuinely helps competitive play."
+  },
+  {
+   "s": "B",
+   "t": "But not typing."
+  },
+  {
+   "s": "A",
+   "t": "Not typing. And here's the sceptic, and the community says it themselves. You cannot type one word faster on a thousand-dollar board."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] They admit it?"
+  },
+  {
+   "s": "A",
+   "t": "Openly. A three-hundred-dollar board often has the same switches as an eighty-dollar one. Endgame is a running joke because it never arrives. And most enthusiast boards now resell at a thirty-to-fifty-per-cent loss, because a cheap board finally rivals the old expensive ones."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what's the honest starter move?"
+  },
+  {
+   "s": "A",
+   "t": "Lurk for two weeks. Buy one good hot-swap board, one trusted switch, a nice set of keycaps. Then modify — don't re-buy. Lube the stabilisers, that's the biggest sound gain for the money. In Singapore, start at iLumkb."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Modify, don't re-buy. I like that as life advice."
+  },
+  {
+   "s": "A",
+   "t": "It's the whole desk. Come up for air — culture and the body."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The album. Phoebe Bridgers is back."
+  },
+  {
+   "s": "A",
+   "t": "First solo album in six years. Lost Weekend, a Metacritic ninety-two — universal acclaim, built around grief and her father's death."
+  },
+  {
+   "s": "B",
+   "t": "And you found the one grump."
+  },
+  {
+   "s": "A",
+   "t": "[wry] I always find the one grump. The dissent is that it sounds like an awful lot of Phoebe Bridgers — cohesive to admirers, monochrome to detractors. If Punisher told you whether this is your register, this won't change your mind."
+  },
+  {
+   "s": "B",
+   "t": "And the cartoon lawsuit movie actually came out?"
+  },
+  {
+   "s": "A",
+   "t": "Coyote versus Acme. Warner shelved it as a tax write-off in twenty twenty-three; another studio rescued it, and it's out at ninety-four per cent — hailed as the best live-action-cartoon hybrid since Who Framed Roger Rabbit. The vindication is the story."
+  },
+  {
+   "s": "B",
+   "t": "[wry] The watch. You buried something in the watch, I can tell."
+  },
+  {
+   "s": "A",
+   "t": "Chopard's new Mille Miglia Raticosa — a gorgeous steel chronograph, eleven thousand one hundred euros. The prettiest one in years. With an outsourced movement inside it."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Eleven thousand euros for a movement they bought?"
+  },
+  {
+   "s": "A",
+   "t": "That's the purists' line, word for word. The counter is honest too — the base is robust and any watchmaker can service it, which suits a driver's watch. Price is what you pay. On this one, decide for yourself what you're getting."
+  },
+  {
+   "s": "B",
+   "t": "The family desk. This one surprised me."
+  },
+  {
+   "s": "A",
+   "t": "A Finnish study went looking for screen-time harm and found the opposite — more childhood screen time was linked to better cognition later. But it's an association, not proof, and the likely driver is what she does on the screen and around it."
+  },
+  {
+   "s": "B",
+   "t": "So not permission — a different instrument."
+  },
+  {
+   "s": "A",
+   "t": "Exactly — the stopwatch was always the wrong tool. And the second page is for a household with a Secondary One kid: the wellbeing dip in the first year of secondary school is real, expected, lasts more than two years, and hits girls hardest."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a hard one to hear as a parent."
+  },
+  {
+   "s": "A",
+   "t": "But knowing it's normal is half the job. Protect the sleep, be available without an agenda, and watch the trajectory over a term, not a bad week. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And fitness — the number that annoyed the gym crowd."
+  },
+  {
+   "s": "A",
+   "t": "A hundred-and-forty-seven-thousand-person analysis found the strength-training sweet spot is about ninety minutes to two hours a week — a thirteen per cent lower risk of dying. Past two hours, the benefit plateaus."
+  },
+  {
+   "s": "B",
+   "t": "So the extra hours buy nothing?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing for lifespan. The real multiplier is pairing strength with your aerobic base — that pushed the risk down about forty-five per cent. Two focused sessions on top of the Zone-two work. Also not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And the diary, fast — I know there's a Sprint."
+  },
+  {
+   "s": "A",
+   "t": "Singapore's first-ever Formula One Sprint weekend, the ninth to the eleventh of October, general admission from about a hundred and ninety-eight dollars a day. The Weeknd's two nights sit the weekend before, so book dining before tickets."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And a new table?"
+  },
+  {
+   "s": "A",
+   "t": "Four of them — from a two-dollar-eighty salted-butter roll at Butter Town to a charcoal-grilled Japanese fish set from about eight-ninety, and a New York pretzel-croissant that just landed on Orchard. Two are too new to call."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Okay. Bring us down slow. The long read."
+  },
+  {
+   "s": "A",
+   "t": "South Korea. The headline everyone will eventually write is Koreans quit soju. The real story is what's replacing the drink."
+  },
+  {
+   "s": "B",
+   "t": "Give me the numbers first."
+  },
+  {
+   "s": "A",
+   "t": "Fifty-six per cent of Koreans under thirty now barely drink — the highest on record. A third of the bars are gone. And running exploded: ten million runners, and four hundred and ninety-four marathons last year, against forty-nine just four years earlier."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So they swapped the bar for the run. That's not sad. That's healthy."
+  },
+  {
+   "s": "A",
+   "t": "It's more than healthy — it's deliberate. Running crews, book clubs and dawn coffee raves, all opt-in, scheduled, sober. And the tell is a rule they're writing into the bylaws. No dating."
+  },
+  {
+   "s": "B",
+   "t": "[amused] No dating? In a social club?"
+  },
+  {
+   "s": "A",
+   "t": "One crew leader said they kept losing good runners to other people's breakups. The rule protects the group. It firewalls friendship against the two things this generation distrusts — the coerced intimacy of the company drink, and the instability of romance."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Huh. They're not lonely and giving up. They're rebuilding belonging with a rulebook."
+  },
+  {
+   "s": "A",
+   "t": "And the loneliness is real behind it — single-person households just passed ten million, marriages have fallen by a third in a decade. But the dating apps are still growing. They haven't stopped wanting connection. They've stopped trusting the old containers for it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the club with bylaws isn't the sad version. It's the designed version."
+  },
+  {
+   "s": "A",
+   "t": "Belonging, redesigned as a product. And here's why we care from Singapore. Japan is a decade down this exact road already, and Singapore is on the same curve a step behind — the run clubs, the sober-curious bars, the after-work default drifting from a bar to a bouldering gym."
+  },
+  {
+   "s": "B",
+   "t": "So Seoul is a weather report."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Seoul is a weather report. A whole generation looked at the price of the old belonging — the hangover, the hierarchy — and decided the value wasn't there. So they're buying a different one, at six in the morning, sober, by their own rules."
+  },
+  {
+   "s": "B",
+   "t": "Price is what you pay. Value is what you get."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Every desk in the book, in one line. That's the issue."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

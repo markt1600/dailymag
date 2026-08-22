@@ -1,5 +1,5 @@
 {
-  "count": 507,
+  "count": 518,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1278,9 +1278,86 @@
     {
       "subject": "Insta360 X6",
       "type": "Product (360 camera)",
-      "last_covered": "No. 79",
-      "last_peg": "Scoreboard grade (No. 66/67 predictions) — launched 12 Aug 2026, dual 1-inch Sony sensors, 8K50, US$699.99 std / US$799.99 essentials",
-      "next_peg": "Graded RIGHT; next peg = a successor or firmware. Do not re-cover."
+      "last_covered": "No. 80",
+      "last_peg": "The Kit LEAD — full review peg: dual 1-inch-equiv Sony sensors (~33% more area than X5), 8K/50, in-camera Dolby Vision, US$699.99 std/US$799.99 essentials; \"best 360 image we've tested\" (Trusted Reviews) but TechRadar buggy app + ~33-min overheat",
+      "next_peg": "Next peg = a successor, firmware fixing the app, or a SG price. Do not re-cover."
+    },
+    {
+      "subject": "Chopard Mille Miglia Classic Chronograph Raticosa",
+      "type": "Product (watch)",
+      "last_covered": "No. 80",
+      "last_peg": "Good Life LEAD — 2026 refs 168589-3033/-3034, 40.5mm Lucent Steel, COSC ETA A322-11 base, 54h reserve, two 500-piece runs, €11,100/~US$11,700; hands-on peg (Fratello 17 Aug); sceptic = ETA base at an in-house price",
+      "next_peg": "Next peg = deliveries/owner reviews or a new Mille Miglia reference."
+    },
+    {
+      "subject": "Phoebe Bridgers — Lost Weekend",
+      "type": "Music (album)",
+      "last_covered": "No. 80",
+      "last_peg": "Screen LEAD — released 14 Aug 2026 (Dead Oceans), first solo LP since Punisher (2020); Metacritic 92 \"universal acclaim\"; one dissent on sameness",
+      "next_peg": "Next peg = a chart/tour milestone; do not re-cover the release."
+    },
+    {
+      "subject": "It Ends (NEON)",
+      "type": "Film release",
+      "last_covered": "No. 80",
+      "last_peg": "Screen — cosmic road-horror, NY/LA 21 Aug, nationwide 28 Aug 2026; RT 94% Certified Fresh; SG date TBC",
+      "next_peg": "Next peg = a SG release date or box office; do not re-cover."
+    },
+    {
+      "subject": "Coyote vs. Acme (Ketchup Entertainment)",
+      "type": "Film release",
+      "last_covered": "No. 80",
+      "last_peg": "Screen — the shelved-then-rescued Warner film, nationwide 28 Aug 2026; RT 94% (debuted 100%); the vindication is the story",
+      "next_peg": "Next peg = box office or streaming; do not re-cover."
+    },
+    {
+      "subject": "Charcoal Grill Shinpachi (NEX)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 80",
+      "last_peg": "The Table — Shinpachi Shokudo's first overseas outlet, opened 15 Aug 2026, NEX Serangoon; binchotan grilled-fish teishoku, sets from ~S$8.90; too new to call",
+      "next_peg": "Next peg = settled reviews."
+    },
+    {
+      "subject": "The City Bakery (Mandarin Gallery)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 80",
+      "last_peg": "The Table — NYC institution (1990), first SG/first outside Japan, opened 13 Aug 2026, Orchard; Pretzel Croissant S$5; warm early notices, consistency settling",
+      "next_peg": "Next peg = a settled verdict."
+    },
+    {
+      "subject": "Chimichanga (Raffles City flagship)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 80",
+      "last_peg": "The Table — homegrown Latin grill's 7th outlet/10th-anniversary flagship, opened Aug 2026; Josper oven, mains ~S$20-30; established, not a discovery",
+      "next_peg": "Next peg = the chef's-table opening or a new outlet."
+    },
+    {
+      "subject": "Butter Town Breakfast Club (Chinatown)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 80",
+      "last_peg": "The Table — first dine-in from the shio-pan hawker, opened 5 Jul 2026, South Bridge Rd; OG shio pan S$2.80; loved local following",
+      "next_peg": "Next peg = a second outlet or a settled food verdict."
+    },
+    {
+      "subject": "The Table (SG openings, No. 80)",
+      "type": "Standing (dining)",
+      "last_covered": "No. 80",
+      "last_peg": "Charcoal Grill Shinpachi + The City Bakery + Chimichanga Raffles City + Butter Town; rotated off No.79's Katsu by Kyu/Liora/Foura",
+      "next_peg": "Rotate; New-Peg Test each."
+    },
+    {
+      "subject": "JR Pass 2026 price rise",
+      "type": "Travel (rail)",
+      "last_covered": "No. 80",
+      "last_peg": "Travel Departures — first rise in 3 years from 1 Oct 2026, 7-day ordinary ¥50k→¥53k; Nozomi/Mizuho still excluded",
+      "next_peg": "Next peg = a further change or a pass-value reassessment."
+    },
+    {
+      "subject": "Changi Plaza Premium private terminal",
+      "type": "Travel (airport)",
+      "last_covered": "No. 80",
+      "last_peg": "Travel Departures — construction began 15 Apr 2026 at the former JetQuay site, opening mid-2027; suites/bar/bespoke dining",
+      "next_peg": "Next peg = the opening or booking/pricing detail."
     },
     {
       "subject": "Katsu by Kyu",
