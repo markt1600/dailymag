@@ -1013,11 +1013,11 @@
   },
   {
    "slug": "keyboard-80",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cherry_MX_Blue_Switches.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Keychron_K8_Non-Backlight_Wireless_Mechanical_Keyboard_with_Cherry_Profile_Double_-_Shot_PBT_Full_Set_Keycaps_-_Camel.jpg"
   },
   {
    "slug": "umbrella-80",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/HK_Museum_of_History_Leung_So_Kee_Umbrella_Fatory.JPG"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Making_umbrellas_(Japan)_(9099970800).jpg"
   },
   {
    "slug": "carney-80",
@@ -1079,5 +1079,6 @@
  "_retrigger45": "No.80 retrigger (Wikimedia CDN 429 partial: only pena/tram landed) — retry alfama/sintra-regaleira/belem/keyboard/umbrella/carney/insta360/chopard 2026-08-23",
  "_retrigger46": "No.80 retrigger 2 (429 cooldown): carney-80, umbrella-80, keyboard-80, insta360-x6-80, chopard-raticosa-80, sintra-regaleira-80, belem-80 2026-08-23",
  "_retrigger47": "No.80 retrigger 3 (429 cooldown): carney-80, umbrella-80, keyboard-80, insta360-x6-80, chopard-raticosa-80, belem-80 2026-08-23",
- "_retrigger48": "No.80 round 4: alt sources for carney/keyboard/umbrella + retry insta360-x6/chopard-raticosa (persistent CDN 429) 2026-08-23"
+ "_retrigger48": "No.80 round 4: alt sources for carney/keyboard/umbrella + retry insta360-x6/chopard-raticosa (persistent CDN 429) 2026-08-23",
+ "_retrigger49": "No.80: revert keyboard-80/umbrella-80 to original subjects (kept caption-consistent); carney alt portrait ok; insta360-x6/chopard-raticosa retry 2026-08-23"
 }
