@@ -1106,6 +1106,31 @@
     {
       "slug": "bakeryline-805",
       "file": "Factory Automation Robotics Palettizing Bread.jpg"
+    },
+    {
+      "slug": "cat-sausagebuns-805",
+      "category": "Category:Sausage buns",
+      "limit": 12
+    },
+    {
+      "slug": "cat-jpbread-805",
+      "category": "Category:Breads of Japan",
+      "limit": 14
+    },
+    {
+      "slug": "cat-hkbakery-805",
+      "category": "Category:Bakeries in Hong Kong",
+      "limit": 10
+    },
+    {
+      "slug": "cat-krbakery-805",
+      "category": "Category:Bakeries in South Korea",
+      "limit": 10
+    },
+    {
+      "slug": "cat-sgbakery-805",
+      "category": "Category:Bakeries in Singapore",
+      "limit": 10
     }
   ],
   "_fetch_rev": 15,
@@ -1157,5 +1182,6 @@
   "_retrigger47": "No.80 retrigger 3 (429 cooldown): carney-80, umbrella-80, keyboard-80, insta360-x6-80, chopard-raticosa-80, belem-80 2026-08-23",
   "_retrigger48": "No.80 round 4: alt sources for carney/keyboard/umbrella + retry insta360-x6/chopard-raticosa (persistent CDN 429) 2026-08-23",
   "_retrigger49": "No.80: revert keyboard-80/umbrella-80 to original subjects (kept caption-consistent); carney alt portrait ok; insta360-x6/chopard-raticosa retry 2026-08-23",
-  "_retrigger50": "805 hot-dog-bun candidates"
+  "_retrigger50": "805 hot-dog-bun candidates",
+  "_retrigger51": "805 category sweeps"
 }

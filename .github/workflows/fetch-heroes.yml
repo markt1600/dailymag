@@ -25,22 +25,69 @@ jobs:
         run: |
           python3 - <<'PY'
           import json, os, subprocess, urllib.parse, urllib.request
+          UA = {"User-Agent": "meridian-hero-fetch/1.0"}
+          API = "https://commons.wikimedia.org/w/api.php"
+
+          def get(url, timeout=60):
+              return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout).read()
+
+          def filepath(title, width=1600):
+              return ("https://commons.wikimedia.org/wiki/Special:FilePath/"
+                      + urllib.parse.quote(title.split(":", 1)[-1]) + f"?width={width}")
+
+          def save(dst, url):
+              data = get(url)
+              if len(data) < 10000:
+                  raise ValueError("suspiciously small")
+              open(dst, "wb").write(data)
+              print("fetched", dst, len(data), "bytes")
+
+          def catmembers(cat, kind, limit):
+              """One page of Commons category members of the given type."""
+              q = urllib.parse.urlencode({"action": "query", "list": "categorymembers",
+                                          "cmtitle": cat, "cmtype": kind,
+                                          "cmlimit": str(limit), "format": "json"})
+              return [m["title"] for m in json.loads(get(f"{API}?{q}"))["query"]["categorymembers"]]
+
           man = json.load(open("assets/heroes/manifest.json"))
           for e in man["images"]:
+              # ---- category form: pull a whole Commons category so the build session
+              # can EYEBALL the candidates. The sandbox cannot browse Commons, so a
+              # category listing is the only way to discover filenames it never saw.
+              # Saves <slug>-01.jpg… plus <slug>-index.json mapping file -> title.
+              if e.get("category"):
+                  idx_path = f"assets/heroes/{e['slug']}-index.json"
+                  if os.path.exists(idx_path):
+                      print("have", idx_path); continue
+                  limit = int(e.get("limit", 12))
+                  try:
+                      titles = catmembers(e["category"], "file", limit)
+                      for sub in catmembers(e["category"], "subcat", 8):
+                          if len(titles) >= limit: break
+                          titles += [t for t in catmembers(sub, "file", limit - len(titles))]
+                  except Exception as ex:
+                      print("SKIP category", e["slug"], "-", ex); continue
+                  index = {}
+                  for i, t in enumerate(titles[:limit], 1):
+                      dst = f"assets/heroes/{e['slug']}-{i:02d}.jpg"
+                      try:
+                          save(dst, filepath(t))
+                          index[os.path.basename(dst)] = t
+                      except Exception as ex:
+                          print("SKIP", t, "-", ex)
+                  json.dump(index, open(idx_path, "w"), indent=2, ensure_ascii=False)
+                  print("indexed", idx_path, len(index), "files")
+                  continue
+
               dst = f"assets/heroes/{e['slug']}.jpg"
               if os.path.exists(dst) and os.path.getsize(dst) > 10000:
                   print("have", dst); continue
               if e.get("url"):                     # any internet source
                   url = e["url"]
               else:                                # Wikimedia Commons filename
-                  url = ("https://commons.wikimedia.org/wiki/Special:FilePath/"
-                         + urllib.parse.quote(e["file"]) + "?width=1600")
+                  url = filepath(e["file"])
               try:
-                  req = urllib.request.Request(url, headers={"User-Agent": "meridian-hero-fetch/1.0"})
-                  data = urllib.request.urlopen(req, timeout=60).read()
-                  if len(data) < 10000: raise ValueError("suspiciously small")
-                  open(dst, "wb").write(data)
-                  print("fetched", dst, len(data), "bytes")
+                  save(dst, url)
               except Exception as ex:
                   print("SKIP", e["slug"], "-", ex)
           PY
