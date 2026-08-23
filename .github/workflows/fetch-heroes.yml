@@ -73,7 +73,10 @@ jobs:
               # Saves <slug>-01.jpg… plus <slug>-index.json mapping file -> title.
               if e.get("category"):
                   idx_path = f"assets/heroes/{e['slug']}-index.json"
-                  if os.path.exists(idx_path):
+                  # An EMPTY index means the listing worked but every download
+                  # failed — that is unfinished work, not a completed sweep, so
+                  # it must not latch the slug closed against a later retry.
+                  if os.path.exists(idx_path) and json.load(open(idx_path)):
                       print("have", idx_path); continue
                   limit = int(e.get("limit", 12))
                   try:
