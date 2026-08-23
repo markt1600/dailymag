@@ -1,0 +1,632 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 81,
+ "date": "Monday 24 August 2026",
+ "title": "The Long End",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Monday, the twenty-fourth of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go. [warmly] Claire, what've we got?"
+  },
+  {
+   "s": "A",
+   "t": "Three things. A trade truce that didn't just fail — it turned into a trade war overnight."
+  },
+  {
+   "s": "B",
+   "t": "Ooh. The friendly-neighbours one?"
+  },
+  {
+   "s": "A",
+   "t": "Canada and Washington. Fifty per cent tariffs, and a reply measured in exactly one phrase — dollar for dollar."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Second?"
+  },
+  {
+   "s": "A",
+   "t": "The National Day Rally moved family money off the day a child is born and spread it across the whole of childhood."
+  },
+  {
+   "s": "B",
+   "t": "And the fun one, please, because I can smell it."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Home espresso. A nine-bar machine, a grinder, and a community that admits the fourth thousand dollars buys almost nothing."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Oh, that's my whole personality. Okay — lead us in."
+  },
+  {
+   "s": "A",
+   "t": "Start in Ottawa. Last week we logged a Canada–US tariff truce, paused to Monday. It did not last the week."
+  },
+  {
+   "s": "B",
+   "t": "What broke?"
+  },
+  {
+   "s": "A",
+   "t": "The talks collapsed on Friday, minutes before a midnight deadline. Washington put fifty per cent tariffs on roughly twenty billion dollars of Canadian goods."
+  },
+  {
+   "s": "B",
+   "t": "Twenty billion. In actual things — what's on the list?"
+  },
+  {
+   "s": "A",
+   "t": "Cement, hockey sticks, among others. But here's the number that matters — it's only about five and a half per cent of everything Canada sells south."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So a small slice, hit very hard."
+  },
+  {
+   "s": "A",
+   "t": "Right. And Prime Minister Carney did not blink. He called the terms — quote — uneconomic, unfair. Suspended the talks. Promised to answer dollar for dollar from the eighth of September."
+  },
+  {
+   "s": "B",
+   "t": "Dollar for dollar. On what, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "Steel, dairy, appliances, farm equipment, pulp, electronics. And his line was sharper than the policy — you're at war when you get attacked. We got attacked."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] That is not negotiating language."
+  },
+  {
+   "s": "A",
+   "t": "From Washington it's leverage — Trump said Canada wants, quote, the benefits of being a State, without being one."
+  },
+  {
+   "s": "B",
+   "t": "And the sober read?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Both sides have built and dismantled tariff cliffs all year. The fifty covers a thin slice, and the September date is itself a two-week off-ramp."
+  },
+  {
+   "s": "B",
+   "t": "So it's all theatre?"
+  },
+  {
+   "s": "A",
+   "t": "Maybe. But the honest worry runs the other way — a truce that broke two days early is the market's cue that this year's off-ramps are getting shorter."
+  },
+  {
+   "s": "B",
+   "t": "Which matters because it lands on an economy already pricing an oil bill."
+  },
+  {
+   "s": "A",
+   "t": "Exactly the read-through. And that oil bill is the second story."
+  },
+  {
+   "s": "B",
+   "t": "The Iran one."
+  },
+  {
+   "s": "A",
+   "t": "Washington declared an economic D-Day on Tehran — the most crushing economic operation ever, they said — secondary sanctions on anyone giving Iran a lifeline."
+  },
+  {
+   "s": "B",
+   "t": "And the market shrugged?"
+  },
+  {
+   "s": "A",
+   "t": "Oil held near ninety-four dollars. The Strait of Hormuz is still throttled — about eight million barrels a day off the water, against the twenty that normally pass through."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Does more sanctions actually move a country that's been sanctioned for years?"
+  },
+  {
+   "s": "A",
+   "t": "That's exactly the doubt on the record. And the barrels don't come back on a political timetable — the energy agency doesn't expect Middle East output near normal until early two thousand and twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "So a threat that raises Iran's costs, but can't conjure the oil back."
+  },
+  {
+   "s": "A",
+   "t": "Neatly put. Which brings us to the money."
+  },
+  {
+   "s": "B",
+   "t": "The money block. And you keep telling me the real story last week wasn't a speech."
+  },
+  {
+   "s": "A",
+   "t": "It wasn't. It was the bond market. The thirty-year Treasury yield touched five point three three per cent — a nineteen-year high."
+  },
+  {
+   "s": "B",
+   "t": "Why does one bond yield spook everyone?"
+  },
+  {
+   "s": "A",
+   "t": "Because it's the price of the government's own borrowing, and it was screaming. So the Treasury did something telling — it doubled the buybacks it uses to steady its own long end."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The government bailing out its own bond market?"
+  },
+  {
+   "s": "A",
+   "t": "From about two billion dollars an operation to four or more. And the same week, the national debt crossed forty trillion dollars."
+  },
+  {
+   "s": "B",
+   "t": "So what did that do to everything else?"
+  },
+  {
+   "s": "A",
+   "t": "A buyback is a liquidity injection. It knocked the dollar down and lit what traders are openly calling the debasement bid."
+  },
+  {
+   "s": "B",
+   "t": "Meaning gold."
+  },
+  {
+   "s": "A",
+   "t": "Gold ran to about four thousand six hundred dollars — up roughly five per cent on the week. And bitcoin did the high-octane version — up twenty-two per cent, brushing eighty thousand."
+  },
+  {
+   "s": "B",
+   "t": "[excited] A fifth, in a single week."
+  },
+  {
+   "s": "A",
+   "t": "A short squeeze on top of the liquidity. Now — name the regime and it stops looking like twelve stories. This is fiscal dominance."
+  },
+  {
+   "s": "B",
+   "t": "Translate that for me at the kitchen table."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Too much debt, sticky inflation, a Fed that can't cut into it — so the Treasury eases conditions by the back door instead. And the safe-haven government bond is now the epicentre, not the hedge."
+  },
+  {
+   "s": "B",
+   "t": "So the thing you own for safety is the thing shaking."
+  },
+  {
+   "s": "A",
+   "t": "At the long end, yes. And this is not us telling anyone to buy or sell anything — it's explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "What's the thing to watch?"
+  },
+  {
+   "s": "A",
+   "t": "The new Fed chair's first big speech on Friday. A hawkish surprise could snap the whole risk-on mood in a session."
+  },
+  {
+   "s": "B",
+   "t": "One line — what does all of this mean for an everyday portfolio?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Global stocks stay buoyant on the soft dollar, but hostage to that long end. Global bonds are the fragile leg — the diversifier is the epicentre. And gold and bitcoin catch the same debasement bid. One force, four prices. And again — that's a read, not a recommendation."
+  },
+  {
+   "s": "B",
+   "t": "Now bring it home. The Rally."
+  },
+  {
+   "s": "A",
+   "t": "Sunday night, from Ang Mo Kio. The centrepiece was a rewrite of family support — a new Child Support Package worth up to about sixty-two thousand dollars per Singaporean child, to the age of seventeen."
+  },
+  {
+   "s": "B",
+   "t": "Per child. What actually changed?"
+  },
+  {
+   "s": "A",
+   "t": "The shape. A ten-thousand-dollar baby gift at the start, then Child Credits of two thousand dollars a year until the child turns sixteen, and a top-up at the end. Money off the cradle, spread across childhood."
+  },
+  {
+   "s": "B",
+   "t": "And housing moved too."
+  },
+  {
+   "s": "A",
+   "t": "The flat income ceilings rose for the first time in seven years — the Build-to-Order ceiling from fourteen to sixteen thousand, the Executive Condominium from sixteen to eighteen. Effective today."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's real money for a lot of families."
+  },
+  {
+   "s": "A",
+   "t": "It is. But the Prime Minister pre-empted his own critics — even with all of it, he said, the birth rate will fall far short of replacement. It hit a record low of zero point eight seven last year."
+  },
+  {
+   "s": "B",
+   "t": "So it's not a fertility switch."
+  },
+  {
+   "s": "A",
+   "t": "On the government's own admission, no. One advocacy group put it sharply — the conversation is too adult-centred, and a child's wellbeing should be the goal, not the demographic."
+  },
+  {
+   "s": "B",
+   "t": "There was more in the Rally, though — parents, seniors."
+  },
+  {
+   "s": "A",
+   "t": "Childcare leave goes up, and it'll be tiered by how many children you have rather than the age of the youngest. Seniors were promised more flexibility to draw on savings and to unlock their homes — but the details come later, so read that as direction, not yet a costed scheme."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And a little cultural one snuck in."
+  },
+  {
+   "s": "A",
+   "t": "From September, films in Chinese dialects can run in cinemas, with Mandarin subtitles. A small door, quietly opened."
+  },
+  {
+   "s": "B",
+   "t": "Technology. And I'm told there's a great one-liner."
+  },
+  {
+   "s": "A",
+   "t": "[wry] You can't ITAR a login."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay, unpack that."
+  },
+  {
+   "s": "A",
+   "t": "Export controls stop you shipping the banned chip. They don't stop you renting time on one. So Chinese labs reserve the top Blackwell chips in data centres in Thailand and Malaysia, and reach them over the network."
+  },
+  {
+   "s": "B",
+   "t": "So the whole control regime is a locked door with an open window."
+  },
+  {
+   "s": "A",
+   "t": "There are thirty-one big data centres planned across Southeast Asia, against two running today. And the mirror is stranger — the chips America did approve are barely flowing, because Beijing is now the one braking."
+  },
+  {
+   "s": "B",
+   "t": "Two governments, same trade, opposite reasons."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. One caveat, because you always want one."
+  },
+  {
+   "s": "B",
+   "t": "Always."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] The marquee accusation rests on the White House's own word, with no logs disclosed. Plausible — not yet nailed down. We flag it."
+  },
+  {
+   "s": "B",
+   "t": "And the home-lab corner — for the person with the serious rig."
+  },
+  {
+   "s": "A",
+   "t": "A new model, Nemotron three-point-five Lightning — thirty billion parameters, and it holds a million tokens of context without slowing down. It sits right beside the one we flagged last week."
+  },
+  {
+   "s": "B",
+   "t": "On one graphics card?"
+  },
+  {
+   "s": "A",
+   "t": "Fills a single card. On a dual-card box you run one model on each — the accurate one, and the one that never forgets."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And you'd genuinely run both at once?"
+  },
+  {
+   "s": "A",
+   "t": "That's the point of a two-card box. One holds the whole codebase in context; the other does the careful reasoning. Two failure modes a single model can't span alone."
+  },
+  {
+   "s": "B",
+   "t": "The Kit — quick, buy-once."
+  },
+  {
+   "s": "A",
+   "t": "Noble's new earphone, the Iris. In a market that counts drivers like horsepower, it ships with exactly one — and dares you to judge it on cohesion. Six hundred and ninety-nine US dollars."
+  },
+  {
+   "s": "B",
+   "t": "[curious] One driver. What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "The reviews that love it are honest — if you want aggressive bass or a huge stage, look elsewhere. Cohesion is a taste, not a universal win."
+  },
+  {
+   "s": "B",
+   "t": "And the maker of the day, from the Atelier."
+  },
+  {
+   "s": "A",
+   "t": "The buy-once dress shoe — decided by one thing you can check in ten seconds. How the sole is joined to the upper."
+  },
+  {
+   "s": "B",
+   "t": "Teach me."
+  },
+  {
+   "s": "A",
+   "t": "A glued shoe is landfill when it fails. A Goodyear-welted one you resole three or four times, because the upper is never touched. And shell cordovan — the grail leather — is two shells per horse, six months of work."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Designer names sell you glued shoes at welted prices. Past about a thousand pounds, you're buying finishing and a logo, not more shoe."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Home espresso. Where does it start?"
+  },
+  {
+   "s": "A",
+   "t": "One of two moments. The shot that beats your café — or the morning a two-notch grind change audibly improves the cup. That feedback loop is the whole trap."
+  },
+  {
+   "s": "B",
+   "t": "They have a name for the perfect one, don't they?"
+  },
+  {
+   "s": "A",
+   "t": "The God shot. And it recedes — every time you hit one, the bar goes up and they get rarer."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Of course it does. So what do people actually spend?"
+  },
+  {
+   "s": "A",
+   "t": "The founding law is grinder-first — a great machine fed by a bad grinder makes bad espresso. James Hoffmann, the hobby's most-watched voice, says it flatly."
+  },
+  {
+   "s": "B",
+   "t": "And the toys at the top?"
+  },
+  {
+   "s": "A",
+   "t": "The machine of the year is a robotic lever — a motor and ten sensors adjusting the shot in real time, about eighteen hundred and fifty dollars."
+  },
+  {
+   "s": "B",
+   "t": "[excited] A robot barista."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] With no steam wand. So no milk, and no local service. Cult favourite, not community default."
+  },
+  {
+   "s": "B",
+   "t": "And here comes the part where you crush my dreams."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] The community crushes them for me. Their own arithmetic — grinders plateau around five to seven hundred dollars, machines around fifteen hundred to two thousand."
+  },
+  {
+   "s": "B",
+   "t": "And after that?"
+  },
+  {
+   "s": "A",
+   "t": "Every extra thousand dollars buys you five to fifteen per cent more cup, against forty to sixty lower down. The upgrade treadmill is real, and they admit it when pressed."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the honest answer is spend a thousand and learn to pull a shot."
+  },
+  {
+   "s": "A",
+   "t": "Spend a thousand, and buy fresh beans. Hoffmann's whole thesis — better coffee beats a better brewer, every time."
+  },
+  {
+   "s": "B",
+   "t": "So for someone starting Monday — what's the honest list?"
+  },
+  {
+   "s": "A",
+   "t": "Lurk first. Read the forum wiki, watch a couple of videos, buy fresh local beans before any machine. Then a solid starter setup — machine, grinder, a few tools — lands around seven hundred to a thousand US dollars, all in."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And Singapore's actually deep on this."
+  },
+  {
+   "s": "A",
+   "t": "Genuinely — local roasters, a La Marzocco showroom, whole communities on the group chats. Just budget the sticker plus tax and markup."
+  },
+  {
+   "s": "B",
+   "t": "Culture. Give me the split-decision one."
+  },
+  {
+   "s": "A",
+   "t": "A film — The Rivals of Amziah King, McConaughey as a bluegrass-playing beekeeper. It scored ninety-seven on one aggregator and a middling sixty-five on the other."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How is it both?"
+  },
+  {
+   "s": "A",
+   "t": "That gap is the review. Critics broadly recommend it while disagreeing hard on how good it is — the fingerprint of an ambitious, uneven film. One called it a new American classic; another, too many ingredients."
+  },
+  {
+   "s": "B",
+   "t": "And music?"
+  },
+  {
+   "s": "A",
+   "t": "Ariana Grande's new album split the critics the same way — glowing eighties from some, a forty from others. Pop's most-watched star, another divided verdict."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] The critics can't agree on anything this week."
+  },
+  {
+   "s": "A",
+   "t": "Not the film, not the album. Even the popcorn one — a Statham thriller — landed rotten, all crunchy carnage and convoluted plot. Read the gap, not the rave."
+  },
+  {
+   "s": "B",
+   "t": "And a watch that vanished."
+  },
+  {
+   "s": "A",
+   "t": "A two-thousand-dollar Doxa diver, two hundred and fifty pieces, sold out in minutes. Aged to look battle-worn — from the factory."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Paying for wear you didn't put in."
+  },
+  {
+   "s": "A",
+   "t": "That's the exact critique. Buy the look if you love it; don't mistake the pre-aged finish for a history."
+  },
+  {
+   "s": "B",
+   "t": "Family desk — she starts secondary one this year."
+  },
+  {
+   "s": "A",
+   "t": "And the news is that even the paediatricians dropped the two-hour screen clock. The new advice is harder — stop counting hours, protect sleep."
+  },
+  {
+   "s": "B",
+   "t": "Because the harm travels through the sleep."
+  },
+  {
+   "s": "A",
+   "t": "That's the mechanism the big study kept finding. And one researcher measured the average effect of screen time on wellbeing as — her words — about the size of eating a potato."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A potato. I'm keeping that."
+  },
+  {
+   "s": "A",
+   "t": "And on the body — a study of runners who've each done about a hundred and twenty-one marathons. Their aerobic engine looks younger than the age charts predict."
+  },
+  {
+   "s": "B",
+   "t": "So run a hundred marathons, stay young. Simple."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Except the people who run a hundred and twenty-one marathons are not a random sample. And most of these longevity studies never actually measured the thing they're crediting. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "One for the diary before we close?"
+  },
+  {
+   "s": "A",
+   "t": "The Formula One night race, the ninth to the eleventh of October — and it's the season's first-ever Sprint weekend. Book now, or not at all."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And for the twelve-year-old at home?"
+  },
+  {
+   "s": "A",
+   "t": "A Labubu bakery just opened in Sentosa — the toy giant's first, forty-five collectible pastries. Treat it as a photo stop, not a meal."
+  },
+  {
+   "s": "B",
+   "t": "And the undercurrent. The one you say the big papers haven't reached yet."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] The Philippines. In July, a government welfare agency began training the people it supports to sell on TikTok Live."
+  },
+  {
+   "s": "B",
+   "t": "Wait — the welfare agency?"
+  },
+  {
+   "s": "A",
+   "t": "It reads at first like a digital-livelihood story. Look again. A state that can't make enough jobs has outsourced its safety net to a foreign platform's algorithm."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the money's real?"
+  },
+  {
+   "s": "A",
+   "t": "The platform turned over about six billion US dollars there last year. A good host can clear thirty to fifty-odd thousand pesos a month — but it's income with no floor, no contract, and it vanishes the day the algorithm buries her stream."
+  },
+  {
+   "s": "B",
+   "t": "So what actually is it?"
+  },
+  {
+   "s": "A",
+   "t": "The old corner shop — the sari-sari store — reincarnated as a livestream. They handed each seller ten thousand pesos of seed money, and none of the risk."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Dignity and dependency in the same stream."
+  },
+  {
+   "s": "A",
+   "t": "That's the line. A safety net catches you when the market fails. An income that lives by the algorithm isn't a net — it's a trampoline someone else owns the springs to."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And when the big papers write it up in three weeks, that's the tension they'll have to hold."
+  },
+  {
+   "s": "A",
+   "t": "And you already knew where to look."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. And build for the long haul. See you tomorrow, Singapore."
+  }
+ ]
+}
