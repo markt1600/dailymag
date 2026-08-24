@@ -1,0 +1,612 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 82,
+ "date": "Tuesday 25 August 2026",
+ "title": "Hard Value — the flight from paper",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the twenty-fifth of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go. [warmly]"
+  },
+  {
+   "s": "A",
+   "t": "Three things up top. Syria and Israel actually sat down — in Jordan, with the Mossad chief across the table."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Gold punched through a record, and the Treasury had to rescue its own bond market. Again."
+  },
+  {
+   "s": "A",
+   "t": "And down the rabbit hole: film photography, where a decades-old camera and a dollar-a-frame habit become an obsession."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] A dollar a frame. We'll get there. Start me with Syria, though — that's the one that surprised me."
+  },
+  {
+   "s": "A",
+   "t": "Sunday, in Jordan, under American mediation. Syria's foreign minister sat across from the head of Israel's Mossad."
+  },
+  {
+   "s": "B",
+   "t": "And it wasn't just diplomats, right? You said the spy chiefs came."
+  },
+  {
+   "s": "A",
+   "t": "Both of them. The heads of general and military intelligence. [pause] That's the tell — this was about stopping the shooting, not a photo op."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what were they actually trying to build?"
+  },
+  {
+   "s": "A",
+   "t": "A special operations room, in Jordan, under American oversight. Something to keep any single incident from spiralling — including one that drags in Turkey."
+  },
+  {
+   "s": "B",
+   "t": "Okay. And the reason this matters more than two men in a room?"
+  },
+  {
+   "s": "A",
+   "t": "Because they'd almost done this before. By the start of the year they'd agreed, on paper, to — quote — almost everything. Security zones in the south, a buffer with only United Nations forces."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And then the war wiped the table."
+  },
+  {
+   "s": "A",
+   "t": "Wiped it clean. Sunday was them picking the draft back up off the floor."
+  },
+  {
+   "s": "B",
+   "t": "Here's my sceptic hat, though. They signed on paper once and a war erased it in a week. Why believe this time?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] You shouldn't, entirely. A special operations room deconflicts incidents. It doesn't answer why Israel keeps striking, or what Damascus can deliver while it's still stitching a state together."
+  },
+  {
+   "s": "B",
+   "t": "So what would tell us it's failing?"
+  },
+  {
+   "s": "A",
+   "t": "Simple. The next airstrike landing before the next meeting is even scheduled."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Right. Grim little test, but a clear one."
+  },
+  {
+   "s": "A",
+   "t": "Quickly, the harder-news corner. The Canada tariff story moved from threat to forecast."
+  },
+  {
+   "s": "B",
+   "t": "This is the fifty-per-cent tariff?"
+  },
+  {
+   "s": "A",
+   "t": "Fifty per cent, now live, on roughly twenty-eight billion dollars of Canadian goods. Most outlets say twenty-eight now — we'd said twenty in yesterday's book, so we're correcting that."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good. Own it. How bad's the damage?"
+  },
+  {
+   "s": "A",
+   "t": "One bank pencils in about half a percentage point off Canadian growth, with a recession the tail case if it escalates past the eighth of September."
+  },
+  {
+   "s": "B",
+   "t": "And Washington's big Iran sanctions day? The economic D-Day?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] It landed softer than billed. Around sixty new designations, categories widened to digital assets and gold and shipping. But the market shrugged — oil actually fell more than two per cent, below ninety-three dollars."
+  },
+  {
+   "s": "B",
+   "t": "The build-up was bigger than the reveal."
+  },
+  {
+   "s": "A",
+   "t": "The mirror image of it, exactly."
+  },
+  {
+   "s": "B",
+   "t": "Okay, the money block. And this is your favourite kind of week, isn't it — the gold week."
+  },
+  {
+   "s": "A",
+   "t": "[amused] It's a good tape. Gold cleared a fresh record — opening above four thousand six hundred dollars an ounce for the first time since mid-May."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Four thousand six hundred. And bitcoin?"
+  },
+  {
+   "s": "A",
+   "t": "Bitcoin ran the high-octane version of the same trade — up about twenty-three per cent in seven days, toward seventy-eight thousand."
+  },
+  {
+   "s": "B",
+   "t": "So what's driving both? Because that's not a coincidence."
+  },
+  {
+   "s": "A",
+   "t": "The bond market. The thirty-year Treasury yield hit five point three three per cent last week — a nineteen-year high."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Nineteen years. Why?"
+  },
+  {
+   "s": "A",
+   "t": "Forty trillion dollars of debt, a July deficit of four hundred and thirty-two billion, and a wall of A-I-related corporate borrowing crowding the government out."
+  },
+  {
+   "s": "B",
+   "t": "So how did it come back down?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the part that tells you the whole story. The Treasury rescued its own market. It had already doubled its buybacks, and this week signalled it could tap its roughly one-trillion-dollar cash account to fund even more."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Wait — the issuer of the bonds is buying its own bonds to hold the price up?"
+  },
+  {
+   "s": "A",
+   "t": "One more from the money desk, because the yen matters to a Japan traveller — the dollar sits near a hundred and fifty-nine yen, and the Singapore dollar near one twenty-eight to the greenback."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the soft-yen trade for a Tokyo trip is still on."
+  },
+  {
+   "s": "A",
+   "t": "Still on. Which folds into the diary — the first-ever Singapore Grand Prix Sprint, the ninth to eleventh of October, and a Kyushu sumo run in November worth the flight."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Sumo with a twelve-year-old. That's a good day out."
+  },
+  {
+   "s": "A",
+   "t": "Short, dramatic bouts, matinee sessions — genuinely family-friendly. Tickets drop on the nineteenth of September and sell out that day."
+  },
+  {
+   "s": "B",
+   "t": "And a table worth booking?"
+  },
+  {
+   "s": "A",
+   "t": "A one-Michelin chef opened a cheaper room, Assaggi — a tasting menu from fifty-eight dollars at lunch. The value way into a starred kitchen."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Noted. My wallet, less so."
+  },
+  {
+   "s": "A",
+   "t": "And a small honesty note on the culture desk — the tennis documentary shows an early user score of eight point one, but no professional critic score exists yet. We won't print a number that isn't there."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Wait for the reviews. Fair."
+  },
+  {
+   "s": "A",
+   "t": "And on the maker desk, the white-label truth is the fun part — the very same Portuguese and Italian mills weave for the budget label and the four-thousand-dollar luxury one. You're often buying the same cloth and a different logo."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So the logo is most of the price."
+  },
+  {
+   "s": "A",
+   "t": "A large slice of it, yes. The honest exceptions do weave their own — but you can't verify the fibre justifies the multiple."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Buy the cloth, skip the story. Got it."
+  },
+  {
+   "s": "A",
+   "t": "One more on Vietnam, because it rhymes with the whole issue. The newest risk is the one the reform is meant to cure — the apps that put bullion on a phone screen also put your money in a platform's promise to redeem it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So a hedge against paper reinvents the counterparty risk it was escaping."
+  },
+  {
+   "s": "A",
+   "t": "Inside an app. That's the irony under the queue."
+  },
+  {
+   "s": "A",
+   "t": "And a last correction we owe the reader — yesterday we put the tariffed Canadian trade near twenty billion dollars; the figure most widely cited now is closer to twenty-eight. We use the higher, better-sourced number."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] A magazine that corrects itself. That's the whole job."
+  },
+  {
+   "s": "A",
+   "t": "That's it. And a buyback is a liquidity injection. It softened the dollar, and the debasement bid lit up gold and bitcoin."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's owners pricing a managed decline. So what's it mean for the actual portfolio pieces — the all-world fund, the bonds, gold, bitcoin?"
+  },
+  {
+   "s": "A",
+   "t": "One force, four reads. Global equities stay buoyant on the soft dollar, but they're hostage to that long-end yield. Global bonds are the fragile leg. Gold fires on all three cylinders. Bitcoin is the leveraged version."
+  },
+  {
+   "s": "B",
+   "t": "And it all hangs on Friday."
+  },
+  {
+   "s": "A",
+   "t": "Friday. The new Fed chair, Kevin Warsh, gives his first Jackson Hole keynote. And here's the correction to everyone's instinct — the market's pricing a hold, and at the tail, a hike. Not a cut."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Not a cut? People keep expecting a cut."
+  },
+  {
+   "s": "A",
+   "t": "There isn't one priced for September. Market explanation, by the way — not advice."
+  },
+  {
+   "s": "B",
+   "t": "Always. [warmly] Bring it home to Singapore, though. There was an inflation number."
+  },
+  {
+   "s": "A",
+   "t": "There was, and it reads worse than it is. Headline inflation rose to two point two per cent in July, core to two per cent — the fastest since October twenty twenty-four."
+  },
+  {
+   "s": "B",
+   "t": "That sounds like a lot. You're telling me it isn't?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Both numbers came in below what economists expected, and prices actually fell month-on-month. The whole jump was one thing — the regulated electricity tariff stepping up in July."
+  },
+  {
+   "s": "B",
+   "t": "So it's the power bill, not the economy."
+  },
+  {
+   "s": "A",
+   "t": "The meter, not the machine. Don't read it as inflation coming back."
+  },
+  {
+   "s": "B",
+   "t": "And the National Day Rally money — that's still rolling out."
+  },
+  {
+   "s": "A",
+   "t": "The new Child Support Package. Up to about sixty-two thousand dollars per child, to age seventeen, the same regardless of birth order — reaching six hundred and ten thousand children."
+  },
+  {
+   "s": "B",
+   "t": "And the flat income ceilings finally moved."
+  },
+  {
+   "s": "A",
+   "t": "First time since twenty nineteen. The public-housing ceiling up to sixteen thousand dollars a month."
+  },
+  {
+   "s": "B",
+   "t": "Tech desk. There's a model story that's genuinely a little spooky."
+  },
+  {
+   "s": "A",
+   "t": "A Chinese lab, Z-A-I, shipped a model called G-L-M five point three — and then held the open weights back for two weeks."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Held them back? Why would an open-weights lab do that?"
+  },
+  {
+   "s": "A",
+   "t": "Because it got too good at finding software holes. It scored eighty-four and a half per cent on a vulnerability-finding benchmark — its own number, unreplicated — and reportedly turned up a serious flaw in a popular coding tool."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So an open lab deciding not to open. That's the sovereignty story."
+  },
+  {
+   "s": "A",
+   "t": "That's the whole story of the week in four words. Meanwhile the big chipmaker reports tomorrow, having guided to about ninety-one billion dollars."
+  },
+  {
+   "s": "B",
+   "t": "And your sceptic line on all of it?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] The money moves in a circle. More than seven hundred and fifty billion dollars of deals now knit the same names together, and one of the giants went free-cash-flow-negative last quarter for the first time."
+  },
+  {
+   "s": "B",
+   "t": "Circular financing. The bears have been drawing that diagram."
+  },
+  {
+   "s": "A",
+   "t": "They have. A weak guide tomorrow would test whether the circle spins without a new dollar entering it."
+  },
+  {
+   "s": "B",
+   "t": "Now — the home lab, my corner. What actually runs on the reader's machine? Because I know he only cares about the big card."
+  },
+  {
+   "s": "A",
+   "t": "The single graphics card. And the honest answer is: the model everyone's talking about doesn't fit. It's seven hundred and forty-three billion parameters — you'd need a four-card server."
+  },
+  {
+   "s": "B",
+   "t": "So what does fit?"
+  },
+  {
+   "s": "A",
+   "t": "A new one from Alibaba, twenty-seven billion parameters. It lands in about seventeen gigabytes and leaves half the card free. That's the new local default."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Admire the frontier, run the thing that fits. I like that."
+  },
+  {
+   "s": "A",
+   "t": "On The Kit — a pair of display glasses, three hundred dollars, a real price cut. A hundred-and-forty-six-inch screen on your face for a plane seat."
+  },
+  {
+   "s": "B",
+   "t": "And the buy-once desk — the maker of the day. This week it's bed sheets, which sounds boring until you told me the trick."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Buy the cloth, not the count. Almost everything the label shouts is a lie. Thread count above about four hundred is marketing — thinner yarns twisted and counted twice."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So the thousand-count luxury sheet is worse?"
+  },
+  {
+   "s": "A",
+   "t": "Sleeps hotter, for more money. For a Singapore bedroom, a hundred-and-fifty-dollar percale beats a six-hundred-dollar sateen for almost everyone."
+  },
+  {
+   "s": "B",
+   "t": "Buy the percale and stop."
+  },
+  {
+   "s": "A",
+   "t": "That's the community's own line, word for word."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Film photography! Talk to me. Why would anyone shoot film in twenty twenty-six?"
+  },
+  {
+   "s": "A",
+   "t": "Because the constraint is the product. Thirty-six frames, no preview, no delete. You don't see a single picture until it's developed and scanned."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And that's the appeal, not the annoyance."
+  },
+  {
+   "s": "A",
+   "t": "For the people who fall in, yes. And it's a real world — the main community runs near two point seven million members."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Two point seven million. Okay. And the gear — because I know there's a grail."
+  },
+  {
+   "s": "A",
+   "t": "There's a strange fact at the top. Two big makers stopped making film rangefinders, so Leica is now the only company making a new thirty-five-millimetre rangefinder at all."
+  },
+  {
+   "s": "B",
+   "t": "Which means they can charge whatever they want."
+  },
+  {
+   "s": "A",
+   "t": "They reissued the classic M-six at five thousand two hundred and ninety-five dollars in twenty twenty-two. After tariff hikes it's near seven thousand now."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Seven thousand dollars for a film camera. And the film itself keeps getting pricier?"
+  },
+  {
+   "s": "A",
+   "t": "Kodak's announced hikes of up to forty per cent — because silver, the light-sensitive ingredient, roughly doubled last year. All in, a lab-developed roll runs about a dollar a frame."
+  },
+  {
+   "s": "B",
+   "t": "A dollar a frame. That's the number that stops people."
+  },
+  {
+   "s": "A",
+   "t": "[wry] It is. And here's the sceptic the community says out loud — the little point-and-shoot cameras are a bubble. A cult Contax now clears eight hundred to three thousand dollars."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] For a point-and-shoot from the nineties?"
+  },
+  {
+   "s": "A",
+   "t": "Up four to six times since twenty nineteen. One reviewer called it hype, not superiority. They're fashion objects."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So what's the honest on-ramp? If our reader wanted in."
+  },
+  {
+   "s": "A",
+   "t": "A serviced Nikon from a trusted dealer, a couple hundred dollars. A few rolls of film. Mail them to a lab. And in Singapore — buy a dry cabinet, because the humidity grows fungus on your lenses."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A dry cabinet. The most Singapore sentence in the whole book."
+  },
+  {
+   "s": "A",
+   "t": "[wry] The buy-once purchase you didn't know the hobby needed."
+  },
+  {
+   "s": "B",
+   "t": "Culture desk, fast. Venice opened."
+  },
+  {
+   "s": "A",
+   "t": "With Danny Boyle's Murdoch origin story, and Guy Pearce as the young mogul. And on streaming, a Djokovic documentary landed the week before the U-S Open."
+  },
+  {
+   "s": "B",
+   "t": "Any good?"
+  },
+  {
+   "s": "A",
+   "t": "Too early to say — no critic scores yet. And one reviewer already called it a soft, authorised portrait. Wait for the real reviews."
+  },
+  {
+   "s": "B",
+   "t": "The body desk — the fitness one made me feel better about being lazy."
+  },
+  {
+   "s": "A",
+   "t": "[chuckles] It should. A study of a hundred and forty-seven thousand people found the strength-training sweet spot is ninety to a hundred and twenty minutes a week — and no extra benefit above that."
+  },
+  {
+   "s": "B",
+   "t": "So two fifty-minute sessions and I'm done?"
+  },
+  {
+   "s": "A",
+   "t": "Plus your cardio. Grinding past it is ego, not medicine. General information, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And the family desk — the phone study."
+  },
+  {
+   "s": "A",
+   "t": "A new paper that ends exactly at age twelve, a Secondary One student. And the sharper finding: it's the addictive pattern, not the hour-count, that tracks the harm."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Watch the compulsion, not the clock."
+  },
+  {
+   "s": "A",
+   "t": "And protect the sleep. At twelve, the late body-clock is biology, not defiance."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the long read. This one stayed with me."
+  },
+  {
+   "s": "A",
+   "t": "Vietnam. Across the country, young office workers are turning payday into gold day — buying bullion by the tenth of a tael, on apps, and queuing in the rain for mini-bars."
+  },
+  {
+   "s": "B",
+   "t": "Queuing in the rain. For gold."
+  },
+  {
+   "s": "A",
+   "t": "Two and three hours, on the God of Wealth day. Among Vietnamese aged eighteen to thirty-four, seventy-four per cent say they want vaulted gold."
+  },
+  {
+   "s": "B",
+   "t": "So it's a savings-app story?"
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] Look again. It's a policy story. The state ended its gold monopoly and is racing to build a national exchange — to pull that hoard into the formal system. There are over five hundred tonnes sitting idle in private hands."
+  },
+  {
+   "s": "B",
+   "t": "So the government is trying to undo exactly what the young people are doing."
+  },
+  {
+   "s": "A",
+   "t": "The central bank's nightmare word is goldisation. And it's de-goldising precisely because the young are re-goldising."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Why gold, though? Why not stocks, a fund, anything productive?"
+  },
+  {
+   "s": "A",
+   "t": "Because they don't trust the alternatives. Youth unemployment near seventeen per cent, a property ladder pulled up, a currency their grandparents watched evaporate. Gold is the rational default."
+  },
+  {
+   "s": "B",
+   "t": "Their grandparents lived the hyperinflation."
+  },
+  {
+   "s": "A",
+   "t": "Eight hundred and seventy-five per cent, in nineteen eighty-six. Houses traded for gold by weight. The survival reflex skipped a generation and came back."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] And the honest counter-read?"
+  },
+  {
+   "s": "A",
+   "t": "That it's not clever. A generation parking its future in an unproductive metal is the symptom of a broken savings market, not a hedge. [pause] But it tells you something."
+  },
+  {
+   "s": "B",
+   "t": "It tells you what they think of the paper."
+  },
+  {
+   "s": "A",
+   "t": "When the credit looks shaky, people reach for the thing they can hold. And a country where the young are doing it by the sliver — that's a message about the credit."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Morgan's old line. Gold is money, everything else is credit."
+  },
+  {
+   "s": "A",
+   "t": "Nineteen twelve, and it's still the argument. Which is where we started this morning — a bond market discovering the same thing."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
