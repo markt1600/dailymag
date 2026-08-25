@@ -1245,12 +1245,12 @@
    "file": "Sennheiser HD650.jpg"
   },
   {
-   "slug": "djokovic-83",
-   "file": "Novak Djokovic (2023).jpg"
-  },
-  {
    "slug": "malatang-83",
    "file": "Malatang.jpg"
+  },
+  {
+   "slug": "djokovic-83",
+   "file": "Novak Djokovic (2023, cropped).jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -1308,5 +1308,6 @@
  "_retrigger53": "category sweep retry after UA fix",
  "_retrigger54": "No.81 weekday heroes: wong-81(cover/Singapore NDR), tanker-81(World/Hormuz), shoe-loake-81(Atelier GYW shoes), espresso-81(Rabbit Hole), iem-81(Kit repr), diver-81(Good Life repr), mcconaughey-81(Screen), marathon-81(Fitness), f1-sg-81(Diary) 2026-08-24",
  "_retrigger55": "No.82.5 special (The Soaplands of Tokyo): kabukicho-825(cover), diet-825(The Fiction), yoshiwara-825(The District, Hiroshige print), yen-825(The House), okubopark-825(The Pathways), hellowork-825(The After), flowerdemo-825(The Argument), newsstand-825(The Sceptic), moj-825(The Undercurrent) 2026-08-25",
- "_retrigger56": "no83 heroes"
+ "_retrigger56": "no83 heroes",
+ "_retrigger57": "djokovic retry"
 }
