@@ -1,0 +1,612 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 84,
+ "date": "Thursday 27 August 2026",
+ "title": "The Certainty Economy",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the twenty-seventh of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go. [warmly] Claire, what's on the board?"
+  },
+  {
+   "s": "A",
+   "t": "Three things. The biggest company on earth beat every number and its own stock still fell."
+  },
+  {
+   "s": "B",
+   "t": "Ouch. [curious] Go on."
+  },
+  {
+   "s": "A",
+   "t": "Iran and Oman draw a new line through the Strait of Hormuz — and the price of oil falls again."
+  },
+  {
+   "s": "B",
+   "t": "And the fun one?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] Fountain pens. The hobby where a thirty-four-dollar pen can shame a five-hundred-dollar one."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Oh, I have opinions. Save it for later — lead first."
+  },
+  {
+   "s": "A",
+   "t": "So. The Strait of Hormuz. On Wednesday, Iran and Oman said they'd agreed a temporary corridor through it — a formula to share the strait's waters and its revenues, a coordination centre to run the traffic, and a joint effort to clear the mines six months of war have scattered across it."
+  },
+  {
+   "s": "B",
+   "t": "That sounds like the end of a crisis."
+  },
+  {
+   "s": "A",
+   "t": "It sounds like it. Here's the catch. Tehran says the strait doesn't actually reopen until Washington honours a deal it signed back in June. So the corridor is drawn on paper. The gate is still locked."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the key sits in Washington."
+  },
+  {
+   "s": "A",
+   "t": "The key sits in Washington. Which isn't even a party to this text."
+  },
+  {
+   "s": "B",
+   "t": "So what did the oil price do?"
+  },
+  {
+   "s": "A",
+   "t": "It fell. Brent dropped about two and a half per cent, to roughly eighty-six dollars a barrel — a third straight session down. Traders keep unwinding the war premium that's been sitting in the price since spring."
+  },
+  {
+   "s": "B",
+   "t": "Even though nothing physically changed in the strait."
+  },
+  {
+   "s": "A",
+   "t": "Nothing physical changed. Traffic is still about two-thirds below normal. What changed is the story the market is willing to tell about it."
+  },
+  {
+   "s": "B",
+   "t": "Okay — give me the room. Who's reading this, and how?"
+  },
+  {
+   "s": "A",
+   "t": "Three ways. From Doha, Al Jazeera frames it as two coastal states settling their own strait between themselves, with the fault sitting squarely in Washington."
+  },
+  {
+   "s": "B",
+   "t": "From Washington?"
+  },
+  {
+   "s": "A",
+   "t": "The president says it's already solved. Quote — the strait, it's functioning. Every once in a while, a drone or a rocket. But a lot of oil is pouring out."
+  },
+  {
+   "s": "B",
+   "t": "[amused] A very functioning strait."
+  },
+  {
+   "s": "A",
+   "t": "And from Beijing, Xinhua says the real story is the sanctions, not the shipping lanes — and that they're self-defeating."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And your own sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Says the market is buying a mirage. It's a bilateral deal that excludes the United States and opens Hormuz to not one extra tanker on its own. That June understanding was disregarded within weeks before the fighting resumed. One tanker incident, and the whole trade reverses."
+  },
+  {
+   "s": "B",
+   "t": "So relief on the tape, not-so-fast from the analysts."
+  },
+  {
+   "s": "A",
+   "t": "That's the split. Cautious de-risking, and a high chance of a snap-back."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] There was a second story too — a Saudi nuclear pact?"
+  },
+  {
+   "s": "A",
+   "t": "Briefly. Washington sent Congress a thirty-year civil-nuclear agreement with Saudi Arabia. Ninety-day clock. If nobody moves to stop it, it becomes law without a vote — and the experts warn it leaves an enrichment door ajar, which for that region is a hard line."
+  },
+  {
+   "s": "B",
+   "t": "A promise doing the document's work again."
+  },
+  {
+   "s": "A",
+   "t": "Every desk this issue, more or less. And quickly, around the desks — Washington took Syria off its terror list after forty-seven years. Canada's counter-tariffs on the United States land on the eighth of September. And the president says he expects to meet Kim Jong Un this year, maybe in November."
+  },
+  {
+   "s": "B",
+   "t": "Busy week for the announcement."
+  },
+  {
+   "s": "A",
+   "t": "Busy week for the announcement. Thinner one for the follow-through."
+  },
+  {
+   "s": "B",
+   "t": "Right. The money. Nvidia."
+  },
+  {
+   "s": "A",
+   "t": "A record quarter. Revenue of ninety-six point two billion dollars — up a hundred and six per cent on the year. Data-centre alone was eighty-nine billion. Gross margin, seventy-five per cent. They handed twenty-six billion back in buybacks."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Those numbers are almost fake."
+  },
+  {
+   "s": "A",
+   "t": "And the guide for next quarter — a hundred and eight billion, which assumes nothing at all from China. And the stock fell."
+  },
+  {
+   "s": "B",
+   "t": "Wait — really? On a beat like that?"
+  },
+  {
+   "s": "A",
+   "t": "On a beat like that. Down about one per cent after hours. The fourth negative reaction to their last five prints. Because the number was already in the price."
+  },
+  {
+   "s": "B",
+   "t": "So the boss says one thing, the tape says another."
+  },
+  {
+   "s": "A",
+   "t": "Jensen Huang says, quote, compute is revenue, and demand is accelerating. The analysts say the risk is concentration — one company's guide doing macro-level work for the whole market. That's not breadth. That's a single point of failure wearing breadth's clothes."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Priced for perfection."
+  },
+  {
+   "s": "A",
+   "t": "Which is why the more telling instrument this week is gold. It's near a three-month high — with a firm dollar, and no rate cuts on the table."
+  },
+  {
+   "s": "B",
+   "t": "Both hedges bid at once. That's not a growth scare."
+  },
+  {
+   "s": "A",
+   "t": "It's a policy-and-fiscal signature. And it all hangs on one man tomorrow."
+  },
+  {
+   "s": "B",
+   "t": "Warsh. His first Jackson Hole."
+  },
+  {
+   "s": "A",
+   "t": "His first big keynote as chair. The market is positioned for neutral — and pricing a roughly one-in-three chance of a September hike. A hike. Not a cut."
+  },
+  {
+   "s": "B",
+   "t": "So the danger is a brand-new chair planting an anti-inflation flag nobody's braced for."
+  },
+  {
+   "s": "A",
+   "t": "The long end is already the brake — the thirty-year up above five per cent on supply. Liquidity's fine, growth's fine. The price of money is the swing variable, and it's set on Friday."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And bitcoin, while we're here?"
+  },
+  {
+   "s": "A",
+   "t": "The thermometer. It touched a three-month high on a run of fund inflows, then faded — appetite's there, but wobbling ahead of Warsh, and still well below last October's peak."
+  },
+  {
+   "s": "B",
+   "t": "Alright. Bring it home to Singapore."
+  },
+  {
+   "s": "A",
+   "t": "Singapore is the same story from below. July exports jumped more than a quarter on the year — electronics up more than a hundred per cent, driven by chips and disk drives. The same AI wave lifting Wall Street."
+  },
+  {
+   "s": "B",
+   "t": "Landing on the little red dot."
+  },
+  {
+   "s": "A",
+   "t": "Growth forecast torn up upward. But strip out those two categories and the domestic economy looks far cooler. It's a concentration story, not a broad boom."
+  },
+  {
+   "s": "B",
+   "t": "And the central bank?"
+  },
+  {
+   "s": "A",
+   "t": "Said the quiet part out loud. Core inflation rises from July, and stays elevated into early next year — even though the headline undershot at two point two per cent."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the boom lifts the wages and creates the squeeze it's now warning about."
+  },
+  {
+   "s": "A",
+   "t": "The one relief is that same cheaper barrel from the Gulf. That's the whole issue, really — the price and the promise, pulling apart."
+  },
+  {
+   "s": "B",
+   "t": "Stay in the machines a second. Anything for the home lab?"
+  },
+  {
+   "s": "A",
+   "t": "Yes — and it ties straight back to Nvidia. Nvidia's own thirty-billion-parameter model, Nemotron three-point-five Lightning, runs a million-token context on a single graphics card."
+  },
+  {
+   "s": "B",
+   "t": "[excited] On one card? What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "There's always a catch. The four-bit build eats about twenty-five gigabytes before a single token of context. On a thirty-two-gigabyte card, that leaves you roughly seven."
+  },
+  {
+   "s": "B",
+   "t": "So it fits — barely."
+  },
+  {
+   "s": "A",
+   "t": "It fits barely. But the speed doesn't sag as the context fills, which makes it the best long-context agent you can run on your own desk."
+  },
+  {
+   "s": "B",
+   "t": "There was a Chinese model too, wasn't there?"
+  },
+  {
+   "s": "A",
+   "t": "A seven-hundred-and-forty-three-billion one, from Zhipu. But they're holding the open weights for a safety review — a first for them — and the headline cyber score everyone's quoting is their own, unreplicated. So we're printing it in tongs."
+  },
+  {
+   "s": "B",
+   "t": "Good. Don't print a benchmark as a fact. And the gear desk — the watch everyone's talking about?"
+  },
+  {
+   "s": "A",
+   "t": "Garmin's flagship. The new fēnix goes full titanium, and — this is the real story — it puts satellite messaging on every model, from a thousand dollars."
+  },
+  {
+   "s": "B",
+   "t": "So the emergency beacon isn't a step-up option anymore."
+  },
+  {
+   "s": "A",
+   "t": "It's on the base watch. The sceptic's note — a thousand-dollar floor is a lot for a brighter screen, and it only matters if you actually go where phones don't."
+  },
+  {
+   "s": "B",
+   "t": "Fair. And I heard there's a buy-once earbud."
+  },
+  {
+   "s": "A",
+   "t": "Sennheiser's new flagship buds — three hundred dollars, and you can replace the batteries yourself. In the buds, and in the case."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] An earbud you re-cell instead of bin. That is the good timeline."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Any objects worth the wait this week?"
+  },
+  {
+   "s": "A",
+   "t": "Two. Astell and Kern's new music player packs eight converter chips — double the last one — and up to twenty-eight hours. But they won't say the price yet. Until they do, it's a spec sheet, not a verdict."
+  },
+  {
+   "s": "B",
+   "t": "Hold the wallet. And the other?"
+  },
+  {
+   "s": "A",
+   "t": "[warmly] This one I like. Seiko turned Honda's old folding scooter, the Motocompo, into a little yellow field watch. Eight thousand of them. The crown is engraved turn, after the scooter's fuel cock. That's a collaboration that actually did the work."
+  },
+  {
+   "s": "B",
+   "t": "Not just a logo on a dial."
+  },
+  {
+   "s": "A",
+   "t": "Not just a logo. Which, funnily enough, is the whole maker desk this week too."
+  },
+  {
+   "s": "A",
+   "t": "And that's the thread into the maker desk. This week's category — leather bags."
+  },
+  {
+   "s": "B",
+   "t": "Ah. Give me the one thing to know."
+  },
+  {
+   "s": "A",
+   "t": "The tell. Genuine leather isn't reassurance — it's the trade's polite word for the bottom of the range. Full-grain patinas and lasts; genuine leather is a split with a plastic top that peels."
+  },
+  {
+   "s": "B",
+   "t": "And who really makes the fancy ones?"
+  },
+  {
+   "s": "A",
+   "t": "That's the fun part. Saddleback's Texas story is actually made in Mexico. And the Milanese grail house, Serapian, is owned by a Swiss conglomerate — and once quietly stitched bags for Cartier and Dunhill."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So the heritage house and the factory are the same building."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic's line — a four-hundred-dollar workshop briefcase from a named tannery outlasts a three-thousand-dollar monogram. The premium is the badge, not the hide."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every single morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Fountain pens, Claire. Talk to me. Why does anyone start?"
+  },
+  {
+   "s": "A",
+   "t": "It's one of three moments. The first nib that writes with almost no pressure at all. Or an ink that flashes red-gold in the light. Or one that pools light to dark as your hand slows down."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "And then you learn the pen was the cheap part."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] There it is."
+  },
+  {
+   "s": "A",
+   "t": "Four doors where you thought there was one. Pens, then nibs, then inks, then paper. Each one a smaller, deeper, more expensive room."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And where do these people gather?"
+  },
+  {
+   "s": "A",
+   "t": "Everywhere. A subreddit of hundreds of thousands, an old forum called the Fountain Pen Network, a beloved podcast called the Pen Addict — where, and I quote them, the pens are an addiction and the shops are the enablers."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] At least they're honest about it."
+  },
+  {
+   "s": "B",
+   "t": "Give me the ladder. Where does a sensible person start?"
+  },
+  {
+   "s": "A",
+   "t": "Thirty-four dollars. A Pilot Metropolitan. It will write as sweetly as pens ten times the price."
+  },
+  {
+   "s": "B",
+   "t": "And the top of it?"
+  },
+  {
+   "s": "A",
+   "t": "A Nakaya — hand-lacquered, commissioned through a handful of shops, and you wait years. Or a nib-grinder, by hand, reshapes your nib into a fine crisp italic for forty dollars."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So where does the money actually go?"
+  },
+  {
+   "s": "A",
+   "t": "Ink and paper. A single bottle of the good ink is thirty-two dollars, and people own it by the dozen. And there is a genuine schism, right now, over a single sheet of thin paper."
+  },
+  {
+   "s": "B",
+   "t": "A war. Over paper."
+  },
+  {
+   "s": "A",
+   "t": "A real one. The cult paper changed hands and got reformulated, twice, and the community swears the new sheet is a different product — less of that dramatic, multi-coloured shading."
+  },
+  {
+   "s": "B",
+   "t": "[amused] I love that this is a war."
+  },
+  {
+   "s": "A",
+   "t": "And here's the honest sceptic, because we always run one. Modern steel nibs are wonderful. Gold buys you spring and flex — not smoothness. A well-tuned thirty-four-dollar pen embarrasses gear ten times its price."
+  },
+  {
+   "s": "B",
+   "t": "So the five-hundred-dollar pen?"
+  },
+  {
+   "s": "A",
+   "t": "Writes no better. You're buying the object, and the joy of owning it. Which is completely fine — just know that's what you're buying."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Honestly? That's the whole issue in a nib."
+  },
+  {
+   "s": "A",
+   "t": "It rather is. And if you want in, the Singapore pen show is the fifth and sixth of September. Free entry."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Bring us up for air. What's worth watching?"
+  },
+  {
+   "s": "A",
+   "t": "The best-reviewed horror of the year, apparently. A first-time director's film called It Ends — four friends trapped on a road that will not end."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Apparently?"
+  },
+  {
+   "s": "A",
+   "t": "Apparently. The trades report a score up in the mid-nineties, but we couldn't confirm the aggregate ourselves — so we hold it at arm's length."
+  },
+  {
+   "s": "B",
+   "t": "And the flip side?"
+  },
+  {
+   "s": "A",
+   "t": "A girl group, KATSEYE, set to top the album chart with the reviews running the other way. The tills love it; the critics shrug. Two juries, no agreement."
+  },
+  {
+   "s": "B",
+   "t": "The week in a sentence. And on the body?"
+  },
+  {
+   "s": "A",
+   "t": "One finding worth a fridge magnet. It is sleep, not screens, that moves a twelve-year-old's mind the most."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Say more."
+  },
+  {
+   "s": "A",
+   "t": "A new study weighed sleep, screens, activity and diet against how kids do at school and with friends. Sleep was the strongest link, by a distance. Screens ranked second."
+  },
+  {
+   "s": "B",
+   "t": "So the fight to have isn't the screen-minutes fight."
+  },
+  {
+   "s": "A",
+   "t": "It's the bedtime. Aim there, and the screen rule mostly takes care of itself. And a nice companion over in fitness — you don't need an hour."
+  },
+  {
+   "s": "B",
+   "t": "There was a ban story in there too, wasn't there?"
+  },
+  {
+   "s": "A",
+   "t": "Australia's under-sixteen social-media ban. Eight months in, and more than eight in ten teenagers are still on. So the country's answer is bigger fines. The lesson for a household is quieter — fix the sleep, not the statute."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Right. What do I actually need, then?"
+  },
+  {
+   "s": "A",
+   "t": "Short, hard bursts. Five minutes or less, twice a day. Genuinely moves your fitness. They call them exercise snacks."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Exercise snacks. Even I can do a flight of stairs."
+  },
+  {
+   "s": "A",
+   "t": "The floor is low. The trick is just turning up."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Alright. Take us out slow. The long read."
+  },
+  {
+   "s": "A",
+   "t": "Thailand. And a question — what do you buy when the future stops feeling certain?"
+  },
+  {
+   "s": "B",
+   "t": "[curious] What do you buy?"
+  },
+  {
+   "s": "A",
+   "t": "Luck. Amulets, shrines, fortune-telling — the Thai word is mutelu — packaged now like any other lifestyle brand. Shopped online. Curated on the feed. There is even a marketing word for it."
+  },
+  {
+   "s": "B",
+   "t": "And people are genuinely spending on this."
+  },
+  {
+   "s": "A",
+   "t": "Eighty-eight per cent of Thais say they believe. And asked what they most want it to bring them, they say money — wealth first, ahead of luck, ahead of health."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Why now, though?"
+  },
+  {
+   "s": "A",
+   "t": "Because the wage ladder jammed. Household debt near ninety per cent of the whole economy. Growth the weakest in three decades. And the young are defaulting fastest of any group."
+  },
+  {
+   "s": "B",
+   "t": "So they're buying certainty by the charm."
+  },
+  {
+   "s": "A",
+   "t": "A hundred baht for the feeling of a floor under your feet. And here's the dark part — the same influencer economy selling the luck is loading the credit card behind it."
+  },
+  {
+   "s": "B",
+   "t": "And the state just lets it run?"
+  },
+  {
+   "s": "A",
+   "t": "Worse. It's written belief into the tourism budget — selling folk faith back as soft power, the way Japan sold cute and Korea sold pop."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's a heavy one."
+  },
+  {
+   "s": "A",
+   "t": "The Erawan shrine says it best. Its four-faced Brahma was put up in nineteen fifty-six, to stop a run of deaths during a hotel's construction. Belief as risk management for an anxious, modernising economy."
+  },
+  {
+   "s": "B",
+   "t": "Seventy years on, with a checkout button."
+  },
+  {
+   "s": "A",
+   "t": "It's a very old form of insurance, now sold by an app. And the read travels — across the region, faith is becoming a reliably counter-cyclical business, strongest exactly where wages are flattest."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The certainty economy."
+  },
+  {
+   "s": "A",
+   "t": "Which brings us right back to where we started — a price, and a promise. And which of the two you can actually count on."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
