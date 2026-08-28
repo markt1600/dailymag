@@ -42,7 +42,7 @@ export function seal(plain, publicKey = PUB) {
 function prepHtml(name, html) {
   const pdf = name.replace(/\.html$/, ".pdf");
   return html
-    .replaceAll(`href="${pdf}"`, `href="https://marktan.ai/api/special?file=${pdf}"`)
+    .replaceAll(`href="${pdf}"`, `href="https://www.marktan.ai/api/special?file=${pdf}"`)
     .replaceAll('"archive/no-', '"https://dailymag.marktan.ai/archive/no-');
 }
 

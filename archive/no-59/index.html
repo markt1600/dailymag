@@ -1186,7 +1186,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 
 <script>
 (function(){
-  var API='https://marktan.ai/api/feedback', ISS=document.querySelector('.pdf-dl');
+  var API='https://www.marktan.ai/api/feedback', ISS=document.querySelector('.pdf-dl');
   var issue=(ISS&&(ISS.textContent.match(/No\.\s*(\d+)/)||[])[1])||'';
   function post(p){ try{ fetch(API,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify(p)}); }catch(e){} }
   document.querySelectorAll('.fbrow').forEach(function(row){

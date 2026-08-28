@@ -1249,7 +1249,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
       if(fbk) fbk.textContent='deep dive requested';
     });
     row.appendChild(gd);
-    }); function mOwnerChk2(cb){if(!window.__mOwnerP){window.__mOwnerP=new Promise(function(res){var mm=document.cookie.match(/(?:^|;\s*)mt_owner=([^;]+)/);if(!mm){res(false);return;}fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){res(r.ok);}).catch(function(){res(false);});});}window.__mOwnerP.then(cb);}
+    }); function mOwnerChk2(cb){if(!window.__mOwnerP){window.__mOwnerP=new Promise(function(res){var mm=document.cookie.match(/(?:^|;\s*)mt_owner=([^;]+)/);if(!mm){res(false);return;}fetch('https://www.marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){res(r.ok);}).catch(function(){res(false);});});}window.__mOwnerP.then(cb);}
   });
   var picks=[].slice.call(document.querySelectorAll('.nextpick'));
   if(picks.length){
@@ -1394,7 +1394,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   });
   var ms=document.getElementById('mspec');
   if(ms){
-    function mOwnerChk(cb){if(!window.__mOwnerP){window.__mOwnerP=new Promise(function(res){var mm=document.cookie.match(/(?:^|;\s*)mt_owner=([^;]+)/);if(!mm){res(false);return;}fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){res(r.ok);}).catch(function(){res(false);});});}window.__mOwnerP.then(cb);}
+    function mOwnerChk(cb){if(!window.__mOwnerP){window.__mOwnerP=new Promise(function(res){var mm=document.cookie.match(/(?:^|;\s*)mt_owner=([^;]+)/);if(!mm){res(false);return;}fetch('https://www.marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){res(r.ok);}).catch(function(){res(false);});});}window.__mOwnerP.then(cb);}
     while(ms.options.length>1) ms.remove(1);
     ms.hidden=true;
     ms.addEventListener('change', function(){
@@ -1409,7 +1409,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
         var list=(d&&d.specials)||[]; if(!list.length) return;
         while(ms.options.length>1) ms.remove(1);
         list.slice().reverse().forEach(function(s){
-          var o=document.createElement('option'); o.value='https://marktan.ai/api/special?file='+encodeURIComponent(s.path); o.textContent='No. '+s.no+' · '+s.topic;
+          var o=document.createElement('option'); o.value='https://www.marktan.ai/api/special?file='+encodeURIComponent(s.path); o.textContent='No. '+s.no+' · '+s.topic;
           ms.appendChild(o);
         });
         var last=list[list.length-1];

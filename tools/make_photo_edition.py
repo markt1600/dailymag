@@ -284,7 +284,7 @@ GATE_HEAD = ('\n<meta name="robots" content="noindex,nofollow">'
              "if(document.body)f();else document.addEventListener('DOMContentLoaded',f);}"
              "var m=document.cookie.match(/(?:^|;\\s*)mt_owner=([^;]+)/);"
              "if(!m){deny();return;}"
-             "fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},"
+             "fetch('https://www.marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},"
              "body:JSON.stringify({session:decodeURIComponent(m[1])})})"
              ".then(function(r){if(r.ok){var s=document.getElementById('mgateCss');"
              "if(s)s.parentNode.removeChild(s);document.documentElement.style.visibility='visible';}else{deny();}})"
@@ -775,7 +775,7 @@ JS = """
     if(!window.__mOwnerP){ window.__mOwnerP=new Promise(function(res){
       var mm=document.cookie.match(/(?:^|;\\s*)mt_owner=([^;]+)/);
       if(!mm){ res(false); return; }
-      fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){ res(r.ok); }).catch(function(){ res(false); });
+      fetch('https://www.marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){ res(r.ok); }).catch(function(){ res(false); });
     }); }
     window.__mOwnerP.then(cb);
   }
@@ -964,7 +964,7 @@ JS = """
         var list=(d&&d.specials)||[]; if(!list.length) return;
         while(ms.options.length>1) ms.remove(1);
         list.slice().reverse().forEach(function(s){
-          var o=document.createElement('option'); o.value='https://marktan.ai/api/special?file='+encodeURIComponent(s.path); o.textContent='No. '+s.no+' \u00b7 '+s.topic;
+          var o=document.createElement('option'); o.value='https://www.marktan.ai/api/special?file='+encodeURIComponent(s.path); o.textContent='No. '+s.no+' \u00b7 '+s.topic;
           ms.appendChild(o);
         });
         var last=list[list.length-1];
