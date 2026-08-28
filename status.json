@@ -1,20 +1,20 @@
 {
  "publication": "MERIDIAN",
- "issue": 85,
- "date": "28 August 2026",
- "isoDate": "2026-08-28",
- "builtAt": "2026-08-28T06:38:56+08:00",
- "startedAt": null,
- "buildMinutes": 88,
- "buildTokens": 233085808,
+ "issue": 86,
+ "date": "29 August 2026",
+ "isoDate": "2026-08-29",
+ "builtAt": "2026-08-29T06:33:13+08:00",
+ "startedAt": "2026-08-29T05:12:59+08:00",
+ "buildMinutes": 80,
+ "buildTokens": 135869540,
  "buildTokenBreakdown": {
-  "input": 1796106,
-  "cached": 230373814,
-  "output": 915888
+  "input": 1655451,
+  "cached": 133303004,
+  "output": 911085
  },
- "buildCostUSD": 149.31,
+ "buildCostUSD": 99.77,
  "buildModel": "claude-opus-4-8",
- "pages": 24,
+ "pages": 28,
  "qa": "pass",
  "url": "https://dailymag.marktan.ai"
 }

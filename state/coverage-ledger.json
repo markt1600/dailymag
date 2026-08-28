@@ -1,5 +1,5 @@
 {
-  "count": 548,
+  "count": 553,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,41 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Omega Speedmaster 38 (2026 refresh)",
+      "type": "Product (watch)",
+      "last_covered": "No. 86",
+      "last_peg": "The Good Life LEAD — refreshed 38mm; Moonwatch-style tri-compax dial on an AUTOMATIC (not the hand-wound, hesalite, flight-qualified Moonwatch); entry ~US$6,500; hands-on reviews clustered ~25 Aug; “wear-anywhere Speedmaster” / heir to the Reduced; sceptic near-Moonwatch money for the homage; representative chronograph hero + no_image attestation",
+      "next_peg": "Next peg = deliveries/owner reviews or an SG price. Do not re-cover the launch."
+    },
+    {
+      "subject": "Pro-Ject E1.2 BT",
+      "type": "Product (turntable)",
+      "last_covered": "No. 86",
+      "last_peg": "The Kit LEAD — new BT variant of the well-reviewed E1.2, adds a Bluetooth transmitter (wireless-out); €399/£399, Colour €449, dealer availability Aug 2026; belt-drive, 730g alu platter, Pick it MM E cart, separate Line/Phono + BT; sceptic BT-out niche (cheaper T1 Evo BT), buy the deck not the trick; representative turntable hero + no_image attestation",
+      "next_peg": "Next peg = a measured BT review or an SG price. Do not re-cover the launch."
+    },
+    {
+      "subject": "Nvidia Q2 FY2027 earnings",
+      "type": "Earnings (chips)",
+      "last_covered": "No. 86",
+      "last_peg": "Technology LEAD — $96.2B rev (+106% YoY), data-centre $89B, GM 75%, Q3 guide $108B ±2% assuming zero China; beat-and-fade (stock fell); China H200 deliveries (ByteDance/Tencent ~10k each), Blackwell still barred; Nvidia→Hugging Face ~$12.9B still UNSIGNED",
+      "next_peg": "Next peg = the HF deal signing/regulatory, the Q3 print, or a China-policy delta."
+    },
+    {
+      "subject": "GLM-5.3-Flash (Zhipu/Z.ai)",
+      "type": "Model (open weights)",
+      "last_covered": "No. 86",
+      "last_peg": "The Home Lab HERO — 26 Aug, unmodified MIT, 320B-A18B MoE, natively multimodal, 1M ctx, ~170-180GB at Q4 (~105-115GB 2-bit fits a 128GB unified box); fork-only llama.cpp (Unsloth GGUFs), no QAT disclosure; flagship GLM-5.3 full weights STILL HELD on cyber-risk",
+      "next_peg": "Next peg = the flagship weights drop, mainline/Ollama support, or QAT clarity."
+    },
+    {
+      "subject": "The Table — SG openings (Aug 2026)",
+      "type": "Dining (SG)",
+      "last_covered": "No. 86",
+      "last_peg": "Tembusu (Botanic Gardens, Fleursophy, launch 3 Sep, too-new-to-call) / Loulouca (Ann Siang, Louisa Lim ex-Odette, 29 Jul, pedigree darling, evening pricey) / Sushi Ryujiro (Capitol Kempinski, Nakamura reboot, 15 Jul, omakase S$298-428, promising) / POP Bakery (RWS, Labubu, 30 Jul, hype-flagged)",
+      "next_peg": "Next peg = settled reviews on the too-new rooms. Rotate venues next issue."
     },
     {
       "subject": "Google Pixel Watch 5",

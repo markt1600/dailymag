@@ -22,7 +22,9 @@
    "desk": "The Long Read",
    "claim": "A Western major (NYT/BBC/Reuters/FT) runs a feature on China's guzi/emotional-value economy within ~4 weeks",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No NYT/BBC/Reuters/FT/Economist feature ran in the window; coverage stayed Chinese state/tech media.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 52,
@@ -105,14 +107,18 @@
    "desk": "The Long Read",
    "claim": "A Western major (NYT/BBC/Reuters/FT/Economist) runs a feature on Huaqiangbei as a Gen-Z tourism/identity phenomenon within ~4 weeks",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No NYT/BBC/Reuters/FT/Economist feature ran in the window; coverage stayed Chinese state/tech media.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 54,
    "desk": "Property",
    "claim": "Dunearn House's unsold ~45% does NOT clear (stays >20% unsold) within four weeks without a price cut",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Dunearn House did not clear — stayed well above 20% unsold, no price cut in the window.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 54,
@@ -165,7 +171,9 @@
    "desk": "Technology",
    "claim": "Kimi K3's independent Artificial Analysis Intelligence Index holds within ~2 points of ~57 once the novelty fades",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Held #3 top-tier on the AA index (~57 original scale / 60 rescaled); ~51% hallucination reproduced.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 55,
@@ -321,7 +329,9 @@
    "desk": "Technology",
    "claim": "Independent testers hold Kimi K3's Artificial Analysis Intelligence Index within ~2 points of ~57, and its ~51% hallucination rate is reproduced, once the novelty fades",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Held #3 top-tier on the AA index (~57 original scale / 60 rescaled); ~51% hallucination reproduced.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 58,
@@ -691,7 +701,9 @@
    "desk": "Screen & Sound",
    "claim": "Weezer's 'Gold Album' (21 Aug) reviews do NOT fully back the 'most violent Weezer ever' framing",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Reviews landed on \"most violent since Pinkerton\" — the carve-out undercuts the \"most violent ever\" framing.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 63,
@@ -827,7 +839,9 @@
    "desk": "Singapore",
    "claim": "National Day Rally (23 Aug) is where the substantive housing/cost-of-living policy lands",
    "check_by": "2026-08-23",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 65,
@@ -902,7 +916,9 @@
    "desk": "Singapore",
    "claim": "The National Day Rally (23 Aug) is where substantive housing/cost-of-living policy lands, not the eve Message",
    "check_by": "2026-08-23",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 66,
@@ -932,7 +948,9 @@
    "desk": "Screen & Sound",
    "claim": "Phoebe Bridgers' Lost Weekend (14 Aug) shows a critic-vs-user gap — user score lands below the critical ~91 Metacritic",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "User aggregate ~88 vs critic ~91 — a real but modest critic-vs-listener gap, as read.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 66,
@@ -968,7 +986,9 @@
    "desk": "Technology",
    "claim": "Alibaba ships open Qwen3.8-Max weights + a 27B checkpoint the week of 10 Aug 2026, WITH a permissive-enough licence to build on (vs a slip/restricted term)",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Qwen3.8-Max weights (12 Aug) + 27B checkpoint (14 Aug) shipped under Apache-2.0, the week of 10 Aug.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 67,
@@ -983,7 +1003,9 @@
    "desk": "Screen & Sound",
    "claim": "Phoebe Bridgers' Lost Weekend (out 14 Aug) opens with a user score materially below the critics' ~91 Metacritic — a visible critic-vs-crowd gap",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "push",
+   "result": "A real but modest ~3-point gap (user ~88 vs critic ~91) — not \"material\".",
+   "graded": "2026-08-29"
   },
   {
    "issue": 67,
@@ -1034,7 +1056,9 @@
    "desk": "Singapore",
    "claim": "The 23 Aug National Day Rally produces concrete family-support measures with figures attached, not a deferral to Budget 2027",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 68,
@@ -1048,7 +1072,9 @@
    "desk": "Screen & Sound",
    "claim": "Phoebe Bridgers' Lost Weekend audience score settles broadly in line with its ~91 critic score (no major critic-vs-listener gap)",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "User aggregate ~88 vs critic ~91 — a real but modest critic-vs-listener gap, as read.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 68,
@@ -1108,7 +1134,9 @@
    "desk": "Screen",
    "claim": "Phoebe Bridgers 'Lost Weekend' (out 14 Aug) — audience/user score lands below the critic 91 (critic-vs-listener gap)",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "User aggregate ~88 vs critic ~91 — a real but modest critic-vs-listener gap, as read.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 69,
@@ -1130,7 +1158,9 @@
    "desk": "Singapore",
    "claim": "NDR (23 Aug) delivers concrete family-support measures with figures, not a defer-to-Budget-2027",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 69,
@@ -1188,7 +1218,9 @@
    "desk": "World",
    "claim": "No routine commercial transit resumes the historic Hormuz lane on the announced Iran-Oman 'very close' corridor within the fortnight",
    "check_by": "2026-08-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "No routine commercial transit resumed; the strait stayed shut (Iran-Oman only agreed a corridor).",
+   "graded": "2026-08-29"
   },
   {
    "issue": 70,
@@ -1224,21 +1256,27 @@
    "desk": "Technology",
    "claim": "Independent (non-vendor) evals of Nemotron 3.5 Lightning and Muse Glimmer land and hold the speed-king/accuracy-king split",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Independent evals held the split: Nemotron wins speed, Muse Glimmer wins accuracy (top 15/16).",
+   "graded": "2026-08-29"
   },
   {
    "issue": 71,
    "desk": "Screen & Sound",
    "claim": "Phoebe Bridgers 'Lost Weekend' (14 Aug) user aggregate lands below the critic score — the critic-vs-listener gap is real",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "User aggregate ~88 vs critic ~91 — a real but modest critic-vs-listener gap, as read.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 71,
    "desk": "Screen & Sound",
    "claim": "'One Night Only' legs out on word of mouth — second-weekend hold better than a typical opener's drop (72% audience converts)",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "push",
+   "result": "Opened $5.7M; a concrete second-weekend hold figure was not reported in accessible sources.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 71,
@@ -1252,7 +1290,9 @@
    "desk": "The Kit",
    "claim": "Insta360 X6 measured lab review (DR/low-light/stitch) publishes ~26 Aug",
    "check_by": "2026-08-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Measured Insta360 X6 lab reviews published ~26 Aug (DR/low-light/stitch).",
+   "graded": "2026-08-29"
   },
   {
    "issue": 71,
@@ -1337,7 +1377,9 @@
    "desk": "Technology",
    "claim": "Independent (non-vendor) evals of Qwen3.8-27B land and hold it ahead of Muse Glimmer 30B on the agentic/coding tests",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "push",
+   "result": "Qwen3.8 shipped Apache-2.0, but Muse Glimmer 30B edged the independent 16-problem head-to-head (15 vs 14).",
+   "graded": "2026-08-29"
   },
   {
    "issue": 73,
@@ -1358,7 +1400,9 @@
    "desk": "Singapore",
    "claim": "The 23 Aug National Day Rally delivers concrete family/cost-of-living support with figures attached (recurring/structural), not a deferral to Budget 2027",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 73,
@@ -1379,14 +1423,18 @@
    "desk": "Screen & Sound",
    "claim": "Phoebe Bridgers' Lost Weekend user/listener aggregate settles a touch below the ~91 critic score (a modest critic-vs-listener gap), not a chasm",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "User aggregate ~88 vs critic ~91 — a real but modest critic-vs-listener gap, as read.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 73,
    "desk": "Screen & Sound",
    "claim": "The End of Oak Street opens ~US$18-23m domestically and its audience score holds broadly with the ~89% early critic read as it widens",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "push",
+   "result": "Opened ~$20-21M (in the $18-23M range) but audience 77% undershot the ~89% critic read.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 73,
@@ -1554,7 +1602,9 @@
    "desk": "Singapore",
    "claim": "July SG CPI prints around 25 Aug; NDR (23 Aug) leads on cost-of-living + the 'sandwiched generation'",
    "check_by": "2026-08-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 76,
@@ -1617,7 +1667,9 @@
    "desk": "The Macro Desk",
    "claim": "Jackson Hole: new Fed chair Warsh's first keynote is Fri 28 Aug 2026 (theme 'Financial Innovation')",
    "check_by": "2026-08-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Warsh delivered his first Jackson Hole keynote on Fri 28 Aug 2026 as described.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 77,
@@ -1645,7 +1697,9 @@
    "desk": "Singapore",
    "claim": "NDR (Sun 23 Aug 2026) to carry a 'major review' of family support — measures vs deferral to Budget 2027",
    "check_by": "2026-08-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 77,
@@ -1666,28 +1720,36 @@
    "desk": "Technology",
    "claim": "GLM-5.3 open weights drop by the ~28 Aug 2026 target",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "GLM-5.3 full open weights missed the ~28 Aug target — held on the lab's cyber-risk review.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 78,
    "desk": "Singapore",
    "claim": "NDR (23 Aug) announces structural childcare/family-cost measures atop Budget transfers",
    "check_by": "2026-08-23",
-   "outcome": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 78,
    "desk": "Singapore",
    "claim": "July SG core CPI prints sub-2% (near ~1.6%)",
    "check_by": "2026-08-25",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "July core printed 2.0% (headline 2.2%) — not sub-2% / not near 1.6%.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 78,
    "desk": "The Macro Desk",
    "claim": "Jackson Hole / Fed event ~28 Aug lands hawkish against a dollar already at 3-month lows",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Warsh's first keynote landed hawkish (no forward guidance, \"quieter Fed\"); hike odds repriced up.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 78,
@@ -1729,8 +1791,9 @@
    "desk": "Macro",
    "claim": "Warsh's Jackson Hole keynote (28 Aug) strikes a broadly neutral tone (neither clearly hawkish nor dovish), per the 69% fund-manager expectation",
    "check_by": "2026-08-29",
-   "outcome": null,
-   "result": null
+   "outcome": "wrong",
+   "result": "Warsh's keynote read HAWKISH (\"more work to do\", no forward guidance); markets swung to price a September hike.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 79,
@@ -1761,16 +1824,18 @@
    "desk": "Singapore",
    "claim": "NDR (Sun 23 Aug) leads on the cost of raising children — infant-care/pre-school affordability — plus cost of living",
    "check_by": "2026-08-24",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "NDR (23 Aug) delivered concrete family-cost cuts with figures — childcare to S$150/mo, infant-care S$300, 12 days' leave — not a Budget-2027 deferral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 79,
    "desk": "Singapore",
    "claim": "July 2026 CPI print (~25 Aug) comes in near 1.9-2.2% headline",
    "check_by": "2026-08-26",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "July core printed 2.0% y/y (headline 2.2%), at/above June's 1.6%.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 79,
@@ -1902,7 +1967,9 @@
    "desk": "The Macro Desk",
    "claim": "The new Fed chair's Jackson Hole keynote (Fri 28 Aug 2026) lands hawkish, not dovish — no easing signal.",
    "check_by": "2026-08-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Warsh's first keynote landed hawkish (no forward guidance, \"quieter Fed\"); hike odds repriced up.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 81,
@@ -1916,7 +1983,9 @@
    "desk": "Singapore",
    "claim": "July 2026 SG core inflation prints at or above June's 1.6% y/y (MAS/MTI, due ~25 Aug).",
    "check_by": "2026-08-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "July core printed 2.0% y/y (headline 2.2%), at/above June's 1.6%.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 81,
@@ -1951,14 +2020,18 @@
    "desk": "The Macro Desk",
    "claim": "Kevin Warsh's first Jackson Hole keynote (28 Aug) lands a neutral tone (no explicit September hike/cut guidance), as ~7-in-10 managers expect.",
    "check_by": "2026-08-28",
-   "outcome": null
+   "outcome": "push",
+   "result": "The no-explicit-guidance leg held, but the tone read hawkish, not neutral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 83,
    "desk": "Technology",
    "claim": "Nvidia's Q2 FY2027 revenue meets or beats its ~$91B ±2% guide (reports after US close 26 Aug).",
    "check_by": "2026-08-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Nvidia Q2 revenue $96.2B (+106%) crushed the ~$91B±2% guide; Q3 guided $108B.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 83,
@@ -2007,7 +2080,9 @@
    "desk": "The Macro Desk",
    "claim": "Warsh's first Jackson Hole keynote (28 Aug) reads close to neutral rather than a hawkish surprise; no September rate cut is signalled.",
    "check_by": "2026-08-29",
-   "outcome": null
+   "outcome": "push",
+   "result": "No September rate cut (that leg held), but the read was hawkish, not neutral.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 84,
@@ -2077,7 +2152,9 @@
    "desk": "The Macro Desk",
    "claim": "Warsh's first Jackson Hole keynote (28 Aug) lands on the hawkish side of the neutral-positioned consensus (no dovish surprise)",
    "check_by": "2026-08-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Warsh landed on the hawkish side with no dovish surprise, as called.",
+   "graded": "2026-08-29"
   },
   {
    "issue": 85,
@@ -2134,6 +2211,54 @@
    "claim": "Kyushu Basho tickets (on sale ~19 Sep) sell out weekends/final days within hours",
    "check_by": "2026-09-21",
    "outcome": null
+  },
+  {
+   "issue": 86,
+   "desk": "The Macro Desk",
+   "claim": "Warsh's hawkish tilt holds — a rate HIKE (to 3.75-4.00%) is delivered by/at the October FOMC, not a cut",
+   "check_by": "2026-11-01"
+  },
+  {
+   "issue": 86,
+   "desk": "World",
+   "claim": "No routine commercial transit resumes the Strait of Hormuz within the next fortnight; Iran's published terms stay unmet",
+   "check_by": "2026-09-15"
+  },
+  {
+   "issue": 86,
+   "desk": "The Home Lab",
+   "claim": "GLM-5.3's full open weights either drop or the cyber-risk hold is confirmed indefinite by mid-September",
+   "check_by": "2026-09-20"
+  },
+  {
+   "issue": 86,
+   "desk": "Technology",
+   "claim": "The Nvidia-Hugging Face ~$12.9B deal is either signed (with a filing) or formally abandoned within ~6 weeks",
+   "check_by": "2026-10-15"
+  },
+  {
+   "issue": 86,
+   "desk": "Singapore",
+   "claim": "SP Group's Q4 (Oct-Dec) household tariff, announced ~30 Sep, eases from the record 31.91c rather than rising further",
+   "check_by": "2026-10-05"
+  },
+  {
+   "issue": 86,
+   "desk": "The Travel Desk",
+   "claim": "The JB-Singapore RTS Link announces a firm public opening date (beyond the 'end-2026 target') within ~8 weeks",
+   "check_by": "2026-11-01"
+  },
+  {
+   "issue": 86,
+   "desk": "The Diary",
+   "claim": "Loulouca's early critical warmth holds once fuller reviews land; the too-new rooms (Tembusu/Sushi Ryujiro) don't disappoint",
+   "check_by": "2026-10-15"
+  },
+  {
+   "issue": 86,
+   "desk": "Screen & Sound",
+   "claim": "Spider-Man crosses US$2.3B worldwide but does not reach US$2.5B (legs fade in September)",
+   "check_by": "2026-10-01"
   }
  ]
 }
