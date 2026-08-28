@@ -24,9 +24,13 @@ jobs:
         id: gate
         env:
           PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
+          SPECIALS_KEY: ${{ secrets.MERIDIAN_SPECIALS_KEY }}
         run: |
           COUNT=$(python3 -c "import json;print(len(json.load(open('state/specials.json')).get('specials',[])))")
-          if [ -z "$PASSPHRASE" ] || [ ! -f assets/remarkable/rmapi.conf.enc ] || [ "$COUNT" = "0" ]; then
+          if [ -z "$SPECIALS_KEY" ]; then
+            echo "MERIDIAN_SPECIALS_KEY secret not set — specials are encrypted at rest and cannot be delivered without it"
+          fi
+          if [ -z "$PASSPHRASE" ] || [ -z "$SPECIALS_KEY" ] || [ ! -f assets/remarkable/rmapi.conf.enc ] || [ "$COUNT" = "0" ]; then
             echo "go=no" >> "$GITHUB_OUTPUT"
           else
             echo "go=yes" >> "$GITHUB_OUTPUT"
@@ -43,7 +47,26 @@ jobs:
         if: steps.gate.outputs.go == 'yes'
         env:
           PASSPHRASE: ${{ secrets.RMAPI_PASSPHRASE }}
+          SPECIALS_KEY: ${{ secrets.MERIDIAN_SPECIALS_KEY }}
         run: |
+          # Specials are encrypted at rest (X25519 sealed box — see
+          # tools/encrypt_special.mjs); decrypt each PDF just-in-time with
+          # the private key held in the MERIDIAN_SPECIALS_KEY secret.
+          cat > /tmp/_open_special.mjs <<'NODE'
+          import crypto from "node:crypto";
+          import fs from "node:fs";
+          const [blobPath, outPath] = process.argv.slice(2);
+          const blob = fs.readFileSync(blobPath);
+          if (blob.subarray(0, 4).toString() !== "MSE1") throw new Error("bad magic");
+          const epk = blob.subarray(4, 36), iv = blob.subarray(36, 48), tag = blob.subarray(48, 64), ct = blob.subarray(64);
+          const priv = crypto.createPrivateKey({ key: Buffer.from(process.env.SPECIALS_KEY.trim(), "base64"), type: "pkcs8", format: "der" });
+          const pub = crypto.createPublicKey({ key: Buffer.concat([Buffer.from("302a300506032b656e032100", "hex"), epk]), type: "spki", format: "der" });
+          const shared = crypto.diffieHellman({ privateKey: priv, publicKey: pub });
+          const key = crypto.hkdfSync("sha256", shared, Buffer.alloc(0), Buffer.concat([Buffer.from("meridian-special-v1"), epk]), 32);
+          const d = crypto.createDecipheriv("aes-256-gcm", Buffer.from(key), iv);
+          d.setAuthTag(tag);
+          fs.writeFileSync(outPath, Buffer.concat([d.update(ct), d.final()]));
+          NODE
           mkdir -p ~/.config/rmapi
           openssl enc -d -aes-256-cbc -pbkdf2 -pass env:PASSPHRASE \
             -in assets/remarkable/rmapi.conf.enc -out ~/.config/rmapi/rmapi.conf
@@ -72,7 +95,14 @@ jobs:
             if grep -qF "MERIDIAN No. $NO - SPECIAL" /tmp/_onDevice.txt; then
               echo "already on device: No. $NO"; continue
             fi
-            if [ ! -f "$PDF" ]; then echo "missing file for $NO: $PDF"; continue; fi
+            if [ -f "$PDF.enc" ]; then
+              if ! node /tmp/_open_special.mjs "$PDF.enc" "/tmp/_dec_$NO.pdf"; then
+                echo "FAILED to decrypt $PDF.enc — wrong MERIDIAN_SPECIALS_KEY?"; continue
+              fi
+              PDF="/tmp/_dec_$NO.pdf"
+            elif [ ! -f "$PDF" ]; then
+              echo "missing file for $NO: $PDF(.enc)"; continue
+            fi
             UP="$PDF"
             SZ=$(stat -c%s "$PDF")
             # reMarkable 400s on large uploads (a 4.0MB special failed twice,

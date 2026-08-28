@@ -1,0 +1,45 @@
+# SAFETY NET: specials must never sit in the repo as plaintext.
+#
+# The build routine encrypts each special itself (tools/encrypt_special.mjs,
+# public key only — state/specials-pubkey.b64). If a build ever forgets and
+# pushes a plaintext special-NN-5.html/.pdf, this workflow encrypts it in
+# place within a minute and removes the plaintext. It needs no secret: the
+# sealed-box scheme encrypts with the committed PUBLIC key.
+#
+# (The plaintext still exists in that one commit's history — the guard limits
+# the exposure window, it doesn't rewrite history.)
+name: Encrypt any plaintext specials
+
+on:
+  push:
+    branches: [main]
+    paths: ["special-*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  encrypt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Encrypt plaintext specials, if any
+        run: |
+          shopt -s nullglob
+          FOUND=""
+          for f in special-*.html special-*.pdf; do
+            FOUND="yes"
+            N="${f#special-}"; N="${N%%.*}"
+            node tools/encrypt_special.mjs "$f"
+            git add "$f.enc"
+            git rm -q --cached --ignore-unmatch "$f" || true
+          done
+          if [ -z "$FOUND" ]; then echo "no plaintext specials — nothing to do"; exit 0; fi
+          git config user.name "meridian-guard"
+          git config user.email "actions@github.com"
+          git commit -m "guard: encrypt plaintext special(s) pushed by the build"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase && sleep 3
+          done

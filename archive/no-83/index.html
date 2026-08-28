@@ -1455,7 +1455,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
         var list=(d&&d.specials)||[]; if(!list.length) return;
         while(ms.options.length>1) ms.remove(1);
         list.slice().reverse().forEach(function(s){
-          var o=document.createElement('option'); o.value=s.path; o.textContent='No. '+s.no+' · '+s.topic;
+          var o=document.createElement('option'); o.value='https://marktan.ai/api/special?file='+encodeURIComponent(s.path); o.textContent='No. '+s.no+' · '+s.topic;
           ms.appendChild(o);
         });
         var last=list[list.length-1];
