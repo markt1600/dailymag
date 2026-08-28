@@ -29,6 +29,7 @@ ISSUE = sys.argv[3] if len(sys.argv) > 3 else "37"
 DATE = sys.argv[4] if len(sys.argv) > 4 else "9 July 2026"
 # special editions pass "NN.5" — integer comparisons use the base issue
 ISSUE_BASE = int(float(ISSUE))
+IS_SPECIAL = "." in ISSUE
 # special editions also pass their own PDF filename (daily default unchanged)
 PDF_HREF = sys.argv[5] if len(sys.argv) > 5 else "meridian-latest.pdf"
 
@@ -268,7 +269,28 @@ SCREEN_CSS = """
 # ---- 4. assemble the head ----
 html = html.replace('<link rel="stylesheet" href="meridian.css">',
                     FONTS + '\n<style>\n' + css + '\n</style>')
-html = html.replace('</head>', SCREEN_CSS + '\n</head>')
+
+# Special editions are owner-only: the page hides itself immediately and only
+# reveals after the shared .marktan.ai owner cookie (set by marktan.ai's
+# Google login) verifies against marktan.ai/api/login. Anyone else — no
+# cookie, stale cookie, or the API unreachable — gets a plain "Not found",
+# so to visitors the special simply doesn't exist. Fail closed.
+GATE_HEAD = ('\n<meta name="robots" content="noindex,nofollow">'
+             '\n<style id="mgateCss">html{visibility:hidden}</style>'
+             '\n<script>(function(){'
+             "function deny(){var f=function(){document.head.innerHTML='<title>Not found</title>';"
+             "document.body.innerHTML='<p style=\"font-family:system-ui,sans-serif;padding:48px 24px;color:#333\">Not found.</p>';"
+             "document.documentElement.style.visibility='visible';};"
+             "if(document.body)f();else document.addEventListener('DOMContentLoaded',f);}"
+             "var m=document.cookie.match(/(?:^|;\\s*)mt_owner=([^;]+)/);"
+             "if(!m){deny();return;}"
+             "fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},"
+             "body:JSON.stringify({session:decodeURIComponent(m[1])})})"
+             ".then(function(r){if(r.ok){var s=document.getElementById('mgateCss');"
+             "if(s)s.parentNode.removeChild(s);document.documentElement.style.visibility='visible';}else{deny();}})"
+             ".catch(function(){deny();});"
+             '})();</script>') if IS_SPECIAL else ''
+html = html.replace('</head>', SCREEN_CSS + GATE_HEAD + '\n</head>')
 
 # ---- 4b. reader feedback: subtle thumbs on each desk's lead article ----
 # One row per desk (main articles only, per the editor), right-aligned and
@@ -392,21 +414,14 @@ HOB_SELECT = ('<select class="m-toggle" id="mhob" aria-label="Past Rabbit Hole h
               '<option value="">🕳 Hobbies</option>' + ''.join(hob_options) + '</select>') if hob_options else ''
 print(f'  hobbies picker: {len(hob_options)} entries')
 
-# special editions (one-topic NN.5 deep dives): options at build time from the
-# local ledger, then refreshed at page load from raw (a special published
-# mid-morning appears without rebuilding the daily). Hidden while empty.
-spec_options = []
-try:
-    with open('state/specials.json') as _fh:
-        for _sp in json.load(_fh).get('specials', []):
-            spec_options.append(f"<option value=\"{_sp['path']}\">No. {_sp['no']} · {_sp['topic']}</option>")
-except Exception:
-    pass
-spec_options.reverse()
-SPEC_SELECT = ('<select class="m-toggle" id="mspec" aria-label="Special editions"'
-               + ('' if spec_options else ' hidden')
-               + '><option value="">★ Specials</option>' + ''.join(spec_options) + '</select>')
-print(f'  specials picker: {len(spec_options)} entries at build time (runtime-refreshed)')
+# special editions (one-topic NN.5 deep dives): OWNER-ONLY. The select ships
+# empty and hidden — no special titles in the markup at all — and is populated
+# at page load from state/specials.json only after the shared .marktan.ai
+# owner cookie verifies against marktan.ai/api/login. Everyone else never
+# sees a dropdown, so to them the specials don't exist.
+SPEC_SELECT = ('<select class="m-toggle" id="mspec" aria-label="Special editions" hidden>'
+               '<option value="">★ Specials</option></select>')
+print('  specials picker: emitted empty (owner-gated, populated at runtime)')
 
 # ---- 4e. the cover colophon: build time + tokens + list-price cost ----
 # Time comes from build/.session-start (setup.sh stamps it at SessionStart);
@@ -753,6 +768,17 @@ JS = """
   var API='https://www.marktan.ai/api/feedback', ISS=document.querySelector('.pdf-dl');
   var issue=(ISS&&(ISS.textContent.match(/No\\.\\s*(\\d+)/)||[])[1])||'';
   function post(p){ try{ fetch(API,{method:'POST',headers:{'Content-Type':'text/plain'},body:JSON.stringify(p)}); }catch(e){} }
+  // Owner check for owner-only chrome (the Specials picker, deep-dive
+  // requests): reads the .marktan.ai cookie set by marktan.ai's Google
+  // login and verifies it server-side. Memoized; false on any failure.
+  function mOwner(cb){
+    if(!window.__mOwnerP){ window.__mOwnerP=new Promise(function(res){
+      var mm=document.cookie.match(/(?:^|;\\s*)mt_owner=([^;]+)/);
+      if(!mm){ res(false); return; }
+      fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){ res(r.ok); }).catch(function(){ res(false); });
+    }); }
+    window.__mOwnerP.then(cb);
+  }
   document.querySelectorAll('.fbrow').forEach(function(row){
     var key='mfb-'+issue+'-'+row.dataset.desk;
     var prev=null; try{ prev=localStorage.getItem(key); }catch(e){}
@@ -767,6 +793,7 @@ JS = """
         post({type:'vote',issue:issue,desk:row.dataset.desk,topic:row.dataset.topic,vote:+b.dataset.v});
       });
     });
+    mOwner(function(ok){ if(!ok) return; // deep-dive requests are owner-only
     var gd=document.createElement('button');
     gd.type='button'; gd.textContent='\u2921'; gd.title='Request an ULTRA DEEP DIVE — a dedicated special edition on this topic';
     gd.setAttribute('aria-label', gd.title);
@@ -777,6 +804,7 @@ JS = """
       if(fbk) fbk.textContent='deep dive requested';
     });
     row.appendChild(gd);
+    });
   });
   var picks=[].slice.call(document.querySelectorAll('.nextpick'));
   if(picks.length){
@@ -926,6 +954,10 @@ JS = """
       if(ms.value==='!deliver'){ deliver('special', ms.dataset.newest||'the newest special', function(){}); ms.selectedIndex=0; return; }
       location.href=ms.value; ms.selectedIndex=0;
     });
+    // Specials are owner-only: populate (and reveal) the picker only
+    // after the shared .marktan.ai cookie verifies. Everyone else keeps
+    // an empty, hidden select \u2014 the specials don't exist for them.
+    mOwner(function(ok){ if(!ok) return;
     fetch('https://raw.githubusercontent.com/markt1600/dailymag/main/state/specials.json',{cache:'no-store'})
       .then(function(r){ return r.json(); })
       .then(function(d){
@@ -941,6 +973,7 @@ JS = """
         ms.appendChild(dv);
         ms.hidden=false;
       }).catch(function(){});
+    });
   }
   var mh=document.getElementById('mhob');
   if(mh) mh.addEventListener('change', function(){

@@ -1210,6 +1210,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
         post({type:'vote',issue:issue,desk:row.dataset.desk,topic:row.dataset.topic,vote:+b.dataset.v});
       });
     });
+    mOwnerChk2(function(ok){ if(!ok) return;
     var gd=document.createElement('button');
     gd.type='button'; gd.textContent='\u2921'; gd.title='Request an ULTRA DEEP DIVE \u2014 a dedicated special edition on this topic';
     gd.setAttribute('aria-label', gd.title);
@@ -1220,21 +1221,37 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
       if(fbk) fbk.textContent='deep dive requested';
     });
     row.appendChild(gd);
+    }); function mOwnerChk2(cb){if(!window.__mOwnerP){window.__mOwnerP=new Promise(function(res){var mm=document.cookie.match(/(?:^|;\s*)mt_owner=([^;]+)/);if(!mm){res(false);return;}fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){res(r.ok);}).catch(function(){res(false);});});}window.__mOwnerP.then(cb);}
   });
   var ms=document.getElementById('mspec');
   if(ms){
-    ms.addEventListener('change', function(){ if(ms.value){ location.href=ms.value; ms.selectedIndex=0; } });
+    function mOwnerChk(cb){if(!window.__mOwnerP){window.__mOwnerP=new Promise(function(res){var mm=document.cookie.match(/(?:^|;\s*)mt_owner=([^;]+)/);if(!mm){res(false);return;}fetch('https://marktan.ai/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:decodeURIComponent(mm[1])})}).then(function(r){res(r.ok);}).catch(function(){res(false);});});}window.__mOwnerP.then(cb);}
+    while(ms.options.length>1) ms.remove(1);
+    ms.hidden=true;
+    ms.addEventListener('change', function(){
+      if(!ms.value) return;
+      if(ms.value==='!deliver'){ if(typeof deliver==='function') deliver('special', ms.dataset.newest||'the newest special', function(){}); ms.selectedIndex=0; return; }
+      location.href=ms.value; ms.selectedIndex=0;
+    });
+    mOwnerChk(function(ok){ if(!ok) return;
     fetch('https://raw.githubusercontent.com/markt1600/dailymag/main/state/specials.json',{cache:'no-store'})
       .then(function(r){ return r.json(); })
       .then(function(d){
         var list=(d&&d.specials)||[]; if(!list.length) return;
         while(ms.options.length>1) ms.remove(1);
         list.slice().reverse().forEach(function(s){
-          var o=document.createElement('option'); o.value=s.path; o.textContent='No. '+s.no+' \u00b7 '+s.topic;
+          var o=document.createElement('option'); o.value=s.path; o.textContent='No. '+s.no+' · '+s.topic;
           ms.appendChild(o);
         });
+        var last=list[list.length-1];
+        ms.dataset.newest='the newest special — No. '+last.no+' · '+last.topic;
+        if(typeof deliver==='function'){
+          var dv=document.createElement('option'); dv.value='!deliver'; dv.textContent='⇥ Send newest special to tablet';
+          ms.appendChild(dv);
+        }
         ms.hidden=false;
       }).catch(function(){});
+    });
   }
   var md=document.getElementById('mdest');
   if(md) md.addEventListener('change',function(){ if(md.value){ location.href=md.value; md.selectedIndex=0; } });
