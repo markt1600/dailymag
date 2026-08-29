@@ -1,0 +1,548 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 87,
+ "date": "Sunday 30 August 2026 · The Weekend Edition",
+ "title": "By Hand — The Maker Behind the Badge",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the thirtieth of August. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "[wry] The spine this weekend is a quiet one, Theo. Who actually made the thing."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Meaning?"
+  },
+  {
+   "s": "A",
+   "t": "The maker behind the badge. A frame that shares a factory with a dozen designer logos. A watch worth its price only because someone restored it by hand. A drone you solder yourself."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And a whole country that's started copying its books out by hand. I love it already. Give me the three headlines."
+  },
+  {
+   "s": "A",
+   "t": "One. Washington opens a named economic war to force the Strait of Hormuz open — and Tehran sends back a bill."
+  },
+  {
+   "s": "B",
+   "t": "Two. The biggest open model of the year drops its weights, then attaches a licence deciding who's allowed to run them."
+  },
+  {
+   "s": "A",
+   "t": "And three — down the rabbit hole, first-person-view drones. The one flying machine you build yourself."
+  },
+  {
+   "s": "B",
+   "t": "[excited] The soldering iron one. Yes. But start us with the hard news."
+  },
+  {
+   "s": "A",
+   "t": "So. The Strait of Hormuz has now been shut to routine traffic for about a hundred and eighty days. The longest closure of the world's oil chokepoint on record."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Half a year. And this week the story stopped being threats."
+  },
+  {
+   "s": "A",
+   "t": "It did. After a Sunday-night promise of, quote, an economic D-Day, the US Treasury secretary unveiled a named sanctions campaign — aimed not just at Iran, but at the third-country buyers, banks and shippers keeping it solvent."
+  },
+  {
+   "s": "B",
+   "t": "A codename. Which is the tell — a codename says permanence. This is a policy, not a tweet."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Whether it moves a single tanker is another matter. Because Iran didn't answer with a key. It answered with a list."
+  },
+  {
+   "s": "B",
+   "t": "What's on the list?"
+  },
+  {
+   "s": "A",
+   "t": "Lift the blockade. Pay war-damage compensation. Unfreeze the economy. End the war. Maximalist by design — leverage banked for talks that haven't started."
+  },
+  {
+   "s": "B",
+   "t": "And there's a corridor, isn't there? A way through."
+  },
+  {
+   "s": "A",
+   "t": "Tehran and Muscat have drawn a safe-transit lane through Omani water. Oil slipped to a two-week low when it surfaced. But — the lane is charted, not sailed. No convoy has used it."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So two accounts of the same sea. Washington says the strait is already open; the water says about a tenth of normal traffic is moving."
+  },
+  {
+   "s": "A",
+   "t": "Here's the sceptic line, and it's the one to hold. A campaign aimed at buyers and banks hardens Iran's stance at least as fast as it bites. And China — Iran's main customer — has already said it won't comply."
+  },
+  {
+   "s": "B",
+   "t": "So the thing to watch isn't the press conference."
+  },
+  {
+   "s": "A",
+   "t": "It's the first ship that actually sails the corridor. Until then, it's rhetoric on both sides."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Right. And quickly, the region — because the map of leisure and the map of risk keep sharing coordinates."
+  },
+  {
+   "s": "A",
+   "t": "Three navies drill off Jeju in early September. A Himalayan glacial flood has passed six hundred dead, with a second flood now threatening behind the debris. And Beijing and Washington are booking a tariff and a summit into the same fortnight."
+  },
+  {
+   "s": "B",
+   "t": "Deterrence and diplomacy on one calendar. Grim. Take me to the money."
+  },
+  {
+   "s": "A",
+   "t": "The money is a repricing, and it runs one way. A hawkish new Fed chair said there's, quote, work to do on inflation. Then a hot July inflation print landed."
+  },
+  {
+   "s": "B",
+   "t": "And the market did what?"
+  },
+  {
+   "s": "A",
+   "t": "Flipped. From expecting a September hold or cut, to a coin-flip on an outright rate rise. Hike odds climbed toward the mid-fifties, per cent."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] A hike? This late? That's the opposite of where the year was pointing."
+  },
+  {
+   "s": "A",
+   "t": "It is. Higher-for-longer stopped being a slogan and became a live tail. The dollar firmed, front-end yields firmed."
+  },
+  {
+   "s": "B",
+   "t": "So what does that mean for the things people actually hold — an all-world index, some global bonds?"
+  },
+  {
+   "s": "A",
+   "t": "A mild headwind for both. Rising yields drag on bond prices, and firmer real yields thin the air for long-duration equities."
+  },
+  {
+   "s": "B",
+   "t": "And gold? I thought a strong dollar was bad for gold."
+  },
+  {
+   "s": "A",
+   "t": "[curious] It usually is. And here's the odd part — gold held within a whisker of its record, around four thousand six hundred US dollars, even as the dollar rose. The haven and central-bank demand is, for now, outmuscling the gravity that normally pulls it down."
+  },
+  {
+   "s": "B",
+   "t": "While bitcoin?"
+  },
+  {
+   "s": "A",
+   "t": "Sagged toward eighty thousand US dollars, trading like the risk asset it is. Same force, two opposite prices. That's the whole reason to watch both."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And this is explanation, not advice."
+  },
+  {
+   "s": "A",
+   "t": "Always. Now — Singapore, because that repricing lands on a bill here."
+  },
+  {
+   "s": "B",
+   "t": "The factories, right? They grew again."
+  },
+  {
+   "s": "A",
+   "t": "They did — manufacturing output up six point eight per cent on the year. But read the breakdown and it narrows fast. It's almost all electronics — the same AI-chip cycle — and even that cooled to an eleven-month low."
+  },
+  {
+   "s": "B",
+   "t": "And everything else?"
+  },
+  {
+   "s": "A",
+   "t": "Going backwards. Biomedical down, chemicals down harder. One narrow, cyclical cluster is doing the work of a whole economy's growth line."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Which is fine while the cycle runs."
+  },
+  {
+   "s": "A",
+   "t": "And precarious the moment it turns. The comfort this week — cost-of-living payouts of four to six hundred dollars a head land in September. The catch — they smooth a month; they don't diversify an economy."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Speaking of chips — there's a challenger, isn't there?"
+  },
+  {
+   "s": "A",
+   "t": "There is. OpenAI benchmarked its first in-house inference chip this week. Codename Jalapeño. And the numbers, from one analytics house, claim it does between one-and-a-half and nearly two times the useful work of a competing Nvidia part."
+  },
+  {
+   "s": "B",
+   "t": "Aimed at the crown?"
+  },
+  {
+   "s": "A",
+   "t": "Aimed at the fattest part of the crown — inference, serving the models. That's the highest-margin slice. When you're the world's biggest renter of someone else's silicon, building your own is how you stop paying rent."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] But one analytics house. And tiny volumes."
+  },
+  {
+   "s": "A",
+   "t": "Exactly the sceptic line. The volumes are tiny, and OpenAI says it'll keep buying Nvidia by the boatload. Nvidia just printed a ninety-six-billion-dollar quarter. Custom silicon narrowing a margin isn't the same as unseating a platform."
+  },
+  {
+   "s": "B",
+   "t": "And the home-lab crowd got a big one too."
+  },
+  {
+   "s": "A",
+   "t": "They did — and it comes with strings. Zhipu dropped the full weights of its flagship model, G L M five point three. Seven hundred and forty-four billion parameters. Reversing a hold they'd placed over cyber-misuse fears."
+  },
+  {
+   "s": "B",
+   "t": "Open weights! That's the good news."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Read the licence. Any provider clearing ten billion US dollars of revenue has to pass Zhipu's own security review first. It's the first time the newest open model comes with a permission slip."
+  },
+  {
+   "s": "B",
+   "t": "Ah. And could I even run it at home?"
+  },
+  {
+   "s": "A",
+   "t": "Not a chance. Four hundred and forty-five gigabytes of memory at four-bit — that's a data-centre, not a study. The one that matters for a home rig is the smaller Flash model, which stays genuinely open."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Read the licence, not the parameter count. Okay — the Kit. The glasses everyone's talking about."
+  },
+  {
+   "s": "A",
+   "t": "RayNeo's iO. On sale next week, four hundred and seventy-nine US dollars. And its best feature is a deletion."
+  },
+  {
+   "s": "B",
+   "t": "A deletion?"
+  },
+  {
+   "s": "A",
+   "t": "No camera. On purpose. In a category defined by pointing a lens at people, they left the lens out and kept a little green display floating in the right lens. The bet is that the heads-up display is the part worth wearing."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I actually love that. Restraint as a feature."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] The sceptic's note — camera-free is not data-free. It's still an always-on microphone on your face, and nobody's lived with a shipping unit yet. First impressions only."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier — this is the eyewear one, the maker-behind-the-badge thesis in its purest form."
+  },
+  {
+   "s": "A",
+   "t": "The purest. Here's the mechanism. A quality frame is cut from cellulose acetate — colour running all the way through, hand-polished over days at the Japanese benches in Sabae. A cheap one is injection-moulded plastic with the colour sprayed on."
+  },
+  {
+   "s": "B",
+   "t": "And the hinge, you said, is the tell."
+  },
+  {
+   "s": "A",
+   "t": "Count the barrels, or buy no screw at all. But the real story is the white-label truth. One company — EssilorLuxottica — owns Ray-Ban, Oakley, Persol, and also prints, for a royalty, Chanel, Prada, Versace and Burberry."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So the Prada frame and the Versace frame —"
+  },
+  {
+   "s": "A",
+   "t": "Come off the same line. A designer logo is largely brand tax. Functional quality is essentially maxed by the Japanese sweet spot, around three to seven hundred US dollars. Buy the maker, not the badge."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every weekend with this line."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] First-person-view drones, Claire. Tell me the difference from the camera drone in my drawer."
+  },
+  {
+   "s": "A",
+   "t": "Night and day. A camera drone flies itself — it hovers, it comes home at the tap of a button. A true F-P-V quad, in manual mode, has no self-levelling and no hover. The throttle is raw thrust. It drops the instant you stop flying it."
+  },
+  {
+   "s": "B",
+   "t": "So you're not watching a screen —"
+  },
+  {
+   "s": "A",
+   "t": "You're wearing goggles fed a live camera feed from the nose. You are, in every sense that matters, inside the aircraft. That's the gateway drug and the skill ceiling at once."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How big is this world?"
+  },
+  {
+   "s": "A",
+   "t": "The market's around one-and-a-half billion US dollars. The racing league alone has some thirty-eight thousand members. And the culture is that people still solder their own machines."
+  },
+  {
+   "s": "B",
+   "t": "Okay, I'm a beginner with a buy-once budget. Where does the money go?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Here's the counterintuitive part. Don't spend on the aircraft. The quad is a consumable — you will crash it, repeatedly, on purpose. Spend on the two things that survive every crash: the radio and the goggles."
+  },
+  {
+   "s": "B",
+   "t": "Because those transfer to every future build."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. The control link, the goggles — buy those once and well. Everything strapped to the frame is priced to be replaced, and the market is designed to sell you the next one."
+  },
+  {
+   "s": "B",
+   "t": "And what's genuinely new this year?"
+  },
+  {
+   "s": "A",
+   "t": "A sharper high-definition air unit from D-J-I, a control link that finally does long-range rescue natively, and a palm-sized drone with all-round sensing. Real steps, the community agrees — not just new box art."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And can I even fly it here? Singapore's not exactly open sky."
+  },
+  {
+   "s": "A",
+   "t": "[wry] It is not. Anything over two hundred and fifty grams must be registered. Flight's capped low, banned within five kilometres of any airfield — which is most of the island — and flying under goggles legally needs a spotter watching the craft."
+  },
+  {
+   "s": "B",
+   "t": "So realistically?"
+  },
+  {
+   "s": "A",
+   "t": "Realistically, it's a tiny sub-two-hundred-and-fifty-gram machine, flown indoors or at the club fields, with a simulator doing the early learning. A twenty-dollar sim that saves hundreds in crashed hardware."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And the honest sceptic line?"
+  },
+  {
+   "s": "A",
+   "t": "It's a subscription of parts and power. A hundred to three hundred US dollars a year, minimum. The endgame build is a myth — there's always a new air unit. What you're really buying is a skill nothing else replicates."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the good stuff. What's tomorrow's rabbit hole?"
+  },
+  {
+   "s": "A",
+   "t": "Reader's choice. Tenkara — fixed-line fly fishing. Home mixology. Or vinyl and turntables."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Culture desk — and there's a lovely one this week. The cartoon that came back from the dead."
+  },
+  {
+   "s": "A",
+   "t": "Coyote versus Acme. A finished film its studio shelved in twenty twenty-three for a tax write-off — valued more deleted than released."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] They tried to erase it?"
+  },
+  {
+   "s": "A",
+   "t": "They did. A public campaign and a small distributor pulled it back. It opened this weekend — a modest fourteen million US dollars or so, third place, but the critics have it certified fresh in the mid-nineties."
+  },
+  {
+   "s": "B",
+   "t": "So the box office is the footnote."
+  },
+  {
+   "s": "A",
+   "t": "That it survived at all is the point. The fans won, even if the box office didn't."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And the watch — this one's the spine again, isn't it. Provenance on the wrist."
+  },
+  {
+   "s": "A",
+   "t": "The Singer Reimagined Heritage V seventy-two. It takes a genuine, unused nineteen-seventies chronograph movement, restores it by hand, and engraves the bridge, quote, Restored by Singer."
+  },
+  {
+   "s": "B",
+   "t": "So you're buying the hand that saved it."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] You are. And it's honest about the trade. Twenty-three thousand Swiss francs for a restored movement that a modern automatic beats on every spec. The value is the restoration and the finishing — not the rate."
+  },
+  {
+   "s": "B",
+   "t": "Quick one for the parents, because I know they're listening."
+  },
+  {
+   "s": "A",
+   "t": "A large study links heavy screen use in kids to worse mental health. But the useful finding is why — it runs through sleep and lost activity. So the lever isn't a screen ban. It's protecting the bedtime and the daily movement."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Guard the sleep, not the minutes. And it lands the same term Singapore's schools put phones away."
+  },
+  {
+   "s": "A",
+   "t": "Exactly the term a twelve-year-old starts secondary school. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And one for the body — the lazy person's win, I hope."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Sort of. A new analysis finds that piling on sprint repetitions doesn't add to the aerobic payoff. A few all-out efforts buy about the same lungs as a punishing session."
+  },
+  {
+   "s": "B",
+   "t": "So fewer sprints, same result?"
+  },
+  {
+   "s": "A",
+   "t": "With a caveat — the studies lean on young, already-fit subjects. And the honest doctor's line is that adherence beats protocol. The easy base you'll actually keep doing beats the perfect session you quit. Not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Before we go slow — one for the travellers, because it's a weekend."
+  },
+  {
+   "s": "A",
+   "t": "Two things. If you're shopping in Japan this autumn, the tax-free rules flip on the first of November. You pay the full price at the till now, and claim the refund at the airport before you fly."
+  },
+  {
+   "s": "B",
+   "t": "So budget the extra queue."
+  },
+  {
+   "s": "A",
+   "t": "Budget the queue. And this weekend's Grand Tour is the Seto Inland Sea art islands — Naoshima and its neighbours."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The Tadao Ando ones. Art you go to by the maker's name."
+  },
+  {
+   "s": "A",
+   "t": "The spine again. A Monet room lit only by the sky. A water-drop pavilion the forums quietly rate above everything else. And Kusama's yellow pumpkin on a pier — once washed out to sea by a typhoon, and rebuilt ten per cent thicker to stand again."
+  },
+  {
+   "s": "B",
+   "t": "One piece of advice?"
+  },
+  {
+   "s": "A",
+   "t": "Stay overnight. The day-trippers get the crowded midday version; the traveller who sleeps on the island gets the pumpkin at dawn. And this isn't a festival year, so the art is all open with thinner crowds."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the long read. Take us out slow."
+  },
+  {
+   "s": "A",
+   "t": "This one's from Korea. In the most wired country on earth, a generation is spending its evenings copying novels into notebooks — by hand, in silence, for an hour at a time."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Copying? By hand? Why?"
+  },
+  {
+   "s": "A",
+   "t": "They call it pilsa. Once a study drill; now a movement. Sales of the books made for it jumped nearly seven hundred per cent in a year. And here's the striking part — people in their twenties are the only age group in Korea whose reading is rising."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] While everyone else's falls."
+  },
+  {
+   "s": "A",
+   "t": "While everyone else's falls. And it's not nostalgia. It descends from Buddhist sutra-copying — a centuries-old contemplative practice, back as a product, at the exact moment a machine learned to write for free."
+  },
+  {
+   "s": "B",
+   "t": "So it's a reaction to the AI."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] It's the counter-movement. The same twenty-somethings who made a chatbot their search engine are the ones sitting in silence, copying by hand. They're not rejecting the machine. They're drawing a line around the one thing they won't hand it."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "The authorship of their own attention. When a machine can write anything on demand, the scarce thing stops being information — and becomes proof that a human mind spent the time."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The hand is the cutting edge of the mind."
+  },
+  {
+   "s": "A",
+   "t": "Bronowski's line. The whole issue in six words. The badge is easy to buy. The hand is the part you can't outsource."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And Korea got there first —"
+  },
+  {
+   "s": "A",
+   "t": "Because Korea is furthest in. When the big Western papers write it up in a few weeks, we'll have told you first. That's the whole point of the desk."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] What a place to end."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

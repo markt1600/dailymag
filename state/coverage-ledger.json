@@ -1,5 +1,5 @@
 {
-  "count": 553,
+  "count": 561,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,62 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "RayNeo iO (smart glasses)",
+      "type": "Product (wearable)",
+      "last_covered": "No. 87",
+      "last_peg": "The Kit LEAD — camera-free AR/AI glasses, on sale 4 Sep, US$479 ($529 w/ case), 33g, monochrome green micro-LED HUD (~1,300 nits), 4-mic + bone conduction, 240mAh, live translation; restraint-as-feature (no camera); verdicts pre-launch hands-on only; representative hero + no_image attestation",
+      "next_peg": "Next peg = retail reviews after 4 Sep, or an SG price. Do not re-cover the launch."
+    },
+    {
+      "subject": "Singer Reimagined Heritage V72",
+      "type": "Product (watch)",
+      "last_covered": "No. 87",
+      "last_peg": "The Good Life LEAD — restoration-led: NOS 1970s Valjoux 72 refinished, \"Restored by Singer\" bridge; 38.8mm, glassbox sapphire, 2.5Hz/~44h; steel CHF 23,000/50pc + 18k gold CHF 45,000/20pc, deliveries Nov; sceptic haute-horlogerie money for a restored ebauche; representative chronograph hero + no_image attestation",
+      "next_peg": "Next peg = deliveries/owner reviews or an SG stockist. Do not re-cover the unveil."
+    },
+    {
+      "subject": "OpenAI \"Jalapeño\" inference chip",
+      "type": "Product (chips)",
+      "last_covered": "No. 87",
+      "last_peg": "Technology LEAD — Broadcom-built ASIC, TSMC N3P, HBM4; SemiAnalysis benchmarks ~1.5-1.9x throughput / 1.7-3.6x lower latency vs a competing Nvidia part; aimed at inference margin; tiny volumes end-2026, scales 2027; single-analytics-house figures, flagged",
+      "next_peg": "Next peg = independent benchmarks or real-volume deployment. Do not re-print the vendor benchmark as fact."
+    },
+    {
+      "subject": "GLM-5.3 flagship (open weights)",
+      "type": "Model (open weights)",
+      "last_covered": "No. 87",
+      "last_peg": "The Home Lab LEAD — 744B total/~40B active, 200K ctx; full weights dropped 28 Aug reversing the cyber-risk hold; NEW \"GLM-5.3 licence\" gates providers >US$10bn rev (Z.ai security review); ~445GB Q4 = data-centre not home; leading vuln-discovery bench the cyber rationale",
+      "next_peg": "Next peg = a licence/enforcement delta, mainline/Ollama support, or a home-viable distill. Do not re-cover the drop."
+    },
+    {
+      "subject": "Coyote vs. Acme (film)",
+      "type": "Film (release)",
+      "last_covered": "No. 87",
+      "last_peg": "Screen &amp; Sound LEAD — WB shelved it 2023 for a tax write-off; sold to Ketchup Entertainment; theatrical open weekend 28-30 Aug; ~$14M 3-day estimate/#3; RT ~95%; dir Dave Green, Forte/Cena/Condor; sceptic symbolic PR win not commercial; box-office figures Saturday estimates, flagged",
+      "next_peg": "Next peg = final gross or awards. Do not re-cover the opening."
+    },
+    {
+      "subject": "Restaurant Zén (Bukit Pasoh) reopening",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 87",
+      "last_peg": "The Table marquee — Bjorn Frantzen's three-Michelin-star SG flagship reopened after a ~3-month refurbishment with a new tasting menu (Aug 2026); reopening as reported, menu/price confirm at booking",
+      "next_peg": "Next peg = a settled review of the new menu. Do not re-list without a new peg."
+    },
+    {
+      "subject": "Chin Mee Chin (NEX)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 87",
+      "last_peg": "The Table — the Katong kaya-toast institution's first outlet beyond its home shophouse, at NEX Serangoon (Aug 2026); charcoal-toast-and-soft-eggs kopitiam format in a mall; family-easy, affordable",
+      "next_peg": "Next peg = a settled review. Do not re-list without a new peg."
+    },
+    {
+      "subject": "The Table (SG openings, No. 87)",
+      "type": "Standing (dining)",
+      "last_covered": "No. 87",
+      "last_peg": "Zén reopening + Chin Mee Chin@NEX + Tembusu (official launch 3 Sep); demoted to callbacks: Assaggi (No.85), Charcoal Grill Shinpachi (No.80), POP Bakery (No.86); Rituel (No.71) dropped",
+      "next_peg": "Rotate; New-Peg Test each venue."
     },
     {
       "subject": "Omega Speedmaster 38 (2026 refresh)",
