@@ -1,81 +1,71 @@
 {
  "publication": "MERIDIAN",
- "issue": 87,
- "date": "30 August 2026",
- "generated": "2026-08-30T06:36:03+08:00",
+ "issue": 88,
+ "date": "31 August 2026",
+ "generated": "2026-08-31T06:11:01+08:00",
  "quote": {
-  "text": "The hand is the cutting edge of the mind.",
-  "author": "Jacob Bronowski, The Ascent of Man (1973)"
+  "text": "No man is an island, entire of itself; every man is a piece of the continent.",
+  "author": "John Donne, Devotions upon Emergent Occasions (1624)"
  },
  "macro": null,
  "stories": [
   {
-   "desk": "The Atelier",
-   "sub": "Buy It Once",
-   "category": "Style",
-   "kicker": "The Atelier · Eyewear, from the Acetate Up",
-   "headline": "A Dozen Logos, One Factory Line: Buy the Frame by Its Maker, Not Its Badge",
-   "dek": "Eyewear is the purest test of this desk's thesis: the material that decides whether a frame lasts costs a rounding error, the hinge that decides its life is invisible on the shelf, and the \"designer\" name on the temple is usually a licence printed on a mass-produced unit from one of five conglomerates.",
-   "anchor": "p6",
-   "featured": true
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Provenance on the Wrist",
-   "headline": "A Watch Built on a Fifty-Year-Old Movement, and Signed by the Hand That Saved It",
-   "dek": "Singer Reimagined's new chronograph does something the spec sheet cannot flatter: it takes a genuine, unused 1970s Valjoux 72 movement, restores and refinishes it to haute-horlogerie standard, and engraves the bridge \"Restored by Singer.\" It is expensive, hand-wound and slow. It is also the weekend's clearest argument for the maker over the number.",
-   "anchor": "p10",
-   "featured": true
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "Down the Rabbit Hole",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · FPV Drones",
-   "headline": "The One Flying Machine You Build Yourself, and Fly from Inside",
-   "dek": "A camera drone flies itself; an FPV quad is flown — no self-levelling, no hover, a live feed piped into goggles so you sit in the cockpit. It is the corner of droning where people still solder their own aircraft, argue about firmware, and crash on purpose to learn. This weekend we go down it: the gear, the money pit, and the hard truth about flying it in Singapore.",
-   "anchor": "p15",
-   "featured": true
-  },
-  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Strait of Hormuz",
-   "headline": "Washington Declares an Economic War. Tehran Sends Back a Bill.",
-   "dek": "Six months into the longest closure of the oil chokepoint on record, Washington has stopped threatening and started naming — a structured sanctions campaign aimed not at Iran alone but at the buyers, banks and shippers that keep it solvent. Iran's reply was not a key to the strait but a bill: compensation, an unfrozen economy, an end to the war.",
+   "kicker": "The World · Iceland & Europe",
+   "headline": "An Island Says No to the Continent — and Means It Gently",
+   "dek": "By 52.8 per cent to 47.2, on a turnout of four in five, Iceland rejected reopening membership talks with the European Union. The margin was 5.6 points; the reason, in the end, was fish. And the prime minister who lost the vote she called it a victory for democracy.",
    "anchor": "p3",
-   "featured": false
-  },
-  {
-   "desk": "Singapore",
-   "sub": "The Little Red Dot",
-   "category": "Asia",
-   "kicker": "Singapore · The Two-Speed Economy",
-   "headline": "The Factories Grew Again. The Growth Got Narrower.",
-   "dek": "July's manufacturing print was another gain — and another quiet warning. The number is carried almost entirely by the AI-chip cycle; strip out electronics and precision engineering and the picture is of clusters going backwards. The relief cheques land next week against an economy leaning hard on a single engine.",
-   "anchor": "p5",
-   "featured": false
+   "featured": true
   },
   {
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · The Challenger Chip",
-   "headline": "A Buyer Builds Its Own Silicon — and Aims It at the Incumbent's Fattest Margin",
-   "dek": "OpenAI's first in-house inference chip, benchmarked publicly this week, is being read as a shot not at Nvidia's training empire but at the part that pays best: serving the models. The numbers, from a single analytics house, claim a real efficiency lead. The caveat is that the company making them is still Nvidia's largest customer.",
+   "kicker": "Technology · The Open Commons",
+   "headline": "Nvidia Moves to Buy the Town Square",
+   "dek": "The chipmaker has reportedly agreed to acquire Hugging Face outright for about US$12.9 billion — its largest deal ever, for the neutral hub where the open-model world keeps its weights. A year ago the same company offered to invest, and was turned down.",
    "anchor": "p7",
+   "featured": true
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Long Read · The Undercurrent — China",
+   "headline": "The Huggable Loophole",
+   "dek": "Beijing spent the summer switching off the AI boyfriend. So the machine grew a plush body — and a generation that will not marry started buying comfort by the handful, three hundred yuan at a time.",
+   "anchor": "p21",
+   "featured": true
+  },
+  {
+   "desk": "Singapore",
+   "sub": "The Little Red Dot",
+   "category": "Asia",
+   "kicker": "Singapore · Housing",
+   "headline": "The Ceiling Goes Up. The Queue Gets Longer.",
+   "dek": "For the first time since 2019, the income ceiling for a new HDB flat rises — to S$16,000 for a couple, S$18,000 for an Executive Condo. It lets more households in the door. It does not build a single extra flat.",
+   "anchor": "p5",
+   "featured": false
+  },
+  {
+   "desk": "The Atelier",
+   "sub": "Buy It Once",
+   "category": "Style",
+   "kicker": "The Atelier · Cast Iron & Carbon Steel",
+   "headline": "The Pan That Outlives You — and the Grail a Machine Stopped Making in 1960",
+   "dek": "Sand, iron and a fire: the cheapest serious cookware you can buy, and the only kind that gets better the longer you own it. The whole hierarchy is one finishing step — and the money above it buys smoothness, not a better dinner.",
+   "anchor": "p6",
    "featured": false
   },
   {
    "desk": "The Home Lab",
    "sub": "The Home Lab",
    "category": "The Home Lab",
-   "kicker": "The Home Lab · Open, With Strings",
-   "headline": "The Year's Biggest Open Model Drops Its Weights — Then Decides Who May Run Them",
-   "dek": "Zhipu released the full GLM-5.3 flagship this week, reversing the cyber-risk hold we flagged a fortnight ago. The weights are public; the licence is not the usual open one. Anyone big enough must ask permission first — and, for the home rig, the flagship was never the point. The model that matters on your own GPUs still fits under a genuinely open licence.",
+   "kicker": "The Home Lab · Running the Big Ones",
+   "headline": "The Flagship Won't Fit. Its Little Brother Just Became a Daily Driver.",
+   "dek": "GLM-5.3's 744-billion-parameter flagship is a data-centre object — about 445GB even at four-bit. The genuinely new thing on a dual-5090 rig this week is not a model but the engine stack that finally makes a 300-billion-parameter mixture-of-experts run at home.",
    "anchor": "p8",
    "featured": false
   },
@@ -83,19 +73,29 @@
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · The Camera They Left Out",
-   "headline": "The Smart Glasses Whose Best Feature Is a Deletion",
-   "dek": "RayNeo's iO, on sale next week, is the cheapest glasses yet to put a real display in the lens — and it does it while deliberately leaving the camera off, betting that a HUD without a stranger's eye on you is the version people actually wear. At US$479 it undercuts the field. The caveat is the one every always-on device carries.",
+   "kicker": "The Kit · Wearable Displays",
+   "headline": "A Cinema on Your Nose, Tuned by a Stereo Company",
+   "dek": "RayNeo's new GT glasses put a claimed 307-inch virtual screen in front of your eyes, with Bang & Olufsen-tuned speakers and, it says, the first Dolby Vision in eyewear — the GT Max at US$399, on sale 4 September. For a sci-fi reader who loves good sound, it is a lot of spec per dollar.",
    "anchor": "p9",
+   "featured": false
+  },
+  {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · Craft",
+   "headline": "A Watch Dial Made of Clay, and Thrown Away Nine Times in Ten",
+   "dek": "anOrdain, a Glasgow workshop better known for fired enamel, has put a true porcelain dial on its Model 1 — formed, fired and glazed in-house, at a rejection rate near 90 per cent. From £2,200, and, unusually, no waiting list.",
+   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · The Film They Tried to Erase",
-   "headline": "The Cartoon a Studio Wrote Off for a Tax Break Finally Reaches a Screen",
-   "dek": "\"Coyote vs. Acme\" was finished, shelved for a write-down, and nearly deleted for good. Three years and one public campaign later, a small distributor has put it in cinemas this weekend — to a modest opening and unmistakably fond reviews. The box office is the footnote; that it survived at all is the point.",
+   "kicker": "Screen & Sound · Box Office",
+   "headline": "Ridley Scott, Jacob Elordi, the End of the World — and an US$8 Million Weekend",
+   "dek": "\"The Dog Stars,\" a prestige post-apocalyptic drama from a legendary director and a hot young lead, opened fifth and rotten. Beautifully shot, the reviews agree, is the polite epitaph for a survival film with nothing new to survive.",
    "anchor": "p11",
    "featured": false
   },
@@ -103,9 +103,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Twelve, and the Phone in the Locker",
-   "headline": "The Study Says Guard the Sleep, Not the Screen-Minutes",
-   "dek": "A large new analysis links heavy screen use in children to worse mental health — but its own finding is that the damage runs through sleep and inactivity, which is where a parent can actually act. It lands the same term Singapore's schools put phones away. For a twelve-year-old starting secondary one, the useful response is a routine, not a panic.",
+   "kicker": "The Family Desk · Early Adolescence",
+   "headline": "Puberty Is Arriving Earlier. The Advice Is to Guard the Conversation, Not the Calendar.",
+   "dek": "Across birth cohorts, the average age of a girl's first period has fallen from 12.5 to 11.9 years, and the share starting before eleven has nearly doubled. Newer work links earlier timing to a modest mental-health tail — which is a reason to talk sooner, not to panic. General guidance, not medical advice.",
    "anchor": "p12",
    "featured": false
   },
@@ -113,30 +113,30 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The Rate Rise Comes Back",
-   "headline": "A Market Spends the Weekend Pricing a Hike the Fed Had All but Retired",
-   "dek": "A hawkish new chair and a hot inflation print have done something the year did not expect: turned September into a coin-flip between a hold and a rate rise. The dollar and front-end yields firmed into the close; gold, improbably, held near its record anyway. The through-line for a global portfolio is a regime that is getting less friendly, not more.",
+   "kicker": "The Macro Desk · The Regime",
+   "headline": "Gold Rises. The Dollar Rises. That Is the Whole Story.",
+   "dek": "In a normal week a firmer dollar pushes gold down. This week they climbed together — and that broken link is the tell: a higher-for-longer rate regime running alongside a live debasement trade. Analysis, not advice.",
    "anchor": "p14",
+   "featured": false
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "Down the Rabbit Hole",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · Home Mixology",
+   "headline": "The Bar in Your Kitchen",
+   "dek": "The gap between a sad home drink and a great bar drink is not a secret ingredient. It is technique, temperature, dilution and ice — and once you feel that, the floor opens under you. Welcome to the home cocktail bar.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Efficient Sprint",
-   "headline": "Fewer All-Out Repeats Buy the Same Lungs — the Study, and the Catch",
-   "dek": "A new meta-analysis finds that piling on sprint repetitions doesn't add to the aerobic payoff: a low-rep session lifts VO2 max about as much as a punishing one. For a time-pressed mid-40s optimiser that is genuinely good news — provided you read who was measured, and hear out the doctor who says the protocol obsession misses the point.",
+   "kicker": "Fitness · Longevity",
+   "headline": "Your Grip Is Telling On You",
+   "dek": "A new cohort study finds the strongest women outlived the weakest by a third — and the link held even for those who never met the aerobic guidelines. Strength is its own longevity lever. General guidance, not medical advice.",
    "anchor": "p18",
-   "featured": false
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · What Changed",
-   "headline": "Japan Flips Its Tax-Free Rules at the Till, and the Points Get Pricier",
-   "dek": "The headline for a Singapore flyer this season is a paperwork change with real money in it: from November, Japan's tax-free shopping moves to pay-first, refund-at-the-airport. Add a tripled departure tax, a dearer KrisFlyer chart, and a new satellite gate at Changi, and the ground rules for the autumn trip have quietly moved.",
-   "anchor": "p19",
    "featured": false
   },
   {
@@ -144,19 +144,9 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary · The Dated Agenda",
-   "headline": "October Opens with a Sprint, and a Kyushu November Worth the Flight",
-   "dek": "Singapore's autumn fills up behind the first-ever Sprint; a run of stadium nights piles into the same weeks; and in Japan, a Gifu festival and a Fukuoka sumo tournament each earn a flight. Book the fast-movers now.",
-   "anchor": "p23",
-   "featured": false
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Undercurrent",
-   "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent",
-   "headline": "Copied Out by Hand",
-   "dek": "In the most wired country on earth, a generation is spending its evenings transcribing novels into notebooks, one sentence at a time, in silence. Korea calls it pilsa. It is the analog counter-movement crystallising at the exact moment a machine learned to write for free — and Korea is where it surfaces first because Korea is furthest in.",
-   "anchor": "p25",
+   "headline": "An October That Opens With a Sprint",
+   "dek": "",
+   "anchor": "p19",
    "featured": false
   }
  ]
