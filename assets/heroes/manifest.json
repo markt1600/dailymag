@@ -2,42 +2,6 @@
  "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429. ",
  "images": [
   {
-   "slug": "cover-nib-865",
-   "file": "Gold fountain pen nib.JPG"
-  },
-  {
-   "slug": "invite-write-865",
-   "file": "Fountain pen writing (literacy).jpg"
-  },
-  {
-   "slug": "community-shop-865",
-   "file": "The Pen Shop (11922672).jpg"
-  },
-  {
-   "slug": "gear-mb149-865",
-   "file": "Montblanc 149-nib.jpg"
-  },
-  {
-   "slug": "custom-makie-865",
-   "file": "明治時代 柴田是真派 蒲公英酒瓢蒔絵 硯箱-Writing Box with Gourd MET 36 100 142aj Tp.jpeg"
-  },
-  {
-   "slug": "ink-sailor-865",
-   "file": "Sailor Ink BBK.jpg"
-  },
-  {
-   "slug": "workshop-parker45-865",
-   "file": "Vintage Parker 45 Fountain Pen, Made In USA (24878157996).jpg"
-  },
-  {
-   "slug": "sg-suntec-865",
-   "file": "Suntec Singapore Convention Centre Halls 401 - 402.jpg"
-  },
-  {
-   "slug": "undercurrent-hero-865",
-   "file": "A green Hero 329 Fountain Pen.jpg"
-  },
-  {
    "slug": "kabukicho-825",
    "file": "Kabukicho red gate and colorful neon street signs at night, Shinjuku, Tokyo, Japan.jpg"
   },
@@ -1417,45 +1381,36 @@
    "file": "Gamcheon Culture Village 1.jpg"
   },
   {
-   "slug": "naoshima-cat-87",
-   "category": "Category:Naoshima, Kagawa",
-   "limit": 18
+   "slug": "cover-bighole-875",
+   "file": "Big Hole, Kimberley, Northern Cape, South Africa (20350481748).jpg"
   },
   {
-   "slug": "benesse-naoshima-87",
-   "file": "150505 Benesse House Museum Naoshima Kagawa pref Japan01b3s5.jpg"
+   "slug": "auction-christies-875",
+   "file": "Christie's (Manhattan, New York) 001.jpg"
   },
   {
-   "slug": "hormuz-tanker-87",
-   "file": "POLAR ADVENTURE, Crude Oil Tanker.jpg"
+   "slug": "abroad-antwerp-875",
+   "file": "Antwerp diamond district - shops.jpg"
   },
   {
-   "slug": "gold-record-87",
-   "file": "Gold bullion bars.jpg"
+   "slug": "abroad-antwerp-875b",
+   "file": "Antwerpen Hoveniersstraat.JPG"
   },
   {
-   "slug": "sg-wafer-87",
-   "file": "12-inch silicon wafer.jpg"
+   "slug": "singapore-orchard-875",
+   "file": "Orchard Road, Singapore, 26 August 2018.jpg"
   },
   {
-   "slug": "tech-chip-87",
-   "file": "Semiconductor Wafer of Microelectronics.jpg"
+   "slug": "undercurrent-argyle-875",
+   "file": "A195, Argyle Diamond Mine, Western Australia, from plane, 2007.JPG"
   },
   {
-   "slug": "eyewear-87",
-   "file": "Browline glasses.JPG"
+   "slug": "grounding-loose-875",
+   "file": "Assortment of diamonds.jpg"
   },
   {
-   "slug": "fpv-87",
-   "file": "DJI FPV and FPV Goggles V2.jpg"
-  },
-  {
-   "slug": "changi-jewel-87",
-   "file": "Singapore Changi Airport with Jewel in the background.jpg"
-  },
-  {
-   "slug": "pilsa-87",
-   "file": "Fountain pen writing (literacy) (cropped).jpg"
+   "slug": "craft-polisher-875",
+   "file": "Diamond Polisher.jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -1514,5 +1469,6 @@
  "_retrigger54": "No.81 weekday heroes: wong-81(cover/Singapore NDR), tanker-81(World/Hormuz), shoe-loake-81(Atelier GYW shoes), espresso-81(Rabbit Hole), iem-81(Kit repr), diver-81(Good Life repr), mcconaughey-81(Screen), marathon-81(Fitness), f1-sg-81(Diary) 2026-08-24",
  "_retrigger55": "No.82.5 special (The Soaplands of Tokyo): kabukicho-825(cover), diet-825(The Fiction), yoshiwara-825(The District, Hiroshige print), yen-825(The House), okubopark-825(The Pathways), hellowork-825(The After), flowerdemo-825(The Argument), newsstand-825(The Sceptic), moj-825(The Undercurrent) 2026-08-25",
  "_retrigger56": "no83 heroes",
- "_retrigger57": "djokovic retry"
+ "_retrigger57": "djokovic retry",
+ "_retrigger58": "No.87.5 special (3-5ct yellow diamond): cover-bighole-875, auction-christies-875, abroad-antwerp-875(+b), singapore-orchard-875, undercurrent-argyle-875, grounding-loose-875, craft-polisher-875 2026-08-30"
 }
