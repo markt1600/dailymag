@@ -1555,6 +1555,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
     }); }
     window.__mOwnerP.then(cb);
   }
+  window.mOwner = mOwner; // the chrome IIFE below uses it too
   document.querySelectorAll('.fbrow').forEach(function(row){
     var key='mfb-'+issue+'-'+row.dataset.desk;
     var prev=null; try{ prev=localStorage.getItem(key); }catch(e){}

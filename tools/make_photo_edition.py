@@ -779,6 +779,7 @@ JS = """
     }); }
     window.__mOwnerP.then(cb);
   }
+  window.mOwner = mOwner; // the chrome IIFE below uses it too — must be global
   document.querySelectorAll('.fbrow').forEach(function(row){
     var key='mfb-'+issue+'-'+row.dataset.desk;
     var prev=null; try{ prev=localStorage.getItem(key); }catch(e){}
