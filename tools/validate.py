@@ -46,32 +46,79 @@ for idx, sec in enumerate(pages, 1):
         if missing and fnblock:
             warns.append(f"page {idx}: markers {missing} have no obvious matching SOURCES entry (verify)")
 
-# column discipline: interior body copy must live in columns (.cols2/.cols3 or
-# a .grid cell), never run the full A4 measure — full-width paragraphs are the
-# single most magazine-breaking layout drift (reader-reported, No. 50 era).
+# COLUMN DISCIPLINE + READING ORDER (rebuilt, editor 31 Aug 2026, after a
+# reader report on No. 88: p4 crushed the lead into ~38mm columns beside a
+# rail, p6 ran the Sceptic, a brief and Next-on-the-Bench as full-width bands,
+# p13 left ~90mm of dead white bottom-left in an unbalanced furniture grid.
+#
+# THE READING-ORDER LAW: an article reads DOWN the left column, then DOWN the
+# right. One continuous .cols2 per article at full live-area width; furniture
+# flows INSIDE that stream. The previous gate was a regex needing class="grid"
+# as the FIRST attribute and .cols2 as its immediate child, so
+# <div style="..." class="grid g-12"> with a kicker/hed before the .cols2 sailed
+# straight through. This walks the tree instead and cannot be dodged.
 # Escape hatch for a deliberate feature opener: class="body fullmeasure".
 from html.parser import HTMLParser
-class _ColScan(HTMLParser):
+class _FlowScan(HTMLParser):
     def __init__(self):
-        super().__init__(); self.stack=[]; self.page=0; self.bad={}
+        super().__init__(); self.stack=[]; self.page=0; self.cid=0
+        self.fullwidth={}; self.colsingrid={}; self.bodyingrid={}
+        self.fragmented={}; self.widefurniture={}; self.furngrid={}
+        self._flow=None; self._sawhead=True
+    def _bump(self, d): d[self.page]=d.get(self.page,0)+1
     def handle_starttag(self, tag, attrs):
-        cls = dict(attrs).get('class', '') or ''
-        if tag == 'section' and 'page' in cls.split(): self.page += 1
-        self.stack.append((tag, cls))
-        if tag == 'p' and 'body' in cls.split() and 'fullmeasure' not in cls.split():
-            if self.page in (1,): return  # cover exempt
-            in_col = any(any(k in c.split() for k in ('cols2','cols3','grid'))
-                         for _, c in self.stack[:-1])
-            if not in_col:
-                self.bad[self.page] = self.bad.get(self.page, 0) + 1
+        cls=(dict(attrs).get('class','') or ''); c=set(cls.split())
+        if tag=='section' and 'page' in c:
+            self.page+=1; self._flow=None; self._sawhead=True
+        anc=[set(cc.split()) for _,cc,_ in self.stack]
+        incol=any(a & {'cols2','cols3'} for a in anc)
+        ingrid=any('grid' in a for a in anc)
+        exempt=self.page in (1,2)          # cover + fixed contents layout
+        cid=None
+        if c & {'cols2','cols3'}:
+            self.cid+=1; cid=self.cid
+            if ingrid and not exempt: self._bump(self.colsingrid)
+        if c & {'hed','kicker','dek'}: self._sawhead=True
+        self.stack.append((tag,cls,cid))
+        isbody = tag=='p' and 'body' in c and 'fullmeasure' not in c
+        isprose = isbody or (tag=='div' and 'brief-item' in c)
+        if isprose and self.page!=1:
+            if not incol: self._bump(self.fullwidth)
+            if ingrid and isbody and not exempt: self._bump(self.bodyingrid)
+        if isbody and incol and not exempt:
+            own=[ci for _,_,ci in self.stack[:-1] if ci]
+            own=own[-1] if own else None
+            if own is not None and own!=self._flow:
+                if self._flow is not None and not self._sawhead:
+                    self._bump(self.fragmented)
+                self._flow=own; self._sawhead=False
+        if (c & {'stat','chatter','figframe','nexthole'}) and ingrid and not exempt:
+            self._bump(self.furngrid)
+        if (c & {'nexthole','nextpick'}) and not incol and self.page!=1:
+            self._bump(self.widefurniture)
     def handle_endtag(self, tag):
-        for i in range(len(self.stack)-1, -1, -1):
-            if self.stack[i][0] == tag: del self.stack[i]; break
-_cs = _ColScan(); _cs.feed(html)
-if _cs.bad:
-    errors.append("full-width body copy (not in .cols2/.cols3/.grid) on page(s) "
-                  + ", ".join(f"{p} ({n}×)" for p, n in sorted(_cs.bad.items()))
-                  + " — set interior body in columns like a magazine, or mark a deliberate opener with class=\"body fullmeasure\"")
+        for i in range(len(self.stack)-1,-1,-1):
+            if self.stack[i][0]==tag: del self.stack[i]; break
+_fs=_FlowScan(); _fs.feed(html)
+def _pl(d): return ", ".join(f"{k} ({v}x)" for k,v in sorted(d.items()))
+if _fs.fullwidth:
+    errors.append("full-width running prose (not inside .cols2/.cols3) on page(s) " + _pl(_fs.fullwidth)
+                  + " — interior copy is set in columns; mark a deliberate opener class=\"body fullmeasure\"")
+if _fs.colsingrid:
+    errors.append("BODY-MEASURE LAW: .cols2/.cols3 nested inside a .grid track on page(s) " + _pl(_fs.colsingrid)
+                  + " — body text is .cols2 at FULL live-area width, never squeezed beside a sidebar rail")
+if _fs.bodyingrid:
+    errors.append("BODY-MEASURE LAW: running body copy inside a .grid track on page(s) " + _pl(_fs.bodyingrid)
+                  + " — grids carry FURNITURE only, never the article")
+if _fs.fragmented:
+    errors.append("READING-ORDER LAW: article body restarts in a second column flow with no new headline on page(s) "
+                  + _pl(_fs.fragmented) + " — one .cols2 per article; it reads down the left column, then down the right")
+if _fs.furngrid:
+    errors.append("furniture parked in a .grid rail on page(s) " + _pl(_fs.furngrid)
+                  + " — stats, chatters and figures flow INSIDE the column stream; a two-track rail cannot balance and blows a hole in the page (No. 88 p13)")
+if _fs.widefurniture:
+    errors.append("Next-on-the-Bench / .nextpick set at full page width on page(s) " + _pl(_fs.widefurniture)
+                  + " — it closes the desk INSIDE the column flow, not as a full-measure band")
 
 # house-style regression gate: structural fingerprints of a real MERIDIAN
 # (calibrated on No. 38; floors ~50-60% so weekday AND weekend books pass).
@@ -138,14 +185,6 @@ if _issno >= 51 and not _special:
     if _day == 'Saturday' and 'The Scoreboard' not in html:
         errors.append("Saturday issue is missing 'The Scoreboard' page-two feature (see PREDICTIONS PROTOCOL)")
 
-# body-measure law (from No. 73, editor's directive): article body text is
-# .cols2 at the FULL live-area width. No. 73 nested .cols2 inside grid tracks
-# (2fr/1fr "main + rail"), squeezing body copy into three ~55mm justified
-# columns — unreadable on screen. A .cols2 directly inside any .grid is a
-# hard failure; furniture flows INSIDE the columns or as full-width bands.
-_narrow = re.findall(r'<div class="grid [^"]*"[^>]*>\s*<div class="cols2"', html)
-if _narrow:
-    errors.append(f"{len(_narrow)} article(s) nest .cols2 inside a .grid track — body text must be .cols2 at FULL width (three narrow columns shipped in No. 73; see the body-measure law)")
 if re.search(r'class="cols3"', html):
     errors.append(".cols3 used for body copy — three columns are never the body measure (body-measure law)")
 
