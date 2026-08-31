@@ -1,5 +1,5 @@
 {
- "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: retrying entries skipped on HTTP 429. ",
+ "_comment": "Hero-image library manifest. Entries are fetched by .github/workflows/fetch-heroes.yml (the build sandbox cannot fetch images directly) and committed as assets/heroes/<slug>.jpg. Two entry forms: {slug, file} = a Wikimedia Commons filename, or {slug, url} = ANY direct image URL on the internet (press/product shots, agency images, official sites — per editor, general internet sourcing is allowed). Always record where it came from in the images.json entry ('source') so the caption attributes it. Failed fetches are skipped, never faked. Re-trigger note: No. 88.5 special — category sweeps for AI micro-drama heroes (Hengdian, phones, GPUs, dubbing, storyboards, film sets).",
  "images": [
   {
    "slug": "cover-nib-865",
@@ -1504,6 +1504,66 @@
   {
    "slug": "mixology-88",
    "file": "Cocktail shaker-01.jpg"
+  },
+  {
+   "slug": "cat-hengdian-885",
+   "category": "Category:Hengdian World Studios",
+   "limit": 10
+  },
+  {
+   "slug": "cat-chinastudio-885",
+   "category": "Category:Film studios in China",
+   "limit": 8
+  },
+  {
+   "slug": "cat-vertvideo-885",
+   "category": "Category:Smartphone users",
+   "limit": 10
+  },
+  {
+   "slug": "cat-phonevideo-885",
+   "category": "Category:People using smartphones",
+   "limit": 10
+  },
+  {
+   "slug": "cat-nvidia-885",
+   "category": "Category:Nvidia graphics cards",
+   "limit": 10
+  },
+  {
+   "slug": "cat-gpu-885",
+   "category": "Category:Graphics cards",
+   "limit": 8
+  },
+  {
+   "slug": "cat-dubbing-885",
+   "category": "Category:Dubbing (filmmaking)",
+   "limit": 8
+  },
+  {
+   "slug": "cat-recstudio-885",
+   "category": "Category:Recording studios",
+   "limit": 8
+  },
+  {
+   "slug": "cat-storyboard-885",
+   "category": "Category:Storyboards",
+   "limit": 8
+  },
+  {
+   "slug": "cat-filmset-885",
+   "category": "Category:Film sets",
+   "limit": 10
+  },
+  {
+   "slug": "cat-videoedit-885",
+   "category": "Category:Video editing",
+   "limit": 8
+  },
+  {
+   "slug": "cat-mocap-885",
+   "category": "Category:Motion capture",
+   "limit": 8
   }
  ],
  "_fetch_rev": 15,
