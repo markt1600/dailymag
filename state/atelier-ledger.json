@@ -74,16 +74,15 @@
       "category": "Cast-iron &amp; carbon-steel cookware",
       "issue": "88",
       "angle": "One finishing step decides the hierarchy — pre-1960 Griswold/Wagner machined the cast surface smooth after casting; modern Lodge leaves it \"as-cast\" (pebbly), and the US boutiques (Smithey/Field/Stargazer/Butter Pat/Finex) charge to re-machine it. Carbon steel = sheet steel, lighter, heats ~2× faste"
+    },
+    {
+      "category": "Leather belts",
+      "issue": "89",
+      "angle": "Everything at the cut edge — full-grain (the only grade a buy-once reader should touch) vs top-grain (what most designer belts are) vs \"genuine\"/bonded (splits); one strip vs glued two-layer (the glue line the failure point); veg-tan/bridle (Hermann Oak/Wickett &amp; Craig/Sedgwick/Baker) vs chrome;"
     }
   ],
   "queued": [],
   "pipeline": [
-    {
-      "category": "Leather belts",
-      "rotation": "Carry / leather",
-      "fit": "Full-grain single-piece vs bonded-strip \"genuine leather\"; solid-brass vs plated buckles; the one belt that outlasts a decade",
-      "sources": "Anson Belt, Orion, Equus, Maxwell Scott, Hanks; r/BuyItForLife, r/goodyearwelt"
-    },
     {
       "category": "Everyday backpacks",
       "rotation": "Carry",
@@ -119,6 +118,18 @@
       "rotation": "Clothing",
       "fit": "Looms, mills and fade culture — maker-worship done right",
       "sources": "Momotaro/Japan Blue, Full Count, Warehouse, Iron Heart, Studio D'Artisan; r/rawdenim, Heddels"
+    },
+    {
+      "category": "Wool overcoats &amp; topcoats",
+      "rotation": "Clothing",
+      "fit": "Cloth weight and construction (fused vs canvassed), melton/Casentino/loro-cloth; the buy-once winter layer for the travelling reader",
+      "sources": "Fox Brothers/Abraham Moon cloth, Private White V.C., Crombie honestly assessed, Sartoria tiers; StyleForum, Permanent Style"
+    },
+    {
+      "category": "Everyday-carry pocket knives",
+      "rotation": "Carry / tools",
+      "fit": "Steel and lock decoded (S30V/MagnaCut, liner/frame/axis), slipjoint tradition vs modern; the daily buy-once tool",
+      "sources": "Benchmade, Spyderco, Chris Reeve (Sebenza grail), GEC slipjoints; r/knifeclub, r/EDC"
     }
   ]
 }
