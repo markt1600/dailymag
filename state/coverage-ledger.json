@@ -1,5 +1,5 @@
 {
-  "count": 576,
+  "count": 587,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,83 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "RayNeo iO (smart glasses)",
+      "type": "Product (wearable)",
+      "last_covered": "No. 91",
+      "last_peg": "The Kit LEAD — camera- and speaker-free monochrome HUD, US$479, on sale 4 Sep; 33g, 4-mic+bone-conduction, live captions/translation (55 langs, maker claim), 48h vendor battery; pitch = the sensor it omits; undercuts Even Realities G2 by ~$120; shipping-unit reviews NOT yet landed; representative smart-glasses hero + no_image attestation",
+      "next_peg": "Next peg = independent shipping-unit reviews or an SG price. Do not re-cover the launch."
+    },
+    {
+      "subject": "Ricoh GR IVx (compact camera)",
+      "type": "Product (camera)",
+      "last_covered": "No. 91",
+      "last_peg": "The Kit 2nd — development announcement 27 Aug of an 'x' GR IV variant with a new 40mm-equiv f/2.8 on the 26MP APS-C sensor; no confirmed price (~US$1,599), launch 'Winter 2026 or later'; a notice, not a review",
+      "next_peg": "Next peg = final specs/price or a review. Do not re-list the dev announcement."
+    },
+    {
+      "subject": "Omega Speedmaster 38 (2026 redesign)",
+      "type": "Product (watch)",
+      "last_covered": "No. 91",
+      "last_peg": "The Good Life LEAD — 7 refs, round subdials replace the ovals, Co-Axial Cal 3330, 38mm/100m, from US$6,500 (~$200 over outgoing), Milano Cortina 2026 edition alongside; reviews landed (Fratello/W&W/Oracle/Gear Patrol); sceptic sits ~$1k under a Hesalite Moonwatch; representative Speedmaster hero + no_image attestation",
+      "next_peg": "Next peg = a new variant or an SG-specific angle. Do not re-cover the 2026 launch."
+    },
+    {
+      "subject": "Hegel H200 (integrated amplifier)",
+      "type": "Product (audio)",
+      "last_covered": "No. 91",
+      "last_peg": "The Good Life 2nd — 150W/ch Class-AB integrated with DAC + network streaming, US$4,995, shipping late Aug; reviews (SoundStage!/TAS/Darko) 'punches above price'; sceptic buy for the amp, the streaming dates faster",
+      "next_peg": "Next peg = an SG stockist or a measurement teardown. Do not re-cover the launch."
+    },
+    {
+      "subject": "Qwen3.8-27B (open-weight LLM)",
+      "type": "Product (AI model)",
+      "last_covered": "No. 91",
+      "last_peg": "The Home Lab hero — Alibaba, 14 Aug, Apache-2.0, 27B dense multimodal, 262K→1M ctx; Q4_K_M ~17GB on a single 24GB card (~25 tok/s), Q8 ~30GB, BF16 ~54GB; 'defaults to wildly overthinking' (Willison)",
+      "next_peg": "Next peg = a point release or a notable local-tooling delta. Do not re-explain the model."
+    },
+    {
+      "subject": "GLM-5.3 / Tencent Hunyuan Hy4 (700B+ open weights)",
+      "type": "Product (AI model)",
+      "last_covered": "No. 91",
+      "last_peg": "The Home Lab — both dropped 28 Aug; GLM-5.3 744B/40B MoE (bespoke non-MIT licence, ~370GB 4-bit, 8-GPU), Hunyuan Hy4 770B/49B; 'fit no desk' framing — press events for renters, not desk owners",
+      "next_peg": "Next peg = a genuinely desk-runnable distill or a licence change. Do not re-cover the size headline."
+    },
+    {
+      "subject": "Nvidia–Hugging Face acquisition",
+      "type": "Deal (reported)",
+      "last_covered": "No. 91",
+      "last_peg": "Tech LEAD — Bloomberg 2 Sep: ~$14B (up from $12.9B), deal 'as soon as this week', ~$1B retention; STILL unsigned/unconfirmed as of 3 Sep; sceptic HF's value is neutrality, transformers/diffusers Apache-forkable (delta on No.90's $12.9B report)",
+      "next_peg": "Next peg = a signed deal / filing / official denial. Advance as the delta only."
+    },
+    {
+      "subject": "OpenAI 'Jalapeño' inference chip",
+      "type": "Product (silicon)",
+      "last_covered": "No. 91",
+      "last_peg": "Tech 2nd — Hot Chips 25 Aug: 216GB HBM4, ~13.4 MXFP4 PFLOPS, ~700W; OpenAI's own 1.5-1.9x work/watt, 1.7-3.6x lower latency vs Blackwell; sceptic per-watt not per-chip, no MLPerf/node disclosed (delta on No.89 Broadcom ASIC / No.90 SemiAnalysis)",
+      "next_peg": "Next peg = MLPerf or an independent test, or volume deployment. Do not re-cover the Hot Chips reveal."
+    },
+    {
+      "subject": "'Ink' (Danny Boyle film)",
+      "type": "Film (release)",
+      "last_covered": "No. 91",
+      "last_peg": "Screen LEAD — opened Venice 2 Sep, James Graham's Murdoch/Sun-1969 play (O'Connell/Pearce/Foy), 4-5min ovation, MC~80 on ~11 reviews, Netflix (US cinemas 11 Dec); Golden Lion ~12 Sep (peg was the opening) — updates the No.89 Venice-opening row",
+      "next_peg": "Next peg = Golden Lion result or wide-release reviews. Advance as results."
+    },
+    {
+      "subject": "KATSEYE — 'WILD' (EP) / Phoebe Bridgers — 'Lost Weekend'",
+      "type": "Music (release)",
+      "last_covered": "No. 91",
+      "last_peg": "Screen 2nd — WILD (5 trk, ~14 min) No.1 ~170k units, biggest girl-group debut since Danity Kane 2008, Pitchfork 4.5; Bridgers' Lost Weekend MC91 debuted No.2; units≠quality read",
+      "next_peg": "Next peg = a tour, a chart re-entry, or a follow-up. Do not re-list the debut week."
+    },
+    {
+      "subject": "MAS stablecoin regulatory framework",
+      "type": "Policy (SG/finance)",
+      "last_covered": "No. 91",
+      "last_peg": "Singapore LEAD — consultation opened 1 Sep (PSA amendments): 100% segregated reserves, par redemption, NO interest, stress tests/wind-down; closes 16 Oct; aligns US/EU MiCA",
+      "next_peg": "Next peg = the finalised legislation or a first licensed issuer. Advance as the delta."
     },
     {
       "subject": "Ultrahuman Ring Pro",
