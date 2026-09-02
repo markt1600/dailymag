@@ -22,7 +22,7 @@ md = pathlib.Path("meridian-brand-prompt.md").read_text()
 for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
             "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
             "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md",
-            "ledgers/atelier-ledger.md"):
+            "ledgers/atelier-ledger.md", "ledgers/events-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -157,9 +157,25 @@ for _am in re.finditer(r"(?m)^## ATELIER LEDGER\s*$", md):
 (state / "atelier-ledger.json").write_text(json.dumps(
     {"covered": at_cov, "queued": at_queue, "pipeline": at_pipe}, indent=2, ensure_ascii=False))
 
+# ---- events ledger (editor, 31 Aug 2026): dead events, so a cancelled show
+# cannot be re-researched back into The Diary by a later build. Status is the
+# gate: CANCELLED / POSTPONED / PULLED bar the event, REINSTATED clears it.
+dead = []
+for c in rows_under("Dead Events"):
+    if len(c) < 4 or c[0].lower().startswith("event"):
+        continue
+    dead.append({"event": c[0], "where": c[1], "was_listed": c[2],
+                 "status": c[3].strip().upper(),
+                 "checked": c[4] if len(c) > 4 else "",
+                 "note": c[5] if len(c) > 5 else ""})
+_barred = [d for d in dead if d["status"].split()[0] in ("CANCELLED", "POSTPONED", "PULLED")]
+(state / "events-ledger.json").write_text(json.dumps(
+    {"dead": dead, "barred": [d["event"] for d in _barred]}, indent=2, ensure_ascii=False))
+
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
-      f"{len(hob_cov)} hobbies covered / {len(hob_pipe)} on deck")
+      f"{len(hob_cov)} hobbies covered / {len(hob_pipe)} on deck, "
+      f"{len(_barred)} barred event(s)")
 
 # ---- note-discipline nudges (editor, 4 Aug 2026; soft warnings, never fail) ----
 # The newest note should be working memory (<=3,000 chars target) and must end

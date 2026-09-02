@@ -13,7 +13,7 @@ hand-assembled editions are prone to, before render:
 Usage:  python3 tools/validate.py build/meridianNN.html
 Exit non-zero on any error so the build can stop. Warnings don't stop the build.
 """
-import sys, re, pathlib
+import sys, re, json, pathlib
 
 html = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html").read_text()
 
@@ -475,6 +475,42 @@ for w in warns:
     print("WARN:", w)
 for e in errors:
     print("ERROR:", e)
+# DEAD EVENTS (editor, 31 Aug 2026 — reader-reported). The Diary is
+# re-researched from scratch every build, so a cancelled show reappears
+# forever unless something machine-readable stops it: a Post Malone Singapore
+# date ran in No. 84, was corrected as postponed in No. 85, and kept coming
+# back because the correction was prose in an Issue Log note. Barred events
+# live in ledgers/events-ledger.md -> state/events-ledger.json. The bar
+# applies to LISTINGS (.evt rows) only — a correction notice may still name
+# the event in prose, which is how a retraction is supposed to read.
+try:
+    _ev = json.loads(pathlib.Path("state/events-ledger.json").read_text())
+    _barred = [b for b in _ev.get("barred", []) if b.strip()]
+except Exception:
+    _barred = []
+if _barred:
+    class _EvtScan(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.depth=0; self.buf=[]; self.rows=[]
+        def handle_starttag(self, tag, attrs):
+            cls=(dict(attrs).get('class','') or '')
+            if self.depth: self.depth+=1
+            elif 'evt' in cls.split(): self.depth=1; self.buf=[]
+        def handle_endtag(self, tag):
+            if self.depth:
+                self.depth-=1
+                if self.depth==0: self.rows.append(' '.join(self.buf))
+        def handle_data(self, d):
+            if self.depth: self.buf.append(d.strip())
+    _es=_EvtScan(); _es.feed(html)
+    _blob=' | '.join(_es.rows).lower()
+    _hits=[b for b in _barred if b.lower() in _blob]
+    if _hits:
+        errors.append("DEAD EVENT listed in The Diary: " + ", ".join(_hits)
+                      + " — these are cancelled/postponed in ledgers/events-ledger.md and must not be listed;"
+                      + " if one has been reinstated, set its Status to REINSTATED with the confirming source first")
+
+
 if errors:
     print(f"\nvalidate: {len(errors)} error(s), {len(warns)} warning(s) — FAILED")
     sys.exit(1)
