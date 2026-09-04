@@ -49,6 +49,7 @@ row still stands as editorial history.
 | 86 | Japan | Guilt economy, 背徳グルメ | 背徳グルメ |
 | 91 | Vietnam | (fresh region — subject not recorded in the note) | |
 | 92 | Indonesia | (fresh region — subject not recorded in the note) | |
+| 93 | South Korea | Bakery-pilgrimage economy (Daejeon / Sungsimdang) | Sungsimdang |
 
 ## Themes Already Worked
 

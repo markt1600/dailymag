@@ -1,51 +1,61 @@
 {
  "publication": "MERIDIAN",
- "issue": 92,
- "date": "4 September 2026",
- "generated": "2026-09-04T06:08:59+08:00",
+ "issue": 93,
+ "date": "5 September 2026",
+ "generated": "2026-09-05T06:17:10+08:00",
  "quote": {
-  "text": "A wise man proportions his belief to the evidence.",
-  "author": "David Hume, An Enquiry Concerning Human Understanding (1748)"
+  "text": "Patience is bitter, but its fruit is sweet.",
+  "author": "Jean-Jacques Rousseau, Emile, or On Education (1762)"
  },
  "macro": null,
  "stories": [
+  {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · Horology",
+   "headline": "MB&F and Maison Alcée Ship an Alien in a Box — Two Hundred and Twenty-Two Parts, Ten Hours, One Weekend",
+   "dek": "Named for the ship in Ridley Scott's 1979 film and drawn from H.R. Giger's world, the Nostromo table clock arrives not built but as loose components and a set of tools. The build is the point.",
+   "anchor": "p10",
+   "featured": true
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "Down the Rabbit Hole",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · LEGO for Adults",
+   "headline": "The Grown-Ups Who Never Put the Bricks Away — Inside the AFOL World, Its Grails and Its Regrets",
+   "dek": "There is a word for the adult who buys, builds and displays LEGO for himself, not his kid: AFOL. It is a S$13-billion company's fastest-growing customer, and this is the descent into what he obsesses over.",
+   "anchor": "p15",
+   "featured": true
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "The Travel Desk · Departures",
+   "headline": "The Route Map Keeps Widening; the Fine Print Keeps Subtracting",
+   "dek": "Scoot opens Haneda, SIA reaches Madrid and flies the A380 to London twice a day — and quietly, this year, the \"free\" parts of travel got costed back in. Read the loyalty terms, not just the announcements.",
+   "anchor": "p19",
+   "featured": true
+  },
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · Iran & the Gulf",
-   "headline": "The Strikes Resume, Iran Answers Across Three Borders, and a Wedding Becomes the Number the War Turns On",
-   "dek": "After a month of relative quiet the United States struck about a hundred Revolutionary Guard targets around the Strait of Hormuz; Iran fired back at bases in Jordan and Kuwait and sent drones at Bahrain, hitting no Americans. The disputed toll is a house in Sirik, where Tehran says a strike killed a wedding party.",
+   "headline": "A Door Opens a Crack in the Gulf War, Even as the Heaviest Exchange in a Month Lights the Strait",
+   "dek": "Washington struck about a hundred Guard targets and Iranian mine-layers; Tehran answered again across Jordan, Kuwait and Bahrain. And then, at a summit in Bishkek, Iran's president said the word the war had not heard in weeks: reciprocate.",
    "anchor": "p3",
-   "featured": true
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · AI & the Commons",
-   "headline": "Nvidia Buys the Field Its Rivals Play On",
-   "dek": "The chipmaker signed for Hugging Face at about thirteen billion dollars — the open-model hub that eighteen million developers, and every rival's silicon, quietly depend on. Jensen Huang promises to keep it open and hardware-neutral. The question is whether the field's owner can stay neutral.",
-   "anchor": "p7",
-   "featured": true
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Undercurrent",
-   "category": "Essay",
-   "kicker": "The Long Read · The Undercurrent · Indonesia",
-   "headline": "\"Rojali\": The Crowd That Never Buys",
-   "dek": "Indonesia's malls have never been busier or their tills quieter, and Indonesians have turned the gap into slang — a self-mocking meme that doubles as a hard economic indicator. Read closely, it is the visible edge of a consuming middle class that has been shrinking for five straight years, and of a growth dream with a hole in its foundation.",
-   "anchor": "p21",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · Diplomacy",
-   "headline": "An Eleven-Year Gap Closes in Bangkok, and the Deliverable Is Rice",
-   "dek": "Wong and Anutin held the first Singapore–Thailand leaders' retreat since 2015, agreeing to negotiate four new pacts and to coordinate their back-to-back ASEAN chairs. The one signed thing worth its weight: a hundred thousand tonnes of Thai rice over five years.",
+   "kicker": "Singapore · The Long Arm of a Scheme",
+   "headline": "Fifty-Two Singaporeans Are Held in Guangxi, and the Recruiter Is Usually Someone You Trust",
+   "dek": "The largest single overseas detention of citizens on record has a familiar shape: a Chinese province long synonymous with pyramid \"capital operations,\" and a pitch that travels through friends and relatives, not strangers.",
    "anchor": "p5",
    "featured": false
   },
@@ -53,49 +63,39 @@
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Buy It Once",
-   "headline": "Fine Paper, From the Fibre Up — and Why Thickness Is the Wrong Thing to Buy",
-   "dek": "The category everyone judges by weight is actually decided by sizing: the invisible coating that makes ink sit on a sheet instead of soaking in. Learn four variables and you can read any pad blind — and see exactly where the price stops buying performance and starts buying a name.",
+   "kicker": "The Atelier · Wristwatch Straps",
+   "headline": "The Cheapest Upgrade a Watch Reader Owns — and the One Place the Tropics Overrule the Grail",
+   "dek": "A strap is judged at the cut edge and the stitch, not the logo on the buckle — and in Singapore's heat the honest answer is often not leather at all, which happens to make the category cheaper to get right.",
    "anchor": "p6",
    "featured": false
   },
   {
-   "desk": "The Home Lab",
-   "sub": "Local & Self-Hosted",
-   "category": "The Home Lab",
-   "kicker": "The Home Lab · Local & Self-Hosted",
-   "headline": "The Labs Shipped Trillion-Parameter Models This Month; the One That Fits Your Card Did Not Change",
-   "dek": "",
-   "anchor": "p8",
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · AI & the Toll Road",
+   "headline": "Nvidia Writes MediaTek a $3.5 Billion Cheque, and the Road It Paves Runs Through Everyone Else's Chip",
+   "dek": "The investment buys convertible bonds; the real acquisition is a standard. MediaTek's custom silicon will now plug into Nvidia's rack over NVLink Fusion — which is to say, over Nvidia's toll road.",
+   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We're Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Gear We're Watching",
-   "headline": "The Glasses Whose Whole Pitch Is What They Left Out",
-   "dek": "The reviews landed and the RayNeo iO goes on sale today at $479 — a monochrome heads-up display with no camera and no speaker, weighing thirty-three grams. Reviewers like the restraint; they are cooler on the beta software. Alongside it, Garmin's first titanium fēnix asks a four-figure question.",
+   "kicker": "The Kit · Wearables",
+   "headline": "Sennheiser's Flagship Buds Ship With a Feature No Rival Dares: a Battery You Can Replace",
+   "dek": "The Momentum True Wireless 5 lands at the same price as the last generation. The news isn't the driver or the codec — it's that the cells, in the buds and the case both, are meant to be swapped, not landfilled.",
    "anchor": "p9",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Horology",
-   "headline": "Geneva's Indies Steal the Week",
-   "dek": "Geneva Watch Days brought a record seventy-one brands to the lake, and the talking pieces came from the small houses: an MB&F wandering-hour under three thousand francs, and a Ming worldtimer that quietly fixes daylight saving. Plus a Sonos reset that asks to be believed twice.",
-   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Venice & the Charts",
-   "headline": "Boyle Opens Venice With the Making of a Tabloid; the Lion Waits",
-   "dek": "Danny Boyle's \"Ink\" — Rupert Murdoch's 1969 relaunch of The Sun, adapted by James Graham — drew an ovation on the Lido, where the Golden Lion is still unawarded this weekend. On the charts, a K-pop octet takes a first American number one from a girl group that held it a week.",
+   "kicker": "Screen & Sound · The Lido",
+   "headline": "Venice Keeps Its Lion a Week Longer, a Country Song Passes Old Town Road, and Spider-Man Will Not Move",
+   "dek": "The 83rd festival is mid-run, not decided — its awards land on 12 September. Meanwhile a twenty-week No. 1 rewrites the Hot 100 record book, and the box office stays exactly where it was.",
    "anchor": "p11",
    "featured": false
   },
@@ -103,9 +103,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Evidence",
-   "headline": "It's the Compulsion, Not the Hours — and the Arrow May Point Both Ways",
-   "dek": "A 2026 study of more than a thousand secondary-school students finds that anxiety tracks with problematic phone use, not screen time as such — and that anxious, bullied children are drawn toward compulsive use, not only harmed by it. For a parent at the Secondary One gate, that changes what to watch.",
+   "kicker": "The Family Desk · The Tween Years",
+   "headline": "The Study Says It May Be When They Start, Not Whether They Have an Account",
+   "dek": "A new Australian cohort finds the age of first social-media use predicts anxiety and depression more strongly than simply having a profile. For a Sec 1 parent, that turns the whole question from \"if\" into \"not yet.\"",
    "anchor": "p12",
    "featured": false
   },
@@ -114,28 +114,18 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · The Portfolio Lens",
-   "headline": "A War Premium, High Real Yields, and a Market Holding Its Breath for the Payroll",
-   "dek": "One force runs the week: real yields, with a Middle-East war premium bolted on. It keeps the dollar firm and equities flat, puts a floor under gold even inside a down year, and leaves bitcoin caught between tight liquidity and a haven bid — while everyone waits on Friday's jobs print and a Fed that is debating a hike, not a cut.",
+   "headline": "A Hundred and Sixty-Two Thousand Jobs Land Like a Slammed Door, and the Hike Debate Reopens",
+   "dek": "August payrolls came in at roughly three times what was expected. Yields rose, the dollar firmed, and gold and bitcoin gave a little back — good news for the economy reading, for now, as bad news for duration and the alternatives.",
    "anchor": "p14",
-   "featured": false
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "Down the Rabbit Hole",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · The Invitation",
-   "headline": "Birding: The Free App That Recruited a Nation, and the Glass It Sent Them Chasing",
-   "dek": "Not staring at pigeons — a cumulative, quietly competitive hunt to find and identify wild birds by sight and sound, and to log every one. A ninety-six-million-strong world with a billion-observation database, a phone app that names birdsong in real time, and an optics arms race with no ceiling.",
-   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Evidence",
-   "headline": "The Protein Powder That Did Nothing the Lifting Hadn't Already Done",
-   "dek": "A controlled trial in frail older adults added twenty grams of daily protein and dietary counselling to a supervised resistance-training programme — and got no extra strength, muscle or function for the trouble. The catch, and it matters: the ones who were under-eating protein to begin with did benefit.",
+   "kicker": "Fitness · The Long Game",
+   "headline": "The Grip That Predicts the Years — and Why It's a Marker, Not the Lever",
+   "dek": "A large cohort ties strength to survival independent of cardio. The catch worth keeping: squeezing a hand-gripper won't buy the longevity, because the grip is measuring something bigger than the grip.",
    "anchor": "p18",
    "featured": false
   },
@@ -144,9 +134,19 @@
    "sub": "What's Worth Booking",
    "category": "Events",
    "kicker": "The Diary · The Dated Agenda",
-   "headline": "The Padang's Biggest Bill Yet, and a Fukuoka Basho Worth the Flights",
-   "dek": "The Grand Prix stacks the Padang with headliners — a debut Singapore set from Lana Del Rey included — while a two-night stadium run and Japan's autumn sumo carry the marquees.",
-   "anchor": "p19",
+   "headline": "What's Worth Booking — and What's Worth the Flight",
+   "dek": "A race with a stadium of concerts bolted to it, a second BIGBANG night added on demand, and a sumo tournament in Fukuoka that rewards the traveller who books early.",
+   "anchor": "p23",
+   "featured": false
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Long Read · The Undercurrent — South Korea",
+   "headline": "빵지순례: How a \"No-Fun City\" Learned to Rise",
+   "dek": "In the most Seoul-centric country on earth, a four-store bakery that refuses to franchise has become the cheapest anchor tenant a shrinking city can buy. The Koreans call the phenomenon ppangji-sullye — a bread pilgrimage — and every second-tier town now wants one.",
+   "anchor": "p25",
    "featured": false
   }
  ]
