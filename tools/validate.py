@@ -511,6 +511,58 @@ if _barred:
                       + " if one has been reinstated, set its Status to REINSTATED with the confirming source first")
 
 
+# UNDEFINED CLASSES (editor, 31 Aug 2026 — reader-reported on No. 92's back
+# cover). The spec has always said a class with no CSS "renders as plain text
+# and is a build failure", but nothing checked it: .backcover, .bc-mark,
+# .bc-lastword and .bc-foot shipped for months with no rule anywhere, so
+# .page.dark's padding:0 went unopposed and the closing page rendered flush to
+# the left edge with two-thirds of it empty. Every class used must have a rule
+# in meridian.css or in the issue's own <style> block.
+_ALLOW = {"fbrow", "fbk", "build-colophon"}   # Photo-Edition hooks, styled downstream
+_defrx = re.compile(r"\.([A-Za-z][\w-]*)")
+_cssblob = ""
+_cssf = pathlib.Path("meridian.css")
+if _cssf.exists():
+    _cssblob += _cssf.read_text()
+for _blk in re.findall(r"<style[^>]*>(.*?)</style>", html, re.S):
+    _cssblob += "\n" + _blk
+_cssblob = re.sub(r"/\*.*?\*/", "", _cssblob, flags=re.S)
+_defined = set(_defrx.findall(_cssblob))
+_used = set()
+for _a in re.findall(r'class="([^"]+)"', html):
+    _used |= set(_a.split())
+_undef = sorted(_used - _defined - _ALLOW)
+if _undef:
+    errors.append("class(es) used with no CSS rule anywhere: " + ", ".join(_undef)
+                  + " — an undefined class renders as unstyled text; define it in meridian.css"
+                  + " (standing component) or in the issue's <style> block (issue-local furniture)")
+
+
+# UNDERCURRENT REPEATS (editor, 4 Sep 2026 — reader-reported). The closing
+# long read had been rotating by GEOGRAPHY only, which stops the same country
+# running twice in a row and stops nothing else: India astrology ran in No. 68
+# and again in No. 72, Vietnam's idol economy in No. 67 and again in No. 75.
+# Same once-only discipline as the Hobby Ledger — a covered subject's key term
+# may not reappear in a later Undercurrent's kicker, headline or dek.
+try:
+    _uc = json.loads(pathlib.Path("state/undercurrent-ledger.json").read_text())
+    _uckeys = [k for k in _uc.get("keys", []) if len(k.strip()) >= 4]
+except Exception:
+    _uckeys = []
+if _uckeys:
+    _uctext = ""
+    for _sec in pages:
+        if "Meridian &middot; The Undercurrent" in _sec or "Meridian · The Undercurrent" in _sec:
+            for _m in re.finditer(r'<div class="(?:kicker|hed|dek)[^"]*"[^>]*>(.*?)</div>', _sec, re.S):
+                _uctext += " " + re.sub(r"<[^>]+>", " ", _m.group(1))
+    _uctext = _uctext.lower()
+    _rep = [k for k in _uckeys if k.lower() in _uctext]
+    if _rep:
+        errors.append("UNDERCURRENT REPEAT: " + ", ".join(_rep)
+                      + " already ran (see ledgers/undercurrent-ledger.md) — a covered subject is never covered again;"
+                      + " rotating the country is not enough, the SUBJECT must be new")
+
+
 if errors:
     print(f"\nvalidate: {len(errors)} error(s), {len(warns)} warning(s) — FAILED")
     sys.exit(1)

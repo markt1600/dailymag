@@ -22,7 +22,8 @@ md = pathlib.Path("meridian-brand-prompt.md").read_text()
 for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
             "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
             "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md",
-            "ledgers/atelier-ledger.md", "ledgers/events-ledger.md"):
+            "ledgers/atelier-ledger.md", "ledgers/events-ledger.md",
+            "ledgers/undercurrent-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -172,10 +173,23 @@ _barred = [d for d in dead if d["status"].split()[0] in ("CANCELLED", "POSTPONED
 (state / "events-ledger.json").write_text(json.dumps(
     {"dead": dead, "barred": [d["event"] for d in _barred]}, indent=2, ensure_ascii=False))
 
+# ---- undercurrent ledger (editor, 4 Sep 2026): subjects, not just geography.
+# Rotating the country stopped the same flag twice running and nothing else —
+# India astrology ran in 68 and again in 72, Vietnam idols in 67 and again 75.
+uc = []
+for c in rows_under("Undercurrents Covered"):
+    if len(c) < 3 or c[0].lower().startswith("issue"):
+        continue
+    uc.append({"issue": c[0], "country": c[1], "subject": c[2],
+               "key": (c[3] if len(c) > 3 else "").strip()})
+(state / "undercurrent-ledger.json").write_text(json.dumps(
+    {"covered": uc, "keys": [u["key"] for u in uc if u["key"]]},
+    indent=2, ensure_ascii=False))
+
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
       f"{len(hob_cov)} hobbies covered / {len(hob_pipe)} on deck, "
-      f"{len(_barred)} barred event(s)")
+      f"{len(_barred)} barred event(s), {len(uc)} undercurrents")
 
 # ---- note-discipline nudges (editor, 4 Aug 2026; soft warnings, never fail) ----
 # The newest note should be working memory (<=3,000 chars target) and must end

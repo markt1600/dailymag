@@ -137,3 +137,19 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
   text-transform:uppercase;color:var(--gold-d,#8a6d1f);margin-bottom:2mm;}
 .nextpick{font-size:8.6pt;line-height:1.35;padding:1.2mm 0;border-top:1px dotted var(--line);}
 .nexthole .lbl + .nextpick{border-top:none;}
+
+/* ---- Back cover (p24): the closing dark page -----------------------------
+   .backcover/.bc-mark/.bc-lastword/.bc-foot shipped in the markup for months
+   with NO CSS anywhere — not here, not in any issue-local <style> — so
+   .page.dark's padding:0 went unopposed and the page rendered flush to the
+   left edge with two-thirds of it empty (reader-reported, No. 92). The stack
+   is centred like a colophon; validate.py now fails any class with no rule. */
+.backcover{box-sizing:border-box;height:100%;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;padding:30mm 22mm 22mm;}
+.bc-mark{font-family:'Poppins',sans-serif;font-weight:700;font-size:20pt;
+  letter-spacing:.28em;color:var(--paper);}
+.bc-lastword{max-width:126mm;}
+.bc-lastword .kicker{justify-content:center;}
+.bc-foot{margin-top:14mm;max-width:150mm;}
+.bc-foot>div:first-child{font-family:'Poppins',sans-serif;font-size:9pt;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--blush);}
