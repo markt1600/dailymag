@@ -4,6 +4,10 @@
 
 |Subject|Type|Last covered|Last peg covered|Status / next peg|
 |-|-|-|-|-|
+|Sennheiser Momentum True Wireless 5|Product (audio)|No. 94|The Kit LEAD — reviews landed, ships 3 Sep, US$299.95, user-replaceable batteries; next peg = long-term reliability / a price cut|
+|Focal Diva Alta Utopia|Product (audio)|No. 94|The Good Life LEAD — flagship active wireless tower US$210,000/pair (halo); next peg = a review or a lower Diva tier|
+|KEF LS LUXE|Product (audio)|No. 94|The Good Life 2nd — US$4,000/pair Ross Lovegrove active wireless (the buy); next peg = reviews / a colour or delivery update|
+|Nvidia–MediaTek investment (NVLink Fusion)|Deal (chips/AI)|No. 94|Tech LEAD — US$3.5bn convertible bonds (~90%), ~$3.9bn SGX-listed 8 Sep; next peg = the SGX listing outcome or a design-win|
 |RayNeo iO (smart glasses)|Product (wearable)|No. 92|The Kit LEAD — reviews landed and on sale 4 Sep at US$479; verdict = comfort/battery/captions the wins, monochrome display + thin third-party apps + beta features + translation latency the cons; GT/GT Max cinema line alongside; representative hero + no_image attestation|Next peg = owner/forum reception or an SG price. Reviews-landed peg is spent — do not re-cover.|
 |Ricoh GR IVx (compact camera)|Product (camera)|No. 91|The Kit 2nd — development announcement 27 Aug of an 'x' GR IV variant with a new 40mm-equiv f/2.8 on the 26MP APS-C sensor; no confirmed price (~US$1,599), launch 'Winter 2026 or later'; a notice, not a review|Next peg = final specs/price or a review. Do not re-list the dev announcement.|
 |Omega Speedmaster 38 (2026 redesign)|Product (watch)|No. 91|The Good Life LEAD — 7 refs, round subdials replace the ovals, Co-Axial Cal 3330, 38mm/100m, from US$6,500 (~$200 over outgoing), Milano Cortina 2026 edition alongside; reviews landed (Fratello/W&W/Oracle/Gear Patrol); sceptic sits ~$1k under a Hesalite Moonwatch; representative Speedmaster hero + no_image attestation|Next peg = a new variant or an SG-specific angle. Do not re-cover the 2026 launch.|

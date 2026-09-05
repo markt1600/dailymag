@@ -51,6 +51,7 @@ row still stands as editorial history.
 | 92 | Indonesia | (fresh region — subject not recorded in the note) | |
 | 93 | South Korea | Bakery-pilgrimage economy (Daejeon / Sungsimdang) | Sungsimdang |
 | 93.5 | South Korea | 고교학점제, the high school credit system (SPECIAL; back-to-back with 93 — geography repeat, flagged in print at p24; subject unrelated, so the once-only rule holds) | 고교학점제 |
+| 94 | China | 县城贵妇 — the "county-town socialite" and the migration of consumption to lower-tier cities (fresh region off Korea 93/93.5, Indonesia 92, Vietnam 91; distinct subject from China's guzi 73 / Xiaohongshu 79) | 县城贵妇 |
 
 ## Themes Already Worked
 

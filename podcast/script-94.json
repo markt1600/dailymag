@@ -1,0 +1,508 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 94,
+ "date": "Sunday 6 September 2026 · The Weekend Edition",
+ "title": "Made to Measure",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the sixth of September. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go. [warmly] It's the weekend book, Claire, so we've earned a slower coffee."
+  },
+  {
+   "s": "A",
+   "t": "We have. Three to tease. A war that hardened into a rule instead of cooling down."
+  },
+  {
+   "s": "B",
+   "t": "A rabbit hole full of people who print the exact part they need — and then print more upgrades for the printer than useful things. [chuckles]"
+  },
+  {
+   "s": "A",
+   "t": "And a woman in a small Chinese county town who is quietly out-spending the burnt-out Shanghai graduate. Start with the hard news."
+  },
+  {
+   "s": "B",
+   "t": "The Gulf. So it didn't calm down over the weekend?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] The opposite. It stopped being a series of exchanges and became a doctrine. American Central Command struck an Iranian crude tanker in the Gulf of Oman on Friday and Saturday."
+  },
+  {
+   "s": "B",
+   "t": "And the doctrine is a number?"
+  },
+  {
+   "s": "A",
+   "t": "Three to two. For every two American ships fired on, three Iranian tankers taken out. Admiral Brad Cooper said it almost that plainly."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Almost. You're flagging it."
+  },
+  {
+   "s": "A",
+   "t": "One outlet's live blog carried the exact quote, so we mark it single-sourced. The three-for-two pattern itself is corroborated. But here's the tell, Theo — the oil price didn't move."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Wait — they're hitting tankers and Brent didn't spike?"
+  },
+  {
+   "s": "A",
+   "t": "It settled near ninety-six dollars a barrel Friday, roughly flat on the week. A war premium that's priced and sticky, not building. Energy isn't the marginal driver any more. The Fed is."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So there's no off-ramp?"
+  },
+  {
+   "s": "A",
+   "t": "There's one lying on the table. President Pezeshkian offered at the Shanghai summit in Bishkek to rejoin June's memorandum if Washington does. No formal answer yet."
+  },
+  {
+   "s": "B",
+   "t": "And we ran two viewpoints on that."
+  },
+  {
+   "s": "A",
+   "t": "We did. From Bishkek, the multipolar framing — the summit condemned the war on Iran, backed its nuclear rights, Iran as the wronged party with a bloc at its back. From Washington, deterrence — lawful pressure on a shadow fleet, not war."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] The declaration has no teeth. Nobody in that room committed a soldier or a sanction to Iran's defence. A re-offer is a re-open, not a deal."
+  },
+  {
+   "s": "B",
+   "t": "There was a second thread, though — something quieter that actually worked."
+  },
+  {
+   "s": "A",
+   "t": "Ukraine. Two American envoys, Witkoff and Kushner, in Moscow Saturday, then Kyiv. Putin ordered a three-day halt on strikes against the capital. Ukraine matched it through Monday."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the same administration ran bombs in one theatre and envoys in another —"
+  },
+  {
+   "s": "A",
+   "t": "— and only the quieter instrument bought even a pause. Seventy-two hours. The Monday test is whether it survives the envoys' plane leaving."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Okay. Bring it home. Singapore woke up to a colour it hoped it had forgotten."
+  },
+  {
+   "s": "A",
+   "t": "The haze. Central Singapore's air-quality index hit a hundred and seven on Friday afternoon. The west touched a hundred and two Saturday. First time above a hundred since October twenty twenty-three."
+  },
+  {
+   "s": "B",
+   "t": "Same story every September, isn't it. The fires."
+  },
+  {
+   "s": "A",
+   "t": "Sumatra and Kalimantan — roughly three hundred thousand hectares burned this year, and a regional think-tank issued a rare red alert. But the story a weekend reader feels isn't the parts-per-million."
+  },
+  {
+   "s": "B",
+   "t": "It's the muscle memory. [thoughtful] The purifiers come down off the wardrobe, the box of masks comes out of the drawer, the kids' football gets cancelled."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. How fast a solved nuisance re-enters a life. And the small mercy landing the same week — the cost-of-living cheque."
+  },
+  {
+   "s": "B",
+   "t": "[curious] The government payment?"
+  },
+  {
+   "s": "A",
+   "t": "More than two point four million adult citizens get between four hundred and six hundred dollars this month. If you linked your identity card to PayNow by the thirtieth of August, you're paid by the ninth."
+  },
+  {
+   "s": "B",
+   "t": "A top-up landing the same week you're buying replacement filters. [wry] That's a very Singapore September."
+  },
+  {
+   "s": "A",
+   "t": "Now the money desk, because Friday's jobs number moved everything. American payrolls rose a hundred and sixty-two thousand in August. Three times what was expected."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Three times? So a hot number. What did it do?"
+  },
+  {
+   "s": "A",
+   "t": "It flipped the September meeting from a question about cutting to a question about hiking. Hike odds moved toward sixty per cent. And then the interesting part — what didn't happen."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Go on."
+  },
+  {
+   "s": "A",
+   "t": "A hot print, a firmer dollar, higher real yields — that's textbook poison for gold. Yet gold dipped only intraday and closed near its highs, around four thousand four hundred and seventy dollars an ounce."
+  },
+  {
+   "s": "B",
+   "t": "Why won't it fall?"
+  },
+  {
+   "s": "A",
+   "t": "The floor under it. Central banks buying on the order of a thousand tonnes a year, four years running. And bitcoin, which ought to hate higher rates, held eighty thousand dollars across the weekend."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So both alternatives shrugged."
+  },
+  {
+   "s": "A",
+   "t": "And equities and bonds both took the rate move as a headwind — so the bond leg cushioned nothing. This weekend the diversification work was done by the metal and the coin, with bitcoin's far greater volatility worth naming."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Same force, four different sensitivities."
+  },
+  {
+   "s": "A",
+   "t": "That's the whole desk in one line. And to be clear — that's market explanation, not advice. The sceptic's caveat: one hot month with cooler wages underneath isn't a hike, and this year's payrolls get revised down hard. Watch the next inflation print."
+  },
+  {
+   "s": "B",
+   "t": "Right. Technology — Nvidia's cheque-book again."
+  },
+  {
+   "s": "A",
+   "t": "Three and a half billion dollars into MediaTek, as convertible bonds — Nvidia took nearly ninety per cent of the offering. MediaTek adopts Nvidia's interconnect to build custom accelerators."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the Singapore hook?"
+  },
+  {
+   "s": "A",
+   "t": "A three-point-nine-billion-dollar tranche lists on the Singapore Exchange on Tuesday. The abstraction of A-I capital flows, priced onto a screen the reader can actually see."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And the circular-financing crowd is back."
+  },
+  {
+   "s": "A",
+   "t": "Bernstein warned it deepens the worry. Jensen Huang told Bloomberg, quote, this is not circular. A fund manager split it — less circular than financing a customer, but still Nvidia using its balance sheet to manufacture its own demand."
+  },
+  {
+   "s": "B",
+   "t": "For the home lab — has the pick changed?"
+  },
+  {
+   "s": "A",
+   "t": "No, and that's the honest answer. Qwen three-point-eight, twenty-seven billion parameters, still holds — about seventeen-point-nine gigabytes at a four-bit quant. Three weeks running. What moved is the hardware price."
+  },
+  {
+   "s": "B",
+   "t": "Up or down?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Up. The small frontier box, the D-G-X Spark, went to four thousand six hundred and ninety-nine dollars, from three thousand nine hundred and ninety-nine. Memory shortage. The AMD alternative climbed too."
+  },
+  {
+   "s": "B",
+   "t": "So the buy-once move is —"
+  },
+  {
+   "s": "A",
+   "t": "Wait. Hold the twenty-four-gigabyte card, run Qwen, let the memory cycle turn. The frontier will still be there in two quarters, and cheaper."
+  },
+  {
+   "s": "B",
+   "t": "The Kit had my favourite line of the issue."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Go on, then."
+  },
+  {
+   "s": "B",
+   "t": "The best feature on a flagship pair of earbuds in twenty twenty-six is a screwdriver."
+  },
+  {
+   "s": "A",
+   "t": "Sennheiser's Momentum True Wireless Five. Two hundred and ninety-nine dollars and ninety-five cents, shipping the third. The batteries are user-replaceable — in the buds and the case both, with a tool in the box."
+  },
+  {
+   "s": "B",
+   "t": "The antidote to earbud landfill. For a buy-once reader that's the whole pitch — an object designed not to die on a schedule."
+  },
+  {
+   "s": "A",
+   "t": "The sound is a clean generational step at the same price. Just don't mistake a screwdriver for a right-to-repair — Sennheiser has to keep selling the cells for it to mean anything in five years."
+  },
+  {
+   "s": "B",
+   "t": "And The Good Life went audio, not watches."
+  },
+  {
+   "s": "A",
+   "t": "Two speakers, fifty-two times apart. Focal's new flagship, the Diva Alta Utopia — two hundred and ten thousand dollars a pair. A wireless tower priced like a small flat."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Two hundred and ten thousand. And the sane version?"
+  },
+  {
+   "s": "A",
+   "t": "KEF's L-S Luxe. Four thousand dollars, a Ross Lovegrove sculpture with flagship engineering. Nearly all the convenience, much of the sound, at one fifty-second of the price. That's the buy."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the maker desk — cashmere this weekend, and you promised me the label lies."
+  },
+  {
+   "s": "A",
+   "t": "[wry] It does. Nine in ten cashmere garments are mislabelled or blended. The trade body once found a hundred-per-cent-cashmere blazer that tested three-quarters wool and a quarter bleached yak."
+  },
+  {
+   "s": "B",
+   "t": "So how do you actually judge it?"
+  },
+  {
+   "s": "A",
+   "t": "Two numbers. Fineness — about fourteen microns for the top grade — and staple length, thirty-six millimetres or longer. And the counter-intuitive rule: a very fine but short fibre pills more than a slightly thicker, longer one. Grade A means nothing — there's no enforced standard."
+  },
+  {
+   "s": "B",
+   "t": "And the logo tax?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] A Loro Piana jumper runs one thousand three hundred and fifty to two thousand seven hundred and fifty dollars. A Scottish mill on comparable yarn runs a third of that — Styleforum's own verdict is that the premium boils down to marketing. Buy the mill, skip the logo."
+  },
+  {
+   "s": "B",
+   "t": "Culture — Venice keeps us waiting."
+  },
+  {
+   "s": "A",
+   "t": "The Golden Lion is decided next Saturday, the twelfth. After our issue closes. So we print the heat, not the winner — Danny Boyle's Ink and Martin McDonagh's Wild Horse Nine drew the loudest ovations. Naming a victor now would be inventing one."
+  },
+  {
+   "s": "B",
+   "t": "And the music chart is having an argument with itself."
+  },
+  {
+   "s": "A",
+   "t": "Ella Langley's Choosin' Texas takes a twentieth week at number one — the year's longest. And a genuine chart-fatigue argument with it: streaming-era longevity can mean a narrow, devoted top of the chart, not broad taste."
+  },
+  {
+   "s": "B",
+   "t": "The Family desk had a study I actually want to send to a few parents."
+  },
+  {
+   "s": "A",
+   "t": "It's a clean one. South Australia moved secondary-school entry a year, so two age groups crossed into secondary school at the same time. That let researchers separate the move from the age."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And it's the move?"
+  },
+  {
+   "s": "A",
+   "t": "It's the move. The transition, not the birthday, is the predominant driver of the early-teen wellbeing dip. So if your Secondary One twelve-year-old wobbles this term —"
+  },
+  {
+   "s": "B",
+   "t": "— it's the new building and the heavier bag, not a flaw in the kid. [warmly] That's genuinely reassuring."
+  },
+  {
+   "s": "A",
+   "t": "And the levers that help are the ones you can pull: routine, sleep, belonging. On screens, the honest lever is to delay the account, not police the minutes — and don't panic, the average effect is small. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Fitness — quickly, because I know where you land on this."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] A study of three hundred and forty people who've run about a hundred and twenty-one marathons each. Their cardio-fitness stays exceptional into old age."
+  },
+  {
+   "s": "B",
+   "t": "And you're going to tell me not to run a hundred marathons."
+  },
+  {
+   "s": "A",
+   "t": "The best-evidenced gains are at the bottom of the curve — unfit to fit is a five-fold mortality difference. If you're already fit, you've banked most of it. Chase a solid fitness number and adequate strength, then stop optimising the metric."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Noted. Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every weekend with this line."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Three-D printing. And Claire, the gateway isn't the toy tugboat everyone prints first —"
+  },
+  {
+   "s": "A",
+   "t": "It's the first useful thing. A bracket, a drawer divider, a replacement knob you could never buy. That I-just-made-the-thing hit."
+  },
+  {
+   "s": "B",
+   "t": "Right! And it's bigger than it looks — the main subreddit's got three-point-four million members. So where does a buy-once reader start?"
+  },
+  {
+   "s": "A",
+   "t": "Not the cheap bed-slinger. The community's moved on. Start at a Bambu P-One-S, about six hundred and fifty dollars, six hundred and forty-nine Singapore dollars at Courts — enclosed, handles the serious plastics."
+  },
+  {
+   "s": "B",
+   "t": "And there was a price-break machine."
+  },
+  {
+   "s": "A",
+   "t": "Elegoo's Centauri Carbon, two hundred and ninety-nine dollars. A fully-enclosed high-speed printer at a quarter of what that used to cost. Tom's Hardware called it, quote, finally an affordable Core X-Y."
+  },
+  {
+   "s": "B",
+   "t": "And the endgame — people build their own?"
+  },
+  {
+   "s": "A",
+   "t": "A Voron. Published as plans, sold by nobody. You buy a kit, build it over a long weekend, tune the firmware yourself. Cost-competitive with a commercial machine only if you value the build — which is the entire point."
+  },
+  {
+   "s": "B",
+   "t": "There's a culture war in here too, isn't there."
+  },
+  {
+   "s": "A",
+   "t": "The walled garden. In January last year a Bambu firmware update read like it was closing the ecosystem, and the backlash was fierce. Bambu partly walked it back. It's the hobby's defining fault line — the machine that just works versus the one you actually own."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic — because you love this one."
+  },
+  {
+   "s": "A",
+   "t": "[wry] A multicolour job can waste fifteen times the filament that ends up in the print. Someone paired a photo of a tiny fox figurine with a mountain of waste. Resin's toxic and messy. And the in-joke the community admits when pressed —"
+  },
+  {
+   "s": "B",
+   "t": "You print more upgrades for the printer than useful things with it. [laughs] It's so true it hurts."
+  },
+  {
+   "s": "A",
+   "t": "For a family, the little machine and plain filament is the gateway — quiet, non-toxic. Keep resin well away from a twelve-year-old."
+  },
+  {
+   "s": "B",
+   "t": "The travel desk sent us somewhere I'd actually book. Hoi An."
+  },
+  {
+   "s": "A",
+   "t": "With a warning. September — right now — is the wrong month. Central Vietnam's wet season runs into December, October the worst, and Hoi An's old town floods, in bad years a metre or two."
+  },
+  {
+   "s": "B",
+   "t": "So when?"
+  },
+  {
+   "s": "A",
+   "t": "February to May. And it's easy now — Scoot flies direct to Da Nang daily, about two hours fifty. The weak dong makes the resort tier the value."
+  },
+  {
+   "s": "B",
+   "t": "And the forums had opinions."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] The Golden Bridge — the one held up by giant stone hands — is a manufactured theme-park spectacle, thousands on a normal day, up to twenty-five thousand on a holiday. And the twenty-four-hour tailored suit is a lottery. Find the maker who cuts it in front of you, allow four days."
+  },
+  {
+   "s": "B",
+   "t": "The Diary — one to book the second it opens."
+  },
+  {
+   "s": "A",
+   "t": "The Kyushu Basho sumo tournament, Fukuoka, the eighth to the twenty-second of November. Tickets go on sale the nineteenth of September, and the final three days sell out within hours. Chair seats from about three thousand five hundred yen."
+  },
+  {
+   "s": "B",
+   "t": "And the Table?"
+  },
+  {
+   "s": "A",
+   "t": "Three new Japanese counters, all premium, all — honestly — too new to call. A ninety-year-old eel house at Raffles City, a ten-seat yakitori omakase, a seasonal kappo room. Real pedigrees, no reviews yet. We'll grade them when the reviews exist, not before."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Which brings us to the long read. And this one changed how I think about a story I thought I knew."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] The county-town socialite. In Chinese, xiàn chéng guì fù. The Western picture of the Chinese consumer is a demoralised Shanghai renter. This desk says that picture is looking at the wrong city."
+  },
+  {
+   "s": "B",
+   "t": "So who is she?"
+  },
+  {
+   "s": "A",
+   "t": "A woman in a fifth-tier county town. Married into a local business or the local establishment. Owns her flat outright, no mortgage, no megacity competition. And the one thing the burnt-out graduate can't buy at any salary — time."
+  },
+  {
+   "s": "B",
+   "t": "And the money's actually there?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Income in third- and fourth-tier cities grew five-point-eight per cent in the first half of twenty twenty-four — a full point above the big cities. McKinsey thinks two-thirds of the growth in Chinese consumption to twenty thirty comes from these lower-tier markets. Starbucks is opening there. Pop Mart is taking the space electric-car showrooms used to hold."
+  },
+  {
+   "s": "B",
+   "t": "So the story isn't that China's consumer vanished —"
+  },
+  {
+   "s": "A",
+   "t": "It moved address. The slowdown that crushes the Shanghai renter is invisible from her afternoon-tea table. And there's a caution — the sharpest single figure, a thirty-three per cent jump in fifth-tier resale luxury, is one platform's number, so we hold it lightly. But the direction is corroborated."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the deeper turn?"
+  },
+  {
+   "s": "A",
+   "t": "The two figures aren't always different people. The graduate priced out of Shanghai sometimes is the one who moves back to the county town. The centre stopped being the only place a good Chinese life could be lived. When the F-T writes this up in three weeks, it'll discover a woman the specialists already knew."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And now this reader knew first. [chuckles] That's the whole point of this desk — you hear it here three weeks before the wire does."
+  },
+  {
+   "s": "A",
+   "t": "It is. That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

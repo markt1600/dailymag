@@ -32,3 +32,4 @@ when an event was last confirmed rather than re-litigating it.
 | Date | Events re-checked | Outcome |
 |---|---|---|
 | 31 Aug 2026 | Post Malone (SG) | Pulled to Dead Events on the reader's report. |
+| 6 Sep 2026 | The Weeknd (2–3 Oct); F1 SG GP + Padang (9–11 Oct); BIGBANG (17–18 Oct); Guns N' Roses (25 Nov); MCR (10–11 Nov); Babymonster (28–29 Nov); Deepavali light-up (19 Sep–22 Nov); Kyushu Basho (8–22 Nov, on-sale 19 Sep); Orsay @ Tokyo Met (14 Nov–28 Mar) | All still on against live ticketer/venue/official listings (Ticketmaster SG, thekallang.com.sg, RacingNews365, VisitSingapore, tobikan.jp, Ticket Oosumo). Post Malone NOT listed (remains CANCELLED). |
