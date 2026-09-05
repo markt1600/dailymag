@@ -471,10 +471,10 @@ inline = '<style>' in html and ':root{' in html
 if not (links == 1 or inline):
     warns.append("neither a single meridian.css <link> (print) nor an inlined stylesheet (photo) found")
 
-for w in warns:
-    print("WARN:", w)
-for e in errors:
-    print("ERROR:", e)
+# NOTE (editor, 5 Sep 2026): the WARN/ERROR print loop used to sit HERE, above
+# the dead-events, undefined-class and Undercurrent-repeat gates — so anything
+# those three appended was counted in the summary and never shown. Printing now
+# happens once, immediately before the summary, after every gate has run.
 # DEAD EVENTS (editor, 31 Aug 2026 — reader-reported). The Diary is
 # re-researched from scratch every build, so a cancelled show reappears
 # forever unless something machine-readable stops it: a Post Malone Singapore
@@ -562,6 +562,11 @@ if _uckeys:
                       + " already ran (see ledgers/undercurrent-ledger.md) — a covered subject is never covered again;"
                       + " rotating the country is not enough, the SUBJECT must be new")
 
+
+for w in warns:
+    print("WARN:", w)
+for e in errors:
+    print("ERROR:", e)
 
 if errors:
     print(f"\nvalidate: {len(errors)} error(s), {len(warns)} warning(s) — FAILED")

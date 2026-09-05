@@ -50,6 +50,7 @@ row still stands as editorial history.
 | 91 | Vietnam | (fresh region — subject not recorded in the note) | |
 | 92 | Indonesia | (fresh region — subject not recorded in the note) | |
 | 93 | South Korea | Bakery-pilgrimage economy (Daejeon / Sungsimdang) | Sungsimdang |
+| 93.5 | South Korea | 고교학점제, the high school credit system (SPECIAL; back-to-back with 93 — geography repeat, flagged in print at p24; subject unrelated, so the once-only rule holds) | 고교학점제 |
 
 ## Themes Already Worked
 
@@ -63,3 +64,4 @@ wearing a different flag, it needs a genuinely new argument, not a new country.
 | Emotional companionship as a product | Japan nuikatsu (71); China guzi (73) |
 | Cheap-living and frugality as identity | Korea Geojimap (85) |
 | Platform as state infrastructure | Philippines DSWD × TikTok (81); China Xiaohongshu (79) |
+| Choice architecture and its second-order markets | Korea's high school credit system (93.5) |
