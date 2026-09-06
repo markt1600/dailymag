@@ -156,6 +156,11 @@
       "angle": "The machine that makes the exact part you need — FDM vs resin (MSLA), the first-useful-print gateway; r/3Dprinting (3.4M)/r/functionalprint (620k)/r/BambuLab (441k) + Thomas Sanladerer/CNC Kitchen (Stefan Hermann)/Maker's Muse; Printables/MakerWorld/Thingiverse. Buy the quality entry (Bambu P1S ~$65"
     },
     {
+      "hobby": "Gravel cycling",
+      "issue": "95",
+      "angle": "The escape that became an arms race — drop-bar \"gnarmac\"/one-bike-for-everything; Unbound ~5,000-rider lottery, Traka/Gralloch, UCI Worlds since 2019; tiers Crux DSW $2,799→Factor Ostro $10.9k, SRAM Red XPLR AXS (hanger-less Full Mount/UDH-mandatory)/Shimano GRX Di2/Campagnolo Ekar, the 50mm tyre me"
+    },
+    {
       "hobby": "LEGO for adults (AFOL)",
       "issue": "93",
       "angle": "The dark ages, the return and the grail wall — the 18+ black-box line; LEGO FY24 DKK74.3bn/FY25 ~$13bn/860 sets, adults ~20-25%; UCS Death Star 75419 $999.99 \"hollow at heart\" (44%/45% split), Falcon 75192 the un-regretted grail; community r/lego 2.8m/Eurobricks/Brickset/BrickLink/Rebrickable/BrickN"
@@ -176,12 +181,6 @@
       "fit": "Distinct from Good Life's new-release beat: the hunt, servicing, franken-watch perils"
     },
     {
-      "hobby": "3D printing",
-      "category": "Making / tech",
-      "communities": "r/3Dprinting, Printables/Thingiverse culture, Voron/DIY corner, Bambu-vs-open-source wars",
-      "fit": "The Bambu era changed the meta; functional-print culture"
-    },
-    {
       "hobby": "Retro gaming & emulation handhelds",
       "category": "Tech / collecting",
       "communities": "r/SBCGaming, r/emulation, Retro Game Corps, Anbernic/Miyoo release cycle",
@@ -200,16 +199,28 @@
       "fit": "The designer-game renaissance, the insert/organiser economy, and the heavy-Euro collector culture"
     },
     {
-      "hobby": "Speedcubing",
-      "category": "Sport / mental",
-      "communities": "r/Cubers, SpeedSolving forum, WCA competition culture, cubing YouTube (J Perm)",
-      "fit": "Algorithm culture + hardware arms race (magnetic cubes); kid-shareable"
+      "hobby": "Home espresso",
+      "category": "Kitchen / precision gear",
+      "communities": "r/espresso, Home-Barista forum, Lance Hedrick/James Hoffmann YouTube",
+      "fit": "Buy-once machine ladder (Breville→Lelit/Profitec→La Marzocco Linea Micra); grind/pressure/milk science"
     },
     {
-      "hobby": "Board games (modern hobby / designer)",
-      "category": "Tabletop",
-      "communities": "r/boardgames, BoardGameGeek, Shut Up & Sit Down, Watch It Played",
-      "fit": "The designer-game renaissance beyond Gloomhaven; the collection/insert economy"
+      "hobby": "Mechanical keyboards",
+      "category": "Maker / tech",
+      "communities": "r/MechanicalKeyboards, geekhack, keebtalk, group-buy culture",
+      "fit": "Custom builds, switch-lubing, keycap group buys; endlessly tactile"
+    },
+    {
+      "hobby": "Tabletop miniature painting",
+      "category": "Art / craft / tabletop",
+      "communities": "r/minipainting, Warhammer communities, Golden Demon, airbrush scene",
+      "fit": "Paints/brushes/airbrush ladder, commission painters, Contrast/speedpaint meta"
+    },
+    {
+      "hobby": "Freshwater aquascaping",
+      "category": "Nature / craft",
+      "communities": "r/PlantedTank, r/Aquascape, UKAPS, ADA/Green Aqua culture",
+      "fit": "The planted-tank craft distinct from reef; CO2, hardscape, the Amano tradition"
     }
   ]
 }

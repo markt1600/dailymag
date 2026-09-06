@@ -4,6 +4,11 @@
 
 |Subject|Type|Last covered|Last peg covered|Status / next peg|
 |-|-|-|-|-|
+|XREAL Aura (AR smart glasses)|Product (wearable)|No. 95|The Kit LEAD — Android XR see-through glasses at IFA 2026: Sony micro-OLED, 70° FOV, tethered compute puck, Bose audio; priced "no more than US$1,500" but shown WITHOUT a final number; fall-2026 window. Representative hero + no_image attestation.|Next peg =a confirmed price/ship date or independent reviews.|
+|Zenith Chronomaster Solo Sport|Product (watch)|No. 95|The Good Life LEAD — time-only 5Hz El Primero (no chronograph), 40mm/200m, US$9,800 (no-date)/US$10,900 (date), Geneva Watch Days 2026. Representative El Primero hero + no_image attestation.|Next peg =reviews or secondary-market hold.|
+|GPT-6 Astra (OpenAI)|Product (AI model)|No. 95|Technology LEAD — first model OpenAI says crossed its critical-cyber threshold; preview 3 Sep, paid 4 Sep; >100k-GPU Stargate run; part of a Gemini 3.8 / Claude Fable+Mythos 5.1 cluster.|Next peg =independent evals or confirmed API pricing.|
+|Nvidia–Hugging Face acquisition|Deal (AI)|No. 95|Technology — definitive agreement 2 Sep, US$12.9bn ($11.9bn shareholders + $1bn retention), close targeted H1 2027. Flips the prior "reported/unsigned".|Next peg =a regulatory review or the close.|
+|Spider-Man: Brand New Day|Film|No. 95|Screen & Sound LEAD — fastest film ever to US$900m domestic (36 days), past US$2bn worldwide (2nd-fastest after Endgame), US$360m opening; RT 90% critics/98% audience.|Next peg =final gross or awards-season traction.|
 |Sennheiser Momentum True Wireless 5|Product (audio)|No. 94|The Kit LEAD — reviews landed, ships 3 Sep, US$299.95, user-replaceable batteries; next peg = long-term reliability / a price cut|
 |Focal Diva Alta Utopia|Product (audio)|No. 94|The Good Life LEAD — flagship active wireless tower US$210,000/pair (halo); next peg = a review or a lower Diva tier|
 |KEF LS LUXE|Product (audio)|No. 94|The Good Life 2nd — US$4,000/pair Ross Lovegrove active wireless (the buy); next peg = reviews / a colour or delivery update|
