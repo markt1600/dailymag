@@ -54,6 +54,8 @@ row still stands as editorial history.
 | 94 | China | 县城贵妇 — the "county-town socialite" and the migration of consumption to lower-tier cities (fresh region off Korea 93/93.5, Indonesia 92, Vietnam 91; distinct subject from China's guzi 73 / Xiaohongshu 79) | 县城贵妇 |
 | 95 | Philippines | "budol" — a street-swindle word reclaimed as a Gen-Z confession of overspending on TikTok Shop live-selling ("na-budol ako"/"mine wars"); consumer-culture/linguistic, distinct from the platform-as-state DSWD×TikTok (81) and "backing out of the feed" (76). Under-radar verified (no NYT/BBC/Reuters/FT feature). Off China(94)/Korea(93). | budol |
 
+| 96 | Indonesia | "joki" — the proxy economy: renting a competent stranger to perform an obligation (joki skripsi/game/Prakerja/Strava/vaksin); the argument is that proof has decoupled from achievement and a market fills the gap ("fix the box, not the jockey"). Under-radar verified (no NYT/BBC/Reuters/FT feature). Fresh region off China(94)/Philippines(95); distinct from Indonesia 92's recorded subject. | joki |
+
 ## Themes Already Worked
 
 Not gated — a prompt to the editor's judgement. If a new pitch is one of these
@@ -67,3 +69,4 @@ wearing a different flag, it needs a genuinely new argument, not a new country.
 | Cheap-living and frugality as identity | Korea Geojimap (85) |
 | Platform as state infrastructure | Philippines DSWD × TikTok (81); China Xiaohongshu (79) |
 | Choice architecture and its second-order markets | Korea's high school credit system (93.5) |
+| Proof/credentials decoupled from the achievement (proxy economy) | Indonesia joki (96) |
