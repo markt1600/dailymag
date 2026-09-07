@@ -44,12 +44,10 @@
 |Japanese selvedge denim|Clothing|Looms, mills and fade culture — maker-worship done right|Momotaro/Japan Blue, Full Count, Warehouse, Iron Heart, Studio D'Artisan; r/rawdenim, Heddels|
 |Wool overcoats &amp; topcoats|Clothing|Cloth weight and construction (fused vs canvassed), melton/Casentino/loro-cloth; the buy-once winter layer for the travelling reader|Fox Brothers/Abraham Moon cloth, Private White V.C., Crombie honestly assessed, Sartoria tiers; StyleForum, Permanent Style|
 |Chef&#39;s knives sharpening &amp; stones|Kitchen / tools|Distinct from the knives dive — the whetstone world, grit progressions and the buy-once sharpening kit|Naniwa/Shapton/King stones, r/sharpening, Burrfection; JKI/Sharpening Supplies|
-
-|Wool overcoats &amp; topcoats|Clothing|Cloth weight and construction (canvassed vs fused), melton/Casentino; the buy-once winter layer for the travelling reader|Fox Brothers/Abraham Moon cloth, Private White V.C., Crombie honestly assessed; StyleForum, Permanent Style|
 |Weekender &amp; travel bags|Carry|Full-grain leather vs waxed canvas vs ballistic nylon; the buy-once cabin bag decoded|Filson, Frank Clegg, Saddleback, Chester Mox; r/BuyItForLife, r/ManyBaggers|
 
 ### Retired (editor's decision — never run, never re-suggest)
 
 |Category|Retired|Note|
 |-|-|-|
-|Chef&#39;s aprons &amp; kitchen textiles|Home / kitchen|The waxed-canvas and linen apron makers; daily-use durable goods|Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife|
+|Chef&#39;s aprons &amp; kitchen textiles|6 Sep 2026|Reader eliminated it. Was pipelined as Home / kitchen — the waxed-canvas and linen apron makers (Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife). Row was originally typed in the pipeline's four-column shape under this three-column header; re-cast 6 Sep 2026 when the Retired tables were first machine-read. Do not resurface.|

@@ -14,6 +14,7 @@ Usage:  python3 tools/validate.py build/meridianNN.html
 Exit non-zero on any error so the build can stop. Warnings don't stop the build.
 """
 import sys, re, json, pathlib
+import html as _html   # NB: the module must be aliased — `html` is the document text below
 
 html = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html").read_text()
 
@@ -562,6 +563,60 @@ if _uckeys:
                       + " already ran (see ledgers/undercurrent-ledger.md) — a covered subject is never covered again;"
                       + " rotating the country is not enough, the SUBJECT must be new")
 
+
+# RETIRED SUGGESTIONS (editor, 6 Sep 2026 — reader-requested). The reader can
+# now dismiss a Next Descents / Next-on-the-Bench chip outright ("stop
+# suggesting this"), which posts a RETIRE SUGGESTION note and moves the row
+# into the Retired table of the matching ledger. Both ledgers already carried
+# a Retired section headed "never run, never re-suggest" — but nothing read
+# it: extract_state.py skipped the subsection entirely, so the instruction
+# lived only as prose a build agent might or might not honour. This gate is
+# the enforcement. A retired subject may not reappear as a vote chip, and may
+# not run as the Rabbit Hole or Atelier subject.
+def _norm(s):
+    s = _html.unescape(s or "")
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = s.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
+    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+
+_retired = []          # (display name, normalised name, which ledger)
+for _f, _k, _lbl in (("state/hobby-ledger.json", "hobby", "Hobby Ledger"),
+                     ("state/atelier-ledger.json", "category", "Atelier Ledger")):
+    try:
+        _rows = json.loads(pathlib.Path(_f).read_text()).get("retired", [])
+    except Exception:
+        _rows = []
+    for _r in _rows:
+        _name = _html.unescape(_r.get(_k, "") or "")
+        if len(_norm(_name)) >= 4:
+            _retired.append((_name, _norm(_name), _lbl))
+
+if _retired:
+    # (a) the vote chips themselves — data-hobby carries the proposed subject
+    _chips = re.findall(r'class="nextpick"[^>]*data-hobby="([^"]*)"', html)
+    _chips += re.findall(r'data-hobby="([^"]*)"[^>]*class="nextpick"', html)
+    for _c in _chips:
+        _cn = _norm(_c)
+        for _name, _rn, _lbl in _retired:
+            if _cn and _cn == _rn:
+                errors.append(f"RETIRED SUGGESTION re-proposed as a vote chip: \u201c{_name}\u201d "
+                              f"(see the Retired table in the {_lbl}) — the reader dismissed it; "
+                              f"never run, never re-suggest")
+    # (b) the desks themselves — a retired subject must not BE the deep dive
+    for _sec in pages:
+        # the running header carries the desk name; the separator is a literal
+        # middot in the print build and an entity in some hand-authored pages,
+        # so match either rather than pinning one spelling.
+        _m = re.search(r'<div class="rh">.*?Meridian\s*(?:\u00b7|&middot;)\s*([^<]+)</span>', _sec, re.S)
+        if not _m or _m.group(1).strip() not in ("The Rabbit Hole", "The Atelier"):
+            continue
+        _head = " ".join(re.findall(r'<div class="(?:kicker|hed)[^"]*"[^>]*>(.*?)</div>', _sec, re.S))
+        _hn = _norm(_head)
+        for _name, _rn, _lbl in _retired:
+            if _rn and _rn in _hn:
+                errors.append(f"RETIRED SUBJECT is running as a desk: \u201c{_name}\u201d "
+                              f"(see the Retired table in the {_lbl}) — the reader dismissed it; "
+                              f"never run, never re-suggest")
 
 for w in warns:
     print("WARN:", w)

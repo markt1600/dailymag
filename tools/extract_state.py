@@ -96,7 +96,7 @@ for cells in rows_under("DESTINATION LEDGER"):
 # ---- Hobby Ledger (The Rabbit Hole). Parsed by SUBSECTION because Covered
 # (|Hobby|Issue|Angle|) and Queued (|Hobby|Run order|Focus|) share a 3-cell
 # shape: '### Covered', '### Queued …', '### On-deck pipeline'. ----
-hob_cov, hob_queue, hob_pipe = [], [], []
+hob_cov, hob_queue, hob_pipe, hob_retired = [], [], [], []
 for _hm in re.finditer(r"(?m)^## HOBBY LEDGER\s*$", md):
     _hend = md.find("\n## ", _hm.end())
     _hblock = md[_hm.start(): _hend if _hend != -1 else len(md)]
@@ -121,12 +121,24 @@ for _hm in re.finditer(r"(?m)^## HOBBY LEDGER\s*$", md):
             hob_pipe += [{"hobby": c[0].strip("*"), "category": c[1],
                           "communities": c[2][:300], "fit": c[3][:300]}
                          for c in _rows if len(c) >= 4]
+        elif _title.startswith("retired"):
+            # editor, 6 Sep 2026 (reader-reported): Retired existed in the
+            # markdown but was never extracted, so nothing downstream could
+            # see it and the gate below had nothing to gate on. Parsing is
+            # deliberately lenient — key on column 1 and sweep the rest into
+            # the note — because a row typed in the wrong column shape must
+            # still BAR the topic. Failing safe here means failing closed.
+            hob_retired += [{"hobby": c[0].strip("*"),
+                             "retired": c[1] if len(c) >= 3 else "",
+                             "note": " · ".join(c[2:])[:300] if len(c) >= 3 else " · ".join(c[1:])[:300]}
+                            for c in _rows if len(c) >= 2 and c[0].strip("*")]
 (state / "hobby-ledger.json").write_text(json.dumps(
-    {"covered": hob_cov, "queued": hob_queue, "pipeline": hob_pipe}, indent=2, ensure_ascii=False))
+    {"covered": hob_cov, "queued": hob_queue, "pipeline": hob_pipe,
+     "retired": hob_retired}, indent=2, ensure_ascii=False))
 
 # ---- Atelier Ledger (The Atelier — one purchase category per edition).
 # Same subsection shape as the hobby ledger. ----
-at_cov, at_queue, at_pipe = [], [], []
+at_cov, at_queue, at_pipe, at_retired = [], [], [], []
 for _am in re.finditer(r"(?m)^## ATELIER LEDGER\s*$", md):
     _aend = md.find("\n## ", _am.end())
     _ablock = md[_am.start(): _aend if _aend != -1 else len(md)]
@@ -155,8 +167,18 @@ for _am in re.finditer(r"(?m)^## ATELIER LEDGER\s*$", md):
             at_pipe += [{"category": c[0].strip("*"), "rotation": c[1],
                          "fit": c[2][:300], "sources": c[3][:300]}
                         for c in _rows if len(c) >= 4]
+        elif _title.startswith("retired"):
+            # Same lenient parse as the Hobby Ledger's Retired, and for the
+            # same reason: this table already held a row typed in the pipeline
+            # column shape, which a strict 3-column parser would have dropped
+            # on the floor — silently un-retiring it.
+            at_retired += [{"category": c[0].strip("*"),
+                            "retired": c[1] if len(c) >= 3 else "",
+                            "note": " · ".join(c[2:])[:300] if len(c) >= 3 else " · ".join(c[1:])[:300]}
+                           for c in _rows if len(c) >= 2 and c[0].strip("*")]
 (state / "atelier-ledger.json").write_text(json.dumps(
-    {"covered": at_cov, "queued": at_queue, "pipeline": at_pipe}, indent=2, ensure_ascii=False))
+    {"covered": at_cov, "queued": at_queue, "pipeline": at_pipe,
+     "retired": at_retired}, indent=2, ensure_ascii=False))
 
 # ---- events ledger (editor, 31 Aug 2026): dead events, so a cancelled show
 # cannot be re-researched back into The Diary by a later build. Status is the

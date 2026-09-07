@@ -258,11 +258,27 @@ SCREEN_CSS = """
 .nextpick.picked{ background:rgba(193,70,46,.10); box-shadow:inset 3px 0 0 var(--vermilion); }
 .nextpick.picked::after{ content:'\\2713 your pick'; font-family:'Poppins',sans-serif; font-size:7px;
   letter-spacing:.1em; text-transform:uppercase; color:var(--vermilion); float:right; margin-top:2px; }
-.nexthole .lbl::after{ content:' \\00b7 tap one to choose tomorrow\\2019s descent';
+.nexthole .lbl::after{ content:' \\00b7  tap one to choose, \\2715  to retire it';
   text-transform:none; letter-spacing:.02em; color:var(--muted); font-weight:400; }
-@media print { .ph-frame, #mprog, .m-chrome, .fbrow, .build-colophon{ display:none !important; }
-  .nextpick.picked::after, .nexthole .lbl::after{ content:none !important; }
-  .nextpick.picked{ background:none; box-shadow:none; } }
+/* Retire-a-suggestion (editor, 6 Sep 2026 — reader-requested): picking a chip
+   said "more of this"; there was no way to say "never again", so a candidate
+   the reader had already rejected kept coming back every issue. Owner-only,
+   like the deep-dive request, because it permanently retires a subject. */
+.npx{ float:right; margin:0 0 2px 8px; background:none; border:.8pt solid rgba(0,0,0,.18);
+  border-radius:8px; color:var(--muted); font-family:'Poppins',sans-serif; font-size:9px;
+  line-height:1; padding:2px 5px; cursor:pointer; opacity:.55; transition:opacity .12s ease; }
+.nextpick:hover .npx{ opacity:1; }
+.npx:hover{ border-color:var(--vermilion); color:var(--vermilion); }
+:root[data-theme="night"] .npx{ border-color:rgba(255,255,255,.22); }
+.nextpick.rejected{ cursor:default; opacity:.5; background:none;
+  box-shadow:inset 2px 0 0 var(--muted); }
+.nextpick.rejected > b{ text-decoration:line-through; }
+.nextpick.rejected::after{ content:'\\2715  retired'; font-family:'Poppins',sans-serif; font-size:7px;
+  letter-spacing:.1em; text-transform:uppercase; color:var(--muted); float:right; margin-top:2px; }
+@media print { .ph-frame, #mprog, .m-chrome, .fbrow, .npx, .build-colophon{ display:none !important; }
+  .nextpick.picked::after, .nextpick.rejected::after, .nexthole .lbl::after{ content:none !important; }
+  .nextpick.picked, .nextpick.rejected{ background:none; box-shadow:none; opacity:1; }
+  .nextpick.rejected > b{ text-decoration:none; } }
 </style>
 """
 
@@ -823,10 +839,42 @@ JS = """
       g.forEach(function(p){
         if(chosen===p.dataset.hobby) p.classList.add('picked');
         p.addEventListener('click',function(){
+          if(p.classList.contains('rejected')) return;   // retired: not pickable
           g.forEach(function(x){x.classList.remove('picked');});
           p.classList.add('picked');
           try{ localStorage.setItem(pkey,p.dataset.hobby); }catch(e){}
           post({type:'vote',issue:issue,desk:dsk,topic:p.dataset.hobby,vote:1});
+        });
+      });
+      // \u2715 retire-this-suggestion. Owner-only, like the deep-dive request:
+      // picking says "more of this", this says "never again", and the build
+      // moves the row into the ledger's Retired table where validate.py's
+      // retired-suggestion gate stops it ever being proposed or run again.
+      mOwner(function(ok){ if(!ok) return;
+        g.forEach(function(p){
+          var topic=p.dataset.hobby||'';
+          if(!topic) return;
+          var rkey='mfb-retired-'+dsk.toLowerCase().replace(/[^a-z]+/g,'')+'-'+topic;
+          var x=document.createElement('button');
+          x.type='button'; x.className='npx'; x.textContent='\u2715';
+          x.title='Stop suggesting this \u2014 retire it for good';
+          x.setAttribute('aria-label', x.title);
+          function strike(){ p.classList.add('rejected'); p.classList.remove('picked'); x.remove(); }
+          try{ if(localStorage.getItem(rkey)==='1'){ strike(); return; } }catch(e){}
+          x.addEventListener('click',function(ev){
+            ev.stopPropagation();          // must not read as a pick
+            if(!confirm('Stop suggesting this?\\n\\n\u201c'+topic+'\u201d\\n\\nIt is retired from '+dsk+' \u2014 never run, never proposed again.')) return;
+            strike();
+            try{ localStorage.setItem(rkey,'1'); if(chosen===topic) localStorage.removeItem(pkey); }catch(e){}
+            post({type:'vote',issue:issue,desk:dsk,topic:topic,vote:-1});
+            // staggered: the feedback API is a read-modify-write against the
+            // GitHub contents API, and back-to-back posts race on the sha.
+            setTimeout(function(){
+              post({type:'note',issue:issue,
+                    text:'RETIRE SUGGESTION: '+topic+' (desk: '+dsk+') \u2014 reader dismissed it; move to the Retired table, never run, never re-suggest.'});
+            },700);
+          });
+          p.insertBefore(x, p.firstChild);   // float from the top, not below the text
         });
       });
     });
