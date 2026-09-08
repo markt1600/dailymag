@@ -56,6 +56,8 @@ row still stands as editorial history.
 
 | 96 | Indonesia | "joki" — the proxy economy: renting a competent stranger to perform an obligation (joki skripsi/game/Prakerja/Strava/vaksin); the argument is that proof has decoupled from achievement and a market fills the gap ("fix the box, not the jockey"). Under-radar verified (no NYT/BBC/Reuters/FT feature). Fresh region off China(94)/Philippines(95); distinct from Indonesia 92's recorded subject. | joki |
 
+| 97 | Japan | 苦労キャンセル界隈 (kurō kyanseru kaiwai) — the "hardship-cancel sphere": online micro-communities (界隈) naming and monetising the public refusal to endure, from 風呂キャンセル界隈 "bath-cancel" (X, Apr 2024, 30k+ likes; ~40 variants incl. overtime-cancel by Sep 2025) to Nikkei Trendy's named 2026 forecast theme, where you pay money or offload to generative AI to erase hardship (fast passes, resignation agencies, chatbots). Argument = the collapse of the gaman (我慢) endurance ethic and effort repriced from virtue to exploitation on a labour shortage, with AI received as relief-from-suffering. Under-radar verified (no NYT/BBC/Reuters/FT/CNN/Guardian feature). Fresh region off Indonesia(96)/Philippines(95)/China(94); distinct from Japan nuikatsu(71)/malatang(83)/背徳グルメ(86) and from the proxy-economy joki(96) — nothing is faked here, endurance itself is repudiated. | 苦労キャンセル界隈 |
+
 ## Themes Already Worked
 
 Not gated — a prompt to the editor's judgement. If a new pitch is one of these
@@ -70,3 +72,4 @@ wearing a different flag, it needs a genuinely new argument, not a new country.
 | Platform as state infrastructure | Philippines DSWD × TikTok (81); China Xiaohongshu (79) |
 | Choice architecture and its second-order markets | Korea's high school credit system (93.5) |
 | Proof/credentials decoupled from the achievement (proxy economy) | Indonesia joki (96) |
+| Repudiation of endurance-as-virtue (the end of gaman) | Japan hardship-cancel sphere (97) |

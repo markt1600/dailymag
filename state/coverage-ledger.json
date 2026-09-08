@@ -1,5 +1,5 @@
 {
-  "count": 607,
+  "count": 609,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1248,6 +1248,20 @@
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
     },
     {
+      "subject": "Moto Watch Ultra",
+      "type": "Product (wearable)",
+      "last_covered": "No. 97",
+      "last_peg": "The Kit LEAD — Motorola's return to serious Wear OS at IFA 2026, on sale 10 Sep, US$349.99; 46mm steel, 1.5\" pOLED 2,700 nits, 550mAh ~2-day, dual-freq GPS, 5ATM, Polar training, first LTE eSIM; sceptic = Snapdragon W5+ Gen 1 (2022) on Wear OS 6, a generation behind rivals. Representative Wear OS smartwatch hero + no_image attestation.",
+      "next_peg": "Next peg = independent reviews or an SG price."
+    },
+    {
+      "subject": "MING 57.05 Comet",
+      "type": "Product (watch)",
+      "last_covered": "No. 97",
+      "last_peg": "The Good Life LEAD — independent worldtimer, Geneva Watch Days 2026, LE 200, pre-orders 27 Aug, CHF 6,950 leather / 7,950 bracelet; patent-pending daylight-saving fix (split DST/non-DST city bezels, one 15° click); 40mm steel, Sellita-based cal 330.M2. Representative mechanical-watch hero + no_image attestation.",
+      "next_peg": "Next peg = reviews or a sell-out / secondary-market note."
+    },
+    {
       "subject": "XREAL Aura (AR smart glasses)",
       "type": "Product (wearable)",
       "last_covered": "No. 95",
@@ -1313,8 +1327,8 @@
     {
       "subject": "Qwen3.8-27B (open-weight LLM)",
       "type": "Product (AI model)",
-      "last_covered": "No. 91",
-      "last_peg": "The Home Lab hero — Alibaba, 14 Aug, Apache-2.0, 27B dense multimodal, 262K→1M ctx; Q4_K_M ~17GB on a single 24GB card (~25 tok/s), Q8 ~30GB, BF16 ~54GB; 'defaults to wildly overthinking' (Willison)",
+      "last_covered": "No. 97",
+      "last_peg": "The Home Lab hero — Alibaba, 14 Aug, Apache-2.0, 27B dense multimodal, 262K→1M ctx; Q4_K_M ~17GB on a single 24GB card (~25 tok/s), Q8 ~30GB, BF16 ~54GB; 'defaults to wildly overthinking' (Willison); No. 97 delta = the current best-overall single-card local driver, ~502k Ollama pulls in its first week.",
       "next_peg": "Next peg = a point release or a notable local-tooling delta. Do not re-explain the model."
     },
     {
