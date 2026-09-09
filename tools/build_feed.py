@@ -12,6 +12,7 @@ research instead of running its own web search. Each story carries the desk's
 Usage:  python3 tools/build_feed.py [index.html] [feed.json]
 """
 import re, sys, json, pathlib, datetime
+import html as _html   # NB: aliased — `html` below is the document text
 
 src = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "index.html")
 out = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else "feed.json")
@@ -29,9 +30,20 @@ CATEGORY = {
 
 
 def strip(s):
+    # feed.json is DATA: its consumers (marktan.ai's Stories & Briefs) render
+    # these fields as plain text, so an HTML entity left in them shows up
+    # verbatim to a reader as "&ldquo;". This used to decode exactly three
+    # entities by hand and pass every other one through — which is how
+    # &ldquo;/&rdquo;/&rsquo;/&mdash; reached the dashboard as literal text
+    # (reader-reported, 9 Sep 2026). Decode them ALL instead.
+    #
+    # Order matters: strip tags FIRST, then unescape. That way a source that
+    # deliberately shows markup as text (&lt;b&gt;) survives as the visible
+    # characters <b> rather than being decoded into a tag and then eaten.
     s = re.sub(r'<sup class="fnref">\d+</sup>', '', s)
     s = re.sub(r'<[^>]+>', '', s)
-    s = re.sub(r'&amp;', '&', s).replace('&nbsp;', ' ').replace('&middot;', '·')
+    s = _html.unescape(s)
+    s = s.replace('\u00a0', ' ')          # NBSP -> ordinary space, as before
     return re.sub(r'\s+', ' ', s).strip()
 
 
