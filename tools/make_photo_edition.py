@@ -576,11 +576,18 @@ CHROME = ('<body>\n'
           '<div id="mprog"></div>\n'
           '<div class="m-chrome">\n'
           f'  <a class="pdf-dl" href="{PDF_HREF}" download>⤓ Download the print edition (PDF) — No. {ISSUE} · {DATE}</a>\n'
-          '  <div class="pod-bar" id="mpodbar"><a class="pod-link" id="mpod" role="button" tabindex="0">🎙 The Meridian Briefing · ▶ tap to generate the twenty-minute episode</a></div>\n'
+          # OWNER-GATED (editor, 9 Sep 2026 — reader-requested). Ships hidden.
+          # A visitor sees the bar only when an episode ALREADY EXISTS, in which
+          # case it is a player and the audio is just more of the public edition.
+          # The "tap to generate" state spends money and fires a workflow, so it
+          # is revealed only after the owner cookie verifies (see the JS below).
+          '  <div class="pod-bar" id="mpodbar" hidden><a class="pod-link" id="mpod" role="button" tabindex="0">🎙 The Meridian Briefing · ▶ tap to generate the twenty-minute episode</a></div>\n'
           f'  <nav class="mnav">{SECT_SELECT}'
           '<button class="m-toggle" id="march" type="button">⧉ Archive</button>'
           + DEST_SELECT + HOB_SELECT + SPEC_SELECT +
-          '<button class="m-toggle" id="mrm" type="button" title="Send this edition to the reMarkable tablet — editions are delivered only on request">⇥ reMarkable</button>'
+          # OWNER-GATED (editor, 9 Sep 2026 — reader-requested): the tablet is
+          # the editor's own. Ships hidden; revealed by the owner check.
+          '<button class="m-toggle" id="mrm" type="button" hidden title="Send this edition to the reMarkable tablet — editions are delivered only on request">⇥ reMarkable</button>'
           '<button class="m-toggle" id="mnote" type="button">✎ Note</button>'
           '<button class="m-toggle" id="mtheme" type="button">☾ Night</button></nav>\n'
           '</div>')
@@ -968,7 +975,15 @@ JS = """
       apply();
     }
     function podCheck(cb){ fetch(PODURL,{method:'HEAD',cache:'no-store'}).then(function(r){cb(r.ok);}).catch(function(){cb(false);}); }
-    podCheck(function(ok){ if(ok) podPlayer(); });
+    // Reveal rules: an EXISTING episode is public (it is the edition, read
+    // aloud), so the player shows for everyone. The generate prompt is not —
+    // it costs money and fires a workflow — so it appears only for the owner.
+    // Hidden is the default in the markup, so a failed or slow owner check
+    // leaves it hidden rather than flashing a control a visitor cannot use.
+    podCheck(function(ok){
+      if(ok){ podPlayer(); podbar.hidden=false; return; }
+      mOwner(function(isOwner){ if(isOwner) podbar.hidden=false; });
+    });
     var podBusy=false;
     podlink.addEventListener('click',function(){
       if(podBusy) return;
@@ -989,6 +1004,7 @@ JS = """
     });
   }
   var mrm=document.getElementById('mrm');
+  if(mrm) mOwner(function(ok){ if(ok) mrm.hidden=false; });   // owner-only: the tablet is the editor's
   if(mrm) mrm.addEventListener('click',function(){
     var dl=document.querySelector('.pdf-dl');
     var no=(dl&&(dl.textContent.match(/No\\.\\s*\\d+[^\u00b7]*(\u00b7[^\u00b7]*)?/)||[])[0])||'this edition';
