@@ -121,6 +121,11 @@
       "angle": "The buy-once cabin/overnight holdall from the hide up — full-grain (chrome/combination tan the humid pick) vs top-grain/\"genuine\"; waxed canvas (Halley Stevensons/Martexin/British Millerain, oz weight) vs 1000D Cordura/1680D ballistic vs the X-Pac laminate trap (delaminates in tropical heat); saddle"
     },
     {
+      "category": "Japanese selvedge denim",
+      "issue": "99",
+      "angle": "The self-finished edge from the loom up — shuttle loom (narrow ~30\", ~5m/hr, rebuilt Toyoda) vs projectile (overlocked edge = the fake-selvedge tell); ring-spun slub + Zimbabwean cotton (Full Count first); rope-dyed indigo/white core = the fade engine; oz weight (&lt;12 summer-wearable, 15-17 the sw"
+    },
+    {
       "category": "Chef&#39;s knives sharpening &amp; stones",
       "issue": "97",
       "angle": "The bench that outlasts the knives — grit scales diverge (buy by micron; ~3k the using-edge ceiling); mechanism of slurry/dishing, hard-vs-soft binder, splash-and-go vs soak, diamond plates (Atoma 140 the flattener) vs JNAT silica; makers King 1k/6k ~$45/Shapton Glass+Pro/Naniwa Chosera + Atoma; sys"
@@ -128,12 +133,6 @@
   ],
   "queued": [],
   "pipeline": [
-    {
-      "category": "Japanese selvedge denim",
-      "rotation": "Clothing",
-      "fit": "Looms, mills and fade culture — maker-worship done right",
-      "sources": "Momotaro/Japan Blue, Full Count, Warehouse, Iron Heart, Studio D'Artisan; r/rawdenim, Heddels"
-    },
     {
       "category": "Wool overcoats &amp; topcoats",
       "rotation": "Clothing",
@@ -163,6 +162,18 @@
       "rotation": "Home / kitchen",
       "fit": "Clad vs disc-base vs solid copper, tin vs steel lining — the buy-once pan, distinct from cast iron/woks",
       "sources": "Mauviel, All-Clad, Demeyere, Falk; r/Cooking, eGullet"
+    },
+    {
+      "category": "Fountain-pen ink &amp; paper pairing",
+      "rotation": "Paper",
+      "fit": "Distinct from the pen — shading/sheen/dry-time, the mill behind the paper",
+      "sources": "Iroshizuku, Sailor, Diamine; r/fountainpens, Wonder Pens"
+    },
+    {
+      "category": "Toothbrushes &amp; oral-care tools",
+      "rotation": "Grooming",
+      "fit": "The buy-once electric base vs heads, manual boar/nylon, the white-label truth",
+      "sources": "Oral-B/Sonicare teardown, r/electrictoothbrush, wirecutter"
     }
   ],
   "retired": [

@@ -1,5 +1,5 @@
 {
-  "count": 617,
+  "count": 623,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1248,6 +1248,48 @@
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
     },
     {
+      "subject": "Apple Watch Ultra 4",
+      "type": "Product (wearable)",
+      "last_covered": "No. 99",
+      "last_peg": "The Kit LEAD — announced 9 Sep, in-store 18 Sep, US$799; S11, 3000-nit, ~48-50h battery (from 42), 100m + EN13319 40m, satellite/5G, recycled-Ti case; HR every 5s / HRV every 15s, Readiness Score, Health Age; sceptic = physically identical to the Ultra 3, wrist-AI unwanted (Tom&rsquo;s Guide poll 11/368). Representative Apple Watch Ultra hero + no_image attestation.",
+      "next_peg": "Next peg = independent reviews or an SG price. Launch peg spent."
+    },
+    {
+      "subject": "AirPods 5 (ANC)",
+      "type": "Product (audio)",
+      "last_covered": "No. 99",
+      "last_peg": "The Kit 2nd — announced 9 Sep, ships 18 Sep, from ~A$219 (~US$80 under last year&rsquo;s ANC model); the value pick of the keynote.",
+      "next_peg": "Next peg = reviews or US pricing."
+    },
+    {
+      "subject": "Tudor Northflag GMT",
+      "type": "Product (watch)",
+      "last_covered": "No. 99",
+      "last_peg": "The Good Life LEAD — Geneva Watch Days revival of the 2015 North Flag, ref M9140G1A0U-0001, 40&times;12.7mm, in-house MT5652-U flyer GMT, COSC+METAS, ~65h, US$5,525/&pound;4,310; sceptic = reviving a flopped nameplate as heritage, boutique/retail spread, collides with the Black Bay GMT — movement earns it, the case does not. Representative Tudor North Flag hero + no_image attestation.",
+      "next_peg": "Next peg = reviews or a sell-out/secondary note. Launch peg spent."
+    },
+    {
+      "subject": "DeepSeek Shanghai STAR IPO",
+      "type": "Deal (AI)",
+      "last_covered": "No. 99",
+      "last_peg": "Technology LEAD — taps CITIC Securities for a STAR Market listing (process this year, possible 2027 debut), concurrently raising near 500bn yuan (~US$75bn); forces first audited financials/prospectus/compute disclosure; ~2wk before Xi&rsquo;s 24 Sep visit; sceptic (Dan Ives) = monetises a domestic/Global-South story, not Western enterprise.",
+      "next_peg": "Next peg = the prospectus/filing, the raise close, or a valuation move."
+    },
+    {
+      "subject": "GLM-4.7-Flash (Z.ai)",
+      "type": "Model (open weights)",
+      "last_covered": "No. 99",
+      "last_peg": "The Home Lab pick — 30B/3B-active MoE, runs on one high-VRAM card; 59.2% SWE-bench Verified (vendor-run) vs ~22% for the comparable Qwen; the actionable single-card model while its big sibling GLM-5.3-Flash tops adoption but stays a rig-buster.",
+      "next_peg": "Next peg = an independent eval, mainline/Ollama support, or a point release."
+    },
+    {
+      "subject": "Bloc Party — &ldquo;Anatomy of a Brief Romance&rdquo;",
+      "type": "Album (release)",
+      "last_covered": "No. 99",
+      "last_peg": "Screen &amp; Sound — 7th album, first since 2022&rsquo;s &ldquo;Alpha Games,&rdquo; out 11 Sep, produced by Trevor Horn; a 14-song chronological break-up memoir, lead single &ldquo;Coming on Strong&rdquo;; reviews warm-but-qualified (Slant).",
+      "next_peg": "Next peg = a chart placing or a tour. Launch peg spent."
+    },
+    {
       "subject": "Chopard L.U.C 1963 Heritage Chronograph (Prussian Blue)",
       "type": "Product (watch)",
       "last_covered": "No. 98",
@@ -1579,9 +1621,9 @@
     {
       "subject": "GLM-5.3-Flash (Zhipu/Z.ai)",
       "type": "Model (open weights)",
-      "last_covered": "No. 86",
-      "last_peg": "The Home Lab HERO — 26 Aug, unmodified MIT, 320B-A18B MoE, natively multimodal, 1M ctx, ~170-180GB at Q4 (~105-115GB 2-bit fits a 128GB unified box); fork-only llama.cpp (Unsloth GGUFs), no QAT disclosure; flagship GLM-5.3 full weights STILL HELD on cyber-risk",
-      "next_peg": "Next peg = the flagship weights drop, mainline/Ollama support, or QAT clarity."
+      "last_covered": "No. 99",
+      "last_peg": "Flagged No.86 (26 Aug, MIT, 320B-A18B MoE, ~180GB Q4). No.99 delta (call-back, not re-explained) = became OpenRouter&rsquo;s most-used open model (~2&times; DeepSeek at launch, debuted as &ldquo;Ox Alpha&rdquo;) and tops the Artificial Analysis intelligence index; still a rig-buster, so GLM-4.7-Flash is the desk pick.",
+      "next_peg": "Next peg = mainline/Ollama support, QAT clarity, or an independent eval. Do not re-cover the model itself."
     },
     {
       "subject": "The Table — SG openings (Aug 2026)",
