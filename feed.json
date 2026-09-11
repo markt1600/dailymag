@@ -1,51 +1,61 @@
 {
  "publication": "MERIDIAN",
- "issue": 99,
- "date": "11 September 2026",
- "generated": "2026-09-11T06:28:25+08:00",
+ "issue": 100,
+ "date": "12 September 2026",
+ "generated": "2026-09-12T06:22:19+08:00",
  "quote": {
-  "text": "The Stone Age did not end for lack of stone, and the Oil Age will end long before the world runs out of oil.",
-  "author": "Sheikh Ahmed Zaki Yamani, Saudi oil minister 1962–1986"
+  "text": "Have nothing in your houses that you do not know to be useful, or believe to be beautiful.",
+  "author": "William Morris, “The Beauty of Life,” 1880"
  },
  "macro": null,
  "stories": [
   {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "Objects & Escapes · The everyday grail",
+   "headline": "Twenty seconds a year, now in a watch you’d actually wear daily",
+   "dek": "Grand Seiko has moved its ±20-seconds-a-year Spring Drive “Ultra Fine Accuracy” movement out of precious metal and into everyday steel — the accuracy earns the ticket; the price ladder is the argument.",
+   "anchor": "p10",
+   "featured": true
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "Down the Rabbit Hole",
+   "category": "Hobby",
+   "kicker": "Down the Rabbit Hole · The Invitation",
+   "headline": "Whisky, all the way down",
+   "dek": "Not the cocktail cabinet — the other obsession, where the bottle is the hero: a glass, a few drops of water, and the slow decoding of what a barrel and a decade did. Here is how the rabbit hole opens, and how far it goes.",
+   "anchor": "p15",
+   "featured": true
+  },
+  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "Iran & the Gulf · The war reaches a second chokepoint",
-   "headline": "Yemen’s Houthis take a Red Sea port, and the war finds a new gate",
-   "dek": "A conflict fought all summer over the Strait of Hormuz opened a second front this week — the seizure of Mocha and a Houthi push toward Bab el-Mandeb — while a fresh exchange of fire kept the first strait a combat zone and drove Brent past a hundred and four dollars.",
+   "kicker": "Iran & the Gulf · The second gate closes",
+   "headline": "The Houthis take Perim, and the war owns both doors to the oil",
+   "dek": "The seizure of a small island in the middle of Bab el-Mandeb this week completed a takeover of Yemen’s Red Sea coast — handing Iran’s allies a grip on a second chokepoint while Hormuz stays a shooting war, and driving Brent to a hundred and ten dollars.",
    "anchor": "p3",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Parliament · The pay debate",
-   "headline": "A raise the opposition backs, and a fight over what the public may see",
-   "dek": "The House spent Thursday on the political-salary rise announced a week earlier. The striking part was the agreement: the Workers’ Party endorsed the increase and pressed instead on disclosure — and no vote was ever taken.",
+   "kicker": "The haze · What it means for your weekend",
+   "headline": "The air turns “unhealthy” for the first time since 2023 — and may not clear for weeks",
+   "dek": "Transboundary smoke pushed the central region’s PSI past a hundred this week, the first haze-driven “unhealthy” reading in nearly two years; with below-normal rain forecast into October, plan the outdoor hours around the dashboard, not the calendar.",
    "anchor": "p5",
-   "featured": true
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "Down the Rabbit Hole · Tabletop miniature painting",
-   "headline": "The grown men thinning their paints",
-   "dek": "A hobby that sits between gaming and fine art, where a plastic soldier the size of a thumb becomes a canvas — and where a one-coat paint revolution has quietly pulled hundreds of thousands of newcomers over the skill wall.",
-   "anchor": "p15",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "Buy It Once · Japanese selvedge denim",
-   "headline": "The self-finished edge, from the loom up",
-   "dek": "A pair of raw Japanese jeans is a maker’s object disguised as a wardrobe basic. Learn the mechanism — the shuttle loom, the rope-dyed indigo, the ounce weight — and you can judge any pair cold, and see where the price turns to theatre.",
+   "kicker": "Buy It Once · The everyday table",
+   "headline": "The plate that outlives the pattern",
+   "dek": "Dinnerware sorts almost entirely by one hidden number — how far the clay vitrified. Learn that, and you can judge any plate in the shop cold, spot the Staffordshire name hiding an Indonesian body, and see why the entry tier already wins.",
    "anchor": "p6",
    "featured": false
   },
@@ -53,9 +63,9 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Capital markets · The lab opens its books",
-   "headline": "DeepSeek files to list in Shanghai — and agrees to be seen",
-   "dek": "China’s most talked-about AI lab has picked a stock exchange, not a chip, as its next front. A listing would force the famously opaque firm to publish audited accounts — two weeks before Xi Jinping visits Washington’s rival.",
+   "kicker": "AI & capital · The delta",
+   "headline": "DeepSeek picks Shanghai, and keeps the crown jewel at home",
+   "dek": "The lab we flagged as filing to list has now chosen where: it has hired CITIC Securities for a Shanghai STAR Market IPO rather than Hong Kong — a home-team decision that lands two weeks before Xi flies to Washington to talk AI.",
    "anchor": "p7",
    "featured": false
   },
@@ -63,29 +73,19 @@
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "Wearables · The rugged wrist",
-   "headline": "The Apple Watch Ultra 4: a better computer in last year’s body",
-   "dek": "Apple’s toughest watch gains a faster chip, denser health sensing and a longer battery — in a case identical to the Ultra 3. The buyers polled wanted the battery. They did not ask for the intelligence.",
+   "kicker": "Gear We’re Watching · The headphone that phones home",
+   "headline": "Sonos builds a headphone that steals the music off your speakers",
+   "dek": "The Ace Ultra ships this month at US$449 with twice the noise-cancelling and a genuinely new trick — press a button and the audio playing on your Sonos system hands straight to your ears over Wi-Fi. For a reader with the speakers already, that’s the hook; the ecosystem is also the catch.",
    "anchor": "p9",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "Watches · Geneva Watch Days",
-   "headline": "Tudor revives a flop — and this time the movement earns it",
-   "dek": "The angular North Flag left the catalogue years ago, unloved. It returns from Geneva with a proper flyer GMT and a Master Chronometer stamp: substance the original lacked, wrapped in a case not everyone forgave.",
-   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Film · Venice, on the eve of its verdict",
-   "headline": "Two ovations run ahead of their reviews — and the Lion waits a day",
-   "dek": "The eighty-third Venice Film Festival hands out its Golden Lion on Saturday, the day after this book prints. What is settled are the honours; what is loud are two premieres whose applause outpaced their notices.",
+   "kicker": "Venice · The Lion, tonight",
+   "headline": "A jury sits in Venice, and the frontrunner has a fourteen-minute ovation behind him",
+   "dek": "The Golden Lion is decided tonight under Maggie Gyllenhaal’s jury; Martin McDonagh’s “Wild Horse Nine” is the surest bet on the board — which is exactly why our own sceptic bet against it.",
    "anchor": "p11",
    "featured": false
   },
@@ -93,9 +93,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "Screens · The evidence, read carefully",
-   "headline": "The newest study points at sleep and exercise, not the phone itself",
-   "dek": "A 2026 analysis of more than fifty thousand children finds the harm from heavy screen use runs largely through what it displaces — rest and movement. For a twelve-year-old in an exam year, that is the useful news.",
+   "kicker": "The Tween Years · The year the rules changed",
+   "headline": "Age checks arrive just as she reaches the line",
+   "dek": "Singapore’s new social-media age-assurance regime lands squarely on a twelve-year-old — she is just under the under-thirteen threshold now, and crosses it next July. Here is what the law actually does, and what the evidence behind it does and doesn’t show.",
    "anchor": "p12",
    "featured": false
   },
@@ -103,9 +103,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Big Picture · The oil shock nobody can ease into",
-   "headline": "Three central banks tighten into the same barrel",
-   "dek": "An oil-driven reflation has forced a synchronised hawkish turn: the ECB hiked, the Fed is priced to follow, and the ten-year yield hit its highest since 2007. The result is a bond bear and an equity wobble at once — diversification is not working.",
+   "kicker": "The Big Picture · The portfolio lens",
+   "headline": "One barrel, three central banks, no cushion",
+   "dek": "A chokepoint war put oil near a hundred and ten; the ECB has hiked, the Fed leans the same way, and the ten-year touched five per cent — so stocks and bonds are falling together again, and the diversification you counted on isn’t there.",
    "anchor": "p14",
    "featured": false
   },
@@ -113,10 +113,20 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "The Long Game · The supplement and the barbell",
-   "headline": "Creatine works after sixty — but only with the lifting",
-   "dek": "A 2026 meta-analysis pools the trials on creatine and resistance training in older adults. The gains are real in the legs and in lean mass; the catch is that none of them show up without the training itself.",
+   "kicker": "The Long Game · The dose that’s enough",
+   "headline": "Two hours of lifting a week, and the longevity curve flattens",
+   "dek": "A 2026 analysis of long-term resistance training finds the mortality benefit plateauing around a hundred and twenty minutes a week — the rare fitness headline that gives you permission to stop.",
    "anchor": "p18",
+   "featured": false
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "Departures · Ex-Singapore, what changed",
+   "headline": "The autumn network wave, and a lounge mid-glow-up",
+   "dek": "The summer capacity tweaks are unwinding into a fourth-quarter long-haul wave; Scoot points at Okinawa by year-end; and the SilverKris lounge you use is halfway through a rebuild while the RTS Link runs its final tests.",
+   "anchor": "p19",
    "featured": false
   },
   {
@@ -126,17 +136,17 @@
    "kicker": "What’s Worth Booking · The dated agenda",
    "headline": "What to book this week — and to plan the flights for",
    "dek": "",
-   "anchor": "p19",
+   "anchor": "p23",
    "featured": false
   },
   {
    "desk": "The Long Read",
    "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Undercurrent · Thailand",
-   "headline": "The country music of the rice fields learned to sell",
-   "dek": "Thailand’s growth story is told through Bangkok malls. But the real consumer frontier is its poorest, most populous region — and a century-old folk opera called mor lam has become the largest concert format in the country, and the arena where the nation’s brands now fight for it.",
-   "anchor": "p21",
+   "kicker": "The Undercurrent · Taiwan",
+   "headline": "The island that built itself a paycheck",
+   "dek": "Eighteen million times over, Taiwanese have bought into dividend funds that pay a little every month — the “存股族,” the stock-saving tribe, manufacturing a synthetic salary the wage and the pension no longer provide. In 2026, for the first time, they began quietly walking away from the funds that defined the craze.",
+   "anchor": "p25",
    "featured": false
   }
  ]

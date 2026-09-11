@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Dinnerware &amp; everyday plates",
+      "issue": "100",
+      "angle": "The everyday table from the kiln up — VITRIFICATION is the hidden number (earthenware never vitrifies/porous&chippy → stoneware near-full/tough everyday → porcelain hard&thin → bone china ~50% bone-ash, strongest&most translucent); tells = footring/rolled rim/weight/ring/no crazing, metallic-trim tr"
+    },
+    {
       "category": "Pyjamas &amp; luxury sleepwear",
       "issue": "74",
       "angle": "The desk's debut — the hierarchy from cloth up (two-fold cotton, Sea Island &lt;0.0004% of world cotton, silk momme 19 airweight vs 22 durable/warmer), construction tells (mother-of-pearl, piping, side gussets, French seams, hand-sewn buttonholes); makers by tier (Piglet ~US$170/Tekla US$245/Sunspel"
@@ -134,18 +139,6 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Wool overcoats &amp; topcoats",
-      "rotation": "Clothing",
-      "fit": "Cloth weight and construction (fused vs canvassed), melton/Casentino/loro-cloth; the buy-once winter layer for the travelling reader",
-      "sources": "Fox Brothers/Abraham Moon cloth, Private White V.C., Crombie honestly assessed, Sartoria tiers; StyleForum, Permanent Style"
-    },
-    {
-      "category": "Dinnerware &amp; everyday plates",
-      "rotation": "Home",
-      "fit": "Porcelain vs stoneware vs bone china; the buy-once table setting and the makers behind the white labels",
-      "sources": "Hasami, Heath Ceramics, Astier de Villatte; r/Cooking, tabletop communities"
-    },
-    {
       "category": "Wool suits &amp; tailoring cloth",
       "rotation": "Clothing",
       "fit": "Full-canvas vs fused, the mills (Fox Brothers/Loro Piana), MTM vs bespoke — the buy-once suit",
@@ -174,9 +167,26 @@
       "rotation": "Grooming",
       "fit": "The buy-once electric base vs heads, manual boar/nylon, the white-label truth",
       "sources": "Oral-B/Sonicare teardown, r/electrictoothbrush, wirecutter"
+    },
+    {
+      "category": "Glassware &amp; stemware",
+      "rotation": "Home / table",
+      "fit": "The everyday tumbler to the wine glass; machine vs mouth-blown, lead-crystal vs cristallin",
+      "sources": "Duralex/Picardie, Zalto/Josephinenütte, Riedel; r/cocktails, wine forums, Zalto obsessives"
+    },
+    {
+      "category": "Coffee grinders",
+      "rotation": "Kitchen / gear",
+      "fit": "Burr geometry as the whole game; hand vs electric; the grind is most of the cup",
+      "sources": "Comandante/1Zpresso, Baratza/Niche/Fellow/Weber; r/espresso, Home-Barista, James Hoffmann"
     }
   ],
   "retired": [
+    {
+      "category": "Wool overcoats &amp; topcoats",
+      "retired": "12 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, 11 Sep 2026 — “never run, never re-suggest”). Was pipelined as Clothing (Fox Brothers/Abraham Moon cloth, canvassed vs fused, Crombie/Private White). Removed from the on-deck pipeline."
+    },
     {
       "category": "Chef&#39;s aprons &amp; kitchen textiles",
       "retired": "6 Sep 2026",

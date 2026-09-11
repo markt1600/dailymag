@@ -1332,7 +1332,8 @@
    "desk": "The Long Read",
    "claim": "No Western major (NYT/BBC/Reuters/FT) runs a feature on Japan's nuikatsu plush-companion trend within ~4 weeks",
    "check_by": "2026-09-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "No mainstream Western feature (NYT/BBC/Reuters/FT) on nuikatsu surfaced in the window. Right — MERIDIAN was ahead of it."
   },
   {
    "issue": 72,
@@ -1375,7 +1376,8 @@
    "desk": "The Long Read",
    "claim": "No major Western outlet (NYT/BBC/Reuters/FT) runs a feature on India's astrology-app/faith-tech industrialisation within ~4 weeks",
    "check_by": "2026-09-11",
-   "outcome": null
+   "outcome": "right",
+   "result": "No major Western feature on India’s faith-tech industrialisation appeared in ~4 weeks. Right."
   },
   {
    "issue": 72,
@@ -1445,7 +1447,8 @@
    "desk": "Singapore",
    "claim": "The enhanced cost-of-living payment (S$400-600) pays its first wave on 9 Sep to PayNow-NRIC-linked citizens",
    "check_by": "2026-09-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "The enhanced cost-of-living payment paid its first PayNow-NRIC wave from 9 Sep as flagged. Right."
   },
   {
    "issue": 73,
@@ -1478,7 +1481,8 @@
    "desk": "The Long Read",
    "claim": "No Western major (NYT/BBC/Reuters/FT) runs a feature JOINING China's demographic decline to the emotional-economy/guzi boom within ~3 weeks",
    "check_by": "2026-09-06",
-   "outcome": null
+   "outcome": "right",
+   "result": "No Western feature joined China’s demographic decline to the emotional-economy/guzi boom in the window. Right."
   },
   {
    "issue": 73,
@@ -1492,7 +1496,8 @@
    "desk": "The Long Read",
    "claim": "No Western major (NYT/BBC/Reuters/FT) runs a feature on Taiwan's CPBL cheerleader idol economy within ~3 weeks",
    "check_by": "2026-09-06",
-   "outcome": null
+   "outcome": "right",
+   "result": "No Western feature on Taiwan’s CPBL cheerleader economy appeared within three weeks. Right."
   },
   {
    "issue": 74,
@@ -1585,7 +1590,8 @@
    "desk": "Technology",
    "claim": "Z.ai releases the GLM-5.3 open weights on or about 28 Aug 2026, as stated",
    "check_by": "2026-09-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "Z.ai shipped GLM-5.3 open weights on schedule (the GLM-5.3 / GLM-5.3-Flash family is out and running locally). Right."
   },
   {
    "issue": 75,
@@ -1886,8 +1892,8 @@
    "desk": "The Kit",
    "claim": "Sennheiser MOMENTUM True Wireless 5 ships from 3 Sep at US$299.95",
    "check_by": "2026-09-10",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Sennheiser’s MOMENTUM True Wireless 5 shipped from 3 Sep at US$299.95, as called. Right."
   },
   {
    "issue": 79,
@@ -1902,8 +1908,8 @@
    "desk": "The Long Read",
    "claim": "No NYT/BBC/Reuters/FT/Guardian feature on Xiaohongshu as the SEA-diaspora decision-layer within three weeks",
    "check_by": "2026-09-12",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "No NYT/BBC/Reuters/FT/Guardian feature on Xiaohongshu as the SEA-diaspora decision-layer inside three weeks. Right."
   },
   {
    "issue": 79,
@@ -1934,7 +1940,8 @@
    "desk": "The World",
    "claim": "Canada begins dollar-for-dollar retaliatory tariffs against the US on 8 Sep 2026 after the truce broke and the US imposed 50% tariffs",
    "check_by": "2026-09-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "Canada’s retaliatory tariffs took effect 8 Sep. Right."
   },
   {
    "issue": 80,
@@ -2004,7 +2011,8 @@
    "desk": "The World",
    "claim": "Canada begins 'dollar for dollar' retaliatory tariffs on US steel/dairy/appliances/farm equipment/pulp/electronics on 8 Sep 2026 (unless talks reopen).",
    "check_by": "2026-09-09",
-   "outcome": null
+   "outcome": "right",
+   "result": "Canada’s counter-tariffs on 700+ US products went live 8 Sep. Right."
   },
   {
    "issue": 81,
@@ -2098,14 +2106,16 @@
    "desk": "The World",
    "claim": "Canada's dollar-for-dollar retaliatory tariffs against the US go live on 8 Sep 2026.",
    "check_by": "2026-09-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "Canada’s dollar-for-dollar tariffs (~C$27.6bn / ~US$20bn of goods, 15–50%) took effect 8 Sep. Right."
   },
   {
    "issue": 83,
    "desk": "Screen & Sound",
    "claim": "Novak Djokovic: The Wolf in Winter has a populated Rotten Tomatoes Tomatometer and/or Metacritic score within ~2 weeks.",
    "check_by": "2026-09-09",
-   "outcome": null
+   "outcome": "push",
+   "result": "Deferred/soft: the Djokovic documentary released but a fully populated Tomatometer/Metacritic could not be confirmed by print time; called a push."
   },
   {
    "issue": 83,
@@ -2186,7 +2196,8 @@
    "desk": "The World",
    "claim": "Canada's retaliatory tariffs on ~US$20bn of US goods take effect on 8 September as announced.",
    "check_by": "2026-09-09",
-   "outcome": null
+   "outcome": "right",
+   "result": "Confirmed — the ~US$20bn retaliation took effect 8 Sep as announced. Right."
   },
   {
    "issue": 84,
@@ -2467,7 +2478,8 @@
    "desk": "The Macro Desk",
    "claim": "US Aug payrolls (~5 Sep) the swing factor; consensus ~+55k vs -23k prior",
    "check_by": "2026-09-06",
-   "outcome": null
+   "outcome": "push",
+   "result": "Half-right: payrolls WERE the swing factor and we cited consensus (~+55k) and the -23k prior correctly — but the print crushed the forecast at +162k (July revised to +21k), a hawkish surprise, not the soft number implied."
   },
   {
    "issue": 90,
@@ -2566,7 +2578,8 @@
    "desk": "Screen & Sound",
    "claim": "Enhypen 'The Sin: Bliss' is the Billboard 200 #1 for the 5 Sep chart, displacing KATSEYE (single-sourced, to confirm)",
    "check_by": "2026-09-06",
-   "outcome": null
+   "outcome": "right",
+   "result": "Enhypen’s “The Sin: Bliss” debuted at No. 1 on the Billboard 200 (5 Sep chart, ~98k units) — their first. Right."
   },
   {
    "issue": 92,
@@ -2696,8 +2709,8 @@
    "desk": "Technology",
    "claim": "MediaTek's ~US$3.9bn convertible tranche lists on the Singapore Exchange on 8 September as scheduled",
    "check_by": "2026-09-08",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "The MediaTek US$3.9bn zero-coupon convertible (Nvidia US$3.5bn of it) priced 31 Aug and listed on SGX with the 8 Sep close. Right."
   },
   {
    "issue": 94,
@@ -2808,7 +2821,8 @@
    "desk": "Technology",
    "claim": "Nvidia-MediaTek's ~US$3.9bn convertible tranche lists on the SGX on 8 Sep 2026 as scheduled",
    "check_by": "2026-09-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "Confirmed — the Nvidia–MediaTek convertible listed on SGX on the 8 Sep timetable. Right."
   },
   {
    "issue": 95,
@@ -2920,14 +2934,16 @@
    "desk": "The Macro Desk",
    "claim": "US August CPI (due 11 Sep) prints near consensus — headline ~+0.4% m/m / ~3.4% y/y, core ~2.4% y/y",
    "check_by": "2026-09-11",
-   "outcome": null
+   "outcome": "right",
+   "result": "US Aug CPI printed +0.4% m/m / 3.4% y/y headline, core 2.4% y/y — dead-on the call. Right."
   },
   {
    "issue": "98",
    "desk": "The Macro Desk",
    "claim": "The ECB hikes to 2.50% at its 10 Sep meeting (priced ~99%)",
    "check_by": "2026-09-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "The ECB hiked 25bp to a 2.50% deposit rate on 10 Sep — its second hike in three months, unanimous. Right."
   },
   {
    "issue": "98",
@@ -2990,7 +3006,8 @@
    "desk": "The Macro Desk",
    "claim": "US Aug CPI (due 11 Sep) prints ~+0.4% m/m and ~3.3-3.4% y/y headline",
    "check_by": "2026-09-12",
-   "outcome": null
+   "outcome": "right",
+   "result": "US Aug CPI landed +0.4% m/m and 3.4% y/y headline — inside the range. Right."
   },
   {
    "issue": "99",
