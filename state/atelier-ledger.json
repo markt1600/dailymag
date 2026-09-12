@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Wool suits &amp; tailoring cloth",
+      "issue": "101",
+      "angle": "The buy-once suit from the canvas up — construction decides everything (FUSED glued/delaminates & bubbles → HALF-canvas floating chest → FULL-canvas moulds to you; the PINCH TEST at the front hem the in-shop tell); Super-numbers measure fibre FINENESS not quality (110s–130s the sweet spot, 150s+ fra"
+    },
+    {
       "category": "Dinnerware &amp; everyday plates",
       "issue": "100",
       "angle": "The everyday table from the kiln up — VITRIFICATION is the hidden number (earthenware never vitrifies/porous&chippy → stoneware near-full/tough everyday → porcelain hard&thin → bone china ~50% bone-ash, strongest&most translucent); tells = footring/rolled rim/weight/ring/no crazing, metallic-trim tr"
@@ -139,12 +144,6 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Wool suits &amp; tailoring cloth",
-      "rotation": "Clothing",
-      "fit": "Full-canvas vs fused, the mills (Fox Brothers/Loro Piana), MTM vs bespoke — the buy-once suit",
-      "sources": "Permanent Style, StyleForum; named tailors and cloth merchants"
-    },
-    {
       "category": "Work &amp; casual leather boots",
       "rotation": "Clothing / footwear",
       "fit": "Distinct from dress shoes — resoleable welts, roughout/CXL, the heritage makers",
@@ -196,6 +195,16 @@
       "category": "Merino base layers &amp; travel tees",
       "retired": "Clothing",
       "note": "The buy-once travel/performance layer — micron grade, GSM, mulesing-free wool; Icebreaker/Smartwool/Woolly/Unbound Merino; r/onebag, r/BuyItForLife · Merino&rsquo;s odour-resistance is the multi-day-travel and tropical-aircon case; judged on micron and knit, not logo"
+    },
+    {
+      "category": "Hard-shell luggage &amp; carry-ons",
+      "retired": "Carry",
+      "note": "Polycarbonate vs aluminium vs hybrid, the zipper vs latch debate, wheel/handle failure points; Rimowa/Away/Monos/Tumi and the OEM truth · A frequent-flyer&rsquo;s buy-once case; warranty and repairability the real test, not the logo"
+    },
+    {
+      "category": "Desk &amp; task lighting",
+      "retired": "Home",
+      "note": "The mechanism (CRI, colour temperature, dimming, arm engineering); the buy-once lamp — Anglepoise/Jielde/Luxo vs the OEM LED flood; r/BuyItForLife, r/battlestations · A perfectionist&rsquo;s workspace object; the arm and the light quality decide it, not the shade"
     }
   ]
 }
