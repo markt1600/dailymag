@@ -405,6 +405,64 @@
   {
    "slug": "rabbit-modelrail-101d",
    "file": "Model railroad layout.jpg"
+  },
+  {
+   "slug": "cover-ski1015",
+   "file": "Ski freeride.jpg"
+  },
+  {
+   "slug": "cover-ski1015b",
+   "file": "NISEKO HANAZONO Ski 308.jpg"
+  },
+  {
+   "slug": "ski1015-nisekocat",
+   "category": "Category:Niseko Mt. Resort Grand Hirafu",
+   "limit": 10
+  },
+  {
+   "slug": "ski1015-goggles",
+   "file": "Vonn-lindsey 15-12-07 - 007.jpg"
+  },
+  {
+   "slug": "ski1015-gogglescat",
+   "category": "Category:Ski goggles",
+   "limit": 8
+  },
+  {
+   "slug": "ski1015-avycat",
+   "category": "Category:Avalanche transceivers",
+   "limit": 8
+  },
+  {
+   "slug": "ski1015-boot",
+   "file": "Salomon SX92.jpg"
+  },
+  {
+   "slug": "ski1015-bootcat",
+   "category": "Category:Ski boots",
+   "limit": 8
+  },
+  {
+   "slug": "ski1015-bindings",
+   "file": "Alpine ski binding plates 01.jpg"
+  },
+  {
+   "slug": "ski1015-bindingscat",
+   "category": "Category:Ski bindings",
+   "limit": 8
+  },
+  {
+   "slug": "ski1015-helmetcat",
+   "category": "Category:Ski helmets",
+   "limit": 8
+  },
+  {
+   "slug": "ski1015-niseko-town",
+   "file": "Niseko Mt.Resort Grand Hirafu.JPG"
+  },
+  {
+   "slug": "ski1015-niseko-town2",
+   "file": "Niseko Northern Resort Annupuri.jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -481,5 +539,6 @@
  "_retrigger101": "No.101 weekend early batch: Jeju cover (Seongsan Ilchulbong) + fountain-pen nib heroes 2026-09-13",
  "_retrigger101b": "No.101 batch2: tailoring canvas, Beyerdynamic(repr), Citizen(repr), Fed, Hallasan, haenyeo, Bab-el-Mandeb, SG haze, dead-hang, Venice Lido 2026-09-13",
  "_retrigger101c": "No.101 batch3: model railway HO layout heroes (Rabbit Hole switched from fountain pens) 2026-09-13",
- "_retrigger101d": "No.101 model railway hero retry (alt filenames)"
+ "_retrigger101d": "No.101 model railway hero retry (alt filenames)",
+ "_retrigger1015": "No.101.5 special (Ski Technology & Gadgets, 2026/27): Niseko cover + freeride alt, goggles, avalanche gear cat, boot, bindings, helmet cat, Niseko town 2026-09-13"
 }
