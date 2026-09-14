@@ -1,0 +1,520 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 103,
+ "date": "Tuesday 15 September 2026",
+ "title": "The friction you cannot design out",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the fifteenth of September. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go. [warmly] Claire, what have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Three things. [pause] A drone shut Saudi Arabia's back door, so both of the peninsula's oil exits are blocked at once, and Brent is over a hundred and eight dollars."
+  },
+  {
+   "s": "B",
+   "t": "Two — the Fed meets tomorrow, and it's expected to <i>raise</i> rates straight into that oil shock. Which is not supposed to happen."
+  },
+  {
+   "s": "A",
+   "t": "And three, the lighter half of the book: work boots you resole for thirty years, and a fifteen-billion-dollar hobby ranked by a single website."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Board games. I've been waiting all week for this one."
+  },
+  {
+   "s": "A",
+   "t": "Of course you have. Let's start with the war."
+  },
+  {
+   "s": "B",
+   "t": "So walk me through it. Last week it was a standoff at one strait. What changed?"
+  },
+  {
+   "s": "A",
+   "t": "Everything, over the weekend. Drones — launched, the Saudis say, from Iraqi soil — hit the East–West pipeline. That's the five-million-barrel-a-day line Saudi Aramco built specifically so its oil could skip the Strait of Hormuz."
+  },
+  {
+   "s": "B",
+   "t": "Ah. So the whole point of that pipeline was to have a way out if Hormuz closed."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. And Riyadh shut it. [pause] So the one card the kingdom held against a blockade is gone."
+  },
+  {
+   "s": "B",
+   "t": "And the strait itself?"
+  },
+  {
+   "s": "A",
+   "t": "Still contested. And now the second gate is fully closed too — the Houthis finished taking Yemen's Red Sea coast, the port of Mocha and Mayyun island, which gives them the Yemeni bank of Bab el-Mandeb."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Both doors on the Arabian Peninsula. At once. That's a first."
+  },
+  {
+   "s": "A",
+   "t": "It is. Between the two chokepoints you've got about a fifth of the world's seaborne oil moving under threat, and Hormuz traffic has thinned to a handful of tankers a day, from more than a hundred."
+  },
+  {
+   "s": "B",
+   "t": "What happened to the peace talks? There were talks in Oman."
+  },
+  {
+   "s": "A",
+   "t": "Collapsed. Postponed the same day, no new date. Iran's line is that Hormuz stays shut, quote, until the United States corrects its behaviour — though they say they're still letting through cargoes bound for China, India and Russia."
+  },
+  {
+   "s": "B",
+   "t": "So it's a weapon aimed at Washington, not a blockade of everyone."
+  },
+  {
+   "s": "A",
+   "t": "That's Tehran's framing, yes. Riyadh's is different — Aramco's chief executive said the pipeline had done more to stabilise oil markets than the American strategic-reserve release, which is a pointed way of saying: the shock-absorber is now switched off."
+  },
+  {
+   "s": "B",
+   "t": "And the Western read?"
+  },
+  {
+   "s": "A",
+   "t": "The energy agency calls it the largest supply disruption in the history of the oil market. Inflation, freight, the pump. [pause] But here's the honest counter-argument, Theo, and I want to give it air."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Go on."
+  },
+  {
+   "s": "A",
+   "t": "Not a single barrel has actually been destroyed. The shut routes have <i>re-routed</i> oil, not sunk it. Analysts say Brent screens rich, and Goldman's base case still has crude falling back toward eighty-five dollars."
+  },
+  {
+   "s": "B",
+   "t": "So the bet against oil is a bet that one of these gates reopens before the world actually runs short."
+  },
+  {
+   "s": "A",
+   "t": "That's the whole trade in one sentence. [wry] And it walks us straight into the money desk."
+  },
+  {
+   "s": "B",
+   "t": "Before we leave the world — there was something on the NATO border, wasn't there?"
+  },
+  {
+   "s": "A",
+   "t": "There was. A Russian strike drone landed about two kilometres from the Polish border on Sunday. Hit a filling station and a train."
+  },
+  {
+   "s": "B",
+   "t": "Two kilometres from NATO territory. [pause] That's a different order of risk than a drone over Kharkiv."
+  },
+  {
+   "s": "A",
+   "t": "It is, and Warsaw treated it that way — air defences on alert, the prime minister warning Moscow will intensify strikes along Europe's frontier. And separately, President Trump has asked Kyiv to stop hitting Russia's oil refineries."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Because of fuel prices."
+  },
+  {
+   "s": "A",
+   "t": "Because of diesel prices. So you've got the eastern war and the Gulf war pushing on the same pump, from two continents."
+  },
+  {
+   "s": "A",
+   "t": "[wry] So both the Fed and Enterprise Singapore report tomorrow. Busy Wednesday."
+  },
+  {
+   "s": "B",
+   "t": "Two prints, one day. [pause] All right, the money desk."
+  },
+  {
+   "s": "B",
+   "t": "Okay. The Fed. Explain the strange part, because raising rates into a shock sounds backwards."
+  },
+  {
+   "s": "A",
+   "t": "It is backwards, by the last cycle's playbook. Normally a supply shock slows growth, and you'd expect cuts. But dear oil is an inflation impulse, and it landed just as a hot American inflation print came in. So the futures market now puts the odds of a <i>hike</i> tomorrow at around eighty-five per cent."
+  },
+  {
+   "s": "B",
+   "t": "Under the new chair. Warsh."
+  },
+  {
+   "s": "A",
+   "t": "Under Kevin Warsh, yes. And the ten-year Treasury yield answered by touching five per cent — first time since twenty twenty-three."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And you told me the tell this week is gold. Which fell."
+  },
+  {
+   "s": "A",
+   "t": "Which fell. That's the part people get wrong. In a normal geopolitical panic, gold goes <i>up</i>. This week, with a shooting war widening across two straits, gold dropped about a percent and a half, to around four thousand two hundred and eighty-five dollars."
+  },
+  {
+   "s": "B",
+   "t": "Why?"
+  },
+  {
+   "s": "A",
+   "t": "Because rising real yields and a firmer dollar beat the safe-haven demand. It's not fear bidding up safety — it's the price of money rising faster than the price of fear. Bitcoin told the same story, sliding toward seventy-seven thousand."
+  },
+  {
+   "s": "B",
+   "t": "So for someone with a boring global-index-fund-and-bonds portfolio — what does the regime actually mean?"
+  },
+  {
+   "s": "A",
+   "t": "Global equities are resilient, near a record, but squeezed by rates and oil. Global bonds are the pressure valve — cycle-high yields hurt the price. Gold's dip is not lost status, it's real yields doing the one thing that reliably fights gold. And bitcoin's trading as risk, not a hedge."
+  },
+  {
+   "s": "B",
+   "t": "Not investment advice."
+  },
+  {
+   "s": "A",
+   "t": "Never. It's market explanation, and forecasts are forecasts."
+  },
+  {
+   "s": "B",
+   "t": "Close to home — the haze got worse."
+  },
+  {
+   "s": "A",
+   "t": "It crossed the line. The twenty-four-hour reading touched a hundred and forty-five in the small hours this morning, which is the middle of the unhealthy band. Saturday the air was fine; by this morning it wasn't."
+  },
+  {
+   "s": "B",
+   "t": "What's the government doing?"
+  },
+  {
+   "s": "A",
+   "t": "The twenty-eight-agency Haze Task Force has stood up its response plans, and they're opening air-conditioned community spaces for anyone who needs respite. The minister's line was blunt — it could be with us for a while."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic's note writes itself: the Transboundary Haze Pollution Act turns twelve this year, and in twelve years it has never once produced a successful prosecution. The cooling rooms and the N-ninety-five masks are the real tools. The law is diplomacy."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Anything cheerier from the little red dot?"
+  },
+  {
+   "s": "A",
+   "t": "The pay debate closed — the prime-ministerial benchmark reset from two-point-two million to three-point-six. And the August export print lands tomorrow, same day as the Fed."
+  },
+  {
+   "s": "B",
+   "t": "Tech. DeepSeek did something odd."
+  },
+  {
+   "s": "A",
+   "t": "They shipped a new model, V-four-point-one Flash, published genuinely strong benchmarks — and then announced they'd silently retire the old model and reroute everyone to the new one."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Silently swap the model out from under people?"
+  },
+  {
+   "s": "A",
+   "t": "At four in the morning, Greenwich time. Users revolted — some had tuned their whole pipeline to the old model's exact behaviour — and within days DeepSeek reversed it. Kept the old one alive."
+  },
+  {
+   "s": "B",
+   "t": "Good. A silent swap is a silent regression."
+  },
+  {
+   "s": "A",
+   "t": "Right. And the honest home-lab footnote: the new model wants about six hundred and fourteen gigabytes of memory to run. So for a person at a desk, open weights doesn't mean runs-at-home. The practical single-card pick moves to a smaller Qwen model."
+  },
+  {
+   "s": "B",
+   "t": "And the gadget of the week?"
+  },
+  {
+   "s": "A",
+   "t": "Apple Watch Ultra four. Ships Thursday, seven hundred and ninety-nine dollars, same as last year. A day more battery, a new sensor array — but no blood-pressure sensing, no new screen. Even the owners are calling it not an obligatory upgrade."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] For a buy-once reader, an eight-hundred-dollar watch you replace every year is the opposite of the whole philosophy."
+  },
+  {
+   "s": "A",
+   "t": "Which is the desk's exact verdict. Buy an Ultra when you have none, then skip two generations."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier — the buy-it-once desk. This week, boots."
+  },
+  {
+   "s": "A",
+   "t": "Work and casual leather boots, taught from the leather up. Two things decide how long a boot lives: the hide, and how the sole is joined. A Goodyear welt lets a cobbler resole it for decades — the upper never touched."
+  },
+  {
+   "s": "B",
+   "t": "So the construction is the buy-once part."
+  },
+  {
+   "s": "A",
+   "t": "The construction is everything. The rational tier is an American welted boot — a Red Wing Iron Ranger at three hundred and forty-nine dollars, an Alden at seven hundred and thirty. Above that you're paying for exotic leather and identity, not more wear."
+  },
+  {
+   "s": "B",
+   "t": "Is there a sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Always. Even the fans ask whether a thirteen-hundred-dollar Viberg is worth nearly four times a Red Wing — and the honest answer is both resole forever. Also: a heavy leather-lined boot built for cold Cascade mud is a lot of boot for a Singapore desk in ninety per cent humidity."
+  },
+  {
+   "s": "A",
+   "t": "One more from the gear desks — the quieter buy-once pick this week isn't the watch. It's a six-hundred-and-ninety-nine-dollar in-ear headphone from Noble Audio, which, unlike a smartwatch, will sound the same in a decade."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's the tell, isn't it. The thing that still works in ten years versus the thing you replace every twelve months."
+  },
+  {
+   "s": "A",
+   "t": "That's the whole spine of the buy-once book, spoken aloud."
+  },
+  {
+   "s": "A",
+   "t": "[amused] All right. I know you've been holding your breath."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Modern board games. And Claire, this is not Monopoly. This is the post-Catan world of <i>designer</i> games — you follow the designer the way a film buff follows a director."
+  },
+  {
+   "s": "A",
+   "t": "[curious] How big is it, really?"
+  },
+  {
+   "s": "B",
+   "t": "About fifteen-point-eight billion dollars in twenty twenty-five. Kickstarter alone took two hundred and seventy million dollars in game pledges in a single year. And there's one website — BoardGameGeek — that four million people use to rank everything."
+  },
+  {
+   "s": "A",
+   "t": "One website ranks the whole hobby?"
+  },
+  {
+   "s": "B",
+   "t": "One website. Its number one game has been the same industrial-revolution Euro game, Brass Birmingham, since twenty twenty-three — and the running joke is, quote, sigh, another heavy Euro at the top."
+  },
+  {
+   "s": "A",
+   "t": "So where does a beginner start? Say, someone with a twelve-year-old."
+  },
+  {
+   "s": "B",
+   "t": "The gateway trio — Wingspan, Azul, Splendor. Cheap, quick, beautiful on the table. Ticket to Ride plays great with a twelve-year-old. Start small, and lurk for a month before you buy, because—"
+  },
+  {
+   "s": "A",
+   "t": "Because?"
+  },
+  {
+   "s": "B",
+   "t": "Because the confession of the whole hobby is the pile of shame. You buy games far faster than you play them. [chuckles] A Kickstarter turns a sixty-dollar game into a three-hundred-dollar commitment you wait two years for."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] So it's the buy-once desk's evil twin."
+  },
+  {
+   "s": "B",
+   "t": "It's the anti-buy-once. And the cutting edge this year had real drama — the industry's top prize, the Spiel des Jahres, gave its connoisseur award to a Reiner Knizia game called Rebirth, completing a career sweep of all three jury prizes for the most prolific designer alive."
+  },
+  {
+   "s": "A",
+   "t": "And the boring grown-up problem?"
+  },
+  {
+   "s": "B",
+   "t": "Tariffs. Most games are made in China, US duties spiked toward a hundred and forty-five per cent before settling near thirty, and one reviewer called it the year the golden age ends. Even here in Singapore, you're storing cardboard in eighty-per-cent humidity — silica gel and sealed totes, or it warps."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Okay. That was genuinely fun. Next descents?"
+  },
+  {
+   "s": "B",
+   "t": "Home espresso, mechanical keyboards, or speedcubing. Reader picks."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Culture. The Emmys were handed out overnight."
+  },
+  {
+   "s": "B",
+   "t": "And the medical show did it again."
+  },
+  {
+   "s": "A",
+   "t": "The Pitt took Outstanding Drama for a second straight season — rare, back-to-back for its first two seasons. And on the comedy side, Apple's freshman show Widow's Bay swept in, on the back of Apple's biggest-ever year: eighty-nine nominations."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Prestige wins the drama, the biggest cheque wins the comedy."
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic's read, more or less. Meanwhile the reader's own desks — the watch this week is a Citizen, a reissue of a nineteen-seventy-three bullhead chronograph that runs on light and never needs a battery."
+  },
+  {
+   "s": "B",
+   "t": "Never a battery. That's the good kind of buy-once."
+  },
+  {
+   "s": "A",
+   "t": "For about nineteen hundred Singapore dollars — and honestly you're paying for the design story, not the movement."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Family desk — this one hit me."
+  },
+  {
+   "s": "A",
+   "t": "Teen sleep is at a thirty-year low. The biggest study yet — more than four hundred thousand American adolescents — found only about thirty-seven per cent of twelve- and thirteen-year-olds get seven hours."
+  },
+  {
+   "s": "B",
+   "t": "And the reflex is to blame the phone."
+  },
+  {
+   "s": "A",
+   "t": "And the reflex is wrong. The decline started in nineteen ninety-one — before the smartphone existed. Screens are at most an accelerant. The single biggest lever is a later school start, which is a system fix, not a parenting failure."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Protect the hour, not the app."
+  },
+  {
+   "s": "A",
+   "t": "Protect the hour. And on Fitness — the same shape, one generation up. A study found people on the weight-loss drugs, the GLP-ones, actually move <i>less</i> — about five hundred and sixty fewer steps a day."
+  },
+  {
+   "s": "B",
+   "t": "Wait — the drug that's supposed to make you healthier makes you move less?"
+  },
+  {
+   "s": "A",
+   "t": "It removes the appetite, and some of the impulse to move. But the muscle-melting panic you hear everywhere looks overstated — a better-controlled trial found the drugs don't cause disproportionate muscle loss. The prescription is dull: lift, and eat protein."
+  },
+  {
+   "s": "B",
+   "t": "Not medical advice."
+  },
+  {
+   "s": "A",
+   "t": "Not medical advice. And a quick one for the diary — the Grand Prix, the ninth to eleventh of October, has its first-ever Sprint, and Snow City closes for good on the thirtieth after twenty-six years."
+  },
+  {
+   "s": "B",
+   "t": "[amused] A snowless clock ticking in the tropics."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Which brings us, quietly, to the long read."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Go."
+  },
+  {
+   "s": "A",
+   "t": "South Korea. The country the world files under, quote, dying — the lowest birthrate on earth. And yet ten million Koreans now call themselves runners, up from about five million in twenty seventeen. They gather at dawn along the Han River in what they call running crews."
+  },
+  {
+   "s": "B",
+   "t": "A running club. That doesn't sound under the radar."
+  },
+  {
+   "s": "A",
+   "t": "It's not the running. It's what the running <i>is</i>. In a society that's given up on family, church and the company drink, the crew is a soft community — belonging you can join on a Tuesday and quit on a Thursday. It asks for a pace, not a life."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Bowling Alone, in reverse."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that. Robert Putnam mourned Americans bowling alone, the draining of social capital. Korea is doing the opposite — rebuilding the commons, in the flesh, at dawn. But it rebuilt community as a <i>product</i>: opt-in, brandable, quittable."
+  },
+  {
+   "s": "B",
+   "t": "And there's a catch. There's always a catch."
+  },
+  {
+   "s": "A",
+   "t": "The bill arrived this year. Two backlashes. One over public space — museums and parks putting up notices against crews clogging the paths, citizens complaining the crews act as if they've rented the whole riverside."
+  },
+  {
+   "s": "B",
+   "t": "And the second?"
+  },
+  {
+   "s": "A",
+   "t": "A trust panic. A viral line — if your partner joins a running crew, break up. The crews had quietly become a place to meet, and the jealousy came with it."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So you can strip the obligation out of the invitation—"
+  },
+  {
+   "s": "A",
+   "t": "—but you cannot strip it out of what people do to each other once they're in the same place, week after week. The friction the design deleted turns out to have been load-bearing. It was the thing that made a community more than a scheduled crowd."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And that's almost hopeful. The friction came back because it's real."
+  },
+  {
+   "s": "A",
+   "t": "It's the most hopeful thing in the story. When the Financial Times writes this up in three weeks — how South Korea's run clubs rebuilt community — you'll already know the harder half. They rebuilt the costs, too."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] It's the sound a society makes when it refuses to only disappear."
+  },
+  {
+   "s": "B",
+   "t": "Ten million people, jogging their way back into the same room."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] What a note to end on."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
