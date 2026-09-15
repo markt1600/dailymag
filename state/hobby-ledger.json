@@ -204,16 +204,15 @@
       "hobby": "Board games (modern designer)",
       "issue": "103",
       "angle": "The fifteen-billion-dollar designer-game hobby ranked by one database &mdash; Euro (Rosenberg/Feld/Lacerda) vs thematic/Ameritrash; BGG #1 Brass: Birmingham since Feb 2023; gateway trio Wingspan/Azul/Splendor; market ~$15.83bn (2025), Kickstarter ~$270m games pledges (2024), BGG 4M users, r/boardgam"
+    },
+    {
+      "hobby": "Metal detecting &amp; mudlarking",
+      "issue": "104",
+      "angle": "History you can hold &mdash; coil-over-ground vs reading the tidal Thames foreshore; the gateway first-old-coin/first-hammered jolt; scale r/metaldetecting 348k, r/mudlarking 39k, detectorists+mudlarks &gt;95% of UK annually-recorded finds; community Reddit vs the old-guard forums (Friendly Metal De"
     }
   ],
   "queued": [],
   "pipeline": [
-    {
-      "hobby": "Speedcubing",
-      "category": "Sport / mental",
-      "communities": "r/Cubers, SpeedSolving, WCA competition culture, cubing YouTube (J Perm)",
-      "fit": "A cheap-entry deep-skill hobby with a hardware meta (magnetic/maglev/smart cubes) and a global competition ladder"
-    },
     {
       "hobby": "Home cheesemaking",
       "category": "Food / craft",
@@ -257,16 +256,22 @@
       "fit": "A portable analogue art hobby — fountain-pen crossover, Kolinsky brushes, pan sets; a screen-free discipline for a travelling reader"
     },
     {
-      "hobby": "Home espresso",
-      "category": "Food / craft (gear)",
-      "communities": "r/espresso, Home-Barista, James Hoffmann YouTube, r/coffee",
-      "fit": "Buy-once machine+grinder chase; a mid-40s perfectionist beating the café at his counter"
-    },
-    {
       "hobby": "Freshwater aquascaping",
       "category": "Craft / living",
       "communities": "r/Aquariums, r/PlantedTank, UKAPS, Green Aqua/George Farmer YouTube",
       "fit": "Living underwater gardens as slow high-craft interior design; plants, hardscape, patience, light"
+    },
+    {
+      "hobby": "RC rock crawlers &amp; bashers",
+      "category": "Tech / maker",
+      "communities": "r/rccars, r/crawling, RCCrawler forum, Axial/Traxxas/Element scene",
+      "fit": "Build-tune-drive scale-rig culture; a maker-plus-driving hobby with a deep parts economy"
+    },
+    {
+      "hobby": "Model rocketry",
+      "category": "Maker / outdoor",
+      "communities": "r/rocketry, National Association of Rocketry, Estes/Apogee, Tripoli high-power clubs",
+      "fit": "Estes-to-high-power certification ladder, altimeters and launch-club rituals; a maker hobby with a clear tier ladder"
     }
   ],
   "retired": [
@@ -274,6 +279,21 @@
       "hobby": "Home gardening (condo/balcony)",
       "retired": "6 Aug 2026",
       "note": "Cut from the queue before running (was slotted for No. 65); reader eliminated it. Do not resurface."
+    },
+    {
+      "hobby": "Home espresso",
+      "retired": "16 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, Rabbit Hole Next, No. 103). Was a proposed Next-Descents candidate and an on-deck pipeline entry; removed from the pipeline. Never run, never re-propose."
+    },
+    {
+      "hobby": "Mechanical keyboards",
+      "retired": "16 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, Rabbit Hole Next, No. 103). Covered at No. 80; the retire bar means it is never re-proposed as a Next-Descents chip either."
+    },
+    {
+      "hobby": "Speedcubing",
+      "retired": "16 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, Rabbit Hole Next, No. 103). Was an on-deck pipeline entry; removed from the pipeline. Never run, never re-propose."
     }
   ]
 }
