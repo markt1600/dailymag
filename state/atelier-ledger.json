@@ -154,6 +154,11 @@
       "category": "Glassware &amp; stemware",
       "issue": "104",
       "angle": "The glass from the melt up &mdash; SODA-LIME (cheap, tough, greenish) vs LEAD CRYSTAL (lead oxide = sparkle/weight/ring, softer, leaches, hand-wash) vs LEAD-FREE &ldquo;TITANIUM crystal&rdquo; (titanium/zinc oxide; Zwiesel TRITAN = dishwasher-safe, the have-it-both-ways tier). Tells: mouth-blown (Za"
+    },
+    {
+      "category": "Toothbrushes &amp; oral-care tools",
+      "issue": "105",
+      "angle": "The one feature worth paying for, and the theatre around it &mdash; two powered mechanisms: OSCILLATING-ROTATING (Oral-B, P&amp;G/Braun; round head, largest evidence base) vs SONIC (Philips Sonicare ~31k VPM/Laifen Wave up to 66k VPM on a 6.1W motor; judge freq AND amplitude, not VPM alone; ultrason"
     }
   ],
   "queued": [],
@@ -189,16 +194,34 @@
       "sources": "Iroshizuku, Sailor, Diamine; r/fountainpens, Wonder Pens"
     },
     {
-      "category": "Toothbrushes &amp; oral-care tools",
-      "rotation": "Grooming",
-      "fit": "The buy-once electric base vs heads, manual boar/nylon, the white-label truth",
-      "sources": "Oral-B/Sonicare teardown, r/electrictoothbrush, wirecutter"
-    },
-    {
       "category": "Coffee grinders",
       "rotation": "Kitchen / gear",
       "fit": "Burr geometry as the whole game; hand vs electric; the grind is most of the cup",
       "sources": "Comandante/1Zpresso, Baratza/Niche/Fellow/Weber; r/espresso, Home-Barista, James Hoffmann"
+    },
+    {
+      "category": "Tea ware (teapots, kettles &amp; gaiwan)",
+      "rotation": "Home / table",
+      "fit": "Yixing zisha, tetsubin, porcelain gaiwan; the clay-vs-glaze debate; r/tea, teaware forums",
+      "sources": "A buy-once vessel culture where material shapes the brew; a slow, tactile object world"
+    },
+    {
+      "category": "Kitchen scales &amp; thermometers",
+      "rotation": "Kitchen / gear",
+      "fit": "Load-cell accuracy, Thermapen-vs-clones, calibration; r/Cooking, seriouseats",
+      "sources": "The unglamorous precision tools a serious cook buys once and never replaces"
+    },
+    {
+      "category": "Hairbrushes &amp; combs",
+      "rotation": "Grooming",
+      "fit": "Boar vs nylon, Mason Pearson vs Kent, horn/cellulose-acetate combs; r/wicked_edge crossover",
+      "sources": "A daily grooming object with a real quality hierarchy and a white-label truth"
+    },
+    {
+      "category": "Enamelware &amp; camp mugs",
+      "rotation": "Home / kitchen",
+      "fit": "Vitreous enamel over steel, chip-resistance, Falcon/Riess/Crow Canyon; r/BuyItForLife",
+      "sources": "A humble buy-forever object; the enamel process and the makers who still do it right"
     }
   ],
   "retired": [

@@ -1,0 +1,544 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 105,
+ "date": "Thursday 17 September 2026",
+ "title": "Doing the wrong thing efficiently",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the seventeenth of September. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go. [warmly] Claire, what's on top?"
+  },
+  {
+   "s": "A",
+   "t": "Three things. The Federal Reserve raised rates — the first hike since twenty twenty-three — straight into an oil shock it cannot reach."
+  },
+  {
+   "s": "B",
+   "t": "The Gulf tips from a stand-off into an open tanker war. And — [excited] — radio-control rock crawling, all the way down."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Of course it does. Start with the strait, Theo, because the whole book bends around it."
+  },
+  {
+   "s": "B",
+   "t": "So the Strait of Hormuz has been effectively shut since late winter. What changed this month is that it turned kinetic."
+  },
+  {
+   "s": "A",
+   "t": "American forces struck three Iranian oil tankers. Iran's Revolutionary Guard had fired ballistic missiles at two US warships first. Tehran claims it hit back."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And traffic through the strait has basically collapsed."
+  },
+  {
+   "s": "A",
+   "t": "Roughly eight ships transited on the thirteenth. A normal day is about eighty-five."
+  },
+  {
+   "s": "B",
+   "t": "Eighty-five down to eight. [exhales] That's a waterway carrying nearly a fifth of the world's seaborne crude, moving a tenth of its ships."
+  },
+  {
+   "s": "A",
+   "t": "And the tanker that does sail now sails as a target. Brent settled the week near a hundred and seven dollars — a four-month high."
+  },
+  {
+   "s": "B",
+   "t": "Okay, but here's the part I didn't expect. The first crack in the oil price isn't a supply crack. It's demand."
+  },
+  {
+   "s": "A",
+   "t": "Right. Both OPEC and the International Energy Agency cut their demand forecasts. A war that has spilled no barrels is running into a demand curve bending the other way."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So who's actually reading this as a war, and who's reading it as a price?"
+  },
+  {
+   "s": "A",
+   "t": "Three desks, three framings. Al Jazeera calls it a tanker war with no off-ramp. Iranian state media calls it sovereignty — self-defence of Iranian waters."
+  },
+  {
+   "s": "B",
+   "t": "And the markets desk?"
+  },
+  {
+   "s": "A",
+   "t": "Bloomberg and Reuters treat it as a supply story, not a war story — and they think the rally's overdone. Morgan Stanley sees Brent near seventy-five for the rest of the year. Citi, toward sixty once Hormuz normalises."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Sixty. So the bet is that fear, not shortage, is doing the pricing."
+  },
+  {
+   "s": "A",
+   "t": "And fear is the part that fades. One more number: China and India together still take about forty-four per cent of the Iranian cargoes moving through the strait. Some under naval escort."
+  },
+  {
+   "s": "B",
+   "t": "So Asia is quietly keeping it flowing. That's why the physical market hasn't seized even though the map looks like war. [thoughtful] Huh."
+  },
+  {
+   "s": "A",
+   "t": "Elsewhere, briefly — Europe's eastern airspace keeps getting tested. Romania's counted about thirty-three drone incursions since twenty twenty-two. Copenhagen's airport was closed by drones."
+  },
+  {
+   "s": "B",
+   "t": "And Gaza?"
+  },
+  {
+   "s": "A",
+   "t": "A ceasefire that holds only in the sense that the killing has slowed. Four Palestinians reported killed on the fifteenth. The word is doing a lot of work."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] It is. Take me to the money, Claire. The Fed hiked."
+  },
+  {
+   "s": "A",
+   "t": "The Fed hiked. A quarter-point, to a range of three and three-quarters to four per cent. First rate rise since twenty twenty-three. Unanimous."
+  },
+  {
+   "s": "B",
+   "t": "Into an oil shock. That's the bit people are arguing about."
+  },
+  {
+   "s": "A",
+   "t": "The chair, Kevin Warsh, means it. The dot plot is hawkish — sixteen of eighteen officials project at least one more hike this year. Four want two."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And the market?"
+  },
+  {
+   "s": "A",
+   "t": "The ten-year Treasury yield touched five per cent — a level unseen since two thousand seven. The dollar had its best day since June. Gold made fresh records. Bitcoin did not — it fell toward a three-week low."
+  },
+  {
+   "s": "B",
+   "t": "Gold up, bitcoin down, on the same day. Unpack that."
+  },
+  {
+   "s": "A",
+   "t": "Gold is doing its job as a hedge even against higher yields — the geopolitical and stagflation bid. Bitcoin wears the risk-off tone, plus a failed crypto bill in the US Senate."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what does it mean for the boring, sensible portfolio? The all-world fund, the global bonds."
+  },
+  {
+   "s": "A",
+   "t": "Headwind for both. Higher discount rates and a strong dollar squeeze global equities at once. Global bonds feel the rising yields, though currency hedging cushions it. This is explanation, Theo, not advice."
+  },
+  {
+   "s": "B",
+   "t": "Noted. And the sceptics — because there are sceptics."
+  },
+  {
+   "s": "A",
+   "t": "Loud ones, and not on the fringe. Mark Zandi of Moody's says the textbook answer to a supply shock is: don't respond. A strategist calls it a growth shock dressed up as inflation."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So the Fed might be doing efficiently the exact thing it shouldn't do at all."
+  },
+  {
+   "s": "A",
+   "t": "Which is the line running under the whole issue. Peter Drucker: there is nothing so useless as doing efficiently that which should not be done at all."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I love a Drucker morning. Singapore — the haze broke, right?"
+  },
+  {
+   "s": "A",
+   "t": "It broke. A day after the worst air in seven years — the central reading touched a hundred and fifty-four — it fell back into the seventies and eighties."
+  },
+  {
+   "s": "B",
+   "t": "On what? Policy?"
+  },
+  {
+   "s": "A",
+   "t": "Rain. Showers over Kalimantan. Not the law. And that's the sceptic's whole point — the Transboundary Haze Act has never once carried a prosecution to a conclusion."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A lever that reaches the smoke by waiting for weather."
+  },
+  {
+   "s": "A",
+   "t": "Exports, meanwhile, rose seven point seven per cent in August. A real electronics recovery, but a hard slowdown from July's twenty-four per cent."
+  },
+  {
+   "s": "B",
+   "t": "Alright. Silicon and sovereignty. There were — what — five frontier models in ten days?"
+  },
+  {
+   "s": "A",
+   "t": "Five. But the story with a lever attached is quieter. A server subsidiary called Aivres — the American arm of a blacklisted Chinese firm — routed more than five and a half billion dollars of advanced tech into Southeast Asia."
+  },
+  {
+   "s": "B",
+   "t": "Including the good chips?"
+  },
+  {
+   "s": "A",
+   "t": "Over three billion dollars of Blackwell servers that ultimately served Chinese customers. The parent's been on the blacklist since twenty twenty-three. The subsidiary is not."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So the export wall is a speed bump. The rule named the parent and missed the shadow."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the five models — anything a normal person should care about?"
+  },
+  {
+   "s": "A",
+   "t": "Not really. The frontier crown changes hands every few weeks now, and the gaps at the top sit inside the noise of how the tests are run. It's a spectator sport."
+  },
+  {
+   "s": "B",
+   "t": "So the real news is the plumbing, not the fireworks."
+  },
+  {
+   "s": "A",
+   "t": "Who controls the distribution, who controls the silicon, and who can run a capable model cheaply enough to own rather than rent. And for the home-lab reader, the thing that actually changes your build this quarter isn't a model. It's memory."
+  },
+  {
+   "s": "B",
+   "t": "The RAM thing. How bad?"
+  },
+  {
+   "s": "A",
+   "t": "A thirty-two-gigabyte kit that cost around eighty dollars in mid-twenty twenty-five now runs three hundred and seventy-five to five hundred. The fabs are diverting capacity to AI memory."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Nearly five times. So buy the RAM now."
+  },
+  {
+   "s": "A",
+   "t": "Buy the RAM now. The best model you can run at home is Chinese and cheap — a GLM variant, or a Qwen dense model on a single card. The memory is the constraint."
+  },
+  {
+   "s": "B",
+   "t": "Okay, gear. Sonos put a whole system on your head."
+  },
+  {
+   "s": "A",
+   "t": "The Ace Ultra. Four hundred and forty-nine dollars, wide availability the twenty-ninth. Adaptive cancelling, about thirty-five hours of battery."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the trick?"
+  },
+  {
+   "s": "A",
+   "t": "Hold a button, and the music playing on a nearby Sonos speaker hops into the headphones over Wi-Fi. Then back to the room. The headphones become a node of the system."
+  },
+  {
+   "s": "B",
+   "t": "That's genuinely clever. What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] It's worth exactly nothing if you don't already own the speakers. A walled-garden feature at a price that hasn't moved from the first Ace — and Sonos's app is still recovering from a rough rewrite last year."
+  },
+  {
+   "s": "B",
+   "t": "Wait it and see. Now — the maker desk. Toothbrushes. [amused] You promised me this would be interesting."
+  },
+  {
+   "s": "A",
+   "t": "It's the most sceptical desk in the book. Two mechanisms: an Oral-B spins and pulses; a sonic brush vibrates. And exactly two features have the evidence behind them."
+  },
+  {
+   "s": "B",
+   "t": "Which two?"
+  },
+  {
+   "s": "A",
+   "t": "The pressure sensor and the timer. That's it. The landmark review found powered brushes beat manual by about eleven per cent on gum inflammation — and the authors themselves call the clinical importance unclear."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So the three-hundred-dollar brush with the screen and the app…"
+  },
+  {
+   "s": "A",
+   "t": "Is theatre. The real business is the head. An Oral-B replacement head runs eleven to twelve dollars, four a year — in under two years that alone out-costs a whole rival handle."
+  },
+  {
+   "s": "B",
+   "t": "The handle's the razor, the heads are the blades."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. Philips even puts a chip in every head that counts seconds, not wear, and tells you to replace it on a timer. Look at your bristles, not the light."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Look at your bristles, not the light. That's the whole desk."
+  },
+  {
+   "s": "A",
+   "t": "A good manual brush and floss is the honest ceiling. The electric's real case is narrow — it babysits people who brush too hard."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Radio-control rock crawling and bashing. Two tempers, one obsession. Crawlers pick a slow line over a boulder, inch by inch. Bashers launch a truck off a ramp at fifty and repair what breaks."
+  },
+  {
+   "s": "A",
+   "t": "And people fall in at a specific moment."
+  },
+  {
+   "s": "B",
+   "t": "For crawlers, it's the slow-line epiphany — the first time patience and torque put the rig somewhere it looked like it couldn't go. For bashers, it's the first clean backflip. Or surviving a twenty-foot lawn dart with nothing broken."
+  },
+  {
+   "s": "A",
+   "t": "[amused] A twenty-foot lawn dart."
+  },
+  {
+   "s": "B",
+   "t": "The subreddit for cars at large runs about a hundred and fifty-eight thousand members. The market's around one and a half billion dollars a year. And here's the buy-once lesson, Claire — skip the toy."
+  },
+  {
+   "s": "A",
+   "t": "Skip the toy?"
+  },
+  {
+   "s": "B",
+   "t": "The sub-sixty-dollar department-store truck has no parts support. The first thing that breaks ends the hobby. Start one rung up — a hobby-grade micro, around a hundred and ten dollars."
+  },
+  {
+   "s": "A",
+   "t": "And the first upgrade isn't speed."
+  },
+  {
+   "s": "B",
+   "t": "It's brass. You bolt machined brass — about eighty-one grams a wheel — low in the chassis to drop the centre of gravity and stop the rollovers. [warmly] It's the least glamorous, most important thing you buy."
+  },
+  {
+   "s": "B",
+   "t": "And there's a big release the community's excited about, right?"
+  },
+  {
+   "s": "A",
+   "t": "Traxxas teased a one-tenth truck with factory portal axles — geared hubs that lift the axle for clearance, the thing people used to machine in by hand. Most anticipated item of the year in this little world."
+  },
+  {
+   "s": "B",
+   "t": "[amused] A little world with strong opinions."
+  },
+  {
+   "s": "A",
+   "t": "The deepest. There's a fault line between scale purists, who want the rig to look like a real truck, and the performance crowd, who'll bolt a low ugly chassis under it just to climb better. They call that a cheater rig."
+  },
+  {
+   "s": "A",
+   "t": "[curious] And the money pit?"
+  },
+  {
+   "s": "B",
+   "t": "It's real. The community's own honest line: a rig is never finished. On a five-hundred-and-fifty-dollar basher, a round of weekend upgrades runs three to five hundred more. Breakage isn't a risk — it's the business model."
+  },
+  {
+   "s": "A",
+   "t": "So it's four hobbies in one shell."
+  },
+  {
+   "s": "B",
+   "t": "Engineering, driving, building, collecting. You arrive for one and stay for the other three. In Singapore you run them at indoor tracks, or a car-park, and the used market on Carousell is alive."
+  },
+  {
+   "s": "A",
+   "t": "[wry] A room full of lithium packs and machined brass. Noted."
+  },
+  {
+   "s": "B",
+   "t": "Quick hits on the rest. Screen and Sound — a witch sequel opened number one."
+  },
+  {
+   "s": "A",
+   "t": "Practical Magic Two. Critics at about a third, audiences past ninety. The widest split of the year. And the sceptic's read is that the ninety measures affection for the nineteen ninety-eight original, not the film in front of you."
+  },
+  {
+   "s": "B",
+   "t": "A nostalgia score. And the watch desk?"
+  },
+  {
+   "s": "A",
+   "t": "Grand Seiko's most accurate mainspring watch — good to twenty seconds a year — and, finally, the adjustable clasp its owners have begged for. Eleven thousand four hundred dollars, though."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And the catch, because there's always a catch."
+  },
+  {
+   "s": "A",
+   "t": "It's quartz-regulated. So you're paying eleven thousand dollars for battery-free-but-not-purely-mechanical precision. Purists have questions."
+  },
+  {
+   "s": "B",
+   "t": "The family desk — this one matters to a lot of listeners."
+  },
+  {
+   "s": "A",
+   "t": "Australia ran the world's first under-sixteen social-media ban. Nine months in, the evaluation is in: usage fell from about eighty-six per cent to eighty-two. That's it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Four points."
+  },
+  {
+   "s": "A",
+   "t": "And between fifteen and nineteen per cent of kids just used fake accounts. The uncomfortable finding: parental awareness of what their children were doing actually fell."
+  },
+  {
+   "s": "B",
+   "t": "So the ban drove it out of sight."
+  },
+  {
+   "s": "A",
+   "t": "The lever that works isn't a ban. It's a bedtime. The device merely present in the bedroom worsens a twelve-year-old's sleep even when it's never touched. Charge the phone in the kitchen."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Charge it in the kitchen. Simple. And fitness — the walking thing."
+  },
+  {
+   "s": "A",
+   "t": "A big study found your walking pace out-predicts your cholesterol panel for early death. More than four hundred thousand people."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Your walking speed beats a blood test?"
+  },
+  {
+   "s": "A",
+   "t": "In people with existing conditions, swapping the blood panel for self-reported walking pace improved the model. But — the sceptic — it's a proxy. Sick people walk slower because they're sick. It's a screening prompt, not a promise."
+  },
+  {
+   "s": "B",
+   "t": "And the Diary, fast — what do I book?"
+  },
+  {
+   "s": "A",
+   "t": "The Grand Prix, ninth to eleventh of October, with its first-ever Sprint. The Kyushu sumo goes on sale Saturday the nineteenth — the good days vanish in hours. And a four-night stadium run in December."
+  },
+  {
+   "s": "B",
+   "t": "And where do I eat?"
+  },
+  {
+   "s": "A",
+   "t": "A basement curry the whole island is queueing for — a thirty-six-hour black curry from a stall that grew up out of a university. The pick of the week."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] A thirty-six-hour curry. Okay. Bring us home, Claire — the long read."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] New Zealand. And the argument is: the collapse of the moat."
+  },
+  {
+   "s": "B",
+   "t": "The moat being distance."
+  },
+  {
+   "s": "A",
+   "t": "For two centuries, distance was the country's cheapest drug policy — too far, too small for a cartel to bother. That protection is gone."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the drug didn't land in the cities."
+  },
+  {
+   "s": "A",
+   "t": "It settled in the small towns the economy hollowed out. Meth consumption's hitting records — one town's reading quadrupled in a single year. And the price collapsed: a gram fell from about five hundred and sixty New Zealand dollars to three hundred and thirty-four."
+  },
+  {
+   "s": "B",
+   "t": "So it stopped being an occasional thing."
+  },
+  {
+   "s": "A",
+   "t": "And became a daily, get-through-the-shift thing. A numbing drug for the economically squeezed. The frame that fits isn't vice. It's despair."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the supply — how does it even get there?"
+  },
+  {
+   "s": "A",
+   "t": "Through the gangs. The Comancheros, an Australian outlaw club, set up shop in New Zealand after their senior members were deported from Australia — sent home to a country some had barely lived in, with the networks intact."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So a deportation policy meant to export a problem helped seed one."
+  },
+  {
+   "s": "A",
+   "t": "The networks came home with the men. And there's a bitter symmetry: the isolation that once kept the drug out is exactly what makes New Zealand a prize now — a small, wealthy, high-price island at the end of a shipping lane."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And the state's answer?"
+  },
+  {
+   "s": "A",
+   "t": "Border seizures. And a national advertisement that, by one account, people watched for an average of two seconds before scrolling on."
+  },
+  {
+   "s": "B",
+   "t": "Two seconds. [scoffs] That's the whole issue, isn't it. Drucker's line."
+  },
+  {
+   "s": "A",
+   "t": "It is. Because there's a program that works — a Northland partnership on the demand side that reports a thirty-four per cent drop in harm from offending, and three to seven dollars back for every dollar spent."
+  },
+  {
+   "s": "B",
+   "t": "And it's underfunded."
+  },
+  {
+   "s": "A",
+   "t": "While the seizures make the news. Efficiency everywhere, aimed at the wrong thing. When the Financial Times writes this up in three weeks, it'll be a story about a small country finding out its oldest defence quietly stopped working."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] And the reader of that page knew first. [pause] That's the whole point of the desk."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

@@ -209,6 +209,11 @@
       "hobby": "Metal detecting &amp; mudlarking",
       "issue": "104",
       "angle": "History you can hold &mdash; coil-over-ground vs reading the tidal Thames foreshore; the gateway first-old-coin/first-hammered jolt; scale r/metaldetecting 348k, r/mudlarking 39k, detectorists+mudlarks &gt;95% of UK annually-recorded finds; community Reddit vs the old-guard forums (Friendly Metal De"
+    },
+    {
+      "hobby": "RC rock crawlers &amp; bashers",
+      "issue": "105",
+      "angle": "Two tempers, one obsession &mdash; crawling (slow \"line\" over rocks, low-end torque, articulation) vs bashing (30-90mph jumps, crash-and-repair); r/rccars 158k/r/crawling 34k, RCCrawler forum, Crawler Canyon/RC CWR; mkt ~US$1.5bn (~6% CAGR, electric 58.5%). Scales 1/24 SCX24 $110/1/18 TRX-4M $180 en"
     }
   ],
   "queued": [],
@@ -226,22 +231,10 @@
       "fit": "A closed-ecosystem craft &mdash; hardscape, springtails, sealed glass gardens; distinct from aquascaping"
     },
     {
-      "hobby": "RC crawlers &amp; bashers (radio-control off-road)",
-      "category": "Tech / maker",
-      "communities": "r/rccars, r/crawling, RCCrawler forum, Axial/Traxxas/Element scene",
-      "fit": "Build-tune-bash scale-rig culture; a maker-plus-driving hobby with a deep parts economy"
-    },
-    {
       "hobby": "Urban sketching &amp; watercolour",
       "category": "Art / craft",
       "communities": "r/UrbanSketchers, r/Watercolor, Urban Sketchers global",
       "fit": "Pocket-kit meta (pans, fountain-brush pens, sketchbooks) and a plein-air community; distinct from miniature painting"
-    },
-    {
-      "hobby": "Metal detecting &amp; mudlarking",
-      "category": "Outdoor / collecting",
-      "communities": "r/metaldetecting, Thames foreshore permits, detecting forums",
-      "fit": "Gear ladder (Minelab/Nokta/XP), the find-culture and history; a patient outdoor hunt"
     },
     {
       "hobby": "Kendama &amp; skill toys",
@@ -250,28 +243,40 @@
       "fit": "A cheap-entry deep-skill hobby with a wood/paint gear meta and a competition ladder"
     },
     {
-      "hobby": "Urban sketching &amp; watercolour",
-      "category": "Art / craft",
-      "communities": "r/UrbanSketchers, r/Watercolor, Urban Sketchers global, brush/pen scene",
-      "fit": "A portable analogue art hobby — fountain-pen crossover, Kolinsky brushes, pan sets; a screen-free discipline for a travelling reader"
-    },
-    {
-      "hobby": "Freshwater aquascaping",
-      "category": "Craft / living",
-      "communities": "r/Aquariums, r/PlantedTank, UKAPS, Green Aqua/George Farmer YouTube",
-      "fit": "Living underwater gardens as slow high-craft interior design; plants, hardscape, patience, light"
-    },
-    {
-      "hobby": "RC rock crawlers &amp; bashers",
-      "category": "Tech / maker",
-      "communities": "r/rccars, r/crawling, RCCrawler forum, Axial/Traxxas/Element scene",
-      "fit": "Build-tune-drive scale-rig culture; a maker-plus-driving hobby with a deep parts economy"
-    },
-    {
       "hobby": "Model rocketry",
       "category": "Maker / outdoor",
       "communities": "r/rocketry, National Association of Rocketry, Estes/Apogee, Tripoli high-power clubs",
-      "fit": "Estes-to-high-power certification ladder, altimeters and launch-club rituals; a maker hobby with a clear tier ladder"
+      "fit": "Estes-to-high-power certification ladder, altimeters and launch-club rituals; a clear tier ladder"
+    },
+    {
+      "hobby": "Leathercraft",
+      "category": "Craft / maker",
+      "communities": "r/Leathercraft, r/leatherworking, Nigel Armitage/JH Leather",
+      "fit": "Hand saddle-stitch, Barry King tools, veg-tan; a buy-once-tools craft that overlaps the Atelier"
+    },
+    {
+      "hobby": "Hand-tool woodworking",
+      "category": "Craft / maker",
+      "communities": "r/handtools, r/woodworking, Paul Sellers, Lie-Nielsen scene",
+      "fit": "Chisels and planes over machines; a quiet, skill-deep craft with a buy-once tool ladder"
+    },
+    {
+      "hobby": "Slot car racing",
+      "category": "Tech / maker",
+      "communities": "r/slotcars, SlotForum, Scalextric/Carrera/NSR scene",
+      "fit": "A garage-scale motorsport with home tracks, tuning and a collector economy"
+    },
+    {
+      "hobby": "Origami &amp; paper craft",
+      "category": "Craft / art",
+      "communities": "r/origami, Origami-Resource-Center, Robert Lang scene",
+      "fit": "A near-free deep-skill craft; complex-model culture, paper geekery, math crossover"
+    },
+    {
+      "hobby": "Knife making / bladesmithing",
+      "category": "Maker / craft",
+      "communities": "r/Bladesmith, r/knifeclub, Walter Sorrells/forged-in-fire scene",
+      "fit": "Stock-removal to forge; steel, heat-treat and grinds &mdash; a maker craft with a deep tool economy"
     }
   ],
   "retired": [
