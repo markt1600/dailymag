@@ -729,6 +729,38 @@
   {
    "slug": "family-classcat-106",
    "category": "Category:Children in classrooms"
+  },
+  {
+   "slug": "cover-tankercat-106",
+   "category": "Category:Oil tankers"
+  },
+  {
+   "slug": "cover-vlcccat-106",
+   "category": "Category:Crude oil tankers by name"
+  },
+  {
+   "slug": "cover-hormuzcat-106",
+   "category": "Category:Strait of Hormuz"
+  },
+  {
+   "slug": "cover-stscat-106",
+   "category": "Category:Ship-to-ship cargo transfer"
+  },
+  {
+   "slug": "sg-hazecat2-106",
+   "category": "Category:Haze"
+  },
+  {
+   "slug": "sg-coecat-106",
+   "category": "Category:Road transport in Singapore"
+  },
+  {
+   "slug": "diary-sumocat3-106",
+   "category": "Category:Sumo"
+  },
+  {
+   "slug": "tech-servercat-106",
+   "category": "Category:Server rooms"
   }
  ],
  "_fetch_rev": 15,
@@ -813,5 +845,6 @@
  "_retrigger105": "No.105 weekday: Warsh portrait(cover/Macro Fed hike), RC crawler(Rabbit Hole), Oral-B/Sonicare(Atelier toothbrushes), Strait of Hormuz(World), Grand Seiko(Good Life repr), Kaikohe(Undercurrent NZ meth) 2026-09-17",
  "_retrigger1055": "No. 105.5 special — DIY home robotics: open arms, quadruped kits, Huaqiangbei, ROBO-ONE",
  "_retrigger106": "No.106 weekday: model rocketry (Rabbit Hole), fountain-pen ink & paper (Atelier), ship-to-ship transfer/tankers (World+cover), Warsh/Fed (Macro), SG haze (Singapore) 2026-09-18",
- "_retrigger106b": "No.106 batch 2: McIntosh CS7500 (Good Life hard gate), Resident Evil poster (Screen), sumo (Diary), walking (Fitness), school (Family) 2026-09-18"
+ "_retrigger106b": "No.106 batch 2: McIntosh CS7500 (Good Life hard gate), Resident Evil poster (Screen), sumo (Diary), walking (Fitness), school (Family) 2026-09-18",
+ "_retrigger106c": "No.106 batch 3: cover tanker/Hormuz (stscat+tankercat came back empty), SG haze+road, sumo, servers 2026-09-18"
 }
