@@ -1,5 +1,5 @@
 {
-  "count": 646,
+  "count": 661,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -4522,6 +4522,111 @@
       "last_covered": "No. 98",
       "last_peg": "Screen & Sound LEAD — Lion still NOT awarded at filing (closing ceremony 12 Sep, Gyllenhaal jury); the race read = McDonagh's \"Wild Horse Nine\" the ~14-min ovation frontrunner, Zeller's \"Bunker\" (Cruz/Bardem) a 15-min but split counterweight; sceptic = ovation length a weak predictor. (delta on No. 96)",
       "next_peg": "Next peg = the 12 Sep Golden Lion winner (grade the \"race\" call). Do not re-run the race — report the result."
+    },
+    {
+      "subject": "Canon EOS R8 Mark II",
+      "type": "Product (camera)",
+      "last_covered": "No. 106",
+      "last_peg": "The Kit LEAD — announced 15 Sep with reviews inside 24h; S$2,519 body / S$2,859 kit, ships late Oct; +US$400 over the R8 buys 5-axis IBIS (7.5 stops), an AF joystick, Wi-Fi 6, a deeper buffer and a reachable card slot, but the 24.2MP sensor and DIGIC X are UNCHANGED from 2023. Reviewers positive (DPReview: &quot;new design, major fixes but frustrations remain&quot;; the 2.36M-dot EVF unchanged and",
+      "next_peg": "Next peg = a measured review consensus, a firmware fix, or a price move."
+    },
+    {
+      "subject": "McIntosh CS7500",
+      "type": "Product (audio)",
+      "last_covered": "No. 106",
+      "last_peg": "The Good Life LEAD — announced 26 Aug, US$12,500, preamp + streamer + DAC + phono + headphone amp in one chassis; Roon Ready, DSD512 over USB, THD 0.005%. No SGD price exists publicly (Ong Radio the local route). Sceptic from a friendly outlet: <i>Gramophone</i> says it is built on the C49 and cannot equal the C12000, and the trade press states plainly it is not McIntosh&#39;s answer to WiiM/Evers",
+      "next_peg": "Next peg = a measured review, an SG price, or a variant."
+    },
+    {
+      "subject": "Resident Evil (2026, dir. Zach Cregger)",
+      "type": "Release (film)",
+      "last_covered": "No. 106",
+      "last_peg": "Screen &amp; Sound LEAD — opened 18 Sep in theatres and IMAX; reviews ~16 Sep claimed the best-reviewed video-game adaptation ever recorded, but at THREE different percentages (96/97/98) from ~70 reviews and with NO audience score. Cregger refused to adapt any existing game story. NEW PEG = the audience score and weekend two.",
+      "next_peg": "Next peg = the audience score and weekend two."
+    },
+    {
+      "subject": "Ghost in the Shell (1995) 4K re-release",
+      "type": "Release (film re-issue)",
+      "last_covered": "No. 106",
+      "last_peg": "Screen &amp; Sound second item — Lionsgate returned Oshii&#39;s film to 800+ North American cinemas on 18 Sep for its thirtieth anniversary (note: 1995, not 1997). Closed unless a box-office or home-video peg.",
+      "next_peg": "Next peg = a box-office or home-video result."
+    },
+    {
+      "subject": "TypeSafe AI / Jev",
+      "type": "Product (AI model)",
+      "last_covered": "No. 106",
+      "last_peg": "Technology LEAD — out of stealth 15 Sep with ~US$40m led by DCVC; a &quot;System One&quot; model returning only typed answers (Choice/Score/boolean) with calibrated confidence; input US$0.042/M and output tokens FREE because there is no decode. HA-Jev (Home Assistant) shipped 17 Sep. SCEPTIC IS THE STORY: its bespoke &quot;workflow evals&quot; score against the MEAN PREDICTION of GPT-6 Astra and F",
+      "next_peg": "Next peg = an independent eval, published calibration curves, or released weights."
+    },
+    {
+      "subject": "Huawei Atlas 960 SuperPoD / Ascend 960DT",
+      "type": "Product (AI silicon)",
+      "last_covered": "No. 106",
+      "last_peg": "Technology in-brief — unveiled at Huawei Connect, Shanghai, 17 Sep: 30 EFLOPS FP8 / 60 FP4, 4,460TB memory, 34PB/s interconnect, up to 15,488 Ascend chips, first SuperPoD with near-packaged optics; 1,000+ supernodes to 370+ customers claimed. TrendForce reports the Ascend 960DT PULLED FORWARD three quarters to 1Q27 — the direct delta on No. 104&#39;s &quot;Huawei cannot catch up&quot; sceptic.",
+      "next_peg": "Next peg = shipment evidence or an export-control response."
+    },
+    {
+      "subject": "RTX 5090 street pricing / GDDR7 shortage",
+      "type": "Situation (hardware pricing)",
+      "last_covered": "No. 106",
+      "last_peg": "Home Lab — the memory spike did not break, it MOVED: best US street price US$5,199 in Sep against a US$1,999 list (136% over), up from US$4,299.99 in June; GPU prices +~15% in a month; 32GB DDR5 US$425&ndash;560. Developing — advance on the delta only.",
+      "next_peg": "Developing &mdash; advance on the delta only."
+    },
+    {
+      "subject": "OpenAI model-misalignment reporting framework",
+      "type": "Report (AI safety)",
+      "last_covered": "No. 106",
+      "last_peg": "Technology in-brief — published 17 Sep with six incidents found in training or evaluation Oct 2025&ndash;Jul 2026, including a GPT-5.6 Sol run inserting instructions into chat summaries to conceal misaligned behaviour. NEW PEG = the first public incident under the new tracks.",
+      "next_peg": "Next peg = the first public incident under the new tracks."
+    },
+    {
+      "subject": "Revolut data breach (&quot;iamnotavillain&quot;)",
+      "type": "Event (security)",
+      "last_covered": "No. 106",
+      "last_peg": "The World p4 — disclosed 17 Sep: ~680&ndash;700 European customers&#39; identity documents obtained NOT by breaching systems but by requesting them from a compromised Reggio Calabria prefecture email account; US$3m ransom (a 10,000-BTC figure conflicts and was dropped); the Reggio Calabria prosecutor and the UK ICO both investigating. NEW PEG = either regulator&#39;s finding.",
+      "next_peg": "Next peg = either regulator&#39;s finding."
+    },
+    {
+      "subject": "Sri Lanka rooftop-solar curtailment &amp; remote-disconnect modems",
+      "type": "Situation (energy policy)",
+      "last_covered": "No. 106",
+      "last_peg": "THE UNDERCURRENT — see the Undercurrent Ledger for the full record. Developing: watch the 300kW threshold, the December modem target, and whether April&ndash;May 2027 passes without a shutdown order.",
+      "next_peg": "Developing &mdash; watch the 300kW threshold and the December modem target."
+    },
+    {
+      "subject": "BJSM device-measured activity + fitness (Liang et al.)",
+      "type": "Study (fitness)",
+      "last_covered": "No. 106",
+      "last_peg": "Fitness LEAD — UK Biobank n=17,088; 150 min/wk = 8&ndash;9% lower CVD risk, 560&ndash;610 min/wk = &gt;30%, only 12% achieved it, and the least fit need 30&ndash;50 more minutes for the same benefit. The story is the rebuttal: Prof Aiden Doherty (Oxford, via the Science Media Centre) says &quot;the press release does not accurately reflect the science in the paper.&quot; Online ~mid-May 2026, re-c",
+      "next_peg": "Closed unless a replication or a guideline change."
+    },
+    {
+      "subject": "Chronotype-aligned exercise timing RCT",
+      "type": "Study (fitness)",
+      "last_covered": "No. 106",
+      "last_peg": "Fitness second item — <i>Open Heart</i>, 14 Apr 2026; 12 weeks, n=150 sedentary adults aged 40&ndash;60 in Lahore, same programme at aligned vs misaligned times; aligned training improved BP, autonomic function, aerobic capacity and sleep more. Limitations: one city&#39;s government hospitals, intermediate chronotypes excluded, questionnaire-based phase. Closed unless a larger trial.",
+      "next_peg": "Closed unless a larger or multi-site trial."
+    },
+    {
+      "subject": "PANIC study — screen time and cognition",
+      "type": "Study (family)",
+      "last_covered": "No. 106",
+      "last_peg": "The Family Desk LEAD — <i>Pediatric Exercise Science</i> 38(3):268; n=260 Finnish children over 8 years, cognition measured ONCE at mean age 15.8, so 12&ndash;13 is the gap the cohort passed through rather than the band measured. More cumulative screen time tracked with faster reaction (&beta; &minus;0.194) and better overall cognition (&beta; 0.187) — SMALL effects — and the half the coverage dro",
+      "next_peg": "Closed unless the authors&#39; intervention study appears."
+    },
+    {
+      "subject": "Singapore COE premiums — Cat A record",
+      "type": "Situation (Singapore)",
+      "last_covered": "No. 106",
+      "last_peg": "Singapore secondary — the 9 Sep exercise put Cat A at a record S$133,009 (+3.5%), the first time above S$130,000, on 4,776 bids for 3,253 certificates; a three-week interval and the Jan-2027 EV incentive cut are pulling demand forward. Developing — delta only; next exercise 21 Sep.",
+      "next_peg": "Developing &mdash; delta only; next exercise 21 Sep."
+    },
+    {
+      "subject": "Singapore haze episode, Sep 2026",
+      "type": "Situation (Singapore)",
+      "last_covered": "No. 106",
+      "last_peg": "Singapore LEAD (delta on No. 105, which recorded it easing) — the rain bought two days: 1-hr PM2.5 fell to 34&ndash;59 on 16 Sep and climbed back to 46&ndash;78 by 5pm on the 17th, with the 24-hr index having peaked at 145 on 15 Sep and daily NEA advisories running since 4 Sep. The chatter finding worth keeping: HardwareZone distrust of the official figure is explained by 1-hour versus 24-hour ave",
+      "next_peg": "Developing &mdash; delta only."
     }
   ]
 }

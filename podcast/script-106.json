@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 106,
+ "date": "Friday 18 September 2026",
+ "title": "The off-switch",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it’s Friday, the eighteenth of September. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let’s go."
+  },
+  {
+   "s": "A",
+   "t": "Today: a country stops waiting for a strait to reopen and starts unloading its oil outside it."
+  },
+  {
+   "s": "B",
+   "t": "The Federal Reserve raises rates into an oil shock, and the bond market says thank you. Which is not the sentence I expected this morning."
+  },
+  {
+   "s": "A",
+   "t": "And model rocketry, where the alphabet is a logarithmic scale and the law draws a line at one hundred and sixty newton-seconds."
+  },
+  {
+   "s": "B",
+   "t": "[amused] I have no idea what that means yet and I am already in."
+  },
+  {
+   "s": "A",
+   "t": "Start with the numbers. Twelve ships went through the Strait of Hormuz on Wednesday. Three of them went dark doing it."
+  },
+  {
+   "s": "B",
+   "t": "Dark meaning transponders off?"
+  },
+  {
+   "s": "A",
+   "t": "Off. Two more switched theirs off part-way through. A normal day is eighty-five or more."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So twelve is a ruin."
+  },
+  {
+   "s": "A",
+   "t": "Against a normal day, yes. Against Tuesday — which was six — it’s a doubling."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Both true, pointing opposite ways."
+  },
+  {
+   "s": "A",
+   "t": "And the market picked the second one. Brent settled Thursday at one hundred and four dollars eighty-two, down a dollar, then slid another two to three per cent overnight to around one hundred and two. First sustained break lower since the tanker exchange began."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] On what news? Because I read the other news."
+  },
+  {
+   "s": "A",
+   "t": "You did. Thursday was the day Washington escalated furthest. The president said he was near a decision on resuming large-scale strikes — his words: do I want to go in and annihilate them, or do I not."
+  },
+  {
+   "s": "B",
+   "t": "So the collecting tanker never enters the Gulf."
+  },
+  {
+   "s": "A",
+   "t": "Never enters. Shuttle vessels run the gauntlet inbound and hand it over in open water."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] That is such a workaround."
+  },
+  {
+   "s": "A",
+   "t": "It is a workaround on top of a workaround. The bypass it replaces was a pipeline to the Red Sea, hit by drones on the tenth and eleventh of September — four to five million barrels a day of routed capacity, out for what officials called weeks."
+  },
+  {
+   "s": "B",
+   "t": "And six days later the oil moves again."
+  },
+  {
+   "s": "A",
+   "t": "Through the very water the pipeline existed to avoid."
+  },
+  {
+   "s": "B",
+   "t": "So nothing is fixed. Everything is routed around."
+  },
+  {
+   "s": "A",
+   "t": "That is the whole issue. And the part that should worry you more than the price: on Thursday Russia and China vetoed the resolution extending the mandate of the United Nations panel that monitors sanctions on Iran. It expires on the twenty-seventh."
+  },
+  {
+   "s": "B",
+   "t": "So the inspectors get routed around too."
+  },
+  {
+   "s": "A",
+   "t": "The Council has still not appointed any panel at all. And Iran’s own exclusion zone, announced on the sixth, still has no published coordinates twelve days later."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Announced but not drawn."
+  },
+  {
+   "s": "A",
+   "t": "Announced but not drawn."
+  },
+  {
+   "s": "B",
+   "t": "Sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] Two. Nobody agrees on the count — one service counts only cargo vessels over ten thousand tonnes, another counts differently, and three of Wednesday’s twelve were dark. Any claim that traffic is recovering, or collapsing, is partly an artefact of who is counting."
+  },
+  {
+   "s": "B",
+   "t": "And the price forecasts?"
+  },
+  {
+   "s": "A",
+   "t": "Goldman Sachs is reported near eighty-five dollars. Rystad models above one hundred and forty and a global recession."
+  },
+  {
+   "s": "B",
+   "t": "Those are not the same universe."
+  },
+  {
+   "s": "A",
+   "t": "And the honest correction to our own instinct, that no barrels were really lost: the International Energy Agency calls this the largest supply disruption in the history of the oil market. Supply down five point seven million barrels a day."
+  },
+  {
+   "s": "B",
+   "t": "[curious] The money. Because you buried the best thing in the book."
+  },
+  {
+   "s": "A",
+   "t": "Yields fell."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The whole curve."
+  },
+  {
+   "s": "A",
+   "t": "And the committee softened nothing — it lifted its median end-of-year projection to four point one per cent from three point eight, and penned in no cuts through twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "So why did the long end come down?"
+  },
+  {
+   "s": "A",
+   "t": "Because it believed them. Investors grew more confident precisely because the Fed had begun a cycle against inflation that will not fall on its own."
+  },
+  {
+   "s": "B",
+   "t": "So it’s a credibility rally."
+  },
+  {
+   "s": "A",
+   "t": "A committee buying back the long end by proving it is willing to hurt."
+  },
+  {
+   "s": "B",
+   "t": "What did everything else do?"
+  },
+  {
+   "s": "A",
+   "t": "Read the two days as one sentence with a comma. Wednesday punished everything — a nineteen-year high in the ten-year, the dollar through one hundred for the first time in seven weeks, gold spiking to four thousand three hundred and sixty-six dollars and then collapsing to four thousand two hundred and forty."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] A hundred and twenty-six dollars an ounce in hours."
+  },
+  {
+   "s": "A",
+   "t": "Then Thursday took it back, and a full one per cent more, to about four thousand three hundred and seven — while the dollar sat still at one hundred point two three."
+  },
+  {
+   "s": "B",
+   "t": "Nothing, loudly."
+  },
+  {
+   "s": "A",
+   "t": "It absorbed a hawkish surprise, a dollar through one hundred and a nineteen-year high in the ten-year, and did not move. After two years of being sold as both a haven and a liquidity proxy, doing neither is the most informative week it has had."
+  },
+  {
+   "s": "B",
+   "t": "And this is not advice."
+  },
+  {
+   "s": "A",
+   "t": "Explanation, not advice. And what we could not verify we did not print — there is no global-aggregate bond level in the strip this morning, because we could not stand behind one."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I like that you say that out loud."
+  },
+  {
+   "s": "A",
+   "t": "It’s cheaper than being wrong. Jobless claims came in at one hundred and ninety-six thousand against two hundred and eight thousand expected — so this was no growth scare."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So everyone agrees."
+  },
+  {
+   "s": "A",
+   "t": "[chuckles] Perfectly. Home, then. The haze came back. Yesterday this desk recorded it easing; the agency’s own daily numbers now show that easing was a dip inside an ongoing episode. Fine-particle readings fell to thirty-four to fifty-nine on Tuesday and climbed to forty-six to seventy-eight by Thursday evening."
+  },
+  {
+   "s": "B",
+   "t": "So the rain bought two days."
+  },
+  {
+   "s": "A",
+   "t": "Two days, not a resolution. And a car plate crossed one hundred and thirty thousand dollars for the first time — Category A closed at one hundred and thirty-three thousand and nine Singapore dollars."
+  },
+  {
+   "s": "B",
+   "t": "For permission to own a small car."
+  },
+  {
+   "s": "A",
+   "t": "Four thousand seven hundred and seventy-six bids for three thousand two hundred and fifty-three certificates."
+  },
+  {
+   "s": "B",
+   "t": "And the forums are angry about the haze numbers, you said."
+  },
+  {
+   "s": "A",
+   "t": "Not about the smoke — about the reading. Posters contrast international air-quality figures well above the official one and ask whether they are being told the truth."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Are they?"
+  },
+  {
+   "s": "A",
+   "t": "They are. The international indices publish a one-hour fine-particle figure; Singapore’s headline index is a twenty-four-hour rolling average, so during a worsening episode the one-hour number always looks far worse."
+  },
+  {
+   "s": "B",
+   "t": "So the gap is arithmetic."
+  },
+  {
+   "s": "A",
+   "t": "Arithmetic, not concealment. Which leaves a fair criticism on the other side — headlining a twenty-four-hour average during a fast-moving episode is exactly what manufactures the suspicion."
+  },
+  {
+   "s": "B",
+   "t": "Technology. This one is genuinely new."
+  },
+  {
+   "s": "A",
+   "t": "A company called TypeSafe came out of stealth on Monday with about forty million dollars and a model called Jev, which refuses to write prose."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the cost?"
+  },
+  {
+   "s": "A",
+   "t": "Input runs at four point two cents per million tokens. Output tokens are free."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That is a genuinely funny business model. And somebody has already plugged it into a house."
+  },
+  {
+   "s": "A",
+   "t": "Within forty-eight hours. A Home Assistant integration shipped on the seventeenth that turns its answers into sensors."
+  },
+  {
+   "s": "B",
+   "t": "And the catch?"
+  },
+  {
+   "s": "A",
+   "t": "The benchmark. TypeSafe built its own evaluations rather than running public ones, and scored the model against the average prediction of two other frontier models."
+  },
+  {
+   "s": "B",
+   "t": "So the accuracy figure is agreement with two other models."
+  },
+  {
+   "s": "A",
+   "t": "Not correctness. And a community benchmark measured it twenty to forty per cent faster than an open model on a single card, not a hundred times. About twenty-six times cheaper, not two hundred."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Right."
+  },
+  {
+   "s": "A",
+   "t": "To his credit the founder conceded the honest version: a guaranteed-valid answer can still be confidently wrong."
+  },
+  {
+   "s": "B",
+   "t": "Can I afford a graphics card yet?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] No. The memory spike did not break, it moved. The best street price on the top consumer card is five thousand one hundred and ninety-nine dollars, against a list price of one thousand nine hundred and ninety-nine."
+  },
+  {
+   "s": "B",
+   "t": "A hundred and thirty-six per cent over list."
+  },
+  {
+   "s": "A",
+   "t": "Same shortage, one component further along. And on the Kit desk, Canon finally put stabilisation into its cheapest full-frame body — two thousand five hundred and nineteen Singapore dollars. Four hundred US dollars over the old one buys the stabiliser, a joystick, faster wireless and a card slot you can reach on a tripod."
+  },
+  {
+   "s": "B",
+   "t": "And the sensor?"
+  },
+  {
+   "s": "A",
+   "t": "Identical to twenty twenty-three."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So what are the forums saying?"
+  },
+  {
+   "s": "A",
+   "t": "Reviewers are broadly pleased. The flagship forum thread is titled, in capitals, dead on arrival."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] About the pictures?"
+  },
+  {
+   "s": "A",
+   "t": "About the shape. They think it looks like a Sony."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] The stakes are so high. And the Atelier?"
+  },
+  {
+   "s": "A",
+   "t": "Ink and paper, bought once. Two knobs govern everything a bottle does, and they pull against each other. Lower the surface tension and you get better flow and a wetter line — and more feathering, and more ink creeping up the nib."
+  },
+  {
+   "s": "B",
+   "t": "And the paper?"
+  },
+  {
+   "s": "A",
+   "t": "Sizing. Untreated paper is a mat of fibres with gaps between them, so water gets pulled in and drags the dye sideways. That halo is feathering — the paper behaving exactly like the sponge it is."
+  },
+  {
+   "s": "B",
+   "t": "Give me the white-label truth."
+  },
+  {
+   "s": "A",
+   "t": "The most famous fountain-pen paper in the world is no longer made by the company whose name is on it. The original mill stopped in twenty twenty-one and the recipe passed to another. And the two most collected Japanese shop-exclusive ink lines are both made by Sailor, to the shop’s specification."
+  },
+  {
+   "s": "B",
+   "t": "So the scarcity is contractual."
+  },
+  {
+   "s": "A",
+   "t": "Geographic and contractual. The same plant could make any of it in any volume."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Divide. One celebrated ink looks cheaper than another until you work out the price per millilitre — ninety cents against fifty-seven. The twenty-millilitre bottle is the mechanism. And the dearest ink on the ladder isn’t a luxury logo at all; it’s a Korean house founded in twenty eighteen."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the logo tax and the hobby tax are the same size."
+  },
+  {
+   "s": "A",
+   "t": "Exactly the same size. And forty bottles, at two pages a day, is sixty-eight years of writing."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We’re going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Model rocketry. Explain the alphabet."
+  },
+  {
+   "s": "A",
+   "t": "Every letter in a rocket-motor code is a band of total impulse, and each letter doubles the ceiling of the one before it."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Doubles."
+  },
+  {
+   "s": "A",
+   "t": "So an M is not a bit more than an L. The distance from an A to an M is a factor of about four thousand."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Thirteen letters and four thousand times the energy. That is the best fact in the book."
+  },
+  {
+   "s": "A",
+   "t": "It gets better, because somewhere in that alphabet the hobby stops being a hobby. The line is at one hundred and sixty newton-seconds. You cannot buy or fly a motor above it without being certified."
+  },
+  {
+   "s": "B",
+   "t": "So it’s a licence."
+  },
+  {
+   "s": "A",
+   "t": "Three of them. And the third rung is the interesting one — it is the only level where somebody supervises you while you are building the thing, not just while you fly it. A named advisor signs off on your construction as you go."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That’s a thesis defence, not a driving test."
+  },
+  {
+   "s": "A",
+   "t": "Exactly what it is. Now the fact for dinner tonight. Estes — the cardboard-tube company that has sold starter kits for sixty years — is a family business, bought out of a collapsing parent in April twenty eighteen."
+  },
+  {
+   "s": "B",
+   "t": "So the toy company has a sibling in the defence sector."
+  },
+  {
+   "s": "A",
+   "t": "The cardboard-tube company from Penrose, Colorado."
+  },
+  {
+   "s": "B",
+   "t": "What does the gear cost?"
+  },
+  {
+   "s": "A",
+   "t": "The two motor systems have genuinely opposite cost curves. One has dearer cases and cheaper refills, but you assemble the motor yourself — and one experienced flier attributed both his catastrophic failures to his own assembly mistakes."
+  },
+  {
+   "s": "B",
+   "t": "Ouch."
+  },
+  {
+   "s": "A",
+   "t": "The other has cheaper cases and dearer refills, but they arrive with both end closures fitted. Nothing you can put together wrongly."
+  },
+  {
+   "s": "B",
+   "t": "And the thing nobody mentions?"
+  },
+  {
+   "s": "A",
+   "t": "The shipping. The hazardous-materials surcharge runs about eighty to a hundred and twenty dollars — per box, not per motor."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the eleventh motor effectively ships free."
+  },
+  {
+   "s": "A",
+   "t": "Which is why this hobby buys in groups. And it means staying at or below a G motor isn’t only a certification decision, it’s a shipping decision. Crossing the line restructures your costs permanently."
+  },
+  {
+   "s": "B",
+   "t": "Best object in the hobby?"
+  },
+  {
+   "s": "A",
+   "t": "A rubber band that knows how high it is. It holds a packed parachute shut and lets go at a set altitude, so you get low-drift recovery with no explosive charge, no electronics bay and no black powder."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] I love it. And the vocabulary, because I know there’s vocabulary."
+  },
+  {
+   "s": "A",
+   "t": "A core sample is when the rocket comes back nose-first without its nose cone, and the airframe returns containing a neat cylinder of dirt."
+  },
+  {
+   "s": "B",
+   "t": "[excited] No."
+  },
+  {
+   "s": "A",
+   "t": "And the worst word in the hobby has a disputed etymology. Nobody is sure whether it stands for catastrophe at take-off or is just a contraction of catastrophic."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A hobby that cannot agree on the name of its own disaster."
+  },
+  {
+   "s": "A",
+   "t": "Now the Singapore problem, and we are blunt about it. This desk cannot tell you that flying a rocket motor here is legal."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Really."
+  },
+  {
+   "s": "A",
+   "t": "The framework changed last year, the explosives definition appears to reach rockets, and whether a private individual can get a licence to import or store hobby motors could not be verified from a primary source. So we printed no licence cost and no application route."
+  },
+  {
+   "s": "B",
+   "t": "So where do people fly?"
+  },
+  {
+   "s": "A",
+   "t": "Abroad. And the answer sits in a headline — Esquire Singapore published a piece called Launching a Locally-Made Rocket Outside Singapore. The country’s best student rocket team designed its vehicle here, flew it in America, and nearly failed to get the hardware through customs."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the hardest problem wasn’t engineering."
+  },
+  {
+   "s": "A",
+   "t": "The hardest problem was customs."
+  },
+  {
+   "s": "B",
+   "t": "Culture. And there’s an accident in the listings today."
+  },
+  {
+   "s": "A",
+   "t": "Two cyberpunks open on the same Friday. A video-game adaptation critics are calling the best ever recorded — and a nineteen ninety-five Japanese animated masterpiece going back into more than eight hundred North American cinemas in four K for its thirtieth anniversary."
+  },
+  {
+   "s": "B",
+   "t": "Same day."
+  },
+  {
+   "s": "A",
+   "t": "And they answer the same question in opposite directions. One is a close adaptation that changed its source’s register entirely; the other refuses to adapt any existing story at all."
+  },
+  {
+   "s": "B",
+   "t": "And the record claim?"
+  },
+  {
+   "s": "A",
+   "t": "[skeptical] Published at three different percentages by three different outlets on the same day, from about seventy reviews, with no audience score in existence."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So it’s the best-reviewed film we cannot yet measure."
+  },
+  {
+   "s": "A",
+   "t": "Wait for the second weekend. Family desk, and this one flips. A Finnish cohort followed two hundred and sixty children for eight years and found that more accumulated screen time tracked with marginally better cognitive processing in adolescence."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Better."
+  },
+  {
+   "s": "A",
+   "t": "Slightly. The effect size is about nought point one nine — small. The direction is genuinely surprising."
+  },
+  {
+   "s": "B",
+   "t": "So screens are fine?"
+  },
+  {
+   "s": "A",
+   "t": "Here is the part nobody reported. The authors’ own headline finding is that less unsupervised physical activity and more screen time together tracked with better cognition."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Less unsupervised."
+  },
+  {
+   "s": "A",
+   "t": "Which starts to look less like a screens effect and more like a marker of a structured, supervised, better-resourced childhood."
+  },
+  {
+   "s": "B",
+   "t": "And the honest note?"
+  },
+  {
+   "s": "A",
+   "t": "The same Finnish group, on a similar cohort, found more screen time tracked with worse mental health. Cognition is not wellbeing, and one outcome measure cannot license a parenting decision. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And the practical thing?"
+  },
+  {
+   "s": "A",
+   "t": "It arrived in January without a headline. The default sleep hours on school-issued learning devices moved from eleven o’clock to half past ten. Thirty minutes, applied centrally, on a device the school owns — no rule for the child to keep and no argument at ten at night."
+  },
+  {
+   "s": "B",
+   "t": "Fitness. Five hundred and sixty minutes a week, I read."
+  },
+  {
+   "s": "A",
+   "t": "A large study put substantial cardiovascular benefit at five hundred and sixty to six hundred and ten minutes a week — three to four times current guidance. Only twelve per cent of the study population managed it."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Who has time for that?"
+  },
+  {
+   "s": "A",
+   "t": "Broadly the internet’s reaction. But the good part is the rebuttal, and it is unusually blunt for an institutional channel. An Oxford professor of biomedical informatics said, quote: the press release does not accurately reflect the science in the paper."
+  },
+  {
+   "s": "B",
+   "t": "About his own field’s paper."
+  },
+  {
+   "s": "A",
+   "t": "He goes further — that the data very clearly support the existing guidelines, and that it is misleading to say people need five hundred and sixty minutes for health benefit."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the paper and its critics agree on the numbers and disagree about which one belongs in a headline."
+  },
+  {
+   "s": "A",
+   "t": "One hundred and fifty minutes is an effective minimum, not the ceiling of protection. And a correction to our own recent reporting: the study that ranked one sleep ring above another for heart-rate variability validated them against a chest strap, not clinical electrocardiography, and it had thirteen participants."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good. And the diary, quickly, because there are deadlines."
+  },
+  {
+   "s": "A",
+   "t": "Three. Sumo tickets for the November Kyushu tournament go on general sale tomorrow, and the weekend days and final three bouts disappear within hours — pick your date tonight. The opening time is not published anywhere we could reach, so check rather than trusting an hour somebody told you."
+  },
+  {
+   "s": "B",
+   "t": "And third?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Snow City closes on the thirtieth, after twenty-six years. Twelve days from now."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Oh, that’s sad."
+  },
+  {
+   "s": "A",
+   "t": "If you have a child who has never been, that is the most time-critical line in the book."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the long read. This one stayed with me."
+  },
+  {
+   "s": "A",
+   "t": "In twenty sixteen Sri Lanka launched a campaign with a war poster’s name — sun-power war, rendered officially as the Battle for Solar Energy."
+  },
+  {
+   "s": "B",
+   "t": "Of course you did. So what went wrong?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing went wrong with the panels. Something went wrong with the counterparty. Under one scheme a householder signs a twenty-year contract with the electricity board — so a roof turns a customer into a creditor of a monopoly."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] And the monopoly is broke."
+  },
+  {
+   "s": "A",
+   "t": "And an insolvent monopoly does not default in cash. It defaults in kind — by refusing delivery."
+  },
+  {
+   "s": "B",
+   "t": "Meaning it switches you off."
+  },
+  {
+   "s": "A",
+   "t": "First it asked. Around a hundred thousand households were asked to switch their systems off over a holiday, by text message. Then it ordered — every system above three hundred kilowatts off for ten days in April."
+  },
+  {
+   "s": "B",
+   "t": "And now?"
+  },
+  {
+   "s": "A",
+   "t": "Now it is fitting modems, so the grid operator can disconnect a private roof from the capital without asking. Announced in late June, rollout targeted for December."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] A kill switch on privately owned generation."
+  },
+  {
+   "s": "A",
+   "t": "And here is the arithmetic that makes it inevitable. Storage contracted or tendered across the year: four hundred and ten megawatts. Rooftop generation recruited: between one thousand two hundred and one thousand seven hundred."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone run this before?"
+  },
+  {
+   "s": "A",
+   "t": "Hawaii, twenty thirteen to twenty fifteen. Same physics — an island grid with no interconnector, saturated at midday. Same sequence: a quiet interconnection freeze, then open curtailment, then the compensation scheme closed to new applicants after about seventy thousand customers had joined."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what’s different?"
+  },
+  {
+   "s": "A",
+   "t": "What Hawaii reached for. It killed the tariff. A tariff reprices the future and leaves the people who already signed whole. Sri Lanka is reaching for the switch — and a switch reaches backwards, into contracts already signed and property already owned."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That is the difference between a rich regulator with tools and a broke one with a screwdriver."
+  },
+  {
+   "s": "A",
+   "t": "That is almost exactly the line."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic? The engineering must be real."
+  },
+  {
+   "s": "A",
+   "t": "The engineering is real and we said so. Holiday demand collapses, sunshine peaks, and the operator has to de-load the plants that supply not just electricity but the rotating inertia that holds the system frequency. Strip that out and you get a cascade. The engineers’ union has blamed the rooftop share for one already."
+  },
+  {
+   "s": "B",
+   "t": "So it might just be an emergency."
+  },
+  {
+   "s": "A",
+   "t": "It might. And note the hole in our own story: that hundred thousand figure is a request. Nobody published a compliance rate, and because most household systems are invisible to the control room, nobody can say how much was actually curtailed. Which is exactly why the industry is demanding an audit."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] What would settle it?"
+  },
+  {
+   "s": "A",
+   "t": "Three things, inside a year. If the batteries land and April and May of twenty twenty-seven pass without a shutdown order, the thesis dies. If the modem rollout misses December and is never revived, it dies. And it is confirmed if the modems go in, curtailment continues anyway, and remote disconnection walks down from the commercial tier into ordinary houses."
+  },
+  {
+   "s": "B",
+   "t": "So what do we watch?"
+  },
+  {
+   "s": "A",
+   "t": "One number. The threshold is currently three hundred kilowatts. Watch it move."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And why it matters here, a long way from Colombo?"
+  },
+  {
+   "s": "A",
+   "t": "Because in nineteen ninety-three somebody said the net interprets censorship as damage and routes around it — a line so good he has never been able to find where he first said it. That was the founding optimism of an era."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Systems route around control right up until the control becomes physical."
+  },
+  {
+   "s": "A",
+   "t": "And that is when it matters who is holding the switch."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Find out where the switch is before you sign the twenty-year contract."
+  },
+  {
+   "s": "A",
+   "t": "That’s the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
