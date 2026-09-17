@@ -578,6 +578,73 @@
   {
    "slug": "kaikohe-105",
    "file": "Kaikohe.jpg"
+  },
+  {
+   "slug": "cover-armpair-1055",
+   "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/Leader_And_Follower_SO100.jpg"
+  },
+  {
+   "slug": "so101-follower-1055",
+   "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Follower.webp"
+  },
+  {
+   "slug": "so101-leader-1055",
+   "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Leader.webp"
+  },
+  {
+   "slug": "minipupper2-1055",
+   "url": "https://raw.githubusercontent.com/mangdangroboticsclub/mini_pupper_ros/ros2-dev/imgs/mini_pupper_2.jpg"
+  },
+  {
+   "slug": "go2-render-1055",
+   "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/unitree_go2/go2.png"
+  },
+  {
+   "slug": "rpi5-1055",
+   "url": "https://raw.githubusercontent.com/raspberrypi/documentation/master/documentation/asciidoc/computers/raspberry-pi/images/5.jpg"
+  },
+  {
+   "slug": "puppypi-1055",
+   "url": "https://raw.githubusercontent.com/Hiwonder/PuppyPi/ros2/sources/images/puppypi.png"
+  },
+  {
+   "slug": "jetson-orin-1055",
+   "url": "https://files.seeedstudio.com/wiki/reComputer-Jetson/Orin-Nano-Developer-Kit/jetson-orin-nano-dev-kit.webp"
+  },
+  {
+   "slug": "stsservos-1055",
+   "url": "https://files.seeedstudio.com/wiki/robotics/projects/lerobot/so101/all_motos.png"
+  },
+  {
+   "slug": "so101-install-1055",
+   "url": "https://files.seeedstudio.com/wiki/robotics/projects/lerobot/so101/install_L1.jpg"
+  },
+  {
+   "slug": "reachymini-1055",
+   "url": "https://files.seeedstudio.com/wiki/robotics/Reachymini/funny/Reachy-mini-wake-up-companion.webp"
+  },
+  {
+   "slug": "huaqiangbei-1055",
+   "file": "Huaqiangbei walking street.jpg"
+  },
+  {
+   "slug": "fdmprinter-1055",
+   "file": "3D printer EAC.jpg"
+  },
+  {
+   "slug": "roboone-cat-1055",
+   "category": "Category:ROBO-ONE",
+   "limit": 8
+  },
+  {
+   "slug": "unitree-cat-1055",
+   "category": "Category:Unitree",
+   "limit": 8
+  },
+  {
+   "slug": "humanoidkit-cat-1055",
+   "category": "Category:Humanoid robots of Japan",
+   "limit": 8
   }
  ],
  "_fetch_rev": 15,
@@ -659,5 +726,6 @@
  "_retrigger103": "No.103 weekday heroes: atelier-ironranger-103 (Red Wing Iron Ranger boots), rabbithole-boardgames-103 (Wingspan components), undercurrent-hanriver-103 (Seoul Han River running-crew scene) 2026-09-15",
  "_retrigger104": "No. 104 batch (glassware / metal-detecting / Ulaanbaatar)",
  "_retrigger1045": "No.104.5 special (Music-making machines for the novice): MPC(cover+mpc section), Omnichord(chord/scale), Roland MC-808 groovebox(groovebox desk), Korg Volca Keys(beginner synths), MIDI cable(connectivity), Akihabara(undercurrent Japan), Eurorack(the tier upper bound) 2026-09-16",
- "_retrigger105": "No.105 weekday: Warsh portrait(cover/Macro Fed hike), RC crawler(Rabbit Hole), Oral-B/Sonicare(Atelier toothbrushes), Strait of Hormuz(World), Grand Seiko(Good Life repr), Kaikohe(Undercurrent NZ meth) 2026-09-17"
+ "_retrigger105": "No.105 weekday: Warsh portrait(cover/Macro Fed hike), RC crawler(Rabbit Hole), Oral-B/Sonicare(Atelier toothbrushes), Strait of Hormuz(World), Grand Seiko(Good Life repr), Kaikohe(Undercurrent NZ meth) 2026-09-17",
+ "_retrigger1055": "No. 105.5 special — DIY home robotics: open arms, quadruped kits, Huaqiangbei, ROBO-ONE"
 }
