@@ -1,6 +1,6 @@
 {
   "env": {
-    "CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION": "600"
+    "CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION": "1500"
   },
   "hooks": {
     "SessionStart": [
