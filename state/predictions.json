@@ -915,7 +915,9 @@
    "desk": "The Macro Desk",
    "claim": "The Fed's next meeting (Sept) delivers a rate CUT after the −23k July payrolls, ending the higher-for-longer hold",
    "check_by": "2026-09-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The Fed hiked. It did not cut: +25bp to 3.75-4.00% on 16 Sep, the first rise since 2023.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 66,
@@ -1002,7 +1004,9 @@
    "desk": "The Macro Desk",
    "claim": "US July CPI (released 12 Aug 2026) is the hinge: a hot print revives Fed hike talk (stagflation); the September meeting is a coin-flip HOLD, not a cut (hike odds ~42% at filing)",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Neither: a hike. The desk had the direction of risk right and the outcome wrong.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 67,
@@ -1058,7 +1062,9 @@
    "desk": "The Macro Desk",
    "claim": "September FOMC holds rates (implied ~60% after the 7 Aug jobs shock); no hike",
    "check_by": "2026-09-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hiked, not held — +25bp to 3.75-4.00%, unanimous.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 68,
@@ -1138,7 +1144,9 @@
    "desk": "Macro",
    "claim": "Fed holds at the 15-16 Sep FOMC (no hike), per ~60%+ market-implied odds after the −23k jobs print",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hiked +25bp. The -23k payroll print did not stay the hand.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 69,
@@ -1266,7 +1274,9 @@
    "desk": "Macro",
    "claim": "July US CPI benign (3.4% headline, in line) keeps the Fed on hold at the 15-16 Sep FOMC — no hike; ~62% implied",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hiked +25bp; the benign July CPI read was overtaken by the oil shock.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 71,
@@ -1355,7 +1365,9 @@
    "desk": "The Macro Desk",
    "claim": "The Fed holds (no hike) at the September meeting; funds stay 3.50-3.75%",
    "check_by": "2026-09-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hiked to 3.75-4.00%.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 72,
@@ -1391,7 +1403,9 @@
    "desk": "Macro",
    "claim": "The Fed holds (no hike) at the September FOMC; funds stay 3.50-3.75%",
    "check_by": "2026-09-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hiked to 3.75-4.00%.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 73,
@@ -2091,7 +2105,9 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC holds at its 16 Sep 2026 meeting (no hike, no cut).",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hiked +25bp, unanimously.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 83,
@@ -2220,7 +2236,9 @@
    "desk": "The Macro Desk",
    "claim": "The Fed does NOT hike in September; market pricing (~70% hold) proves right",
    "check_by": "2026-09-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "It hiked. The ~70% hold pricing this desk leaned on was wrong.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 85,
@@ -2379,7 +2397,9 @@
    "desk": "Macro",
    "claim": "Sept FOMC (15-16 Sep) reads as a coin-toss between a hold and a 25bp hike after Warsh's 'not beaten yet' — market flipped from pricing a cut",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "push",
+   "result": "Fairly called as a coin-toss; it landed on the hike.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 89,
@@ -2471,7 +2491,9 @@
    "desk": "The Macro Desk",
    "claim": "Sept FOMC (15-16 Sep) is a coin-toss between hold and hike after Warsh's hawkish Jackson Hole; market flipped from pricing a cut",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "push",
+   "result": "Coin-toss framing held up; the coin came down hike.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 90,
@@ -2556,7 +2578,9 @@
    "desk": "Macro",
    "claim": "FOMC on 16 Sep hikes 25bp (not a hold/cut) under the hawkish-Warsh regime; a hike is modal",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "+25bp to 3.75-4.00% on 16 Sep. Called 15 issues out.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 92,
@@ -2772,7 +2796,9 @@
    "desk": "The Macro Desk",
    "claim": "The Sept FOMC (15-16 Sep) delivers a 25bp hike — the modal ~60% repricing after the +162k jobs print resolves as a move, not a hold",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "+25bp, exactly as framed.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 95,
@@ -2843,7 +2869,9 @@
    "desk": "The Macro Desk",
    "claim": "The market-implied ~60% odds of a September rate HIKE resolve into an actual Fed hike (not a hold or cut) at the 15-16 Sep FOMC",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "They did: +25bp.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 97,
@@ -2950,7 +2978,9 @@
    "desk": "The Macro Desk",
    "claim": "The Fed (Warsh) raises 25bp at the 15-16 Sep FOMC (market ~59%)",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "+25bp under Warsh, unanimous.",
+   "graded": "2026-09-19"
   },
   {
    "issue": "98",
@@ -2999,7 +3029,9 @@
    "desk": "The Macro Desk",
    "claim": "The Fed HIKES at the 15-16 Sep FOMC (market ~70% priced) into the oil shock",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "+25bp into the oil shock.",
+   "graded": "2026-09-19"
   },
   {
    "issue": "99",
@@ -3042,7 +3074,9 @@
    "desk": "Macro",
    "claim": "The Fed HIKES 25bp to 3.75-4.00% at the 15-16 Sep FOMC (market-implied base case ~70-90%)",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "Exact: 3.75-4.00%.",
+   "graded": "2026-09-19"
   },
   {
    "issue": "101",
@@ -3084,7 +3118,9 @@
    "desk": "Macro",
    "claim": "Market prices ~60% odds of a Fed HIKE at the 16 Sep FOMC (an unusual raise into an oil shock, under Warsh)",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "The market's hike pricing was vindicated by the outcome.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 102,
@@ -3147,7 +3183,9 @@
    "desk": "Macro",
    "claim": "The Fed raises rates +25bp at the 16 Sep 2026 FOMC (CME ~85% odds) rather than holding/cutting",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "+25bp, unanimous.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 103,
