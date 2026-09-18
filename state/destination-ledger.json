@@ -1,6 +1,12 @@
 {
-  "count": 36,
+  "count": 38,
   "destinations": [
+    {
+      "destination": "Taitung &amp; Taiwan's East Coast",
+      "issue": "No. 107 (Weekend Travel Desk, 19 Sep 2026)",
+      "angle": "&ldquo;Three of the postcards are currently false. Go anyway &mdash; and go in six weeks&rdquo; &mdash; the honest version of a coast everybody photographs and few check. THE THREE FALSE POSTCARDS: the eight-arch bridge at Sanxiantai is CLOSED to the public since 4 May 2026 and will not reopen until",
+      "next_eligible": "Not before No. 207"
+    },
     {
       "destination": "Jeju, South Korea",
       "issue": "No. 101 (Weekend Travel Desk, 13 Sep 2026)",
@@ -194,12 +200,6 @@
       "next_eligible": "Winter (Dec–Mar) for snow + monkeys in the steam; autumn for foliage. A fresh Japan region off the recent Hakone/Kiso runs."
     },
     {
-      "destination": "Taitung &amp; the East Coast, Taiwan",
-      "issue": "Taiwan beyond Taipei — the Rift Valley, the Pacific coast, hot springs, indigenous culture and some of Asia's darkest skies for astrophotography; a fresh specialist lens for the astronomy-and-nature reader, short-haul and uncrowded.",
-      "angle": "r/taiwan, TripAdvisor Taitung, astro/dark-sky communities",
-      "next_eligible": "Autumn/spring (avoid typhoon peak Jul–Sep); a fresh region distinct from the Taipei/city runs."
-    },
-    {
       "destination": "Kagoshima &amp; Yakushima, Japan",
       "issue": "Southern Kyushu — active volcano (Sakurajima), onsen, Meiji-industrial heritage, plus the ancient-cedar UNESCO rainforest of Yakushima (the \"Princess Mononoke\" forest) and dark skies; a fresh far-south Japan angle, family-doable with a ferry/short flight.",
       "angle": "r/JapanTravel, TripAdvisor Kyushu/Yakushima, hiking/astro blogs",
@@ -216,6 +216,18 @@
       "issue": "The under-covered old capital via Hoshinoya's 2026 conversion of the former Nara prison into 48 suites — a design-and-heritage story pairing a landmark opening with Todai-ji/Kasuga-taisha, the deer park, and a day-trip-from-Kyoto that deserves an overnight; counter-programming to the Tokyo/Kyoto default.",
       "angle": "r/JapanTravel, TripAdvisor Nara, ryokan/design-hotel blogs",
       "next_eligible": "Autumn foliage & spring; the Hoshinoya opening as the peg."
+    },
+    {
+      "destination": "Chiang Mai &amp; the Mae Hong Son Loop, Thailand",
+      "issue": "A cool-season northern Thailand run that is a driving story rather than a temple list — the 1,864-bend loop through Pai, Mae Hong Son and Mae Sariang, Karen and Shan villages, coffee country around Doi Chang, and a genuine second city with a craft and food scene; short-haul from Singapore, family-workable, and the burning-season caveat is the honest hook",
+      "angle": "r/ThailandTourism, Thaivisa/ASEAN Now, GT-Rider (the definitive loop resource), Chiang Mai CityLife",
+      "next_eligible": "Nov–Feb only; avoid Feb–Apr burning season entirely"
+    },
+    {
+      "destination": "Sabah: Kota Kinabalu, Kinabatangan &amp; Sipadan, Malaysia",
+      "issue": "The wildlife trip that does not need a long-haul flight — orangutan and proboscis monkeys on the Kinabatangan, Danum Valley rainforest, Sipadan's permit-capped diving (120 a day), and Mount Kinabalu as an achievable summit for a fit teenager; two-and-a-half hours from Singapore and chronically under-covered next to Borneo's Indonesian half",
+      "angle": "r/malaysia, r/scuba (Sipadan permit threads), Sabah Parks, Wild Asia",
+      "next_eligible": "Mar–Sep dry season; Sipadan permits must be booked months out"
     }
   ]
 }
