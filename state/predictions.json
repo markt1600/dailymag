@@ -635,7 +635,9 @@
    "desk": "The Kit",
    "claim": "Independent reviews confirm Galaxy Watch Ultra 2 real-world battery ~2–3 days (AOD on), not a proportional jump from the 35%-larger cell",
    "check_by": "2026-09-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "GSMArena measured about seventy-two hours with the display always on, against a cell thirty-five per cent larger. No proportional gain.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 62,
@@ -695,7 +697,9 @@
    "desk": "Technology",
    "claim": "Qwen3.8-Max open weights become publicly downloadable (vs API-only at preview)",
    "check_by": "2026-09-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Shipped 12 August as a 2.4-trillion-parameter sparse mixture, BF16 and FP8. Caveat: the open checkpoint is text-only.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 63,
@@ -1540,7 +1544,9 @@
    "desk": "The Macro Desk",
    "claim": "Gold holds above US$4,000 and the US 30Y yield stays above 5% over the next month (higher-for-longer regime persists)",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "Gold held a $4,300-$4,440 band all month and the 30Y never closed below 5.16%.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 74,
@@ -1745,7 +1751,9 @@
    "desk": "The World",
    "claim": "Zambia: Mundubile's court petition against Hichilema's ~60% win; Hichilema not yet sworn in",
    "check_by": "2026-09-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Hichilema was sworn in for a second term on 1 September. No presidential petition was ever validly registered; Mundubile was charged with treason on 30 August.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 77,
@@ -2018,7 +2026,9 @@
    "desk": "The Long Read",
    "claim": "No major Western outlet (NYT/BBC/Reuters/FT) runs a feature on the Korean 'no-dating running crew'/designed-belonging synthesis within three weeks",
    "check_by": "2026-09-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "Still nothing in NYT, BBC, Reuters, FT, Guardian, Economist, Washington Post, Bloomberg or CNN.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 81,
@@ -2042,7 +2052,9 @@
    "desk": "The Macro Desk",
    "claim": "US 30-year Treasury yield stays elevated (~5.2%+) after touching a 19-year high 5.33%.",
    "check_by": "2026-09-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 30Y never closed below 5.24% in September; 5.34% on 18 Sep.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 81,
@@ -2080,7 +2092,9 @@
    "desk": "The Long Read",
    "claim": "No NYT/BBC/Reuters/FT feature on the DSWD × TikTok Shop 'welfare-to-live-selling' angle within ~3 weeks of 24 Aug 2026.",
    "check_by": "2026-09-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "Still Philippine-only coverage. No Western feature.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 83,
@@ -2138,14 +2152,18 @@
    "desk": "The Long Read",
    "claim": "No NYT/BBC/Reuters/FT feature on Japan's malatang boom (and its counterpoint to the Japan-China freeze) within ~3 weeks of 26 Aug 2026.",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "Still no Western feature; coverage sits with Asian outlets.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 83,
    "desk": "The Kit",
    "claim": "Garmin Enduro 4 gets an official price and battery spec (the HELD figures resolve) within ~3 weeks.",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Garmin has still not announced the Enduro 4. Every figure in circulation is an APK teardown, not Garmin.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 84,
@@ -2259,7 +2277,9 @@
    "desk": "The Home Lab",
    "claim": "Zhipu's GLM-5.3 open weights actually ship (BF16/FP8 repos public) after the held cyber-safety review",
    "check_by": "2026-09-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "GLM-5.3 went public around 27 August, BF16 and FP8, once the cyber-safety review closed.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 85,
@@ -2529,7 +2549,9 @@
    "desk": "Singapore",
    "claim": "MinLaw 3-day cooling-off on licensed-moneylender loans takes effect 15 Sep",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "Commenced 15 September, as announced: three business days on unsecured loans, MinLaw's own page.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 90,
@@ -2564,7 +2586,9 @@
    "desk": "The Rabbit Hole",
    "claim": "ZWO Seestar S50 Pro intro price $899 holds until 15 Sep, then $999",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "It held, then rose. The Seestar S50 Pro is $999 on ZWO's own store.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 90,
@@ -2610,7 +2634,9 @@
    "desk": "Screen & Sound",
    "claim": "Danny Boyle's 'Ink' is a frontrunner but does not necessarily win the Golden Lion (awarded ~6 Sep)",
    "check_by": "2026-09-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "'Ink' opened Venice to a five-minute ovation and won nothing. A weak call — it predicted both branches.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 92,
@@ -2741,8 +2767,9 @@
    "desk": "Screen & Sound",
    "claim": "The Venice Golden Lion (announced 12 Sep) goes to a competition title; 'Ink' or 'Wild Horse Nine' are the frontrunners we flagged",
    "check_by": "2026-09-12",
-   "outcome": null,
-   "result": null
+   "outcome": "wrong",
+   "result": "The Golden Lion went to May el-Toukhy's 'Woman Unknown' — a title this desk never named. Both frontrunners finished empty on the top prize.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 94,
@@ -2765,8 +2792,9 @@
    "desk": "The World",
    "claim": "The three-day Kyiv strike pause does not extend into a durable ceasefire; strikes resume within the week",
    "check_by": "2026-09-14",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Russia resumed striking Kyiv on 8 September, two days after the pause began. No ceasefire followed.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 94,
@@ -2885,14 +2913,18 @@
    "desk": "The Macro Desk",
    "claim": "Gold does not set a fresh record high (above its prior ~$4,400 peak) before the 16 Sep FOMC",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "It did not — but nowhere near the claim's own benchmark. Gold's record is $5,589.38, set 28 January 2026.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 97,
    "desk": "Screen & Sound",
    "claim": "One of the two ovation leaders — Zeller's 'Bunker' or McDonagh's 'Wild Horse Nine' — takes a major prize (Golden or Silver Lion) at Venice on 12 Sep",
    "check_by": "2026-09-12",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Neither did. The Silver Lions went to Lee Chang-dong's 'Possible Love' and Khrzhanovsky's 'DAU'.",
+   "graded": "2026-09-19"
   },
   {
    "issue": 97,
@@ -3001,7 +3033,9 @@
    "desk": "Screen & Sound",
    "claim": "The Venice Golden Lion (12 Sep) is NOT won by McDonagh's 'Wild Horse Nine' — the desk's sceptic call that ovation length is a weak predictor",
    "check_by": "2026-09-12",
-   "outcome": null
+   "outcome": "right",
+   "result": "The sceptic call held: a thirteen-minute ovation, no Golden Lion.",
+   "graded": "2026-09-19"
   },
   {
    "issue": "98",
@@ -3015,7 +3049,9 @@
    "desk": "The Diary",
    "claim": "Bruno Mars 'The Romantic Tour' Singapore general sale opens 14 Sep 2026 as scheduled",
    "check_by": "2026-09-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "Opened 14 September at ten in the morning, on schedule. No sell-out declared.",
+   "graded": "2026-09-19"
   },
   {
    "issue": "98",
@@ -3053,7 +3089,9 @@
    "desk": "Screen & Sound",
    "claim": "Venice 2026 Golden Lion / top acting prizes go to one of 'Bunker' or 'Wild Horse Nine' (the two loudest ovations)",
    "check_by": "2026-09-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "John Malkovich took the Volpi Cup for Best Actor for 'Wild Horse Nine'.",
+   "graded": "2026-09-19"
   },
   {
    "issue": "99",
