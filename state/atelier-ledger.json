@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Hairbrushes &amp; combs",
+      "issue": "108",
+      "angle": "The damage is a mould line &mdash; an injection-moulded comb carries a parting ridge down every tooth, exactly where hair slides (&ldquo;an area of increased friction on each tooth where the two parts of the mold join&rdquo;, per Mason Pearson's own US distributor). THE FIX IS A PROCESS, NOT A MATER"
+    },
+    {
       "category": "Pepper mills &amp; salt grinders",
       "issue": "107",
       "angle": "The burr is the product; everything else is a handle &mdash; a pepper mill is a cutting tool wearing a decorative body, and almost nobody sells you the cutting tool. MECHANISM FROM THE GROUND UP: a peppercorn is a dried drupe, hard and brittle with oil held in cells, so you want to FRACTURE it, not "
@@ -210,22 +215,22 @@
       "sources": "The unglamorous precision tools a serious cook buys once and never replaces"
     },
     {
-      "category": "Hairbrushes &amp; combs",
-      "rotation": "Grooming",
-      "fit": "Boar vs nylon, Mason Pearson vs Kent, horn/cellulose-acetate combs; r/wicked_edge crossover",
-      "sources": "A daily grooming object with a real quality hierarchy and a white-label truth"
-    },
-    {
       "category": "Enamelware &amp; camp mugs",
       "rotation": "Home / kitchen",
       "fit": "Vitreous enamel over steel, chip-resistance, Falcon/Riess/Crow Canyon; r/BuyItForLife",
       "sources": "A humble buy-forever object; the enamel process and the makers who still do it right"
     },
     {
-      "category": "Umbrellas",
-      "rotation": "Carry",
-      "fit": "Frame engineering is the product — rib count, fibreglass vs steel vs the solid-stick Fox frame; the OEM truth behind most “designer” umbrellas",
-      "sources": "A daily object in the wettest city on the list, with a genuine bespoke tier (Fox, Ince, Maglia) and an obvious logo tax"
+      "category": "Wooden cutting boards &amp; butcher blocks",
+      "rotation": "Home / kitchen",
+      "fit": "End-grain vs edge-grain, hard maple and walnut, the glue-up and the finish; Boos, The Boardsmith, Japanese hinoki",
+      "sources": "A buy-once surface that outlives the knives, with a real construction hierarchy and an obvious cheap-vs-forever split"
+    },
+    {
+      "category": "Shaving brushes &amp; badger alternatives",
+      "rotation": "Grooming",
+      "fit": "Knot density and backbone, synthetic vs badger grades, the workshops that still tie by hand; Simpson, Semogue, Paladin, Yaqi",
+      "sources": "A daily grooming object where the synthetic tier genuinely caught the naturals, and the grail tier has a waiting list"
     }
   ],
   "retired": [

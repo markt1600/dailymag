@@ -148,7 +148,7 @@ for needle, floor, label in STYLE_FLOORS:
 # chatter/slate (its furniture is pulls + sources) but not from footnotes.
 _desk_pages = {}
 for _i, _sec in enumerate(pages, 1):
-    _m = re.search(r'<div class="rh"><span><span class="dot">●</span> Meridian · ([^<]+)</span>', _sec)
+    _m = re.search(r'<div class="rh"><span><span class="dot">(?:●|&#9679;)</span>\s*Meridian\s*(?:·|&middot;)\s*([^<]+)</span>', _sec)
     if not _m:
         continue
     _desk = _m.group(1).strip()
@@ -169,7 +169,7 @@ for _desk, _secs in _desk_pages.items():
 
 # page-two feature rotation (from No. 51): Friday needs The Meridian Index,
 # Saturday needs The Scoreboard. Weekday read from the cover's date line.
-_issm = re.search(r'No\.\s*(\d{1,3})(?:\.\d)?\s*·\s*Singapore', html)
+_issm = re.search(r'No\.\s*(\d{1,3})(?:\.\d)?\s*(?:·|&middot;)\s*Singapore', html)
 _issno = int(_issm.group(1)) if _issm else 0
 # SPECIAL EDITIONS (No. NN.5): one-topic 24pp deep dives keep the full visual
 # system and quality floors but not the daily desk structure — desk-structure
