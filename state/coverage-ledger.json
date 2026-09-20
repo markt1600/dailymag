@@ -1,5 +1,5 @@
 {
-  "count": 698,
+  "count": 722,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1248,6 +1248,167 @@
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
     },
     {
+      "subject": "US&ndash;Denmark&ndash;Greenland security agreement",
+      "type": "Situation-peg (geopolitics)",
+      "last_covered": "No. 109",
+      "last_peg": "World LEAD &mdash; announced 18 Sep and confirmed by all three governments; the Danish release is headed &ldquo;Expected agreement&rdquo; and every specific term traces to US officials briefing one broadcaster",
+      "next_peg": "Developing &mdash; next peg = the published text, the New York signing, or a parliamentary ratification. Delta only; do not re-explain the announcement."
+    },
+    {
+      "subject": "Mecklenburg-Vorpommern &amp; Berlin state elections, Sep 2026",
+      "type": "Event (politics)",
+      "last_covered": "No. 109",
+      "last_peg": "World &mdash; AfD 38.3% and 32 of 71 seats; CDU 4.9% and zero; Die Linke first in Berlin on 25.8%",
+      "next_peg": "Next peg = the final certified counts (the printed decimals are preliminary tertiary) or a coalition. Do not re-cover the result."
+    },
+    {
+      "subject": "Transboundary Haze Pollution Act (enforcement)",
+      "type": "Practice (law)",
+      "last_covered": "No. 109",
+      "last_peg": "Singapore LEAD &mdash; no investigation ever initiated; Grace Fu&rsquo;s 12 Feb 2026 threshold answer (peak PSI 69) against 154 on 15 Sep, and MSE silent on the Act through September",
+      "next_peg": "Next peg = a ministerial answer, an NEA notice served, or a first investigation. This is the ENFORCEMENT subject, distinct from the haze-episode row."
+    },
+    {
+      "subject": "Firefox Smart Window &times; Mistral",
+      "type": "Product (AI)",
+      "last_covered": "No. 109",
+      "last_peg": "Technology LEAD &mdash; 16 Sep announcement; zero-data-retention promise, France and North America only, and no model named and no inference location disclosed",
+      "next_peg": "Next peg = a named model, a disclosed inference location, a Firefox version, or the UK/Germany launch."
+    },
+    {
+      "subject": "Qwen-Image 2.1",
+      "type": "Model release (AI)",
+      "last_covered": "No. 109",
+      "last_peg": "Home Lab LEAD &mdash; 7B visual generation over 32 single-stream DiT layers, ten reference images, transparent RGBA; Qwen Research Licence, no published VRAM figure and no benchmark",
+      "next_peg": "Next peg = an independent evaluation, a published VRAM requirement, or a licence change."
+    },
+    {
+      "subject": "Nvidia CUDA-Rust (cuda-oxide / cutile-rs)",
+      "type": "Toolchain (silicon)",
+      "last_covered": "No. 109",
+      "last_peg": "Technology brief &mdash; the 8 Sep post reaching the front page on the 16th; &ldquo;early alpha,&rdquo; no performance numbers, maturity aimed at 2027",
+      "next_peg": "Next peg = a stable release or the first published benchmarks. Not the spec sheet restated."
+    },
+    {
+      "subject": "Valve Steam Frame",
+      "type": "Product (hardware)",
+      "last_covered": "No. 109",
+      "last_peg": "The Kit &mdash; reservations closed 17 Sep, first purchase emails the 18th; US$1,059 / US$1,299, Snapdragon 8 Gen 3, dual 2160&times;2160, 120 Hz honest against a &ldquo;144 experimental&rdquo;",
+      "next_peg": "Next peg = the first independent hands-on, a Singapore price, or shipping at volume."
+    },
+    {
+      "subject": "NoMad Hilton Singapore (Orchard Road)",
+      "type": "Property (hospitality)",
+      "last_covered": "No. 109",
+      "last_peg": "The Good Life LEAD &mdash; 17 Sep announcement: 173 rooms over twelve levels on the former Faber House site, WOHA, a fourteen-storey waterfall, 1,860 artworks ~90% by Singapore-based artists",
+      "next_peg": "Next peg = a published opening date or a room rate. Neither exists yet."
+    },
+    {
+      "subject": "iFi iCAN PHANTOM 1.5",
+      "type": "Product (audio)",
+      "last_covered": "No. 109",
+      "last_peg": "The Good Life &mdash; listed new on 18 Sep at &pound;3,749; every named specialist verdict in existence is for the ORIGINAL Phantom, reviewed Oct 2024",
+      "next_peg": "Next peg = a dated review of the 1.5 specifically, or a statement of what the revision changes. Do not carry the 2024 verdict forward again."
+    },
+    {
+      "subject": "78th Primetime Emmy Awards",
+      "type": "Event (television)",
+      "last_covered": "No. 109",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; the ceremony of 14 Sep: <i>Widow&rsquo;s Bay</i> six on the night and fourteen in total, Matthew Rhys&rsquo;s double lead win, <i>The Pitt</i> repeating",
+      "next_peg": "CLOSED &mdash; winners delivered. Next live peg = the 79th, or a records challenge."
+    },
+    {
+      "subject": "<i>Widow&rsquo;s Bay</i> (Apple TV)",
+      "type": "Series (television)",
+      "last_covered": "No. 109",
+      "last_peg": "Screen &amp; Sound &mdash; the record haul against a Metascore of 78 and Slate&rsquo;s 40",
+      "next_peg": "Next peg = a second-season order or a notable critical re-appraisal."
+    },
+    {
+      "subject": "Carly Rae Jepsen &mdash; <i>Day and Night</i>",
+      "type": "Album (music)",
+      "last_covered": "No. 109",
+      "last_peg": "Screen &amp; Sound &mdash; released 18 Sep, 24 tracks; Pitchfork 7.5 (Lorusso)",
+      "next_peg": "Next peg = first-week numbers or a tour. Do not re-cover on &ldquo;still out.&rdquo;"
+    },
+    {
+      "subject": "Universal/Sony v Suno (second suit) &amp; Universal v DistroKid",
+      "type": "Litigation (music/AI)",
+      "last_covered": "No. 109",
+      "last_peg": "Screen &amp; Sound &mdash; 60,202 recordings and the &ldquo;fruit of the same poisoned tree&rdquo; filing, 18 Sep; the DistroKid &ldquo;slop&rdquo; complaint, 15 Sep",
+      "next_peg": "Developing &mdash; next peg = either defendant&rsquo;s answer, a consolidation, or a ruling. Delta only."
+    },
+    {
+      "subject": "Smartphone acquisition at 12&ndash;13 (ABCD, <i>Frontiers</i>)",
+      "type": "Study (child health)",
+      "last_covered": "No. 109",
+      "last_peg": "Family LEAD &mdash; n=3,486 phone-free at twelve; 1,546 acquired; worse internalizing, attention and total scores at p&le;0.003 with mediation through screen time, social-media account and bedtime use",
+      "next_peg": "Next peg = the TYPESET paper with betas and confidence intervals &mdash; no effect size is published anywhere yet, and none was printed. Re-read in a fortnight."
+    },
+    {
+      "subject": "SMART Schools restrictive phone policies (<i>BMJ Mental Health</i>)",
+      "type": "Study (education)",
+      "last_covered": "No. 109",
+      "last_peg": "Family &mdash; 815 pupils, 20 schools; incremental QALYs 0.009 (&minus;0.014 to 0.032) and wellbeing &minus;0.004, both crossing zero; &minus;&pound;94 per pupil",
+      "next_peg": "Next peg = a longer follow-up or a second site. General guidance, not medical advice."
+    },
+    {
+      "subject": "Fragmented vs traditional resistance training (JESF RCT)",
+      "type": "Study (fitness)",
+      "last_covered": "No. 109",
+      "last_peg": "Fitness LEAD &mdash; 45 men 18&ndash;25, eight weeks, volume matched; no significant difference between arms but traditional led on every point estimate; enjoyment favoured fragmented at p=0.034",
+      "next_peg": "Next peg = a replication in an older or female cohort, or a longer adherence arm. Not medical advice."
+    },
+    {
+      "subject": "Wearable sleep-tracker validation (16-study meta-analysis)",
+      "type": "Study (wearables)",
+      "last_covered": "No. 109",
+      "last_peg": "Fitness &mdash; wearables systematically overestimate total sleep time and efficiency; &ldquo;no device demonstrated consistently superior performance&rdquo;",
+      "next_peg": "Next peg = an independent validation of the proprietary readiness/recovery COMPOSITES, which this review did not assess and which no published study this desk could find has."
+    },
+    {
+      "subject": "Crucible &amp; Buderus mill closures; Erasteel MagnaCut",
+      "type": "Situation-peg (materials)",
+      "last_covered": "No. 109",
+      "last_peg": "Rabbit Hole &mdash; Crucible ceased 2025, Buderus shut 31 Oct 2025; W2 and 52100 out of stock in every size at Pop&rsquo;s on 20 Sep 2026; Erasteel MagnaCut tested tougher than the Crucible original",
+      "next_peg": "Next peg = alloys returning to stock, or a further published comparison. Delta only."
+    },
+    {
+      "subject": "Bark River Knives closure (mislabelled steel)",
+      "type": "Event (trade)",
+      "last_covered": "No. 109",
+      "last_peg": "Rabbit Hole sceptic &mdash; closed 20 Mar 2026; Chinese steel stamped CPM-154/154CM, admitted by the founder; dealers sent stock for XRF testing",
+      "next_peg": "CLOSED &mdash; the company is gone. Next live peg only if a successor brand or a regulatory action appears."
+    },
+    {
+      "subject": "Kuro Kare (Havelock II)",
+      "type": "Restaurant (Singapore)",
+      "last_covered": "No. 109",
+      "last_peg": "The Table &mdash; the 36-hour black curry, ex-Fleurette chefs, eighteen seats; Eatbook July, Time Out September reporting it packed daily",
+      "next_peg": "Next peg = a settled critical verdict, a second outlet or a price change."
+    },
+    {
+      "subject": "Assaggi (Neil Road) &amp; Le Ju Xuan (MBS)",
+      "type": "Restaurant (Singapore)",
+      "last_covered": "No. 109",
+      "last_peg": "The Table &mdash; both carried as UNREVIEWED: listing coverage only, no verdict from any outlet this desk reads, and no published price for Le Ju Xuan",
+      "next_peg": "Next peg = a first review. Do not re-list as &ldquo;new&rdquo; without one."
+    },
+    {
+      "subject": "National Cancer Centre e-mail disclosure (467 recipients)",
+      "type": "Event (data protection)",
+      "last_covered": "No. 109",
+      "last_peg": "Singapore brief &mdash; cc instead of bcc on a hereditary-cancer event invitation; reported to the PDPC",
+      "next_peg": "Next peg = a PDPC decision or a penalty."
+    },
+    {
+      "subject": "Colorectal screening start age (MOH)",
+      "type": "Policy (health)",
+      "last_covered": "No. 109",
+      "last_peg": "Singapore brief &mdash; 17 Sep written reply holding the recommended start age at 50 against America&rsquo;s 45, on the February Screening Test Review Committee report",
+      "next_peg": "Next peg = a change to the recommendation or a new committee review."
+    },
+    {
       "subject": "Mason Pearson (brushes and combs)",
       "type": "Product (grooming)",
       "last_covered": "No. 108",
@@ -1549,6 +1710,13 @@
       "next_peg": "Next peg = the first settled verdicts."
     },
     {
+      "subject": "Apple Watch Ultra 4",
+      "type": "Product (wearable)",
+      "last_covered": "No. 109",
+      "last_peg": "The Kit LEAD &mdash; shipped 18 Sep; <b>S$1,199</b> read at Apple&rsquo;s own Singapore store, and DC Rainmaker&rsquo;s in-depth review of the 17th &mdash; both pegs the previous row asked for",
+      "next_peg": "Launch, review and SG-price pegs now ALL spent. Next peg = a firmware fix for the Readiness bugs, a price move, or an independent accuracy study."
+    },
+    {
       "subject": "Anker soundcore Sleep Earbuds 4 Pro",
       "type": "Product (audio/wearable)",
       "last_covered": "No. 102",
@@ -1572,9 +1740,9 @@
     {
       "subject": "Tian Tian Hainanese Chicken Rice &mdash; Jewel flagship",
       "type": "Venue (SG dining)",
-      "last_covered": "No. 102",
-      "last_peg": "The Table &mdash; the Maxwell Bib Gourmand legend&rsquo;s first proper restaurant, Jewel Changi B2, ~98 seats (soft 11 Aug/grand 22 Aug); plates from ~S$11 vs ~S$6 at the stall &mdash; the price the recurring gripe; sceptic = the hawker-to-restaurant markup question.",
-      "next_peg": "Next peg = a settled verdict or a price change."
+      "last_covered": "No. 109",
+      "last_peg": "The Table &mdash; the settled verdict: Time Out&rsquo;s hedged read, an invited tasting&rsquo;s scores, and the detail that neither reviewer found a queue",
+      "next_peg": "CLOSED &mdash; the verdict peg is spent. Next live peg = a price change or a second flagship."
     },
     {
       "subject": "Le Ju Xuan &mdash; Marina Bay Sands",
@@ -1670,9 +1838,9 @@
     {
       "subject": "AirPods 5 (ANC)",
       "type": "Product (audio)",
-      "last_covered": "No. 99",
-      "last_peg": "The Kit 2nd — announced 9 Sep, ships 18 Sep, from ~A$219 (~US$80 under last year&rsquo;s ANC model); the value pick of the keynote.",
-      "next_peg": "Next peg = reviews or US pricing."
+      "last_covered": "No. 109",
+      "last_peg": "The Kit brief &mdash; shipped 18 Sep at S$199 / S$219; MacRumors hands-on and Engadget&rsquo;s &ldquo;modest&rdquo; verdict",
+      "next_peg": "Review and pricing pegs spent. Next peg = a price cut or a hardware revision."
     },
     {
       "subject": "Tudor Northflag GMT",
@@ -3728,9 +3896,9 @@
     {
       "subject": "Emmy nominations / Awards 2026",
       "type": "Award",
-      "last_covered": "No. 37",
-      "last_peg": "Screen & Sound LEAD — noms 8 Jul: The Pitt 25 (most), Hacks 24 (comedy record), Beef tops limited, Gilligan's *Pluribus* into Best Drama; ceremony 14 Sep, host Mariska Hargitay",
-      "next_peg": "Next peg = the ceremony winners (14 Sep), then closed. Don't re-cover the nominations."
+      "last_covered": "No. 109",
+      "last_peg": "The ceremony winners, 14 Sep 2026 &mdash; the peg this row named",
+      "next_peg": "CLOSED as this row specified. Next live peg = the 79th."
     },
     {
       "subject": "Madonna — *Confessions II*",

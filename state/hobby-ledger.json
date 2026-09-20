@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Knife making / bladesmithing",
+      "issue": "109",
+      "angle": "Four problems stacked, and the one that decides the knife is invisible &mdash; shape, geometry, <b>heat treatment</b>, handle; every argument in the hobby is a position on hardness against toughness. COMMUNITY: BladeForums (blocked to this desk on every path, so nothing quoted from it) and <b>KnifeD"
+    },
+    {
       "hobby": "Hand-tool woodworking",
       "issue": "108",
       "angle": "Neanderthals, Normites and the hybrids who are most of them &mdash; a machine abrades and leaves a surface you sand; a sharp plane <i>severs</i> the fibre and leaves a burnished one, which is the whole aesthetic case. COMMUNITY: not a subreddit &mdash; <b>Sawmill Creek</b> (real names required, 145,"
@@ -264,12 +269,6 @@
       "fit": "A near-free deep-skill craft; complex-model culture, paper geekery, math crossover"
     },
     {
-      "hobby": "Knife making / bladesmithing",
-      "category": "Maker / craft",
-      "communities": "r/Bladesmith, r/knifeclub, Walter Sorrells/forged-in-fire scene",
-      "fit": "Stock-removal to forge; steel, heat-treat and grinds &mdash; a maker craft with a deep tool economy"
-    },
-    {
       "hobby": "Falconry &amp; birds of prey",
       "category": "Hobby / animals",
       "communities": "r/falconry, NAFA, Middle East and UK club scenes",
@@ -298,6 +297,30 @@
       "category": "Craft / textile",
       "communities": "r/weaving, Weavolution, Ashford and Louet scenes",
       "fit": "A slow textile craft with a loom ladder from rigid heddle to countermarch, and a secondhand market that never depreciates"
+    },
+    {
+      "hobby": "Home cheesemaking",
+      "category": "Food / craft",
+      "communities": "r/cheesemaking, curd-nerd forums, New England Cheesemaking",
+      "fit": "A patient dairy craft with a culture-and-rennet gear ladder and a cave-in-a-spare-fridge problem; proposed as a Next Descents chip at No. 109"
+    },
+    {
+      "hobby": "Falconry &amp; birds of prey",
+      "category": "Hobby / animals",
+      "communities": "r/falconry, NAFA, the UK and Middle East club scenes",
+      "fit": "A licensed craft with a mandatory apprenticeship and a mentor culture; gear is hoods, jesses and telemetry; proposed at No. 109"
+    },
+    {
+      "hobby": "Lapidary &amp; gem cutting",
+      "category": "Craft / maker",
+      "communities": "r/lapidary, faceting forums, the Ultra Tec and Facetron scenes",
+      "fit": "A slow optical craft with a machine ladder from cabbing to faceting, and a rough-stone economy that rewards judgement over spend"
+    },
+    {
+      "hobby": "Letterpress printing",
+      "category": "Craft / print",
+      "communities": "Briar Press, letterpress commons, the Vandercook and Heidelberg Windmill scenes",
+      "fit": "Lead, wood type and a press that weighs a tonne; an archival-materials rabbit hole with a live secondhand market"
     }
   ],
   "retired": [

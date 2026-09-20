@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Desk &amp; task lighting",
+      "issue": "109",
+      "angle": "The socket is the buy-once test &mdash; a lamp with an unreplaceable LED has a service life, not a lifetime, and ties a &euro;600 aluminium arm to a &euro;4 driver board. MECHANISM: <b>Ra is the mean of R1&ndash;R8 only</b>, all pastels, so R9 (deep red) can be near zero or negative behind an advert"
+    },
+    {
       "category": "Hairbrushes &amp; combs",
       "issue": "108",
       "angle": "The damage is a mould line &mdash; an injection-moulded comb carries a parting ridge down every tooth, exactly where hair slides (&ldquo;an area of increased friction on each tooth where the two parts of the mold join&rdquo;, per Mason Pearson's own US distributor). THE FIX IS A PROCESS, NOT A MATER"
@@ -179,12 +184,6 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Wooden cutting boards &amp; butcher blocks",
-      "rotation": "Home / kitchen",
-      "fit": "End-grain vs edge-grain, hard maple/walnut, the John Boos vs Boardsmith debate; r/BuyItForLife, r/chefknives",
-      "sources": "A buy-once surface that outlives every knife on it; care and wood choice decide it"
-    },
-    {
       "category": "Cast-iron cookware care &amp; restoration",
       "rotation": "Home / kitchen",
       "fit": "The seasoning-and-restore craft; r/castiron, vintage Griswold/Wagner hunting",
@@ -231,6 +230,36 @@
       "rotation": "Grooming",
       "fit": "Knot density and backbone, synthetic vs badger grades, the workshops that still tie by hand; Simpson, Semogue, Paladin, Yaqi",
       "sources": "A daily grooming object where the synthetic tier genuinely caught the naturals, and the grail tier has a waiting list"
+    },
+    {
+      "category": "Merino base layers &amp; travel tees",
+      "rotation": "Clothing",
+      "fit": "The buy-once travel/performance layer — micron grade, GSM, mulesing-free wool; Icebreaker/Smartwool/Woolly/Unbound Merino; r/onebag, r/BuyItForLife",
+      "sources": "Merino&rsquo;s odour-resistance is the multi-day-travel and tropical-aircon case; judged on micron and knit, not logo"
+    },
+    {
+      "category": "Hard-shell luggage &amp; carry-ons",
+      "rotation": "Carry",
+      "fit": "Polycarbonate vs aluminium vs hybrid, the zipper vs latch debate, wheel/handle failure points; Rimowa/Away/Monos/Tumi and the OEM truth",
+      "sources": "A frequent-flyer&rsquo;s buy-once case; warranty and repairability the real test, not the logo"
+    },
+    {
+      "category": "Cast-iron kettles &amp; tetsubin",
+      "rotation": "Home / tea",
+      "fit": "Nambu ironware, the iron-water claim tested, and the makers left in Iwate",
+      "sources": "A buy-once object with a real construction hierarchy; restored to the pipeline 21 Sep 2026"
+    },
+    {
+      "category": "Fountain pens (the pen itself)",
+      "rotation": "Paper / desk",
+      "fit": "Nib grinds, tine alignment and the gold-vs-steel question; Sailor, Pilot, Leonardo, Scribo; Fountain Pen Network, Pen Addict",
+      "sources": "The instrument to go with the ink and paper covered at No. 106; the nibmeister tier is a genuine bespoke route"
+    },
+    {
+      "category": "Chef&rsquo;s whites &amp; work shirts",
+      "rotation": "Clothing",
+      "fit": "Oxford cloth weight, collar construction, single-needle seams; Kamakura, Proper Cloth, Luxire, Ascot Chang in Hong Kong",
+      "sources": "A daily-worn cloth where fit is made, not bought, and the Asian bespoke shirtmakers are the under-the-radar tier"
     }
   ],
   "retired": [
@@ -243,31 +272,6 @@
       "category": "Chef&#39;s aprons &amp; kitchen textiles",
       "retired": "6 Sep 2026",
       "note": "Reader eliminated it. Was pipelined as Home / kitchen — the waxed-canvas and linen apron makers (Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife). Row was originally typed in the pipeline's four-column shape under this three-column header; re-cast 6 Sep 2026 when the Retired ta"
-    },
-    {
-      "category": "Merino base layers &amp; travel tees",
-      "retired": "Clothing",
-      "note": "The buy-once travel/performance layer — micron grade, GSM, mulesing-free wool; Icebreaker/Smartwool/Woolly/Unbound Merino; r/onebag, r/BuyItForLife · Merino&rsquo;s odour-resistance is the multi-day-travel and tropical-aircon case; judged on micron and knit, not logo"
-    },
-    {
-      "category": "Hard-shell luggage &amp; carry-ons",
-      "retired": "Carry",
-      "note": "Polycarbonate vs aluminium vs hybrid, the zipper vs latch debate, wheel/handle failure points; Rimowa/Away/Monos/Tumi and the OEM truth · A frequent-flyer&rsquo;s buy-once case; warranty and repairability the real test, not the logo"
-    },
-    {
-      "category": "Desk &amp; task lighting",
-      "retired": "Home",
-      "note": "The mechanism (CRI, colour temperature, dimming, arm engineering); the buy-once lamp — Anglepoise/Jielde/Luxo vs the OEM LED flood; r/BuyItForLife, r/battlestations · A perfectionist&rsquo;s workspace object; the arm and the light quality decide it, not the shade"
-    },
-    {
-      "category": "Shaving brushes &amp; badger alternatives",
-      "retired": "Grooming",
-      "note": "Knot density, synthetic vs badger, and the workshops that still tie by hand"
-    },
-    {
-      "category": "Cast-iron kettles &amp; tetsubin",
-      "retired": "Home / tea",
-      "note": "Nambu ironware, the iron-water claim tested, and the makers left in Iwate"
     }
   ]
 }
