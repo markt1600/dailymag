@@ -1,0 +1,788 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 110,
+ "date": "Tuesday 22 September 2026",
+ "title": "How far a thing actually reaches",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the twenty-second of September. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. Ukraine sent the largest drone wave of the war at Russia on the last day of its own election."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And three official counts of that one night that don't agree with each other."
+  },
+  {
+   "s": "A",
+   "t": "Singapore made it a jailable offence to break a casino visit limit that about five people a year actually break. And in Fiji, the price of the root you carry when you ask a village for permission has gone up six-fold."
+  },
+  {
+   "s": "B",
+   "t": "That last one is the long read, and it's the best thing in the book. Start with Moscow."
+  },
+  {
+   "s": "A",
+   "t": "Overnight into Sunday the twentieth. Ballots still open. Drones reached Moscow and eighteen other Russian regions."
+  },
+  {
+   "s": "B",
+   "t": "And a refinery caught fire."
+  },
+  {
+   "s": "A",
+   "t": "The Moscow Oil Refinery at Kapotnya. Two hundred and forty-five thousand barrels a day. About sixteen miles from the Kremlin. The mayor of Moscow, Sergei Sobyanin, said more than sixteen hundred drones were intercepted. Four hundred and fifty of them heading for the capital."
+  },
+  {
+   "s": "B",
+   "t": "And the defence ministry?"
+  },
+  {
+   "s": "A",
+   "t": "Eleven hundred and ten."
+  },
+  {
+   "s": "B",
+   "t": "Wait — those are both official? Same night?"
+  },
+  {
+   "s": "A",
+   "t": "Same night. A gap of roughly five hundred aircraft, and nobody has reconciled it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] There was a third number too, wasn't there."
+  },
+  {
+   "s": "A",
+   "t": "Higher again, circulating in wire summaries. The desk couldn't read it at any source, so it isn't in the book."
+  },
+  {
+   "s": "B",
+   "t": "Good. That's the right call."
+  },
+  {
+   "s": "A",
+   "t": "Three people died in the Moscow region. Four hundred residents, seventy of them children, left a twenty-one-storey block in Ramenskoye."
+  },
+  {
+   "s": "B",
+   "t": "And the other direction?"
+  },
+  {
+   "s": "A",
+   "t": "Russian strikes the same night killed four in the Kyiv region. Three of them children."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Both of those are the same night."
+  },
+  {
+   "s": "A",
+   "t": "Sobyanin called the attack — quote — clearly planned with the aim of disrupting the elections. United Russia took fifty-seven point eight per cent. Three hundred and fifty-five seats of four hundred and fifty. The party's largest faction ever. Fifty-nine point three per cent. The election commission's Ella Pamfilova called it the highest ever recorded for a Duma vote."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And we're printing that straight?"
+  },
+  {
+   "s": "A",
+   "t": "We're printing where it came from. Meduza, Al Jazeera and UPI. The commission's own site wasn't readable from the desk, and the book says so."
+  },
+  {
+   "s": "B",
+   "t": "Brussels had a view."
+  },
+  {
+   "s": "A",
+   "t": "Kaja Kallas: their outcome was never in doubt. The Kremlin silenced dissent, barred the only party that opposed its war in Ukraine. Guo Jiakun called the elections an important event in Russia's political life, and said the outcome reflects the will of the Russian people."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Two sentences. Two planets."
+  },
+  {
+   "s": "A",
+   "t": "But here's the sceptic, and it's the part that stayed with me. Ukraine has hit Russian refineries more than seventy times since January. And Russian refineries earned about twelve point three billion US dollars in the first half of this year. Up sixteen point two per cent on last year."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Up? With a fifth of the capacity knocked out?"
+  },
+  {
+   "s": "A",
+   "t": "Held up by export bans and a fuel-price subsidy. Third-quarter petrol margins are forecast sixteen point eight per cent higher."
+  },
+  {
+   "s": "B",
+   "t": "So the strikes work and they don't work."
+  },
+  {
+   "s": "A",
+   "t": "The physical damage is real. Kirishi shut outright. Volgograd and NORSI at about a quarter. Petrol output meeting only about seventy per cent of domestic demand."
+  },
+  {
+   "s": "B",
+   "t": "But the money went up."
+  },
+  {
+   "s": "A",
+   "t": "Hitting the plant and hitting the revenue turn out to be different operations."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the whole issue, isn't it. That sentence."
+  },
+  {
+   "s": "A",
+   "t": "It is. Hold onto it."
+  },
+  {
+   "s": "B",
+   "t": "Right. Money block. What did markets actually do?"
+  },
+  {
+   "s": "A",
+   "t": "Monday. The ten-year US Treasury fell five basis points. The two-year did not move at all."
+  },
+  {
+   "s": "B",
+   "t": "Not one point? Why did the long end move?"
+  },
+  {
+   "s": "A",
+   "t": "Oil broke. Brent settled at a hundred dollars and thirty-four cents, down three dollars fifty-three on the day. Because tankers started moving again. Aramco loaded roughly fourteen million barrels onto seven supertankers on Sunday. Crude transiting the strait has averaged two point nine million barrels a day over six days. Against seven hundred thousand in August."
+  },
+  {
+   "s": "B",
+   "t": "That's a fourfold recovery."
+  },
+  {
+   "s": "A",
+   "t": "So: lower oil, lower expected inflation, lower long-end yields. And nothing at the front end."
+  },
+  {
+   "s": "B",
+   "t": "Because the front end answers to the Fed."
+  },
+  {
+   "s": "A",
+   "t": "Three central banks raised rates in ten days. The European Central Bank on the tenth. The Federal Reserve on the sixteenth — its first increase since twenty twenty-three, unanimous."
+  },
+  {
+   "s": "B",
+   "t": "And the Bank of Japan?"
+  },
+  {
+   "s": "A",
+   "t": "To one point two five. A thirty-one-year high. Fell anyway. Dollar-yen has gone from one fifty-three point five seven to one fifty-seven point two three in a fortnight."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A thirty-one-year-high policy rate and the currency can't rally."
+  },
+  {
+   "s": "A",
+   "t": "That's a dollar bid on rate differentials. With the volatility index at fourteen point eight seven. No fear in it at all."
+  },
+  {
+   "s": "B",
+   "t": "Now — the quote. Tell them the quote."
+  },
+  {
+   "s": "A",
+   "t": "A reporter put it to the Fed chair, Kevin Warsh, that a quarter-point rise does not reopen the Strait of Hormuz. [drawn out] We cannot affect any individual price. What we can do is ensure that any change in relative prices don't broaden out."
+  },
+  {
+   "s": "B",
+   "t": "He just… conceded it."
+  },
+  {
+   "s": "A",
+   "t": "He also said he'd be hard-pressed to describe financial conditions as restrictive. That September merely removed a dose of accommodation."
+  },
+  {
+   "s": "B",
+   "t": "And where does he think policy sits against neutral?"
+  },
+  {
+   "s": "A",
+   "t": "Asked directly, he said — in a word, no."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's not an answer."
+  },
+  {
+   "s": "A",
+   "t": "It's why the two-year is pinned. The market has no anchor for where the hikes stop."
+  },
+  {
+   "s": "B",
+   "t": "What about the portfolio read?"
+  },
+  {
+   "s": "A",
+   "t": "This is the part that matters for anyone holding a global equity and bond mix. The desk computed the correlation rather than quoting one. All-world equities against the hedged global bond fund: plus point six nine over twenty days. Plus point five nine over sixty. Plus point six five over six months. The short window sits above the long one, so yes. On the fourteenth, fifteenth and sixteenth of September, equities fell on all three days. And bonds fell on all three days too."
+  },
+  {
+   "s": "B",
+   "t": "So the ballast wasn't ballast."
+  },
+  {
+   "s": "A",
+   "t": "Gold sits about twenty-two per cent below its January record, and fell again on Monday — while oil was collapsing."
+  },
+  {
+   "s": "B",
+   "t": "Everything trading the same factor."
+  },
+  {
+   "s": "A",
+   "t": "When the shock is inflation rather than growth, one factor prices all of it, and bonds become an equity beta. That's explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "One thing did work."
+  },
+  {
+   "s": "A",
+   "t": "Singapore. On Monday the Singapore dollar strengthened slightly against the US dollar while the dollar index rose."
+  },
+  {
+   "s": "B",
+   "t": "A currency band doing what a thirty-one-year-high policy rate couldn't. Speaking of Singapore — the casino thing."
+  },
+  {
+   "s": "A",
+   "t": "The second tranche of the Casino Control Amendment Act took effect Monday. A Family Visit Limit is the order a relative can ask the problem-gambling council to place on a family member. Breaking it is now enforceable by the courts. Up to a year in jail or a ten-thousand-dollar fine."
+  },
+  {
+   "s": "B",
+   "t": "And how many people break one?"
+  },
+  {
+   "s": "A",
+   "t": "Between two thousand and ten and twenty twenty-three — about five a year. Applications ran at three to fourteen a year over the decade."
+  },
+  {
+   "s": "B",
+   "t": "So a year in prison for a thing five people do."
+  },
+  {
+   "s": "A",
+   "t": "Two readings, and the evidence doesn't choose. Either it's symbolic — priced for its signal, not its caseload. Or the visit-limit clauses are the visible part of a tranche whose real payload is the anti-money-laundering machinery that arrived alongside them."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And there's a second Singapore number."
+  },
+  {
+   "s": "A",
+   "t": "Retrenchments. Four thousand six hundred and twenty in the second quarter. Highest since the fourth quarter of twenty twenty. One point nine per cent. Nineteenth consecutive quarter of employment growth."
+  },
+  {
+   "s": "B",
+   "t": "Those don't sound like the same economy."
+  },
+  {
+   "s": "A",
+   "t": "Here's the ministry's own sentence. The proportion of retrenched residents who re-entered employment within six months fell from sixty point seven per cent to fifty-four point nine. In one quarter."
+  },
+  {
+   "s": "B",
+   "t": "What are people saying?"
+  },
+  {
+   "s": "A",
+   "t": "Reddit was unreachable all session, so the local voice is a HardwareZone forum thread — eleven pages, two hundred and eight replies. They quote the inverse. The forty-five point one per cent who did not find work. One poster: tahan three more months and that lot will be categorised as not actively looking for a job."
+  },
+  {
+   "s": "B",
+   "t": "[wry] The forum found the seam."
+  },
+  {
+   "s": "A",
+   "t": "A one point nine per cent unemployment rate and a fifty-four point nine per cent re-entry rate are both true. Only one of them describes being out of work."
+  },
+  {
+   "s": "B",
+   "t": "Technology. What happened in silicon?"
+  },
+  {
+   "s": "A",
+   "t": "China's ChangXin Memory says its fifth-generation memory platform is in mass production. Eleven point nine five nanometres."
+  },
+  {
+   "s": "B",
+   "t": "That sounds like a very advanced number."
+  },
+  {
+   "s": "A",
+   "t": "It is not a node name. It's half the repeat pitch in the array's active region. They got there with four exposures on older machines instead of one pass of the extreme-ultraviolet scanner China isn't allowed to buy."
+  },
+  {
+   "s": "B",
+   "t": "So the export controls…"
+  },
+  {
+   "s": "A",
+   "t": "Were written around one machine. And the pitch was reached without it. They published no yields. No good-die counts. No speed, no power, no customer, no cost reduction. No teardown exists. Every figure on that page is the company's own. The M five Ultra Mac Studio goes on sale today. And the first independent measurements landed Sunday."
+  },
+  {
+   "s": "B",
+   "t": "Give me the number people will quote."
+  },
+  {
+   "s": "A",
+   "t": "Sixty to a hundred and eight tokens a second generating text."
+  },
+  {
+   "s": "B",
+   "t": "And the number that actually matters?"
+  },
+  {
+   "s": "A",
+   "t": "Prompt processing. Two thousand seven hundred and thirty-two tokens a second, against eleven hundred and forty-three on the previous generation."
+  },
+  {
+   "s": "B",
+   "t": "About a hundred and fifty per cent."
+  },
+  {
+   "s": "A",
+   "t": "Decode is bandwidth-bound once a model fits. Ingesting the prompt is compute-bound. If you run long-context agents, that second number is the whole game. The reviewer's own: the two-hundred-and-fifty-six-gigabyte machine couldn't run one model at full context with precision and cache both on."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The box that exists to hold big models ran out of room."
+  },
+  {
+   "s": "A",
+   "t": "The Kit — FiiO's FT fifteen. An open-back planar headphone, four hundred and ninety-nine dollars ninety-nine. A hundred-and-one-millimetre driver. A diaphragm eight hundred nanometres thick — the maker says eighty-seven per cent thinner than the model it replaces."
+  },
+  {
+   "s": "B",
+   "t": "Will it run off a phone?"
+  },
+  {
+   "s": "A",
+   "t": "Twenty-four ohms, ninety-five decibels a milliwatt. Yes. Which quietly removes the amplifier you'd otherwise have to buy."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "No independent measurement of it exists yet. Every number is FiiO's. And the cable in the box is advertised as cryogenically treated for more than a hundred hours at minus one hundred and ninety-two degrees."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] In a freezer."
+  },
+  {
+   "s": "A",
+   "t": "The desk looked at cable claims back at issue seventy-five. That one belongs in the theatre column until somebody publishes a before and after."
+  },
+  {
+   "s": "B",
+   "t": "The Atelier. Barware today."
+  },
+  {
+   "s": "A",
+   "t": "And the finding is good. Eighteen-eight, three-oh-four — same steel, two naming systems. Eighteen-ten is a nickel flourish inside the same band."
+  },
+  {
+   "s": "B",
+   "t": "So the cheap tins and the expensive tins…"
+  },
+  {
+   "s": "A",
+   "t": "A twenty-six-dollar ninety-eight pair and a hundred-and-sixty-five-dollar pair are, on paper, identical alloy."
+  },
+  {
+   "s": "B",
+   "t": "Then what am I paying for?"
+  },
+  {
+   "s": "A",
+   "t": "Geometry. The shaker seals because steel flexes and glass doesn't — and then the shake does the work. The trapped air chills, pressure falls, and the atmosphere clamps the joint shut."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So the drink seals its own tin."
+  },
+  {
+   "s": "A",
+   "t": "Which is why you release it with a palm strike where the rims sit furthest apart. The roundness of two rims is the product."
+  },
+  {
+   "s": "B",
+   "t": "And the white-label truth?"
+  },
+  {
+   "s": "A",
+   "t": "Cocktail Kingdom's own frequently-asked-questions page: our products are manufactured in Europe, Asia and the United States."
+  },
+  {
+   "s": "B",
+   "t": "That's not an answer either."
+  },
+  {
+   "s": "A",
+   "t": "The firm knows how to label Japanese manufacture — its glassware line says Made in Japan. Its tins, jiggers and mixing glasses carry no origin statement at all."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The absence is the finding."
+  },
+  {
+   "s": "A",
+   "t": "And Yarai was never a brand. A yarai is a lattice of bamboo. A Japanese fence. Now a registered trademark in New York."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Falconry! Tell me everything."
+  },
+  {
+   "s": "A",
+   "t": "Start with the number its own recruiters lead with. Of more than three hundred Californians who start in a typical year, fewer than forty finish."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's — what, eighty-seven per cent quitting?"
+  },
+  {
+   "s": "A",
+   "t": "And the club prints it on the page meant to attract you."
+  },
+  {
+   "s": "B",
+   "t": "Why would you put that on a recruitment page?"
+  },
+  {
+   "s": "A",
+   "t": "Because Arizona goes further. The hawk will merely tolerate your presence, is as affectionate as a stone, and at the worst of times will cause you heartache and puncture wounds."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Affectionate as a stone!"
+  },
+  {
+   "s": "A",
+   "t": "There will be blood and you will get your hands dirty. Falconry is a hunting sport. These animals are not pets."
+  },
+  {
+   "s": "B",
+   "t": "Nobody talks like that about sourdough."
+  },
+  {
+   "s": "A",
+   "t": "It's the register of a craft that would rather lose you now than lose a bird later."
+  },
+  {
+   "s": "B",
+   "t": "What does it cost?"
+  },
+  {
+   "s": "A",
+   "t": "The bird can be free. In America the classic apprentice bird is a wild first-year red-tailed hawk that you trap yourself. And the radio to find it again runs from two hundred and twenty-five dollars for a transmitter to four thousand and seventy-five for a full system. A receiver alone is nine hundred and ninety-five."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] The tracker costs more than the hawk."
+  },
+  {
+   "s": "A",
+   "t": "Federal rules require two working transmitters on a hybrid bird. Regulators don't mandate redundant tracking for a low-probability event."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] So you will lose one."
+  },
+  {
+   "s": "A",
+   "t": "The whole craft is organised around getting back something you let go on purpose."
+  },
+  {
+   "s": "B",
+   "t": "What's the top of the market?"
+  },
+  {
+   "s": "A",
+   "t": "On the sixth of September, a pure ultra-white gyrfalcon sold in Abu Dhabi for two point one million dirhams. About five hundred and seventy-one thousand US dollars."
+  },
+  {
+   "s": "B",
+   "t": "For a bird."
+  },
+  {
+   "s": "A",
+   "t": "Two more from the same American breeder went for one point five million and one point one. And the one point five had itself been announced as a record eight days earlier."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And was beaten."
+  },
+  {
+   "s": "A",
+   "t": "The dearest falcon on earth cost roughly five hundred and seventy-one times the dearest bird in the American classifieds."
+  },
+  {
+   "s": "B",
+   "t": "Could I do this here?"
+  },
+  {
+   "s": "A",
+   "t": "No. And the chain is short. Singapore's protected wildlife rules list, at items two and three of the bird schedule, all falcons, hawks, eagles, vultures and owls."
+  },
+  {
+   "s": "B",
+   "t": "All of them?"
+  },
+  {
+   "s": "A",
+   "t": "Every species on earth, by order. Keeping one without approval carries up to fifty thousand dollars or two years. And on the fourteenth of September the parks board seized a hundred and one illegally kept animals in coordinated raids. It's not theoretical."
+  },
+  {
+   "s": "B",
+   "t": "Where could I actually fly one?"
+  },
+  {
+   "s": "A",
+   "t": "Yorkshire, an hour on the glove, forty pounds. Kent, a full day, a hundred and fifty-five. Or Dubai — seven hours from Changi, and the capital of the whole thing."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic? There has to be one."
+  },
+  {
+   "s": "A",
+   "t": "There is, and it's uncomfortable. The saker falcon is classed Endangered. Trapping for Gulf falconers is estimated at four thousand birds a year in Saudi Arabia alone. And falconry's own scientific consultancy published this: its Endangered status could potentially hinder programmes to develop sustainable harvests for Arabic falconry by reducing opportunities to engage in a legal trade."
+  },
+  {
+   "s": "B",
+   "t": "[pause] They wrote that down."
+  },
+  {
+   "s": "A",
+   "t": "So: does a half-million-dollar captive-bred white gyrfalcon relieve pressure on wild sakers — or prove that falcons are worth stealing? Quick turn through the rest. Screen and Sound: Haruomi Hosono, seventy-nine years old, released his twenty-third album. First new music in over seven years. He said it plainly. It's not really a record written for the whole world. It was intended to be delivered to the people closest to me, sort of like a letter."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's lovely. And also a review problem."
+  },
+  {
+   "s": "A",
+   "t": "The Quietus calls it a summation, and really rather moving — and then hears the sound of someone cocooning themselves in an idyllic, insular environment."
+  },
+  {
+   "s": "B",
+   "t": "Which is the criticism and the point."
+  },
+  {
+   "s": "A",
+   "t": "The Family Desk. Schools banned phones. Over one school year, phone use during core classes went from twenty-eight per cent to forty-two."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] It went UP?"
+  },
+  {
+   "s": "A",
+   "t": "Forty-four per cent of students said teachers had become less strict. Thirteen per cent of adults noticed."
+  },
+  {
+   "s": "B",
+   "t": "The rule stayed and the enforcement left."
+  },
+  {
+   "s": "A",
+   "t": "And student unhappiness with the policy nearly halved. A policy can become popular by ceasing to be a policy."
+  },
+  {
+   "s": "B",
+   "t": "The other family number?"
+  },
+  {
+   "s": "A",
+   "t": "Researchers modelled removing every hour of unhealthy adolescent screen time from a cohort of six thousand six hundred and eight children followed to adulthood."
+  },
+  {
+   "s": "B",
+   "t": "And the effect on the rich-poor gap in adult heart disease?"
+  },
+  {
+   "s": "A",
+   "t": "Two-tenths of a percentage point. Physical activity did one point seven."
+  },
+  {
+   "s": "B",
+   "t": "Eight times as much."
+  },
+  {
+   "s": "A",
+   "t": "The thing parents police hardest was the thing that mattered least on that pathway. And that's a decomposition, not an experiment — the book says so. Eight thousand one hundred and thirty-two adults, nine years. Low grip strength on its own predicted nothing — hazard ratio one point zero nine, interval crossing one. A ten per cent gap between the hands: one point two three. Lopsided and weak: one point six seven."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So it's not how hard you squeeze."
+  },
+  {
+   "s": "A",
+   "t": "It's whether your two hands agree. And there's a published critique saying handedness and a racquet habit manufacture that gap in healthy people, so read it carefully."
+  },
+  {
+   "s": "B",
+   "t": "Okay. The Undercurrent."
+  },
+  {
+   "s": "A",
+   "t": "Fiji. And the word is yaqona. Kava. The root. And a bundle of it is what a Fijian carries when he arrives somewhere he has no right to be."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Meaning what, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "At sevusevu, it asks permission. To enter a village, to marry, to apologise, to bury someone. The whole point of the transaction is that the price is not the point."
+  },
+  {
+   "s": "B",
+   "t": "And now there's a price."
+  },
+  {
+   "s": "A",
+   "t": "Farm-gate green kava has gone from under ten Fijian dollars a kilo to nearly sixteen or seventeen. A market vendor in Nasinu said: right now the biggest problem is the price. There is not enough supply. Australia opened a commercial import channel. American kava bars spread. A US regulator confirmed kava mixed with water is a conventional food — and the desk flags that one, because it couldn't read it at the agency itself. And a disease arrived. One in five Fijian kava farms is affected by dieback. There's no cure."
+  },
+  {
+   "s": "B",
+   "t": "And the crop takes?"
+  },
+  {
+   "s": "A",
+   "t": "Three to five years in the ground. So the supply response to this boom arrives, at the earliest, in twenty twenty-nine."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] It can't answer."
+  },
+  {
+   "s": "A",
+   "t": "A farmer at Sevaci: here in our community, we experience at least three cases of kava theft every week."
+  },
+  {
+   "s": "B",
+   "t": "From their own village."
+  },
+  {
+   "s": "A",
+   "t": "Now here's the argument, and it's the opposite of the obvious one. The export boom is small. An estimate put the whole value chain at about three hundred and twenty million Fijian dollars, of which ninety-two per cent was domestic."
+  },
+  {
+   "s": "B",
+   "t": "So the exports are a tail."
+  },
+  {
+   "s": "A",
+   "t": "Fifty-three million sitting on top. And that's exactly why it hurts. A marginal foreign buyer doesn't have to be large to set the price at the margin."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] It's not a takeover."
+  },
+  {
+   "s": "A",
+   "t": "It's a price transmission. A small external shock repricing a very large domestic ritual."
+  },
+  {
+   "s": "B",
+   "t": "And there's a twist in the trade data."
+  },
+  {
+   "s": "A",
+   "t": "Fiji exported around fifty million dollars of kava in twenty twenty-four — and imported seventeen point four million of it."
+  },
+  {
+   "s": "B",
+   "t": "The kava heartland buys kava?"
+  },
+  {
+   "s": "A",
+   "t": "And in November the Solomon Islands air-freighted its first-ever commercial kava export. The destination was Fiji. Fijian kava is becoming an appellation rather than an origin. And the moment a commodity becomes a label is the moment its farmers lose the pricing power they briefly held."
+  },
+  {
+   "s": "B",
+   "t": "Is there a counter-case?"
+  },
+  {
+   "s": "A",
+   "t": "A strong one. Fiji's own agriculture minister blames domestic drinking, not exports. And after Cyclone Winston the same grievance appeared in twenty seventeen, and prices were predicted to fall. The difference is that twenty sixteen was a supply shock and this is a demand shock. And the import line has no cyclical explanation at all."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So where does it land?"
+  },
+  {
+   "s": "A",
+   "t": "Fiji's answer is a kava bill, a national policy, certified noble varieties. A Pacific appellation. It may be the only way to keep the value at home. But an appellation is a promise made to a buyer. And the tanoa never had a buyer before."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Nobody aimed anything at a Fijian village."
+  },
+  {
+   "s": "A",
+   "t": "A few hundred bars in Florida. A customs decision in Canberra. A letter from a regulator in Maryland."
+  },
+  {
+   "s": "B",
+   "t": "And the reach was total."
+  },
+  {
+   "s": "A",
+   "t": "Which is the shape of the whole book this morning. A central bank that can't touch a price. Seventy strikes that raised a refinery's profits. A phone ban that put more phones in the classroom."
+  },
+  {
+   "s": "B",
+   "t": "Some levers too short."
+  },
+  {
+   "s": "A",
+   "t": "And some far longer than anyone measured."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a good morning's work."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

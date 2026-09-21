@@ -30,6 +30,7 @@ row still stands as editorial history.
 
 | Issue | Country | Subject | Key |
 |---|---|---|---|
+| 110 | Fiji | **yaqona** &mdash; kava as export commodity and domestic sacrament: a six-fold export rise (FJ$8m 2015 &rarr; ~FJ$53m 2024, 730t) repricing a domestic market that is ~92% of the value chain, against dieback in one farm in five and a five-year crop lag. The argument is NOT &ldquo;wellness capitalism prices out locals&rdquo; (ABC got there in Jul 2025) but that a tiny export tail sets the marginal price, and that Fiji is turning from an ORIGIN into an APPELLATION &mdash; it imported FJ$17.4m of kava in 2024 and took the Solomon Islands&rsquo; first-ever commercial consignment. Fresh region: the Pacific has never run. Under-radar verified (no NYT/BBC/Reuters/FT feature). | yaqona |
 | 67 | Vietnam | State-backed idol and concert economy | |
 | 68 | India | Astrology / faith-tech apps | AstroTalk |
 | 69 | Indonesia | Sound horeg, working-class wall-of-bass economy | horeg |

@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Barware &amp; the home bar tools",
+      "issue": "110",
+      "angle": "Reader-voted. The alloy is a red herring: 18/8 and 304 are the same steel under two naming systems, 18/10 a nickel flourish inside the same band, and <b>316 (+2&ndash;3% molybdenum, the grade that resists the chlorides that pit steel) is used by almost nobody in barware</b> &mdash; Yukiwa Baron, Kor"
+    },
+    {
       "category": "Desk &amp; task lighting",
       "issue": "109",
       "angle": "The socket is the buy-once test &mdash; a lamp with an unreplaceable LED has a service life, not a lifetime, and ties a &euro;600 aluminium arm to a &euro;4 driver board. MECHANISM: <b>Ra is the mean of R1&ndash;R8 only</b>, all pastels, so R9 (deep red) can be near zero or negative behind an advert"
@@ -184,16 +189,16 @@
   "queued": [],
   "pipeline": [
     {
+      "category": "Barware glassware (coupes, rocks &amp; highballs)",
+      "rotation": "Home / table",
+      "fit": "Distinct from the No. 110 TOOLS desk: the vessel, not the shaker &mdash; Usuhari&rsquo;s sub-millimetre wall, Kimura, Rona, Zalto",
+      "sources": "Shotoku Glass, Kimura Glass, Zalto, Riedel; r/cocktails, Difford&rsquo;s"
+    },
+    {
       "category": "Cast-iron cookware care &amp; restoration",
       "rotation": "Home / kitchen",
       "fit": "The seasoning-and-restore craft; r/castiron, vintage Griswold/Wagner hunting",
       "sources": "Distinct from the No. 88 cookware desk — the buy-forever pan you rescue and season, not the one you buy new"
-    },
-    {
-      "category": "Barware &amp; the home bar tools",
-      "rotation": "Home / kitchen",
-      "fit": "Jiggers, Japanese mixing glass, Yarai, Koriko tins; r/cocktails, r/homebar",
-      "sources": "The buy-once bar kit — Yukiwa/Koriko/Leopold, where technique beats the bottle"
     },
     {
       "category": "Coffee grinders",
@@ -218,12 +223,6 @@
       "rotation": "Home / kitchen",
       "fit": "Vitreous enamel over steel, chip-resistance, Falcon/Riess/Crow Canyon; r/BuyItForLife",
       "sources": "A humble buy-forever object; the enamel process and the makers who still do it right"
-    },
-    {
-      "category": "Wooden cutting boards &amp; butcher blocks",
-      "rotation": "Home / kitchen",
-      "fit": "End-grain vs edge-grain, hard maple and walnut, the glue-up and the finish; Boos, The Boardsmith, Japanese hinoki",
-      "sources": "A buy-once surface that outlives the knives, with a real construction hierarchy and an obvious cheap-vs-forever split"
     },
     {
       "category": "Shaving brushes &amp; badger alternatives",
@@ -263,6 +262,11 @@
     }
   ],
   "retired": [
+    {
+      "category": "Wooden cutting boards &amp; butcher blocks",
+      "retired": "22 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, 21 Sep 2026 &mdash; &ldquo;never run, never re-suggest&rdquo;). Was pipelined as Home / kitchen: end-grain vs edge-grain, hard maple and walnut, Boos and The Boardsmith. Deleted from the on-deck pipeline the same day."
+    },
     {
       "category": "Wool overcoats &amp; topcoats",
       "retired": "12 Sep 2026",
