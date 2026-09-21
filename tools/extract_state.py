@@ -23,7 +23,7 @@ for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
             "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
             "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md",
             "ledgers/atelier-ledger.md", "ledgers/events-ledger.md",
-            "ledgers/undercurrent-ledger.md"):
+            "ledgers/undercurrent-ledger.md", "ledgers/table-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -208,10 +208,28 @@ for c in rows_under("Undercurrents Covered"):
     {"covered": uc, "keys": [u["key"] for u in uc if u["key"]]},
     indent=2, ensure_ascii=False))
 
+# ---- table ledger (editor, 21 Sep 2026): The Diary's restaurant strip kept
+# re-listing the same openings (Kuro Kare in 97/99/105/109). Two runs per
+# venue, seven issues apart, then SPENT. Maintained by tools/table_ledger.py.
+tv = []
+for c in rows_under("Table Venues"):
+    if len(c) < 4 or c[0].lower() == "venue":
+        continue
+    tv.append({"venue": c[0], "key": c[1] or c[0],
+               "runs": [int(x) for x in re.findall(r"\d+", c[2])],
+               "status": c[3].strip().upper(),
+               "checked": c[4] if len(c) > 4 else "",
+               "note": (c[5] if len(c) > 5 else "")[:300]})
+(state / "table-ledger.json").write_text(json.dumps(
+    {"venues": tv,
+     "barred": [v["venue"] for v in tv if v["status"] in ("SPENT", "CLOSED")]},
+    indent=2, ensure_ascii=False))
+
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
       f"{len(hob_cov)} hobbies covered / {len(hob_pipe)} on deck, "
-      f"{len(_barred)} barred event(s), {len(uc)} undercurrents")
+      f"{len(_barred)} barred event(s), {len(uc)} undercurrents, "
+      f"{len(tv)} Table venues ({sum(v['status'] in ('SPENT', 'CLOSED') for v in tv)} barred)")
 
 # ---- note-discipline nudges (editor, 4 Aug 2026; soft warnings, never fail) ----
 # The newest note should be working memory (<=3,000 chars target) and must end

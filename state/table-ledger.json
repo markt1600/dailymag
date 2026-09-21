@@ -1,0 +1,903 @@
+{
+  "venues": [
+    {
+      "venue": "Assaggi (Neil Road)",
+      "key": "Assaggi",
+      "runs": [
+        66,
+        67,
+        68,
+        70,
+        72,
+        75,
+        76,
+        78,
+        82,
+        85,
+        87,
+        89,
+        91,
+        92,
+        95,
+        101,
+        103,
+        109
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Eighteen mentions since No. 66, most as \"still unreviewed\" — the definition of drift. Do not list again until a review exists AND the editor reinstates."
+    },
+    {
+      "venue": "Kuro Kare (Havelock II)",
+      "key": "Kuro Kare",
+      "runs": [
+        97,
+        99,
+        105,
+        109
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "The reader-reported repeat: four runs in thirteen issues. Verdict spent — Eatbook, Time Out both quoted in No. 109."
+    },
+    {
+      "venue": "Le Ju Xuan (Marina Bay Sands)",
+      "key": "Le Ju Xuan",
+      "runs": [
+        95,
+        99,
+        102,
+        105,
+        109
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Five mentions, never reviewed, no published price."
+    },
+    {
+      "venue": "Tian Tian (Jewel flagship)",
+      "key": "Tian Tian",
+      "runs": [
+        75,
+        76,
+        92,
+        99,
+        102,
+        103,
+        109
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Verdict printed in No. 109 — peg spent."
+    },
+    {
+      "venue": "Árō (Mohamed Sultan Road)",
+      "key": "Árō",
+      "runs": [
+        107
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Ran once, No. 107, as TOO NEW. Second run allowed from No. 114 with a real review."
+    },
+    {
+      "venue": "Foura (Gardens by the Bay)",
+      "key": "Foura",
+      "runs": [
+        50,
+        51,
+        52,
+        55,
+        59,
+        68,
+        74,
+        79,
+        93,
+        96,
+        97,
+        101,
+        106
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Hikiniku to Come",
+      "key": "Hikiniku to Come",
+      "runs": [
+        17,
+        20,
+        27,
+        28,
+        32,
+        34,
+        93,
+        106
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Retired in No. 28; re-used in No. 32 (corrected in No. 33); back again in 93 and 106."
+    },
+    {
+      "venue": "Unagi Yondaime Kikukawa",
+      "key": "Kikukawa",
+      "runs": [
+        99,
+        106
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Casa Lola",
+      "key": "Casa Lola",
+      "runs": [
+        88,
+        97,
+        105
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Katsu by Kyu",
+      "key": "Katsu by Kyu",
+      "runs": [
+        64,
+        66,
+        67,
+        70,
+        73,
+        75,
+        79,
+        84,
+        102,
+        105
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Issue Log No. 75 already called it \"played out\" — it ran twice more."
+    },
+    {
+      "venue": "Noor (River Valley)",
+      "key": "Noor",
+      "runs": [
+        104
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Osteria Mozza",
+      "key": "Osteria Mozza",
+      "runs": [
+        95,
+        98,
+        103,
+        104
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Sushidan",
+      "key": "Sushidan",
+      "runs": [
+        54,
+        57,
+        59,
+        84,
+        93,
+        96,
+        104
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Toriei (Cuppage Plaza)",
+      "key": "Toriei",
+      "runs": [
+        96,
+        100,
+        104
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Mom's Touch (South Bridge Road)",
+      "key": "Mom's Touch",
+      "runs": [
+        87,
+        92,
+        95,
+        97,
+        101,
+        103
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Tembusu (Botanic Gardens)",
+      "key": "Tembusu",
+      "runs": [
+        81,
+        82,
+        86,
+        87,
+        91,
+        92,
+        101,
+        103
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Behind Clay",
+      "key": "Behind Clay",
+      "runs": [
+        47,
+        50,
+        51,
+        53,
+        57,
+        101
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "LINKUS 临家",
+      "key": "LINKUS",
+      "runs": [
+        65,
+        66,
+        69,
+        70,
+        98,
+        101
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "The City Bakery (Mandarin Gallery)",
+      "key": "The City Bakery",
+      "runs": [
+        76,
+        80,
+        85,
+        89,
+        100
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Torikizoku",
+      "key": "Torikizoku",
+      "runs": [
+        27,
+        28,
+        57,
+        59,
+        100
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "ASIN",
+      "key": "ASIN",
+      "runs": [
+        17,
+        34,
+        96
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "POP Bakery by POP MART",
+      "key": "POP Bakery",
+      "runs": [
+        54,
+        60,
+        62,
+        63,
+        69,
+        70,
+        71,
+        73,
+        77,
+        83,
+        86,
+        92
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Sushi Ryujiro",
+      "key": "Sushi Ryujiro",
+      "runs": [
+        67,
+        77,
+        78,
+        81,
+        82,
+        86,
+        88,
+        91
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Loulouca (Ann Siang)",
+      "key": "Loulouca",
+      "runs": [
+        61,
+        69,
+        70,
+        86,
+        88
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Xava Skybar (National Gallery)",
+      "key": "Xava",
+      "runs": [
+        61,
+        63,
+        65,
+        66,
+        73,
+        75,
+        81,
+        82,
+        85,
+        88
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "No food verdict across ten mentions."
+    },
+    {
+      "venue": "Chin Mee Chin (Nex)",
+      "key": "Chin Mee Chin",
+      "runs": [
+        87
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "IM QALB (Tampines Mall)",
+      "key": "IM QALB",
+      "runs": [
+        85
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Blue Box Café by Tiffany & Co.",
+      "key": "Blue Box",
+      "runs": [
+        47,
+        49,
+        50,
+        51,
+        52,
+        55,
+        60,
+        62,
+        84
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Charcoal Grill Shinpachi",
+      "key": "Shinpachi",
+      "runs": [
+        64,
+        68,
+        70,
+        72,
+        75,
+        76,
+        78,
+        80,
+        83
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Liora",
+      "key": "Liora",
+      "runs": [
+        65,
+        66,
+        68,
+        72,
+        73,
+        75,
+        76,
+        79,
+        83
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "No critical verdict across nine mentions."
+    },
+    {
+      "venue": "Butter Town Breakfast Club",
+      "key": "Butter Town",
+      "runs": [
+        80
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Chimichanga",
+      "key": "Chimichanga",
+      "runs": [
+        80
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Niku Niku Oh!! Kome",
+      "key": "Niku Niku",
+      "runs": [
+        77
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Jing Studio",
+      "key": "Jing Studio",
+      "runs": [
+        67,
+        73
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Rituel",
+      "key": "Rituel",
+      "runs": [
+        71
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Tavola Aperta",
+      "key": "Tavola Aperta",
+      "runs": [
+        60,
+        62,
+        71
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "1887 by André",
+      "key": "1887 by André",
+      "runs": [
+        69
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Milli (Sky Dining)",
+      "key": "Milli",
+      "runs": [
+        17,
+        27,
+        28,
+        32,
+        34,
+        56,
+        59,
+        68
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Seroja",
+      "key": "Seroja",
+      "runs": [
+        63
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Sio Pasta",
+      "key": "Sio Pasta",
+      "runs": [
+        28,
+        63
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Tonkatsu Daiki",
+      "key": "Tonkatsu Daiki",
+      "runs": [
+        26,
+        63
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Sushi Tenrai",
+      "key": "Sushi Tenrai",
+      "runs": [
+        61
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Yi Man Fen Dessert (313 Somerset)",
+      "key": "Yi Man Fen",
+      "runs": [
+        47,
+        51,
+        55,
+        58,
+        60
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Mensho X (Raffles Place)",
+      "key": "Mensho X",
+      "runs": [
+        41,
+        47,
+        49,
+        50,
+        52,
+        55,
+        59
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Ginza Sushi Arai",
+      "key": "Ginza Sushi Arai",
+      "runs": [
+        58
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Jiin Omakase",
+      "key": "Jiin",
+      "runs": [
+        24,
+        27,
+        58
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Visitors Café",
+      "key": "Visitors Café",
+      "runs": [
+        58
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "FreakyNoods",
+      "key": "FreakyNoods",
+      "runs": [
+        51,
+        52,
+        54,
+        56
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "NoMad @ Hilton",
+      "key": "NoMad",
+      "runs": [
+        56
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Rolls Izakaya",
+      "key": "Rolls Izakaya",
+      "runs": [
+        56
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Sam Sam Sam",
+      "key": "Sam Sam Sam",
+      "runs": [
+        47,
+        50,
+        51,
+        54
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Bouillon Gavroche",
+      "key": "Bouillon Gavroche",
+      "runs": [
+        17,
+        28,
+        34,
+        47,
+        53
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Sukiyaki Jin (Les Amis Group)",
+      "key": "Sukiyaki Jin",
+      "runs": [
+        17,
+        47,
+        49,
+        50,
+        53
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Hi Stranger (Neil Road)",
+      "key": "Hi Stranger",
+      "runs": [
+        37
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": "Ran in No. 37."
+    },
+    {
+      "venue": "Jellyfish",
+      "key": "Jellyfish",
+      "runs": [
+        33,
+        34
+      ],
+      "status": "SPENT",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "People People Brewing",
+      "key": "People People Brewing",
+      "runs": [
+        33
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Souper Tang",
+      "key": "Souper Tang",
+      "runs": [
+        33
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Keming Bing Sat",
+      "key": "Keming Bing Sat",
+      "runs": [
+        31
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Mozmoji",
+      "key": "Mozmoji",
+      "runs": [
+        31
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Park Side",
+      "key": "Park Side",
+      "runs": [
+        31
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Steak Gatz",
+      "key": "Steak Gatz",
+      "runs": [
+        31
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Amor (Amoy Street)",
+      "key": "Amor",
+      "runs": [
+        26
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Centro",
+      "key": "Centro",
+      "runs": [
+        24
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Dumpling Darlings",
+      "key": "Dumpling Darlings",
+      "runs": [
+        24
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Satori",
+      "key": "Satori",
+      "runs": [
+        24
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    },
+    {
+      "venue": "Geumdwaeji Sikdang",
+      "key": "Geumdwaeji",
+      "runs": [
+        23
+      ],
+      "status": "OPEN",
+      "checked": "21 Sep 2026 (archive scan)",
+      "note": ""
+    }
+  ],
+  "barred": [
+    "Assaggi (Neil Road)",
+    "Kuro Kare (Havelock II)",
+    "Le Ju Xuan (Marina Bay Sands)",
+    "Tian Tian (Jewel flagship)",
+    "Foura (Gardens by the Bay)",
+    "Hikiniku to Come",
+    "Unagi Yondaime Kikukawa",
+    "Casa Lola",
+    "Katsu by Kyu",
+    "Osteria Mozza",
+    "Sushidan",
+    "Toriei (Cuppage Plaza)",
+    "Mom's Touch (South Bridge Road)",
+    "Tembusu (Botanic Gardens)",
+    "Behind Clay",
+    "LINKUS 临家",
+    "The City Bakery (Mandarin Gallery)",
+    "Torikizoku",
+    "ASIN",
+    "POP Bakery by POP MART",
+    "Sushi Ryujiro",
+    "Loulouca (Ann Siang)",
+    "Xava Skybar (National Gallery)",
+    "Blue Box Café by Tiffany & Co.",
+    "Charcoal Grill Shinpachi",
+    "Liora",
+    "Jing Studio",
+    "Tavola Aperta",
+    "Milli (Sky Dining)",
+    "Sio Pasta",
+    "Tonkatsu Daiki",
+    "Yi Man Fen Dessert (313 Somerset)",
+    "Mensho X (Raffles Place)",
+    "Jiin Omakase",
+    "FreakyNoods",
+    "Sam Sam Sam",
+    "Bouillon Gavroche",
+    "Sukiyaki Jin (Les Amis Group)",
+    "Jellyfish"
+  ]
+}

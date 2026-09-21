@@ -618,6 +618,52 @@ if _retired:
                               f"(see the Retired table in the {_lbl}) — the reader dismissed it; "
                               f"never run, never re-suggest")
 
+# TABLE REPEATS (editor, 21 Sep 2026 — reader-reported). Kuro Kare ran in
+# Nos. 97, 99, 105 and 109; Assaggi was named in eighteen issues. "Rotate
+# venues each issue" had been in the spec since No. 35, tracked in the
+# Coverage Ledger — advice, not a gate, and the same venues came back every
+# week. ledgers/table-ledger.md -> state/table-ledger.json is the memory:
+# a venue's Table life is two runs at least seven issues apart, after which
+# it is SPENT; CLOSED bars outright; only the editor's REINSTATED clears one
+# more run. The bar covers the whole Table section except its sources block.
+import unicodedata as _ud
+def _tnorm(s):
+    s = _ud.normalize("NFKD", _html.unescape(s or ""))
+    s = "".join(ch for ch in s if not _ud.combining(ch)).replace("’", "'")
+    return re.sub(r"[^a-z0-9]+", " ", re.sub(r"<[^>]+>", " ", s).lower()).strip()
+
+if not _special:
+    try:
+        _tl = json.loads(pathlib.Path("state/table-ledger.json").read_text()).get("venues", [])
+    except Exception:
+        _tl = []
+    _tsec = None
+    for _sec in pages:
+        _nofn = re.sub(r'<div class="fn">.*?</div>', "", _sec, flags=re.S)
+        _txt = _html.unescape(re.sub(r"<[^>]+>", " ", _nofn))
+        if re.search(r"\bThe Table\b", _txt) and "Diary" in _txt:
+            _tsec = _nofn
+            break
+    if _tsec is not None:
+        _ttext = " " + _tnorm(_tsec) + " "
+        for _v in _tl:
+            _k = _tnorm(_v.get("key", ""))
+            if len(_k) < 3 or " " + _k + " " not in _ttext:
+                continue
+            _runs = [int(x) for x in _v.get("runs", [])]
+            _st = (_v.get("status") or "OPEN").upper()
+            _name = _v.get("venue", _v.get("key"))
+            if _st in ("SPENT", "CLOSED"):
+                errors.append(f"TABLE REPEAT: “{_name}” is {_st} in ledgers/table-ledger.md "
+                              f"(ran in No. {', '.join(map(str, _runs))}) — a venue's Table life is two runs; "
+                              f"only the editor may set REINSTATED")
+            elif _st == "OPEN" and _runs and _issno and (_issno - max(_runs)) < 7 and _issno not in _runs:
+                errors.append(f"TABLE REPEAT: “{_name}” ran in No. {max(_runs)}, "
+                              f"{_issno - max(_runs)} issue(s) ago — the verdict run waits at least seven issues")
+        if _issno >= 110 and not re.search(r'<b class="venue"', _tsec):
+            errors.append("The Table carries no <b class=\"venue\"> marks — every venue covered is marked on its "
+                          "first mention so tools/table_ledger.py can record the run (see ledgers/table-ledger.md)")
+
 for w in warns:
     print("WARN:", w)
 for e in errors:
