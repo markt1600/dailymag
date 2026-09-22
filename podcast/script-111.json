@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 111,
+ "date": "Wednesday 23 September 2026",
+ "title": "The slow cool",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Wednesday, the twenty-third of September. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three things up front. A treaty signed at the United Nations on Tuesday that has no end date, and binds a country that does not exist yet."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Two prices for the same barrel of oil, twenty-two dollars apart. One of them is a cargo; the other is a screen."
+  },
+  {
+   "s": "A",
+   "t": "And a hospital doorway in China with a sign that translates itself into one run-on English word."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Fishboneclinic. One word. We'll get there."
+  },
+  {
+   "s": "A",
+   "t": "Start in New York. Half past ten Tuesday morning, United Nations headquarters — an amended defence agreement on Greenland, signed. This is the accord we reported in issue one hundred and nine as confirmed by three governments and published by none."
+  },
+  {
+   "s": "B",
+   "t": "And now it's published."
+  },
+  {
+   "s": "A",
+   "t": "By Tuesday afternoon the text was on a White House server. That's what changed. For four days the only public account had been the President's, and his word for it was control — quote, permanent control over security, and all other needs, in Greenland. Copenhagen said nothing had moved."
+  },
+  {
+   "s": "B",
+   "t": "Both can't be true. So what does the document say?"
+  },
+  {
+   "s": "A",
+   "t": "Article nine bars any non-NATO state from a military installation on the island. Article ten bars investors from outside NATO and the European Union from control in sensitive sectors."
+  },
+  {
+   "s": "B",
+   "t": "That's the China clause."
+  },
+  {
+   "s": "A",
+   "t": "A State Department official said so almost in those words. And article four reopens two bases — Narsarsuaq in the south, the airfield the Americans abandoned in nineteen fifty-eight, and Mestersvig in the north-east."
+  },
+  {
+   "s": "B",
+   "t": "And then there's article eleven."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] And then there's article eleven. It gives itself a heading, and the heading is: Permanent Nature of this Agreement. First sentence — this agreement does not have an end date."
+  },
+  {
+   "s": "B",
+   "t": "[pause] No expiry."
+  },
+  {
+   "s": "A",
+   "t": "No expiry. And then the part with no precedent in the nineteen fifty-one text it amends. If Greenland becomes independent, Denmark and Greenland shall together ensure that the independent Greenlandic state will agree to remain in NATO, and assume all the rights and obligations of the Kingdom of Denmark under this agreement."
+  },
+  {
+   "s": "B",
+   "t": "Hold on. Two governments are promising, on behalf of a country that doesn't exist, what that country will agree to."
+  },
+  {
+   "s": "A",
+   "t": "Yes."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Is that even a normal thing to write down?"
+  },
+  {
+   "s": "A",
+   "t": "The preamble, a page earlier, recognises Greenlanders as a people with the right to self-determination. Eleven articles later the text disposes of what they might decide with it."
+  },
+  {
+   "s": "B",
+   "t": "Is anyone saying it's less than it looks?"
+  },
+  {
+   "s": "A",
+   "t": "Yes, and take them seriously, because Beijing says the same. Mikaa Blugeon-Mered told France twenty-four it doesn't really give the US many more rights — the nineteen fifty-one text already let the Americans operate across the island. A ceremony, not a transfer."
+  },
+  {
+   "s": "B",
+   "t": "What survives that?"
+  },
+  {
+   "s": "A",
+   "t": "Three things. Article eleven has no nineteen fifty-one analogue. Neither does the investment screening duty. Neither does the missing end date. And none of it is law yet — it takes effect only after the necessary national parliamentary procedures. The Folketing in Copenhagen, and the Inatsisartut in Nuuk."
+  },
+  {
+   "s": "B",
+   "t": "Nuuk's the one to watch."
+  },
+  {
+   "s": "A",
+   "t": "And here's the hole in the coverage. We could not reach a single Greenlandic-language outlet. And Naleraq — the official opposition, the party of independence — has said nothing about the one clause that lands squarely on them."
+  },
+  {
+   "s": "B",
+   "t": "Nobody's asked them."
+  },
+  {
+   "s": "A",
+   "t": "Nobody has asked them."
+  },
+  {
+   "s": "B",
+   "t": "Brussels, quickly."
+  },
+  {
+   "s": "A",
+   "t": "The whole European Union listings regime on Russia would have lapsed at midnight Tuesday. It renews every six months, which means twice a year any one of twenty-seven governments can hold the entire list hostage. They rolled it over for thirty-six months instead."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Three years. Five fewer hostage moments."
+  },
+  {
+   "s": "A",
+   "t": "And the price was two names — Alisher Usmanov and Mikhail Fridman came off the list. Latvia's prime minister put the objection plainly: the price for that should not simply be removing two individuals from the sanctions list."
+  },
+  {
+   "s": "B",
+   "t": "Money block. And you said this one is genuinely strange."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] It's the best thing in the issue and it's a spreadsheet."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Sell it to me."
+  },
+  {
+   "s": "A",
+   "t": "There are two prices for a barrel of Brent. One is the futures contract — the screen, the number you see quoted. The other is dated Brent: actual North Sea cargoes, physical oil, published by the United States Energy Information Administration about a week late. Normally the two track within a dollar or two."
+  },
+  {
+   "s": "B",
+   "t": "And now?"
+  },
+  {
+   "s": "A",
+   "t": "On the fifteenth of September — the last date they publish — physical dated Brent was a hundred and thirty dollars eighty. The front futures contract settled that same day at a hundred and eight seventy-five."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Twenty-two dollars."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-two dollars and five cents, and it had widened every week of the month."
+  },
+  {
+   "s": "B",
+   "t": "My first instinct is that's a data problem. Wrong grade, stale feed."
+  },
+  {
+   "s": "A",
+   "t": "Mine too. So here's the control, and it's what makes this printable. The same agency publishes a physical price for West Texas Intermediate. Same day, same method. American crude, physical against futures: one dollar nineteen."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which is completely normal."
+  },
+  {
+   "s": "A",
+   "t": "If the feed or the method were broken, both would misbehave. Landlocked American crude behaved perfectly. Only the seaborne benchmark — the one exposed to shipping — came apart."
+  },
+  {
+   "s": "B",
+   "t": "That's a supply story, not a data story. So where is it now?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the honest part: we don't know. Paper Brent has fallen five straight sessions, down about nine per cent, on an American-Iranian meeting at the United Nations. Whether the cargoes followed is not knowable yet."
+  },
+  {
+   "s": "B",
+   "t": "When do we find out?"
+  },
+  {
+   "s": "A",
+   "t": "Today. The agency publishes its next tranche today."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So we've printed a question that gets answered the morning the issue lands."
+  },
+  {
+   "s": "A",
+   "t": "We have. One tell in the meantime — Murban, the grade that loads outside the Strait of Hormuz, rose three point eight per cent on Tuesday, on a day the Brent board fell one point eight."
+  },
+  {
+   "s": "B",
+   "t": "And people are printing the wrong number under the right words."
+  },
+  {
+   "s": "A",
+   "t": "Several outlets now quote the futures price under the words dated Brent. The two match to a rounding error. Which is how you know one of them is wrong."
+  },
+  {
+   "s": "B",
+   "t": "Meanwhile the central bank is going the other way."
+  },
+  {
+   "s": "A",
+   "t": "Completely. The Federal Reserve raised a quarter point on the sixteenth, twelve to nothing. And the projections matter more than the move — the median expectation for the end of twenty twenty-seven went from three point six per cent in June to four point one now."
+  },
+  {
+   "s": "B",
+   "t": "Meaning?"
+  },
+  {
+   "s": "A",
+   "t": "Three months ago the committee expected to be cutting next year. It now expects no net easing at all through twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "How do markets hold both ideas?"
+  },
+  {
+   "s": "A",
+   "t": "They don't. Bonds are pricing stagflation — global aggregate bonds two cents off a fifty-two-week low. Equities priced the opposite: the Nasdaq closed at a record. And the hedges did neither — gold is about twenty-two per cent below its January record, in the middle of an inflation scare."
+  },
+  {
+   "s": "B",
+   "t": "Is anyone willing to say the market's wrong?"
+  },
+  {
+   "s": "A",
+   "t": "Both directions, which is rare. MUFG says the market has priced in a lot of the Fed path already and there's a risk it has overshot. The physical oil price implies the opposite — that the inflation being tightened into hasn't reached the data yet. One of them is wrong, and what settles it is a spreadsheet posted today. To say the obvious: we explain markets here. We don't advise on them."
+  },
+  {
+   "s": "B",
+   "t": "Closer to home — Singapore exports up forty-six per cent?"
+  },
+  {
+   "s": "A",
+   "t": "Forty-six point two, and almost none of it is momentum. We pulled the level series from the statistics department's own table. In level terms August was up nought point two per cent on July, and flat since April."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So it's a base effect."
+  },
+  {
+   "s": "A",
+   "t": "Against a bad August last year. Selena Ling at OCBC said it plainly — one should not extrapolate the forty-six per cent indefinitely."
+  },
+  {
+   "s": "B",
+   "t": "And there was a tribunal decision."
+  },
+  {
+   "s": "A",
+   "t": "Tuesday. A woman who resigned was found to have been dismissed — the Employment Act counts a resignation as a dismissal if it was compelled by the employer's conduct. The award is nineteen thousand eight hundred dollars, and the way it's built is the story."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "Nine thousand nine hundred for lost income — three months' gross. And nine thousand nine hundred again, for harm. A fifty per cent uplift, stated as such."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] That's not language you usually get from a tribunal."
+  },
+  {
+   "s": "A",
+   "t": "The magistrate wrote that the dismissal came at, quote, perhaps the most profound and yet vulnerable moment in a woman's life. A payslip can price three months. It cannot price the month a child is born."
+  },
+  {
+   "s": "B",
+   "t": "Silicon. Something landed in Hangzhou."
+  },
+  {
+   "s": "A",
+   "t": "Alibaba's chip arm unveiled an accelerator called the Zhenwu V nine hundred — two hundred and sixteen gigabytes of on-package memory. That matters because the American export rule doesn't only catch accelerators. It catches the memory, above a certain bandwidth per square millimetre of package."
+  },
+  {
+   "s": "B",
+   "t": "So is it inside the rule?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Nobody will say what kind of memory it is."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] You're kidding."
+  },
+  {
+   "s": "A",
+   "t": "The company's own placard at the show says, in Chinese, video memory. Not high-bandwidth memory. One outlet wrote it up as HBM — that's an inference. And neither trade outlet names the foundry, the node, or the memory supplier."
+  },
+  {
+   "s": "B",
+   "t": "So we just say that?"
+  },
+  {
+   "s": "A",
+   "t": "We say we don't know, and print that instead of the guess. A control written around a machine is being tested by a package."
+  },
+  {
+   "s": "B",
+   "t": "Home lab. What can people actually run?"
+  },
+  {
+   "s": "A",
+   "t": "Xiaomi shipped a model family on Monday, and the headline for anyone who builds things is the licence — MIT. Commercial use, modification, redistribution. The opposite of Monday's issue, where a model arrived under a research licence: weights you could download and not use."
+  },
+  {
+   "s": "B",
+   "t": "And the small one?"
+  },
+  {
+   "s": "A",
+   "t": "The distilled nine-billion scores sixty-one point one on SWE-bench Verified."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Wasn't that the number we spent a page taking apart?"
+  },
+  {
+   "s": "A",
+   "t": "Issue one hundred and eight. An agent scoring sixty point eight on the same benchmark. That one did not fit on a desk. This one fits on a single card."
+  },
+  {
+   "s": "B",
+   "t": "And you found something in their chart."
+  },
+  {
+   "s": "A",
+   "t": "The community praised them for publishing a chart that shows their model losing. Read the footnote and the candour gets complicated — hollow bars are placeholders, evaluation pending. Several competitor bars aren't measured results at all. And one score differs between the chart and the model card. Same vendor, same week."
+  },
+  {
+   "s": "B",
+   "t": "Gear."
+  },
+  {
+   "s": "A",
+   "t": "The Beats three-sixty. Four hundred and twenty-nine dollars here, in shops tomorrow. Each earcup is its own wireless device — own chip, own battery, own antenna. The headband carries a single power cable between them."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Two radios that happen to be joined."
+  },
+  {
+   "s": "A",
+   "t": "And what that buys is the right kind of repairability. Ear cushions and headband cushions both swap out, sold as kits."
+  },
+  {
+   "s": "B",
+   "t": "Because foam and fabric are what always die first."
+  },
+  {
+   "s": "A",
+   "t": "Turned into stock. The catch is there's no wired path at all — no jack, no lossless. The most repairable flagship they've made is also the one you cannot plug into anything."
+  },
+  {
+   "s": "B",
+   "t": "Is the repairability real, or a launch story?"
+  },
+  {
+   "s": "A",
+   "t": "That's the falsifiable bit, and it has a date. The kits are fifty dollars, discounted to ten until the thirty-first of October. If they quietly leave the catalogue after that, it was a launch price, not a design."
+  },
+  {
+   "s": "B",
+   "t": "Good test. And the Atelier did luggage."
+  },
+  {
+   "s": "A",
+   "t": "And the finding is that the shell is not what breaks. The zip maker says it, against its own industry's marketing — YKK's own words: replacing broken zippers is by far the most common task at luggage repair facilities. Then wheels, then handles. Buy the wheels. One maker, Hinomoto of Nagoya, sells its tyre compound specifically on resistance to hydrolysis."
+  },
+  {
+   "s": "B",
+   "t": "Which matters here because—"
+  },
+  {
+   "s": "A",
+   "t": "Because polyurethane tyres hydrolyse. They go tacky, then they crumble, and warm wet storage speeds it up. A case sitting eight months in a Singapore flat between trips is in exactly the wrong place."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And nobody else markets against that."
+  },
+  {
+   "s": "A",
+   "t": "Nobody. At the counter the test is cruder: turn the case over. Riveted wheels mean a repair shop has to drill your suitcase. And above about seven hundred US dollars you're buying material, provenance and appearance — not durability."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Glass. Glassblowing and lampworking — two crafts sharing one word and almost no equipment. The one in the videos needs a furnace holding molten glass at around eleven hundred and fifty degrees, running every hour of the year."
+  },
+  {
+   "s": "B",
+   "t": "You don't switch it off?"
+  },
+  {
+   "s": "A",
+   "t": "On Murano they shut down once a year, in August, for maintenance. A free-standing pot furnace starts at thirty-six thousand dollars, before the glory hole and before the annealer."
+  },
+  {
+   "s": "B",
+   "t": "So not a hobby."
+  },
+  {
+   "s": "A",
+   "t": "Not that half. The other half is lampworking — a torch bolted to a bench. You feed cold solid rod into the flame, a few grams at a time. One person, sitting down, in a room."
+  },
+  {
+   "s": "B",
+   "t": "And here's the bit I loved. Glass has no melting point."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] It really doesn't. Water becomes ice at exactly zero. The craft's teaching text puts it well — metals change from solid to liquid at a specific temperature; glass transforms gradually from behaving like a solid to behaving like a liquid. Even cold it has, quote, the molecular structure of a stiff liquid."
+  },
+  {
+   "s": "B",
+   "t": "So what kills beginners?"
+  },
+  {
+   "s": "A",
+   "t": "Annealing. And this is the idea the whole issue is built around."
+  },
+  {
+   "s": "B",
+   "t": "Explain it like I've never held a torch. Which I haven't."
+  },
+  {
+   "s": "A",
+   "t": "When you finish a piece, the outside chills and sets rigid first. The core is still soft. Then the core contracts — and it pulls against a shell that can no longer move with it."
+  },
+  {
+   "s": "B",
+   "t": "And you can't see any of this."
+  },
+  {
+   "s": "A",
+   "t": "Nothing shows. The piece is beautiful, and it is a loaded spring. Three weeks later it comes apart on a shelf."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Oh, that's horrible."
+  },
+  {
+   "s": "A",
+   "t": "It's the defining beginner trauma of the hobby, and it isn't bad luck."
+  },
+  {
+   "s": "B",
+   "t": "So how do you stop it?"
+  },
+  {
+   "s": "A",
+   "t": "You hold the work where that stress can still flow out, and then cool it so slowly that no part of the piece is ever more than five degrees warmer than any other part."
+  },
+  {
+   "s": "B",
+   "t": "Five degrees. Across the whole thing."
+  },
+  {
+   "s": "A",
+   "t": "Which is why you cannot open the kiln to peek."
+  },
+  {
+   "s": "B",
+   "t": "How long does that take?"
+  },
+  {
+   "s": "A",
+   "t": "Depends entirely on thickness, and the numbers are brutal. Six millimetres of flat glass anneals in about three hours. Two hundred millimetres takes six hundred and fifty-four hours."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's nearly a month."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-seven days in the dark, cooling at under a quarter of a degree an hour."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Okay. That reframes the whole craft."
+  },
+  {
+   "s": "A",
+   "t": "And it explains why the kiln is the purchase, not the torch. There's a line from the glass maker — not a kiln salesman, the glass maker — even the most conservative annealing cycle may fail if the kiln cannot cool the work uniformly."
+  },
+  {
+   "s": "B",
+   "t": "What about the torch?"
+  },
+  {
+   "s": "A",
+   "t": "The one to buy is around five hundred and twenty-five dollars. But the trap is oxygen. You can run tanks, or a concentrator that strips nitrogen out of room air."
+  },
+  {
+   "s": "B",
+   "t": "Concentrator sounds obvious. No refills."
+  },
+  {
+   "s": "A",
+   "t": "Read the spec sheet properly. A unit rated at five litres a minute delivers about eighty-five per cent purity at five litres — and ninety-five per cent at four. The number on the box is the flow where it performs worst, which is why you buy the ten-litre machine to run a torch that needs seven."
+  },
+  {
+   "s": "B",
+   "t": "Can you do any of this in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "This surprised me. Yes — and it's a lampworking scene, which is the portable half. There's a studio in Tai Seng calling itself the only one here fully dedicated to lampworking. Two-hour beginner workshops, a hundred and fifty-eight dollars."
+  },
+  {
+   "s": "B",
+   "t": "At home, though?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] The licensing is friendlier than you'd think. The blocker isn't the gas — it's the duct. A hood has to terminate outdoors, and in a condominium the façade belongs to the management corporation. So the obstacle is the committee. Here, the studio isn't a compromise. It's the route."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "The places you'd go to use the equipment are closing. Britain's National Glass Centre closed to the public on the thirty-first of July, despite a campaign of thirty-four thousand signatures arguing the department had been profit-making for five years. Its board chair called it, quote, in essence a visitor attraction. And the demand side has been shrinking in public for a decade. The largest consumer show for jewellery-makers shut for good in twenty twenty. One attendee described the decline better than any analyst."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "Quote — the aisles were spaced wider and wider apart."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's a great line."
+  },
+  {
+   "s": "A",
+   "t": "It's the truest sentence in the file."
+  },
+  {
+   "s": "B",
+   "t": "Quick run through the rest. Film."
+  },
+  {
+   "s": "A",
+   "t": "Resident Evil opened at sixty million dollars domestically on a ninety-minute runtime. But the interesting number isn't the gross. Rotten Tomatoes has it at ninety-five per cent from two hundred and thirty-five critics. Metacritic has a Metascore of eighty-one from forty-seven — and zero negative reviews."
+  },
+  {
+   "s": "B",
+   "t": "Zero? Then why eighty-one?"
+  },
+  {
+   "s": "A",
+   "t": "Because they measure different things. One counts how many critics liked it. The other asks how much. The answer the second returns is delighted, not awed."
+  },
+  {
+   "s": "B",
+   "t": "Family desk."
+  },
+  {
+   "s": "A",
+   "t": "A paper on puberty timing and cognition — ten thousand seven hundred and twenty-two children, plus a genetic causal test. Earlier puberty, slightly poorer memory scores. Beta of nought point nought four standard deviations, which is roughly half a point on a hundred-point score."
+  },
+  {
+   "s": "B",
+   "t": "So not a parenting signal."
+  },
+  {
+   "s": "A",
+   "t": "And the authors say so themselves. They gave a section of their own paper the heading: Small Effect Sizes — Limited Clinical Significance."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] They pre-empted their own moral panic."
+  },
+  {
+   "s": "A",
+   "t": "Which is rare enough to be the story."
+  },
+  {
+   "s": "B",
+   "t": "And fitness — this one annoyed me in a good way."
+  },
+  {
+   "s": "A",
+   "t": "Seven studies, a hundred and nine thousand people, pooled. A flattened daily rhythm carried a hazard ratio of one point four six for death from any cause. Day-to-day regularity — the metric closest to did you keep the same schedule — showed no significant association with anything."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which is the number my ring shows me."
+  },
+  {
+   "s": "A",
+   "t": "Amplitude predicted death. Regularity did not. And the honest caveat: a flattened rhythm is what undiagnosed illness looks like on a wrist. That's observational, and general guidance — not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Last thing. Take me back to that doorway."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] A photograph went round Chinese social media this month. A dark maroon lightbox over a consulting-room door. In large characters: night fish-bone clinic. And underneath, in smaller Roman letters, the English set as a single run-on word. Fishboneclinic."
+  },
+  {
+   "s": "B",
+   "t": "And the first reaction?"
+  },
+  {
+   "s": "A",
+   "t": "Are they slicing medicine this thin now?"
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Fair question."
+  },
+  {
+   "s": "A",
+   "t": "It's the wrong question twice over. The clinic isn't new — the Nanjing one opened in twenty twenty. And it isn't frivolous. It exists because there's a hole."
+  },
+  {
+   "s": "B",
+   "t": "What hole?"
+  },
+  {
+   "s": "A",
+   "t": "A Chinese health paper audited more than twenty top-tier hospitals across Beijing, Shanghai and Guangzhou, and found more than half could not remove a deeply lodged fish bone at night. Many emergency departments simply don't stock the scope."
+  },
+  {
+   "s": "B",
+   "t": "And the demand?"
+  },
+  {
+   "s": "A",
+   "t": "Arrives on a schedule. Patients turn up between six and nine in the evening — precisely when the scope room has gone home."
+  },
+  {
+   "s": "B",
+   "t": "So a hospital bought a scope and gave it a memorable name."
+  },
+  {
+   "s": "A",
+   "t": "The doctor who runs it is admirably plain. They called it the fish-bone clinic so ordinary people would remember it. In practice it also handles chicken bones, date pits, and fragments of steel-wool scourer."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the name isn't a description."
+  },
+  {
+   "s": "A",
+   "t": "The name is a search term. And that's the thesis. There's a word for it — wǎnghóng ménzhěn. Wǎnghóng is the ordinary Chinese for an influencer or a viral hit. Ménzhěn is the formal administrative word for a hospital outpatient clinic."
+  },
+  {
+   "s": "B",
+   "t": "Weld them together—"
+  },
+  {
+   "s": "A",
+   "t": "And you get something English has no phrase for. A hospital department named after a colloquial complaint rather than an organ, which spreads because the name goes viral."
+  },
+  {
+   "s": "B",
+   "t": "And it's not just fish bones."
+  },
+  {
+   "s": "A",
+   "t": "A school-refusal clinic, a learning-difficulty clinic, weight and sleep and memory clinics — and, purest of all, a director's clinic, named after the seniority of whoever is sitting in it."
+  },
+  {
+   "s": "B",
+   "t": "So why is this a story now, rather than in twenty twenty?"
+  },
+  {
+   "s": "A",
+   "t": "Two things. The state joined in — by this year every tertiary public general hospital must offer weight management, and more than five thousand five hundred institutions had set one up by February. And Shenzhen wrote branding into draft health law: clinics developed under a model the text calls one centre, one specialty, one brand."
+  },
+  {
+   "s": "B",
+   "t": "[pause] A statute telling a public clinic to have a brand."
+  },
+  {
+   "s": "A",
+   "t": "And two weeks before that, the market had already found it. A post appeared offering a franchise of a Shenzhen community health centre's sleep clinic — fifty-nine thousand eight hundred yuan, three years rent-free, revenue split down the middle."
+  },
+  {
+   "s": "B",
+   "t": "Who was actually in the room?"
+  },
+  {
+   "s": "A",
+   "t": "Reporters found a sleep pod from a biotech firm installed in the centre, and staff conceding they could only use the equipment to help improve sleep, not diagnose — because they weren't credentialled physicians."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So what was being rented wasn't a service."
+  },
+  {
+   "s": "A",
+   "t": "It was a signboard with the state's name on it."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone run this experiment before?"
+  },
+  {
+   "s": "A",
+   "t": "Britain. Between two thousand and twenty ten the NHS opened more than two hundred and thirty walk-in centres. Nurse-led, no appointment, longer hours. Extremely popular — the regulator's own review says attendances exceeded expected levels."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "And then this sentence, which could be the essay's epigraph: others believe that walk-in centres create demand for care for self-limiting, minor conditions."
+  },
+  {
+   "s": "B",
+   "t": "How did it end?"
+  },
+  {
+   "s": "A",
+   "t": "By twenty thirteen, of the two hundred and thirty-eight estimated to have opened, fifty-three had closed in three years. And the patient survey found the diversion was real but partial — a sixth of the traffic was just circulating inside the new system. Nearly a tenth was traffic the system had invented."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] So a door creates its own traffic."
+  },
+  {
+   "s": "A",
+   "t": "A door creates its own traffic. China's clinics are at the extremely popular stage. And there's a sharp Chinese sceptic already on the record, asking how much of the fervour is real need and how much is xūhuǒ — false fire. Heat without substance."
+  },
+  {
+   "s": "B",
+   "t": "What's the closing thought?"
+  },
+  {
+   "s": "A",
+   "t": "That the word ménzhěn is being emptied out. In a system where a department name carried legal status and a budget line, it's being refilled with a retail meaning. More humane, more legible — and it cannot easily be undone once every door has a name on it and a queue behind it."
+  },
+  {
+   "s": "B",
+   "t": "Britain took thirteen years to find that out."
+  },
+  {
+   "s": "A",
+   "t": "And somebody in Shenzhen has already worked out what the door is worth to rent."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Right. That's a lot for a Wednesday."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "count": 740,
+  "count": 757,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -5180,6 +5180,125 @@
       "last_covered": "No. 106",
       "last_peg": "Singapore LEAD (delta on No. 105, which recorded it easing) — the rain bought two days: 1-hr PM2.5 fell to 34&ndash;59 on 16 Sep and climbed back to 46&ndash;78 by 5pm on the 17th, with the 24-hr index having peaked at 145 on 15 Sep and daily NEA advisories running since 4 Sep. The chatter finding worth keeping: HardwareZone distrust of the official figure is explained by 1-hour versus 24-hour ave",
       "next_peg": "Developing &mdash; delta only."
+    },
+    {
+      "subject": "US&ndash;Denmark&ndash;Greenland defence agreement (Sep 2026)",
+      "type": "Discrete event (treaty)",
+      "last_covered": "No. 111",
+      "last_peg": "The World LEAD &mdash; signed 10:30 Tue 22 Sep at UN HQ, published the same afternoon on a White House server (No. 109 had it confirmed by three governments and published by none). Article VI unrestricted US overflight/landing and undersea movement; Article IX bars non-NATO installations; Article X bars non-NATO/non-EU investor control in sensitive sectors; Article IV reopens Narsarsuaq and Mester",
+      "next_peg": "Next peg: ratification in Copenhagen or Nuuk, a Naleraq response, or the first use of the Article X veto"
+    },
+    {
+      "subject": "EU Russia sanctions listings rollover (Sep 2026)",
+      "type": "Discrete event (sanctions)",
+      "last_covered": "No. 111",
+      "last_peg": "The World 2nd &mdash; the whole listings regime would have lapsed at midnight Tue 22 Sep; renewed for 36 months instead of the usual six, removing five of the next six hostage moments. Price: Alisher Usmanov (championed by France) and Mikhail Fridman (backed by Luxembourg, which faces his US$16bn asset-freeze claim) delisted. Latvia blocked Monday, abstained Tuesday. Count disputed &mdash; Euronew",
+      "next_peg": "Next peg: a legal challenge to the two delistings, or the first listing added under the 36-month regime"
+    },
+    {
+      "subject": "Moscow Kapotnya refinery &mdash; post-strike status",
+      "type": "Situation-peg (delta on No. 110)",
+      "last_covered": "No. 111",
+      "last_peg": "The World brief &mdash; both units struck: AVT-6 crude column (53% of capacity) and the Euro+ complex (47%), so nothing is running. The evidence is commercial, not photographic: from Mon 21 Sep the plant&rsquo;s fuel stopped being offered on the St Petersburg exchange. Repairs put at several weeks. Kyiv has offered to stop striking Russian oil if Russia stops striking Ukrainian energy (carried by ",
+      "next_peg": "Next peg: fuel re-offered on the SPIMEX exchange, or a reciprocal energy-strike moratorium"
+    },
+    {
+      "subject": "Employment Claims Tribunal constructive-dismissal award (Sep 2026)",
+      "type": "Discrete event (Singapore, law)",
+      "last_covered": "No. 111",
+      "last_peg": "Singapore LEAD &mdash; ruling Tue 22 Sep: a woman who resigned in Dec 2023 was held not to have resigned voluntarily but to have been compelled, and dismissing her for exercising maternity rights &ldquo;amounted to discrimination&rdquo;. Award S$19,800 &mdash; S$9,900 (three months&rsquo; gross) for lost income plus the same again as a stated 50% uplift for harm. Tribunal Magistrate Lee Li Choon; ",
+      "next_peg": "Next peg: a second uplift award, an appeal, or MOM guidance citing it"
+    },
+    {
+      "subject": "T-Head Zhenwu V900 accelerator",
+      "type": "Product (AI silicon)",
+      "last_covered": "No. 111",
+      "last_peg": "Technology LEAD &mdash; unveiled by Alibaba&rsquo;s T-Head at Apsara, 22 Sep: 216GB on-package memory, 1,200GB/s chip-to-chip, native FP8/FP4; mass production claimed 1Q27 (fifteen months out); 1,000+ per system, clusters to 500,000 parts, 5&ndash;10T-parameter models claimed. THE STORY IS THE RULE: ECCN 3A090.c controls HBM above 2 GB/s per mm&sup2; of package area &ldquo;regardless of whether th",
+      "next_peg": "Next peg: a named memory supplier or foundry, a BIS determination, or silicon actually shipping"
+    },
+    {
+      "subject": "Xiaomi MiMo-V2.6 (Pro / Flash / Distill-Qwen-9B)",
+      "type": "Product (AI model)",
+      "last_covered": "No. 111",
+      "last_peg": "The Home Lab LEAD &mdash; shipped Mon 21 Sep, all three repos MIT on the model card (the delta on No. 109&rsquo;s Qwen-Image 2.1 research licence). Pro 1.02T total / 42B active; Flash 309B / 15B active; both 1M context, text+image+video+audio. Distill-Qwen-9B dense, 77.4B training tokens incl. 27.2B loss-bearing, scores 61.1 on SWE-bench Verified against the 60.8 agent No. 108 spent a page on. lla",
+      "next_peg": "Next peg: an independent eval of the 9B, or a Pro quantisation that fits consumer hardware"
+    },
+    {
+      "subject": "Beats Studio Pro 360",
+      "type": "Product (audio)",
+      "last_covered": "No. 111",
+      "last_peg": "The Kit LEAD &mdash; orders 22 Sep, in shops 24 Sep in 100+ countries, US$349.99 / S$429. Each earcup is its own wireless device with its own chip, battery, antenna and radio; the headband carries one power cable. Ear and headband cushions user-swappable as kits at US$49.99, introductory US$9.99 to 31 Oct. 294.5g, 32h, nine MEMS mics (eight for ANC), BT 5.3, IPX4. NO wired path at all. ANC claim &",
+      "next_peg": "Next peg: the cushion kits at full price after 31 Oct, or an independent ANC measurement"
+    },
+    {
+      "subject": "Panerai Luminor Tourbillon GMT Titanio (PAM01784) + Luminor 42",
+      "type": "Product (watch)",
+      "last_covered": "No. 111",
+      "last_peg": "The Good Life LEAD &mdash; announced 22 Sep, &euro;160,000, available December; 47mm grade-5 titanium, 100m, ~105g all in; calibre P.2005/T hand-wound skeleton, 277 components, 31 jewels, three barrels in series, 1.36m mainspring, six-day reserve, horizontal 30-second tourbillon, true jumping-hour GMT. The caseback is engraved &ldquo;Annual Production&rdquo; over a blank 00/00 AA plaque &mdash; se",
+      "next_peg": "Next peg: a published production figure, a delivery in December, or a collector reception"
+    },
+    {
+      "subject": "Resident Evil (2026, dir. Zach Cregger) &mdash; opening",
+      "type": "Release (film)",
+      "last_covered": "No. 111",
+      "last_peg": "Screen &amp; Sound LEAD (the peg No. 106 named) &mdash; $60,152,878 on 3,684 screens ($16,328 per screen) on Fri 18 Sep; $65.5m domestic / $111.9m worldwide by Tuesday against a $75m budget; the second film managed $12.2m. Rotten Tomatoes 95% from 235 critics against a Metacritic 81 from 47, with 45 positive, 2 mixed, ZERO negative and a lowest visible score of 88 &mdash; fourteen points with no n",
+      "next_peg": "Next peg: the second weekend hold and the audience score"
+    },
+    {
+      "subject": "Dinkelbach et al. &mdash; puberty timing and executive function",
+      "type": "Study (family)",
+      "last_covered": "No. 111",
+      "last_peg": "The Family Desk LEAD &mdash; <i>JCPP</i>, published 21 Sep; runs the question twice by methods that fail differently: ABCD cohort n=10,722 at three waves, plus two-sample Mendelian randomisation on 632,955 women (age at menarche) and 427,037 adults (executive functioning). Earlier puberty tracked slightly poorer memory and word-list learning (&beta; 0.04, 95% CI 0.02&ndash;0.06); the genetic arm a",
+      "next_peg": "Closed unless a replication or an intervention study"
+    },
+    {
+      "subject": "Family perception-agreement diary study (<i>Child Development</i>)",
+      "type": "Study (family)",
+      "last_covered": "No. 111",
+      "last_peg": "The Family Desk 2nd &mdash; published 22 Sep; 107 American families, 30 nightly diaries, three reporters each (adolescent, mother, father) rating the parents&rsquo; interactions and their own sleep. Stable high three-way agreement on positivity predicted better sleep for all; minimal perceived negativity the best; the POOREST sleep went with mixed daily perceptions and family-level fluctuation &md",
+      "next_peg": "Closed unless a replication in a younger band"
+    },
+    {
+      "subject": "Dated Brent vs front futures dislocation (Sep 2026)",
+      "type": "Situation (commodities)",
+      "last_covered": "No. 111",
+      "last_peg": "THE MACRO LEAD &mdash; the EIA&rsquo;s physical dated Brent assessment for 15 Sep printed $130.80 (from $96.02 on 1 Sep) against a front-contract settle of $108.75: a $22.05 gap, widening every week of the month. THE CONTROL THAT MAKES IT PRINTABLE: on the same day WTI spot sat $1.19 over WTI futures &mdash; entirely normal &mdash; so only the seaborne benchmark detached; a broken feed or method w",
+      "next_peg": "Developing &mdash; NEXT PHYSICAL PRINT IS DUE: re-pull the EIA RBRTEd series first thing and mark the spread"
+    },
+    {
+      "subject": "JAHA pooled circadian-rest-activity analysis",
+      "type": "Study (fitness)",
+      "last_covered": "No. 111",
+      "last_peg": "Fitness LEAD &mdash; <i>Journal of the American Heart Association</i>, 18 Sep; seven cohort and cross-sectional studies pooled, n=109,365, wrist accelerometry. Low relative amplitude (a flattened curve) carried HR 1.46 for all-cause mortality (95% CI 1.27&ndash;1.68) and 1.50 for cardiovascular (1.13&ndash;1.98); fragmentation (intradaily variability) 1.05 (1.02&ndash;1.09). THE RESULT NOBODY LED ",
+      "next_peg": "Closed unless a prospective trial or a wearable vendor changes its score"
+    },
+    {
+      "subject": "Yamamoto&rsquo;s Hamburg (Lau Pa Sat)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 111",
+      "last_peg": "The Table &mdash; soft launch Mon 21 Sep, grand opening 5 Oct; founder Shohei Yamamoto&rsquo;s other brand is the hamburg operator that queued out of VivoCity, and this is deliberately not that. Founded 2025, twenty Japanese outlets, Hong Kong and Taipei before here; everything under S$20, signature S$19.90. TOO NEW TO CALL &mdash; all five published pieces are previews written before the doors op",
+      "next_peg": "Next peg: the first filed review after the 5 October grand opening"
+    },
+    {
+      "subject": "Decker Barbecue (Bukit Timah)",
+      "type": "Venue (F&amp;B)",
+      "last_covered": "No. 111",
+      "last_peg": "The Table &mdash; Central Texas barbecue in the conserved 1956 Bukit Timah fire station (in service to 2005); 120 seats and a fourteen-foot, three-tonne offset smoker shipped from Texas, reported the only one in Southeast Asia, running meats up to twelve hours. Independent smokehouse rebuilt with a large group&rsquo;s money &mdash; the PS.Caf&eacute; operators acquired it in 2025. Platters S$40&nd",
+      "next_peg": "Next peg: a sustained-reception check or a menu change &mdash; the opening verdict is spent"
+    },
+    {
+      "subject": "Hiroshi Sugimoto &mdash; <i>Form Is Emptiness</i> (SAM)",
+      "type": "Event (exhibition)",
+      "last_covered": "No. 111",
+      "last_peg": "The Diary starred &mdash; Singapore Art Museum, Tanjong Pagar Distripark; EXTENDED from 4 to 11 October; S$15 citizens and PRs, S$20 others; 63 works across eleven series plus fourteen fossils. Re-checked at the venue page.",
+      "next_peg": "CLOSES 11 October &mdash; do not re-list after that date"
+    },
+    {
+      "subject": "The F1 Exhibition (Gardens by the Bay)",
+      "type": "Event (exhibition)",
+      "last_covered": "No. 111",
+      "last_peg": "The Diary starred &mdash; Eastern Greenway; S$49 adults, S$40 ages 13&ndash;17, S$29 ages 5&ndash;12, residents 20% off; hours extend to 7pm from 5 October; the Asian debut, closing a week after the race rather than touring on.",
+      "next_peg": "CLOSES 18 October for good &mdash; do not re-list after that date"
     }
   ]
 }
