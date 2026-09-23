@@ -165,9 +165,10 @@
       "venue": "Noor (River Valley)",
       "key": "Noor",
       "runs": [
-        104
+        104,
+        112
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "21 Sep 2026 (archive scan)",
       "note": ""
     },
@@ -504,9 +505,10 @@
       "venue": "Rituel",
       "key": "Rituel",
       "runs": [
-        71
+        71,
+        112
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "21 Sep 2026 (archive scan)",
       "note": ""
     },
@@ -927,6 +929,26 @@
       "status": "OPEN",
       "checked": "No. 111 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Kimpson’s Table",
+      "key": "Kimpson’s Table",
+      "runs": [
+        112
+      ],
+      "status": "OPEN",
+      "checked": "No. 112 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Kappo Suguru",
+      "key": "Kappo Suguru",
+      "runs": [
+        112
+      ],
+      "status": "OPEN",
+      "checked": "No. 112 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -939,6 +961,7 @@
     "Unagi Yondaime Kikukawa",
     "Casa Lola",
     "Katsu by Kyu",
+    "Noor (River Valley)",
     "Osteria Mozza",
     "Sushidan",
     "Toriei (Cuppage Plaza)",
@@ -957,6 +980,7 @@
     "Charcoal Grill Shinpachi",
     "Liora",
     "Jing Studio",
+    "Rituel",
     "Tavola Aperta",
     "Milli (Sky Dining)",
     "Sio Pasta",

@@ -64,7 +64,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Unagi Yondaime Kikukawa | Kikukawa | 99, 106 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Casa Lola | Casa Lola | 88, 97, 105 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Katsu by Kyu | Katsu by Kyu | 64, 66, 67, 70, 73, 75, 79, 84, 102, 105 | SPENT | 21 Sep 2026 (archive scan) | Issue Log No. 75 already called it "played out" — it ran twice more. |
-| Noor (River Valley) | Noor | 104 | OPEN | 21 Sep 2026 (archive scan) |  |
+| Noor (River Valley) | Noor | 104, 112 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Osteria Mozza | Osteria Mozza | 95, 98, 103, 104 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Sushidan | Sushidan | 54, 57, 59, 84, 93, 96, 104 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Toriei (Cuppage Plaza) | Toriei | 96, 100, 104 | SPENT | 21 Sep 2026 (archive scan) |  |
@@ -88,7 +88,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Chimichanga | Chimichanga | 80 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Niku Niku Oh!! Kome | Niku Niku | 77 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Jing Studio | Jing Studio | 67, 73 | SPENT | 21 Sep 2026 (archive scan) |  |
-| Rituel | Rituel | 71 | OPEN | 21 Sep 2026 (archive scan) |  |
+| Rituel | Rituel | 71, 112 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Tavola Aperta | Tavola Aperta | 60, 62, 71 | SPENT | 21 Sep 2026 (archive scan) |  |
 | 1887 by André | 1887 by André | 69 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Milli (Sky Dining) | Milli | 17, 27, 28, 32, 34, 56, 59, 68 | SPENT | 21 Sep 2026 (archive scan) |  |
@@ -127,3 +127,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Decker Barbecue | Decker Barbecue | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Jeju Haenyeo | Jeju Haenyeo | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
+| Kimpson’s Table | Kimpson’s Table | 112 | OPEN | No. 112 build | opening run — record the peg here |
+| Kappo Suguru | Kappo Suguru | 112 | OPEN | No. 112 build | opening run — record the peg here |

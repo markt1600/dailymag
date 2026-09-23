@@ -1,5 +1,5 @@
 {
-  "count": 757,
+  "count": 768,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,83 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Mecklenburg-Vorpommern state election (20 Sep 2026)",
+      "type": "Discrete event (election)",
+      "last_covered": "No. 112",
+      "last_peg": "World LEAD &mdash; AfD 38.22%/32 of 71 seats = a permanent constitutional veto (Art. 56 needs 48); CDU 4.89% and zero seats after voting down the 2 July court-nomination fix 45&ndash;26; turnout 78.11%",
+      "next_peg": "Next peg: the Landtag convening by 20 Oct, or the Minister-President ballot under Art. 42"
+    },
+    {
+      "subject": "UN FFM report on Iran, A/HRC/63/61",
+      "type": "Discrete event (report)",
+      "last_covered": "No. 112",
+      "last_peg": "World p4 &mdash; presented to HRC 21 Sep; 178 civilians in two 28 Feb strikes, 156 at the Minab school; Iran&rsquo;s own conduct found to be crimes against humanity, 221 children killed",
+      "next_peg": "Next peg: a US targeting-file release, or a Council resolution acting on it"
+    },
+    {
+      "subject": "SP Group regulated electricity tariff",
+      "type": "Recurring data print",
+      "last_covered": "No. 112",
+      "last_peg": "Singapore LEAD &mdash; the two-and-a-half-month rule in MAS/MTI&rsquo;s own footnote; Q3 +17.0% to 31.91c/kWh on a window averaging $108.59; the Q4 window averaged $91.77, &minus;15.5%",
+      "next_peg": "Next peg: the Q4 announcement c. 29&ndash;30 Sep &mdash; a prediction is logged against it"
+    },
+    {
+      "subject": "YMTC v Micron, German utility models",
+      "type": "Situation-peg (litigation)",
+      "last_covered": "No. 112",
+      "last_peg": "Technology LEAD &mdash; Munich I injunctions of 18 Sep on two UNEXAMINED Gebrauchsmuster; PTAB voided the same staircase family in September, Micron&rsquo;s seventh win of 26 petitions",
+      "next_peg": "Next peg: an OLG M&uuml;nchen stay, enforcement beginning, or Micron&rsquo;s 10-K legal note"
+    },
+    {
+      "subject": "Xiaomi MiMo-V2.6 (Pro / Flash / 9B distill)",
+      "type": "Product (open-weights model)",
+      "last_covered": "No. 112",
+      "last_peg": "Home Lab LEAD &mdash; MIT, Flash 309B/15B, 1M context; llama.cpp support in 8h51m; the quant table: MXFP4 162.89GiB at +0.07% against BPW2.0 66.99GiB at +41.69% perplexity",
+      "next_peg": "Next peg: a ~3.0bpw GGUF (measured but unpublished), or an independent agentic reproduction"
+    },
+    {
+      "subject": "Mac Studio M5 Ultra / Mac mini M6 (2026)",
+      "type": "Product (computer)",
+      "last_covered": "No. 112",
+      "last_peg": "The Kit LEAD &mdash; general sale 22 Sep, US$5,499 / S$7,999; beats an RTX 5090 only at 256K context, where the card runs out of VRAM; base is US$1,500 above the M3 Ultra",
+      "next_peg": "Next peg: the 512GB SKU in late October, and its price"
+    },
+    {
+      "subject": "Gr&ouml;nefeld 1941 Quadrivium",
+      "type": "Product (watch)",
+      "last_covered": "No. 112",
+      "last_peg": "The Good Life LEAD &mdash; first official photographs 23 Sep, ahead of the maker&rsquo;s own schedule; &euro;280,000 for 28 in tantalum; 7.5-second remontoire, twin barrels in series; order book already shut; no rate or water-resistance published",
+      "next_peg": "Next peg: the full press pack at end-2026 &mdash; a prediction says it still carries no water-resistance figure"
+    },
+    {
+      "subject": "The Life of a Showgirl: The Encore",
+      "type": "Discrete event (album)",
+      "last_covered": "No. 112",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; announced 23 Sep for 25 Sep, four tracks written with Martin and Shellback; the fifth configuration of a 2025 album whose first week took 4.002m US units",
+      "next_peg": "Next peg: the Billboard 200 dated 10 October"
+    },
+    {
+      "subject": "UK under-16 social-media minimum age",
+      "type": "Situation-peg (regulation)",
+      "last_covered": "No. 112",
+      "last_peg": "Family LEAD &mdash; fact sheet updated 18 Sep; regulations laid before end-2026, in force spring 2027; &pound;632.5m for youth activities; mandatory AI-chatbot breaks for under-18s",
+      "next_peg": "Next peg: the first statutory instrument on legislation.gov.uk"
+    },
+    {
+      "subject": "Kimpson&rsquo;s Table (Far East Square)",
+      "type": "Discrete event (opening)",
+      "last_covered": "No. 112",
+      "last_peg": "The Table &mdash; opened Sep 2026 after a year as a delivery pop-up; Korean hansang, samgyetang $18; The Ranting Panda 4/5 overall",
+      "next_peg": "Next peg: a second filed review, or a second outlet. Table life: one run used"
+    },
+    {
+      "subject": "Kappo Suguru (Joo Chiat)",
+      "type": "Discrete event (opening)",
+      "last_covered": "No. 112",
+      "last_peg": "The Table &mdash; counter-only kappo, omakase from S$180++, 11-course S$250++; The Ranting Panda 4/5",
+      "next_peg": "Next peg: a second filed review. Table life: one run used"
     },
     {
       "subject": "Moscow drone assault &amp; Duma election (Sep 2026)",
