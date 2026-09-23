@@ -1005,6 +1005,38 @@
   {
    "slug": "world-ebola-112",
    "file": "EBOLA Vaccination - Pinga, Nord Kivu, 2019 (48812384386).jpg"
+  },
+  {
+   "slug": "sg-senoko-112",
+   "file": "Senoko Power Station located on the northern coast of Singapore.jpg"
+  },
+  {
+   "slug": "tech-munich-112",
+   "file": "Landgericht München I.jpg"
+  },
+  {
+   "slug": "tech-munich-alt-112",
+   "file": "Justizpalast Munchen 01.jpg"
+  },
+  {
+   "slug": "tech-ddr5-112",
+   "file": "Micron MTC40F204681RC48BA1R 20240407 076.jpg"
+  },
+  {
+   "slug": "tech-ficontec-112",
+   "url": "https://www.ficontec.com/wp-content/uploads/2023/01/photonic-device-assembly-play-1.jpg"
+  },
+  {
+   "slug": "homelab-mimoppl-112",
+   "url": "https://huggingface.co/AesSedai/MiMo-V2.6-Flash-GGUF/resolve/main/kld_data/02_ppl_vs_filesize.png"
+  },
+  {
+   "slug": "homelab-mimoarch-112",
+   "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL/resolve/main/assets/architecture.png"
+  },
+  {
+   "slug": "world-reichstag-112",
+   "file": "Reichstagsgebäude, Berlin, Nordwestansicht, 2015.jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -1100,5 +1132,6 @@
  "_retrigger110a": "No.110 batch 1: refinery cover, Moscow refinery, Fiji yaqona x3, FiiO FT15, Mac Studio, Ressence 2026-09-22",
  "_retrigger110b": "No.110 batch 2: falconry saker/hood/1920 gear plate, tanker, SG, classroom 2026-09-22",
  "_retrigger111a": "No.111 batch 1: lampwork cover, hot shop, bead, furnace, Narsarsuaq, Mestersvig, Beats 360, Panerai, Zhenwu V900, Resident Evil, fishbone clinic, Nutcracker, F1 exhibition, Globe-Trotter, MiMo chart, Oura 2026-09-23",
- "_retrigger112a": "No.112 batch 1: Schwerin castle cover + Landtag, UNGA hall, Ebola vaccination (2019 archive frame) 2026-09-24"
+ "_retrigger112a": "No.112 batch 1: Schwerin castle cover + Landtag, UNGA hall, Ebola vaccination (2019 archive frame) 2026-09-24",
+ "_retrigger112b": "No.112 batch 2: Senoko power station, Landgericht Muenchen I, Micron DDR5 RDIMM, ficonTEC photonic assembly, MiMo quant plots 2026-09-24"
 }
