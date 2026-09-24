@@ -129,3 +129,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Kimpson’s Table | Kimpson’s Table | 112 | OPEN | No. 112 build | opening run — record the peg here |
 | Kappo Suguru | Kappo Suguru | 112 | OPEN | No. 112 build | opening run — record the peg here |
+| Cloudmills | Cloudmills | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| GAMJA | GAMJA | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| Marymount Bakehouse | Marymount Bakehouse | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| Kali Kali | Kali Kali | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| OJEJE | OJEJE | 113 | OPEN | No. 113 build | opening run — record the peg here |

@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Coffee grinders",
+      "issue": "113",
+      "angle": "Reader-voted (Atelier Next, 24 Sep). <b>The burr you are sold is the diameter; the burr that decides is the alignment.</b> MECHANISM: a blade grinder is a propeller (time-dependent smashing), a burr grinder a gauge (dimension-dependent sizing). Grounds are <b>bimodal</b> &mdash; a coarse peak near 4"
+    },
+    {
       "category": "Merino base layers &amp; travel tees",
       "issue": "112",
       "angle": "<b>Price does not predict the garment.</b> Ridge Journey <b>US$65</b> is 145gsm at <b>17.5&micro;</b> with a 13% nylon core and taped shoulder seams; Icebreaker 150 Tech Lite III <b>US$90</b> is 146gsm at <b>18.9&micro;</b>; Son of a Tailor&rsquo;s <b>US$150</b> made-to-order is <b>18.6&ndash;19.5&m"
@@ -223,24 +228,6 @@
       "sources": "Distinct from the No. 88 cookware desk — the buy-forever pan you rescue and season, not the one you buy new"
     },
     {
-      "category": "Coffee grinders",
-      "rotation": "Kitchen / gear",
-      "fit": "Burr geometry as the whole game; hand vs electric; the grind is most of the cup",
-      "sources": "Comandante/1Zpresso, Baratza/Niche/Fellow/Weber; r/espresso, Home-Barista, James Hoffmann"
-    },
-    {
-      "category": "Tea ware (teapots, kettles &amp; gaiwan)",
-      "rotation": "Home / table",
-      "fit": "Yixing zisha, tetsubin, porcelain gaiwan; the clay-vs-glaze debate; r/tea, teaware forums",
-      "sources": "A buy-once vessel culture where material shapes the brew; a slow, tactile object world"
-    },
-    {
-      "category": "Kitchen scales &amp; thermometers",
-      "rotation": "Kitchen / gear",
-      "fit": "Load-cell accuracy, Thermapen-vs-clones, calibration; r/Cooking, seriouseats",
-      "sources": "The unglamorous precision tools a serious cook buys once and never replaces"
-    },
-    {
       "category": "Enamelware &amp; camp mugs",
       "rotation": "Home / kitchen",
       "fit": "Vitreous enamel over steel, chip-resistance, Falcon/Riess/Crow Canyon; r/BuyItForLife",
@@ -281,9 +268,31 @@
       "rotation": "Clothing",
       "fit": "Oxford cloth weight, collar construction, single-needle seams; Kamakura, Proper Cloth, Luxire, Ascot Chang in Hong Kong",
       "sources": "A daily-worn cloth where fit is made, not bought, and the Asian bespoke shirtmakers are the under-the-radar tier"
+    },
+    {
+      "category": "Chopping knives for the tropics: rust and steel choice",
+      "rotation": "Kitchen",
+      "fit": "Why a carbon-steel gyuto behaves differently at 80% humidity; stainless cladding, patina management, the makers who publish HRC",
+      "sources": "A climate-specific question the category&rsquo;s literature almost never addresses"
+    },
+    {
+      "category": "Espresso machines (the boiler, not the badge)",
+      "rotation": "Kitchen / gear",
+      "fit": "Heat exchanger vs dual boiler vs lever; Profitec, Lelit, ECM, La Marzocco Linea Mini, Londinium",
+      "sources": "The natural companion to the grinder desk &mdash; and the one where the price-to-cup curve flattens even harder"
     }
   ],
   "retired": [
+    {
+      "category": "Tea ware (teapots, kettles &amp; gaiwan)",
+      "retired": "25 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, 24 Sep 2026 &mdash; &ldquo;never run, never re-suggest&rdquo;). Was pipelined as Home / table: Yixing zisha, tetsubin and the porcelain gaiwan, the clay-vs-glaze argument, r/tea. Deleted from the on-deck pipeline the same day."
+    },
+    {
+      "category": "Kitchen scales &amp; thermometers",
+      "retired": "25 Sep 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, 24 Sep 2026 &mdash; &ldquo;never run, never re-suggest&rdquo;). Was pipelined as Kitchen / gear: load-cell accuracy, Thermapen against its clones, calibration drift. Deleted from the on-deck pipeline the same day."
+    },
     {
       "category": "Wooden cutting boards &amp; butcher blocks",
       "retired": "22 Sep 2026",
