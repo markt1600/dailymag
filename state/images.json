@@ -6846,6 +6846,100 @@
    "specific": true,
    "source": "Ratopati",
    "caption": "Maitighar, Kathmandu, 27 July 2026: a depositor holds up a home-printed वान्टेड poster naming a cooperative's operators. The state's most-wanted list, privatised by its victims."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Catalogue</span><span>What It Is Now",
+   "asset": "pi-family-1135",
+   "source": "Wikimedia Commons — \"File:Raspberry Pi 1, Pi 5, Pi 400, Pico and Zero 2.jpg\"",
+   "license": "CC BY-SA 4.0",
+   "author": "SimonWaldherr",
+   "specific": true,
+   "caption": "Fourteen years across one desk — a Pi 400 keyboard computer behind an original Pi 1 Model B, a Pi 5, a Zero 2 W and a Pico. Only the two on the right escaped this year's price rises."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Network Tier</span><span>The Weekend Builds",
+   "asset": "m2hat-1135",
+   "source": "Raspberry Pi Ltd (maker's own product photograph)",
+   "specific": true,
+   "caption": "The official M.2 HAT+ with a drive fitted and its PCIe ribbon folded back — $12 of adapter on the single lane that caps this whole tier at 500MB/s."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The House</span><span>Rooms and Radios",
+   "asset": "ha-green-1135",
+   "source": "Home Assistant (home-assistant.io)",
+   "specific": true,
+   "caption": "Home Assistant Green, $199 — a Rockchip RK3566 with four gigabytes and no Zigbee or Thread radio, in a moulded case. A Pi 5 8GB is faster."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Workshop</span><span>Bench and Arcade",
+   "asset": "pico-wh-1135",
+   "source": "Wikimedia Commons — \"File:Raspberry Pi Pico WH top and bottom with soldered pins.jpg\"",
+   "license": "CC BY-SA 4.0",
+   "specific": true,
+   "caption": "A Pico with its headers already soldered, seen from both sides. The microcontroller tier is the one the memory market never touched — and the one whose keyboard firmware quietly split this year."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Local Machine</span><span>What It Can Think",
+   "asset": "pi-hailo-1135",
+   "source": "Wikimedia Commons — \"File:Raspberry Pi 5 Hailo AI Accelerator Module.jpg\"",
+   "license": "CC BY 4.0",
+   "specific": true,
+   "caption": "A Hailo accelerator on an M.2 HAT+ above a Pi 5 — the discontinued AI Kit, and the ancestor of the boards priced on this page. The single PCIe lane beneath it is why the published frame rates do not arrive."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Agent at the Bench</span><span>The Second Pair of Hands",
+   "asset": "bme280-wiring-1135",
+   "source": "Adafruit Learning System",
+   "specific": false,
+   "caption": "A wiring diagram, not a photograph: a Raspberry Pi joined to a BME280 sensor over I²C on a breadboard — four wires, and the step where an agent's training data is most likely to be a decade out of date."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Family Build</span><span>Two Children, One Board",
+   "asset": "sensehat-1135",
+   "source": "Wikimedia Commons — \"File:Raspberry Pi with Sense HAT.jpg\"",
+   "license": "CC BY-SA 4.0",
+   "specific": true,
+   "caption": "A Sense HAT on a Raspberry Pi — the eight-by-eight matrix, pressure, humidity and motion sensors that the Astro Pi computers carry aboard the space station."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The State of the Art</span><span>Shipping, Demonstrated, Marketed",
+   "asset": "aihat2-1135",
+   "source": "Raspberry Pi Ltd (maker's own product photograph)",
+   "specific": true,
+   "caption": "The AI HAT+ 2 on a Pi 5 — a Hailo-10H with eight gigabytes of its own memory, $200, and the newest AI silicon the company sells. SHIPPING; the deployments are another matter."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Rivals</span><span>What Else Does This",
+   "asset": "luckfox-1135",
+   "source": "Luckfox (maker's own product photograph)",
+   "specific": true,
+   "caption": "A Luckfox Pico Ultra: Ethernet, USB-C and one marked Rockchip package with no separate memory chips anywhere on the board, because the memory is inside it. That is why its price did not move."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Counter</span><span>Buying It in Singapore",
+   "asset": "simlim-1135",
+   "source": "Wikimedia Commons — \"File:Sim Lim Tower electronics shopping mall.JPG\"",
+   "license": "CC0",
+   "specific": true,
+   "caption": "Sim Lim Tower above the shophouses of Jalan Besar — seventeen floors of components, and, for a Raspberry Pi board in 2026, essentially one counter."
+  },
+  {
+   "issue": "113.5",
+   "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
+   "asset": "orangepi6-1135",
+   "source": "IT之家 (ITHome)",
+   "specific": true,
+   "caption": "The Orange Pi 6 Plus, as its launch coverage pictured it — four memory packages clustered around the processor. They are the components that put sixty-eight per cent on its price in eight months."
   }
  ],
  "standing": [
