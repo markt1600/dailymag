@@ -1133,6 +1133,58 @@
   {
    "slug": "atelier-fleece-112",
    "file": "Merino wool.jpg"
+  },
+  {
+   "slug": "cover-pi5-1135",
+   "file": "Raspberry Pi 5 with active cooler.jpg"
+  },
+  {
+   "slug": "pi-family-1135",
+   "file": "Raspberry Pi 1, Pi 5, Pi 400, Zero 2 and Pico.jpg"
+  },
+  {
+   "slug": "hailo-m2-1135",
+   "file": "Raspberry Pi 5 Hailo AI Accelerator Module.jpg"
+  },
+  {
+   "slug": "pico2-1135",
+   "file": "Top view of a Raspberry Pi Pico 2 microcontroller board.jpg"
+  },
+  {
+   "slug": "sensehat-1135",
+   "file": "Raspberry Pi with Sense HAT.jpg"
+  },
+  {
+   "slug": "simlim-1135",
+   "file": "Sim Lim Tower electronics shopping mall.JPG"
+  },
+  {
+   "slug": "pi500plus-1135",
+   "url": "https://www.raspberrypi.com/app/uploads/2025/09/500-hero-front-1024x686.jpg"
+  },
+  {
+   "slug": "aihat2-1135",
+   "url": "https://www.raspberrypi.com/app/uploads/2026/01/AI-HAT-2-top-lo-res-1024x686.jpg"
+  },
+  {
+   "slug": "cm5-carrier-1135",
+   "url": "https://www.raspberrypi.com/app/uploads/2024/11/CM5BOARD-INSTALLED-1024x682.jpg"
+  },
+  {
+   "slug": "displays-1135",
+   "url": "https://www.raspberrypi.com/app/uploads/2026/07/all-displays-1024x683.jpg"
+  },
+  {
+   "slug": "ssdkit-1135",
+   "url": "https://www.raspberrypi.com/app/uploads/2024/10/SSD-Kit-256GB-1024x683.jpg"
+  },
+  {
+   "slug": "jetson-1135",
+   "url": "https://www.sparkfun.com/media/catalog/product/cache/f3020b7489dcfc4d1d147cf4dad07b7f/N/V/NVIDIA-JetsonOrin-3QTR-Front-Left-_1_.jpg"
+  },
+  {
+   "slug": "sarawak-stem-1135",
+   "url": "https://sarawakskills.edu.my/media/wp-content/uploads/2025/06/2-2048x1365.jpg"
   }
  ],
  "_fetch_rev": 15,
@@ -1233,5 +1285,6 @@
  "_retrigger112c": "No.112 batch 3: Victoria Tower, DNA helix, AX3 accelerometer tool, dumbbells, Eccles building 2026-09-24",
  "_retrigger112d": "No.112 batch 4: Mac Studio M5 Ultra, Mac mini, Gronefeld Quadrivium x2, Showgirl graphic 2026-09-24",
  "_retrigger112e": "No.112 batch 5: merino flock+fibre, sourdough crumb/starter/scored/boule, Proofer Pro, Decker Barbecue 2026-09-24",
- "_retrigger112f": "No.112 batch 6: verified Commons sourdough crumb + starter jar, merino flock/fleece 2026-09-24"
+ "_retrigger112f": "No.112 batch 6: verified Commons sourdough crumb + starter jar, merino flock/fleece 2026-09-24",
+ "_note1135": "No. 113.5 (Raspberry Pi): all 13 heroes fetched directly by the build session with full egress and inspected before captioning; entries recorded here for provenance. The Action will log 'have' and skip them."
 }

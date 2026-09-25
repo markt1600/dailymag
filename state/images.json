@@ -6846,6 +6846,109 @@
    "specific": true,
    "source": "Ratopati",
    "caption": "Maitighar, Kathmandu, 27 July 2026: a depositor holds up a home-printed वान्टेड poster naming a cooperative's operators. The state's most-wanted list, privatised by its victims."
+  },
+  {
+   "anchor": "Meridian &middot; The Catalogue</span><span>What it costs now",
+   "asset": "pi-family-1135",
+   "specific": true,
+   "file": "Raspberry Pi 1, Pi 5, Pi 400, Zero 2 and Pico.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "SimonWaldherr",
+   "source": "Wikimedia Commons &mdash; \"File:Raspberry Pi 1, Pi 5, Pi 400, Zero 2 and Pico.jpg\"",
+   "caption": "Five generations on one table: the 2012 Model B at the front left, a Pi 5 leaning on a Pi 400 keyboard, and beside them a Pico and a Zero 2 W. Only the two boards on the right kept their price through the year this section is about.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Catalogue</span><span>The whole line, and what is newest",
+   "asset": "displays-1135",
+   "specific": true,
+   "source": "raspberrypi.com, the Touch Display 2 announcement of 22 July 2026",
+   "caption": "The official Touch Display 2 family, photographed for the launch of the ten-inch model on 22 July 2026 &mdash; at eighty dollars, the newest thing in the catalogue a household would actually want. It needs four DSI lanes, so it works on a Pi 5 or a Compute Module and nothing older.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Catalogue</span><span>The company behind the board",
+   "asset": "cm5-carrier-1135",
+   "specific": true,
+   "source": "raspberrypi.com, the Compute Module 5 launch",
+   "caption": "A Compute Module 5 seated on its IO board. This is the product three-quarters of the company&rsquo;s units now go into &mdash; not a computer you own, but the board inside a panel PC or a DIN-rail controller somebody else sells.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Network Tier</span><span>The exit node, and the NAS that isn&rsquo;t",
+   "asset": "ssdkit-1135",
+   "specific": true,
+   "source": "raspberrypi.com, the SSD Kit product announcement",
+   "caption": "The official SSD kit: an M.2 2230 drive and the M.2 HAT+ that carries it. Twelve dollars of HAT is excellent value on a Pi you already own; it is not a reason to buy a Pi, and the gigabit port downstream of it is where the speed goes.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Workshop</span><span>The printer, the keyboard, the garden",
+   "asset": "pico2-1135",
+   "specific": true,
+   "file": "Top view of a Raspberry Pi Pico 2 microcontroller board.jpg",
+   "license": "CC0",
+   "author": "Profpcde",
+   "source": "Wikimedia Commons &mdash; \"File:Top view of a Raspberry Pi Pico 2 microcontroller board.jpg\"",
+   "caption": "A Raspberry Pi Pico 2, five dollars, unmoved by a year of memory prices. The RP2350 on it is the same silicon four people were paid twenty thousand dollars each to break &mdash; see p17.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Silicon Brain</span><span>What the accelerator can do",
+   "asset": "hailo-m2-1135",
+   "specific": true,
+   "file": "Raspberry Pi 5 Hailo AI Accelerator Module.jpg",
+   "license": "CC BY 4.0",
+   "author": "RetroEditor",
+   "source": "Wikimedia Commons &mdash; \"File:Raspberry Pi 5 Hailo AI Accelerator Module.jpg\"",
+   "caption": "A Hailo accelerator on an M.2 card, seated in Raspberry Pi&rsquo;s own M.2 HAT+ above a Pi 5 &mdash; the route to on-device vision before the AI HAT+ put the same class of silicon on a single board. Everything it does passes through the one PCIe lane visible under the ribbon.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Silicon Brain</span><span>What it cannot do, and what it can",
+   "asset": "aihat2-1135",
+   "specific": true,
+   "source": "raspberrypi.com, the AI HAT+ 2 announcement of 15 January 2026",
+   "caption": "The AI HAT+ 2, photographed from above for its January launch: the Hailo-10H under the silver lid, with eight gigabytes of its own memory on the same board. It is the part the Pi&rsquo;s free processor beats on every model in the table on this page.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Family Bench</span><span>Two children, one keyboard",
+   "asset": "sensehat-1135",
+   "specific": true,
+   "file": "Raspberry Pi with Sense HAT.jpg",
+   "license": "CC BY-SA 4.0",
+   "author": "the Raspberry Pi Foundation",
+   "source": "Wikimedia Commons &mdash; \"File:Raspberry Pi with Sense HAT.jpg\"",
+   "caption": "A Sense HAT on a Pi, its eight-by-eight matrix running the rainbow that is most children&rsquo;s first program. The board was built for the Astro Pi units on the International Space Station; the hardware is open to anyone, and only the flight slot is not.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The State of the Art</span><span>Shipping, demonstrated once, or marketing",
+   "asset": "jetson-1135",
+   "specific": true,
+   "source": "SparkFun&rsquo;s product listing for the Jetson Orin Nano Developer Kit",
+   "caption": "NVIDIA&rsquo;s Jetson Orin Nano Super developer kit, the machine replacing the Pi at the top end: 67 TOPS, CUDA, and 102 gigabytes a second of memory bandwidth. Announced at $249; the retailer photographing it here sells it for $399.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Supply Line</span><span>Buying one here",
+   "asset": "simlim-1135",
+   "specific": false,
+   "file": "Sim Lim Tower electronics shopping mall.JPG",
+   "license": "CC0",
+   "author": "Ypsilon from Finland",
+   "source": "Wikimedia Commons &mdash; \"File:Sim Lim Tower electronics shopping mall.JPG\"",
+   "caption": "Sim Lim Tower on Jalan Besar &mdash; the striped block, not Sim Lim Square &mdash; photographed some years before this issue. One shop inside it can be confirmed from its own site to stock current Raspberry Pi boards, and it opens for six and a half hours a day.",
+   "issue": "113.5"
+  },
+  {
+   "anchor": "Meridian &middot; The Long Read</span><span>The Undercurrent &middot; Sarawak",
+   "asset": "sarawak-stem-1135",
+   "specific": true,
+   "source": "Sarawak Skills, from its report on the state-wide STEM Catalysts tour, June 2025",
+   "caption": "A stop on the touring STEM Catalysts programme in Sarawak, June 2025 &mdash; robot arms, a small touchscreen and a keyboard on a trestle table, and pupils in school jerseys watching a demonstrator in a programme lanyard. That year the tour carried the Raspberry Pi&rsquo;s name in its title. This year&rsquo;s does not.",
+   "issue": "113.5"
   }
  ],
  "standing": [
