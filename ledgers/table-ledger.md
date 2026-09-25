@@ -134,3 +134,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Marymount Bakehouse | Marymount Bakehouse | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | Kali Kali | Kali Kali | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | OJEJE | OJEJE | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| Elijah Pies | Elijah Pies | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| LingZhi Greens | LingZhi Greens | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| Gepuk Guys | Gepuk Guys | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| BlackTree | BlackTree | 114 | OPEN | No. 114 build | opening run — record the peg here |

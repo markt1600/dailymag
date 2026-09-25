@@ -3121,14 +3121,22 @@
    "desk": "Macro",
    "claim": "US 10-year Treasury yield touches or holds near 5% through end-September on the oil-shock reflation",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Closed 25 Sep at 5.10% on the Treasury par curve, having touched 5.20 — the highest since mid-2007.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "home.treasury.gov daily par yield curve"
   },
   {
    "issue": "101",
    "desk": "The World",
    "claim": "The 14 Sep Iran-GCC Oman talks mark a genuine de-escalation step - chokepoint (Bab-el-Mandeb/Hormuz) risk eases rather than escalates over the following week",
    "check_by": "2026-09-21",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Oman postponed the Salalah meeting indefinitely on 13 September — the day before we printed it as progress. Riyadh then shut the East-West pipeline and Brent ran 20% higher in a month.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through"
   },
   {
    "issue": "101",
@@ -3193,7 +3201,11 @@
    "desk": "Screen",
    "claim": "A24 'Primetime' opens 25 Sep; the viral 'record RT debut score' will not hold through wide release",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "It held exactly: 87% out of Venice, 87% on 149 reviews at wide release, 83% audience.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "https://www.rottentomatoes.com/m/primetime"
   },
   {
    "issue": 102,
@@ -3237,7 +3249,11 @@
    "desk": "Singapore",
    "claim": "August NODX print (due 17 Sep 2026) lands strong on electronics; RHB FY forecast ~15.5%",
    "check_by": "2026-09-18",
-   "outcome": null
+   "outcome": "right",
+   "result": "NODX rose 46.2% y/y in August against a 35% consensus — the fastest since October 1988; electronics +131.8%.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "https://tradingeconomics.com/singapore/domestic-exports-of-non-oil-nodx-pctyoy"
   },
   {
    "issue": 103,
@@ -3251,7 +3267,11 @@
    "desk": "The Kit",
    "claim": "Apple Watch Ultra 4 ships 18 Sep 2026 at US$799; judged an incremental 'sensor-and-battery' upgrade, not obligatory",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "In stores 18 September at US$799 unchanged; reviewers called it externally unchanged, with battery and heart-rate sensing the whole story.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "https://www.apple.com/newsroom/2026/09/apple-unveils-apple-watch-ultra-4/"
   },
   {
    "issue": 103,
@@ -3265,7 +3285,11 @@
    "desk": "Diary",
    "claim": "Kyushu Basho (grand sumo) tickets go on sale 19 Sep 2026 via Ticket Oosumo",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "General sale opened 10am JST on 19 September through Ticket Ozumo for the 8–22 November Fukuoka tournament.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "https://sumo.pia.jp/en/"
   },
   {
    "issue": 103,
@@ -3321,7 +3345,11 @@
    "desk": "Singapore",
    "claim": "Singapore PSI returns to Unhealthy (>100) at least once more before the F1 weekend of 9-11 Oct as the haze is weather-driven, not resolved.",
    "check_by": "2026-10-11",
-   "outcome": null
+   "outcome": "right",
+   "result": "NEA logged a 24-hour PSI of 71–102 on 20 September, back over the 100 line.",
+   "status": "graded",
+   "gradedIn": 114,
+   "source": "https://www.nea.gov.sg/media/news/advisories/index/haze-situation-update-20-september-2026"
   },
   {
    "issue": 105,
@@ -3650,7 +3678,10 @@
    "desk": "The Macro Desk",
    "claim": "The twenty-one-session equity-bond daily-return correlation is still positive when next computed on this book's series.",
    "check_by": "2026-10-19",
-   "outcome": null
+   "outcome": "push",
+   "status": "graded",
+   "result": "Withdrawn as unscoreable: it can only be checked against this book’s own unpublished series. No. 110’s VWRA/AGGU restatement is the keeper.",
+   "gradedIn": 114
   },
   {
    "issue": 109,
@@ -3817,8 +3848,9 @@
    "issue": 110,
    "desk": "Macro",
    "claim": "August core PCE prints at or above ~3.2% (Warsh pre-announced ~3.6% headline / 3.2% core)",
-   "checkBy": "2026-09-26",
-   "status": "open"
+   "checkBy": "2026-09-30",
+   "status": "open",
+   "note": "Check-by corrected in No. 114: BEA publishes August Personal Income & Outlays on 30 September, not 26."
   },
   {
    "issue": 110,
@@ -4203,6 +4235,160 @@
    "desk": "The Long Read",
    "claim": "By 15 July 2027 cumulative CASH refunds by Nepal's Problematic Cooperative Management Committee still total under Rs 5bn (under 11% of the ~Rs 46bn claimed), and the count of formally declared 'problematic' cooperatives has risen above 29",
    "checkBy": "2027-07-15",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The World",
+   "claim": "Australia introduces mandatory AI safety legislation into Parliament before 31 December 2026, containing a statutory incident-reporting deadline measured in days",
+   "checkBy": "2026-12-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The World",
+   "claim": "No criminal charge is laid against OpenAI or any OpenAI employee over the 18 June Services Australia incident by 30 June 2027",
+   "checkBy": "2027-06-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The World",
+   "claim": "Ethiopian Airlines has still not resumed scheduled service to Mekelle, Axum or Shire by 31 October 2026",
+   "checkBy": "2026-10-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The World",
+   "claim": "By 31 December 2026 at least one of the seven EPFAS signatories publicly withdraws from or repudiates the alliance",
+   "checkBy": "2026-12-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "Singapore",
+   "claim": "By 31 March 2027 LTA or MOT discloses the first bus Administrative NOO tally, and the first-quarter figure is under 500",
+   "checkBy": "2027-03-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "Technology",
+   "claim": "Anthropic files a petition for rehearing en banc in the D.C. Circuit (docket 26-1049) on or before 9 November 2026",
+   "checkBy": "2026-11-10",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "Technology",
+   "claim": "GGML_CUDA_MMQ_PREC acquires at least one follow-up PR or issue in ggml-org/llama.cpp about wrong or missing per-tensor prec metadata in third-party NVFP4/MXFP4 GGUFs by 6 November 2026",
+   "checkBy": "2026-11-06",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Kit",
+   "claim": "An authorised Singapore retailer (rdrc.sg or 3dwatchshop.com.sg) lists the COROS PACE 4 Pro at an SGD RRP on or before 30 November 2026",
+   "checkBy": "2026-11-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Good Life",
+   "claim": "Panerai extends the 42mm Luminor case with at least one further reference (titanium, sandwich dial or bracelet) announced by the close of Watches and Wonders Geneva 2027",
+   "checkBy": "2027-04-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "Screen & Sound",
+   "claim": "“Choosin’ Texas” is still No. 1 on the Billboard Hot 100 dated 10 October 2026, reaching 25 weeks at the top",
+   "checkBy": "2026-10-10",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Macro Desk",
+   "claim": "The August core PCE price index, released by the BEA on 30 September 2026, prints at or above 3.3% y/y",
+   "checkBy": "2026-09-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Macro Desk",
+   "claim": "Micron’s Q4 FY2026 revenue, reported 30 September 2026, prints at or above US$50bn",
+   "checkBy": "2026-09-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Atelier",
+   "claim": "Billingham’s out-of-guarantee repair service is still not accepting out-of-guarantee repairs on 31 December 2026, past its advertised October 2026 restart",
+   "checkBy": "2026-12-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Rabbit Hole",
+   "claim": "The Kendama World Cup Hatsukaichi 2026 (21–22 November) records more than 1,024 total entries, and the men’s champion is again Japanese",
+   "checkBy": "2026-11-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "Fitness",
+   "claim": "No independent replication published by 30 June 2027 narrows the 9.5–40.2 minute confidence interval on HIIT’s 80%-of-maximal-effect dose",
+   "checkBy": "2027-06-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Travel Desk",
+   "claim": "The JB–Singapore RTS Link does not begin passenger service before 31 December 2026",
+   "checkBy": "2026-12-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Travel Desk",
+   "claim": "Palawan’s December 2026–May 2027 dry season runs drier than the 1991–2020 normals at Puerto Princesa, consistent with the very strong El Niño",
+   "checkBy": "2027-05-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Diary",
+   "claim": "Árō is reviewed by at least two of Eatbook, SETHLUI, Time Out Singapore, Honeycombers, HungryGoWhere or Tatler Asia by 30 November 2026, with a net-positive verdict",
+   "checkBy": "2026-11-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Diary",
+   "claim": "BlackTree drops or materially relaxes the 200-cup daily cap on the Lily Lamb matcha by 31 January 2027",
+   "checkBy": "2027-01-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Long Read",
+   "claim": "By 31 January 2027 Indonesia’s social affairs ministry publicly reports Sekolah Rakyat at 250 or more sites with 75,000 or more enrolled students",
+   "checkBy": "2027-01-31",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Long Read",
+   "claim": "FALSIFIER: this read is wrong if by 30 June 2027 the 2027 Sekolah Rakyat allocation is set below Rp15 trillion AND the 500-school target is formally abandoned or postponed beyond 2030",
+   "checkBy": "2027-06-30",
+   "status": "open"
+  },
+  {
+   "issue": "114",
+   "desk": "The Long Read",
+   "claim": "No major Western outlet (NYT, BBC English, Reuters, FT, The Economist, The Guardian) runs a dedicated feature on Sekolah Rakyat by 31 March 2027",
+   "checkBy": "2027-03-31",
    "status": "open"
   }
  ]
