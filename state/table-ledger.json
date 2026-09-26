@@ -74,9 +74,10 @@
       "venue": "Árō (Mohamed Sultan Road)",
       "key": "Árō",
       "runs": [
-        107
+        107,
+        115
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "21 Sep 2026 (archive scan)",
       "note": "Ran once, No. 107, as TOO NEW. Second run allowed from No. 114 with a real review."
     },
@@ -1049,6 +1050,36 @@
       "status": "OPEN",
       "checked": "No. 114 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Fico at Tanjong Beach Club",
+      "key": "Fico at Tanjong Beach Club",
+      "runs": [
+        115
+      ],
+      "status": "OPEN",
+      "checked": "No. 115 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Whuchu",
+      "key": "Whuchu",
+      "runs": [
+        115
+      ],
+      "status": "OPEN",
+      "checked": "No. 115 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Moutai House",
+      "key": "Moutai House",
+      "runs": [
+        115
+      ],
+      "status": "OPEN",
+      "checked": "No. 115 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1056,6 +1087,7 @@
     "Kuro Kare (Havelock II)",
     "Le Ju Xuan (Marina Bay Sands)",
     "Tian Tian (Jewel flagship)",
+    "Árō (Mohamed Sultan Road)",
     "Foura (Gardens by the Bay)",
     "Hikiniku to Come",
     "Unagi Yondaime Kikukawa",

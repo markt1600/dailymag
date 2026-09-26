@@ -58,7 +58,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Kuro Kare (Havelock II) | Kuro Kare | 97, 99, 105, 109 | SPENT | 21 Sep 2026 (archive scan) | The reader-reported repeat: four runs in thirteen issues. Verdict spent — Eatbook, Time Out both quoted in No. 109. |
 | Le Ju Xuan (Marina Bay Sands) | Le Ju Xuan | 95, 99, 102, 105, 109 | SPENT | 21 Sep 2026 (archive scan) | Five mentions, never reviewed, no published price. |
 | Tian Tian (Jewel flagship) | Tian Tian | 75, 76, 92, 99, 102, 103, 109 | SPENT | 21 Sep 2026 (archive scan) | Verdict printed in No. 109 — peg spent. |
-| Árō (Mohamed Sultan Road) | Árō | 107 | OPEN | 21 Sep 2026 (archive scan) | Ran once, No. 107, as TOO NEW. Second run allowed from No. 114 with a real review. |
+| Árō (Mohamed Sultan Road) | Árō | 107, 115 | SPENT | 21 Sep 2026 (archive scan) | Ran once, No. 107, as TOO NEW. Second run allowed from No. 114 with a real review. |
 | Foura (Gardens by the Bay) | Foura | 50, 51, 52, 55, 59, 68, 74, 79, 93, 96, 97, 101, 106 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Hikiniku to Come | Hikiniku to Come | 17, 20, 27, 28, 32, 34, 93, 106 | SPENT | 21 Sep 2026 (archive scan) | Retired in No. 28; re-used in No. 32 (corrected in No. 33); back again in 93 and 106. |
 | Unagi Yondaime Kikukawa | Kikukawa | 99, 106 | SPENT | 21 Sep 2026 (archive scan) |  |
@@ -139,3 +139,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Gepuk Guys | Gepuk Guys | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | BlackTree | BlackTree | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| Fico at Tanjong Beach Club | Fico at Tanjong Beach Club | 115 | OPEN | No. 115 build | opening run — record the peg here |
+| Whuchu | Whuchu | 115 | OPEN | No. 115 build | opening run — record the peg here |
+| Moutai House | Moutai House | 115 | OPEN | No. 115 build | opening run — record the peg here |
