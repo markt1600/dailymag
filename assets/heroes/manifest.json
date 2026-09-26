@@ -1185,6 +1185,46 @@
   {
    "slug": "sarawak-stem-1135",
    "url": "https://sarawakskills.edu.my/media/wp-content/uploads/2025/06/2-2048x1365.jpg"
+  },
+  {
+   "slug": "cat115-beekeeping",
+   "category": "Category:Beekeeping",
+   "limit": 12
+  },
+  {
+   "slug": "cat115-beehives",
+   "category": "Category:Beehives",
+   "limit": 12
+  },
+  {
+   "slug": "cat115-fountainpens",
+   "category": "Category:Fountain pens",
+   "limit": 12
+  },
+  {
+   "slug": "cat115-nibs",
+   "category": "Category:Nibs (pen)",
+   "limit": 10
+  },
+  {
+   "slug": "cat115-lktea",
+   "category": "Category:Tea plantations in Sri Lanka",
+   "limit": 12
+  },
+  {
+   "slug": "cat115-lkrail",
+   "category": "Category:Rail transport in Sri Lanka",
+   "limit": 12
+  },
+  {
+   "slug": "cat115-nuwaraeliya",
+   "category": "Category:Nuwara Eliya",
+   "limit": 10
+  },
+  {
+   "slug": "cat115-ella",
+   "category": "Category:Ella, Sri Lanka",
+   "limit": 10
   }
  ],
  "_fetch_rev": 15,
@@ -1287,5 +1327,6 @@
  "_retrigger112e": "No.112 batch 5: merino flock+fibre, sourdough crumb/starter/scored/boule, Proofer Pro, Decker Barbecue 2026-09-24",
  "_retrigger112f": "No.112 batch 6: verified Commons sourdough crumb + starter jar, merino flock/fleece 2026-09-24",
  "_note1135": "No. 113.5 (Raspberry Pi): all 13 heroes fetched directly by the build session with full egress and inspected before captioning; entries recorded here for provenance. The Action will log 'have' and skip them.",
- "_note115": "No. 115 (27 Sep 2026): Wikimedia returned 429 to the sandbox proxy on every route (API, Special:FilePath, upload.wikimedia.org), so Commons files go through this Action; non-Commons direct URLs are fetched by the build session."
+ "_note115": "No. 115 (27 Sep 2026): Wikimedia returned 429 to the sandbox proxy on every route (API, Special:FilePath, upload.wikimedia.org), so Commons files go through this Action; non-Commons direct URLs are fetched by the build session.",
+ "_note115b": "No. 115: category sweeps for beekeeping, fountain pens and Sri Lanka's hill country — the sandbox is 429'd by Wikimedia on every route, so the Action lists and downloads candidates for the build session to eyeball."
 }
