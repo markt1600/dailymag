@@ -1286,5 +1286,6 @@
  "_retrigger112d": "No.112 batch 4: Mac Studio M5 Ultra, Mac mini, Gronefeld Quadrivium x2, Showgirl graphic 2026-09-24",
  "_retrigger112e": "No.112 batch 5: merino flock+fibre, sourdough crumb/starter/scored/boule, Proofer Pro, Decker Barbecue 2026-09-24",
  "_retrigger112f": "No.112 batch 6: verified Commons sourdough crumb + starter jar, merino flock/fleece 2026-09-24",
- "_note1135": "No. 113.5 (Raspberry Pi): all 13 heroes fetched directly by the build session with full egress and inspected before captioning; entries recorded here for provenance. The Action will log 'have' and skip them."
+ "_note1135": "No. 113.5 (Raspberry Pi): all 13 heroes fetched directly by the build session with full egress and inspected before captioning; entries recorded here for provenance. The Action will log 'have' and skip them.",
+ "_note115": "No. 115 (27 Sep 2026): Wikimedia returned 429 to the sandbox proxy on every route (API, Special:FilePath, upload.wikimedia.org), so Commons files go through this Action; non-Commons direct URLs are fetched by the build session."
 }
