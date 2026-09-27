@@ -142,3 +142,10 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Fico at Tanjong Beach Club | Fico at Tanjong Beach Club | 115 | OPEN | No. 115 build | opening run — record the peg here |
 | Whuchu | Whuchu | 115 | OPEN | No. 115 build | opening run — record the peg here |
 | Moutai House | Moutai House | 115 | OPEN | No. 115 build | opening run — record the peg here |
+| Maison Yoshoku | Maison Yoshoku | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Shared Table | Shared Table | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| VE/LA | VE/LA | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |

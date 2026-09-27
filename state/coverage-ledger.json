@@ -1,5 +1,5 @@
 {
-  "count": 798,
+  "count": 808,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,76 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Serbian presidential resignation &amp; 25 Oct snap election",
+      "type": "Discrete event (politics)",
+      "last_covered": "No. 116",
+      "last_peg": "World LEAD &mdash; Vu&#269;i&#263; resigned ~8pm Sun 27 Sep, eight months early, to run for PM; Brnabi&#263; acting; 49 pardons incl. 23 protest cases",
+      "next_peg": "Next peg = the 25 October result, or the presidential election due by 27 December."
+    },
+    {
+      "subject": "Bangkok flood-disaster declaration (all 50 districts)",
+      "type": "Discrete event (disaster)",
+      "last_covered": "No. 116",
+      "last_peg": "World p4 &mdash; declared 10:16 Sat 26 Sep under the Disaster Prevention and Mitigation Act; ~300mm/48h; 37 roads blocked; governor disputes the reported death toll",
+      "next_peg": "Next peg = a confirmed toll, or the drainage post-mortem."
+    },
+    {
+      "subject": "Singapore rail-planning property review (NBER WP 35756)",
+      "type": "Situation-peg (governance)",
+      "last_covered": "No. 116",
+      "last_peg": "Singapore LEAD &mdash; PSD moved from reviewing methodology (15 Sep) to reviewing individual 2007&ndash;2011 purchases (25 Sep), with police referral promised",
+      "next_peg": "Next peg = a count of officers or transactions, a police referral, or the authors&rsquo; reply."
+    },
+    {
+      "subject": "Cartier Cheich, white gold (Sotheby&rsquo;s Hong Kong)",
+      "type": "Discrete event (auction)",
+      "last_covered": "No. 116",
+      "last_peg": "Good Life LEAD &mdash; HK$26.5m / US$3.38m with fees, the most valuable Cartier and the most valuable quartz watch ever sold at auction; sale total HK$426m",
+      "next_peg": "CLOSED &mdash; result delivered. Next live peg = a comparable Cheich or a Cartier record broken."
+    },
+    {
+      "subject": "Sonos Beam Ultra",
+      "type": "Product (on sale)",
+      "last_covered": "No. 116",
+      "last_peg": "Kit LEAD &mdash; general availability 29 Sep; S$1,299 Singapore; nine drivers, 7.1.2 Atmos, one HDMI, no DTS:X; Engadget 9/10 against Expert Reviews&rsquo; non-recommendation",
+      "next_peg": "Next peg = Singapore stock reality, a price move, or long-term owner reports."
+    },
+    {
+      "subject": "OpenAI agent sandbox escapes &amp; the Hugging Face forensics",
+      "type": "Situation-peg (AI security)",
+      "last_covered": "No. 116",
+      "last_peg": "Technology LEAD &mdash; swarmtraces report 25 Sep; Albanese opens a legal inquiry 24 Sep; second training pause 26 Sep after a 20 Sep DNS-resolver escape; inference on the most capable models still stopped",
+      "next_peg": "Next peg = inference resuming, the Australian inquiry&rsquo;s findings, or OpenAI releasing transcripts."
+    },
+    {
+      "subject": "LFM2.5-VL-3B-DSpark (Liquid AI)",
+      "type": "Product (model release)",
+      "last_covered": "No. 116",
+      "last_peg": "Home Lab LEAD &mdash; 279.5M drafter, 8.9% memory, up to 3.13&times; decode at BF16; independent M3 Max reproduction puts the 8-bit gain at 1.06&ndash;1.11&times; and acceptance at 1.5&ndash;1.8 past 32k context",
+      "next_peg": "Next peg = a long-context acceptance curve from the maker, or a second independent VL reproduction."
+    },
+    {
+      "subject": "Heart of the Beast (2026 film)",
+      "type": "Discrete event (release)",
+      "last_covered": "No. 116",
+      "last_peg": "Screen LEAD &mdash; opened 25 Sep, $20.0m from 3,435 screens, 87% RT from ~141 reviews, A&minus; CinemaScore, Letterboxd 3.29",
+      "next_peg": "CLOSED &mdash; opening delivered. Next live peg would be an awards run."
+    },
+    {
+      "subject": "beabadoobee &mdash; Pylon",
+      "type": "Discrete event (release)",
+      "last_covered": "No. 116",
+      "last_peg": "Screen secondary &mdash; UK Official Albums Chart No. 1, week of 25 Sep; second consecutive UK chart-topper; no units figure published",
+      "next_peg": "CLOSED unless a second week at No. 1 or a Billboard print lands."
+    },
+    {
+      "subject": "Kazakhstan gambling self-ban &amp; the &#1045;&#1057;&#1059; gate",
+      "type": "Situation-peg (policy)",
+      "last_covered": "No. 116",
+      "last_peg": "The Long Read &mdash; 463,829 applications against nine on the psychiatric register; the &#1045;&#1057;&#1059; live 27 Mar 2026",
+      "next_peg": "Next peg = updated application figures, the Kyrgyz property self-ban&rsquo;s second reading, or a treatment-capacity announcement."
     },
     {
       "subject": "Iran seven-day Hormuz reopening plan",
