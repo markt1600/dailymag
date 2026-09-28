@@ -865,9 +865,10 @@
       "venue": "Mukai",
       "key": "Mukai",
       "runs": [
-        110
+        110,
+        117
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 110 build",
       "note": "opening run — record the peg here"
     },
@@ -1080,6 +1081,106 @@
       "status": "OPEN",
       "checked": "No. 115 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Maison Yoshoku",
+      "key": "Maison Yoshoku",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Bomul Samgyetang",
+      "key": "Bomul Samgyetang",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Shared Table",
+      "key": "Shared Table",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "VE/LA",
+      "key": "VE/LA",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "The Singapore Martini Club",
+      "key": "The Singapore Martini Club",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Nyonya Next Door",
+      "key": "Nyonya Next Door",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "rei by Janice Wong",
+      "key": "rei by Janice Wong",
+      "runs": [
+        116
+      ],
+      "status": "OPEN",
+      "checked": "No. 116 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Nice Noodle",
+      "key": "Nice Noodle",
+      "runs": [
+        117
+      ],
+      "status": "OPEN",
+      "checked": "No. 117 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Lulu’s Lounge",
+      "key": "Lulu’s Lounge",
+      "runs": [
+        117
+      ],
+      "status": "OPEN",
+      "checked": "No. 117 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Joylion Buffet Hotpot",
+      "key": "Joylion Buffet Hotpot",
+      "runs": [
+        117
+      ],
+      "status": "OPEN",
+      "checked": "No. 117 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1124,6 +1225,7 @@
     "Sam Sam Sam",
     "Bouillon Gavroche",
     "Sukiyaki Jin (Les Amis Group)",
-    "Jellyfish"
+    "Jellyfish",
+    "Mukai"
   ]
 }

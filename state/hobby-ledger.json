@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Orienteering &amp; adventure racing",
+      "issue": "117",
+      "angle": "<b>The map is the opponent, and the flagship shoe is a consumable.</b> Rules: map plus ordered control points through unseen terrain; compass legal, GPS not; punch at each control, download at the finish, one wrong order = disqualified, no appeal. CRAFT VOCABULARY: attackpoint, aim off, catching fea"
+    },
+    {
       "hobby": "Letterpress printing",
       "issue": "116",
       "angle": "<b>Everything in the shop is shimmed to 0.918 of an inch, and the only real argument is how hard you push.</b> Three architectures: handpress, platen jobber (C&amp;P, Golding, Heidelberg Windmill), cylinder proof press (Vandercook) &mdash; pressure as a line, not a plane. THE MARKET INVERSION: a 191"
@@ -274,22 +279,34 @@
   "queued": [],
   "pipeline": [
     {
+      "hobby": "Freediving &amp; spearfishing",
+      "category": "Outdoor / water",
+      "communities": "r/freediving, DeeperBlue, AIDA and Molchanovs course forums",
+      "fit": "A breath-hold discipline with a real Southeast Asian season and a hard safety literature"
+    },
+    {
+      "hobby": "Stained glass &amp; leaded panels",
+      "category": "Craft / glass",
+      "communities": "r/stainedglass, Glass Art Society, copper-foil vs lead-came camps",
+      "fit": "Distinct from the No. 100 glassblowing desk &mdash; a flat, cold craft with a separate toolset and community"
+    },
+    {
+      "hobby": "Amateur radio (licensed operating &amp; POTA)",
+      "category": "Tech / radio",
+      "communities": "QRZ, r/amateurradio, ARRL and Parks on the Air activators",
+      "fit": "Distinct from the No. 84 shortwave-listening desk: transmitting, licensing and antenna building"
+    },
+    {
+      "hobby": "Rockhounding &amp; fossil hunting",
+      "category": "Outdoor / earth",
+      "communities": "r/rockhounds, The Fossil Forum, local mineral-club field trips",
+      "fit": "Distinct from the No. 113 lapidary desk &mdash; field collecting and site law rather than the saw and the polisher"
+    },
+    {
       "hobby": "Scale model building (armour &amp; aircraft)",
       "category": "Craft / model",
       "communities": "Britmodeller, Large Scale Planes, the Tamiya and Eduard scene",
       "fit": "A patient bench craft with an airbrush-and-paint ladder and a weathering culture; distinct from model railways, which is an operations hobby"
-    },
-    {
-      "hobby": "Orienteering &amp; adventure racing",
-      "category": "Outdoor / sport",
-      "communities": "Attackpoint, World of O, national federation calendars",
-      "fit": "A map-and-compass endurance sport with a real Singapore club scene and a gear list that stops at shoes and a thumb compass"
-    },
-    {
-      "hobby": "Letterpress printing",
-      "category": "Craft / print",
-      "communities": "Vandercook proof presses, polymer vs lead type, the Briar Press classifieds",
-      "fit": "Briar Press, Ladies of Letterpress, r/Letterpress"
     },
     {
       "hobby": "Home cheesemaking",
@@ -332,18 +349,6 @@
       "category": "Craft / wood",
       "communities": "r/woodworking, Marquetry Society, Patrick Edwards&rsquo; school",
       "fit": "A patient two-dimensional craft with a knife-and-sandbag toolkit, a donkey saw bench, and an antique-restoration economy behind it"
-    },
-    {
-      "hobby": "Sim racing &amp; direct-drive wheels",
-      "category": "Tech / sport",
-      "communities": "r/simracing, iRacing forums, Fanatec/Simucube/Moza scenes",
-      "fit": "A rig that starts at a wheel and ends at a motion platform, with a force-feedback arms race and a real e-sports ladder"
-    },
-    {
-      "hobby": "Fountain-pen repair &amp; vintage restoration",
-      "category": "Craft / paper",
-      "communities": "The Fountain Pen Network, r/fountainpens, Pentrace",
-      "fit": "Sac replacement, nib straightening and the vintage market &mdash; adjacent to but distinct from the Atelier&rsquo;s pen desk"
     }
   ],
   "retired": [

@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Dress shirts (cloth, collar &amp; seam)",
+      "issue": "117",
+      "angle": "<b>Five Italian mill names at one address in Guanzate, and the Swiss one is only a name.</b> YARN COUNT MISREAD: 120s is yarn fineness, not threads per inch; above ~100 it implies two-ply. A &ldquo;200s&rdquo; single-ply is thinner and weaker than a 120/2. Carl Goldberg (NY shirtmaker, decades) buys"
+    },
+    {
       "category": "Office chairs &amp; task seating",
       "issue": "116",
       "angle": "<b>The four-second test: tip the chair and read the stamp on the gas cylinder.</b> A certified Class 3/4 cylinder carries a visible T&Uuml;V/LGA/SGS/BIFMA mark; unmarked cylinders are the common factor in documented failures. HIERARCHY: die-cast aluminium vs glass-filled nylon base/chassis; woven el"
@@ -219,10 +224,34 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Umbrellas for the tropics (the storm frame)",
+      "category": "Hand tools &amp; screwdrivers",
+      "rotation": "Tools",
+      "fit": "Hardened tips and the grinding nobody advertises &mdash; a Next-on-the-Bench chip in No. 117",
+      "sources": "Wera vs PB Swiss vs Wiha; who actually grinds them, and the white-label OEM behind the budget sets"
+    },
+    {
+      "category": "Mattresses &amp; slat bases",
+      "rotation": "Home",
+      "fit": "Latex vs pocket springs, and what tropical humidity does to both &mdash; a Next-on-the-Bench chip in No. 117",
+      "sources": "Dunlop vs Talalay latex, ILD ratings, r/Mattress, the Singapore humidity and mould complaint threads"
+    },
+    {
+      "category": "Water bottles &amp; vacuum flasks",
       "rotation": "Carry",
-      "fit": "Distinct from the No. 80 umbrella desk: the engineering of a frame that survives a squall, not the wood-handled classic",
-      "sources": "Fibreglass vs steel ribs, the vented double canopy; Senz, Blunt, Fox Umbrellas"
+      "fit": "The one object a tropical commuter carries daily; vacuum retention claims are testable",
+      "sources": "Zojirushi, Thermos, Stanley, Klean Kanteen; 18/8 vs 18/10, the weld and the gasket"
+    },
+    {
+      "category": "Shoe care (creams, brushes &amp; trees)",
+      "rotation": "Grooming",
+      "fit": "Distinct from the No. 97 welted-shoe desk &mdash; the maintenance stack that actually decides a shoe&rsquo;s life",
+      "sources": "Saphir M&eacute;daille d&rsquo;Or vs Renovateur, horsehair vs goat, beech vs cedar trees; StyleForum care threads"
+    },
+    {
+      "category": "Electric fans &amp; air circulators",
+      "rotation": "Home",
+      "fit": "The appliance a Singapore household runs most hours of the year, and the one where the badge tax is largest",
+      "sources": "Vortex vs bladeless, DC vs AC motors, dB at distance; Balmuda, Vornado, Stadler Form, and the OEM behind them"
     },
     {
       "category": "Reading lamps &amp; bedside light",
@@ -231,40 +260,16 @@
       "sources": "Melanopic lux, flicker at low dim levels, and the makers who publish a dimming spec at all"
     },
     {
-      "category": "Barware glassware (coupes, rocks &amp; highballs)",
-      "rotation": "Home / table",
-      "fit": "Distinct from the No. 110 TOOLS desk: the vessel, not the shaker &mdash; Usuhari&rsquo;s sub-millimetre wall, Kimura, Rona, Zalto",
-      "sources": "Shotoku Glass, Kimura Glass, Zalto, Riedel; r/cocktails, Difford&rsquo;s"
-    },
-    {
-      "category": "Cast-iron cookware care &amp; restoration",
-      "rotation": "Home / kitchen",
-      "fit": "The seasoning-and-restore craft; r/castiron, vintage Griswold/Wagner hunting",
-      "sources": "Distinct from the No. 88 cookware desk — the buy-forever pan you rescue and season, not the one you buy new"
-    },
-    {
       "category": "Enamelware &amp; camp mugs",
       "rotation": "Home / kitchen",
       "fit": "Vitreous enamel over steel, chip-resistance, Falcon/Riess/Crow Canyon; r/BuyItForLife",
       "sources": "A humble buy-forever object; the enamel process and the makers who still do it right"
     },
     {
-      "category": "Shaving brushes &amp; badger alternatives",
-      "rotation": "Grooming",
-      "fit": "Knot density and backbone, synthetic vs badger grades, the workshops that still tie by hand; Simpson, Semogue, Paladin, Yaqi",
-      "sources": "A daily grooming object where the synthetic tier genuinely caught the naturals, and the grail tier has a waiting list"
-    },
-    {
       "category": "Hand-knit &amp; boot socks",
       "rotation": "Clothing",
       "fit": "Gauge, nylon-reinforced heels and the darning question; Darn Tough&rsquo;s lifetime guarantee against the cottage knitters; r/BuyItForLife, Ravelry",
       "sources": "A daily-wear item where the buy-once claim is testable against a published warranty"
-    },
-    {
-      "category": "Camera bags &amp; straps",
-      "rotation": "Carry",
-      "fit": "Who actually sews them &mdash; Billingham, Ona, Wotancraft, Hard Graft; waxed canvas against ballistic nylon; the insert economy",
-      "sources": "The reader shoots and travels; this is the one carry category where the grail tier is genuinely small-workshop"
     },
     {
       "category": "Cast-iron kettles &amp; tetsubin",
@@ -277,12 +282,6 @@
       "rotation": "Clothing",
       "fit": "Oxford cloth weight, collar construction, single-needle seams; Kamakura, Proper Cloth, Luxire, Ascot Chang in Hong Kong",
       "sources": "A daily-worn cloth where fit is made, not bought, and the Asian bespoke shirtmakers are the under-the-radar tier"
-    },
-    {
-      "category": "Chopping knives for the tropics: rust and steel choice",
-      "rotation": "Kitchen",
-      "fit": "Why a carbon-steel gyuto behaves differently at 80% humidity; stainless cladding, patina management, the makers who publish HRC",
-      "sources": "A climate-specific question the category&rsquo;s literature almost never addresses"
     },
     {
       "category": "Espresso machines (the boiler, not the badge)",

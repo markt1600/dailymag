@@ -120,7 +120,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Dumpling Darlings | Dumpling Darlings | 24 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Satori | Satori | 24 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Geumdwaeji Sikdang | Geumdwaeji | 23 | OPEN | 21 Sep 2026 (archive scan) |  |
-| Mukai | Mukai | 110 | OPEN | No. 110 build | opening run — record the peg here |
+| Mukai | Mukai | 110, 117 | SPENT | No. 110 build | opening run — record the peg here |
 | Bari Bari Grand | Bari Bari Grand | 110 | OPEN | No. 110 build | opening run — record the peg here |
 | Les Canons | Les Canons | 110 | OPEN | No. 110 build | opening run — record the peg here |
 | Yamamoto’s Hamburg | Yamamoto’s Hamburg | 111 | OPEN | No. 111 build | opening run — record the peg here |
@@ -149,3 +149,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Nice Noodle | Nice Noodle | 117 | OPEN | No. 117 build | opening run — record the peg here |
+| Lulu’s Lounge | Lulu’s Lounge | 117 | OPEN | No. 117 build | opening run — record the peg here |
+| Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
