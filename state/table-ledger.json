@@ -876,9 +876,10 @@
       "venue": "Bari Bari Grand",
       "key": "Bari Bari Grand",
       "runs": [
-        110
+        110,
+        118
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 110 build",
       "note": "opening run — record the peg here"
     },
@@ -1181,6 +1182,16 @@
       "status": "OPEN",
       "checked": "No. 117 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Tanica",
+      "key": "Tanica",
+      "runs": [
+        118
+      ],
+      "status": "OPEN",
+      "checked": "No. 118 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1226,6 +1237,7 @@
     "Bouillon Gavroche",
     "Sukiyaki Jin (Les Amis Group)",
     "Jellyfish",
-    "Mukai"
+    "Mukai",
+    "Bari Bari Grand"
   ]
 }

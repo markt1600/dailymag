@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Slot car racing",
+      "issue": "118",
+      "angle": "<b>The hobby&rsquo;s central schism is a part number: RCW for wood, RCP for plastic.</b> MECHANISM: guide flag + two tinned-copper braids wiping metal rails, 12&ndash;20V; the controller is the sport (a rheostat converts unused power to heat and must be ohm-matched to the motor, else &ldquo;the car "
+    },
+    {
       "hobby": "Orienteering &amp; adventure racing",
       "issue": "117",
       "angle": "<b>The map is the opponent, and the flagship shoe is a consumable.</b> Rules: map plus ordered control points through unseen terrain; compass legal, GPS not; punch at each control, download at the finish, one wrong order = disqualified, no appeal. CRAFT VOCABULARY: attackpoint, aim off, catching fea"
@@ -279,6 +284,18 @@
   "queued": [],
   "pipeline": [
     {
+      "hobby": "Kite flying &amp; kite building",
+      "category": "Outdoor / craft",
+      "communities": "r/kites, Kitelife, the AKA and the Asian festival circuit",
+      "fit": "Single-line to quad-line, ripstop and carbon spars, and a Southeast Asian season"
+    },
+    {
+      "hobby": "Shortwave listening&rsquo;s successor: SDR &amp; signal hunting",
+      "category": "Tech / radio",
+      "communities": "r/RTLSDR, SDRplay and Airspy communities, the Signal Identification Wiki",
+      "fit": "Distinct from the No. 84 shortwave desk &mdash; software-defined receivers, waterfall displays and decoding"
+    },
+    {
       "hobby": "Freediving &amp; spearfishing",
       "category": "Outdoor / water",
       "communities": "r/freediving, DeeperBlue, AIDA and Molchanovs course forums",
@@ -319,12 +336,6 @@
       "category": "Craft / maker",
       "communities": "r/Leathercraft, r/leatherworking, Nigel Armitage/JH Leather",
       "fit": "Hand saddle-stitch, Barry King tools, veg-tan; a buy-once-tools craft that overlaps the Atelier"
-    },
-    {
-      "hobby": "Slot car racing",
-      "category": "Tech / maker",
-      "communities": "r/slotcars, SlotForum, Scalextric/Carrera/NSR scene",
-      "fit": "A garage-scale motorsport with home tracks, tuning and a collector economy"
     },
     {
       "hobby": "Origami &amp; paper craft",

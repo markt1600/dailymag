@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Hand tools &amp; screwdrivers",
+      "issue": "118",
+      "angle": "<b>The flag on the handle says Wuppertal; the line on the box says Czechia.</b> THE MECHANISM: a blade is a torsion spring that must not take a permanent set, a tip is a wear part that must not chip &mdash; so hardness is the wrong target; everyone converges near <b>58&ndash;62 HRC</b> and almost no"
+    },
+    {
       "category": "Dress shirts (cloth, collar &amp; seam)",
       "issue": "117",
       "angle": "<b>Five Italian mill names at one address in Guanzate, and the Swiss one is only a name.</b> YARN COUNT MISREAD: 120s is yarn fineness, not threads per inch; above ~100 it implies two-ply. A &ldquo;200s&rdquo; single-ply is thinner and weaker than a 120/2. Carl Goldberg (NY shirtmaker, decades) buys"
@@ -224,10 +229,16 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Hand tools &amp; screwdrivers",
-      "rotation": "Tools",
-      "fit": "Hardened tips and the grinding nobody advertises &mdash; a Next-on-the-Bench chip in No. 117",
-      "sources": "Wera vs PB Swiss vs Wiha; who actually grinds them, and the white-label OEM behind the budget sets"
+      "category": "EDC torches &amp; headlamps",
+      "rotation": "Carry",
+      "fit": "Emitter binning and driver quality; the OEMs behind Western logos; humidity-proof seals for the tropics",
+      "sources": "Surefire, Zebralight, Malkoff, Emisar/Hank; 18650 import rules into Singapore"
+    },
+    {
+      "category": "Rice cookers &amp; donabe",
+      "rotation": "Kitchen",
+      "fit": "Induction against Japanese clay; the made-in-Japan against made-in-China split inside one brand line",
+      "sources": "Zojirushi and Tiger against Nagatani-en and Iga-yaki; an object every Singapore household already owns badly"
     },
     {
       "category": "Mattresses &amp; slat bases",

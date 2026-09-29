@@ -34,6 +34,19 @@ if [ "$(fc-list 2>/dev/null | grep -ciE 'lora|poppins')" -lt 4 ]; then
   fc-cache -f >/dev/null 2>&1 || true
 fi
 
+# Script fonts for local-language terms the desks print in the original
+# (Khmer, Thai, CJK, Cyrillic, Devanagari). No. 118 shipped a tofu box where a
+# Khmer word belonged because only the Latin/CJK faces were installed; the
+# render silently substitutes rather than failing, so it has to be checked on
+# the contact sheets AND the font has to be here.
+if [ "$(fc-list :lang=km 2>/dev/null | grep -ci khmer)" -lt 1 ]; then
+  log "fetching Noto Sans Khmer…"
+  d=/usr/share/fonts/truetype/notokhmer; mkdir -p "$d" 2>/dev/null || d="$HOME/.fonts/notokhmer"; mkdir -p "$d"
+  curl -sfL "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@main/fonts/NotoSansKhmer/hinted/ttf/NotoSansKhmer-Regular.ttf" \
+       -o "$d/NotoSansKhmer-Regular.ttf" 2>/dev/null || true
+  fc-cache -f >/dev/null 2>&1 || true
+fi
+
 # Chromium: prefer the pre-installed sandbox browser; export for render.py/qa.py
 if [ -x /opt/pw-browsers/chromium ]; then export PW_CHROMIUM=/opt/pw-browsers/chromium; fi
 
