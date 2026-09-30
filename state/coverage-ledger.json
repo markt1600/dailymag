@@ -1,5 +1,5 @@
 {
-  "count": 848,
+  "count": 858,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1260,6 +1260,76 @@
       "last_covered": "No. 118",
       "last_peg": "The World p4 &mdash; parliament lifted two ex-ministers&rsquo; immunity 139&ndash;0 on 28 Sep, both detained 29 Sep (Szeszt&aacute;k ~&euro;30m bus-tender bribes; Hank&oacute; ~&euro;45m cultural-fund); no charges filed; no confirmed prosecutor general since July; Magyar&rsquo;s own immunity lifted in the same session",
       "next_peg": "Next peg = actual charges, a prosecutor general confirmed, or the investigation reaching Orb&aacute;n himself. Detentions alone do not re-run."
+    },
+    {
+      "subject": "Russian Kaliningrad non-paper to NATO",
+      "type": "Discrete event (diplomatic)",
+      "last_covered": "No. 119",
+      "last_peg": "World LEAD &mdash; unsigned non-paper delivered 30 Sep threatening nuclear use against &ldquo;isolating&rdquo; Kaliningrad, plus a decision-centres clause; Rutte &ldquo;I don&rsquo;t take this seriously&rdquo;; Lithuania &ldquo;completely baseless&rdquo;; Beijing ran nothing",
+      "next_peg": "Single-sourced to one agency, which holds the document. Next peg = publication of the text, a Russian denial, or evidence of near-identical earlier language"
+    },
+    {
+      "subject": "Netanyahu&ndash;UAE Abu Dhabi meeting, 27 Sep 2026",
+      "type": "Discrete event (diplomacy)",
+      "last_covered": "No. 119",
+      "last_peg": "World p4 &mdash; first UAE public acknowledgement of a meeting with an Israeli PM since the Abraham Accords; reportedly to request a denial of a Haaretz report; Saudi and Jordanian denials followed",
+      "next_peg": "CLOSED as an event. Next peg = a Saudi normalisation step or an on-record UAE statement on the pre-7 October warning"
+    },
+    {
+      "subject": "Singapore Q4 2026 electricity tariff (SP Group)",
+      "type": "Discrete event (utility)",
+      "last_covered": "No. 119",
+      "last_peg": "Singapore LEAD &mdash; &minus;10.4% household from 1 Oct, 28.59c before GST / 31.16 with; published 29 Sep under a slug naming &ldquo;1 July to 30 September 2027&rdquo;. CORRECTS No. 118&rsquo;s &ldquo;unpublished and late&rdquo;; the 31.91 series is confirmed correct",
+      "next_peg": "CLOSED. Next peg = the Q1 2027 revision, or a corrected URL"
+    },
+    {
+      "subject": "Micron FY2026 Q4 results",
+      "type": "Discrete event (earnings)",
+      "last_covered": "No. 119",
+      "last_peg": "Technology LEAD &mdash; Q4 revenue US$54.229bn (vs $11.315bn y/y), GM 86.8%, OCF 81% of revenue; FY revenue $133.19bn, DRAM $100.7bn +252%; 26 SCAs carrying $32bn commitments into 2031; Singapore HBM packaging ahead of plan, output early CY2027",
+      "next_peg": "CLOSED at this print. Next peg = FQ1 results, or a quarter in which DRAM ASPs stall while bit shipments accelerate"
+    },
+    {
+      "subject": "llama.cpp PR 29620 (CPU-offloaded MTP drafter)",
+      "type": "Discrete event (open source)",
+      "last_covered": "No. 119",
+      "last_peg": "Home Lab LEAD &mdash; +91% generation on a 12GB card, 638MiB less VRAM; opened and vetoed unmerged inside 15 hours by the CUDA maintainer; a 3-card tester saw acceptance collapse to 22.1%",
+      "next_peg": "CLOSED as an incident. Next peg = a redesigned backend-agnostic version, or a multi-GPU reproduction"
+    },
+    {
+      "subject": "GMKtec EVO-X5 Pro / Minisforum MS-S1 MAX-P495",
+      "type": "Product (AI workstation)",
+      "last_covered": "No. 119",
+      "last_peg": "The Kit LEAD &mdash; Ryzen AI Max+ PRO 495, 192GB unified / up to 160GB VRAM, US$6,599 and US$7,399; no SG price, plug or shipping; no independent measurement of either machine exists",
+      "next_peg": "Next peg = a neutral llama.cpp or vLLM run on the 495, or a Singapore price"
+    },
+    {
+      "subject": "Louis Vuitton Monterey Ceramic",
+      "type": "Product (watch)",
+      "last_covered": "No. 119",
+      "last_peg": "Good Life LEAD &mdash; refs W0CR11/W0CR21, 37&times;11mm, LFT MA01.02 (45h, developed for the Spin Time), lacquer not enamel, not limited. The &euro;19,000/&euro;23,000 conflict from No. 118 RESOLVES as ex-tax vs 21% Dutch VAT",
+      "next_peg": "CLOSED on price. Next peg = a Singapore retail price, or an official euro figure that is neither"
+    },
+    {
+      "subject": "Frontiers in Psychiatry online self-disclosure study",
+      "type": "Research (adolescent mental health)",
+      "last_covered": "No. 119",
+      "last_peg": "Family LEAD &mdash; n=1,364 (1,160 complete), ages 11&ndash;19, mean 14.99; social-media TIME non-significant, private self-disclosure OR 1.29; disclosure scale 3 items, unvalidated, &alpha;=.57; single-item suicidality; cross-sectional",
+      "next_peg": "CLOSED as a finding. Next peg = an age-stratified replication in 11&ndash;13s with a validated instrument"
+    },
+    {
+      "subject": "EJPC non-occupational activity dose&ndash;response meta-analysis",
+      "type": "Research (exercise science)",
+      "last_covered": "No. 119",
+      "last_peg": "Fitness LEAD &mdash; 17 cohorts, 176,862 participants, 31,783 deaths; ~38% lower mortality at ~150 min/week; plateau near 30 mMET-h/week; only 8 of 17 studies reached the highest thresholds; all participants had CHD",
+      "next_peg": "CLOSED as a finding. Next peg = the same curve in a primary-prevention cohort of healthy 40&ndash;55s"
+    },
+    {
+      "subject": "Pakistan Prosumer Regulations 2026 / battery exit",
+      "type": "Developing situation (energy policy)",
+      "last_covered": "No. 119",
+      "last_peg": "Long Read &mdash; net metering ended 9 Feb 2026; export price cut to ~PKR 11 against PKR 40&ndash;60 imports; BESS imports 4.6 GWh in 2025 (+220%); grid sales 125&rarr;111 TWh; proposed PKR 18&ndash;22/kWh evening discharge rate",
+      "next_peg": "Advance on deltas only: the National Battery Framework, a notified ToU regime, or NEPRA&rsquo;s State of Industry Report 2026"
     },
     {
       "subject": "Singapore fare review exercise 2026",

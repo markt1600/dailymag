@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "EDC torches &amp; headlamps",
+      "issue": "119",
+      "angle": "<b>The four-thousand-lumen claim is a thirty-second claim.</b> FL1 defines output at <b>30 seconds</b>, so a 58g light honestly prints 4,200lm it cannot thermally hold; <b>candela</b> is the number that says whether the beam reaches, and it is the one hidden. HIERARCHY: binning (the emitter name is "
+    },
+    {
       "category": "Hand tools &amp; screwdrivers",
       "issue": "118",
       "angle": "<b>The flag on the handle says Wuppertal; the line on the box says Czechia.</b> THE MECHANISM: a blade is a torsion spring that must not take a permanent set, a tip is a wear part that must not chip &mdash; so hardness is the wrong target; everyone converges near <b>58&ndash;62 HRC</b> and almost no"
@@ -229,7 +234,7 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "EDC torches &amp; headlamps",
+      "category": "~~EDC torches &amp; headlamps~~ (COVERED, No. 119)",
       "rotation": "Carry",
       "fit": "Emitter binning and driver quality; the OEMs behind Western logos; humidity-proof seals for the tropics",
       "sources": "Surefire, Zebralight, Malkoff, Emisar/Hank; 18650 import rules into Singapore"
