@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Water bottles &amp; vacuum flasks",
+      "issue": "120",
+      "angle": "<b>&ldquo;Cold up to 145 hours&rdquo; is not a weak specification; it is not a specification.</b> MECHANISM: the two-wall body is evacuated in a furnace and sealed &mdash; <b>the vacuum cannot be re-pumped by anyone</b>, so &ldquo;lifetime warranty&rdquo; is the wrong question and <i>is the vacuum i"
+    },
+    {
       "category": "EDC torches &amp; headlamps",
       "issue": "119",
       "angle": "<b>The four-thousand-lumen claim is a thirty-second claim.</b> FL1 defines output at <b>30 seconds</b>, so a 58g light honestly prints 4,200lm it cannot thermally hold; <b>candela</b> is the number that says whether the beam reaches, and it is the one hidden. HIERARCHY: binning (the emitter name is "
@@ -252,7 +257,7 @@
       "sources": "Dunlop vs Talalay latex, ILD ratings, r/Mattress, the Singapore humidity and mould complaint threads"
     },
     {
-      "category": "Water bottles &amp; vacuum flasks",
+      "category": "~~Water bottles &amp; vacuum flasks~~ (COVERED, No. 120)",
       "rotation": "Carry",
       "fit": "The one object a tropical commuter carries daily; vacuum retention claims are testable",
       "sources": "Zojirushi, Thermos, Stanley, Klean Kanteen; 18/8 vs 18/10, the weld and the gasket"

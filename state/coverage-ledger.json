@@ -1,5 +1,5 @@
 {
-  "count": 858,
+  "count": 870,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,90 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Gemini 4 Argon (Google DeepMind)",
+      "type": "Discrete event (AI model)",
+      "last_covered": "No. 120",
+      "last_peg": "Technology LEAD &mdash; released 30 Sep to the Fairwind Program (650+ governments, national cyber authorities and critical-infrastructure operators) on export-licence terms BEFORE paying API customers; 1,000,000-token output ceiling (from 64k); US$2/$10 per million introductory, standing rate $4/$20; 85.8% on real-world vulnerability discovery, 70.9% on Wiz pen-tests; no model card, no public API ",
+      "next_peg": "Next peg = general API availability with a public model id (which would reframe the gating as a marketing window), a model card, or an independent reproduction of the cyber scores. A benchmark refresh alone is not a peg."
+    },
+    {
+      "subject": "llama.cpp PR 29599 (madvise expert-tensor prefetch)",
+      "type": "Discrete event (open source)",
+      "last_covered": "No. 120",
+      "last_peg": "The Home Lab LEAD &mdash; merged 30 Sep; author&rsquo;s Strix Halo pp512 177.19&rarr;382.93 t/s, tg128 20.02&rarr;21.35; independently reproduced on four further machines (+63&ndash;89% prefill, +1.3&ndash;11.7% generation). Shipped opt-in during lazy-mode only after a 32-comment argument and ~6% Vulkan regressions",
+      "next_peg": "CLOSED as a merge. Next peg = the deferred iGPU reversal, or a generation-side follow-up."
+    },
+    {
+      "subject": "llama.cpp PR 29182 (Vulkan MoE tile selection)",
+      "type": "Discrete event (open source)",
+      "last_covered": "No. 120",
+      "last_peg": "The Home Lab &mdash; merged 29 Sep with a reproduced regression still open: +10% prefill on the author&rsquo;s Radeon iGPU and up to +14.6% on a 5070 Ti, against &minus;10.6% at 512 tokens on an RX 6900 XT measured independently",
+      "next_peg": "Next peg = a fix for the RDNA2 regression, or a revert."
+    },
+    {
+      "subject": "Technics EAH-A1000",
+      "type": "Discrete product (audio)",
+      "last_covered": "No. 120",
+      "last_peg": "The Kit LEAD &mdash; announced 29 Sep; 40mm magnetic-fluid driver, carbon-fibre diaphragm, 8 mics, LDAC, lossless USB; US$449.99 / &pound;399 / &euro;449; maker&rsquo;s own store says PRE-ORDER, black shipping on or before 15 Oct, greige 30 Oct. Claimed 45h ANC-on / 90h off and 306g; ZERO independent measurements exist, no RTINGS page, and the one full review states it took none",
+      "next_peg": "Next peg = a measured review (battery, attenuation, frequency response, weight), or a Singapore price. Neither existed at press."
+    },
+    {
+      "subject": "Laowa Acris 35mm f/2.8 APO 1&times; AF Macro",
+      "type": "Discrete product (optics)",
+      "last_covered": "No. 120",
+      "last_peg": "The Kit &mdash; on sale 30 Sep, US$449, billed as the first full-frame AF 35mm with 1:1 macro &mdash; but autofocus operates only beyond 0.5m, i.e. not in the macro range. Venus Optics&rsquo; fifth AF lens ever; no independent optical testing",
+      "next_peg": "Next peg = MTF or CA measurements, or an AF-reliability verdict from a named reviewer."
+    },
+    {
+      "subject": "Breville Spiral Luxe Auto Pour-Over (BPO830V1)",
+      "type": "Discrete product (kitchen)",
+      "last_covered": "No. 120",
+      "last_peg": "The Kit &mdash; announced 30 Sep at US$599.95 with 40mm flat burrs, an articulating spiral-pour spout and PID control; OUT OF STOCK on the maker&rsquo;s own page within ~48 hours. No published wattage, tank capacity, weight or temperature range; no independent brew-stability or grind-distribution testing; Breville&rsquo;s locale selector does not list Singapore",
+      "next_peg": "Next peg = restock with independent brew-temperature data, or a Singapore channel."
+    },
+    {
+      "subject": "Porsche Design &times; Hodinkee Chronograph 1 Utility",
+      "type": "Discrete product (watch)",
+      "last_covered": "No. 120",
+      "last_peg": "The Good Life LEAD &mdash; launched 1 Oct; WERK 01.340, a modern re-engineering of the Lemania 5100 layout (central stop-minute hand), 30 jewels, 60h reserve, COSC &minus;4/+6; bead-blasted titanium, 100m; US$9,650, 350 pieces, 100 US-exclusive through the co-brand, which is also the retailer. Dimensions (40.8&times;15.41 vs 41&times;15.5) and frequency (&ldquo;28,000vph / 4Hz&rdquo;) contradict a",
+      "next_peg": "Next peg = the maker&rsquo;s own spec sheet resolving the dimensions and frequency, a Singapore price, or the third watch in the declared trilogy."
+    },
+    {
+      "subject": "YG Acoustics Vesper 3",
+      "type": "Discrete product (audio)",
+      "last_covered": "No. 120",
+      "last_peg": "The Good Life &mdash; ships October; three-way floorstander, 26mm hybrid tweeter, 18.5cm mid, 22cm bass, crossovers at 92Hz and 1.71kHz, 71kg each, 88dB / 4&Omega; average / 2.8&Omega; minimum. YG has published NO price in any currency; the only figure in existence is a US dealer&rsquo;s US$44,900 a pair",
+      "next_peg": "Next peg = a manufacturer price, or a measured review."
+    },
+    {
+      "subject": "Digger (2026 film)",
+      "type": "Discrete event (film)",
+      "last_covered": "No. 120",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; wide 2 Oct, I&ntilde;&aacute;rritu/Cruise, 129 min, 3,300 theatres, Warner Bros.&rsquo; last release as a standalone studio. RT 54% from 165 reviews on the morning of 2 Oct, having read 50% from 127 on 30 Sep; Metacritic 45 from 52 (14 positive, 25 mixed, 13 negative). WB modelling US$12&ndash;15m against Verity&rsquo;s projected US$35m-plus",
+      "next_peg": "Next peg = the actual opening weekend. The score itself is not a peg; it moved four points in three days."
+    },
+    {
+      "subject": "URA Q3 2026 private residential flash estimate",
+      "type": "Discrete event (data release)",
+      "last_covered": "No. 120",
+      "last_peg": "Singapore LEAD &mdash; published 08:00, 1 Oct: index +1.4% q/q (Q2 +0.5%); non-landed +0.9, landed +2.8, CCR &minus;0.1, RCR +0.2, OCR +2.2; transactions 6,148&rarr;4,296, about &minus;30%; compiled only to mid-September. HDB RPI flash &minus;0.2%, third straight fall",
+      "next_peg": "Next peg = the FULL Q3 statistics on 23 October, which revise the flash. This desk flagged the revision date in print."
+    },
+    {
+      "subject": "Soup Curry by Ki-Setsu",
+      "type": "Discrete venue (restaurant)",
+      "last_covered": "No. 120",
+      "last_peg": "The Table &mdash; Fortune Centre, Middle Road; Singapore&rsquo;s only Hokkaido soup-curry restaurant; official opening 8 Oct after a month-long soft launch rationing bowls; izakaya from 6pm; one substantial review, a rave; no prices published anywhere",
+      "next_peg": "Next peg = post-opening reviews, or a published price list. Table-ledger run 1 of 2."
+    },
+    {
+      "subject": "FlexRadio Aurora",
+      "type": "Discrete product (radio)",
+      "last_covered": "No. 120",
+      "last_peg": "The Rabbit Hole &mdash; announced at Hamvention May 2026; 500W HF from a single chassis containing its own tuner and PSU, on a transmitter module claimed at 80% efficiency; AU-510 US$6,199 to AU-520M US$9,599. No owner-feedback base yet exists",
+      "next_peg": "Next peg = measured owner reviews, or an independent efficiency verification."
     },
     {
       "subject": "Operation Inherent Resolve, end of mission",

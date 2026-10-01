@@ -80,7 +80,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Loulouca (Ann Siang) | Loulouca | 61, 69, 70, 86, 88 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Xava Skybar (National Gallery) | Xava | 61, 63, 65, 66, 73, 75, 81, 82, 85, 88 | SPENT | 21 Sep 2026 (archive scan) | No food verdict across ten mentions. |
 | Chin Mee Chin (Nex) | Chin Mee Chin | 87 | OPEN | 21 Sep 2026 (archive scan) |  |
-| IM QALB (Tampines Mall) | IM QALB | 85 | OPEN | 21 Sep 2026 (archive scan) |  |
+| IM QALB (Tampines Mall) | IM QALB | 85, 120 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Blue Box Café by Tiffany & Co. | Blue Box | 47, 49, 50, 51, 52, 55, 60, 62, 84 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Charcoal Grill Shinpachi | Shinpachi | 64, 68, 70, 72, 75, 76, 78, 80, 83 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Liora | Liora | 65, 66, 68, 72, 73, 75, 76, 79, 83 | SPENT | 21 Sep 2026 (archive scan) | No critical verdict across nine mentions. |
@@ -128,7 +128,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Decker Barbecue | Decker Barbecue | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Jeju Haenyeo | Jeju Haenyeo | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
-| Kimpson’s Table | Kimpson’s Table | 112 | OPEN | No. 112 build | opening run — record the peg here |
+| Kimpson’s Table | Kimpson’s Table | 112, 120 | SPENT | No. 112 build | opening run — record the peg here |
 | Kappo Suguru | Kappo Suguru | 112 | OPEN | No. 112 build | opening run — record the peg here |
 | Cloudmills | Cloudmills | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | GAMJA | GAMJA | 113 | OPEN | No. 113 build | opening run — record the peg here |
@@ -154,3 +154,4 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Lulu’s Lounge | Lulu’s Lounge | 117 | OPEN | No. 117 build | opening run — record the peg here |
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
 | Tanica | Tanica | 118 | OPEN | No. 118 build | opening run — record the peg here |
+| Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120 | OPEN | No. 120 build | opening run — record the peg here |

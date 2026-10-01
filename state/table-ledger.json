@@ -401,9 +401,10 @@
       "venue": "IM QALB (Tampines Mall)",
       "key": "IM QALB",
       "runs": [
-        85
+        85,
+        120
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "21 Sep 2026 (archive scan)",
       "note": ""
     },
@@ -948,9 +949,10 @@
       "venue": "Kimpson’s Table",
       "key": "Kimpson’s Table",
       "runs": [
-        112
+        112,
+        120
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 112 build",
       "note": "opening run — record the peg here"
     },
@@ -1203,6 +1205,16 @@
       "status": "OPEN",
       "checked": "No. 118 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Soup Curry by Ki-Setsu",
+      "key": "Soup Curry by Ki-Setsu",
+      "runs": [
+        120
+      ],
+      "status": "OPEN",
+      "checked": "No. 120 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1231,6 +1243,7 @@
     "Sushi Ryujiro",
     "Loulouca (Ann Siang)",
     "Xava Skybar (National Gallery)",
+    "IM QALB (Tampines Mall)",
     "Blue Box Café by Tiffany & Co.",
     "Charcoal Grill Shinpachi",
     "Liora",
@@ -1250,6 +1263,7 @@
     "Jellyfish",
     "Mukai",
     "Bari Bari Grand",
-    "Yamamoto’s Hamburg"
+    "Yamamoto’s Hamburg",
+    "Kimpson’s Table"
   ]
 }
