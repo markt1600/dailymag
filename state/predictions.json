@@ -476,7 +476,8 @@
    "desk": "Curiosities",
    "claim": "NASA's Nancy Grace Roman Space Telescope launches by 30 Sep 2026 (target 30 Aug)",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Roman launched 30 August on a Falcon Heavy from Kennedy, inside the window."
   },
   {
    "issue": 60,
@@ -507,7 +508,8 @@
    "desk": "The Long Read",
    "claim": "No dedicated NYT/BBC/Reuters/FT/Economist feature frames Iran's Hormuz leverage, US chip export controls and Hong Kong's harbour as one 'chokepoint' pattern by 30 Sep 2026",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "No Western major framed Hormuz, chip controls and Hong Kong's harbour as one chokepoint pattern."
   },
   {
    "issue": 61,
@@ -644,7 +646,8 @@
    "desk": "The Diary",
    "claim": "Kyushu Basho tickets go on sale 19 Sep and sell out weekends/final-three-days within hours",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Kyushu Basho general sale opened 19 September; the official site now shows every day sold out."
   },
   {
    "issue": 62,
@@ -904,7 +907,8 @@
    "desk": "The Long Read",
    "claim": "Korea's photo-booth sector keeps consolidating (rising revenue, rising closures)",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Korea's photo-booth sector kept growing and shaking out at once — closures hit 611 in 2024, 3.5× 2020."
   },
   {
    "issue": 66,
@@ -1287,7 +1291,8 @@
    "desk": "Macro",
    "claim": "Regime call: higher-for-longer, dollar-bid, no cut; gold's bid is haven/real-yield driven (rises despite firm dollar), BTC range-bound $62-66k on absent liquidity",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Bitcoin was nowhere near $62–66k — it opened September at $78,154 and traded $80.8k–$87.3k."
   },
   {
    "issue": 71,
@@ -1362,7 +1367,8 @@
    "desk": "The Kit",
    "claim": "DJI Osmo 360 II gets a confirmed global/SG price and date",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "DJI confirmed the Osmo 360 II on 3 September at €589/£509 for 15 September — but named no Singapore price."
   },
   {
    "issue": 72,
@@ -1378,14 +1384,16 @@
    "desk": "Screen & Sound",
    "claim": "Summer 2026 finishes as the biggest domestic box office on record (>US$4bn)",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Summer 2026 closed at $4,765,071,855 domestic, a record by $9.3m."
   },
   {
    "issue": 72,
    "desk": "The Diary",
    "claim": "Assaggi's early warm reception holds once settled crowd reviews land",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Assaggi's warm reception held through settled reviews into mid-September."
   },
   {
    "issue": 72,
@@ -1449,7 +1457,8 @@
    "desk": "The Kit",
    "claim": "DJI Osmo 360 II gets a confirmed global/SG price and date",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Same confirmation — a global price and date, still no Singapore price."
   },
   {
    "issue": 73,
@@ -1537,7 +1546,8 @@
    "desk": "The Diary",
    "claim": "Foura (Gardens by the Bay) holds its warm early reception with no major critical dissent by mid-September",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Foura's coverage stayed warm through mid-September with no critical dissent published."
   },
   {
    "issue": 74,
@@ -1560,35 +1570,40 @@
    "desk": "Macro",
    "claim": "The US 30-year yield's move to 5.31% is a term-premium/fiscal shock, not a growth story — so a dovish Fed alone does not pull the long end back below 5.00%",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 30-year never went back below 5.00% — it bottomed at 5.24% and finished September at 5.64%."
   },
   {
    "issue": 75,
    "desk": "Macro",
    "claim": "Gold holds above US$4,200 through end-September on central-bank buying and haven demand despite high real yields",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Gold broke $4,200 — it fell to $4,143.10 on 28 September."
   },
   {
    "issue": 75,
    "desk": "Macro",
    "claim": "Bitcoin remains decoupled from gold — trading as a liquidity/risk asset — and does not reclaim US$75k before Jackson Hole's aftermath settles (mid-Sep)",
    "check_by": "2026-09-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Bitcoin had already reclaimed $75k before the window closed, opening September at $78,154."
   },
   {
    "issue": 75,
    "desk": "Singapore",
    "claim": "Singapore's narrow export boom persists: NODX stays above +15% y/y in the August print while non-electronic NODX remains negative",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "NODX printed +46.2%, but non-electronic NODX flipped positive at +12.0%. The boom stopped being narrow."
   },
   {
    "issue": 75,
    "desk": "World",
    "claim": "Hichilema is confirmed the winner of Zambia's 2026 election on the final ECZ tally, and the opposition's seizure allegations do not overturn the result",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "The ECZ declared Hichilema the winner on 18 August with 61.28%; no petition was lodged."
   },
   {
    "issue": 75,
@@ -1639,7 +1654,8 @@
    "desk": "The Diary",
    "claim": "Tian Tian's Jewel flagship draws first settled reviews noting the price gap vs its hawker branches",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Settled reviews led on the price gap — an $11 chicken set at Jewel against $5–6 at the hawker stall."
   },
   {
    "issue": 75,
@@ -1685,7 +1701,8 @@
    "desk": "The World",
    "claim": "Gaza: the two working groups do NOT produce an Israeli withdrawal within Kushner's floated ~30 days; sequencing (disarm-first vs withdraw-first) stays frozen",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "No Israeli withdrawal followed; sequencing stayed frozen through late September."
   },
   {
    "issue": 76,
@@ -1713,7 +1730,8 @@
    "desk": "The Diary",
    "claim": "The Table 'too new to call' set — Assaggi / Charcoal Grill Shinpachi / Tian Tian Jewel flagship — earns settled first verdicts by mid-Sep",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Charcoal Grill Shinpachi drew only opening notices — no settled review landed."
   },
   {
    "issue": 76,
@@ -1727,7 +1745,8 @@
    "desk": "The Macro Desk",
    "claim": "Treasury's doubled long-dated buybacks (to >=$4bn) cap the 30Y; if the long end reprices anyway the reversal is sharper — regime = quasi-YCC/fiscal-dominance",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The buybacks capped nothing: the 30-year rose from 5.27% to 5.64% across September."
   },
   {
    "issue": 77,
@@ -1776,14 +1795,16 @@
    "desk": "The Diary",
    "claim": "The Table: Sushi Ryujiro, Niku Niku Oh!! Kome, POP BAKERY — all 'too new to call' on food, first verdicts pending",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Niku Niku Oh!! Kome was not too new to call — it had carried full verdicts since August 2025."
   },
   {
    "issue": 77,
    "desk": "The Diary",
    "claim": "SG concert dates aggregator-sourced (Kit Chan 19 Sep, Post Malone 25 Sep, MCR 4 Nov) — verify against box office",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The aggregator list was stale: the Post Malone date had been postponed with refunds since 27 August."
   },
   {
    "issue": 78,
@@ -1977,7 +1998,8 @@
    "desk": "The Macro Desk",
    "claim": "Regime call: fiscal-dominance/debasement — long yields stay elevated (30Y near/above 5.3%), dollar soft, gold & bitcoin bid persist; Fed leans hike-not-cut absent a soft CPI",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The hike and the 5.64% long end landed; “dollar soft, gold bid” did not — the dollar firmed and gold fell 7%."
   },
   {
    "issue": 80,
@@ -2179,7 +2201,8 @@
    "desk": "The Macro Desk",
    "claim": "The market's ~1-in-3 September rate-HIKE pricing does not resolve into an actual hike at the September FOMC (base case: hold).",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The one-in-three became the outcome: the FOMC voted 12–0 on 16 September to raise to 3.75–4.00%."
   },
   {
    "issue": 84,
@@ -2209,7 +2232,8 @@
    "desk": "Screen & Sound",
    "claim": "It Ends holds a Rotten Tomatoes critics' score of 90%+ once a full aggregate populates (currently trade-attributed ~95%).",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "It Ends settled at 93% on 131 reviews — above 90%, below the trade-attributed 95%."
   },
   {
    "issue": 84,
@@ -2223,7 +2247,8 @@
    "desk": "The World",
    "claim": "The Strait of Hormuz does not fully reopen to normal traffic by end-September without a US-Iran deal (the Iran-Oman corridor alone is insufficient).",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "The strait never reopened; transits sat near ten vessels a day."
   },
   {
    "issue": 84,
@@ -2238,7 +2263,8 @@
    "desk": "Singapore",
    "claim": "MAS core inflation prints higher than July's level in the next release, consistent with its 'rises into early 2027' guidance.",
    "check_by": "2026-09-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "MAS core rose to 2.2% y/y in August from 2.0%, its highest since September 2024."
   },
   {
    "issue": 85,
@@ -2263,14 +2289,16 @@
    "desk": "The Macro Desk",
    "claim": "Gold holds record territory above US$4,400 through September as the fiscal-fear/central-bank-buying bid persists",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Gold lost $4,400 early and never recovered it, closing September at $4,186.70."
   },
   {
    "issue": 85,
    "desk": "Technology",
    "claim": "The reported Nvidia-Hugging Face acquisition is either officially confirmed/signed OR collapses (not still 'reported-unsigned') within a month",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Nvidia signed on 2 September and announced at $12,930,300,000."
   },
   {
    "issue": 85,
@@ -2294,21 +2322,24 @@
    "desk": "Singapore",
    "claim": "Singapore's Q4 electricity tariff (due ~30 Sep) rises again, toward the modelled 20-25% range",
    "check_by": "2026-10-02",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The Q4 tariff FELL, not rose: SP Group cut it 10.4% to 28.59 c/kWh from 31.91."
   },
   {
    "issue": 85,
    "desk": "The World",
    "claim": "The additional US 7.5% China 'overcapacity' tariff slips or is diluted rather than fully imposed before the reported 24 Sep Xi-Trump summit",
    "check_by": "2026-09-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "The planned 7.5% overcapacity tariff was delayed rather than imposed before the summit."
   },
   {
    "issue": 85,
    "desk": "The Diary",
    "claim": "Kyushu Basho tickets (on sale ~19 Sep) sell out weekends/final days within hours",
    "check_by": "2026-09-21",
-   "outcome": null
+   "outcome": "right",
+   "result": "Confirmed sold out across the basho after the 19 September sale."
   },
   {
    "issue": 86,
@@ -2320,13 +2351,17 @@
    "issue": 86,
    "desk": "World",
    "claim": "No routine commercial transit resumes the Strait of Hormuz within the next fortnight; Iran's published terms stay unmet",
-   "check_by": "2026-09-15"
+   "check_by": "2026-09-15",
+   "outcome": "right",
+   "result": "No routine traffic resumed; the ten-day average fell to about ten vessels a day."
   },
   {
    "issue": 86,
    "desk": "The Home Lab",
    "claim": "GLM-5.3's full open weights either drop or the cyber-risk hold is confirmed indefinite by mid-September",
-   "check_by": "2026-09-20"
+   "check_by": "2026-09-20",
+   "outcome": "right",
+   "result": "GLM-5.3's 753B weights went public at the end of August after the safety hold."
   },
   {
    "issue": 86,
@@ -2356,31 +2391,41 @@
    "issue": 86,
    "desk": "Screen & Sound",
    "claim": "Spider-Man crosses US$2.3B worldwide but does not reach US$2.5B (legs fade in September)",
-   "check_by": "2026-10-01"
+   "check_by": "2026-10-01",
+   "outcome": "right",
+   "result": "Spider-Man: Brand New Day finished at $2,497,014,154 — past $2.3B and $3m short of $2.5B."
   },
   {
    "issue": 87,
    "desk": "Macro",
    "claim": "Despite the ~56% implied odds of a September rate HIKE, the Fed does NOT hike at its September meeting (holds or cuts)",
-   "check_by": "2026-09-30"
+   "check_by": "2026-09-30",
+   "outcome": "wrong",
+   "result": "The Fed hiked: 12–0 on 16 September to 3.75–4.00%."
   },
   {
    "issue": 87,
    "desk": "Macro",
    "claim": "Gold holds above US$4,400 through end-September even as the dollar stays firm",
-   "check_by": "2026-10-01"
+   "check_by": "2026-10-01",
+   "outcome": "wrong",
+   "result": "Gold did not hold $4,400; it ended September at $4,186.70."
   },
   {
    "issue": 87,
    "desk": "World",
    "claim": "No verified commercial convoy transits the Iran-Oman Hormuz corridor within a month of it being drawn",
-   "check_by": "2026-09-30"
+   "check_by": "2026-09-30",
+   "outcome": "right",
+   "result": "No verified commercial convoy used the Iran–Oman corridor."
   },
   {
    "issue": 87,
    "desk": "The Kit",
    "claim": "RayNeo iO ships on/around 4 Sep 2026 at US$479 as announced",
-   "check_by": "2026-09-20"
+   "check_by": "2026-09-20",
+   "outcome": "right",
+   "result": "The RayNeo iO went on sale 4 September at $479, later discounted to $449."
   },
   {
    "issue": 87,
@@ -2404,7 +2449,9 @@
    "issue": 87,
    "desk": "The Long Read",
    "claim": "No NYT/BBC/Reuters/FT/Economist feature on Korea's pilsa hand-copying boom within three weeks",
-   "check_by": "2026-09-21"
+   "check_by": "2026-09-21",
+   "outcome": "right",
+   "result": "No Western major ran a feature on Korea's pilsa within three weeks."
   },
   {
    "issue": 87,
@@ -2434,28 +2481,32 @@
    "desk": "Macro",
    "claim": "Gold (~$4,447) and bitcoin (~$78.4k) fell together with a firmer dollar — a rates story overpowering the geopolitics; regime = higher-for-longer/dollar-bid",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "The rates story won — though bitcoin rose while gold fell, against the row's own assumption."
   },
   {
    "issue": 89,
    "desk": "Screen",
    "claim": "Coyote vs Acme opened $15.5M/~95% RT — legs, not the opening, decide whether the $70M rescue pays (final gross pending)",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "The legs paid: a $15.9m opening reached $59m domestic and $110m worldwide."
   },
   {
    "issue": 89,
    "desk": "Screen",
    "claim": "Venice 2026 'thin on paper' field will be judged on the McDonagh/Lee premieres; Golden Lion ~12 Sep",
    "check_by": "2026-09-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "The McDonagh and Lee premieres carried the prize list — but the Lion went elsewhere."
   },
   {
    "issue": 89,
    "desk": "The Kit",
    "claim": "RayNeo iO (on sale 4 Sep, $479) — independent lab reviews after launch will test the camera-free mono-green HUD and the ~6h real translation battery",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Independent reviews landed within days of the 4 September launch."
   },
   {
    "issue": 89,
@@ -2469,14 +2520,16 @@
    "desk": "Good Life",
    "claim": "Noble FoKus Artemis hybrid dynamic+planar wireless — 'endgame' claim awaits independent Head-Fi measurements",
    "check_by": "2026-10-01",
-   "outcome": null
+   "outcome": "push",
+   "result": "Five independent reviews landed by 1 October and not one published measurements."
   },
   {
    "issue": 89,
    "desk": "Home Lab",
    "claim": "NVFP4 GLM-5.3-Flash (single uploader) accuracy-recovery claims await third-party perplexity sweeps; Qwen3.8-Flash-Next preview quants await independent benchmarks",
    "check_by": "2026-10-01",
-   "outcome": null
+   "outcome": "push",
+   "result": "No third-party perplexity sweeps appeared; the single-uploader claim is still unchecked."
   },
   {
    "issue": 89,
@@ -2504,7 +2557,8 @@
    "desk": "Singapore",
    "claim": "MAS core CPI 2.0% y/y July (fastest since Oct 2024); SG Aug CPI print ~23 Sep",
    "check_by": "2026-09-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "July core confirmed at 2.0%; the August print landed 23 September at 2.2%."
   },
   {
    "issue": 90,
@@ -2535,7 +2589,8 @@
    "desk": "The World",
    "claim": "Nepal flood toll (469 confirmed + 1,300 missing) likely to rise as missing are accounted for",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "The toll more than trebled — 1,454 dead and 4,718 missing as of 26 September."
   },
   {
    "issue": 90,
@@ -2558,28 +2613,32 @@
    "desk": "Singapore",
    "claim": "SG Aug NODX (~17 Sep) and Aug CPI (~23 Sep) prints due; July NODX +24.2% y/y",
    "check_by": "2026-09-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "Both prints landed on schedule, though July NODX was +24.1%, not the +24.2% we carried."
   },
   {
    "issue": 90,
    "desk": "Screen & Sound",
    "claim": "Badu 'Before the World Blows' acclaim premature — settled Metacritic/Pitchfork aggregate will test the 'instant classic' framing built on one review",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "The aggregate deflated the instant-classic framing — Metacritic 78, Pitchfork 7.5."
   },
   {
    "issue": 90,
    "desk": "Screen & Sound",
    "claim": "Venice Golden Lion decided 12 Sep (no winner at cover date; Boyle's 'Ink' opened 2 Sep)",
    "check_by": "2026-09-13",
-   "outcome": null
+   "outcome": "right",
+   "result": "The Golden Lion was awarded at the closing ceremony on 12 September."
   },
   {
    "issue": 90,
    "desk": "The Kit",
    "claim": "RayNeo iO independent reviews land post-4 Sep ship date; Even G2 owner verdicts firm up",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "RayNeo iO reviews landed 4–16 September and Even G2 owner verdicts firmed up."
   },
   {
    "issue": 90,
@@ -2595,7 +2654,8 @@
    "desk": "The Long Read",
    "claim": "Thailand mutelu/faith-economy under-radar test: mainstream Western (FT/BBC/NYT) feature will follow within ~3 weeks",
    "check_by": "2026-10-01",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No Western major followed on Thai mutelu — coverage stayed Thai."
   },
   {
    "issue": 92,
@@ -2619,7 +2679,8 @@
    "desk": "Macro",
    "claim": "Regime call: high real yields + Gulf war premium keep the dollar firm, gold's haven bounce inside a downtrend, BTC capped",
    "check_by": "2026-09-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "The regime held through 20 September: dollar firmer, gold's bounce inside a downtrend."
   },
   {
    "issue": 92,
@@ -2657,7 +2718,8 @@
    "desk": "The Long Read",
    "claim": "A named Western major (NYT/BBC/Reuters/FT) runs a feature on Indonesia's 'Rojali'/middle-class-squeeze within ~4 weeks",
    "check_by": "2026-10-02",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No Western major ran a feature on Indonesia's Rojali."
   },
   {
    "issue": 92,
@@ -2671,24 +2733,24 @@
    "desk": "The Macro Desk",
    "claim": "After the +162k August payrolls and ~58% hike odds, the FOMC does NOT hike at the 15–16 Sep meeting (holds)",
    "check_by": "2026-09-17",
-   "outcome": null,
-   "result": null
+   "outcome": "wrong",
+   "result": "The FOMC hiked 25bp to 3.75–4.00% on 16 September, 12–0."
   },
   {
    "issue": 93,
    "desk": "The Macro Desk",
    "claim": "Gold holds its bid above US$4,000/oz through September even after the payrolls pullback",
    "check_by": "2026-09-30",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Gold never traded below $4,000 in September; the low was $4,143.10."
   },
   {
    "issue": 93,
    "desk": "Screen & Sound",
    "claim": "The 2026 Venice Golden Lion (awarded 12 Sep) goes to a competition title, with McDonagh's 'Wild Horse Nine' or Oppenheim's 'Primetime' the buzz frontrunners",
    "check_by": "2026-09-13",
-   "outcome": null,
-   "result": null
+   "outcome": "wrong",
+   "result": "The Golden Lion went to May el-Toukhy's Woman Unknown; neither frontrunner was close."
   },
   {
    "issue": 93,
@@ -2703,8 +2765,8 @@
    "desk": "Technology",
    "claim": "No named hyperscaler NVLink Fusion design-win is announced for MediaTek by end-September (the deal stays a balance-sheet relationship, per the sceptics)",
    "check_by": "2026-09-30",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "No named hyperscaler design win appeared — the deal stayed a balance-sheet relationship."
   },
   {
    "issue": 93,
@@ -2727,32 +2789,32 @@
    "desk": "The World",
    "claim": "Pezeshkian's SCO offer does not translate into a signed US–Iran ceasefire or a verified Hormuz commercial transit by end-September",
    "check_by": "2026-09-30",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Nothing was signed and nothing transited."
   },
   {
    "issue": 94,
    "desk": "The Macro Desk",
    "claim": "The Fed hikes at the 15–16 September FOMC (the hot-jobs repricing to ~58–60% odds resolves as a hike, not a hold or cut)",
    "check_by": "2026-09-16",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "The Fed hiked 25bp to 3.75–4.00% on 16 September, unanimously."
   },
   {
    "issue": 94,
    "desk": "The Macro Desk",
    "claim": "Gold holds above US$4,000/oz through September despite the hawkish-Fed, dollar-bid regime",
    "check_by": "2026-09-30",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Gold held $4,000 comfortably all month."
   },
   {
    "issue": 94,
    "desk": "The Macro Desk",
    "claim": "Bitcoin holds above US$75,000 through end-September (higher-rate/dollar headwinds do not crack it)",
    "check_by": "2026-09-30",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Bitcoin never broke $75,000 — September's low was $80,840."
   },
   {
    "issue": 94,
@@ -2776,8 +2838,8 @@
    "desk": "The Diary",
    "claim": "Kyushu Basho tickets go on sale 19 September via Ticket Oosumo, with weekend/final-day seats selling out within hours",
    "check_by": "2026-09-19",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Tickets went on sale 19 September; the general sale is now sold out."
   },
   {
    "issue": 94,
@@ -2833,21 +2895,24 @@
    "desk": "The Macro Desk",
    "claim": "Gold holds above US$4,000/oz through end-September 2026 despite the higher-for-longer, dollar-bid regime",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Gold held above $4,000 throughout, closing September at $4,186.70."
   },
   {
    "issue": 95,
    "desk": "The Macro Desk",
    "claim": "Bitcoin stays below US$85,000 through end-September 2026 as a firm dollar and real yields keep it heavy",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Bitcoin broke $85,000 — it hit $87,280 on 23 September."
   },
   {
    "issue": 95,
    "desk": "Screen & Sound",
    "claim": "The 2026 Venice Golden Lion (awarded ~12 Sep) goes to a competition title; Boyle's 'Ink' or McDonagh's 'Wild Horse Nine' are frontrunners",
    "check_by": "2026-09-13",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The Golden Lion went to Woman Unknown; Ink left Venice with nothing."
   },
   {
    "issue": 95,
@@ -2906,7 +2971,8 @@
    "desk": "The Macro Desk",
    "claim": "US 10Y Treasury yield stays above 4.5% through the 16 Sep FOMC decision",
    "check_by": "2026-09-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 10-year never came close to 4.5% — it ran 4.79% to 5.01% on FOMC day."
   },
   {
    "issue": 97,
@@ -2931,14 +2997,16 @@
    "desk": "The World",
    "claim": "The Witkoff/Kushner 'refreshed proposal' does not produce a signed Russia-Ukraine ceasefire before end-September",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "No ceasefire was signed before end-September."
   },
   {
    "issue": 97,
    "desk": "Singapore",
    "claim": "Singapore's August NODX (due mid-September) prints a positive year-on-year growth figure",
    "check_by": "2026-09-22",
-   "outcome": null
+   "outcome": "right",
+   "result": "August NODX printed +46.2% y/y, the strongest since October 1988."
   },
   {
    "issue": 97,
@@ -2966,14 +3034,16 @@
    "desk": "The Long Read",
    "claim": "No NYT/BBC/Reuters/FT feature on Japan's 苦労キャンセル界隈 / hardship-cancel sphere appears within three weeks of this issue",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "No Western major covered Japan's hardship-cancel sphere."
   },
   {
    "issue": "97.5",
    "desk": "The Ledger",
    "claim": "Sora API (sora-2/sora-2-pro) fully shuts down (410 Gone) as OpenAI announced",
    "check_by": "2026-09-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Sora 2 shut down on schedule on 24 September, returning 410 Gone from the 25th."
   },
   {
    "issue": "97.5",
@@ -3019,7 +3089,8 @@
    "desk": "The World",
    "claim": "A US-Iran deal is reached by end-September 2026 (the analyst base case behind Brent easing)",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No US–Iran deal was reached; tanker attacks ran to 29 September."
   },
   {
    "issue": "98",
@@ -3082,7 +3153,8 @@
    "desk": "The World",
    "claim": "No durable US-Iran ceasefire holds through end-September despite Polymarket's ~77% (the sceptic's fade-the-spike vs the escalation read)",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "No durable ceasefire held — Iran kept striking shipping through 28–29 September."
   },
   {
    "issue": "99",
@@ -3173,14 +3245,16 @@
    "desk": "Macro",
    "claim": "Regime: oil-shock reflation / higher-for-longer; gold holds its bid (~$4,350) as the winner while BTC trades as a risk asset",
    "check_by": "2026-10-01",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Gold did not hold $4,350; it closed September at $4,186.70."
   },
   {
    "issue": 102,
    "desk": "World",
    "claim": "The Oman GCC-Iran Hormuz talks stay postponed with no near-term reopening of the strait",
    "check_by": "2026-09-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Oman shelved its Hormuz diplomacy in mid-September and the strait stayed shut."
   },
   {
    "issue": 102,
@@ -3194,7 +3268,8 @@
    "desk": "Singapore",
    "claim": "August NODX print lands 17 Sep (July was +24.2% y/y; FY forecast +14-16%)",
    "check_by": "2026-09-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "The August trade report landed 17 September, putting July NODX at +24.1%."
   },
   {
    "issue": 102,
@@ -3219,7 +3294,8 @@
    "desk": "Diary",
    "claim": "Snow City closes for good on 30 Sep 2026",
    "check_by": "2026-10-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "Snow City closed permanently on 30 September 2026 after 26 years."
   },
   {
    "issue": 103,
@@ -3278,7 +3354,8 @@
    "desk": "Screen",
    "claim": "A24 'Primetime' opens wide 25 Sep 2026; box-office test of festival heat (held from No.102)",
    "check_by": "2026-10-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "Primetime opened wide on 25 September to $19.2m — A24's third-best ever."
   },
   {
    "issue": 103,
@@ -3370,7 +3447,8 @@
    "desk": "Screen & Sound",
    "claim": "Practical Magic 2 holds the box office on fan demand despite ~35% critics, dropping less than a typical panned sequel in weekend two.",
    "check_by": "2026-09-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Practical Magic 2 fell 59.5% in weekend two and lost the top spot — a textbook panned-sequel drop."
   },
   {
    "issue": 105,
@@ -3426,7 +3504,8 @@
    "desk": "Screen & Sound",
    "claim": "Resident Evil (2026) opens above US$40m domestic on its first weekend.",
    "check_by": "2026-09-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "Resident Evil opened to $60m domestic, the franchise's best start in 24 years."
   },
   {
    "issue": 107,

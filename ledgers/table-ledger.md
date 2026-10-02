@@ -125,7 +125,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Les Canons | Les Canons | 110 | OPEN | No. 110 build | opening run — record the peg here |
 | Yamamoto’s Hamburg | Yamamoto’s Hamburg | 111, 119 | SPENT | No. 111 build | opening run — record the peg here |
 | AO (Claymore Drive) | AO (Claymore | 119 | OPEN | No. 119 build | opening run — Cloud Restaurant Group, Araki Takeshi ex-Esora; reviewed 4/5 by a paying diner |
-| Decker Barbecue | Decker Barbecue | 111 | OPEN | No. 111 build | opening run — record the peg here |
+| Decker Barbecue | Decker Barbecue | 111, 121 | SPENT | No. 111 build | opening run — record the peg here |
 | Jeju Haenyeo | Jeju Haenyeo | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Kimpson’s Table | Kimpson’s Table | 112, 120 | SPENT | No. 112 build | opening run — record the peg here |
@@ -155,3 +155,4 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
 | Tanica | Tanica | 118 | OPEN | No. 118 build | opening run — record the peg here |
 | Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120 | OPEN | No. 120 build | opening run — record the peg here |
+| KOKO Kawane | KOKO Kawane | 121 | OPEN | No. 121 build | opening run — record the peg here |

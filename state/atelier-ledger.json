@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Rice cookers &amp; donabe",
+      "issue": "121",
+      "angle": "<b>The grail premium buys five degrees Celsius.</b> Four electric rungs &mdash; thermostat, micom (the 40&ndash;50&deg;C soak, where the rice actually changes), IH, and pressure IH at 1.2 atm = 105&deg;C, read on Hitachi's and Toshiba's own pages. The money is in the pot: Tiger 1.5mm, Zojirushi 1.7,"
+    },
+    {
       "category": "Water bottles &amp; vacuum flasks",
       "issue": "120",
       "angle": "<b>&ldquo;Cold up to 145 hours&rdquo; is not a weak specification; it is not a specification.</b> MECHANISM: the two-wall body is evacuated in a furnace and sealed &mdash; <b>the vacuum cannot be re-pumped by anyone</b>, so &ldquo;lifetime warranty&rdquo; is the wrong question and <i>is the vacuum i"
@@ -245,7 +250,7 @@
       "sources": "Surefire, Zebralight, Malkoff, Emisar/Hank; 18650 import rules into Singapore"
     },
     {
-      "category": "Rice cookers &amp; donabe",
+      "category": "~~Rice cookers &amp; donabe~~ (COVERED, No. 121)",
       "rotation": "Kitchen",
       "fit": "Induction against Japanese clay; the made-in-Japan against made-in-China split inside one brand line",
       "sources": "Zojirushi and Tiger against Nagatani-en and Iga-yaki; an object every Singapore household already owns badly"
@@ -309,6 +314,18 @@
       "rotation": "Kitchen / gear",
       "fit": "Heat exchanger vs dual boiler vs lever; Profitec, Lelit, ECM, La Marzocco Linea Mini, Londinium",
       "sources": "The natural companion to the grinder desk &mdash; and the one where the price-to-cup curve flattens even harder"
+    },
+    {
+      "category": "Wallets &amp; card cases",
+      "rotation": "Carry",
+      "fit": "A daily object where the failure mode is a seam and the grail tier is one person with an awl; distinct from the bag desk",
+      "sources": "Horween shell cordovan, hand saddle-stitch; r/BuyItForLife, Rose Anvil teardowns"
+    },
+    {
+      "category": "Travel tripods &amp; heads",
+      "rotation": "Carry / photo",
+      "fit": "The reader shoots; the real argument is the locking mechanism and the head, not the leg count",
+      "sources": "Gitzo/RRS/Leofoto/Peak Design; r/photography, the conglomerate story from the No.114 desk"
     }
   ],
   "retired": [
@@ -336,16 +353,6 @@
       "category": "Chef&#39;s aprons &amp; kitchen textiles",
       "retired": "6 Sep 2026",
       "note": "Reader eliminated it. Was pipelined as Home / kitchen — the waxed-canvas and linen apron makers (Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife). Row was originally typed in the pipeline's four-column shape under this three-column header; re-cast 6 Sep 2026 when the Retired ta"
-    },
-    {
-      "category": "Wallets &amp; card cases",
-      "retired": "Carry",
-      "note": "A daily object where the failure mode is a seam and the grail tier is one person with an awl; distinct from the bag desk · Horween shell cordovan, hand saddle-stitch; r/BuyItForLife, Rose Anvil teardowns"
-    },
-    {
-      "category": "Travel tripods &amp; heads",
-      "retired": "Carry / photo",
-      "note": "The reader shoots; the real argument is the locking mechanism and the head, not the leg count · Gitzo/RRS/Leofoto/Peak Design; r/photography, the conglomerate story from the No.114 desk"
     }
   ]
 }
