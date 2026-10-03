@@ -1,0 +1,764 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 122,
+ "date": "Sunday 4 October 2026 · The Weekend Edition",
+ "title": "The stand-in",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the fourth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "A refinery burned outside Riyadh yesterday afternoon. Two capitals cannot agree on whether anything was hit."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A fan costs ten dollars more and uses two watts instead of thirty-nine. Same fan."
+  },
+  {
+   "s": "A",
+   "t": "And Hong Kong is buying nursing-home beds inside mainland China, and will not say what it pays for one."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Right. Start me with the fire."
+  },
+  {
+   "s": "A",
+   "t": "Saturday afternoon, south of the Saudi capital. An agency photographer watched flames and black smoke come off an Aramco refinery while firefighters worked it. A second wire found a witness. Aramco declined to comment. The energy ministry has said nothing at all."
+  },
+  {
+   "s": "B",
+   "t": "So the fire is real."
+  },
+  {
+   "s": "A",
+   "t": "The fire is not in dispute. Everything after the fire is. Hours later, Sanaa claimed it. Ballistic missiles and drones, they said, on Aramco in the Saudi enemy capital. In answer to sixty Saudi airstrikes in twenty-four hours, and one thousand four hundred and ten since the escalation began. The coalition spokesman said the group's losses make it, quote, search for imaginary victories."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So one side says a refinery was struck, and the other says nothing was struck."
+  },
+  {
+   "s": "A",
+   "t": "Correct. And neither has produced anything but a statement."
+  },
+  {
+   "s": "B",
+   "t": "What's the evidence, then? Actually evidence."
+  },
+  {
+   "s": "A",
+   "t": "One French wire photograph. That's it. That is the entire independent record."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] That's remarkable. Both capitals are arguing about a picture one person took."
+  },
+  {
+   "s": "A",
+   "t": "The Houthi broadcaster's own English news ticker that morning quoted the French agency. To prove its own missiles had worked."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Oh, that's — okay, that's the fact of the day."
+  },
+  {
+   "s": "A",
+   "t": "Now, the sceptic, because this matters. That refinery is inland. It serves the domestic market. It exports nothing."
+  },
+  {
+   "s": "B",
+   "t": "Which is not the same as a terminal."
+  },
+  {
+   "s": "A",
+   "t": "Not remotely. Ras Tanura — half a million barrels a day, an actual export hub — was hit twice in March and was back on line in about a week. And when the Houthis took out Saudi Arabia's only bypass around the Strait of Hormuz last month, a named energy economist called the market reaction, quote, emotional."
+  },
+  {
+   "s": "B",
+   "t": "Emotional, meaning?"
+  },
+  {
+   "s": "A",
+   "t": "Meaning it doesn't seem, at this point, like a fundamental change. His words. And that was a seven-million-barrel pipeline."
+  },
+  {
+   "s": "B",
+   "t": "So if that wasn't fundamental—"
+  },
+  {
+   "s": "A",
+   "t": "An inland refinery is not either."
+  },
+  {
+   "s": "B",
+   "t": "What does the price actually say?"
+  },
+  {
+   "s": "A",
+   "t": "Brent hit a hundred and eight dollars seventy-five on the fifteenth of September. It closed Friday at a hundred and two twenty-five. Down about six per cent, while the war escalated continuously."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the casualty numbers?"
+  },
+  {
+   "s": "A",
+   "t": "Neither side's arithmetic survives the other's. Riyadh says about five thousand fighters lost in a week. Documented casualties across all of September run to a hundred and ten. And Sanaa published ninety-four strikes in twenty-four hours that morning, and sixty in twenty-four hours that evening. Same day."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Great. Money block. Tell me the bond thing, because you've been muttering about it."
+  },
+  {
+   "s": "A",
+   "t": "The ten-year Treasury rose eleven basis points last week. Nine of them were real yield. Two were inflation."
+  },
+  {
+   "s": "B",
+   "t": "Translate that for me."
+  },
+  {
+   "s": "A",
+   "t": "The inflation compensation in the bond — the breakeven — sits at two point three six per cent. It moved two basis points all week. It is the identical figure we printed seven days ago."
+  },
+  {
+   "s": "B",
+   "t": "Against actual inflation of—"
+  },
+  {
+   "s": "A",
+   "t": "Three point four."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So the market is not worried about inflation."
+  },
+  {
+   "s": "A",
+   "t": "The market is not arguing about inflation at all. It's demanding more money to lend for a long time. That's term premium, not expectations."
+  },
+  {
+   "s": "B",
+   "t": "Why does that distinction matter to someone holding a global bond fund?"
+  },
+  {
+   "s": "A",
+   "t": "Because a term-premium sell-off doesn't reverse when the central bank does what everyone expects. There's no relief trade waiting. And here's the shape of the week. Three weeks ago the Federal Reserve raised rates. Unanimously. Twelve to nothing."
+  },
+  {
+   "s": "B",
+   "t": "Into what inflation?"
+  },
+  {
+   "s": "A",
+   "t": "Headline three point four — of which petrol is up twenty-seven per cent and heating oil fifty-two per cent year on year. Core is a full point lower."
+  },
+  {
+   "s": "B",
+   "t": "That's an oil shock wearing an inflation costume."
+  },
+  {
+   "s": "A",
+   "t": "That's a supply shock being fought with a demand tool, yes."
+  },
+  {
+   "s": "B",
+   "t": "And then Friday."
+  },
+  {
+   "s": "A",
+   "t": "Friday, American payrolls printed plus twenty-nine thousand against a forecast near ninety thousand. July and August revised down a net sixty thousand. July went negative."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Negative?"
+  },
+  {
+   "s": "A",
+   "t": "Negative. Wage growth at three per cent, the slowest in five years."
+  },
+  {
+   "s": "B",
+   "t": "And the long end rallied, obviously."
+  },
+  {
+   "s": "A",
+   "t": "The long end sold off anyway."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Right. Because term premium."
+  },
+  {
+   "s": "A",
+   "t": "Because term premium."
+  },
+  {
+   "s": "B",
+   "t": "What does that do to the four things we watch?"
+  },
+  {
+   "s": "A",
+   "t": "Global equities are four point seven per cent off their high and refusing to break. Global bonds yield more than at any time in twenty years and still lose money most weeks. Gold popped one point one per cent on the payrolls miss and gave every bit of it back — the Group of Seven's barrels did what no speech managed. Moved zero point six eight per cent in a week when bonds hit twenty-four-year highs and gold fell four."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So it did nothing."
+  },
+  {
+   "s": "A",
+   "t": "Whatever it is expressing this year, it is not a macro view. And none of that is advice."
+  },
+  {
+   "s": "B",
+   "t": "Noted. Home — what happened here?"
+  },
+  {
+   "s": "A",
+   "t": "The Causeway train slipped. Passenger service on the rail link to Johor Bahru moves from the end of this year to the end of February."
+  },
+  {
+   "s": "B",
+   "t": "What's unbuilt?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing. Infrastructure on both sides is described as substantially complete. Testing still finishes by the thirty-first of December. Two sovereign regulators signing the same piece of paper. Third-party safety certification."
+  },
+  {
+   "s": "B",
+   "t": "[wry] The part no project plan can schedule."
+  },
+  {
+   "s": "A",
+   "t": "And here's the small thing I liked. On the land authority's own project page, forty-eight hours later, the train still opens this year. Stamped May of last year."
+  },
+  {
+   "s": "B",
+   "t": "The record hasn't caught up with the announcement."
+  },
+  {
+   "s": "A",
+   "t": "Which is this whole issue, honestly. Down ten point four per cent from the first of October — about thirteen dollars a month off a four-room flat. Take it, but the utility's stated reason was that Brent mostly stayed below ninety dollars between June and September. The futures record does not support September."
+  },
+  {
+   "s": "B",
+   "t": "So it's borrowed."
+  },
+  {
+   "s": "A",
+   "t": "It's a rear-view mirror with a bill attached. And the haze has not broken — Central read one hundred and two at five o'clock this morning. Over the unhealthy line."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] On the morning after they switched on the Deepavali lights."
+  },
+  {
+   "s": "A",
+   "t": "Outdoors, at seven, at Birch Road."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Technology. You told me a model was released on a national holiday."
+  },
+  {
+   "s": "A",
+   "t": "German Reunification Day. A seventy-eight-billion-parameter open-weight model, Apache licensed, trained on European soil under European law, and the launch post says exactly that. Sovereign. And on the sixteenth of September — seventeen days before the release — the company signed to merge into a Canadian firm and operate globally under that firm's name."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Come on."
+  },
+  {
+   "s": "A",
+   "t": "A commenter asked precisely that. A staff member answered: sovereignty is mostly about choice and control over your data."
+  },
+  {
+   "s": "B",
+   "t": "Which is a real answer."
+  },
+  {
+   "s": "A",
+   "t": "It's a real answer, and it's a different word than the one on the tin. Here's what I'd actually flag, though: there is no independent evaluation of this model. Anywhere. The most-read write-up, four hundred points on the main engineering board, says so in its own text. Quote: I haven't run the model itself yet, since it needs a data-centre GPU and nobody hosts it so far."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] At least he said it."
+  },
+  {
+   "s": "A",
+   "t": "Credit where it's due — the dissent is inside the company's own report. It says plainly that a rival scores higher overall. Its claim is narrower: best among the sparse models."
+  },
+  {
+   "s": "B",
+   "t": "And the gear desk? The headphone thing?"
+  },
+  {
+   "s": "A",
+   "t": "Four hundred and ninety-nine US dollars. Twelve dry electrodes woven into the ear pads, six a side, reading at sixteen bits. Calmness. Cognitive load. Cognitive speed. Focus. Wakefulness. Exportable as a spreadsheet."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Does it work?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody knows. No independent laboratory has touched it. It isn't in the index of the site that weighs and graphs headphones for a living."
+  },
+  {
+   "s": "B",
+   "t": "And the company's own evidence?"
+  },
+  {
+   "s": "A",
+   "t": "Its science page names a signal-processing breakthrough from twenty-eleven and gives no study, no journal, no sample size and no accuracy figure for any of the six numbers it sells."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So it sells a number and publishes none."
+  },
+  {
+   "s": "A",
+   "t": "And the readings leave the house. Processing is in the company's cloud, and the published retention is eighteen months."
+  },
+  {
+   "s": "B",
+   "t": "For someone who moved their lighting off a vendor's servers onto a box in a cupboard—"
+  },
+  {
+   "s": "A",
+   "t": "Wrong shape of object."
+  },
+  {
+   "s": "B",
+   "t": "What about the fans? You've been very excited about fans."
+  },
+  {
+   "s": "A",
+   "t": "[wry] I have, and I'd like you to indulge me, because it's the cleanest thing in the book. One maker sells the same fan body with two motors. The alternating-current one draws sixty-two, forty-five and thirty-nine watts across three fixed notches."
+  },
+  {
+   "s": "B",
+   "t": "And the other?"
+  },
+  {
+   "s": "A",
+   "t": "Brushless. Ninety-nine speeds, from forty watts down to two. It costs ten US dollars more."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Two watts against thirty-nine. At the speed you'd sleep with."
+  },
+  {
+   "s": "A",
+   "t": "At our local tariff, ten hours a day, that's two dollars twenty-seven a year against forty-four thirty-six. For a ten-dollar difference at purchase."
+  },
+  {
+   "s": "B",
+   "t": "Why does nobody know this?"
+  },
+  {
+   "s": "A",
+   "t": "Because almost no fan sold here publishes a comparable airflow figure. In Europe the law requires one. Here, nothing."
+  },
+  {
+   "s": "B",
+   "t": "So the number exists and is being withheld."
+  },
+  {
+   "s": "A",
+   "t": "And the badges are not what you think. The brand every Singapore electrician specifies built Japan's first mass-produced fan in nineteen thirteen and has belonged to Panasonic since nineteen fifty-six."
+  },
+  {
+   "s": "B",
+   "t": "And the designer one?"
+  },
+  {
+   "s": "A",
+   "t": "Its own listing prospectus describes the company as, quote, a fabless manufacture that purchases most of its products from contract manufacturers in China and Taiwan."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] In its own prospectus."
+  },
+  {
+   "s": "A",
+   "t": "Past about two hundred and thirty Singapore dollars, you're buying an object, not air."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every Sunday with this one."
+  },
+  {
+   "s": "B",
+   "t": "Scale models! Plastic kits. Tanks and aeroplanes. I did not expect to enjoy this and I enjoyed this."
+  },
+  {
+   "s": "A",
+   "t": "One database holds six hundred and eighty-nine thousand kits. Of everything. And the single most-modelled object on earth is a Messerschmitt — seven thousand and fifty-nine separate records. Ahead of German infantry, ahead of the Spitfire."
+  },
+  {
+   "s": "B",
+   "t": "[amused] There is a most-modelled object on earth and somebody counted it."
+  },
+  {
+   "s": "A",
+   "t": "The glue isn't glue, by the way. It's solvent cement — it melts both surfaces and welds them. Six US dollars, applied by capillary action along a join you're already holding shut."
+  },
+  {
+   "s": "B",
+   "t": "That's lovely. How do people fall in?"
+  },
+  {
+   "s": "A",
+   "t": "Almost always a rediscovery. Here's a modeller this year, on a forum: when I was younger, around twelve to eighteen, I built some kits with my cousin. I was never very good at it. He goes on: I was always jealous when I saw really fine models and wondered, how did they do that? And then — back then, the tanks we built had only one purpose. To be used in war against each other."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] A twelve-year-old's failure, remembered at forty."
+  },
+  {
+   "s": "A",
+   "t": "With money, this time."
+  },
+  {
+   "s": "B",
+   "t": "And the gear? Because I know there's gear."
+  },
+  {
+   "s": "A",
+   "t": "The airbrush is the decision, and the ladder is short. The default is two hundred and twenty-nine pounds. The grail is seven hundred and eighty-five."
+  },
+  {
+   "s": "B",
+   "t": "Is the grail better?"
+  },
+  {
+   "s": "A",
+   "t": "Below about twelve pounds per square inch, at very close range, on very thin paint. And nowhere else."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So on an actual tank—"
+  },
+  {
+   "s": "A",
+   "t": "On a one-thirty-fifth tank at twenty, it's a seven-hundred-and-eighty-five-pound version of the cheap one. The arguments people make for it are trigger feel and resale, which are honest arguments, and are not performance."
+  },
+  {
+   "s": "B",
+   "t": "What should you buy cheap?"
+  },
+  {
+   "s": "A",
+   "t": "The compressor. Deliberately. A clone costs about a hundred and twenty-five dollars against a studio unit at six hundred and ninety-nine pounds."
+  },
+  {
+   "s": "B",
+   "t": "Why is that fine?"
+  },
+  {
+   "s": "A",
+   "t": "Because a compressor is a motor and a tank. No precision surfaces. It never touches your paint."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's a genuinely good rule."
+  },
+  {
+   "s": "A",
+   "t": "The thing you cannot cheap out on, in a flat, is the extraction. Carbon filters capture particulate overspray. They do not capture solvent vapour for long."
+  },
+  {
+   "s": "B",
+   "t": "So what actually works?"
+  },
+  {
+   "s": "A",
+   "t": "Ducting the booth out of a window and a half-mask with organic-vapour cartridges. Or water-based paint, which is the one range you can spray in a bedroom with nothing at all."
+  },
+  {
+   "s": "B",
+   "t": "And the state of the art?"
+  },
+  {
+   "s": "A",
+   "t": "Fourteen micrometres. A resin printer that resolves fourteen micrometres in plan. A rivet at one-thirty-fifth scale is fifteen to thirty micrometres across."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So the printer out-resolves the rivet."
+  },
+  {
+   "s": "A",
+   "t": "Which is why a major manufacturer has just shipped a kit that cannot be completed without its printed parts. The reviewer's own words: the included resin parts are essential, not optional extras. No plastic alternatives are provided."
+  },
+  {
+   "s": "B",
+   "t": "That's a real line in the sand."
+  },
+  {
+   "s": "A",
+   "t": "And nobody has answered the obvious question — what you do when you need a replacement printed part in five years."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the sceptic? There's always a sceptic."
+  },
+  {
+   "s": "A",
+   "t": "The hobby named its own money pit. Unbuilt kits become the shelf of doom. The diagnosis is advanced modeller's syndrome — buying aftermarket a kit does not need. And on commissions, the honesty is bracing. One builder: if you spend forty hours on a largely out-of-the-box kit and charge four hundred dollars, you're making less per hour than the kid flipping burgers in your local fast-food joint."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Said by someone who does it."
+  },
+  {
+   "s": "A",
+   "t": "Another, flatly: for most, commission work is an express highway to despair and pain."
+  },
+  {
+   "s": "B",
+   "t": "Culture, quickly. Two films."
+  },
+  {
+   "s": "A",
+   "t": "Two films opened Friday and the critics gave them the same mark. Forty-five each, on the weighted scale."
+  },
+  {
+   "s": "B",
+   "t": "And the money?"
+  },
+  {
+   "s": "A",
+   "t": "One cost forty million dollars and took fifteen point one on Friday. The other cost a hundred and twenty-five and took three point four."
+  },
+  {
+   "s": "B",
+   "t": "Four and a half times."
+  },
+  {
+   "s": "A",
+   "t": "And audiences rated the one they skipped higher."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Of course they did."
+  },
+  {
+   "s": "A",
+   "t": "Although — two days is not a weekend, and Saturday's chart isn't posted. I'd rather say that than extrapolate. A German house has licensed Steve McQueen's signature for a chronograph. Three hundred pieces, sold out in forty-eight hours."
+  },
+  {
+   "s": "B",
+   "t": "And the catch?"
+  },
+  {
+   "s": "A",
+   "t": "The watch the licence refers to has never been found. The retailer that assembled the photographic record says so itself: the fate of his Hanhart is unknown."
+  },
+  {
+   "s": "B",
+   "t": "[pause] A signature standing in for a provenance."
+  },
+  {
+   "s": "A",
+   "t": "And the same reference carries two maker-published prices twenty-six per cent apart."
+  },
+  {
+   "s": "B",
+   "t": "Family desk — one thing."
+  },
+  {
+   "s": "A",
+   "t": "Eight per cent of twelve- to fourteen-year-olds have ever asked a chatbot for mental-health advice. Among those who did, sixty-three per cent told nobody."
+  },
+  {
+   "s": "B",
+   "t": "Is that the alarming number?"
+  },
+  {
+   "s": "A",
+   "t": "It's the honest one. The alarming numbers you see quoted are measuring a different thing, in older children."
+  },
+  {
+   "s": "B",
+   "t": "And the ban in Australia?"
+  },
+  {
+   "s": "A",
+   "t": "Ten months in, daily use among twelve- and thirteen-year-olds went from fifty-one per cent to forty-nine. The estimated effect at the age threshold was statistically nothing. Mostly not. Of those still on one platform, sixty-four per cent said it took no action at all against the account they already had."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] So it wasn't beaten. It wasn't applied."
+  },
+  {
+   "s": "A",
+   "t": "That's the sentence."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Undercurrent. Slow it down for me."
+  },
+  {
+   "s": "A",
+   "t": "Hong Kong has become the first wealthy jurisdiction to buy subsidised nursing-home beds inside another jurisdiction, as a standing instrument of policy. Guangdong. The welfare department signs contracts with mainland care homes and pays them per occupied bed. The elder pays nothing — room, meals, nursing, rehabilitation, a monthly doctor. A hundred and twenty at the end of twenty twenty-two. Over fourteen hundred by the sixteenth of September this year, across twenty-nine homes. Nineteen thousand one hundred and ninety-six people on the central waiting list. Average wait, twenty months."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And the mainland bed has no wait."
+  },
+  {
+   "s": "A",
+   "t": "A Guangdong home is listed as one of the options inside a subsidised place. No means test. If it has a vacancy, you're matched. You have jumped twenty months."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "Six months. From admission, your waiting-list application is marked inactive. Leave inside six months and it's restored with its original date. Stay past six, and the application ends."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the clock closes the door behind you."
+  },
+  {
+   "s": "A",
+   "t": "And the exclusion rules are the quiet part. Four categories can't go, and the mainland adds its own — proof of freedom from infectious and psychiatric illness, and at least one family member or guarantor supporting you."
+  },
+  {
+   "s": "B",
+   "t": "Meaning the frailest—"
+  },
+  {
+   "s": "A",
+   "t": "And the most alone are, by rule, the least exportable."
+  },
+  {
+   "s": "B",
+   "t": "What does a bed cost?"
+  },
+  {
+   "s": "A",
+   "t": "Hong Kong publishes exactly what a place at home costs it. Eighteen thousand eight hundred and nine dollars a month in a subvented home. Twenty-five thousand in a contract home."
+  },
+  {
+   "s": "B",
+   "t": "And in Guangdong?"
+  },
+  {
+   "s": "A",
+   "t": "Asked in March by a legislator, the Secretary for Labour and Welfare declined. Quote: it is not suitable for the Government to disclose the relevant details."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] The one number that tells you what this is."
+  },
+  {
+   "s": "A",
+   "t": "Is the one number withheld. And run the arbitrage the other way, because it runs both ways. In the same years, local care workers in Hong Kong's own homes fell from eight thousand and one to seven thousand and sixty-five. Imported care workers rose from four thousand one hundred and sixty-five to six thousand one hundred and forty-six."
+  },
+  {
+   "s": "B",
+   "t": "Labour one way, residents the other."
+  },
+  {
+   "s": "A",
+   "t": "Both legs are policy. Both are recent."
+  },
+  {
+   "s": "B",
+   "t": "Is anyone unhappy?"
+  },
+  {
+   "s": "A",
+   "t": "Here's what surprised me. The testimony from inside is warm. A couple of seventy-five, in a Guangzhou home: even your own children wouldn't be this attentive."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a good line."
+  },
+  {
+   "s": "A",
+   "t": "And a couple of eighty-nine who visited fifteen homes before choosing one, and paid a single lump sum covering twenty years. She tends a vegetable plot each morning. Having something to care for, she says, I'm happier."
+  },
+  {
+   "s": "B",
+   "t": "So what's the fear?"
+  },
+  {
+   "s": "A",
+   "t": "One sentence, and it's the whole essay. What we fear most is a serious illness. It could cost a million or more. In Hong Kong you wouldn't have to worry about that."
+  },
+  {
+   "s": "B",
+   "t": "[pause] They took everything across the border except the hospital."
+  },
+  {
+   "s": "A",
+   "t": "Except the hospital. And the market has noticed — there's now a consumer guide to retiring north that tells you to insist on a ten-minute life circle to a tier-three hospital."
+  },
+  {
+   "s": "B",
+   "t": "That's the whole thread of the morning, isn't it. The stand-in."
+  },
+  {
+   "s": "A",
+   "t": "A thing that's hard to observe, and beside it a thing that's easy to count, standing in. Treadmill workload for oxygen uptake. Deleted accounts for safety. A focus score for focus."
+  },
+  {
+   "s": "B",
+   "t": "A signature for a provenance."
+  },
+  {
+   "s": "A",
+   "t": "An aggregate for a verdict. And a word, sovereign, for a company that's about to be somebody else's."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The stand-in isn't a lie, though."
+  },
+  {
+   "s": "A",
+   "t": "Usually it's the best available, and often it's all there is. The error is forgetting the substitution was made."
+  },
+  {
+   "s": "B",
+   "t": "Which is more or less what we put on the cover quote."
+  },
+  {
+   "s": "A",
+   "t": "Bacon, sixteen twenty. Truth is rightly named the daughter of time, not of authority. And the sentence after it is the better one — we are left unable, as if bewitched, to become familiar with things themselves."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Four hundred years, and it's still the note to end on."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

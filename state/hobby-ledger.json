@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Scale model building (armour &amp; aircraft)",
+      "issue": "122",
+      "angle": "Six hundred and ninety thousand kits in one database and a Bf 109 modelled 7,059 times &mdash; the airbrush ladder from &pound;229 to &pound;785, the compressor you buy cheap on purpose, the apartment extraction problem, and a fourteen-micron resin printer that has produced the first mainstream kit "
+    },
+    {
       "hobby": "Kite flying &amp; kite building",
       "issue": "121",
       "angle": "<b>The gear is thriving and the institutions are dying.</b> Four crafts share the word &mdash; single-line, dual-line trick flying, quad (flies backwards, hovers inverted), and kite-building as a judged peer discipline. The 2026 story is market share, not technology: Revolution's patents expired and"
@@ -335,7 +340,7 @@
       "fit": "Distinct from the No. 113 lapidary desk &mdash; field collecting and site law rather than the saw and the polisher"
     },
     {
-      "hobby": "Scale model building (armour &amp; aircraft)",
+      "hobby": "~~Scale model building (armour &amp; aircraft)~~ (COVERED, No. 122)",
       "category": "Craft / model",
       "communities": "Britmodeller, Large Scale Planes, the Tamiya and Eduard scene",
       "fit": "A patient bench craft with an airbrush-and-paint ladder and a weathering culture; distinct from model railways, which is an operations hobby"
@@ -375,6 +380,18 @@
       "category": "Craft / wood",
       "communities": "r/woodworking, Marquetry Society, Patrick Edwards&rsquo; school",
       "fit": "A patient two-dimensional craft with a knife-and-sandbag toolkit, a donkey saw bench, and an antique-restoration economy behind it"
+    },
+    {
+      "hobby": "Vintage fountain-pen restoration",
+      "category": "Craft / paper",
+      "communities": "r/fountainpens restoration threads, FPN, Pentrace",
+      "fit": "Sac replacement, nib grinding and the celluloid era; distinct from the No. 70s pen-buying desk &mdash; this is the repair bench"
+    },
+    {
+      "hobby": "Ham-free satellite tracking &amp; SatNOGS",
+      "category": "Tech / space",
+      "communities": "SatNOGS network forums, r/amateursatellites, Libre Space",
+      "fit": "A receive-only space hobby with a real open-hardware ground-station ladder"
     }
   ],
   "retired": [

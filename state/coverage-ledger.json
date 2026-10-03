@@ -1,5 +1,5 @@
 {
-  "count": 870,
+  "count": 879,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,69 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Neurable One (EEG headphone)",
+      "type": "Discrete product (audio/wearable)",
+      "last_covered": "No. 122",
+      "last_peg": "The Kit LEAD &mdash; pre-orders, ships Oct, US$499, US-only; 12 dry EEG sensors at 16-bit/125Hz, 345g, 22h/12h. NO independent measurement of anything and no published validation study",
+      "next_peg": "Next peg: first independent measurement, an SG price, or a published accuracy figure. Do not re-cover on specs alone"
+    },
+    {
+      "subject": "Hanhart 417 ES Steve McQueen LE No. 1",
+      "type": "Discrete product (watch)",
+      "last_covered": "No. 122",
+      "last_peg": "The Good Life LEAD &mdash; announced 1 Oct, 300 pieces, sold out in 48h; 39&times;13.3mm, Sellita AMT5100 M hand-wound flyback, &euro;2,890 incl. VAT against US$4,260 on the maker&rsquo;s own English storefront",
+      "next_peg": "Next peg: a No. 2 in the series, an SG stockist, or a reconciliation of the two prices. SATURATED on McQueen-licensed 417s generally"
+    },
+    {
+      "subject": "Verity (Amazon MGM, dir. Showalter)",
+      "type": "Discrete event (film)",
+      "last_covered": "No. 122",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; opened 2 Oct, $15.1m Friday + $4.5m previews on a $40m budget; RT 34%/128, Metacritic 45/32, audience 4.4",
+      "next_peg": "Next peg: the actual weekend and second-weekend hold. Do not re-run Friday actuals"
+    },
+    {
+      "subject": "Digger (Warner Bros., dir. I&ntilde;&aacute;rritu)",
+      "type": "Discrete event (film)",
+      "last_covered": "No. 122",
+      "last_peg": "Screen &amp; Sound &mdash; third issue; RT settled 51%/247, Metacritic 45/56, $3.4m Friday on $125m, $7.4m worldwide",
+      "next_peg": "CLOSED at opening weekend &mdash; re-cover only on a genuine reversal (awards traction or an unusual legs story)"
+    },
+    {
+      "subject": "Kolibri / Aleph Alpha (78.1B MoE)",
+      "type": "Discrete event (AI model)",
+      "last_covered": "No. 122",
+      "last_peg": "Technology LEAD &mdash; released 3 Oct on German Unity Day, Apache 2.0, 768 B200s for 21 days; the company signed 16 Sep to merge into Cohere and trade under that name",
+      "next_peg": "Next peg: the first independent evaluation, llama.cpp support, or the merger closing"
+    },
+    {
+      "subject": "llama.cpp PR 27694 / 29924 (speculative sampling)",
+      "type": "Discrete event (open source)",
+      "last_covered": "No. 122",
+      "last_peg": "The Home Lab LEAD &mdash; 27694 merged 2 Oct (+5.21% to +14.65% at temp>0, 0% at temp 0); regression reported 3 Oct, fix 29924 still open (509.6&rarr;375.1&rarr;500.7 t/s)",
+      "next_peg": "Next peg: 29924 merging, or an independent reproduction of either"
+    },
+    {
+      "subject": "ETIAS (EU travel authorisation)",
+      "type": "Developing / evergreen",
+      "last_covered": "No. 122",
+      "last_peg": "Travel Desk &mdash; CORRECTION: no start date exists at the EU source; fee raised &euro;7&rarr;&euro;20, in a two-month review, effective when the system goes live",
+      "next_peg": "Next peg: the EU announcing an actual start date. Never print a Q-dated launch again without the Commission&rsquo;s own page"
+    },
+    {
+      "subject": "Jigokudani Yaen-koen (Snow Monkey Park)",
+      "type": "Discrete / evergreen (destination asset)",
+      "last_covered": "No. 122",
+      "last_peg": "Travel Desk &mdash; online tickets from 6 Aug, online priority Dec&ndash;Apr, admission revision effective 1 Dec with the amount unpublished; Nagaden&rsquo;s winter bus now advance-web-only, no cash on board",
+      "next_peg": "Next peg: the new admission figure, or the winter pass editions going on sale"
+    },
+    {
+      "subject": "RTS Link (Johor Bahru&ndash;Singapore)",
+      "type": "Developing situation",
+      "last_covered": "No. 122",
+      "last_peg": "Singapore LEAD and Travel Desk &mdash; passenger service slips end-2026 &rarr; end-Feb 2027 on third-party safety certification; tests still due 31 Dec",
+      "next_peg": "Next peg: certification granted, a firm opening date, or a further slip. Delta only"
     },
     {
       "subject": "Gemini 4 Argon (Google DeepMind)",

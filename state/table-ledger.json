@@ -919,9 +919,10 @@
       "venue": "Decker Barbecue",
       "key": "Decker Barbecue",
       "runs": [
-        111
+        111,
+        121
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 111 build",
       "note": "opening run — record the peg here"
     },
@@ -1010,9 +1011,10 @@
       "venue": "OJEJE",
       "key": "OJEJE",
       "runs": [
-        113
+        113,
+        122
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 113 build",
       "note": "opening run — record the peg here"
     },
@@ -1215,6 +1217,46 @@
       "status": "OPEN",
       "checked": "No. 120 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "KOKO Kawane",
+      "key": "KOKO Kawane",
+      "runs": [
+        121
+      ],
+      "status": "OPEN",
+      "checked": "No. 121 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Jomaru",
+      "key": "Jomaru",
+      "runs": [
+        122
+      ],
+      "status": "OPEN",
+      "checked": "No. 122 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Little Rituals",
+      "key": "Little Rituals",
+      "runs": [
+        122
+      ],
+      "status": "OPEN",
+      "checked": "No. 122 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Yerba Yerba",
+      "key": "Yerba Yerba",
+      "runs": [
+        122
+      ],
+      "status": "OPEN",
+      "checked": "No. 122 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1264,6 +1306,8 @@
     "Mukai",
     "Bari Bari Grand",
     "Yamamoto’s Hamburg",
-    "Kimpson’s Table"
+    "Decker Barbecue",
+    "Kimpson’s Table",
+    "OJEJE"
   ]
 }

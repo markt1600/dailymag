@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Electric fans &amp; air circulators",
+      "issue": "122",
+      "angle": "One body, two motors: 39W at the AC floor against 2W on DC, for ten dollars more &mdash; the circulator-vs-oscillator geometry, the airflow figure Europe forces makers to publish and Singapore does not, Balmuda&rsquo;s own fabless admission, KDK as Panasonic, Mistral as Khind, and a diminishing-retu"
+    },
+    {
       "category": "Rice cookers &amp; donabe",
       "issue": "121",
       "angle": "<b>The grail premium buys five degrees Celsius.</b> Four electric rungs &mdash; thermostat, micom (the 40&ndash;50&deg;C soak, where the rice actually changes), IH, and pressure IH at 1.2 atm = 105&deg;C, read on Hitachi's and Toshiba's own pages. The money is in the pot: Tiger 1.5mm, Zojirushi 1.7,"
@@ -274,9 +279,9 @@
       "sources": "Saphir M&eacute;daille d&rsquo;Or vs Renovateur, horsehair vs goat, beech vs cedar trees; StyleForum care threads"
     },
     {
-      "category": "Electric fans &amp; air circulators",
+      "category": "~~Electric fans &amp; air circulators~~ (COVERED, No. 122)",
       "rotation": "Home",
-      "fit": "The appliance a Singapore household runs most hours of the year, and the one where the badge tax is largest",
+      "fit": "The appliance a Singapore household runs most hours of the year",
       "sources": "Vortex vs bladeless, DC vs AC motors, dB at distance; Balmuda, Vornado, Stadler Form, and the OEM behind them"
     },
     {
@@ -353,6 +358,16 @@
       "category": "Chef&#39;s aprons &amp; kitchen textiles",
       "retired": "6 Sep 2026",
       "note": "Reader eliminated it. Was pipelined as Home / kitchen — the waxed-canvas and linen apron makers (Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife). Row was originally typed in the pipeline's four-column shape under this three-column header; re-cast 6 Sep 2026 when the Retired ta"
+    },
+    {
+      "category": "Dehumidifiers &amp; air treatment",
+      "retired": "Home / climate",
+      "note": "The appliance that actually decides a Singapore wardrobe&rsquo;s life; compressor against desiccant, and the litres-a-day claim tested · Mitsubishi, Panasonic, Novita, Delonghi; the published extraction standard nobody quotes"
+    },
+    {
+      "category": "Ironing boards, irons &amp; steam generators",
+      "retired": "Home / laundry",
+      "note": "A daily object with a real engineering hierarchy and an enormous badge tax · Laurastar, Philips, Rowenta; boiler pressure, soleplate materials, r/BuyItForLife"
     }
   ]
 }

@@ -134,7 +134,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | GAMJA | GAMJA | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | Marymount Bakehouse | Marymount Bakehouse | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | Kali Kali | Kali Kali | 113 | OPEN | No. 113 build | opening run — record the peg here |
-| OJEJE | OJEJE | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| OJEJE | OJEJE | 113, 122 | SPENT | No. 113 build | opening run — record the peg here |
 | Elijah Pies | Elijah Pies | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | LingZhi Greens | LingZhi Greens | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Gepuk Guys | Gepuk Guys | 114 | OPEN | No. 114 build | opening run — record the peg here |
@@ -156,3 +156,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Tanica | Tanica | 118 | OPEN | No. 118 build | opening run — record the peg here |
 | Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120 | OPEN | No. 120 build | opening run — record the peg here |
 | KOKO Kawane | KOKO Kawane | 121 | OPEN | No. 121 build | opening run — record the peg here |
+| Jomaru | Jomaru | 122 | OPEN | No. 122 build | opening run — record the peg here |
+| Little Rituals | Little Rituals | 122 | OPEN | No. 122 build | opening run — record the peg here |
+| Yerba Yerba | Yerba Yerba | 122 | OPEN | No. 122 build | opening run — record the peg here |
