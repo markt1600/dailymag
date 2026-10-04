@@ -971,9 +971,10 @@
       "venue": "Cloudmills",
       "key": "Cloudmills",
       "runs": [
-        113
+        113,
+        123
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 113 build",
       "note": "opening run — record the peg here"
     },
@@ -1001,9 +1002,10 @@
       "venue": "Kali Kali",
       "key": "Kali Kali",
       "runs": [
-        113
+        113,
+        123
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 113 build",
       "note": "opening run — record the peg here"
     },
@@ -1022,9 +1024,10 @@
       "venue": "Elijah Pies",
       "key": "Elijah Pies",
       "runs": [
-        114
+        114,
+        123
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 114 build",
       "note": "opening run — record the peg here"
     },
@@ -1102,9 +1105,10 @@
       "venue": "Maison Yoshoku",
       "key": "Maison Yoshoku",
       "runs": [
-        116
+        116,
+        123
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 116 build",
       "note": "opening run — record the peg here"
     },
@@ -1257,6 +1261,16 @@
       "status": "OPEN",
       "checked": "No. 122 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "I’m Donut?",
+      "key": "I’m Donut?",
+      "runs": [
+        123
+      ],
+      "status": "OPEN",
+      "checked": "No. 123 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1308,6 +1322,10 @@
     "Yamamoto’s Hamburg",
     "Decker Barbecue",
     "Kimpson’s Table",
-    "OJEJE"
+    "Cloudmills",
+    "Kali Kali",
+    "OJEJE",
+    "Elijah Pies",
+    "Maison Yoshoku"
   ]
 }

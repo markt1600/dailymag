@@ -1,5 +1,5 @@
 {
-  "count": 879,
+  "count": 887,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,62 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Nothing Headphone (1) Pro",
+      "type": "Discrete product (audio)",
+      "last_covered": "No. 123",
+      "last_peg": "The Kit CO-LEAD &mdash; on sale 29 Sep, US$399/&pound;349, sold out at the maker; 40mm + 13&times;8mm dynamic + xMEMS treble driver, claimed 46dB ANC from 10 mics, 68h/30h. NO independent validation of the ANC or battery claims; no SG price (local storefront 404)",
+      "next_peg": "Next peg: an anechoic ANC measurement, a Singapore price, or owner reports"
+    },
+    {
+      "subject": "Technics EAH-A1000",
+      "type": "Discrete product (audio)",
+      "last_covered": "No. 123",
+      "last_peg": "The Kit CO-LEAD &mdash; on sale 30 Sep, US$449/&pound;399/&euro;449/A$699; 40mm magnetic-fluid driver, 8-mic ANC, LDAC, Atmos head tracking. Battery claim INDEPENDENTLY TESTED by Kashfia Kabir: 45h ANC on, 90h off, iPhone 16/AAC. No SG price",
+      "next_peg": "Next peg: an SG price or a lab ANC curve. Do not re-run the launch"
+    },
+    {
+      "subject": "Armin Strom Tribute&sup3; Au750",
+      "type": "Discrete product (watch)",
+      "last_covered": "No. 123",
+      "last_peg": "The Good Life LEAD &mdash; 38&times;9.38mm 18k rose gold case, dial AND movement; AMW21 manual, 137 components, 21 jewels, 100h reserve; 8 pieces, CHF 69,000. Price SINGLE-SOURCED to Monochrome &mdash; armin-strom.com returned 503 then reset",
+      "next_peg": "Next peg: a maker-published price, or a second hands-on. SINGLE-SOURCED &mdash; flag again if re-run"
+    },
+    {
+      "subject": "Raymond Weil Millesime Jubilee Chronograph",
+      "type": "Discrete product (watch)",
+      "last_covered": "No. 123",
+      "last_peg": "The Good Life &mdash; ref. 7776-STC-65501, 50th anniversary, 500 pieces; 39&times;12.9mm steel, calibre RW5030 on a Sellita SW510, 56h, no date. <b>CHF 3,895 read at the maker&rsquo;s own product feed.</b> Its published EUR and USD figures are identical (4,275) and were not verified",
+      "next_peg": "Next peg: a full review, or SG availability"
+    },
+    {
+      "subject": "Verity (film)",
+      "type": "Discrete release (film)",
+      "last_covered": "No. 123",
+      "last_peg": "Screen LEAD &mdash; wide release 2 Oct; Friday US$15.1m from 3,510 theatres, weekend <b>US$32.6m</b> at No. 1 (Sunday estimated); Metacritic 45 from 32 reviews (16/59/25), RT 34% from 134 against a 70% audience score",
+      "next_peg": "SATURATED after the second weekend unless the hold or an award changes the story"
+    },
+    {
+      "subject": "Digger (film)",
+      "type": "Discrete release (film)",
+      "last_covered": "No. 123",
+      "last_peg": "Screen &mdash; 2 Oct, I&ntilde;&aacute;rritu/Cruise, VistaVision+IMAX; opened fifth at <b>US$8.0m</b> against the studio&rsquo;s own US$12&ndash;15m projection; Metacritic 45 from 56 (27/46/27), RT 51% from 254 against 71% audience. <b>Budget unsettled: US$125m vs US$140&ndash;180m</b>",
+      "next_peg": "Next peg: a settled budget figure or the second weekend. Do not print a &ldquo;flop&rdquo; verdict without the denominator"
+    },
+    {
+      "subject": "Kindle range (2026 redesign)",
+      "type": "Discrete product (e-reader)",
+      "last_covered": "No. 123",
+      "last_peg": "The Kit brief &mdash; Paperwhite US$199.99, Signature US$249.99, Colorsoft US$289.99/319.99, entry US$149.99. 12-week battery claim UNVALIDATED. <b>Singapore is not among the nineteen launch markets</b>",
+      "next_peg": "Next peg: a review with a measured battery figure, or SG availability"
+    },
+    {
+      "subject": "NVIDIA DGX Spark 64GB",
+      "type": "Discrete product (hardware)",
+      "last_covered": "No. 123",
+      "last_peg": "The Home Lab brief &mdash; from US$4,999, available 23 Oct through six OEMs; vendor claims 100B params on one unit, 200B on two clustered, up to 1.7&times;. No independent test exists",
+      "next_peg": "Next peg: the first independent benchmark. Vendor claims only so far"
     },
     {
       "subject": "Neurable One (EEG headphone)",

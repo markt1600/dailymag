@@ -130,12 +130,12 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Kimpson’s Table | Kimpson’s Table | 112, 120 | SPENT | No. 112 build | opening run — record the peg here |
 | Kappo Suguru | Kappo Suguru | 112 | OPEN | No. 112 build | opening run — record the peg here |
-| Cloudmills | Cloudmills | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| Cloudmills | Cloudmills | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
 | GAMJA | GAMJA | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | Marymount Bakehouse | Marymount Bakehouse | 113 | OPEN | No. 113 build | opening run — record the peg here |
-| Kali Kali | Kali Kali | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| Kali Kali | Kali Kali | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
 | OJEJE | OJEJE | 113, 122 | SPENT | No. 113 build | opening run — record the peg here |
-| Elijah Pies | Elijah Pies | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| Elijah Pies | Elijah Pies | 114, 123 | SPENT | No. 114 build | opening run — record the peg here |
 | LingZhi Greens | LingZhi Greens | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Gepuk Guys | Gepuk Guys | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114 | OPEN | No. 114 build | opening run — record the peg here |
@@ -143,7 +143,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Fico at Tanjong Beach Club | Fico at Tanjong Beach Club | 115 | OPEN | No. 115 build | opening run — record the peg here |
 | Whuchu | Whuchu | 115 | OPEN | No. 115 build | opening run — record the peg here |
 | Moutai House | Moutai House | 115 | OPEN | No. 115 build | opening run — record the peg here |
-| Maison Yoshoku | Maison Yoshoku | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Maison Yoshoku | Maison Yoshoku | 116, 123 | SPENT | No. 116 build | opening run — record the peg here |
 | Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Shared Table | Shared Table | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | VE/LA | VE/LA | 116 | OPEN | No. 116 build | opening run — record the peg here |
@@ -159,3 +159,4 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Jomaru | Jomaru | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Little Rituals | Little Rituals | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Yerba Yerba | Yerba Yerba | 122 | OPEN | No. 122 build | opening run — record the peg here |
+| I’m Donut? | I’m Donut? | 123 | OPEN | No. 123 build | opening run — record the peg here |
