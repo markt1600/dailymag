@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Tripods &amp; tripod heads",
+      "issue": "124",
+      "angle": "<b>Almost nothing on the box is a measurement.</b> One publisher of numbers exists (The Center Column, Nm/rad and Js/rad by torsion-spring excitation). MATERIALS: carbon&rsquo;s quoted 181 GPa against aluminium&rsquo;s 69, but real tripod composite measures <b>30&ndash;50</b>; the Manfrotto 055 pair"
+    },
+    {
       "category": "Shoe care (creams, brushes &amp; trees)",
       "issue": "123",
       "angle": "<b>Three independent names on a good shelf, one owner.</b> THE WHITE-LABEL FINDING: <b>Avel</b> (Charente, founded by Alexandre Moura 1977, bought Saphir 1979, inside the Alma group) owns <b>Saphir, Tarrago, La Cordonnerie Anglaise and Dasco</b> &mdash; plus a last factory and two in-house chemists "
@@ -254,6 +259,24 @@
   "queued": [],
   "pipeline": [
     {
+      "category": "Binoculars (prisms, coatings &amp; the badge tax)",
+      "rotation": "Optics",
+      "fit": "Roof against porro, phase coating and ED glass; who actually grinds the glass, and what a Zeiss costs over a Kowa of the same prescription",
+      "sources": "Zeiss, Swarovski, Leica, Nikon, Kowa, Vortex; Cloudy Nights, BirdForum, r/Binoculars"
+    },
+    {
+      "category": "Mattresses &amp; slat bases",
+      "rotation": "Home",
+      "fit": "Latex against pocket springs, and what tropical humidity does to both &mdash; the one purchase a third of a life is spent on",
+      "sources": "Hypnos, Vispring, Hästens, Origin; r/Mattress, the Singapore foam makers"
+    },
+    {
+      "category": "Carbon-steel and cast-iron frying pans",
+      "rotation": "Kitchen",
+      "fit": "Distinct from the No. 88 cookware desk &mdash; the thin, light, seasoned pan and the French and Japanese houses that still forge them",
+      "sources": "de Buyer, Mauviel, Turk, Netherton Foundry, Oigen; r/carbonsteel"
+    },
+    {
       "category": "~~EDC torches &amp; headlamps~~ (COVERED, No. 119)",
       "rotation": "Carry",
       "fit": "Emitter binning and driver quality; the OEMs behind Western logos; humidity-proof seals for the tropics",
@@ -332,7 +355,7 @@
       "sources": "Horween shell cordovan, hand saddle-stitch; r/BuyItForLife, Rose Anvil teardowns"
     },
     {
-      "category": "Travel tripods &amp; heads",
+      "category": "~~Travel tripods &amp; heads~~ (COVERED, No. 124)",
       "rotation": "Carry / photo",
       "fit": "The reader shoots; the real argument is the locking mechanism and the head, not the leg count",
       "sources": "Gitzo/RRS/Leofoto/Peak Design; r/photography, the conglomerate story from the No.114 desk"

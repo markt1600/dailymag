@@ -1,0 +1,788 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 124,
+ "date": "Tuesday 6 October 2026",
+ "title": "The declared and the counted",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the sixth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Iran says the Strait of Hormuz is shut. Two cargo trackers, two investment banks and Saudi Arabia's own price list say it is open."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A reporter in Nebraska got Google's water and power numbers by dragging a cursor across a black box."
+  },
+  {
+   "s": "A",
+   "t": "And two films opened one point apart on the critics' scale. One took four times the money."
+  },
+  {
+   "s": "B",
+   "t": "[amused] No spine today, by the way. Claire made me check."
+  },
+  {
+   "s": "A",
+   "t": "No spine. Three themed issues in a row is enough. This one's a straight news book."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I like it when the magazine admits it's a magazine. Start with Hormuz."
+  },
+  {
+   "s": "A",
+   "t": "Day two hundred and nineteen. Sunday, Iran's parliamentary speaker, Mohammad Baqer Qalibaf, said the strait will not open until seven conditions are met."
+  },
+  {
+   "s": "B",
+   "t": "What are the seven conditions?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody publishes them. We looked, and so we don't list them."
+  },
+  {
+   "s": "B",
+   "t": "Fair. So what's going through?"
+  },
+  {
+   "s": "A",
+   "t": "That depends who you ask, and that is the whole story. The Revolutionary Guard's deputy commander, Ali Fadavi, put it at three to four million barrels a day and called it negligible."
+  },
+  {
+   "s": "B",
+   "t": "And the trackers?"
+  },
+  {
+   "s": "A",
+   "t": "Kpler has Middle East crude exports at a seven-day average of eighteen point three million barrels a day on the thirtieth of September — above the pre-war average on fourteen days that month."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's not a small gap."
+  },
+  {
+   "s": "A",
+   "t": "Vortexa has eighteen point six. JPMorgan puts Gulf throughput at seventeen and a half, and Goldman says shipments are at ninety-eight per cent of pre-war."
+  },
+  {
+   "s": "B",
+   "t": "So the Guard's own number is what — a fifth?"
+  },
+  {
+   "s": "A",
+   "t": "A fifth of the smallest. Our own arithmetic: Kpler's figure is four point six times the Guard's, and six point one at the low end of its range. Somebody is. And some is definitional — Middle East exports is not laden transits of the strait. Radio Free Europe finds forty per cent of Gulf crude now bypassing Hormuz through Saudi and Emirati pipelines."
+  },
+  {
+   "s": "B",
+   "t": "Ah. So you'd want a count taken at the strait itself."
+  },
+  {
+   "s": "A",
+   "t": "Nobody publishes one. That's the one number that would settle it, and it does not exist."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Then there's the Aramco thing, which I still can't get over."
+  },
+  {
+   "s": "A",
+   "t": "Monday, in London, Aramco's chief executive Amin Nasser told an energy forum the world's supply cushion is — his words — scarily thin."
+  },
+  {
+   "s": "B",
+   "t": "And on the same day?"
+  },
+  {
+   "s": "A",
+   "t": "Aramco widened the discount it offers Asian refiners to five dollars below the Oman–Dubai average. A six-year low. It had been two dollars in October."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] You do not cut your price to your biggest customers on the morning you announce a shortage."
+  },
+  {
+   "s": "A",
+   "t": "You do if you're fighting for market share in a market you expect to be well supplied. And OPEC-plus held November output flat on Sunday."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Everyone's behaviour contradicts everyone's statements."
+  },
+  {
+   "s": "A",
+   "t": "One more. Nasser gave three inventory figures in one speech. The world entered the war with about ten billion barrels. More than one billion has been drawn down. Under six billion remains."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Ten minus one is nine."
+  },
+  {
+   "s": "A",
+   "t": "Ten minus one is nine. And his own prescription — two million extra barrels a day for eighteen months — comes to one point oh nine billion. Almost exactly the drawdown he describes."
+  },
+  {
+   "s": "B",
+   "t": "And nothing like the four billion the first and third numbers imply."
+  },
+  {
+   "s": "A",
+   "t": "We print all three and none of the arithmetic as settled."
+  },
+  {
+   "s": "B",
+   "t": "What about the community read? Is anyone arguing about this?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] That is the finding. In March, Hacker News ran a Hormuz thread to six hundred and sixty-two points and four hundred and fifty-two comments."
+  },
+  {
+   "s": "B",
+   "t": "And now?"
+  },
+  {
+   "s": "A",
+   "t": "Across the third to the fifth of October, its only Hormuz submission was the wire story about the Group of Seven's hundred million barrels. Three points. One comment."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Everyone got bored of the apocalypse."
+  },
+  {
+   "s": "A",
+   "t": "Reddit was unreachable to us on every route this morning, so we claim nothing for it."
+  },
+  {
+   "s": "B",
+   "t": "There's a second chokepoint on page four."
+  },
+  {
+   "s": "A",
+   "t": "Yemen. Sunday, the chairman of the ruling council in Aden announced an offensive to retake all remaining Houthi-held ground, with Saudi air support. By Monday it claimed the heights above Bab el-Mandeb and the port of Mokha."
+  },
+  {
+   "s": "B",
+   "t": "Verified?"
+  },
+  {
+   "s": "A",
+   "t": "Al Jazeera, which carried the whole thing, printed the sentence that governs the file: it could not independently verify the battlefield reports."
+  },
+  {
+   "s": "B",
+   "t": "And the coalition's numbers?"
+  },
+  {
+   "s": "A",
+   "t": "This is the bit. The coalition spokesman, Major General Turki al-Malki, described a hundred fighter jets flying round the clock. To one outlet he put the tally at three hundred and twenty-four high-value targets destroyed. In another account of the same briefing, he said only — hundreds."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] One is a count. The other is an adjective."
+  },
+  {
+   "s": "A",
+   "t": "Same man, same day."
+  },
+  {
+   "s": "A",
+   "t": "Home. The haze has not broken."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] I could smell it walking in."
+  },
+  {
+   "s": "A",
+   "t": "We pulled the environment agency's own feed at five this morning, timestamped, twice. One hundred and thirty-two central, one hundred and eighteen west, one hundred and eleven east, one hundred and seven north."
+  },
+  {
+   "s": "B",
+   "t": "Four of five regions Unhealthy."
+  },
+  {
+   "s": "A",
+   "t": "Last night the central region touched one hundred and thirty-four. All five above a hundred at once."
+  },
+  {
+   "s": "B",
+   "t": "And today?"
+  },
+  {
+   "s": "A",
+   "t": "Fair and warm. A high of thirty-five degrees, light south-southeasterlies, and no rain forecast in any period to midnight tomorrow. Nothing in that clears smoke."
+  },
+  {
+   "s": "B",
+   "t": "So what does the government actually say to do?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the tension. Above a hundred and one, the elderly, pregnant women, children and anyone with lung or heart disease are told to curtail activity. The level at which a healthy adult outdoors is first advised to wear an N-ninety-five mask is three hundred."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So at one thirty-two, officially, you don't need a mask."
+  },
+  {
+   "s": "A",
+   "t": "Both of those are in force this morning."
+  },
+  {
+   "s": "B",
+   "t": "And the law that was supposed to deal with the source?"
+  },
+  {
+   "s": "A",
+   "t": "Singapore passed the Transboundary Haze Pollution Act in twenty-fourteen, to reach companies abroad whose fires foul its air. Asked about it in Parliament in February, the minister said the haze had not reached levels that would warrant investigating under it. And gave no enforcement figures. A professor at the national university describes the strategy to a wire service as waiting for Indonesia to name companies first, and then acting against the same companies."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] That's not a strategy, that's a queue."
+  },
+  {
+   "s": "A",
+   "t": "Money block. Friday's American labour report was soft in every direction. Twenty-nine thousand jobs, where forecasters had looked for about ninety. Unemployment up to four point two per cent, for the right reason — participation rose. And revisions took sixty thousand out of the two prior months. July went from plus twenty-one thousand to minus ten thousand."
+  },
+  {
+   "s": "B",
+   "t": "An outright contraction, revised in."
+  },
+  {
+   "s": "A",
+   "t": "By Monday the market put the odds of an October rate hike below twenty per cent. Hike. That's the cycle we're in. And equities took the reprieve — the S and P closed within half a per cent of its high, Asia up about one per cent, the Nikkei two. Bonds did not. The ten-year rose three and a half basis points to five point three one one per cent into the close."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Wait. A soft jobs print, stocks up, and the long end sold off anyway?"
+  },
+  {
+   "s": "A",
+   "t": "That's the single most informative fact in the file. And we can show why. Take the ten-year's thirty-two basis point rise from the twenty-second of September to the second of October. The inflation-protected series went from two point six three to two point nine two — twenty-nine basis points of real yield."
+  },
+  {
+   "s": "B",
+   "t": "And the inflation expectation part?"
+  },
+  {
+   "s": "A",
+   "t": "Three basis points. The breakeven has sat at two point three six per cent for four straight sessions. Ninety-one per cent of the move was real yield."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So this isn't an inflation scare at all."
+  },
+  {
+   "s": "A",
+   "t": "And a second decomposition, on different machinery, agrees. The New York Fed's model puts the ten-year term premium at nought point seven seven on the twenty-fifth of September and nought point nine one on the second of October. Against a fitted yield that rose eleven point six. And the risk-neutral component — the market's expected path of short rates — actually fell."
+  },
+  {
+   "s": "B",
+   "t": "More than the whole move was the price of holding duration."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that. The curve has bear-steepened twenty-five basis points in eight sessions."
+  },
+  {
+   "s": "B",
+   "t": "So what does it mean for the four things we watch?"
+  },
+  {
+   "s": "A",
+   "t": "Global equities are paid for the central-bank leg and ignore the term-premium leg. Global bonds make new lows on a real yield near two point nine per cent while the inflation expectation has not budged — holders are losing to duration, not inflation."
+  },
+  {
+   "s": "B",
+   "t": "And gold?"
+  },
+  {
+   "s": "A",
+   "t": "Twenty-six per cent below January's record, and flat on a day that eased hike risk. That tells you the handle is the real yield, not the policy path."
+  },
+  {
+   "s": "B",
+   "t": "Bitcoin?"
+  },
+  {
+   "s": "A",
+   "t": "Thirty-two per cent off its own high with the dollar near a one-year high. It's trading as the highest-beta claim on dollar liquidity, not as debasement insurance. Explanation, not advice. And a correction — a term premium of one point four five is circulating for the first of October. The Federal Reserve's own file says nought point nine."
+  },
+  {
+   "s": "B",
+   "t": "[wry] We do love a wrong number."
+  },
+  {
+   "s": "A",
+   "t": "Also: Singapore's policy statement is not later than the fourteenth of October. A ceiling, not a date."
+  },
+  {
+   "s": "A",
+   "t": "Technology. Lincoln, Nebraska."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] This is my favourite story of the week and it's about a PDF."
+  },
+  {
+   "s": "A",
+   "t": "The governor signed an order in July requiring data centres to report what they consume. Google's Lincoln site filed, and asked that the figures be withheld as trade secrets. The department published the report with black boxes over them."
+  },
+  {
+   "s": "B",
+   "t": "And somebody selected the text."
+  },
+  {
+   "s": "A",
+   "t": "A reporter at the local television station highlighted the boxes, copied, and pasted. Thirteen point two nine nine megagallons of water a year. Fifty-two point six five megawatts peak demand."
+  },
+  {
+   "s": "B",
+   "t": "Is that a lot?"
+  },
+  {
+   "s": "A",
+   "t": "The water isn't — about twenty Olympic pools a year. The power is the one that matters: run flat out, four hundred and sixty-one gigawatt-hours a year."
+  },
+  {
+   "s": "B",
+   "t": "So the secret was — unremarkable."
+  },
+  {
+   "s": "A",
+   "t": "The fight to keep it wasn't. The same claim was filed over all three of the company's Nebraska sites."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Rockhounding and fossil hunting. The field side — the finding, not the finishing. About twenty thousand adult Tyrannosaurus rex alive at any one time, generations of about nineteen years, across two and a half million years. Roughly two and a half billion individuals ever lived."
+  },
+  {
+   "s": "B",
+   "t": "And how many have we found?"
+  },
+  {
+   "s": "A",
+   "t": "Fewer than a hundred. Of which about thirty-two are well-preserved adults in public museums. One in eighty million. And that ratio explains everything else. It explains the fakes, because demand exceeds supply by orders of magnitude, and why vertebrate fossils are legally ring-fenced."
+  },
+  {
+   "s": "B",
+   "t": "And why people obsess over the label."
+  },
+  {
+   "s": "A",
+   "t": "A specimen without a locality label has thrown away the only thing that made it a one-in-eighty-million object rather than a rock."
+  },
+  {
+   "s": "B",
+   "t": "What's the front door into this hobby?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] A subreddit called what's this rock, at roughly two hundred and seventy-seven thousand members. The collectors' subreddit is nine thousand three hundred."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Twenty to thirty times as many people want a rock identified as want to own one."
+  },
+  {
+   "s": "A",
+   "t": "The counts are from a tracker that stopped updating in twenty twenty-three, so read them as floors. Reddit refused us, as it did all morning."
+  },
+  {
+   "s": "B",
+   "t": "Give me the mechanism. You always have one."
+  },
+  {
+   "s": "A",
+   "t": "A pegmatite is the last one or two per cent of a cooling granite magma — all the elements that won't fit a feldspar or quartz lattice end up there: lithium, beryllium, boron, fluorine, water."
+  },
+  {
+   "s": "B",
+   "t": "And that does what?"
+  },
+  {
+   "s": "A",
+   "t": "Those fluxes depress the melting point so the melt stays liquid far below where granite freezes, and collapse its viscosity so atoms travel enormous distances to a growing face."
+  },
+  {
+   "s": "B",
+   "t": "Meaning?"
+  },
+  {
+   "s": "A",
+   "t": "Metre-scale crystals grow in days to a few years. Not millennia."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Days?"
+  },
+  {
+   "s": "A",
+   "t": "Days to months for the whole body to solidify. Which is practical advice, not trivia — it tells you to work the coarse zone, follow the quartz core, and look for the void where the fluid finally outgassed."
+  },
+  {
+   "s": "B",
+   "t": "And the gear? There's always a ladder."
+  },
+  {
+   "s": "A",
+   "t": "There is, and it spans a hundred and thirty times. A longwave ultraviolet torch is about fifty dollars. The classic fluorescent response — willemite green, calcite red — is a shortwave response, and a shortwave bench lamp is six thousand five hundred and ninety-five. And the law is the thing actually worth printing. American federal rules: twenty-five pounds a day, non-powered hand tools, negligible disturbance. Common invertebrates and plants only. Never a vertebrate without a permit, and what a permit-holder collects remains public property."
+  },
+  {
+   "s": "B",
+   "t": "What's the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "A fake industry older than most collectors. A French dealer publishes a detection guide against his own interest and traces it to the nineteenth century — Barrande's stone men near Prague, paid more for better finds, who began making them."
+  },
+  {
+   "s": "B",
+   "t": "And museums bought them?"
+  },
+  {
+   "s": "A",
+   "t": "His words: many of these tricked trilobites have even found their way into the collections of major European museums. One was assembled from the head of one species, the tail of another, and four segments of thorax."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the modern version?"
+  },
+  {
+   "s": "A",
+   "t": "Morocco. And he's careful about where blame sits — the workshops sell openly as replicas. His line is that the idea of forgery is not attributable to Moroccans, but to American and European dealers who encouraged it."
+  },
+  {
+   "s": "B",
+   "t": "Any way to tell?"
+  },
+  {
+   "s": "A",
+   "t": "Resin bubbles under half a millimetre, a colour break between resin and rock, and no crack line — genuine Moroccan rock is hard enough that the split runs across the matrix. There is no authentication body at retail for either."
+  },
+  {
+   "s": "A",
+   "t": "The Atelier. Tripods."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Okay, sell me on tripods."
+  },
+  {
+   "s": "A",
+   "t": "One man publishes measurements for this entire category and nobody else does. He excites a locked tripod with a torsion spring and measures rotational stiffness."
+  },
+  {
+   "s": "B",
+   "t": "And what did he find?"
+  },
+  {
+   "s": "A",
+   "t": "That carbon fibre's quoted stiffness is a hundred and eighty-one gigapascals against aluminium's sixty-nine — but real tripod composite measures as low as thirty to fifty. Worse than aluminium."
+  },
+  {
+   "s": "B",
+   "t": "So carbon fibre is a category, not a specification."
+  },
+  {
+   "s": "A",
+   "t": "His point exactly. And the layer count printed on a leg — eight layers, ten layers — is a Chinese retail convention. The number that actually decides a leg is the wall thickness and diameter of its bottom section, which nobody prints."
+  },
+  {
+   "s": "B",
+   "t": "What about load ratings? Everyone quotes those."
+  },
+  {
+   "s": "A",
+   "t": "Manfrotto told him, on the record, that there is no industry standard for determining the weight capacity of tripods and heads, and that its own method is proprietary and it is not permitted to go into detail. Plotted against measured stiffness, any rating covers a spread of about five to one."
+  },
+  {
+   "s": "B",
+   "t": "And the money question. Where does the curve go flat?"
+  },
+  {
+   "s": "A",
+   "t": "The stiffest ball head anyone has ever measured is a Feisol, at thirteen thousand two hundred and fifty-three newton metres per radian. Three hundred and thirty-four dollars and ninety-five cents."
+  },
+  {
+   "s": "B",
+   "t": "Against?"
+  },
+  {
+   "s": "A",
+   "t": "An eight-hundred-and-sixty-three-dollar name does eight thousand eight hundred and sixty-three. The grail, at one thousand seven hundred and fourteen, is an Arca-Swiss Cube — which is not stiffer. It's geared."
+  },
+  {
+   "s": "B",
+   "t": "So you're buying repeatability, not rigidity."
+  },
+  {
+   "s": "A",
+   "t": "And, in the tropics, exposed gears that ingest sand. One more. The holding company behind Manfrotto, Gitzo, Sachtler and O'Connor is British. Gitzo's French company survives as a holding shell; the tripods have been Italian since two thousand and five. Its accounts name factories in Italy, the United States and Costa Rica — the last explicitly for the incentive tax rate — plus a procurement centre in Shenzhen."
+  },
+  {
+   "s": "B",
+   "t": "A French badge, an Italian factory and a Shenzhen office."
+  },
+  {
+   "s": "A",
+   "t": "And in March it raised eighty-five million pounds at a price equivalent to one and a third pence a share."
+  },
+  {
+   "s": "A",
+   "t": "Quickly through culture and the body. Two wide releases opened on the same Friday into near-identical critical indifference. Metascores of forty-five and forty-six. One took thirty-two point six million dollars. The other took eight. Nine thousand two hundred and ninety-three dollars a screen against two thousand four hundred and nine."
+  },
+  {
+   "s": "B",
+   "t": "So what did the score measure?"
+  },
+  {
+   "s": "A",
+   "t": "Not that. And the identical averages hide opposite distributions — critics split hard on one film, two hundred and seventy-one reviews, and were uniformly unmoved by the other, from half as many."
+  },
+  {
+   "s": "B",
+   "t": "The review count predicted it better than the score."
+  },
+  {
+   "s": "A",
+   "t": "The family desk. Two of the best-designed studies of adolescents and social media published this year came out on the same Wednesday."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "The first followed nine thousand seven hundred and forty-seven children across four years. Every effect size between nought point oh five and nought point one three."
+  },
+  {
+   "s": "B",
+   "t": "Which in plain terms is?"
+  },
+  {
+   "s": "A",
+   "t": "A beta of nought point oh six is on the order of four-tenths of one per cent of variance. Detectable in nine thousand seven hundred children. Invisible in any one of them."
+  },
+  {
+   "s": "B",
+   "t": "And the second?"
+  },
+  {
+   "s": "A",
+   "t": "A hundred-day diary of four hundred and seventy-nine adolescents. Forty-four thousand completed observations. The average daily effect on stress was nought point oh three — the authors' own word is negligible. They do. Positive for thirty-seven per cent of adolescents, negative for fourteen point two. Roughly half, nothing at all."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So how do I know which my kid is?"
+  },
+  {
+   "s": "A",
+   "t": "You don't. Gender, age and trait resilience did not predict it. The authors looked."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's a hard thing to tell a parent."
+  },
+  {
+   "s": "A",
+   "t": "It's the honest thing. And locally — Singapore's secondary schools have kept phones in lockers through every school hour since January. Three terms."
+  },
+  {
+   "s": "B",
+   "t": "Did it work?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody has said. The ministry's release contains no baseline figure and no citation. Asked in Parliament, it reported sharing practices from schools that saw positive outcomes."
+  },
+  {
+   "s": "B",
+   "t": "What outcome?"
+  },
+  {
+   "s": "A",
+   "t": "No metric. No baseline. No instrument. No reporting date. Fitness, fast. Four weeks of isometric wall squats, three times a week, took nine and a half points off systolic pressure in a hundred adults. Then they asked how little you can do to keep it. Three times a week holds everything. Once a week holds about half the number and loses the vascular and autonomic gains. Stopping regresses to control inside four weeks."
+  },
+  {
+   "s": "B",
+   "t": "So it's a subscription, not an investment."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic is a safety finding. A separate team put continuous blood-pressure monitoring on sixty-two healthy young adults doing exactly those exercises."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "Ninety-seven per cent doing a plank and ninety-eight per cent doing a wall sit had to be stopped for exceeding the diastolic safety ceiling. After about fifty seconds. Among the women, a hundred per cent on both. No adverse events, and nobody reached the systolic limit. But nobody has tested this dose in people who aren't twenty-six. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Give me the closing thought."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Vanuatu. There's a word — nakamal. In Bislama it means a kava bar now. It didn't start there."
+  },
+  {
+   "s": "B",
+   "t": "What did it mean?"
+  },
+  {
+   "s": "A",
+   "t": "The men's house. The structure where a chief held authority, where disputes were settled, where the village argued itself into agreement after dark."
+  },
+  {
+   "s": "B",
+   "t": "And now it's a bar."
+  },
+  {
+   "s": "A",
+   "t": "Now it sells you a shell of kava at a price. And kava is sixty-eight and a half per cent of what Vanuatu sells abroad."
+  },
+  {
+   "s": "B",
+   "t": "So the price went up."
+  },
+  {
+   "s": "A",
+   "t": "The farmgate price of green root sat at five hundred vatu a kilogram from twenty nineteen until January last year. By September a Port Vila market was paying about one thousand seven hundred."
+  },
+  {
+   "s": "B",
+   "t": "Three and a half times. [pause] That's good news, isn't it?"
+  },
+  {
+   "s": "A",
+   "t": "For twenty-seven thousand farming households, genuinely. One grower on Santo told a reporter what the money was for — to build a nice house, and a toilet and bathroom. Nothing in this argues he should have been paid less. The shell is the unit ordinary people experience the price in. In June it was fifty vatu at the bottom. Then the reporting got blunt: some bars are no longer accepting fifty-vatu shells. The rungs now start at a hundred."
+  },
+  {
+   "s": "B",
+   "t": "The cheapest drink in the country stopped existing."
+  },
+  {
+   "s": "A",
+   "t": "And in Luganville some bars have begun switching off their coloured lights and closing on certain nights. The lit lamp outside a nakamal is its open sign."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] And the women selling snacks at the door."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-vatu snacks. That income is gone with them."
+  },
+  {
+   "s": "B",
+   "t": "Why can't they just ship more in?"
+  },
+  {
+   "s": "A",
+   "t": "The capital grows essentially none. And the freight is the engine — by sea it's about thirty-three to fifty vatu a kilo. By air, when a bar runs dry, it's five hundred to a thousand. The air option exists because urban demand has become inelastic enough to pay for it. Which is itself the evidence that the nakamal turned from a commons into a business."
+  },
+  {
+   "s": "B",
+   "t": "And the men who dig the roots?"
+  },
+  {
+   "s": "A",
+   "t": "In New Zealand and Australia, on seasonal schemes. So plants come up under three years old, against Vanuatu's own Kava Act, and up to half a bag rots in transit."
+  },
+  {
+   "s": "B",
+   "t": "Is there a counter-case? There usually is."
+  },
+  {
+   "s": "A",
+   "t": "A good one. The Director of Agriculture says the shortage needs verifying, because there are no up-to-date statistics. And the president of the Port Vila Council of Chiefs — a man who owns a kava market and has every reason to cry shortage — says the opposite. There is kava in the islands; the roads make it too hard to harvest."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Everyone's diagnosis implies their own budget line."
+  },
+  {
+   "s": "A",
+   "t": "Every one. And here's what nobody has. Three figures circulate for the twenty twenty-four export value, no full-year twenty twenty-five figure appears to exist publicly, and nobody publishes the conversion between green and dried weight — so the two markets cannot be compared at all."
+  },
+  {
+   "s": "B",
+   "t": "And the thing you kept coming back to."
+  },
+  {
+   "s": "A",
+   "t": "There is no count of nakamals. Not nationally, not for the capital. In a country where that is the central social institution."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the loss doesn't appear anywhere."
+  },
+  {
+   "s": "A",
+   "t": "Export earnings are up. Farmgate prices are up. Every number a country collects about itself says this is going well, and every number is right."
+  },
+  {
+   "s": "B",
+   "t": "And the one that would say otherwise was never collected."
+  },
+  {
+   "s": "A",
+   "t": "There's a precedent. Madagascar's vanilla, twenty fifteen to twenty nineteen. About eighty-four dollars a kilogram to two hundred and five in a year, then higher. Theft from plantations. Pods pulled early and vacuum-packed green. A collapse in quality that sent buyers to substitutes. Down to the green vacuum-packed pod, which is Vanuatu's parachute bag of wet immature root. The difference is that Madagascar's vanilla was never drunk in Madagascar."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Nobody in Antalaha lost the room."
+  },
+  {
+   "s": "A",
+   "t": "A chief on Pentecost put the forecast in a sentence. Now with the high price, there is no quality control — could lead to another ban. Germany banned kava extracts in June two thousand and two, and seven other countries followed, Singapore among them. The demand side of this market has vanished on a signature before."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So what do you watch?"
+  },
+  {
+   "s": "A",
+   "t": "Not the price. The first rejected container."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Yeah. That's the one I'll be thinking about."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

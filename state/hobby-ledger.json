@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Rockhounding &amp; fossil hunting (field collecting)",
+      "issue": "124",
+      "angle": "<b>The hobby&rsquo;s hardest constraint is the law, and its governing fact is a ratio.</b> Marshall et al. (<i>Science</i>, 2021): ~20,000 adult <i>T. rex</i> standing, 19-year generations, ~127,000 generations, <b>~2.5bn individuals ever</b>; fewer than 100 found, ~32 good post-juveniles in museums"
+    },
+    {
       "hobby": "Stained glass &amp; leaded panels",
       "issue": "123",
       "angle": "<b>The hobby is booming and the trade is on an endangered list.</b> Two crafts, one word: lead came (H-section strip, cemented, structural, cathedral scale) against copper foil/Tiffany (thin line, small pieces, every edge ground). Subreddit <b>178,000, +31% in a year</b> &mdash; via a third-party sc"
@@ -309,6 +314,24 @@
   "queued": [],
   "pipeline": [
     {
+      "hobby": "Ham-free satellite tracking &amp; SatNOGS",
+      "category": "Tech / space",
+      "communities": "SatNOGS network forums, r/amateursatellites, Libre Space",
+      "fit": "A receive-only space hobby with a real open-hardware ground-station ladder"
+    },
+    {
+      "hobby": "Competitive pistol &amp; air-rifle target shooting",
+      "category": "Sport / precision",
+      "communities": "ISSF scene, Target Talk, the Singapore Gun Club&rsquo;s own programme",
+      "fit": "A millimetre discipline with a genuine equipment hierarchy and a rare legal Singapore route into it"
+    },
+    {
+      "hobby": "Tropical fish &amp; freshwater aquascaping",
+      "category": "Nature / craft",
+      "communities": "r/PlantedTank, UK Aquatic Plant Society, the ADA/Amano scene",
+      "fit": "Distinct from reef keeping: CO2, substrate chemistry and a Japanese design tradition, in a city with a serious ornamental-fish trade"
+    },
+    {
       "hobby": "~~Kite flying &amp; kite building~~ (COVERED, No. 121)",
       "category": "Outdoor / craft",
       "communities": "r/kites, Kitelife, the AKA and the Asian festival circuit",
@@ -339,7 +362,7 @@
       "fit": "Distinct from the No. 84 shortwave-listening desk: transmitting, licensing and antenna building"
     },
     {
-      "hobby": "Rockhounding &amp; fossil hunting",
+      "hobby": "~~Rockhounding &amp; fossil hunting~~ (COVERED, No. 124)",
       "category": "Outdoor / earth",
       "communities": "r/rockhounds, The Fossil Forum, local mineral-club field trips",
       "fit": "Distinct from the No. 113 lapidary desk &mdash; field collecting and site law rather than the saw and the polisher"

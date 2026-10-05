@@ -122,7 +122,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Geumdwaeji Sikdang | Geumdwaeji | 23 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Mukai | Mukai | 110, 117 | SPENT | No. 110 build | opening run — record the peg here |
 | Bari Bari Grand | Bari Bari Grand | 110, 118 | SPENT | No. 110 build | opening run — record the peg here |
-| Les Canons | Les Canons | 110 | OPEN | No. 110 build | opening run — record the peg here |
+| Les Canons | Les Canons | 110, 124 | SPENT | No. 110 build | opening run — record the peg here |
 | Yamamoto’s Hamburg | Yamamoto’s Hamburg | 111, 119 | SPENT | No. 111 build | opening run — record the peg here |
 | AO (Claymore Drive) | AO (Claymore | 119 | OPEN | No. 119 build | opening run — Cloud Restaurant Group, Araki Takeshi ex-Esora; reviewed 4/5 by a paying diner |
 | Decker Barbecue | Decker Barbecue | 111, 121 | SPENT | No. 111 build | opening run — record the peg here |
@@ -145,7 +145,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Moutai House | Moutai House | 115 | OPEN | No. 115 build | opening run — record the peg here |
 | Maison Yoshoku | Maison Yoshoku | 116, 123 | SPENT | No. 116 build | opening run — record the peg here |
 | Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
-| Shared Table | Shared Table | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Shared Table | Shared Table | 116, 124 | SPENT | No. 116 build | opening run — record the peg here |
 | VE/LA | VE/LA | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
@@ -160,3 +160,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Little Rituals | Little Rituals | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Yerba Yerba | Yerba Yerba | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | I’m Donut? | I’m Donut? | 123 | OPEN | No. 123 build | opening run — record the peg here |
+| Molly Tea | Molly Tea | 124 | OPEN | No. 124 build | opening run — record the peg here |
+| Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |

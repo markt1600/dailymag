@@ -1,5 +1,5 @@
 {
-  "count": 887,
+  "count": 899,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,90 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Omega Seamaster Diver 300M &ldquo;James Bond&rdquo; &amp; &ldquo;Spectre&rdquo;",
+      "type": "Discrete product (watch)",
+      "last_covered": "No. 124",
+      "last_peg": "The Good Life LEAD &mdash; on sale 5 Oct; ref. 210.30.42.20.03.004, 42.00&times;14.23mm steel, Grade 5 titanium bezel ring, calibre 8806 at 3.5Hz/55h, 300m, 157g; not limited. Prices read on five Omega locales: US$8,600 / &euro;8,300 DE / &euro;8,400 FR / &pound;7,200 UK / CHF7,200 CH; <b>no SGD price, the SG locale redirects to the US page</b>. Ex-tax at ECB rates the US list is 10.1% above Germa",
+      "next_peg": "CLOSED on the launch peg. Next peg = a published Singapore price, an independent accuracy test, or a secondary-market result on the sets."
+    },
+    {
+      "subject": "Neurable One",
+      "type": "Discrete product (wearable)",
+      "last_covered": "No. 124",
+      "last_peg": "The Kit LEAD &mdash; verdict run after the No. 122 announcement. First hands-on reviews (IEEE Spectrum, Gizmodo); UCSD&rsquo;s Arnaud Delorme on dry electrodes over hair; maker&rsquo;s page says 16-bit where the trade press says 24; the 80%&plusmn;4.1% figure belongs to a 2021 preprint on the earlier <i>Enten</i> prototype, not this device; cloud retention 18 months; <b>&ldquo;US only&rdquo;, no S",
+      "next_peg": "CLOSED at review level. Next peg = a published accuracy figure for THIS device, a Singapore launch price, or an independent EEG validation."
+    },
+    {
+      "subject": "Huawei FreeBuds Neo",
+      "type": "Discrete product (audio)",
+      "last_covered": "No. 124",
+      "last_peg": "The Kit &mdash; launched 1 Oct, &yen;699; 4.8g/bud, 11mm driver, IP55, 6.5h ANC / 40h with case; 30dB average ANC claimed, with a 55dB peak that appears only on the Singapore page. Nothing independently measured.",
+      "next_peg": "OPEN. Next peg = an SGD price (the SG page has a Buy button and no number), or any third-party ANC/battery measurement."
+    },
+    {
+      "subject": "Google Lincoln (Nebraska) data centre disclosure",
+      "type": "Discrete event (policy)",
+      "last_covered": "No. 124",
+      "last_peg": "Technology LEAD &mdash; 13.299 megagallons/yr and 52.65MW peak, filed as Agate LLC and claimed as trade secrets across all three Nebraska sites; published 30 Sep under Gov. Pillen&rsquo;s 20 July executive order with the figures improperly redacted. HN 511 points, 4 Oct.",
+      "next_peg": "OPEN. Next peg = the department&rsquo;s response, the records-request outcome, or a court test of the trade-secret claim."
+    },
+    {
+      "subject": "Aleph Alpha Kolibri-1",
+      "type": "Discrete release (AI model)",
+      "last_covered": "No. 124",
+      "last_peg": "Technology secondary &mdash; delta on No. 122: the first independent work lands. tej.as teardown finds the tokeniser claim <i>understated</i> (17.9% vs a claimed 11.2%) and everything else worse; Steinschaden calls the comparison set stale; a dense 27B Qwen beats it in German on Kolibri&rsquo;s own table. <b>Independent evaluations: still zero.</b>",
+      "next_peg": "SATURATED for a third lead. Next live peg = the first independent evaluation, or the Cohere combination closing."
+    },
+    {
+      "subject": "llama.cpp PR 29639 (Vulkan sparse FA, quantised KV)",
+      "type": "Discrete event (open source)",
+      "last_covered": "No. 124",
+      "last_peg": "The Home Lab LEAD &mdash; merged 5 Oct 08:37 UTC; author measured +15.6% at 64k on AMD, reviewer measured a 2.4&times; regression at short context on an RTX 5090 in coopmat1 and approved it anyway; ships a 16&times; context-to-kept threshold.",
+      "next_peg": "CLOSED as a merge. Next peg = a follow-up tuning the threshold per backend, or a reverted regression."
+    },
+    {
+      "subject": "Strata (inference engine)",
+      "type": "Discrete release (open source)",
+      "last_covered": "No. 124",
+      "last_peg": "The Home Lab &mdash; HN 907 points, 4 Oct; 125B model on 12GB VRAM; own table peaks at 93.0 t/s against a headline of 100; publishes its own 4-bit KV perplexity cost (+8&ndash;12%) and its determinism measurements. Two protocol-grade reproductions, seven reports.",
+      "next_peg": "OPEN. Next peg = an independent accuracy benchmark at the quantisation shipped, or a 1.0 release."
+    },
+    {
+      "subject": "Swift et al., isometric maintenance-dose RCT (BMJ Open SEM)",
+      "type": "Research (exercise science)",
+      "last_covered": "No. 124",
+      "last_peg": "Fitness LEAD &mdash; n=100, mean age 37, 4 weeks at 3&times;/week then randomised to 3/2/1/0; &minus;9.45&plusmn;6.69 mmHg systolic; only the 3&times; arm held TPR, HRV and baroreflex; 0&times; regressed to control inside 4 weeks.",
+      "next_peg": "CLOSED as a finding. Next peg = follow-up beyond 4 weeks, or a replication in a hypertensive population."
+    },
+    {
+      "subject": "Jones et al., acute BP response to plank and wall sit (J Hypertens)",
+      "type": "Research (exercise science)",
+      "last_covered": "No. 124",
+      "last_peg": "Fitness SCEPTIC &mdash; n=62, mean age 26.7; 97% (plank) and 98% (wall sit) stopped for exceeding the ACSM diastolic ceiling of 115 mmHg after ~50 seconds; 100% of women on both; no systolic breaches, no adverse events.",
+      "next_peg": "CLOSED as a finding. Next peg = the same protocol in a higher-risk population, which the authors call for."
+    },
+    {
+      "subject": "Tang et al. &amp; Siebers et al., adolescent social media (J Adolesc Health, 30 Sep 2026)",
+      "type": "Research (child development)",
+      "last_covered": "No. 124",
+      "last_peg": "The Family Desk LEAD &mdash; n=9,747 ABCD three-wave RI-CLPM, every &beta; 0.05&ndash;0.13; and a 100-day diary of 479 adolescents / 44,211 observations, average &beta;=0.03, positive for 37.0% and negative for 14.2%, with age, gender and resilience failing to predict which.",
+      "next_peg": "CLOSED as findings. Next peg = a replication, or the first study that can identify the affected third in advance."
+    },
+    {
+      "subject": "MOE secondary-school phone and smartwatch rule (Jan 2026)",
+      "type": "Discrete event (policy)",
+      "last_covered": "No. 124",
+      "last_peg": "The Family Desk p13 &mdash; three school terms in; the 30 Nov 2025 release contains no statistics and no citation, and the 13 Jan 2026 parliamentary reply offers &ldquo;positive outcomes&rdquo; with no metric, baseline, instrument or reporting date.",
+      "next_peg": "OPEN. Next peg = any published evaluation, a revision to the rule, or a parliamentary answer that names a measure."
+    },
+    {
+      "subject": "Taylor Swift &mdash; The Life of a Showgirl (UK chart return)",
+      "type": "Discrete event (chart)",
+      "last_covered": "No. 124",
+      "last_peg": "Screen &amp; Sound &mdash; No. 84 to No. 1 on the chart dated 2 Oct, week 51, on the expanded edition and the album&rsquo;s first anniversary; fifth non-consecutive week at the top; a simultaneous singles No. 1. No units figure published for the week.",
+      "next_peg": "SATURATED. Reopen only on a published units figure or a further chart record."
     },
     {
       "subject": "Nothing Headphone (1) Pro",

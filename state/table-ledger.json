@@ -888,9 +888,10 @@
       "venue": "Les Canons",
       "key": "Les Canons",
       "runs": [
-        110
+        110,
+        124
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 110 build",
       "note": "opening run — record the peg here"
     },
@@ -1126,9 +1127,10 @@
       "venue": "Shared Table",
       "key": "Shared Table",
       "runs": [
-        116
+        116,
+        124
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 116 build",
       "note": "opening run — record the peg here"
     },
@@ -1271,6 +1273,26 @@
       "status": "OPEN",
       "checked": "No. 123 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Molly Tea",
+      "key": "Molly Tea",
+      "runs": [
+        124
+      ],
+      "status": "OPEN",
+      "checked": "No. 124 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Um Yong Baek",
+      "key": "Um Yong Baek",
+      "runs": [
+        124
+      ],
+      "status": "OPEN",
+      "checked": "No. 124 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1319,6 +1341,7 @@
     "Jellyfish",
     "Mukai",
     "Bari Bari Grand",
+    "Les Canons",
     "Yamamoto’s Hamburg",
     "Decker Barbecue",
     "Kimpson’s Table",
@@ -1326,6 +1349,7 @@
     "Kali Kali",
     "OJEJE",
     "Elijah Pies",
-    "Maison Yoshoku"
+    "Maison Yoshoku",
+    "Shared Table"
   ]
 }
