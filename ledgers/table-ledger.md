@@ -162,3 +162,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | I’m Donut? | I’m Donut? | 123 | OPEN | No. 123 build | opening run — record the peg here |
 | Molly Tea | Molly Tea | 124 | OPEN | No. 124 build | opening run — record the peg here |
 | Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |
+| Sansok | Sansok | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Dolpan Hwajoo | Dolpan Hwajoo | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| AiFOKATO | AiFOKATO | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Noci Bakehouse | Noci Bakehouse | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Food Opera | Food Opera | 125 | OPEN | No. 125 build | opening run — record the peg here |

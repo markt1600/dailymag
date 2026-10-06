@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Binoculars (prisms, coatings &amp; the badge tax)",
+      "issue": "125",
+      "angle": "<b>Two arcseconds against ten arcminutes.</b> A Porro prism aligns to 10 arcmin; a roof prism&rsquo;s critical angles must be right to <b>2 arcsec</b> &mdash; 300&times; tighter, which is why a cheap Porro can be excellent and a cheap roof pair never is. Phase-correction coating (Zeiss, 1988) fixes "
+    },
+    {
       "category": "Tripods &amp; tripod heads",
       "issue": "124",
       "angle": "<b>Almost nothing on the box is a measurement.</b> One publisher of numbers exists (The Center Column, Nm/rad and Js/rad by torsion-spring excitation). MATERIALS: carbon&rsquo;s quoted 181 GPa against aluminium&rsquo;s 69, but real tripod composite measures <b>30&ndash;50</b>; the Manfrotto 055 pair"
@@ -259,7 +264,13 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Binoculars (prisms, coatings &amp; the badge tax)",
+      "category": "Cutlery &amp; flatware (forged against stamped)",
+      "rotation": "Home / table",
+      "fit": "Eighteen-ten against eighteen-zero, forged against stamped, Sheffield against Tsubame-Sanjo; a real materials hierarchy and an enormous badge tax",
+      "sources": "Sheffield makers, Robert Welch, Tsubame-Sanjo cooperatives, r/BuyItForLife, Styleforum"
+    },
+    {
+      "category": "~~Binoculars (prisms, coatings &amp; the badge tax)~~ (COVERED, No. 125)",
       "rotation": "Optics",
       "fit": "Roof against porro, phase coating and ED glass; who actually grinds the glass, and what a Zeiss costs over a Kowa of the same prescription",
       "sources": "Zeiss, Swarovski, Leica, Nikon, Kowa, Vortex; Cloudy Nights, BirdForum, r/Binoculars"
