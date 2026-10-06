@@ -1281,6 +1281,38 @@
   {
    "slug": "kit-nothing-pro-123",
    "url": "https://cdn.shopify.com/s/files/1/0376/5420/0459/files/headphone-1-pro-white.webp?v=1790058506"
+  },
+  {
+   "slug": "at-binocular-fungus-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miranda%20Binoculars%20Lens%20Fungus%207.jpg?width=1500"
+  },
+  {
+   "slug": "world-kbs-pentagon-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pete%20Hegseth%20walks%20with%20Saudi%20Arabia%20Minister%20of%20Defense%20Prince%20Khalid%20bin%20Salman%20Al%20Saud%20at%20the%20Pentagon%2C%20USA%20on%20February%2024%2C%202025.jpg?width=1800"
+  },
+  {
+   "slug": "hl-rtx5090-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palit%20GeForce%20RTX%205090%20Gamerock%2020250530%20HOF3879%20RAW-Export.png?width=1600"
+  },
+  {
+   "slug": "rh-cheese-cave-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caves%20affinage%20Marcel%20Petite%20fort%20Saint-Antoine%2020230906%20n07.jpg?width=1600"
+  },
+  {
+   "slug": "sg-haze-2026-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2026%20haze%20in%20Singapore%2020261005%20183229.jpg?width=1800"
+  },
+  {
+   "slug": "fit-kettlebell-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pair%20of%20kettlebells%20on%20a%20shelf%2C%20Results%20Gym.jpg?width=1600"
+  },
+  {
+   "slug": "fam-pedometer-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Omron%20HJ112.jpg?width=1200"
+  },
+  {
+   "slug": "at-binocular-optolyth-125",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Optolyth%20Alpin%207%C3%9742%20binoculars.jpg?width=1500"
   }
  ],
  "_fetch_rev": 15,
@@ -1384,5 +1416,6 @@
  "_retrigger112f": "No.112 batch 6: verified Commons sourdough crumb + starter jar, merino flock/fleece 2026-09-24",
  "_note1135": "No. 113.5 (Raspberry Pi): all 13 heroes fetched directly by the build session with full egress and inspected before captioning; entries recorded here for provenance. The Action will log 'have' and skip them.",
  "_note115": "No. 115 (27 Sep 2026): Wikimedia returned 429 to the sandbox proxy on every route (API, Special:FilePath, upload.wikimedia.org), so Commons files go through this Action; non-Commons direct URLs are fetched by the build session.",
- "_note115b": "No. 115: category sweeps for beekeeping, fountain pens and Sri Lanka's hill country — the sandbox is 429'd by Wikimedia on every route, so the Action lists and downloads candidates for the build session to eyeball."
+ "_note115b": "No. 115: category sweeps for beekeeping, fountain pens and Sri Lanka's hill country — the sandbox is 429'd by Wikimedia on every route, so the Action lists and downloads candidates for the build session to eyeball.",
+ "_note125": "No. 125 (7 Oct 2026): Wikimedia 429'd the sandbox on Special:FilePath and upload.wikimedia.org alike, so Commons files go through this Action; non-Commons direct URLs were fetched by the build session and eyeballed."
 }
