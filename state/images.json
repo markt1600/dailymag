@@ -7757,6 +7757,86 @@
    "specific": false,
    "source": "Ser Amantio di Nicolao, CC BY-SA 4.0, via Wikimedia Commons",
    "caption": "Kettlebells on a gym shelf. The dose the week&rsquo;s largest pooled analysis settles on is about a hundred minutes a week across three or four short sessions &mdash; and its own authors say the evidence does not support a single optimal dose. Representative image."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Machine</span><span>What the Money Buys",
+   "asset": "cover-macstudio-1255",
+   "specific": true,
+   "source": "Apple, official press image, Apple Newsroom, 25 August 2026",
+   "caption": "The M5 generation Mac Studio, front. Apple says the M5 Ultra version holds up to 512GB of unified memory; this morning its shop sells 256GB and lists 512GB as &ldquo;coming late October&rdquo;."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Machine</span><span>The Measured Book",
+   "asset": "fit-m5-chips-1255",
+   "specific": true,
+   "source": "Apple, official press image, Apple Newsroom, 25 August 2026 (rendered graphic)",
+   "caption": "Apple&rsquo;s graphic of the M5 Max and M5 Ultra. Apple claims up to 4&times; faster LLM prompt processing in LM Studio than the M3 Ultra; MacStories measured about 2.5&times;. A rendered graphic, not a photograph of the silicon."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Agent&rsquo;s Model</span><span>Coding Without the Cloud",
+   "asset": "agent-xcode-claude-1255",
+   "specific": true,
+   "source": "Apple, official press image, Apple Newsroom, 25 August 2026",
+   "caption": "Apple&rsquo;s caption: &ldquo;Mac Studio is pictured with a display showing coding in Xcode.&rdquo; The press file is named for Xcode&rsquo;s Claude integration &mdash; a frontier model, not the local ones this section measures."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Image Bench</span><span>Pictures on a Mac",
+   "asset": "img-drawthings-1255",
+   "specific": true,
+   "source": "Apple, official press image, Apple Newsroom, 25 August 2026",
+   "caption": "Apple&rsquo;s caption: &ldquo;Mac Studio is pictured with a display showing the app Draw Things.&rdquo; The free app runs FLUX, Qwen-Image and Z-Image locally; its fastest-model claims are its developer&rsquo;s."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Programs</span><span>Front Ends, Clusters and a Verdict",
+   "asset": "mach-macstudio-rear-1255",
+   "specific": true,
+   "source": "Apple, official press image, Apple Newsroom, 25 August 2026",
+   "caption": "The Mac Studio&rsquo;s rear panel. Its Thunderbolt 5 ports are what Apple, exo and MLX use to pool several machines&rsquo; memory over RDMA &mdash; capacity gained, one owner measured, far more than speed."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Till</span><span>Buying It, Running It, and the Alternative",
+   "asset": "till-appleorchard-1255",
+   "specific": true,
+   "source": "S5A-0043, CC BY 4.0, via Wikimedia Commons",
+   "caption": "Apple Orchard Road, Singapore, November 2024 (faces blurred by the photographer). The 256GB Mac Studio is not stocked by resellers here; it is an Apple-direct purchase at S$13,999."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Long Read</span><span>Tokyo, the VRAM Line",
+   "asset": "lr-p100-1255",
+   "specific": true,
+   "source": "Fritzchens Fritz, CC0, via Wikimedia Commons",
+   "caption": "The GP100 die of an NVIDIA Tesla P100, photographed in infrared. Launched in 2016, the card now sells second-hand in Japan for about &yen;20,000 &mdash; &yen;1,250 per gigabyte of memory, the cheapest gigabyte in Tokyo."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Fit</span><span>Sizing a Model to the Box",
+   "asset": "fit-dram-1255",
+   "specific": false,
+   "source": "PantheraLeo1359531, CC BY 4.0, via Wikimedia Commons",
+   "caption": "A 64GB Micron DDR5 server module, scanned flat. Representative of DRAM, not the LPDDR5X soldered beside a Mac&rsquo;s chip &mdash; the memory whose price Apple Singapore now sets at S$37.50 a gigabyte."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Senses</span><span>Ears and Voice",
+   "asset": "senses-mic-1255",
+   "specific": false,
+   "source": "Myotus, CC BY 4.0, via Wikimedia Commons",
+   "caption": "A broadcast microphone in the Saint Paul Neighborhood Network podcast studio, April 2026. Representative: the speech models on this page run on the desk, not in a studio."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Two Boxes</span><span>The Mac and the Card",
+   "asset": "twobox-rtx5090fe-1255",
+   "specific": true,
+   "source": "ZMASLO, CC BY 3.0, via Wikimedia Commons (frame from a review video)",
+   "caption": "An RTX 5090 Founders Edition: 32GB at 1,792GB/s and 575W of board power. It read a 6,091-token prompt at 3,031 tokens a second to the Mac&rsquo;s 1,701 &mdash; and wrote at 1.5 once a long context spilled out of its memory."
   }
  ],
  "standing": [
