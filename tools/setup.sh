@@ -11,8 +11,14 @@ python3 - <<'PY' 2>/dev/null || need_py=1
 import playwright, PIL  # noqa (pypdf omitted: system cryptography conflict; we use pdfinfo)
 PY
 if [ "$need_py" = 1 ]; then
+  # Install into the SAME interpreter the build scripts run under. A bare `pip`
+  # can belong to a different python (this sandbox ships /usr/local/bin/python3
+  # at 3.11 shadowing /usr/bin/python3 at 3.13, with pip bound to 3.13), which
+  # installed the deps where nothing imported them and left the banner reading
+  # python:MISSING on an otherwise working toolchain. Found on No. 126.
   log "installing python deps (playwright, pillow)…"
-  pip install --quiet playwright pillow >/dev/null 2>&1 || pip install --quiet --break-system-packages playwright pillow >/dev/null 2>&1
+  python3 -m pip install --quiet playwright pillow >/dev/null 2>&1 \
+    || python3 -m pip install --quiet --break-system-packages playwright pillow >/dev/null 2>&1
 fi
 
 # poppler (pdftoppm/pdfinfo) + imagemagick (montage) for the QA raster/contact sheets
