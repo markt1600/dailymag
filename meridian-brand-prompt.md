@@ -120,6 +120,12 @@ MERIDIAN should read like a well-packed magazine spread, not a report with air a
 **Recurring components (classes live in `meridian.css`)**
 
 * `.kicker` (+ slate/gold/teal), `.hed` / `.hed.sm`, `.dek`, `.dropcap`.
+* **THE STYLE LOCK (editor, 7 Oct 2026 — reader-reported: "it is starting to look a little bit different"; gated by `validate.py` from No. 126).** The skeleton gates held and the prose furniture drifted anyway, because nothing put a number on it. These are the numbers, and No. 38 (`archive/no-38/index.html`) is the reference for all of them:
+  * **A headline is a LINE, not a paragraph: `.hed` ≤ 14 words, hard-failed; the house average is 7 and the validator warns above 11.** Headlines had grown from 7 words (No. 38) to 32 on average by No. 125, with a 42-word maximum — five lines of 25pt Lora that ate a third of the page and left the dek nothing to add. The dek carries the second fact; the headline carries the one. Cover teasers (`.ht`) ≤ 18 words.
+  * **The kicker is `<Desk, its sub-title, or a short Title-Case label> · <Subject>`** — the label ≤ 4 words, the subject capitalised and ≤ 8 words. "The World · Iran & the Gulf" (No. 38), "Hormuz · The strait that keeps not reopening" (No. 97). Never a lowercase fragment ("The Kit · the number nobody has measured" was No. 125's form on every page).
+  * **The Long Read opens ONCE.** Kicker, headline, dek and dropcap on its first page only; pages two and three continue the essay with pulls, a figure and sources. From ~No. 115 every Long Read page restarted with a fresh opener, which turned one essay into three articles. (The reading-order law bans a headless restart *within* a page; a page-break continuation needs no new head.)
+  * **Running headers are fixed text.** `Meridian · <Desk>` left, and the desk's standing sub-title right, exactly as the page-order list below — "Technology · The Home Lab", never "The Home Lab · Local Models & Self-Hosting"; The Rabbit Hole may use its page titles ("The Invitation", "The Deep End"); The Diary's second page is "The Table" (No. 38) or "Plan the Flights".
+  * **Every desk page carries running prose: ≥ 2 `p.body` paragraphs**, the Diary's agenda page excepted. No. 125's "Around the Desks" was viewpoint panels and briefs with no article at all.
 * `.chatter` (+ .slate/.gold/.teal) — forum/Reddit/analyst commentary; slate variant = sceptic/contrarian.
 * `.desk` — viewpoint panel for comparing geopolitical framings (`.flag` header = "\[City] — \[Outlet]").
 * `.pull` (pull quote), `.stat` (callout), `.figframe`/`.imgcap` (wrap every SVG), `.tag` (pill).
@@ -143,7 +149,7 @@ MERIDIAN should read like a well-packed magazine spread, not a report with air a
 10–12. **The Rabbit Hole** ("Down the Rabbit Hole") — the 3-page hobby deep dive, every edition (see brief; replaces The Connected Home, Curiosities and Love \& Life, retired 4 Aug 2026 per editor)
 13. **Fitness** ("The Long Game")
 * **The Travel Desk** *(weekend-mode editions only — Saturday, Sunday and Singapore public holidays — a 4-page supplement; sits here, immediately before The Diary; +4pp)* ("Departures" / "The Grand Tour"). NOT the thirteenth standing desk — a weekend-mode-only supplement; the twelve-desk identity and tagline are unchanged.
-19–20. **The Diary** ("What's Worth Booking" / "Plan the Flights")
+19–20. **The Diary** ("What's Worth Booking" / "The Table" — the No. 38 form; "Plan the Flights" remains legal for page two)
 21–23. **The Essay** ("The Long Read") — a 2–3 page closing long-form essay (see brief)
 13. Back cover
 

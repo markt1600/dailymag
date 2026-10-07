@@ -460,11 +460,105 @@ if _diary:
         if re.search(r'class="agenda-h[^"]*"[^>]*>[^<]*(Singapore|Japan)', _d2):
             errors.append("The Diary p2 (The Table): carries a geography agenda-h — the Singapore/Japan agenda lives on Diary p1 only")
 
-# cross-reference page numbers must exist
-for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', html):
+# cross-reference page numbers must exist (scripts stripped first: the Photo
+# Edition embeds the archive search index, whose 28pp weekend entries carry
+# p25/p26 and were read as phantom references when index.html was validated)
+_noscript = re.sub(r"<script.*?</script>", "", html, flags=re.S)
+for m in re.finditer(r'(?:[,(]\s*(?:see [^,()]{0,40}?,\s*)?p|Page\s)(\d{1,2})\b', _noscript):
     ref = int(m.group(1))
     if ref > npages:
         errors.append(f"cross-reference to p{ref} but the book has only {npages} pages")
+
+
+# THE STYLE LOCK (editor, 7 Oct 2026 — reader-reported: "it is starting to
+# look a little bit different"). The skeleton gates held; the prose furniture
+# drifted because nothing put a number on it. Headlines went from 7 words
+# (No. 38, the reference) to 32 on average in No. 125 with a 42-word maximum;
+# the Long Read restarted with a fresh kicker/hed/dek on every page from
+# ~No. 115, turning one essay into three articles; kickers lost the
+# "<Desk> · <Subject>" form for lowercase fragments; two running headers
+# carried sub-titles the spec does not list; and The World's second page lost
+# its running prose entirely. These are the numbers, gated from No. 126.
+RH_SUBTITLES = {
+    "The World": {"The Meridian Dispatch", "Around the Desks"},
+    "Singapore": {"The Little Red Dot"},
+    "The Atelier": {"Buy It Once"},
+    "Technology": {"Silicon & Sovereignty", "The Home Lab"},
+    "The Kit": {"Gear We're Watching"},
+    "The Good Life": {"Objects & Escapes"},
+    "Screen & Sound": {"Culture Desk"},
+    "The Family Desk": {"Raising Them Well", "The Tween Years"},
+    "The Macro Desk": {"The Big Picture"},
+    "The Rabbit Hole": {"Down the Rabbit Hole", "The Invitation", "The Deep End"},
+    "Fitness": {"The Long Game"},
+    "The Travel Desk": {"Departures", "The Grand Tour"},
+    "The Diary": {"What's Worth Booking", "Plan the Flights", "The Table"},
+    "The Long Read": {"The Undercurrent"},
+}
+HED_MAX_WORDS, HED_WARN_WORDS, TEASER_MAX_WORDS, KICKER_SUBJECT_MAX_WORDS = 14, 11, 18, 8
+
+def _plain(s):
+    s = _html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
+    return re.sub(r"\s+", " ", s).replace("’", "'").strip()
+
+if _issno >= 126 and not _special:
+    _lr_pages = 0
+    for _i, _sec in enumerate(pages, 1):
+        _rh = re.search(r'<div class="rh"><span>(.*?)</span><span>(.*?)</span></div>', _sec, re.S)
+        if not _rh:
+            continue
+        _left, _sub = _plain(_rh.group(1)), _plain(_rh.group(2))
+        _dm = re.match(r"^●?\s*Meridian\s*·\s*(.+)$", _left)
+        _desk = _dm.group(1).strip() if _dm else _left
+        if _desk == "Contents":
+            continue
+        # (d) running header: fixed desk + fixed sub-title
+        if _desk not in RH_SUBTITLES:
+            errors.append(f"page {_i}: running header desk “{_desk}” is not one of the twelve desks (STYLE LOCK)")
+        elif _sub not in RH_SUBTITLES[_desk]:
+            errors.append(f"page {_i}: running header sub-title “{_sub}” is not {_desk}'s standing sub-title "
+                          f"({' / '.join(sorted(RH_SUBTITLES[_desk]))}) — the skeleton is fixed (STYLE LOCK)")
+        _heds = [_plain(h) for h in re.findall(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]
+        _kicks = [_plain(k) for k in re.findall(r'<div class="kicker[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]
+        _deks = re.findall(r'<div class="dek[^"]*"', _sec)
+        # (a) headline ceiling
+        for _h in _heds:
+            _w = len(_h.split())
+            if _w > HED_MAX_WORDS:
+                errors.append(f"page {_i}: headline is {_w} words (ceiling {HED_MAX_WORDS}) — “{_h[:70]}…”; "
+                              f"the headline is a line, the dek carries the second fact (STYLE LOCK)")
+            elif _w > HED_WARN_WORDS:
+                warns.append(f"page {_i}: headline is {_w} words — the house average is 7 (No. 38); shorten if it can be")
+        # (b) kicker form: "<Desk or its sub-title> · <Subject>", Subject capitalised, short
+        for _k in _kicks:
+            _parts = [p.strip() for p in _k.split("·")]
+            _lead = _parts[0] if _parts else ""
+            if len(_parts) != 2 or not _lead or not _lead[0].isupper() or len(_lead.split()) > 4:
+                errors.append(f"page {_i}: kicker “{_k[:60]}” is not “<Desk, sub-title or short Title-Case label> · <Subject>” (STYLE LOCK)")
+                continue
+            _subj = _parts[1]
+            if not _subj or not (_subj[0].isupper() or _subj[0].isdigit()):
+                errors.append(f"page {_i}: kicker subject “{_subj[:50]}” is a lowercase fragment — Title Case, as No. 38 (STYLE LOCK)")
+            if len(_subj.split()) > KICKER_SUBJECT_MAX_WORDS:
+                errors.append(f"page {_i}: kicker subject “{_subj[:50]}…” is {len(_subj.split())} words (ceiling {KICKER_SUBJECT_MAX_WORDS}) (STYLE LOCK)")
+        # (c) the Long Read opens ONCE
+        if _desk == "The Long Read":
+            _lr_pages += 1
+            if _lr_pages > 1 and (_heds or _kicks or _deks):
+                errors.append(f"page {_i}: the Long Read restarts with a kicker/headline/dek — the essay opens once on its first page "
+                              f"and continues; continuation pages carry pulls and sources only (STYLE LOCK)")
+        # (e) running prose on every desk page (the Diary's agenda page is the one exception)
+        if not (_desk == "The Diary" and _sub == "What's Worth Booking"):
+            _nb = len(re.findall(r'<p class="body', _sec))
+            if _nb < 2:
+                errors.append(f"page {_i} ({_desk}): only {_nb} running-prose paragraph(s) — a desk page is an article with furniture, "
+                              f"not panels and briefs alone (STYLE LOCK)")
+    # cover teasers
+    if pages:
+        for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):
+            _w = len(_plain(_t).split())
+            if _w > TEASER_MAX_WORDS:
+                errors.append(f"cover: teaser is {_w} words (ceiling {TEASER_MAX_WORDS}) — “{_plain(_t)[:60]}…” (STYLE LOCK)")
 
 # structural
 links = html.count('<link rel="stylesheet" href="meridian.css">')
