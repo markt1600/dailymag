@@ -126,10 +126,10 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Yamamoto’s Hamburg | Yamamoto’s Hamburg | 111, 119 | SPENT | No. 111 build | opening run — record the peg here |
 | AO (Claymore Drive) | AO (Claymore | 119 | OPEN | No. 119 build | opening run — Cloud Restaurant Group, Araki Takeshi ex-Esora; reviewed 4/5 by a paying diner |
 | Decker Barbecue | Decker Barbecue | 111, 121 | SPENT | No. 111 build | opening run — record the peg here |
-| Jeju Haenyeo | Jeju Haenyeo | 111 | OPEN | No. 111 build | opening run — record the peg here |
+| Jeju Haenyeo | Jeju Haenyeo | 111, 126 | SPENT | No. 111 build | opening run — record the peg here |
 | Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
 | Kimpson’s Table | Kimpson’s Table | 112, 120 | SPENT | No. 112 build | opening run — record the peg here |
-| Kappo Suguru | Kappo Suguru | 112 | OPEN | No. 112 build | opening run — record the peg here |
+| Kappo Suguru | Kappo Suguru | 112, 126 | SPENT | No. 112 build | opening run — record the peg here |
 | Cloudmills | Cloudmills | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
 | GAMJA | GAMJA | 113 | OPEN | No. 113 build | opening run — record the peg here |
 | Marymount Bakehouse | Marymount Bakehouse | 113 | OPEN | No. 113 build | opening run — record the peg here |
@@ -167,3 +167,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | AiFOKATO | AiFOKATO | 125 | OPEN | No. 125 build | opening run — record the peg here |
 | Noci Bakehouse | Noci Bakehouse | 125 | OPEN | No. 125 build | opening run — record the peg here |
 | Food Opera | Food Opera | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Torimitsu | Torimitsu | 126 | OPEN | No. 126 build | opening run — record the peg here |
+| Tanuki Raw | Tanuki Raw | 126 | OPEN | No. 126 build | opening run — record the peg here |
+| Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |

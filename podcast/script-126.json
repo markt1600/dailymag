@@ -1,0 +1,756 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 126,
+ "date": "Thursday 8 October 2026",
+ "title": "The count",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the eighth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Twelve tanker attacks in the Gulf last week. Or nine. Or seven."
+  },
+  {
+   "s": "B",
+   "t": "[curious] That's not a rounding error. That's four different answers."
+  },
+  {
+   "s": "A",
+   "t": "Eight Singapore public officers referred to the police over flats bought near unannounced stations."
+  },
+  {
+   "s": "B",
+   "t": "And a country that shut its border to petrol cars — to defend its currency, not the climate. [excited] I've been waiting all morning for that one."
+  },
+  {
+   "s": "A",
+   "t": "Start at the strait. Three maritime security sources told Reuters there were at least twelve attacks on tankers around Hormuz between the twenty-eighth of September and the fifth of October. Worst week since the war opened in February."
+  },
+  {
+   "s": "B",
+   "t": "And the official count?"
+  },
+  {
+   "s": "A",
+   "t": "Nine. The International Maritime Organization, same seven days."
+  },
+  {
+   "s": "B",
+   "t": "Who's wrong?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Nobody."
+  },
+  {
+   "s": "B",
+   "t": "Oh, come on."
+  },
+  {
+   "s": "A",
+   "t": "The Organization verifies before it records. It takes longer. The private trackers log what ship masters report — including strikes that surface days later, and at least one that may be the same vessel counted twice."
+  },
+  {
+   "s": "B",
+   "t": "So the worst-week claim holds, and the number just… doesn't exist."
+  },
+  {
+   "s": "A",
+   "t": "That's the honest statement of it, yes."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Okay. That's going to come up again, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "Nine times, by my count. Hold that thought."
+  },
+  {
+   "s": "B",
+   "t": "What's not in dispute?"
+  },
+  {
+   "s": "A",
+   "t": "The tanker On Peace. Struck Tuesday, nine nautical miles north-east of Lima, in Oman's Musandam. Nineteen crew, seventeen of them Indian. Twelve injured, eleven Indian."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And India barred its own seafarers from that strait back in July."
+  },
+  {
+   "s": "A",
+   "t": "In July. Until further orders."
+  },
+  {
+   "s": "B",
+   "t": "They're still there."
+  },
+  {
+   "s": "A",
+   "t": "Somebody has to move the oil. On Wednesday a tanker reported hits fifty-one nautical miles off Qatar — deep inside the Gulf, not at the strait at all. That one rests on a single wire report."
+  },
+  {
+   "s": "B",
+   "t": "Flagged as single-sourced?"
+  },
+  {
+   "s": "A",
+   "t": "Flagged. Then Wednesday produced the two sharpest sentences of this war. In Athens, Secretary of State Marco Rubio said the strait is open, and that Iran had — quote — lost complete control."
+  },
+  {
+   "s": "B",
+   "t": "And Tehran?"
+  },
+  {
+   "s": "A",
+   "t": "An adviser to the Revolutionary Guard's chief commander said the strait is closed and Iran holds full control of it."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Those cannot both be true."
+  },
+  {
+   "s": "A",
+   "t": "They're the same fact in two vocabularies. Tehran's explanation for the oil still moving is that small boats smuggle it out to tankers."
+  },
+  {
+   "s": "B",
+   "t": "Wait — and the data people call that…?"
+  },
+  {
+   "s": "A",
+   "t": "Ship-to-ship transfer. Kpler measured it: more than seventy per cent of the crude that crossed Hormuz in August changed tankers offshore."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] So the smuggling and the recovery are the same boats. Sounds fully recovered."
+  },
+  {
+   "s": "A",
+   "t": "Crude actually confirmed crossing the strait is still more than twenty-five per cent below pre-war. Forty per cent of it now goes round. Standard Chartered's word is not recovery. It's resilience."
+  },
+  {
+   "s": "B",
+   "t": "Is there a sceptic on the attacks themselves?"
+  },
+  {
+   "s": "A",
+   "t": "A good one. The intelligence firm Marisks told Reuters the incidents may not represent deliberate targeting of individually selected merchant vessels. They raised the possibility that Iranian forces are firing into a predetermined kill box."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's worse, isn't it. Not hunting — just shooting into a lane."
+  },
+  {
+   "s": "A",
+   "t": "Harder to plan around, certainly. One number for scale: the whole restored Gulf trade runs on about thirty-five supertankers. A core fleet doing three-quarters of the voyages, turning round every sixteen days."
+  },
+  {
+   "s": "B",
+   "t": "Thirty-five ships. Right. Money. What happened to rates?"
+  },
+  {
+   "s": "A",
+   "t": "The Federal Reserve raised on the sixteenth of September, twelve votes to nil, to three and three-quarters to four per cent. The minutes landed Wednesday and said another increase would likely be appropriate by year end."
+  },
+  {
+   "s": "B",
+   "t": "And the ten-year?"
+  },
+  {
+   "s": "A",
+   "t": "Touched five point three six five intraday — highest since two thousand and two — and closed at five point two eight."
+  },
+  {
+   "s": "B",
+   "t": "How much of that is inflation fear?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] Ah. Now we're back on the theme."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Already?"
+  },
+  {
+   "s": "A",
+   "t": "Since the first of September, the ten-year is up forty-nine basis points, of which forty-eight is real. Ninety-eight per cent."
+  },
+  {
+   "s": "B",
+   "t": "So, basically all of it."
+  },
+  {
+   "s": "A",
+   "t": "Over the shorter window this desk used two issues ago, the rise is thirty-two points and the real share is ninety point six per cent. Since the first of October it's four points and one hundred per cent."
+  },
+  {
+   "s": "B",
+   "t": "Three windows. Three answers. All honest."
+  },
+  {
+   "s": "A",
+   "t": "All arithmetically correct. And that's why our own figure read one hundred and six per cent last issue — that window began where breakevens had fallen."
+  },
+  {
+   "s": "B",
+   "t": "[amused] You're correcting yourself with the same joke the magazine is built on today."
+  },
+  {
+   "s": "A",
+   "t": "We're reconciling, not correcting. Each was right on its own window. The breakeven itself hasn't moved in five sessions — two point three six per cent, five closes running."
+  },
+  {
+   "s": "B",
+   "t": "So the market isn't repricing inflation."
+  },
+  {
+   "s": "A",
+   "t": "It's repricing the cost of money. And the term premium is doing work the rate path isn't. The New York Fed's own file puts the ten-year premium at nought point nine six two one on the fifth of October."
+  },
+  {
+   "s": "B",
+   "t": "Is that high?"
+  },
+  {
+   "s": "A",
+   "t": "Highest since the second of July, twenty fourteen. The hedge. Wednesday: global equities down one point one five per cent, global bonds down nought point one nine, gold down one point two, bitcoin down two point six six. Only the dollar rose. Across the whole week the bond leg returned precisely nothing. The global aggregate fund closed at five point seven two having started at five point seven two."
+  },
+  {
+   "s": "B",
+   "t": "And bitcoin against gold?"
+  },
+  {
+   "s": "A",
+   "t": "Bitcoin fell two point two times as far as gold on identical drivers, and sits about a third below its fifty-two-week high. Gold is near its own. In a twelve-year-high term-premium regime, the asset with no cash flow and no official-sector bid lost a third. Not investment advice — just the read."
+  },
+  {
+   "s": "B",
+   "t": "Home. What happened in Parliament?"
+  },
+  {
+   "s": "A",
+   "t": "Chan Chun Sing told the House the Public Service Division has reviewed a hundred and ninety-one officers' property transactions and referred eight to the police. He was careful: a referral does not mean wrongdoing has been established."
+  },
+  {
+   "s": "B",
+   "t": "What triggered it?"
+  },
+  {
+   "s": "A",
+   "t": "A working paper, not peer-reviewed, matching property records against six snapshots of the government directory. It finds civil servants buying within a kilometre of a future station at a rate above matched controls in the year or two before the announcement."
+  },
+  {
+   "s": "B",
+   "t": "I saw a number. Two hundred and seventy million dollars?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] That is the price of the flats. Not the profit. And the excess is about a hundred and thirteen purchases drawn from over nine thousand officer-years per event year. About nought point six per cent."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's a very different story from the headline."
+  },
+  {
+   "s": "A",
+   "t": "There's more. Six academics thanked in the paper's acknowledgements told a broadcaster they were not involved. One said her name appeared by mistake and asked for it to be removed."
+  },
+  {
+   "s": "B",
+   "t": "Were they?"
+  },
+  {
+   "s": "A",
+   "t": "Reading the current version on Wednesday, two names are gone. Four remain."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Hm. And the timing?"
+  },
+  {
+   "s": "A",
+   "t": "That's the part nobody pressed. The paper's own finding is that the effect vanishes after the enforcement tightening of twenty eleven and twelve. On its own evidence the conduct is fifteen years old and already fixed."
+  },
+  {
+   "s": "B",
+   "t": "And the air? My throat has been terrible."
+  },
+  {
+   "s": "A",
+   "t": "Worse. At five this morning all five regions were Unhealthy for the first time this episode. West a hundred and sixty-two, Central a hundred and forty-seven."
+  },
+  {
+   "s": "B",
+   "t": "Is it still coming in?"
+  },
+  {
+   "s": "A",
+   "t": "That's the interesting part. The one-hour reading in the west moved only from eighty-seven to eighty-nine. This is accumulation, not a fresh surge."
+  },
+  {
+   "s": "B",
+   "t": "So the twenty-four-hour average is catching up with air we already breathed."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that."
+  },
+  {
+   "s": "B",
+   "t": "Technology. Tell me about the sixty billion."
+  },
+  {
+   "s": "A",
+   "t": "On the fifth of October three banks began syndicating a sixty-billion-dollar debt package. The proceeds buy Google Ironwood processors, park them in a special-purpose vehicle, and lease them to Anthropic, which repays the lenders out of the lease."
+  },
+  {
+   "s": "B",
+   "t": "Say the word carefully."
+  },
+  {
+   "s": "A",
+   "t": "Launched into syndication. Not raised. Syndication letters are invitations, not signatures, and no closing amount exists."
+  },
+  {
+   "s": "B",
+   "t": "Who's on the other side?"
+  },
+  {
+   "s": "A",
+   "t": "Broadcom. Which builds the accelerators, is a lessor through the vehicle, has separately extended its customer a convertible facility of up to forty-two billion, and underwrites what the hardware fetches when the lease ends."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] That's four seats at a table with itself."
+  },
+  {
+   "s": "A",
+   "t": "Its customer's own prospectus, as reported, calls it a potential conflict of interest."
+  },
+  {
+   "s": "B",
+   "t": "And the collateral?"
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic. Residual-value guarantees work where resale is liquid — aircraft, cars, forklifts. There is no mature market for pricing these accelerators at this scale, and this kind of chip runs one vendor's software stack."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone put money behind that doubt?"
+  },
+  {
+   "s": "A",
+   "t": "PGIM capped artificial-intelligence-related collateral at fifteen per cent of a five-hundred-million-dollar vehicle. Someone wrote the scepticism into a covenant."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I love that. That's a real number."
+  },
+  {
+   "s": "A",
+   "t": "And within the same forty-eight hours, SpaceX began seeking forty billion, led by Apollo, to buy Nvidia hardware. One template, twice."
+  },
+  {
+   "s": "B",
+   "t": "Home lab. Give me the good one."
+  },
+  {
+   "s": "A",
+   "t": "A pull request merged into llama dot cpp on Tuesday, adding a multi-token prediction head. It drafts several tokens at once and the full model verifies them in one batch. The author's first version skipped work for draft positions producing no output. The maintainer corrected him on the thread: attention must still be computed there, because those positions write cache entries the next step reads."
+  },
+  {
+   "s": "B",
+   "t": "And the cost of being right?"
+  },
+  {
+   "s": "A",
+   "t": "The four-token catch-up went from six point nine milliseconds, to nought point three three with the incorrect version — and two point nine with the correct one."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So the right answer is nearly nine times slower than the wrong one."
+  },
+  {
+   "s": "A",
+   "t": "And it shipped that way. Correctly."
+  },
+  {
+   "s": "B",
+   "t": "Is there a catch?"
+  },
+  {
+   "s": "A",
+   "t": "Two. It breaks image input — the maintainer reported that himself after the merge. And the drafting cache cut one developer's usable context from a hundred and twenty-eight thousand tokens to forty-eight."
+  },
+  {
+   "s": "B",
+   "t": "You buy speed with context."
+  },
+  {
+   "s": "A",
+   "t": "Sixty per cent of it. And a correction we owe: we printed another pull request as open last issue. It merged on Tuesday."
+  },
+  {
+   "s": "B",
+   "t": "The kit. The expensive box."
+  },
+  {
+   "s": "A",
+   "t": "Microsoft opened pre-orders on the Surface RTX Spark Dev Box. Five thousand nine hundred and ninety-nine US dollars, shipping in November, a hundred and twenty-eight gigabytes of unified memory, built to run models beyond a hundred and twenty billion parameters locally."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody publishes its memory bandwidth."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the number that decides whether it works."
+  },
+  {
+   "s": "A",
+   "t": "This desk checked five places, including Nvidia's own page. None states a figure in gigabytes per second. And none of the four reports of pre-order day carried a measured tokens-per-second number."
+  },
+  {
+   "s": "B",
+   "t": "Four months after the announcement."
+  },
+  {
+   "s": "A",
+   "t": "The most honest figure on the record came from Microsoft itself. Its Windows chief said at the announcement that this class of device gets to about a hundred billion parameters — not the hundred and twenty of the marketing — and that at a hundred thousand tokens of context the cache alone can take forty to fifty gigabytes."
+  },
+  {
+   "s": "B",
+   "t": "A third of the machine before any weights. [deadpan] And no Singapore price, I assume."
+  },
+  {
+   "s": "A",
+   "t": "Sold exclusively in the United States. Forged against stamped. And the headline finding is the number on the box. Eighteen-ten against eighteen-eight."
+  },
+  {
+   "s": "B",
+   "t": "The good stuff and the cheap stuff."
+  },
+  {
+   "s": "A",
+   "t": "The British Stainless Steel Association — the industry's own body — says eighteen-ten is claimed to indicate a better quality steel, and is essentially the same grade."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the premium is two points of nickel inside labelling tolerance."
+  },
+  {
+   "s": "A",
+   "t": "And the word forged almost never means a forge. One German maker publishes its entire sequence: blank the sheet at sixty-five tonnes per square centimetre, roll the bowl end thinner over sixteen to thirty passes, emboss at six to eight hundred tonnes. No hammer, no anvil, no heat. The honest trade term is cold forged."
+  },
+  {
+   "s": "B",
+   "t": "So what should I actually look at?"
+  },
+  {
+   "s": "A",
+   "t": "Gauge. One house publishes it: three and a half millimetres in one range, five in the other. Thirty-four pounds a place setting against fifty. That is the only numbered upgrade in the whole category, and you can feel it in a shop in thirty seconds."
+  },
+  {
+   "s": "B",
+   "t": "And above that?"
+  },
+  {
+   "s": "A",
+   "t": "You're buying pattern, authorship and a box. All legitimate. None of it performance."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Listening to spacecraft. Receive-only: no licence, no exam, because you transmit nothing. Weather satellites broadcast their pictures unencrypted as they pass overhead."
+  },
+  {
+   "s": "B",
+   "t": "[excited] And you just… catch them?"
+  },
+  {
+   "s": "A",
+   "t": "A dongle, a wire on a pole, and ten minutes while the satellite crosses your sky."
+  },
+  {
+   "s": "B",
+   "t": "What does the moment look like? For the people who fall in."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] It's always the same moment. One poster in September put up a first image from a Korean weather satellite, caught on a cardboard dish lined with tinfoil. His own words: the wind would blow all of the foil around and I would end up losing sync — however it still kinda worked."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's magnificent. And there's a network?"
+  },
+  {
+   "s": "A",
+   "t": "Four and a half thousand ground stations registered."
+  },
+  {
+   "s": "B",
+   "t": "That's a real array."
+  },
+  {
+   "s": "A",
+   "t": "Two hundred and ninety-eight of them were online when this desk queried it on Tuesday."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Say that again?"
+  },
+  {
+   "s": "A",
+   "t": "Four thousand one hundred and sixty-six are offline. One thousand three hundred and ninety have never once been seen online. Five hundred plus stations, three hundred and twenty-two live."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Of course it does. There's the theme again."
+  },
+  {
+   "s": "A",
+   "t": "Roofs change hands, students graduate, a Raspberry Pi dies in a Greek summer. The archive is still magnificent — over fifteen million observations."
+  },
+  {
+   "s": "B",
+   "t": "What should I buy, if I wanted in?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the sentence that saves you money. For the pictures everyone starts with, nothing above the cheapest decent dongle buys you a better image. The expensive radios buy bandwidth, not sensitivity."
+  },
+  {
+   "s": "B",
+   "t": "And the rotator? The thing that tracks the satellite across the sky?"
+  },
+  {
+   "s": "A",
+   "t": "The top station on the entire network, with four hundred and thirty-nine thousand observations, has no rotator. Three fixed antennas and a switch."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The best one. No moving parts."
+  },
+  {
+   "s": "A",
+   "t": "Across the network, two thousand five hundred and thirty-four antennas are omnidirectional against about fifteen hundred directional."
+  },
+  {
+   "s": "B",
+   "t": "Is there a sad part? There's always a sad part."
+  },
+  {
+   "s": "A",
+   "t": "There is. The analogue signal that created this hobby in the nineteen seventies is gone. The American weather agency decommissioned three satellites between June and August last year. Observers logged the last picture as it stopped."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Oh."
+  },
+  {
+   "s": "A",
+   "t": "The pinned beginners' guide now just reads: these satellites have been decommissioned, receive Meteor instead."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's a whole era in one line."
+  },
+  {
+   "s": "A",
+   "t": "And a lovely piece of ageing infrastructure: the orbital catalogue ran out of numbers in July. The tracking format is a punched-card layout from the nineteen sixties with five digits for a satellite identifier. The register passed a hundred thousand objects. A maintainer, last month: currently none of the components support an identifier above ninety-nine thousand nine hundred and ninety-nine."
+  },
+  {
+   "s": "B",
+   "t": "Culture, fast. Two things."
+  },
+  {
+   "s": "A",
+   "t": "Seiko put a panda-faced chronograph into production. Five hundred and ninety euros, five thousand pieces, and the tachymeter is renamed and calibrated to thirty kilometres an hour."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Which is roughly panda speed."
+  },
+  {
+   "s": "A",
+   "t": "Its own pages list the water resistance as splash resistant, as three bar, and as thirty metres. One maker, one object, one week."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Three ratings."
+  },
+  {
+   "s": "A",
+   "t": "Three. And at the cinema, the Iñárritu picture took eight million dollars across its opening weekend — an actual, not an estimate."
+  },
+  {
+   "s": "B",
+   "t": "How did it hold?"
+  },
+  {
+   "s": "A",
+   "t": "Saturday fell twenty-three and a half per cent below Friday. Films people are telling each other about go up on Saturday. Audiences scored it seventy-three per cent against the critics' fifty-two. The people who came liked it. Almost nobody came. Both are true."
+  },
+  {
+   "s": "B",
+   "t": "Family desk — this one's close to home."
+  },
+  {
+   "s": "A",
+   "t": "A cohort of nearly nine thousand children. The exposure is whether a child owned a smartphone at twelve. Nearly seven in ten did. Two years on, adjusted for a long list of covariates, owners reported more of every eating-disorder symptom measured. Any symptom: twenty-four point two per cent against fifteen point five."
+  },
+  {
+   "s": "B",
+   "t": "How worried should a parent be?"
+  },
+  {
+   "s": "A",
+   "t": "The authors are unusually plain. Ownership was not randomised, reverse causation cannot be ruled out, so causality cannot be established. A child already preoccupied with her body may be the child who asks for the phone."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the ratios make it sound larger than the counts do."
+  },
+  {
+   "s": "A",
+   "t": "One of them doubles a figure that was never large. Both numbers are in the piece, deliberately."
+  },
+  {
+   "s": "B",
+   "t": "Fitness. Quickly — should I train in the evening?"
+  },
+  {
+   "s": "A",
+   "t": "A Basel trial tested a hundred and eight older adults at four times of day, found each person's personal best and worst hour, then randomised them to train at one or the other for twelve weeks. Three measures, three confidence intervals, all straddling zero."
+  },
+  {
+   "s": "B",
+   "t": "So it doesn't matter."
+  },
+  {
+   "s": "A",
+   "t": "Here's the beautiful part. The daily swing is real — about eleven per cent, and up to thirty-four in individuals. You genuinely are stronger at one end of your day. Adherence was ninety-one to ninety-four per cent in both arms. Adherence is the variable that moved. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Train when you'll actually turn up."
+  },
+  {
+   "s": "A",
+   "t": "One real takeaway for a self-quantifier: test at the same hour every time. With an eleven per cent swing, a nine o'clock retest will prove a programme a seven o'clock retest would have disproved."
+  },
+  {
+   "s": "B",
+   "t": "And the long read. Laos."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] In late February, when Hormuz closed, Thailand suspended its fuel exports. Laos buys ninety-seven and a half per cent of its fuel from Thailand, and has no refinery."
+  },
+  {
+   "s": "B",
+   "t": "How fast did that land?"
+  },
+  {
+   "s": "A",
+   "t": "Within a week, more than forty per cent of the country's two and a half thousand filling stations were shut. It took two hours to fill a motorcycle tank. Diesel rose over a hundred and sixty per cent in six weeks."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And what did they do?"
+  },
+  {
+   "s": "A",
+   "t": "In March the prime minister signed Order Forty. Cut the fees on electric vehicles, raised them on petrol ones, put ministries on rotating shifts. Then in May: no fuel-powered vehicles may be imported at all. First in Asia. Second in the world, after Ethiopia."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And everyone will write this up as a climate story."
+  },
+  {
+   "s": "A",
+   "t": "The World Bank files the recommendation under energy security. Laos is not electrifying to save the planet. It is electrifying to stop paying for fuel in US dollars. It sells Thailand more than two point three four billion dollars of electricity, and buys back one and a half to one point eight billion of refined fuel. From the same country. And pays for the return leg in a currency it has to earn."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] The battery of Southeast Asia, queueing for diesel."
+  },
+  {
+   "s": "A",
+   "t": "And there's a sting. Of the fuel Laos imports, diesel is eighty-two per cent by volume — and the import ban exempts the trucks. It has barred the cars that burn a sixth of its fuel. Capability. Lao electric trucks manage a hundred to a hundred and fifty kilometres a charge against five to six hundred for diesel. The policy is honest about what it cannot do. Households. Electricity was up ninety-one and a half per cent year on year in July. The state is herding its citizens onto a fuel whose price it has just raised."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the gain goes to the central bank, and the cost goes to the kitchen table."
+  },
+  {
+   "s": "A",
+   "t": "Reserves held. The currency held. That's a real victory and it is not a household one."
+  },
+  {
+   "s": "B",
+   "t": "And what happens next?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] The import suspension expires on the thirty-first of December. In twelve weeks. Nobody has reported whether it will be extended, made permanent, or quietly allowed to lapse."
+  },
+  {
+   "s": "B",
+   "t": "And there's a new prime minister."
+  },
+  {
+   "s": "A",
+   "t": "Three days into the job, inheriting the decision."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So we'll know before anyone else writes it."
+  },
+  {
+   "s": "A",
+   "t": "That's the idea."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Nine desks, one question. How many?"
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
