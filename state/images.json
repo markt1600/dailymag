@@ -7757,6 +7757,78 @@
    "specific": false,
    "source": "Ser Amantio di Nicolao, CC BY-SA 4.0, via Wikimedia Commons",
    "caption": "Kettlebells on a gym shelf. The dose the week&rsquo;s largest pooled analysis settles on is about a hundred minutes a week across three or four short sessions &mdash; and its own authors say the evidence does not support a single optimal dose. Representative image."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Machine</span><span>What 256 Gigabytes Buys",
+   "asset": "sp1255-machine-ports",
+   "specific": true,
+   "source": "Apple Inc. newsroom press image, from the 25 August 2026 Mac Studio announcement",
+   "caption": "The back of a Mac Studio: four Thunderbolt 5 ports, 10-gigabit Ethernet, two USB-A, HDMI and the power inlet. The memory that governs everything in this book is soldered inside and cannot be reached from here."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Sums</span><span>Weights, Cache &amp; Context",
+   "asset": "sp1255-memory",
+   "specific": false,
+   "source": "Micron Technology, Inc.",
+   "caption": "DDR5 packages on a circuit board, photographed by their maker. A Mac Studio&rsquo;s memory is not on a board like this &mdash; it sits in the chip package &mdash; but the contract price of parts like these is why 256GB costs S$6,000. Representative of the component, not of Apple&rsquo;s implementation."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Programs</span><span>The Mac Stack",
+   "asset": "sp1255-cover-macstudio",
+   "specific": true,
+   "source": "Apple Inc. newsroom press image, from the 25 August 2026 Mac Studio announcement",
+   "caption": "The machine itself, front on: two USB-C ports, an SDXC slot and the intake grille. Everything in this section is software that turns it into a server."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Coding Desk</span><span>Agents on Local Weights",
+   "asset": "sp1255-coding",
+   "specific": true,
+   "source": "Anthropic, a frame from the Claude Code demo recording published in the anthropics/claude-code repository",
+   "caption": "A terminal coding agent mid-loop: four file reads, a shell command, &ldquo;Thought for 3s&rdquo;, and a running test suite. This is the shape of work that punishes a Mac &mdash; many short turns, each re-reading a long prompt."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Senses</span><span>Vision, Speech &amp; Retrieval",
+   "asset": "sp1255-speech",
+   "specific": false,
+   "source": "Will Fisher, CC BY-SA 2.0, via Wikimedia Commons",
+   "caption": "A studio condenser microphone in a shock mount. Speech recognition is the one job on this page where a local model has been comfortably better than good enough for years. Representative image; the badge is not legible at this resolution."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Image Lab</span><span>Pixels on Apple Silicon",
+   "asset": "sp1255-imagegen",
+   "specific": true,
+   "source": "Apple Inc. newsroom press image, from the 25 August 2026 Mac Studio announcement",
+   "caption": "Draw Things on a Mac Studio, converting a line-art sketch into a shaded concept render, with a version strip of earlier attempts beside it. The model named in its settings panel is FLUX.2 [klein], a four-billion-parameter build."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Two Boxes</span><span>The Mac and the Card",
+   "asset": "sp1255-rtx5090",
+   "specific": true,
+   "source": "PantheraLeo1359531, CC BY 4.0, via Wikimedia Commons",
+   "caption": "A GeForce RTX 5090 &mdash; 32 gigabytes of GDDR7 at 1,792 GB/s, and 575 watts for the card alone. A partner board rather than NVIDIA&rsquo;s own; the silicon and the memory are the same."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Bill</span><span>Singapore Prices &amp; Power",
+   "asset": "sp1255-apple-sg",
+   "specific": true,
+   "source": "Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+   "caption": "Apple Marina Bay Sands at night. The machine this book is about is listed two taps into that store&rsquo;s website, with a limit of two per customer."
+  },
+  {
+   "issue": "125.5",
+   "anchor": "Meridian · The Long Read</span><span>The Undercurrent",
+   "asset": "sp1255-undercurrent",
+   "specific": true,
+   "source": "HoweyYuan, CC BY-SA 4.0, via Wikimedia Commons",
+   "caption": "A campus of Alibaba, whose Qwen family is one of the open-weight lines this machine exists to run. The building is the Chaoyang Technology Park in Beijing, not a laboratory interior and not Hangzhou."
   }
  ],
  "standing": [
