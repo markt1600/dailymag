@@ -553,6 +553,52 @@ if _issno >= 126 and not _special:
             if _nb < 2:
                 errors.append(f"page {_i} ({_desk}): only {_nb} running-prose paragraph(s) — a desk page is an article with furniture, "
                               f"not panels and briefs alone (STYLE LOCK)")
+    # (f) THE PROSE BLOCK LAW (editor, 8 Oct 2026 — reader-reported on No. 126
+    # p4: "the call-out boxes cutting through the article is a bit confusing").
+    # The 31 Aug rule put furniture INSIDE the column stream so columns could
+    # balance; the builds read that as "interleave", and from ~No. 106 nearly
+    # every article ran paragraph, box, box, paragraph, box, paragraph. The
+    # reference issues (Nos. 38, 60, 97) ran the prose as ONE block, then the
+    # furniture. Within a .cols2: body paragraphs first and contiguous; boxed
+    # furniture (.desk, .chatter, .stat, .brief-*, .tbl, .nexthole) after
+    # them; at most one closing paragraph after the furniture as a coda.
+    # Pull quotes and figures are typographic, not boxed, and may sit between
+    # paragraphs as they always have.
+    _BOXED = {"desk", "chatter", "stat", "brief-h", "brief-item", "tbl-wrap", "nexthole"}
+    class _ColScan(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.stack = []; self.cur = None; self.depth = 0; self.seqs = []
+        def handle_starttag(self, tag, attrs):
+            if tag in ("br", "img", "hr", "meta", "link", "input"):
+                return
+            cls = set((dict(attrs).get("class") or "").split())
+            self.stack.append(tag)
+            if self.cur is None:
+                if "cols2" in cls:
+                    self.cur = []; self.depth = len(self.stack)
+                return
+            if len(self.stack) == self.depth + 1:
+                if tag == "p" and "body" in cls:
+                    self.cur.append("P")
+                elif cls & _BOXED or (tag == "table" and "tbl" in cls):
+                    self.cur.append("B")
+        def handle_endtag(self, tag):
+            if tag in ("br", "img", "hr", "meta", "link", "input"):
+                return
+            if self.cur is not None and len(self.stack) == self.depth:
+                self.seqs.append("".join(self.cur)); self.cur = None
+            if self.stack:
+                self.stack.pop()
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 127 or _i <= 2 or _i == len(pages):
+            continue
+        _cs = _ColScan(); _cs.feed(_sec)
+        for _seq in _cs.seqs:
+            if "P" not in _seq or "B" not in _seq:
+                continue
+            if not re.fullmatch(r"P+B+P?", _seq):
+                errors.append(f"page {_i}: boxed furniture cuts through the article (column order {_seq}) — the prose runs as ONE "
+                              f"block, the boxes follow it, at most one closing paragraph after them (PROSE BLOCK LAW; pulls and figures exempt)")
     # cover teasers
     if pages:
         for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):
