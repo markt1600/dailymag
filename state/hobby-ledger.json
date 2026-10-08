@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Competitive target shooting (ISSF 10m air pistol &amp; air rifle)",
+      "issue": "127",
+      "angle": "<b>The hardest target in sport is a printed dot, and almost nothing you buy improves your score.</b> SCALE/TOLERANCE (ISSF Rule Book Ed. 2025, 2nd print Jul 2026, downloaded and text-extracted locally &mdash; 6.3.4.3/6.3.4.6): pistol ten-ring <b>11.5mm</b>, rifle ten-ring <b>0.5mm</b>; outward gauge"
+    },
+    {
       "hobby": "Amateur satellite reception (SatNOGS, weather-sat decoding)",
       "issue": "126",
       "angle": "<b>A receive-only space hobby whose network is four-fifths asleep.</b> SCALE (all read from the live network interface, 7 Oct): <b>4,510 stations ever registered, 298 online, 4,166 offline, 1,390 never once seen online</b>, 536 seen in the past week &mdash; against the Foundation&rsquo;s own homepag"
@@ -324,6 +329,24 @@
   "queued": [],
   "pipeline": [
     {
+      "hobby": "Astrophotography on a budget (star trackers &amp; stacking)",
+      "category": "Tech / night sky",
+      "communities": "r/astrophotography, Cloudy Nights, the Siril and DeepSkyStacker scenes",
+      "fit": "A hobby where the processing is the craft and a S$500 tracker beats a S$5,000 scope; Singapore&rsquo;s light pollution is the honest obstacle to write about"
+    },
+    {
+      "hobby": "Lockpicking &amp; physical-security sport",
+      "category": "Sport / precision",
+      "communities": "r/lockpicking, LockPickingLawyer&rsquo;s wake, TOOOL and the LockSport Belt ranking",
+      "fit": "A graded skill ladder with its own belt system and a legal line that differs sharply in Singapore; distinct from any craft run so far"
+    },
+    {
+      "hobby": "Longboard &amp; distance-skate commuting",
+      "category": "Outdoor / gear",
+      "communities": "r/longboarding, Silverfish archives, Pantheon and Loaded owner scenes",
+      "fit": "A gear-ladder sport with a bearings-and-bushings rabbit hole and a real Singapore park-connector use case"
+    },
+    {
       "hobby": "Leathercraft",
       "category": "Craft / maker",
       "communities": "Veg-tan against chrome, the saddle stitch, and a tool roll that outlives the maker",
@@ -336,7 +359,7 @@
       "fit": "A receive-only space hobby with a real open-hardware ground-station ladder"
     },
     {
-      "hobby": "Competitive pistol &amp; air-rifle target shooting",
+      "hobby": "~~Competitive pistol &amp; air-rifle target shooting~~ (COVERED, No. 127)",
       "category": "Sport / precision",
       "communities": "ISSF scene, Target Talk, the Singapore Gun Club&rsquo;s own programme",
       "fit": "A millimetre discipline with a genuine equipment hierarchy and a rare legal Singapore route into it"

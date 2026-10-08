@@ -910,9 +910,10 @@
       "venue": "AO (Claymore Drive)",
       "key": "AO (Claymore",
       "runs": [
-        119
+        119,
+        127
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 119 build",
       "note": "opening run — Cloud Restaurant Group, Araki Takeshi ex-Esora; reviewed 4/5 by a paying diner"
     },
@@ -931,9 +932,10 @@
       "venue": "Jeju Haenyeo",
       "key": "Jeju Haenyeo",
       "runs": [
-        111
+        111,
+        126
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 111 build",
       "note": "opening run — record the peg here"
     },
@@ -962,9 +964,10 @@
       "venue": "Kappo Suguru",
       "key": "Kappo Suguru",
       "runs": [
-        112
+        112,
+        126
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 112 build",
       "note": "opening run — record the peg here"
     },
@@ -993,9 +996,10 @@
       "venue": "Marymount Bakehouse",
       "key": "Marymount Bakehouse",
       "runs": [
-        113
+        113,
+        127
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 113 build",
       "note": "opening run — record the peg here"
     },
@@ -1076,9 +1080,10 @@
       "venue": "Fico at Tanjong Beach Club",
       "key": "Fico at Tanjong Beach Club",
       "runs": [
-        115
+        115,
+        127
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 115 build",
       "note": "opening run — record the peg here"
     },
@@ -1343,6 +1348,46 @@
       "status": "OPEN",
       "checked": "No. 125 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Torimitsu",
+      "key": "Torimitsu",
+      "runs": [
+        126
+      ],
+      "status": "OPEN",
+      "checked": "No. 126 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Tanuki Raw",
+      "key": "Tanuki Raw",
+      "runs": [
+        126
+      ],
+      "status": "OPEN",
+      "checked": "No. 126 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Wok & Toast",
+      "key": "Wok & Toast",
+      "runs": [
+        126
+      ],
+      "status": "OPEN",
+      "checked": "No. 126 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "O/SIO",
+      "key": "O/SIO",
+      "runs": [
+        127
+      ],
+      "status": "OPEN",
+      "checked": "No. 127 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1393,12 +1438,17 @@
     "Bari Bari Grand",
     "Les Canons",
     "Yamamoto’s Hamburg",
+    "AO (Claymore Drive)",
     "Decker Barbecue",
+    "Jeju Haenyeo",
     "Kimpson’s Table",
+    "Kappo Suguru",
     "Cloudmills",
+    "Marymount Bakehouse",
     "Kali Kali",
     "OJEJE",
     "Elijah Pies",
+    "Fico at Tanjong Beach Club",
     "Maison Yoshoku",
     "Shared Table"
   ]

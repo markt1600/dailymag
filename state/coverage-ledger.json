@@ -1,5 +1,5 @@
 {
-  "count": 900,
+  "count": 907,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,55 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Bose wired noise-cancelling earbud (US$99, USB-C)",
+      "type": "Discrete product (audio)",
+      "last_covered": "No. 127",
+      "last_peg": "The Kit LEAD &mdash; preorders this week at US$99 / A$169.95, IPX4, Quiet/Aware/off on an in-line remote; Bose&rsquo;s page says &ldquo;No charging needed&rdquo; while its own specification table says &ldquo;Rechargeable: Yes&rdquo; and &ldquo;Charging Accessory included: Yes&rdquo;, unreconciled in two countries. No attenuation figure in dB, no current or power draw anywhere. Not listed in Singap",
+      "next_peg": "LIVE &mdash; first units due <b>15 Oct</b>. Next peg: shipping units, a teardown or measured attenuation curve, a power-draw figure, or a Singapore listing. Nothing had shipped at print, so no verdict was given."
+    },
+    {
+      "subject": "Bremont Supermarine Full Ceramic Deep Blue",
+      "type": "Discrete product (watch)",
+      "last_covered": "No. 127",
+      "last_peg": "The Good Life LEAD &mdash; announced Wed; 43mm matte blue ceramic over titanium, 74g, Sellita-based calibre, 56h, 500m with helium escape valve. Three watch titles printed &ldquo;limited to 250 pieces&rdquo;; <b>Bremont&rsquo;s own storefront prints no limitation</b>, on a page where Polar White says &ldquo;Limited to 150&rdquo;. US$7,400 / $6,950 / $6,450 against &pound;6,450 level in Britain &md",
+      "next_peg": "LIVE &mdash; the 250-piece claim is <b>UNRESOLVED</b>. Next peg: Bremont stating a limitation (or not) on its own cards, a Singapore price/door, or a hands-on with the movement criticism tested."
+    },
+    {
+      "subject": "<i>The Social Reckoning</i> (Sorkin, Columbia)",
+      "type": "Discrete release (film)",
+      "last_covered": "No. 127",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; wide today, R, 1h52, Madison/White/Strong. RT <b>61% from 120</b> against Metacritic <b>53 from 45</b> (review counts differ 2.7&times;). <b>No box office existed at print</b> &mdash; tracker dashes in every column; forecasts ran US$5m to $10m on ~2,200 screens. <i>The Social Network</i> opened at US$23m (2010 dollars).",
+      "next_peg": "LIVE &mdash; next peg is the <b>actual</b> opening weekend (finals, not Sunday estimates: see the No. 125 correction). Do not print a forecast as a result."
+    },
+    {
+      "subject": "Samsung Q3 2026 preliminary guidance",
+      "type": "Discrete event (earnings)",
+      "last_covered": "No. 127",
+      "last_peg": "Technology LEAD &mdash; revenue ~195tn won (+127%), operating profit ~107.4tn (+783%), first quarter above 100tn. <b>No segment breakdown in the filing</b>, so the phone-division loss exists only as estimates ~17tn won apart (~2tn loss v up to 19tn). The dollar headline is third-party arithmetic ($80bn travelled; US$76.7bn at the one published rate). 12GB mobile memory US$145&ndash;146 in Q2 (+175",
+      "next_peg": "LIVE &mdash; next peg is the <b>audited segment breakdown</b> in the full Q3 report, which settles the 17tn-won disagreement. Samsung&rsquo;s own investor pages timed out; guidance was read from two Korean outlets."
+    },
+    {
+      "subject": "llama.cpp multi-GPU expert cache (PR 30112)",
+      "type": "Discrete event (software)",
+      "last_covered": "No. 127",
+      "last_peg": "The Home Lab LEAD &mdash; merged to master Thu. Author&rsquo;s bench (2&times;RTX 4090): decode 34.78 &rarr; 60.38 t/s (6.5GB cache) and 64.39 (15GB), <b>but prompt processing 440.7 &rarr; 321.5 t/s, a 27% loss</b>. Two independent failures to reproduce: one tester 200% slower generation (33 &rarr; 16 t/s) at a 43.54% hit rate against the author&rsquo;s 85.9/95.8, <b>unanswered by any maintainer</",
+      "next_peg": "LIVE &mdash; next peg: a maintainer reply to the regressions, the third design&rsquo;s fate, or cache sizing decoupled from the tensor split."
+    },
+    {
+      "subject": "Chronotype-aligned resistance training (Basel RCT)",
+      "type": "Discrete event (study)",
+      "last_covered": "No. 127",
+      "last_peg": "Fitness LEAD &mdash; n=108, 12 weeks, individually profiled peak v trough hour, blind to arm, powered for an 8% strength difference. Primary (relative isometric mid-thigh pull) <b>0.06 N&middot;kg&#8315;&sup1;, CI &minus;0.76 to 0.88</b>; grip &minus;0.21; ALMI 0.03. Authors: alignment &ldquo;did not enhance skeletal muscle adaptations&rdquo;. <b>Bookkeeping flaw printed:</b> stated 14% peak-group",
+      "next_peg": "CLOSED as an evidence question &mdash; the null is robust to both slips, and this is the trial the claim had been waiting for. Body-copy deltas only unless a correction, erratum or replication appears."
+    },
+    {
+      "subject": "Rasmal&eacute; / Fushidhiggaru reclamation (Maldives)",
+      "type": "Discrete event (policy)",
+      "last_covered": "No. 127",
+      "last_peg": "The Undercurrent &mdash; see the Undercurrent Ledger row for the full receipt (reserves 1,331.8 &rarr; 717.9 US$m in April; resort conversion quota doubled to 40% on 1 Sep; commercial terms on 500ha twenty days later; the renewing-leasehold sentence present in the developer&rsquo;s international release and absent from the ministry&rsquo;s Maldivian version; AG says only a Letter of Intent).",
+      "next_peg": "LIVE &mdash; HELD: the governing act is still being drafted and the agreement unpublished, so the leasehold-renewal reading is <b>unverified</b>. Next peg: the published agreement or the act, a usable-reserves figure, or the first IMF staff report since May 2024."
     },
     {
       "subject": "Mac Studio M5 Ultra 256GB as the home-lab machine",

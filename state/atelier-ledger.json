@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Mattresses &amp; slat bases",
+      "issue": "127",
+      "angle": "<b>Four famous heritages, one Madrid balance sheet &mdash; and the number on the swing ticket is the one that means least.</b> THE MECHANISM: the longest-running independent mattress reference calls coil counting &ldquo;among the worst possible ways to buy a mattress&rdquo;; support is set by <b>wir"
+    },
+    {
       "category": "Cutlery &amp; flatware (forged against stamped)",
       "issue": "126",
       "angle": "<b>The premium number on the box is the one that means least.</b> The British Stainless Steel Association, on the record: 18/10 &ldquo;is claimed to indicate a better quality steel than 18/8, and is essentially the same as the 304 grade&rdquo; &mdash; and even 18/0 is &ldquo;adequate for normal tabl"
@@ -269,7 +274,25 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Cutlery &amp; flatware (forged against stamped)",
+      "category": "Reading lamps &amp; bedside light",
+      "rotation": "Home / light",
+      "fit": "The warm, low end of lighting: how a lamp is actually built, replaceable sockets, dimming without flicker, and the CRI claim nobody tests",
+      "sources": "Anglepoise, Artemide, Wästberg, r/lightingdesign, the Yuji/High-CRI scene"
+    },
+    {
+      "category": "Hand-knit &amp; boot socks",
+      "rotation": "Clothing",
+      "fit": "Gauge, nylon-reinforced heels, and the lifetime-guarantee question &mdash; a cheap category where the failure mode is public and measurable",
+      "sources": "Darn Tough, Smartwool, Nishiguchi Kutsushita, r/socks, Rockford Red Heel scene"
+    },
+    {
+      "category": "Enamelware &amp; camp mugs",
+      "rotation": "Kitchen / outdoor",
+      "fit": "Vitreous glass fused to steel: which chips, why the rim is the weak point, and the gap between heritage factories and lookalikes",
+      "sources": "Riess, Falcon, Crow Canyon, Noda Horo, r/camping gear threads"
+    },
+    {
+      "category": "~~Cutlery &amp; flatware (forged against stamped)~~ (COVERED, No. 126)",
       "rotation": "Home / table",
       "fit": "Eighteen-ten against eighteen-zero, forged against stamped, Sheffield against Tsubame-Sanjo; a real materials hierarchy and an enormous badge tax",
       "sources": "Sheffield makers, Robert Welch, Tsubame-Sanjo cooperatives, r/BuyItForLife, Styleforum"
@@ -281,7 +304,7 @@
       "sources": "Zeiss, Swarovski, Leica, Nikon, Kowa, Vortex; Cloudy Nights, BirdForum, r/Binoculars"
     },
     {
-      "category": "Mattresses &amp; slat bases",
+      "category": "~~Mattresses &amp; slat bases~~ (COVERED, No. 127)",
       "rotation": "Home",
       "fit": "Latex against pocket springs, and what tropical humidity does to both &mdash; the one purchase a third of a life is spent on",
       "sources": "Hypnos, Vispring, Hästens, Origin; r/Mattress, the Singapore foam makers"
@@ -305,7 +328,7 @@
       "sources": "Zojirushi and Tiger against Nagatani-en and Iga-yaki; an object every Singapore household already owns badly"
     },
     {
-      "category": "Mattresses &amp; slat bases",
+      "category": "~~Mattresses &amp; slat bases~~ (COVERED, No. 127)",
       "rotation": "Home",
       "fit": "Latex vs pocket springs, and what tropical humidity does to both &mdash; a Next-on-the-Bench chip in No. 117",
       "sources": "Dunlop vs Talalay latex, ILD ratings, r/Mattress, the Singapore humidity and mould complaint threads"
