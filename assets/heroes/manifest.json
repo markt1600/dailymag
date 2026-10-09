@@ -1313,6 +1313,10 @@
   {
    "slug": "at-binocular-optolyth-125",
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Optolyth%20Alpin%207%C3%9742%20binoculars.jpg?width=1500"
+  },
+  {
+   "slug": "fam-sec1-nanhua-128",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nan%20Hua%20High%20School%20Secondary%201%20students.jpg?width=1400"
   }
  ],
  "_fetch_rev": 15,
@@ -1417,5 +1421,6 @@
  "_note1135": "No. 113.5 (Raspberry Pi): all 13 heroes fetched directly by the build session with full egress and inspected before captioning; entries recorded here for provenance. The Action will log 'have' and skip them.",
  "_note115": "No. 115 (27 Sep 2026): Wikimedia returned 429 to the sandbox proxy on every route (API, Special:FilePath, upload.wikimedia.org), so Commons files go through this Action; non-Commons direct URLs are fetched by the build session.",
  "_note115b": "No. 115: category sweeps for beekeeping, fountain pens and Sri Lanka's hill country — the sandbox is 429'd by Wikimedia on every route, so the Action lists and downloads candidates for the build session to eyeball.",
- "_note125": "No. 125 (7 Oct 2026): Wikimedia 429'd the sandbox on Special:FilePath and upload.wikimedia.org alike, so Commons files go through this Action; non-Commons direct URLs were fetched by the build session and eyeballed."
+ "_note125": "No. 125 (7 Oct 2026): Wikimedia 429'd the sandbox on Special:FilePath and upload.wikimedia.org alike, so Commons files go through this Action; non-Commons direct URLs were fetched by the build session and eyeballed.",
+ "_retrigger128": "No. 128 build, 10 Oct 2026"
 }
