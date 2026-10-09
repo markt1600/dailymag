@@ -171,3 +171,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Tanuki Raw | Tanuki Raw | 126 | OPEN | No. 126 build | opening run — record the peg here |
 | Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |
 | O/SIO | O/SIO | 127 | OPEN | No. 127 build | opening run — record the peg here |
+| Blue Label Tavern | Blue Label Tavern | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Base Gelato | Base Gelato | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Accompany Coffee | Accompany Coffee | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Din Tai Fung | Din Tai Fung | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Pull by TPG | Pull by TPG | 128 | OPEN | No. 128 build | opening run — record the peg here |

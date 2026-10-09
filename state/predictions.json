@@ -2107,7 +2107,10 @@
    "desk": "The Diary",
    "claim": "F1 Singapore GP (9–11 Oct, first-ever Sprint) sells out its remaining passes before race weekend.",
    "check_by": "2026-10-09",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Not sold out: Zone 4 Walkabout Saturday S$298 still listed Available and Sunday S$368 Selling Fast, with more stock promised days before the race. The three-day passes and all Friday inventory did clear.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 81,
@@ -2461,7 +2464,11 @@
    "issue": 87,
    "desk": "The Diary",
    "claim": "Tembusu's food draws mixed-to-positive (not panned) first reviews after its 3 Sep official launch",
-   "check_by": "2026-10-10"
+   "check_by": "2026-10-10",
+   "outcome": "right",
+   "result": "Nobody panned it: three soft-launch reviews cluster mixed-leaning-positive, The Ranting Panda scoring 3.5 out of 5.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 89,
@@ -2715,7 +2722,10 @@
    "desk": "The Kit",
    "claim": "RayNeo iO owner/forum reception (post-shipping) confirms comfort/captions as wins, software/apps as the weak point",
    "check_by": "2026-09-25",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Captions yes, comfort no. The fullest hands-on called them “absolutely uncomfortable”, with ear and nose pressure inside an hour; a genuine owner corpus never appeared.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 92,
@@ -3061,7 +3071,10 @@
    "desk": "The Independents",
    "claim": "An outside auditor publicly confirms or disputes OpenAI's self-graded 'Critical' cyber classification for GPT-6 Astra",
    "check_by": "2026-10-09",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No third party has endorsed or contested the Critical grade. UK AISI published Astra attack figures on 28 September without ever naming the Preparedness Framework.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": "98",
@@ -3323,17 +3336,6 @@
    "claim": "US 10Y yield having touched 5.00%; gold fell (~$4,285) on real yields not haven demand — regime 'higher-for-longer, dollar-bid'",
    "check_by": "2026-10-15",
    "outcome": null
-  },
-  {
-   "issue": 103,
-   "desk": "Singapore",
-   "claim": "August NODX print (due 17 Sep 2026) lands strong on electronics; RHB FY forecast ~15.5%",
-   "check_by": "2026-09-18",
-   "outcome": "right",
-   "result": "NODX rose 46.2% y/y in August against a 35% consensus — the fastest since October 1988; electronics +131.8%.",
-   "status": "graded",
-   "gradedIn": 114,
-   "source": "https://tradingeconomics.com/singapore/domestic-exports-of-non-oil-nodx-pctyoy"
   },
   {
    "issue": 103,
@@ -3607,7 +3609,10 @@
    "desk": "Singapore",
    "claim": "EMA/SP Group set the October-December 2026 tariff at or above 30.17 cents a kWh before GST.",
    "check_by": "2026-10-10",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The tariff fell to 28.59 cents/kWh, 1.58 cents below the predicted floor.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 108,
@@ -3726,7 +3731,10 @@
    "desk": "The World",
    "claim": "The United States, Denmark and Greenland sign the Arctic security agreement in New York during the UN General Assembly, as the Danish release said they would.",
    "check_by": "2026-10-05",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Signed 22 September in New York, not November. The event happened; the month did not.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 109,
@@ -3890,7 +3898,10 @@
    "desk": "The Diary",
    "claim": "Satay by the Bay closes to the public on 1 October 2026 as announced.",
    "check_by": "2026-10-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "Gardens by the Bay announced on 1 September that it closes from 1 October; 30 September was the last service and no reprieve followed.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 109,
@@ -5646,7 +5657,10 @@
    "desk": "The Diary",
    "claim": "Soup Curry by Ki-Setsu opens on 8 October 2026 as announced",
    "check_by": "2026-10-08",
-   "outcome": null
+   "outcome": "right",
+   "result": "Its own site reads “We’re Officially Open” for Thursday 8 October, after a soft launch that had run since early September.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 120,
@@ -5975,6 +5989,160 @@
    "desk": "The Long Read",
    "claim": "The Rasmale agreement or its governing act is still unpublished a month on, and no IMF Maldives staff report has appeared",
    "check_by": "2026-11-09",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The World",
+   "claim": "Hurricane Simon makes landfall in Mexico without the $175m World Bank catastrophe bond paying out - minimum central pressure inside the box never reaches 937 mb or lower",
+   "check_by": "2026-10-20",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The World",
+   "claim": "No US-exposed bank, insurer or cloud provider is publicly reported to have dropped the International Criminal Court before the 180-day grace period expires",
+   "check_by": "2027-04-10",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The World",
+   "claim": "Spain holds its general election on 29 November 2026, as called after the 5 October dissolution",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Singapore",
+   "claim": "At least one region's 24-hour PSI exceeds 200 before 1 November 2026, triggering the free-mask and shelter measures the task force described",
+   "check_by": "2026-11-01",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Singapore",
+   "claim": "NEA still publishes no numeric range for hourly Bands 3 and 4 on its own pages at the end of November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Singapore",
+   "claim": "MAS leaves monetary policy unchanged at its 14 October 2026 statement",
+   "check_by": "2026-10-16",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Technology",
+   "claim": "TSMC's reported third-quarter revenue in US dollars lands inside its own $44.6-45.8bn guidance range",
+   "check_by": "2026-10-20",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Technology",
+   "claim": "Mistral publishes the Large 4 weights before 1 November 2026, as its 6 October post committed",
+   "check_by": "2026-11-01",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Technology",
+   "claim": "Samsung's 29 October results call publishes a segment breakdown of its third-quarter operating profit",
+   "check_by": "2026-11-02",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Kit",
+   "claim": "No independent MTF or optical-bench result for the Sigma 50-120mm F2.8 DC OS is published anywhere before 10 November 2026",
+   "check_by": "2026-11-10",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Kit",
+   "claim": "The Sigma 50-120mm F2.8 ships on 22 October 2026 as the maker's US subsidiary stated",
+   "check_by": "2026-10-26",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Atelier",
+   "claim": "No replacement for IEEE 1789-2015 is published or balloted before 1 January 2027",
+   "check_by": "2027-01-05",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Good Life",
+   "claim": "Schiit's Bifrost 3 ships before 10 November 2026",
+   "check_by": "2026-11-10",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Screen & Sound",
+   "claim": "The Social Reckoning's critic score on the main aggregator is below 61 per cent on 10 November 2026",
+   "check_by": "2026-11-10",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "Screen & Sound",
+   "claim": "Other Mommy out-grosses The Social Reckoning on the 9-11 October 2026 domestic weekend chart",
+   "check_by": "2026-10-17",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Macro Desk",
+   "claim": "The ACM 10-year term premium is below 0.98 at the end of October 2026",
+   "check_by": "2026-11-02",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Macro Desk",
+   "claim": "The real-yield share of gold's weekly move returns above 70 per cent in at least one of the next three fully published weekly windows",
+   "check_by": "2026-11-02",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Travel Desk",
+   "claim": "The Johor-Singapore rail link does not carry passengers before February 2027",
+   "check_by": "2027-02-05",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Travel Desk",
+   "claim": "Singapore Airlines' Riyadh launch is not put back a fourth time before 28 March 2027",
+   "check_by": "2027-03-30",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Long Read",
+   "claim": "Bharat Taxi publishes no city-level daily-rides figure of its own before 10 January 2027",
+   "check_by": "2027-01-10",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Long Read",
+   "claim": "National Bharat Taxi daily rides remain below 25,000 at the next published official figure",
+   "check_by": "2027-02-28",
+   "outcome": null
+  },
+  {
+   "issue": 128,
+   "desk": "The Diary",
+   "claim": "ART SG publishes a public ticket price before 1 December 2026",
+   "check_by": "2026-12-01",
    "outcome": null
   }
  ]
