@@ -2373,7 +2373,11 @@
    "issue": 86,
    "desk": "Singapore",
    "claim": "SP Group's Q4 (Oct-Dec) household tariff, announced ~30 Sep, eases from the record 31.91c rather than rising further",
-   "check_by": "2026-10-05"
+   "check_by": "2026-10-05",
+   "outcome": "right",
+   "result": "It eased: 28.59 cents/kWh before GST for 1 Oct-31 Dec 2026, down 10.4% from 31.91.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 86,
@@ -3928,8 +3932,11 @@
    "desk": "Macro",
    "claim": "August core PCE prints at or above ~3.2% (Warsh pre-announced ~3.6% headline / 3.2% core)",
    "checkBy": "2026-09-30",
-   "status": "open",
-   "note": "Check-by corrected in No. 114: BEA publishes August Personal Income & Outlays on 30 September, not 26."
+   "status": "graded",
+   "note": "Check-by corrected in No. 114: BEA publishes August Personal Income & Outlays on 30 September, not 26.",
+   "outcome": "wrong",
+   "result": "Core PCE printed +3.0% y/y on the BEA's 30 September release — 20bp short.",
+   "gradedIn": 128
   },
   {
    "issue": 110,
@@ -3964,7 +3971,10 @@
    "desk": "The Diary",
    "claim": "Singapore International Marathon registration closes 30 September without extension",
    "checkBy": "2026-10-01",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "Registration was extended to 31 October 2026.",
+   "gradedIn": 128
   },
   {
    "issue": 110,
@@ -3999,7 +4009,10 @@
    "desk": "The Macro Desk",
    "claim": "The EIA's next dated-Brent print (week of 22 Sep) narrows the physical-to-futures spread to under $15 from $22.05",
    "checkBy": "2026-09-30",
-   "status": "open"
+   "status": "graded",
+   "outcome": "push",
+   "result": "Unscoreable: the EIA publishes no dated-Brent series and no physical-to-futures spread.",
+   "gradedIn": 128
   },
   {
    "issue": 111,
@@ -4013,7 +4026,10 @@
    "desk": "Screen & Sound",
    "claim": "Resident Evil's second weekend drops more than 55% from its $60.2m opening",
    "checkBy": "2026-09-28",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "Down 62% to $23,012,848.",
+   "gradedIn": 128
   },
   {
    "issue": 111,
@@ -4083,7 +4099,10 @@
    "desk": "Singapore",
    "claim": "SP Group's regulated household electricity tariff for 1 Oct-31 Dec 2026 comes in BELOW 31.91 cents/kWh before GST (a decrease from Q3)",
    "checkBy": "2026-10-01",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "Q4 2026 regulated tariff set at 28.59 cents/kWh before GST, down 10.4%.",
+   "gradedIn": 128
   },
   {
    "issue": "112",
@@ -4146,14 +4165,20 @@
    "desk": "Screen & Sound",
    "claim": "On the Billboard 200 dated 10 October 2026, The Life of a Showgirl re-enters or climbs into the top 3",
    "checkBy": "2026-10-10",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "The Life of a Showgirl went No. 21 to No. 1 on 173,000 units.",
+   "gradedIn": 128
   },
   {
    "issue": "112",
    "desk": "Screen & Sound",
    "claim": "Resident Evil finishes No. 2 or lower for the 25-27 September weekend with a second weekend below US$28m",
    "checkBy": "2026-09-29",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "Finished No. 2 on $23.01m, inside the $28m cap.",
+   "gradedIn": 128
   },
   {
    "issue": "112",
@@ -4209,7 +4234,10 @@
    "desk": "Singapore",
    "claim": "SP Group's Q4 2026 (1 Oct-31 Dec) household electricity tariff does NOT fall from 31.91 cents/kWh before GST",
    "checkBy": "2026-10-05",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "It fell — to 28.59 cents/kWh before GST, down 3.32 cents.",
+   "gradedIn": 128
   },
   {
    "issue": "113",
@@ -4265,7 +4293,10 @@
    "desk": "The Good Life",
    "claim": "The H. Moser Streamliner Off-Grid order book closes on 5 October 2026 without either reference selling out its 1,000-piece run",
    "checkBy": "2026-10-06",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "Both references are marked sold out on H. Moser's own pages; the blue now offers a waiting list.",
+   "gradedIn": 128
   },
   {
    "issue": "113",
@@ -4384,21 +4415,30 @@
    "desk": "Screen & Sound",
    "claim": "“Choosin’ Texas” is still No. 1 on the Billboard Hot 100 dated 10 October 2026, reaching 25 weeks at the top",
    "checkBy": "2026-10-10",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "Dethroned on exactly that chart at 24 weeks, one short of 25.",
+   "gradedIn": 128
   },
   {
    "issue": "114",
    "desk": "The Macro Desk",
    "claim": "The August core PCE price index, released by the BEA on 30 September 2026, prints at or above 3.3% y/y",
    "checkBy": "2026-09-30",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "+3.0% y/y. Missed by 30bp; the BEA printed on schedule.",
+   "gradedIn": 128
   },
   {
    "issue": "114",
    "desk": "The Macro Desk",
    "claim": "Micron’s Q4 FY2026 revenue, reported 30 September 2026, prints at or above US$50bn",
    "checkBy": "2026-09-30",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "$54.23bn, reported 30 September.",
+   "gradedIn": 128
   },
   {
    "issue": "114",
@@ -4482,7 +4522,10 @@
    "desk": "The Macro Desk",
    "claim": "US August core PCE (BEA, released 30 September 2026) prints at or above 2.9 per cent year on year",
    "checkBy": "2026-09-30",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "+3.0% y/y, 10bp above the bar.",
+   "gradedIn": 128
   },
   {
    "issue": "115",
@@ -4510,7 +4553,10 @@
    "desk": "Singapore",
    "claim": "SP Group's Q4 2026 household electricity tariff, published c. 29-30 September, is LOWER than the Q3 rate of 31.91 cents per kWh before GST",
    "checkBy": "2026-10-02",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "28.59 cents against 31.91.",
+   "gradedIn": 128
   },
   {
    "issue": "115",
@@ -4608,7 +4654,10 @@
    "desk": "Singapore",
    "claim": "SP Group publishes the 1 Oct-31 Dec 2026 regulated tariff on or before 30 September 2026",
    "checkBy": "2026-09-30",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "SP Group's release is dated 30 September 2026.",
+   "gradedIn": 128
   },
   {
    "issue": "116",
@@ -4650,7 +4699,10 @@
    "desk": "The Kit",
    "claim": "The Sonos Beam Ultra is in stock at a Singapore retailer at S$1,299 or less on 29 September 2026",
    "checkBy": "2026-09-30",
-   "status": "open"
+   "status": "graded",
+   "outcome": "push",
+   "result": "Price confirmed at S$1,299 at an authorised Singapore retailer, but no record exists of stock on 29 September.",
+   "gradedIn": 128
   },
   {
    "issue": "116",
@@ -4762,7 +4814,10 @@
    "desk": "The World",
    "claim": "Bangkok's floodwaters are fully drained by 5 October 2026, as the governor forecast",
    "checkBy": "2026-10-05",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "On 7 October the governor called the city still vulnerable, canals and retention areas full.",
+   "gradedIn": 128
   },
   {
    "issue": "117",
@@ -4797,7 +4852,10 @@
    "desk": "Singapore",
    "claim": "SP Group publishes its fourth-quarter 2026 tariff on 29 or 30 September 2026",
    "checkBy": "2026-10-01",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "Published 30 September 2026.",
+   "gradedIn": 128
   },
   {
    "issue": "117",
@@ -4965,7 +5023,10 @@
    "desk": "The Macro Desk",
    "claim": "August core PCE, printing 30 September 2026, comes in at or below 0.2 per cent month on month",
    "checkBy": "2026-10-02",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "+0.2% m/m exactly.",
+   "gradedIn": 128
   },
   {
    "issue": "117",
@@ -5035,7 +5096,10 @@
    "desk": "The Diary",
    "claim": "Formula 1 Singapore Grand Prix Zone 4 Walkabout tickets are still on sale on 9 October 2026",
    "checkBy": "2026-10-09",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "Still on sale on 9 October: Saturday S$298, Sunday S$368.",
+   "gradedIn": 128
   },
   {
    "issue": "117",
@@ -5133,21 +5197,30 @@
    "desk": "The World",
    "claim": "SP Group publishes its Q4 2026 electricity tariff by 3 October 2026",
    "checkBy": "2026-10-03",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "Published 30 September 2026, three days inside.",
+   "gradedIn": 128
   },
   {
    "issue": "118",
    "desk": "The Macro Desk",
    "claim": "August US core PCE, released 30 September 2026, prints at or above 3.0% year on year",
    "checkBy": "2026-10-01",
-   "status": "open"
+   "status": "graded",
+   "outcome": "right",
+   "result": "+3.0% y/y exactly.",
+   "gradedIn": 128
   },
   {
    "issue": "118",
    "desk": "The Macro Desk",
    "claim": "Micron's FQ4 FY2026 revenue lands inside its guided US$50.0bn ± US$1.0bn",
    "checkBy": "2026-10-02",
-   "status": "open"
+   "status": "graded",
+   "outcome": "wrong",
+   "result": "$54.23bn — $3.23bn above the top of the band.",
+   "gradedIn": 128
   },
   {
    "issue": "118",
@@ -5525,14 +5598,20 @@
    "desk": "Screen & Sound",
    "claim": "Verity out-grosses Digger on the 2-4 October US weekend",
    "check_by": "2026-10-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Verity $32,031,011 against Digger's $8,001,856 on the 2-4 October weekend.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 120,
    "desk": "Screen & Sound",
    "claim": "Digger's domestic opening weekend lands below US$20m",
    "check_by": "2026-10-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Digger opened to $8,001,856, fourth place.",
+   "status": "graded",
+   "gradedIn": 128
   },
   {
    "issue": 120,
