@@ -1317,6 +1317,51 @@
   {
    "slug": "fam-sec1-nanhua-128",
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nan%20Hua%20High%20School%20Secondary%201%20students.jpg?width=1400"
+  },
+  {
+   "slug": "cat-miyako",
+   "category": "Category:Miyako-jima",
+   "limit": 12
+  },
+  {
+   "slug": "cat-miyakojima",
+   "category": "Category:Miyakojima",
+   "limit": 12
+  },
+  {
+   "slug": "cat-irabu",
+   "category": "Category:Irabu Great Bridge",
+   "limit": 10
+  },
+  {
+   "slug": "cat-irabubridge",
+   "category": "Category:Irabu Bridge",
+   "limit": 10
+  },
+  {
+   "slug": "cat-churaumi",
+   "category": "Category:Okinawa Churaumi Aquarium",
+   "limit": 10
+  },
+  {
+   "slug": "cat-shuri",
+   "category": "Category:Shuri Castle",
+   "limit": 10
+  },
+  {
+   "slug": "cat-manzamo",
+   "category": "Category:Cape Manzamo",
+   "limit": 8
+  },
+  {
+   "slug": "cat-okinawabeach",
+   "category": "Category:Beaches of Okinawa Prefecture",
+   "limit": 12
+  },
+  {
+   "slug": "cat-naha",
+   "category": "Category:Naha",
+   "limit": 10
   }
  ],
  "_fetch_rev": 15,
@@ -1422,5 +1467,6 @@
  "_note115": "No. 115 (27 Sep 2026): Wikimedia returned 429 to the sandbox proxy on every route (API, Special:FilePath, upload.wikimedia.org), so Commons files go through this Action; non-Commons direct URLs are fetched by the build session.",
  "_note115b": "No. 115: category sweeps for beekeeping, fountain pens and Sri Lanka's hill country — the sandbox is 429'd by Wikimedia on every route, so the Action lists and downloads candidates for the build session to eyeball.",
  "_note125": "No. 125 (7 Oct 2026): Wikimedia 429'd the sandbox on Special:FilePath and upload.wikimedia.org alike, so Commons files go through this Action; non-Commons direct URLs were fetched by the build session and eyeballed.",
- "_retrigger128": "No. 128 build, 10 Oct 2026"
+ "_retrigger128": "No. 128 build, 10 Oct 2026",
+ "_retrigger_129": "No. 129 — Okinawa & Miyakojima Grand Tour: category sweeps so the build session can eyeball candidates (sandbox cannot browse Commons; all Wikimedia APIs answer 429 from it)."
 }
