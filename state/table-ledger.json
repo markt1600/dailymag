@@ -1193,9 +1193,10 @@
       "venue": "Lulu’s Lounge",
       "key": "Lulu’s Lounge",
       "runs": [
-        117
+        117,
+        129
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 117 build",
       "note": "opening run — record the peg here"
     },
@@ -1213,9 +1214,10 @@
       "venue": "Tanica",
       "key": "Tanica",
       "runs": [
-        118
+        118,
+        129
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 118 build",
       "note": "opening run — record the peg here"
     },
@@ -1438,6 +1440,36 @@
       "status": "OPEN",
       "checked": "No. 128 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sophia",
+      "key": "Sophia",
+      "runs": [
+        129
+      ],
+      "status": "OPEN",
+      "checked": "No. 129 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Vincenzo Capuano",
+      "key": "Vincenzo Capuano",
+      "runs": [
+        129
+      ],
+      "status": "OPEN",
+      "checked": "No. 129 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Viva Lavender",
+      "key": "Viva Lavender",
+      "runs": [
+        129
+      ],
+      "status": "OPEN",
+      "checked": "No. 129 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1500,6 +1532,8 @@
     "Elijah Pies",
     "Fico at Tanjong Beach Club",
     "Maison Yoshoku",
-    "Shared Table"
+    "Shared Table",
+    "Lulu’s Lounge",
+    "Tanica"
   ]
 }

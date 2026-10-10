@@ -151,9 +151,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nice Noodle | Nice Noodle | 117 | OPEN | No. 117 build | opening run — record the peg here |
-| Lulu’s Lounge | Lulu’s Lounge | 117 | OPEN | No. 117 build | opening run — record the peg here |
+| Lulu’s Lounge | Lulu’s Lounge | 117, 129 | SPENT | No. 117 build | opening run — record the peg here |
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
-| Tanica | Tanica | 118 | OPEN | No. 118 build | opening run — record the peg here |
+| Tanica | Tanica | 118, 129 | SPENT | No. 118 build | opening run — record the peg here |
 | Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120 | OPEN | No. 120 build | opening run — record the peg here |
 | KOKO Kawane | KOKO Kawane | 121 | OPEN | No. 121 build | opening run — record the peg here |
 | Jomaru | Jomaru | 122 | OPEN | No. 122 build | opening run — record the peg here |
@@ -176,3 +176,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Accompany Coffee | Accompany Coffee | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Din Tai Fung | Din Tai Fung | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Pull by TPG | Pull by TPG | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Sophia | Sophia | 129 | OPEN | No. 129 build | opening run — record the peg here |
+| Vincenzo Capuano | Vincenzo Capuano | 129 | OPEN | No. 129 build | opening run — record the peg here |
+| Viva Lavender | Viva Lavender | 129 | OPEN | No. 129 build | opening run — record the peg here |
