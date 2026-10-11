@@ -1,5 +1,5 @@
 {
-  "count": 928,
+  "count": 940,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,90 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Houthi strikes on King Khalid &amp; King Fahd airports",
+      "type": "Event",
+      "last_covered": "No. 130",
+      "last_peg": "The World LEAD &mdash; 13 dead, 309 injured on 10 Oct; no alert issued by the threat-warning system; Terminal 4 and Dammam struck 11 Oct; Trump &ldquo;We may&rdquo;",
+      "next_peg": "Next peg = the toll moving past 13, a US entry into the Saudi strikes, or schedules failing to recover inside 48 hours."
+    },
+    {
+      "subject": "Singapore Haze Task Force response ladder",
+      "type": "Policy",
+      "last_covered": "No. 130",
+      "last_peg": "Singapore LEAD &mdash; NEA release of 9 Oct quantifies both upper bands: masks and shelters above PSI 200, school closures considered and examination papers rescheduled above 300; MINDEF&rsquo;s own thresholds the same day",
+      "next_peg": "Next peg = the 24-hour PSI actually crossing 200 and the ladder firing, or a published review of it. Supersedes the &ldquo;both upper bands unquantified&rdquo; entries of Nos. 128&ndash;129."
+    },
+    {
+      "subject": "Genesis Mission compute-credit consortium",
+      "type": "Policy / funding",
+      "last_covered": "No. 130",
+      "last_peg": "Technology LEAD &mdash; $2.4bn in credits from 11 partners on 8 Oct against a $6bn billing that itemises to ~$3bn; only one spokesperson confirmed terms",
+      "next_peg": "Next peg = a drawdown figure, a named project actually consuming credits, or the unexplained half being accounted for."
+    },
+    {
+      "subject": "Technics EAH-A1000",
+      "type": "Product",
+      "last_covered": "No. 130",
+      "last_peg": "The Kit LEAD &mdash; US$449.99, on shelf from 1 Oct; maker publishes no weight, no Bluetooth version, no ANC figure and gates the spec sheet behind an email form; sole independent weight 306g, reviewer&rsquo;s own scale",
+      "next_peg": "Next peg = an independent bench (RTINGS/ASR) or a published Singapore price."
+    },
+    {
+      "subject": "Omega Seamaster Diver 300M James Bond &amp; Spectre collection",
+      "type": "Product",
+      "last_covered": "No. 130",
+      "last_peg": "The Good Life LEAD &mdash; on sale 5 Oct; refs 210.30.42.20.03.004 and .01.023 at US$8,600; two box sets each &ldquo;limited to 77&rdquo;, i.e. 154 platinum-gold watches; Spectre marked currently unavailable online",
+      "next_peg": "Next peg = a Singapore-dollar price, the Spectre becoming orderable, or a generational replacement."
+    },
+    {
+      "subject": "Other Mommy (2026 film)",
+      "type": "Film",
+      "last_covered": "No. 130",
+      "last_peg": "Screen LEAD &mdash; opening weekend $27.5m from 3,365 theatres, $45.19m worldwide on a ~$19m budget; RT 18% on 57, Metacritic 39 on just 11 critics, CinemaScore D+",
+      "next_peg": "CLOSED at the opening weekend &mdash; next peg would be a second-weekend hold or the Japan release of 20 Nov."
+    },
+    {
+      "subject": "The Social Reckoning (Sorkin)",
+      "type": "Film",
+      "last_covered": "No. 130",
+      "last_peg": "Screen secondary &mdash; $5.5m from 2,606 theatres against 55% on 204 critics; beaten five to one",
+      "next_peg": "CLOSED at opening &mdash; next peg = awards traction or a legs story."
+    },
+    {
+      "subject": "Seroja (Kampong Glam)",
+      "type": "Restaurant",
+      "last_covered": "No. 130",
+      "last_peg": "The Table &mdash; promoted to TWO Michelin stars in the 2026 Singapore selection after three consecutive years at one",
+      "next_peg": "SPENT in the Table ledger (runs 63, 130). A further mention is body-copy delta only."
+    },
+    {
+      "subject": "VE/LA (Changi T1)",
+      "type": "Caf&eacute;",
+      "last_covered": "No. 130",
+      "last_peg": "The Table &mdash; opened 25 Sep landside at Terminal 1, the chain&rsquo;s first airport and first 24-hour site; Kaya Toast Latte $10; Airecano the tasting panel&rsquo;s pick",
+      "next_peg": "SPENT in the Table ledger (runs 116, 130)."
+    },
+    {
+      "subject": "I&rsquo;m Donut? Singapore",
+      "type": "Caf&eacute;",
+      "last_covered": "No. 130",
+      "last_peg": "The Table &mdash; teased 28 Sep; no opening date and no confirmed address; KL debut drew 200+ queueing; the local forum read is majority sceptical",
+      "next_peg": "SPENT in the Table ledger (runs 123, 130). The opening itself is a body-copy delta only."
+    },
+    {
+      "subject": "llama.cpp multi-GPU MoE expert cache (PR 30112)",
+      "type": "Software",
+      "last_covered": "No. 130",
+      "last_peg": "Home Lab LEAD &mdash; merged 8 Oct; 1.85&times; decode and 0.73&times; prompt in the same run, the regression unmentioned in the notes; in-thread dissent unanswered",
+      "next_peg": "Next peg = a fix for the prompt regression, a revert, or a reproduction on a second multi-GPU box."
+    },
+    {
+      "subject": "Mizuho Blue Challenge / Kallang Football Series",
+      "type": "Event",
+      "last_covered": "No. 130",
+      "last_peg": "The Diary &mdash; 13, 14 and 17 Nov at the National Stadium, Japan v Brazil on the 14th; flash sale to 19 Oct; CAT4 from $28",
+      "next_peg": "Next peg = the fixtures themselves, or a sell-out."
     },
     {
       "subject": "Qualcomm v. Arm (Delaware, architecture licence)",

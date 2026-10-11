@@ -530,9 +530,10 @@
       "venue": "1887 by André",
       "key": "1887 by André",
       "runs": [
-        69
+        69,
+        130
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "21 Sep 2026 (archive scan)",
       "note": ""
     },
@@ -557,9 +558,10 @@
       "venue": "Seroja",
       "key": "Seroja",
       "runs": [
-        63
+        63,
+        130
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "21 Sep 2026 (archive scan)",
       "note": ""
     },
@@ -986,9 +988,10 @@
       "venue": "GAMJA",
       "key": "GAMJA",
       "runs": [
-        113
+        113,
+        130
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 113 build",
       "note": "opening run — record the peg here"
     },
@@ -1060,9 +1063,10 @@
       "venue": "Kiap Kiap Chicken Club & Bar",
       "key": "Kiap Kiap Chicken Club & Bar",
       "runs": [
-        114
+        114,
+        130
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 114 build",
       "note": "opening run — record the peg here"
     },
@@ -1143,9 +1147,10 @@
       "venue": "VE/LA",
       "key": "VE/LA",
       "runs": [
-        116
+        116,
+        130
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 116 build",
       "note": "opening run — record the peg here"
     },
@@ -1275,9 +1280,10 @@
       "venue": "I’m Donut?",
       "key": "I’m Donut?",
       "runs": [
-        123
+        123,
+        130
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 123 build",
       "note": "opening run — record the peg here"
     },
@@ -1505,7 +1511,9 @@
     "Jing Studio",
     "Rituel",
     "Tavola Aperta",
+    "1887 by André",
     "Milli (Sky Dining)",
+    "Seroja",
     "Sio Pasta",
     "Tonkatsu Daiki",
     "Yi Man Fen Dessert (313 Somerset)",
@@ -1526,14 +1534,18 @@
     "Kimpson’s Table",
     "Kappo Suguru",
     "Cloudmills",
+    "GAMJA",
     "Marymount Bakehouse",
     "Kali Kali",
     "OJEJE",
     "Elijah Pies",
+    "Kiap Kiap Chicken Club & Bar",
     "Fico at Tanjong Beach Club",
     "Maison Yoshoku",
     "Shared Table",
+    "VE/LA",
     "Lulu’s Lounge",
-    "Tanica"
+    "Tanica",
+    "I’m Donut?"
   ]
 }

@@ -1,0 +1,796 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 130,
+ "date": "Monday 12 October 2026",
+ "title": "The null",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Monday, the twelfth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three strikes on one airport inside a week, and not one warning went out."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And in Singapore, a haze response plan that finally got its numbers — and then never switched on."
+  },
+  {
+   "s": "A",
+   "t": "Plus a government pledge billed at six billion dollars that itemises to about three."
+  },
+  {
+   "s": "B",
+   "t": "[amused] I love that one. Hold it. Lead first."
+  },
+  {
+   "s": "A",
+   "t": "Saturday. A missile reaches the passenger terminal at King Khalid International Airport in Riyadh. Twelve dead, three hundred and nine injured. Thirteen by Sunday evening. The Indian embassy reported that one of the injured had died."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Four Saudi citizens and eight residents, is that right?"
+  },
+  {
+   "s": "A",
+   "t": "Two Bangladeshis, and one American among them. Some of the wounded are still critical. The civil aviation authority has not said which hospitals."
+  },
+  {
+   "s": "B",
+   "t": "So what makes this different from the other strikes this campaign?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] The silence. Reuters reported from Riyadh that the attack — quote — occurred without warning, with no alert issued by Saudi Arabia's threat warning system. None. A capital layered with interceptors did not tell the hall that anything was coming."
+  },
+  {
+   "s": "B",
+   "t": "That's the line of the week, honestly."
+  },
+  {
+   "s": "A",
+   "t": "Sunday was quieter and worse. About a quarter to five the coalition says it intercepted a cruise missile near the airport. And a projectile struck Terminal Four and started a fire. Further injuries. Then the regulator disclosed that Dammam's airport had been hit the same afternoon."
+  },
+  {
+   "s": "B",
+   "t": "Two airports in one day."
+  },
+  {
+   "s": "A",
+   "t": "Yes. And a drone intercepted over the Eastern Province late that night."
+  },
+  {
+   "s": "B",
+   "t": "What's the Houthi account?"
+  },
+  {
+   "s": "A",
+   "t": "[skeptical] Their spokesman claimed four operations — the two airports, and two Aramco facilities. He put Saudi airstrikes since the escalation at two thousand and fifty-eight. Their number, on their channel. We say so. But the doctrine he named is worth hearing. Airport for airport, blockade for blockade, and escalation for escalation."
+  },
+  {
+   "s": "B",
+   "t": "A ladder with no top."
+  },
+  {
+   "s": "A",
+   "t": "[exhales] And then Washington. Asked if he'd changed his mind about joining the Saudi strikes, the American president said: we may. Two words."
+  },
+  {
+   "s": "B",
+   "t": "Okay — give me the other side. Somebody must be saying this is being overread."
+  },
+  {
+   "s": "A",
+   "t": "Nawaf Obaid, at King's College War Studies. He says the ratio is normal: as much as you can have a multi-layered air defence system, one will always come through."
+  },
+  {
+   "s": "B",
+   "t": "Which is true, and also no comfort if you were in the hall."
+  },
+  {
+   "s": "A",
+   "t": "He goes further. Militarily, he says, the Saudi-led coalition has the upper hand."
+  },
+  {
+   "s": "B",
+   "t": "Huh. And the fix everyone assumes — the fighter purchase?"
+  },
+  {
+   "s": "A",
+   "t": "Taken apart by Leonardo Mazzucco at the Arab Gulf States Institute on Friday. An F thirty-five buy, he writes, would offer only a partial response, and would not close persistent gaps — particularly against low-cost, distributed threats, such as drones."
+  },
+  {
+   "s": "B",
+   "t": "So the gap isn't in the hangar."
+  },
+  {
+   "s": "A",
+   "t": "It's in the layer that issued nothing on Saturday."
+  },
+  {
+   "s": "B",
+   "t": "What's the number that makes it concrete?"
+  },
+  {
+   "s": "A",
+   "t": "Thursday's strike, same campaign. Forty-four point seven one per cent of scheduled Riyadh departures cancelled or not flown. Saudia alone lost ninety-seven of a hundred and forty."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "Normal by six that evening. [drawn out] The whole war in one data point. Page four, briefly. Iran signed corridor coordinates with Oman on the seventh — and then said the deal does not provide for an immediate opening of the Strait of Hormuz."
+  },
+  {
+   "s": "B",
+   "t": "Wait, so what did they sign?"
+  },
+  {
+   "s": "A",
+   "t": "Coordinates. Reopening, the deputy foreign minister said, depends entirely on the United States fulfilling its obligations. Tehran is not obligated to reopen at this stage."
+  },
+  {
+   "s": "B",
+   "t": "Transit now?"
+  },
+  {
+   "s": "A",
+   "t": "Washington puts it at about eighty per cent of February levels. February being when the war started."
+  },
+  {
+   "s": "B",
+   "t": "And one source for those quotes, I notice."
+  },
+  {
+   "s": "A",
+   "t": "A Russian state wire. We print that, too."
+  },
+  {
+   "s": "B",
+   "t": "What about The Hague? The court was sanctioned on Friday."
+  },
+  {
+   "s": "A",
+   "t": "Three days on, the delta is an absence. No bank, no insurer, no cloud provider has been reported to have dropped it."
+  },
+  {
+   "s": "B",
+   "t": "Europe?"
+  },
+  {
+   "s": "A",
+   "t": "A statement on the tenth. The blocking statute has not been extended. Two scholars put it exactly: declarations will not prevent banks from closing accounts."
+  },
+  {
+   "s": "B",
+   "t": "[wry] A condemnation is not an indemnity. And there's a correction in there that isn't a correction."
+  },
+  {
+   "s": "A",
+   "t": "A researcher on this issue told us yesterday's page three was wrong — that no Russian diesel licence exists. The archive outranks memory, so we went and read the documents."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "[scoffs] Both are real. Both signed by the same director on Friday. The court licence at eight forty-one in the morning. The Russian diesel licence at two forty-three in the afternoon. Both expire on the seventh of April, twenty twenty-seven. Number one twenty-nine was right, and no correction is printed."
+  },
+  {
+   "s": "B",
+   "t": "Good. And one that should not be a brief anywhere."
+  },
+  {
+   "s": "A",
+   "t": "Off Obock, in Djibouti. A boat carrying about three hundred and five people bound for Yemen capsized on the night of the eighth. A hundred and thirty-nine dead. Eighty-four still missing. Fifteen children among them."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] The migration agency's director general said: no one gets into a boat like that unless they believe there is no other safe way."
+  },
+  {
+   "s": "A",
+   "t": "More than twenty thousand movements have crossed into Djibouti from Ethiopia since the tenth of September. Home, and the week's second non-event. On Friday the environment agency convened the Haze Task Force — twenty-eight agencies — and finally published what happens at each band."
+  },
+  {
+   "s": "B",
+   "t": "We've been asking for that for two issues."
+  },
+  {
+   "s": "A",
+   "t": "Twice. Above a twenty-four-hour P S I of two hundred: masks distributed, two to a pack, against an NRIC. Vending machines at transport hubs. Shelters at community clubs. Preschools stop all outdoor and all strenuous indoor activity."
+  },
+  {
+   "s": "B",
+   "t": "And above three hundred?"
+  },
+  {
+   "s": "A",
+   "t": "Shelters open to ten at night, and the education ministry will consider closing schools when the next day's forecast is hazardous. Which is the clause that matters. Candidates sit their papers in enclosed rooms with purifiers running. And if a closure collides with a national examination, the affected papers are rescheduled and the examination period is extended."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what happened?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing happened. That's the story. Friday evening the index ran a hundred and thirty-six to a hundred and ninety-two. Eight points short of the first rung. At five this morning the agency's own feed read a hundred and forty-eight west and central, a hundred and thirty-eight east."
+  },
+  {
+   "s": "B",
+   "t": "And the Grand Prix?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] Ran at a hundred and fifty-four on Sunday morning. Sixty-two laps. Verstappen. The sceptic is Professor Alan Tan at the National University. He says Singapore will likely wait for Indonesia to name companies first — and that, regrettably, not much has changed in how the root causes of fires remain unaddressed."
+  },
+  {
+   "s": "B",
+   "t": "Eleven years of a transboundary haze act and no action."
+  },
+  {
+   "s": "A",
+   "t": "A week quantifying masks is a week not spent on the instrument."
+  },
+  {
+   "s": "B",
+   "t": "Money. What broke?"
+  },
+  {
+   "s": "A",
+   "t": "Wednesday's Federal Reserve minutes. The committee saw — quote — not sufficient progress on lowering inflation in recent months."
+  },
+  {
+   "s": "B",
+   "t": "Against what?"
+  },
+  {
+   "s": "A",
+   "t": "Staff estimates of three point eight per cent headline, three point four core, in August. And most of them judged a further increase would likely be appropriate by year end. After a weak payroll print."
+  },
+  {
+   "s": "B",
+   "t": "So the long end stayed pinned."
+  },
+  {
+   "s": "A",
+   "t": "And here's the thing: the damage did not land in American equities. Global equities finished the week up. It landed six thousand miles away."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Here?"
+  },
+  {
+   "s": "A",
+   "t": "The Straits Times Index fell three point four nine per cent in a single session on Thursday, and four point one three on the week. Worst in Asia."
+  },
+  {
+   "s": "B",
+   "t": "Why us?"
+  },
+  {
+   "s": "A",
+   "t": "Three banks are more than half the index, and a large American house put out a note arguing that surging long yields mean bigger mark-to-market losses on trading books. It called the quarter skewed negative and recommended trimming all three."
+  },
+  {
+   "s": "B",
+   "t": "Two-day falls?"
+  },
+  {
+   "s": "A",
+   "t": "[exhales] Roughly six, seven point nine and ten per cent. On a note. Now the number I want you to hold. On Thursday, as equities broke, the global aggregate bond proxy moved plus nought point nought one seven five per cent."
+  },
+  {
+   "s": "B",
+   "t": "That's… nothing."
+  },
+  {
+   "s": "A",
+   "t": "That's nothing. Diversification did not hurt. It simply was not there — and the bond market was the cause."
+  },
+  {
+   "s": "B",
+   "t": "And gold?"
+  },
+  {
+   "s": "A",
+   "t": "Up one point three oh on the week, and one point four three on Friday alone — while the two-year yield rose and the dollar firmed. Sign-inverted for any model regressing gold on nominal yields. Third week we've had to say it. Explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "What's Wednesday?"
+  },
+  {
+   "s": "A",
+   "t": "American consumer prices and the Monetary Authority of Singapore's policy statement, on the same day. Three named houses expect a quarter-point steepening. One expects a hold."
+  },
+  {
+   "s": "B",
+   "t": "And in July?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Four of eighteen surveyed economists called the surprise correctly. So consensus is a coin. Technology, then. A Washington science summit on Thursday. Eleven companies pledged two point four billion dollars in compute credits."
+  },
+  {
+   "s": "B",
+   "t": "Big day."
+  },
+  {
+   "s": "A",
+   "t": "The day was billed at six billion."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the components?"
+  },
+  {
+   "s": "A",
+   "t": "Two point four in credits. A hundred and fifty-nine million in energy department awards. Ninety-six million for early-career researchers. Up to three hundred and fifty million in Pentagon quantum money. That's about three. Half the headline is unexplained."
+  },
+  {
+   "s": "B",
+   "t": "And a credit isn't cash."
+  },
+  {
+   "s": "A",
+   "t": "A credit has no maturity, no drawdown schedule, no published unit price. It can be throttled by queue or revalued by a rate card, and none of that is reported as a withdrawal."
+  },
+  {
+   "s": "B",
+   "t": "Who confirmed terms?"
+  },
+  {
+   "s": "A",
+   "t": "One spokesperson, out of eleven. One company published its own."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] And the technical public?"
+  },
+  {
+   "s": "A",
+   "t": "Did not look up. On Hacker News the main report reached three points and zero comments. Over the same days the front page carried a post about bot traffic at five hundred and seventy-five points."
+  },
+  {
+   "s": "B",
+   "t": "A computer made of lightbulbs beat a federal compute programme."
+  },
+  {
+   "s": "A",
+   "t": "By a factor of nearly two hundred."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay. The one you can check with a calculator?"
+  },
+  {
+   "s": "A",
+   "t": "The chip maker published September revenue on Thursday. Add July and August, convert at the rate its own guidance page assumes, and the quarter comes to about forty-six point seven billion dollars."
+  },
+  {
+   "s": "B",
+   "t": "Against guidance of?"
+  },
+  {
+   "s": "A",
+   "t": "Forty-four point six to forty-five point eight. It has already beaten its own ceiling, one point nine five per cent clear, and it does not report until Thursday. Home lab, quickly. A merge on Thursday took the expert cache across multiple graphics cards. Decode goes up one point eight five times."
+  },
+  {
+   "s": "B",
+   "t": "Nice."
+  },
+  {
+   "s": "A",
+   "t": "[skeptical] In the same run, prompt processing falls to nought point seven three. Twenty-seven per cent slower, and the notes do not mention it. For a long-context workload that trade is the wrong way round."
+  },
+  {
+   "s": "B",
+   "t": "And the people who measured it themselves?"
+  },
+  {
+   "s": "A",
+   "t": "One reports decoding two hundred per cent slower on his machine, with no reply on the page. Another, on an older bus, found the cache slower at every size that fits. The Kit, then. Four hundred and forty-nine dollars ninety-nine, on sale a fortnight. The maker's page gives you the driver, the codecs and a battery claim."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "No weight. No Bluetooth version. No cancellation figure. The full specification sheet is behind an email form."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] You have to give them your address to find out what it weighs."
+  },
+  {
+   "s": "A",
+   "t": "The only published weight in the world is three hundred and six grams, taken by a reviewer on his own scale."
+  },
+  {
+   "s": "B",
+   "t": "Singapore price?"
+  },
+  {
+   "s": "A",
+   "t": "None. Two of the maker's own regional pages refused us outright."
+  },
+  {
+   "s": "B",
+   "t": "Buy it once. What's the desk on today?"
+  },
+  {
+   "s": "A",
+   "t": "[curious] Enamelware. And it is a better story than it sounds. Enamel is glass — silicates, borates, oxides — fused onto steel at seven hundred and ninety to eight hundred and sixty degrees. The bond is a chemical reaction with cobalt in the ground coat."
+  },
+  {
+   "s": "B",
+   "t": "Not glue."
+  },
+  {
+   "s": "A",
+   "t": "Not glue, not pressure. And here is the sentence one maker is honest enough to print: enamel does not adhere well to narrow edges, such as the underside of a rolled rim. Which in this climate is exactly where an heirloom starts to rust."
+  },
+  {
+   "s": "B",
+   "t": "And the badge tax?"
+  },
+  {
+   "s": "A",
+   "t": "[scoffs] One British-heritage brand tells Americans its ware is manufactured in China, and Europeans that it is manufactured in East Asia. Same question, softer noun. And two American shelf brands turn out to be one company — one about page redirects to the other, and every mug carries the other's vendor name."
+  },
+  {
+   "s": "B",
+   "t": "So does four dollars differ from forty?"
+  },
+  {
+   "s": "A",
+   "t": "On every published measurable — hardness, impact, lead and cadmium release — no. What you buy is coat count, rim treatment and a named country."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one. Locksport. Recreational lock picking. Here's the mechanism, and it's beautiful. A pin-tumbler lock has a plug inside a housing, and spring-loaded pin pairs crossing the boundary between them."
+  },
+  {
+   "s": "B",
+   "t": "The shear line."
+  },
+  {
+   "s": "A",
+   "t": "The shear line. A key lifts every stack until each split sits exactly on it. Picking works because the chambers were never drilled perfectly in line."
+  },
+  {
+   "s": "B",
+   "t": "So they bind one at a time."
+  },
+  {
+   "s": "A",
+   "t": "Apply light turning force and exactly one pin binds first. Set it, the plug rotates a few microns, the next one binds. That sequence is the binding order — the lock's fingerprint."
+  },
+  {
+   "s": "B",
+   "t": "How do manufacturers fight back?"
+  },
+  {
+   "s": "A",
+   "t": "Shaped drivers. A spool pin is narrower in the middle than at the ends. It catches, the plug counter-rotates — fighting against you, as if trying to turn back — and you get a false set."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Which feels like what?"
+  },
+  {
+   "s": "A",
+   "t": "Exactly like success. [pause] The guide's own verdict: picking spool pins is something that many novices find frustrating."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's cruel. Is there a ranking? Belts, anything?"
+  },
+  {
+   "s": "A",
+   "t": "Nine of them, and they rank the locks, not the people. White belt holds any clear acrylic training lock, any cutaway — and the entire Master Lock number one to number eight range."
+  },
+  {
+   "s": "B",
+   "t": "And the top?"
+  },
+  {
+   "s": "A",
+   "t": "Eight tiers up, black five, one entry: a Kromer Protector."
+  },
+  {
+   "s": "B",
+   "t": "What does getting started cost?"
+  },
+  {
+   "s": "A",
+   "t": "Seventy-seven American dollars for the best first kit in the research: four picks, six turning tools, and three cutaway practice locks — standard, serrated and spool — so you learn the feel before you spend. And the maker names its steel. The no-name kits name nothing, which is the case against them."
+  },
+  {
+   "s": "B",
+   "t": "Where does the money actually go?"
+  },
+  {
+   "s": "A",
+   "t": "The custom tier. A hand-cut hook from a named artisan runs a hundred and forty-five to three hundred and forty dollars. Between two and eight times the whole kit, for one pick. And the artisan collection at the main retailer carries a hundred and ten listings — every single one sold out."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Drop culture. Now — can you actually do this here?"
+  },
+  {
+   "s": "A",
+   "t": "This is the sharpest thing on the desk. Section four five three of the Penal Code, as it stands today, makes it an offence to be found equipped with any article or instrument for use in connection with any housebreaking. Purpose, not possession. And the reverse burden in the next subsection is written for the weapons limb, not for implements. Picks are not a prohibited article here."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Not advice, obviously."
+  },
+  {
+   "s": "A",
+   "t": "[laughs] Not advice. That's what the statute says. And look at enforcement: in August last year the police charged four men under that section — and the implements were screwdrivers and spanners. It is an any-object-plus-intent law. There's also a club. Locksport Singapore, founded in twenty sixteen, more than fifty members. Its founder's line is that they only practise on locks that we own."
+  },
+  {
+   "s": "B",
+   "t": "And he compares it to what?"
+  },
+  {
+   "s": "A",
+   "t": "Solving a Rubik's cube — which just happens to involve a lock."
+  },
+  {
+   "s": "B",
+   "t": "Where does it stop being fun?"
+  },
+  {
+   "s": "A",
+   "t": "Week four. The community documents its own cliff: already-set pins dropping while you work the spool, and oversetting, where the force needed to pass the ledge pushes the key pin past the shear line as well."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And the ceiling?"
+  },
+  {
+   "s": "A",
+   "t": "One Canadian maker's high-security cylinder gives every disk three or more false gates, matching the true gate in every dimension except depth. Then it says, on its own page: we do not think this will be a lock that will be picked in real life scenarios any time soon."
+  },
+  {
+   "s": "B",
+   "t": "The manufacturer admitting the limit is the sceptic box writing itself."
+  },
+  {
+   "s": "A",
+   "t": "And the genuinely modern story isn't a pick at all. In March last year six university researchers broke a Bluetooth deadbolt five different ways — replay unlocking, expired guests still getting in, forged audit logs. The lock moved to the radio."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Best descent in weeks."
+  },
+  {
+   "s": "A",
+   "t": "Quickly, the rest of the book. Screen and Sound: a horror film with an eighteen per cent critics' score took twenty-seven and a half million dollars and beat an Aaron Sorkin picture five to one."
+  },
+  {
+   "s": "B",
+   "t": "How is that possible?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Read the denominator. That eighteen per cent rests on fifty-seven critics; the aggregate score everyone quotes rests on eleven reviews. The Sorkin film was assessed by two hundred and four. Eleven. It is a small sample with a decimal point."
+  },
+  {
+   "s": "B",
+   "t": "Watches?"
+  },
+  {
+   "s": "A",
+   "t": "Two box sets, each limited to seventy-seven numbered examples. A hundred and fifty-four platinum-gold watches, under a number that reads as seventy-seven. And each set includes a steel watch you can buy on its own for eight thousand six hundred dollars."
+  },
+  {
+   "s": "B",
+   "t": "Family desk. The eleven-to-thirteen band."
+  },
+  {
+   "s": "A",
+   "t": "A study of three thousand four hundred and eighty-six children who had no phone at eleven. Getting one by thirteen moved internalising problems by nought point one one of a standard deviation."
+  },
+  {
+   "s": "B",
+   "t": "Is that big?"
+  },
+  {
+   "s": "A",
+   "t": "It is real and it is small. Externalising did not move at all. And about eighty per cent of the effect runs through three things: total screen time, having a social media account, and media use at bedtime. The lever is the account and the hour. And on the next page, a Tokyo cohort finds that at ten, higher testosterone tracked fewer behaviour problems — and by twelve it no longer predicted anything at all."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So much for hormones. And fitness — the protein thing?"
+  },
+  {
+   "s": "A",
+   "t": "General guidance, not medical advice, on both. Then fitness: a hundred and eight women, average age about forty-nine, twelve weeks of identical supervised training — on nought point eight, one point six, or two point two grams of protein per kilo a day."
+  },
+  {
+   "s": "B",
+   "t": "And the muscle difference?"
+  },
+  {
+   "s": "A",
+   "t": "[laughs] p equals nought point seven two six. Nothing the study could measure. And a second trial the same month found that training at your body's measured peak hour beats your worst hour by nought point nought six newtons per kilo."
+  },
+  {
+   "s": "B",
+   "t": "Also nothing."
+  },
+  {
+   "s": "A",
+   "t": "Also nothing. What did move? Add the bike and you lose two points of body fat. Skip it and you gain nearly seven kilos of leg press. The boring variable is the one with a number on it."
+  },
+  {
+   "s": "B",
+   "t": "And the diary — anything I should book?"
+  },
+  {
+   "s": "A",
+   "t": "Brazil plays twice at the National Stadium in one November week, and the flash sale on the cheapest of those nights closes on the nineteenth. Also: November's Fukuoka sumo is sold out on all fifteen days, with no door tickets."
+  },
+  {
+   "s": "B",
+   "t": "[curious] All fifteen?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] All fifteen. Tokyo's January tournament opens its advance sale on the fifth of December. Set an alarm. The Undercurrent takes us to China, and to a word."
+  },
+  {
+   "s": "B",
+   "t": "Which word?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] Renliang. It means, literally, human grain — and it's built by analogy with the words for cat food and dog food. On a Sunday, a Chinese office worker blanches a week of vegetables, shrimp and chicken, portions them into trays, freezes them, and microwaves one for five minutes a day."
+  },
+  {
+   "s": "B",
+   "t": "And calls it that. Out loud."
+  },
+  {
+   "s": "A",
+   "t": "Without irony. Under a hundred yuan for a week's shop. Under ten yuan a meal, against thirty to forty for a light-meal delivery."
+  },
+  {
+   "s": "B",
+   "t": "Why now, though? People have been batch-cooking forever."
+  },
+  {
+   "s": "A",
+   "t": "Because of what came before it. Last September an entrepreneur accused a large restaurant chain of serving expensive pre-made dishes. The founder denied it and threw open the kitchens of more than three hundred and seventy stores."
+  },
+  {
+   "s": "B",
+   "t": "How did that go?"
+  },
+  {
+   "s": "A",
+   "t": "By January the chain was closing a hundred and two outlets, about a third of its estate, after footfall fell forty-five per cent at the worst point. And here is what almost everyone got wrong, including the chain. It was never pre-made food as such: more than ninety per cent of surveyed Chinese consumers say they accept prepared dishes in principle."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Then what were they angry about?"
+  },
+  {
+   "s": "A",
+   "t": "Paying a restaurant's assembly premium for a factory's product. It was a pricing argument wearing a food-safety costume."
+  },
+  {
+   "s": "B",
+   "t": "And the state's answer?"
+  },
+  {
+   "s": "A",
+   "t": "In February, a draft notice encouraging restaurants to disclose preparation methods. Encouraging. Not mandatory. And the standard's definition excludes dishes made in a chain's own central kitchen."
+  },
+  {
+   "s": "B",
+   "t": "Which is most of what people were angry about."
+  },
+  {
+   "s": "A",
+   "t": "So households supplied the transparency themselves — by moving the production step inside the flat."
+  },
+  {
+   "s": "B",
+   "t": "The freezer tray is a factory you own."
+  },
+  {
+   "s": "A",
+   "t": "And nothing about it is hidden. Now the numbers. In August, catering revenue at China's large, countable restaurant businesses was down nought point seven per cent on the year. Contracting. In the first half of this year China closed two million fifty-five thousand two hundred restaurant outlets and opened one million six hundred and fifty thousand."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] A net loss of four hundred thousand."
+  },
+  {
+   "s": "A",
+   "t": "The national total went from about eight point four million to seven point nine nine million in six months."
+  },
+  {
+   "s": "B",
+   "t": "And the appliance market?"
+  },
+  {
+   "s": "A",
+   "t": "Down nearly ten per cent in the first half. Chest freezer sales were up thirteen point two per cent by volume. One of only two categories growing."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Households bought almost nothing — except the machine that replaces a restaurant."
+  },
+  {
+   "s": "A",
+   "t": "The sceptics have a case, and we print it. The research house itself calls the freezer line a seesaw with refrigerators, driven by a cheaper average price."
+  },
+  {
+   "s": "B",
+   "t": "And catering is still outgrowing goods retail."
+  },
+  {
+   "s": "A",
+   "t": "Two point four per cent against one. And a hospital nutrition director went into a provincial paper last month to tell the country not to live on this. Freezing strips the water-soluble vitamins, and leafy greens should never be pre-frozen. A diet a hospital tells you not to live on has an expiry date built in."
+  },
+  {
+   "s": "B",
+   "t": "So what does it mean?"
+  },
+  {
+   "s": "A",
+   "t": "That the usual account of China's consumption problem is wrong. It isn't households without money. It's households with money declining a specific transaction."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The one where you pay a service premium for a step you've now priced."
+  },
+  {
+   "s": "A",
+   "t": "And once a consumer has done that sum, no stimulus unwinds it — because the thing being refused is not a price. It's a markup. Eating has been reclassified from pleasure to maintenance, and maintenance is bought on cost."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the spine of the whole book, isn't it. The null."
+  },
+  {
+   "s": "A",
+   "t": "The warning that wasn't issued. The ladder never climbed. The protein that changed nothing. Holmes is on page two — the dog did nothing in the night-time, and that was the curious incident."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] An absence is evidence. It's just harder to photograph."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

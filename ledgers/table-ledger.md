@@ -90,9 +90,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Jing Studio | Jing Studio | 67, 73 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Rituel | Rituel | 71, 112 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Tavola Aperta | Tavola Aperta | 60, 62, 71 | SPENT | 21 Sep 2026 (archive scan) |  |
-| 1887 by André | 1887 by André | 69 | OPEN | 21 Sep 2026 (archive scan) |  |
+| 1887 by André | 1887 by André | 69, 130 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Milli (Sky Dining) | Milli | 17, 27, 28, 32, 34, 56, 59, 68 | SPENT | 21 Sep 2026 (archive scan) |  |
-| Seroja | Seroja | 63 | OPEN | 21 Sep 2026 (archive scan) |  |
+| Seroja | Seroja | 63, 130 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Sio Pasta | Sio Pasta | 28, 63 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Tonkatsu Daiki | Tonkatsu Daiki | 26, 63 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Sushi Tenrai | Sushi Tenrai | 61 | OPEN | 21 Sep 2026 (archive scan) |  |
@@ -131,14 +131,14 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Kimpson’s Table | Kimpson’s Table | 112, 120 | SPENT | No. 112 build | opening run — record the peg here |
 | Kappo Suguru | Kappo Suguru | 112, 126 | SPENT | No. 112 build | opening run — record the peg here |
 | Cloudmills | Cloudmills | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
-| GAMJA | GAMJA | 113 | OPEN | No. 113 build | opening run — record the peg here |
+| GAMJA | GAMJA | 113, 130 | SPENT | No. 113 build | opening run — record the peg here |
 | Marymount Bakehouse | Marymount Bakehouse | 113, 127 | SPENT | No. 113 build | opening run — record the peg here |
 | Kali Kali | Kali Kali | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
 | OJEJE | OJEJE | 113, 122 | SPENT | No. 113 build | opening run — record the peg here |
 | Elijah Pies | Elijah Pies | 114, 123 | SPENT | No. 114 build | opening run — record the peg here |
 | LingZhi Greens | LingZhi Greens | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Gepuk Guys | Gepuk Guys | 114 | OPEN | No. 114 build | opening run — record the peg here |
-| Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114, 130 | SPENT | No. 114 build | opening run — record the peg here |
 | BlackTree | BlackTree | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Fico at Tanjong Beach Club | Fico at Tanjong Beach Club | 115, 127 | SPENT | No. 115 build | opening run — record the peg here |
 | Whuchu | Whuchu | 115 | OPEN | No. 115 build | opening run — record the peg here |
@@ -146,7 +146,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Maison Yoshoku | Maison Yoshoku | 116, 123 | SPENT | No. 116 build | opening run — record the peg here |
 | Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Shared Table | Shared Table | 116, 124 | SPENT | No. 116 build | opening run — record the peg here |
-| VE/LA | VE/LA | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| VE/LA | VE/LA | 116, 130 | SPENT | No. 116 build | opening run — record the peg here |
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |
@@ -159,7 +159,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Jomaru | Jomaru | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Little Rituals | Little Rituals | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Yerba Yerba | Yerba Yerba | 122 | OPEN | No. 122 build | opening run — record the peg here |
-| I’m Donut? | I’m Donut? | 123 | OPEN | No. 123 build | opening run — record the peg here |
+| I’m Donut? | I’m Donut? | 123, 130 | SPENT | No. 123 build | opening run — record the peg here |
 | Molly Tea | Molly Tea | 124 | OPEN | No. 124 build | opening run — record the peg here |
 | Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |
 | Sansok | Sansok | 125 | OPEN | No. 125 build | opening run — record the peg here |
