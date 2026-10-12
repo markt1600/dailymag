@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Bicycle saddles &amp; leather tops",
+      "issue": "131",
+      "angle": "<b>Rivet against bolt is the whole buy-once argument, decided at the factory.</b> A tensioned leather top is a <b>suspension bridge</b>, not a cushion: the hide carries the rider on tensile strength and resistance to creep, so thickness governs &mdash; and Brooks publishes one only for the <b>B17 Ut"
+    },
+    {
       "category": "Enamelware &amp; camp mugs",
       "issue": "130",
       "angle": "<b>The glass will not stick to the rim.</b> MECHANISM: a frit of silicates, borates and oxides fused to steel at <b>790&ndash;860&deg;C</b> (Riess states 850&deg;C, &ldquo;Glas auf Eisen&rdquo;); enamelling steels sorted by carbon (plain 0.035&ndash;0.065%, decarburised &lt;0.0040) because dissolved"
@@ -425,6 +430,18 @@
       "rotation": "Kitchen / carry",
       "fit": "Distinct from the No. 120 drinks-flask desk &mdash; the wide-mouth food jar and its gasket",
       "sources": "Zojirushi, Thermos, Tiger, Stanley; retention claims that are testable"
+    },
+    {
+      "category": "Dehumidifiers &amp; air treatment",
+      "rotation": "Home / climate",
+      "fit": "The appliance that actually decides a Singapore wardrobe&rsquo;s life; compressor against desiccant, and the litres-a-day claim tested",
+      "sources": "Mitsubishi, Panasonic, Novita, Delonghi; the published extraction standard nobody quotes"
+    },
+    {
+      "category": "Ironing boards, irons &amp; steam generators",
+      "rotation": "Home / laundry",
+      "fit": "A daily object with a real engineering hierarchy and an enormous badge tax",
+      "sources": "Laurastar, Philips, Rowenta; boiler pressure, soleplate materials, r/BuyItForLife"
     }
   ],
   "retired": [
@@ -452,16 +469,6 @@
       "category": "Chef&#39;s aprons &amp; kitchen textiles",
       "retired": "6 Sep 2026",
       "note": "Reader eliminated it. Was pipelined as Home / kitchen — the waxed-canvas and linen apron makers (Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife). Row was originally typed in the pipeline's four-column shape under this three-column header; re-cast 6 Sep 2026 when the Retired ta"
-    },
-    {
-      "category": "Dehumidifiers &amp; air treatment",
-      "retired": "Home / climate",
-      "note": "The appliance that actually decides a Singapore wardrobe&rsquo;s life; compressor against desiccant, and the litres-a-day claim tested · Mitsubishi, Panasonic, Novita, Delonghi; the published extraction standard nobody quotes"
-    },
-    {
-      "category": "Ironing boards, irons &amp; steam generators",
-      "retired": "Home / laundry",
-      "note": "A daily object with a real engineering hierarchy and an enormous badge tax · Laurastar, Philips, Rowenta; boiler pressure, soleplate materials, r/BuyItForLife"
     }
   ]
 }

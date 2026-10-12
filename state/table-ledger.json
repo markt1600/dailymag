@@ -1105,9 +1105,10 @@
       "venue": "Moutai House",
       "key": "Moutai House",
       "runs": [
-        115
+        115,
+        131
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 115 build",
       "note": "opening run — record the peg here"
     },
@@ -1240,9 +1241,10 @@
       "venue": "KOKO Kawane",
       "key": "KOKO Kawane",
       "runs": [
-        121
+        121,
+        131
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 121 build",
       "note": "opening run — record the peg here"
     },
@@ -1291,9 +1293,10 @@
       "venue": "Molly Tea",
       "key": "Molly Tea",
       "runs": [
-        124
+        124,
+        131
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 124 build",
       "note": "opening run — record the peg here"
     },
@@ -1541,11 +1544,14 @@
     "Elijah Pies",
     "Kiap Kiap Chicken Club & Bar",
     "Fico at Tanjong Beach Club",
+    "Moutai House",
     "Maison Yoshoku",
     "Shared Table",
     "VE/LA",
     "Lulu’s Lounge",
     "Tanica",
-    "I’m Donut?"
+    "KOKO Kawane",
+    "I’m Donut?",
+    "Molly Tea"
   ]
 }

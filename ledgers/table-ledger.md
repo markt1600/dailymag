@@ -142,7 +142,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | BlackTree | BlackTree | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Fico at Tanjong Beach Club | Fico at Tanjong Beach Club | 115, 127 | SPENT | No. 115 build | opening run — record the peg here |
 | Whuchu | Whuchu | 115 | OPEN | No. 115 build | opening run — record the peg here |
-| Moutai House | Moutai House | 115 | OPEN | No. 115 build | opening run — record the peg here |
+| Moutai House | Moutai House | 115, 131 | SPENT | No. 115 build | opening run — record the peg here |
 | Maison Yoshoku | Maison Yoshoku | 116, 123 | SPENT | No. 116 build | opening run — record the peg here |
 | Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Shared Table | Shared Table | 116, 124 | SPENT | No. 116 build | opening run — record the peg here |
@@ -155,12 +155,12 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
 | Tanica | Tanica | 118, 129 | SPENT | No. 118 build | opening run — record the peg here |
 | Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120 | OPEN | No. 120 build | opening run — record the peg here |
-| KOKO Kawane | KOKO Kawane | 121 | OPEN | No. 121 build | opening run — record the peg here |
+| KOKO Kawane | KOKO Kawane | 121, 131 | SPENT | No. 121 build | opening run — record the peg here |
 | Jomaru | Jomaru | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Little Rituals | Little Rituals | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Yerba Yerba | Yerba Yerba | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | I’m Donut? | I’m Donut? | 123, 130 | SPENT | No. 123 build | opening run — record the peg here |
-| Molly Tea | Molly Tea | 124 | OPEN | No. 124 build | opening run — record the peg here |
+| Molly Tea | Molly Tea | 124, 131 | SPENT | No. 124 build | opening run — record the peg here |
 | Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |
 | Sansok | Sansok | 125 | OPEN | No. 125 build | opening run — record the peg here |
 | Dolpan Hwajoo | Dolpan Hwajoo | 125 | OPEN | No. 125 build | opening run — record the peg here |

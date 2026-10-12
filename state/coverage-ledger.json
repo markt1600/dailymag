@@ -1,5 +1,5 @@
 {
-  "count": 940,
+  "count": 949,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,69 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "XREAL AURA (Android XR glasses)",
+      "type": "Product (wearable)",
+      "last_covered": "No. 131",
+      "last_peg": "The Kit LEAD &mdash; priced 7 Oct at US$1,279/$1,499; glasses plus tethered puck; the maker&rsquo;s own page carries two different launch-region lists and three weights",
+      "next_peg": "Next peg = a Singapore price, general orders opening, or the first measured review"
+    },
+    {
+      "subject": "Casio Oceanus OCW-SG1000MC-1AJR",
+      "type": "Product (watch)",
+      "last_covered": "No. 131",
+      "last_peg": "The Good Life LEAD &mdash; &yen;748,000, 300 numbered pieces &ldquo;worldwide&rdquo;, sold only through Casio partner shops in Japan; &yen;66,000 above a 600-piece predecessor with the same movement",
+      "next_peg": "Next peg = a non-Japanese price, or the release on 13 Nov"
+    },
+    {
+      "subject": "Microsoft Maia 300",
+      "type": "Product (AI accelerator)",
+      "last_covered": "No. 131",
+      "last_peg": "Technology LEAD &mdash; announced 12 Oct; 288GB HBM4 at 18TB/s in 950W on N2P; &ldquo;40% more tokens per megawatt&rdquo; against an unnamed baseline and no absolute FLOPS figure",
+      "next_peg": "Next peg = an absolute throughput figure, a named comparison, or first production deployment in 2027"
+    },
+    {
+      "subject": "llama.cpp PR 29887 (MoE expert GPU cache)",
+      "type": "Software (merged PR)",
+      "last_covered": "No. 131",
+      "last_peg": "The Home Lab LEAD &mdash; merged 7 Oct; author 1.57&ndash;2.20&times; decode, a two-GPU tester 25&ndash;34% slower, PCIe 3.0 never beat baseline",
+      "next_peg": "CLOSED as a merge. Next peg = a multi-device version, or a routing policy replacing plain LRU"
+    },
+    {
+      "subject": "Fyne Audio F1-10 Anniversary",
+      "type": "Product (loudspeaker)",
+      "last_covered": "No. 131",
+      "last_peg": "The Good Life secondary &mdash; &pound;37,000 on the maker&rsquo;s page, &ldquo;strictly limited&rdquo; with no number given; the trade press says 30 pairs at &pound;36,999",
+      "next_peg": "Next peg = an edition size or specification published by the maker"
+    },
+    {
+      "subject": "Angel and the Badman (2026)",
+      "type": "Film (release)",
+      "last_covered": "No. 131",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; 2,263 screens, $2,063,407, 23% on 13 critics, and exactly one logged Metacritic review against the 1947 original&rsquo;s seven",
+      "next_peg": "CLOSED at the opening weekend &mdash; next peg would be actuals replacing estimates, or a legs story"
+    },
+    {
+      "subject": "Brooks England (leather saddles)",
+      "type": "Product (maker)",
+      "last_covered": "No. 131",
+      "last_peg": "The Atelier LEAD &mdash; Italian-owned since July 2002; leather made in England, Cambium in Italy; no replacement leather top sold because it is riveted",
+      "next_peg": "Next peg = a published Singapore distributor price, or a change in where the Cambium is made"
+    },
+    {
+      "subject": "Phillips Geneva Watch Auction XXIV",
+      "type": "Event (auction)",
+      "last_covered": "No. 131",
+      "last_peg": "The Good Life &mdash; 7&ndash;8 Nov, 221 lots; lot 2 a steel Patek 1436 at CHF2&ndash;4m",
+      "next_peg": "Next peg = the results on 8 November"
+    },
+    {
+      "subject": "Malaysia Gig Workers Act 872 / MPGig minimum income",
+      "type": "Policy (developing)",
+      "last_covered": "No. 131",
+      "last_peg": "The Undercurrent &mdash; Budget 2027 para 34: RM160m co-funded with Grab, rate to be finalised early 2027, p-hailing to be licensed under APAD and LPKP",
+      "next_peg": "Next peg = whether a rate is gazetted by 31 Mar 2027, and whether it is per engaged hour and platform-neutral"
     },
     {
       "subject": "Houthi strikes on King Khalid &amp; King Fahd airports",

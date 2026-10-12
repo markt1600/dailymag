@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 131,
+ "date": "Tuesday 13 October 2026",
+ "title": "The say-so",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the thirteenth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "A ceasefire announced by one of its two parties. The other found out from the news."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And an accelerator that claims forty per cent more performance than a machine nobody will name."
+  },
+  {
+   "s": "A",
+   "t": "Plus a watch limited to three hundred worldwide, on sale in exactly one country."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Oh, I want that one. But lead first."
+  },
+  {
+   "s": "A",
+   "t": "Sunday. A post goes up. Quote: effective immediately, there is an energy ceasefire in the war between Russia and Ukraine. Both parties have agreed. Do not break it. Both parties. Within hours a Russian strike reached the Kharkiv thermal plant."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So what did Kyiv actually say?"
+  },
+  {
+   "s": "A",
+   "t": "Two things, on Monday. First: we didn't know about it. We learned from the media. Then, to the Warsaw Security Forum: we do support it, but I have not heard approval of this proposal from the Russian side, and this looks strange. The Kremlin spokesman offered that contacts are ongoing. Nothing else."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Contacts are ongoing. That's diplomatic for we have not read the post."
+  },
+  {
+   "s": "A",
+   "t": "Zelensky made the same joke, more or less. His line was: Putin does not read TruthSocial."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay, that's a good line."
+  },
+  {
+   "s": "A",
+   "t": "Here's the first twenty-four hours of this ceasefire. At least ten killed, sixty-nine injured across Ukraine. Five dead in Kharkiv alone. Six energy facilities struck, plus a state gas-production site. A hundred and twenty-one Shahed-type drones. Seventy-six of them jet-powered. Eighty-nine downed or suppressed. Impacts at fifteen locations."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] In the first day."
+  },
+  {
+   "s": "A",
+   "t": "One oddity we printed, because we read it ourselves — the outlet's headline said sixty-nine injured and its own web address still said seventy-three."
+  },
+  {
+   "s": "B",
+   "t": "You printed the discrepancy rather than picking one."
+  },
+  {
+   "s": "A",
+   "t": "We printed the discrepancy. Now — here's the part that makes the whole thing strange. An energy truce scoped to oil. Kyiv's own argument: in Ukraine, we have just one oil refinery. And it was badly damaged by Russian strikes long, long ago."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the truce protects Russian refineries and protects Ukraine from nothing it still owns."
+  },
+  {
+   "s": "A",
+   "t": "Which is why Zelensky wants the power grid inside it, not the barrel."
+  },
+  {
+   "s": "B",
+   "t": "And is there a price attached to this?"
+  },
+  {
+   "s": "A",
+   "t": "There is, and it isn't a Russian one. A Kyiv newsroom reported, on three officials who wouldn't be named, that Washington threatened to cut intelligence sharing and a NATO-financed weapons list worth six point seven billion dollars in its first year. If Ukraine struck Russian refineries during the truce. The quote is: they called all the top military officials with threats. Single-sourced, and we said so on the page. The outlet later removed a paragraph after a presidential-office official denied confirming it. No American has answered on the record."
+  },
+  {
+   "s": "B",
+   "t": "Right. And what does the market make of the diesel half of this deal?"
+  },
+  {
+   "s": "A",
+   "t": "Three hundred thousand tonnes now, five hundred thousand in November, a million after that. Under a Treasury licence that runs to April. GasBuddy's Patrick De Haan: I don't believe this changes much. Our desk did the arithmetic — three hundred thousand tonnes is about a day and a half of normal American consumption."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] A day and a half."
+  },
+  {
+   "s": "A",
+   "t": "And it may not exist. Tanker tracking has Russian diesel exports falling from seven hundred and six thousand barrels a day in January to forty-seven thousand in August. About half of Russian refining capacity is offline. Tom Kloza of Gulf Oil asked it plainly: would Russia be willing to part with diesel to the US when it doesn't have enough to handle domestic needs?"
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Good question."
+  },
+  {
+   "s": "A",
+   "t": "Second page of The World, and it's the same shape wearing a suit. Britain attributed the RAF Fairford incident to Iran. The Prime Minister said almost certainly directed by Iran's Islamic Revolutionary Guard, and highly likely to have been coordinated in Iran. The Home Secretary narrowed it to a known individual based in Iran. Thirty-two foreign ministers co-signed a single paragraph recognising that attribution."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Thirty-two governments co-signing a likelihood."
+  },
+  {
+   "s": "A",
+   "t": "Here's what the case holds. Five British men in their twenties arrested before dawn on the twenty-seventh of September. Petrol found in three linked vans. No explosives recovered. All five released on police bail. Two more arrested later. One outlet covering the attribution calls the plot largely unexplained."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So the evidence is the signatures."
+  },
+  {
+   "s": "A",
+   "t": "And on the same afternoon Brussels adopted one thousand five hundred and sixty-nine Russia listings. Eight hundred and twenty-six companies, seven hundred and forty-three individuals holding chief-executive roles inside them."
+  },
+  {
+   "s": "B",
+   "t": "The largest round since twenty twenty-two, I assume they said."
+  },
+  {
+   "s": "A",
+   "t": "They did. It is a count of directors. The wires rounded it to almost sixteen hundred; the Council's own text says one five six nine. A hawkish speech into a closed bond market. The US cash Treasury market was shut Monday for Columbus Day. The last print is Friday's — five point two four at ten years, four point eight at two. And into that silence the Cleveland Fed's president told the economists' meeting: I believe a restrictive policy stance will be needed for us to reach our destination in a timely fashion."
+  },
+  {
+   "s": "B",
+   "t": "With no bond market open to argue."
+  },
+  {
+   "s": "A",
+   "t": "None. So the dollar did the repricing instead. The dollar index up zero point three six per cent, higher against all seven majors. The euro to a twenty twenty-six low at one point one one five five. The yen through its two-hundred-day average. Gold down zero point five nine. Silver down zero point nine two. Bitcoin down zero point eight."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Wait — didn't gold spend three weeks doing the opposite?"
+  },
+  {
+   "s": "A",
+   "t": "It did, and that's our continuity note. For three issues this desk printed gold rising with a bid dollar. On Monday it fell while the dollar rose. The normal relationship is restored."
+  },
+  {
+   "s": "B",
+   "t": "Good. What about the bond sleeve?"
+  },
+  {
+   "s": "A",
+   "t": "Still doing nothing, more precisely. The global aggregate added zero point zero nine on the day and was flat over the week. An eight-session range of about half a per cent, while equities moved five and oil moved one and a half in a day."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So it isn't hedging. It's just not moving."
+  },
+  {
+   "s": "A",
+   "t": "Which is not the same thing. Oil, meanwhile, went up — Brent a hundred and five ninety-two, up one point one five per cent — and that feeds Wednesday's inflation print. The poll is three point seven headline."
+  },
+  {
+   "s": "B",
+   "t": "Against a two per cent target."
+  },
+  {
+   "s": "A",
+   "t": "Against a two per cent target. And the dissent on the page is RBC, who say a garden-variety pullback of five to ten per cent in the S and P five hundred is overdue."
+  },
+  {
+   "s": "B",
+   "t": "Against Goldman and Evercore saying the bull market's intact."
+  },
+  {
+   "s": "A",
+   "t": "Both printed. Explanation, not advice. Singapore's exception is a policy one — the Singapore dollar rose against a dollar that rose against everything else, because the monetary statement lands Wednesday."
+  },
+  {
+   "s": "B",
+   "t": "Third consecutive tightening?"
+  },
+  {
+   "s": "A",
+   "t": "That's the street's base case. Maybank dissents. And for scale on how little anyone anticipates this authority — only four of eighteen economists had expected the July move."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Four of eighteen. Okay — Singapore proper."
+  },
+  {
+   "s": "A",
+   "t": "The clinics opened; the masks did not. From Monday a haze consultation is capped at ten dollars for eligible citizens, five for the generation schemes, free on public assistance."
+  },
+  {
+   "s": "B",
+   "t": "And the air?"
+  },
+  {
+   "s": "A",
+   "t": "One-hour P M two point five reached a hundred and fifty-six micrograms in the central region at one in the afternoon. The response ladder published on the ninth starts at a twenty-four-hour index of two hundred."
+  },
+  {
+   "s": "B",
+   "t": "Which it has never reached."
+  },
+  {
+   "s": "A",
+   "t": "Never. It first crossed a hundred and one on the fourth of September. It peaked at a hundred and ninety-two. Five weeks unhealthy, and not one mask distributed."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And across the strait?"
+  },
+  {
+   "s": "A",
+   "t": "Johor has closed every school since the seventh of October, now extended to the sixteenth."
+  },
+  {
+   "s": "B",
+   "t": "Same air. Different answer."
+  },
+  {
+   "s": "A",
+   "t": "There's also a mismatch worth hearing. At a participating general practice the cap reaches citizens eighteen and under or sixty-five and over. At a polyclinic it reaches all citizens."
+  },
+  {
+   "s": "B",
+   "t": "So a forty-five-year-old with asthma is covered in one building and not the other."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that. Technology now, and this is the spine of the whole issue."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Go."
+  },
+  {
+   "s": "A",
+   "t": "Microsoft announced a new accelerator. The hardware is specified precisely — two hundred and eighty-eight gigabytes of memory per accelerator, eighteen terabytes a second, inside nine hundred and fifty watts."
+  },
+  {
+   "s": "B",
+   "t": "That's specific."
+  },
+  {
+   "s": "A",
+   "t": "The performance isn't. Forty per cent more tokens per megawatt than, quote, leading GPU-based systems."
+  },
+  {
+   "s": "B",
+   "t": "Which systems?"
+  },
+  {
+   "s": "A",
+   "t": "Not stated. Up to seven times the rack throughput of its own predecessor. Thirty-six per cent more compute. And nowhere in either the announcement or the architecture note is there an absolute figure to anchor any of it."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A ratio with no denominator."
+  },
+  {
+   "s": "A",
+   "t": "Its predecessor's headline last year was up to one point seven times more tokens per watt — also against an unnamed GPU."
+  },
+  {
+   "s": "B",
+   "t": "So it's a house style."
+  },
+  {
+   "s": "A",
+   "t": "The home lab has the same story in miniature, and I like this one more. A pull request merged into llama dot cpp adds a video-memory cache for experts that live in host memory."
+  },
+  {
+   "s": "B",
+   "t": "And the author's numbers?"
+  },
+  {
+   "s": "A",
+   "t": "Real, published, on real hardware. A four thousand ninety goes from twenty-five to thirty-nine tokens a second. A five thousand ninety goes from thirty point eight to sixty-seven point eight. That's two point two times."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's a big win."
+  },
+  {
+   "s": "A",
+   "t": "Now read the rest of the thread. One tester with two of the older cards removed the multi-device guard and measured the cache twenty-five to thirty-four per cent slower across two GPUs."
+  },
+  {
+   "s": "B",
+   "t": "Slower."
+  },
+  {
+   "s": "A",
+   "t": "Another, on an older bus generation, got fifty-eight point five tokens a second by just leaving the experts on the processor — against thirty-one with the cache on."
+  },
+  {
+   "s": "B",
+   "t": "So the cache never beat not using it."
+  },
+  {
+   "s": "A",
+   "t": "Never, on his machine. His conclusion was arithmetic, not opinion: on a third-generation bus the uploads cost more than they save."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the author blocked multi-GPU in the first version."
+  },
+  {
+   "s": "A",
+   "t": "Which is the feature telling you what it is. The speed-up is a function of bus generation and device count, and neither appears in the number."
+  },
+  {
+   "s": "B",
+   "t": "Okay — the kit. You said four currencies."
+  },
+  {
+   "s": "A",
+   "t": "XREAL finally priced its Android XR glasses. Twelve hundred and seventy-nine US dollars for the base pair with a tethered compute puck. Canadian dollars, yen and won as well."
+  },
+  {
+   "s": "B",
+   "t": "And Singapore dollars?"
+  },
+  {
+   "s": "A",
+   "t": "No. Its Singapore page returns a four-oh-four. Its own retail locator lists only American stores. We are not a launch market and not named for next year either."
+  },
+  {
+   "s": "B",
+   "t": "[wry] So you can read the price but not buy the thing."
+  },
+  {
+   "s": "A",
+   "t": "The maker's own page also disagrees with itself. The banner lists four launch countries. The questions section lists five different ones and drops Canada."
+  },
+  {
+   "s": "B",
+   "t": "On the same page?"
+  },
+  {
+   "s": "A",
+   "t": "On the same page. And the hero image file is named for ninety-one grams while the spec table says ninety-five."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Three weights, one object."
+  },
+  {
+   "s": "A",
+   "t": "The Good Life has the purest version. Casio's new Oceanus — seven hundred and forty-eight thousand yen, three hundred serial-numbered pieces, limited worldwide."
+  },
+  {
+   "s": "B",
+   "t": "And sold where?"
+  },
+  {
+   "s": "A",
+   "t": "Only on Casio's Japanese site, only through its own partner shops in Japan."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A worldwide limit with a one-country shop."
+  },
+  {
+   "s": "A",
+   "t": "And set it against the previous partner-shop model — sixty-six thousand yen cheaper, in six hundred pieces, with the same movement inside."
+  },
+  {
+   "s": "B",
+   "t": "So the increase is pure scarcity."
+  },
+  {
+   "s": "A",
+   "t": "Even the dollar price is contested. One outlet publishes four thousand three hundred and ten after stripping Japanese consumption tax. Two others publish about four thousand seven hundred and thirty including it."
+  },
+  {
+   "s": "B",
+   "t": "Four hundred dollars of difference depending on your passport. Alright — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Close-up card magic. Sleight of hand at conversational distance."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Oh, good. Why this one?"
+  },
+  {
+   "s": "A",
+   "t": "Because of one contradiction. The largest forum, with a hundred and forty-two thousand members, has a rule that reads: no exposure. Any exposure of methodologies and effects is strictly prohibited. Do not ask for secrets."
+  },
+  {
+   "s": "B",
+   "t": "Sure. Secrecy is the whole art."
+  },
+  {
+   "s": "A",
+   "t": "And the two biggest teaching channels in card magic hold two point seven four million subscribers between them, and exist expressly to reveal method. One of them says: I reveal the closely-guarded secrets behind mind-blowing illusions."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the art's central ethic and its largest audience are in open war."
+  },
+  {
+   "s": "A",
+   "t": "My favourite detail is smaller. The forum's rule against backhanded compliments — you know the type, I saw the moves but well performed —"
+  },
+  {
+   "s": "B",
+   "t": "The worst people."
+  },
+  {
+   "s": "A",
+   "t": "— that rule is officially named the Chris Ramsay Rule. After a magician with seven million subscribers."
+  },
+  {
+   "s": "B",
+   "t": "[amused] They wrote a man into their constitution as the thing not to be."
+  },
+  {
+   "s": "A",
+   "t": "Now the gear, because this desk is really about gear. The thing that decides how a deck behaves is the cut."
+  },
+  {
+   "s": "B",
+   "t": "The cut?"
+  },
+  {
+   "s": "A",
+   "t": "Where the blade's burr ends up. Traditional cut leaves the burr on the back. Modern cut leaves it on the face. So modern decks fight a faro shuffle until the burr breaks in; traditional decks will faro straight out of the box."
+  },
+  {
+   "s": "B",
+   "t": "And a faro is?"
+  },
+  {
+   "s": "A",
+   "t": "A perfect interleave. And here's the fact I'd repeat tonight: eight perfect faros restore a fifty-two card deck to its original order."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Eight shuffles and you're back where you started."
+  },
+  {
+   "s": "A",
+   "t": "A correct faro isn't a shuffle at all. It's a controlled, invisible non-event."
+  },
+  {
+   "s": "B",
+   "t": "That's wonderful. White-label truth?"
+  },
+  {
+   "s": "A",
+   "t": "Cartamundi of Belgium bought the United States Playing Card Company, completed at the end of twenty nineteen. So Bicycle, Bee, Hoyle and Fournier are now one Belgian group."
+  },
+  {
+   "s": "B",
+   "t": "The magicians' brands."
+  },
+  {
+   "s": "A",
+   "t": "All of them. And one retailer prints the factory in the product title — the same deck brand, same season, one printed by a Hong Kong house and one by the American one. Side by side, same price."
+  },
+  {
+   "s": "B",
+   "t": "[amused] They're not even hiding it."
+  },
+  {
+   "s": "A",
+   "t": "Nor is the shop layer. Two ostensibly independent British magic shops return an identical catalogue of seven thousand two hundred and fifty products, down to the same first item."
+  },
+  {
+   "s": "B",
+   "t": "One warehouse, different front doors."
+  },
+  {
+   "s": "A",
+   "t": "Then there's the grail, which is a hoard. A deck printed in nineteen seventy for a Las Vegas casino, never used, eventually dumped in the gift shop for as little as a dollar."
+  },
+  {
+   "s": "B",
+   "t": "And now?"
+  },
+  {
+   "s": "A",
+   "t": "Sealed originals ask three hundred and eighty-five to three hundred and ninety-five dollars. In nineteen ninety-nine an anonymous buyer is reported to have acquired forty thousand of them."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Forty thousand."
+  },
+  {
+   "s": "A",
+   "t": "At the prices the hobby quotes, about twelve million dollars of cardboard. Nobody knows who he is. The maker won't say how many were printed. The casino never replied."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That is the best thing I've heard all week."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic writes itself. Since late twenty twenty-four the electronic-prop tier has produced a prediction table at fifteen hundred and forty-nine dollars, an inversion board at fifteen hundred, a pad at eight hundred."
+  },
+  {
+   "s": "B",
+   "t": "And the reviews?"
+  },
+  {
+   "s": "A",
+   "t": "Almost every one has zero ratings. One prop costs three and a half times the entire canon of card magic and has generated no community verdict at all."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Whereas the best-rated technique release of the year is a forty-dollar book."
+  },
+  {
+   "s": "A",
+   "t": "Five stars from eighteen reviews. And the community's own ninety-day advice is: buy one good book, buy ordinary cards, work the book in order."
+  },
+  {
+   "s": "B",
+   "t": "Lovely. Culture and the body, quickly."
+  },
+  {
+   "s": "A",
+   "t": "Fitness first, and it's a null. Sixteen trained men, eight weeks, one leg on full range and the other on lengthened partials."
+  },
+  {
+   "s": "B",
+   "t": "The trick everybody's been selling."
+  },
+  {
+   "s": "A",
+   "t": "Both legs grew nine point three square centimetres. The difference between the protocols was minus one point four, p equals zero point six four."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Nothing."
+  },
+  {
+   "s": "A",
+   "t": "Nothing. And not one mid-forties lifter in the paper — the samples are twenty-two and twenty-six."
+  },
+  {
+   "s": "B",
+   "t": "What about age, then?"
+  },
+  {
+   "s": "A",
+   "t": "A second study the same week. Ten to twelve weeks of training altered a hundred and thirty-five muscle proteins in young men and none in men at fifty-seven."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] None."
+  },
+  {
+   "s": "A",
+   "t": "But read the second half. Eighty-one and a half per cent of those proteins moved the same direction in the older men — they just didn't clear significance. The authors call it compressed rather than qualitatively altered."
+  },
+  {
+   "s": "B",
+   "t": "The same adaptation, turned down."
+  },
+  {
+   "s": "A",
+   "t": "The same adaptation, turned down. Family desk, and this one I'd want every parent to hear."
+  },
+  {
+   "s": "B",
+   "t": "Go."
+  },
+  {
+   "s": "A",
+   "t": "A Karolinska team followed twenty-one thousand seven hundred and ninety-seven twins. Read without the twin control, heavy screen use at fifteen carries a clinical-diagnosis hazard ratio of one point eight six."
+  },
+  {
+   "s": "B",
+   "t": "And with it?"
+  },
+  {
+   "s": "A",
+   "t": "Compare twin against twin — same house, same parents, different habits — and the more-than-threefold risk falls to about sixty-five per cent higher."
+  },
+  {
+   "s": "B",
+   "t": "Still something."
+  },
+  {
+   "s": "A",
+   "t": "That sixty-five per cent did not survive correction for multiple testing."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So it went to nothing."
+  },
+  {
+   "s": "A",
+   "t": "And screen use at age nine wasn't significantly associated with symptoms at fifteen at all. The first author's words: the association may in some cases have been overestimated because it has not been possible to fully account for shared family factors."
+  },
+  {
+   "s": "B",
+   "t": "What does she suggest instead?"
+  },
+  {
+   "s": "A",
+   "t": "Her other line: reducing screen time alone may not be enough to address the mental health crisis. Two cautions, though. We read the authors' own preprint, not the peer-reviewed text. And the band is wrong for a twelve-year-old — every published effect sits at fifteen or above."
+  },
+  {
+   "s": "B",
+   "t": "What does work at twelve?"
+  },
+  {
+   "s": "A",
+   "t": "Walking. Five and a half thousand children at a mean age of eleven point nine three. Above twelve thousand steps a day the mental-health coefficient is minus zero point one zero two, highly significant."
+  },
+  {
+   "s": "B",
+   "t": "And school results?"
+  },
+  {
+   "s": "A",
+   "t": "Not significant. Walking moves the mood and leaves the grades alone."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I'll take that."
+  },
+  {
+   "s": "A",
+   "t": "Screen and sound, one number. A western opened Friday on two thousand two hundred and sixty-three screens. On Metacritic it has one logged critic review."
+  },
+  {
+   "s": "B",
+   "t": "One?"
+  },
+  {
+   "s": "A",
+   "t": "The nineteen forty-seven film it remakes has seven, and a better score."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Beaten by a seventy-nine-year-old western on review count."
+  },
+  {
+   "s": "A",
+   "t": "And the same Friday a Netflix film arrived with fifty-five critics. Attention is the scarce good."
+  },
+  {
+   "s": "B",
+   "t": "Alright. The Undercurrent."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Malaysia. And it starts with a word that exists in Malaysian law and nowhere else on earth."
+  },
+  {
+   "s": "B",
+   "t": "Which word?"
+  },
+  {
+   "s": "A",
+   "t": "P-hailing. E-hailing moves people. P-hailing moves parcels. Malaysia built a separate legal class for the man on the motorbike with the insulated box."
+  },
+  {
+   "s": "B",
+   "t": "Why does that matter?"
+  },
+  {
+   "s": "A",
+   "t": "Because on Friday the budget said the council negotiating a minimum income rate for them will finalise it in early twenty twenty-seven. And that the government and Grab agree to co-fund a package worth a hundred and sixty million ringgit."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The platform is co-funding the floor it's going to be held to."
+  },
+  {
+   "s": "A",
+   "t": "Six hundred thousand drivers. And the same day, Grab's own release said the company and the government have agreed in principle on a minimum baseline rate — with the council to set the final rates."
+  },
+  {
+   "s": "B",
+   "t": "So the two funders agreed the floor, and the body that sets it arrives afterwards."
+  },
+  {
+   "s": "A",
+   "t": "That is the sentence the whole essay turns on. And there's a third line nobody picked up: p-hailing will be comprehensively regulated under the land transport agency. Permits for delivery riders."
+  },
+  {
+   "s": "B",
+   "t": "What's the honest case for it?"
+  },
+  {
+   "s": "A",
+   "t": "It's strong. Nobody in Malaysia was winning a misclassification case. Own-account work is eighteen point eight per cent of employment and rising. And the law delivers things Brussels hasn't — complaints decided in twenty-one days, deactivation capped at fourteen, half your lost earnings back if a suspension is overturned."
+  },
+  {
+   "s": "B",
+   "t": "Has any of it been used?"
+  },
+  {
+   "s": "A",
+   "t": "On the first of September the tribunal sat for the first time, in a manpower office in Kuching. A driver against GrabCar. He appeared in person. The company sent an employee."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's not nothing."
+  },
+  {
+   "s": "A",
+   "t": "It isn't. The objection is structural. A law academic in Kuala Lumpur writes that the act creates a permanent third category of worker and effectively institutionalises a second tier of labour."
+  },
+  {
+   "s": "B",
+   "t": "And your precedent?"
+  },
+  {
+   "s": "A",
+   "t": "Nineteen fifty-six. The land development authority. Settlers who were legally not employees and not quite free farmers — conditional title, had to live on the scheme, and the cost of the plot repaid by monthly deductions from income."
+  },
+  {
+   "s": "B",
+   "t": "The state guaranteed the floor."
+  },
+  {
+   "s": "A",
+   "t": "And the state was also the buyer. And they became an electoral bloc nobody could ignore."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] So the shape is seventy years old."
+  },
+  {
+   "s": "A",
+   "t": "The counterparty changed. In nineteen fifty-six it was a statutory authority planting oil palm. In twenty twenty-seven it's a listed company, and the plot of land is an algorithm."
+  },
+  {
+   "s": "B",
+   "t": "How do we grade ourselves on this?"
+  },
+  {
+   "s": "A",
+   "t": "By the thirty-first of March. Has the council published a rate? Is it gazetted or just announced? Is it per hour of engaged time, which is a floor — or per completed job, which is a piece rate wearing a floor's clothes?"
+  },
+  {
+   "s": "B",
+   "t": "And does it bind every platform or only the one that paid."
+  },
+  {
+   "s": "A",
+   "t": "If it's announced, per job, and platform-first, we were right. If it's gazetted, per engaged hour and platform-neutral, Malaysia has out-legislated Brussels and we were wrong."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I like that we said which."
+  },
+  {
+   "s": "A",
+   "t": "That's the spine, really. The say-so. A ceasefire with one signatory. An attribution with no explosives. A ratio with no denominator. A worldwide edition on sale in one country."
+  },
+  {
+   "s": "B",
+   "t": "And a minimum wage agreed in principle before anyone set it."
+  },
+  {
+   "s": "A",
+   "t": "Sagan's on page two: extraordinary claims require extraordinary evidence. Which isn't scepticism. It's arithmetic — the weight of a claim is the weight of what stands behind it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And nothing else."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
