@@ -8,7 +8,7 @@ Ceiling for No. 129 is 30 (max(30, 70-(NN-52))).
 """
 import re, sys, pathlib, html as H
 
-ISSNO = 129
+ISSNO = 132
 CEILING = max(30, 70 - max(0, ISSNO - 52))
 
 def prose(h):
