@@ -179,3 +179,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Sophia | Sophia | 129 | OPEN | No. 129 build | opening run — record the peg here |
 | Vincenzo Capuano | Vincenzo Capuano | 129 | OPEN | No. 129 build | opening run — record the peg here |
 | Viva Lavender | Viva Lavender | 129 | OPEN | No. 129 build | opening run — record the peg here |
+| Kee’s Restaurant & Bar | Kee’s Restaurant & Bar | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Skosh | Skosh | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Soft Order | Soft Order | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Borderlessbutter | Borderlessbutter | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Spicy Hubby | Spicy Hubby | 132 | OPEN | No. 132 build | opening run — record the peg here |

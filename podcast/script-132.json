@@ -1,0 +1,796 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 132,
+ "date": "Wednesday 14 October 2026",
+ "title": "The comparator",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Wednesday, the fourteenth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Eleven people missing from a ship that three different outlets call three different names."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And one chipmaker publishes a petaflops number while the other publishes a percentage of itself."
+  },
+  {
+   "s": "A",
+   "t": "Plus a sleep ring validated by a laboratory its own maker part-owns."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Oh, that last one. Hold it. Lead first."
+  },
+  {
+   "s": "A",
+   "t": "The Black Sea. Half past one on Tuesday morning, eighteen nautical miles east of Byala. Three drones hit a cargo ship called Chelsea three — Maltese flag, Ukrainian owner, registered in Odesa."
+  },
+  {
+   "s": "B",
+   "t": "That's the good half of the story, I assume."
+  },
+  {
+   "s": "A",
+   "t": "It is. A second ship was hit seventeen nautical miles east of Krapets, near the Romanian border, and sank. Five were pulled out of the water. Eleven are missing."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Eleven."
+  },
+  {
+   "s": "A",
+   "t": "And here's the part that stopped the desk. Twenty hours after she went down, nobody could agree what she was called."
+  },
+  {
+   "s": "B",
+   "t": "Meaning what, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "Al Jazeera, Xinhua and Reuters all name her H S Dignity. Al Jazeera adds a Guinea-Bissau flag. The Sofia Globe calls her Azov Concorde — Turkish-owned, flagged to Saint Vincent and the Grenadines. Kyiv's English-language daily says Bulgarian media settled on Azov Concord, no e."
+  },
+  {
+   "s": "B",
+   "t": "So the name, the flag and the owner are all contested."
+  },
+  {
+   "s": "A",
+   "t": "That's the line. Eight days earlier, seventy nautical miles east of Byala, one ship sank with all hands and another burned. Four merchant vessels struck inside a NATO member's exclusive economic zone in eight days."
+  },
+  {
+   "s": "B",
+   "t": "Is that unusual? Genuinely asking."
+  },
+  {
+   "s": "A",
+   "t": "The maritime risk group Ambrey counts at least forty-five merchant vessels attacked worldwide in the past twelve months — and none at all in these particular waters over the same period."
+  },
+  {
+   "s": "B",
+   "t": "So the method is routine and the postcode is new."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that. Bulgaria's prime minister summoned the Russian ambassador and then said two things in sequence. First: we lack solid, clear evidence to level accusations against any specific party."
+  },
+  {
+   "s": "B",
+   "t": "And second?"
+  },
+  {
+   "s": "A",
+   "t": "The logic suggests that the outcome benefits the Russian Federation. And: there is no logic for Ukraine to destroy its own ships."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Which is a very precise way of saying something without saying it."
+  },
+  {
+   "s": "A",
+   "t": "The ambassador replied that she had no information from her own defence ministry, and would not rule out a provocation by a third party."
+  },
+  {
+   "s": "B",
+   "t": "Any denial from Moscow?"
+  },
+  {
+   "s": "A",
+   "t": "None. No Russian foreign-ministry statement on these attacks exists in anything the desk could read. We print that as an absence, not as a denial."
+  },
+  {
+   "s": "B",
+   "t": "Good. Now — the sceptic. Because I know there is one."
+  },
+  {
+   "s": "A",
+   "t": "I'm not. Mike Verdin of C R M AgriCommodities says further attacks would not change the market picture much — a reminder that Black Sea shipping carries danger, no more than that."
+  },
+  {
+   "s": "B",
+   "t": "Four ships, eight days, eleven people missing, and the grain market shrugged."
+  },
+  {
+   "s": "A",
+   "t": "Either the market is wrong, or the escalation is smaller than the week reads. The desk doesn't know which. It prints both."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Okay. Take me to page four, because I think it rhymes."
+  },
+  {
+   "s": "A",
+   "t": "It does. The International Monetary Fund published its World Economic Outlook on Tuesday, in Bangkok. Global growth marked up — three point one per cent for this year, against three point zero in July."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Up is good."
+  },
+  {
+   "s": "A",
+   "t": "Up is good. Next year is marked at three point four. And the Fund says plainly what that second number rests on."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And where is the strait now?"
+  },
+  {
+   "s": "A",
+   "t": "Day two hundred and twenty-seven of closure. The last published transit count is four vessels on the fourth of October, against a normal eighty-five a day."
+  },
+  {
+   "s": "B",
+   "t": "So March is a… what, a hope?"
+  },
+  {
+   "s": "A",
+   "t": "March is a modelling assumption. Not a negotiation. Iran's foreign ministry is still reviewing Washington's reply to its seven conditions."
+  },
+  {
+   "s": "B",
+   "t": "And the whole Gulf forecast hangs off it."
+  },
+  {
+   "s": "A",
+   "t": "The whole Gulf forecast. The region is the only one in the world the Fund expects to shrink this year — minus two per cent. Kuwait minus sixteen point seven. Iraq minus sixteen. Qatar minus fifteen point six. Then next year Qatar snaps back plus eighteen point eight."
+  },
+  {
+   "s": "B",
+   "t": "That's the same assumption wearing a different hat."
+  },
+  {
+   "s": "A",
+   "t": "In a different costume, as the page puts it. And underneath there's a figure I keep thinking about. The Fund now has thirty-two countries producing ninety-five per cent of global growth. In April it was fifty-four."
+  },
+  {
+   "s": "B",
+   "t": "What about the pledge? I saw sixty countries signed something about tolls."
+  },
+  {
+   "s": "A",
+   "t": "Monday. Sixty countries pledged against unlawful fees and tolls on passage through international straits. Twenty-seven European Union members and thirty-three others — Singapore among them, Japan, Korea, Yemen."
+  },
+  {
+   "s": "B",
+   "t": "And who isn't on it?"
+  },
+  {
+   "s": "A",
+   "t": "The United States. China. India. Russia. Iran. Saudi Arabia. Türkiye. And Panama and the Marshall Islands, which between them flag more merchant tonnage than anyone on earth."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So nobody who could actually impose a toll, and nobody who could actually stop one."
+  },
+  {
+   "s": "A",
+   "t": "The document commits nobody who could end the closure. A Bangalore daily called it a diplomatic commitment rather than an immediate enforcement mechanism, and noted that neither Washington nor Tehran has ratified the convention it invokes."
+  },
+  {
+   "s": "B",
+   "t": "Right. Money block. Singapore first, because I think the haze is back."
+  },
+  {
+   "s": "A",
+   "t": "It went back up. West-region air quality peaked at one hundred and seventy-four on Tuesday, central at one hundred and seventy. The week runs one fifty, then one eighty-seven on Thursday, then one seventy-eight, one fifty-five, one sixty-six, one seventy-four."
+  },
+  {
+   "s": "B",
+   "t": "A Sunday lull and then two days climbing again."
+  },
+  {
+   "s": "A",
+   "t": "And the news is what the environment agency said on Monday, replying to media queries. The air is already sufficient to trigger the Transboundary Haze Pollution Act."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Already sufficient. So what happens?"
+  },
+  {
+   "s": "A",
+   "t": "Monitoring, is what happens. Six companies were served legal notices after the haze of twenty fifteen. Two investigations closed. Four are still open."
+  },
+  {
+   "s": "B",
+   "t": "How long has that law existed?"
+  },
+  {
+   "s": "A",
+   "t": "The maximum penalty is a hundred thousand dollars a day, capped at two million. And a professor of environmental law at the National University of Singapore names the dependency plainly — Singapore will wait for Indonesia to finger certain companies first before we take action against these same companies under the act."
+  },
+  {
+   "s": "B",
+   "t": "So the enforcement is downstream of somebody else's enforcement."
+  },
+  {
+   "s": "A",
+   "t": "And the response ladder still hasn't rung. It starts at a reading of two hundred. The episode's highest anywhere is one hundred and ninety-two, set on the evening of the ninth. Six weeks in, the masks have not come out."
+  },
+  {
+   "s": "B",
+   "t": "What do people actually say about that? Not the officials, people."
+  },
+  {
+   "s": "A",
+   "t": "The running argument on HardwareZone isn't with the policy. It's with the ruler. One poster: even a peak of two hundred for one hour also won't be reflected in the average. Another: looks like P S I will never break two hundred. A third, last week: threshold too high, in my opinion."
+  },
+  {
+   "s": "B",
+   "t": "And are they right?"
+  },
+  {
+   "s": "A",
+   "t": "The feed supports them. On Tuesday the west's one-hour fine-particle reading peaked at three in the morning. The twenty-four-hour index that governs the ladder didn't peak until eleven."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Eight hours apart. So the number that triggers the response is lagging the air that people are breathing."
+  },
+  {
+   "s": "A",
+   "t": "Diversification is not working, and I can put a number on it. Over the last sixty sessions the correlation between world equities and global aggregate bonds is plus zero point five nine."
+  },
+  {
+   "s": "B",
+   "t": "Translate that."
+  },
+  {
+   "s": "A",
+   "t": "They move together. And on the ten worst equity days of the last hundred and twenty sessions, the global bond fund rose on four of them. It averaged a loss of zero point one five per cent on exactly the days it was supposed to help."
+  },
+  {
+   "s": "B",
+   "t": "So the hedge turns up less than half the time."
+  },
+  {
+   "s": "A",
+   "t": "Less than half. And the reason is the real yield. The ten-year touched five point three six five per cent intraday on the seventh — highest since April two thousand and two. Over that same week the inflation expectation barely moved, from two point three six to two point three three."
+  },
+  {
+   "s": "B",
+   "t": "Which means it isn't an inflation story."
+  },
+  {
+   "s": "A",
+   "t": "It's a discount-rate story. Strip out expectations and the real yield is near two point nine per cent — the highest carrying cost on a non-yielding asset in two decades. Which is why gold is down three point six per cent this year and bitcoin down four point eight."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Four times gold's fall."
+  },
+  {
+   "s": "A",
+   "t": "That gap is the cleanest evidence available that official central-bank buying is still doing something for gold. Just not enough to beat a two point nine per cent real rate. And this is explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "Noted. Two prints land today, don't they?"
+  },
+  {
+   "s": "A",
+   "t": "Both. The Monetary Authority's policy statement is due today, and the central bank publishes no release time anywhere we could find. And American September inflation lands at half past eight tonight our time."
+  },
+  {
+   "s": "B",
+   "t": "Technology. The chip thing. Explain it to me like I've just walked in."
+  },
+  {
+   "s": "A",
+   "t": "Same summit, Santa Clara, Monday the twelfth. Intel names the accelerator it had been calling Crescent Island and gives it a number: one point three petaflops, one and a half terabytes a second of bandwidth, up to four hundred and eighty gigabytes of memory, three hundred and fifty watts, air-cooled, standard slot."
+  },
+  {
+   "s": "B",
+   "t": "That's a real number."
+  },
+  {
+   "s": "A",
+   "t": "It's a real number. Microsoft published its Maia three hundred architecture deep-dive the same day. Two hundred and eighty-eight gigabytes of memory. Eighteen terabytes a second. A rack at a hundred and sixty-seven kilowatts holding ninety-six accelerators. Superpods of up to twelve thousand two hundred and eighty-eight."
+  },
+  {
+   "s": "B",
+   "t": "Also very specific."
+  },
+  {
+   "s": "A",
+   "t": "Extremely. And there is no absolute compute figure anywhere in it. Every performance number is a ratio to Microsoft's own last chip. Thirty-six per cent more than Maia two hundred. Up to seven times the rack throughput."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the memory is measured to four significant figures and the compute is measured against itself."
+  },
+  {
+   "s": "A",
+   "t": "That's the shape of it. And the forty per cent more tokens per megawatt we printed yesterday doesn't appear in the deep-dive at all."
+  },
+  {
+   "s": "B",
+   "t": "Does anyone outside Microsoft have one?"
+  },
+  {
+   "s": "A",
+   "t": "No. Brendan Burke of the Futurum Group puts it in one sentence — every efficiency figure behind the plan comes from Microsoft, Maia runs only inside Microsoft. And no independent benchmark has yet tested Maia against the G P Us it displaces. Nothing submitted to M L Perf."
+  },
+  {
+   "s": "B",
+   "t": "And Intel? You sound like you're about to take that one away too."
+  },
+  {
+   "s": "A",
+   "t": "[wry] A little. Ryan Smith at ServeTheHome: comparing different architectures based on theoretical throughput alone rarely pans out in the real world. And on price, he said — I doubt Intel even knows for sure right now what pricing will be."
+  },
+  {
+   "s": "B",
+   "t": "Okay — but there's one story this week where the number was already sitting there."
+  },
+  {
+   "s": "A",
+   "t": "TSMC. Everyone is waiting for Thursday's earnings call. The company files revenue monthly, and July, August and September come to one point four nine four trillion Taiwan dollars."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "At TSMC's own assumed exchange rate, forty-six point seven billion US dollars. Two per cent above the top of the range it guided itself."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the quarter is public already."
+  },
+  {
+   "s": "A",
+   "t": "The method reproduces its last reported quarter to the cent. The only genuinely unknown lines on Thursday are the realised exchange rate and the margins."
+  },
+  {
+   "s": "B",
+   "t": "And Qualcomm against Arm — that finally landed?"
+  },
+  {
+   "s": "A",
+   "t": "Qualcomm had put about a hundred and seventy million dollars on the harm. The jury awarded one dollar on each of the two counts it upheld."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Two dollars."
+  },
+  {
+   "s": "A",
+   "t": "Two dollars. And it found for Arm on the other four claims. Both companies declared victory."
+  },
+  {
+   "s": "B",
+   "t": "Home lab, quickly, because I know you have a favourite."
+  },
+  {
+   "s": "A",
+   "t": "A ternary twenty-seven-billion-parameter model got mainline runtime support on Sunday. Five different people measured it on five different machines."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "An integrated Radeon gained about twelve per cent on prompts and generation. A two-card setup reports thirty-nine tokens a second at the full quarter-million context. Lovely numbers."
+  },
+  {
+   "s": "B",
+   "t": "I hear a but."
+  },
+  {
+   "s": "A",
+   "t": "One tester ran perplexity. Ten point two nine, against seven point four three for the ordinary four-bit version. And across twenty-two tasks the ternary build failed four where the baseline failed one."
+  },
+  {
+   "s": "B",
+   "t": "So it's faster and measurably worse."
+  },
+  {
+   "s": "A",
+   "t": "It's smaller and measurably worse. Six gigabytes less memory, bought with three points of perplexity. And his own verdict is that this is, in his view, within expectation — which is honest."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The people reporting the speed aren't the people running the perplexity."
+  },
+  {
+   "s": "A",
+   "t": "Apple announced nine smart-home accessories on Tuesday — built by L G and Schneider, sold under Apple's name. Every device supports Thread, which is the sentence that matters for anyone moving to Home Assistant."
+  },
+  {
+   "s": "B",
+   "t": "And the catch."
+  },
+  {
+   "s": "A",
+   "t": "Apple's Singapore newsroom published the release. The availability line says: availability for all products begins in December in U S, U K and Canada only."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So they published the catalogue here and left the country out of it."
+  },
+  {
+   "s": "A",
+   "t": "HomeView. Three hundred and ninety-nine Singapore dollars, against two hundred and ninety-nine US. Pre-orders tomorrow morning, on sale the thirteenth of November. The wall mounts have no local price at all."
+  },
+  {
+   "s": "B",
+   "t": "So the box arrives before the brackets that hold it to the wall."
+  },
+  {
+   "s": "A",
+   "t": "And two absences worth more than the specifications. Apple says the deadbolt is Matter compatible and works locally without internet. It does not say that about the cameras. And neither HomeView nor the new HomePod mini is described as a Thread border router — which the previous mini was."
+  },
+  {
+   "s": "B",
+   "t": "Unstated, not removed."
+  },
+  {
+   "s": "A",
+   "t": "We print it as unstated."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Where are we?"
+  },
+  {
+   "s": "A",
+   "t": "A bound book is a machine for staying open without falling apart. Fold paper into sections, sew the sections to tapes or cords, shape the spine, cut boards, cover them — and it survives being read for three hundred years."
+  },
+  {
+   "s": "B",
+   "t": "As against?"
+  },
+  {
+   "s": "A",
+   "t": "Gluing a stack of loose leaves at the edge. Which the trade calls perfect binding, and which is neither."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That's a very dry joke for a very dry craft."
+  },
+  {
+   "s": "A",
+   "t": "The craft is growing fast, though. The main subreddit has about a hundred and twenty-seven thousand members, up roughly twenty-six per cent in a year."
+  },
+  {
+   "s": "B",
+   "t": "And the institutions?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Tiny. Britain's Society of Bookbinders, formed in nineteen seventy-four, has nearly a thousand members. America's Guild of Book Workers, founded nineteen oh six, runs eleven chapters."
+  },
+  {
+   "s": "B",
+   "t": "Give me the fact I'm going to repeat tonight."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Fine bookbinding runs on goatskin, and you can count the tanners. The Scottish house that supplies most of the world — founded eighteen twenty-three, royal warrant, two hundred years old — lists eight people on its staff page."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Eight people and a dog supply the world's fine bindings."
+  },
+  {
+   "s": "A",
+   "t": "One of the two houses that do. The other, in Northamptonshire, publishes no prices at all. You email sales."
+  },
+  {
+   "s": "B",
+   "t": "What does it cost to get into?"
+  },
+  {
+   "s": "A",
+   "t": "A starter bench — folder, awl, needles, linen thread, beeswax, a thirteen-ply press with the brass strip that forms the groove for you — about a hundred and thirty pounds."
+  },
+  {
+   "s": "B",
+   "t": "That's nothing."
+  },
+  {
+   "s": "A",
+   "t": "A serious hobbyist's bench, with a finishing press, a laying press, a plough and one reference skin: about fourteen hundred. A studio clears nine thousand before you buy a sheet of paper."
+  },
+  {
+   "s": "B",
+   "t": "What's eating the difference?"
+  },
+  {
+   "s": "A",
+   "t": "Metal. [pause] And one object above all — the board shear. It is the tool every bindery is organised around, and nobody manufactures it any more."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Nobody?"
+  },
+  {
+   "s": "A",
+   "t": "The classic maker's shears are no longer made. So the market is second-hand. A Pennsylvania dealer lists a forty-five-inch shear at four and a half thousand US dollars."
+  },
+  {
+   "s": "B",
+   "t": "And the argument? Every hobby has one."
+  },
+  {
+   "s": "A",
+   "t": "This one is twelve months old and it's about whether a conservator may take a book apart in order to understand it. A senior conservator published a defence of what he calls thoughtful deconstruction. A toolmaker answered him the next day: I totally do not support conservators taking apart books to accomplish these goals."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Strong words for the bindery."
+  },
+  {
+   "s": "A",
+   "t": "He's disarming about himself, too. Of a book he took apart in twenty fourteen, he writes — I think I just wanted a cool looking photo."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay, I like him. And Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "There is no bookbinding guild for Singapore. None we could find for Southeast Asia, Japan or Korea either. What exists here is one person, running a studio out of a letterpress shop in Tiong Bahru, trained in the last cohort before her London course was discontinued."
+  },
+  {
+   "s": "B",
+   "t": "Culture and the body. Give me three quick ones."
+  },
+  {
+   "s": "A",
+   "t": "The Western we flagged yesterday has its weekend. Two thousand two hundred and sixty-three screens returned two point one million dollars. Nine hundred and thirty-five dollars a screen."
+  },
+  {
+   "s": "B",
+   "t": "Is that bad?"
+  },
+  {
+   "s": "A",
+   "t": "A twentieth-anniversary re-release of a subtitled Spanish-language fantasy from two thousand and six took one thousand four hundred and four dollars a screen, on half the footprint."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Out-earned by a twenty-year-old film in another language."
+  },
+  {
+   "s": "A",
+   "t": "And four days after release, Metacritic still holds one review. Meanwhile the studio's own page reports a hundred and sixteen thousand tickets sold against a two-hundred-thousand target it set itself, beside an in-house score of seventy-nine."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Marking its own homework."
+  },
+  {
+   "s": "A",
+   "t": "The album chart. A number one on ninety-three thousand units, down forty-six per cent. And four of the top ten are reissue manoeuvres — Drake back from a hundred and sixteenth place to second, The Beatles re-entering at fourth on sixteen hundred per cent growth after a deluxe edition."
+  },
+  {
+   "s": "B",
+   "t": "So the chart is measuring bonus tracks, not listening."
+  },
+  {
+   "s": "A",
+   "t": "And third — your sleep ring. A validation study published on the ninth: forty-one healthy adults, fourteen days, the ring against a research wristwatch. Agreement moderate to excellent."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Fine. So?"
+  },
+  {
+   "s": "A",
+   "t": "The author affiliations are a Singapore university's sleep centre, its physiology department — and the manufacturer's own joint laboratory with that university."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The maker co-authored the validation of its own device."
+  },
+  {
+   "s": "A",
+   "t": "That doesn't make the measurements wrong. It makes the choice of comparator worth saying out loud. And the comparator is wrist movement, not a sleep lab. The reference device is discontinued. The mean age is twenty-six point three."
+  },
+  {
+   "s": "B",
+   "t": "Which tells a man in his forties nothing."
+  },
+  {
+   "s": "A",
+   "t": "Nothing at all. And this landed eight weeks after a proposed class action over the maker's advertised accuracy. The company says it stands behind its science, research and accuracy claims, and that the ring is not a medical device or a substitute for a clinical sleep study. The allegations are untested."
+  },
+  {
+   "s": "B",
+   "t": "And the protein thing — you promised me a protein thing."
+  },
+  {
+   "s": "A",
+   "t": "A meta-analysis of fifty-one trials ranks five protein sources. Native whey first, pea second, egg third. Ordinary whey comes fifth."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course it is."
+  },
+  {
+   "s": "A",
+   "t": "The four ranked above it all have intervals that cross zero. The ranking is measuring imprecision, not efficacy. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Undercurrent. Slowly."
+  },
+  {
+   "s": "A",
+   "t": "Kazakhstan. Since the first of January, twenty twenty-four, half of the National Fund's annual investment income has been credited, in US dollars, to an individually named account for every citizen born in two thousand and six or later."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Every one of them owns a piece of the oil fund."
+  },
+  {
+   "s": "A",
+   "t": "Locked until eighteen. Then withdrawable only for housing or education, through three authorised banks. Three rounds in, a child who has been there from the start holds three hundred and seventy dollars and fifty-six cents."
+  },
+  {
+   "s": "B",
+   "t": "That's… not very much."
+  },
+  {
+   "s": "A",
+   "t": "Three to four thousand over a whole childhood, on the state's own forecast. But look at how the figure is set. The accrual is half the investment income — calculated against an eighteen-year average annual return, which this year was two point nine seven per cent."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So they're paid on three while it earns nearly eight. And the smoothing is done by the people paying."
+  },
+  {
+   "s": "A",
+   "t": "That is the single largest discretionary choice in the whole design, and nobody in Astana is discussing it."
+  },
+  {
+   "s": "B",
+   "t": "What happens when the money is released?"
+  },
+  {
+   "s": "A",
+   "t": "This is the part that stayed with me. Of a hundred and one thousand four hundred and seventy-two housing claims this year, six hundred and seventy-one went to a mortgage deposit and three hundred and seventy-five to a final settlement."
+  },
+  {
+   "s": "B",
+   "t": "And the rest?"
+  },
+  {
+   "s": "A",
+   "t": "A hundred thousand and ninety-one of them were simply moved into savings deposits at the state housing bank. Ninety-eight point six per cent. No property was bought."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] The oil money left one state account and entered another."
+  },
+  {
+   "s": "A",
+   "t": "Because the bank adds a twenty per cent premium on what you save there. So an eighteen-year-old with three hundred dollars does the only rational thing."
+  },
+  {
+   "s": "B",
+   "t": "Does anyone official say this out loud?"
+  },
+  {
+   "s": "A",
+   "t": "The state's own auditor. It found that eighty-five per cent of the twenty twenty-four accruals were still unused a year later, and said the mechanism limits the involvement of the funds in the economy and reduces the programme's effectiveness."
+  },
+  {
+   "s": "B",
+   "t": "And the counter-argument?"
+  },
+  {
+   "s": "A",
+   "t": "An economist says the idle share is entirely explicable — most school-leavers are on state grants and have no tuition to pay. And she warns that fixing it must not put the system's interests ahead of the holder's."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone run this experiment before?"
+  },
+  {
+   "s": "A",
+   "t": "Britain. The Child Trust Fund, every child born from two thousand and two, locked until eighteen, closed to new entrants in twenty eleven. Last month the Treasury reported about eight hundred and twenty-seven thousand matured accounts still unclaimed, averaging around two thousand three hundred pounds."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Unclaimed. Not spent — unclaimed."
+  },
+  {
+   "s": "A",
+   "t": "The binding constraint was never the deposit. It was the claim. And the unclaimed pile grows faster than the awareness does."
+  },
+  {
+   "s": "B",
+   "t": "So what's the argument, in one line?"
+  },
+  {
+   "s": "A",
+   "t": "Kazakhstan hasn't built a welfare programme. It has manufactured a constitutional claim — too small to change a life, and too large ever to take back."
+  },
+  {
+   "s": "B",
+   "t": "Because taking it back means taking money off named children."
+  },
+  {
+   "s": "A",
+   "t": "With their names on it, in an app. And the one thing the design reliably produces is a deposit at one state bank."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] That's the spine of the whole issue, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "It is. The comparator. Every number in this book is measured against something — a baseline, a yardstick, an assumed date — and in almost every case that something was chosen by whoever benefits from the answer."
+  },
+  {
+   "s": "B",
+   "t": "Microsoft against Microsoft. The ring against the lab that owns part of it. Three per cent against seven point five nine."
+  },
+  {
+   "s": "A",
+   "t": "And Juvenal, on page two, asking who guards the guards. It's usually quoted as a joke about watchmen."
+  },
+  {
+   "s": "B",
+   "t": "And today it's a question about measurement."
+  },
+  {
+   "s": "A",
+   "t": "Not who is lying. Who chose the yardstick, and whether anybody checked it against another."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a good one to carry around all day."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
