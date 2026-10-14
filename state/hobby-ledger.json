@@ -349,6 +349,11 @@
       "hobby": "Lockpicking &amp; locksport",
       "issue": "130",
       "angle": "<b>One pin binds first; nine belts rank the locks, not the people.</b> Auto-picked from No. 129&rsquo;s three Next-Descents candidates (no editor note, empty Queued table, no Rabbit Hole Next vote since the previous builtAt) &mdash; chosen over bookbinding (too close to No. 128&rsquo;s leathercraft)"
+    },
+    {
+      "hobby": "Weaving &amp; floor looms",
+      "issue": "133",
+      "angle": "<b>The first computer was a loom, and it still ships.</b> Auto-picked from No. 132&rsquo;s three Next-Descents chips (no editor note, empty Queued table, no Rabbit Hole Next vote since the previous builtAt) &mdash; chosen over marquetry (overlaps No. 108 hand-tool woodworking) and origami (adjacent "
     }
   ],
   "queued": [],
@@ -474,10 +479,28 @@
       "fit": "Coptic to case binding; bone folders, linen thread, Japanese screw punch — a quiet paper craft with a buy-once tool ladder and an archival-materials rabbit hole"
     },
     {
-      "hobby": "Weaving &amp; floor looms",
+      "hobby": "~~Weaving &amp; floor looms~~ (COVERED, No. 133)",
       "category": "Craft / textile",
       "communities": "r/weaving, Weavolution, Ashford and Louet scenes",
       "fit": "A slow textile craft with a loom ladder from rigid heddle to countermarch, and a secondhand market that never depreciates"
+    },
+    {
+      "hobby": "Violin making (lutherie)",
+      "category": "Craft / wood",
+      "communities": "Maestronet, r/Luthier, the Strad forums",
+      "fit": "A wood-hoarding culture, a 300-year varnish argument and a blind-test literature nobody likes"
+    },
+    {
+      "hobby": "Pigeon racing",
+      "category": "Animals / sport",
+      "communities": "Pigeon Watch, the Belgian auction houses, r/pigeonracing",
+      "fit": "Electronic clocking, million-euro bloodlines and six hundred miles in a day"
+    },
+    {
+      "hobby": "Caving &amp; speleology",
+      "category": "Outdoor / earth",
+      "communities": "UK Caving, the NSS, r/caving",
+      "fit": "Rope technique, volunteer survey science and an honest risk culture"
     },
     {
       "hobby": "Marquetry &amp; wood veneer inlay",

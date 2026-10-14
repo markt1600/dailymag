@@ -1344,9 +1344,10 @@
       "venue": "Noci Bakehouse",
       "key": "Noci Bakehouse",
       "runs": [
-        125
+        125,
+        133
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 125 build",
       "note": "opening run — record the peg here"
     },
@@ -1354,9 +1355,10 @@
       "venue": "Food Opera",
       "key": "Food Opera",
       "runs": [
-        125
+        125,
+        133
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 125 build",
       "note": "opening run — record the peg here"
     },
@@ -1529,6 +1531,36 @@
       "status": "OPEN",
       "checked": "No. 132 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Osteria Da Su",
+      "key": "Osteria Da Su",
+      "runs": [
+        133
+      ],
+      "status": "OPEN",
+      "checked": "No. 133 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Tokyo Onigiri",
+      "key": "Tokyo Onigiri",
+      "runs": [
+        133
+      ],
+      "status": "OPEN",
+      "checked": "No. 133 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Creamie Sippies",
+      "key": "Creamie Sippies",
+      "runs": [
+        133
+      ],
+      "status": "OPEN",
+      "checked": "No. 133 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1602,6 +1634,8 @@
     "Tanica",
     "KOKO Kawane",
     "I’m Donut?",
-    "Molly Tea"
+    "Molly Tea",
+    "Noci Bakehouse",
+    "Food Opera"
   ]
 }

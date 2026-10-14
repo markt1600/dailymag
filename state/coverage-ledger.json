@@ -1,5 +1,5 @@
 {
-  "count": 949,
+  "count": 985,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -3101,6 +3101,48 @@
       "last_covered": "No. 109",
       "last_peg": "The Kit LEAD &mdash; shipped 18 Sep; <b>S$1,199</b> read at Apple&rsquo;s own Singapore store, and DC Rainmaker&rsquo;s in-depth review of the 17th &mdash; both pegs the previous row asked for",
       "next_peg": "Launch, review and SG-price pegs now ALL spent. Next peg = a firmware fix for the Readiness bugs, a price move, or an independent accuracy study."
+    },
+    {
+      "subject": "Citizen Promaster Tsuno Chrono Racer (AV0104-06W)",
+      "type": "Product (watch)",
+      "last_covered": "No. 103",
+      "last_peg": "The Good Life LEAD &mdash; Eco-Drive 50th-anniversary 1973 bullhead reissue, Cal E210 solar flyback chrono, 44.5mm, US$1,350/~S$1,886, ltd 5,000, released 10 Sep. Sceptic = paying for design story not chronometry.",
+      "next_peg": "Next peg = none unless a follow-up ref."
+    },
+    {
+      "subject": "DeepSeek V4.1 Flash",
+      "type": "AI model",
+      "last_covered": "No. 103",
+      "last_peg": "Tech LEAD &mdash; 552B MoE, MIT, released 10 Sep; benchmarks (Terminal-Bench 90.6, DeepSWE 74.2%, GPQA 90.9); planned 14 Sep V4-Pro reroute WALKED BACK; ~614GB VRAM = API not home.",
+      "next_peg": "Next peg = a V4.1 Pro, or independent benchmark reconciliation."
+    },
+    {
+      "subject": "Nvidia&ndash;Hugging Face acquisition",
+      "type": "M&amp;A (AI)",
+      "last_covered": "No. 104",
+      "last_peg": "Tech secondary &mdash; Nvidia to buy Hugging Face ~US$12.9bn (definitive 2 Sep, close 1H2027); Huang &ldquo;remains open, Nvidia compute not required.&rdquo;",
+      "next_peg": "Next peg = close, or a policy change on the platform."
+    },
+    {
+      "subject": "Assaggi (77A Neil Road)",
+      "type": "Venue (SG dining)",
+      "last_covered": "No. 103",
+      "last_peg": "The Table &mdash; Denis Lucchi (Buona Terra 1*) looser 2nd act, set menus (lunch ~S$58++/dinner ~S$88++), opened 10 Aug, warmly received, booked to Dec.",
+      "next_peg": "Next peg = first proper reviews / a Michelin nod."
+    },
+    {
+      "subject": "Mom&rsquo;s Touch (181 South Bridge Road)",
+      "type": "Venue (SG dining)",
+      "last_covered": "No. 103",
+      "last_peg": "The Table &mdash; Korea&rsquo;s largest fried-chicken chain returns after 4 yrs, 100% thigh patties, ~S$10-15, queues the story, not halal-certified, reopened 14 Aug.",
+      "next_peg": "Next peg = the promised second outlet."
+    },
+    {
+      "subject": "Tembusu (Botanic Gardens, Ginger Garden)",
+      "type": "Venue (SG dining)",
+      "last_covered": "No. 103",
+      "last_peg": "The Table &mdash; Fleursophy &ldquo;borderless Straits,&rdquo; took over Halia, pet-friendly, opened 3 Sep, setting praised/food early-mixed (too new).",
+      "next_peg": "Next peg = a settled verdict."
     },
     {
       "subject": "Anker soundcore Sleep Earbuds 4 Pro",
@@ -6643,6 +6685,216 @@
       "last_covered": "No. 114",
       "last_peg": "The Table sceptic &mdash; first overseas outlet of a Chinese chain founded 2025; Lily Lamb matcha capped at 200 cups a day, one per customer, with its own queue; reviewers rated the capped drink below the uncapped ones.",
       "next_peg": "Next peg = the cap being dropped or relaxed"
+    },
+    {
+      "subject": "Intel GPU D-Series (Crescent Island)",
+      "type": "Product (silicon)",
+      "last_covered": "No. 132",
+      "last_peg": "Technology LEAD &mdash; named at OCP 12 Oct with an absolute 1.3 PFLOPS FP8, 1.5 TB/s, 160&ndash;480GB LPDDR5X, 350W; sampling only, no price, no launch date.",
+      "next_peg": "Next peg = a published price, a launch date, or an independent benchmark."
+    },
+    {
+      "subject": "Microsoft Maia 300",
+      "type": "Product (silicon)",
+      "last_covered": "No. 132",
+      "last_peg": "Technology LEAD delta &mdash; the full architecture deep-dive of 12 Oct publishes 288GB HBM4, 18 TB/s, 167kW racks and 12,288-accelerator superpods and still NO absolute FLOPS; the 40%-tokens-per-megawatt claim does not appear in it.",
+      "next_peg": "Next peg = an absolute figure, an MLPerf submission, or external customer access."
+    },
+    {
+      "subject": "Qualcomm v. Arm (Delaware, October 2026 trial)",
+      "type": "Litigation",
+      "last_covered": "No. 132",
+      "last_peg": "CLOSED on the verdict &mdash; jury found breach and interference, awarded $1 on each count against a $170m claim, and found for Arm on the four other claims.",
+      "next_peg": "Next peg = post-trial motions or an appeal."
+    },
+    {
+      "subject": "TSMC Q3 2026",
+      "type": "Results",
+      "last_covered": "No. 132",
+      "last_peg": "Computed from the company&rsquo;s own monthly filings: NT$1,494,243m = US$46.70bn at its own 32.0 assumption, 2.0% above its guided ceiling.",
+      "next_peg": "Next peg = the 15 Oct call&rsquo;s realised rate and margin lines."
+    },
+    {
+      "subject": "llama.cpp PR 29600 (ternary Bonsai 2 27B runtime)",
+      "type": "Software (merge)",
+      "last_covered": "No. 132",
+      "last_peg": "Home Lab LEAD &mdash; merged 11 Oct; five testers, five machines; +12% on an iGPU against a counter-measurement of 10.29 perplexity vs 7.43 and four task failures against one.",
+      "next_peg": "Next peg = the group-128 packing PR, or a second perplexity run."
+    },
+    {
+      "subject": "Mistral Large 4 / Reflection Beam open weights",
+      "type": "Model release",
+      "last_covered": "No. 132",
+      "last_peg": "HELD &mdash; both announced with weights promised &ldquo;end of this month&rdquo; / &ldquo;later this month&rdquo;; neither published as at 14 Oct.",
+      "next_peg": "Next peg = the weights actually landing, with a licence."
+    },
+    {
+      "subject": "Apple Home Collection / HomeView / HomePod mini 2",
+      "type": "Product (smart home)",
+      "last_covered": "No. 132",
+      "last_peg": "The Kit LEAD &mdash; nine LG- and Schneider-built accessories, all Thread, US/UK/Canada only; Apple&rsquo;s Singapore newsroom carried the catalogue and excluded Singapore from every item. HomeView S$399 (US$299), pre-order 15 Oct, on sale 13 Nov.",
+      "next_peg": "Next peg = a Singapore availability date for the accessories, or an independent review."
+    },
+    {
+      "subject": "Garmin MARQ Gen 3",
+      "type": "Product (wearable)",
+      "last_covered": "No. 132",
+      "last_peg": "Announced 13 Oct &ldquo;available now&rdquo; with &ldquo;prices start at $2,500&rdquo; and no per-model price for any of the six; no nits, no storage.",
+      "next_peg": "Next peg = Garmin publishing per-model pricing, a Singapore price, or an independent test."
+    },
+    {
+      "subject": "TAG Heuer Formula 1 Solargraph &times; Oracle Red Bull Racing (WBY111F.BA0042)",
+      "type": "Product (watch)",
+      "last_covered": "No. 132",
+      "last_peg": "The Good Life LEAD &mdash; US$2,250, on sale 20 Oct, explicitly NOT limited; same case, calibre TH50-00 and TH-Polylight bezel as the plain model, which trades unworn in Singapore at S$1,950. No SGD price published.",
+      "next_peg": "Next peg = a Singapore boutique price."
+    },
+    {
+      "subject": "Songtei Kyoto (Shangri-La Signatures)",
+      "type": "Opening (hotel)",
+      "last_covered": "No. 132",
+      "last_peg": "Announced 13 Oct &mdash; 77 rooms opposite Nij&#333; Castle, first guests late 2026, full opening early 2027; no rates, no architect, no photograph of the building. Single-sourced.",
+      "next_peg": "Next peg = rates, or an opening date."
+    },
+    {
+      "subject": "Angel and the Badman (2026)",
+      "type": "Film",
+      "last_covered": "No. 132",
+      "last_peg": "CLOSED at the opening weekend &mdash; $2,115,116 on 2,263 screens ($935 PTA, 10th), against a Pan&rsquo;s Labyrinth re-release at $1,404 PTA on half the footprint; Metacritic still on one review four days out while RT ran 23% on 13 and a 75% audience on 50-plus.",
+      "next_peg": "Next peg = a legs story or an awards turn, neither likely."
+    },
+    {
+      "subject": "Billboard 200, issue dated 17 October 2026",
+      "type": "Chart",
+      "last_covered": "No. 132",
+      "last_peg": "Swift&rsquo;s 14th non-consecutive week at No. 1 on 93,000 units (&minus;46%), streaming &minus;52% while pure sales rose 28% after a 25 Sep deluxe; four of the top ten are reissue manoeuvres (Drake 116&rarr;2, The Beatles re-entering at 4 on +1,626%, Mac Miller 159&rarr;10).",
+      "next_peg": "Next peg = the next chart, or a units floor."
+    },
+    {
+      "subject": "Oura rest-activity validation (Sleep Health, 9 Oct 2026)",
+      "type": "Study",
+      "last_covered": "No. 132",
+      "last_peg": "Fitness LEAD &mdash; ICC 0.67&ndash;0.98 against a discontinued Actiwatch in 41 adults of mean age 26.3, co-authored by the Oura&ndash;NUS Joint Lab, eight weeks after a proposed class action over accuracy claims.",
+      "next_peg": "Next peg = a polysomnography comparison, or a ruling in the suit."
+    },
+    {
+      "subject": "Singapore Transboundary Haze Pollution Act",
+      "type": "Policy",
+      "last_covered": "No. 132",
+      "last_peg": "Singapore LEAD &mdash; NEA says the air is already sufficient to trigger the Act; four of six investigations from 2015 remain open; no prosecution completed in twelve years.",
+      "next_peg": "Next peg = a notice served, or the first completed action."
+    },
+    {
+      "subject": "Kee&rsquo;s Restaurant &amp; Bar",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 132",
+      "last_peg": "The Table &mdash; day and night menus from 12 Sep in the 1936 remittance house at 21 Carpenter, chef Sujatha Asokan; a rebrand of the hotel&rsquo;s existing restaurant. One media-tasting review exists.",
+      "next_peg": "Next peg = an independent review."
+    },
+    {
+      "subject": "Skosh (Scotts Square)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 132",
+      "last_peg": "The Table &mdash; second outlet of the NAFA caf&eacute;; hand rolls S$4.50&ndash;10.80, Time Out 4/5. No opening date published anywhere.",
+      "next_peg": "Next peg = a published opening date, or a second review."
+    },
+    {
+      "subject": "Soft Order (Henderson Road)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 132",
+      "last_peg": "The Table &mdash; official opening 12 Oct after a soft-open; Honeycombers positive with two specific criticisms; prices recorded pre-opening.",
+      "next_peg": "Next peg = a post-opening review."
+    },
+    {
+      "subject": "Borderlessbutter (Sprout @ AMK)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 132",
+      "last_peg": "The Table &mdash; the compound-butter brand&rsquo;s first physical space, inside an incubator on a stated ONE-YEAR trial; Time Out hedged it as &ldquo;less a fully-formed caf&eacute; than an experiment&rdquo;.",
+      "next_peg": "Next peg = whether it survives the trial."
+    },
+    {
+      "subject": "Spicy Hubby (The Centrepoint)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 132",
+      "last_peg": "The Table &mdash; air-conditioned Orchard spin-off of the Amoy Street nasi lemak stall; no review of this outlet exists.",
+      "next_peg": "Next peg = a review of the outlet rather than the parent."
+    },
+    {
+      "subject": "Kazakhstan National Fund for Children",
+      "type": "Policy",
+      "last_covered": "No. 132",
+      "last_peg": "The Undercurrent &mdash; see the Undercurrent Ledger.",
+      "next_peg": "Next peg = the October 2026 State of the Nation Address, or the 2027 accrual."
+    },
+    {
+      "subject": "Osteria Da Su",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 133",
+      "last_peg": "The Table &mdash; NAE:UM Group&rsquo;s Korean-Italian room at 163 Telok Ayer St, Chef Suji Park; soft opening, hours TBC, no booking platform, and the same outlet gives two opening dates (23 and 28 Oct).",
+      "next_peg": "Next peg = a confirmed opening date, or the first independent review."
+    },
+    {
+      "subject": "Tokyo Onigiri (One Raffles Place)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 133",
+      "last_peg": "The Table &mdash; Ichiryu Manpuku&rsquo;s third overseas market; eighteen fillings $4.90&ndash;$10.90, queues up to about sixty minutes, HungryGoWhere unimpressed by the sambal chicken.",
+      "next_peg": "Next peg = whether the queue survives the novelty, or a second review."
+    },
+    {
+      "subject": "Creamie Sippies (Rochor)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 133",
+      "last_peg": "The Table &mdash; fourth outlet, bills itself as Singapore&rsquo;s first DIY banana pudding bar (own claim, not verified); bowls from $4.50.",
+      "next_peg": "Next peg = any independent review; Reddit and Burpple both refused this desk."
+    },
+    {
+      "subject": "Noci Bakehouse (Orchard Gateway)",
+      "type": "Opening (F&amp;B)",
+      "last_covered": "No. 133",
+      "last_peg": "The Table &mdash; second outlet leading on panuozzo at $18&ndash;$23; Time Out gave the Suntec flagship 3/5 (&ldquo;dense rather than light and pillowy&rdquo;). SPENT on the Table ledger.",
+      "next_peg": "Next peg = an independent review of the Orchard Gateway room."
+    },
+    {
+      "subject": "Food Opera (ION Orchard)",
+      "type": "Reopening (F&amp;B)",
+      "last_covered": "No. 133",
+      "last_peg": "The Table &mdash; reopened 28 Sep after three months, re-tenanted around heritage names (Hillman 1963, Berempah Bros, Ming Chung lor mee $8.80); sources disagree on the stall count, so none is printed. SPENT on the Table ledger.",
+      "next_peg": "Next peg = a full stall list, or a review."
+    },
+    {
+      "subject": "Pillows &amp; bolsters",
+      "type": "Buy It Once",
+      "last_covered": "No. 133",
+      "last_peg": "The Atelier &mdash; see the Atelier Ledger.",
+      "next_peg": "Next peg = a DOWNPASS or IDFB rule change, or a Singapore maker surfacing."
+    },
+    {
+      "subject": "Weaving &amp; floor looms",
+      "type": "Rabbit Hole",
+      "last_covered": "No. 133",
+      "last_peg": "The Rabbit Hole &mdash; see the Hobby Ledger.",
+      "next_peg": "Next peg = TempoTreadle 3 reviews in the wild, or a Singapore guild forming."
+    },
+    {
+      "subject": "Kyrgyzstan&rsquo;s Law No. 136 (T&uuml;nd&uuml;k)",
+      "type": "Policy",
+      "last_covered": "No. 133",
+      "last_peg": "The Undercurrent &mdash; see the Undercurrent Ledger.",
+      "next_peg": "Next peg = the 27 January 2027 presidential election turnout; check by 10 February 2027."
+    },
+    {
+      "subject": "Arm v Qualcomm (Delaware verdict)",
+      "type": "Litigation",
+      "last_covered": "No. 133",
+      "last_peg": "Technology &mdash; jury found a licence breach and interference, awarded <b>$2</b> in total; Judge Noreika has not ruled on whether the five-year royalty-suspension clause is enforceable, and a bench trial on good-faith negotiation was heard the same week.",
+      "next_peg": "Next peg = the post-trial rulings."
+    },
+    {
+      "subject": "Saudi Aramco Dhahran headquarters strike",
+      "type": "Conflict",
+      "last_covered": "No. 133",
+      "last_peg": "The World &mdash; 13 Oct missile strike on an administrative building; Reuters (three people with direct knowledge) reported extensive damage, Bloomberg could not resolve it; Nasser said the system is intact and 12m b/d available within days.",
+      "next_peg": "Next peg = an independent damage assessment, or a photograph."
     }
   ]
 }

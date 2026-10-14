@@ -165,8 +165,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Sansok | Sansok | 125 | OPEN | No. 125 build | opening run — record the peg here |
 | Dolpan Hwajoo | Dolpan Hwajoo | 125 | OPEN | No. 125 build | opening run — record the peg here |
 | AiFOKATO | AiFOKATO | 125 | OPEN | No. 125 build | opening run — record the peg here |
-| Noci Bakehouse | Noci Bakehouse | 125 | OPEN | No. 125 build | opening run — record the peg here |
-| Food Opera | Food Opera | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Noci Bakehouse | Noci Bakehouse | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
+| Food Opera | Food Opera | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
 | Torimitsu | Torimitsu | 126 | OPEN | No. 126 build | opening run — record the peg here |
 | Tanuki Raw | Tanuki Raw | 126 | OPEN | No. 126 build | opening run — record the peg here |
 | Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |
@@ -184,3 +184,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Soft Order | Soft Order | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Borderlessbutter | Borderlessbutter | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Spicy Hubby | Spicy Hubby | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Osteria Da Su | Osteria Da Su | 133 | OPEN | No. 133 build | opening run — record the peg here |
+| Tokyo Onigiri | Tokyo Onigiri | 133 | OPEN | No. 133 build | opening run — record the peg here |
+| Creamie Sippies | Creamie Sippies | 133 | OPEN | No. 133 build | opening run — record the peg here |
