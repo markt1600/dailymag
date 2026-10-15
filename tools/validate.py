@@ -599,6 +599,95 @@ if _issno >= 126 and not _special:
             if not re.fullmatch(r"P+B+P?", _seq):
                 errors.append(f"page {_i}: boxed furniture cuts through the article (column order {_seq}) — the prose runs as ONE "
                               f"block, the boxes follow it, at most one closing paragraph after them (PROSE BLOCK LAW; pulls and figures exempt)")
+    # (g) THE NEWS REGISTER (editor, 15 Oct 2026 — reader-reported on No. 133:
+    # "The ministry called it a limited fire", "The hotel licenses the name. A
+    # Las Vegas firm fills it" — "click-bait style headlines, not headlines for
+    # a proper news source"). Short was not enough: the Style Lock cut the
+    # headlines and they became riddles that withhold the subject. A headline
+    # NAMES its subject and states the event; a dek completes the who/what/
+    # when; a news lede opens with the news. 16 of 17 headlines in No. 133
+    # failed this; 2 of 23 in No. 60. Gated from No. 134.
+    _NR_STOP = {"A","An","The","And","But","Or","Of","In","On","At","To","For","With","By","From","As","Is","Are","Was",
+                "Were","Not","No","Nothing","Only","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","I",
+                "It","Its","They","This","That","These","Those","What","Why","How","Here","There","Then","Now","Every","Each",
+                "Some","Most","Both","All","Another","Other","Nobody","Everyone","Someone","Something","So","Yet","Still",
+                "Even","Just","If","When","Where","Which","Who","Whose","Whom","Than","Because","After","Before","Until",
+                "While","Since","Also","Add","Meet","Inside","Everything","Late","Early","Your","Our","His","Her","Their"}
+    _NR_DAYS = {"monday","tuesday","wednesday","thursday","friday","saturday","sunday"}
+    _NR_MONTHS = {"january","february","march","april","may","june","july","august","september","october","november",
+                  "december","jan","feb","mar","apr","jun","jul","aug","sep","sept","oct","nov","dec"}
+    _NR_NUM = {"one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen",
+               "fifteen","sixteen","seventeen","eighteen","nineteen","twenty","thirty","forty","fifty","sixty","seventy",
+               "eighty","ninety","hundred","thousand","million","billion","trillion","half","quarter","third","dozen"}
+    _NR_TIME = {"yesterday","today","tomorrow","tonight","overnight","week","month","year","morning","afternoon","evening"}
+    _NR_WITHHELD = {"it","they","them","this","these","those","someone","something","nothing","nobody","everyone",
+                    "everybody","anyone","anybody"}
+    _NR_BAD_START = ("what ","why ","how ","here's ","here is ","inside ","meet ","this is ","everything ","the one ",
+                     "the thing ")
+    _NR_ABBR = ("No.","St.","U.S.","Mr.","Dr.","Mrs.","Ms.","vs.","Jr.","Sr.","Co.","Inc.","Ltd.","etc.")
+
+    def _nr_proper(s):
+        raw = s.split(); out = []; start = True
+        for i, w in enumerate(raw):
+            t = w.strip("“”\"'‘’(),;:.!?—–-[]")
+            is_start = start
+            start = w.rstrip().endswith((".", ":", "—", "–", "?", "!"))
+            if is_start or not t or len(t) < 2:
+                continue
+            if t[0].isupper() and t not in _NR_STOP and t.lower() not in _NR_DAYS and t.lower() not in _NR_MONTHS:
+                out.append(t)
+        return out
+
+    def _nr_marker(s):
+        if re.search(r"\d", s):
+            return True
+        return any(w in _NR_DAYS or w in _NR_MONTHS or w in _NR_NUM or w in _NR_TIME
+                   for w in re.findall(r"[a-z']+", s.lower()))
+
+    def _nr_two_sentences(s):
+        for a in _NR_ABBR:
+            s = s.replace(a, a.replace(".", ""))
+        return bool(re.search(r"[a-z0-9)”’\"']\.\s+[A-Z“\"]", s))
+
+    _NR_NEWS_DESKS = {"The World", "Singapore", "Technology", "The Kit", "The Good Life", "Screen & Sound",
+                      "The Family Desk", "The Macro Desk", "Fitness", "The Diary", "The Travel Desk"}
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 134 or _i <= 2 or _i == len(pages):
+            continue
+        _rh = re.search(r'<div class="rh"><span>(.*?)</span>', _sec, re.S)
+        _desk = _plain(_rh.group(1)).split("·")[-1].strip() if _rh else ""
+        for _h in [_plain(x) for x in re.findall(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]:
+            _pr = []
+            _low = _h.lower().strip()
+            if _nr_two_sentences(_h): _pr.append("two sentences — the teaser form")
+            if _h.rstrip().endswith("?"): _pr.append("a question")
+            if _low.startswith(_NR_BAD_START): _pr.append("a teaser opener")
+            _wh = sorted({w for w in re.findall(r"[a-z']+", _low) if w in _NR_WITHHELD})
+            if _wh: _pr.append("withholds its referent (" + ", ".join(_wh) + ")")
+            if not _nr_proper(_h): _pr.append("names no subject — no proper noun")
+            if _pr:
+                errors.append(f"page {_i}: headline “{_h[:70]}” — " + "; ".join(_pr)
+                              + " (NEWS REGISTER: name the actor, state the event)")
+        for _d in [_plain(x) for x in re.findall(r'<div class="dek[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]:
+            _np, _nm = bool(_nr_proper(_d)), _nr_marker(_d)
+            if _d.rstrip().endswith("?"):
+                errors.append(f"page {_i}: dek ends in a question — a dek completes the news, it does not tease it (NEWS REGISTER)")
+            if not _np and not _nm:
+                errors.append(f"page {_i}: dek “{_d[:70]}” names nobody and carries no number or date — "
+                              f"the dek completes the who/what/when (NEWS REGISTER)")
+            elif not _np:
+                warns.append(f"page {_i}: dek names no proper noun — “{_d[:60]}” (NEWS REGISTER)")
+        if _desk in _NR_NEWS_DESKS and not (_desk == "The Diary" and "evt" in _sec and "cols2" not in _sec):
+            _bodies = re.findall(r'<p class="body[^"]*"[^>]*>(.*?)</p>', _sec, re.S)
+            _heds_here = re.search(r'<div class="hed', _sec)
+            if _bodies and _heds_here:
+                _lede = _plain(_bodies[0])
+                _first2 = " ".join(re.split(r"(?<=[.!?])\s+", _lede)[:2])
+                if not _nr_proper(_first2):
+                    errors.append(f"page {_i}: lede opens without naming its subject — “{_first2[:80]}”; "
+                                  f"a news lede says who did what, when and where in its first sentence (NEWS REGISTER)")
+                elif not _nr_marker(_first2):
+                    warns.append(f"page {_i}: lede's first two sentences carry no when or how-much — “{_first2[:60]}” (NEWS REGISTER)")
     # cover teasers
     if pages:
         for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):
