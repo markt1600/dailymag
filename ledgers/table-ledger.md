@@ -150,7 +150,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |
-| Nice Noodle | Nice Noodle | 117 | OPEN | No. 117 build | opening run — record the peg here |
+| Nice Noodle | Nice Noodle | 117, 134 | SPENT | No. 117 build | opening run — record the peg here |
 | Lulu’s Lounge | Lulu’s Lounge | 117, 129 | SPENT | No. 117 build | opening run — record the peg here |
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
 | Tanica | Tanica | 118, 129 | SPENT | No. 118 build | opening run — record the peg here |
@@ -162,9 +162,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | I’m Donut? | I’m Donut? | 123, 130 | SPENT | No. 123 build | opening run — record the peg here |
 | Molly Tea | Molly Tea | 124, 131 | SPENT | No. 124 build | opening run — record the peg here |
 | Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |
-| Sansok | Sansok | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Sansok | Sansok | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
 | Dolpan Hwajoo | Dolpan Hwajoo | 125 | OPEN | No. 125 build | opening run — record the peg here |
-| AiFOKATO | AiFOKATO | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| AiFOKATO | AiFOKATO | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
 | Noci Bakehouse | Noci Bakehouse | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
 | Food Opera | Food Opera | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
 | Torimitsu | Torimitsu | 126 | OPEN | No. 126 build | opening run — record the peg here |
@@ -187,3 +187,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Osteria Da Su | Osteria Da Su | 133 | OPEN | No. 133 build | opening run — record the peg here |
 | Tokyo Onigiri | Tokyo Onigiri | 133 | OPEN | No. 133 build | opening run — record the peg here |
 | Creamie Sippies | Creamie Sippies | 133 | OPEN | No. 133 build | opening run — record the peg here |
+| Tandem Co | Tandem Co | 134 | OPEN | No. 134 build | opening run — record the peg here |
+| Yogeek | Yogeek | 134 | OPEN | No. 134 build | opening run — record the peg here |
+| Shi Tang by Mahota Kitchen | Shi Tang by Mahota Kitchen | 134 | OPEN | No. 134 build | opening run — record the peg here |
+| Rogs Race | Rogs Race | 134 | OPEN | No. 134 build | opening run — record the peg here |

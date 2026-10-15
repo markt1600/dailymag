@@ -1189,9 +1189,10 @@
       "venue": "Nice Noodle",
       "key": "Nice Noodle",
       "runs": [
-        117
+        117,
+        134
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 117 build",
       "note": "opening run — record the peg here"
     },
@@ -1314,9 +1315,10 @@
       "venue": "Sansok",
       "key": "Sansok",
       "runs": [
-        125
+        125,
+        134
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 125 build",
       "note": "opening run — record the peg here"
     },
@@ -1334,9 +1336,10 @@
       "venue": "AiFOKATO",
       "key": "AiFOKATO",
       "runs": [
-        125
+        125,
+        134
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 125 build",
       "note": "opening run — record the peg here"
     },
@@ -1561,6 +1564,46 @@
       "status": "OPEN",
       "checked": "No. 133 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Tandem Co",
+      "key": "Tandem Co",
+      "runs": [
+        134
+      ],
+      "status": "OPEN",
+      "checked": "No. 134 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Yogeek",
+      "key": "Yogeek",
+      "runs": [
+        134
+      ],
+      "status": "OPEN",
+      "checked": "No. 134 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Shi Tang by Mahota Kitchen",
+      "key": "Shi Tang by Mahota Kitchen",
+      "runs": [
+        134
+      ],
+      "status": "OPEN",
+      "checked": "No. 134 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Rogs Race",
+      "key": "Rogs Race",
+      "runs": [
+        134
+      ],
+      "status": "OPEN",
+      "checked": "No. 134 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1630,11 +1673,14 @@
     "Maison Yoshoku",
     "Shared Table",
     "VE/LA",
+    "Nice Noodle",
     "Lulu’s Lounge",
     "Tanica",
     "KOKO Kawane",
     "I’m Donut?",
     "Molly Tea",
+    "Sansok",
+    "AiFOKATO",
     "Noci Bakehouse",
     "Food Opera"
   ]

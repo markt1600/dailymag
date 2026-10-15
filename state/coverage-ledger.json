@@ -1,5 +1,5 @@
 {
-  "count": 985,
+  "count": 997,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -6895,6 +6895,90 @@
       "last_covered": "No. 133",
       "last_peg": "The World &mdash; 13 Oct missile strike on an administrative building; Reuters (three people with direct knowledge) reported extensive damage, Bloomberg could not resolve it; Nasser said the system is intact and 12m b/d available within days.",
       "next_peg": "Next peg = an independent damage assessment, or a photograph."
+    },
+    {
+      "subject": "GFS Pride sinking (Strait of Hormuz)",
+      "type": "Conflict",
+      "last_covered": "No. 134",
+      "last_peg": "The World &mdash; MPA&rsquo;s 14 Oct release: two Singapore-registered boxships struck by &ldquo;unknown projectiles&rdquo;; the Pride sank (21 crew off), the Giselle reached anchorage (22 safe). Iran&rsquo;s Tasnim says a naval mine on an &ldquo;unauthorised&rdquo; route. No party has claimed it.",
+      "next_peg": "Next peg = a flag-state casualty investigation, or a claim of responsibility."
+    },
+    {
+      "subject": "Ban Keun airfield (China&rsquo;s first overseas air installation)",
+      "type": "Defence",
+      "last_covered": "No. 134",
+      "last_peg": "The World &mdash; Chinese MND confirms the &ldquo;China-Laos Friendship Aviation Academy&rdquo;; AP imagery of 30 Sep shows a 6,560ft runway, apron for 24 aircraft, 3,280ft of extension room. Laos, Vietnam, Cambodia and Myanmar all silent.",
+      "next_peg": "Next peg = hangars, hardened shelters or stationed aircraft in new imagery."
+    },
+    {
+      "subject": "Transboundary Haze Pollution Act (the 200 rung crossed)",
+      "type": "Policy",
+      "last_covered": "No. 134",
+      "last_peg": "Singapore &mdash; NEA&rsquo;s own feed read a central 24-hour PSI of <b>219</b> at 05:00 on 16 Oct; PM Wong says the Government is working out which companies are responsible. No company fined or sued in twelve years. Corrects No. 133&rsquo;s &ldquo;never reached&rdquo;.",
+      "next_peg": "Next peg = a notice, a prosecution, or a school closure at PSI 300."
+    },
+    {
+      "subject": "Shower fittings &amp; taps",
+      "type": "Buy It Once",
+      "last_covered": "No. 134",
+      "last_peg": "The Atelier &mdash; see the Atelier Ledger.",
+      "next_peg": "Next peg = a PUB band revision, or a maker publishing its own cartridge source."
+    },
+    {
+      "subject": "GlobalFoundries Malta fabs (Japan&rsquo;s $21bn)",
+      "type": "Industry",
+      "last_covered": "No. 134",
+      "last_peg": "Technology &mdash; Japan funds up to <b>$21bn</b> for two 300mm fabs GlobalFoundries will operate; Commerce takes ~4% equity; GF&rsquo;s own fees undisclosed; first fab online 2029, no node named.",
+      "next_peg": "Next peg = the signed appropriation, or a named process node."
+    },
+    {
+      "subject": "NVIDIA Nemotron 3.5 Bolt 74B-A9B",
+      "type": "Technology",
+      "last_covered": "No. 134",
+      "last_peg": "The Home Lab &mdash; 74B total / 9B active quantised to <b>2.0625</b> bits per expert weight, fits 24GB, runs <b>84 tok/s</b> against 96.63 for a 35B and 150 for a 26B; wins 10 of 13 benchmarks, loses both hallucination metrics. Drew <b>2</b> Hacker News comments in its first day.",
+      "next_peg": "Next peg = independent benchmarks, or a corrected speculative-decode number."
+    },
+    {
+      "subject": "Surface Laptop Ultra (RTX Spark)",
+      "type": "The Kit",
+      "last_covered": "No. 134",
+      "last_peg": "The Kit &mdash; ships 14 Oct at <b>US$2,599.99</b>; Microsoft&rsquo;s Singapore site lists neither it nor the Spark Dev Box. StorageReview&rsquo;s unit powered off 3 of 4 attempts under an OpenBLAS solve, Kernel-Power 41 / bugcheck 0, heat ruled out.",
+      "next_peg": "Next peg = a Singapore listing, or a firmware fix for the power-offs."
+    },
+    {
+      "subject": "MING &times; Massena LAB 57.09 &ldquo;Secret Honey&rdquo;",
+      "type": "The Good Life",
+      "last_covered": "No. 134",
+      "last_peg": "The Good Life &mdash; 125 pieces, CHF 7,250 (media-sourced; MING&rsquo;s page shows no price), sold out on its own page which simultaneously quotes 8&ndash;12 weeks. Three rotating sapphire discs over a lacquered base.",
+      "next_peg": "Next peg = a secondary-market sale above retail, or a WatchTime New York hands-on."
+    },
+    {
+      "subject": "Fontaines D.C. &mdash; Dopamine Chamber",
+      "type": "Screen &amp; Sound",
+      "last_covered": "No. 134",
+      "last_peg": "Screen &amp; Sound &mdash; NME&rsquo;s five-star review published 12 Oct, four days before the 16 Oct release; a Metascore of 84 on 14 reviews circulating by Thursday. Metacritic refused this desk, so the score is printed unverified. Outlier: Slant at 50.",
+      "next_peg": "Next peg = the chart entry, or a settled Metascore read at source."
+    },
+    {
+      "subject": "Whitehall II physical-activity emulation",
+      "type": "Fitness",
+      "last_covered": "No. 134",
+      "last_peg": "Fitness &mdash; Zhang et al., <i>Alzheimer&rsquo;s &amp; Dementia</i>, 11 Oct: 18 years of meeting the guideline alone gives RR <b>0.98</b>; stacked with diet, non-smoking and four vascular targets, <b>0.86</b>. Activity + alcohol moderation went the wrong way at 1.03.",
+      "next_peg": "Next peg = a replication with device-measured activity."
+    },
+    {
+      "subject": "Caving &amp; speleology",
+      "type": "Rabbit Hole",
+      "last_covered": "No. 134",
+      "last_peg": "The Rabbit Hole &mdash; see the Hobby Ledger.",
+      "next_peg": "Next peg = the DiscoX back in stock, a BRIC5 successor, or the 2026 BCRC incident report."
+    },
+    {
+      "subject": "Siraya recognition (Taiwan&rsquo;s seventeenth Indigenous people)",
+      "type": "Policy",
+      "last_covered": "No. 134",
+      "last_peg": "The Undercurrent &mdash; recognised 30 July 2026; registration opened 13 Aug; 12,178 applied and <b>1,336</b> completed by end-September against a 50,000 projection and a 980,000 ancestry estimate. Three statutes apply; 118 queued. Sakizaya precedent: 1,237 in nineteen years.",
+      "next_peg": "Next peg = the registration count at one year (30 July 2027), or the first amendment passed."
     }
   ]
 }
