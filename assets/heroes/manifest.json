@@ -1462,6 +1462,34 @@
   {
    "slug": "rh-schacht-shuttles-133",
    "url": "https://cdn.shopify.com/s/files/1/0720/0692/6631/files/PRODUCT-WEAVE-BoatShuttlesCherry_c5e9270a-4213-48af-a302-17cee8278665.png?v=1774035587"
+  },
+  {
+   "slug": "rh-pigeon-liberation-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clontarf_Pigeon_Club_Racing_Pigeons.jpg"
+  },
+  {
+   "slug": "rh-pigeon-loft-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Inside_a_pigeon_loft_-_geograph.org.uk_-_2990576.jpg"
+  },
+  {
+   "slug": "rh-pigeon-ets-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/A_system_that_displays_the_RFID_tags_data_of_pigeons_returning_from_training.jpg"
+  },
+  {
+   "slug": "travel-hooker-valley-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/NZ_Hooker_Valley_track.jpg"
+  },
+  {
+   "slug": "travel-nugget-point-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nugget_Point_and_The_Nuggets.jpg"
+  },
+  {
+   "slug": "atelier-sasuke-forge-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Eric_Chevallier_forging_scissors.jpg"
+  },
+  {
+   "slug": "world-sia-a350-135",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Singapore_Airlines_A350-900_%289V-SMS%29_%40_SIN%2C_Sept_2024_01.jpg"
   }
  ],
  "_fetch_rev": 16,
@@ -1568,5 +1596,6 @@
  "_note115b": "No. 115: category sweeps for beekeeping, fountain pens and Sri Lanka's hill country — the sandbox is 429'd by Wikimedia on every route, so the Action lists and downloads candidates for the build session to eyeball.",
  "_note125": "No. 125 (7 Oct 2026): Wikimedia 429'd the sandbox on Special:FilePath and upload.wikimedia.org alike, so Commons files go through this Action; non-Commons direct URLs were fetched by the build session and eyeballed.",
  "_retrigger128": "No. 128 build, 10 Oct 2026",
- "_retrigger_129": "No. 129 — Okinawa & Miyakojima Grand Tour: category sweeps so the build session can eyeball candidates (sandbox cannot browse Commons; all Wikimedia APIs answer 429 from it)."
+ "_retrigger_129": "No. 129 — Okinawa & Miyakojima Grand Tour: category sweeps so the build session can eyeball candidates (sandbox cannot browse Commons; all Wikimedia APIs answer 429 from it).",
+ "_retrigger_135": "No. 135 build, 17 Oct 2026 SGT - Commons files for the Rabbit Hole, Travel Desk and Atelier (sandbox is 429'd by Wikimedia)."
 }
