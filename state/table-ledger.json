@@ -1095,9 +1095,10 @@
       "venue": "Whuchu",
       "key": "Whuchu",
       "runs": [
-        115
+        115,
+        135
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 115 build",
       "note": "opening run — record the peg here"
     },
@@ -1604,6 +1605,46 @@
       "status": "OPEN",
       "checked": "No. 134 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Petra",
+      "key": "Petra",
+      "runs": [
+        135
+      ],
+      "status": "OPEN",
+      "checked": "No. 135 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Saikyo Pasta",
+      "key": "Saikyo Pasta",
+      "runs": [
+        135
+      ],
+      "status": "OPEN",
+      "checked": "No. 135 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Shirazi",
+      "key": "Shirazi",
+      "runs": [
+        135
+      ],
+      "status": "OPEN",
+      "checked": "No. 135 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Birds of a Feather",
+      "key": "Birds of a Feather",
+      "runs": [
+        135
+      ],
+      "status": "OPEN",
+      "checked": "No. 135 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1669,6 +1710,7 @@
     "Elijah Pies",
     "Kiap Kiap Chicken Club & Bar",
     "Fico at Tanjong Beach Club",
+    "Whuchu",
     "Moutai House",
     "Maison Yoshoku",
     "Shared Table",

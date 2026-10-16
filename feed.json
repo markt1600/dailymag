@@ -1,87 +1,101 @@
 {
  "publication": "MERIDIAN",
- "issue": 134,
- "date": "16 October 2026",
- "generated": "2026-10-16T07:18:38+08:00",
+ "issue": 135,
+ "date": "17 October 2026",
+ "generated": "2026-10-17T06:17:15+08:00",
  "quote": {
-  "text": "There’s an old saying that victory has 100 fathers and defeat is an orphan…",
-  "author": "John F. Kennedy, 21 April 1961, accepting sole responsibility for the Bay of Pigs"
+  "text": "A man should never be ashamed to own he has been in the wrong, which is but saying, in other words, that he is wiser to-day than he was yesterday.",
+  "author": "Alexander Pope, Thoughts on Various Subjects, 1727"
  },
- "macro": {
-  "title": "What It Means For VWRA, Global Bonds, Gold & BTC",
-  "reads": [],
-  "note": "",
-  "regime": [],
-  "anchor": "p14"
- },
+ "macro": null,
  "stories": [
+  {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · MB&F",
+   "headline": "MB&F brought back the Legacy Machine at 42mm, priced at CHF 82,000",
+   "dek": "The LM1 EVO, announced 13 October, puts the 2011 watch that made the brand into the sports case. Titanium is regular production; the rose-gold green dial is thirty-three pieces.",
+   "anchor": "p10",
+   "featured": true
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "The Invitation",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · Pigeon Racing",
+   "headline": "A Belgian hen called New Kim sold for €1.6m to a Chinese buyer",
+   "dek": "Bidding opened at €200 on 15 November 2020. Five years on, Britain’s governing body counts 11,742 members, down 14 per cent in a year, and its trade paper is losing 63 subscribers a month.",
+   "anchor": "p15",
+   "featured": true
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "Departures · Air New Zealand",
+   "headline": "Air New Zealand returns to Singapore–Christchurch non-stop on 28 October",
+   "dek": "Three a week on a 787-9, its first Singapore flight on the route since February 2020. With Singapore Airlines, fifteen weekly non-stops at peak.",
+   "anchor": "p19",
+   "featured": true
+  },
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · Hormuz",
-   "headline": "Unknown projectiles sank Singapore’s GFS Pride; Iran blames a naval mine",
-   "dek": "The Maritime and Port Authority called the 13 October strike unprovoked and a breach of international law. All 21 crew got off. It named nobody.",
+   "kicker": "The World · The Black Sea",
+   "headline": "Sofia opens a war-crimes case over the Chelsea 3 and names no suspect",
+   "dek": "Sofia’s military prosecutors moved on 16 October, three days after the Chelsea 3 was hit inside Bulgaria’s own economic zone. Seven ships struck this month; two seafarers dead, twenty-five missing.",
    "anchor": "p3",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore · The Haze Act",
-   "headline": "Singapore’s central PSI hit 219, past the Haze Act’s threshold",
-   "dek": "Prime Minister Lawrence Wong says the government is working out which companies are responsible. In twelve years it has never fined one.",
+   "headline": "NEA names seven Indonesian companies under the Haze Act, a first in twelve years",
+   "dek": "The notices went out on 16 October, the day the central 24-hour index peaked at 229. They order firefighting and a plan of action — they are not prosecutions, and NEA set no deadline.",
    "anchor": "p5",
-   "featured": true
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · Malta, New York",
-   "headline": "Japan will fund two New York fabs for GlobalFoundries to run",
-   "dek": "Tokyo provides up to $21bn; Commerce Secretary Howard Lutnick takes about 4% of the operator. The first fab is due online in 2029.",
-   "anchor": "p7",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Shower Fittings & Taps",
-   "headline": "Italy’s Fantini says only the cartridge and aerator are bought in",
-   "dek": "The Italian house has made taps at Pella since 1947. The two parts that move, wear and touch your water are the two it does not make.",
+   "kicker": "The Atelier · Scissors & Shears",
+   "headline": "Ernest Wright’s Sheffield putters still set shears by hand; Gingher is now Fiskars",
+   "dek": "Two blades touch at one travelling point, and a screw pivot decides whether a pair can ever be re-trued. Ernest Wright’s quality entry is £99; above about £150 you buy size and scarcity, not cutting.",
    "anchor": "p6",
+   "featured": false
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · TSMC",
+   "headline": "Shares in TSMC fell 3.4 per cent on a $920m beat",
+   "dek": "Revenue was US$46.72bn against a guided US$44.6–45.8bn; C.C. Wei lifted 2026 growth to “around 44” per cent. Gross margin slipped 1.3 points, and capex is held, not raised.",
+   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Surface Laptop Ultra",
-   "headline": "Microsoft ships the Surface Laptop Ultra, unlisted on its Singapore site",
-   "dek": "The first NVIDIA RTX Spark laptop starts at US$2,599.99. Apple opens iPhone Duo pre-orders here at 8pm tonight, from S$3,099.",
+   "kicker": "The Kit · Apple HomeView",
+   "headline": "Apple priced HomeView at S$399 in Singapore and opened pre-orders on 15 October",
+   "dek": "It ships here on 13 November, in the launch wave for once. Thread goes unmentioned in the release — and the S$299 Apple TV 4K is the cheaper hub with the radio Apple does name.",
    "anchor": "p9",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · MING 57.09",
-   "headline": "MING and Massena LAB sold out 125 watches on Wednesday morning",
-   "dek": "The 57.09 “Secret Honey” went on sale at 9am New York time at CHF 7,250. Its maker’s page now says sold out and also quotes eight to twelve weeks.",
-   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Dopamine Chamber",
-   "headline": "NME reviewed Fontaines D.C.’s Dopamine Chamber four days before release",
-   "dek": "The five-star NME verdict was filed four days before release, and a Metacritic score of 84 was circulating by Thursday.",
+   "kicker": "Screen & Sound · Fontaines D.C.",
+   "headline": "Fontaines D.C. released Dopamine Chamber on 16 October to a Metascore of 84",
+   "dek": "Fourteen of seventeen critics were positive, none negative. Paste dissented at C-plus; NME, which this desk reported reviewing four days early, publishes no star rating at all.",
    "anchor": "p11",
    "featured": false
   },
@@ -89,9 +103,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Adolescent Anxiety",
-   "headline": "JAMA Pediatrics reports one in six US adolescents screening positive",
-   "dek": "The JAMA Pediatrics study surveyed 15,730 twelve- to twenty-year-olds. Four in ten of the worst affected received no treatment in a year.",
+   "kicker": "The Family Desk · The Karolinska Twins",
+   "headline": "A Karolinska study of 21,797 twins finds shared family factors explain much",
+   "dek": "Published in Nature Human Behaviour on 8 October. Comparing identical twins to each other cut the association from 0.30 to 0.24 — smaller, and still there.",
    "anchor": "p12",
    "featured": false
   },
@@ -99,29 +113,19 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The Kospi Circuit Breaker",
-   "headline": "Korea’s Kospi fell 7.57% into a circuit breaker",
-   "dek": "Samsung lost 9.5% and SK hynix 11.1% on 15 October. Hours later the US ten-year fell 11 basis points and the S&P closed up 0.26%.",
+   "kicker": "The Macro Desk · Synchronous Tightening",
+   "headline": "The US ten-year fell 15 basis points in the worst PPI week of 2026",
+   "dek": "US producer prices came in at 1.3 per cent on the month against 0.6 expected, four-fifths of it energy. The long end rallied anyway, and Kevin Warsh named the regime in Bangkok.",
    "anchor": "p14",
-   "featured": false
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · Caving & Speleology",
-   "headline": "Volunteers gave Britain 5,570 unpaid hours of cave rescue in 2025",
-   "dek": "Sport caving has 8,500 members in America and 154 clubs in Britain. Its characteristic emergency is not a fall but a cold, lost party.",
-   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Whitehall II",
-   "headline": "Exercise alone did not cut cognitive risk in Whitehall II",
-   "dek": "The Whitehall II cohort gives a risk ratio of 0.98 for meeting the guideline. Stacked with diet, no smoking and four vascular targets, it falls to 0.86.",
+   "kicker": "Fitness · The Step Count",
+   "headline": "The American College of Cardiology puts the useful step count at 5,000 to 7,000",
+   "dek": "Its scientific statement, published in JACC on 15 October, says meaningful benefit arrives well below ten thousand. The same fortnight, the exercise-snack literature lost its headline result.",
    "anchor": "p18",
    "featured": false
   },
@@ -129,20 +133,20 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · The Dated Agenda",
-   "headline": "Esplanade runs 29 free shows; Tokyo’s private museums publish no price",
-   "dek": "Two Singapore festivals and two Tokyo national museums print full tiered fares. Ten of twenty-six listings below give no figure at all.",
-   "anchor": "p19",
+   "kicker": "The Diary · What’s Worth Booking",
+   "headline": "Studio Ghibli opens at Gardens by the Bay on 18 December at S$39",
+   "dek": "Resident pricing, timed entry, online only. The Kyushu sumo is sold out on all fifteen days, and the Australian Open’s early-bird window shuts at 12:59pm on 30 November.",
+   "anchor": "p23",
    "featured": false
   },
   {
    "desk": "The Long Read",
    "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Undercurrent · Taiwan",
-   "headline": "Taiwan recognised the Siraya in July; 1,336 people have registered",
-   "dek": "Taiwan’s Council of Indigenous Peoples projected 50,000 in the first year; its own 2022 estimate of plains-Indigenous ancestry was 980,000.",
-   "anchor": "p21",
+   "kicker": "The Undercurrent · South Korea",
+   "headline": "Seoul legalised a 33-square-metre cabin on farmland; Koreans have filed 17,983",
+   "dek": "Korea’s 강층체류형 숬턴 is not a house, so it needs no farmland-conversion permit. It gets twelve years, three renewals, and then in principle a demolition.",
+   "anchor": "p25",
    "featured": false
   }
  ]

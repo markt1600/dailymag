@@ -555,7 +555,9 @@
    "desk": "The Kit",
    "claim": "Garmin CIRQA interval/rapid-movement HR accuracy is not materially fixed by firmware; stays a steady-cardio+sleep band",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Firmware did not fix interval accuracy; wrist 0.89 vs bicep 0.98 running correlation.",
+   "gradedIn": "135"
   },
   {
    "issue": 61,
@@ -1709,7 +1711,9 @@
    "desk": "The World",
    "claim": "Zambia: Hichilema's ~60.5% re-election stands; Mundubile's court challenge does not overturn it",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Declared win stands, inaugurated 1 Sep 2026 - though no petition was ever heard.",
+   "gradedIn": "135"
   },
   {
    "issue": 76,
@@ -1779,7 +1783,9 @@
    "desk": "Singapore",
    "claim": "SIIA Haze Outlook 2026 'red' (2nd since 2019); Aug-Sep the peak danger window",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "push",
+   "result": "Red rating vindicated; the Aug-Sep peak window was wrong - it peaked in October at 229.",
+   "gradedIn": "135"
   },
   {
    "issue": 77,
@@ -1975,8 +1981,9 @@
    "desk": "The Diary",
    "claim": "F1 Singapore GP runs its first-ever Sprint weekend 9-11 Oct 2026",
    "check_by": "2026-10-12",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "First Marina Bay Sprint, run 10 Oct.",
+   "gradedIn": "135"
   },
   {
    "issue": 80,
@@ -2006,7 +2013,9 @@
    "desk": "The Diary",
    "claim": "F1 Singapore GP (9-11 Oct, first Sprint weekend) general admission sells out ahead of the event",
    "check_by": "2026-10-11",
-   "outcome": null
+   "outcome": "push",
+   "result": "\"Another sell-out\" announced after the event, no category named.",
+   "gradedIn": "135"
   },
   {
    "issue": 80,
@@ -2041,7 +2050,9 @@
    "desk": "Technology",
    "claim": "The Remote Access Security Act (cloud/remote-access chip controls) remains unpassed by the US Senate",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Passed the House Jan 2026; still sits in Senate Banking.",
+   "gradedIn": "135"
   },
   {
    "issue": 80,
@@ -2100,7 +2111,9 @@
    "desk": "The Kit",
    "claim": "Noble Audio Iris (US$699 single-DD IEM) settles as a well-reviewed but polarising 'cohesion over slam' monitor, not a universal Sennheiser IE 600 killer.",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "push",
+   "result": "Cohesion-over-slam verdict holds; \"polarising\" is not borne out - reviews are uniformly favourable.",
+   "gradedIn": "135"
   },
   {
    "issue": 81,
@@ -2243,7 +2256,9 @@
    "desk": "The Good Life",
    "claim": "When Astell&Kern finally prices the PD5, it lands within ~20% of the SR35's US$799 (i.e. not flagship money).",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "PD5 priced at US$1,049 - 31.3% over the SR35, outside the ~20% band.",
+   "gradedIn": "135"
   },
   {
    "issue": 84,
@@ -2370,7 +2385,10 @@
    "issue": 86,
    "desk": "Technology",
    "claim": "The Nvidia-Hugging Face ~$12.9B deal is either signed (with a filing) or formally abandoned within ~6 weeks",
-   "check_by": "2026-10-15"
+   "check_by": "2026-10-15",
+   "outcome": "right",
+   "result": "Signed: Nvidia 8-K of 3 Sep 2026, definitive agreement.",
+   "gradedIn": "135"
   },
   {
    "issue": 86,
@@ -2524,7 +2542,9 @@
    "desk": "Technology",
    "claim": "Nvidia-Hugging Face (~$12.9B) remains reported/unsigned; next peg is a signing, a regulatory review, or the deal collapsing",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Already signed 2 Sep 2026 and filed the next day.",
+   "gradedIn": "135"
   },
   {
    "issue": 89,
@@ -2608,7 +2628,9 @@
    "desk": "Technology",
    "claim": "Nvidia-Hugging Face acquisition (~$12.9B) reported but UNSIGNED; could be confirmed/filed or collapse",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Already signed; 8-K filed 3 Sep 2026.",
+   "gradedIn": "135"
   },
   {
    "issue": 90,
@@ -2771,8 +2793,9 @@
    "desk": "The Kit",
    "claim": "Independent reviews confirm the Sennheiser Momentum True Wireless 5's sound edge but rate its ANC below the Sony WF-1000XM6 / AirPods Pro 3 / Bose QC Ultra 2 elite",
    "check_by": "2026-10-15",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Sound edge confirmed; ANC rated below the Sony and AirPods elite.",
+   "gradedIn": "135"
   },
   {
    "issue": 93,
@@ -3027,7 +3050,9 @@
    "desk": "The Kit",
    "claim": "The Moto Watch Ultra's first independent reviews flag the 2022-era Snapdragon W5+ Gen 1 chip as the main reservation",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "push",
+   "result": "Chip is flagged but not consensus \"main reservation\"; one review puts battery first.",
+   "gradedIn": "135"
   },
   {
    "issue": 97,
@@ -3041,7 +3066,9 @@
    "desk": "The Diary",
    "claim": "The F1 Singapore Grand Prix weekend (9-11 Oct) proceeds as scheduled with its announced Padang line-up",
    "check_by": "2026-10-11",
-   "outcome": null
+   "outcome": "right",
+   "result": "Ran as scheduled with the announced line-up.",
+   "gradedIn": "135"
   },
   {
    "issue": 97,
@@ -3064,7 +3091,9 @@
    "desk": "The Vertical Update",
    "claim": "Suno's rumoured 'v6 family' model generation ships",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Suno shipped v6 on 9 Sep 2026.",
+   "gradedIn": "135"
   },
   {
    "issue": "97.5",
@@ -3187,7 +3216,9 @@
    "desk": "The Kit",
    "claim": "Apple Watch Ultra 4 reviews land as a 'spec bump in the Ultra 3 body' — battery the win, wrist-AI the shrug",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Spec bump in the same body; battery the win, wrist-AI the shrug.",
+   "gradedIn": "135"
   },
   {
    "issue": "99",
@@ -3335,7 +3366,9 @@
    "desk": "Macro",
    "claim": "US 10Y yield having touched 5.00%; gold fell (~$4,285) on real yields not haven demand — regime 'higher-for-longer, dollar-bid'",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "10Y above 5.00% every October business day, peaking 5.31%; gold fell on real yields.",
+   "gradedIn": "135"
   },
   {
    "issue": 103,
@@ -3581,7 +3614,9 @@
    "desk": "The Diary",
    "claim": "The Singapore Grand Prix Sprint weekend runs on 9-11 October 2026 without a wet-session red flag stopping the Grand Prix itself.",
    "check_by": "2026-10-12",
-   "outcome": null
+   "outcome": "right",
+   "result": "GP ran the full 62 laps dry; the wet chaos was Saturday Sprint.",
+   "gradedIn": "135"
   },
   {
    "issue": 107,
@@ -4741,7 +4776,10 @@
    "desk": "The Macro Desk",
    "claim": "MAS publishes its Monetary Policy Statement on or before 14 October 2026",
    "checkBy": "2026-10-14",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Published 14 Oct 2026, on the date.",
+   "gradedIn": "135"
   },
   {
    "issue": "116",
@@ -5058,7 +5096,10 @@
    "desk": "The Macro Desk",
    "claim": "The Monetary Authority of Singapore tightens again at its October 2026 statement",
    "checkBy": "2026-10-15",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "MAS held slope, width and centre on 14 Oct.",
+   "gradedIn": "135"
   },
   {
    "issue": "117",
@@ -5238,7 +5279,10 @@
    "desk": "The Macro Desk",
    "claim": "MAS's October 2026 Monetary Policy Statement is published on or before 14 October 2026",
    "checkBy": "2026-10-14",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Published 14 Oct 2026.",
+   "gradedIn": "135"
   },
   {
    "issue": "118",
@@ -5280,7 +5324,10 @@
    "desk": "Singapore",
    "claim": "Singapore's 24-hour PSI does not reach 200 in any region before 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "Central 24-hr PSI reached 229 on 16 Oct; west and east 205.",
+   "gradedIn": "135"
   },
   {
    "issue": "118",
@@ -5350,7 +5397,10 @@
    "desk": "The Diary",
    "claim": "The F1 Singapore Grand Prix runs 9–11 October 2026 as scheduled",
    "checkBy": "2026-10-12",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Ran 9-11 Oct; Verstappen won from pole, 62 laps.",
+   "gradedIn": "135"
   },
   {
    "issue": "118",
@@ -5518,7 +5568,10 @@
    "desk": "The Diary",
    "claim": "Singapore GP 2026 Zone 4 Walkabout Friday sells out before race weekend",
    "checkBy": "2026-10-11",
-   "status": "open"
+   "status": "open",
+   "outcome": "push",
+   "result": "No official pre-event confirmation; still listed in mid-August.",
+   "gradedIn": "135"
   },
   {
    "issue": "119",
@@ -5650,7 +5703,9 @@
    "desk": "The Diary",
    "claim": "The Singapore Grand Prix runs 9-11 October as scheduled, with Zone 4 Friday walkabout sold out before race day",
    "check_by": "2026-10-11",
-   "outcome": null
+   "outcome": "push",
+   "result": "Race ran; the Zone 4 Friday sell-out is unconfirmed.",
+   "gradedIn": "135"
   },
   {
    "issue": 120,
@@ -5716,7 +5771,9 @@
    "desk": "Singapore",
    "claim": "Singapore's 24-hour PSI falls below 100 in all five regions on at least one full day before 20 October 2026",
    "check_by": "2026-10-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "All five under 100 through 2 Oct 2026.",
+   "gradedIn": "135"
   },
   {
    "issue": 124,
@@ -5730,7 +5787,9 @@
    "desk": "The Macro Desk",
    "claim": "The MAS October policy statement is published on or before 14 October 2026, as its advance calendar says",
    "check_by": "2026-10-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published 14 Oct 2026.",
+   "gradedIn": "135"
   },
   {
    "issue": 124,
@@ -5863,7 +5922,9 @@
    "desk": "The Macro Desk",
    "claim": "The MAS October 2026 policy statement is published on or before 14 October 2026",
    "check_by": "2026-10-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published 14 Oct 2026.",
+   "gradedIn": "135"
   },
   {
    "issue": 125,
@@ -5947,7 +6008,9 @@
    "desk": "Screen & Sound",
    "claim": "The Social Reckoning's actual 3-day domestic opening lands inside the trade forecast band of US$5m-10m",
    "check_by": "2026-10-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "Final 3-day $5,018,263 - inside the $5-10m band by $18,263.",
+   "gradedIn": "135"
   },
   {
    "issue": 127,
@@ -6094,7 +6157,9 @@
    "desk": "Screen & Sound",
    "claim": "Other Mommy out-grosses The Social Reckoning on the 9-11 October 2026 domestic weekend chart",
    "check_by": "2026-10-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "$27,805,825 against $5,018,263.",
+   "gradedIn": "135"
   },
   {
    "issue": 128,
@@ -6171,7 +6236,9 @@
    "desk": "Technology",
    "claim": "TSMC's Q3 2026 US-dollar revenue print beats the top of its guided range",
    "check_by": "2026-10-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "US$46.72bn beat the guided top of US$45.8bn by US$920m.",
+   "gradedIn": "135"
   },
   {
    "issue": 129,
@@ -6206,7 +6273,9 @@
    "desk": "The Macro Desk",
    "claim": "MAS tightens the S$NEER slope at its 14 October 2026 statement",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MAS maintained the rate of appreciation; no change.",
+   "gradedIn": "135"
   },
   {
    "issue": 129,
@@ -6276,7 +6345,9 @@
    "desk": "The World",
    "claim": "The Riyadh/Dammam death toll stays at 13 and both airports hold a normal published schedule within 48 hours of 11 Oct (i.e. this is attrition, not a turning point)",
    "check_by": "2026-10-14",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Toll went to 14; Dammam struck; a third of Riyadh departures cancelled.",
+   "gradedIn": "135"
   },
   {
    "issue": 130,
@@ -6304,7 +6375,9 @@
    "desk": "The Macro Desk",
    "claim": "The MAS Monetary Policy Statement of 14 Oct 2026 steepens the S$NEER slope by 25bp rather than holding",
    "check_by": "2026-10-14",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MAS held every parameter.",
+   "gradedIn": "135"
   },
   {
    "issue": 130,
@@ -6318,7 +6391,9 @@
    "desk": "Technology",
    "claim": "TSMC's reported Q3 2026 revenue exceeds the top of its own US$44.6-45.8bn guidance range",
    "check_by": "2026-10-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "US$46.72bn against US$44.6-45.8bn guidance.",
+   "gradedIn": "135"
   },
   {
    "issue": 130,
@@ -6444,7 +6519,9 @@
    "desk": "Technology",
    "claim": "TSMC's reported Q3 2026 revenue in US dollars lands above the top of its own US$44.6-45.8bn guidance range",
    "check_by": "2026-10-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "US$46.72bn, +2.0% above the top of the range.",
+   "gradedIn": "135"
   },
   {
    "issue": 132,
@@ -6507,7 +6584,9 @@
    "desk": "The Macro Desk",
    "claim": "MAS steepens the S$NEER policy band slope again at its October 2026 review, with width and centre unchanged",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No further steepening; MAS held.",
+   "gradedIn": "135"
   },
   {
    "issue": 132,
@@ -6822,6 +6901,174 @@
    "desk": "The Long Read",
    "claim": "Taiwan's Legislative Yuan passes at least one of the 118 amendments the Siraya ruling queued",
    "check_by": "2027-10-16",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The World",
+   "claim": "No named suspect is charged in Bulgaria's Chelsea 3 war-crimes file by 31 Jan 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "Singapore",
+   "claim": "NEA opens a prosecution, not a preventive notice, under the Transboundary Haze Pollution Act by 30 Jun 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "Singapore",
+   "claim": "Singapore's 24-hour PSI falls below 100 in all five regions on a full day before 31 Oct 2026",
+   "check_by": "2026-10-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The World",
+   "claim": "Alberta's 19 Oct referendum returns under 40 per cent for beginning the separation process",
+   "check_by": "2026-10-20",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "Technology",
+   "claim": "China's final export catalogue, after 15 Nov 2026, keeps the open-source/public-domain exemption intact",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "Technology",
+   "claim": "TSMC's Q4 2026 revenue lands inside its guided US$52.3-54.3bn range",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Home Lab",
+   "claim": "An independent harness puts Muse Spark Open below Qwen or DeepSeek at equal quantisation by 31 Mar 2027",
+   "check_by": "2027-03-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Kit",
+   "claim": "Apple HomeView ships in Singapore on 13 November 2026 as listed",
+   "check_by": "2026-11-20",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Kit",
+   "claim": "A Singapore price for the Technics EAH-A1000 is published by 31 Dec 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Good Life",
+   "claim": "The MB&F LM1 EVO titanium remains regular production (not limited) through 30 Jun 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "Screen & Sound",
+   "claim": "Dopamine Chamber's Metascore stays at or above 80 once all reviews are in",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Macro Desk",
+   "claim": "The Fed holds at 3.75-4.00% at the 27-28 October 2026 FOMC",
+   "check_by": "2026-10-29",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Macro Desk",
+   "claim": "The US 2s10s spread is wider than 35bp at the 31 December 2026 close",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Macro Desk",
+   "claim": "MAS tightens the S$NEER slope at its January 2027 review, as ING expects",
+   "check_by": "2027-02-15",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "Fitness",
+   "claim": "No trial testing an exercise-snack prescription against resistance training for strength is published by 30 Jun 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Rabbit Hole",
+   "claim": "The RPRA reports membership below 11,742 at its February 2027 annual meeting",
+   "check_by": "2027-03-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Rabbit Hole",
+   "claim": "British Homing World is still publishing in October 2027",
+   "check_by": "2027-10-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Travel Desk",
+   "claim": "Air New Zealand's SIN-CHC non-stop operates from 28 October 2026 as scheduled",
+   "check_by": "2026-11-05",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Travel Desk",
+   "claim": "The JB-Singapore RTS Link begins passenger service in February 2027",
+   "check_by": "2027-03-01",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Travel Desk",
+   "claim": "The upper Hooker Valley Track and Hooker Hut are open for the 2026/27 summer",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Diary",
+   "claim": "The Story of Studio Ghibli opens to the public at Gardens by the Bay on 18 December 2026",
+   "check_by": "2026-12-20",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Diary",
+   "claim": "A published review of Petra appears by 31 January 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Long Read",
+   "claim": "Korea's cumulative rural-stay shelter filings exceed 25,000 by 30 June 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": "135",
+   "desk": "The Long Read",
+   "claim": "A Western major (NYT/BBC/Reuters/FT/Economist/Guardian) features Korea's 농촌체류형 쉼터 within 10 weeks",
+   "check_by": "2026-12-26",
    "outcome": null
   }
  ]

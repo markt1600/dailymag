@@ -141,7 +141,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114, 130 | SPENT | No. 114 build | opening run — record the peg here |
 | BlackTree | BlackTree | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Fico at Tanjong Beach Club | Fico at Tanjong Beach Club | 115, 127 | SPENT | No. 115 build | opening run — record the peg here |
-| Whuchu | Whuchu | 115 | OPEN | No. 115 build | opening run — record the peg here |
+| Whuchu | Whuchu | 115, 135 | SPENT | No. 115 build | opening run — record the peg here |
 | Moutai House | Moutai House | 115, 131 | SPENT | No. 115 build | opening run — record the peg here |
 | Maison Yoshoku | Maison Yoshoku | 116, 123 | SPENT | No. 116 build | opening run — record the peg here |
 | Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
@@ -191,3 +191,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Yogeek | Yogeek | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Shi Tang by Mahota Kitchen | Shi Tang by Mahota Kitchen | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Rogs Race | Rogs Race | 134 | OPEN | No. 134 build | opening run — record the peg here |
+| Petra | Petra | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Saikyo Pasta | Saikyo Pasta | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Shirazi | Shirazi | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |

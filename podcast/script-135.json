@@ -1,0 +1,684 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 135,
+ "date": "Saturday 17 October 2026",
+ "title": "What comes back",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Saturday, the seventeenth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three things before we start. Bulgaria has opened a war-crimes case over ships sunk in the Black Sea, and named nobody at all."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Our own environment agency finally used a law it has had for twelve years. Seven companies. By name."
+  },
+  {
+   "s": "A",
+   "t": "And a Belgian hen sold for one point six million euros. [deadpan] A pigeon."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] We're getting to the pigeon. I've been waiting all week for the pigeon. Where was she hit?"
+  },
+  {
+   "s": "A",
+   "t": "Sixteen miles off Byala. Inside Bulgaria's own exclusive economic zone."
+  },
+  {
+   "s": "B",
+   "t": "And the file says who did it?"
+  },
+  {
+   "s": "A",
+   "t": "The file names no suspect. Because Bulgaria has not said who it thinks fired."
+  },
+  {
+   "s": "B",
+   "t": "Why won't anybody say the word?"
+  },
+  {
+   "s": "A",
+   "t": "Because of where the ships were. A Romanian analyst called Radu Tudor put it to the AP: it's genuinely arguable whether a strike in an economic zone triggers collective defence. And so far, plainly, it hasn't."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the slowness is structural. Nobody wants to be the one who says the words out loud."
+  },
+  {
+   "s": "A",
+   "t": "And there is an asymmetry under that, which the same paper points out. Romania can strip a damaged hull that reaches one of its ports and run full forensics on it. Bulgaria largely cannot. So the country with the sunk ship is the country least able to prove who sank it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the investigation being slow isn't incompetence. It's the point."
+  },
+  {
+   "s": "A",
+   "t": "That's the trade paper's argument, and I think it's the right one. Both capitals prefer a long inquiry to the phrase act of war."
+  },
+  {
+   "s": "B",
+   "t": "What did Brussels say?"
+  },
+  {
+   "s": "A",
+   "t": "Ursula von der Leyen: the Black Sea has become another front of escalation of the Russian war in Ukraine. And the European Council demanded the immediate restoration of safe passage for all civilian shipping."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's a doubling in a week."
+  },
+  {
+   "s": "A",
+   "t": "And some owners now sail inside the twelve-mile belt carrying no war-risk cover at all. That's Gennadiy Ivanov of BPG Shipping."
+  },
+  {
+   "s": "B",
+   "t": "That's the first industry body to say it plainly."
+  },
+  {
+   "s": "A",
+   "t": "It is."
+  },
+  {
+   "s": "B",
+   "t": "Home, then. Because this one is ours."
+  },
+  {
+   "s": "A",
+   "t": "On Friday the National Environment Agency issued Preventive Measure Notices under the Transboundary Haze Pollution Act to seven Indonesian concession-holders. By name."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] It used the Act? The actual Act?"
+  },
+  {
+   "s": "A",
+   "t": "For the first time since it passed in twenty fourteen."
+  },
+  {
+   "s": "B",
+   "t": "Meaning what, practically?"
+  },
+  {
+   "s": "A",
+   "t": "Meaning each company is told to send firefighters to land it owns, stop burning, and file a plan of action. NEA's release sets no deadline. Cites no section. Names no penalty."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So one rung of the ladder is lit."
+  },
+  {
+   "s": "A",
+   "t": "One rung. Not the ladder."
+  },
+  {
+   "s": "B",
+   "t": "What would make it a turning point?"
+  },
+  {
+   "s": "A",
+   "t": "One named prosecution. Or a published deadline. The Act's teeth are civil liability and criminal penalty, and both need causation proved across a border — which is exactly why twelve years produced nothing. And note what the notices did not come with: the haze advisory the same day mentions neither the Act nor Indonesia."
+  },
+  {
+   "s": "B",
+   "t": "Schools?"
+  },
+  {
+   "s": "A",
+   "t": "No. The closure trigger is a next-day forecast above three hundred, and the forecast is one hundred and fifty to two hundred and thirty. Though O-Level papers may be rescheduled if it turns hazardous."
+  },
+  {
+   "s": "B",
+   "t": "What does this look like in a flat, though? That's the thing people actually feel."
+  },
+  {
+   "s": "A",
+   "t": "Gain City's air-purifier sales rose seventy-six per cent in September over August. Courts, more than fourfold across three or four weeks. Buyers who used to ask the price now ask about the clean-air delivery rate."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Nothing teaches a consumer a technical term like fear."
+  },
+  {
+   "s": "A",
+   "t": "And one detail no index captures. Rainwater collected in pails this week came up blackish."
+  },
+  {
+   "s": "B",
+   "t": "So the worst inflation print of the year. And bonds sold off, obviously."
+  },
+  {
+   "s": "A",
+   "t": "The opposite. The ten-year Treasury went from five point two four to five point zero nine. Down fifteen basis points. The thirty-year down seventeen."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Wait. Yields fell on a hot print?"
+  },
+  {
+   "s": "A",
+   "t": "They did. And that tells you what the bond market actually thinks. It isn't pricing persistent inflation. It's pricing demand destruction."
+  },
+  {
+   "s": "B",
+   "t": "Explain that like I've just walked in."
+  },
+  {
+   "s": "A",
+   "t": "Oil near a hundred and ten dollars a barrel, with a policy rate just under four per cent, isn't a reason to expect higher rates for longer. It's a tax on growth. Somebody is going to buy less of something."
+  },
+  {
+   "s": "B",
+   "t": "What did the Fed say?"
+  },
+  {
+   "s": "A",
+   "t": "Kevin Warsh, at the IMF meetings in Bangkok on Friday, gave no rate signal at all. He named the regime instead. Quote: it was a synchronous tightening in monetary policy in most places around the world. And that means there's no free riders."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Everybody tightened at once, so nobody gets the cheap currency."
+  },
+  {
+   "s": "A",
+   "t": "That's the whole sentence, yes."
+  },
+  {
+   "s": "B",
+   "t": "Where did the pain actually land? Because an index that barely moves isn't nothing happening."
+  },
+  {
+   "s": "A",
+   "t": "Korea. On Thursday the Kospi fell seven point five seven per cent and tripped a circuit breaker. Seventh straight loss. About twenty-one per cent over the streak."
+  },
+  {
+   "s": "B",
+   "t": "And the Dow?"
+  },
+  {
+   "s": "A",
+   "t": "Rose one point zero seven per cent the same session."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So it wasn't a crash. It was a rotation."
+  },
+  {
+   "s": "A",
+   "t": "More than a trillion dollars came off the twenty most valuable AI and semiconductor names in five days. Korea is about forty per cent below its June peak. The world index is flat."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Sixty-eight?"
+  },
+  {
+   "s": "A",
+   "t": "The physical build-out is accelerating through this port in the same week its equity funding got repriced. Not advice, as ever."
+  },
+  {
+   "s": "B",
+   "t": "And gold? Surely gold had a week."
+  },
+  {
+   "s": "A",
+   "t": "Gold finished down nought point one three on the day and four per cent on the month. There was a strike on shipping and oil up three and a half per cent, and gold did nothing."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Why not?"
+  },
+  {
+   "s": "A",
+   "t": "Positive real yields tax an asset that pays you nothing. That tax gets collected whatever the geopolitics."
+  },
+  {
+   "s": "B",
+   "t": "Technology. Give me the chip number."
+  },
+  {
+   "s": "A",
+   "t": "TSMC reported Wednesday. Revenue forty-six point seven two billion US dollars, against its own guidance of forty-four point six to forty-five point eight."
+  },
+  {
+   "s": "B",
+   "t": "Beat by — what, nine hundred million?"
+  },
+  {
+   "s": "A",
+   "t": "Nine hundred and twenty. And the shares fell three point four per cent."
+  },
+  {
+   "s": "B",
+   "t": "Anything for the home lab?"
+  },
+  {
+   "s": "A",
+   "t": "Apple published measured numbers on Thursday. Meta's Muse Spark Open — eight hundred and sixteen billion parameters — running across four Mac Studios over Thunderbolt."
+  },
+  {
+   "s": "B",
+   "t": "How fast?"
+  },
+  {
+   "s": "A",
+   "t": "Thirty-six point seven three tokens a second on four machines."
+  },
+  {
+   "s": "B",
+   "t": "And what does four Mac Studios cost?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] One commenter on Hacker News priced the rig at twenty-eight to thirty thousand US dollars. Another said fifty."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] We're in the launch wave? Us?"
+  },
+  {
+   "s": "A",
+   "t": "For once. Not sold in the European Union at all."
+  },
+  {
+   "s": "B",
+   "t": "Any catch?"
+  },
+  {
+   "s": "A",
+   "t": "One absence. The release names Matter, and says the thing can be a home hub — and never mentions Thread. Which is odd, because the same day's accessory release says every device in that line supports it."
+  },
+  {
+   "s": "B",
+   "t": "And the reviews?"
+  },
+  {
+   "s": "A",
+   "t": "There are none. It ships in a month. What exists is event hands-on, and on the one thing a speaker is for, two outlets flatly disagree — one found it not as powerful as hoped, the other called it impressively loud."
+  },
+  {
+   "s": "B",
+   "t": "And the maker of the day?"
+  },
+  {
+   "s": "A",
+   "t": "The Atelier did scissors. And the whole desk is one mechanism: a good pair of blades doesn't meet along a line. Each blade is curved slightly inward, so the two edges touch at exactly one point, and that point travels from the bolt to the tips as you close."
+  },
+  {
+   "s": "B",
+   "t": "[curious] One moving point. That's what cuts?"
+  },
+  {
+   "s": "A",
+   "t": "That's what shears cloth. Everything else follows. And the thing to look at is the pivot — a screw means the pair comes apart and can be re-set for fifty years. A rivet means it can't, whatever the steel."
+  },
+  {
+   "s": "B",
+   "t": "Give me the badge that does nothing."
+  },
+  {
+   "s": "A",
+   "t": "Gingher. A nineteen forty-seven forging house. It's now a Fiskars Group product made in Italy, and its own website redirects to an Amazon storefront."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every week."
+  },
+  {
+   "s": "B",
+   "t": "Pigeon racing. Finally. Start with the hen."
+  },
+  {
+   "s": "A",
+   "t": "The fifteenth of November, twenty twenty. A Belgian hen called New Kim. Lot one of a four-hundred-and-forty-five-bird dispersal sale in Berlaar. Bidding opened at two hundred euros."
+  },
+  {
+   "s": "B",
+   "t": "And closed at?"
+  },
+  {
+   "s": "A",
+   "t": "One point six million."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Eight thousand times."
+  },
+  {
+   "s": "A",
+   "t": "Within ninety minutes a South African group had bid one point three one million. Then two Chinese collectors fought it out. The auction chairman said the buyer was the same man who'd paid one and a quarter million for a cock called Armando the year before."
+  },
+  {
+   "s": "B",
+   "t": "Okay, so — why? What does the bird actually do?"
+  },
+  {
+   "s": "A",
+   "t": "It comes home. You put it in a basket, drive it hundreds of kilometres away, and let it go with thousands of others. It flies back to a loft you built."
+  },
+  {
+   "s": "B",
+   "t": "And how does it know?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] Nobody can tell you."
+  },
+  {
+   "s": "B",
+   "t": "Seriously?"
+  },
+  {
+   "s": "A",
+   "t": "Fifty years of experiments. The sun compass, an olfactory map, landmark memory, something magnetic — all of them have evidence. And in June this year a Copenhagen team published the strangest piece yet, in Science."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "Immune cells in the pigeon's liver appear to be required for finding magnetic direction. Deplete them, and under cloud the birds lose their orientation. Under sun, they're fine."
+  },
+  {
+   "s": "B",
+   "t": "What are the race numbers like?"
+  },
+  {
+   "s": "A",
+   "t": "The Barcelona International this year. Sixteen thousand two hundred and seventy-eight birds, liberated at a quarter to eight in the morning. The winner was a hen who covered one thousand and seventy-five kilometres at about sixty-five kilometres an hour, averaged."
+  },
+  {
+   "s": "B",
+   "t": "Now. The bit I don't understand. If birds sell for millions, why is the sport dying?"
+  },
+  {
+   "s": "A",
+   "t": "Because those are two different sports in two different places. Britain's governing body told its own annual meeting in February that membership is eleven thousand seven hundred and forty-two. Down fourteen per cent in a year."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Three hundred euros. Which rather undercuts the idea that pedigree is destiny."
+  },
+  {
+   "s": "A",
+   "t": "It does. If bloodline decided races, those prices couldn't coexist with a one-point-six-million-euro hen from the same stock."
+  },
+  {
+   "s": "B",
+   "t": "What's the gear?"
+  },
+  {
+   "s": "A",
+   "t": "The clock, not the loft. A Benzing M three is eight hundred and sixty-five pounds. A full install runs twelve hundred to thirteen hundred and fifty."
+  },
+  {
+   "s": "B",
+   "t": "And what do the German rivals charge?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] Nobody knows. TauRIS, TIPES and Bricon all publish full catalogues and no prices whatsoever. You telephone them. And Unikon's own website fails its security certificate, so the brand effectively lives on the second-hand market now."
+  },
+  {
+   "s": "B",
+   "t": "My favourite detail, please."
+  },
+  {
+   "s": "A",
+   "t": "The American dealer that sells the flagship clock no longer accepts online payment for it. You order by telephone, or you post a cheque."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A nine-hundred-pound gadget, bought by posting a cheque."
+  },
+  {
+   "s": "A",
+   "t": "That's the culture in one line."
+  },
+  {
+   "s": "B",
+   "t": "Could I do this here?"
+  },
+  {
+   "s": "A",
+   "t": "No. And that part is precise. Singapore's Pigeons Rules require a licence to keep them, cap you at ten birds, and rule seven says the premises must be built so the pigeons are kept confined. Rule eight bars letting any loose in a public place."
+  },
+  {
+   "s": "B",
+   "t": "So no training flights. No racing."
+  },
+  {
+   "s": "A",
+   "t": "Not from a Singapore address. The way in is the one-loft race — you send a young bird to a neutral loft abroad. A Tenerife listing quotes three hundred and seventy euros for one active bird and four reserves, shipping included."
+  },
+  {
+   "s": "B",
+   "t": "And the hard part? Because I can feel one coming."
+  },
+  {
+   "s": "A",
+   "t": "The losses. A campaigning group says that in cross-Channel racing an average of seventy-five per cent of birds never make it home. One race, nearly ninety."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] That's not a sport, that's an attrition rate."
+  },
+  {
+   "s": "A",
+   "t": "The unions answered that none of them condone cruelty, and that losses happen for many reasons — wires, hawks, weather. And the only non-advocacy figure anybody has is that just under half of fanciers surveyed lose more than twenty birds a year."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a harder sentence to write than to read."
+  },
+  {
+   "s": "A",
+   "t": "Quickly, the rest of the book. Culture: Fontaines D.C. released Dopamine Chamber on Friday. Metascore of eighty-four from seventeen critics — fourteen positive, none negative."
+  },
+  {
+   "s": "B",
+   "t": "And a correction?"
+  },
+  {
+   "s": "A",
+   "t": "Ours. On Thursday we said NME had published five stars four days early. The review is real and early. But NME publishes no star rating at all — the five stars is an aggregator's normalisation. That was our error."
+  },
+  {
+   "s": "B",
+   "t": "Anybody dissent on the record?"
+  },
+  {
+   "s": "A",
+   "t": "Paste, at C-plus. Their line: the processes behind these new songs are often more interesting to think about than to listen to."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "Two. The clinical findings come from the whole cohort, not the twin comparison. And the data collection began in two thousand and four — before smartphones were central. The authors say so themselves."
+  },
+  {
+   "s": "B",
+   "t": "Does it cover a twelve-year-old?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] No. It measures screen use at nine, fifteen and eighteen. A twelve-year-old sits in the gap. Anybody quoting it at a parent of one is interpolating."
+  },
+  {
+   "s": "B",
+   "t": "Thank you for saying that. Fitness?"
+  },
+  {
+   "s": "A",
+   "t": "The American College of Cardiology published a statement on Thursday. Roughly five to seven thousand steps a day is where the real mortality benefit lives. Meaningful benefit well below ten thousand."
+  },
+  {
+   "s": "B",
+   "t": "And travel, for the weekend brain?"
+  },
+  {
+   "s": "A",
+   "t": "Air New Zealand restarts Singapore to Christchurch non-stop on the twenty-eighth of October. And the Grand Tour went to Aoraki and the Catlins."
+  },
+  {
+   "s": "B",
+   "t": "Give me one number from it."
+  },
+  {
+   "s": "A",
+   "t": "Mount Cook village takes four thousand one hundred and thirty-two millimetres of rain a year. Lake Tekapo, sixty kilometres away, takes five hundred and thirty-five."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Eight times?"
+  },
+  {
+   "s": "A",
+   "t": "And New Zealand's own tourism site for Australia says Mount Cook gets about six hundred. Wrong by a factor of seven."
+  },
+  {
+   "s": "B",
+   "t": "That's the difference between an astronomy night and a tantrum."
+  },
+  {
+   "s": "A",
+   "t": "That's exactly the difference."
+  },
+  {
+   "s": "B",
+   "t": "And the long read. Slowly, this one."
+  },
+  {
+   "s": "A",
+   "t": "Korea. Since December twenty twenty-four, any Korean who owns farmland may put a cabin on it. Thirty-three square metres. Not a house — a rural-stay rest shelter."
+  },
+  {
+   "s": "B",
+   "t": "Why does that distinction matter?"
+  },
+  {
+   "s": "A",
+   "t": "Because a house would need a farmland-conversion permit, and a constitutional-era doctrine stands in the way: land belongs to those who farm it."
+  },
+  {
+   "s": "B",
+   "t": "So they invented a building the doctrine can't quite see."
+  },
+  {
+   "s": "A",
+   "t": "And capped it. Twelve years, three renewals, then in principle it comes down. One per household. You must still actually farm the rest of the plot, and the local government has to check that you do."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone taken it up?"
+  },
+  {
+   "s": "A",
+   "t": "Twelve thousand six hundred and twenty filings by last November. Seventeen thousand nine hundred and eighty-three by March."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So this isn't an invention. It's an amnesty."
+  },
+  {
+   "s": "A",
+   "t": "It's a surrender, dressed as a programme. In twenty twenty-three the ministry tried to stop people sleeping in those huts, and lost."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch for the people using it?"
+  },
+  {
+   "s": "A",
+   "t": "You may register your address to a shelter. You may not actually live there. The ministry's own policy director said moving in goes beyond the concept of temporary residence we have in mind."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptics?"
+  },
+  {
+   "s": "A",
+   "t": "Korean and specific. A researcher at the GSnJ Institute says the scheme creates limited genuinely new demand. And the hard counter-indicator: weekend-farming land certificates actually fell, from twenty-eight thousand to twenty-five thousand."
+  },
+  {
+   "s": "B",
+   "t": "What is it?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] That in a shrinking country, the state stops trying to move people, and starts licensing attendance. You don't move to the village. You attend it, on terms, for a term."
+  },
+  {
+   "s": "B",
+   "t": "And it rhymes with the whole issue, doesn't it. Things that come back."
+  },
+  {
+   "s": "A",
+   "t": "A bird over six hundred miles. A bridge over the Hooker River, rebuilt. An Act taken off a shelf after twelve years. And on page two, thirty-nine of our own calls, come home to be marked."
+  },
+  {
+   "s": "B",
+   "t": "How did we do?"
+  },
+  {
+   "s": "A",
+   "t": "Twenty right. Thirteen wrong. Four pushes."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Give me the worst."
+  },
+  {
+   "s": "A",
+   "t": "We said in issue one eighteen that the air index would not reach two hundred in any region before the thirty-first of October. It reached two hundred and twenty-nine."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Ouch."
+  },
+  {
+   "s": "A",
+   "t": "And four separate issues said the central bank would tighten this month. It held every parameter."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Which is why Pope is on page two."
+  },
+  {
+   "s": "A",
+   "t": "A man should never be ashamed to own he has been in the wrong — which is but saying, in other words, that he is wiser today than he was yesterday."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] He makes it sound like a boast."
+  },
+  {
+   "s": "A",
+   "t": "That's the trick. That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
