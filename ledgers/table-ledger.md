@@ -154,7 +154,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Lulu’s Lounge | Lulu’s Lounge | 117, 129 | SPENT | No. 117 build | opening run — record the peg here |
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
 | Tanica | Tanica | 118, 129 | SPENT | No. 118 build | opening run — record the peg here |
-| Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120 | OPEN | No. 120 build | opening run — record the peg here |
+| Soup Curry by Ki-Setsu | Soup Curry by Ki-Setsu | 120, 136 | SPENT | No. 120 build | opening run — record the peg here |
 | KOKO Kawane | KOKO Kawane | 121, 131 | SPENT | No. 121 build | opening run — record the peg here |
 | Jomaru | Jomaru | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | Little Rituals | Little Rituals | 122 | OPEN | No. 122 build | opening run — record the peg here |
@@ -163,7 +163,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Molly Tea | Molly Tea | 124, 131 | SPENT | No. 124 build | opening run — record the peg here |
 | Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |
 | Sansok | Sansok | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
-| Dolpan Hwajoo | Dolpan Hwajoo | 125 | OPEN | No. 125 build | opening run — record the peg here |
+| Dolpan Hwajoo | Dolpan Hwajoo | 125, 136 | SPENT | No. 125 build | opening run — record the peg here |
 | AiFOKATO | AiFOKATO | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
 | Noci Bakehouse | Noci Bakehouse | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
 | Food Opera | Food Opera | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
@@ -195,3 +195,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Saikyo Pasta | Saikyo Pasta | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Shirazi | Shirazi | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Your Mother’s House | Your Mother’s House | 136 | OPEN | No. 136 build | opening run — record the peg here |
+| The CHOYA Ginza Bar Singapore | The CHOYA Ginza Bar Singapore | 136 | OPEN | No. 136 build | opening run — record the peg here |
