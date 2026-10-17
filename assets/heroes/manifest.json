@@ -1490,6 +1490,18 @@
   {
    "slug": "world-sia-a350-135",
    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Singapore_Airlines_A350-900_%289V-SMS%29_%40_SIN%2C_Sept_2024_01.jpg"
+  },
+  {
+   "slug": "rabbit-nepenthes-rajah-136",
+   "file": "Kinabalu Mesilau N. rajah upper pitcher 3.jpg"
+  },
+  {
+   "slug": "atelier-singer-201k2-136",
+   "file": "Dressmaker Sewing Machine pic.jpg"
+  },
+  {
+   "slug": "travel-todaiji-daibutsuden-136",
+   "file": "Daibutsu-den in Todaiji Nara02bs3200.jpg"
   }
  ],
  "_fetch_rev": 16,
@@ -1597,5 +1609,6 @@
  "_note125": "No. 125 (7 Oct 2026): Wikimedia 429'd the sandbox on Special:FilePath and upload.wikimedia.org alike, so Commons files go through this Action; non-Commons direct URLs were fetched by the build session and eyeballed.",
  "_retrigger128": "No. 128 build, 10 Oct 2026",
  "_retrigger_129": "No. 129 — Okinawa & Miyakojima Grand Tour: category sweeps so the build session can eyeball candidates (sandbox cannot browse Commons; all Wikimedia APIs answer 429 from it).",
- "_retrigger_135": "No. 135 build, 17 Oct 2026 SGT - Commons files for the Rabbit Hole, Travel Desk and Atelier (sandbox is 429'd by Wikimedia)."
+ "_retrigger_135": "No. 135 build, 17 Oct 2026 SGT - Commons files for the Rabbit Hole, Travel Desk and Atelier (sandbox is 429'd by Wikimedia).",
+ "_retrigger_136": "No. 136 heroes: Nepenthes rajah, Singer 201K2, Todai-ji Daibutsuden"
 }
