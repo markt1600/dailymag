@@ -167,8 +167,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | AiFOKATO | AiFOKATO | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
 | Noci Bakehouse | Noci Bakehouse | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
 | Food Opera | Food Opera | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
-| Torimitsu | Torimitsu | 126 | OPEN | No. 126 build | opening run — record the peg here |
-| Tanuki Raw | Tanuki Raw | 126 | OPEN | No. 126 build | opening run — record the peg here |
+| Torimitsu | Torimitsu | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
+| Tanuki Raw | Tanuki Raw | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
 | Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |
 | O/SIO | O/SIO | 127 | OPEN | No. 127 build | opening run — record the peg here |
 | Blue Label Tavern | Blue Label Tavern | 128 | OPEN | No. 128 build | opening run — record the peg here |
@@ -197,3 +197,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Your Mother’s House | Your Mother’s House | 136 | OPEN | No. 136 build | opening run — record the peg here |
 | The CHOYA Ginza Bar Singapore | The CHOYA Ginza Bar Singapore | 136 | OPEN | No. 136 build | opening run — record the peg here |
+| Shan Li You | Shan Li You | 137 | OPEN | No. 137 build | opening run — record the peg here |
+| Curry Popo | Curry Popo | 137 | OPEN | No. 137 build | opening run — record the peg here |
+| Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |

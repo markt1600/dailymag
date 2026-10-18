@@ -1233,9 +1233,10 @@
       "venue": "Soup Curry by Ki-Setsu",
       "key": "Soup Curry by Ki-Setsu",
       "runs": [
-        120
+        120,
+        136
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 120 build",
       "note": "opening run — record the peg here"
     },
@@ -1327,9 +1328,10 @@
       "venue": "Dolpan Hwajoo",
       "key": "Dolpan Hwajoo",
       "runs": [
-        125
+        125,
+        136
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 125 build",
       "note": "opening run — record the peg here"
     },
@@ -1370,9 +1372,10 @@
       "venue": "Torimitsu",
       "key": "Torimitsu",
       "runs": [
-        126
+        126,
+        137
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 126 build",
       "note": "opening run — record the peg here"
     },
@@ -1380,9 +1383,10 @@
       "venue": "Tanuki Raw",
       "key": "Tanuki Raw",
       "runs": [
-        126
+        126,
+        137
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 126 build",
       "note": "opening run — record the peg here"
     },
@@ -1645,6 +1649,56 @@
       "status": "OPEN",
       "checked": "No. 135 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Your Mother’s House",
+      "key": "Your Mother’s House",
+      "runs": [
+        136
+      ],
+      "status": "OPEN",
+      "checked": "No. 136 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "The CHOYA Ginza Bar Singapore",
+      "key": "The CHOYA Ginza Bar Singapore",
+      "runs": [
+        136
+      ],
+      "status": "OPEN",
+      "checked": "No. 136 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Shan Li You",
+      "key": "Shan Li You",
+      "runs": [
+        137
+      ],
+      "status": "OPEN",
+      "checked": "No. 137 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Curry Popo",
+      "key": "Curry Popo",
+      "runs": [
+        137
+      ],
+      "status": "OPEN",
+      "checked": "No. 137 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Calendar Coffee",
+      "key": "Calendar Coffee",
+      "runs": [
+        137
+      ],
+      "status": "OPEN",
+      "checked": "No. 137 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1718,12 +1772,16 @@
     "Nice Noodle",
     "Lulu’s Lounge",
     "Tanica",
+    "Soup Curry by Ki-Setsu",
     "KOKO Kawane",
     "I’m Donut?",
     "Molly Tea",
     "Sansok",
+    "Dolpan Hwajoo",
     "AiFOKATO",
     "Noci Bakehouse",
-    "Food Opera"
+    "Food Opera",
+    "Torimitsu",
+    "Tanuki Raw"
   ]
 }

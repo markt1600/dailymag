@@ -1,61 +1,51 @@
 {
  "publication": "MERIDIAN",
- "issue": 136,
- "date": "18 October 2026",
- "generated": "2026-10-18T06:19:29+08:00",
+ "issue": 137,
+ "date": "19 October 2026",
+ "generated": "2026-10-19T06:22:24+08:00",
  "quote": {
-  "text": "Not everything that can be counted counts, and not everything that counts can be counted.",
-  "author": "William Bruce Cameron, Informal Sociology, 1963"
+  "text": "Promises and pie-crust are made to be broken.",
+  "author": "Jonathan Swift, Polite Conversation, 1738"
  },
  "macro": null,
  "stories": [
-  {
-   "desk": "The Atelier",
-   "sub": "Buy It Once",
-   "category": "Style",
-   "kicker": "The Atelier · Sewing Machines",
-   "headline": "Bernina moved its last Swiss assembly line to Thailand in May 2026",
-   "dek": "Twenty-seven Steckborn jobs went on 18 February, and the B 990 now ships from Lamphun. bernina.com.sg still sells “Swiss tradition and perfection since 1893”.",
-   "anchor": "p6",
-   "featured": true
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · Carnivorous Plants",
-   "headline": "The Nepenthes pitcher kills with a rim that works only when wet",
-   "dek": "On a wet peristome, weaver ants fell into the pitcher on 21 of 21 visits. On a dry one, none fell in 18. Three species grow wild in Singapore.",
-   "anchor": "p15",
-   "featured": true
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "Departures · The Winter Schedule",
-   "headline": "Singapore Airlines starts Madrid on 26 October and drops the Milan–Barcelona tag",
-   "dek": "SQ388 leaves at 2330 five times weekly on an A350-900; the three-weekly SIN–Milan–Barcelona service ends the next day.",
-   "anchor": "p19",
-   "featured": true
-  },
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
    "kicker": "The World · Hormuz",
-   "headline": "Iran’s Guards declare Hormuz closed; CENTCOM says the strait is American-controlled",
-   "dek": "Twelve ships were attacked in the week to 16 October — and the centre that counts them says the true figure is higher than it can report. Brent settled at $109.86.",
+   "headline": "Araghchi offers to reopen Hormuz in seven days; UKMTO logs 23 attacks",
+   "dek": "Iran’s foreign minister put the first number of days on the table in Baghdad on Saturday. Lloyd’s List counted 477 transits in September — the strait’s busiest month of the war.",
    "anchor": "p3",
-   "featured": false
+   "featured": true
+  },
+  {
+   "desk": "The Atelier",
+   "sub": "Buy It Once",
+   "category": "Style",
+   "kicker": "The Atelier · Padlocks & Cylinders",
+   "headline": "ASSA ABLOY bought Sargent & Greenleaf in December 2025 and now lists 174 brands",
+   "dek": "Sold Secure’s live register grades a Mul-T-Lock padlock Silver and a Squire closed-shackle Diamond. A Yale and an Abloy are the same company and not the same object.",
+   "anchor": "p6",
+   "featured": true
+  },
+  {
+   "desk": "The Kit",
+   "sub": "Gear We’re Watching",
+   "category": "Gadgets",
+   "kicker": "The Kit · Apple’s iPhone Duo",
+   "headline": "Apple opened iPhone Duo pre-orders in Singapore at S$3,099 and sold out",
+   "dek": "Shipping estimates slipped to around 25 January within half an hour. Bloomberg’s Mark Gurman: “Apple made a major mistake here.”",
+   "anchor": "p9",
+   "featured": true
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Haze Act",
-   "headline": "Singapore’s NEA says its 2015 haze investigations are still open",
-   "dek": "Grace Fu issued seven preventive notices on 16 October and conceded the law “may not be so effective”. The agency forecasts 150–220 PSI for Sunday.",
+   "kicker": "Singapore · The Haze",
+   "headline": "NEA logs PSI 93 in the north at 5am, down from Sunday’s 230",
+   "dek": "Three of the seven Indonesian firms served under the Transboundary Haze Pollution Act got materially identical notices in 2015. The Act allows S$100,000 a day; nothing has ever been collected.",
    "anchor": "p5",
    "featured": false
   },
@@ -63,29 +53,19 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · China’s Export Catalogue",
-   "headline": "China lists 23 AI technologies for export control, exempting open-source releases",
-   "dek": "MOFCOM and the science ministry opened comment to 15 November — and a pre-export registration duty took effect immediately, on 16 October, catching shipments already begun.",
+   "kicker": "Technology · China’s Export List",
+   "headline": "China drafts export curbs on open-weight AI models above two trillion parameters",
+   "dek": "The 16 October draft covers forty technologies and keeps the open-source carve-out — as an automatic licence Beijing can revoke. Comments close on 15 November.",
    "anchor": "p7",
-   "featured": false
-  },
-  {
-   "desk": "The Kit",
-   "sub": "Gear We’re Watching",
-   "category": "Gadgets",
-   "kicker": "The Kit · Amazon’s Bee",
-   "headline": "Amazon launches the Bee Frontier at US$74.99, a wristband that listens all day",
-   "dek": "Announced 15 October, US-only at launch, with a US$11.99 monthly tier. A former AWS security engineer says the consent prompt reaches the wrong person.",
-   "anchor": "p9",
    "featured": false
   },
   {
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Patek In Milan",
-   "headline": "Patek Philippe’s Milan Aquanaut costs US$43,761 and sells only in Italy",
-   "dek": "Two hundred and fifty pieces of Ref. 5167A-014, made for the Watch Art Grand Exhibition that closes in Milan today, 18 October.",
+   "kicker": "The Good Life · Oris ProPilot",
+   "headline": "Oris relaunches the ProPilot Calibre 111 with a ten-day hand-wound movement",
+   "dek": "CHF 6,100 on the steel bracelet, 43mm across and 13.2mm thick, with 240 hours of running from a mainspring 1.8 metres long. No Singapore price yet.",
    "anchor": "p10",
    "featured": false
   },
@@ -93,9 +73,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Fontaines D.C.",
-   "headline": "Fontaines D.C. release Dopamine Chamber to a Metascore of 85",
-   "dek": "Out 16 October with a guest turn from ROSALÍA. No. 135 called it a film and gave it 84; both are corrected below.",
+   "kicker": "Screen & Sound · Elizabeth Holmes",
+   "headline": "A24’s Elizabeth Holmes documentary opens at Metascore 99 and $15m",
+   "dek": "“You Can See Everything” took $15m from 855 screens against Street Fighter’s $31m from 3,575 — twice the take per screen, for a film of two hours fifty-four.",
    "anchor": "p11",
    "featured": false
   },
@@ -103,9 +83,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Phone Trial",
-   "headline": "Science publishes a 16,683-student phone ban that moved grades 0.073 SD",
-   "dek": "Published in Science on 8 October, the trial ran in ten Indian colleges. Its youngest subject is an undergraduate; not one participant is twelve.",
+   "kicker": "The Family Desk · The Lancet Series",
+   "headline": "NUS researchers co-wrote the Lancet’s new paper on children’s digital media",
+   "dek": "Published 4 October, it models 2.8 million healthy years lost to depression. Professor Alan Woodward counters that 71 per cent of the 121 underlying reviews were rated low quality.",
    "anchor": "p12",
    "featured": false
   },
@@ -113,19 +93,29 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · A Bull Flattening",
-   "headline": "US CPI rose 0.6 per cent in September; the 10-year fell 15 basis points",
-   "dek": "Gasoline is up 34.2 per cent on the year, yet the long end rallied: an AI credit scare beat an energy inflation shock to the bond market.",
+   "kicker": "The Macro Desk · The Paradox Day",
+   "headline": "American producer prices rose 1.3% in September and the Treasury 30-year yield fell",
+   "dek": "Brent gained 9.6 per cent in seven sessions to $109.86 while the US 10-year fell 15 basis points to 5.09 — the third consecutive issue it has fallen by exactly that.",
    "anchor": "p14",
+   "featured": false
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "The Invitation",
+   "category": "Hobby",
+   "kicker": "The Invitation · Nishikigoi",
+   "headline": "Nishikigoi exports from Japan reached 9.97 billion yen in 2025, up 37.9 per cent",
+   "dek": "China’s imports rose 724.6 per cent in a single year. Of roughly 200,000 carp spawned, Japan’s own transport ministry says 500 to 1,000 reach adulthood.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Blood-Pressure Dose",
-   "headline": "A Maturitas review of 284 trials ranks swimming first for systolic pressure",
-   "dek": "Published 16 October, pooling 18,750 adults at a mean age of 56.8. Swimming took 10.28 mmHg off systolic; mind–body work led on diastolic.",
+   "kicker": "Fitness · Cognitive Life Expectancy",
+   "headline": "Alzheimer’s & Dementia finds 7.2 years of cognitive health between the extremes",
+   "dek": "54,217 people across China, the United States, England and Korea. Training hard and staying social are not substitutes for each other: the hazard ratio between them is 1.01.",
    "anchor": "p18",
    "featured": false
   },
@@ -134,19 +124,19 @@
    "sub": "What’s Worth Booking",
    "category": "Events",
    "kicker": "The Diary · Booking This Week",
-   "headline": "Singapore Writers Festival’s early-bird pass reverts from S$24 to S$30 today",
-   "dek": "Tokyo’s Shojo Manga Infinity opens 28 October, with advance tickets at ¥2,000 until the 27th; Clockenflap’s Amex discount runs to 10 November.",
-   "anchor": "p23",
+   "headline": "Kenshi Yonezu’s Singapore tickets go on general sale at noon on Thursday",
+   "dek": "SIX60’s presales open today and tomorrow, with general sale on Wednesday. The Kyushu Basho is already sold out on all fifteen days.",
+   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
    "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Undercurrent · Rojali",
-   "headline": "Rojali is the Indonesian word for a mall crowd that never buys",
-   "dek": "Bank Indonesia says real retail sales grew 1.3 per cent in August. The statistics bureau says household consumption grew 5.06. Both figures are official.",
-   "anchor": "p25",
+   "kicker": "The Undercurrent · Hundi",
+   "headline": "Bangladesh Bank logged record remittances of $35.6bn; the kerb market explains the surge",
+   "dek": "Monthly inflows have fallen below $3bn and the kerb dollar trades at Tk128 against a bank rate of Tk122.30. The record is already unwinding.",
+   "anchor": "p21",
    "featured": false
   }
  ]
