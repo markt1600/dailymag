@@ -127,7 +127,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | AO (Claymore Drive) | AO (Claymore | 119, 127 | SPENT | No. 119 build | opening run — Cloud Restaurant Group, Araki Takeshi ex-Esora; reviewed 4/5 by a paying diner |
 | Decker Barbecue | Decker Barbecue | 111, 121 | SPENT | No. 111 build | opening run — record the peg here |
 | Jeju Haenyeo | Jeju Haenyeo | 111, 126 | SPENT | No. 111 build | opening run — record the peg here |
-| Miura | Miura | 111 | OPEN | No. 111 build | opening run — record the peg here |
+| Miura | Miura | 111, 138 | SPENT | No. 111 build | opening run — record the peg here |
 | Kimpson’s Table | Kimpson’s Table | 112, 120 | SPENT | No. 112 build | opening run — record the peg here |
 | Kappo Suguru | Kappo Suguru | 112, 126 | SPENT | No. 112 build | opening run — record the peg here |
 | Cloudmills | Cloudmills | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
@@ -136,7 +136,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Kali Kali | Kali Kali | 113, 123 | SPENT | No. 113 build | opening run — record the peg here |
 | OJEJE | OJEJE | 113, 122 | SPENT | No. 113 build | opening run — record the peg here |
 | Elijah Pies | Elijah Pies | 114, 123 | SPENT | No. 114 build | opening run — record the peg here |
-| LingZhi Greens | LingZhi Greens | 114 | OPEN | No. 114 build | opening run — record the peg here |
+| LingZhi Greens | LingZhi Greens | 114, 138 | SPENT | No. 114 build | opening run — record the peg here |
 | Gepuk Guys | Gepuk Guys | 114 | OPEN | No. 114 build | opening run — record the peg here |
 | Kiap Kiap Chicken Club & Bar | Kiap Kiap Chicken Club & Bar | 114, 130 | SPENT | No. 114 build | opening run — record the peg here |
 | BlackTree | BlackTree | 114 | OPEN | No. 114 build | opening run — record the peg here |
@@ -200,3 +200,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Shan Li You | Shan Li You | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Curry Popo | Curry Popo | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |
+| Rawr Cafe | Rawr Cafe | 138 | OPEN | No. 138 build | opening run — record the peg here |
+| Matsuya | Matsuya | 138 | OPEN | No. 138 build | opening run — record the peg here |
