@@ -183,7 +183,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Skosh | Skosh | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Soft Order | Soft Order | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Borderlessbutter | Borderlessbutter | 132 | OPEN | No. 132 build | opening run — record the peg here |
-| Spicy Hubby | Spicy Hubby | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Spicy Hubby | Spicy Hubby | 132, 139 | SPENT | No. 139 build | No. 132 the opening run; No. 139 the verdict run, exactly seven issues on — the first reviews are in and all three were filed within 48 hours of opening, two of them hosted. Spent. |
 | Osteria Da Su | Osteria Da Su | 133 | OPEN | No. 133 build | opening run — record the peg here |
 | Tokyo Onigiri | Tokyo Onigiri | 133 | OPEN | No. 133 build | opening run — record the peg here |
 | Creamie Sippies | Creamie Sippies | 133 | OPEN | No. 133 build | opening run — record the peg here |
@@ -202,3 +202,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Rawr Cafe | Rawr Cafe | 138 | OPEN | No. 138 build | opening run — record the peg here |
 | Matsuya | Matsuya | 138 | OPEN | No. 138 build | opening run — record the peg here |
+| Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
+| Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |
+| Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139 | OPEN | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |

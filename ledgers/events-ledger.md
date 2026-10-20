@@ -21,6 +21,7 @@ the history is the point.
 
 | Event | Where | Was listed | Status | Checked | Source / note |
 |---|---|---|---|---|---|
+| Dee Dee Bridgewater Duo with Helen Sung | Singapore (Esplanade Recital Studio) | Not listed by MERIDIAN; surfaced while researching No. 139 | CANCELLED | 21 Oct 2026 | SISTIC&rsquo;s own live catalogue now titles the 29 October 2026 event &ldquo;[CANCELLED] Esplanade Presents | Mosaic Music Series Dee Dee Bridgewater Duo with Helen Sung&rdquo; (was S$88). Barred from any future .evt row. |
 | Post Malone | Singapore | No. 84, as a 25 Sep marquee pick | CANCELLED | 31 Aug 2026 | Reader-reported cancelled. No. 85 printed a correction calling it POSTPONED; the reader reports the show is off entirely. Do not list again unless a promoter or venue announcement confirms a new date — and if it is confirmed, set Status to REINSTATED with that source. |
 
 ## Verification Log

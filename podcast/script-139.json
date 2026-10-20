@@ -1,0 +1,812 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 139,
+ "date": "Wednesday 21 October 2026",
+ "title": "Counted, and still counting",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Wednesday, the twenty-first of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Alberta has voted. Three to one to stay in Canada — and then asked for nine specific things back."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Both at once?"
+  },
+  {
+   "s": "A",
+   "t": "Both at once. Second: Iran says its mines set three tankers on fire south of Hormuz, and has not named a single ship."
+  },
+  {
+   "s": "B",
+   "t": "And third — the best mushroom identification app on the market got the death cap right three times out of five."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] We'll get there."
+  },
+  {
+   "s": "B",
+   "t": "We will absolutely get there."
+  },
+  {
+   "s": "A",
+   "t": "Alberta first, because this is the one we held last issue. Albertans voted on Monday the nineteenth. One million four hundred and fifty-one thousand five hundred and seventy-nine votes to stay. Four hundred and seventy-seven thousand six hundred and forty-two to begin leaving."
+  },
+  {
+   "s": "B",
+   "t": "Which is what, in percentages?"
+  },
+  {
+   "s": "A",
+   "t": "Seventy-five point two four against twenty-four point seven six. On question ten of a ten-question referendum."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And those figures come from where, exactly? Because I remember us being burned on an Alberta number before."
+  },
+  {
+   "s": "A",
+   "t": "We were. Number one thirty-five printed a poll figure nothing else matched. So this time the desk read Elections Alberta's own live feed directly — the JSON the results dashboard calls, because the dashboard itself renders empty to anyone fetching it."
+  },
+  {
+   "s": "B",
+   "t": "That's a nice piece of plumbing."
+  },
+  {
+   "s": "A",
+   "t": "It is, and it matters. Timestamped twenty-one seventeen GMT on the twentieth, four thousand nine hundred and sixty of five thousand five hundred and eighty-three polls reporting."
+  },
+  {
+   "s": "B",
+   "t": "Okay. So the separation question is settled. What's the nine-things part?"
+  },
+  {
+   "s": "A",
+   "t": "The other nine questions on the paper. Eight of them passed."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Eight of nine?"
+  },
+  {
+   "s": "A",
+   "t": "Proof of citizenship to vote took sixty-three point four eight per cent — the widest margin on the paper. Provincial control over immigration, fifty-four point one two. A twelve-month residency bar before social supports, fifty-seven point seven one. Abolishing the Senate, fifty-three point six four. Provincial laws prevailing over federal ones, fifty-one point three six."
+  },
+  {
+   "s": "B",
+   "t": "So which one failed?"
+  },
+  {
+   "s": "A",
+   "t": "Question eight. Opting out of federal programmes while keeping the federal funding. Beaten fifty point seven nine to forty-nine point two one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course that's the one. The money-without-the-obligation question."
+  },
+  {
+   "s": "A",
+   "t": "That is the one."
+  },
+  {
+   "s": "B",
+   "t": "So the reading is — Alberta rejected the exit and kept the entire bill of complaint."
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic box on page three, almost word for word. Read question ten alone and the movement lost badly. Read the whole paper and the province endorsed, by margins between fifty-one and sixty-three per cent, most of the powers a separation would have delivered."
+  },
+  {
+   "s": "B",
+   "t": "What did the politicians say?"
+  },
+  {
+   "s": "A",
+   "t": "Prime Minister Mark Carney called it a great result for Canada. Premier Danielle Smith, who voted against independence, said Albertans had voted for a stronger Alberta in a united Canada. Conceded nothing. Jeffrey Rath of the Alberta Prosperity Project, at a rally: quote, our movement isn't going anywhere. We're sick and tired of being regulated by Ottawa."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Right."
+  },
+  {
+   "s": "A",
+   "t": "Two cautions, both from Elections Alberta. The count is unofficial until Thursday the twenty-ninth. And question ten was counted first, so it sits on one point nine three million ballots while questions one to nine sit on between one point zero nine and one point six one million, and were still being counted as we went to press."
+  },
+  {
+   "s": "B",
+   "t": "So the separation margin is close to settled and the grievance margins are not."
+  },
+  {
+   "s": "A",
+   "t": "Correct. And turnout hasn't been published anywhere. The feed returns null where the field belongs. We did not estimate it."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good. Hormuz. What actually happened?"
+  },
+  {
+   "s": "A",
+   "t": "On Tuesday the Islamic Revolutionary Guard Corps said mines laid by its navy had set fire to two, quote, violating tankers, at what it called an illegal crossing point in the southern strait. Later, on state television, a third — which it says struck a mine after switching off its radar, carrying over two million barrels of crude. [pause] Nobody knows. No vessel has been named, by Iran or by anyone else. And the third ship appears in one wire account and not the other."
+  },
+  {
+   "s": "B",
+   "t": "So we're printing it as a claim."
+  },
+  {
+   "s": "A",
+   "t": "As a claim. What isn't in dispute is the price. Brent traded at one hundred and eleven dollars sixty-seven on the twentieth, up one point nine four per cent, the highest since May."
+  },
+  {
+   "s": "B",
+   "t": "What about flows? Last week we had eleven point six million barrels a day."
+  },
+  {
+   "s": "A",
+   "t": "This is where it gets uncomfortable. Kpler put outflows from the Persian Gulf at eight point five million barrels a day earlier in the week, against more than twenty million a fortnight before."
+  },
+  {
+   "s": "B",
+   "t": "That's a collapse."
+  },
+  {
+   "s": "A",
+   "t": "It would be, except that two other readings of the same week give thirteen point one million and twenty-four million."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Three numbers."
+  },
+  {
+   "s": "A",
+   "t": "Three scopes, three numbers, and one of them in everybody's headline. We printed all three and said so."
+  },
+  {
+   "s": "B",
+   "t": "I like that more than I like a clean figure."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic on page four is from ING. Warren Patterson and Ewa Manthey: prices remain well supported despite relatively strong Persian Gulf flows — which suggests the market is pricing in a significant risk premium."
+  },
+  {
+   "s": "B",
+   "t": "Meaning it's a premium, not a shortage."
+  },
+  {
+   "s": "A",
+   "t": "Meaning it may be. And the American Energy Secretary puts Gulf crude flows at about eighty per cent of pre-war."
+  },
+  {
+   "s": "B",
+   "t": "There's a human number in there too, isn't there?"
+  },
+  {
+   "s": "A",
+   "t": "The International Maritime Organization puts the seafarers stranded in the strait since February at about six thousand. Its secretary-general says transits should stop — and then blames, quote, irresponsible shipowners taking the risk in order to trade."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The regulator pointing at the owners rather than at Tehran. That's unusual."
+  },
+  {
+   "s": "A",
+   "t": "It is. The money block. Singapore first, because the Senior Minister named names. On Monday, K. Shanmugam said the Government is questioning seven companies listed on the Singapore exchange over possible links to the Indonesian fires behind this month's haze. He named them. Golden Agri-Resources, Bumitama Agri, First Resources, Wilmar International, Kencana Agri, Indofood Agri and T S H Resources. Asia Pulp and Paper is also being examined."
+  },
+  {
+   "s": "B",
+   "t": "And the levers? Because naming is cheap."
+  },
+  {
+   "s": "A",
+   "t": "Access to bank financing — the central bank supervises the banks. A review of whether any of them draws Singapore government grants. And legislation amended, he said, on an urgent basis. Zero-burning pledges are, quote, not good enough."
+  },
+  {
+   "s": "B",
+   "t": "Had the market already moved?"
+  },
+  {
+   "s": "A",
+   "t": "After the Prime Minister's post on the Friday, First Resources fell as much as nine point one per cent, Bumitama seven point five, Golden Agri six point nine."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And the haze itself this morning?"
+  },
+  {
+   "s": "A",
+   "t": "The west is now the worst region and getting worse. The national environment agency's own feed at five o'clock: the west at one hundred and thirty-four, central one hundred and seventeen, north eighty-three. Today's forecast is one hundred and ten to one hundred and eighty."
+  },
+  {
+   "s": "B",
+   "t": "That's the unhealthy band."
+  },
+  {
+   "s": "A",
+   "t": "And there's a new rulebook. The manpower ministry issued guidance on Tuesday keyed to the hourly fine-particle reading rather than the daily forecast. Four bands. At the top one, vulnerable staff are barred outdoors and everyone gets ten to fifteen minutes indoors every hour."
+  },
+  {
+   "s": "B",
+   "t": "There's a line in there I liked."
+  },
+  {
+   "s": "A",
+   "t": "Risk assessments must account for visibility — quote — especially for lifting operations with tower and mobile cranes."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Somebody thought about that properly."
+  },
+  {
+   "s": "A",
+   "t": "Here's the sceptic, though. Professor Alan Tan of the National University of Singapore, on the root causes: not much has changed. And the structural problem — twelve years after the Act was written, no company has ever been prosecuted. None. Attribution needs hotspot maps from a foreign authority, land rights overlap, and fines are hard to collect from firms with no Singapore presence."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the seven names are the strongest thing in the story."
+  },
+  {
+   "s": "A",
+   "t": "And the three of them that were served the same notices in two thousand and fifteen."
+  },
+  {
+   "s": "B",
+   "t": "Oh. Markets. What moved?"
+  },
+  {
+   "s": "A",
+   "t": "The oil tape, and backwards for once. An unconfirmed report of a Qatari-Pakistani plan put to Washington and Tehran — about six billion US dollars of frozen Iranian funds released — knocked Brent down two point three per cent intraday."
+  },
+  {
+   "s": "B",
+   "t": "And the curve did something odd."
+  },
+  {
+   "s": "A",
+   "t": "It did a twist. The ten-year fell three basis points to five point one two per cent while the two-year rose two, to four point seven nine. The front end is pricing a Federal Reserve that still has to hike. The long end is pricing an oil shock that might end. Two-year to ten-year collapsed from plus thirty-eight to plus thirty-three."
+  },
+  {
+   "s": "B",
+   "t": "And the two legs of a global portfolio?"
+  },
+  {
+   "s": "A",
+   "t": "Came apart, and this time helpfully. Global bonds up zero point one eight per cent, global equities down zero point one one. Last issue they fell together. Down zero point three eight per cent, to four thousand one hundred and twenty-four dollars ten. The de-escalation headline cut the war premium faster than a softer dollar could replace it."
+  },
+  {
+   "s": "B",
+   "t": "And bitcoin went the other way."
+  },
+  {
+   "s": "A",
+   "t": "Up one point one zero per cent, trading off the weaker dollar as a liquidity asset rather than a hedge. The regime is higher-for-longer with a de-escalating energy premium. Not advice. Technology. Apple committed up to one hundred million US dollars over three years to a titanium mill in Houston, Pennsylvania, for the iPhone Duo enclosure. Nearly one hundred components in the iPhone Duo come from American firms."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Nearly one hundred components from American firms is not one hundred American parts, is it."
+  },
+  {
+   "s": "A",
+   "t": "That's almost exactly the sceptic. Justin Scharlemann, writing on Tuesday: that is not the same claim as one hundred parts made on American soil, and a phone like the Duo has well over one hundred parts. iPhones are still assembled in China and India."
+  },
+  {
+   "s": "B",
+   "t": "Anything else awkward about the timing?"
+  },
+  {
+   "s": "A",
+   "t": "JPMorgan cut its Duo shipment forecast to about eight to nine million units on supply constraints. A titanium announcement landing while the titanium-bodied phone is short."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Beautiful. Home lab. This is the one I wanted."
+  },
+  {
+   "s": "A",
+   "t": "Meta released Muse Spark Open last Thursday. Eight hundred and sixteen billion parameters total, forty-two billion active, two hundred and fifty-six experts, a one-million-token context. Meta's own: at least seven hundred gigabytes of video memory."
+  },
+  {
+   "s": "B",
+   "t": "So, not a home lab model."
+  },
+  {
+   "s": "A",
+   "t": "Within a day it was. Unsloth's one-bit quantisation is five shards totalling about one hundred and seventy-six gigabytes — the first frontier-class open-weights model that fits a single two-hundred-and-fifty-six-gigabyte Mac Studio at all."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's the thing, isn't it. The community moved the goalposts in twenty-four hours."
+  },
+  {
+   "s": "A",
+   "t": "It did. With a catch. Unsloth's own guidance puts two-bit at two hundred and fifty to three hundred and sixteen gigabytes — so a two-fifty-six machine is running the one-bit quant, or running two-bit with no headroom for context. Nobody has published one. For either quant, on that machine."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Nobody?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody. The only measured figures come from Apple's own benchmark: fifteen point seven four tokens a second on two M-five Ultras pipelined, twenty-four point nine nine on two in parallel, thirty-six point seven three on four. Both companies sold this as a Mac Studio model. On Apple's own data it is a four-Mac-Studio model."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And the five-hundred-and-twelve-gigabyte Mac Studio?"
+  },
+  {
+   "s": "A",
+   "t": "Still not orderable. Which is the configuration both claims depend on."
+  },
+  {
+   "s": "B",
+   "t": "There's a lovely detail in the merge, too."
+  },
+  {
+   "s": "A",
+   "t": "There is. The developer who added support keeps the latent projections and the attention gate at eight-bit — about one per cent of the weights — because without that, quote, the low-bit types turned the output into a repeating loop."
+  },
+  {
+   "s": "B",
+   "t": "One per cent of the model holding the other ninety-nine together."
+  },
+  {
+   "s": "A",
+   "t": "The Kit. Apple priced HomeView in Singapore at three hundred and ninety-nine dollars."
+  },
+  {
+   "s": "B",
+   "t": "For which version?"
+  },
+  {
+   "s": "A",
+   "t": "Both. That's the story. The tabletop and the wall-mounted model cost the same."
+  },
+  {
+   "s": "B",
+   "t": "And they're the same device?"
+  },
+  {
+   "s": "A",
+   "t": "No. The tabletop has a down-firing woofer and two passive radiators in its base. The wall model has no base, so no woofer. And Apple doesn't include the mount, which starts at fifty-nine dollars ninety-five."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So the wall one costs more and sounds worse."
+  },
+  {
+   "s": "A",
+   "t": "John Gruber's word for it is illogical. He also went after the launch film — this family's convenient hole in the centre of their island countertop is a fantasy. The thing has to be tethered to power."
+  },
+  {
+   "s": "B",
+   "t": "Buy the tabletop."
+  },
+  {
+   "s": "B",
+   "t": "The Atelier. Irons. [amused] Sell me on irons."
+  },
+  {
+   "s": "A",
+   "t": "Buy the tabletop. The number on the box of a domestic steam generator is a pump pressure. The number on the machine a tailor buys is a boiler pressure."
+  },
+  {
+   "s": "B",
+   "t": "Not the same thing."
+  },
+  {
+   "s": "A",
+   "t": "Not the same quantity, not measured the same way — and the consumer one is bigger. Tefal publishes seven point six bar. A Reliable professional station, built in Italy and sold to sewing rooms at seven hundred and ninety-nine US dollars, runs three point five. And no standard polices either figure. The international standard for electric irons defines how to measure a steam rate, and says in its own scope that it is concerned neither with safety nor with performance requirements. Pressure appears nowhere in it."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So the grams per minute has a test and no pass mark, and the bar has neither."
+  },
+  {
+   "s": "A",
+   "t": "That's the page in one line."
+  },
+  {
+   "s": "B",
+   "t": "And the white-label bit? You teased me with this."
+  },
+  {
+   "s": "A",
+   "t": "Philips sold its domestic appliances business in twenty twenty-one, with a fifteen-year licence on its own name that Philips valued at about seven hundred million euros. The buyer trades as Versuni."
+  },
+  {
+   "s": "B",
+   "t": "So the Philips iron is—"
+  },
+  {
+   "s": "A",
+   "t": "A Versuni machine renting the word Philips. And Versuni's own small print says so: Philips is a registered trademark of Koninklijke Philips N.V."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] It's printed on their own website."
+  },
+  {
+   "s": "A",
+   "t": "Braun went the same way in twenty-twelve — a perpetual licence to De'Longhi that names ironing specifically, with ownership staying at Procter and Gamble. The best witness owns the expensive company. Robert Kahn of Reliable, writing for the trade: gravity feed irons are nothing more than glorified home irons. And — frankly, a forty-nine-dollar iron at Walmart will work pretty much as well."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] He sells the professional ones!"
+  },
+  {
+   "s": "A",
+   "t": "He does. His point is that the money belongs in the table, not the iron."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Amateur mycology. Mushrooms. Go."
+  },
+  {
+   "s": "A",
+   "t": "Four hobbies under one name, and they barely overlap in equipment. Field identification. Microscopy. Home cultivation. And the newest layer — citizen-science sequencing, where amateurs generate DNA barcodes that land in a public gene database."
+  },
+  {
+   "s": "B",
+   "t": "What's the scale?"
+  },
+  {
+   "s": "A",
+   "t": "iNaturalist holds twenty-two million nine hundred and twenty-six thousand observations of fungi, from one point two six million observers."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's enormous."
+  },
+  {
+   "s": "A",
+   "t": "And only twenty-seven point nine per cent of them are confirmed."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Say that again."
+  },
+  {
+   "s": "A",
+   "t": "Research grade means two independent identifications agreeing. Fewer than three in ten fungal records clear it."
+  },
+  {
+   "s": "B",
+   "t": "So seven in ten photographs of mushrooms on the world's biggest nature platform are, formally, unidentified."
+  },
+  {
+   "s": "A",
+   "t": "In Singapore it's one in ten confirmed."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Nine out of ten."
+  },
+  {
+   "s": "A",
+   "t": "Which the desk reads two ways. One way it's an indictment. The other way it's the entire invitation."
+  },
+  {
+   "s": "B",
+   "t": "Because the field isn't saturated."
+  },
+  {
+   "s": "A",
+   "t": "Because the field isn't saturated. There's a chef in Santa Rosa — Harte Singer — who runs a DNA laboratory in his garage. He's sequenced more than ten thousand fungi, about nine hundred specimens a month."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] In a garage."
+  },
+  {
+   "s": "A",
+   "t": "And flagged up to one thousand of them as species science hasn't named. In his project's first year, seventeen per cent of everything sequenced matched nothing known."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Seventeen per cent! That's an extraordinary hit rate for an amateur hobby."
+  },
+  {
+   "s": "A",
+   "t": "His own line: I was spending all my discretionary income on sequencing mushrooms."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I believe him completely. What does the gear cost?"
+  },
+  {
+   "s": "A",
+   "t": "The field knife is forty US dollars, and cheaper at the mushroom shop than at the maker. A real microscope is about a thousand — or a refurbished Olympus for nineteen hundred and forty-five, which will outlive its owner. A pressure steriliser is seven hundred. Five thousand seven hundred to six thousand two hundred US dollars upfront, to reach fifty-three cents a specimen."
+  },
+  {
+   "s": "B",
+   "t": "Which pays back when?"
+  },
+  {
+   "s": "A",
+   "t": "At about eleven thousand specimens — against a network that now does it free."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] So don't build the bench."
+  },
+  {
+   "s": "A",
+   "t": "Post the sample."
+  },
+  {
+   "s": "B",
+   "t": "Now. The death cap."
+  },
+  {
+   "s": "A",
+   "t": "The only independent test of mushroom identification apps was published in Clinical Toxicology in March twenty twenty-three. Three apps, seventy-eight specimens, each confirmed by an expert. Overall accuracy: forty-nine per cent, thirty-five, and thirty-five. On everything. On the death cap specifically, the best app got it right sixty per cent of the time — three times in five — and called it something else twice."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And what do the developers advertise?"
+  },
+  {
+   "s": "A",
+   "t": "Eighty to ninety per cent."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Right."
+  },
+  {
+   "s": "A",
+   "t": "In France, poisoning cases involving an identification app went from six in all of twenty twenty-one to thirty in the second half of twenty twenty-two alone."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the number I'll remember."
+  },
+  {
+   "s": "A",
+   "t": "The community is blunter than the study. One forum regular: they are all unreliable."
+  },
+  {
+   "s": "B",
+   "t": "And there's a supplement angle."
+  },
+  {
+   "s": "A",
+   "t": "There is, and the mechanism is a labelling trick. A supplier tested about a hundred samples. Whole dried mushrooms ran up to forty-nine per cent beta-glucan with almost no starch. Mycelium grown on grain ran as low as one per cent beta-glucan with fifty-one per cent starch."
+  },
+  {
+   "s": "B",
+   "t": "So you're buying rice."
+  },
+  {
+   "s": "A",
+   "t": "And the label can still advertise an impressive polysaccharide number, because starch counts."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Lovely."
+  },
+  {
+   "s": "A",
+   "t": "One caveat we print every time we say it: the company that published that testing sells the other kind of extract. We name them in every sentence of it."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good."
+  },
+  {
+   "s": "A",
+   "t": "Culture, quickly. A twenty-four's Elizabeth Holmes documentary opened Friday to eighteen thousand two hundred and forty-seven dollars a screen, on eight hundred and fifty-five screens. Street Fighter took eight thousand six hundred and eight a screen, on three thousand five hundred and seventy-five."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Twice the business per room, on a quarter of the rooms."
+  },
+  {
+   "s": "A",
+   "t": "Metascore ninety-seven from forty critics. Thirty-nine positive, one mixed, none negative. Isn't a critic's. Tyler Shultz — the Theranos whistleblower — wrote on Monday: what it certainly is not is a documentary, and it's dangerous to pretend that it is."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a serious objection from a serious person."
+  },
+  {
+   "s": "A",
+   "t": "His proposed title is: You Can See Everything That We Chose To Point The Camera At."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Oh, that's good."
+  },
+  {
+   "s": "A",
+   "t": "Family desk. Two papers, same day, two leading journals, one shared author."
+  },
+  {
+   "s": "B",
+   "t": "What did they find?"
+  },
+  {
+   "s": "A",
+   "t": "The first followed eleven thousand two hundred and seventy-nine adolescents from a mean age of twelve, across five annual waves. Problematic social-media use and depression predicted each other — but only in two of four intervals. No significant link in any interval."
+  },
+  {
+   "s": "B",
+   "t": "[pause] None at all."
+  },
+  {
+   "s": "A",
+   "t": "None. A null, inside the alarm literature, from the researchers doing the worrying."
+  },
+  {
+   "s": "B",
+   "t": "What's the second?"
+  },
+  {
+   "s": "A",
+   "t": "Passively sensed phone logs against sleep trackers. Every extra minute of phone use after ten at night cost zero point four three minutes of sleep. And the last five minutes before sleep are the ones that count — the effect is negligible by twenty minutes out."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] So twenty minutes between the phone and the pillow."
+  },
+  {
+   "s": "A",
+   "t": "That's roughly where the measured effect disappears. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And one more for the parents listening?"
+  },
+  {
+   "s": "A",
+   "t": "In fifteen hundred and ten Florida eleven-to-thirteens, simply owning a smartphone was associated with lower odds of poor sleep. Using it in bed carried adjusted odds of trouble sleeping up to thirteen times higher."
+  },
+  {
+   "s": "B",
+   "t": "The device isn't the problem. The bedroom is."
+  },
+  {
+   "s": "A",
+   "t": "Fitness. A Greek cohort published Monday, twenty-two years of follow-up."
+  },
+  {
+   "s": "B",
+   "t": "Give me the finding."
+  },
+  {
+   "s": "A",
+   "t": "People who were persistently active in midlife had about eighty per cent lower odds of frailty two decades later."
+  },
+  {
+   "s": "B",
+   "t": "And people who started late? [gasps] One point!"
+  },
+  {
+   "s": "A",
+   "t": "Starting late cost one percentage point. The authors put nearly half of all frailty in the cohort — forty-nine point five per cent — down to midlife inactivity alone."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the most encouraging number in the book."
+  },
+  {
+   "s": "A",
+   "t": "Two honest gaps, though: the abstract states no sample size and gives no confidence intervals for the eighty and the seventy-nine. We printed them as the authors' own wording, bare. The one randomised trial published the same day found no mortality difference from telephone lifestyle counselling in older adults — and in the arm that tried hardest, the participants with obesity got heavier."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Of course they did."
+  },
+  {
+   "s": "A",
+   "t": "And the long read. Vietnam."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Tell me the word."
+  },
+  {
+   "s": "A",
+   "t": "Nhà già. Old-people's house. Nobody in government coined it — it appeared in speech, and in August the Party daily printed it in a headline, in scare quotes."
+  },
+  {
+   "s": "B",
+   "t": "Built from what?"
+  },
+  {
+   "s": "A",
+   "t": "From nhà trẻ. Children's house. The ordinary word for a crèche."
+  },
+  {
+   "s": "B",
+   "t": "[pause] They named the eldercare after the kindergarten."
+  },
+  {
+   "s": "A",
+   "t": "The official slogan is the kindergarten run: collected in the morning, brought home in the evening. And the General Secretary said out loud that the old should be cared for with the same priority as schoolchildren."
+  },
+  {
+   "s": "B",
+   "t": "Where are these centres?"
+  },
+  {
+   "s": "A",
+   "t": "In the buildings an amputation left behind. In July last year Vietnam abolished its district tier and merged its communes. Hanoi's five hundred and twenty-six wards became one hundred and twenty-six."
+  },
+  {
+   "s": "B",
+   "t": "So thousands of empty offices."
+  },
+  {
+   "s": "A",
+   "t": "The finance ministry counts more than eleven thousand recovered public facilities not yet back in use. And seven months before that count, a directive told provinces to prioritise exactly that surplus estate for elderly day centres."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's thrifty. Is it good?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the argument. The decree that created these centres gives them no legal personality, no right to examine or treat patients, unpaid volunteer staffing, and no central budget line."
+  },
+  {
+   "s": "B",
+   "t": "So it's free to announce."
+  },
+  {
+   "s": "A",
+   "t": "Almost. A state that has learned to produce welfare without producing fiscal commitments. And since seventy-two per cent of unpaid care work in Vietnam is done by women, what looks like the socialisation of care is partly its rostering."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] That's the sentence, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "The scale so far is six wards. About two thousand and seventy visits, sixty-four regular registrants — against one point four million Hanoians over sixty."
+  },
+  {
+   "s": "B",
+   "t": "One place for every twenty-one thousand people."
+  },
+  {
+   "s": "A",
+   "t": "And Hanoi still hasn't written a fee schedule. Which is why the Prime Minister's plan of the ninth of October quietly adds a pilot of long-term care insurance."
+  },
+  {
+   "s": "B",
+   "t": "The missing financial leg."
+  },
+  {
+   "s": "A",
+   "t": "Arriving four months after the first centre opened."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

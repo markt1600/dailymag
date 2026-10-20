@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Irons &amp; steam generators",
+      "issue": "139",
+      "angle": "<b>The bar on the box is a pump figure; the tailor&rsquo;s machine runs half of it, and no standard measures either.</b> Taken from the on-deck pipeline row (Home / laundry) and No. 138&rsquo;s Next-on-the-Bench chips, having been explicitly held at No. 137. MECHANISM: Tefal GV9710 publishes <b>7.6 "
+    },
+    {
       "category": "Acoustic guitars",
       "issue": "138",
       "angle": "<b>The most expensive word in the catalogue is the least audible one.</b> Taken from No. 137&rsquo;s Next-on-the-Bench chips (no editor note, empty Queued table, no Atelier Next vote since the previous builtAt) over mosquito nets and steam irons, both re-proposed today. THE EVIDENCE: <b>Carcagno, Bu"
@@ -329,6 +334,18 @@
   "queued": [],
   "pipeline": [
     {
+      "category": "Suit &amp; shirt hangers",
+      "rotation": "Home / wardrobe",
+      "fit": "Shoulder flare, cedar against beech, and the one wardrobe object nobody costs properly &mdash; plus what a tropical closet actually needs",
+      "sources": "Butler Luxury, Kirby Allison, The Hanger Project, Styleforum closet threads"
+    },
+    {
+      "category": "Upholstered sofas &amp; armchairs",
+      "rotation": "Home / furniture",
+      "fit": "Eight-way hand-tied springs, kiln-dried hardwood frames and the joinery nobody sees; the white-label furniture trade is this desk&rsquo;s beat",
+      "sources": "Duresta, Howard Chairs, George Smith, r/furniture, the Singapore upholstery workshops"
+    },
+    {
       "category": "Reading lamps &amp; bedside light",
       "rotation": "Home / light",
       "fit": "The warm, low end of lighting: how a lamp is actually built, replaceable sockets, dimming without flicker, and the CRI claim nobody tests",
@@ -485,7 +502,7 @@
       "sources": "Grohe/Hansgrohe cartridges, Kludi, the Japanese TOTO tier; plumbing trade forums"
     },
     {
-      "category": "Ironing boards, irons &amp; steam generators",
+      "category": "~~Ironing boards, irons &amp; steam generators~~ (COVERED, No. 139)",
       "rotation": "Home / laundry",
       "fit": "A daily object with a real engineering hierarchy and an enormous badge tax",
       "sources": "Laurastar, Philips, Rowenta; boiler pressure, soleplate materials, r/BuyItForLife"
