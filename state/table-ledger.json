@@ -1416,9 +1416,10 @@
       "venue": "Blue Label Tavern",
       "key": "Blue Label Tavern",
       "runs": [
-        128
+        128,
+        140
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 128 build",
       "note": "opening run — record the peg here"
     },
@@ -1516,9 +1517,10 @@
       "venue": "Soft Order",
       "key": "Soft Order",
       "runs": [
-        132
+        132,
+        140
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 132 build",
       "note": "opening run — record the peg here"
     },
@@ -1547,9 +1549,10 @@
       "venue": "Osteria Da Su",
       "key": "Osteria Da Su",
       "runs": [
-        133
+        133,
+        140
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 133 build",
       "note": "opening run — record the peg here"
     },
@@ -1557,9 +1560,10 @@
       "venue": "Tokyo Onigiri",
       "key": "Tokyo Onigiri",
       "runs": [
-        133
+        133,
+        140
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 133 build",
       "note": "opening run — record the peg here"
     },
@@ -1838,6 +1842,10 @@
     "Food Opera",
     "Torimitsu",
     "Tanuki Raw",
-    "Spicy Hubby"
+    "Blue Label Tavern",
+    "Soft Order",
+    "Spicy Hubby",
+    "Osteria Da Su",
+    "Tokyo Onigiri"
   ]
 }

@@ -171,7 +171,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Tanuki Raw | Tanuki Raw | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
 | Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |
 | O/SIO | O/SIO | 127 | OPEN | No. 127 build | opening run — record the peg here |
-| Blue Label Tavern | Blue Label Tavern | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Blue Label Tavern | Blue Label Tavern | 128, 140 | SPENT | No. 128 build | opening run — record the peg here |
 | Base Gelato | Base Gelato | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Accompany Coffee | Accompany Coffee | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Din Tai Fung | Din Tai Fung | 128 | OPEN | No. 128 build | opening run — record the peg here |
@@ -181,11 +181,11 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Viva Lavender | Viva Lavender | 129 | OPEN | No. 129 build | opening run — record the peg here |
 | Kee’s Restaurant & Bar | Kee’s Restaurant & Bar | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Skosh | Skosh | 132 | OPEN | No. 132 build | opening run — record the peg here |
-| Soft Order | Soft Order | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Soft Order | Soft Order | 132, 140 | SPENT | No. 132 build | opening run — record the peg here |
 | Borderlessbutter | Borderlessbutter | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Spicy Hubby | Spicy Hubby | 132, 139 | SPENT | No. 139 build | No. 132 the opening run; No. 139 the verdict run, exactly seven issues on — the first reviews are in and all three were filed within 48 hours of opening, two of them hosted. Spent. |
-| Osteria Da Su | Osteria Da Su | 133 | OPEN | No. 133 build | opening run — record the peg here |
-| Tokyo Onigiri | Tokyo Onigiri | 133 | OPEN | No. 133 build | opening run — record the peg here |
+| Osteria Da Su | Osteria Da Su | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
+| Tokyo Onigiri | Tokyo Onigiri | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
 | Creamie Sippies | Creamie Sippies | 133 | OPEN | No. 133 build | opening run — record the peg here |
 | Tandem Co | Tandem Co | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Yogeek | Yogeek | 134 | OPEN | No. 134 build | opening run — record the peg here |

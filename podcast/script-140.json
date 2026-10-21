@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 140,
+ "date": "Thursday 22 October 2026",
+ "title": "The Reading",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the twenty-second of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Britain sends fighters to defend Saudi airspace and rules out striking the Houthis — in the same release that extends its refuelling of Saudi strikes on them."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So which is it?"
+  },
+  {
+   "s": "A",
+   "t": "That's today's whole book. The spine is The Reading — a number is not the thing it counts."
+  },
+  {
+   "s": "B",
+   "t": "And a word is not the thing it names. Mine's the opposite: Anthropic's draft filing shows a half-year loss of eighty point seven billion US dollars, and most of it is because the company got more valuable."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] A loss you'd want."
+  },
+  {
+   "s": "B",
+   "t": "A loss you'd frame. [laughs] Third — the hobby that isn't about old computers. Retrocomputing restoration, whose busiest room is a chat server about a video scaler."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Of course it is."
+  },
+  {
+   "s": "B",
+   "t": "Also: Singapore's wage council raises its ask to the highest band since twenty twenty-one, at the moment it's least often met. And Japan's police reach two point nine per cent of the people giving the orders."
+  },
+  {
+   "s": "A",
+   "t": "Mm. Start with the Typhoons."
+  },
+  {
+   "s": "B",
+   "t": "Tuesday's release. What does it actually commit?"
+  },
+  {
+   "s": "A",
+   "t": "Royal Air Force Typhoons to defensive counter-air missions over Saudi Arabia, plus one transport aircraft moving materiel inside the kingdom. Wes Streeting called the attacks absolutely despicable."
+  },
+  {
+   "s": "B",
+   "t": "How many Typhoons? Based where?"
+  },
+  {
+   "s": "A",
+   "t": "Not stated. No aircraft count, no base. And the limit is on the same page — the aircraft, quote, will not conduct offensive strikes against the Houthis."
+  },
+  {
+   "s": "B",
+   "t": "So it's cover. Interceptors, not bombs."
+  },
+  {
+   "s": "A",
+   "t": "That's the label. One clause down, the same release extends British air-to-air refuelling for Saudi operations — including, in its own words, against Houthi military targets in Yemen."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Oh."
+  },
+  {
+   "s": "A",
+   "t": "The defensive label attaches to the aircraft — not to every sortie the tankers keep aloft. It's drafted to be quoted back at a future accusation, which is why that clause is buried."
+  },
+  {
+   "s": "B",
+   "t": "Why now? What's the pressure?"
+  },
+  {
+   "s": "A",
+   "t": "Riyadh's international airport has been targeted twenty times since October began."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Twenty. In three weeks."
+  },
+  {
+   "s": "A",
+   "t": "And here's the day's first reading problem. The casualties don't reconcile — one account gives thirteen dead for the tenth of October strike, another nineteen across Riyadh and Abha for the whole month, both citing the same spokesman. We printed both rather than averaging them."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Because an average of two incompatible counts describes nothing. And how is it being read elsewhere?"
+  },
+  {
+   "s": "A",
+   "t": "Depends who holds the pen. Al Jazeera files it as imperial continuity — a relationship older than the kingdom itself. Britain armed Ibn Saud by treaty in nineteen fifteen."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Seventeen years before the country existed."
+  },
+  {
+   "s": "A",
+   "t": "And Tehran's Press TV won't print the word Houthi. The attacks are by the Yemeni Armed Forces, whose spokesman calls the drone claims baseless and unsubstantiated."
+  },
+  {
+   "s": "B",
+   "t": "The vocabulary is the argument. Anyone useful in the middle?"
+  },
+  {
+   "s": "A",
+   "t": "Nawaf Obaid at King's College London is broadly supportive, then undercuts the framing anyway — Saudi Arabia, he says, does not need foreign assistance to conduct air strikes."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Urban Coningham of R U S I warns the Houthis may read British refuelling as offensive and treat British forces as targets. Cyprus included."
+  },
+  {
+   "s": "B",
+   "t": "So what settles it?"
+  },
+  {
+   "s": "A",
+   "t": "The number the release withholds. Two aircraft from Akrotiri is a gesture. A squadron in the kingdom is a war."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Right."
+  },
+  {
+   "s": "A",
+   "t": "One more, and it's strange. Malaysia's registrar cancelled the registration of Perikatan Nasional on Tuesday — the main opposition coalition — on a complaint from one of its own parties."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] They deregistered their own coalition."
+  },
+  {
+   "s": "A",
+   "t": "Bersatu complained it had been excluded from a Supreme Council meeting in July — eleven days before nomination day in Melaka. But what dies is the banner, not the parties — three academics agree the logo of its biggest member does the same work."
+  },
+  {
+   "s": "B",
+   "t": "The sign comes down, the shop stays open."
+  },
+  {
+   "s": "A",
+   "t": "Money next — and most commentary has this backwards. The federal funds target is three and three-quarters to four per cent, set in September by a quarter-point increase."
+  },
+  {
+   "s": "B",
+   "t": "An increase. The only move of the year."
+  },
+  {
+   "s": "A",
+   "t": "So this is a tightening cycle. The question on the twenty-eighth is whether they go again, not whether they cut. Inflation is why. September's consumer prices rose nought point six per cent on the month — above seven per cent annualised. Three point seven over the year, against three point six expected."
+  },
+  {
+   "s": "B",
+   "t": "Something must be slowing, though."
+  },
+  {
+   "s": "A",
+   "t": "Housing. Starts came in five point two per cent below August. And then the parenthesis — plus or minus eleven point eight per cent."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The error band is more than twice the decline."
+  },
+  {
+   "s": "A",
+   "t": "The Census Bureau says it may take six months to establish a trend. The dollar slipped anyway."
+  },
+  {
+   "s": "B",
+   "t": "That's the spine again. The number isn't the thing."
+  },
+  {
+   "s": "A",
+   "t": "It's the whole issue. The curve flattened the awkward way too — ten-year at five point one three, two-year at four point eight one. Thirty-two basis points, in from thirty-eight."
+  },
+  {
+   "s": "B",
+   "t": "Gold had a record, though. I'm sure I saw a record."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Gold is eight point one per cent below its own second-quarter average."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] You're kidding."
+  },
+  {
+   "s": "A",
+   "t": "Four thousand five hundred and six dollars an ounce that quarter; four thousand one hundred and forty on Wednesday. And it was a risk-on day — the Nasdaq up one point one three per cent, bitcoin two point one."
+  },
+  {
+   "s": "B",
+   "t": "So gold rose with the risk assets. That's not haven behaviour. [sighs] And the boring sixty-forty?"
+  },
+  {
+   "s": "A",
+   "t": "Equities returned fifteen point five five per cent over twelve months; the bond line, minus nought point seven one. Sixty-forty made about nine — and bought no protection on the hot print."
+  },
+  {
+   "s": "B",
+   "t": "The one job."
+  },
+  {
+   "s": "A",
+   "t": "The counter is real, though. At a five point one three per cent ten-year, the bond sleeve's forward compensation is the best in two decades. None of this is advice, by the way."
+  },
+  {
+   "s": "B",
+   "t": "Home. The wage council."
+  },
+  {
+   "s": "A",
+   "t": "The Government accepted the National Wages Council's guidelines on Monday. For employees on up to two thousand eight hundred dollars a month, firms that have done well should pay six to eight per cent."
+  },
+  {
+   "s": "B",
+   "t": "Six to eight is a big ask."
+  },
+  {
+   "s": "A",
+   "t": "Widest band since twenty twenty-one. And paragraph nineteen created a category for firms that have not done well and are unprofitable."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And told them what?"
+  },
+  {
+   "s": "A",
+   "t": "To pay at least a hundred and twenty dollars more a month. A loss-making company now has a recommended pay rise."
+  },
+  {
+   "s": "B",
+   "t": "And the export number everyone sent me yesterday."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Sixty-eight point four per cent year on year in September. Electronics up a hundred and seven point six."
+  },
+  {
+   "s": "B",
+   "t": "That can't be real."
+  },
+  {
+   "s": "A",
+   "t": "It's real, and it isn't clean. EnterpriseSG attributes it primarily to lumpy exports of ship and boat structures — three point seven billion dollars, the largest single contributor."
+  },
+  {
+   "s": "B",
+   "t": "Boat hulls. [deadpan] The artificial-intelligence boom."
+  },
+  {
+   "s": "A",
+   "t": "Strip the hulls and that demand is still there. The sixty-eight point four just isn't a reading of it."
+  },
+  {
+   "s": "B",
+   "t": "Does anyone actually follow the wage guidelines?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the sceptic, and it's the ministry's own number. Just over a quarter of employers met last year's recommendations — against above seventy per cent before the guidelines were broadened. The permanent secretary's framing is the point: the Progressive Wage Model and the Local Qualifying Salary are mandatory. The guidelines are recommendations."
+  },
+  {
+   "s": "B",
+   "t": "So the floors do the work and the guidelines do the talking."
+  },
+  {
+   "s": "A",
+   "t": "Back to your loss. A draft prospectus obtained by the Wall Street Journal — first-half revenue of sixteen point three billion US dollars, against one point one billion a year earlier. A fifteen-fold rise. And a net loss of eighty point seven billion — double all of last year, about seventy-two billion of it non-cash."
+  },
+  {
+   "s": "B",
+   "t": "Explain that, because it sounds like an excuse."
+  },
+  {
+   "s": "A",
+   "t": "The convertible instruments investors hold get revalued as the valuation climbs. They convert to equity, so the firm books its own appreciation as an expense."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So the better it does, the more it loses."
+  },
+  {
+   "s": "A",
+   "t": "On that line. The cash line is about nine billion on compute in the half — more than it spent in all of last year."
+  },
+  {
+   "s": "B",
+   "t": "What's the number that actually binds?"
+  },
+  {
+   "s": "A",
+   "t": "The commitments. A hundred and eleven billion to Google, a hundred and ten to Amazon Web Services, thirty-one to Microsoft. Total contracted compute near four hundred and fifty billion. And the risk section says those three suppliers increasingly treat it as a competitor rather than a customer. Twenty per cent of revenue comes from two customers."
+  },
+  {
+   "s": "B",
+   "t": "How solid is any of it?"
+  },
+  {
+   "s": "A",
+   "t": "That caution belongs in the lede. It's a draft, reported second-hand — and a search of the S E C's filing system returns no matching companies."
+  },
+  {
+   "s": "B",
+   "t": "Is there a bear case?"
+  },
+  {
+   "s": "A",
+   "t": "One analyst models it on a mature social-media profile and reaches a hundred and forty-four billion — ninety-three per cent below the two-trillion-dollar valuation being discussed. Though his note predates the draft and doesn't address its figures."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Ninety-three per cent. And Beijing's export controls?"
+  },
+  {
+   "s": "A",
+   "t": "Forty technologies proposed, twenty-three of them artificial intelligence. No published performance threshold of any kind — and anything already public through open-source release or academic publication is explicitly exempt."
+  },
+  {
+   "s": "B",
+   "t": "Much narrower than the coverage suggested."
+  },
+  {
+   "s": "A",
+   "t": "Your desk now. Recursive published Flint last night — thirty-nine point eight billion parameters, openly licensed, about two and a half billion active per token."
+  },
+  {
+   "s": "B",
+   "t": "And the footprint?"
+  },
+  {
+   "s": "A",
+   "t": "The smallest build weighs twenty-two point nine gigabytes, on a Mac with forty-eight gigabytes of unified memory. The unquantised checkpoint is about eighty."
+  },
+  {
+   "s": "B",
+   "t": "[excited] A coding model of that class on one laptop."
+  },
+  {
+   "s": "A",
+   "t": "And they published what almost nobody publishes — what the quantisation costs. It lands within nought point seven points of the sixteen-bit original, which is effectively nothing. Which is the part worth copying. Two cautions: the speed claims are the maker's own, and the blog and the model card disagree about the context window — we printed the narrower."
+  },
+  {
+   "s": "B",
+   "t": "The folding phone. It's here tomorrow — and the hinge is the only question anyone has."
+  },
+  {
+   "s": "A",
+   "t": "The iPhone Duo goes on sale in Singapore on Friday, three thousand and ninety-nine dollars for the smallest storage. As for the hinge: Joanna Stern folded it more than thirty-two thousand times by machine. No fault — though a measuring device found the action slightly stiffer at the end."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So the hinge is solved."
+  },
+  {
+   "s": "A",
+   "t": "The hinge is solved. The camera behind the screen is not — reviewers converge on poor pictures backlit or in low light, and advise folding the phone shut to use the other one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Fold the folding phone to take a photo. And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "The reviewer who liked it. Chance Miller feels two hundred and fifty-four grams in his wrist, calls the fingerprint sensor a step backward, and still writes: for most people, a traditional iPhone is the practical purchase right now."
+  },
+  {
+   "s": "B",
+   "t": "That's an honest review."
+  },
+  {
+   "s": "A",
+   "t": "Then the hanger. Both the cheap one and the grail are four hundred and thirty millimetres across — identical span."
+  },
+  {
+   "s": "B",
+   "t": "So what am I paying two hundred and eighty pounds for?"
+  },
+  {
+   "s": "A",
+   "t": "The flare — the shoulder's thickness at its widest point, which holds a canvassed jacket's line instead of folding it. IKEA's is fourteen millimetres, at a dollar eleven; Butler Luxury's, sixty-six point seven, at thirty-six US dollars."
+  },
+  {
+   "s": "B",
+   "t": "And the grail?"
+  },
+  {
+   "s": "A",
+   "t": "Nakata's. Hand-carved from one jointless block, sixty millimetres, twenty-four weeks' wait."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Sixty. That's thinner than the thirty-six-dollar one."
+  },
+  {
+   "s": "A",
+   "t": "Which is the sceptic in a line. Thirty-six dollars buys flare, mass and a hook engineered against pull-out. Past that you buy grain, or the removal of a joint, or lacquer art."
+  },
+  {
+   "s": "B",
+   "t": "And the white-label story the forums half-remember?"
+  },
+  {
+   "s": "A",
+   "t": "In two thousand and six a Styleforum member opened a group buy, saying he'd tracked down the maker of Oxxford's hangers — the Beverly Hanger Company, about eleven dollars each. The member was Kirby Allison."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Who now sells the best-known luxury hanger in English. [pause] Okay — one for the tropics before we go down. The cedar thing."
+  },
+  {
+   "s": "A",
+   "t": "Doesn't work. An entomologist at Mississippi State: studies show cedar does not really repel clothes moths. At eighty-two per cent humidity, a hanger's tropical job is spacing, not scent."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Retrocomputing restoration. Three hobbies share one name, you said."
+  },
+  {
+   "s": "A",
+   "t": "And the people separate them sharply. Collecting displays machines — function optional. Emulation runs old software on new silicon. Restoration makes a dead machine work at component level."
+  },
+  {
+   "s": "B",
+   "t": "Desoldering. Capacitors."
+  },
+  {
+   "s": "A",
+   "t": "And it's the only one of the three where you can lose. [thoughtful] Electrolytic capacitors are cans of chemical paste that dry out and leak over forty years — and the leak is conductive and corrosive. It eats the copper wiring printed on the board."
+  },
+  {
+   "s": "B",
+   "t": "So you replace them all, and then—"
+  },
+  {
+   "s": "A",
+   "t": "And then you find what else is broken. One restorer counted nineteen on a single Amiga, the fluid spreading underneath and breaking traces."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Of course. But that's not what draws people in, is it."
+  },
+  {
+   "s": "A",
+   "t": "Rarely. The most-shared way in is an essay called The Sixth Stage of Grief Is Retro-Computing — and the comments under it are the real document. One reads: booting up M S D O S and System seven point five after my wife and child have gone to sleep."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Oh, that's lovely."
+  },
+  {
+   "s": "A",
+   "t": "And one eight years later gave this desk its title unprompted: this is a deep rabbit hole, I have unfortunately fallen into."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Unfortunately."
+  },
+  {
+   "s": "A",
+   "t": "There's something practical underneath, though. A Commodore sixty-four has about twenty chips and a published schematic — you can hold the whole thing in your head, which is not true of anything after nineteen ninety-five."
+  },
+  {
+   "s": "B",
+   "t": "So the pleasure is the diagnosis."
+  },
+  {
+   "s": "A",
+   "t": "The pleasure is the diagnosis. One write-up this week had a diagnostic cartridge accusing the chip everybody blames. It tested fine. The real fault was a good memory chip sitting on top of a bad one."
+  },
+  {
+   "s": "B",
+   "t": "[amused] The classic. And where do these people actually live?"
+  },
+  {
+   "s": "A",
+   "t": "The forums trade; the chat servers argue. The European Amiga marketplace carries over a million posts — but the biggest live room, twenty-one and a half thousand people, belongs to a video scaler."
+  },
+  {
+   "s": "B",
+   "t": "Why is the scaler the centre of it?"
+  },
+  {
+   "s": "A",
+   "t": "Because old machines put out a signal nothing modern wants to display. And it's where the money went — a loose Commodore sixty-four indexes at a hundred and sixteen dollars; the scaler runs to seven hundred and fifty."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The scaler costs more than the computer."
+  },
+  {
+   "s": "A",
+   "t": "So does the desoldering gun. So does the oscilloscope. The cheapest line item in the whole hobby is the capacitors, at about five pounds a board."
+  },
+  {
+   "s": "B",
+   "t": "So it isn't a hobby about owning old computers."
+  },
+  {
+   "s": "A",
+   "t": "It's about owning the instruments that make old computers answer. And the live argument is whether to diagnose or replace — the reflex is recap it, and one restorer argued at length that recapping is not a panacea."
+  },
+  {
+   "s": "B",
+   "t": "What fixed his machine?"
+  },
+  {
+   "s": "A",
+   "t": "A single wire across a broken data line. He'd also been sold a board as recapped on which almost every surface-mount capacitor was soldered backwards."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Beautiful. And what does it cost to start?"
+  },
+  {
+   "s": "A",
+   "t": "First month, nothing — read the aggregator, join the two big servers. Then an iron, a bench supply, a scope, a board holder, a diagnostic cartridge, a capacitor pack cut for your board revision, and a loose untested machine. About one thousand two hundred and ninety Singapore dollars. The gun and the scaler are month-four decisions."
+  },
+  {
+   "s": "B",
+   "t": "Anything that bites a reader here specifically?"
+  },
+  {
+   "s": "A",
+   "t": "Logistics. The shop that cuts capacitor packs per board revision ships to Britain only, and another supplier suspends dispatch for weeks — including the window this issue went out in."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the thing not to do?"
+  },
+  {
+   "s": "A",
+   "t": "Buy a tube. The standard reference is blunt — the voltages in even the smallest display can be lethal, a large tube has over ten tons of air pressure trying to crush it, and an unpowered set still holds a charge."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Okay. No tube."
+  },
+  {
+   "s": "A",
+   "t": "And the honest line from inside the community: emulation is the sincerest form of preservation for these old systems. The software survives either way. What a restorer keeps is the object."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the whole thing, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "It is. Three quick ones now, all the spine again. Street Fighter opened first for Paramount at thirty point eight million dollars — beating the inflation-adjusted lifetime of both earlier Street Fighter films combined, in one weekend."
+  },
+  {
+   "s": "B",
+   "t": "Which somebody called a record."
+  },
+  {
+   "s": "A",
+   "t": "And a reader under the box-office piece did the arithmetic the headline skipped: Mario did a hundred and forty million in its opening weekend."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So it's a Street Fighter record."
+  },
+  {
+   "s": "A",
+   "t": "Which is the whole story. And the aggregate score is useless on both of the weekend's openings — forty-one per cent with critics against seventy-eight with audiences on that one, and a seventy-point spread inside the other."
+  },
+  {
+   "s": "B",
+   "t": "An average of those tells you nothing."
+  },
+  {
+   "s": "A",
+   "t": "Nothing. Now the family desk — the week's most useful finding. An umbrella review pooled twenty-three meta-analyses — two point eight million children across sixty-four countries — on screen use."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And?"
+  },
+  {
+   "s": "A",
+   "t": "Two domains moved: academic achievement and language, both small, both clear of zero. And the one parents fear most — executive functioning, attention, working memory, self-control — came out at nought point zero one. Maths, science and reading crossed zero too."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which is indistinguishable from nothing, across nearly three million children. And the scary number everyone will quote?"
+  },
+  {
+   "s": "A",
+   "t": "Emotional problems — and it's the softest thing in the paper. One researcher quoted calls those two large emotional findings the least reliable estimates in the article."
+  },
+  {
+   "s": "B",
+   "t": "So what do you do with it?"
+  },
+  {
+   "s": "A",
+   "t": "Protect the reading hour, not the whole day. The harm it can see is in schoolwork and language — so defend homework and the half-hour before sleep. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And there's a Singapore layer."
+  },
+  {
+   "s": "A",
+   "t": "Our health ministry's panel puts the sharpest window for girls at eleven to thirteen. Legislation on age checks is expected early in twenty twenty-seven, across six designated services — including, remarkably, a hardware forum."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] HardwareZone is a designated service. Right — last one. The gym."
+  },
+  {
+   "s": "A",
+   "t": "A twelve-week trial randomised each participant's two legs against each other — one leg's load rising, the other fixed. The progressed leg won, narrowly and late, with no significant difference at any single time point."
+  },
+  {
+   "s": "B",
+   "t": "So adding weight barely matters?"
+  },
+  {
+   "s": "A",
+   "t": "That's not the reading. Look at the effort data — repetitions left in reserve held almost flat in the progressed leg. In the fixed-load leg they drifted from one and a half to four."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the fixed leg didn't stop training. It stopped—"
+  },
+  {
+   "s": "A",
+   "t": "It stopped trying. By exactly the amount the lifter got stronger. The number to watch isn't on the bar — it's in the last two repetitions."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the best line in the book. Anything to book?"
+  },
+  {
+   "s": "A",
+   "t": "Tokyo's Louvre show opens final-week ticketing at noon on the thirty-first, online only — and three Tokyo exhibitions are free for a twelve-year-old. Four Singapore rooms opened too, three of which can't be judged yet. Tokyo Onigiri's queue has doubled since it opened — thirty minutes on day one, roughly sixty now."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] An hour for a rice ball."
+  },
+  {
+   "s": "A",
+   "t": "And three of the four take no bookings at all. In a city this booked, turning up at eleven is becoming a strategy."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Last thing, and it's the quiet one."
+  },
+  {
+   "s": "A",
+   "t": "In Machida, in western Tokyo, in August, a woman in her eighties took a call from a man who said he was from the post office. A second called, said he was a police officer, and asked where she kept her money."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Go on."
+  },
+  {
+   "s": "A",
+   "t": "He told her to put her one million yen in the refrigerator. Even a burglar, he explained, will not look there. He rang daily to ask whether she'd moved it, and when she next planned to go out. [pause] Five days after the first call, while she was out, someone let themselves in and took it."
+  },
+  {
+   "s": "B",
+   "t": "Nobody in that story has a name."
+  },
+  {
+   "s": "A",
+   "t": "And that's not a failure of the reporting. It's the design. Japan lost about three hundred and twenty-four billion yen to its two main fraud categories last year — two billion US dollars."
+  },
+  {
+   "s": "B",
+   "t": "And they needed a word for whoever's taking it."
+  },
+  {
+   "s": "A",
+   "t": "Nothing in their vocabulary fitted. What they settled on contracts to tokuryū — anonymous, fluid-type crime groups. It doesn't name an organisation. It names a shape: no membership, no premises, no hierarchy to decapitate."
+  },
+  {
+   "s": "B",
+   "t": "Because the old shape worked, and Japan dismantled it."
+  },
+  {
+   "s": "A",
+   "t": "Thirty-three years of patient suppression. The anti-organised-crime act took effect in nineteen ninety-two, and the agency now counts seventeen thousand six hundred yakuza — the lowest since. That part Japan can be proud of."
+  },
+  {
+   "s": "B",
+   "t": "And what grew in the space?"
+  },
+  {
+   "s": "A",
+   "t": "Not an organisation. A labour market. Someone who wants a robbery committed needs an advertisement, a messaging app, a bank account and somebody's afternoon — each bought separately, from strangers who never meet."
+  },
+  {
+   "s": "B",
+   "t": "And the people who answer?"
+  },
+  {
+   "s": "A",
+   "t": "The agency has a word for them in its own report. Tsukaisute. Disposable. About six in ten arrested are under thirty — and last year it counted, for the first time, one thousand three hundred and twenty-two people under twenty."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Under twenty."
+  },
+  {
+   "s": "A",
+   "t": "The youngest arrested over illegal online gambling was twelve. And here's the number the whole essay turns on: of two thousand three hundred and seven people arrested for special fraud, exactly sixty-six were ringleaders."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Two point nine per cent."
+  },
+  {
+   "s": "A",
+   "t": "And the agency's own table holds the best objection to its own story. Of everyone arrested, yakuza were sixteen and a half per cent. Of the ringleaders, thirty-eight."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So it's the old thing in a new shape."
+  },
+  {
+   "s": "A",
+   "t": "Read uncharitably, yes — the same species shedding its skin, having worked out that deniability is cheaper than membership. A boss who once needed a hundred sworn men needs a job advertisement and a burner account."
+  },
+  {
+   "s": "B",
+   "t": "So what is Japan doing about it?"
+  },
+  {
+   "s": "A",
+   "t": "It has stopped regulating the market and started participating in it. Police now answer those advertisements on forged identity documents. From twenty twenty-seven they may open bank accounts under fictitious names and sell them to the people buying accounts."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] So the state is making the papers."
+  },
+  {
+   "s": "A",
+   "t": "False papers, and accounts that are not what they say they are. Six days before this issue, the Cabinet approved a bill letting police remotely access a suspect's phone — before an offence, to prevent it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So is this a crackdown?"
+  },
+  {
+   "s": "A",
+   "t": "A crackdown is the same force applied harder. This is a conversion — from the power to punish, which needs a defendant, to the power to pre-empt, which needs only a suspicion and a device."
+  },
+  {
+   "s": "B",
+   "t": "And we'll know when?"
+  },
+  {
+   "s": "A",
+   "t": "April twenty twenty-seven. If the ringleader share moves off two point nine per cent, the new powers are reaching the people who matter. If it doesn't, Japan will have rewritten three statutes, taught its police to counterfeit, and still be arresting the disposable."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] And every rich country with a gig economy is behind them in the queue."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
