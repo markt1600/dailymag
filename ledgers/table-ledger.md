@@ -170,9 +170,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Torimitsu | Torimitsu | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
 | Tanuki Raw | Tanuki Raw | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
 | Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |
-| O/SIO | O/SIO | 127 | OPEN | No. 127 build | opening run — record the peg here |
+| O/SIO | O/SIO | 127, 141 | SPENT | No. 127 build | opening run — record the peg here |
 | Blue Label Tavern | Blue Label Tavern | 128, 140 | SPENT | No. 128 build | opening run — record the peg here |
-| Base Gelato | Base Gelato | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Base Gelato | Base Gelato | 128, 141 | SPENT | No. 128 build | opening run — record the peg here |
 | Accompany Coffee | Accompany Coffee | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Din Tai Fung | Din Tai Fung | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Pull by TPG | Pull by TPG | 128 | OPEN | No. 128 build | opening run — record the peg here |
@@ -205,3 +205,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
 | Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |
 | Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139 | OPEN | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
+| Age.3 | Age.3 | 141 | OPEN | No. 141 build | opening run — record the peg here |
+| Hama-Sushi | Hama-Sushi | 141 | OPEN | No. 141 build | opening run — record the peg here |

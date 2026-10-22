@@ -129,7 +129,13 @@ def main():
         exe = "/opt/pw-browsers/chromium"
 
     with sync_playwright() as p:
+        # NB: the TYPE SCALE AUDIT reads document.styleSheets[].cssRules. Over
+        # file://, Chromium treats every file as its own opaque origin, so a
+        # print build that links meridian.css throws SecurityError on cssRules
+        # and EVERY run of text reads back "unsized". --allow-file-access-from-files
+        # makes the local origins mutually readable so the audit can actually run.
         launch = {"executable_path": exe} if exe else {}
+        launch.setdefault("args", []).append("--allow-file-access-from-files")
         b = p.chromium.launch(**launch)
         page = b.new_page()
         page.emulate_media(media="print")

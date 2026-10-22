@@ -1406,9 +1406,10 @@
       "venue": "O/SIO",
       "key": "O/SIO",
       "runs": [
-        127
+        127,
+        141
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 127 build",
       "note": "opening run — record the peg here"
     },
@@ -1427,9 +1428,10 @@
       "venue": "Base Gelato",
       "key": "Base Gelato",
       "runs": [
-        128
+        128,
+        141
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 128 build",
       "note": "opening run — record the peg here"
     },
@@ -1756,6 +1758,26 @@
       "status": "OPEN",
       "checked": "No. 139 build",
       "note": "First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen."
+    },
+    {
+      "venue": "Age.3",
+      "key": "Age.3",
+      "runs": [
+        141
+      ],
+      "status": "OPEN",
+      "checked": "No. 141 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Hama-Sushi",
+      "key": "Hama-Sushi",
+      "runs": [
+        141
+      ],
+      "status": "OPEN",
+      "checked": "No. 141 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1842,7 +1864,9 @@
     "Food Opera",
     "Torimitsu",
     "Tanuki Raw",
+    "O/SIO",
     "Blue Label Tavern",
+    "Base Gelato",
     "Soft Order",
     "Spicy Hubby",
     "Osteria Da Su",
