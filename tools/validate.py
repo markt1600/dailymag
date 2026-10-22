@@ -688,6 +688,47 @@ if _issno >= 126 and not _special:
                                   f"a news lede says who did what, when and where in its first sentence (NEWS REGISTER)")
                 elif not _nr_marker(_first2):
                     warns.append(f"page {_i}: lede's first two sentences carry no when or how-much — “{_first2[:60]}” (NEWS REGISTER)")
+    # (h) THE TYPE SCALE LOCK (editor, 22 Oct 2026 — reader-reported on No. 140
+    # p5: "some pages use a variety of font sizes"). The sceptic box's text sat
+    # outside a <p> (a stray </p> closed a paragraph never opened), so it
+    # escaped `.chatter p{font-size:8.6pt}` and rendered at the browser's
+    # 16px default — a third larger than the body around it. Every run of
+    # text must sit in an element the stylesheet sizes, and interior pages
+    # carry no inline font-size at all. qa.py audits the COMPUTED sizes in the
+    # browser; this is the markup side. Gated from No. 141.
+    class _BoxText(HTMLParser):
+        INL = {"b", "i", "em", "strong", "sup", "span", "a", "br", "u", "small"}
+        def __init__(self):
+            super().__init__(); self.stack = []; self.box = None; self.hits = []; self.popen = 0; self.pclose = 0
+        def handle_starttag(self, tag, attrs):
+            cls = set((dict(attrs).get("class") or "").split())
+            if tag == "p": self.popen += 1
+            self.stack.append((tag, cls))
+            if self.box is None and cls & {"chatter", "desk"}: self.box = len(self.stack)
+        def handle_endtag(self, tag):
+            if tag == "p": self.pclose += 1
+            if self.box is not None and len(self.stack) == self.box: self.box = None
+            if self.stack: self.stack.pop()
+        def handle_data(self, d):
+            if self.box is None or len(d.strip()) < 12: return
+            for tag, cls in reversed(self.stack[self.box:]):
+                if tag not in self.INL: return
+            self.hits.append(d.strip()[:50])
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 141 or _i <= 2 or _i == len(pages):
+            continue
+        _bt = _BoxText(); _bt.feed(_sec)
+        for _h in _bt.hits:
+            errors.append(f"page {_i}: text sits directly inside a .chatter/.desk box with no <p> around it — "
+                          f"“{_h}…” renders at the wrong size; wrap it (TYPE SCALE LOCK)")
+        if _bt.popen != _bt.pclose:
+            errors.append(f"page {_i}: {_bt.popen} <p> opened but {_bt.pclose} closed — a stray or missing </p> "
+                          f"breaks the type sizing (TYPE SCALE LOCK)")
+        for _m in re.finditer(r'<(\w+)[^>]*style="[^"]*(font-size|line-height)\s*:[^"]*"', _sec):
+            if _m.group(1).lower() in ("svg", "text", "tspan"):
+                continue
+            errors.append(f"page {_i}: inline {_m.group(2)} on a <{_m.group(1)}> — interior type sizes come from "
+                          f"meridian.css only; use the class (TYPE SCALE LOCK)")
     # cover teasers
     if pages:
         for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):

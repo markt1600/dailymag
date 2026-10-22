@@ -68,6 +68,58 @@ MEASURE_JS = r"""
 """
 
 
+# THE TYPE SCALE AUDIT (editor, 22 Oct 2026 — reader-reported on No. 140 p5:
+# "some pages use a variety of font sizes"). A sceptic box's text sat outside
+# its <p> and rendered at the browser default, a third larger than the body.
+# Markup gates catch the known shapes; this catches the rendered fact: every
+# run of text on an interior page must sit at a size the stylesheet defines.
+FONT_JS = r"""
+() => {
+  // every stylesheet rule that sets a font-size, as (selector, px)
+  const rules = [];
+  for (const ss of document.styleSheets) {
+    let rs; try { rs = ss.cssRules; } catch (e) { continue; }
+    const walk = list => { for (const r of list) {
+      if (r.selectorText && r.style && r.style.fontSize) rules.push(r.selectorText);
+      if (r.cssRules) walk(r.cssRules);
+    } };
+    walk(rs);
+  }
+  const sized = el => { for (const sel of rules) { try { if (el.matches(sel)) return true; } catch (e) {} } return false; };
+  const pages = [...document.querySelectorAll('section.page')];
+  const out = [];
+  pages.forEach((pg, i) => {
+    // cover, contents and back cover keep their own inline sizes by design
+    if (i <= 1 || i === pages.length - 1 || pg.classList.contains('dark')) return;
+    const tw = document.createTreeWalker(pg, NodeFilter.SHOW_TEXT);
+    const seen = new Map();
+    let n;
+    while ((n = tw.nextNode())) {
+      const s = n.textContent.replace(/\s+/g, ' ').trim();
+      if (s.length < 12) continue;
+      let el = n.parentElement;
+      if (!el || el.closest('script,style,svg')) continue;
+      if (getComputedStyle(el).display === 'none') continue;
+      // climb to the element whose rule governs this text's size
+      let verdict = 'unsized', hop = el;
+      while (hop && hop !== pg) {
+        if (hop.style && hop.style.fontSize) { verdict = 'inline'; break; }
+        if (sized(hop)) { verdict = 'ok'; break; }
+        hop = hop.parentElement;
+      }
+      if (verdict === 'ok') continue;
+      const px = parseFloat(getComputedStyle(el).fontSize);
+      const key = verdict + '|' + px + '|' + (el.className || el.tagName);
+      if (!seen.has(key)) seen.set(key, { page: i + 1, why: verdict, pt: Math.round(px * 72 / 96 * 10) / 10,
+        el: el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(' ')[0] : ''), sample: s.slice(0, 60) });
+    }
+    out.push(...seen.values());
+  });
+  return { bad: out };
+}
+"""
+
+
 def main():
     html = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html").resolve()
     pdf = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else html.with_suffix(".pdf")
@@ -84,6 +136,7 @@ def main():
         page.goto(f"file://{html}", wait_until="networkidle")
         page.wait_for_timeout(1500)
         data = page.evaluate(MEASURE_JS)
+        fonts = page.evaluate(FONT_JS)
         b.close()
 
     n = len(data)
@@ -120,6 +173,13 @@ def main():
             subprocess.run(["montage", *pages[s:s + 6], "-tile", "3x2", "-geometry", "+4+4", outn], check=True)
             print("wrote", outn)
 
+    badfonts = fonts.get("bad", [])
+    if badfonts:
+        print(f"\nFAIL: {len(badfonts)} run(s) of interior text at a size the stylesheet never defines (TYPE SCALE AUDIT):")
+        for f in badfonts[:20]:
+            print(f"  page {f['page']}: {f['pt']}pt in <{f['el']}> — “{f['sample']}”")
+        print("  Every run of text sits in an element meridian.css sizes (chatter/desk text inside <p>, no inline font-size).")
+        sys.exit(1)
     if tight:
         print(f"\nADVISORY: {len(tight)} tight page(s) (<4mm clear, legible): {tight} — open up if convenient.")
     if broken:

@@ -18,7 +18,7 @@
 /* ---------- 2. RESET & PAGE ---------- */
 *{box-sizing:border-box;margin:0;padding:0;}
 html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-body{font-family:'Lora',serif;color:var(--ink);background:var(--paper);}
+body{font-family:'Lora',serif;font-size:9.7pt;line-height:1.5;color:var(--ink);background:var(--paper);} /* base size = p.body, so no run of text can ever inherit the browser's 16px default (editor, 22 Oct 2026 — No. 140 p5's sceptic box shipped at 12pt because its text sat outside a <p>) */
 @page{size:210mm 297mm;margin:0;}
 .page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--paper);padding:18mm 16mm 16mm 16mm;}
 .page:last-child{page-break-after:auto;}
@@ -60,7 +60,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
  
 /* ---------- 7. SIGNATURE COMPONENTS ---------- */
 /* "The Chatter" — forum/Reddit/analyst commentary. Slate variant = sceptic/contrarian. */
-.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;}
+.chatter{break-inside:avoid;background:var(--paper2);border:.6pt solid var(--line);border-left:3pt solid var(--vermilion);padding:9px 11px;margin:8px 0;border-radius:2px;font-size:8.6pt;line-height:1.42;color:var(--ink2);} /* box carries its own size: unwrapped text inherits it, not the page's */
 .chatter.slate{border-left-color:var(--slate);}
 .chatter.gold{border-left-color:var(--gold);}
 .chatter.teal{border-left-color:var(--teal);}
@@ -71,7 +71,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 .chatter .src{font-family:'Poppins',sans-serif;font-weight:600;color:var(--ink);font-size:8.2pt;}
  
 /* Viewpoint panel — used in The World to compare geopolitical framings. */
-.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;}
+.desk{break-inside:avoid;border:.6pt solid var(--line);border-top:3pt solid var(--slate);background:#fbf8f1;padding:9px 11px;margin:7px 0;border-radius:2px;font-size:8.5pt;line-height:1.4;color:var(--ink2);}
 .desk .flag{font-family:'Poppins',sans-serif;font-weight:700;font-size:7.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:3px;display:flex;justify-content:space-between;}
 .desk .flag .geo{color:var(--vermilion);}                 /* the outlet name */
 .desk p{font-size:8.5pt;line-height:1.4;color:var(--ink2);}
