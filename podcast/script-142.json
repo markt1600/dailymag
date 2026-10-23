@@ -1,0 +1,792 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 142,
+ "date": "Saturday 24 October 2026",
+ "title": "No theme this week",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Saturday, the twenty-fourth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Top of the book: an emergency patch for the language that runs most of the web, found by a machine, and governments pulling sites offline."
+  },
+  {
+   "s": "B",
+   "t": "Markets had their worst day since the summer and two out of three shares went up anyway. [curious] We'll explain how both of those are true."
+  },
+  {
+   "s": "A",
+   "t": "And the hobby this week is home machining — a lathe, a mill, and an American company that stopped taking orders five days ago."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] My segment. Also: no spine this week."
+  },
+  {
+   "s": "A",
+   "t": "No spine. Two issues running we threaded the book through one argument — who was in a position to check. A third would be the machinery showing."
+  },
+  {
+   "s": "B",
+   "t": "So: sixteen stories, allowed to be sixteen stories. Start with the one with a clock on it."
+  },
+  {
+   "s": "A",
+   "t": "The PHP Group shipped emergency releases at two in the afternoon, Coordinated Universal Time, on Wednesday the twenty-first. Two holes, both letting an unauthenticated stranger run code on any server that answers a web request."
+  },
+  {
+   "s": "B",
+   "t": "Unauthenticated meaning — no password, nothing."
+  },
+  {
+   "s": "A",
+   "t": "Nothing. Both score nine point two on the current severity scale, and the project's own advisory doesn't soften it: there are no complete mitigations, updating is the only safe choice."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Okay. And PHP is where, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Roughly sixty-nine per cent of websites whose server-side language can be identified."
+  },
+  {
+   "s": "B",
+   "t": "So not a website problem. A substrate."
+  },
+  {
+   "s": "A",
+   "t": "Within hours it was Finland's state information-technology provider, Japan's National Tax Agency, Orange in France, and thirty-two British government digital services. Several of them simply took sites down."
+  },
+  {
+   "s": "B",
+   "t": "The French ones went down at the request of their own cybersecurity agency, which is a sentence I read twice."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] One of them was the Paris police."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Right. And the second story is who found it."
+  },
+  {
+   "s": "A",
+   "t": "A security firm called Calif, invited into an OpenAI programme at the end of July. First bug on the first of August, proof of concept by the fourteenth."
+  },
+  {
+   "s": "B",
+   "t": "With a model."
+  },
+  {
+   "s": "A",
+   "t": "Using a model. And they're careful about the credit — no model, they say, is simply capable of unearthing all bugs with simple prompts. No private models were used."
+  },
+  {
+   "s": "B",
+   "t": "Which matters — the cynical read is that somebody had early access to something the rest of us don't."
+  },
+  {
+   "s": "A",
+   "t": "Wiz found the same two flaws independently, with a different model: among the most severe vulnerabilities discovered in PHP, and arguably in software history."
+  },
+  {
+   "s": "A",
+   "t": "Locally, Singapore's Cyber Security Agency posted its own alert the same day, under the researchers' name for the pair — PHP Two Shell. Two words of advice: patch immediately."
+  },
+  {
+   "s": "B",
+   "t": "There's a detail in the forum chatter I can't shake. The flaw sat in code at least twenty years old — which commenters say is becoming the pattern for these machine-assisted finds."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Now hold that against the staffing. Thirteen people at the PHP Foundation maintain the language running about sixty-nine per cent of the identifiable web."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Thirteen people."
+  },
+  {
+   "s": "A",
+   "t": "Now — the part the headlines got wrong, and this is the sceptic box, so I'm going to be annoying about it."
+  },
+  {
+   "s": "A",
+   "t": "Cloudflare counted exploit attempts in the millions by Thursday. Nobody has counted a victim."
+  },
+  {
+   "s": "B",
+   "t": "Not one?"
+  },
+  {
+   "s": "A",
+   "t": "Not one confirmed compromise. Arctic Wolf reviewed its own telemetry and found comparatively little evidence of reliable exploitation at scale — then made the distinction the coverage skipped. Request telemetry alone does not establish that code execution succeeded."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So somebody banging on a door a million times isn't the same as the door opening."
+  },
+  {
+   "s": "A",
+   "t": "Japan's information-technology agency confirmed no attacks, and the American agency said the same. Germany's deputy said it seems a little bit more complicated than expected to exploit."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Reassuring."
+  },
+  {
+   "s": "A",
+   "t": "Millions of attempts, no confirmed compromise — and thirty-four point four million PHP services still counted as exposed on Friday."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That last figure is the one I'd carry into Monday."
+  },
+  {
+   "s": "A",
+   "t": "Money. Thursday the twenty-second: the Nasdaq Composite fell six hundred and ninety-four points — two point six per cent, its worst session since June."
+  },
+  {
+   "s": "A",
+   "t": "Two of every three constituents of the broad American index went up, and the Dow closed higher."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what actually fell?"
+  },
+  {
+   "s": "A",
+   "t": "Named things. Lam Research down eleven point eight per cent, CoreWeave ten point one, Nvidia four point four."
+  },
+  {
+   "s": "B",
+   "t": "The data-centre complex."
+  },
+  {
+   "s": "A",
+   "t": "So this wasn't a recession being priced. It was the cost of borrowing to build data centres being repriced — a credit question in an equity costume."
+  },
+  {
+   "s": "A",
+   "t": "The bond side is the tell. The ten-year Treasury yield went from five point one three to four point nine six per cent in the same session — the biggest one-day fall since March, two thousand and twenty-three."
+  },
+  {
+   "s": "B",
+   "t": "And underneath it?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Underneath all of it is oil. Brent was below ninety-seven US dollars when October began and settled at a hundred and sixteen sixty-one on Friday — a fifth higher inside a month, on a Strait of Hormuz that has not reopened."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And that's in the inflation numbers now, not coming."
+  },
+  {
+   "s": "A",
+   "t": "September American consumer prices ran plus three point seven per cent on the year, core two point six."
+  },
+  {
+   "s": "A",
+   "t": "The whole gap is energy. Producer prices up six point three, import prices eight point one."
+  },
+  {
+   "s": "B",
+   "t": "And the central banks are leaning into it rather than cushioning it."
+  },
+  {
+   "s": "A",
+   "t": "The Federal Reserve went to three and three quarters to four per cent in September, the European Central Bank has hiked twice this year, the Bank of Japan reached one and a quarter. The chair called it a synchronous tightening, and markets heard a pause."
+  },
+  {
+   "s": "B",
+   "t": "Name the regime."
+  },
+  {
+   "s": "A",
+   "t": "Higher-for-longer under a supply shock, with a liquidity-tight unwind inside it. Not a classic flight to safety, though — the dollar didn't bid. The yen and the Singapore dollar both firmed."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Gold's the weird one."
+  },
+  {
+   "s": "A",
+   "t": "An oil shock, a shooting war, a rush into Treasuries — and gold fell four per cent and closed below four thousand dollars. Twenty-eight point six per cent under its one-year high."
+  },
+  {
+   "s": "A",
+   "t": "A real yield at two point six four per cent doing what real yields do to an asset that pays you nothing. Bitcoin fell with it. Neither one behaved like a haven this week."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] And explanation, not advice — we say that every week and we mean it."
+  },
+  {
+   "s": "A",
+   "t": "Singapore. The Urban Redevelopment Authority published full third-quarter numbers on Friday, confirming its own flash exactly: private home prices up one point four per cent, against half a per cent in the second."
+  },
+  {
+   "s": "B",
+   "t": "Strongest since the end of two thousand and twenty-four. So — hot market?"
+  },
+  {
+   "s": "A",
+   "t": "No. Developers launched eleven hundred and forty units and sold eleven hundred and eighty-three — both sharply down. Resales were seventy-three point nine per cent of everything that traded."
+  },
+  {
+   "s": "B",
+   "t": "So the index is being carried by people reselling, not by new launches."
+  },
+  {
+   "s": "A",
+   "t": "Landed and outside-central carried it; the city fringe managed nothing. Vacancy rose to seven point two per cent from six point four, and the authority counts thirty-two thousand eight hundred unsold units that could reach the market inside two years."
+  },
+  {
+   "s": "A",
+   "t": "And it tells households to exercise prudence. Meanwhile the public market went the other way — the resale index for flats is two oh two point five, down a tenth of a per cent. Third consecutive fall."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And the agents?"
+  },
+  {
+   "s": "A",
+   "t": "Opposite sides, which is rare enough to print. One house calls the policy change's price effect muted and forecasts minus one to plus one for the year. Another forecasts plus two to plus five."
+  },
+  {
+   "s": "B",
+   "t": "[amused] They cannot both be describing the same index."
+  },
+  {
+   "s": "A",
+   "t": "They cannot. One more local thing: September inflation eased — core two per cent — but electricity and gas held at eight point seven."
+  },
+  {
+   "s": "B",
+   "t": "Why doesn't that move?"
+  },
+  {
+   "s": "A",
+   "t": "Because the tariff is set on gas prices from the first two and a half months of the previous quarter. This bill reflects April to mid-June. Brent at a hundred and sixteen dollars has not reached a Singapore bill yet."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Something to look forward to."
+  },
+  {
+   "s": "A",
+   "t": "Technology, and this one is an original find. A British cloud company called Nscale filed to go public in September and attached, as an exhibit, an order for graphics-processing services between Anthropic and one of its subsidiaries."
+  },
+  {
+   "s": "A",
+   "t": "As far as this desk can establish, the only Anthropic compute contract anywhere in the public record."
+  },
+  {
+   "s": "B",
+   "t": "And what's in it?"
+  },
+  {
+   "s": "A",
+   "t": "Blackouts, mostly. Redacted: the number of systems, the total chip count, the price per chip-hour, the monthly fees, the order value, every tranche term."
+  },
+  {
+   "s": "B",
+   "t": "So what's left?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] What survives is still interesting. Late-delivery discounts. A financing condition with a blacked-out deadline after which either side can walk. And one clause that runs backwards."
+  },
+  {
+   "s": "A",
+   "t": "And one clause runs backwards: the provider may not disclose the agreement to the regulator without the customer's approval."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Wait. The customer gets a say in what the supplier tells the Securities and Exchange Commission about their own contract."
+  },
+  {
+   "s": "A",
+   "t": "That is what it says. And Anthropic itself has no registration statement on the regulator's system at all. This desk ran the search. Zero."
+  },
+  {
+   "s": "B",
+   "t": "There's a loss figure floating around with its name on it."
+  },
+  {
+   "s": "A",
+   "t": "Eighty point seven billion US dollars for a half-year, resting on a draft confidential prospectus two newspapers say they reviewed. The company didn't confirm it, one paper couldn't verify it, and none of it is in a filing."
+  },
+  {
+   "s": "B",
+   "t": "[excited] The Kit — give me the camera."
+  },
+  {
+   "s": "A",
+   "t": "Sigma announced the fp two on Thursday at two thousand one hundred and ninety-nine US dollars. Twenty-four and a half megapixels, full frame, and it claims the smallest full-frame body in the world."
+  },
+  {
+   "s": "B",
+   "t": "[excited] How small?"
+  },
+  {
+   "s": "A",
+   "t": "Four hundred and sixty grams with battery and card. Three and a half millimetres thinner than the first one."
+  },
+  {
+   "s": "B",
+   "t": "[wry] And the catch, because there's always a catch."
+  },
+  {
+   "s": "A",
+   "t": "Two absences. No mechanical shutter — so flash sync is one fiftieth of a second, which rules out most daylight fill. And no in-body stabilisation."
+  },
+  {
+   "s": "B",
+   "t": "And the maker says?"
+  },
+  {
+   "s": "A",
+   "t": "Neither is called a limitation on the maker's own page — you derive both from the spec table. The one full review likes it, and still calls the metering erratic."
+  },
+  {
+   "s": "A",
+   "t": "The handgrip at sixty-four dollars, which that review calls probably essential, and the viewfinder at seven hundred and nineteen. Two thousand nine hundred and eighty-two before a lens."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Before a lens."
+  },
+  {
+   "s": "A",
+   "t": "No Singapore price exists yet. The Atelier this week is hand-knotted rugs, and the finding is lovely because it costs nothing to use."
+  },
+  {
+   "s": "A",
+   "t": "The category's central fraud isn't the wool. It's the phrase hand-knotted. And you settle it by turning the rug over."
+  },
+  {
+   "s": "B",
+   "t": "Because the back is a map of the front."
+  },
+  {
+   "s": "A",
+   "t": "In a knotted rug the pile is the structure, tied knot by knot and held by friction. In a tufted one the yarn is punched through canvas with a gun and the back flooded with latex — the glue is the structure. One is repairable forever; the other delaminates and it's done."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And retailers glue a cloth over the latex, so a cloth back proves nothing."
+  },
+  {
+   "s": "A",
+   "t": "The fringe settles it. On a real rug the fringe is the warp. Sewn on, it's a fake."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the test is free."
+  },
+  {
+   "s": "A",
+   "t": "A wash-floor specialist who sees these rugs after they're sold has the sharpest line on it: there is no such thing as a hand-knotted, heirloom-quality rug at five thousand dollars for a nine-by-twelve."
+  },
+  {
+   "s": "A",
+   "t": "For this city, viscose is disqualified outright — very susceptible to mildew and mould. Damp above seventy per cent humidity should always be avoided, and Singapore sits above that, so air conditioning is what makes the rug viable at all."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every week."
+  },
+  {
+   "s": "B",
+   "t": "Every week. Home machining. Metal, in a garage."
+  },
+  {
+   "s": "A",
+   "t": "Subtractive metalwork. You start with a solid lump of steel or brass or cast iron and remove material until what's left is the part. Two machines do nearly all of it and they're opposites."
+  },
+  {
+   "s": "A",
+   "t": "The lathe spins the workpiece and holds the tool still, so it makes round things — shafts, bushings, threads. The mill spins the cutter over work clamped to a moving table, so it makes flat things, slots and holes in exact positions."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the vocabulary is half the fun. Swarf is the chips. Chatter is self-reinforcing vibration — the machine telling you something isn't rigid enough."
+  },
+  {
+   "s": "A",
+   "t": "Tramming is squaring the mill head to its table. And tenths means ten-thousandths of an inch, which is the unit this hobby argues in."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The hook, though. The hook is written down on the introduce-yourself boards, which I find genuinely moving."
+  },
+  {
+   "s": "A",
+   "t": "A piano restorer joined the Model Engineer forum in August with a lathe he'd just bought. His reason, posted the same day: a lot of specialist tools are either no longer made, or made in China and not fit for purpose."
+  },
+  {
+   "s": "A",
+   "t": "Within hours someone replied describing becoming the metals man for a piano shop, making parts that no longer exist."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the whole thing, isn't it. A part that doesn't exist and nobody will sell you."
+  },
+  {
+   "s": "A",
+   "t": "The scale is real. The metalworking subreddit has one point one million members, Practical Machinist carries three point two million posts, and the Hobby-Machinist has just under sixty thousand members."
+  },
+  {
+   "s": "B",
+   "t": "And the print is older than the internet."
+  },
+  {
+   "s": "A",
+   "t": "Model Engineer was first published in January eighteen ninety-eight. Its beginners' board alone holds over seven thousand topics."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Eighteen ninety-eight. Older than the aeroplane."
+  },
+  {
+   "s": "A",
+   "t": "Now the money, and brace yourself, because the pattern here is the opposite of what you'd expect."
+  },
+  {
+   "s": "B",
+   "t": "Hit me."
+  },
+  {
+   "s": "A",
+   "t": "The quality entry point is a maker called Precision Matthews. Their most-recommended buy-once lathe is about seven thousand US dollars. A benchtop mill starts around three thousand seven hundred."
+  },
+  {
+   "s": "A",
+   "t": "And then the part nobody budgets for. One Starrett micrometer — one, zero to one inch — is three hundred and fifty dollars. The budget equivalent on the same shop's shelf is thirty-five."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Ten times."
+  },
+  {
+   "s": "A",
+   "t": "A dial test indicator reading to a ten-thousandth: four hundred against seventy. A good milling vise, seven hundred. A gauge block set, two hundred and thirty."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the tooling really does cost more than the machine."
+  },
+  {
+   "s": "A",
+   "t": "The community has been saying it for fourteen years and keeps saying it. One member, back in two thousand and twelve: the machines were the cheapest part, only a large one-time expense, but your tooling will far exceed the machine cost."
+  },
+  {
+   "s": "A",
+   "t": "He put his own five-year total above eight thousand dollars. Another, more recently: you could easily spend as much as your entire budget on tooling once you get the lathe."
+  },
+  {
+   "s": "B",
+   "t": "And at the top?"
+  },
+  {
+   "s": "A",
+   "t": "The top is strange. The American grail is a Monarch ten E E, introduced in nineteen thirty-nine. On one dealer listing this week, a nineteen sixty-four example and a nineteen seventy-seven example are both offered at five thousand dollars."
+  },
+  {
+   "s": "B",
+   "t": "Five thousand. Cheap?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] That is what a broken one costs. On the same site, a factory-remanufactured one from Monarch's own home town in Ohio lists at ninety-eight thousand seven hundred and eighty-one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Five thousand broken, ninety-nine thousand right."
+  },
+  {
+   "s": "A",
+   "t": "And here is the news, barely reported. Sherline Products of Vista, California — the benchtop precision maker every space-constrained hobbyist was told to buy — said in mid-September it would cease manufacturing."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "On the twentieth of October its co-owners posted that they're in discussions with an American manufacturer about buying the intellectual property and remaining inventory, that no final agreement has been reached, and that they've agreed to suspend new orders, effective the nineteenth of October."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Five days ago."
+  },
+  {
+   "s": "A",
+   "t": "The stated reason is significant changes in consumer purchasing habits. The bluntest line in the thread is the one to keep: the harsh reality appears to be that existing stock will run out."
+  },
+  {
+   "s": "A",
+   "t": "Taig. Which is why the cover line says Taig is the last one standing. A bare micro lathe is four hundred and forty dollars with a motor."
+  },
+  {
+   "s": "B",
+   "t": "And for someone in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "Honestly, almost nobody. Two constraints, neither of them noise. Floor loading — a twelve-by-thirty-six lathe ships at over a thousand pounds, the fourteen-inch class well over a tonne. A point load no residential slab is specified for."
+  },
+  {
+   "s": "A",
+   "t": "And power. Homes here are two hundred and thirty volts, single phase, and three-phase to a dwelling goes through a licensed electrical worker, case by case. So it's a small inverter machine bolted to a steel bench in a landed house, or a rented industrial unit in Ubi."
+  },
+  {
+   "s": "B",
+   "t": "And a club?"
+  },
+  {
+   "s": "A",
+   "t": "No Singapore model engineering club surfaced in any search. That absence is the finding."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Huh. Okay, one more before we move — the forum board I want framed."
+  },
+  {
+   "s": "A",
+   "t": "Mistakes, Blunders and Boo Boos. Two hundred and twenty-four threads, and it reads like a liability register: wrong way fly cutter; almost burned my shop down and didn't even know it."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Perfect. And the canonical first mistake?"
+  },
+  {
+   "s": "A",
+   "t": "The chuck key left in the chuck."
+  },
+  {
+   "s": "B",
+   "t": "Culture, quickly. The Ishiguro adaptation."
+  },
+  {
+   "s": "A",
+   "t": "Columbia put Klara and the Sun into wide release on Friday — Waititi directing, Jenna Ortega as the solar-powered narrator. Rotten Tomatoes twenty-three per cent on sixty reviews; Metacritic thirty."
+  },
+  {
+   "s": "A",
+   "t": "The audience score is withheld — fewer than fifty verified ratings had been filed."
+  },
+  {
+   "s": "B",
+   "t": "The reviews agree on what, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "Tone, not performance. The Guardian called it soft-centred science-fiction-lite. The kindest of the three still concluded that Ortega can't offset a wildly inconsistent tone."
+  },
+  {
+   "s": "B",
+   "t": "Which is the specific hazard of handing Ishiguro's flattest, most careful voice to a director whose gift is comic deflation."
+  },
+  {
+   "s": "A",
+   "t": "The Family Desk had the number that should travel. A paper in JAMA Pediatrics covering fifteen thousand seven hundred and thirty American adolescents: approximately one in six reported moderate or severe anxiety symptoms."
+  },
+  {
+   "s": "A",
+   "t": "Of the ones reporting severe symptoms, forty-one point two per cent received no mental-health treatment of any kind in the preceding twelve months."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Two in five of the worst-affected kids in a survey designed to find them."
+  },
+  {
+   "s": "A",
+   "t": "The caveat stands: a seven-item questionnaire is a screen, not a diagnosis. But whatever it's capturing, two in five of the children it flags hardest aren't being seen by anyone."
+  },
+  {
+   "s": "B",
+   "t": "And Australia's ban?"
+  },
+  {
+   "s": "A",
+   "t": "In force since December. The evaluation protocol was published only last month — about one point one nine million young Australians should have lost accounts, and there are no results yet."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] The world's first law of its kind acquiring its evidence base afterwards."
+  },
+  {
+   "s": "A",
+   "t": "Five of the authors work for the regulator. That is disclosed in the paper, and it is a reminder that almost nobody in this field is standing outside it."
+  },
+  {
+   "s": "B",
+   "t": "Fitness. There's a local one."
+  },
+  {
+   "s": "A",
+   "t": "The National University of Singapore validated the Oura ring against a research-grade actigraphy watch — forty-one adults, worn concurrently for fourteen days. Agreement moderate to excellent."
+  },
+  {
+   "s": "A",
+   "t": "Two caveats. Mean age twenty-six, so nothing about how these metrics behave on a fifty-year-old wrist. And three of the six authors sit in a joint lab with the manufacturer."
+  },
+  {
+   "s": "B",
+   "t": "And Monday?"
+  },
+  {
+   "s": "A",
+   "t": "The thing to do on Monday: stop the set when bar speed drops about a tenth from your best rep, rather than grinding on. The authors apply their own brake — one potential option, not a universally superior prescription. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Diary — anything with a deadline?"
+  },
+  {
+   "s": "A",
+   "t": "Two. The art fair's two-for-one early bird dies at the end of the twenty-fourth of November, and advance sales for the January sumo tournament open on Saturday the fifth of December."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And under-sixteens get in free at the fair with a ticketed adult, which makes it a decent first art fair for a twelve-year-old."
+  },
+  {
+   "s": "A",
+   "t": "Last thing. The Undercurrent, and it's the best story in the issue."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Go slow with this one."
+  },
+  {
+   "s": "A",
+   "t": "On the thirtieth of September, nine companies filed a document with the government of Guangxi, in southern China, asking for emergency measures to prevent systemic risk in the regional electricity market."
+  },
+  {
+   "s": "A",
+   "t": "Licensed electricity retailers. Several of them subsidiaries of central state-owned enterprises. They warned of bankruptcies in the fourth quarter."
+  },
+  {
+   "s": "B",
+   "t": "Who are they?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] The trade already had two phrases for it. The formal one translates as wholesale and retail hanging upside down — the wholesale price has risen above the retail. The vernacular is better: sell a kilowatt-hour, lose a kilowatt-hour."
+  },
+  {
+   "s": "A",
+   "t": "China finished moving electricity onto market pricing last year. Between the generators and the factories sits a class of licensed retailers the reform itself invented — more than five thousand registered, about three thousand active — signing fixed-price annual contracts and buying wholesale."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "Then costs went up. Fuel after the Gulf disruption in February. Weak hydro. Industrial load recovering. Wholesale prices rose — and the retail contracts, written at last year's deflationary prices, did not."
+  },
+  {
+   "s": "A",
+   "t": "So every unit sold under those contracts lost money. The largest single loss was point three seven three yuan on one kilowatt-hour, and in aggregate Guangxi's retailers lost more than two billion yuan in the first eight months, expecting more than five billion across the year. About seven hundred and forty-seven million US dollars."
+  },
+  {
+   "s": "B",
+   "t": "Is that the worst of it?"
+  },
+  {
+   "s": "A",
+   "t": "Guangxi is the extreme case, but the control group is worse. In Guangdong — ninety per cent hedged long-term — ninety-six per cent of retailers made money last year. In the first half of this year, about sixty per cent were losing it."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Six months."
+  },
+  {
+   "s": "A",
+   "t": "Six months. And more than three thousand two hundred retailers were cancelled or forced out last year — roughly a third of the sector. Four hundred more by July."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] That's not a market correcting at the margin."
+  },
+  {
+   "s": "A",
+   "t": "That's an entire licensed intermediary class being liquidated two years after it was licensed. And the reason it matters outside China is the transmission belt."
+  },
+  {
+   "s": "A",
+   "t": "A customer orphaned by a failed retailer moves onto backstop supply at twice the spot average. So every bankruptcy pushes a factory onto double, or forces its contract upward at renewal."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So the floor under Chinese export prices moves."
+  },
+  {
+   "s": "A",
+   "t": "And it moves without an announcement. Anyone modelling Chinese goods disinflation off wage data and overcapacity is missing an input cost that is repricing in public."
+  },
+  {
+   "s": "B",
+   "t": "There's a dissenting voice, and I think it deserves its airing."
+  },
+  {
+   "s": "A",
+   "t": "An energy economist at Xiamen University, whose position is that firms which mis-forecast should eat their losses. What the inversion exposes, on that reading, is bad risk management — and the design needs refinement, not rescue."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Both readings fit every number on the page."
+  },
+  {
+   "s": "A",
+   "t": "The one that isn't available is the comfortable one, in which nobody has mispriced anything."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And Singapore ran this experiment."
+  },
+  {
+   "s": "A",
+   "t": "The retail market here opened to households in two thousand and eighteen. When wholesale prices spiked in late twenty twenty-one, six retailers exited within weeks and customers went back onto the regulated tariff."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Same structure, same hedging failure, same outcome."
+  },
+  {
+   "s": "A",
+   "t": "China is where Singapore was in October two thousand and twenty-one, with roughly a thousand times the customers. And as of Friday, no feature on it had appeared in any of the eight Western outlets we check."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That gap is the whole point of the page, and it won't last."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

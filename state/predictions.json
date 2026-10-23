@@ -2022,7 +2022,8 @@
    "desk": "The Diary",
    "claim": "Charcoal Grill Shinpachi and The City Bakery (both 'too new to call') hold their opening buzz into settled second-month reviews",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "push",
+   "result": "No settled second-month review of either room could be collected; graded No. 142 as unresolvable."
   },
   {
    "issue": 80,
@@ -2410,7 +2411,9 @@
    "issue": 86,
    "desk": "The Diary",
    "claim": "Loulouca's early critical warmth holds once fuller reviews land; the too-new rooms (Tembusu/Sushi Ryujiro) don't disappoint",
-   "check_by": "2026-10-15"
+   "check_by": "2026-10-15",
+   "outcome": "push",
+   "result": "No settled fuller review of Loulouca, Tembusu or Sushi Ryujiro surfaced; graded No. 142 as unresolvable."
   },
   {
    "issue": 86,
@@ -2567,7 +2570,8 @@
    "desk": "The Diary",
    "claim": "Assaggi reviews settled warm; The City Bakery and Kali Kali flagged too-new-to-call, verdict pending a season",
    "check_by": "2026-10-15",
-   "outcome": null
+   "outcome": "push",
+   "result": "No settled review of Assaggi, The City Bakery or Kali Kali surfaced; graded No. 142 as unresolvable."
   },
   {
    "issue": 89,
@@ -2810,8 +2814,8 @@
    "desk": "The Long Read",
    "claim": "A mainstream Western outlet (NYT/BBC/Reuters/FT) runs a feature on South Korea's bakery-pilgrimage / Sungsimdang within ~6 weeks — the Undercurrent's ahead-of-the-curve bet",
    "check_by": "2026-10-20",
-   "outcome": null,
-   "result": null
+   "outcome": "wrong",
+   "result": "Open searches of eight Western outlets on 23-24 October found no Sungsimdang/bakery-pilgrimage feature. Graded No. 142."
   },
   {
    "issue": 93,
@@ -2908,8 +2912,8 @@
    "desk": "The Long Read",
    "claim": "A major Western outlet (NYT/BBC/Reuters/FT/Economist) runs a feature on China's county-town / lower-tier luxury consumer (县城贵妇) within ~six weeks",
    "check_by": "2026-10-20",
-   "outcome": null,
-   "result": null
+   "outcome": "wrong",
+   "result": "Open searches of eight Western outlets on 23-24 October found no county-town luxury feature. Graded No. 142."
   },
   {
    "issue": 95,
@@ -5606,14 +5610,16 @@
    "desk": "The World",
    "claim": "URA's full Q3 2026 private residential statistics (23 Oct) confirm the flash at or above +1.2% q/q",
    "check_by": "2026-10-23",
-   "outcome": null
+   "outcome": "right",
+   "result": "URA's full Q3 statistics of 23 October confirmed the flash exactly at +1.4% q/q, above the 1.2% floor. Graded No. 142."
   },
   {
    "issue": 120,
    "desk": "Singapore",
    "claim": "Singapore's Q3 HDB resale price index value is published at approximately 202.3 (-0.2% off Q2's 202.7)",
    "check_by": "2026-10-23",
-   "outcome": null
+   "outcome": "push",
+   "result": "Published at 202.5 and -0.1%, against the called 202.3 and -0.2%: direction right, level and magnitude both off. Graded No. 142."
   },
   {
    "issue": 120,
@@ -6059,7 +6065,8 @@
    "desk": "The World",
    "claim": "Hurricane Simon makes landfall in Mexico without the $175m World Bank catastrophe bond paying out - minimum central pressure inside the box never reaches 937 mb or lower",
    "check_by": "2026-10-20",
-   "outcome": null
+   "outcome": "push",
+   "result": "The bond did not pay out, but the storm never made landfall at all: minimum pressure 928 mb reached OUTSIDE the parametric box before it turned to sea. Right answer, wrong mechanism. Graded No. 142."
   },
   {
    "issue": 128,
@@ -6094,14 +6101,16 @@
    "desk": "Singapore",
    "claim": "MAS leaves monetary policy unchanged at its 14 October 2026 statement",
    "check_by": "2026-10-16",
-   "outcome": null
+   "outcome": "right",
+   "result": "MAS held slope, width and centre on 14 October. Graded No. 142."
   },
   {
    "issue": 128,
    "desk": "Technology",
    "claim": "TSMC's reported third-quarter revenue in US dollars lands inside its own $44.6-45.8bn guidance range",
    "check_by": "2026-10-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Q3 revenue beat the top of the US$44.6-45.8bn guidance range rather than landing inside it. Graded No. 142."
   },
   {
    "issue": 128,
@@ -6229,7 +6238,8 @@
    "desk": "Technology",
    "claim": "The Delaware jury returns a verdict in Qualcomm v. Arm during the week of 13 October 2026",
    "check_by": "2026-10-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "The Delaware jury returned on 13 October. Graded No. 142."
   },
   {
    "issue": 129,
@@ -6324,7 +6334,8 @@
    "desk": "The Diary",
    "claim": "beabadoobee's Singapore show (4 Apr 2027) sells out within a week of general sale",
    "check_by": "2026-10-22",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Nine days after general sale all three tiers were still offered on the promoter's own page. Graded No. 142."
   },
   {
    "issue": 129,
@@ -6400,7 +6411,8 @@
    "desk": "Technology",
    "claim": "The Qualcomm v Arm Delaware jury returns a verdict in the week beginning 13 October 2026",
    "check_by": "2026-10-19",
-   "outcome": null
+   "outcome": "right",
+   "result": "The Delaware jury returned on 13 October. Graded No. 142."
   },
   {
    "issue": 130,
@@ -6677,7 +6689,8 @@
    "desk": "Technology",
    "claim": "TSMC's reported Q3 2026 US-dollar revenue beats the top of its own July guidance by less than the 1.95 per cent implied by its assumed 32.0 rate",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The beat over the top of guidance came in at 2.01 per cent, above the 1.95 per cent called. Graded No. 142."
   },
   {
    "issue": 133,
@@ -6929,7 +6942,8 @@
    "desk": "The World",
    "claim": "Alberta's 19 Oct referendum returns under 40 per cent for beginning the separation process",
    "check_by": "2026-10-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Alberta's separation question returned 24.96 per cent, well under 40. Graded No. 142."
   },
   {
    "issue": "135",
@@ -7251,7 +7265,8 @@
    "desk": "The Diary",
    "claim": "Kenshi Yonezu's 29 Jan 2027 Singapore show sells out on the day of general sale, 22 October",
    "check_by": "2026-10-24",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No sell-out notice on the 22 October general sale; a second night has since been added. Graded No. 142."
   },
   {
    "issue": 140,
@@ -7412,6 +7427,167 @@
    "desk": "The Diary",
    "claim": "The Louvre show's 7-13 Dec timed tickets, on sale noon 31 Oct, sell out before 6 December",
    "check_by": "2026-12-07",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The World",
+   "claim": "No confirmed, named victim of the PHP2Shell pair (CVSS 9.2, patched 21 October) is reported by a national CERT or major vendor by 30 November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The World",
+   "claim": "Exposed-PHP-service counts fall below 20 million from the 34.4 million counted on 23 October, by 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Singapore",
+   "claim": "URA's Q4 2026 flash estimate shows private residential price growth at or below +1.0 per cent q/q",
+   "check_by": "2027-01-05",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Singapore",
+   "claim": "HDB's Q4 2026 Resale Price Index posts a fourth consecutive fall",
+   "check_by": "2027-01-05",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Macro Desk",
+   "claim": "The FOMC holds its target range at 3.75-4.00 per cent on 28 October 2026",
+   "check_by": "2026-10-29",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Macro Desk",
+   "claim": "Brent settles below US$110 a barrel on at least one day before 30 November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Technology",
+   "claim": "Anthropic PBC files a public registration statement with the SEC by 30 June 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Technology",
+   "claim": "Nscale announces a second Anthropic compute agreement by 31 March 2027",
+   "check_by": "2027-03-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Technology",
+   "claim": "The DHS DeepSeek exclusion order's signed text (Federal Register pages 66347-66350) becomes machine-readable by 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Home Lab",
+   "claim": "Flint-derived repositories on Hugging Face exceed 60 by 30 November 2026, from the 33 counted on 24 October",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Home Lab",
+   "claim": "Recursive publishes a tokens-per-second figure or a quality delta against BF16 for its NVFP4 Flint build by 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Kit",
+   "claim": "Sigma or its Singapore distributor publishes a Singapore-dollar price for the fp2 by 30 November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Good Life",
+   "claim": "Audio-Technica publishes impedance and sensitivity figures for the ATH-AWX7000 by 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Rabbit Hole",
+   "claim": "Sherline announces a completed sale of its intellectual property and inventory to an American manufacturer by 31 January 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Rabbit Hole",
+   "claim": "Sherline resumes accepting new orders by 31 January 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Long Read",
+   "claim": "No feature on China's electricity-retailer insolvencies appears in the NYT, BBC, Reuters, FT, Economist, WSJ, Washington Post or Guardian by 30 November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Long Read",
+   "claim": "The rewritten Basic Rules for the Electricity Spot Market take effect on 1 January 2027 as drafted",
+   "check_by": "2027-01-15",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Travel Desk",
+   "claim": "The JB-Woodlands RTS Link does not begin passenger service before 1 February 2027",
+   "check_by": "2027-02-01",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Screen & Sound",
+   "claim": "Klara and the Sun's Rotten Tomatoes score stays below 35 per cent once the critic count passes 100",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Diary",
+   "claim": "ART SG 2027's two-for-one early-bird offer closes on 24 November 2026 as published, without extension",
+   "check_by": "2026-11-26",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Table",
+   "claim": "Sodeng Jeju draws at least two further substantive Singapore reviews by 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "The Family Desk",
+   "claim": "The first results from the Australian under-16 ban evaluation are published by 30 June 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 142,
+   "desk": "Fitness",
+   "claim": "No Whoop validation against research-grade actigraphy of comparable design appears by 30 June 2027",
+   "check_by": "2027-06-30",
    "outcome": null
   }
  ]

@@ -1,5 +1,5 @@
 {
-  "count": 1041,
+  "count": 1059,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,132 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "PHP2Shell (the two PHP remote-code flaws, CVSS 9.2)",
+      "type": "Vulnerability (named)",
+      "last_covered": "No. 142",
+      "last_peg": "The World LEAD &mdash; emergency releases at 14:00 UTC on 21 Oct closing two unauthenticated RCE holes; found by Calif on 1 Aug with OpenAI's GPT-5.6 Sol under &ldquo;Patch the Planet&rdquo;, independently by Wiz with Gemini 4 Argon. Finland's state IT provider, Japan's National Tax Agency, Orange and 32 British government services affected; CSA Singapore alerted the same day. <b>Millions of explo",
+      "next_peg": "LIVE &mdash; next peg is a confirmed victim, a CISA KEV listing, or an exposure count below 20m"
+    },
+    {
+      "subject": "Nscale S-1 Exhibit 10.25 (the Anthropic GPU order)",
+      "type": "Filing (named exhibit)",
+      "last_covered": "No. 142",
+      "last_peg": "Technology LEAD &mdash; an original EDGAR find: the only Anthropic compute contract in the public record, filed 18 Sep, with system count, GPU count, price per GPU-hour, order value, tranche terms and site all redacted, and a clause giving Anthropic approval rights over what Nscale may disclose to the SEC. Anthropic itself has zero registration statements on EDGAR.",
+      "next_peg": "LIVE &mdash; next peg is the reported second Nscale deal, or an Anthropic filing of its own"
+    },
+    {
+      "subject": "Recursive Flint (39.8B/2.5B-active open coding model)",
+      "type": "Product (open model)",
+      "last_covered": "No. 142",
+      "last_peg": "The Home Lab LEAD &mdash; Apache 2.0 on 21 Oct; llama.cpp PR 30928 merged the same day with a stated 10&ndash;30% slowdown; 33 derivative repos by 23 Oct, quantised copies out-downloading the original ~30:1; a community IQ4_XS/IQ3_S build at 19.80 GiB fits a 24GB card whole. <b>Recursive publishes neither tokens/s nor a quality delta against BF16.</b>",
+      "next_peg": "LIVE &mdash; next peg is a published throughput figure or a repo count above 60"
+    },
+    {
+      "subject": "Sigma fp2",
+      "type": "Product (camera)",
+      "last_covered": "No. 142",
+      "last_peg": "The Kit LEAD &mdash; announced 23 Oct at <b>US$2,199</b>, shipping 11 Nov from Aizu; 24.5MP partially stacked full frame, 460g, claimed smallest full-frame body. <b>No mechanical shutter (1/50s flash sync) and no in-body stabilisation, neither framed as a limitation on Sigma's own page.</b> Grip + finder take it to US$2,982; no Singapore price exists.",
+      "next_peg": "LIVE &mdash; next peg is a Singapore price or a measured review"
+    },
+    {
+      "subject": "Audio-Technica ATH-AWX7000",
+      "type": "Product (headphone)",
+      "last_covered": "No. 142",
+      "last_peg": "The Good Life LEAD &mdash; on sale 23 Oct at <b>US$3,799</b>/&pound;3,299; Kiso cypress in Echizen lacquer, 58mm Hybrid Matrix Diaphragm, True Closed-back Acoustic. <b>The release publishes no impedance, no sensitivity, no frequency response and no weight.</b>",
+      "next_peg": "LIVE &mdash; next peg is published measurements or a first independent listen"
+    },
+    {
+      "subject": "Klara and the Sun (Columbia, Waititi)",
+      "type": "Film",
+      "last_covered": "No. 142",
+      "last_peg": "Screen LEAD &mdash; wide release 23 Oct; Rotten Tomatoes <b>23% on 60 reviews</b>, Metacritic 30 from 24; audience score withheld under 50 verified ratings. No opening weekend reported.",
+      "next_peg": "LIVE &mdash; next peg is the opening-weekend gross or a settled aggregate"
+    },
+    {
+      "subject": "Sherline Products (benchtop machine tools)",
+      "type": "Company event",
+      "last_covered": "No. 142",
+      "last_peg": "The Rabbit Hole &mdash; announced 16 Sep it would cease manufacturing; a 20 Oct notice confirms talks to sell the IP and inventory to an American manufacturer, &ldquo;no final agreement&rdquo;, and <b>new orders suspended effective 19 October</b>. Taig is the remaining quality benchtop maker.",
+      "next_peg": "LIVE &mdash; next peg is a completed sale or a resumption of orders"
+    },
+    {
+      "subject": "Carbide3D Nomad 4",
+      "type": "Product (desktop CNC)",
+      "last_covered": "No. 142",
+      "last_peg": "The Rabbit Hole &mdash; listed 13 May 2026 at <b>US$5,400</b>; 1.2kW spindle and ballscrews on every axis in an enclosed desktop box; the first credible metal-capable machine at a flat-dweller's price.",
+      "next_peg": "LIVE &mdash; next peg is an independent metal-cutting review"
+    },
+    {
+      "subject": "Cebu Pacific's Manila-to-Clark turboprop move",
+      "type": "Route (air)",
+      "last_covered": "No. 142",
+      "last_peg": "Departures LEAD &mdash; all turboprop operations moved from Manila NAIA to Clark on <b>29 March 2026</b> under a Manila Slot Coordination Committee resolution; AirSWIFT ceased as an operating brand on 1 July and Cebgo now flies its routes under DG. <b>There are no El Nido flights from Manila's main airport</b>; Lio is served from Clark, Cebu, Caticlan and Coron only.",
+      "next_peg": "LIVE &mdash; next peg is a NAIA return or a new Lio route"
+    },
+    {
+      "subject": "Singapore Airlines Singapore&ndash;Barcelona&ndash;Madrid",
+      "type": "Route (air)",
+      "last_covered": "No. 142",
+      "last_peg": "Departures &mdash; begins Monday 26 Oct, SQ388 2330/0850, A350-900; Madrid is SIA's fifteenth European destination and its first since 2004. The twice-weekly Barcelona non-stop and, on 27 Oct, the Singapore&ndash;Milan&ndash;Barcelona service both go, taking Milan off the SIA map.",
+      "next_peg": "LIVE &mdash; next peg is load-factor reporting or a frequency change"
+    },
+    {
+      "subject": "Air New Zealand Singapore&ndash;Christchurch",
+      "type": "Route (air)",
+      "last_covered": "No. 142",
+      "last_peg": "Departures &mdash; returns Wednesday 28 Oct after six and a half years; NZ67 0040/1535, Mon/Wed/Fri, 787-9 with four Business Premier Luxe seats at <b>S$680 one way</b> above Business Premier. Fifteen weekly non-stops to the South Island with SIA's up-to-twelve.",
+      "next_peg": "LIVE &mdash; next peg is a frequency change or a seasonal suspension"
+    },
+    {
+      "subject": "Japan's tax-free switch to departure refunds",
+      "type": "Policy (named)",
+      "last_covered": "No. 142",
+      "last_peg": "Departures LEAD &mdash; from <b>1 November 2026</b> point-of-sale exemption is replaced by a refund claimed on departure; &yen;5,000 minimum regardless of goods type, the consumables category and the sealed-bag rule both go, the &yen;500,000 daily cap goes, and one missing item at the check invalidates every item's exemption.",
+      "next_peg": "LIVE &mdash; next peg is the first week of operation"
+    },
+    {
+      "subject": "Sodeng Jeju (Bugis)",
+      "type": "Venue (Singapore opening)",
+      "last_covered": "No. 142",
+      "last_peg": "The Table LEAD &mdash; opened 6 Oct, Korean vintage barbecue built around Jeju Island; black pork and banchan from Jeju, fourteen-day-aged belly capped at twenty servings a day. <b>One substantial review exists, published the day before the room was a week old; no queue reporting, no waitlist.</b>",
+      "next_peg": "LIVE &mdash; next peg is a second settled review"
+    },
+    {
+      "subject": "Tofu G (Suntec &amp; Punggol)",
+      "type": "Venue (Singapore opening)",
+      "last_covered": "No. 142",
+      "last_peg": "The Table &mdash; Korean tofu gelato, new toppings bar at S$2 flat; Chodang Sweet Corn at Waterway Point only, pomegranate at Suntec only. Two opposed published verdicts; <b>sources conflict on whether the vegan options are dairy-free, so this desk makes no dietary claim.</b>",
+      "next_peg": "LIVE"
+    },
+    {
+      "subject": "Posiva Onkalo (Eurajoki) operating licence",
+      "type": "Policy/named event",
+      "last_covered": "No. 142",
+      "last_peg": "The World brief &mdash; the first permanent nuclear-waste repository on Earth licensed, 22 Oct: 6,500 tonnes of uranium in copper canisters in 1.9-billion-year-old bedrock, about US$1.16bn. <b>No start-up date given.</b>",
+      "next_peg": "LIVE &mdash; next peg is a start-up date"
+    },
+    {
+      "subject": "JAXA Martian Moons eXploration (MMX)",
+      "type": "Mission",
+      "last_covered": "No. 142",
+      "last_peg": "The World brief &mdash; launched from Tanegashima at 04:41:03 JST on 20 Oct, separation confirmed 71 minutes 13 seconds later; to return at least ten grams of Phobos in 2031.",
+      "next_peg": "LIVE &mdash; next peg is Mars orbit insertion"
+    },
+    {
+      "subject": "Ressence TYPE 10 DN",
+      "type": "Product (watch)",
+      "last_covered": "No. 142",
+      "last_peg": "The Good Life brief &mdash; introduced 16 Oct; first in-house calibre RW-04, 4Hz twin barrels, <b>60-hour reserve up from 36</b>, magnetic transmission driving an oil-filled display; 41.5mm titanium, <b>CHF 45,000 ex-tax, 100 pieces</b>. <b>Ressence's own site returned 503; a retailer listing at &euro;60,000 conflicts and is not printed.</b>",
+      "next_peg": "LIVE"
+    },
+    {
+      "subject": "Pixii (digital rangefinders)",
+      "type": "Company event",
+      "last_covered": "No. 142",
+      "last_peg": "The Kit brief &mdash; French court records show supervised restructuring from 10 Dec 2025 and <b>conversion to liquidation on 22 July 2026</b>, with authority to trade only to 31 July. The company's own site still lists the Max and the Plus; B&amp;H holds stock at US$4,499 and US$2,799.",
+      "next_peg": "CLOSED unless an asset sale or a successor is announced"
     },
     {
       "subject": "INMO GO3 display glasses",

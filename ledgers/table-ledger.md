@@ -207,3 +207,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139 | OPEN | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
 | Age.3 | Age.3 | 141 | OPEN | No. 141 build | opening run — record the peg here |
 | Hama-Sushi | Hama-Sushi | 141 | OPEN | No. 141 build | opening run — record the peg here |
+| Sodeng Jeju | Sodeng Jeju | 142 | OPEN | No. 142 build | opening run — record the peg here |
+| Tofu G | Tofu G | 142 | OPEN | No. 142 build | opening run — record the peg here |
+| A Bar Called Bar | A Bar Called Bar | 142 | OPEN | No. 142 build | opening run — record the peg here |
+| Bonsoir at Ma Cuisine | Bonsoir at Ma Cuisine | 142 | OPEN | No. 142 build | opening run — record the peg here |

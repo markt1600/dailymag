@@ -1,61 +1,71 @@
 {
  "publication": "MERIDIAN",
- "issue": 141,
- "date": "23 October 2026",
- "generated": "2026-10-23T06:23:55+08:00",
+ "issue": 142,
+ "date": "24 October 2026",
+ "generated": "2026-10-24T07:29:48+08:00",
  "quote": {
-  "text": "It is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence.",
-  "author": "W. K. Clifford, “The Ethics of Belief”, Contemporary Review, 1877"
+  "text": "Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our people need it sorely on these accounts.",
+  "author": "Mark Twain, The Innocents Abroad, 1869"
  },
  "macro": null,
  "stories": [
   {
+   "desk": "The Atelier",
+   "sub": "Buy It Once",
+   "category": "Style",
+   "kicker": "The Atelier · Hand-Knotted Rugs",
+   "headline": "Beni Rugs prints its knot counts and its prices; Jan Kath prints neither",
+   "dek": "A London house charges US$220 a square foot for a rug knotted in Kathmandu. The category’s central fraud is not the wool — it is the phrase “hand-knotted”, and you settle it by turning the rug over.",
+   "anchor": "p6",
+   "featured": true
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "The Invitation",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · Home Machining",
+   "headline": "Practical Machinist carries 3.2 million posts; Model Engineer has published since 1898",
+   "dek": "Hobby metalworking runs on two machines and some very large communities: 59,994 members on The Hobby-Machinist, 1.1 million on the metalworking subreddit. The hook is never the machine — it is the first part you cut to a number and it fits.",
+   "anchor": "p15",
+   "featured": true
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "The Travel Desk · Japan’s Tax-Free Switch",
+   "headline": "Tax-free shopping in Japan ends on 1 November; you will claim at the airport",
+   "dek": "Purchases up to 31 October follow the old National Tax Agency rules. From Sunday week the minimum spend is ¥5,000 regardless of goods type, and the sealed-bag rule and the ¥500,000 daily cap both go.",
+   "anchor": "p19",
+   "featured": true
+  },
+  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Gulf Tanker War",
-   "headline": "Iran’s Revolutionary Guard says its forces struck seven ships in the Gulf",
-   "dek": "US Central Command says no vessel has hit a mine and 95 per cent of traffic is still getting through. The IRGC named no ship, no flag and no operator.",
+   "kicker": "The World · The PHP Emergency",
+   "headline": "PHP patched two AI-found remote-code flaws; Finland and Japan took sites offline",
+   "dek": "The security firm Calif found the pair on 1 August using OpenAI’s GPT-5.6 Sol. Patches shipped at 14:00 UTC on 21 October, and Singapore’s Cyber Security Agency issued its own alert the same day.",
    "anchor": "p3",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Haze Act",
-   "headline": "NEA records Singapore’s first clean air board since 5 October",
-   "dek": "The agency’s own forecast puts the haze back over the island on Friday. Twelve years into the Transboundary Haze Pollution Act, no company has been fined under it once.",
+   "kicker": "Singapore · The Quarter’s Numbers",
+   "headline": "Home prices rose 1.4 per cent as URA put vacancy at 7.2 per cent",
+   "dek": "The Urban Redevelopment Authority’s full third-quarter statistics, out on 23 October, confirm the flash estimate exactly. Developers launched 1,140 units and sold 1,183, both sharply down; 32,800 unsold homes could reach the market inside two years.",
    "anchor": "p5",
-   "featured": true
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Undercurrent",
-   "category": "Essay",
-   "kicker": "The Undercurrent · Thailand",
-   "headline": "Ten million Thais hold a death benefit priced in the surviving headcount",
-   "dek": "A funeral mutual pays fifty baht times everyone still alive. Deaths have exceeded births for five years, and in Udon Thani a three-contract payout has fallen from 200,000 baht to 58,000.",
-   "anchor": "p21",
-   "featured": true
-  },
-  {
-   "desk": "The Atelier",
-   "sub": "Buy It Once",
-   "category": "Style",
-   "kicker": "The Atelier · Sofas & Armchairs",
-   "headline": "Roger + Chris says the twine behind eight-way hand-tying is no longer made",
-   "dek": "The Hickory maker, which owns its own frame plant, calls drop-in spring units “fake cheese”. Hancock & Moore’s own glossary says most top-grain leather has had its grain sanded off.",
-   "anchor": "p6",
    "featured": false
   },
   {
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · The DeepSeek Order",
-   "headline": "Homeland Security orders DeepSeek stripped from every federal civilian system",
-   "dek": "The notice reached the Federal Register on 20 October as 91 FR 66346. The signed order inside it survives only as scanned images, so its deadlines cannot be read.",
+   "kicker": "Technology · Exhibit 10.25",
+   "headline": "Nscale’s IPO filing carries Anthropic’s GPU order with every number blacked out",
+   "dek": "The British cloud firm attached the contract to its 18 September S-1. Anthropic holds a written veto over what Nscale may show the Securities and Exchange Commission — and Anthropic itself still has no filing of its own on EDGAR.",
    "anchor": "p7",
    "featured": false
   },
@@ -63,9 +73,9 @@
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · INMO GO3",
-   "headline": "INMO puts the GO3 display glasses on general sale at US$509",
-   "dek": "The maker’s own page publishes no brightness, no field of view and no weight. The 1,500-nit figure every write-up quotes comes from a sponsored post.",
+   "kicker": "The Kit · The Sigma fp2",
+   "headline": "Sigma’s fp2 arrives at US$2,199 with no mechanical shutter and no stabilisation",
+   "dek": "Announced on 23 October and shipping 11 November from Aizu, the 24.5-megapixel body is the smallest full-frame camera made. Flash sync is capped at 1/50s, and the grip and finder take the working price to US$2,982.",
    "anchor": "p9",
    "featured": false
   },
@@ -73,9 +83,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · H. Moser & Cie.",
-   "headline": "H. Moser prices its Saquon Barkley tourbillon identically to the standard reference",
-   "dek": "Reference 3811-1205 lists at CHF 79,000 before Swiss VAT, in 97 pieces. So does the standard 3811-1200, on the maker’s own site.",
+   "kicker": "The Good Life · Audio-Technica’s Flagship",
+   "headline": "Audio-Technica priced the ATH-AWX7000 at US$3,799 and published no measurements",
+   "dek": "On sale from 23 October: Kiso cypress earcups in Echizen lacquer, deerskin pads, a new 58-millimetre composite diaphragm. The release gives no impedance, no sensitivity, no frequency response and no weight.",
    "anchor": "p10",
    "featured": false
   },
@@ -83,9 +93,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · You Can See Everything",
-   "headline": "A24 expands its Elizabeth Holmes documentary to more than 2,500 screens",
-   "dek": "It opened on 855 screens and took $18,247 from each, against Street Fighter’s $8,608 from 3,575. Its Rotten Tomatoes score has fallen from 100 to 97 as the sample tripled.",
+   "kicker": "Screen & Sound · Klara And The Sun",
+   "headline": "Taika Waititi’s Ishiguro adaptation opened on 23 October to 23 per cent",
+   "dek": "Columbia put Klara and the Sun into wide release with Jenna Ortega as the solar-powered narrator. Rotten Tomatoes has it at 23 per cent on 60 reviews and Metacritic at 30 from 24 critics; the audience score is withheld for want of ratings.",
    "anchor": "p11",
    "featured": false
   },
@@ -93,39 +103,19 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Phones After Ten",
-   "headline": "JAMA Pediatrics measures the ten o’clock line with sensors, not surveys",
-   "dek": "Each extra minute of phone use after 10pm cost 0.43 minutes of sleep across 7,591 nights. Singapore’s MOE moved its locked bedtime to 10.30pm in January.",
+   "kicker": "The Family Desk · Adolescent Anxiety",
+   "headline": "JAMA Pediatrics finds one in six US adolescents reporting moderate or severe anxiety",
+   "dek": "An analysis of 15,730 twelve-to-twenty-year-olds, published by Bommersbach on 12 October, puts severe symptoms at 7.2 per cent — and 41.2 per cent of that group had no mental-health treatment at all in the preceding year.",
    "anchor": "p12",
-   "featured": false
-  },
-  {
-   "desk": "The Macro Desk",
-   "sub": "The Big Picture",
-   "category": "Markets",
-   "kicker": "The Macro Desk · Thursday’s Repricing",
-   "headline": "Meta’s cash outflow knocked 17 basis points off the US ten-year on Thursday",
-   "dek": "The 10-year fell to 4.96 per cent, its sharpest one-day drop since March 2023, while Brent rose 3.72 per cent to $112.87 and gold fell 2.82 per cent.",
-   "anchor": "p14",
-   "featured": false
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · Ultralight Backpacking",
-   "headline": "Ultralight backpacking judges a kit list on Lighterpack, to the gram",
-   "dek": "A base weight under ten pounds is the entry ticket, and the initiation is publishing your gear list to the gram for a million strangers to pick apart.",
-   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Four Minutes A Day",
-   "headline": "Penn State trial puts four minutes a day against a waitlist control",
-   "dek": "Ninety-seven adults averaging 74 years old gained 4.22 chair stands in twelve weeks. The control group lost 28 per cent of its participants; the intervention group lost 11.",
+   "kicker": "Fitness · The Ring On The Bench",
+   "headline": "NUS validated the Oura ring against actigraphy on 41 adults aged twenty-six",
+   "dek": "Sleep Health published the comparison on 9 October: agreement of 0.67 to 0.98 across rest-activity metrics. Three of the six authors sit in the Oura–NUS Joint Lab, and a mid-forties reader is twenty years older than the sample.",
    "anchor": "p18",
    "featured": false
   },
@@ -133,10 +123,20 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Four Deadlines",
-   "headline": "Gardens by the Bay takes the world premiere of The Story of Studio Ghibli",
-   "dek": "Tickets run S$39 for a Singapore-resident adult, S$29 for a child, from 18 December to 4 July. ART SG’s early-bird two-for-$40 closes on 24 November.",
-   "anchor": "p19",
+   "kicker": "The Diary · Before The Year Turns",
+   "headline": "ART SG’s two-for-one tickets expire on 24 November; sumo opens 5 December",
+   "dek": "BABYMONSTER’s two Indoor Stadium nights on 28 and 29 November are the only big show with a published price ladder, S$168 to S$358. Nothing else checked carries a sold-out flag.",
+   "anchor": "p23",
+   "featured": false
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Undercurrent · China’s Power Retailers",
+   "headline": "Nine state-owned Guangxi power retailers warned the regional government of mass bankruptcies",
+   "dek": "The petition went in on 30 September from subsidiaries holding about 70 per cent of the regional market. The trade’s phrase for what is happening is 批零倒挂 — wholesale and retail hanging upside down — and Guangxi’s retailers expect to lose more than five billion yuan this year.",
+   "anchor": "p25",
    "featured": false
   }
  ]
