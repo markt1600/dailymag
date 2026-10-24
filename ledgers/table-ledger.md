@@ -192,11 +192,11 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Shi Tang by Mahota Kitchen | Shi Tang by Mahota Kitchen | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Rogs Race | Rogs Race | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Petra | Petra | 135 | OPEN | No. 135 build | opening run — record the peg here |
-| Saikyo Pasta | Saikyo Pasta | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Saikyo Pasta | Saikyo Pasta | 135, 143 | SPENT | No. 135 build | opening run — record the peg here |
 | Shirazi | Shirazi | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |
-| Your Mother’s House | Your Mother’s House | 136 | OPEN | No. 136 build | opening run — record the peg here |
-| The CHOYA Ginza Bar Singapore | The CHOYA Ginza Bar Singapore | 136 | OPEN | No. 136 build | opening run — record the peg here |
+| Your Mother’s House | Your Mother’s House | 136, 143 | SPENT | No. 136 build | opening run — record the peg here |
+| The CHOYA Ginza Bar Singapore | The CHOYA Ginza Bar Singapore | 136, 143 | SPENT | No. 136 build | opening run — record the peg here |
 | Shan Li You | Shan Li You | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Curry Popo | Curry Popo | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |
@@ -211,3 +211,4 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Tofu G | Tofu G | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | A Bar Called Bar | A Bar Called Bar | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Bonsoir at Ma Cuisine | Bonsoir at Ma Cuisine | 142 | OPEN | No. 142 build | opening run — record the peg here |
+| Après Gelato | Après Gelato | 143 | OPEN | No. 143 build | opening run — record the peg here |

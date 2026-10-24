@@ -1633,9 +1633,10 @@
       "venue": "Saikyo Pasta",
       "key": "Saikyo Pasta",
       "runs": [
-        135
+        135,
+        143
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 135 build",
       "note": "opening run — record the peg here"
     },
@@ -1663,9 +1664,10 @@
       "venue": "Your Mother’s House",
       "key": "Your Mother’s House",
       "runs": [
-        136
+        136,
+        143
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 136 build",
       "note": "opening run — record the peg here"
     },
@@ -1673,9 +1675,10 @@
       "venue": "The CHOYA Ginza Bar Singapore",
       "key": "The CHOYA Ginza Bar Singapore",
       "runs": [
-        136
+        136,
+        143
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 136 build",
       "note": "opening run — record the peg here"
     },
@@ -1818,6 +1821,16 @@
       "status": "OPEN",
       "checked": "No. 142 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Après Gelato",
+      "key": "Après Gelato",
+      "runs": [
+        143
+      ],
+      "status": "OPEN",
+      "checked": "No. 143 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1910,6 +1923,9 @@
     "Soft Order",
     "Spicy Hubby",
     "Osteria Da Su",
-    "Tokyo Onigiri"
+    "Tokyo Onigiri",
+    "Saikyo Pasta",
+    "Your Mother’s House",
+    "The CHOYA Ginza Bar Singapore"
   ]
 }
