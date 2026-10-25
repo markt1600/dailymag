@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Violin making (lutherie)",
+      "issue": "144",
+      "angle": "<b>Every number the craft runs on is published by somebody who is not selling you the thing.</b> Auto-picked from No. 143&rsquo;s Next-Descents chips (re-proposed at No. 142 and No. 143, demoted both times). SPINE: the forum is the whole town square and it forbids commerce &mdash; <b>Maestronet 44,4"
+    },
+    {
       "hobby": "Archery (target, recurve &amp; compound)",
       "issue": "143",
       "angle": "<b>Both of the sport&rsquo;s defining numbers are specified in documents the archer cannot read.</b> Auto-picked from No. 142&rsquo;s Next-Descents chips over <b>violin making</b> and <b>competitive barbecue</b>, both re-proposed today. ECONOMICS INVERTED: at Lancaster Archery Supply on 24 Oct a doz"
@@ -409,7 +414,7 @@
   "queued": [],
   "pipeline": [
     {
-      "hobby": "Lutherie (violin making &amp; repair)",
+      "hobby": "~~Lutherie (violin making &amp; repair)~~ (COVERED, No. 144)",
       "category": "Craft / music",
       "communities": "Maestronet, violinist.com, r/Luthier, the Violin Society of America",
       "fit": "Wood selection, graduation and varnish as a measurement problem; a trade where the tools outlast the maker and the grail market is openly speculative"
@@ -559,10 +564,28 @@
       "fit": "A slow textile craft with a loom ladder from rigid heddle to countermarch, and a secondhand market that never depreciates"
     },
     {
-      "hobby": "Violin making (lutherie)",
+      "hobby": "~~Violin making (lutherie)~~ (COVERED, No. 144)",
       "category": "Craft / wood",
       "communities": "Maestronet, r/Luthier, the Strad forums",
       "fit": "A wood-hoarding culture, a 300-year varnish argument and a blind-test literature nobody likes"
+    },
+    {
+      "hobby": "Fountain pens &amp; hand-mixed inks",
+      "category": "Craft / writing",
+      "communities": "Fountain Pen Network, r/fountainpens, the Pen Addict wake, Sailor and Pilot ink scenes",
+      "fit": "A nib-grinding craft with a S$30-to-S$3,000 ladder, a Japanese nibmeister culture and an ink chemistry nobody publishes"
+    },
+    {
+      "hobby": "Beekeeping (urban and backyard)",
+      "category": "Nature / craft",
+      "communities": "Beesource, r/Beekeeping, the Singapore beekeeping scene",
+      "fit": "A livestock hobby with a hive-standard argument, a treatment-free schism and a honey yield that is mostly weather"
+    },
+    {
+      "hobby": "Darkroom printing (black-and-white)",
+      "category": "Craft / photography",
+      "communities": "r/analog, Photrio, the Ilford and Fomapan user scenes",
+      "fit": "A chemistry craft on secondhand enlargers, where the paper is the consumable and the grading is a number nobody agrees on"
     },
     {
       "hobby": "Pigeon racing",

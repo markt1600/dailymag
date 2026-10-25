@@ -212,3 +212,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | A Bar Called Bar | A Bar Called Bar | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Bonsoir at Ma Cuisine | Bonsoir at Ma Cuisine | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Après Gelato | Après Gelato | 143 | OPEN | No. 143 build | opening run — record the peg here |
+| BFF | BFF | 144 | OPEN | No. 144 build | opening run — record the peg here |
+| JR Pizzeria | JR Pizzeria | 144 | OPEN | No. 144 build | opening run — record the peg here |
+| Woksta | Woksta | 144 | OPEN | No. 144 build | opening run — record the peg here |
+| 7 Paintings | 7 Paintings | 144 | OPEN | No. 144 build | opening run — record the peg here |

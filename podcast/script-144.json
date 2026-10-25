@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 144,
+ "date": "Monday 26 October 2026",
+ "title": "The proxy",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Monday, the twenty-sixth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Aleksandar Vučić walked into his own party's headquarters in Belgrade last night and conceded an election. There is still no official count."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A watchmaker published twenty numbers about a new chronograph and not one of them was the price."
+  },
+  {
+   "s": "A",
+   "t": "And Indonesia borrowed two hundred and forty trillion rupiah to build eighty thousand village shops that have so far sold about fifty-seven billion."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Which is nought point nought two four per cent. I did check."
+  },
+  {
+   "s": "A",
+   "t": "That's the spine this morning, and it has a name. The proxy."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "Nine desks found the same shape. The number that would settle the question is missing, and a stand-in has been published in its place."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the stand-in is always chosen by whoever has something to lose by the real one."
+  },
+  {
+   "s": "A",
+   "t": "Always. Start with Belgrade."
+  },
+  {
+   "s": "B",
+   "t": "Half past nine, Sunday night. Vučić at the Progressive Party headquarters. What did he actually say?"
+  },
+  {
+   "s": "A",
+   "t": "In Reuters' rendering: it is clear that we have lost these elections, the Student List has won."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That's a man conceding with a footnote."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] It ends fourteen years of Progressive rule, and almost two years of protest that began when a railway station canopy fell in Novi Sad."
+  },
+  {
+   "s": "B",
+   "t": "Turnout?"
+  },
+  {
+   "s": "A",
+   "t": "The highest since Yugoslavia broke up. The electoral commission counted sixty-four point eight nine per cent by six in the evening. CeSID had sixty-seven point six an hour later. Reuters called it nearly seventy at the finish."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] None at all?"
+  },
+  {
+   "s": "A",
+   "t": "The Republic Electoral Commission held six media conferences on polling day and published no numbers. It has ninety-six hours from the close. Our desk opened its results page directly — it returns a perfectly healthy page with a security check and nothing behind it."
+  },
+  {
+   "s": "B",
+   "t": "So every number anyone quoted last night was —"
+  },
+  {
+   "s": "A",
+   "t": "An estimate. Vučić's own hundred and thirty-five to hundred and forty. CeSID and Ipsos at a hundred and thirty-eight against a hundred and four. One projection at a hundred and thirty-nine with sixty-two per cent counted."
+  },
+  {
+   "s": "B",
+   "t": "And the winners. Tell me about the winners, because this is the part I keep rereading."
+  },
+  {
+   "s": "A",
+   "t": "[curious] The Student List. Certified in September with sixty-nine thousand and ninety-nine valid signatures. Two hundred and fifty candidates, picked by student plenums that could veto a name."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] On purpose."
+  },
+  {
+   "s": "A",
+   "t": "Among the candidates: a former governor of the National Bank of Serbia, and a former president of Euroleague Basketball."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A central banker and a basketball administrator walk into a parliament."
+  },
+  {
+   "s": "A",
+   "t": "The list is fronted, in the sense that anyone is, by a cardiologist from Novi Sad."
+  },
+  {
+   "s": "B",
+   "t": "What do the other desks make of it?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] TASS doesn't lead on the loss. It leads on the consequence — the winners will sanction Russia by spring. Vučić's line there is that the result was a revolution carried out with direct support from European countries and the American deep state."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] So the paper quotes the claim and then quietly files the correction underneath it."
+  },
+  {
+   "s": "A",
+   "t": "Al Jazeera goes at the integrity of the vote instead. Observers watching five hundred polling stations recorded pressure on voters or staff at almost a third of them."
+  },
+  {
+   "s": "B",
+   "t": "And Beijing?"
+  },
+  {
+   "s": "A",
+   "t": "Xinhua filed a procedural election-day piece and, when we read it last night, no result story at all. It calls him Former Serbian President and the winners a list backed by student groups."
+  },
+  {
+   "s": "B",
+   "t": "What would break the reading?"
+  },
+  {
+   "s": "A",
+   "t": "Four things. A certified count below a hundred and twenty-six. The Progressives assembling a hundred and twenty-six with minority lists, which are exempt from the threshold. No government inside ninety days. Or a slow mandate from an acting president who is theirs."
+  },
+  {
+   "s": "B",
+   "t": "And the detail you put in the margin?"
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] Sixteen thousand observers were accredited for this election. The governing party refused election-night accreditation to journalists from four independent newsrooms — and then conceded in the room it had barred them from."
+  },
+  {
+   "s": "B",
+   "t": "Brent first."
+  },
+  {
+   "s": "A",
+   "t": "[rushed] Brent settled at a hundred and sixteen dollars seventy-two on Friday. Up three point one four per cent on the day, six on the week, highest since late April — and more than twenty per cent above where it started the month."
+  },
+  {
+   "s": "B",
+   "t": "That's an inflation shock by any textbook."
+  },
+  {
+   "s": "A",
+   "t": "So the bond market was handed one, and declined to price it. The ten-year inflation breakeven went from two point three five per cent to two point three four."
+  },
+  {
+   "s": "B",
+   "t": "Can we rule out the usual suspects?"
+  },
+  {
+   "s": "A",
+   "t": "By their own evidence. Not the dollar — the index went from a hundred and one point eight four to a hundred and one point eight one. Three hundredths of a per cent."
+  },
+  {
+   "s": "B",
+   "t": "Not policy?"
+  },
+  {
+   "s": "A",
+   "t": "Policy got more hawkish. December hike pricing hardened from about half to somewhere between sixty-eight and eighty-one per cent across venues — and the ten-year fell nine basis points anyway."
+  },
+  {
+   "s": "B",
+   "t": "So what is it?"
+  },
+  {
+   "s": "A",
+   "t": "The market read the oil shock as a tax on growth, not a source of inflation. And the equity tape agrees line by line. Energy rose two point six to a record high. Consumer staples fell one point nine two. Discretionary one point six six. Financials one point three two."
+  },
+  {
+   "s": "B",
+   "t": "And credit, which is where you always go."
+  },
+  {
+   "s": "A",
+   "t": "High-yield spreads at three point four zero per cent — widest since the thirtieth of March. Falling yields with widening spreads is a growth scare, not an inflation scare."
+  },
+  {
+   "s": "B",
+   "t": "So the forty did its job."
+  },
+  {
+   "s": "A",
+   "t": "For the first time since July. Though over twelve months the sixty made fourteen point six three per cent while the forty lost nought point five three."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Why?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Because carry beats haven when the real ten-year is at two point six six per cent. Gold is trading as a short-rates instrument right now, not as insurance."
+  },
+  {
+   "s": "B",
+   "t": "And bitcoin?"
+  },
+  {
+   "s": "A",
+   "t": "Bitcoin did nothing at all. Flat on the day, down about two per cent on the week — with four hundred and forty-two million dollars of spot exchange-traded fund inflows absorbed into a range rather than a rally."
+  },
+  {
+   "s": "B",
+   "t": "And the asymmetry you want people to hold?"
+  },
+  {
+   "s": "A",
+   "t": "[skeptical] Market breakevens at two point three four per cent against household one-year inflation expectations at four point seven. One of those is wrong."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] And this is market explanation, not investment advice."
+  },
+  {
+   "s": "A",
+   "t": "It is. And the consensus is crowded — a Reuters panel has ninety-four of a hundred economists expecting Wednesday's hold and a hundred out of a hundred expecting a December hike."
+  },
+  {
+   "s": "B",
+   "t": "A hundred out of a hundred makes me nervous."
+  },
+  {
+   "s": "A",
+   "t": "State Street's economists keep the dissent alive. The labour market, they say, is not a source of inflationary pressures, and there is no need for pre-emptive hikes."
+  },
+  {
+   "s": "B",
+   "t": "What's the number that makes the Fed's problem visible?"
+  },
+  {
+   "s": "A",
+   "t": "September payrolls: plus twenty-nine thousand. Against headline inflation of three point seven per cent with petrol up thirty-four point two per cent year on year."
+  },
+  {
+   "s": "B",
+   "t": "The cut."
+  },
+  {
+   "s": "A",
+   "t": "Indonesia's upstream regulator cut piped gas exports to Singapore from Saturday — the day after the National Environment Agency served legal notices under the haze act on ten Singapore-registered palm oil and forestry companies."
+  },
+  {
+   "s": "B",
+   "t": "And the cut has two sizes."
+  },
+  {
+   "s": "A",
+   "t": "Jakarta announced thirty-one units. Singapore's Energy Market Authority, working from what importers actually report, counts seventeen over eighteen days."
+  },
+  {
+   "s": "B",
+   "t": "How small is small?"
+  },
+  {
+   "s": "A",
+   "t": "On either figure, small. Seventeen units is about one point seven per cent of power demand and one point two six per cent of total gas demand. Gas makes about ninety-five per cent of Singapore's electricity."
+  },
+  {
+   "s": "B",
+   "t": "Which is why the Prime Minister said what he said."
+  },
+  {
+   "s": "A",
+   "t": "[curious] Lawrence Wong, at the party convention on Sunday: Singapore must look beyond natural gas, the government is studying seriously the potential of nuclear energy, and we should not rule out an option simply because it is difficult or controversial."
+  },
+  {
+   "s": "B",
+   "t": "And the forum?"
+  },
+  {
+   "s": "A",
+   "t": "HardwareZone was not reassured. Sixty replies by this morning under the minister's keep calm and carry on. One of them: unlikely is not the same as will not."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Fair."
+  },
+  {
+   "s": "A",
+   "t": "And the asymmetry in the haze law, which is the re-tellable one. Conduct causing haze pollution can be fined a hundred thousand dollars a day. A representative who simply ignores the notice that starts the process faces a maximum of five thousand."
+  },
+  {
+   "s": "B",
+   "t": "So the notice is worth a day and a half of the thing it exists to prove."
+  },
+  {
+   "s": "A",
+   "t": "Technology. The United States Treasury deleted a number and swapped a word."
+  },
+  {
+   "s": "B",
+   "t": "Which number?"
+  },
+  {
+   "s": "A",
+   "t": "Ten to the twenty-fifth. The training-compute threshold in its outbound investment rule. We reported on Sunday that it was proposed for deletion. The rule published this morning, and it has done more than that."
+  },
+  {
+   "s": "B",
+   "t": "Meaning?"
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] The strings ten to the twenty-fifth, training operations and floating-point appear nowhere in the rule's two hundred and seventy-nine thousand characters. Our desk read it at five offsets to be sure."
+  },
+  {
+   "s": "B",
+   "t": "And what replaces it?"
+  },
+  {
+   "s": "A",
+   "t": "A definition. A super intelligence system is one that perceives environments from data, abstracts those perceptions into models by automated statistical analysis, and uses model inference to generate content or make a prediction, recommendation or decision."
+  },
+  {
+   "s": "B",
+   "t": "So it's a relabel."
+  },
+  {
+   "s": "A",
+   "t": "And nothing forced it. The executive order behind it says the new words mean what the old statute already defined, and that nothing requires altering previously issued regulations."
+  },
+  {
+   "s": "B",
+   "t": "Which is honest, and also the whole problem."
+  },
+  {
+   "s": "A",
+   "t": "Here is the kicker. The rule has not lost its appetite for numbers. Supercomputers at a hundred double-precision petaflops within forty-one thousand six hundred cubic feet. Memory above two gigabytes per second per square millimetre."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Everything has a measurement except the thing it most wants to stop."
+  },
+  {
+   "s": "A",
+   "t": "A historian of computing at Wisconsin-Milwaukee put it plainly: rebranding it to superintelligence is unlikely to reassure them."
+  },
+  {
+   "s": "B",
+   "t": "And the detail nobody will believe?"
+  },
+  {
+   "s": "A",
+   "t": "Since the first of October, exactly two documents in the entire Federal Register carry super intelligence in their title. Both published today. One is the Treasury rule forbidding Americans from funding the development of one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Same day."
+  },
+  {
+   "s": "A",
+   "t": "Same day. And the notice never defines the term."
+  },
+  {
+   "s": "B",
+   "t": "Home lab."
+  },
+  {
+   "s": "A",
+   "t": "An Austrian research group published quantisations of a seven hundred and sixty-three billion parameter model on Friday. Three builds, every tensor given its own quantisation type by search, all three claimed to run on a single twelve-gigabyte card."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] To be determined."
+  },
+  {
+   "s": "A",
+   "t": "Second consecutive week a desk-leading model has shipped with its quality numbers published and the number that tells you whether you can run it marked unavailable."
+  },
+  {
+   "s": "B",
+   "t": "And it doesn't run anyway."
+  },
+  {
+   "s": "A",
+   "t": "The most common runtime cannot load it. The pull request that would fix that is still an open draft, two approvals short, with a reviewer pinging the author again on Saturday and no visible reply."
+  },
+  {
+   "s": "B",
+   "t": "And the quality figure?"
+  },
+  {
+   "s": "A",
+   "t": "Buried in that draft. The volunteer conversion tracks the reference about five times more closely than the vendor's own production kernels do. It's in a comment thread, not a model card."
+  },
+  {
+   "s": "B",
+   "t": "What's the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Someone spent about three thousand dollars of rented compute benchmarking quantisations and reproduced the maker's own scores before testing anything. His finding on the one-bit tier: scores near random guessing."
+  },
+  {
+   "s": "B",
+   "t": "And your own reading?"
+  },
+  {
+   "s": "A",
+   "t": "The two-bit build reports scores identical to the base model on all three benchmarks, at a quarter of the precision. Identical integers are more plausibly a measurement that cannot resolve the difference than a quantiser that loses nothing."
+  },
+  {
+   "s": "B",
+   "t": "And the number for the top of the show?"
+  },
+  {
+   "s": "A",
+   "t": "The quantisation has been downloaded four hundred and twelve thousand times. The official repository it was made from, eighty-five thousand."
+  },
+  {
+   "s": "B",
+   "t": "The Kit, quickly, because this one is personal."
+  },
+  {
+   "s": "A",
+   "t": "Meta put the Adventurer on sale in Singapore on Friday at four hundred and nineteen dollars. The page lists nine frame configurations."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's it?"
+  },
+  {
+   "s": "A",
+   "t": "Absent from the Singapore page and both American ones: weight, dimensions, camera and video resolution, battery life of any kind, speaker and microphone specs, water resistance, connectivity, chip. There is no tech-specs link anywhere."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] A procurement catalogue."
+  },
+  {
+   "s": "A",
+   "t": "One measurement exists and it's a reviewer's. Against a claim of more than eight hours, she observed about four and a half with constant music playback. And she could not get a weight either."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier, where somebody actually publishes something."
+  },
+  {
+   "s": "A",
+   "t": "Hand planes and chisels. Lie-Nielsen publishes its smoothing plane's sole as ground flat to a tolerance of one and a half thousandths of an inch. Quangsheng, at less than half the price, publishes better than plus or minus one and a half thou."
+  },
+  {
+   "s": "B",
+   "t": "The same figure."
+  },
+  {
+   "s": "A",
+   "t": "The same figure. And a British shop selling the Chinese plane states on its own site that it is barred by contract from shipping it into North America."
+  },
+  {
+   "s": "B",
+   "t": "Because somebody else badges it there."
+  },
+  {
+   "s": "A",
+   "t": "The same plane is about a hundred and forty-two euros in Germany, a hundred and seventy pounds in Britain, two hundred and twenty dollars in America."
+  },
+  {
+   "s": "B",
+   "t": "And the white-label finding?"
+  },
+  {
+   "s": "A",
+   "t": "The aftermarket iron you buy so you don't have to buy a premium plane — its website no longer loads a shop. It redirects to the company that owns the premium brand."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Violin making. Lutherie. Go."
+  },
+  {
+   "s": "A",
+   "t": "The capital city is a web forum founded in nineteen ninety-six. Forty-four thousand members, nine hundred and eighty-eight thousand posts. Its making board alone carries six hundred and seventy-eight thousand."
+  },
+  {
+   "s": "B",
+   "t": "And it bans selling."
+  },
+  {
+   "s": "A",
+   "t": "[curious] On both its making board and its auction board. Which is why an amateur-made violin has no price. There is a live thread titled, roughly, how to price lesser-known undocumented makers — because no price exists to look up."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The town square with no market."
+  },
+  {
+   "s": "A",
+   "t": "The dominant thread form is the bench thread. A multi-year public apprenticeship where strangers correct your corner blocks, one photograph at a time."
+  },
+  {
+   "s": "B",
+   "t": "Now the wood, because this is the spine again."
+  },
+  {
+   "s": "A",
+   "t": "There is no universal tonewood grading standard. One American catalogue grades violin backs in plain English — plain, better, flamed, well flamed, deeply flamed, master — and the price climbs from fifty-three dollars to ninety-seven to two hundred and twenty-six on that basis alone."
+  },
+  {
+   "s": "B",
+   "t": "[curious] What does it use?"
+  },
+  {
+   "s": "A",
+   "t": "[excited] It publishes the seasoning year and the density, in kilograms per cubic metre, for every single top. Grade one, cut in twenty eighteen, four hundred and forty-seven kilograms per cubic metre, eighty-nine euros."
+  },
+  {
+   "s": "B",
+   "t": "And does the grade predict the sound?"
+  },
+  {
+   "s": "A",
+   "t": "The forum's most measurement-driven member says of bad grain runout: sound-wise, I doubt it would have a significant effect. The main effect would be for working the wood. Also the aesthetics."
+  },
+  {
+   "s": "B",
+   "t": "So you're buying how it looks and how it carves."
+  },
+  {
+   "s": "A",
+   "t": "[amused] And then the honest coda, which I love. He says: I wouldn't use it — but I am not you, as I have a lifetime supply of split billets."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] There it is."
+  },
+  {
+   "s": "A",
+   "t": "Cutting edge. In April, researchers published a computational Stradivari built from scans of the seventeen-fifteen Titian — and made it play a Bach fugue and Daisy Bell."
+  },
+  {
+   "s": "B",
+   "t": "Built from what scans?"
+  },
+  {
+   "s": "A",
+   "t": "Scans taken in September two thousand and six, for a violin-makers' research project run by a working maker. Twenty years between the scan and the fugue."
+  },
+  {
+   "s": "B",
+   "t": "And the honest finding?"
+  },
+  {
+   "s": "A",
+   "t": "Small. Including string tension moves the modes by about two to three decibels and two to three per cent."
+  },
+  {
+   "s": "B",
+   "t": "What does ninety days actually cost?"
+  },
+  {
+   "s": "A",
+   "t": "About one thousand two hundred and fifty American dollars. Thirty days reading the forum, free. Then a six-piece palm carving set, two finger planes, a toothed blade, knives, scraper blades, a burnisher, a mould, a garland of clamps, a top and a back."
+  },
+  {
+   "s": "B",
+   "t": "One plate."
+  },
+  {
+   "s": "A",
+   "t": "[exhales] One plate. Not the back, the ribs, the scroll, the neck, the varnish or the setup. The institutional answer is three thousand nine hundred clock hours."
+  },
+  {
+   "s": "B",
+   "t": "And the line that stayed with me?"
+  },
+  {
+   "s": "A",
+   "t": "A man in his late thirties, five years chasing an apprenticeship, family moved across the country. A working maker told him: only go into this field as a profession if you can't live without it."
+  },
+  {
+   "s": "B",
+   "t": "Culture and the body, two picks."
+  },
+  {
+   "s": "A",
+   "t": "A stop-motion feature opened on Friday with a hundred per cent score from a hundred and seventeen critics and the top audience grade. It came third."
+  },
+  {
+   "s": "B",
+   "t": "Behind what?"
+  },
+  {
+   "s": "A",
+   "t": "A comic-book film on seventy-five per cent from a hundred and sixty reviews, which took about twenty-four million dollars against the stop-motion film's eleven."
+  },
+  {
+   "s": "B",
+   "t": "Which cannot exist inside a hundred per cent."
+  },
+  {
+   "s": "A",
+   "t": "Because that scale resolves every review to fresh or rotten. The dissent is in the data; the headline figure absorbs it."
+  },
+  {
+   "s": "B",
+   "t": "Creatine."
+  },
+  {
+   "s": "A",
+   "t": "A trial published Saturday. Fifty-one perimenopausal women, average age forty-six, six weeks of creatine or placebo alongside twice-weekly resistance training."
+  },
+  {
+   "s": "B",
+   "t": "So what made the headline?"
+  },
+  {
+   "s": "A",
+   "t": "Sleep consistency. A proprietary composite from a wristband company, up seven point four percentage points."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And who computed it?"
+  },
+  {
+   "s": "A",
+   "t": "The paper says it out loud, to its real credit. One co-author is an employee of that company and holds stock options in it. He exported the data and performed the sleep analyses while blinded. And then the sentence that matters."
+  },
+  {
+   "s": "B",
+   "t": "And the positive cognitive finding?"
+  },
+  {
+   "s": "A",
+   "t": "Prefrontal oxygenation, up nought point three two per cent. With a standard deviation of two point nought one."
+  },
+  {
+   "s": "B",
+   "t": "The Undercurrent. Slow it down."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] In a village in Blora regency, in Central Java, there is a new building twenty metres by thirty. It has shelves. It has display cases, delivered. It has nothing on them."
+  },
+  {
+   "s": "B",
+   "t": "And the chairman?"
+  },
+  {
+   "s": "A",
+   "t": "Told a local paper that the keys to every finished building in his area are held by the sub-district military command, and will pass to the village's resident soldier at a formal handover. He wasn't involved in the construction. Nobody told him when to stock the shop."
+  },
+  {
+   "s": "B",
+   "t": "How many of these buildings are there?"
+  },
+  {
+   "s": "A",
+   "t": "Roughly eighty thousand. A presidential instruction in March last year ordered one Red-and-White village cooperative in every village and urban ward in Indonesia, inside a year."
+  },
+  {
+   "s": "B",
+   "t": "And the money?"
+  },
+  {
+   "s": "A",
+   "t": "Did not go to eighty thousand cooperatives. Four state banks extended a two hundred and forty trillion rupiah facility — about fourteen and a half billion American dollars — to a single borrower. One state company."
+  },
+  {
+   "s": "B",
+   "t": "Is that even allowed?"
+  },
+  {
+   "s": "A",
+   "t": "Two of the four banks are above the standard single-borrower limit. One at twenty-two per cent of core capital, one at thirty-five, against a limit of twenty-five."
+  },
+  {
+   "s": "B",
+   "t": "And who repays it?"
+  },
+  {
+   "s": "A",
+   "t": "The villages. Instalments are deducted monthly from regional transfers, and fifty-eight per cent of this year's Village Fund has been assigned to servicing it."
+  },
+  {
+   "s": "B",
+   "t": "And what have the shops sold?"
+  },
+  {
+   "s": "A",
+   "t": "The programme runs a live dashboard, and the state publishes the number that indicts it. Fifty-six point six eight billion rupiah for the whole country, year to date."
+  },
+  {
+   "s": "B",
+   "t": "Against two hundred and forty trillion."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] Nought point nought two four per cent. About forty American dollars per cooperative, for seven months. And nearly half of it is subsidised fertiliser."
+  },
+  {
+   "s": "B",
+   "t": "When the first bill came due?"
+  },
+  {
+   "s": "A",
+   "t": "Thirty-seven point seven trillion rupiah, on the twenty-fifth of September. The state could not pay itself, because its own auditor had verified only eight point one trillion of construction."
+  },
+  {
+   "s": "B",
+   "t": "And this has happened before."
+  },
+  {
+   "s": "A",
+   "t": "In nineteen seventy-three. A cooperative in every village unit, directed credit, a monopoly on subsidised fertiliser. It worked for a while — Indonesia reached rice self-sufficiency in nineteen eighty-four."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] About five thousand four hundred of them ended up mati suri. Suspended animation. The standard Indonesian phrase for a cooperative that exists on paper and does nothing."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Mati suri."
+  },
+  {
+   "s": "A",
+   "t": "The state's own former director-general of cooperatives wrote the epitaph: for twenty years they had been developed and allowed to grow as a flawed organisation, and the trillions spent neither raised farmers' welfare nor strengthened the cooperatives."
+  },
+  {
+   "s": "B",
+   "t": "So what is this, really?"
+  },
+  {
+   "s": "A",
+   "t": "Indonesia has not revived the cooperative. It has rebuilt the village state, and financed it by mortgaging the one reform that had transferred power downwards."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the buildings have no keys."
+  },
+  {
+   "s": "A",
+   "t": "One last thing, because it's the whole issue in a page. A watchmaker published twenty numbers about a new chronograph on Saturday. Not the price, in any market. Not the mass, of a watch made entirely of platinum."
+  },
+  {
+   "s": "B",
+   "t": "And then?"
+  },
+  {
+   "s": "A",
+   "t": "One of them wrote: I didn't weigh it, but I would not be surprised if it approached three hundred grams. Thirty-six hours later, in the comments under his own article, a reader wrote: according to the article, this one comes in at about three hundred grams."
+  },
+  {
+   "s": "B",
+   "t": "Montaigne is on page two, and he had the shape of it four hundred years ago."
+  },
+  {
+   "s": "A",
+   "t": "[whispers] Nothing is so firmly believed as what we least know."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the one."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
