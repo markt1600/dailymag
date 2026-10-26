@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 145,
+ "date": "Tuesday 27 October 2026",
+ "title": "Counted, not settled",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the twenty-seventh of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Lula has won Brazil. Every section is counted, and the loser says the election should be annulled."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A filing that states revenue to the dollar leaves its biggest bill as a dollar sign with nothing after it."
+  },
+  {
+   "s": "A",
+   "t": "And the pan that wins every baking test turns out to be the same thickness as the cheapest pan in the trade catalogue."
+  },
+  {
+   "s": "B",
+   "t": "[amused] I did not expect bakeware to be the spine of a news day."
+  },
+  {
+   "s": "A",
+   "t": "It isn't. The spine is counting. Everything today is a number published as though it closed a question that is still open."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Brazil first."
+  },
+  {
+   "s": "A",
+   "t": "Brazil's Superior Electoral Court declared Luiz Inacio Lula da Silva the winner of Sunday's run-off. Sixty-four million, two hundred and fifty-six thousand votes, against Flavio Bolsonaro's fifty-nine million, eight hundred and twenty-six thousand."
+  },
+  {
+   "s": "B",
+   "t": "What's the margin in percentage terms?"
+  },
+  {
+   "s": "A",
+   "t": "Fifty-one point seven nine against forty-eight point two one. Just over four point four million votes."
+  },
+  {
+   "s": "B",
+   "t": "And that's Lula's fourth term."
+  },
+  {
+   "s": "A",
+   "t": "Fourth non-consecutive term. And the first time since Brazil adopted two rounds in nineteen eighty-nine that a candidate has come back from a first-round deficit."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] He was behind on the fourth of October."
+  },
+  {
+   "s": "A",
+   "t": "Forty-seven to forty-five. Turnout went up — eighty point seven eight per cent, with three million fewer abstentions."
+  },
+  {
+   "s": "B",
+   "t": "So what's the objection?"
+  },
+  {
+   "s": "A",
+   "t": "Two hours. A Supreme Court justice extended voting from five in the afternoon to seven, after emergency petitions about transport blockades and heavy weather."
+  },
+  {
+   "s": "B",
+   "t": "Bolsonaro's calling that what?"
+  },
+  {
+   "s": "A",
+   "t": "A dirty trick. He also points out that the justice who ordered it was once Lula's personal defence lawyer."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Which is true, and also —"
+  },
+  {
+   "s": "A",
+   "t": "His own campaign asked for an extension. In seventeen municipalities, over rain in the south."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] He asked for the thing."
+  },
+  {
+   "s": "A",
+   "t": "He asked for the thing. The Sao Paulo exchange halted trading for thirty minutes on Monday as the index fell."
+  },
+  {
+   "s": "B",
+   "t": "How far?"
+  },
+  {
+   "s": "A",
+   "t": "We don't print a number. The only percentages in circulation come from a page that cites no source for a single one of them and contradicts itself on the date."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good."
+  },
+  {
+   "s": "A",
+   "t": "And here's the part I'd underline. We could not read the court's own totals at the court."
+  },
+  {
+   "s": "B",
+   "t": "Why not?"
+  },
+  {
+   "s": "A",
+   "t": "The results portal returns one word — Resultados — to anything that isn't a browser. The newsroom returns a refusal."
+  },
+  {
+   "s": "B",
+   "t": "So the figures are the court's, read everywhere except at the court."
+  },
+  {
+   "s": "A",
+   "t": "That's the sentence."
+  },
+  {
+   "s": "B",
+   "t": "There's a second election today, isn't there."
+  },
+  {
+   "s": "A",
+   "t": "Israel votes. And the army has closed every West Bank land crossing for the whole of polling day."
+  },
+  {
+   "s": "B",
+   "t": "That's in response to the Hebron attack?"
+  },
+  {
+   "s": "A",
+   "t": "Two gunmen from Hebron, both twenty-seven, killed two soldiers at the Yehuda junction on Friday morning. The lockdown is in its fifth day."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the chief of staff said something about it."
+  },
+  {
+   "s": "A",
+   "t": "On Sunday, at an air base, Lieutenant General Eyal Zamir told the Prime Minister there was no operational reason to continue the raid, and no legal basis for keeping Palestinians from their homes."
+  },
+  {
+   "s": "B",
+   "t": "What happened?"
+  },
+  {
+   "s": "A",
+   "t": "Netanyahu rejected the recommendation and ordered the operation to run through the vote. The public broadcaster had it from a military source and from soldiers on the ground."
+  },
+  {
+   "s": "B",
+   "t": "What are the soldiers saying?"
+  },
+  {
+   "s": "A",
+   "t": "They've scanned about five hundred structures and seized two guns. Some haven't been home in twenty-eight days. One of them: we're just sitting at these locations doing nothing. No. And I'll add one absence, because it matters. We looked four separate times for an Israeli High Court ruling on the demolitions. There isn't one. Not pending. Absent."
+  },
+  {
+   "s": "B",
+   "t": "When do we know the result?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Polls close at four in the morning on Wednesday, Singapore time."
+  },
+  {
+   "s": "B",
+   "t": "After we go to press."
+  },
+  {
+   "s": "A",
+   "t": "After we go to press. So there's no turnout figure in the book, no exit poll, and nothing about whether the closure lifted."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Counted, not settled."
+  },
+  {
+   "s": "A",
+   "t": "Serbia's the cleanest version of it, actually."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "At twenty-one minutes to ten on Monday night the president of Serbia's electoral commission read out a preliminary count and congratulated the winners from the chair."
+  },
+  {
+   "s": "B",
+   "t": "With how much counted?"
+  },
+  {
+   "s": "A",
+   "t": "Material from eight of ninety-three overseas polling places. The other eighty-five are ballots still in transit."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And the number itself?"
+  },
+  {
+   "s": "A",
+   "t": "The student list: fifty-two point seven one per cent, a hundred and forty seats of two hundred and fifty. A majority is a hundred and twenty-six."
+  },
+  {
+   "s": "B",
+   "t": "Nothing he said was false."
+  },
+  {
+   "s": "A",
+   "t": "Nothing he said was false. The count simply wasn't finished, and he said the part that was."
+  },
+  {
+   "s": "B",
+   "t": "Money block. And there's a meeting."
+  },
+  {
+   "s": "A",
+   "t": "The committee meets today and tomorrow. Here's the one number for the whole desk: the United States ten-year Treasury closed at exactly five point zero zero per cent on Monday."
+  },
+  {
+   "s": "B",
+   "t": "Which sounds like inflation."
+  },
+  {
+   "s": "A",
+   "t": "It isn't. The ten-year breakeven — what the market actually expects inflation to be — hasn't moved from two point three four since Friday."
+  },
+  {
+   "s": "B",
+   "t": "So subtract."
+  },
+  {
+   "s": "A",
+   "t": "Five point zero zero minus two point three four. The real yield is two point six six per cent. The entire thing is real."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Even though headline inflation is what, three point seven?"
+  },
+  {
+   "s": "A",
+   "t": "Three point seven on the year, with petrol up thirty-four point two. And the market will not price inflation past two point three four."
+  },
+  {
+   "s": "B",
+   "t": "That's the bond market telling the Fed the petrol price is a relative price, not a regime."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that."
+  },
+  {
+   "s": "B",
+   "t": "What are the odds on the meeting?"
+  },
+  {
+   "s": "A",
+   "t": "Eighty-eight point five per cent on a hold. Eleven point five on a hike. Nothing at all on a cut."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] The probability of a thing that hasn't happened, from a tool that wouldn't load."
+  },
+  {
+   "s": "A",
+   "t": "And the best line on it is from a commodities economist at StoneX, Arlan Suderman. He expects a hold. Then he says: I wouldn't be surprised by anything."
+  },
+  {
+   "s": "B",
+   "t": "I like him. Singapore. The gas row again."
+  },
+  {
+   "s": "A",
+   "t": "Indonesia's energy minister, Bahlil Lahadalia, told a briefing in Jakarta on Monday: we respect the rules and contracts. Don't lecture Indonesia about honoring contracts."
+  },
+  {
+   "s": "B",
+   "t": "Strong."
+  },
+  {
+   "s": "A",
+   "t": "And then he opened a door. Asked whether the cut was permanent, he said the situation remains fluid — and added, we respect contracts, but force majeure circumstances can arise, can't they? Different denominators. His eight per cent is against a total export baseline. And here's the part nobody has asked about."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Go on."
+  },
+  {
+   "s": "A",
+   "t": "Singapore published the same claim twice, four days apart, against two different bases. The regulator said less than two per cent of total daily gas demand of more than a thousand units. The ministry said less than two per cent of power-sector gas demand."
+  },
+  {
+   "s": "B",
+   "t": "Power sector is a subset of total."
+  },
+  {
+   "s": "A",
+   "t": "A subset. So the same volume can't be under two per cent of both, unless the two happen to be nearly the same number."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Nobody's asked which it is."
+  },
+  {
+   "s": "A",
+   "t": "Nobody's asked which it is."
+  },
+  {
+   "s": "B",
+   "t": "And Singapore answered with what?"
+  },
+  {
+   "s": "A",
+   "t": "Storage rather than argument. At Energy Week, a joint intent with Saudi Arabia to hold Saudi crude here — caverns a hundred and fifty metres underground, up to about nine million barrels, from the second half of twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "So it's a tank farm owned by a supplier."
+  },
+  {
+   "s": "A",
+   "t": "Until somebody says Singapore can draw on it. And the scale check nobody's making: the disrupted commodity is pipeline gas, about ninety-five per cent of the electricity. Crude doesn't substitute for it."
+  },
+  {
+   "s": "B",
+   "t": "Technology. The filing."
+  },
+  {
+   "s": "A",
+   "t": "Anthropic filed to list on Nasdaq on Monday. Revenue: forty-one million dollars in twenty twenty-three, three hundred and eighty-six million in twenty-four, four point six billion last year, and sixteen point three billion in the first half of this one."
+  },
+  {
+   "s": "B",
+   "t": "That's — say the June quarter alone."
+  },
+  {
+   "s": "A",
+   "t": "Eleven point six billion, against seven hundred and eighty-seven million a year earlier. An operating loss of one point two billion became an operating profit of one billion."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Okay. And the blank?"
+  },
+  {
+   "s": "A",
+   "t": "Where the filing states the company's total obligation it reads: aggregate committed spend of more than dollar sign — and then nothing. The number is left out. Same again for what's due before the end of December. One. A note agreement with Broadcom allowing up to forty-two billion dollars of convertible notes, to fund what the filing calls a lease arrangement for specialised accelerators. And the company's own risk language warns about take-or-pay provisions that oblige it to pay regardless of actual use."
+  },
+  {
+   "s": "B",
+   "t": "Meanwhile Washington did the opposite thing with a number."
+  },
+  {
+   "s": "A",
+   "t": "Treasury published a proposal that deletes the ten-to-the-twenty-five operations threshold defining a prohibited artificial-intelligence system. In its place: a super intelligence system — defined, word for word, as the old definition of artificial intelligence with the letters swapped."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] And the supercomputer test?"
+  },
+  {
+   "s": "A",
+   "t": "Survives untouched. A hundred double-precision petaflops in forty-one thousand six hundred cubic feet. They kept a number exactly where they wanted one. A linear regression in a spreadsheet satisfies that."
+  },
+  {
+   "s": "B",
+   "t": "And Beijing went the other way."
+  },
+  {
+   "s": "A",
+   "t": "Beijing binds on capability. Export of model weights and architecture is restricted where any one of three limbs bites — compute at or above ten to the twenty-six, two trillion parameters, or a model ranked in the global top ten at the moment the export occurs."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] At the moment it occurs. That's a moving rule."
+  },
+  {
+   "s": "A",
+   "t": "That's a moving rule."
+  },
+  {
+   "s": "B",
+   "t": "Home lab, quickly, because this one's practical."
+  },
+  {
+   "s": "A",
+   "t": "Yesterday we had a quantisation out-downloading the official model four point eight to one. It's now nine point three to one. Eight hundred and ninety-one thousand against ninety-six thousand."
+  },
+  {
+   "s": "B",
+   "t": "And the sizes are finally published?"
+  },
+  {
+   "s": "A",
+   "t": "Two hundred and thirty-one to two hundred and sixty-six gigabytes, depending on the bit width. The backbone and a separate lookup table you download once. And it accumulates across runs. Turn the prompt cache off where you need exact output, and eat the re-prefill."
+  },
+  {
+   "s": "B",
+   "t": "And there's a bug people should know about tonight."
+  },
+  {
+   "s": "A",
+   "t": "Don't reuse a prompt. An open issue has cached prefixes corrupting output — one item in twenty on a fresh prefix, six in twenty on a reused one, none with the cache off. Turn the prompt cache off where you need exact output."
+  },
+  {
+   "s": "B",
+   "t": "And the page claims a hundred per cent recovery. What is that actually?"
+  },
+  {
+   "s": "A",
+   "t": "Pressed in the repository's own discussion, the lab conceded it is three benchmarks, one run each, two already near the ceiling. So it means no measurable degradation on those three. It is a real result. It is not the same sentence."
+  },
+  {
+   "s": "B",
+   "t": "The Kit. New iPad mini."
+  },
+  {
+   "s": "A",
+   "t": "Nine hundred and ninety-nine Singapore dollars for the base. Eight and a half inch screen, five point four millimetres thick, two hundred and fifty-five grams."
+  },
+  {
+   "s": "B",
+   "t": "And the catch is in the table."
+  },
+  {
+   "s": "A",
+   "t": "The hundred-and-twenty-eight and two-fifty-six gigabyte models get five processor cores and one neural engine. The five-twelve gets six cores and two."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Same product name."
+  },
+  {
+   "s": "A",
+   "t": "Same product name, four hundred and fifty Singapore dollars apart. Readers on Hacker News found it before the trade press did."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Which tells you what it is."
+  },
+  {
+   "s": "A",
+   "t": "Which tells you what it is."
+  },
+  {
+   "s": "B",
+   "t": "Good Life — a watch with how many prices?"
+  },
+  {
+   "s": "A",
+   "t": "Three. Oris published the Aquis Kelp Forest, a thousand pieces, at two thousand nine hundred and fifty US dollars on its own site. One outlet reports two thousand four hundred and fifty Swiss francs. A third prints two thousand two hundred and fifty pounds in its body copy and the franc figure in its own spec box, in the same article. The movement. One commenter: still using the old SW two hundred movement, tsk, tsk. He's right — forty-one hours of reserve, which doesn't survive a weekend off the wrist."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier. Baking tins."
+  },
+  {
+   "s": "A",
+   "t": "Gauge. Lower number, thicker metal. Lloyd Pans publishes the conversion and then the gauge of every pan it sells. The professional half sheet is eighteen gauge."
+  },
+  {
+   "s": "B",
+   "t": "And the famous home one?"
+  },
+  {
+   "s": "A",
+   "t": "Twenty gauge. The same as the five-dollar-seventy-three economy pan in the trade catalogue."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Then why does it win every test?"
+  },
+  {
+   "s": "A",
+   "t": "The rim. An encapsulated galvanised steel rim doing the work the metal isn't. Which is clever engineering — but the marketing lets you believe you bought thickness."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Competitive barbecue. And live fire. Start me with the thing everyone gets wrong."
+  },
+  {
+   "s": "A",
+   "t": "The stall. You put a brisket in a two-hundred-and-twenty-five-degree smoker and the internal temperature stops climbing. For hours. A sponge. It stalled, dipped, then climbed once it dried out. And ground meat doesn't stall at all."
+  },
+  {
+   "s": "B",
+   "t": "So what is it?"
+  },
+  {
+   "s": "A",
+   "t": "Evaporative cooling. The meat is a wet-bulb thermometer. The cooling rises until it exactly cancels the heat going in, and the reading flatlines until the surface runs dry."
+  },
+  {
+   "s": "B",
+   "t": "That's beautiful. And wrapping?"
+  },
+  {
+   "s": "A",
+   "t": "Stops the evaporation. Two three-pound shoulders: about ten hours wrapped, almost fourteen naked."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the fuel decides how much of it you get."
+  },
+  {
+   "s": "A",
+   "t": "Measured in the exhaust: wood fire, fifty to two hundred parts per million. Pellet smoker, twenty-five to fifty. Propane, under twenty. Electric, under two."
+  },
+  {
+   "s": "B",
+   "t": "That settles the pellet argument."
+  },
+  {
+   "s": "A",
+   "t": "It settles the chemistry. Whether that's a defect is a taste judgement, and the community knows it. One owner says a pellet grill bakes your food more than it smokes it. Another chose pellet precisely because he wanted less smoke on ribs."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Perfect. Now the gear, because I know there's a number."
+  },
+  {
+   "s": "A",
+   "t": "There's a number. The busiest cooker board on the main forum belongs to a four-hundred-dollar drum. Thirty-three thousand, six hundred and fourteen posts."
+  },
+  {
+   "s": "B",
+   "t": "Against what?"
+  },
+  {
+   "s": "A",
+   "t": "Against three thousand, one hundred and sixty-one for competing, judging and organising combined."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] So competition is the aristocracy, not the population."
+  },
+  {
+   "s": "A",
+   "t": "That's the line. And the serious tier publishes things most industries hide. Lone Star Grillz prints prices and lead times — twelve to eighteen weeks. Workhorse says any smoker in a hundred and ten days or less, and you pay in full at purchase. Another ships every five weeks on a container, so you're buying a slot. And one house raffled a build slot at thirty dollars. It sold out."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] What's the catch on a five-thousand-dollar pit?"
+  },
+  {
+   "s": "A",
+   "t": "No dampers anywhere on it. Plan on tending the fire the whole cook."
+  },
+  {
+   "s": "B",
+   "t": "Which brings us to the thing I want you to say out loud."
+  },
+  {
+   "s": "A",
+   "t": "MAK Grills is gone. Ceased operations, support, and all customer service. An award-winning American maker selling at three and a half to four and a half thousand dollars."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the buy-once-cry-once purchase."
+  },
+  {
+   "s": "A",
+   "t": "That is exactly the buy-once purchase. Owners are now cross-shopping a rival's ignitor, and one said the rival's part didn't work well. There's a forum being kept alive as a support group."
+  },
+  {
+   "s": "B",
+   "t": "Can you even do this in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "Yes, but almost certainly not at home. And here's the careful bit: no fire authority, environment agency or housing rule specifically forbids a household barbecue."
+  },
+  {
+   "s": "B",
+   "t": "[curious] That sounds like permission."
+  },
+  {
+   "s": "A",
+   "t": "It is an absence, not a permission, and we print it that way. What does bind you is a one-point-two-metre clear escape passage and a ban on combustible materials in common corridors — which a charcoal smoker and a stack of wood plainly are."
+  },
+  {
+   "s": "B",
+   "t": "So you book a pit."
+  },
+  {
+   "s": "A",
+   "t": "Twelve to twenty Singapore dollars, and one immovable slot. Noon to half past ten. Nothing left overnight."
+  },
+  {
+   "s": "B",
+   "t": "Ten and a half hours."
+  },
+  {
+   "s": "A",
+   "t": "Which is a pork butt. It is not a brisket."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's the whole desk in one sentence."
+  },
+  {
+   "s": "A",
+   "t": "And one last honesty. The sport's own people say competition food isn't good eating. Pitmasters in one interview: the winners all taste the same, and not necessarily in a good way."
+  },
+  {
+   "s": "B",
+   "t": "Why?"
+  },
+  {
+   "s": "A",
+   "t": "Because taste is weighted at about fifty-seven per cent, scored blind, on one bite, by a judge who'll eat twenty-three more boxes that afternoon. The optimal entry is sweeter, saltier and softer than anything you'd want a plate of. That's the rulebook working as designed."
+  },
+  {
+   "s": "B",
+   "t": "Culture, briefly."
+  },
+  {
+   "s": "A",
+   "t": "One film, two scores. Clayface is certified fresh at seventy-six per cent on Rotten Tomatoes and reads fifty-nine on Metacritic."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So nearly half the critics are unenthusiastic and the headline number can't show it."
+  },
+  {
+   "s": "A",
+   "t": "And the better film finished third. A stop-motion feature at ninety-nine per cent, with zero negative reviews, took eleven point six million from nearly three thousand screens — the weakest per-screen average in the top five."
+  },
+  {
+   "s": "B",
+   "t": "Behind the seventy-six per cent comic-book movie."
+  },
+  {
+   "s": "A",
+   "t": "Behind it."
+  },
+  {
+   "s": "B",
+   "t": "Family desk."
+  },
+  {
+   "s": "A",
+   "t": "A meta-analysis of two hundred and thirty-two thousand children gives a headline odds ratio of one point five six for screen time and attention problems."
+  },
+  {
+   "s": "B",
+   "t": "And the heterogeneity?"
+  },
+  {
+   "s": "A",
+   "t": "Ninety-seven point four per cent. Which is about as high as that statistic goes. Split it by age and it dissolves: two point four zero for children under six, one point one six for children over six."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the alarm belongs to toddlers."
+  },
+  {
+   "s": "A",
+   "t": "The alarm belongs to toddlers. For a twelve-year-old the number is one point one six, and that is the paragraph the coverage won't write. Nudification apps, gambling games with payouts, firearms in a school setting. And two stores didn't reliably keep under-eighteens out of adult apps. A randomised trial from Granada. A hundred and eighty-seven adults, twelve weeks, four arms: usual care, an eight-hour eating window, supervised exercise, or both. A clean null. And the declarations read: the authors declare no competing interests. Which is the exact opposite of the creatine trial we covered on Friday, where the positive finding was a wristband company's own sleep score."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] An industry-free null gets less coverage than a sponsored positive."
+  },
+  {
+   "s": "A",
+   "t": "That asymmetry is the thing to watch for."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And the Undercurrent. Where are we?"
+  },
+  {
+   "s": "A",
+   "t": "Nepal. And it starts with a customs line. In two months, imports of infrared cooking plates rose two hundred and four per cent, to forty-one thousand two hundred and twenty-nine."
+  },
+  {
+   "s": "B",
+   "t": "[curious] But infrared is the worse technology."
+  },
+  {
+   "s": "A",
+   "t": "Lower efficiency, higher standing draw. And they're choosing it two to one."
+  },
+  {
+   "s": "B",
+   "t": "Why?"
+  },
+  {
+   "s": "A",
+   "t": "The pots. Nepali kitchens run on round-bottomed aluminium and brass. Induction can't see them — no flat base, no iron. An infrared plate heats its own surface and works with whatever is already in the house."
+  },
+  {
+   "s": "B",
+   "t": "And what pushed them to buy at all? Price?"
+  },
+  {
+   "s": "A",
+   "t": "Not price. The price never moved. Gas is administered at two thousand and sixty rupees a cylinder and the state loses four hundred and eleven on every one."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the price couldn't move."
+  },
+  {
+   "s": "A",
+   "t": "So they rationed instead. From March, half-filled cylinders. And a household that can't tell whether gas will be available doesn't economise on gas. It buys a hedge."
+  },
+  {
+   "s": "B",
+   "t": "And the hedge is capital."
+  },
+  {
+   "s": "A",
+   "t": "A plate you buy once and keep forever. Which makes it one-way. The gas came back in July and the plate stayed on the counter."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the honourable exception in the whole issue."
+  },
+  {
+   "s": "A",
+   "t": "And it gets sharper. Compare two months two years earlier and the rise is sixteen per cent, not a tripling."
+  },
+  {
+   "s": "B",
+   "t": "So what's the argument?"
+  },
+  {
+   "s": "A",
+   "t": "That Nepal's energy problem was never megawatts. It was amperes. The state's own agency says full electric cooking would add three thousand megawatts — against a national peak demand of two thousand three hundred and twenty."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] More than the whole country draws."
+  },
+  {
+   "s": "A",
+   "t": "The bottleneck is the six-amp fuse and the distribution transformer. And the proof is history: the same shock in twenty fifteen, supply cut at the Indian border, produced deforestation. People went back to firewood."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the next constraint is one notch down the same chain."
+  },
+  {
+   "s": "A",
+   "t": "One notch down. And the part the customs data can't see: fifty-one per cent of Nepali households still burn wood. A two-and-a-half-thousand-rupee plate plus a fifteen-amp upgrade is a middle-class purchase."
+  },
+  {
+   "s": "B",
+   "t": "So it might be the top two deciles switching twice."
+  },
+  {
+   "s": "A",
+   "t": "It might be. And a woman a month into looking for a cylinder put it best: I'm getting more anxious every day. I don't even have an electric stove."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the sentence."
+  },
+  {
+   "s": "A",
+   "t": "A count that's complete beside a result that isn't. A congratulation with eighty-five of ninety-three stations outstanding. A revenue figure to the dollar beside a dollar sign with nothing after it."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And a newspaper that printed the reasons not to believe its own scoop."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

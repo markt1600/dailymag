@@ -1623,9 +1623,10 @@
       "venue": "Petra",
       "key": "Petra",
       "runs": [
-        135
+        135,
+        145
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 135 build",
       "note": "opening run — record the peg here"
     },
@@ -1871,6 +1872,36 @@
       "status": "OPEN",
       "checked": "No. 144 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Dough",
+      "key": "Dough",
+      "runs": [
+        145
+      ],
+      "status": "OPEN",
+      "checked": "No. 145 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sogurt",
+      "key": "Sogurt",
+      "runs": [
+        145
+      ],
+      "status": "OPEN",
+      "checked": "No. 145 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "SHAO @ Dempsey",
+      "key": "SHAO @ Dempsey",
+      "runs": [
+        145
+      ],
+      "status": "OPEN",
+      "checked": "No. 145 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1964,6 +1995,7 @@
     "Spicy Hubby",
     "Osteria Da Su",
     "Tokyo Onigiri",
+    "Petra",
     "Saikyo Pasta",
     "Your Mother’s House",
     "The CHOYA Ginza Bar Singapore"
