@@ -191,7 +191,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Yogeek | Yogeek | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Shi Tang by Mahota Kitchen | Shi Tang by Mahota Kitchen | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Rogs Race | Rogs Race | 134 | OPEN | No. 134 build | opening run — record the peg here |
-| Petra | Petra | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Petra | Petra | 135, 145 | SPENT | No. 135 build | opening run — record the peg here |
 | Saikyo Pasta | Saikyo Pasta | 135, 143 | SPENT | No. 135 build | opening run — record the peg here |
 | Shirazi | Shirazi | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |
@@ -216,3 +216,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | JR Pizzeria | JR Pizzeria | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | Woksta | Woksta | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | 7 Paintings | 7 Paintings | 144 | OPEN | No. 144 build | opening run — record the peg here |
+| Dough | Dough | 145 | OPEN | No. 145 build | opening run — record the peg here |
+| Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
+| SHAO @ Dempsey | SHAO @ Dempsey | 145 | OPEN | No. 145 build | opening run — record the peg here |
