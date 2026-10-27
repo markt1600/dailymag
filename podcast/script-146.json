@@ -1,0 +1,660 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 146,
+ "date": "Wednesday 28 October 2026",
+ "title": "Who is allowed to set a price",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Wednesday, the twenty-eighth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Israel voted, in the highest turnout since nineteen ninety-nine. And this morning not one ballot has been counted."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Not one?"
+  },
+  {
+   "s": "A",
+   "t": "Everything you have read is an exit poll."
+  },
+  {
+   "s": "B",
+   "t": "Second — Anthropic filed to go public, and the biggest number in the prospectus is a blank space. A dollar sign with nothing after it."
+  },
+  {
+   "s": "A",
+   "t": "Four separate times."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Four times. And third, Australia banned the fee you pay for using a card. Wait till you hear what happened to the bills you can't haggle over."
+  },
+  {
+   "s": "A",
+   "t": "We'll get there. Tel Aviv first. A hundred and twenty seats in the Knesset. Seven point three million registered voters, twelve thousand and eighteen polling stations, thirty-six party lists. Seventy-seven per cent at ten at night, on the elections committee's own count. About seven points above the same hour four years ago."
+  },
+  {
+   "s": "B",
+   "t": "So what did it produce? [chuckles] Naturally."
+  },
+  {
+   "s": "A",
+   "t": "Three broadcasters agree on the shape. The opposition bloc, led by Gadi Eisenkot, at fifty-two to fifty-three. The Arab parties at seventeen or eighteen, against the ten they hold now. The only arithmetic that reaches sixty-one runs through the Arab parties. Exactly. And the sharpest version of that was written in July, before a vote was cast. Joseph Mansour, once an adviser to an Arab member of the Knesset: Eisenkot can win, but he cannot govern without an Arab party in his coalition."
+  },
+  {
+   "s": "B",
+   "t": "[curious] What's the constraint?"
+  },
+  {
+   "s": "A",
+   "t": "The Israel Democracy Index. Seventy per cent of Jewish Israelis oppose including an Arab party in government. Avigdor Liberman has refused to serve alongside them. Naftali Bennett has ruled out relying on them. So fifty-two to fifty-three may not be a governing bloc at all."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Okay. So what actually settles this? Go on."
+  },
+  {
+   "s": "A",
+   "t": "They're called double-envelope ballots. Soldiers, diplomats, hospital patients, displaced residents — anyone who voted away from where they're registered. Each one is checked against a name on an outer envelope before the anonymous inner ballot joins the pile. One at a time. The acting director-general warned it could run to Friday morning. Official results are required by the fourth of November, and the Knesset convenes on the tenth. They lean right, historically."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the honest summary is that we don't know."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] We know the turnout. That's the only counted number of the night."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Can I push on the polls themselves? Because there were five, not three."
+  },
+  {
+   "s": "A",
+   "t": "There were. Channel fourteen, which is openly pro-Netanyahu, printed sixty to forty-three the other way. And Haaretz explains why without taking a side — the three that agree sampled, in its own words, a few dozen polling stations. Fourteen and fifteen ran a much larger survey. There's also a flat contradiction nobody has resolved. Haaretz's table gives one broadcaster's Likud figure as nineteen. That broadcaster's own published poll says twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "What else is on the world desk? [gasps] Sorry — Jordan?"
+  },
+  {
+   "s": "A",
+   "t": "Jordan bombed southern Syria."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Sorry — Jordan?"
+  },
+  {
+   "s": "A",
+   "t": "Three days after gunmen opened fire on mourners at a Greek Orthodox funeral in Karak, ninety kilometres south of Amman. Nine people killed. Islamic State claimed it. At a funeral. Three men were detained on Monday after a three-hour firefight, and the king ordered what he called an iron fist."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the strikes?"
+  },
+  {
+   "s": "A",
+   "t": "Four sites in rural Deraa and Suwayda, overnight Monday into Tuesday. Amman says more than twenty Islamic State fighters killed, and — this is the load-bearing claim — that the operation was conducted in coordination with Damascus."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] And Damascus says?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Damascus says it was never told. Its foreign ministry expressed complete reservation, said Jordan acted without prior coordination or notification, and an official called it a treacherous attack. No. And the fact they disagree on is the one that decides whether this was lawful. Syria counts seven civilians dead, five from one family, three of them children."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Is there anything that cuts between the two accounts?"
+  },
+  {
+   "s": "A",
+   "t": "The bereaved. Al Jazeera's report on Tuesday was headlined — families of victims killed in Jordanian strike deny links to church attack. A funeral was held the same day."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And the crossing?"
+  },
+  {
+   "s": "A",
+   "t": "Syrian customs shut Nassib."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Two quick ones before the money."
+  },
+  {
+   "s": "A",
+   "t": "The Ebola outbreak in the Democratic Republic of Congo has passed ten thousand confirmed cases. Ten thousand and sixty, with four thousand eight hundred and eighty-seven deaths. The number to watch is the control metric — about eighty per cent of new cases are coming from outside monitored transmission chains, where the threshold for calling an outbreak controlled is ninety-five per cent inside them."
+  },
+  {
+   "s": "B",
+   "t": "And Serbia?"
+  },
+  {
+   "s": "A",
+   "t": "The students won. With ninety-eight point seven per cent counted, the Student List has fifty-three point five against thirty-nine point six. Vučić conceded on election night, which ends fourteen years. About thirty protesters walked into the newsroom of a pro-government station on Monday and surrounded its owner, who broadcast the whole thing live."
+  },
+  {
+   "s": "B",
+   "t": "[curious] What did he say?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] They have said everything about themselves, and nothing about us."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That's a line. Okay — money."
+  },
+  {
+   "s": "A",
+   "t": "The American ten-year Treasury closed at four point nine nine per cent."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And underneath it?"
+  },
+  {
+   "s": "A",
+   "t": "The real yield — the yield after expected inflation — closed at two point six four. Subtract one from the other and the breakeven is two point three five. Ours, of two curves the Treasury publishes separately. The Federal Reserve's own series prints the same figure on the same day, so we're on solid ground. Brent settled at a hundred and fourteen dollars twenty-two. But a breakeven of two point three five says the bond market doesn't believe it embeds."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So where does the shock go?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Into the real rate, and into the dollar. A real ten-year yield of two point six four per cent is punishing by any standard since twenty-ten."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] What does that mean for someone holding global equities and global bonds?"
+  },
+  {
+   "s": "A",
+   "t": "That one force is pricing both. On the twenty-second of October the S and P fell one point two one per cent and the ten-year yield fell seventeen basis points. Both legs riding one impulse. The statement lands at two in the morning Singapore time on Thursday, about twenty-six hours after we went to press. A Reuters poll of a hundred economists: ninety-four expect a hold, and all one hundred expect a rise in December."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] All hundred? What's the Fed looking at?"
+  },
+  {
+   "s": "A",
+   "t": "September inflation ran nought point six per cent on the month, three point seven on the year. Payrolls came in at twenty-nine thousand against a consensus of ninety. Unemployment up to four point two."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Hot prices and a cracking labour market at once."
+  },
+  {
+   "s": "A",
+   "t": "And here's the part I'd keep. Third-quarter growth and the September P C E price index are both published at half past eight in New York on Thursday morning. They vote blind on both."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the bear case?"
+  },
+  {
+   "s": "A",
+   "t": "Jamie McGeever at Reuters wrote the best version. Doubts about artificial-intelligence spending push money into Treasuries, at the same moment energy keeps inflation alive. The Fed either cuts into a price shock or tightens into a growth scare. One-year inflation swaps at two point eight per cent, the highest since June, while longer-dated expectations barely moved. Nobody thinks it lasts. Everybody has to live through it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And at home?"
+  },
+  {
+   "s": "A",
+   "t": "Singapore's retirement age moves to sixty-five, and re-employment to seventy, on the first of January twenty twenty-nine. A full year ahead of the schedule set in twenty nineteen. Six recommendations, all accepted by government the day they landed."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Does the money follow?"
+  },
+  {
+   "s": "A",
+   "t": "Partly. The employment assistance payment is to rise, but the new amounts don't exist yet — they arrive in the first half of twenty twenty-seven. The new re-employment credit pays up to seven per cent of wages at sixty-nine and above."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Is anyone arguing against it?"
+  },
+  {
+   "s": "A",
+   "t": "No named economist did this week, and we went looking. The sharpest counterweight sits inside the government's own report. A poll of a hundred and sixty-five employers, taken in January. Forty-seven per cent said medical benefit costs influence whether they hire or retain a senior worker. You can legislate a retirement age. You cannot legislate an insurer's maximum entry age. Anthropic filed to list on the Nasdaq, ticker A N T."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] They just left it out?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] Four times. And three blanks inside that one sentence — the total, the amount before twenty thirty, and the amount due in the next twelve months."
+  },
+  {
+   "s": "B",
+   "t": "Okay, but that's normal for a first filing. They fill it in later."
+  },
+  {
+   "s": "A",
+   "t": "It is normal. Here's what isn't. The same document calls the company the fastest-growing technology business in history — and then gives the growth as revenue rising from zero at launch to dollar sign, blank, for the three months ended September thirtieth."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The growth number is missing from the growth claim."
+  },
+  {
+   "s": "A",
+   "t": "Three times. The audited statements stop at the thirtieth of June."
+  },
+  {
+   "s": "B",
+   "t": "So what do we know?"
+  },
+  {
+   "s": "A",
+   "t": "First-half revenue, sixteen point three billion dollars. And the headline loss of eighty point seven billion is mostly not a loss — seventy-two point four billion is a revaluation of convertible instruments, driven by the company's own rising valuation."
+  },
+  {
+   "s": "B",
+   "t": "So the operating line?"
+  },
+  {
+   "s": "A",
+   "t": "An operating loss of six hundred and ninety-three million for the half, and a billion dollars of operating income in the June quarter. Microsoft, at least forty-four point nine billion. Google, at least a hundred and fourteen point five. SpaceX dot A I — formerly x A I, now a wholly owned SpaceX subsidiary — up to a hundred and twenty point five billion. About three point one billion a month once capacity lands in December."
+  },
+  {
+   "s": "B",
+   "t": "Does anyone total it up?"
+  },
+  {
+   "s": "A",
+   "t": "Six outlets, six different totals. Four hundred and seventeen billion. Five eighteen. Five forty-two to five sixty-seven. Six oh two. Six thirty-seven. And one estimate approaching a trillion. Though there is a fair sceptic. Raphaëlle d'Ornano confirmed the blanks independently and refused the obvious reading — that is not concealment, she writes, so much as a sign that the instruments have not caught up."
+  },
+  {
+   "s": "B",
+   "t": "Meaning accounting hasn't built a box for this yet. And there's a correction."
+  },
+  {
+   "s": "A",
+   "t": "Ours. Yesterday we cited a bug number for a cache-corruption problem in a local-inference server. Wrong number — that one is an unrelated merged feature."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And the real one?"
+  },
+  {
+   "s": "A",
+   "t": "Issue five five seven six six. Still open. No assignee, no linked fix, no maintainer comment in seven weeks. The model's output goes to not-a-number, and the bad state gets cached — so retries fail identically until the cache turns over."
+  },
+  {
+   "s": "B",
+   "t": "How bad in practice?"
+  },
+  {
+   "s": "A",
+   "t": "One incident generated thirty-two thousand tokens of nothing over about eleven minutes. There are workarounds on the thread, from the people reporting it rather than the maintainers."
+  },
+  {
+   "s": "B",
+   "t": "Say the wrong thing, print the right thing. The Kit?"
+  },
+  {
+   "s": "A",
+   "t": "Samsung's first clip-on open-ear bud went on sale in Korea on Monday, at two hundred and ninety-nine thousand won."
+  },
+  {
+   "s": "B",
+   "t": "What's missing?"
+  },
+  {
+   "s": "A",
+   "t": "No water rating. No Bluetooth version. No codec list. No weight. No case capacity."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And yet?"
+  },
+  {
+   "s": "A",
+   "t": "At least two technology sites are now reporting it as I P fifty-four."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Where did that come from?"
+  },
+  {
+   "s": "A",
+   "t": "[skeptical] Not from Samsung. A specification the maker never gave is circulating as fact within a day of launch. And on the headphone we held open yesterday — the three-thousand-seven-hundred-and-ninety-nine-dollar Audio-Technica. The euro-against-dollar discrepancy isn't an error. It's parity pricing. Three seven nine nine in dollars, three seven nine nine in euros, three two nine nine in pounds."
+  },
+  {
+   "s": "B",
+   "t": "So a European pays about ten per cent more for the same object."
+  },
+  {
+   "s": "A",
+   "t": "[wry] And a British buyer pays less than both. Still no Singapore price, still no published distortion figure, and still nobody has measured it."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier?"
+  },
+  {
+   "s": "A",
+   "t": "Table linen. And the fact that does the work is a measurement — a hundred and seventy-five centimetres."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "The loom width. Every double damask cloth the last serious Irish weaver lists is a hundred and seventy-five centimetres wide, and runs to five metres ninety-five long. Every cloth from the Alsace house is a hundred and seventy. A Finnish mill's are a hundred and fifty. A wide cloth for a round table needs a wide loom or a seam. The honest houses go longer instead."
+  },
+  {
+   "s": "B",
+   "t": "And the brand truth?"
+  },
+  {
+   "s": "A",
+   "t": "Belgian linen is a weaving address. The label's own rules require only that the fabric be woven in a Belgian mill and that eighty-five per cent of its weight be E U-grown flax. The flax needn't be Belgian, and the cloth needn't be all linen."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So what's the other fifteen per cent?"
+  },
+  {
+   "s": "A",
+   "t": "In one famous Belgian house's budget line, at two hundred and twenty-three US dollars — forty per cent polyester. And at the top, an American luxury house sells a five-hundred-and-fifty-dollar linen cloth and says, in small type and to its credit, made in Philippines of fabric from Italy."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole. Darkroom printing. The enlarger, the paper, the print."
+  },
+  {
+   "s": "A",
+   "t": "And it earns three pages because somebody measured the thing everyone assumes."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "Ilford surveyed printers in late twenty nineteen. Five thousand four hundred and thirty-nine responses from eighty-seven countries. Sixty-nine per cent printers, thirty-one per cent not."
+  },
+  {
+   "s": "B",
+   "t": "And the ones who don't?"
+  },
+  {
+   "s": "A",
+   "t": "Eighty-six per cent said they would try it if their single main obstacle were addressed."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Not mystique. A room and a budget."
+  },
+  {
+   "s": "A",
+   "t": "Which makes the economics the whole story. On the German classifieds on Monday — a Durst M six oh five, a hundred and forty-nine euros. A Durst Laborator twelve hundred with a colour head — the serious large-format chassis — eight hundred and fifty euros in Munich. A fully working Leitz Focomat two C, four hundred and seventy-five in Stuttgart. New ones do still exist — Kaiser, L P L, Beseler, Paterson and Intrepid."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Keep going."
+  },
+  {
+   "s": "A",
+   "t": "And at the other end, Intrepid sells a compact enlarger for three hundred pounds, small enough to live in a cupboard. For that hundred-and-forty-nine-euro Durst, the head costs one thousand one hundred and eighty-nine euros. Two thousand six hundred and sixty-six euros of electronics, bolted onto a hundred-and-forty-nine-euro casting. And for the motorised version the dealer says it plainly — you buy the system, then your enlarger head must be shipped to them in Bad Saarow to be converted."
+  },
+  {
+   "s": "B",
+   "t": "Lead time? [chuckles] Which is itself the description of that tier. What does a print cost?"
+  },
+  {
+   "s": "A",
+   "t": "Fibre paper, eight by ten, in hundreds — about a pound fifty a sheet. Resin-coated, ninety-four pence. Sixteen by twenty, five ninety-nine. Nobody does. Reckon two to four sheets for one you keep, so a finished eight-by-ten in fibre is four pounds fifty to seven fifty in materials."
+  },
+  {
+   "s": "B",
+   "t": "Is the multiplier yours?"
+  },
+  {
+   "s": "A",
+   "t": "Ours. The sheet prices are not. And nothing removes the test strip — one printer puts it well: even reprinting the same negative, at the same size, on the same paper, he still makes one."
+  },
+  {
+   "s": "B",
+   "t": "Give me the sceptic, because this is exactly the kind of hobby that gets romanticised."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic is the trade itself. A British trade printer, on a forum: there is, bluntly, a massive cost advantage with digital exposure and wet process, as opposed to hand enlarging."
+  },
+  {
+   "s": "B",
+   "t": "That's cost. What about quality?"
+  },
+  {
+   "s": "A",
+   "t": "Someone in the same thread lands the knife. Ilford and Harman use a special printer. It does do silver gelatin prints — but they're from scans."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The biggest name in silver gelatin will sell you one made from a scan."
+  },
+  {
+   "s": "A",
+   "t": "And the craft's signature technique gets demystified by its own best teacher. Split-grade printing — two exposures, soft then hard. Sroyon Mukherjee writes that any straight split-grade print can be replicated with a single exposure using the right filters."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Then why do it?"
+  },
+  {
+   "s": "A",
+   "t": "His answer, and I like him for it — split grade printing just feels cool. The year's scoreboard is honest too. One genuinely new thing shipped: an open-source f-stop timer, three hundred dollars assembled, two hundred as a bare board, undercutting a three-hundred-and-ninety-nine-pound incumbent whose website still carries a twenty-twenty copyright line and an unedited placeholder heading. And from the industry's largest manufacturer, in twelve months: four film accessories, a collector's-edition film box, and no darkroom product at all."
+  },
+  {
+   "s": "B",
+   "t": "Can you do this in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "One place. Objectifs, on Middle Road, reopened its darkroom after a nine-year gap. Forty dollars for the first two hours, fifteen an hour after, chemicals included. You bring paper. There's a catch, in their own rule. You must already know how to use an enlarger."
+  },
+  {
+   "s": "B",
+   "t": "And the class that teaches you? [sighs] Of course it is."
+  },
+  {
+   "s": "A",
+   "t": "One honest gap, too. We could not find a single Singapore-specific source on darkroom water temperature or humidity. What we can say is that the entire accessory market exists to heat water — northern printers fight to get it up to twenty degrees, and our tap runs warmer than that all year. And we said so on the page."
+  },
+  {
+   "s": "B",
+   "t": "Culture, briefly — there's a number I can't get past. Per screen. On a Sunday."
+  },
+  {
+   "s": "A",
+   "t": "Taika Waititi's adaptation of Klara and the Sun opened on Friday to seven hundred and one thousand and fifty-nine dollars from eight hundred and eighty theatres. Budget, twenty million."
+  },
+  {
+   "s": "B",
+   "t": "And the reviews?"
+  },
+  {
+   "s": "A",
+   "t": "Metacritic: thirty, from twenty-six reviews. Twelve mixed, fourteen negative, and zero positive."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Not one?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Not one in the green. Though the audience score sits at seventy-eight against a critic score of twenty-four, which is not the shape of a film nobody can watch."
+  },
+  {
+   "s": "B",
+   "t": "And the one that worked?"
+  },
+  {
+   "s": "A",
+   "t": "Wicker. Ten-million-dollar budget, five point seven million opening, ninety-five per cent from a hundred and thirty-one critics. Same day. And its Metacritic seventy hides a wider argument than the aggregate suggests. The New York Times scored it a hundred. The Telegraph scored it twenty."
+  },
+  {
+   "s": "B",
+   "t": "The body, before we close?"
+  },
+  {
+   "s": "A",
+   "t": "A Singapore-led meta-analysis: twenty-nine randomised trials, seven and a half thousand adults. Apps that make you stake money or social standing bought people six hundred and sixty-five extra steps a day."
+  },
+  {
+   "s": "B",
+   "t": "Is that a lot?"
+  },
+  {
+   "s": "A",
+   "t": "About six minutes of walking. But look at the agreement — heterogeneity of zero per cent, across twenty-nine independent trials. We said so. A step count is machine-recorded, which strips out the reporting noise that makes weight trials disagree. In the same analysis, weight has heterogeneity of seventy per cent."
+  },
+  {
+   "s": "B",
+   "t": "So possibly the same effect, measured well and measured badly."
+  },
+  {
+   "s": "A",
+   "t": "And the facing literature is worse. Two meta-analyses this year, of roughly the same twenty-odd exercise-snacks trials. One rated the fitness gain moderate certainty. The other corrected for publication bias, and the effect fell to p equals nought point three two. Null. Same literature, opposite answer. Not medical advice, as always. Three thousand four hundred and thirty-four Singapore schoolchildren, roughly eleven to thirteen, followed across three years. The heaviest-gaming quarter averaged fifty-seven hours a week. What predicted it was impulse control."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So a time limit is the wrong instrument?"
+  },
+  {
+   "s": "A",
+   "t": "For a child already deep in it, maybe. For an occasional player, hours explained twelve per cent of the change — so limits are doing real work there."
+  },
+  {
+   "s": "B",
+   "t": "Caveats?"
+  },
+  {
+   "s": "A",
+   "t": "The authors' own. The data are from two thousand seven to two thousand nine. The sample is seventy-three per cent male. And the paper reports no confidence intervals for its main effect sizes. Australia. That's the story everyone reported. Here's the one nobody did. One owner said her customers had been paying a one point three per cent surcharge — on a five-dollar-nine flat white, that's six point six cents."
+  },
+  {
+   "s": "B",
+   "t": "And they raised by?"
+  },
+  {
+   "s": "A",
+   "t": "Of the cafés that moved, the average rise was fifty-five cents. Though seventy-two per cent held their price, and across all of them the average rose six cents — which is almost exactly the fee removed. The mean is fine. The distribution is brutal."
+  },
+  {
+   "s": "B",
+   "t": "And did it keep creeping?"
+  },
+  {
+   "s": "A",
+   "t": "Of thirteen hundred and fifty-one cafés checked twice inside October, fifteen per cent had raised at the first check and twenty-two per cent by the second."
+  },
+  {
+   "s": "B",
+   "t": "Right. And the part nobody reported?"
+  },
+  {
+   "s": "A",
+   "t": "A letting agent cannot rewrite a price. The rent is a number in a lease. A strata levy is struck by an owners' corporation. A tax liability is the tax liability."
+  },
+  {
+   "s": "B",
+   "t": "So what did they do?"
+  },
+  {
+   "s": "A",
+   "t": "They deleted the card. Macquarie's payment rail — the one a large share of Australian rent and strata levies run through — stopped accepting cards on the first of October, and automatically cancelled every scheduled card payment after that date. A rent platform ended them. And the Australian tax office said it would stop taking credit cards rather than absorb almost two hundred million dollars a year — a deadline that has since slipped to June of twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "What was actually lost? The fee was real money."
+  },
+  {
+   "s": "A",
+   "t": "Timing. The card on your rent bought up to fifty-odd days of float on the largest and least deferrable payment in a household budget. It cost one and a half per cent — five hundred and forty-six dollars a year on seven hundred a week — and what people were buying was not convenience. It was weeks. And abolishing the price abolished the timing."
+  },
+  {
+   "s": "B",
+   "t": "Is there a sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Two, and both come from the people whose numbers made the story. The man who built the price index says the ban was a tipping point rather than a cause — his own series had the average cup climbing before the ban touched anything. And it's a telephone sample, which may over-represent the cafés that changed."
+  },
+  {
+   "s": "B",
+   "t": "And the second?"
+  },
+  {
+   "s": "A",
+   "t": "The tax office's own arithmetic. Credit cards were two point three per cent of tax payments, and six in ten of those came from wealthy groups or major corporations. For most of that two point three per cent, probably. And then there's the strangest part."
+  },
+  {
+   "s": "B",
+   "t": "Which is?"
+  },
+  {
+   "s": "A",
+   "t": "Surcharges were never in the consumer price index. The central bank says so in its own paper. So folding them into sticker prices adds about a tenth of a percentage point to measured inflation. Australian headline inflation ran four per cent in August. The cash rate went to four point six on the thirtieth of September. What it reveals isn't a scandal. The party that can rewrite its own price treats a mandated fee as an opportunity."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the fee is gone from every receipt either way."
+  },
+  {
+   "s": "A",
+   "t": "On one side of the economy it went into the price. On the other, the card went with it."
+  },
+  {
+   "s": "B",
+   "t": "Adam Smith's on page two this morning, isn't he."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices."
+  },
+  {
+   "s": "B",
+   "t": "Usually aimed at cartels."
+  },
+  {
+   "s": "A",
+   "t": "Better read as a remark about where prices come from. Not from a rule. From whoever is in a position to write one down."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Right."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

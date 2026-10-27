@@ -1727,9 +1727,10 @@
       "venue": "Matsuya",
       "key": "Matsuya",
       "runs": [
-        138
+        138,
+        146
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 138 build",
       "note": "opening run — record the peg here"
     },
@@ -1902,6 +1903,36 @@
       "status": "OPEN",
       "checked": "No. 145 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Xiao Jiao Tian",
+      "key": "Xiao Jiao Tian",
+      "runs": [
+        146
+      ],
+      "status": "OPEN",
+      "checked": "No. 146 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Foca Kumpir",
+      "key": "Foca Kumpir",
+      "runs": [
+        146
+      ],
+      "status": "OPEN",
+      "checked": "No. 146 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Ng Kuan Chilli Pan Mee",
+      "key": "Ng Kuan Chilli Pan Mee",
+      "runs": [
+        146
+      ],
+      "status": "OPEN",
+      "checked": "No. 146 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -1998,6 +2029,7 @@
     "Petra",
     "Saikyo Pasta",
     "Your Mother’s House",
-    "The CHOYA Ginza Bar Singapore"
+    "The CHOYA Ginza Bar Singapore",
+    "Matsuya"
   ]
 }

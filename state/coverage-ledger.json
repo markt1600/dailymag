@@ -1,5 +1,5 @@
 {
-  "count": 1081,
+  "count": 1094,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,97 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Anthropic, PBC Form S-1 (Nasdaq: ANT)",
+      "type": "Filing (IPO)",
+      "last_covered": "No. 146",
+      "last_peg": "Technology LEAD &mdash; filed 26 Oct, file 333-299633; H1 revenue <b>$16.3bn</b>, operating loss <b>$693m</b> against a headline <b>$80.7bn</b> net loss of which <b>$72.4bn</b> is a fair-value revaluation; <b>the aggregate compute commitment is blank in four places and Q3 revenue is blank in three</b>; named floors Microsoft $44.9bn, Google $114.5bn, Amazon $110.0bn, Broadcom lease $125.2bn, Space",
+      "next_peg": "OPEN &mdash; next peg: the S-1/A that fills the blanks, or a priced range."
+    },
+    {
+      "subject": "Liquid AI LFM3 (six open-weight models)",
+      "type": "Product (model release)",
+      "last_covered": "No. 146",
+      "last_peg": "The Home Lab LEAD &mdash; released 27 Oct on a <b>1.73B</b> tri-hybrid backbone (13 gated short conv / 6 full GQA / 5 sliding-window), <b>256K</b> context, QAD-Q4_0 at <b>0.98 GiB</b>; llama.cpp merged text+vision (PR 31252) and audio+omni (31257) the same day, <b>smoke-tested only, no tok/s or perplexity published</b>; licence stops at <b>US$10m</b> revenue.",
+      "next_peg": "OPEN &mdash; next peg: an independent evaluation entry, or a measured third-party benchmark."
+    },
+    {
+      "subject": "vLLM issue 55766 (GDN prefix-cache corruption)",
+      "type": "Bug (open)",
+      "last_covered": "No. 146",
+      "last_peg": "The Home Lab &mdash; <b>correction run: No. 145 printed the wrong issue number</b>. Still open, no assignee, no linked fix, no maintainer comment in seven weeks; reproduced on 4&times;4090 and on a single 3090 (<b>58 of 60 requests wrong at a four-token prefill tail, 37 of them NaN</b>).",
+      "next_peg": "OPEN &mdash; next peg: a merged fix, a maintainer triage, or a release note."
+    },
+    {
+      "subject": "Samsung Galaxy Buds On",
+      "type": "Product (audio)",
+      "last_covered": "No. 146",
+      "last_peg": "The Kit LEAD &mdash; on sale in Korea 27 Oct at <b>KRW 299,000</b>, 11.3mm driver, 9.5h/38h, <b>no IP rating, Bluetooth version, codec list, weight or case capacity published</b> &mdash; and two outlets are printing an <b>IP54</b> Samsung never gave. No Singapore price.",
+      "next_peg": "OPEN &mdash; next peg: a Singapore price, an independent review, or a published IP rating."
+    },
+    {
+      "subject": "Audio-Technica ATH-AWX7000",
+      "type": "Product (audio)",
+      "last_covered": "No. 146",
+      "last_peg": "The Kit &mdash; <b>the held &euro;/$ question is answered: parity pricing, not an error</b>. US$3,799 / &euro;3,799 / &pound;3,299. No Singapore price, no distortion spec, <b>and still no measurement anywhere</b>; the only verdicts are two reviewers&rsquo; ears.",
+      "next_peg": "OPEN &mdash; next peg: a published measurement, or a Singapore price."
+    },
+    {
+      "subject": "Breitling Navitimer B09 Chronograph 41",
+      "type": "Product (watch)",
+      "last_covered": "No. 146",
+      "last_peg": "The Good Life LEAD &mdash; launched 22 Oct, hand-wound COSC calibre B09, 70h, 41&times;13mm, <b>S$10,450</b> in Singapore against US$7,900&ndash;9,600; <b>six public prices in one week, two of them contradicting each other inside one article that also gave two lug-to-lug figures</b>.",
+      "next_peg": "OPEN &mdash; next peg: a reconciled price, a grey-market discount, or an independent accuracy test."
+    },
+    {
+      "subject": "Klara and the Sun (2026, dir. Waititi)",
+      "type": "Film",
+      "last_covered": "No. 146",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; opened 23 Oct to <b>$701,059 from 880 theatres</b>, Sunday average <b>$198</b>, on a $20m budget; Metacritic <b>30 from 26 reviews with zero positive</b>, RT <b>24% from 75</b> against an audience <b>78</b>.",
+      "next_peg": "OPEN &mdash; next peg: the second-weekend hold, or an overseas opening."
+    },
+    {
+      "subject": "Wicker (2026, Black Bear)",
+      "type": "Film",
+      "last_covered": "No. 146",
+      "last_peg": "Screen &amp; Sound &mdash; opened 23 Oct to <b>$5,745,945 from 1,471 theatres</b> on a $10m budget; RT <b>95% from 131</b>, Metacritic <b>70 from 32</b> concealing a <b>100 from the NYT against a 20 from the Telegraph</b>.",
+      "next_peg": "OPEN &mdash; next peg: a second-weekend hold or an awards run."
+    },
+    {
+      "subject": "Bediou et al., Singapore gaming reanalysis (PLoS One e0356080)",
+      "type": "Study",
+      "last_covered": "No. 146",
+      "last_peg": "The Family Desk LEAD &mdash; n=<b>3,434</b>, ages ~11&ndash;13, three waves 2007&ndash;09; heaviest quarter averaged <b>57 hours a week</b>; <b>no within-person link between hours and problematic gaming</b>, impulse control dominating among heavy users; <b>no confidence intervals for the main effect sizes</b>, 73 per cent male, and two internal figures that do not reconcile.",
+      "next_peg": "CLOSED as a finding. Next peg = a replication on current data, or an age-stratified follow-up."
+    },
+    {
+      "subject": "Turkey social-media age regulation (Gazette 33396)",
+      "type": "Policy",
+      "last_covered": "No. 146",
+      "last_peg": "The Tween Years LEAD &mdash; in force 1 Nov: <b>under-15s barred outright</b>; 15&ndash;17s get private-by-default accounts with <b>no live streaming, no infinite scroll, no autoplay</b> and no profiling; verification discloses only whether the user has passed 15 and 18; legacy accounts checked by <b>31 Mar 2027</b>.",
+      "next_peg": "OPEN &mdash; next peg: enforcement after 1 November, or the first penalty."
+    },
+    {
+      "subject": "Chen et al., digital commitment devices (EJPC)",
+      "type": "Study",
+      "last_covered": "No. 146",
+      "last_peg": "Fitness LEAD &mdash; 29 RCTs, n=<b>7,534</b>; <b>+664.87 steps/day (CI 463&ndash;867, I&sup2;=0)</b>, weight <b>&minus;1.90kg at I&sup2;=70</b>; no primary/secondary designation in the abstract; no conflicts declared, funding unread.",
+      "next_peg": "CLOSED as a finding. Next peg = a trial running past twelve months."
+    },
+    {
+      "subject": "Australia card-surcharge ban (RBA, 1 Oct 2026)",
+      "type": "Policy",
+      "last_covered": "No. 146",
+      "last_peg": "The Long Read &mdash; the Undercurrent. Interchange cap 0.8&rarr;0.3 per cent; <b>20 per cent of caf&eacute;s raised by an average 55c against a ~6.6c fee</b>; <b>DEFT, Stratapay, RentMate and the ATO withdrew card acceptance</b>; the RBA concedes surcharges were never in the CPI and the change adds ~0.1pp.",
+      "next_peg": "OPEN &mdash; next peg: the October CPI print, the ATO&rsquo;s June 2027 deadline, or a reinstatement."
+    },
+    {
+      "subject": "Singapore retirement/re-employment ages (TWG-SE)",
+      "type": "Policy",
+      "last_covered": "No. 146",
+      "last_peg": "Singapore LEAD &mdash; <b>65 and 70 from 1 Jan 2029</b>, a year ahead of schedule; six recommendations all accepted; Re-Employment Credit replaces the SEC from 2028 at up to <b>7 per cent</b>; <b>the new Employment Assistance Payment amounts are not published until H1 2027</b>.",
+      "next_peg": "OPEN &mdash; next peg: the H1 2027 detail, or the legislation."
     },
     {
       "subject": "Meta Adventurer (Meta Glasses)",

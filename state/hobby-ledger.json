@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Darkroom printing (black-and-white)",
+      "issue": "146",
+      "angle": "<b>&euro;2,666 of electronics bolted to a &euro;149 casting.</b> Auto-picked from No. 145&rsquo;s chips over marquetry and origami; distinct from the covered film-photography desk &mdash; this is the enlarger, the paper and the print. SCALE: <b>Ilford&rsquo;s 2019 global darkroom survey, 5,439 respo"
+    },
+    {
       "hobby": "Competitive barbecue &amp; live-fire cooking",
       "issue": "145",
       "angle": "<b>Competition is this hobby&rsquo;s aristocracy, not its population.</b> Auto-picked from No. 144&rsquo;s Next-Descents chips (the strongest of barbecue, marquetry and origami). MECHANISM, all from Greg Blonder&rsquo;s own experiments: the stall is <b>evaporative cooling</b>, not collagen or render"
@@ -587,7 +592,7 @@
       "fit": "A livestock hobby with a hive-standard argument, a treatment-free schism and a honey yield that is mostly weather"
     },
     {
-      "hobby": "Darkroom printing (black-and-white)",
+      "hobby": "~~Darkroom printing (black-and-white)~~ (COVERED, No. 146)",
       "category": "Craft / photography",
       "communities": "r/analog, Photrio, the Ilford and Fomapan user scenes",
       "fit": "A chemistry craft on secondhand enlargers, where the paper is the consumable and the grading is a number nobody agrees on"
@@ -621,6 +626,18 @@
       "category": "Tech / space",
       "communities": "SatNOGS network forums, r/amateursatellites, Libre Space",
       "fit": "A receive-only space hobby with a real open-hardware ground-station ladder"
+    },
+    {
+      "hobby": "Letterpress &amp; hand bookbinding",
+      "category": "Craft / print",
+      "communities": "Briar Press, the Letpress list, the Fine Press Book Association",
+      "fit": "Cast type and platen presses with real part numbers; buy-once kit that holds value and a Singapore humidity problem"
+    },
+    {
+      "hobby": "Home cheesemaking",
+      "category": "Food / craft",
+      "communities": "r/cheesemaking, curd-nerd boards, New England Cheesemaking",
+      "fit": "A patient dairy craft with a culture-and-rennet ladder; distinct from the covered fermentation desk"
     }
   ],
   "retired": [

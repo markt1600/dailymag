@@ -201,7 +201,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Curry Popo | Curry Popo | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Rawr Cafe | Rawr Cafe | 138 | OPEN | No. 138 build | opening run — record the peg here |
-| Matsuya | Matsuya | 138 | OPEN | No. 138 build | opening run — record the peg here |
+| Matsuya | Matsuya | 138, 146 | SPENT | No. 138 build | opening run — record the peg here |
 | Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
 | Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |
 | Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139 | OPEN | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
@@ -219,3 +219,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Dough | Dough | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | SHAO @ Dempsey | SHAO @ Dempsey | 145 | OPEN | No. 145 build | opening run — record the peg here |
+| Xiao Jiao Tian | Xiao Jiao Tian | 146 | OPEN | No. 146 build | opening run — record the peg here |
+| Foca Kumpir | Foca Kumpir | 146 | OPEN | No. 146 build | opening run — record the peg here |
+| Ng Kuan Chilli Pan Mee | Ng Kuan Chilli Pan Mee | 146 | OPEN | No. 146 build | opening run — record the peg here |
