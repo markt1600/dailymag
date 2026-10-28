@@ -1459,9 +1459,10 @@
       "venue": "Pull by TPG",
       "key": "Pull by TPG",
       "runs": [
-        128
+        128,
+        147
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 128 build",
       "note": "opening run — record the peg here"
     },
@@ -1593,9 +1594,10 @@
       "venue": "Yogeek",
       "key": "Yogeek",
       "runs": [
-        134
+        134,
+        147
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 134 build",
       "note": "opening run — record the peg here"
     },
@@ -1933,6 +1935,36 @@
       "status": "OPEN",
       "checked": "No. 146 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Postboy Coffee",
+      "key": "Postboy Coffee",
+      "runs": [
+        147
+      ],
+      "status": "OPEN",
+      "checked": "No. 147 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Cafe Yasuragi",
+      "key": "Cafe Yasuragi",
+      "runs": [
+        147
+      ],
+      "status": "OPEN",
+      "checked": "No. 147 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Cafe Nesuto",
+      "key": "Cafe Nesuto",
+      "runs": [
+        147
+      ],
+      "status": "OPEN",
+      "checked": "No. 147 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -2022,10 +2054,12 @@
     "O/SIO",
     "Blue Label Tavern",
     "Base Gelato",
+    "Pull by TPG",
     "Soft Order",
     "Spicy Hubby",
     "Osteria Da Su",
     "Tokyo Onigiri",
+    "Yogeek",
     "Petra",
     "Saikyo Pasta",
     "Your Mother’s House",

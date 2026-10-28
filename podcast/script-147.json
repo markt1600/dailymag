@@ -1,0 +1,788 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 147,
+ "date": "Thursday 29 October 2026",
+ "title": "The measurement nobody took",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the twenty-ninth of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Two high-speed trains collided in Spain yesterday morning. At least sixty-eight people are dead."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Sixty-eight."
+  },
+  {
+   "s": "A",
+   "t": "And the part that will stay with you is that somebody had already written down the number that would have prevented it."
+  },
+  {
+   "s": "B",
+   "t": "Second — Anthropic's filing names six hundred and thirty-seven billion dollars of compute deals, and leaves the total blank."
+  },
+  {
+   "s": "A",
+   "t": "Five separate times."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Five. And third, a study of nearly twenty-four thousand Icelandic teenagers asked whether banning phones in school helps. The answer is going to annoy everybody."
+  },
+  {
+   "s": "A",
+   "t": "Start with Spain, because the mechanism is unusually clear and unusually bleak. About eight fifty-three yesterday morning. A Renfe high-speed service, Madrid to Seville, runs into the back of a stationary Iryo train. Kilometre one-eighteen, between Los Yébenes and Urda, in Toledo province."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Both trains full?"
+  },
+  {
+   "s": "A",
+   "t": "Five hundred and forty-four people across the two. At least sixty-eight killed. Spain entered three days of national mourning at midnight."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And this is the second one this year."
+  },
+  {
+   "s": "A",
+   "t": "Adamuz, in January. Forty-six dead. The signalling system failed at eight thirty-two. It's called L Z B. Six trains stopped across a ninety-kilometre stretch."
+  },
+  {
+   "s": "B",
+   "t": "Which is the system working, surely. Trains stop."
+  },
+  {
+   "s": "A",
+   "t": "Trains stop. Then Adif's control centre in Madrid authorised all six to resume, about eight minutes later, under rules called marcha a la vista — proceed on sight."
+  },
+  {
+   "s": "B",
+   "t": "Which means?"
+  },
+  {
+   "s": "A",
+   "t": "Forty kilometres an hour. Maximum."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the one that hit?"
+  },
+  {
+   "s": "A",
+   "t": "About two hundred. The rule existed. The number existed. What didn't travel, somewhere between the desk and the cab, was the figure that mattered."
+  },
+  {
+   "s": "B",
+   "t": "Is anyone saying that out loud?"
+  },
+  {
+   "s": "A",
+   "t": "The transport minister, Óscar Puente, called the control centre's decision inexplicable and erroneous. He also said a rear-end collision on the high-speed network is, quote, truly implausible."
+  },
+  {
+   "s": "B",
+   "t": "Which is a strange thing to say about something that just happened."
+  },
+  {
+   "s": "A",
+   "t": "[wry] It is. He refused to resign. The prime minister said two such crashes inside a year is — his word — unacceptable, and that if there has been negligence, it will be known. The pushback is the good part. The sharpest line came from the company whose train got hit. Carlos Bertomeu, chairman of Iryo: it should never have happened, and it has happened again."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Oof."
+  },
+  {
+   "s": "A",
+   "t": "And the rail traffic union called it lamentable that human error was being named before the experts had finished."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Do we find out who's right?"
+  },
+  {
+   "s": "A",
+   "t": "We do, and specifically. A court sealed the scene at nine fifteen last night and seized the black boxes. Those, plus the control-centre logs, will show whether the authorisation the AVE received actually carried the speed cap."
+  },
+  {
+   "s": "B",
+   "t": "And if it didn't?"
+  },
+  {
+   "s": "A",
+   "t": "Then it stops being a driver story."
+  },
+  {
+   "s": "B",
+   "t": "What did the engineers make of it?"
+  },
+  {
+   "s": "A",
+   "t": "Hacker News, a hundred and sixty-four points inside a day. One commenter asked the question no minister asked: when the supervision system drops out, does the fallback actually enforce separation between trains, or is it just driver discipline at three hundred kilometres an hour?"
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's the whole thing in one sentence."
+  },
+  {
+   "s": "A",
+   "t": "Another one made the pedantic correction that is the story. A high-speed train collided with a stationary train."
+  },
+  {
+   "s": "B",
+   "t": "Elsewhere in the world — Israel. We went to press on Wednesday with nothing counted."
+  },
+  {
+   "s": "A",
+   "t": "Now we have most of it. Eighty-nine point eight per cent counted. Netanyahu's bloc fifty-three, Eisenkot's forty-eight, the Arab parties nineteen."
+  },
+  {
+   "s": "B",
+   "t": "Out of a hundred and twenty."
+  },
+  {
+   "s": "A",
+   "t": "And you need sixty-one. Nobody wins. Netanyahu is down from sixty-eight. The Arab parties are up from ten — their best ever."
+  },
+  {
+   "s": "B",
+   "t": "Does the rest of the count change it?"
+  },
+  {
+   "s": "A",
+   "t": "Assaf Shapira at the Israel Democracy Institute: I don't predict that it will make a lot of difference. Maybe one or two seats between parties. Likud's response was a statement saying the election was stolen by Arab parties that support terror. The elections committee says it's reviewing the complaint, having already told a broadcaster the claims were unfounded."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Right."
+  },
+  {
+   "s": "A",
+   "t": "One more caution, from Sylvaine Bulle in Paris, on everyone doing the coalition arithmetic. Of the opposition and the Arab lists — you cannot simply add their seats."
+  },
+  {
+   "s": "B",
+   "t": "Money. The Fed met."
+  },
+  {
+   "s": "A",
+   "t": "The Fed held at three and three-quarters to four per cent. Ten votes to two. Lisa Cook and Beth Hammack. Both wanted to raise."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Both dissents were hawkish?"
+  },
+  {
+   "s": "A",
+   "t": "Both. This is a hiking cycle, not an easing one, and the chair is Kevin Warsh. Three paragraphs. No forward guidance, no projections. Activity expanding at a strong pace, inflation elevated. And then a sentence that is a declaration, not a forecast: the Committee will deliver price stability."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Strong words."
+  },
+  {
+   "s": "A",
+   "t": "Here's the timing, though. The operative phrase in the statement is the accumulation of more information. The September inflation print — their own measure — comes out at half past eight this morning in Washington. The morning after they voted."
+  },
+  {
+   "s": "B",
+   "t": "[pause] They decided before they saw it."
+  },
+  {
+   "s": "A",
+   "t": "They decided before they saw it."
+  },
+  {
+   "s": "B",
+   "t": "How did the market take it?"
+  },
+  {
+   "s": "A",
+   "t": "Not as a dovish hold. The ten-year rose six basis points to five point nought five. The two-year fell three. And the S and P rose a quarter per cent on the same session, so bonds hedged nothing at all. What is driving the long end is oil. Brent near a hundred and fourteen dollars, up seventy-seven per cent in a year. Australia's inflation print landed yesterday at four point three per cent, up from four, with pump prices up nearly a quarter."
+  },
+  {
+   "s": "B",
+   "t": "And what's the market pricing for December?"
+  },
+  {
+   "s": "A",
+   "t": "Eighty-two point six per cent chance of a rise, up from seventy-eight the day before. Seema Shah at Principal. She reads the same text and says the Fed has time on its side, and room to wait for more data — which is, after all, what it says it's doing."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Both readings from the same three paragraphs."
+  },
+  {
+   "s": "A",
+   "t": "And the best exchange of the day happened across a podium. Bill Ackman posted that higher rates might not reduce demand for artificial intelligence. Warsh answered from the press conference: interest rates get in the cracks."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Ha."
+  },
+  {
+   "s": "A",
+   "t": "Asked directly whether rates matter for AI investment — I believe they do."
+  },
+  {
+   "s": "B",
+   "t": "Not investment advice, any of this."
+  },
+  {
+   "s": "A",
+   "t": "Market explanation, not advice. For the four we watch: global equities are winning the argument between earnings and a five per cent discount rate. Global bonds flat, because the damage sits in the twenty-to-thirty-year sector. Gold held up by the Gulf and held down by real yields — not making highs during an oil shock, which is the tell. And bitcoin, twenty-eight per cent below its high, facing tightening policy and a risk-free alternative paying four to five."
+  },
+  {
+   "s": "B",
+   "t": "Singapore."
+  },
+  {
+   "s": "A",
+   "t": "The haze. Shanmugam, Gan Kim Yong and Grace Fu summoned the leaders of ten Singapore-registered companies on Wednesday. Behind closed doors. And his own words were stronger than that. These are, he said, formal statutory notices. They are not routine requests for information. When Parliament sits on the third of November, the government will move amendments letting the environment agency order any firm it suspects into appointing assessors. Failure to appoint, or failure to cooperate, becomes an offence. The agency picks the assessors. And the companies pay for them."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That's quite a bill to hand someone."
+  },
+  {
+   "s": "A",
+   "t": "Here's why they need it. The haze act carries a penalty of up to a hundred thousand Singapore dollars a day."
+  },
+  {
+   "s": "B",
+   "t": "And how many prosecutions in twelve years?"
+  },
+  {
+   "s": "A",
+   "t": "None."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] None at all?"
+  },
+  {
+   "s": "A",
+   "t": "Not one. Four Indonesian firms were served in two thousand and fifteen. No suits, no fines, cases still open — and three of those four are implicated again this year."
+  },
+  {
+   "s": "B",
+   "t": "What do people here make of it?"
+  },
+  {
+   "s": "A",
+   "t": "HardwareZone, roughly seventy replies in a day, and the split is consistent. One: must give credit where it's due, for things within his control Shan really went ahead and squeezed. Another: I'll only believe it when I see them close these companies down. Meantime it's just all talk."
+  },
+  {
+   "s": "B",
+   "t": "And the one-word verdict?"
+  },
+  {
+   "s": "A",
+   "t": "Wayang."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course it is."
+  },
+  {
+   "s": "A",
+   "t": "The scholar's version is sharper. Helena Varkkey at the University of Malaya calls the record influence without enforcement, rather than straightforward failure."
+  },
+  {
+   "s": "B",
+   "t": "Technology. Anthropic."
+  },
+  {
+   "s": "A",
+   "t": "They filed to go public on the twenty-sixth. Nasdaq, ticker A N T."
+  },
+  {
+   "s": "B",
+   "t": "And we said yesterday the compute number was blank."
+  },
+  {
+   "s": "A",
+   "t": "It's blank in five places, not four. And as of last night, no amendment has been filed. The blanks did not arrive."
+  },
+  {
+   "s": "B",
+   "t": "A correction from us, too, I think."
+  },
+  {
+   "s": "A",
+   "t": "Yes. We said the filing blanks its third-quarter revenue three times. It doesn't. The financial statements simply stop at the thirtieth of June — there's no third-quarter figure there to blank."
+  },
+  {
+   "s": "B",
+   "t": "Fair. So what is in it?"
+  },
+  {
+   "s": "A",
+   "t": "Revenue of sixteen point three billion dollars in the first half of this year alone. Four point seven billion in the first quarter, eleven point six in the second. Almost entirely a non-cash revaluation of convertible notes. The operating loss is six hundred and ninety-three million."
+  },
+  {
+   "s": "B",
+   "t": "So what's the real number?"
+  },
+  {
+   "s": "A",
+   "t": "The obligations. We summed the named counterparties ourselves: six hundred and thirty-seven billion dollars. Broadcom alone is a hundred and sixty-one billion of equipment leases. SpaceX is up to a hundred and twenty billion, running at about three point one billion a month once capacity lands."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] A month."
+  },
+  {
+   "s": "A",
+   "t": "And the document itself never adds them up. Which is how the same filing supports published totals of four hundred and fifty, five hundred and eighteen, and five hundred and thirty-seven billion, depending on what the reader counts."
+  },
+  {
+   "s": "B",
+   "t": "Is anybody sceptical in print?"
+  },
+  {
+   "s": "A",
+   "t": "Michael Burry. He compares the structure to the telecom buildout of the late nineties and nineteen-sixties computer leasing, and warns the interconnectedness creates an illusion of security during an expansionary phase. Three of his four checkable figures hold. One doesn't — his revenue-per-compute-dollar implies third-quarter data the filing does not contain."
+  },
+  {
+   "s": "B",
+   "t": "Home lab. Anything I should actually do tonight?"
+  },
+  {
+   "s": "A",
+   "t": "Yes. Don't upgrade llama point c p p blindly."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Why not?"
+  },
+  {
+   "s": "A",
+   "t": "Version nought point eight shipped yesterday with a new cache for mixture-of-experts weights held in host memory. Measured gains of one to five per cent. One user measured the opposite — about fifteen tokens a second falling to twelve and a half on a tight cache. And somebody did fix it. The author wrote the fix, measured it restoring full speed, and then closed it unmerged on the twenty-seventh."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] And the release shipped the next day."
+  },
+  {
+   "s": "A",
+   "t": "The patch that would fix it exists. It is just not in the build."
+  },
+  {
+   "s": "B",
+   "t": "[wry] That's a theme today."
+  },
+  {
+   "s": "A",
+   "t": "It is. Same desk: the vLLM prefix-cache bug we corrected ourselves on yesterday is still open — and its fix has been sitting unapproved since the thirtieth of June."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Four months."
+  },
+  {
+   "s": "A",
+   "t": "Four months and four releases."
+  },
+  {
+   "s": "B",
+   "t": "Right. Gear."
+  },
+  {
+   "s": "A",
+   "t": "Sigma's new camera. Ships the eleventh of November, two thousand one hundred and ninety-nine US dollars for the body. Three hundred and seventy-six grams. No stabiliser, no mechanical shutter. Every part of it is electronic, which makes rolling shutter the whole question — and nobody has measured it. The only published proxy is the flash sync, which is still one fiftieth of a second. And on the good life desk, a three-thousand-seven-hundred-and-ninety-nine-dollar headphone, on sale in three continents for five days, with Kiso cypress earcups and Echizen lacquer."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Beautiful."
+  },
+  {
+   "s": "A",
+   "t": "And one review's specification block reads, in full: Measurements — none."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Lovely."
+  },
+  {
+   "s": "A",
+   "t": "Our maker-of-the-day desk went to desks themselves, and found the white-label truth. A company called Jiecang builds the base under a five-hundred-and-ninety-nine-dollar Uplift and a two-thousand-three-hundred-and-forty-nine-dollar Jarvis alike."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Same base?"
+  },
+  {
+   "s": "A",
+   "t": "Same base. And Jiecang bought Logicdata, the Austrian controls house, for seventy-nine million euros."
+  },
+  {
+   "s": "B",
+   "t": "What should somebody actually buy?"
+  },
+  {
+   "s": "A",
+   "t": "Buy the crossbar, not the second motor. And know that a desk column is rated for about two minutes of movement in every twenty. It's a positioning device, not a lift."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one. Marquetry. Pictures made entirely of wood — leaves of veneer about half a millimetre thick, each piece cut to fit its neighbour, glued down as one skin."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Not carving. Assembly."
+  },
+  {
+   "s": "A",
+   "t": "Assembly. And there are two ways in. The window method: cut a hole in a sheet, use the hole as the template for the next piece, drop it in. The picture builds in front of you and you can change your mind. The other way is to stack several veneers and saw through the lot at once. Every layer gives you interlocking parts — the picture and its own negative. The kerf. The width the saw destroys. You can't get it back."
+  },
+  {
+   "s": "B",
+   "t": "So there's a machine for that."
+  },
+  {
+   "s": "A",
+   "t": "There is, and it's magnificent. It's called a chevalet de marqueterie. The donkey. You sit at it, a foot pedal clamps the stack, and parallel rods keep the blade perpendicular. Roubo illustrated one in seventeen sixty-nine."
+  },
+  {
+   "s": "B",
+   "t": "[excited] What does one cost?"
+  },
+  {
+   "s": "A",
+   "t": "This is the best part of the whole desk. The man who sells the kits published his own economics. The value of a complete tool, he wrote, is about two thousand five hundred dollars. I make about seventy-five dollars profit each time I sell a kit."
+  },
+  {
+   "s": "B",
+   "t": "[amused] He's telling you not to buy it."
+  },
+  {
+   "s": "A",
+   "t": "And on another school's site, the same craft admits a scratch build can be done for around a hundred dollars in about forty hours. And they give the plans away."
+  },
+  {
+   "s": "B",
+   "t": "So a twenty-five-hundred-dollar tool, a five-hundred-dollar kit and a hundred-dollar build all make the same cuts."
+  },
+  {
+   "s": "A",
+   "t": "They do."
+  },
+  {
+   "s": "B",
+   "t": "What does it actually cost to start?"
+  },
+  {
+   "s": "A",
+   "t": "Under a hundred pounds. Society membership thirty, a cutting mat eight, a craft knife and three blades two pounds twenty-eight. The Society's own beginner page tells you to make the cutting board from a plywood offcut and a vinyl floor tile."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I love that."
+  },
+  {
+   "s": "A",
+   "t": "And the thing people avoid buying is the one that matters. A hand-pumped vacuum bag at ninety-five dollars delivers the same pressure as a six-hundred-and-forty-nine-dollar pump."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Who are these people?"
+  },
+  {
+   "s": "A",
+   "t": "The Marquetry Society. Founded nineteen fifty-two. Twenty-four clubs across Britain, a quarterly magazine, and about a hundred and eighty pages of free tutorials online. They don't say. Anywhere. We looked at every page."
+  },
+  {
+   "s": "B",
+   "t": "[amused] A society that won't count itself."
+  },
+  {
+   "s": "A",
+   "t": "And their most recent operational news is that PayPal closed their account."
+  },
+  {
+   "s": "B",
+   "t": "Is there a competition?"
+  },
+  {
+   "s": "A",
+   "t": "Ten classes, twenty-three trophies, and a promotion system you climb for decades. Class one is strictly one of your first four pictures. The Rosebowl. Win it from outside the top class and you're promoted to Premier and made a Fellow. Permanently."
+  },
+  {
+   "s": "B",
+   "t": "You can never go back down."
+  },
+  {
+   "s": "A",
+   "t": "This year it went to Ivor Bagley of the St Albans group, for a portrait of Salvador Dalí built from maybe thirty tones of cut veneer. Several of them scorched in hot sand to get the shading."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Scorched in sand?"
+  },
+  {
+   "s": "A",
+   "t": "Hot silver sand in a tray. Dip the edge of the piece and it browns. It costs nothing and it's what makes flat work look three-dimensional."
+  },
+  {
+   "s": "B",
+   "t": "What's the sceptic's case?"
+  },
+  {
+   "s": "A",
+   "t": "Their own journal published it. A member made the argument for the laser cutter — very quickly, extremely high precision, and you can finally enter the commercial market at reasonable prices."
+  },
+  {
+   "s": "B",
+   "t": "The craft printed the case against itself."
+  },
+  {
+   "s": "A",
+   "t": "And the honest version of the decline isn't a quote, because we went looking for one and couldn't find it. It's structural. A society that can't publish a membership number. A defining machine sold from a price list dated twenty sixteen. And the craft's most influential teacher has been publicly silent for twenty-two months — his school's website no longer resolves."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Nothing's dying. It's just thin."
+  },
+  {
+   "s": "A",
+   "t": "That's exactly it."
+  },
+  {
+   "s": "B",
+   "t": "Can you learn it here?"
+  },
+  {
+   "s": "A",
+   "t": "No. We searched every woodworking school and makerspace in Singapore. Not one teaches veneer or marquetry. And the humidity is the part nobody has written down. Veneer is stored at around forty per cent relative humidity. This city sits at roughly double that, all year. And there is no Singapore source — supplier, school, maker, anyone — that addresses it. The advice you'd follow was written for heated northern workshops."
+  },
+  {
+   "s": "B",
+   "t": "Culture, quickly."
+  },
+  {
+   "s": "A",
+   "t": "Clayface opened at number one, twenty-four million dollars from three thousand four hundred and fifty-eight theatres. Critics gave it fifty-nine out of a hundred. The verified audience gave it ninety-four."
+  },
+  {
+   "s": "B",
+   "t": "[wry] A thirty-five point gap."
+  },
+  {
+   "s": "A",
+   "t": "And the nicest number of the week: Fontaines D C took the UK album chart on just over seventy thousand units — and thirty-seven and a half thousand of those were vinyl."
+  },
+  {
+   "s": "B",
+   "t": "[excited] More than half, on vinyl."
+  },
+  {
+   "s": "A",
+   "t": "Against fourteen thousand CDs and under fifteen hundred downloads."
+  },
+  {
+   "s": "B",
+   "t": "Family desk. The phone bans."
+  },
+  {
+   "s": "A",
+   "t": "Nearly twenty-four thousand Icelandic teenagers, seventy schools, twenty-two of which banned phones entirely. Across seven outcomes — depression, anxiety, hostility, wellbeing, peer support, bullying, screen time — not one cleared the study's own significance threshold."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Not one."
+  },
+  {
+   "s": "A",
+   "t": "And every estimate that moved at all moved slightly against the ban."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is not the same as saying it's bad."
+  },
+  {
+   "s": "A",
+   "t": "No. It's saying it doesn't do what people hoped at the population level. And Singapore widened its own ban to recess and co-curricular time in January. That's the elegant part. Candice Odgers, who has argued for years that most of this evidence is correlative — she's a co-author on the paper. The sceptic is inside the study."
+  },
+  {
+   "s": "B",
+   "t": "And the tween page?"
+  },
+  {
+   "s": "A",
+   "t": "A different study, sensing phone use with an app rather than asking. The damage sits in the last five minutes before sleep. Not the hour. The last five minutes."
+  },
+  {
+   "s": "B",
+   "t": "And our ministry's lever is a bedtime on the device."
+  },
+  {
+   "s": "A",
+   "t": "Half past ten. A device that sleeps at half past ten and a phone in the hand at twenty-nine minutes past are not the same intervention."
+  },
+  {
+   "s": "B",
+   "t": "Fitness, and then let's land this."
+  },
+  {
+   "s": "A",
+   "t": "Four thousand people, followed almost twelve years, seven hundred and thirty-nine deaths. They compared nine days of wrist-worn walking cadence against a nurse timing a walk of two and a half metres with a stopwatch. Point seven four seven for the stopwatch. Point seven four four for the wearable. The intervals overlap."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the stopwatch wins."
+  },
+  {
+   "s": "A",
+   "t": "The stopwatch ties. Which, for anyone optimising with two devices on their body, is the more interesting result."
+  },
+  {
+   "s": "B",
+   "t": "And the long read."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Pakistan. Last week, at a panel in Seoul, Pakistan's technology minister announced a national large language model for Urdu. It's called Buraq. Sovereign compute, Pakistani data held inside Pakistan. Six days on it has no website, no specification, no builder named and no release date. The justification is one number. Urdu is nought point nought three one five per cent of the crawlable web."
+  },
+  {
+   "s": "B",
+   "t": "[pause] For how many speakers?"
+  },
+  {
+   "s": "A",
+   "t": "More than two hundred and thirty million. English is forty-two and a half per cent. Hindi is nought point two one. Urdu is three hundredths of one per cent."
+  },
+  {
+   "s": "B",
+   "t": "So they build their own. Makes sense."
+  },
+  {
+   "s": "A",
+   "t": "Here's where it gets harder. That absence isn't a market failure. Pakistan's constitution gave Urdu fifteen years to replace English in official use. The deadline passed in nineteen eighty-eight. In two thousand and fifteen the Supreme Court ordered the government to adopt it, translate all laws within three months, and file compliance reports. Eleven years later the state still drafts, litigates and examines in English."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So there's nothing written down."
+  },
+  {
+   "s": "A",
+   "t": "A language model is trained on what a society wrote down. The largest Urdu corpus ever assembled is one point eight four billion tokens. Meta trained its base model on more than fifteen trillion."
+  },
+  {
+   "s": "B",
+   "t": "What's that as a fraction?"
+  },
+  {
+   "s": "A",
+   "t": "About twelve thousandths of one per cent."
+  },
+  {
+   "s": "B",
+   "t": "And the instruction data?"
+  },
+  {
+   "s": "A",
+   "t": "Fifty-one thousand six hundred and eighty-six examples. Machine-generated."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Synthetic."
+  },
+  {
+   "s": "A",
+   "t": "And one of the human sources they curate from is Urdu Wikipedia, which has seven hundred thousand articles maintained by four hundred and two active editors."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Four hundred and two people."
+  },
+  {
+   "s": "A",
+   "t": "Meanwhile every indigenous Urdu model so far is a foreign one under an Urdu name. Two of them are fine-tunes of Meta's model. The state's own assistant was built with Meta. And the telecom route borrows Kazakhstan's architecture — from a company that shares a parent with the Pakistani operator."
+  },
+  {
+   "s": "B",
+   "t": "So the gift crosses a border and not a balance sheet."
+  },
+  {
+   "s": "A",
+   "t": "And the government's own flagship framework, the Islamabad AI Declaration, promises sovereign data and sovereign compute, and never once uses the word Urdu."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Not once?"
+  },
+  {
+   "s": "A",
+   "t": "Not once. Its constraint is hardware and jurisdiction. Not text."
+  },
+  {
+   "s": "B",
+   "t": "What's the honest version of this?"
+  },
+  {
+   "s": "A",
+   "t": "A Pakistani writer put it best. Sarah Siddiq Aneel: in the end, AI sovereignty is not achieved through language. It is earned through capacity."
+  },
+  {
+   "s": "B",
+   "t": "And what can't be bought?"
+  },
+  {
+   "s": "A",
+   "t": "Compute can be rented. Weights can be borrowed. Residency can be legislated. Text had to have been written, by someone, at the time."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] You can only automate a nation that wrote itself down."
+  },
+  {
+   "s": "A",
+   "t": "That's the piece."
+  },
+  {
+   "s": "B",
+   "t": "What ties the book together today?"
+  },
+  {
+   "s": "A",
+   "t": "A clearance that didn't carry its own speed limit. A prospectus that states its revenue to the dollar and its biggest obligation as a blank. A central bank that voted the day before the number. A flagship nobody has measured."
+  },
+  {
+   "s": "B",
+   "t": "And on the other side, the wearable that was finally measured and added nothing."
+  },
+  {
+   "s": "A",
+   "t": "The measurement nobody took."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a good one."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

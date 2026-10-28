@@ -175,7 +175,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Base Gelato | Base Gelato | 128, 141 | SPENT | No. 128 build | opening run — record the peg here |
 | Accompany Coffee | Accompany Coffee | 128 | OPEN | No. 128 build | opening run — record the peg here |
 | Din Tai Fung | Din Tai Fung | 128 | OPEN | No. 128 build | opening run — record the peg here |
-| Pull by TPG | Pull by TPG | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Pull by TPG | Pull by TPG | 128, 147 | SPENT | No. 128 build | opening run — record the peg here |
 | Sophia | Sophia | 129 | OPEN | No. 129 build | opening run — record the peg here |
 | Vincenzo Capuano | Vincenzo Capuano | 129 | OPEN | No. 129 build | opening run — record the peg here |
 | Viva Lavender | Viva Lavender | 129 | OPEN | No. 129 build | opening run — record the peg here |
@@ -188,7 +188,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Tokyo Onigiri | Tokyo Onigiri | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
 | Creamie Sippies | Creamie Sippies | 133 | OPEN | No. 133 build | opening run — record the peg here |
 | Tandem Co | Tandem Co | 134 | OPEN | No. 134 build | opening run — record the peg here |
-| Yogeek | Yogeek | 134 | OPEN | No. 134 build | opening run — record the peg here |
+| Yogeek | Yogeek | 134, 147 | SPENT | No. 134 build | opening run — record the peg here |
 | Shi Tang by Mahota Kitchen | Shi Tang by Mahota Kitchen | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Rogs Race | Rogs Race | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Petra | Petra | 135, 145 | SPENT | No. 135 build | opening run — record the peg here |
@@ -222,3 +222,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Xiao Jiao Tian | Xiao Jiao Tian | 146 | OPEN | No. 146 build | opening run — record the peg here |
 | Foca Kumpir | Foca Kumpir | 146 | OPEN | No. 146 build | opening run — record the peg here |
 | Ng Kuan Chilli Pan Mee | Ng Kuan Chilli Pan Mee | 146 | OPEN | No. 146 build | opening run — record the peg here |
+| Postboy Coffee | Postboy Coffee | 147 | OPEN | No. 147 build | opening run — record the peg here |
+| Cafe Yasuragi | Cafe Yasuragi | 147 | OPEN | No. 147 build | opening run — record the peg here |
+| Cafe Nesuto | Cafe Nesuto | 147 | OPEN | No. 147 build | opening run — record the peg here |

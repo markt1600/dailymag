@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Desks &amp; worktops",
+      "issue": "147",
+      "angle": "<b>The contract brands will not print the spec and the OEM will &mdash; which tells you the spec is not what you are buying.</b> Taken from the pipeline: Queued empty, <b>no positive Atelier Next vote since the previous builtAt</b> (both votes were retirements), floor lamps skipped again as a re-sli"
+    },
+    {
       "category": "Table linen &amp; napkins",
       "issue": "146",
       "angle": "<b>A 175cm loom width caps every tablecloth the serious mills make; the lengths run to 595cm and the widths never move.</b> Taken from the on-deck pipeline &mdash; Queued empty, <b>no Atelier Next vote since the previous builtAt</b>, and rotating off two kitchen/tool desks. HIERARCHY: thread count t"
@@ -369,6 +374,24 @@
   "queued": [],
   "pipeline": [
     {
+      "category": "Over-ear headphones",
+      "rotation": "Audio",
+      "fit": "The transducer houses behind the badges, and the measurement culture that argues about them",
+      "sources": "Audeze, Sennheiser, Focal, ZMF, Dan Clark; Head-Fi, Audio Science Review"
+    },
+    {
+      "category": "Leather gloves",
+      "rotation": "Clothing / leather",
+      "fit": "Cutting and sewing done by a few named ateliers for a great many labels, and fit as a repeatable measurement",
+      "sources": "Dents, Hestra, Merola, Omega Italy; Styleforum, Permanent Style"
+    },
+    {
+      "category": "Rules, squares &amp; calipers",
+      "rotation": "Tools / metrology",
+      "fit": "The things that decide whether the cut is true, from makers nobody advertises",
+      "sources": "Starrett, Mitutoyo, Woodpeckers, Chris Vesper, Colen Clenton; Sawmill Creek"
+    },
+    {
       "category": "Floor lamps &amp; reading lights",
       "rotation": "Home / light",
       "fit": "Colour rendering and glare control against decorative wattage &mdash; CRI, R9, and the lumens a reader actually needs at a chair",
@@ -555,12 +578,6 @@
       "sources": "Mitsubishi, Panasonic, Novita, Delonghi; the published extraction standard nobody quotes"
     },
     {
-      "category": "Mosquito nets",
-      "rotation": "Home / tropical",
-      "fit": "The one tropical object with a real performance standard behind it",
-      "sources": "WHO/WHOPES specs, Vestergaard, the Thai and Vietnamese makers; r/BuyItForLife"
-    },
-    {
       "category": "~~Shower fittings &amp; taps~~ (COVERED, No. 134)",
       "rotation": "Home / bath",
       "fit": "The valve is the product, and very few makers make their own",
@@ -612,14 +629,14 @@
       "note": "Reader eliminated it. Was pipelined as Home / kitchen — the waxed-canvas and linen apron makers (Hedley &amp; Bennett, Tilit, Japanese sakabori makers; r/BuyItForLife). Row was originally typed in the pipeline's four-column shape under this three-column header; re-cast 6 Sep 2026 when the Retired ta"
     },
     {
-      "category": "Cast-iron kettles &amp; tetsubin",
-      "retired": "Nambu ironware, the iron-water claim tested, and the makers left in Iwate",
-      "note": "r/tea, Japanese ironware dealers, the Oigen and Iwachu scenes"
+      "category": "Brooms &amp; household brushes",
+      "retired": "29 Oct 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, 28 Oct 2026 &mdash; &ldquo;never run, never re-suggest&rdquo;). Was a No. 146 Next-on-the-Bench chip and a pipeline entry; deleted from the pipeline. Never run, never re-propose."
     },
     {
-      "category": "Brooms &amp; household brushes",
-      "retired": "Horsehair, tampico and beech, and who still drills the stock",
-      "note": "r/BuyItForLife, Redecker and Iris Hantverk stockists"
+      "category": "Mosquito nets",
+      "retired": "29 Oct 2026",
+      "note": "Reader dismissed it (RETIRE SUGGESTION note, 28 Oct 2026 &mdash; &ldquo;never run, never re-suggest&rdquo;). Was a No. 146 Next-on-the-Bench chip and pipelined as Home / tropical; deleted from the pipeline. Never run, never re-propose."
     }
   ]
 }

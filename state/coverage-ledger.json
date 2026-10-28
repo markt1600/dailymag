@@ -1,5 +1,5 @@
 {
-  "count": 1094,
+  "count": 1106,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,90 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Urda / Toledo high-speed collision (Renfe AVE 2080, Iryo 6076)",
+      "type": "Event (disaster)",
+      "last_covered": "No. 147",
+      "last_peg": "The World LEAD &mdash; 28 Oct, km118 Madrid&ndash;Seville line; <b>at least 68 dead of 544 aboard</b>; LZB supervision failed 08:32, Adif&rsquo;s Atocha centre cleared six halted trains under a <b>40km/h</b> proceed-on-sight cap and the AVE was doing ~200; black boxes seized by the court at Orgaz 21:15; three days of mourning by Real Decreto 949/2026. Second Spanish high-speed disaster of 2026 aft",
+      "next_peg": "Next peg = the black-box and Atocha-log findings, a resignation, or a charge. <b>The toll was still moving at press and Xinhua/CGTN were a revision behind.</b>"
+    },
+    {
+      "subject": "Israel 2026 general election (27 Oct)",
+      "type": "Event (election)",
+      "last_covered": "No. 147",
+      "last_peg": "The World &mdash; at <b>89.8 per cent</b> counted: Netanyahu bloc <b>53</b>, Eisenkot <b>48</b>, Arab parties <b>19</b>; Likud 26, Joint List 12, Ra&rsquo;am 7; turnout <b>77.7 per cent</b>, highest since 1999; 430,000&ndash;480,000 double-envelope ballots left; Likud alleges the election &ldquo;was stolen by Arab parties&rdquo; and the committee is reviewing.",
+      "next_peg": "Next peg = <b>certification on 4 November</b>, Herzog&rsquo;s nomination, or a coalition. Do not re-run the seat table without a certified change."
+    },
+    {
+      "subject": "Anthropic S-1 compute commitments",
+      "type": "Filing (IPO)",
+      "last_covered": "No. 147",
+      "last_peg": "Technology LEAD &mdash; <b>$637.0bn of named fixed commitments</b> summed on this desk (Broadcom $161.2bn finance leases, Google $114.5bn, SpaceX.AI up to $120.5bn at ~$3.1bn/month, Amazon $110bn, Microsoft $44.9bn, Nscale $44.6bn, Lambda $41.3bn), with a further Google tranche at $125&ndash;150bn and an AMD option above $20bn described but uncommitted. <b>The aggregate line is blank in five place",
+      "next_peg": "Next peg = <b>the S-1/A that fills the blanks</b>, a price range, or pricing. Re-check EDGAR each issue."
+    },
+    {
+      "subject": "llama.cpp MoE SLRU expert cache (PR 30637 / 30848)",
+      "type": "Software (regression)",
+      "last_covered": "No. 147",
+      "last_peg": "The Home Lab LEAD &mdash; v0.8.0 shipped 28 Oct with the 50/50 segmented cache merged 19 Oct; measured gains 1&ndash;5 per cent, but a reported regression on GLM 5.3 Flash took ~15 tg/s to 12.5 at a 4,500MiB cache, and <b>the author&rsquo;s own fallback fix, PR 30848, was closed unmerged on 27 October</b>.",
+      "next_peg": "Next peg = the fallback reopened and merged, or v1.0.0 (targeted end-Oct/early-Nov) removing the deprecated APIs."
+    },
+    {
+      "subject": "Sigma fp2",
+      "type": "Product (camera)",
+      "last_covered": "No. 147",
+      "last_peg": "The Kit LEAD &mdash; announced 23 Oct, ships <b>11 Nov</b>, <b>US$2,199</b> body / US$2,749 with EVF-21 or the 50mm F2; 24.5MP partially stacked, electronic shutter only to 1/25,600, <b>no IBIS, no mechanical shutter, no headphone socket</b>, 376g, CIPA 370; ProRes RAW internally, ~70GB onboard. <b>Flash sync still 1/50sec and no measured readout exists.</b>",
+      "next_peg": "Next peg = <b>a laboratory readout or dynamic-range measurement</b>, or a Singapore price &mdash; the distributor runs the banner with none."
+    },
+    {
+      "subject": "Audio-Technica ATH-AWX7000",
+      "type": "Product (audio)",
+      "last_covered": "No. 147",
+      "last_peg": "The Good Life LEAD &mdash; worldwide from 23 Oct at <b>US$3,799 / &euro;3,799 / &pound;3,299</b>; three subjective reviews 23&ndash;28 Oct and <b>zero published measurements</b> (Major HiFi states &ldquo;Measurements: None&rdquo;); sources disagree on the factory (Tokyo vs Naruse); no Singapore price or stockist; <b>no owner thread readable anywhere</b>.",
+      "next_peg": "Next peg = <b>the first independent measurement</b>, a Singapore price, or an owner thread. <b>Second issue holding the measurement question.</b>"
+    },
+    {
+      "subject": "Oris Aquis Date Kelp Forest Limited Edition",
+      "type": "Product (watch)",
+      "last_covered": "No. 147",
+      "last_peg": "The Good Life &mdash; announced 21 Oct, <b>1,000 pieces</b>, USD 2,950 on Oris&rsquo;s US store against <b>SGD 3,900</b> on its Singapore store with the cart live &mdash; a 32 per cent premium on a straight conversion before GST. 41.5mm steel, ceramic bezel, calibre 733-1 at 41h, 300m, 3D-printed kelp dial. <b>No charity partner named on the page.</b>",
+      "next_peg": "Next peg = a sell-out, a named charity, or a second reference."
+    },
+    {
+      "subject": "Clayface (2026, Warner Bros./DC Studios)",
+      "type": "Film",
+      "last_covered": "No. 147",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; opened 23 Oct at No. 1 on <b>$24,002,731</b> from 3,458 theatres, $6,941 per screen; Metascore <b>59</b> from 45 critics against a Popcornmeter of <b>94</b> from 2,500+; RT 77 per cent from 190. Wikipedia&rsquo;s own page conflicts on worldwide gross ($47.4m body vs $50.8m infobox).",
+      "next_peg": "CLOSED at the opening weekend &mdash; next peg would be a second-weekend hold, an award run, or an actuals revision."
+    },
+    {
+      "subject": "Fontaines D.C. &mdash; Dopamine Chamber",
+      "type": "Album",
+      "last_covered": "No. 147",
+      "last_peg": "Screen &amp; Sound &mdash; UK No. 1 on <b>70,105 chart units</b>, of which <b>37,501 vinyl</b>, 14,235 CD, 1,796 cassette, 1,479 download, 15,094 streaming-equivalent; outsold the next eight in the top ten combined; fastest-selling Irish studio album in Britain since 2011.",
+      "next_peg": "CLOSED on the chart peg. Next = a second week at No. 1, a Billboard print, or a Singapore date (the band lists none)."
+    },
+    {
+      "subject": "Iceland school phone bans (JAMA Netw Open 2026;9(10):e2640893)",
+      "type": "Study (finding)",
+      "last_covered": "No. 147",
+      "last_peg": "The Family Desk LEAD &mdash; 27 Oct; difference-in-differences, <b>23,938 observations across 70 schools</b>, 22 of them adopting a whole-school ban 2018&ndash;2023; against a Bonferroni threshold of P&lt;.002, <b>not one of seven outcomes cleared it</b>, and every estimate that moved, moved against the ban. Candice Odgers is a co-author.",
+      "next_peg": "CLOSED as a finding. Next peg = a replication, or an implementation-fidelity study &mdash; the authors measured no enforcement at all."
+    },
+    {
+      "subject": "Whitehall II walking cadence vs clinical speed (JAMA Netw Open 2026;9(10):e2640122)",
+      "type": "Study (finding)",
+      "last_covered": "No. 147",
+      "last_peg": "Fitness LEAD &mdash; 23 Oct; <b>4,067</b> participants, median 11.8 years, <b>739 deaths</b>; C index <b>0.747</b> for a nurse-timed 2.44m walk against <b>0.744</b> for nine days of wrist-sensed median cadence, intervals overlapping, and the combined benefit <b>not significant after adjusting for health factors</b>.",
+      "next_peg": "CLOSED as a finding. Next peg = a cohort where adding cadence materially improves discrimination, or a validation dataset &mdash; the authors had none."
+    },
+    {
+      "subject": "Pakistan&rsquo;s Buraq (sovereign Urdu LLM)",
+      "type": "Policy / technology",
+      "last_covered": "No. 147",
+      "last_peg": "The Undercurrent &mdash; announced in Seoul <b>22 Oct</b>; no website, spec, builder, timeline or release date published anywhere. Urdu is <b>0.0315 per cent</b> of Common Crawl; the largest Urdu corpus ever assembled is <b>1.84bn tokens</b>; the largest curated instruction set is <b>51,686 synthetic</b> examples; Urdu Wikipedia has <b>402 active editors</b>. <b>The Islamabad AI Declaration never ",
+      "next_peg": "Next peg = a published spec, a builder, a release, or the FY2026-27 budget lines. Undercurrent key term recorded: <b>BURAQ</b>."
     },
     {
       "subject": "Anthropic, PBC Form S-1 (Nasdaq: ANT)",
