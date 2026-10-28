@@ -729,6 +729,74 @@ if _issno >= 126 and not _special:
                 continue
             errors.append(f"page {_i}: inline {_m.group(2)} on a <{_m.group(1)}> — interior type sizes come from "
                           f"meridian.css only; use the class (TYPE SCALE LOCK)")
+    # (i) TAG BALANCE (editor, 28 Oct 2026 — reader-reported on No. 146 p19:
+    # five stray </div>s after the fourth Singapore event closed the agenda's
+    # left column and then the grid itself, so the fifth event and the whole
+    # Japan column rendered full-width below instead of beside). Unbalanced
+    # markup had shipped in Nos. 126, 129, 137, 138, 140 and 143 as well;
+    # the browser repairs it silently and the layout quietly breaks. Every
+    # page section must close exactly what it opens. Gated from No. 147.
+    _VOID = {"br", "img", "hr", "meta", "link", "input", "source", "wbr"}
+    class _Balance(HTMLParser):
+        """stray = a closing tag with nothing open to close; unclosed = an
+        element still open when a later ancestor closes (an unclosed <b>
+        swallowing the rest of a column); open = still open at section end."""
+        def __init__(self):
+            super().__init__(); self.stack = []; self.stray = []; self.unclosed = []
+        def handle_starttag(self, tag, attrs):
+            if tag not in _VOID: self.stack.append(tag)
+        def handle_startendtag(self, tag, attrs):
+            pass
+        def handle_endtag(self, tag):
+            if tag in _VOID: return
+            if self.stack and self.stack[-1] == tag:
+                self.stack.pop()
+            elif tag in self.stack:
+                while self.stack[-1] != tag:
+                    self.unclosed.append(self.stack.pop())
+                self.stack.pop()
+            else:
+                self.stray.append(tag)
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 147:
+            continue
+        _body = _sec[:_sec.rfind("</section>") + 10] if "</section>" in _sec else _sec
+        _bl = _Balance(); _bl.feed(_body)
+        _probs = []
+        if _bl.stray: _probs.append(f"{len(_bl.stray)} stray closing tag(s) ({', '.join('</' + s + '>' for s in _bl.stray[:4])})")
+        if _bl.unclosed: _probs.append(f"{len(_bl.unclosed)} element(s) never closed before their parent ({', '.join('<' + s + '>' for s in _bl.unclosed[:4])})")
+        if _bl.stack: _probs.append(f"{len(_bl.stack)} still open at the page's end ({', '.join('<' + s + '>' for s in _bl.stack[:4])})")
+        if _probs:
+            errors.append(f"page {_i}: unbalanced markup — " + "; ".join(_probs)
+                          + "; the browser repairs it silently and the layout breaks (TAG BALANCE)")
+    # the Diary agenda: every .evt row lives inside one of the grid's two column divs
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 147 or 'class="agenda-h' not in _sec or 'grid g-12' not in _sec:
+            continue
+        class _Agenda(HTMLParser):
+            def __init__(self):
+                super().__init__(); self.depth = 0; self.grid = None; self.cols = 0; self.evt_in = 0; self.evt_out = 0
+            def handle_starttag(self, tag, attrs):
+                if tag in _VOID: return
+                cls = set((dict(attrs).get("class") or "").split())
+                self.depth += 1
+                if self.grid is None and {"grid", "g-12"} <= cls: self.grid = self.depth; return
+                if self.grid is not None and self.depth == self.grid + 1 and tag == "div": self.cols += 1
+                if "evt" in cls and tag == "div":
+                    if self.grid is not None and self.depth > self.grid + 1: self.evt_in += 1
+                    else: self.evt_out += 1
+            def handle_endtag(self, tag):
+                if tag in _VOID: return
+                if self.grid is not None and self.depth == self.grid: self.grid = -1   # closed; later evts are outside
+                self.depth -= 1
+            def handle_startendtag(self, tag, attrs):
+                pass
+        _ag = _Agenda(); _ag.feed(_sec)
+        if _ag.evt_out:
+            errors.append(f"page {_i}: {_ag.evt_out} agenda row(s) sit OUTSIDE the two-column grid — the Singapore and Japan "
+                          f"columns each hold their own rows (No. 38 layout); a stray </div> has broken the grid")
+        if _ag.cols != 2:
+            errors.append(f"page {_i}: the agenda grid has {_ag.cols} direct column div(s), not 2 (Singapore left, Japan right)")
     # cover teasers
     if pages:
         for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):
