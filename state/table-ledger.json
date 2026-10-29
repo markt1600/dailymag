@@ -1770,9 +1770,10 @@
       "venue": "Age.3",
       "key": "Age.3",
       "runs": [
-        141
+        141,
+        148
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 141 build",
       "note": "opening run — record the peg here"
     },
@@ -1965,6 +1966,36 @@
       "status": "OPEN",
       "checked": "No. 147 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "OVER",
+      "key": "OVER",
+      "runs": [
+        148
+      ],
+      "status": "OPEN",
+      "checked": "No. 148 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Casa Mori",
+      "key": "Casa Mori",
+      "runs": [
+        148
+      ],
+      "status": "OPEN",
+      "checked": "No. 148 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "HANDO",
+      "key": "HANDO",
+      "runs": [
+        148
+      ],
+      "status": "OPEN",
+      "checked": "No. 148 build",
+      "note": "opening run — record the peg here"
     }
   ],
   "barred": [
@@ -2064,6 +2095,7 @@
     "Saikyo Pasta",
     "Your Mother’s House",
     "The CHOYA Ginza Bar Singapore",
-    "Matsuya"
+    "Matsuya",
+    "Age.3"
   ]
 }

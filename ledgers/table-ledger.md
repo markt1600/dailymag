@@ -205,7 +205,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
 | Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |
 | Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139 | OPEN | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
-| Age.3 | Age.3 | 141 | OPEN | No. 141 build | opening run — record the peg here |
+| Age.3 | Age.3 | 141, 148 | SPENT | No. 141 build | opening run — record the peg here |
 | Hama-Sushi | Hama-Sushi | 141 | OPEN | No. 141 build | opening run — record the peg here |
 | Sodeng Jeju | Sodeng Jeju | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Tofu G | Tofu G | 142 | OPEN | No. 142 build | opening run — record the peg here |
@@ -225,3 +225,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Postboy Coffee | Postboy Coffee | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Yasuragi | Cafe Yasuragi | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Nesuto | Cafe Nesuto | 147 | OPEN | No. 147 build | opening run — record the peg here |
+| OVER | OVER | 148 | OPEN | No. 148 build | opening run — record the peg here |
+| Casa Mori | Casa Mori | 148 | OPEN | No. 148 build | opening run — record the peg here |
+| HANDO | HANDO | 148 | OPEN | No. 148 build | opening run — record the peg here |
