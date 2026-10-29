@@ -220,16 +220,30 @@ for c in rows_under("Table Venues"):
                "status": c[3].strip().upper(),
                "checked": c[4] if len(c) > 4 else "",
                "note": (c[5] if len(c) > 5 else "")[:300]})
+# `barred` is the COMPLETE bar for the NEXT issue, not just the SPENT rows.
+# It used to list only SPENT/CLOSED, which silently omitted every venue with a
+# single run still inside its seven-issue window — so a build that trusted it
+# put four such venues on the page in No. 148 (and the gap was noted, unfixed,
+# in No. 146). validate.py enforced the window anyway and caught them; this
+# makes the machine-readable list agree with the gate, so the research brief
+# is right the first time.
+def _tl_barred(v, nn):
+    if v["status"] in ("SPENT", "CLOSED"):
+        return True
+    if len(v["runs"]) >= 2:
+        return True
+    return bool(v["runs"]) and nn and (nn - max(v["runs"])) < 7
+
+_tv_barred = [v["venue"] for v in tv if _tl_barred(v, next_no)]
 (state / "table-ledger.json").write_text(json.dumps(
-    {"venues": tv,
-     "barred": [v["venue"] for v in tv if v["status"] in ("SPENT", "CLOSED")]},
+    {"venues": tv, "barred_for_issue": next_no, "barred": _tv_barred},
     indent=2, ensure_ascii=False))
 
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
       f"{len(hob_cov)} hobbies covered / {len(hob_pipe)} on deck, "
       f"{len(_barred)} barred event(s), {len(uc)} undercurrents, "
-      f"{len(tv)} Table venues ({sum(v['status'] in ('SPENT', 'CLOSED') for v in tv)} barred)")
+      f"{len(tv)} Table venues ({len(_tv_barred)} barred for No. {next_no})")
 
 # ---- note-discipline nudges (editor, 4 Aug 2026; soft warnings, never fail) ----
 # The newest note should be working memory (<=3,000 chars target) and must end
