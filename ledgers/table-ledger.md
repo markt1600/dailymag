@@ -148,7 +148,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Shared Table | Shared Table | 116, 124 | SPENT | No. 116 build | opening run — record the peg here |
 | VE/LA | VE/LA | 116, 130 | SPENT | No. 116 build | opening run — record the peg here |
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
-| Nyonya Next Door | Nyonya Next Door | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Nyonya Next Door | Nyonya Next Door | 116, 149 | SPENT | No. 116 build | opening run — record the peg here |
 | rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nice Noodle | Nice Noodle | 117, 134 | SPENT | No. 117 build | opening run — record the peg here |
 | Lulu’s Lounge | Lulu’s Lounge | 117, 129 | SPENT | No. 117 build | opening run — record the peg here |
@@ -161,7 +161,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Yerba Yerba | Yerba Yerba | 122 | OPEN | No. 122 build | opening run — record the peg here |
 | I’m Donut? | I’m Donut? | 123, 130 | SPENT | No. 123 build | opening run — record the peg here |
 | Molly Tea | Molly Tea | 124, 131 | SPENT | No. 124 build | opening run — record the peg here |
-| Um Yong Baek | Um Yong Baek | 124 | OPEN | No. 124 build | opening run — record the peg here |
+| Um Yong Baek | Um Yong Baek | 124, 149 | SPENT | No. 124 build | opening run — record the peg here |
 | Sansok | Sansok | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
 | Dolpan Hwajoo | Dolpan Hwajoo | 125, 136 | SPENT | No. 125 build | opening run — record the peg here |
 | AiFOKATO | AiFOKATO | 125, 134 | SPENT | No. 125 build | opening run — record the peg here |
@@ -193,14 +193,14 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Rogs Race | Rogs Race | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Petra | Petra | 135, 145 | SPENT | No. 135 build | opening run — record the peg here |
 | Saikyo Pasta | Saikyo Pasta | 135, 143 | SPENT | No. 135 build | opening run — record the peg here |
-| Shirazi | Shirazi | 135 | OPEN | No. 135 build | opening run — record the peg here |
+| Shirazi | Shirazi | 135, 149 | SPENT | No. 135 build | opening run — record the peg here |
 | Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Your Mother’s House | Your Mother’s House | 136, 143 | SPENT | No. 136 build | opening run — record the peg here |
 | The CHOYA Ginza Bar Singapore | The CHOYA Ginza Bar Singapore | 136, 143 | SPENT | No. 136 build | opening run — record the peg here |
 | Shan Li You | Shan Li You | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Curry Popo | Curry Popo | 137 | OPEN | No. 137 build | opening run — record the peg here |
 | Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |
-| Rawr Cafe | Rawr Cafe | 138 | OPEN | No. 138 build | opening run — record the peg here |
+| Rawr Cafe | Rawr Cafe | 138, 149 | SPENT | No. 138 build | opening run — record the peg here |
 | Matsuya | Matsuya | 138, 146 | SPENT | No. 138 build | opening run — record the peg here |
 | Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
 | Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |

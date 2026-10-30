@@ -39,7 +39,8 @@
    "desk": "Property",
    "claim": "CCR's Q2 price outperformance does not persist into Q3 2026 absent an ABSD relaxation",
    "check_by": "2026-10-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "CCR's outperformance did not persist: non-landed central region went from +1.8% q/q in Q2 to +0.3% in Q3, the weakest of the three regions, and no ABSD relaxation came. Graded No. 149."
   },
   {
    "issue": 52,
@@ -191,7 +192,8 @@
    "desk": "Property",
    "claim": "Singapore private home prices stay flat-to-soft (≤+0.5% q/q) in Q3 2026 as the 9,320-unit GLS pipeline weighs",
    "check_by": "2026-10-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Private home prices were not flat-to-soft: URA's 3Q2026 statistics show the overall index up 1.4% q/q, nearly three times the +0.5% ceiling, with outside-central non-landed up 2.3%. Graded No. 149."
   },
   {
    "issue": 55,
@@ -206,7 +208,8 @@
    "desk": "Macro",
    "claim": "MAS delivers a 3rd straight tightening (steeper S$NEER slope) at its October MPS",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "MAS did not tighten. At the 14 Oct 2026 statement it kept the S$NEER slope unchanged - its own summary reads 'no change'. Graded No. 149."
   },
   {
    "issue": 56,
@@ -237,7 +240,8 @@
    "desk": "Property",
    "claim": "The 15-month wait-out repeal does NOT materially raise HDB resale prices (RPI stays roughly flat) through Q3",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "The index was roughly flat through Q3: -0.2% q/q to 202.4, a third straight fall, -0.6% y/y. Graded No. 149."
   },
   {
    "issue": 56,
@@ -326,7 +330,8 @@
    "desk": "Property",
    "claim": "The 15-month wait-out repeal does NOT spike the broad HDB resale index (RPI stays roughly flat) through Q3, even as mature-estate 4-room pricing firms",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "No spike: the HDB resale index fell 0.2% q/q in 3Q2026 to 202.4, a third consecutive decline, with resale volume up 19.5% q/q to 7,528 - volume absorbed the repeal, not price. Graded No. 149."
   },
   {
    "issue": 58,
@@ -437,7 +442,8 @@
    "desk": "The Long Read",
    "claim": "No dedicated NYT/BBC/Reuters/FT/Economist feature names China's hyperlocal '附近 / 回血感' micro-recovery reframe (as distinct from generic 'citywalk' or 'consumption downgrade') by 31 Oct 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "No such feature found across the named outlets by 31 Oct 2026. Graded right on the evidence available, but the test was built so it could only be confirmed by absence. Graded No. 149."
   },
   {
    "issue": 59,
@@ -578,7 +584,8 @@
    "desk": "The Long Read",
    "claim": "Falsifier: China Q3 2026 NBS household data (~mid-Oct) still shows lower-tier/rural per-capita consumption growth OUTPACING urban tier-1",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "NBS data for the first three quarters of 2026 show rural per-capita consumption up 4.3% nominal against urban 3.0%, rural outpacing urban by 1.3 points. Note: NBS publishes no tier-1 series, so half the comparison never existed. Graded No. 149."
   },
   {
    "issue": 61,
@@ -632,7 +639,8 @@
    "desk": "Technology",
    "claim": "MiniMax H3's held-out benchmarks (technical report) confirm it trails Gemini Omni Flash / Seedance on text- and image-to-video, leading mainly on video-editing-with-audio",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "push",
+   "result": "Two legs right, one wrong: H3 trails on text-to-video and leads on video-editing-with-audio, but it does NOT trail on image-to-video - it leads that board at 1,489.4 Elo. Graded No. 149."
   },
   {
    "issue": 62,
@@ -736,7 +744,8 @@
    "desk": "The Good Life",
    "claim": "KAI Matsumoto's kaiseki-to-Italian swap draws divided trip-reports (purists vs converts) rather than consensus praise",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "No trip reports to read. KAI Matsumoto reopened 4 Aug 2026 with its first full Italian course, but every reachable source is the operator's own press material; no guest reports, divided or otherwise, are published. Graded No. 149."
   },
   {
    "issue": 63,
@@ -1620,7 +1629,8 @@
    "desk": "Technology",
    "claim": "The Remote Access Security Act does not become law (Senate passage + signature) before 31 October 2026 — the cloud-rental loophole stays open through Q3",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "Not law. H.R. 2683 passed the House 369-22 on 12 Jan 2026, was referred to Senate Banking on 13 Jan and has had no action since; the cloud-rental loophole stayed open. Graded No. 149."
   },
   {
    "issue": 75,
@@ -1883,7 +1893,8 @@
    "desk": "Technology",
    "claim": "Chinese H200 uptake stays throttled (<25% of licensed volume) as Beijing steers to Huawei Ascend",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "push",
+   "result": "Direction right, number unverifiable: Beijing is demonstrably throttling and steering to Ascend, but no official licensed-volume denominator is published, so a '<25%' ratio was never scoreable. Graded No. 149."
   },
   {
    "issue": 79,
@@ -1973,8 +1984,8 @@
    "desk": "The Travel Desk",
    "claim": "SIA's Singapore-Madrid (via Barcelona) 5x-weekly service launches 26 Oct 2026",
    "check_by": "2026-10-30",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "SQ388 launched Singapore-Barcelona-Madrid on Mon 26 Oct 2026, five times weekly on an A350-900. Graded No. 149."
   },
   {
    "issue": 79,
@@ -1998,7 +2009,8 @@
    "desk": "Singapore",
    "claim": "Singapore's June HDB resale index −0.3% (2nd straight quarterly fall) marks a genuine broad-market cooling, not a blip; the July print continues soft",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "The cooling held: HDB's 3Q2026 flash put the Resale Price Index at 202.4, down 0.2% q/q, a third straight quarterly fall and -0.6% y/y. Graded No. 149."
   },
   {
    "issue": 80,
@@ -2471,7 +2483,9 @@
    "issue": 87,
    "desk": "Screen & Sound",
    "claim": "Coyote vs. Acme finishes its domestic theatrical run under US$45M (a symbolic/PR win, not a commercial one)",
-   "check_by": "2026-10-31"
+   "check_by": "2026-10-31",
+   "outcome": "wrong",
+   "result": "Coyote vs. Acme took $60,101,763 domestic from its 28 Aug 2026 release, $15.1m above the $45m ceiling, plus $41,512,161 overseas for $101.6m worldwide - a commercial result, not a symbolic one. Graded No. 149."
   },
   {
    "issue": 87,
@@ -2617,7 +2631,8 @@
    "desk": "The World",
    "claim": "US strikes on Iran (Bandar Abbas/Chabahar, 1 Sep) will not reopen the Strait of Hormuz to routine traffic; risk of open-ended war (Cato/The Hill sceptic)",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "Two months after the 1 Sep strikes, Hormuz is still shut to routine traffic: 2-5 transits a day in the last week of October against ~100+ normal. Graded No. 149."
   },
   {
    "issue": 90,
@@ -2766,7 +2781,8 @@
    "desk": "The Diary",
    "claim": "BIGBANG's added 18 Oct National Stadium date is confirmed on sale ~3 Sep and stays on",
    "check_by": "2026-10-18",
-   "outcome": null
+   "outcome": "right",
+   "result": "The added 18 Oct 2026 National Stadium date went on general sale 3 Sep 2026 and stayed on, announced after the 17 Oct show sold out in two hours. Graded No. 149."
   },
   {
    "issue": 93,
@@ -2822,8 +2838,8 @@
    "desk": "The Diary",
    "claim": "Hikiniku To Come remains the month's standout Table opening; Sushidan's Parkway Parade outlet reviews settle warm/worth-the-trip",
    "check_by": "2026-10-31",
-   "outcome": null,
-   "result": null
+   "outcome": "push",
+   "result": "First half right: Hikiniku To Come was the standout, five out of five at S$27.90++ with reported queues. Second half unresolved: the Sushidan Parkway Parade outlet has drawn no published review, so its reception cannot have settled. Graded No. 149."
   },
   {
    "issue": 93,
@@ -2887,8 +2903,8 @@
    "desk": "The Diary",
    "claim": "At least one of the three new SG Japanese counters (Kikukawa / Toriei / Kappo Suguru) draws a substantive local review by mid-October",
    "check_by": "2026-10-20",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Kappo Suguru drew a full local review on 2 Sep 2026 - four out of five, eleven courses, S$180++ - six weeks inside the test. Graded No. 149."
   },
   {
    "issue": 94,
@@ -2904,8 +2920,8 @@
    "desk": "The Kit",
    "claim": "Independent long-term reviews confirm the Sennheiser Momentum True Wireless 5's user-replaceable batteries work as claimed (no teardown reversal)",
    "check_by": "2026-10-31",
-   "outcome": null,
-   "result": null
+   "outcome": "push",
+   "result": "Half right: every reviewer confirms the batteries are user-replaceable in both buds and case with the supplied tool, no glue. Half missing: no long-term review or independent teardown exists; the longest test ran three weeks. Graded No. 149."
   },
   {
    "issue": 94,
@@ -2967,7 +2983,8 @@
    "desk": "The Good Life",
    "claim": "The Zenith Chronomaster Solo Sport draws divided hands-on reviews (purists vs converts) over a time-only El Primero rather than uniform praise",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Reviews were not divided on the predicted purist axis - they were broadly favourable, and no review raised a purist objection to a time-only El Primero. Criticism landed on price and dial busyness instead. Graded No. 149."
   },
   {
    "issue": 95,
@@ -3063,7 +3080,8 @@
    "desk": "The Good Life",
    "claim": "The MING 57.05 Comet (limited to 200 pieces) sells out its pre-order allocation",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 200-piece allocation is gone: the MING 57.05 Comet strap version reads WAITLIST at 30 Oct 2026 and the Polymesh variant is no longer listed. Pre-orders opened 27 Aug 2026 at CHF 6,950. Graded No. 149."
   },
   {
    "issue": 97,
@@ -3451,7 +3469,8 @@
    "desk": "The Kit",
    "claim": "Independent owner reviews after the Sonos Ace Ultra's 29 Sep general availability confirm the Wi-Fi Headphone-Linking works reliably (not blocked by app instability).",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Owner reports did not confirm reliable Wi-Fi linking: two owners posted returns on Sonos's own forum (2 and 8 Oct 2026) over handoff and dropouts, others had no trouble. The test asked for owner confirmation; owners split. Graded No. 149."
   },
   {
    "issue": 105,
@@ -3505,7 +3524,8 @@
    "desk": "The World",
    "claim": "Saudi/Gulf crude continues routing around the Strait of Hormuz by ship-to-ship transfer outside it, and Brent does not close above US$95 before 31 October 2026.",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The price leg is blown. Brent first closed above $95 on 2 Sep 2026 ($95.63), peaked at $116.72 on 23 Oct and never closed below $95 again. The re-routing leg held. Graded No. 149."
   },
   {
    "issue": 107,
@@ -3641,7 +3661,8 @@
    "desk": "The World",
    "claim": "IMF PortWatch daily Hormuz transits stay below forty a day through 31 October 2026.",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "PortWatch daily Hormuz transits peaked at eight a day (5 Oct 2026) and ran 0-7 the rest of the month, never near forty. Caveat: the published series ends 25 Oct. Graded No. 149."
   },
   {
    "issue": 108,
@@ -3658,7 +3679,8 @@
    "desk": "Singapore",
    "claim": "CASE logs more than one hundred complaints against Yoga Inc by 31 October 2026.",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "CASE's published tally stands at 92 complaints against Yoga Inc (S$32,826.73 in prepayment losses) for 10-30 Sep 2026, with no October update - eight short of the hundred. Graded No. 149."
   },
   {
    "issue": 108,
@@ -3700,7 +3722,8 @@
    "desk": "Screen & Sound",
    "claim": "Resident Evil's Tomatometer audience score is still within five points of 91 per cent on 31 October 2026.",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "Resident Evil's audience score read 90% on 10,000+ verified ratings at 30 Oct 2026, one point off 91 and inside the five-point band. Graded No. 149."
   },
   {
    "issue": 108,
@@ -3714,7 +3737,8 @@
    "desk": "The Macro Desk",
    "claim": "The Federal Reserve raises its target range again at the October 2026 meeting.",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The Fed did not hike: it held at 3.75-4.00% on 28 Oct 2026. The painful detail is that the vote was 10-2 and both dissenters, Cook and Hammack, wanted exactly the 25bp predicted - wrong by two votes out of twelve. Graded No. 149."
   },
   {
    "issue": 108,
@@ -3787,7 +3811,8 @@
    "desk": "The World",
    "claim": "Mecklenburg-Vorpommern's final certified result leaves the CDU below the five-per-cent threshold, with zero seats.",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "Final certified result put the CDU on 4.9%, below the threshold, holding zero of the Landtag's 71 seats; the chamber is AfD 32, SPD 29, Linke 5, Grune 5. Graded No. 149."
   },
   {
    "issue": 109,
@@ -5633,14 +5658,16 @@
    "desk": "Technology",
    "claim": "Artificial Analysis still scores Gemini 4 Argon below 60 on its Intelligence Index at end-October",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "Gemini 4 Argon scores 50 on the Artificial Analysis Intelligence Index v5.0, ten points below the 60 test; the whole board tops out at 59. Graded No. 149."
   },
   {
    "issue": 120,
    "desk": "The Home Lab",
    "claim": "llama.cpp PR 29500 is still unmerged on 31 October 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "PR 29500 was merged into master on 7 Oct 2026, three and a half weeks before the test date. Graded No. 149."
   },
   {
    "issue": 120,
@@ -5661,7 +5688,8 @@
    "desk": "The Kit",
    "claim": "Nothing Headphone (1) Pro still has no Singapore price on 31 October 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Nothing's own Singapore store lists Headphone (1) Pro at SGD 549 as at 30 Oct 2026, in white and black, pre-order 30 working days. Graded No. 149."
   },
   {
    "issue": 120,
@@ -5688,21 +5716,24 @@
    "desk": "The Macro Desk",
    "claim": "The Fed holds at 3.75-4.00% at the 27-28 October FOMC",
    "check_by": "2026-10-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Held at 3.75-4.00% on 28 Oct 2026, 10-2. Graded No. 149."
   },
   {
    "issue": 120,
    "desk": "The Macro Desk",
    "claim": "The 2s10s spread is wider than 40bp at the end of October 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Missed by 2bp. 2s10s on 30 Oct 2026, October's last print: 4.94% less 4.56% = 38bp. Right about the steepening all month, wrong on the day that counted. Graded No. 149."
   },
   {
    "issue": 120,
    "desk": "The Macro Desk",
    "claim": "Brent closes above US$90 on 31 October 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "Brent closed $112.33 on 30 Oct 2026, $22.33 above the $90 test; October's low close was $100.20. (31 Oct is a Saturday, so graded on October's final close.) Graded No. 149."
   },
   {
    "issue": 120,
@@ -5993,14 +6024,16 @@
    "desk": "The Diary",
    "claim": "Christmas Wonderland 2026 dates are published on the event's own site by 31 October 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No 2026 dates on the event's own site as at 30 Oct 2026: christmaswonderland.sg still showed only 2025 highlights and 'the magic's just getting started'. Graded No. 149."
   },
   {
    "issue": 127,
    "desk": "The Kit",
    "claim": "Bose's wired earbud ships 15 Oct and Bose still publishes no dB attenuation figure and no power draw on any regional page two weeks later",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "All three legs hold. The Bose Noise Cancelling Wired Earbuds began shipping 15 Oct 2026 at $99, and Bose's own spec sheet still gives no dB attenuation figure and no power draw. Graded No. 149."
   },
   {
    "issue": 127,
@@ -6030,7 +6063,8 @@
    "desk": "The Home Lab",
    "claim": "llama.cpp PR 30112's prompt-processing regression draws a maintainer response or a follow-up fix on master within three weeks",
    "check_by": "2026-10-30",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No maintainer reply and no fix. The prompt-processing regression was flagged on 8 Oct 2026 ('PP about 10% slower, TG 33 to 16 t/s'); three weeks on no maintainer had answered that point and nothing addressing it had landed on master. Graded No. 149."
   },
   {
    "issue": 127,
@@ -6138,7 +6172,8 @@
    "desk": "The Kit",
    "claim": "The Sigma 50-120mm F2.8 ships on 22 October 2026 as the maker's US subsidiary stated",
    "check_by": "2026-10-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "Shipped on schedule: the Sigma 50-120mm F2.8 DC OS Contemporary was released Thu 22 Oct 2026 at $799 in Sony E, Fujifilm X and Canon RF; Sigma's own 13 Oct notice reaffirmed the date. Graded No. 149."
   },
   {
    "issue": 128,
@@ -6292,14 +6327,16 @@
    "desk": "The Macro Desk",
    "claim": "Gold closes above $4,216.30 on the last trading day of October 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Gold closed $3,884.90 on 30 Oct 2026, the last trading day of October - $331.40 below the $4,216.30 test, which was itself October's high close (9 Oct). Gold fell 20 of the next 21 sessions, including -$146.50 on 30 Oct alone. Graded No. 149."
   },
   {
    "issue": 129,
    "desk": "The Macro Desk",
    "claim": "The US 10-year Treasury yield is above 5.00% on 28 October 2026 (FOMC day)",
    "check_by": "2026-10-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 10-year was 5.05% on 28 Oct 2026, FOMC day - above 5.00% by 5bp, from 4.99% the day before. Graded No. 149."
   },
   {
    "issue": 129,
@@ -6589,7 +6626,8 @@
    "desk": "The Macro Desk",
    "claim": "The Fed holds its target range unchanged at the 27-28 October 2026 meeting",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Range unchanged at 3.75-4.00% on 28 Oct 2026, 10-2. Graded No. 149."
   },
   {
    "issue": 132,
@@ -6935,7 +6973,8 @@
    "desk": "Singapore",
    "claim": "Singapore's 24-hour PSI falls below 100 in all five regions on a full day before 31 Oct 2026",
    "check_by": "2026-10-31",
-   "outcome": null
+   "outcome": "right",
+   "result": "26 Oct 2026 was a clean full day: 24-hour PSI below 100 in all five regions across all 24 readings (worst 96, west). It fell further to a 75 maximum by 30 Oct, from a 230 peak on 18 Oct. Graded No. 149."
   },
   {
    "issue": "135",
@@ -6999,7 +7038,8 @@
    "desk": "The Macro Desk",
    "claim": "The Fed holds at 3.75-4.00% at the 27-28 October 2026 FOMC",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Held at 3.75-4.00% on 28 Oct 2026, 10-2. Graded No. 149."
   },
   {
    "issue": "135",
@@ -7090,7 +7130,8 @@
    "desk": "The World",
    "claim": "UKMTO weekly Hormuz transits stay above 250 in the week to 21 Oct 2026 while Brent holds above $110 (the risk-premium test printed on p3)",
    "check_by": "2026-10-26",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Both legs failed. Brent's best close in the week to 21 Oct was $109.86 (16 Oct), never holding above $110; PortWatch logged 3-7 Hormuz transits a day, roughly 24 for the week against the 250 test. Graded No. 149."
   },
   {
    "issue": "136",
@@ -7146,7 +7187,8 @@
    "desk": "The Macro Desk",
    "claim": "The Fed holds at its 27-28 Oct 2026 meeting (market-implied ~72% on 16 Oct)",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Held at 3.75-4.00% on 28 Oct 2026, 10-2. Graded No. 149."
   },
   {
    "issue": "136",
@@ -7188,14 +7230,16 @@
    "desk": "The World",
    "claim": "The Strait of Hormuz does NOT reopen to normal passage within seven days of Araghchi's 17 Oct offer (i.e. by 24 Oct 2026)",
    "check_by": "2026-10-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "Hormuz did not reopen. IMF PortWatch daily transits 18-24 Oct 2026: 4,4,3,3,4,5,2 a day against ~100+ normal. Graded No. 149."
   },
   {
    "issue": "137",
    "desk": "The World",
    "claim": "Alberta's Question 10 returns a majority for remaining a province of Canada",
    "check_by": "2026-10-30",
-   "outcome": null
+   "outcome": "right",
+   "result": "Alberta Question 10: 'remain a province in Canada' 1,556,316 votes = 74.95% against 25.05%; official results 29 Oct 2026, turnout 70.4%. Graded No. 149."
   },
   {
    "issue": "137",
@@ -7237,7 +7281,8 @@
    "desk": "The Macro Desk",
    "claim": "The US 10-year Treasury yield does not close above 5.50% before the 27-28 October FOMC",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 10-year never closed at or above 5.50%. Pre-FOMC October high 5.31% (5 Oct); 27 Oct close 4.99%. Graded No. 149."
   },
   {
    "issue": "137",
@@ -7322,7 +7367,8 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC leaves the federal funds target at 3.75-4.00% on 28 October rather than hiking again",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "No hike: held at 3.75-4.00% on 28 Oct 2026; the only two dissents (Cook, Hammack) were FOR 25bp. Graded No. 149."
   },
   {
    "issue": 140,
@@ -7462,7 +7508,8 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC holds its target range at 3.75-4.00 per cent on 28 October 2026",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "Held at 3.75-4.00% on 28 Oct 2026, 10-2. Graded No. 149."
   },
   {
    "issue": 142,
@@ -7777,7 +7824,8 @@
    "desk": "The World",
    "claim": "Israel reopens all West Bank land crossings by Thursday 29 October 2026",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "Not knowable from published sources: the IDF closed all West Bank crossings from 00:00 on election day, Tue 27 Oct, and said they would reopen 'pending a situation assessment'; no COGAT/IDF reopening notice was published. Graded No. 149."
   },
   {
    "issue": 144,
@@ -8057,7 +8105,8 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC holds the target range at 3.75-4.00 per cent on 28 October 2026",
    "check_by": "2026-10-29",
-   "outcome": null
+   "outcome": "right",
+   "result": "FOMC held the range at 3.75-4.00% on 28 Oct 2026, 10-2; Cook and Hammack dissented, both wanting +25bp. Graded No. 149."
   },
   {
    "issue": 146,

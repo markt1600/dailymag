@@ -1172,9 +1172,10 @@
       "venue": "Nyonya Next Door",
       "key": "Nyonya Next Door",
       "runs": [
-        116
+        116,
+        149
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 116 build",
       "note": "opening run — record the peg here"
     },
@@ -1309,9 +1310,10 @@
       "venue": "Um Yong Baek",
       "key": "Um Yong Baek",
       "runs": [
-        124
+        124,
+        149
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 124 build",
       "note": "opening run — record the peg here"
     },
@@ -1647,9 +1649,10 @@
       "venue": "Shirazi",
       "key": "Shirazi",
       "runs": [
-        135
+        135,
+        149
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 135 build",
       "note": "opening run — record the peg here"
     },
@@ -1719,9 +1722,10 @@
       "venue": "Rawr Cafe",
       "key": "Rawr Cafe",
       "runs": [
-        138
+        138,
+        149
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 138 build",
       "note": "opening run — record the peg here"
     },
@@ -1998,7 +2002,7 @@
       "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 149,
+  "barred_for_issue": 150,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2069,6 +2073,7 @@
     "Maison Yoshoku",
     "Shared Table",
     "VE/LA",
+    "Nyonya Next Door",
     "Nice Noodle",
     "Lulu’s Lounge",
     "Tanica",
@@ -2076,6 +2081,7 @@
     "KOKO Kawane",
     "I’m Donut?",
     "Molly Tea",
+    "Um Yong Baek",
     "Sansok",
     "Dolpan Hwajoo",
     "AiFOKATO",
@@ -2094,11 +2100,12 @@
     "Yogeek",
     "Petra",
     "Saikyo Pasta",
+    "Shirazi",
     "Your Mother’s House",
     "The CHOYA Ginza Bar Singapore",
+    "Rawr Cafe",
     "Matsuya",
     "Age.3",
-    "Après Gelato",
     "BFF",
     "JR Pizzeria",
     "Woksta",

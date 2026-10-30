@@ -1,0 +1,772 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 149,
+ "date": "Saturday 31 October 2026",
+ "title": "The number on the box",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Saturday, the thirty-first of October. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. Six point three billion US dollars walked out of the world's largest crypto exchange in about twenty minutes."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A film got ninety-nine per cent from a hundred and fifty-four critics and almost nobody went."
+  },
+  {
+   "s": "A",
+   "t": "And three central banks held their rates in seventy-two hours, while two of them quietly moved the other lever."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] There's a thread in all three, isn't there. The printed number and the real one."
+  },
+  {
+   "s": "A",
+   "t": "That's the issue. Start with Binance."
+  },
+  {
+   "s": "B",
+   "t": "Okay. What actually happened?"
+  },
+  {
+   "s": "A",
+   "t": "Hot wallets drained across ten blockchains, starting about twenty past eight in the evening, UTC, on the twenty-ninth. Roughly twenty minutes, start to finish."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Twenty minutes."
+  },
+  {
+   "s": "A",
+   "t": "Six point three billion US dollars, by the exchange's own count. That's the largest crypto theft on record — about four times the previous one."
+  },
+  {
+   "s": "B",
+   "t": "And the way in?"
+  },
+  {
+   "s": "A",
+   "t": "Their own statement: a compromised DevOps engineer's laptop. That let the attacker reach a service container and submit unauthorised withdrawals."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] A laptop."
+  },
+  {
+   "s": "A",
+   "t": "A laptop."
+  },
+  {
+   "s": "B",
+   "t": "Are customers getting their money back?"
+  },
+  {
+   "s": "A",
+   "t": "Binance says yes. Its first update promised it would cover all losses from its insurance fund and company funds. Its second, twelve hours later, is where it gets interesting."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "It disclosed additional points of breach, and said it has set aside more than six point three four billion. But only about five billion of that is already in the stolen token types."
+  },
+  {
+   "s": "B",
+   "t": "So about eighty per cent is actually sitting there."
+  },
+  {
+   "s": "A",
+   "t": "About eighty per cent. The rest they're buying — on the market and over the counter."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] That's a promise to cover. Not a cover."
+  },
+  {
+   "s": "A",
+   "t": "That is exactly the distinction. Withdrawals restart in phases in about thirty-four hours, and a proof-of-reserves result is promised for the second of November."
+  },
+  {
+   "s": "B",
+   "t": "Who did it?"
+  },
+  {
+   "s": "A",
+   "t": "Blockchain analysis firms point at the North Korean unit tracked as TraderTraitor. But hold that lightly."
+  },
+  {
+   "s": "B",
+   "t": "Why?"
+  },
+  {
+   "s": "A",
+   "t": "No government and no law enforcement agency has attributed it. Binance has named nobody. And the exchange has published no root cause."
+  },
+  {
+   "s": "B",
+   "t": "Two very different stories are being told about this, aren't there."
+  },
+  {
+   "s": "A",
+   "t": "Two. Al Jazeera frames it as a weapons-programme story — one analyst calling it, quote, a global security issue, not just a crypto theft."
+  },
+  {
+   "s": "B",
+   "t": "And the other?"
+  },
+  {
+   "s": "A",
+   "t": "CNBC frames it as a credibility contest. Elon Musk trolled the exchange hours after the breach, and the founder replied on X: Elon, have a lot of respect for you, but bad time to troll. Please stop."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's the reply?"
+  },
+  {
+   "s": "A",
+   "t": "That's the reply."
+  },
+  {
+   "s": "B",
+   "t": "And China?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Nothing. We read the Global Times business index in full for both days. Not one item on the largest theft in history."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Huh."
+  },
+  {
+   "s": "A",
+   "t": "The sceptics are worth hearing. Mark Karpeles, who ran Mt Gox, told Reuters the attackers probably reached the private keys of at least two wallets."
+  },
+  {
+   "s": "B",
+   "t": "Which contradicts Binance directly."
+  },
+  {
+   "s": "A",
+   "t": "Which contradicts Binance directly — they say they found no evidence of a key leak. And Elliptic's Tom Robinson cautions that attribution is, quote, not yet certain."
+  },
+  {
+   "s": "B",
+   "t": "What about the number itself?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] Even the number is contested. One firm published five point five billion. Binance says six point three. One says six point three six. Another, six point four three."
+  },
+  {
+   "s": "B",
+   "t": "That's a seventeen per cent spread on the headline figure."
+  },
+  {
+   "s": "A",
+   "t": "Seventeen per cent. And the falsification test is dated: if the proof-of-reserves lands clean on the second and withdrawals reopen on time, the solvency sceptics are wrong. If either slips, they're right."
+  },
+  {
+   "s": "B",
+   "t": "Right. The money block. What did the central banks do?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing, three times, in seventy-two hours. The Federal Reserve held at three and three-quarters to four per cent on the twenty-eighth."
+  },
+  {
+   "s": "B",
+   "t": "Not a cut."
+  },
+  {
+   "s": "A",
+   "t": "Not a cut. The European Central Bank held on the twenty-ninth, deposit rate at two point five, into September inflation of three point eight per cent."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So every single dissent in the window was hawkish."
+  },
+  {
+   "s": "A",
+   "t": "Every one. Not a single policymaker in three committees asked for a cut."
+  },
+  {
+   "s": "B",
+   "t": "And yet you said they moved the other lever."
+  },
+  {
+   "s": "A",
+   "t": "They did. Read the Fed's implementation note from the same day. It instructs the Desk, when appropriate, to increase its holdings through purchases of Treasury bills."
+  },
+  {
+   "s": "B",
+   "t": "What's the Tokyo version?"
+  },
+  {
+   "s": "A",
+   "t": "The mirror image. The Bank held the rate — and unanimously more than doubled the pace at which it sells equities back into the market. From about three hundred and thirty billion yen a year to about eight hundred and sixty."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] More than double."
+  },
+  {
+   "s": "A",
+   "t": "From January twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "So the price of money is restrictive and the quantity isn't."
+  },
+  {
+   "s": "A",
+   "t": "That's the sentence. And it's why nobody should call this a tight-liquidity regime."
+  },
+  {
+   "s": "B",
+   "t": "How did markets read it?"
+  },
+  {
+   "s": "A",
+   "t": "As growth, not inflation. The two-year fell thirteen basis points on the week, the ten-year six."
+  },
+  {
+   "s": "B",
+   "t": "A rally after a hawkish hold?"
+  },
+  {
+   "s": "A",
+   "t": "A rally after a hawkish hold. And here's the tell. The ten-year breakeven did not move at all. Two point three four per cent on the twenty-third, two point three four on the thirtieth."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the whole move was real yields."
+  },
+  {
+   "s": "A",
+   "t": "The whole move was the real leg. That's growth being marked down, not inflation coming off."
+  },
+  {
+   "s": "B",
+   "t": "What was being marked down?"
+  },
+  {
+   "s": "A",
+   "t": "Artificial intelligence capital spending. The S and P five hundred fell one point eight two per cent on Friday. Intel fell twenty-nine per cent in a day."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] In a day."
+  },
+  {
+   "s": "A",
+   "t": "And Amazon reported seventy-seven point three billion dollars of property and equipment purchases in a single quarter."
+  },
+  {
+   "s": "B",
+   "t": "Against what?"
+  },
+  {
+   "s": "A",
+   "t": "Against Alphabet's fifty-one point four and Microsoft's thirty-nine point four."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Did the profit follow?"
+  },
+  {
+   "s": "A",
+   "t": "No. Net income fell — to twenty point seven billion from twenty-one point two — even as operating income rose almost eleven billion."
+  },
+  {
+   "s": "B",
+   "t": "How does that work?"
+  },
+  {
+   "s": "A",
+   "t": "The comparable quarter carried nine and a half billion of investment gains. So the operating business grew and the bottom line shrank."
+  },
+  {
+   "s": "B",
+   "t": "And gold? It had a terrible day."
+  },
+  {
+   "s": "A",
+   "t": "Gold fell three point six three per cent on a day its own opportunity cost fell three basis points."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's not macro."
+  },
+  {
+   "s": "A",
+   "t": "That's positioning. Bonds, meanwhile, did their job: against equities down nearly two per cent, a global bond fund rose zero point one seven. The hedge worked."
+  },
+  {
+   "s": "B",
+   "t": "That's explanation, not advice, I should say."
+  },
+  {
+   "s": "A",
+   "t": "Explanation, not advice. Singapore, briefly."
+  },
+  {
+   "s": "B",
+   "t": "The flat."
+  },
+  {
+   "s": "A",
+   "t": "A five-room flat at SkyParc at Dawson sold for one point eight one eight million Singapore dollars. The first resale flat ever above one point eight."
+  },
+  {
+   "s": "B",
+   "t": "A record price inside a falling index."
+  },
+  {
+   "s": "A",
+   "t": "A record inside a falling index. And transactions rose nineteen and a half per cent."
+  },
+  {
+   "s": "B",
+   "t": "Anything that touches an ordinary household?"
+  },
+  {
+   "s": "A",
+   "t": "Yes. From the thirtieth, loans on individually owned private-hire cars are capped like private cars. Seventy per cent at or below twenty thousand open market value, sixty above it, seven years maximum."
+  },
+  {
+   "s": "B",
+   "t": "Why now?"
+  },
+  {
+   "s": "A",
+   "t": "About five hundred individually owned self-drive registrations a month. The ministries said some buyers were using the exemption with no intention of providing any service."
+  },
+  {
+   "s": "B",
+   "t": "Technology. You've buried the lead here."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Possibly. OpenAI published a preprint and a machine-checked formalisation claiming the Exponential Time Hypothesis is false."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] No human input."
+  },
+  {
+   "s": "A",
+   "t": "A thousand and fifty formal modules."
+  },
+  {
+   "s": "B",
+   "t": "Is it real? Does anyone believe it?"
+  },
+  {
+   "s": "A",
+   "t": "Lance Fortnow — who's written the field's best-known complexity blog for two decades — said on the twenty-eighth, quote, I have not verified the proof myself, but it is safe to assume now that the exponential-time hypothesis is toast."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's enormous."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Here's the number on the box, though."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So it changes nothing you can run."
+  },
+  {
+   "s": "A",
+   "t": "Nothing you can run. And Fortnow adds it applies to this one family of problems, not to hard problems generally — it gives nothing new for the travelling salesman."
+  },
+  {
+   "s": "B",
+   "t": "What about independent checking?"
+  },
+  {
+   "s": "A",
+   "t": "That's the Saturday story. The people who named the hypothesis stood up a public examination site. On the thirtieth, its update said — a few people have reached out, who ran the proofs locally and confirmed that they compiled."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's it?"
+  },
+  {
+   "s": "A",
+   "t": "No names. No hardware. No build times. Five days after the claim."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What is it this week?"
+  },
+  {
+   "s": "A",
+   "t": "Amateur perfumery. People who blend their own fragrance from raw aroma chemicals, weighed to a thousandth of a gram."
+  },
+  {
+   "s": "B",
+   "t": "Is that expensive?"
+  },
+  {
+   "s": "A",
+   "t": "That's the hook. The materials are the same ones professionals use. Hedione — one of the molecules under most modern fine fragrance — is six US dollars for four millilitres."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Wait, so the kilo is only sixteen times the little bottle?"
+  },
+  {
+   "s": "A",
+   "t": "Which is exactly the trap. The ladder is built to make bulk look rational."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A century!"
+  },
+  {
+   "s": "A",
+   "t": "And the top of the range is something else. Orris butter — eight hundred and fifty US dollars for fifty grams. Mysore sandalwood, two thousand and sixty-five for half a kilo."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] For four millilitres?"
+  },
+  {
+   "s": "A",
+   "t": "And the sensible move is the dilution. The same material at five per cent costs forty-eight fifty."
+  },
+  {
+   "s": "B",
+   "t": "Okay, so what does it cost to actually start?"
+  },
+  {
+   "s": "A",
+   "t": "About three hundred and sixty-five pounds in Britain, or six hundred and forty-five dollars in America. Materials, a balance, alcohol, glass."
+  },
+  {
+   "s": "B",
+   "t": "That's genuinely accessible."
+  },
+  {
+   "s": "A",
+   "t": "[wry] Unless you're here."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Why?"
+  },
+  {
+   "s": "A",
+   "t": "Because most of that palette is classified as a dangerous good. No postal service will carry it. The main American supplier charges a flat international hazardous-materials fee of two hundred and seventy-three dollars and fifty cents."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] There it is again."
+  },
+  {
+   "s": "A",
+   "t": "There it is again. And the balance has the same problem. The one everyone buys reads to a thousandth of a gram."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So it's a two-decimal balance wearing a costume."
+  },
+  {
+   "s": "A",
+   "t": "In a room without air conditioning, yes."
+  },
+  {
+   "s": "B",
+   "t": "What about the regulation? I hear people complain about it constantly."
+  },
+  {
+   "s": "A",
+   "t": "This is the part that surprised me. Everyone blames the fragrance association's standards for ruining their favourite perfume. But its own UK director said, on the record, that the standards are not a legal requirement and only mandatory to its members."
+  },
+  {
+   "s": "B",
+   "t": "So a hobbyist isn't bound by any of it."
+  },
+  {
+   "s": "A",
+   "t": "Not by any of it."
+  },
+  {
+   "s": "B",
+   "t": "And the complaint that it only ever tightens?"
+  },
+  {
+   "s": "A",
+   "t": "The most-quoted line is that the ratchet turns in one direction only. The latest consultation withdrew two proposed restrictions outright and postponed a third."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So that's just not true."
+  },
+  {
+   "s": "A",
+   "t": "It's just not true. Though the chemistry behind the restrictions is real — the allergens in oakmoss were identified by a named research group, and even the essay making the ratchet argument concedes it."
+  },
+  {
+   "s": "B",
+   "t": "Is there an honest reason an amateur can't match a professional?"
+  },
+  {
+   "s": "A",
+   "t": "Yes, and it's structural rather than snobbish. There are captive molecules no amateur can buy at any price. And the professional's real advantage isn't the materials, it's the library."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a fair way to put it."
+  },
+  {
+   "s": "A",
+   "t": "And the counter is just as fair: amateurs win an adjacent competition. Which Luca Turin now judges."
+  },
+  {
+   "s": "B",
+   "t": "Culture. The film."
+  },
+  {
+   "s": "A",
+   "t": "LAIKA's Wildwood opened in North America over the twenty-third to the twenty-fifth, on twelve point two seven million dollars from two thousand eight hundred and seventeen theatres."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Not one."
+  },
+  {
+   "s": "A",
+   "t": "One critic dissents on the whole board. We could not read her review — the publisher refused us — so we report her score and not her argument."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's the saddest number in the issue."
+  },
+  {
+   "s": "A",
+   "t": "And we should flag it: the whole weekend table is published as estimates, and rival outlets put the same opening at eleven point six, eleven point eight and, quote, twelve million."
+  },
+  {
+   "s": "B",
+   "t": "Anything cheerful?"
+  },
+  {
+   "s": "A",
+   "t": "My Chemical Romance got their first ever UK number one album. The Black Parade, on a twentieth-anniversary reissue."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Twenty years late!"
+  },
+  {
+   "s": "A",
+   "t": "It climbed from a hundred and sixty-two. Thirteen thousand three hundred and ninety-five sales on the first midweek flash, and twelve thousand seven hundred and two of those were physical."
+  },
+  {
+   "s": "B",
+   "t": "Family desk — this one's close to home."
+  },
+  {
+   "s": "A",
+   "t": "A Philadelphia team followed three thousand four hundred and eighty-six children who had no smartphone at twelve. A thousand five hundred and forty-six got one by thirteen."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So it isn't the phone."
+  },
+  {
+   "s": "A",
+   "t": "It's an account and a bedroom."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "A Geneva group reanalysed Singapore's own three thousand four hundred and thirty-four pupil gaming cohort, with the original author as co-author."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So time limits are aimed at the wrong thing."
+  },
+  {
+   "s": "A",
+   "t": "Their words: playing time is an incomplete index of harm. Though their data runs from two thousand and seven to two thousand and nine, before mobile."
+  },
+  {
+   "s": "B",
+   "t": "Travel. You've got a scoop here."
+  },
+  {
+   "s": "A",
+   "t": "Luang Prabang trebles its museum ticket on the fifteenth of November. Sixty thousand kip to two hundred thousand for a foreign visitor."
+  },
+  {
+   "s": "B",
+   "t": "That's a big jump."
+  },
+  {
+   "s": "A",
+   "t": "Two hundred and thirty-three per cent. The waterfall rises sixty-seven, the hill and the caves both double."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Why raise prices now?"
+  },
+  {
+   "s": "A",
+   "t": "That's what makes it a story. Over Lao New Year this year the town took sixty-eight thousand visitors, against a hundred and twenty-seven thousand the year before."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's a collapse."
+  },
+  {
+   "s": "A",
+   "t": "A forty-six per cent fall. Revenue halved. Thai arrivals — the biggest regional market after China — down seventy-five per cent."
+  },
+  {
+   "s": "B",
+   "t": "So the overtourism story is backwards."
+  },
+  {
+   "s": "A",
+   "t": "Backwards. Twenty twenty-four was the peak. And into that slump, the ticket trebles."
+  },
+  {
+   "s": "B",
+   "t": "When should someone actually go?"
+  },
+  {
+   "s": "A",
+   "t": "November to February. And the trap is March and April — the weather page says dry season, and the sky is brown."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So the Easter holidays are exactly wrong."
+  },
+  {
+   "s": "A",
+   "t": "Exactly wrong. And one honest gap: we could not verify a single current room rate in that town. Six hotels refused us. So we printed none."
+  },
+  {
+   "s": "B",
+   "t": "Good. Let's close."
+  },
+  {
+   "s": "A",
+   "t": "The Undercurrent is Malaysia. Welfare there is no longer money — it's credit loaded onto the chip of the national identity card."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And if you don't spend it?"
+  },
+  {
+   "s": "A",
+   "t": "It expires on the thirty-first of December."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Well, of course it is."
+  },
+  {
+   "s": "A",
+   "t": "Of course it is. And the same card became a price. Citizens buy petrol at one ringgit ninety-nine a litre. The unsubsidised pump price was three ringgit ninety-two."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So a price isn't a property of the thing any more."
+  },
+  {
+   "s": "A",
+   "t": "It's a property of the buyer. And lending your card to a neighbour is now prosecutable — up to three years."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] A twenty per cent haircut."
+  },
+  {
+   "s": "A",
+   "t": "For the one service the system is designed to prevent. And we flag it honestly — that's one columnist's account of one reporter's check in one state. It isn't a national rate."
+  },
+  {
+   "s": "B",
+   "t": "Had this been predicted?"
+  },
+  {
+   "s": "A",
+   "t": "That's the part I liked. An economist at Sunway University argued in twenty twenty-three, before the scheme scaled, that restricting aid is a political choice dressed as a prudential one — and that it would produce exactly this resale."
+  },
+  {
+   "s": "B",
+   "t": "And the honest counter-argument?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] That this is food stamps with a chip, and nobody calls Ohio a ration state. A ninety-nine point seven per cent usage rate suggests it works."
+  },
+  {
+   "s": "B",
+   "t": "Does that survive?"
+  },
+  {
+   "s": "A",
+   "t": "Partly. But food stamps didn't set the price of petrol, didn't expire in December, didn't make lending your card a three-year offence — and weren't pointed at the middle class in their fourth year."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And next year it goes to thirteen million more people."
+  },
+  {
+   "s": "A",
+   "t": "Including middle-income households. A government that can switch twenty-two million people's consumption on and off, by category and by calendar."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] That's a genuinely new instrument."
+  },
+  {
+   "s": "A",
+   "t": "And the exchange rate in a Kelantan shop — eighty for a hundred — is the market's own estimate of what the label costs."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the issue, isn't it. The number on the box."
+  },
+  {
+   "s": "A",
+   "t": "That's the issue. That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
