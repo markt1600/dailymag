@@ -501,6 +501,14 @@ def _plain(s):
     s = _html.unescape(re.sub(r"<[^>]+>", " ", s or ""))
     return re.sub(r"\s+", " ", s).replace("’", "'").strip()
 
+def _desk_of(sec):
+    """the desk named in a page's running header ('● Meridian · The World' -> 'The World')"""
+    m = re.search(r'<div class="rh"><span>(.*?)</span><span>', sec, re.S)
+    if not m:
+        return ""
+    left = _plain(m.group(1))
+    return left.split("·")[-1].strip() if "·" in left else left.replace("●", "").strip()
+
 if _issno >= 126 and not _special:
     _lr_pages = 0
     for _i, _sec in enumerate(pages, 1):
@@ -654,8 +662,7 @@ if _issno >= 126 and not _special:
     for _i, _sec in enumerate(pages, 1):
         if _issno < 134 or _i <= 2 or _i == len(pages):
             continue
-        _rh = re.search(r'<div class="rh"><span>(.*?)</span>', _sec, re.S)
-        _desk = _plain(_rh.group(1)).split("·")[-1].strip() if _rh else ""
+        _desk = _desk_of(_sec)
         for _h in [_plain(x) for x in re.findall(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]:
             _pr = []
             _low = _h.lower().strip()
@@ -797,6 +804,111 @@ if _issno >= 126 and not _special:
                           f"columns each hold their own rows (No. 38 layout); a stray </div> has broken the grid")
         if _ag.cols != 2:
             errors.append(f"page {_i}: the agenda grid has {_ag.cols} direct column div(s), not 2 (Singapore left, Japan right)")
+    # (j) THE BOX LAW (editor, 31 Oct 2026 — reader-reported on No. 149: "check
+    # that the chatter and alternate view boxes actually relate to the main
+    # article? It feels they are diverging"). They were: the Spain rail page
+    # carried "The Chatter · What the Hormuz File Did This Week", the SkyParc
+    # flat carried "Two Labour Numbers, One Morning", the OpenAI proof carried
+    # "The Other Number This Week". The Chatter is the community's reaction
+    # TO THE LEAD STORY and the Sceptic is the case AGAINST IT; a second story
+    # belongs in the "Also on the desk" strip. Measured by shared distinctive
+    # terms: 2 of 39 boxes failed in No. 60, 17 of 46 in No. 149. From No. 150.
+    _BX_STOP = set("""The A An And But Or Of In On At To For With By From As Is Are Was Were Not No It Its This That These
+        Those He She They We I If When Then There Here What Why How So Yet Monday Tuesday Wednesday Thursday Friday Saturday
+        Sunday January February March April May June July August September October November December One Two Three Four Five
+        Six Seven Eight Nine Ten Also Still Even Both Each Every Some Most All Another Other Meanwhile Nothing Nobody Everyone
+        Singapore Singapore’s Singaporean US UK EU Reddit Chatter Sceptic Verdict Buzz Desk Meridian""".split())
+    def _bx_norm(t): return re.sub(r"[’']s$", "", t.lower())
+    def _bx_vocab(s):
+        out = set(); start = True
+        for w in s.split():
+            t = w.strip("“”\"'‘’(),;:.!?—–-[]"); is_start = start
+            start = w.rstrip().endswith((".", ":", "—", "–", "?", "!"))
+            if is_start or len(t) < 3 or t in _BX_STOP: continue
+            if t[0].isupper(): out.add(_bx_norm(t))
+        return out
+    def _bx_terms(s, vocab):
+        out = set()
+        for w in s.split():
+            t = w.strip("“”\"'‘’(),;:.!?—–-[]")
+            if len(t) < 3 or t in _BX_STOP: continue
+            if _bx_norm(t) in vocab: out.add(_bx_norm(t))
+            elif re.match(r"^\d[\d,.]*\w*$", t) and not re.match(r"^(19|20)\d\d$", t) and len(re.sub(r"\D", "", t)) >= 3: out.add(t)
+        return out
+    class _BoxScan(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.stack = []; self.boxes = []; self.cur = None; self.depth = 0; self.inlbl = False
+        def handle_starttag(self, tag, attrs):
+            cls = set((dict(attrs).get("class") or "").split()); self.stack.append(tag)
+            if self.cur is None and "chatter" in cls:
+                self.cur = {"cls": cls, "txt": [], "lbl": []}; self.depth = len(self.stack); self.inlbl = False
+            elif self.cur is not None and "lbl" in cls: self.inlbl = True
+        def handle_endtag(self, tag):
+            if self.cur is not None and len(self.stack) == self.depth: self.boxes.append(self.cur); self.cur = None
+            if self.cur is not None and self.inlbl and tag == "div": self.inlbl = False
+            if self.stack: self.stack.pop()
+        def handle_data(self, d):
+            if self.cur is not None: (self.cur["lbl"] if self.inlbl else self.cur["txt"]).append(d)
+    def _bx_content(s):
+        return set(re.findall(r"[a-z][a-z\-]{5,}", s.lower()))
+    # word rarity across this issue's articles: a word on three or more pages is furniture, not subject
+    _bx_df = {}
+    _bx_pages = []
+    for _i, _sec in enumerate(pages, 1):
+        if _i <= 2 or _i == len(pages) or not re.search(r'class="hed', _sec):
+            continue
+        _heds = [_plain(x) for x in re.findall(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]
+        _deks = [_plain(x) for x in re.findall(r'<div class="dek[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]
+        _bod = [_plain(x) for x in re.findall(r'<p class="body[^"]*"[^>]*>(.*?)</p>', _sec, re.S)]
+        _bx_pages.append((_i, _sec, _heds, _deks, _bod))
+        for _w in _bx_content(" ".join(_heds + _deks + _bod)):
+            _bx_df[_w] = _bx_df.get(_w, 0) + 1
+    for _i, _sec, _heds, _deks, _bod in _bx_pages:
+        if _issno < 150:
+            continue
+        _desk = _desk_of(_sec)
+        if _desk in ("The Macro Desk", "The Diary", "The Travel Desk"):   # Verdict, Planning Notes and the Grand Tour's boxes are desk-wide by design
+            continue
+        _bs = _BoxScan(); _bs.feed(_sec)
+        _vocab = _bx_vocab(" ".join(_deks + _bod + [_plain(" ".join(b["txt"])) for b in _bs.boxes]))
+        _head = _bx_terms(" ".join(_heds + _deks), _vocab); _art = _bx_terms(" ".join(_heds + _deks + _bod), _vocab)
+        _rare = {w for w in _bx_content(" ".join(_heds + _deks + _bod)) if _bx_df.get(w, 0) <= 2}
+        for _b in _bs.boxes:
+            _txt = _plain(" ".join(_b["txt"])); _lbl = _plain(" ".join(_b["lbl"]))
+            if len(_txt) < 60: continue
+            _k = _bx_terms(_txt + " " + _lbl, _vocab); _c = _bx_content(_txt + " " + _lbl)
+            _kind = "Sceptic" if "slate" in _b["cls"] else "Chatter"
+            if not (_k & _art) and len(_c & _rare) < 3 and _desk != "The Rabbit Hole":   # the Hole's community boxes speak for the hobby, not one headline
+                errors.append(f"page {_i}: the {_kind} box \u201c{_lbl[:50]}\u201d shares no name, figure or distinctive word with the article "
+                              f"\u201c{_heds[0][:50]}\u201d — it is a second story; the Chatter reacts to THE LEAD STORY and the Sceptic argues against it (BOX LAW)")
+            elif not (_k & _head):
+                warns.append(f"page {_i}: the {_kind} box \u201c{_lbl[:50]}\u201d never names the article's subject from the headline or dek — "
+                             f"name it in the label or first line, or move the material to the brief strip (BOX LAW)")
+
+    # (k) THE LAY OPENING (editor, 31 Oct 2026 — reader-reported: "some of the
+    # articles can be a bit technical… the first paragraph or two should
+    # explain things and relevance to a lay reader before diving in"). No. 149's
+    # Home Lab opened with a quantisation ladder: 22 technical tokens in its
+    # first two paragraphs against a book-wide norm under 3. Paragraphs one and
+    # two are for the general reader; the trade's identifiers start at three.
+    _LAY_COMMON = {"CEO","GDP","BBC","CNN","NHS","IMF","ETF","CPI","NTUC","PSLE","MOE","MOM","HDB","MRT","URA","CPF","GST",
+                   "USA","NATO","WHO","ASEAN","OPEC","FBI","CIA","NASA","UNESCO","IPO","ICU","DIY","NBA","NFL","FIFA","LTA",
+                   "SIA","PDF","USB","GPS","LED","OLED","SUV","VIP","DNA","HIV","MIT","NUS","NTU","SMU","RAF","IKEA","UTC",
+                   "CHF","USD","SGD","EUR","GBP","JPY","AUD","MAS","STI","VWRA","BTC","ECB","FED","BOJ","OECD","WTO","IEA"}
+    _LAY_TECH = re.compile(r"(?<![\w.])(?:[A-Z]{2,}\d[\w\-]*|[A-Za-z]+\d+[A-Za-z_]\w*|[A-Z]{3,}(?:-[A-Z0-9]+)?|v\d+\.\d+[\w.]*"
+                           r"|\d+(?:\.\d+)?\s?(?:GB|MB|TB|GHz|MHz|tok/s|TOPS|FLOPS|TFLOPS|dB|ppm)\b|[a-z]+_[a-z0-9_]+"
+                           r"|[A-Za-z]+\.(?:cpp|py|json|js|safetensors|gguf)\b)")
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 150 or _i <= 2 or _i == len(pages) or not re.search(r'class="hed', _sec):
+            continue
+        _bod = [_plain(x) for x in re.findall(r'<p class="body[^"]*"[^>]*>(.*?)</p>', _sec, re.S)][:2]
+        _open = " ".join(_bod)
+        _tk = [m for m in _LAY_TECH.findall(_open) if m not in _LAY_COMMON]
+        if len(_tk) >= 6:
+            errors.append(f"page {_i}: the opening two paragraphs carry {len(_tk)} technical tokens ({', '.join(sorted(set(_tk))[:6])}) — "
+                          f"paragraphs one and two explain the subject and why it matters to a lay reader; the trade's identifiers start at paragraph three (LAY OPENING)")
+        elif len(_tk) >= 4:
+            warns.append(f"page {_i}: {len(_tk)} technical tokens in the opening two paragraphs ({', '.join(sorted(set(_tk))[:4])}) — gloss them or move them down (LAY OPENING)")
     # cover teasers
     if pages:
         for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):
