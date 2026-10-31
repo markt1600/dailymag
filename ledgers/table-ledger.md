@@ -197,9 +197,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Birds of a Feather | Birds of a Feather | 135 | OPEN | No. 135 build | opening run — record the peg here |
 | Your Mother’s House | Your Mother’s House | 136, 143 | SPENT | No. 136 build | opening run — record the peg here |
 | The CHOYA Ginza Bar Singapore | The CHOYA Ginza Bar Singapore | 136, 143 | SPENT | No. 136 build | opening run — record the peg here |
-| Shan Li You | Shan Li You | 137 | OPEN | No. 137 build | opening run — record the peg here |
+| Shan Li You | Shan Li You | 137, 150 | SPENT | No. 137 build | opening run — record the peg here |
 | Curry Popo | Curry Popo | 137 | OPEN | No. 137 build | opening run — record the peg here |
-| Calendar Coffee | Calendar Coffee | 137 | OPEN | No. 137 build | opening run — record the peg here |
+| Calendar Coffee | Calendar Coffee | 137, 150 | SPENT | No. 137 build | opening run — record the peg here |
 | Rawr Cafe | Rawr Cafe | 138, 149 | SPENT | No. 138 build | opening run — record the peg here |
 | Matsuya | Matsuya | 138, 146 | SPENT | No. 138 build | opening run — record the peg here |
 | Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
@@ -228,3 +228,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | OVER | OVER | 148 | OPEN | No. 148 build | opening run — record the peg here |
 | Casa Mori | Casa Mori | 148 | OPEN | No. 148 build | opening run — record the peg here |
 | HANDO | HANDO | 148 | OPEN | No. 148 build | opening run — record the peg here |
+| Nook Coffee | Nook Coffee | 150 | OPEN | No. 150 build | opening run — record the peg here |
+| Yee3 | Yee3 | 150 | OPEN | No. 150 build | opening run — record the peg here |

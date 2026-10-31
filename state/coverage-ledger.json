@@ -1,5 +1,5 @@
 {
-  "count": 1122,
+  "count": 1133,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,83 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Binance October 2026 breach &mdash; attribution and reserves",
+      "type": "Event (incident)",
+      "last_covered": "No. 150",
+      "last_peg": "The World LEAD &mdash; TRM Labs named <b>TraderTraitor</b> (DPRK) with &ldquo;high confidence&rdquo; on 29 Oct, Chainalysis concurring, no state attribution. CoinDesk matched the drained wallets to Binance&rsquo;s own 1 Oct proof-of-reserves snapshot: <b>204,500 ETH = 5.6% of reported ETH reserves</b>, backing 100% &rarr; ~94%; USDT from 108%; ~$2.7bn frozen by Tether ($1.77bn) and Circle ($825m);",
+      "next_peg": "Next peg = the 1 Nov snapshot and 2 Nov full report, and whether withdrawals resume on time."
+    },
+    {
+      "subject": "Alphabet Q3 2026 &mdash; the other-income writedown",
+      "type": "Event (earnings)",
+      "last_covered": "No. 150",
+      "last_peg": "The Macro Desk &mdash; <b>&minus;12.6% on 29 Oct, its worst day ever (~$0.5tn)</b> on a miss that sat below the operating line: other income swung <b>$21bn</b>, almost all an equity mark, cutting EPS by <b>55c</b> per Alphabet&rsquo;s own footnote, while cloud grew 103% and the margin widened. Intel&rsquo;s was the opposite &mdash; <b>&minus;29% on 30 Oct</b>, worst since the 1970s, guiding 25c ag",
+      "next_peg": "Next peg = Q4 prints; whether the mark reverses."
+    },
+    {
+      "subject": "Singapore&rsquo;s transboundary-haze audit panel",
+      "type": "Event (policy)",
+      "last_covered": "No. 150",
+      "last_peg": "Singapore &mdash; five listed firms (Wilmar, Golden Agri, two APP entities, IndoAgri) agreed on 31 Oct to appoint and <b>pay for</b> investigators into their own Indonesian operations; a sixth willing, a seventh expected &mdash; <b>7 of 10</b>. The 2014 Act has produced <b>no conviction in twelve years</b>; Shanmugam: &ldquo;not to find scapegoats&rdquo;, and non-cooperation is <b>not yet an offen",
+      "next_peg": "Next peg = the remaining three acceptances, or an amendment tabled in Parliament."
+    },
+    {
+      "subject": "Nvidia / Megaspeed counter-intelligence report",
+      "type": "Event (report)",
+      "last_covered": "No. 150",
+      "last_peg": "Technology &mdash; NYT, 29 Oct: US agencies watched a former senior Megaspeed executive, a Chinese citizen close to Nvidia&rsquo;s CEO. <b>Nvidia says the diversion allegations were &ldquo;thoroughly investigated and debunked&rdquo;</b>. PRINTED WITH A FLAG: the original could not be read at source &mdash; anonymous sourcing, relayed by other outlets only.",
+      "next_peg": "Next peg = the NYT piece read at source, a named official, or a filing."
+    },
+    {
+      "subject": "llama.cpp /v1/realtime voice endpoint",
+      "type": "Release (software)",
+      "last_covered": "No. 150",
+      "last_peg": "Technology &mdash; The Home Lab: merged 28 Oct; one process for speech-in, thinking and speech-out, with tool calls, on sub-1GB models, locally. <b>Tested by its author on a Mac and one Nvidia setup only, and no latency figure is published at all</b> &mdash; the entire claim is that the pause is gone.",
+      "next_peg": "Next peg = a published end-to-end latency benchmark, or third-party hardware coverage."
+    },
+    {
+      "subject": "Mac Studio, 512GB configuration",
+      "type": "Product (release)",
+      "last_covered": "No. 150",
+      "last_peg": "The Kit &mdash; orders opened 28 Oct at <b>US$22,299</b>; the 256GB build is $10,799, so <b>the last memory doubling costs ~$11,500, more than the base machine</b>. The only off-the-shelf box holding the largest open models in one piece; the thread&rsquo;s own poster is reconsidering two smaller machines, countered by Thunderbolt running at a fraction of internal bandwidth.",
+      "next_peg": "Next peg = a Singapore price, or a measured two-box cluster comparison."
+    },
+    {
+      "subject": "Louis Erard &times; Vianney Halter r&eacute;gulateur",
+      "type": "Product (release)",
+      "last_covered": "No. 150",
+      "last_peg": "The Good Life &mdash; two complete movements in one case, one for the hours and one for the seconds, at <b>CHF 4,950</b>, 178 pieces a dial, waitlisted within two days. SCEPTIC: the same collaboration was <b>CHF 3,500 in 2020 &mdash; up 41% in six years</b> on a workhorse automatic platform in steel.",
+      "next_peg": "Next peg = a secondary-market sale, or the 2027 collaboration&rsquo;s price."
+    },
+    {
+      "subject": "Christmas at the Kringles / Wildwood (the 0% and the 99%)",
+      "type": "Release (film)",
+      "last_covered": "No. 150",
+      "last_peg": "Screen &amp; Sound &mdash; <b>0% on 26 reviews</b> on release weekend, 30 Oct; Peter Travers one star of four, &ldquo;Ho-Ho Hell No&rdquo;. Against LAIKA&rsquo;s <i>Wildwood</i> at <b>99% from 156</b> the same weekend.",
+      "next_peg": "Next peg = whether the 0% survives 30+ reviews."
+    },
+    {
+      "subject": "Oregon screen-restriction cohort (Nagata et al.)",
+      "type": "Study",
+      "last_covered": "No. 150",
+      "last_peg": "The Family Desk &mdash; 8,089 adolescents, three years: strictest households <b>&minus;56 min/day</b> (<b>&minus;79 min</b> on Android device logs), but high-restriction parents fell <b>46.9% &rarr; 25.3%</b> and the gap erodes <b>13 min a year</b>. Strongest single predictor of heavy use = a screen playing at sleep onset. COUNTER: Orben &amp; Przybylski, 355,000 young people, &le;0.4% of well-bei",
+      "next_peg": "Next peg = a four-year follow-up, or a replication with device logs throughout."
+    },
+    {
+      "subject": "BMJ Achilles corticosteroid trial",
+      "type": "Study",
+      "last_covered": "No. 150",
+      "last_peg": "Fitness &mdash; 192 adults (mean 49), three arms (sham, saline, saline+steroid), exercise held constant: <b>no difference at 12 months</b>, steroid <b>+9.2 points at 6 weeks</b> and <b>&minus;8.6 behind saline by 26 weeks</b>. Orchard&rsquo;s linked editorial: clinicians &ldquo;need to understand this trade-off&rdquo;; he called the same shape in tennis elbow fifteen years ago.",
+      "next_peg": "Next peg = guideline language changing, or a two-year follow-up."
+    },
+    {
+      "subject": "South Korea&rsquo;s living-population grant weighting",
+      "type": "Policy",
+      "last_covered": "No. 150",
+      "last_peg": "The Undercurrent &mdash; see the Undercurrent Ledger. Three-hour threshold; &#8361;2.25bn/yr of purchased telemetry; 28,598,000 staying vs 4,682,000 registered; Gangwon +&#8361;25.1bn against a &#8361;3.1tn tax-base loss (124:1); Yeonggwang penalised for raising its population. Japan&rsquo;s hometown tax as the precedent: &yen;1.27tn moved, <b>&yen;86.3bn collective deficit</b> per the Board of Au",
+      "next_peg": "Next peg = the 2027 formula, or the Q3 calculation."
     },
     {
       "subject": "Christine Lagarde&rsquo;s early ECB departure",

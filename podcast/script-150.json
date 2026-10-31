@@ -1,0 +1,744 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 150,
+ "date": "Sunday 1 November 2026",
+ "title": "The stand-in",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the first of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. A blockchain firm has put a name to the biggest theft in history, and it is a North Korean unit. Kathmandu's air gets seventy-two per cent dirtier between October and November, and every guidebook tells you to go in November."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the third?"
+  },
+  {
+   "s": "A",
+   "t": "A caliper that reads to a hundredth of a millimetre is accurate to two hundredths."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That sounds like the smallest story we've ever led a tease with."
+  },
+  {
+   "s": "A",
+   "t": "It's the spine of the whole issue, Theo. Hold it."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Held."
+  },
+  {
+   "s": "A",
+   "t": "The World. Last time we spoke, six point three six billion US dollars had left Binance across ten blockchains in about twenty minutes, and nobody knew who did it."
+  },
+  {
+   "s": "B",
+   "t": "Now we do?"
+  },
+  {
+   "s": "A",
+   "t": "TRM Labs published its attribution on the twenty-ninth. It names TraderTraitor, which says it makes that judgment with high confidence. Jonathan Levin, chief executive of Chainalysis, says the same. No government has attributed it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So two analytics firms, no state. But that's not the part that worries you."
+  },
+  {
+   "s": "A",
+   "t": "No. The part that worries me is where the money came out of. Exchanges publish a periodic snapshot of what they hold against customer balances, and Oliver Knight at CoinDesk matched the attacker's transactions against Binance's own first-of-October snapshot. The wallets that were drained are the ones listed as backing customer assets."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Say that again."
+  },
+  {
+   "s": "A",
+   "t": "About two hundred and four thousand five hundred ether went. Roughly five point six per cent of Binance's reported ether reserves. The backing goes from a hundred per cent to about ninety-four."
+  },
+  {
+   "s": "B",
+   "t": "What about the dollar-pegged token?"
+  },
+  {
+   "s": "A",
+   "t": "Stood at a hundred and eight per cent on the first of October. Has likely fallen below par."
+  },
+  {
+   "s": "A",
+   "t": "And the recovery is real. Issuers have frozen about two point seven billion."
+  },
+  {
+   "s": "B",
+   "t": "How does a freeze even work?"
+  },
+  {
+   "s": "A",
+   "t": "Ari Redbord at TRM puts it well. A freeze stops the money from moving, and recovery follows through legal process. Stablecoins are the most recoverable asset class in crypto, because the issuer controls the token contract."
+  },
+  {
+   "s": "B",
+   "t": "So the issuer can switch your balance off. And the stuff nobody controls?"
+  },
+  {
+   "s": "A",
+   "t": "That's the problem. The attacker still holds more than four hundred and twenty thousand ether and eighteen thousand two hundred and seventy bitcoin. About two point four billion dollars, beyond anyone's reach."
+  },
+  {
+   "s": "A",
+   "t": "Two capitals read this very differently. Seoul, via the broadcaster S B S, frames it as industrial policy rather than crime — a United Nations panel estimate that hacking supplies about half of North Korea's foreign-currency revenue."
+  },
+  {
+   "s": "A",
+   "t": "And here's the sceptic, which cuts both ways. A proof of reserves is a photograph taken on one day, and it evidences assets, not liabilities. The customer balances it's meant to cover aren't in the picture, so it cannot actually show a shortfall."
+  },
+  {
+   "s": "B",
+   "t": "So when do we know?"
+  },
+  {
+   "s": "A",
+   "t": "This week. The next snapshot was due the first, the full report the second, withdrawals around the same day. Land clean and on time, the sceptics are answered. Either slips, they're not."
+  },
+  {
+   "s": "B",
+   "t": "Dated. I like dated."
+  },
+  {
+   "s": "A",
+   "t": "The money block. Gold had its worst day since the summer on Friday, closing around three thousand eight hundred and seventy-four dollars an ounce."
+  },
+  {
+   "s": "B",
+   "t": "Why is that strange? Things fall."
+  },
+  {
+   "s": "A",
+   "t": "Because of what's supposed to move gold. Gold pays no interest. So when the inflation-adjusted return on a safe government bond goes down, gold should go up — the cost of holding something that pays nothing has fallen."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And it fell?"
+  },
+  {
+   "s": "A",
+   "t": "The United States Treasury publishes that number daily. First of October, two point eight eight per cent. Thirtieth of October, two point six zero."
+  },
+  {
+   "s": "B",
+   "t": "Twenty-eight basis points cheaper to own gold — and gold went down anyway."
+  },
+  {
+   "s": "A",
+   "t": "The nominal ten-year went five point two four to four point nine four. Subtract the real yield and you get what the market expects inflation to average. Two point three six on the first. Two point three four on the thirtieth."
+  },
+  {
+   "s": "B",
+   "t": "So inflation expectations didn't move at all."
+  },
+  {
+   "s": "A",
+   "t": "Essentially unchanged. The whole month's rally in Treasuries was a repricing of growth and policy, not inflation. What was actually moving was equity de-positioning in artificial intelligence. Alphabet fell twelve point six per cent on the twenty-ninth — its worst day ever, about half a trillion dollars."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] On what? Their revenue grew twenty-five per cent."
+  },
+  {
+   "s": "A",
+   "t": "On an earnings miss — and it's the second time this morning the number isn't the thing. The cloud business grew a hundred and three per cent and the operating margin widened."
+  },
+  {
+   "s": "B",
+   "t": "So where was the miss?"
+  },
+  {
+   "s": "A",
+   "t": "Below the operating line. A line called other income swung by twenty-one billion dollars, almost all of it a mark on the value of shares Alphabet holds in other companies. Alphabet's own footnote says that loss cut earnings per share by fifty-five cents."
+  },
+  {
+   "s": "A",
+   "t": "The quarter still falls short of what analysts wanted. But the number that moved half a trillion dollars was a revaluation, not a business. Intel's was the opposite — a real operational warning, down twenty-nine per cent on the thirtieth, its worst since the nineteen-seventies."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So one is a mark and one is the actual machine. Was this a panic?"
+  },
+  {
+   "s": "A",
+   "t": "No. The volatility index closed at nineteen point four two, below twenty and unchanged on the week. Bitcoin behaved like the liquidity asset it is, not the haven — down to seventy-seven thousand two hundred and twenty-three."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Singapore, then."
+  },
+  {
+   "s": "A",
+   "t": "Five Singapore-listed companies agreed on the thirty-first to appoint, and to pay for, outside investigators to go through their own plantation operations in Indonesia. Wilmar International, Golden Agri-Resources, two Asia Pulp and Paper entities and Indofood Agri Resources. A sixth is willing, a seventh expected — seven of ten."
+  },
+  {
+   "s": "B",
+   "t": "And this is about the haze."
+  },
+  {
+   "s": "A",
+   "t": "Since twenty-fourteen Singapore has had a law letting it pursue companies registered here for fires lit abroad, when the smoke crosses the border. In twelve years it has produced no conviction."
+  },
+  {
+   "s": "B",
+   "t": "[pause] None?"
+  },
+  {
+   "s": "A",
+   "t": "None. So what's being built instead is an audit. A panel of seven firms the accused must hire, at their own expense, to examine themselves and report back."
+  },
+  {
+   "s": "B",
+   "t": "Hold on. The company pays for the investigation of the company?"
+  },
+  {
+   "s": "A",
+   "t": "That is the objection, and it's the honest one. An audit of a supply chain, paid for by its subject, run by firms competing for that subject's future work."
+  },
+  {
+   "s": "B",
+   "t": "What do the ministers say?"
+  },
+  {
+   "s": "A",
+   "t": "Shanmugam said the exercise is not to find scapegoats. And that if an inquiry drove a company out of Singapore, doing right by Singaporeans means accepting that consequence."
+  },
+  {
+   "s": "B",
+   "t": "That's a strong line."
+  },
+  {
+   "s": "A",
+   "t": "It is. And in the same transcript is the admission: refusing to cooperate is not yet an offence. It becomes one only if Parliament amends the Act."
+  },
+  {
+   "s": "B",
+   "t": "So the whole thing runs on consent."
+  },
+  {
+   "s": "A",
+   "t": "Which is why the agency spent the week counting acceptances one company at a time."
+  },
+  {
+   "s": "B",
+   "t": "Technology. Give me the one that's ours."
+  },
+  {
+   "s": "A",
+   "t": "A Singapore-registered cloud company is at the centre of an American counter-intelligence story about the world's most valuable chipmaker. The New York Times reported on the twenty-ninth that American agencies watched a former senior executive at Megaspeed, a Chinese citizen, because they suspected she was gathering information for Beijing. She had a close relationship with Nvidia's chief executive."
+  },
+  {
+   "s": "B",
+   "t": "And Nvidia says?"
+  },
+  {
+   "s": "A",
+   "t": "Flatly that the diversion allegations against this regional cloud were thoroughly investigated and debunked last year. And, pointedly, that they're confident the government would tell them if anyone were a threat."
+  },
+  {
+   "s": "B",
+   "t": "What's your caveat?"
+  },
+  {
+   "s": "A",
+   "t": "A big one. Anonymous sources, not independently confirmed, Nvidia disputes it — and we could not read the original. Everything we have is other outlets describing what the paper said."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And you printed that."
+  },
+  {
+   "s": "A",
+   "t": "On a page that says read at source everywhere else, you have to."
+  },
+  {
+   "s": "B",
+   "t": "Home Lab. Two weeks ago this page told me the newest free downloadable model needed a quarter of a terabyte of memory."
+  },
+  {
+   "s": "A",
+   "t": "This week the free software most people use to run models at home went the other way entirely. It can now hold a spoken conversation. You talk, it listens, it answers out loud — on your own machine, nothing leaving the house, on models under a gigabyte."
+  },
+  {
+   "s": "B",
+   "t": "What was so hard about that before?"
+  },
+  {
+   "s": "A",
+   "t": "You had to bolt three programs together. One to turn speech into text, one to think, one to turn text back into speech. A pause at every join. It's one piece now — a conversation instead of a walkie-talkie."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch? There's always a catch."
+  },
+  {
+   "s": "A",
+   "t": "Two. The author tested it on a Mac and one Nvidia setup and no other hardware — he says so himself. And there is no published latency figure at all."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] None?"
+  },
+  {
+   "s": "A",
+   "t": "None. The entire value of the thing is that it removes the pause, and nobody has said how long the remaining pause is. We're not inventing one."
+  },
+  {
+   "s": "B",
+   "t": "The Kit, and I want the price."
+  },
+  {
+   "s": "A",
+   "t": "Apple opened orders on the twenty-eighth for the version of its desktop with half a terabyte of memory. Twenty-two thousand two hundred and ninety-nine US dollars."
+  },
+  {
+   "s": "A",
+   "t": "The same machine with a quarter of a terabyte is ten thousand seven hundred and ninety-nine. So the last doubling of memory costs eleven and a half thousand dollars — more than the base machine."
+  },
+  {
+   "s": "B",
+   "t": "The Atelier. This is your caliper, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "This is my caliper. Rules, squares and calipers — the one workshop purchase where you can check the marketing against the specification in a minute, because the sellers publish both."
+  },
+  {
+   "s": "A",
+   "t": "A square is only as good as the angle it holds, and that angle has a number: how far the blade may lean off a right angle,. A German standard sets it in four grades."
+  },
+  {
+   "s": "B",
+   "t": "And the famous brands?"
+  },
+  {
+   "s": "A",
+   "t": "Woodpeckers states in its own answers that its squares are within one thousandth of an inch per foot. That's twenty-five point four microns over three hundred millimetres — grade one, in aluminium, at eighty-nine dollars ninety-nine. A Czech maker, Kinex, sells a three-hundred-millimetre square at grade zero, ten point nine microns, hardened steel, for sixty-nine ninety-nine."
+  },
+  {
+   "s": "B",
+   "t": "Twenty dollars less and more than twice as square."
+  },
+  {
+   "s": "A",
+   "t": "Twenty dollars less and more than twice as square. And the calipers are worse. A caliper's display resolves to a hundredth of a millimetre. The standard permits two hundredths of error."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the last digit is a lie."
+  },
+  {
+   "s": "A",
+   "t": "Not a lie. A digit the tool cannot stand behind. It's a different thing and it's more interesting."
+  },
+  {
+   "s": "B",
+   "t": "Right. Take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "What have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Ikebana. Japanese flower arranging — except that's the wrong phrase, and it's the first thing to unlearn. Ikebana builds a line in space, deliberately lopsided, and treats the empty air around the stems as part of the work."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The gap is the thing."
+  },
+  {
+   "s": "A",
+   "t": "Three principal stems make a triangle of unequal lengths and everything else is subordinate. The oldest school calls them truth, support and body. Another calls them heaven, man and earth."
+  },
+  {
+   "s": "B",
+   "t": "And the material?"
+  },
+  {
+   "s": "A",
+   "t": "Treated as having a will the arranger is obliged to obey. There's a line from a school founder, Suido Yamane. If you bring flower materials together forcibly against nature's will, ignoring the expression of each flower, the branches of the work are complaining. Unhealthy ikebana is not living flowers but dead flowers."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] That's lovely. And slightly terrifying."
+  },
+  {
+   "s": "A",
+   "t": "Now the number. Japan's Statistics Bureau counts participants. Nineteen eighty-six: six million forty thousand. Twenty twenty-one: one million three hundred and ninety thousand."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] That's three-quarters gone."
+  },
+  {
+   "s": "B",
+   "t": "Is that why — wait. You told me the oldest school runs a boy band."
+  },
+  {
+   "s": "A",
+   "t": "[amused] The oldest school runs a boy band. Ikenobo, in Kyoto, whose records go back to fourteen sixty-two. The group is called IKENOBOYS. It's a pun on the Japanese word for a good-looking man."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A five-hundred-year-old temple school has a boy band."
+  },
+  {
+   "s": "A",
+   "t": "And a scholar in a peer-reviewed journal records the reason the school gave itself: a sense of crisis that we can't go on targeting women only."
+  },
+  {
+   "s": "B",
+   "t": "Gear. What does it cost to start?"
+  },
+  {
+   "s": "A",
+   "t": "Almost nothing, and then a hundred times that. The entry shears from one school's own shop are two thousand seven hundred and seventy-two yen,  a little steel tool whose only job is straightening bent pins, six hundred and sixty."
+  },
+  {
+   "s": "A",
+   "t": "A Kyoto blade shop sells a pair at eighty-six thousand seven hundred and forty."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] What does that buy?"
+  },
+  {
+   "s": "A",
+   "t": "Here's the good part. Their mid-range pair is thirteen thousand and forty yen. Both are the same length, both sixty millimetres of blade, and both weigh a hundred and forty-five grams."
+  },
+  {
+   "s": "A",
+   "t": "Identical weight. The money is in the steel, the hand-forging and the finish. Three times the price for hours of hand-work on identical geometry."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] And the expensive thing isn't the tools at all, is it."
+  },
+  {
+   "s": "A",
+   "t": "No. It's the rank. The schools run on licences. You apply through your own teacher, you cannot skip a step, and each promotion costs money. Most schools keep the figures private. One — Ryusei-ha — publishes the lot."
+  },
+  {
+   "s": "B",
+   "t": "Give me the ladder."
+  },
+  {
+   "s": "A",
+   "t": "Ten thousand yen at the first rank. Then eighteen, twenty-five, thirty-five, forty-five, fifty, sixty, seventy-five thousand. Three hundred and eighteen thousand yen in licence fees to run the whole thing, on top of five to eight thousand a month in tuition."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And that's the published one."
+  },
+  {
+   "s": "A",
+   "t": "That's the published one. Japanese guidance on the oldest school records something not on any price list: the thank-you to your teacher is customarily the same amount as the application fee, handed over in cash."
+  },
+  {
+   "s": "A",
+   "t": "A scholar calls the system opaque, in print, in a peer-reviewed journal — and records why the ranks were ever worth buying. A licence once helped a daughter marry above her parents' class."
+  },
+  {
+   "s": "B",
+   "t": "And that market is gone."
+  },
+  {
+   "s": "A",
+   "t": "That market is gone. The fee schedule is not."
+  },
+  {
+   "s": "B",
+   "t": "Can you do this in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "You can, and it's the cheapest serious ikebana tuition we could find anywhere. A community club in Siglap South runs eight Monday evenings for ninety-three to a hundred and four dollars, plus eight to twenty for materials."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Twelve dollars a lesson?"
+  },
+  {
+   "s": "A",
+   "t": "About twelve. Against fifty Canadian dollars in Halifax, and five to eight thousand yen a month in Japan."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch locally?"
+  },
+  {
+   "s": "A",
+   "t": "The art is built on a seasonal calendar the island doesn't have. So local practice borrows the idea of a season and fills it with the tropics. Shows called Autumn Whisper and Autumn Breeze, using orchids, ginger and heliconia."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] An imported autumn. That's rather beautiful, actually."
+  },
+  {
+   "s": "B",
+   "t": "The Travel Desk. You teased Kathmandu — pay it off."
+  },
+  {
+   "s": "A",
+   "t": "Every guide to Nepal says go in October or November. A monitoring station at Ratnapark, in the middle of Kathmandu, has measured the air for years, and it reads, averaged over three years, thirty-nine point three micrograms of fine particulate in October and sixty-seven point four in November. That's within three per cent of January, the city's filthiest month."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the advice is right about the mountains and wrong about the city."
+  },
+  {
+   "s": "A",
+   "t": "One month wide. The mechanism is an inversion — cold air settles in the valley bowl and holds the smoke down. So the sweet spot for a trip with city days is the last week of October and the first of November, which is now. It lands on Tihar, the seventh to the eleventh, with Laxmi Puja on Sunday the eighth."
+  },
+  {
+   "s": "B",
+   "t": "And the people are still coming?"
+  },
+  {
+   "s": "A",
+   "t": "The Nepal Tourism Board counted eight hundred and sixty-five thousand arrivals in the first nine months, up six point two per cent. Chinese arrivals more than doubled in September while Britain fell twenty-five per cent and the United States fourteen."
+  },
+  {
+   "s": "B",
+   "t": "The Table. Four openings — is that thin?"
+  },
+  {
+   "s": "A",
+   "t": "Thin, and we say so. Calendar Coffee on South Bridge Road, Nook Coffee on New Upper Changi Road, Shan Li You at Jewel, and Yee Three at ION in mid-November. Every one is between three days and three weeks old or hasn't opened, and not one has been reviewed by anybody, and the page reports what's on the menu, not a verdict nobody has earned."
+  },
+  {
+   "s": "A",
+   "t": "Culture and the body, quickly. Christmas at the Kringles opened across America on the thirtieth and collected twenty-six reviews, none of them positive. Zero per cent. Peter Travers gave it one star of four under the headline Ho-Ho Hell No."
+  },
+  {
+   "s": "B",
+   "t": "Watches. One object."
+  },
+  {
+   "s": "A",
+   "t": "Louis Erard and the independent watchmaker Vianney Halter put two complete separate movements in one case. One runs the hours. The other runs nothing but the seconds hand — normally a module bolted onto one movement, and usually found at twenty times the price. Four thousand nine hundred and fifty Swiss francs, on a waiting list within two days."
+  },
+  {
+   "s": "B",
+   "t": "And your sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Written on the brand's own price list. The same collaboration ran three thousand five hundred francs in twenty-twenty. Up forty-one per cent in six years, on a platform that's still a workhorse automatic in a steel case."
+  },
+  {
+   "s": "B",
+   "t": "The family page. She's twelve now."
+  },
+  {
+   "s": "A",
+   "t": "A study out of Oregon followed eight thousand and eighty-nine adolescents for three years. The children of the strictest households used screens fifty-six minutes less a day."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] So the rules work. What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "Strictness collapses. In the first year, forty-six point nine per cent of parents were in the high-restriction group. Two years later, twenty-five point three. The gap erodes by thirteen minutes a year — four years of that and the hour you bought is spent."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's bleak."
+  },
+  {
+   "s": "A",
+   "t": "The strongest single predictor of heavy use wasn't an app or an hour. It was a screen playing while the child falls asleep. And the honest counter: Orben and Przybylski, across three hundred and fifty-five thousand young people, found digital technology use explains at most nought point four per cent of the variation in well-being."
+  },
+  {
+   "s": "B",
+   "t": "Fitness. My Achilles is listening."
+  },
+  {
+   "s": "A",
+   "t": "A trial in the British Medical Journal on the twenty-eighth. A hundred and ninety-two adults, average age forty-nine. Three arms: a dummy injection, a saline injection, and saline with a steroid. Everyone did the exercises: the exercise was the constant, the needle the variable."
+  },
+  {
+   "s": "A",
+   "t": "At twelve months, nothing between them. But here's the trade. At six weeks the steroid group was genuinely ahead — nine point two points on the tendon score. By twenty-six weeks it had fallen eight point six points behind the plain saline."
+  },
+  {
+   "s": "B",
+   "t": "So you borrow against yourself."
+  },
+  {
+   "s": "A",
+   "t": "John Orchard, who wrote the linked editorial the same day: all clinicians recommending or performing these injections need to understand this trade-off. He called the same pattern in tennis elbow fifteen years ago."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Six weeks bought, six months paid. The Diary — one thing."
+  },
+  {
+   "s": "A",
+   "t": "Christmas Wonderland is confirmed: twenty-seventh of November to the third of January. Ticket prices are not published yet, which is late — a year ago they were already selling from nine dollars."
+  },
+  {
+   "s": "A",
+   "t": "The Undercurrent. Slow down for this one. There's a word in South Korean officialdom that has quietly changed what it means to belong to a place. Saenghwal-ingu. Living population."
+  },
+  {
+   "s": "A",
+   "t": "For each of the country's designated shrinking districts, it counts not just the people registered as living there, but everyone else who turned up and stayed a while."
+  },
+  {
+   "s": "A",
+   "t": "Three hours. Once in a calendar month, maximum one count a day."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Three hours is a lunch."
+  },
+  {
+   "s": "A",
+   "t": "Three hours is a lunch and a drive. And it isn't a survey. The state buys the number — phone-mast records from the three carriers, card records from six card companies, joined up quarterly, for about two and a quarter billion won a year."
+  },
+  {
+   "s": "B",
+   "t": "That's a purchase order for a population."
+  },
+  {
+   "s": "A",
+   "t": "And from this year it's money. The ordinary local allocation grant is the largest unconditional transfer from Seoul to local government, and a component inside it that used to be weighted on floating population is now weighted on living population. One institute puts that at twenty-five point one billion won for one province alone."
+  },
+  {
+   "s": "A",
+   "t": "And the multiples are where it gets strange. The second-quarter calculation, published on the twenty-ninth of October — three days ago — gives a living population of twenty-eight point six million against a registered population, in the same districts, of four point seven million."
+  },
+  {
+   "s": "A",
+   "t": "In one county, Yangyang, seventeen point six to one. And the registered number fell while the staying number rose."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Seventeen people counted for every one who lives there. So what's the argument? Because that's a statistic, not a story."
+  },
+  {
+   "s": "A",
+   "t": "The argument is that the two halves of the policy now point in opposite directions, and nobody has noticed. Korea still designates a district as shrinking by its registered population. But it increasingly pays by the staying population."
+  },
+  {
+   "s": "B",
+   "t": "So you want to be empty and crowded at the same time."
+  },
+  {
+   "s": "A",
+   "t": "And the cheapest way to be both is to acquire visitors while losing residents."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Which means the county that does the right thing…"
+  },
+  {
+   "s": "A",
+   "t": "Gets punished. And this isn't theoretical. Yeonggwang raised its registered population from fifty-one thousand seven hundred and fifty in twenty twenty-three to fifty-three thousand six hundred and eight. Highest fertility rate in the country, seven years running."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "Its mayor went to the National Assembly on the twentieth of October to complain. A rural basic-income pilot awards ten points for extinction risk and nothing at all for demographic improvement."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A county is penalised for winning."
+  },
+  {
+   "s": "A",
+   "t": "Korea built an instrument to fight depopulation and arrived at the point where raising your population costs you points."
+  },
+  {
+   "s": "B",
+   "t": "Is there a counter-case? There should be."
+  },
+  {
+   "s": "A",
+   "t": "A good one. A research institute argues the whole living-population variable is a rounding error, because the government has taken about twenty-nine point six trillion won out of the tax base the grant is calculated from. For that province the gain is twenty-five point one billion and the loss about three point one trillion."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So they're fighting over crumbs."
+  },
+  {
+   "s": "A",
+   "t": "Which strengthens the argument rather than weakening it. The smaller the pot, the harder every county chases the one variable it can still move."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone run this experiment before?"
+  },
+  {
+   "s": "A",
+   "t": "Japan. The hometown tax has let people outside a municipality determine its revenue since two thousand and eight, and in the year to March twenty twenty-five it moved one point two seven trillion yen, a fifth consecutive record. Japan's Board of Audit found the municipalities collectively ran an eighty-six point three billion yen deficit on it."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] They bought their own population."
+  },
+  {
+   "s": "B",
+   "t": "So what's the line, Claire?"
+  },
+  {
+   "s": "A",
+   "t": "A state that measures belonging in three-hour increments has conceded something it hasn't said aloud. That it no longer expects these places to be inhabited. Only used."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And that's the stand-in."
+  },
+  {
+   "s": "A",
+   "t": "That's the stand-in. The caliper, the gold price, the earnings line, the tendon score, the county. Somewhere between the thing you care about and the thing you can count, a substitute gets accepted — and then the substitute is what gets paid, graded, bought and governed."
+  },
+  {
+   "s": "B",
+   "t": "And nobody notices the swap."
+  },
+  {
+   "s": "A",
+   "t": "Whitehead gave it a name a century ago. The accidental error of mistaking the abstract for the concrete."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the issue, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "That's the issue. That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

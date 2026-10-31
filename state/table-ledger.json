@@ -1692,9 +1692,10 @@
       "venue": "Shan Li You",
       "key": "Shan Li You",
       "runs": [
-        137
+        137,
+        150
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 137 build",
       "note": "opening run — record the peg here"
     },
@@ -1712,9 +1713,10 @@
       "venue": "Calendar Coffee",
       "key": "Calendar Coffee",
       "runs": [
-        137
+        137,
+        150
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 137 build",
       "note": "opening run — record the peg here"
     },
@@ -2000,9 +2002,29 @@
       "status": "OPEN",
       "checked": "No. 148 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Nook Coffee",
+      "key": "Nook Coffee",
+      "runs": [
+        150
+      ],
+      "status": "OPEN",
+      "checked": "No. 150 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Yee3",
+      "key": "Yee3",
+      "runs": [
+        150
+      ],
+      "status": "OPEN",
+      "checked": "No. 150 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 150,
+  "barred_for_issue": 151,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2103,13 +2125,11 @@
     "Shirazi",
     "Your Mother’s House",
     "The CHOYA Ginza Bar Singapore",
+    "Shan Li You",
+    "Calendar Coffee",
     "Rawr Cafe",
     "Matsuya",
     "Age.3",
-    "BFF",
-    "JR Pizzeria",
-    "Woksta",
-    "7 Paintings",
     "Dough",
     "Sogurt",
     "SHAO @ Dempsey",
@@ -2121,6 +2141,8 @@
     "Cafe Nesuto",
     "OVER",
     "Casa Mori",
-    "HANDO"
+    "HANDO",
+    "Nook Coffee",
+    "Yee3"
   ]
 }
