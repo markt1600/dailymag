@@ -1,61 +1,51 @@
 {
  "publication": "MERIDIAN",
- "issue": 150,
- "date": "1 November 2026",
- "generated": "2026-11-01T06:49:53+08:00",
+ "issue": 151,
+ "date": "2 November 2026",
+ "generated": "2026-11-02T06:24:10+08:00",
  "quote": {
-  "text": "There is an error; but it is merely the accidental error of mistaking the abstract for the concrete.",
-  "author": "Alfred North Whitehead, Science and the Modern World (1925), naming the Fallacy of Misplaced Concreteness"
+  "text": "Omne ignotum pro magnifico est.” — everything unknown is taken for magnificent.",
+  "author": "Tacitus, Agricola, chapter 30, in the speech he gives to Calgacus, about AD 98"
  },
  "macro": null,
  "stories": [
   {
-   "desk": "Screen & Sound",
-   "sub": "Culture Desk",
-   "category": "Culture",
-   "kicker": "Screen & Sound · The Halloween Openings",
-   "headline": "Briarcliff opens Christmas at the Kringles to a zero on Rotten Tomatoes",
-   "dek": "Twenty-six reviews, not one of them positive, and a $370,000 Friday — in the same weekend LAIKA’s Wildwood passed twenty million dollars at ninety-nine per cent.",
-   "anchor": "p11",
-   "featured": true
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "The Rabbit Hole · Ikebana",
-   "headline": "Ikebana lost three-quarters of Japan’s practitioners in thirty-five years",
-   "dek": "The Statistics Bureau counted 6.04 million in 1986 and 1.39 million in 2021 — and among 25- to 29-year-olds the participation rate fell from 9.2 per cent to 0.4.",
-   "anchor": "p15",
-   "featured": true
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "Departures · The Dubai Suspension",
-   "headline": "Singapore Airlines pushes its Dubai restart to March 2027, a fourth delay",
-   "dek": "SQ494 and SQ495 are now cancelled through 28 February, making a full year without a Singapore–Dubai flight — and the A380 freed by it has gone to Auckland instead.",
-   "anchor": "p19",
-   "featured": true
-  },
-  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Binance Attribution",
-   "headline": "TRM Labs attributes the Binance theft to North Korea’s TraderTraitor unit",
-   "dek": "Richard Teng says Binance has replaced 90 per cent of the $6.36bn; about $2.7bn is frozen by the stablecoin issuers, and $2.4bn in bitcoin and ether is beyond their reach.",
+   "kicker": "The World · Hormuz And Doha",
+   "headline": "Araghchi cuts Iran’s Hormuz reopening timeline from seven days to two",
+   "dek": "Qatar’s own gas carrier Al Mayeda was struck on 30 October, hours before its government’s third day of mediation; Washington has told Gulf allies to expect strikes as early as 4 November.",
    "anchor": "p3",
-   "featured": false
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Silicon & Sovereignty · Meta And Microsoft",
+   "headline": "Meta and Microsoft raised US$62.5bn in one day, naming no use",
+   "dek": "Both prospectuses say “general corporate purposes”; neither names a data centre. Microsoft’s filing of 29 October left all ten coupons and maturities blank.",
+   "anchor": "p7",
+   "featured": true
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Undercurrent · Taiwan’s Admonished",
+   "headline": "Police orders bar 124,617 Taiwanese from internet banking for five years",
+   "dek": "Fraud losses fell 28.9 per cent in September. The instrument is an administrative admonition, issued by a police agency without a trial, and about one per cent of appeals succeed.",
+   "anchor": "p21",
+   "featured": true
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
    "kicker": "Singapore · The Haze Assessors",
-   "headline": "Wilmar and Golden Agri agree to fund Singapore’s haze assessors",
-   "dek": "Five of the ten companies served notices had said yes by 31 October, two more are expected — and the Government says it will publish who cooperates and who does not.",
+   "headline": "Wilmar reports US$22.5m of sales to six companies served haze notices",
+   "dek": "Five of the ten firms had agreed to pay for their own investigators by 31 October, two more are willing, and three have not been named as agreeing at all.",
    "anchor": "p5",
    "featured": false
   },
@@ -63,29 +53,19 @@
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Rules, Squares & Calipers",
-   "headline": "A Kinex square beats Woodpeckers’ on squareness for twenty dollars less",
-   "dek": "Woodpeckers publishes one thousandth of an inch per foot on an $89.99 aluminium square; Kinex publishes less than half that error on a $69.99 steel one, in the same length.",
+   "kicker": "Buy It Once · Over-Ear Headphones",
+   "headline": "Meze’s flagship driver is built by Rinaro, and the spec sheet says so",
+   "dek": "Spirit Torino publishes no price at all for a US$13,600 headphone; Rosson publishes neither price nor lead time; a Sennheiser HD 600 is made in Ireland.",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · The Megaspeed Report",
-   "headline": "US agencies surveilled Megaspeed’s Alice Huang over her closeness to Nvidia",
-   "dek": "The New York Times reported on 29 October that officials suspected the former executive of a Singapore data-centre firm of gathering information for Beijing. Nvidia says the allegations were debunked last year.",
-   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · The Memory Premium",
-   "headline": "Apple charges US$11,500 to double the Mac Studio’s memory to 512 gigabytes",
-   "dek": "Orders opened on 28 October at US$22,299 and ship from late November; Apple’s Singapore store does not list the configuration at all, so there is no local price.",
+   "kicker": "The Kit · Apple MacBook Pro",
+   "headline": "Apple opens Singapore orders for a S$6,499 MacBook Pro, resolution unpublished",
+   "dek": "The first OLED Mac is quoted at 2,000 nits and ten million to one contrast; Apple states no pixel count, no battery capacity and no touch latency.",
    "anchor": "p9",
    "featured": false
   },
@@ -93,19 +73,29 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · The Two-Day Sell-Out",
-   "headline": "The Futur Antérieur sells out in two days at 4,950 francs",
-   "dek": "Both 178-piece references of the Louis Erard × Vianney Halter watch were waitlisted by 1 November, two days after a launch this desk reported on Saturday — at a price 41 per cent above the 2020 collaboration.",
+   "kicker": "Objects & Escapes · Glashütte Original",
+   "headline": "Glashütte Original launched the Senator Aventurine without publishing a price",
+   "dek": "Four outlets working from one embargo printed EUR 36,900, EUR 37,800, US$40,400 and A$55,200 — and the maker’s own page says only “price available upon request”.",
    "anchor": "p10",
+   "featured": false
+  },
+  {
+   "desk": "Screen & Sound",
+   "sub": "Culture Desk",
+   "category": "Culture",
+   "kicker": "Culture Desk · Box Office",
+   "headline": "A24’s Elizabeth Holmes film took first place by US$200,684",
+   "dek": "“You Can See Everything” made US$10,600,685 across 3,243 cinemas in the third-lowest weekend of 2026 — and the figures are Sunday estimates, with finals due Monday.",
+   "anchor": "p11",
    "featured": false
   },
   {
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Screen Rules",
-   "headline": "Screen rules buy back 56 minutes a day, Oregon researchers find",
-   "dek": "Eight thousand American adolescents, tracked for three years: the strictest parents saw an hour less screen time — and the gap closed by 13 minutes with every year the child aged.",
+   "kicker": "Raising Them Well · Pediatrics On Social Media",
+   "headline": "No anxiety link in 11,279 twelve-year-olds, Pediatrics reports",
+   "dek": "Across four annual transitions, problematic social media use predicted depression in two windows at betas of .06 and .07, and anxiety in none — and depression predicted later use just as strongly.",
    "anchor": "p12",
    "featured": false
   },
@@ -113,19 +103,29 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · Gold And The Real Yield",
-   "headline": "Gold falls to a one-year low as Treasury real yields drop",
-   "dek": "Spot gold closed 30 October at $3,874, down 3.6 per cent in a day — while the United States Treasury’s ten-year real yield fell 28 basis points across the month.",
+   "kicker": "The Macro Desk · American Consumption",
+   "headline": "US consumers spent US$113bn more in September, buying no extra goods",
+   "dek": "Petrol took US$45.7bn of the increase and motor vehicles gave back US$14bn, while real disposable income fell 0.3 per cent in a quarter that grew at a 3.4 per cent annual rate.",
    "anchor": "p14",
+   "featured": false
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "The Invitation",
+   "category": "Hobby",
+   "kicker": "The Rabbit Hole · Rug Tufting",
+   "headline": "Five of ten Singapore tufting studios have closed or paused",
+   "dek": "The hobby that went viral on video in 2020 is consolidating: a specialist retailer has turned into a general craft shop, and r/Tufting’s second-biggest flair is “Newbie Needing Help”.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Achilles Injection",
-   "headline": "A Melbourne trial finds Achilles injections no better than a sham",
-   "dek": "The Inject trial put 192 adults of average age 49 into three arms for twelve months: the steroid group led at six weeks, trailed by six months, and was level at a year.",
+   "kicker": "The Long Game · Threshold Training",
+   "headline": "A PeerJ meta-analysis puts threshold gains at 38.7 per cent above, 18.4 below",
+   "dek": "Thirteen studies and 338 people, published 22 October — and the authors report heterogeneity near 89 per cent, meaning the studies substantially disagree.",
    "anchor": "p18",
    "featured": false
   },
@@ -133,20 +133,10 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Christmas Wonderland",
-   "headline": "Gardens by the Bay confirms Christmas Wonderland for 27 November",
-   "dek": "Supertree Grove and The Meadow, to 3 January, 6.30pm to 11 — and ticket prices are still unpublished, where a year ago they were already selling from nine dollars.",
-   "anchor": "p23",
-   "featured": false
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Undercurrent",
-   "category": "Essay",
-   "kicker": "The Undercurrent · South Korea",
-   "headline": "South Korea pays shrinking counties for visitors who stay three hours",
-   "dek": "The “living population” counts anyone present three hours in a month. In Yangyang it outnumbers residents 17.6 to one — and this year it entered the formula for the country’s largest block grant.",
-   "anchor": "p25",
+   "kicker": "The Diary · Two Dates To Put In Print",
+   "headline": "Tokyo’s Kabukiza opens December sales on 14 November, the basho on 5 December",
+   "dek": "Japan’s marquee events are closing six to twelve weeks earlier than the guides assume: the Fukuoka sumo tournament is sold out on every one of its fifteen days, with no door sales.",
+   "anchor": "p19",
    "featured": false
   }
  ]

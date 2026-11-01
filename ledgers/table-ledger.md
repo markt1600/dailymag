@@ -230,3 +230,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | HANDO | HANDO | 148 | OPEN | No. 148 build | opening run — record the peg here |
 | Nook Coffee | Nook Coffee | 150 | OPEN | No. 150 build | opening run — record the peg here |
 | Yee3 | Yee3 | 150 | OPEN | No. 150 build | opening run — record the peg here |
+| Terumbu by Orang Laut SG | Terumbu by Orang Laut SG | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| Sakana Hikaru | Sakana Hikaru | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| Tan Ser Seng Herbal Soup | Tan Ser Seng Herbal Soup | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| Terumbu | Terumbu | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| Sushiro | Sushiro | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| PS.Cafe Harding | PS.Cafe Harding | 151 | OPEN | No. 151 build | opening run — record the peg here |

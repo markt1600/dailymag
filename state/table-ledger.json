@@ -2022,9 +2022,69 @@
       "status": "OPEN",
       "checked": "No. 150 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Terumbu by Orang Laut SG",
+      "key": "Terumbu by Orang Laut SG",
+      "runs": [
+        151
+      ],
+      "status": "OPEN",
+      "checked": "No. 151 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sakana Hikaru",
+      "key": "Sakana Hikaru",
+      "runs": [
+        151
+      ],
+      "status": "OPEN",
+      "checked": "No. 151 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Tan Ser Seng Herbal Soup",
+      "key": "Tan Ser Seng Herbal Soup",
+      "runs": [
+        151
+      ],
+      "status": "OPEN",
+      "checked": "No. 151 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Terumbu",
+      "key": "Terumbu",
+      "runs": [
+        151
+      ],
+      "status": "OPEN",
+      "checked": "No. 151 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sushiro",
+      "key": "Sushiro",
+      "runs": [
+        151
+      ],
+      "status": "OPEN",
+      "checked": "No. 151 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "PS.Cafe Harding",
+      "key": "PS.Cafe Harding",
+      "runs": [
+        151
+      ],
+      "status": "OPEN",
+      "checked": "No. 151 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 151,
+  "barred_for_issue": 152,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2130,9 +2190,6 @@
     "Rawr Cafe",
     "Matsuya",
     "Age.3",
-    "Dough",
-    "Sogurt",
-    "SHAO @ Dempsey",
     "Xiao Jiao Tian",
     "Foca Kumpir",
     "Ng Kuan Chilli Pan Mee",
@@ -2143,6 +2200,12 @@
     "Casa Mori",
     "HANDO",
     "Nook Coffee",
-    "Yee3"
+    "Yee3",
+    "Terumbu by Orang Laut SG",
+    "Sakana Hikaru",
+    "Tan Ser Seng Herbal Soup",
+    "Terumbu",
+    "Sushiro",
+    "PS.Cafe Harding"
   ]
 }
