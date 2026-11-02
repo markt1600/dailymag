@@ -144,7 +144,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Whuchu | Whuchu | 115, 135 | SPENT | No. 115 build | opening run — record the peg here |
 | Moutai House | Moutai House | 115, 131 | SPENT | No. 115 build | opening run — record the peg here |
 | Maison Yoshoku | Maison Yoshoku | 116, 123 | SPENT | No. 116 build | opening run — record the peg here |
-| Bomul Samgyetang | Bomul Samgyetang | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| Bomul Samgyetang | Bomul Samgyetang | 116, 152 | SPENT | No. 116 build | opening run — record the peg here |
 | Shared Table | Shared Table | 116, 124 | SPENT | No. 116 build | opening run — record the peg here |
 | VE/LA | VE/LA | 116, 130 | SPENT | No. 116 build | opening run — record the peg here |
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
@@ -212,7 +212,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | A Bar Called Bar | A Bar Called Bar | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Bonsoir at Ma Cuisine | Bonsoir at Ma Cuisine | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Après Gelato | Après Gelato | 143 | OPEN | No. 143 build | opening run — record the peg here |
-| BFF | BFF | 144 | OPEN | No. 144 build | opening run — record the peg here |
+| BFF | BFF | 144, 152 | SPENT | No. 144 build | opening run — record the peg here |
 | JR Pizzeria | JR Pizzeria | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | Woksta | Woksta | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | 7 Paintings | 7 Paintings | 144 | OPEN | No. 144 build | opening run — record the peg here |
@@ -236,3 +236,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Terumbu | Terumbu | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | Sushiro | Sushiro | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | PS.Cafe Harding | PS.Cafe Harding | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| SHAO | SHAO | 152 | OPEN | No. 152 build | opening run — record the peg here |
+| Mr. CHEESECAKE | Mr. CHEESECAKE | 152 | OPEN | No. 152 build | opening run — record the peg here |

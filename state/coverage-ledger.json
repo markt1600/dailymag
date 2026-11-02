@@ -1,5 +1,5 @@
 {
-  "count": 1141,
+  "count": 1149,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,62 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Anthropic, PBC Form S-1/A (Nasdaq: ANT)",
+      "type": "Filing (IPO)",
+      "last_covered": "No. 152",
+      "last_peg": "Technology LEAD &mdash; the amendment puts named compute commitments at <b>US$895.4bn running to 2045</b> against <b>US$33bn</b> earned, and the share price is <b>still blank</b>. Both the S-1 and the S-1/A were downloaded in full from EDGAR and compared line by line. <b>CORRECTION printed on p7: No. 151 said the original named US$637bn &mdash; that figure appears nowhere in it.</b>",
+      "next_peg": "Next peg = a priced amendment, or a further revision of the commitment total."
+    },
+    {
+      "subject": "llama.cpp Vulkan tensor-parallel (the 129-day PR)",
+      "type": "Software (merged PR)",
+      "last_covered": "No. 152",
+      "last_peg": "The Home Lab LEAD &mdash; merged after <b>129 days</b> open; eight owners posted their own numbers, a pair of 2016 cards going <b>33.8 &rarr; 47.3 tok/s</b>. <b>The issue requesting the feature was auto-closed as inactive the day before the patch landed.</b>",
+      "next_peg": "Next peg = a follow-up backend (ROCm/SYCL) getting the same split, or a measured regression."
+    },
+    {
+      "subject": "XREAL Aura (Android XR glasses)",
+      "type": "Product (wearable)",
+      "last_covered": "No. 152",
+      "last_peg": "The Kit LEAD &mdash; orders at <b>US$1,099</b>, 95g on the face and a 265g puck, 1920&times;1200 per eye to 120Hz, 1,050 nits, 70&deg; FOV, 34.84Wh in the puck. <b>Battery life is published nowhere, and there is no Singapore price.</b>",
+      "next_peg": "Next peg = a published runtime figure, a Singapore price, or first shipped-unit reviews (mid-November)."
+    },
+    {
+      "subject": "Sinn 140.050 (65th-anniversary Spacelab chronograph)",
+      "type": "Product (watch)",
+      "last_covered": "No. 152",
+      "last_peg": "The Good Life LEAD &mdash; announced Tue 27 Oct, 44mm, limited to <b>300 pieces at &euro;5,490 / US$6,980</b>. The original 140 S flew on the 1985 German Spacelab mission and <b>Reinhard Furrer had bought his own</b>; it was not issue kit.",
+      "next_peg": "Next peg = allocation sold out, a Singapore price, or a hands-on measurement of the claimed reserve."
+    },
+    {
+      "subject": "My Chemical Romance, first US No. 1 album",
+      "type": "Event (chart)",
+      "last_covered": "No. 152",
+      "last_peg": "Screen &amp; Sound LEAD &mdash; number one <b>twenty years and four months after the band&rsquo;s first chart entry</b>, the longest such wait the American album chart has recorded. <b>Billboard itself refused this desk</b>; the record was read elsewhere.",
+      "next_peg": "Next peg = a second week at the top, or a longer gap set by another act."
+    },
+    {
+      "subject": "Bulgarian presidential election 2026",
+      "type": "Event (election)",
+      "last_covered": "No. 152",
+      "last_peg": "The World brief &mdash; <b>Iliana Yotova 57.6% to Andrey Gyurov&rsquo;s 39.5</b> in the 1 November run-off; the country&rsquo;s first female president.",
+      "next_peg": "Next peg = inauguration, or the first constitutional clash with the government."
+    },
+    {
+      "subject": "ATTICA cohort, 22-year frailty follow-up",
+      "type": "Study (cohort)",
+      "last_covered": "No. 152",
+      "last_peg": "The Fitness LEAD &mdash; published 19 Oct: odds of frailty <b>0.21</b> for midlife exercise starters against <b>0.20</b> for the lifelong active and <b>1.28</b> for those who lapsed.",
+      "next_peg": "Next peg = an independent replication, or the cohort&rsquo;s next wave."
+    },
+    {
+      "subject": "Philippine &#8369;20 rice programme (Benteng Bigas, Meron Na!)",
+      "type": "Programme (policy)",
+      "last_covered": "No. 152",
+      "last_peg": "The Undercurrent &mdash; <b>961,346 buyers in September, a programme record</b>, against shop-rice inflation of 20.3% (23.6% for the poorest third); funded precisely to <b>30 June 2028</b>.",
+      "next_peg": "Next peg = the October beneficiary count, a funding extension past June 2028, or a published clearance series."
     },
     {
       "subject": "Meta and Microsoft capital raises, 29 October 2026",

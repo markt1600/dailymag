@@ -1130,9 +1130,10 @@
       "venue": "Bomul Samgyetang",
       "key": "Bomul Samgyetang",
       "runs": [
-        116
+        116,
+        152
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 116 build",
       "note": "opening run — record the peg here"
     },
@@ -1847,9 +1848,10 @@
       "venue": "BFF",
       "key": "BFF",
       "runs": [
-        144
+        144,
+        152
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 144 build",
       "note": "opening run — record the peg here"
     },
@@ -2082,9 +2084,29 @@
       "status": "OPEN",
       "checked": "No. 151 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "SHAO",
+      "key": "SHAO",
+      "runs": [
+        152
+      ],
+      "status": "OPEN",
+      "checked": "No. 152 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Mr. CHEESECAKE",
+      "key": "Mr. CHEESECAKE",
+      "runs": [
+        152
+      ],
+      "status": "OPEN",
+      "checked": "No. 152 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 152,
+  "barred_for_issue": 153,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2153,6 +2175,7 @@
     "Whuchu",
     "Moutai House",
     "Maison Yoshoku",
+    "Bomul Samgyetang",
     "Shared Table",
     "VE/LA",
     "Nyonya Next Door",
@@ -2190,9 +2213,7 @@
     "Rawr Cafe",
     "Matsuya",
     "Age.3",
-    "Xiao Jiao Tian",
-    "Foca Kumpir",
-    "Ng Kuan Chilli Pan Mee",
+    "BFF",
     "Postboy Coffee",
     "Cafe Yasuragi",
     "Cafe Nesuto",
@@ -2206,6 +2227,8 @@
     "Tan Ser Seng Herbal Soup",
     "Terumbu",
     "Sushiro",
-    "PS.Cafe Harding"
+    "PS.Cafe Harding",
+    "SHAO",
+    "Mr. CHEESECAKE"
   ]
 }

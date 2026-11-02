@@ -1,0 +1,772 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 152,
+ "date": "Tuesday 3 November 2026",
+ "title": "The long account",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Tuesday, the third of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. Iran's foreign minister has put a new number on reopening the Strait of Hormuz. Two days."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Down from seven. And the Americans?"
+  },
+  {
+   "s": "A",
+   "t": "Have not accepted. Oil fell anyway — Brent lost nine dollars forty-nine on Monday, eight point four per cent, and the strait stayed shut to everyone."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A relief rally for a thing that did not happen."
+  },
+  {
+   "s": "A",
+   "t": "Second. A company five years old told the American share regulator it has promised suppliers eight hundred and ninety-five point four billion dollars, the last of it falling due in the year two thousand and forty-five."
+  },
+  {
+   "s": "B",
+   "t": "Against revenue of what?"
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] Thirty-three billion."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Nineteen years is a long time to be good for a number."
+  },
+  {
+   "s": "A",
+   "t": "And third — a patch that lets ordinary graphics cards split one model between them took a hundred and twenty-nine days to merge. A robot closed the request asking for it the day before it shipped."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Closed as inactive, I assume."
+  },
+  {
+   "s": "A",
+   "t": "Closed as inactive. That's the spine today — the long account. The thing you are paying into for years, where nobody can tell you yet whether it's a debt or an inheritance."
+  },
+  {
+   "s": "B",
+   "t": "Start with Hormuz."
+  },
+  {
+   "s": "A",
+   "t": "Abbas Araghchi said Tehran could partially reopen the strait within two days of an agreement. The demands around it have not moved — lift the naval blockade, restore the oil waivers, unfreeze the assets, thin the American presence."
+  },
+  {
+   "s": "B",
+   "t": "So only the clock moved. Again."
+  },
+  {
+   "s": "A",
+   "t": "Only the clock. Washington has not accepted it in public, and the American line is still that the pressure continues until the shipping lane is open."
+  },
+  {
+   "s": "B",
+   "t": "And the market read that as progress."
+  },
+  {
+   "s": "A",
+   "t": "The market read it as progress. Brent closed at a hundred and three dollars ninety-six. That is still roughly double where it sat in May."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] It fell eight per cent and it's double. Both of those are true."
+  },
+  {
+   "s": "A",
+   "t": "Both are true. Nothing physically changed in the strait on Monday. No ship moved that could not move on Friday."
+  },
+  {
+   "s": "B",
+   "t": "What did the rest of the market do?"
+  },
+  {
+   "s": "A",
+   "t": "This is the part worth sitting with. The ten-year inflation breakeven narrowed — two point three four to two point two nine per cent. That's the bond market saying cheaper oil means less inflation."
+  },
+  {
+   "s": "B",
+   "t": "Which should mean lower yields."
+  },
+  {
+   "s": "A",
+   "t": "The ten-year real yield rose two basis points, to two point six two. So the inflation compensation came out and the real cost of money went up by the same amount, and the headline yield barely moved."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The relief that was not relief."
+  },
+  {
+   "s": "A",
+   "t": "That's the chart on page fourteen. Oil gave the world eight per cent back and the world did not get one basis point of easier money for it."
+  },
+  {
+   "s": "B",
+   "t": "Who else is in the Iran file this morning?"
+  },
+  {
+   "s": "A",
+   "t": "Beijing. Xi Jinping signed fourteen agreements with Oman — ports, energy, a currency arrangement, and a line about maritime security in the Gulf."
+  },
+  {
+   "s": "B",
+   "t": "Oman being the one country both sides still talk to."
+  },
+  {
+   "s": "A",
+   "t": "Oman being the mediator. Araghchi's own proposal names an Iran–Oman arrangement over the strait. China has just bought a great deal of standing in the country that would administer it."
+  },
+  {
+   "s": "B",
+   "t": "Is that read agreed on?"
+  },
+  {
+   "s": "A",
+   "t": "No, and the page says so. We ran three desk views side by side. Doha reads it as insurance for the Gulf states. Beijing's own framing is commercial and says nothing about Iran. Jerusalem reads it as a Chinese foot in a door the Americans are holding."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Three capitals, three stories, one set of signatures."
+  },
+  {
+   "s": "A",
+   "t": "One set of signatures. And around it — Russian bombs hit an aid centre at Komyshuvakha, in Zaporizhzhia, on Monday. Twenty-six killed, about twenty missing."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] An aid centre."
+  },
+  {
+   "s": "A",
+   "t": "An aid centre, and the drones kept going afterwards. Separately — somebody is cooking Europe's supermarket fridges. On Monday, cooling units were pushed to fifty degrees across six countries."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Turned up. Not switched off."
+  },
+  {
+   "s": "A",
+   "t": "Pushed up. Switched off would show on a monitoring panel. A set point of fifty looks like a working fridge. Carrefour lost fifteen of its seven hundred-odd Belgian shops, Coop Sweden six, an Irish group thirteen stores dumping stock."
+  },
+  {
+   "s": "B",
+   "t": "That's a nastier idea than it first sounds."
+  },
+  {
+   "s": "A",
+   "t": "It is. Last month's French version started fires. No claim of responsibility. And in Bulgaria, Iliana Yotova becomes the country's first female president — fifty-seven point six per cent to thirty-nine point five."
+  },
+  {
+   "s": "B",
+   "t": "Home. What's Singapore doing?"
+  },
+  {
+   "s": "A",
+   "t": "The manpower ministry is investigating about forty-five firms over work passes at Changi. Roughly two hundred and seventy workers, employed through contractors to the ground handler, were put on passes that did not match the job they were actually doing."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Which matters because?"
+  },
+  {
+   "s": "A",
+   "t": "Because the pass sets the quota, the levy and the wage floor. Declare the wrong occupation and you are paying the wrong levy and standing in the wrong queue."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So it's not paperwork."
+  },
+  {
+   "s": "A",
+   "t": "It is never paperwork. The ministry says the workers themselves are not under investigation and their passes stand while it looks."
+  },
+  {
+   "s": "B",
+   "t": "Good. And the haze law?"
+  },
+  {
+   "s": "A",
+   "t": "The transboundary haze act has been on the books for twelve years, has been invoked twice, and has produced no fine. Amendments reach Parliament today that let the authorities compel documents from companies abroad."
+  },
+  {
+   "s": "B",
+   "t": "After the companies had already agreed to hand them over."
+  },
+  {
+   "s": "A",
+   "t": "After they had already agreed. A panel of seven will advise on when to use it."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A power you take once the fight is over."
+  },
+  {
+   "s": "A",
+   "t": "That is the pattern of the morning. Technology desk — the filing."
+  },
+  {
+   "s": "B",
+   "t": "This is the amended one."
+  },
+  {
+   "s": "A",
+   "t": "The amended registration statement. We downloaded both versions from the regulator's own system and compared them line by line. The compute commitment is eight hundred and ninety-five point four billion dollars, running to twenty forty-five."
+  },
+  {
+   "s": "B",
+   "t": "And the share price?"
+  },
+  {
+   "s": "A",
+   "t": "Still blank. The document that names an eight-hundred-billion-dollar obligation has not yet said what a share costs."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is the honest state of it, to be fair."
+  },
+  {
+   "s": "A",
+   "t": "It is. But it's worth saying what nineteen years of purchase commitments are. They are not a forecast. They are a contract, and somebody has to be solvent at the far end of it."
+  },
+  {
+   "s": "B",
+   "t": "Now. You have a correction."
+  },
+  {
+   "s": "A",
+   "t": "We do, and it is ours. Yesterday this desk reported that the original filing named a figure of six hundred and thirty-seven billion dollars."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And it does not."
+  },
+  {
+   "s": "A",
+   "t": "It does not. I went back to the regulator's system, pulled both documents in full, and searched them. That number appears nowhere in the original. It was circulating in coverage and we repeated it without reading it at source."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which is the thing we tell everyone else not to do."
+  },
+  {
+   "s": "A",
+   "t": "Which is exactly the thing. The correction runs on page seven, in the open, not in a footnote."
+  },
+  {
+   "s": "B",
+   "t": "Noted. Home lab."
+  },
+  {
+   "s": "A",
+   "t": "Georgi Gerganov merged a tensor-parallel patch into llama dot cpp — the Vulkan backend, which means it works on any graphics card, not just one vendor's."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Any card. Including old ones?"
+  },
+  {
+   "s": "A",
+   "t": "Including old ones. Eight owners measured it on their own machines and posted the numbers. A pair of cards from twenty sixteen went from thirty-three point eight words a second to forty-seven point three."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's a forty per cent gain on hardware a decade old."
+  },
+  {
+   "s": "A",
+   "t": "On hardware a decade old, for free, from a merge. And the patch sat open for a hundred and twenty-nine days."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the robot."
+  },
+  {
+   "s": "A",
+   "t": "The issue asking for the feature was auto-closed as inactive the day before the patch landed. The bot was counting silence. The silence was somebody working."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] There's the spine again."
+  },
+  {
+   "s": "A",
+   "t": "There it is again. Atelier — buy it once. This month, axes."
+  },
+  {
+   "s": "B",
+   "t": "The Swedish ones."
+  },
+  {
+   "s": "A",
+   "t": "Gränsfors Bruk, which gives a twenty-year guarantee. Read it, and it covers the steel. It does not cover the handle."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] The part that actually breaks."
+  },
+  {
+   "s": "A",
+   "t": "The part that always breaks. And this is not a swindle — it is the honest design. The head outlives the owner. The hickory does not, and it is meant to be replaced."
+  },
+  {
+   "s": "B",
+   "t": "So the guarantee is telling you what the object is."
+  },
+  {
+   "s": "A",
+   "t": "The guarantee is telling you what the object is. A head you keep, and a consumable you rehang every ten or twenty years for the price of a dinner."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "The sceptic says the forging mark and the catalogue photography carry a premium you are not required to pay. A working axe from a Swedish or Austrian maker at half the price swings the same, and the handles are no worse."
+  },
+  {
+   "s": "B",
+   "t": "Fair. What's next on that desk?"
+  },
+  {
+   "s": "A",
+   "t": "Three for the vote — hand saws, secateurs and loppers, and oil lamps and lanterns."
+  },
+  {
+   "s": "B",
+   "t": "The Kit."
+  },
+  {
+   "s": "A",
+   "t": "XREAL opened orders for the Aura at one thousand and ninety-nine dollars. Google calls it the first wired glasses running its headset system — ninety-five grams on your face, a puck of two hundred and sixty-five grams in your pocket."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the battery life?"
+  },
+  {
+   "s": "A",
+   "t": "Not published. They will tell you the puck holds thirty-four point eight watt-hours, that the lenses run to a hundred and twenty hertz and a thousand and fifty nits. How long any of it lasts appears nowhere."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] For a thing you wear on your face."
+  },
+  {
+   "s": "A",
+   "t": "For a thing you wear on your face, on a cable. And no Singapore price either. We'll print both when they exist."
+  },
+  {
+   "s": "B",
+   "t": "Good Life."
+  },
+  {
+   "s": "A",
+   "t": "Sinn has re-made the chronograph that flew on Spacelab. Three hundred pieces, five thousand four hundred and ninety euros."
+  },
+  {
+   "s": "B",
+   "t": "[curious] The actual one?"
+  },
+  {
+   "s": "A",
+   "t": "The sixty-fifth-anniversary remake of the chronograph that went into orbit in nineteen eighty-five. And the detail that makes it: the astronaut, Reinhard Furrer, bought his own before the mission. It was not issued to him. My Chemical Romance have their first number one album. Twenty years and four months after their first chart entry."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Twenty years."
+  },
+  {
+   "s": "A",
+   "t": "The longest wait from first chart appearance to first number one that the American album chart has recorded."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A long account that paid."
+  },
+  {
+   "s": "A",
+   "t": "A long account that paid. Family desk — two studies, both about what you can actually see. The first logged five hundred and six menstrual cycles in adolescents, prospectively, rather than asking afterwards. Period pain in seventy-four per cent of them."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Seventy-four. And the usual figure?"
+  },
+  {
+   "s": "A",
+   "t": "Lower, because the usual figure comes from recall. Girls under-report pain they have decided is normal."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the measurement was the finding."
+  },
+  {
+   "s": "A",
+   "t": "The measurement was the finding. The second tracked where teenagers' eyes actually go when a parent and a friend both offer advice. The friend wins. Not in what they say afterwards — in where they look first, and how long they hold it."
+  },
+  {
+   "s": "B",
+   "t": "Which every parent suspected and could not prove."
+  },
+  {
+   "s": "A",
+   "t": "Could not prove. Fitness desk, and this one is genuinely good news."
+  },
+  {
+   "s": "B",
+   "t": "Rare on this show."
+  },
+  {
+   "s": "A",
+   "t": "A Greek cohort followed people in the Attica region for twenty-two years. Odds of frailty at the end were zero point two one for those who took up exercise in midlife."
+  },
+  {
+   "s": "B",
+   "t": "And for the people who never stopped?"
+  },
+  {
+   "s": "A",
+   "t": "Zero point two zero."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the same number."
+  },
+  {
+   "s": "A",
+   "t": "That is the same number. Starting at forty-eight put people level with those who had been active their whole lives."
+  },
+  {
+   "s": "B",
+   "t": "And letting it slide?"
+  },
+  {
+   "s": "A",
+   "t": "One point two eight. Worse than never having started."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So the account is still open. Rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "Sashiko and boro — the indigo cloth on the cover of this issue. And Pinterest says searches for sashiko ideas are up fifteen hundred per cent this year."
+  },
+  {
+   "s": "B",
+   "t": "That indigo cloth."
+  },
+  {
+   "s": "A",
+   "t": "Boro comes from boroboro — tattered. Cloth patched and re-patched across generations, because under the Tsugaru domain's rules, in the far north of Japan, farmers were not permitted to wear cotton at all."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Forbidden to wear cotton."
+  },
+  {
+   "s": "A",
+   "t": "Forbidden to wear it. So they wore layered hemp, in Aomori, in winter, and village women stitched cotton thread into the loose weave at the points that wore first. Sashiko means little stabs."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the white pattern is—"
+  },
+  {
+   "s": "A",
+   "t": "Contraband. The famous white geometry on indigo is cotton that was not allowed, smuggled in stitch by stitch, for warmth. And the craft's loudest practitioner says the West has it backwards — sashiko is not mending. You stitch before the damage, to postpone it. Boro is what you end up with."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the state's view of it now?"
+  },
+  {
+   "s": "A",
+   "t": "In nineteen eighty-three Japan designated a collection of seven hundred and eighty-six of these garments an important tangible folk cultural property. Not swords, not screens — three hundred and twenty-four pairs of work trousers, a hundred and seventy-five long robes, seventy-six sleeveless tops."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Trousers. In a national register."
+  },
+  {
+   "s": "A",
+   "t": "Work trousers, in a national register. And they are protected not for how they were made, but for what was done to them afterwards — repaired and layered until the stitching became the object."
+  },
+  {
+   "s": "B",
+   "t": "Which is the whole desk in one object."
+  },
+  {
+   "s": "A",
+   "t": "Which is the whole desk in one object. You cannot tell, at the time, whether you are servicing a debt or building an inheritance."
+  },
+  {
+   "s": "B",
+   "t": "How do you start?"
+  },
+  {
+   "s": "A",
+   "t": "Cheaply. A packet of needles, a skein of thread, a thimble that sits on the palm rather than the fingertip, and something of yours that has a hole in it. Three pages of it in the book, with the suppliers named."
+  },
+  {
+   "s": "B",
+   "t": "And next descents?"
+  },
+  {
+   "s": "A",
+   "t": "Pinball machine restoration, foraging and wild food, competitive dog agility."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Quite a slate. The Diary."
+  },
+  {
+   "s": "A",
+   "t": "Two deadlines fall on the thirtieth of November. The National Gallery's thirty per cent discount on Pop after Pop dies that day, and the Australian Open's early-bird pricing for twenty twenty-seven ends at one minute to one in the afternoon."
+  },
+  {
+   "s": "B",
+   "t": "Both read at source?"
+  },
+  {
+   "s": "A",
+   "t": "Both read on the venue's own page. We also refused to print three things whose organisers' pages still show empty template placeholders."
+  },
+  {
+   "s": "B",
+   "t": "The Table."
+  },
+  {
+   "s": "A",
+   "t": "Four rooms opened or are about to open in Singapore, and none of the four has been eaten in and written up by anybody we could find."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Four openings, nought reviews."
+  },
+  {
+   "s": "A",
+   "t": "Four openings, nought reviews. A fourth restaurant at Dempsey Hill from a group with a good record. A Tokyo cheesecake name doing its first pop-up in this part of the world. A London burger counter. A ginseng chicken soup specialist opening a second branch."
+  },
+  {
+   "s": "B",
+   "t": "And the page says that rather than inventing a verdict."
+  },
+  {
+   "s": "A",
+   "t": "The page says that rather than inventing a verdict. Announcements are not reviews. Long read. The government sells rice at twenty pesos a kilo through state outlets, to listed categories of buyer. In September, nine hundred and sixty-one thousand three hundred and forty-six people bought it. That is a programme record."
+  },
+  {
+   "s": "B",
+   "t": "Which the government reads as success."
+  },
+  {
+   "s": "A",
+   "t": "Which the government reads as success. In the same month, the price of rice in ordinary Philippine shops rose twenty point three per cent year on year, and twenty-three point six for the poorest third of households."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the queue is growing because the shops got worse."
+  },
+  {
+   "s": "A",
+   "t": "The queue is growing because the shops got worse. And here is the part that makes it an essay rather than a complaint — the same government is deliberately raising the shop price."
+  },
+  {
+   "s": "B",
+   "t": "Deliberately. Say how."
+  },
+  {
+   "s": "A",
+   "t": "The import tariff is locked at fifteen per cent until twenty twenty-eight and the agriculture department cannot change it. So the quantity is controlled instead, through clearances that have to be issued for every commercial shipment."
+  },
+  {
+   "s": "B",
+   "t": "And the department decides who gets one."
+  },
+  {
+   "s": "A",
+   "t": "The department decides. There is also a grade ban — since July, importers agreed to stop bringing in the finer five-per-cent-broken premium rice and to import only coarser grades."
+  },
+  {
+   "s": "B",
+   "t": "[curious] The state took a view on quality."
+  },
+  {
+   "s": "A",
+   "t": "The state took a view on quality, not merely quantity. In September a ship sailed, the navy intercepted it off Sarangani with twelve thousand four hundred and eighty tonnes of Vietnamese rice aboard, and brought it to General Santos."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] A warship. For rice."
+  },
+  {
+   "s": "A",
+   "t": "A warship, for perfectly good rice, because a form had been withdrawn after the cargo was already at sea. The captain refused inspection. Then the customs bureau proposed auctioning the seizure, and the agriculture secretary refused — on the reported grounds that a sale would let the people behind the shipment make money on it anyway."
+  },
+  {
+   "s": "B",
+   "t": "What happened to it?"
+  },
+  {
+   "s": "A",
+   "t": "He recommended giving it instead to the social welfare department, citing confiscated fish as the precedent."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the state would rather give away twelve thousand tonnes than let it reach the market cheaply."
+  },
+  {
+   "s": "A",
+   "t": "Read the two decisions together and that is exactly what it says. And then there is the floor price."
+  },
+  {
+   "s": "B",
+   "t": "For the farmers."
+  },
+  {
+   "s": "A",
+   "t": "Negotiated rather than legislated. Traders assured the department in January they would keep buying unmilled rice at a minimum, the grain agency undertook not to compete with them, and the agency then buys above its own brokered floor and sells the result at twenty."
+  },
+  {
+   "s": "B",
+   "t": "And the gap between those two numbers?"
+  },
+  {
+   "s": "A",
+   "t": "Is the subsidy. And nobody publishes it."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Nobody publishes it."
+  },
+  {
+   "s": "A",
+   "t": "We looked. No register, no series, no dataset of clearance issuances, refusals or volumes anywhere on the department's own site, including its transparency page. Tariffs are legible — they are printed in an executive order and argued over in Geneva. A queue at a clearance desk is legible to nobody."
+  },
+  {
+   "s": "B",
+   "t": "And the precedent you found?"
+  },
+  {
+   "s": "A",
+   "t": "Japan. The Food Control Act of nineteen forty-two had the government buy rice from farmers at one price and sell it at a lower one. The deficits were nicknamed the three-K deficit in parliamentary debate, and the losses from disposing of surplus rice in the nineteen seventies and early eighties have been estimated above three trillion yen."
+  },
+  {
+   "s": "B",
+   "t": "When did they stop?"
+  },
+  {
+   "s": "A",
+   "t": "Nineteen ninety-five. Forty-four years to close a reverse margin — fifty-three to repeal the act."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Forty-four years."
+  },
+  {
+   "s": "A",
+   "t": "That is the long account. The honest question is not whether the subsidy is affordable this year. The programme is funded precisely to the thirtieth of June, twenty twenty-eight."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Which is what, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "The last day of the president's term."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Ah."
+  },
+  {
+   "s": "A",
+   "t": "And the central bank is in the same room. The peso hit a record sixty-four point one seven to the dollar on the twenty-seventh of October, and the governor said plainly that he is not raising the policy rate to defend the currency."
+  },
+  {
+   "s": "B",
+   "t": "And the defence of the programme?"
+  },
+  {
+   "s": "A",
+   "t": "Deserves hearing, and it is arithmetical. The rice going through the twenty-peso channel is a small share of what the country actually eats — a channel that small cannot set a price."
+  },
+  {
+   "s": "B",
+   "t": "Which is the strongest version of the argument."
+  },
+  {
+   "s": "A",
+   "t": "It is, and it concedes the point. If the channel is too small to move the price, then it is not a food-security programme with an electoral side-effect. It is an electoral instrument with a food-security justification."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the monthly beneficiary count is the honest poll."
+  },
+  {
+   "s": "A",
+   "t": "The monthly beneficiary count is the most honest poll the Philippines publishes."
+  },
+  {
+   "s": "B",
+   "t": "What did you leave out?"
+  },
+  {
+   "s": "A",
+   "t": "Four figures that circulate widely on this subject, named on page twenty-three and not printed, because we could not read them at source. One of them is contradicted by the department's own daily index."
+  },
+  {
+   "s": "B",
+   "t": "And the refusals?"
+  },
+  {
+   "s": "A",
+   "t": "Reddit for the nineteenth issue running, so there is no social sentiment anywhere in this book. Also the national statistics authority, two business papers, a casino's theatre agency and a knife forum."
+  },
+  {
+   "s": "B",
+   "t": "[wry] The knife forum stings."
+  },
+  {
+   "s": "A",
+   "t": "[amused] The knife forum always stings. What a state measures, it manages."
+  },
+  {
+   "s": "B",
+   "t": "And what it declines to count?"
+  },
+  {
+   "s": "A",
+   "t": "You cannot tell, while you are paying into it, whether you are servicing a debt or building an inheritance. Manila cannot tell either. Neither could the people burning their grandmother's trousers."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's the issue."
+  },
+  {
+   "s": "A",
+   "t": "That's the issue. That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

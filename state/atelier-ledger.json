@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Axes &amp; hatchets",
+      "issue": "152",
+      "angle": "<b>Gr&auml;nsfors Bruk&rsquo;s twenty-year guarantee covers the steel and explicitly excludes the handle &mdash; the part that actually fails.</b> Taken from the on-deck pipeline front row (Queued table empty, no Atelier Next vote since builtAt). THE FINDING IS NOT A SWINDLE: the head is the buy-onc"
+    },
+    {
       "category": "Over-ear headphones",
       "issue": "151",
       "angle": "<b>Meze&rsquo;s flagship driver is Rinaro&rsquo;s, on Meze&rsquo;s own spec sheet; Sennheiser&rsquo;s HD 600 is built in Ireland; Spirit Torino publishes no price at all for a US$13,600 headphone.</b> Run from the pipeline front row &mdash; Queued empty, no Atelier Next vote since the previous built"
@@ -394,13 +399,25 @@
   "queued": [],
   "pipeline": [
     {
+      "category": "Hand saws (Western &amp; Japanese)",
+      "rotation": "Tools / edge",
+      "fit": "Tooth geometry, set and plate thickness decide the cut; a sharpenable back saw against a hardpoint blade you throw away",
+      "sources": "Lie-Nielsen, Veritas, Bad Axe, Gyokucho, Z-saw, Suizan, the r/handtools and Wood Central scenes"
+    },
+    {
+      "category": "Oil lamps &amp; lanterns",
+      "rotation": "Home / light",
+      "fit": "A light with no electronics and a published burn rate; wick, chimney and fuel are all replaceable parts with part numbers",
+      "sources": "Feuerhand, Dietz, Aladdin, Vermonter, the lantern collector boards"
+    },
+    {
       "category": "Over-ear headphones",
       "rotation": "Audio",
       "fit": "The transducer houses behind the badges, and the measurement culture that argues about them",
       "sources": "Audeze, Sennheiser, Focal, ZMF, Dan Clark; Head-Fi, Audio Science Review"
     },
     {
-      "category": "Axes &amp; hatchets",
+      "category": "~~Axes &amp; hatchets~~ (COVERED, No. 152)",
       "rotation": "Tools / edge",
       "fit": "Forged heads from named smiths against drop-forged production, and the handle as the part that fails",
       "sources": "Gransfors Bruk, Hults Bruk, Council Tool, Liam Hoffman, Autine; Bladeforums, r/Axecraft"

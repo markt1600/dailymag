@@ -21,6 +21,7 @@ the history is the point.
 
 | Event | Where | Was listed | Status | Checked | Source / note |
 |---|---|---|---|---|---|
+| <i>Moulin Rouge! The Musical</i>, Singapore run | Singapore | Not listed by MERIDIAN; surfaced while researching No. 152 | NOT CONFIRMED &mdash; do not print | 2 Nov 2026 | The rights-holder&rsquo;s own world-tour page lists the West End, Hamburg, Sydney and Milan and <b>not Singapore</b>. Marina Bay Sands, its theatre agency and one of the two big ticketing sites all refused this desk, so there is no second reading. Christmas Wonderland&rsquo;s 2026 dates and the Sapporo Snow Festival&rsquo;s 2027 dates were also withheld the same day &mdash; both organisers&rsquo; pages still render empty template placeholders or last year&rsquo;s dates. |
 | Dee Dee Bridgewater Duo with Helen Sung | Singapore (Esplanade Recital Studio) | Not listed by MERIDIAN; surfaced while researching No. 139 | CANCELLED | 21 Oct 2026 | SISTIC&rsquo;s own live catalogue now titles the 29 October 2026 event &ldquo;[CANCELLED] Esplanade Presents | Mosaic Music Series Dee Dee Bridgewater Duo with Helen Sung&rdquo; (was S$88). Barred from any future .evt row. |
 | Post Malone | Singapore | No. 84, as a 25 Sep marquee pick | CANCELLED | 31 Aug 2026 | Reader-reported cancelled. No. 85 printed a correction calling it POSTPONED; the reader reports the show is off entirely. Do not list again unless a promoter or venue announcement confirms a new date — and if it is confirmed, set Status to REINSTATED with that source. |
 
