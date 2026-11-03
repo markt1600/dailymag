@@ -3,16 +3,16 @@
  "issue": 153,
  "date": "4 November 2026",
  "isoDate": "2026-11-04",
- "builtAt": "2026-11-04T06:08:17+08:00",
+ "builtAt": "2026-11-04T06:15:41+08:00",
  "startedAt": null,
- "buildMinutes": 65,
- "buildTokens": 147913056,
+ "buildMinutes": 73,
+ "buildTokens": 173370404,
  "buildTokenBreakdown": {
-  "input": 1486031,
-  "cached": 145810371,
-  "output": 616654
+  "input": 1538142,
+  "cached": 171163002,
+  "output": 669260
  },
- "buildCostUSD": 97.61,
+ "buildCostUSD": 111.93,
  "buildModel": "claude-opus-5",
  "pages": 24,
  "qa": "pass",
