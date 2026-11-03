@@ -53,6 +53,9 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
  
 /* ---------- 6. LAYOUT UTILITIES ---------- */
 .cols2{column-count:2;column-gap:8mm;} .cols3{column-count:3;column-gap:6mm;}
+/* KEEP TOGETHER (editor, 3 Nov 2026 — No. 152 p2's contents blurb ran from the foot of one column to the head of the next): every box, strip item, figure, chip and list entry is an unbreakable unit */
+.mini,.brief-item,.nexthole,.nextpick,.tbl-wrap,.tbl,.imgcap,.cap-note,.lede-strip{break-inside:avoid;}
+.brief-h,.agenda-h,.kicker,.hed,.dek{break-after:avoid;}
 .nobreak{break-inside:avoid;}
 .grid{display:grid;gap:7mm;}
 .g-12{grid-template-columns:1fr 1fr;} .g-21{grid-template-columns:2fr 1fr;}
@@ -86,7 +89,7 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
  
 /* Figures (wrap every custom SVG in .figframe; caption with .imgcap) */
 .imgcap{font-family:'Poppins',sans-serif;font-size:6.8pt;letter-spacing:.04em;color:var(--muted);margin-top:3px;font-style:normal;}
-.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;}
+.figframe{border:.6pt solid var(--line);background:#fff;padding:6px;border-radius:2px;break-inside:avoid;} /* a figure never splits across columns (editor, 3 Nov 2026 — No. 152 p14/p22) */
  
 /* Tag pill */
 .tag{display:inline-block;font-family:'Poppins',sans-serif;font-weight:600;font-size:7pt;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 7px;border-radius:10px;margin-right:4px;}

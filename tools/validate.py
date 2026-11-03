@@ -909,6 +909,50 @@ if _issno >= 126 and not _special:
                           f"paragraphs one and two explain the subject and why it matters to a lay reader; the trade's identifiers start at paragraph three (LAY OPENING)")
         elif len(_tk) >= 4:
             warns.append(f"page {_i}: {len(_tk)} technical tokens in the opening two paragraphs ({', '.join(sorted(set(_tk))[:4])}) — gloss them or move them down (LAY OPENING)")
+    # (l) THE DEEP-DIVE OPENING (editor, 3 Nov 2026 — reader-reported on No. 152's
+    # Rabbit Hole: "The gear is where this craft stops resembling every other
+    # hobby…" — the page should say in its first sentence that it is looking
+    # into sashiko needles). The Rabbit Hole and the Atelier had taken to
+    # calling their subject "this craft", "this hobby", "the category" and
+    # opening pages two and three with no kicker or headline at all. Every
+    # Rabbit Hole and Atelier page opens by NAMING the hobby or category and
+    # the aspect this page covers, and every Rabbit Hole page carries its own
+    # kicker and headline. Gated from No. 153.
+    _DD_STOP = set("the a an and of in on at to for with by from as is are was were not no it its this that these those".split())
+    def _dd_stems(s):
+        return {w.lower().strip("'’-")[:5] for w in re.findall(r"[A-Za-z][A-Za-z'’\-]+", s)
+                if len(w.strip("'’-")) >= 4 and w.lower() not in _DD_STOP}
+    _VAGUE = re.compile(r"\b(?:this|the) (?:craft|hobby|category|object|trade|pursuit|discipline)\b", re.I)
+    _hobby = None; _category = None
+    for _i, _sec in enumerate(pages, 1):
+        if _issno < 153 or _i <= 2 or _i == len(pages):
+            continue
+        _desk = _desk_of(_sec)
+        if _desk not in ("The Rabbit Hole", "The Atelier"):
+            continue
+        _k = re.search(r'<div class="kicker[^"]*"[^>]*>(.*?)</div>', _sec, re.S)
+        _h = re.search(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _sec, re.S)
+        _ksubj = _plain(_k.group(1)).split("·")[-1].strip() if _k else ""
+        if _desk == "The Rabbit Hole":
+            if not _k or not _h:
+                errors.append(f"page {_i}: a Rabbit Hole page with no {'kicker' if not _k else 'headline'} — every page of the descent "
+                              f"carries its own kicker (The Invitation / The Deep End · <aspect>) and headline (DEEP-DIVE OPENING)")
+            if _hobby is None and _ksubj: _hobby = _ksubj
+            _name = _hobby
+        else:
+            if _ksubj: _category = _ksubj
+            _name = _category
+        _bod = [_plain(x) for x in re.findall(r'<p class="body[^"]*"[^>]*>(.*?)</p>', _sec, re.S)]
+        if not _bod:
+            continue
+        _first = re.split(r"(?<=[.!?])\s+", _bod[0])[0]
+        _label = "hobby" if _desk == "The Rabbit Hole" else "category"
+        if _VAGUE.search(_first):
+            errors.append(f"page {_i}: the first sentence says “{_VAGUE.search(_first).group(0)}” instead of naming the {_label} — "
+                          f"“{_first[:70]}…”; say what this page is looking into, by name (DEEP-DIVE OPENING)")
+        elif _name and not (_dd_stems(_name) & _dd_stems(_first)):
+            errors.append(f"page {_i}: the first sentence does not name the {_label} (“{_name}”) — “{_first[:70]}…”; "
+                          f"the opening sentence states what this page is looking into, e.g. the needles, thread and cloth of sashiko (DEEP-DIVE OPENING)")
     # cover teasers
     if pages:
         for _t in re.findall(r'<div class="ht"[^>]*>(.*?)</div>', pages[0], re.S):

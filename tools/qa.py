@@ -120,6 +120,28 @@ FONT_JS = r"""
 """
 
 
+# KEEP TOGETHER (editor, 3 Nov 2026 — reader-reported on No. 152 p2: a breakout
+# blurb ran from the foot of one column to the head of the next; the same
+# build split two figures). A box, strip item, figure, chip, table or contents
+# entry is one unit: if its client rects land in two columns, it has broken.
+SPLIT_JS = r"""
+() => {
+  const sels = '.chatter,.desk,.stat,.figframe,.nexthole,.nextpick,.tbl-wrap,.brief-item,.mini,.pull,.evt';
+  const out = [];
+  document.querySelectorAll('section.page').forEach((pg, i) => {
+    pg.querySelectorAll(sels).forEach(el => {
+      const rects = [...el.getClientRects()].filter(r => r.width > 0 && r.height > 0);
+      if (rects.length < 2) return;
+      const lefts = [...new Set(rects.map(r => Math.round(r.left)))];
+      if (lefts.length < 2) return;
+      out.push({ page: i + 1, cls: String(el.className).split(' ')[0], text: el.textContent.replace(/\s+/g, ' ').trim().slice(0, 60) });
+    });
+  });
+  return out;
+}
+"""
+
+
 def main():
     html = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html").resolve()
     pdf = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else html.with_suffix(".pdf")
@@ -143,6 +165,7 @@ def main():
         page.wait_for_timeout(1500)
         data = page.evaluate(MEASURE_JS)
         fonts = page.evaluate(FONT_JS)
+        splits = page.evaluate(SPLIT_JS)
         b.close()
 
     n = len(data)
@@ -179,6 +202,12 @@ def main():
             subprocess.run(["montage", *pages[s:s + 6], "-tile", "3x2", "-geometry", "+4+4", outn], check=True)
             print("wrote", outn)
 
+    if splits:
+        print(f"\nFAIL: {len(splits)} element(s) split across columns (KEEP TOGETHER):")
+        for s_ in splits[:20]:
+            print(f"  page {s_['page']}: .{s_['cls']} — “{s_['text']}”")
+        print("  A box, figure, chip, table or contents entry is one unit — shorten it or move it so it sits whole in one column.")
+        sys.exit(1)
     badfonts = fonts.get("bad", [])
     if badfonts:
         print(f"\nFAIL: {len(badfonts)} run(s) of interior text at a size the stylesheet never defines (TYPE SCALE AUDIT):")
