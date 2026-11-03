@@ -1869,9 +1869,10 @@
       "venue": "Woksta",
       "key": "Woksta",
       "runs": [
-        144
+        144,
+        153
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 144 build",
       "note": "opening run — record the peg here"
     },
@@ -2104,9 +2105,29 @@
       "status": "OPEN",
       "checked": "No. 152 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Nekobushi",
+      "key": "Nekobushi",
+      "runs": [
+        153
+      ],
+      "status": "OPEN",
+      "checked": "No. 153 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Woodsmen by Cut Butchery",
+      "key": "Woodsmen by Cut Butchery",
+      "runs": [
+        153
+      ],
+      "status": "OPEN",
+      "checked": "No. 153 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 153,
+  "barred_for_issue": 154,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2214,9 +2235,7 @@
     "Matsuya",
     "Age.3",
     "BFF",
-    "Postboy Coffee",
-    "Cafe Yasuragi",
-    "Cafe Nesuto",
+    "Woksta",
     "OVER",
     "Casa Mori",
     "HANDO",
@@ -2229,6 +2248,8 @@
     "Sushiro",
     "PS.Cafe Harding",
     "SHAO",
-    "Mr. CHEESECAKE"
+    "Mr. CHEESECAKE",
+    "Nekobushi",
+    "Woodsmen by Cut Butchery"
   ]
 }

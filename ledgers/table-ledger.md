@@ -214,7 +214,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Après Gelato | Après Gelato | 143 | OPEN | No. 143 build | opening run — record the peg here |
 | BFF | BFF | 144, 152 | SPENT | No. 144 build | opening run — record the peg here |
 | JR Pizzeria | JR Pizzeria | 144 | OPEN | No. 144 build | opening run — record the peg here |
-| Woksta | Woksta | 144 | OPEN | No. 144 build | opening run — record the peg here |
+| Woksta | Woksta | 144, 153 | SPENT | No. 144 build | opening run — record the peg here |
 | 7 Paintings | 7 Paintings | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | Dough | Dough | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
@@ -238,3 +238,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | PS.Cafe Harding | PS.Cafe Harding | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | SHAO | SHAO | 152 | OPEN | No. 152 build | opening run — record the peg here |
 | Mr. CHEESECAKE | Mr. CHEESECAKE | 152 | OPEN | No. 152 build | opening run — record the peg here |
+| Nekobushi | Nekobushi | 153 | OPEN | No. 153 build | opening run — record the peg here |
+| Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153 | OPEN | No. 153 build | opening run — record the peg here |

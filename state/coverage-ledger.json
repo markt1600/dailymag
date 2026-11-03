@@ -1,5 +1,5 @@
 {
-  "count": 1149,
+  "count": 1156,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,55 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Marvell / Lumentum merger",
+      "type": "M&amp;A (all-stock)",
+      "last_covered": "No. 153",
+      "last_peg": "Technology LEAD &mdash; agreement signed 1 Nov, announced 2 Nov at a headline <b>$115bn</b>, 4.500 Marvell shares per Lumentum share; Marvell &minus;31.7% in three sessions, so the deal was worth <b>~$78.7bn</b> by 3 Nov. Outside date 1 Nov 2027 extendable to 1 Aug 2028; <b>$3.2bn regulatory reverse-termination fee</b>",
+      "next_peg": "Next peg = an antitrust filing or docket, the shareholder votes, or a Marvell price that closes the gap. Not CLOSED."
+    },
+    {
+      "subject": "Apple iPad mini (A20 Pro, OLED)",
+      "type": "Product",
+      "last_covered": "No. 153",
+      "last_peg": "The Kit LEAD &mdash; SG retail 6 Nov from <b>S$999</b> to S$1,599; <b>the chip is binned by storage tier</b> (128/256GB five cores + one neural engine; 512GB six cores + two). Yeo measured Geekbench 6 multi <b>12,602</b>, +80.5% generationally; Engadget measured <b>5&ndash;6h heavy use</b> against a claimed ten. <b>Apple publishes no refresh rate at all</b>",
+      "next_peg": "Next peg = a published refresh figure, an independent speaker measurement, or a price move. Do not re-cover on \"still on sale\"."
+    },
+    {
+      "subject": "H. Moser Heritage Chronograph White Fum&eacute; (ref. 8220-1200)",
+      "type": "Product (watch)",
+      "last_covered": "No. 153",
+      "last_peg": "The Good Life LEAD &mdash; introduced 2 Nov, <b>100 pieces at CHF 29,200</b> (~S$45,600), 42mm steel, 30m, HMC 220 with a Dubois D&eacute;praz module. <b>The maker&rsquo;s own page omits the limitation, the thickness, the frequency and the jewel count</b>; EUR priced ~7% over the FX conversion",
+      "next_peg": "Next peg = a Singapore price, or the edition appearing on Moser&rsquo;s own spec sheet."
+    },
+    {
+      "subject": "<i>You Can See Everything</i> (A24, Fielder/Oppenheim)",
+      "type": "Film (documentary)",
+      "last_covered": "No. 153",
+      "last_peg": "Screen LEAD &mdash; third weekend at No. 1 on <b>$11,445,629</b> from 3,243 theatres for <b>$64.7m</b>; first non-concert documentary to lead since 2004; <b>96% from 206 critics</b> read 4 Nov 04:55 SGT",
+      "next_peg": "Next peg = a fourth weekend, a Singapore date, or awards traction. Score moves with the count &mdash; always print the count."
+    },
+    {
+      "subject": "llama.cpp PR 28967 (NCCL multi-node tensor parallelism)",
+      "type": "Software (merged PR)",
+      "last_covered": "No. 153",
+      "last_peg": "The Home Lab LEAD &mdash; merged 3 Nov after 49 days; author&rsquo;s two DGX Sparks over RDMA, pp512 <b>846.54&rarr;1348.29 t/s (1.59&times;)</b>, tg128 <b>13.02&rarr;23.51 (1.81&times;)</b>. <b>ggerganov could not reproduce it on his own pair</b>; am17an only at 2400MHz. ~2GB VRAM per node, no post-fix figure",
+      "next_peg": "Next peg = a reproduction from outside the project, or a published memory figure. CLOSED as a merge otherwise."
+    },
+    {
+      "subject": "Stern Pinball current line and Pok&eacute;mon pricing",
+      "type": "Product line",
+      "last_covered": "No. 153",
+      "last_peg": "Rabbit Hole &mdash; <b>34 titles</b> on Stern&rsquo;s own games page in three tiers; Pok&eacute;mon announced 14 Feb 2026 at <b>$6,999 / $9,699 / $12,999</b>, the LE limited to <b>750 worldwide</b>. <b>Stern publishes no prices on its own site</b>",
+      "next_peg": "Next peg = a new title, a price change, or Stern publishing prices. Hobby itself is covered once, ever."
+    },
+    {
+      "subject": "SATS / MOM Changi work-pass investigation",
+      "type": "Enforcement (developing)",
+      "last_covered": "No. 153",
+      "last_peg": "Singapore LEAD &mdash; ~45 companies, ~270 workers, <b>Employment Pass holders found handling baggage</b> with salaries and occupations declared falsely; a day later SATS asked office staff to volunteer for <b>2.5-hour</b> baggage shifts for <b>$15</b> in vouchers",
+      "next_peg": "Delta only &mdash; next peg = charges, a named firm, a penalty, or MOM&rsquo;s findings. Do not re-explain the pass architecture."
     },
     {
       "subject": "Anthropic, PBC Form S-1/A (Nasdaq: ANT)",
