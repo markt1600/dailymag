@@ -1,5 +1,5 @@
 {
-  "count": 1156,
+  "count": 1164,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,62 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "AMD Q3 2026 results",
+      "type": "Earnings",
+      "last_covered": "No. 154",
+      "last_peg": "Technology LEAD &mdash; record <b>$13,377m</b> (+45% y/y), Data Center <b>$8,546m</b> (+97%, 64% of revenue), Gaming <b>&minus;40%</b>; Q4 guide <b>~$17bn</b> at a gross margin of <b>~55%</b>, a point BELOW the 56 just reported; a <b>$1.1bn</b> non-cash warrant charge the CFO says will grow. Lisa Su: >80% growth in 2027, server revenue doubling.",
+      "next_peg": "Next peg = the Q4 print and Q1 2027 margin guidance. If Q4 lands near $17bn and Q1 guides below 55%, the margin thesis is confirmed."
+    },
+    {
+      "subject": "Home Assistant 2026.11 (HACS &rarr; Marketplace)",
+      "type": "Software release",
+      "last_covered": "No. 154",
+      "last_peg": "The Home Lab LEAD &mdash; the community add-on store absorbed into core as Marketplace, the standalone HACS installer retired at this version; <b>38 new integrations, 44 sections of breaking changes</b>, Matter 1.5 camera support with WebRTC. ludeeus pinned the notice 16 Oct.",
+      "next_peg": "Next peg = the first malicious Marketplace integration, or six months without one. Do not re-cover the migration itself."
+    },
+    {
+      "subject": "Dell XPS Googlebook (DX13267)",
+      "type": "Product",
+      "last_covered": "No. 154",
+      "last_peg": "The Kit LEAD &mdash; Engadget <b>6.5/10</b>, 2 Nov, Devindra Hardawar: hardware &ldquo;among the best in the PC world&rdquo;, the concept &ldquo;a failure&rdquo;; <b>15h15m</b> measured battery, one app drained <b>half the charge idle in an hour</b>; $999.99 / $1,599.99 / $1,799.99.",
+      "next_peg": "Next peg = Googlebook OS&rsquo;s first annual update and the desktop-app count, or a Singapore price."
+    },
+    {
+      "subject": "Audio-Technica ATH-AWX7000",
+      "type": "Product (headphone)",
+      "last_covered": "No. 154",
+      "last_peg": "The Good Life LEAD &mdash; <b>$3,799</b>, &euro;3,799; debuted Paris Audio Video Show 23 Oct; Kiso cypress in Echizen lacquer, 58mm hybrid diaphragm, 48&Omega;, 97dB/mW, 353g, built in Tokyo; dearer than the open-backed ADX7000 at $3,499. <b>No published measurement set exists.</b>",
+      "next_peg": "Next peg = an independent measured frequency-response and distortion set, or a Singapore price. Do not re-cover the launch."
+    },
+    {
+      "subject": "<i>The Black Parade</i> 20th-anniversary reissue",
+      "type": "Album (chart)",
+      "last_covered": "No. 154",
+      "last_peg": "Screen LEAD &mdash; My Chemical Romance&rsquo;s first Billboard 200 No. 1, chart dated 7 Nov, <b>78,000 units</b> (+653%), <b>68,000 pure sales</b> (+2,082%) across <b>twenty physical variants</b>; 139&rarr;1; longest wait from release to a first No. 1 on record. 2006: 240,000 and second, behind Hannah Montana&rsquo;s 281,000.",
+      "next_peg": "Next peg = the following week&rsquo;s position, or a streaming-only rank if Billboard ever publishes one. Played out as a chart story."
+    },
+    {
+      "subject": "Transboundary Haze Pollution (Amendment) Act 2026",
+      "type": "Legislation",
+      "last_covered": "No. 154",
+      "last_peg": "Singapore LEAD &mdash; passed 4 Nov under a Certificate of Urgency, all three readings in one sitting; maximum fine <b>$2m&rarr;$20m</b>, daily rate <b>$100,000&rarr;$1m</b>, new civil-penalty route to <b>$10m</b>, offences arrestable, trial in absentia; notices already served on <b>ten Indonesian and ten Singapore-registered</b> companies. <b>Zero prosecutions in twelve years.</b>",
+      "next_peg": "Next peg = the first charge, the first dollar collected, or the Act&rsquo;s commencement. Grace Fu: &ldquo;There is no guarantee of a successful prosecution.&rdquo;"
+    },
+    {
+      "subject": "Urda / Toledo high-speed collision &mdash; ministerial resignation",
+      "type": "Event (disaster, delta)",
+      "last_covered": "No. 154",
+      "last_peg": "The World p4 &mdash; <b>&Oacute;scar Puente resigned 3 Nov</b>, six days after the crash and 26 days before the general election; accident authority puts impact at <b>160&ndash;200 km/h</b> and calls the cause a &ldquo;sequence of malfunctions, instructions, and actions&rdquo;; controllers&rsquo; union alleges a <b>20%</b> staffing shortfall at Atocha; drivers&rsquo; strike 10 Nov, safety strike p",
+      "next_peg": "Next peg = the recorder download, the full AITAT report, a charge, or the 29 Nov election result. Do NOT re-narrate the crash."
+    },
+    {
+      "subject": "Listyo Sigit Prabowo wiretapping case",
+      "type": "Event (investigation)",
+      "last_covered": "No. 154",
+      "last_peg": "The World LEAD &mdash; dismissed as presidential chief of staff 4 Nov, arrested 3 Nov with two inspector-generals; <b>11 phones, an iPad, four flash drives</b>, 10 witnesses; articles 258 / 332 of the criminal code and 32 of the ITE law; >20,000 troops into Jakarta. <b>Nobody charged; the legal affairs minister says no indication of treason.</b>",
+      "next_peg": "Next peg = a charge sheet, the published target list, or a named recipient of the intercepts."
     },
     {
       "subject": "Marvell / Lumentum merger",

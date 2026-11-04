@@ -149,7 +149,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | VE/LA | VE/LA | 116, 130 | SPENT | No. 116 build | opening run — record the peg here |
 | The Singapore Martini Club | The Singapore Martini Club | 116 | OPEN | No. 116 build | opening run — record the peg here |
 | Nyonya Next Door | Nyonya Next Door | 116, 149 | SPENT | No. 116 build | opening run — record the peg here |
-| rei by Janice Wong | rei by Janice Wong | 116 | OPEN | No. 116 build | opening run — record the peg here |
+| rei by Janice Wong | rei by Janice Wong | 116, 154 | SPENT | No. 116 build | opening run — record the peg here |
 | Nice Noodle | Nice Noodle | 117, 134 | SPENT | No. 117 build | opening run — record the peg here |
 | Lulu’s Lounge | Lulu’s Lounge | 117, 129 | SPENT | No. 117 build | opening run — record the peg here |
 | Joylion Buffet Hotpot | Joylion Buffet Hotpot | 117 | OPEN | No. 117 build | opening run — record the peg here |
@@ -186,7 +186,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Spicy Hubby | Spicy Hubby | 132, 139 | SPENT | No. 139 build | No. 132 the opening run; No. 139 the verdict run, exactly seven issues on — the first reviews are in and all three were filed within 48 hours of opening, two of them hosted. Spent. |
 | Osteria Da Su | Osteria Da Su | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
 | Tokyo Onigiri | Tokyo Onigiri | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
-| Creamie Sippies | Creamie Sippies | 133 | OPEN | No. 133 build | opening run — record the peg here |
+| Creamie Sippies | Creamie Sippies | 133, 154 | SPENT | No. 133 build | opening run — record the peg here |
 | Tandem Co | Tandem Co | 134 | OPEN | No. 134 build | opening run — record the peg here |
 | Yogeek | Yogeek | 134, 147 | SPENT | No. 134 build | opening run — record the peg here |
 | Shi Tang by Mahota Kitchen | Shi Tang by Mahota Kitchen | 134 | OPEN | No. 134 build | opening run — record the peg here |
@@ -204,7 +204,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Matsuya | Matsuya | 138, 146 | SPENT | No. 138 build | opening run — record the peg here |
 | Bar Middle | Bar Middle | 139 | OPEN | No. 139 build | First run — opened June 2026, surfaced in the October round-ups; Chope 5.0 from one review. Peg for a second run would be a real critical consensus. |
 | Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |
-| Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139 | OPEN | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
+| Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139, 154 | SPENT | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
 | Age.3 | Age.3 | 141, 148 | SPENT | No. 141 build | opening run — record the peg here |
 | Hama-Sushi | Hama-Sushi | 141 | OPEN | No. 141 build | opening run — record the peg here |
 | Sodeng Jeju | Sodeng Jeju | 142 | OPEN | No. 142 build | opening run — record the peg here |
@@ -219,9 +219,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Dough | Dough | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | SHAO @ Dempsey | SHAO @ Dempsey | 145 | OPEN | No. 145 build | opening run — record the peg here |
-| Xiao Jiao Tian | Xiao Jiao Tian | 146 | OPEN | No. 146 build | opening run — record the peg here |
+| Xiao Jiao Tian | Xiao Jiao Tian | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
 | Foca Kumpir | Foca Kumpir | 146 | OPEN | No. 146 build | opening run — record the peg here |
-| Ng Kuan Chilli Pan Mee | Ng Kuan Chilli Pan Mee | 146 | OPEN | No. 146 build | opening run — record the peg here |
+| Ng Kuan Chilli Pan Mee | Ng Kuan Chilli Pan Mee | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
 | Postboy Coffee | Postboy Coffee | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Yasuragi | Cafe Yasuragi | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Nesuto | Cafe Nesuto | 147 | OPEN | No. 147 build | opening run — record the peg here |

@@ -1,0 +1,796 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 154,
+ "date": "Thursday 5 November 2026",
+ "title": "The missing mechanism",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the fifth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Jakarta. The president's own chief of staff is under arrest, accused of tapping the president's phone."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And twenty thousand soldiers on the streets by Wednesday, which the army says is perfectly normal."
+  },
+  {
+   "s": "A",
+   "t": "Singapore raises the maximum haze fine tenfold. The law it raised has never fined anybody."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Not once? In twelve years?"
+  },
+  {
+   "s": "A",
+   "t": "Not once."
+  },
+  {
+   "s": "B",
+   "t": "And a central bank in Tashkent that had to go shopping — actually buy a phone — to find out what credit costs in its own country."
+  },
+  {
+   "s": "A",
+   "t": "That's the spine of today's book, by the way. The missing mechanism."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Everything announced without the part that would make it work. Okay. Start me in Jakarta."
+  },
+  {
+   "s": "A",
+   "t": "President Prabowo Subianto dismissed his chief of staff on Wednesday. General Listyo Sigit Prabowo — no relation. Different man. And he ran the whole of Indonesia's national police for five years, right up until last month."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So the man accused of bugging the head of state was, until October, the country's top policeman."
+  },
+  {
+   "s": "A",
+   "t": "Correct. Police announced the arrest on Tuesday. Two other serving generals went with him."
+  },
+  {
+   "s": "B",
+   "t": "What do they actually say he did? Mechanically, I mean."
+  },
+  {
+   "s": "A",
+   "t": "Phone numbers entered into the force's own lawful-interception system without verification. Taps ordered outside the procedure a police regulation set in twenty-ten."
+  },
+  {
+   "s": "B",
+   "t": "So the system was the system. He just didn't do the paperwork."
+  },
+  {
+   "s": "A",
+   "t": "That's the allegation. And the targets, they say, ran from the president and cabinet ministers down to journalists and business figures. Between last year and this."
+  },
+  {
+   "s": "B",
+   "t": "Because they allegedly ordered the intercept files wiped last month."
+  },
+  {
+   "s": "A",
+   "t": "Last month. The force's most senior detective said the operation ran — quote — without any legal basis."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Nothing to see here. Twenty thousand of nothing to see here."
+  },
+  {
+   "s": "A",
+   "t": "[chuckles] The palace went further than the army, though. The presidential spokesman called them, quote, certain rogue individuals, and said the conduct may already fall into a category that can be considered an act tending towards treason."
+  },
+  {
+   "s": "B",
+   "t": "Treason. That's an enormous word."
+  },
+  {
+   "s": "A",
+   "t": "It is. And here's the part the desk built the page around. The senior minister for legal affairs says investigators found no indication of treason, and no motive has been established."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the palace reaches for the biggest word available and the cabinet won't go there."
+  },
+  {
+   "s": "A",
+   "t": "Nobody is charged. No recipient of the intercepts has been named. The list of targets exists only as a police description of itself. A factional purge, dressed as a criminal file. Listyo was made police chief by the previous president, and had run the police in that president's own home city."
+  },
+  {
+   "s": "B",
+   "t": "Can we rule that out?"
+  },
+  {
+   "s": "A",
+   "t": "Not yet. What would settle it is a charge sheet and a published target list. Neither exists."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Okay. That's genuinely unresolved. What about Spain? You said there was a resignation."
+  },
+  {
+   "s": "A",
+   "t": "Spain's transport minister, Óscar Puente, resigned on Tuesday. Six days after the collision near Urda that killed sixty-nine people."
+  },
+  {
+   "s": "B",
+   "t": "We covered that crash seven issues ago."
+  },
+  {
+   "s": "A",
+   "t": "We did — and the ledger row we wrote then said the next peg would be the recorder findings, a resignation, or a charge. We got the resignation."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I love that we write down what we're waiting for."
+  },
+  {
+   "s": "A",
+   "t": "His line was: a transport minister in a country like Spain cannot remain in office after two accidents of this seriousness in less than a year."
+  },
+  {
+   "s": "B",
+   "t": "And the official cause?"
+  },
+  {
+   "s": "A",
+   "t": "The accident authority's wording is systemic. Quote: the sequence of malfunctions, instructions, and actions eventually led to the collision."
+  },
+  {
+   "s": "B",
+   "t": "Not the sequence of one man's decisions."
+  },
+  {
+   "s": "A",
+   "t": "No. And the controllers' union has gone on the attack. They put the staffing shortfall at the Madrid control centre at about twenty per cent, across sixteen positions."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the minister resigns and the control room is still twenty per cent short."
+  },
+  {
+   "s": "A",
+   "t": "That's the missing mechanism, in one sentence. Drivers strike on the tenth. A safety strike is being pushed for the seventeenth."
+  },
+  {
+   "s": "B",
+   "t": "Right. Money. What happened to the oil price?"
+  },
+  {
+   "s": "A",
+   "t": "American voters handed the Democrats both chambers on Tuesday. By Wednesday's close, Brent was down about eight per cent, at ninety-five dollars and six cents."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] In a day?"
+  },
+  {
+   "s": "A",
+   "t": "In a day. And sixteen per cent across three sessions — it was a hundred and thirteen on the thirtieth of October. Gold up three point four per cent. Bitcoin up three point seven. Global equities up one point three six, global bonds up a third of a per cent."
+  },
+  {
+   "s": "B",
+   "t": "Directional, not structural."
+  },
+  {
+   "s": "A",
+   "t": "Directional, not structural. And the honest caveat — the sceptic on the page — is from Ryan McKay at T D Securities. He says headlines alone won't strip the risk premium while there's no concrete conclusion to the war, and tanker and Houthi attacks are still happening."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So the peace that moved the oil price has not actually occurred."
+  },
+  {
+   "s": "A",
+   "t": "The ten-year yield moved five basis points. Over a year, it moved eighty."
+  },
+  {
+   "s": "B",
+   "t": "Right, so this week is noise."
+  },
+  {
+   "s": "A",
+   "t": "Noise. But here's the number I'd keep from the whole desk. Of that eighty basis points over the year, eighty-three were the real rate."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Wait. More than all of it?"
+  },
+  {
+   "s": "A",
+   "t": "More than all of it. Which means the market's expected inflation actually fell three basis points, through the largest oil shock in a decade."
+  },
+  {
+   "s": "B",
+   "t": "That's a figure I'd put on a wall. Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "Parliament passed amendments to the haze law on Wednesday. All three readings in a single sitting, under a Certificate of Urgency."
+  },
+  {
+   "s": "B",
+   "t": "What changed?"
+  },
+  {
+   "s": "A",
+   "t": "The maximum fine on a company linked to haze-causing fires goes from two million dollars to twenty, and the daily rate from a hundred thousand to a million. The Act is from twenty-fourteen."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So we made the penalty ten times bigger on a law that has never collected a dollar."
+  },
+  {
+   "s": "A",
+   "t": "A Workers' Party member put it to the chamber almost exactly that way. Quote: more than ten years have passed, there has not been a single prosecution, a single conviction, a single dollar in fines."
+  },
+  {
+   "s": "B",
+   "t": "And the reason it's never worked isn't the size of the fine."
+  },
+  {
+   "s": "A",
+   "t": "It's evidence. Fires on land in another country, which Singapore's courts cannot visit. A law academic at the National University says Singapore will in practice wait for Indonesia to name companies first. It's not nothing. And notices have already gone to ten Indonesian and ten Singapore-registered companies. But the minister conceded it herself: there is no guarantee of a successful prosecution."
+  },
+  {
+   "s": "B",
+   "t": "Technology. Give me the quarter."
+  },
+  {
+   "s": "A",
+   "t": "Lisa Su reported the largest quarter in A M D's history. Thirteen point four billion dollars, up forty-five per cent."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's a big number."
+  },
+  {
+   "s": "A",
+   "t": "Data centre revenue nearly doubled — up ninety-seven per cent — and is now sixty-four per cent of the company. She guided to about seventeen billion for the current quarter, and said she expects to grow more than eighty per cent next year."
+  },
+  {
+   "s": "B",
+   "t": "Revenue up twenty-seven per cent sequentially, margin down."
+  },
+  {
+   "s": "A",
+   "t": "The part that's growing is the lower-margin part. And gaming fell forty per cent, so one segment with a handful of customers is the entire growth engine."
+  },
+  {
+   "s": "B",
+   "t": "Did anyone on the call push on that?"
+  },
+  {
+   "s": "A",
+   "t": "Four people in a row. Barclays asked whether eighty per cent growth is actually backed by wafers and packaging and memory. Bank of America asked whether the customers can finance and physically house three gigawatts of deployment."
+  },
+  {
+   "s": "B",
+   "t": "And did anyone ask about the margin directly?"
+  },
+  {
+   "s": "A",
+   "t": "Bernstein did. The chief financial officer said, quote: right now, I actually don't have that visibility. Home lab. The free software a lot of people use to run their lights and heating shipped its November update on Wednesday, and it ended a nine-year division of labour."
+  },
+  {
+   "s": "B",
+   "t": "Translate that."
+  },
+  {
+   "s": "A",
+   "t": "For nine years the official software shipped with no way to install community-written extensions. This week that store is built in. But its own first-run notice still says community projects are not tested, audited or supported by the project."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the warning didn't move. Only the door did."
+  },
+  {
+   "s": "A",
+   "t": "One user put it on the forum: why integrate it into core — will you supervise the marketplace? I guess not."
+  },
+  {
+   "s": "B",
+   "t": "[wry] The missing mechanism again. What's in The Kit?"
+  },
+  {
+   "s": "A",
+   "t": "Dell's new small laptop. Beautifully made, runs Google's new desktop system, nine hundred and ninety-nine dollars. Engadget scored it six and a half out of ten and told readers to buy the Windows version instead."
+  },
+  {
+   "s": "B",
+   "t": "Same laptop, same price?"
+  },
+  {
+   "s": "A",
+   "t": "Same price. He measured fifteen hours and fifteen minutes of battery — the best of its kind so far. He also measured one video app draining half the battery in an hour while sitting idle in the background."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And there it is."
+  },
+  {
+   "s": "A",
+   "t": "His verdict on the concept was blunt. But our sceptic box argues the other side, using another reviewer's numbers — the same system on Intel silicon beat a comparable Windows machine in a multi-core benchmark."
+  },
+  {
+   "s": "B",
+   "t": "So the platform isn't slow, it's just young."
+  },
+  {
+   "s": "A",
+   "t": "That's the honest reading. The Atelier today is oil lamps and hurricane lanterns."
+  },
+  {
+   "s": "B",
+   "t": "[amused] From data centres to kerosene."
+  },
+  {
+   "s": "A",
+   "t": "And it has the cleanest number in the book. A Dietz lantern at twenty-eight dollars ninety-five, and a Feuerhand at forty-nine ninety-five, are rated at exactly the same seven candlepower, on the same half-inch wick, in the same catalogue."
+  },
+  {
+   "s": "B",
+   "t": "So what does the extra twenty-one dollars buy?"
+  },
+  {
+   "s": "A",
+   "t": "Galvanised steel instead of painted tinplate, a Schott globe, and nine more hours per fill. Real things — just not light. Meanwhile Dietz left New York for Hong Kong in nineteen fifty-six, and has been in Jiangsu since two thousand and five."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course it does."
+  },
+  {
+   "s": "A",
+   "t": "Vermont Lanterns says its own brass is, quote, made in India to our specification, with final inspection in Vermont."
+  },
+  {
+   "s": "B",
+   "t": "At least they say so."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic writes itself off the maker's own price list. Feuerhand sells an electric version of the identical silhouette for sixty-seven euros ninety, against thirty-nine ninety for the kerosene original."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The fake one costs more than the real one."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-eight euros more, for no flame."
+  },
+  {
+   "s": "B",
+   "t": "And honestly, in a flat?"
+  },
+  {
+   "s": "A",
+   "t": "The page says it plainly: as utility, the category fails here. Feuerhand agrees in writing — intended use, balcony, terrace and garden."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What have we got?"
+  },
+  {
+   "s": "A",
+   "t": "Competitive dog agility."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Oh, the one where the dog goes through the tunnels and the weave poles and the person runs alongside pointing."
+  },
+  {
+   "s": "A",
+   "t": "That's it. Off-lead. The handler touches nothing and steers by voice and body alone. Fastest clear round wins."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Oh. That's the whole sport, isn't it. You've memorised it and the dog hasn't."
+  },
+  {
+   "s": "A",
+   "t": "And here's the Singapore fact, which I think is the best one in the book. Elsa Soo. Sixty years old. A retired narcotics-dog handler from the prison service. She placed fifth in the world in her class at the world championship in Turku, Finland, in September."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Fifth in the world. At sixty."
+  },
+  {
+   "s": "A",
+   "t": "And she's completely matter-of-fact about how. Quote: I am sixty years old, I have bad legs, and I cannot suddenly make myself run like a twenty-five-year-old handler. So she had to find another way."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's a better sports story than most sports stories."
+  },
+  {
+   "s": "A",
+   "t": "The scale is bigger than you'd think, too. The American kennel club recorded four thousand four hundred and forty-seven trials last year, and nearly one point two million entries."
+  },
+  {
+   "s": "B",
+   "t": "What does it cost to get in?"
+  },
+  {
+   "s": "A",
+   "t": "This is where I'd stop people. The equipment you can own is jumps, tunnels and weave poles. The three with the painted contact zone — the A-frame, the dogwalk, the seesaw — are the ones that cost a car."
+  },
+  {
+   "s": "B",
+   "t": "How much of a car?"
+  },
+  {
+   "s": "A",
+   "t": "Six thousand nine hundred to eight thousand three hundred dollars for all three, from one American maker. Eight to ten weeks to build. And eight hundred and forty-five dollars of freight to a residential address."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Eight hundred and forty-five dollars to deliver it?"
+  },
+  {
+   "s": "A",
+   "t": "It arrives on a pallet a hundred and fifty inches long weighing two hundred and twenty pounds, and you need two people to receive it. And then there's where you'd put it. The best-documented home training field in the sport is a blog post by a hobbyist who itemised his own — about three thousand dollars of tree removal, five thousand of site work."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Eight thousand dollars and you can't jump on it."
+  },
+  {
+   "s": "A",
+   "t": "He rejected artificial turf at a twenty-five-thousand-dollar quote. A regulation ring is about eight thousand six hundred square feet, and turf runs eight to eighteen dollars a foot installed. That's a six-figure lawn. But the genuinely new thing in this sport this year isn't equipment at all. It's measurement."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Meaning?"
+  },
+  {
+   "s": "A",
+   "t": "Eight rival sanctioning bodies — organisations that have spent decades competing with each other — co-operated for the first time in twenty-twenty-five, purely to count accidents."
+  },
+  {
+   "s": "B",
+   "t": "And what did counting show?"
+  },
+  {
+   "s": "A",
+   "t": "Two point one incidents per thousand runs on the dogwalk, across one thousand three hundred and eighty-five trials. Ninety-one and a half per cent showed no apparent injury. Not one required immediate veterinary transport."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That is much calmer than I expected."
+  },
+  {
+   "s": "A",
+   "t": "Much calmer than the surveys. Ask handlers to remember, and forty-one per cent of four thousand dogs had been out of the sport for over a week with an injury."
+  },
+  {
+   "s": "B",
+   "t": "Does anybody dissent?"
+  },
+  {
+   "s": "A",
+   "t": "Helsinki. They counted the falls the judges never see — because nearly ninety per cent of falls and injuries happen in training, not competition."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which no judge is standing there to record."
+  },
+  {
+   "s": "A",
+   "t": "And they settled the oldest argument in the sport while they were at it. Running contacts versus stopped contacts — no difference to fall risk."
+  },
+  {
+   "s": "B",
+   "t": "And if I wanted to try it here?"
+  },
+  {
+   "s": "A",
+   "t": "Spend nothing for a month, then pay a coach rather than a maker. One honest warning about the odds, though: this desk read one Singapore titling trial in May. Thirty-one runs, three qualifying rounds in the whole meeting."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Three out of thirty-one."
+  },
+  {
+   "s": "A",
+   "t": "That's the sport, honestly rendered."
+  },
+  {
+   "s": "B",
+   "t": "Culture. Make me happy."
+  },
+  {
+   "s": "A",
+   "t": "My Chemical Romance reached number one on the American album chart for the first time. With a record released in October two thousand and six."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Twenty years?"
+  },
+  {
+   "s": "A",
+   "t": "The longest wait between a release and a first week at number one on record. Seventy-eight thousand units."
+  },
+  {
+   "s": "B",
+   "t": "How?"
+  },
+  {
+   "s": "A",
+   "t": "Sixty-eight thousand of those were physical copies. Across twenty different physical editions of the same album."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Twenty variants."
+  },
+  {
+   "s": "A",
+   "t": "Which is the sceptic on the page. Strip the variants and the chart position goes. A week earlier it was sitting in the triple digits."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So it needed less than a third of its losing number to win twenty years later."
+  },
+  {
+   "s": "A",
+   "t": "The Good Life: Audio-Technica priced its new flagship headphone at three thousand seven hundred and ninety-nine dollars. Earcups turned from Kiso cypress, the timber Japan reserves for shrines, hand-finished in lacquer."
+  },
+  {
+   "s": "B",
+   "t": "[curious] That sounds gorgeous. How does it sound?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody knows. Every performance claim is the maker's, three of the four writers who have handled it decline to vouch for the sound, and there is no published measurement set."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Three thousand seven hundred and ninety-nine dollars and no measurement."
+  },
+  {
+   "s": "A",
+   "t": "The one published listening impression flags the bass as possibly overwhelming — which is the exact failure mode sealed headphones are known for, and the exact thing the new design is sold as fixing."
+  },
+  {
+   "s": "B",
+   "t": "Family desk?"
+  },
+  {
+   "s": "A",
+   "t": "Two studies that fit together. The first tracked four hundred and twenty-five teenagers across seven thousand five hundred and ninety-one nights, sleep measured by a wrist tracker. Phone use after ten at night cost about twenty minutes of sleep."
+  },
+  {
+   "s": "B",
+   "t": "That sounds alarming."
+  },
+  {
+   "s": "A",
+   "t": "Read the per-minute estimate and it shrinks. You need about forty-six extra minutes on the phone after ten to lose the twenty minutes of sleep."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So it's real, but it's small."
+  },
+  {
+   "s": "A",
+   "t": "And the second study is the other half. Iceland banned phones in twenty-two of its seventy schools, and measured almost twenty-four thousand students."
+  },
+  {
+   "s": "B",
+   "t": "So the ban does nothing and the clock does something."
+  },
+  {
+   "s": "A",
+   "t": "Both can be true if the harm sits at bedtime, at home. Which is where Singapore's own rule already points — school devices were pulled back from eleven at night to half past ten."
+  },
+  {
+   "s": "B",
+   "t": "General guidance, not medical advice."
+  },
+  {
+   "s": "A",
+   "t": "Not medical advice. Fitness, quickly, and it's a good one. A Copenhagen team found that the drift from fast muscle to slow muscle in ageing isn't decay — it's a trade."
+  },
+  {
+   "s": "B",
+   "t": "A trade for what?"
+  },
+  {
+   "s": "A",
+   "t": "Protection. And when they mopped up the molecules driving it with a common antioxidant, the muscles got worse over eight weeks."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The antioxidant made it worse."
+  },
+  {
+   "s": "A",
+   "t": "Because the thing it mopped up was the signal. The first author's line: the fibre switch is not the muscle failing, but the muscle trading power for protection — and that's also why interfering with it can backfire."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] All right. The long read."
+  },
+  {
+   "s": "A",
+   "t": "In June of last year, the Central Bank of Uzbekistan went shopping."
+  },
+  {
+   "s": "B",
+   "t": "Why would a central bank do that?"
+  },
+  {
+   "s": "A",
+   "t": "Because it could not otherwise find out what credit costs in its own country."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Say that again."
+  },
+  {
+   "s": "A",
+   "t": "The effective annual cost of buying that phone on instalments from the shops ran from forty-seven to seventy-three point eight per cent. Mean: sixty-six and a half."
+  },
+  {
+   "s": "B",
+   "t": "And on a bank loan?"
+  },
+  {
+   "s": "A",
+   "t": "Fourteen to twenty-three. Mean seventeen."
+  },
+  {
+   "s": "B",
+   "t": "So four times the price, at the counter."
+  },
+  {
+   "s": "A",
+   "t": "And every poster above every counter in the Tashkent malls says nought per cent."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Nought per cent."
+  },
+  {
+   "s": "A",
+   "t": "The word for it is nasiya. It comes from Arabic, by way of the pre-Soviet bazaar, and it means a sale on deferred payment. Figuratively, in Uzbek, it also means an empty promise."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Oh, that's almost too neat."
+  },
+  {
+   "s": "A",
+   "t": "More than half of all orders on the country's dominant marketplace are placed this way. And at the start of last year, sixty-seven per cent of the national instalment book sat with ordinary trading companies."
+  },
+  {
+   "s": "B",
+   "t": "Not banks."
+  },
+  {
+   "s": "A",
+   "t": "Not banks, not licensed microfinance, nobody supervised. And a survey of about five thousand eight hundred people in January found mean debt service at fifty-one per cent of income."
+  },
+  {
+   "s": "B",
+   "t": "Half of what they earn."
+  },
+  {
+   "s": "A",
+   "t": "And roughly twenty-seven per cent of bank borrowers hand over seventy-six per cent or more."
+  },
+  {
+   "s": "B",
+   "t": "So what's the state doing?"
+  },
+  {
+   "s": "A",
+   "t": "In August the president signed a resolution. From the first of January, nobody runs an instalment service without being on a central bank register. Terms capped at twelve months. And everything charged above the principal capped at fifty per cent a year."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Fifty. But they measured the market at sixty-six and a half."
+  },
+  {
+   "s": "A",
+   "t": "The ceiling doesn't sit above the observed range. It cuts straight through the middle of it."
+  },
+  {
+   "s": "B",
+   "t": "Does it even hold?"
+  },
+  {
+   "s": "A",
+   "t": "That's the leak. It binds intermediaries only. In October the state's own carmaker began selling cars on direct instalments of twenty-four and thirty months."
+  },
+  {
+   "s": "B",
+   "t": "Longer than the cap it had just imposed on everybody else."
+  },
+  {
+   "s": "A",
+   "t": "The precedents aren't comforting either. Next door, Kazakhstan in two thousand and nineteen simply paid off small unsecured debts — a hundred and thirty-eight billion tenge, for more than two million citizens."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] Same film."
+  },
+  {
+   "s": "A",
+   "t": "Same film. A state that wants consumption, a credit instrument priced at the point of sale, and a regulator that tightens only once it's already universal."
+  },
+  {
+   "s": "B",
+   "t": "Is there a counter-case?"
+  },
+  {
+   "s": "A",
+   "t": "A good one. Household debt is only about thirteen per cent of output there, and lending is growing three points faster than wages — a gap, not a mania."
+  },
+  {
+   "s": "B",
+   "t": "So it might just be a young country buying its first refrigerators."
+  },
+  {
+   "s": "A",
+   "t": "It might. The page says so, and says what would show us wrong."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the ending?"
+  },
+  {
+   "s": "A",
+   "t": "Uzbekistan legalised Islamic banking in June. The largest product by volume is murabaha — which the local press describes, accurately, as a cost-plus instalment sale."
+  },
+  {
+   "s": "B",
+   "t": "The same transaction."
+  },
+  {
+   "s": "A",
+   "t": "The same transaction, under its Arabic name, with the markup disclosed. The country doesn't need a new instrument. It needs the number written on the contract."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] That's the whole book, isn't it. The announcement is never the mechanism."
+  },
+  {
+   "s": "A",
+   "t": "Ask what would have to be true."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Mm."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
