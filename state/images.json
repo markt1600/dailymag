@@ -9718,6 +9718,94 @@
    "specific": true,
    "source": "Spot.uz, June 2025",
    "caption": "A point-of-sale card in an Uzbek shopping mall: &laquo;&#1056;&#1040;&#1057;&#1057;&#1056;&#1054;&#1063;&#1050;&#1040; &#1041;&#1045;&#1047; &#1055;&#1045;&#1056;&#1045;&#1055;&#1051;&#1040;&#1058; 0%&raquo; &mdash; instalments, no overpayment, nought per cent. The Central Bank measured the same product at 66.5."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Scene</span><span>Who Builds Them Now",
+   "asset": "deck-mainboardterm-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; &ldquo;Mainboard-terminal-heroshot.jpg&rdquo; by Penk Chen, CC BY-SA 4.0, 9 May 2022",
+   "caption": "Penk Chen&rsquo;s Mainboard Terminal, built on a Framework laptop board. The readout on the round screen is real: Ubuntu, an eleventh-generation Core i7, and 7,739&nbsp;MiB of memory, nineteen minutes after boot."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Compute</span><span>The Board at the Bottom",
+   "asset": "sbc-pi5-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; &ldquo;Raspberry Pi 5.jpg&rdquo; by SimonWaldherr, CC BY 4.0, 14 January 2024",
+   "caption": "A bare Raspberry Pi 5. The two small sockets at the bottom edge are micro-HDMI; the two brown flat-flex connectors beside them are the display and camera lanes a deck actually uses."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Compute</span><span>What Else You Could Use",
+   "asset": "riscv-roma-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; by VectorVoyager, CC BY-SA 4.0, 19 September 2025",
+   "caption": "A Framework Laptop 13 running DeepComputing&rsquo;s RISC-V mainboard. The readout on screen is the honest spec: Ubuntu 24.04, kernel 6.6.20, and four cores at 1.5&nbsp;GHz against 7,878&nbsp;MiB of memory."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Keyboard</span><span>The Part That Outlasts the Build",
+   "asset": "kb-planck-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; &ldquo;OLKB Planck.jpg&rdquo; by Meisam, CC BY-SA 4.0, 3 July 2019",
+   "caption": "An OLKB Planck LO PRO: forty-seven keys in a plain 4&times;12 grid, with the orange <i>raise</i> and blue <i>lower</i> keys that stand in for the three rows it does not have."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Shell</span><span>The Screen and the Cells",
+   "asset": "screen-epaper-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; by Tauno Erik, CC BY 4.0, 19 August 2025",
+   "caption": "A 122&times;250-pixel e-paper module showing one word at three sizes. At the smallest the letters barely resolve; at the largest the staircasing is plain."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Off-Grid Deck</span><span>Mesh, Radio and Kiwix",
+   "asset": "radio-tbeam-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; &ldquo;Meshtastic T-Beam.jpg&rdquo; by Chiffre01, CC0, 31 December 2024",
+   "caption": "A LilyGO T-Beam running Meshtastic on battery, outdoors. The module is stamped 868/915&nbsp;MHz; the screen is reporting another node, <i>Lander01</i>, heard nine minutes ago."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Use Case</span><span>What Decks Are Actually For",
+   "asset": "deck-uconsoleterm-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; by Masahiko OHKUBO, CC BY 2.0, 17 July 2023",
+   "caption": "A uConsole doing the thing uConsoles mostly do: a terminal. The directory listing on screen is its owner&rsquo;s home folder &mdash; and two of the entries in it are <i>dosbox</i> and <i>Opentyrian</i>."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Shortcut</span><span>The Decks You Can Buy",
+   "asset": "deck-uconsole-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; &ldquo;ClockworkPi uConsole in Black.jpg&rdquo; by Masahiko OHKUBO, CC BY 2.0, 17 July 2023",
+   "caption": "A ClockworkPi uConsole in black: a 5-inch screen, a backlit 74-key QWERTY with orange second legends, a trackball and a set of game buttons."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Shortcut</span><span>What Shipping Actually Means",
+   "asset": "deck-pocketreform-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; by &ldquo;Manu&rdquo;, CC BY 4.0, Chaos Communication Camp, 17 August 2023",
+   "caption": "An MNT Pocket Reform prototype, purple, outdoors. The keyboard is ortholinear with a trackball at the corner; the machine is 20 by 12.6 by 4.5 centimetres and 1,100 grams."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Bill of Materials</span><span>Three Builds, Priced",
+   "asset": "deck-uconsoleguts-1545",
+   "specific": true,
+   "source": "Wikimedia Commons &mdash; &ldquo;ClockworkPi uConsole Internals with CM4.jpg&rdquo; by Masahiko OHKUBO, CC BY 2.0, 17 July 2023",
+   "caption": "What a finished deck contains: a carrier board, a Raspberry Pi Compute Module 4, a cellular module, and two cells legibly marked <i>3500mAh 3.7V 12.95Wh</i>."
+  },
+  {
+   "issue": "154.5",
+   "anchor": "Meridian · The Undercurrent</span><span>Taiwan&rsquo;s Second Network",
+   "asset": "uc-taipei-1545",
+   "specific": false,
+   "source": "Wikimedia Commons &mdash; &ldquo;Taipei Skyline at twilight 20251014.jpg&rdquo; by Ken Marshall, CC BY 4.0, 14 October 2025",
+   "caption": "Taipei at twilight, with Taipei 101 at the centre. On the afternoon of 13 August 2026 a volunteer group put a temporary radio relay on top of it."
   }
  ],
  "standing": [
