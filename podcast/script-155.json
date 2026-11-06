@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 155,
+ "date": "7 November 2026",
+ "title": "The unpinned number",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Saturday, the seventh of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Today: Israel has a prime minister designate with sixty-seven recommendations, and forty-eight usable ones."
+  },
+  {
+   "s": "B",
+   "t": "A hat company admits its own quality rating means nothing. [wry] In writing."
+  },
+  {
+   "s": "A",
+   "t": "And Angkor — the temple city everyone tells you is overrun — has lost a quarter of its visitors."
+  },
+  {
+   "s": "B",
+   "t": "[curious] That last one I did not see coming."
+  },
+  {
+   "s": "A",
+   "t": "Neither did the Cambodian tourism ministry. We'll get there."
+  },
+  {
+   "s": "B",
+   "t": "Spine first?"
+  },
+  {
+   "s": "A",
+   "t": "The unpinned number. Every figure in today's book counts something other than the thing it is named after."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Including ours."
+  },
+  {
+   "s": "A",
+   "t": "It did. Nine wrong out of forty-five. We'll take our medicine at the end. The lead. On Thursday, Israel's president Isaac Herzog finished consulting every faction of the new Knesset. Sixty-seven of the hundred and twenty members recommended Gadi Eisenkot. Forty-six recommended Benjamin Netanyahu."
+  },
+  {
+   "s": "B",
+   "t": "The Scoreboard ran this morning. That sounds decisive."
+  },
+  {
+   "s": "A",
+   "t": "It isn't. Nineteen of those sixty-seven sit in the two Arab-led parties, and both Eisenkot and Netanyahu have ruled out governing with them."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So strip them out."
+  },
+  {
+   "s": "A",
+   "t": "Strip them out and Eisenkot has forty-eight. A majority is sixty-one. He is thirteen short."
+  },
+  {
+   "s": "B",
+   "t": "Okay — so where do thirteen seats come from? And don't tell me it's exactly thirteen."
+  },
+  {
+   "s": "A",
+   "t": "From the religious parties. Shas and United Torah Judaism hold exactly thirteen between them. It's the whole story. And here's the part I like: United Torah Judaism has seven seats, it was Netanyahu's partner for four years, and this week it recommended nobody at all."
+  },
+  {
+   "s": "B",
+   "t": "Nobody? Why?"
+  },
+  {
+   "s": "A",
+   "t": "Conscription. He failed to pass the exemption that keeps yeshiva students out of the army."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the government falls over draft deferrals, not Gaza, not Iran."
+  },
+  {
+   "s": "A",
+   "t": "Not Gaza, not Iran. On Friday, Avigdor Lieberman dropped his veto on conscripting the ultra-Orthodox, which is the one obstacle to those thirteen seats crossing over."
+  },
+  {
+   "s": "B",
+   "t": "And Herzog names his man tomorrow."
+  },
+  {
+   "s": "A",
+   "t": "Sunday. Then twenty-eight days to form a government, extendable by fourteen. Herzog himself refused to treat sixty-seven as decisive — his words were, there are mutual vetoes between the blocs and within the blocs themselves."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] A president hedging in public. That's a tell. Who's arguing the other side?"
+  },
+  {
+   "s": "A",
+   "t": "Miri Regev of Likud says the mandate belongs to the largest single party, which is Likud on twenty-seven. And Netanyahu is contesting the count itself."
+  },
+  {
+   "s": "B",
+   "t": "From Doha, Al Jazeera takes a completely different angle, doesn't it."
+  },
+  {
+   "s": "A",
+   "t": "It reads the whole week backwards from Washington. The American midterms, not the Knesset, are what made Netanyahu unsellable. Dov Waxman of the University of California: the era of bipartisan support for Israel has ended."
+  },
+  {
+   "s": "B",
+   "t": "And Beijing?"
+  },
+  {
+   "s": "A",
+   "t": "Xinhua treats it as a construction problem rather than an obituary — and writes the Arab parties out of the sum from the first line."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is the same arithmetic, just with the awkward part deleted."
+  },
+  {
+   "s": "A",
+   "t": "Second on the world desk, and almost nobody has covered it. Turkey's parliament ratified the Mecca defence pact on Thursday night. Two hundred and seventy-nine votes to one hundred and nineteen."
+  },
+  {
+   "s": "B",
+   "t": "That's the Saudi, Pakistani, Turkish mutual-defence treaty."
+  },
+  {
+   "s": "A",
+   "t": "The one. An attack on one is an attack on all. Second-largest army in the Atlantic alliance, the only Muslim state with nuclear weapons, and the world's largest oil exporter."
+  },
+  {
+   "s": "B",
+   "t": "Okay. So what's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "Of five hundred and ninety-two sitting members, three hundred and ninety-eight voted. And the full text has never been published."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Never published? At all?"
+  },
+  {
+   "s": "A",
+   "t": "At all. Every description of the mutual-defence clause rests on reporting. Israel's Institute for National Security Studies calls the pact's viability questionable on exactly that ground."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] You can't verify the thing you've just bound your army to."
+  },
+  {
+   "s": "A",
+   "t": "Their other two points are better. Pakistan refused the Saudi-led coalition in Yemen in two thousand fifteen, and made no military answer to the attacks on Saudi oil facilities in two thousand nineteen."
+  },
+  {
+   "s": "B",
+   "t": "And those warheads are pointed at India, not at anybody in the Gulf."
+  },
+  {
+   "s": "A",
+   "t": "Their words: it does not provide an automatic nuclear umbrella. And one more thing — we read Saturday's official gazette. The ratification law hasn't been promulgated yet."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Of course you did."
+  },
+  {
+   "s": "A",
+   "t": "The money block. Singapore first. Police arrested Chen Xiuling at Changi Airport on Thursday."
+  },
+  {
+   "s": "B",
+   "t": "The Prince Group case."
+  },
+  {
+   "s": "A",
+   "t": "Yes. Total assets frozen or seized in Singapore over that group have now passed seven hundred million dollars."
+  },
+  {
+   "s": "B",
+   "t": "That's enormous. What's she charged with?"
+  },
+  {
+   "s": "A",
+   "t": "Instigating somebody to falsify a lease agreement filed with the industrial land agency. In two thousand twenty-two."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Wait. Seven hundred million, and the charge is about a lease document?"
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic box. The seven hundred million and the charge sheet are doing completely different work, and the police release does not join them."
+  },
+  {
+   "s": "B",
+   "t": "What did Singapore actually talk about?"
+  },
+  {
+   "s": "A",
+   "t": "[wry] Not the money. On the HardwareZone board the thread filled up within an hour, and almost every reply asked the same thing — why did she fly back to Changi at all?"
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Fair question, honestly."
+  },
+  {
+   "s": "A",
+   "t": "Macro. Thursday was the worst session on the Nasdaq since April last year. Down five and a half per cent."
+  },
+  {
+   "s": "B",
+   "t": "What broke?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing. No company missed an earnings number. The seven largest American technology firms lost more than a trillion dollars of market value in one day, and Nvidia alone shed over four hundred and forty billion."
+  },
+  {
+   "s": "B",
+   "t": "On what?"
+  },
+  {
+   "s": "A",
+   "t": "Fear that a Democratic Congress regulates data centres, amplified by borrowed money unwinding. The tech sector of the S and P fell seven point three per cent — its worst day since March, two thousand twenty."
+  },
+  {
+   "s": "B",
+   "t": "And the bond market?"
+  },
+  {
+   "s": "A",
+   "t": "This is the bit worth your coffee. The ten-year Treasury yield fell eight basis points on the week. But the ten-year real yield went up three."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Hold on. Those should move together."
+  },
+  {
+   "s": "A",
+   "t": "Not when the move is inflation expectations. Breakevens came down eleven basis points, because Brent crude collapsed almost seventeen per cent in five sessions."
+  },
+  {
+   "s": "B",
+   "t": "So the bond rally wasn't a growth scare at all."
+  },
+  {
+   "s": "A",
+   "t": "It was an oil crash wearing a bond rally. And the rate that actually prices gold — the real one — went the other way."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is why gold rose while the dollar also rose."
+  },
+  {
+   "s": "A",
+   "t": "Four and a half per cent on the week. That's not a real-rate trade. That's a bid for something no government issues."
+  },
+  {
+   "s": "B",
+   "t": "And bitcoin?"
+  },
+  {
+   "s": "A",
+   "t": "Fell five and a half per cent on Thursday — almost exactly the Nasdaq's move — then sat perfectly still on Friday while gold sold off. It hedged nothing."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So much for digital gold."
+  },
+  {
+   "s": "A",
+   "t": "Explanation, not advice. Technology. Qualcomm's phone chip revenue fell twenty-six per cent."
+  },
+  {
+   "s": "B",
+   "t": "A quarter of the business, gone?"
+  },
+  {
+   "s": "A",
+   "t": "A quarter of its largest line. But read the deck. Two sentences: the semiconductor industry is experiencing a broad-based increase in input costs — wafers, assembly, test, packaging, memory. And: we are implementing price increases across our products."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So everything gets more expensive."
+  },
+  {
+   "s": "A",
+   "t": "And there's a stranger number. Its new Amazon arrangement carries warrants over as much as sixty billion dollars of purchases."
+  },
+  {
+   "s": "B",
+   "t": "Against revenue of what?"
+  },
+  {
+   "s": "A",
+   "t": "Forty-three point two billion for the whole year."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] The warrant is bigger than the company's revenue."
+  },
+  {
+   "s": "A",
+   "t": "And fifteen per cent of it vested on day one."
+  },
+  {
+   "s": "B",
+   "t": "Speaking of things getting more expensive — the memory story is absurd."
+  },
+  {
+   "s": "A",
+   "t": "Phone makers are now fitting salvaged, re-soldered memory chips into brand-new handsets. TrendForce has a forecast penetration rate for it."
+  },
+  {
+   "s": "B",
+   "t": "A forecast. For recycled chips."
+  },
+  {
+   "s": "A",
+   "t": "Three to four per cent of smartphones this year, seven to nine next. Its own release warns it may shorten the life of the phones."
+  },
+  {
+   "s": "B",
+   "t": "And the home lab item is going to annoy people."
+  },
+  {
+   "s": "A",
+   "t": "Samsung will charge about five dollars a month for the bridge between SmartThings and Home Assistant. From the fifteenth of December."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Five dollars a month to let my washing machine talk to my lights."
+  },
+  {
+   "s": "A",
+   "t": "The money isn't the objection. The hardware was bought outright, the software is free, and the plan is sold to householders as a developer product. Metered at a hundred thousand calls a month, and setting it up needs a token that expires every twenty-four hours."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "A",
+   "t": "And it isn't sold in every country. The switch-off date applies everywhere."
+  },
+  {
+   "s": "B",
+   "t": "So somebody loses the bridge and can't legally buy the fix."
+  },
+  {
+   "s": "A",
+   "t": "Within forty-eight hours Samsung's own forum had two customers saying they'd ask a regulator. One wrote, simply: what a horribly regressive step. The Atelier. Hats — woven straw and felt."
+  },
+  {
+   "s": "B",
+   "t": "And this is where the spine really lands."
+  },
+  {
+   "s": "A",
+   "t": "The X rating on a Stetson. Posting on the Fedora Lounge, the company that actually makes Stetson wrote: like it or not, public consensus is that we are the barometer for X's. We are the mean."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] They're the standard because everyone agrees they're the standard."
+  },
+  {
+   "s": "A",
+   "t": "It gets better. Same post: they may market them as an eight X or ten X hat but at a four X price. And when they tried selling hats with no X at all, retailers refused them."
+  },
+  {
+   "s": "B",
+   "t": "What does an X actually cost you?"
+  },
+  {
+   "s": "A",
+   "t": "On Stetson's own shop today — a thousand X is five thousand six hundred dollars, a ten X is six hundred. Beaver content is stated for neither."
+  },
+  {
+   "s": "B",
+   "t": "And the Panama side?"
+  },
+  {
+   "s": "A",
+   "t": "Same disease, different word. Brent Black, the best-known Montecristi dealer in the world, says ignore the grade entirely — it's internally consistent within one seller and meaningless across sellers."
+  },
+  {
+   "s": "B",
+   "t": "Then what do you count?"
+  },
+  {
+   "s": "A",
+   "t": "Weaves per square inch. Under about three hundred, not worth owning. Over nine hundred, exceptional."
+  },
+  {
+   "s": "B",
+   "t": "Give me the number that settles it."
+  },
+  {
+   "s": "A",
+   "t": "[pause] A Fedora Lounge member paid two thousand two hundred and seventy-five dollars for a Brent Black Montecristi. He resold it for six hundred and twenty-five. And he admitted, in the listing, that he couldn't accurately count the weaves per inch himself."
+  },
+  {
+   "s": "B",
+   "t": "[wry] He couldn't even count what he was selling."
+  },
+  {
+   "s": "A",
+   "t": "Take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "B",
+   "t": "Origami. And not the children's version."
+  },
+  {
+   "s": "A",
+   "t": "Nineteen fifty-four. A Japanese draughtsman called Akira Yoshizawa publishes a book of symbols and arrows, and gives the world a way to write a fold down."
+  },
+  {
+   "s": "B",
+   "t": "Why does that matter so much?"
+  },
+  {
+   "s": "A",
+   "t": "Before it, a model could only be taught hand to hand. After it, a design could be published, copied, argued over and improved by strangers."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So the notation made it a field."
+  },
+  {
+   "s": "A",
+   "t": "Schools, factions, a literature. The subreddit runs about a hundred and twenty-six thousand members, up nearly fourteen per cent in a year. Japan's technical convention caps at four hundred and reaches it."
+  },
+  {
+   "s": "B",
+   "t": "And the maths, because I know you've been waiting."
+  },
+  {
+   "s": "A",
+   "t": "[amused] I have. Paper folding is strictly stronger than compass and straightedge."
+  },
+  {
+   "s": "B",
+   "t": "Stronger how?"
+  },
+  {
+   "s": "A",
+   "t": "The first five folding axioms give you exactly the Euclidean constructible numbers. Add the sixth and paper solves general cubic equations. Beloch proved it in nineteen thirty-six. Which means origami trisects the angle and doubles the cube — two things classical geometry cannot do."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Okay, that's genuinely wonderful."
+  },
+  {
+   "s": "A",
+   "t": "And the hobby's core problem is provably intractable. Deciding whether a crease pattern folds flat is NP-complete."
+  },
+  {
+   "s": "B",
+   "t": "So what's the gear? It's paper, right?"
+  },
+  {
+   "s": "A",
+   "t": "It's paper, and the spread is about two hundred to one. A schoolroom square costs cents. One hand-made Origamido sheet costs nineteen euros ninety-nine. Forty by fifty centimetres, about thirty-five grams, made by two men in Massachusetts. And the studio isn't a shop — its own page says every sheet differs, so it's sold only in person, to buyers who have touched it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a beautiful constraint."
+  },
+  {
+   "s": "A",
+   "t": "The honest entry point is a Japanese paper called Tant — thirty-eight euros thirty-seven for forty-eight sheets. Or a sampler at nineteen ninety-nine."
+  },
+  {
+   "s": "B",
+   "t": "And the fight? You said there's a fight."
+  },
+  {
+   "s": "A",
+   "t": "Robert Lang and five other folders sued the painter Sarah Morris in an American federal court, over paintings built from their crease patterns — recoloured, renamed, exhibited, sold. Twenty-four works named."
+  },
+  {
+   "s": "B",
+   "t": "Who won?"
+  },
+  {
+   "s": "A",
+   "t": "It settled in March, two thousand thirteen. Revised attribution on some works; the rest confidential. But the underlying question is still open — is a crease pattern a work, or an idea?"
+  },
+  {
+   "s": "B",
+   "t": "What's the counter-argument?"
+  },
+  {
+   "s": "A",
+   "t": "From inside the community. David Lister, the British Origami Society's historian, says an unfolded crease pattern exists as an idea and therefore isn't capable of being copyrighted."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the money pit?"
+  },
+  {
+   "s": "A",
+   "t": "Isn't the lawsuit. It's the paper you fold badly. A grail sheet is twenty euros and single-use — fold it wrong and it's gone."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That is the most expensive mistake in any hobby we've covered."
+  },
+  {
+   "s": "A",
+   "t": "Culture, quickly. Godzilla Minus Zero took nine hundred and ten million yen on its opening day in Japan."
+  },
+  {
+   "s": "B",
+   "t": "Is that a record?"
+  },
+  {
+   "s": "A",
+   "t": "The biggest single day any live-action film has had in Japanese box-office history. About five hundred and ninety thousand admissions."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And the catch?"
+  },
+  {
+   "s": "A",
+   "t": "The third of November is Culture Day — a public holiday. It is also, by coincidence that is not a coincidence, Godzilla Day."
+  },
+  {
+   "s": "B",
+   "t": "So they picked the single best twenty-four hours in the calendar."
+  },
+  {
+   "s": "A",
+   "t": "And then compared it to the previous film's equivalent day. It's a record. It's also a choice."
+  },
+  {
+   "s": "B",
+   "t": "Anything for us here?"
+  },
+  {
+   "s": "A",
+   "t": "It opened in Singapore on the fifth — a day before the United States. And the same hundred-and-thirty-five-minute cut is rated R in America and PG thirteen here."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Two classifications apart, same film."
+  },
+  {
+   "s": "A",
+   "t": "Fitness, and this one matters if you're over sixty. Blood-flow restriction training — the cuff on the leg, lifting light weights."
+  },
+  {
+   "s": "B",
+   "t": "Sold as heavy-lifting results at light-lifting risk."
+  },
+  {
+   "s": "A",
+   "t": "A review of twenty-seven randomised trials found it raises systolic blood pressure by five point three millimetres of mercury against no exercise."
+  },
+  {
+   "s": "B",
+   "t": "So the cardiovascular free pass isn't free."
+  },
+  {
+   "s": "A",
+   "t": "And an umbrella review in August is blunter: clinical safety, falls prevention and patient-centred benefits are not established."
+  },
+  {
+   "s": "B",
+   "t": "Give me the unpinned number for this desk."
+  },
+  {
+   "s": "A",
+   "t": "[pause] Not one review reported what position the limb was in when the occlusion pressure was measured."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] But the whole dose is a percentage of that pressure."
+  },
+  {
+   "s": "A",
+   "t": "An entire literature prescribing a percentage of a number nobody wrote down. General guidance, not medical advice. Travel. Two things. From the first of November, shops in Japan no longer sell tax-free."
+  },
+  {
+   "s": "B",
+   "t": "What replaced it?"
+  },
+  {
+   "s": "A",
+   "t": "You pay the full price at the till and claim at a customs terminal on the way out. Threshold five thousand yen a day per shop."
+  },
+  {
+   "s": "B",
+   "t": "And the trap, because there's always a trap."
+  },
+  {
+   "s": "A",
+   "t": "You must have every item with you, in the departure lobby, before baggage check-in. Confirmation is per receipt — if one item from a receipt is missing, nothing on that receipt qualifies."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Including the things you're still holding."
+  },
+  {
+   "s": "A",
+   "t": "Including those. So the camera bought in Ginza gets hand-carried and queued for."
+  },
+  {
+   "s": "B",
+   "t": "And the Grand Tour. Angkor."
+  },
+  {
+   "s": "A",
+   "t": "Foreign visitors in the first ten months fell twenty-six per cent, to five hundred and sixty-six thousand, seven hundred and fourteen. Revenue down twenty-four."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Angkor? The place everyone says is ruined by crowds?"
+  },
+  {
+   "s": "A",
+   "t": "October alone works out at about eighteen hundred paying foreign visitors a day, across four hundred and one square kilometres and ninety-one temples."
+  },
+  {
+   "s": "B",
+   "t": "Why the collapse?"
+  },
+  {
+   "s": "A",
+   "t": "Nothing to do with Angkor. The tourism minister blames the regional scam-compound scandal, the border confrontation with Thailand, and fuel costs."
+  },
+  {
+   "s": "B",
+   "t": "And November is the month?"
+  },
+  {
+   "s": "A",
+   "t": "We built a thirty-year climate series. November is the only month that gives you both halves — the coolest mean maximum of the year, about ten wet days, and moats still full from five hundred millimetres of monsoon."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Full moats and dry mornings. That's the whole trip in four words."
+  },
+  {
+   "s": "A",
+   "t": "One honest flag: British advice is against all but essential travel within twenty kilometres of the Thai border, and three border temples are closed. Siem Reap isn't in the zone. And the long read. [pause] Japan has not cut a benefit. It has built a dial."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "From the first of March, one thousand and forty-two medicines carry a surcharge of a quarter of the drug's cost, on top of the co-payment. The drug stays inside the insurance benefit. A quarter of it is taken out."
+  },
+  {
+   "s": "B",
+   "t": "Which drugs?"
+  },
+  {
+   "s": "A",
+   "t": "Seventy-seven ingredients, chosen — in the ministry's own word — mechanically. By whether the ingredient has a twin on a drugstore shelf."
+  },
+  {
+   "s": "B",
+   "t": "What's on the list?"
+  },
+  {
+   "s": "A",
+   "t": "Hay-fever tablets. Painkillers. And purified water. White petrolatum. Honey. Grape wine."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] They're going to surcharge water."
+  },
+  {
+   "s": "A",
+   "t": "As a solvent, yes. And magnesium oxide, which is how a great many elderly Japanese manage their bowels."
+  },
+  {
+   "s": "B",
+   "t": "What does it save?"
+  },
+  {
+   "s": "A",
+   "t": "About ninety billion yen. Against national medical spending of forty-nine point two trillion. That is nought point one eight per cent."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's a rounding error."
+  },
+  {
+   "s": "A",
+   "t": "It returns about four hundred yen a year to the median insured person. Thirty-three yen a month."
+  },
+  {
+   "s": "B",
+   "t": "So why do it?"
+  },
+  {
+   "s": "A",
+   "t": "Because it was the price of a coalition agreement. Ishin needed a premium cut it could name."
+  },
+  {
+   "s": "B",
+   "t": "And the dial?"
+  },
+  {
+   "s": "A",
+   "t": "The ministers signed a line last December committing to extend the charge to a substantial portion of all non-prescription-only drugs — and to consider raising the share above a quarter."
+  },
+  {
+   "s": "B",
+   "t": "Does that need a vote?"
+  },
+  {
+   "s": "A",
+   "t": "No. The statute gives the scope to the minister, by ordinance. And the ministry has said the list will be revisited at every drug-price revision, which in Japan is now annual."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the ratchet has a clock on it."
+  },
+  {
+   "s": "A",
+   "t": "Germany did the same thing in two thousand four, all at once, and twenty-two years later the exclusion still stands. The fight moved to the exception list."
+  },
+  {
+   "s": "B",
+   "t": "Which is where Japan's will go too."
+  },
+  {
+   "s": "A",
+   "t": "To the annexes. Published on the thirtieth of September, with almost nobody reading them."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] And one patient's line stays with me."
+  },
+  {
+   "s": "A",
+   "t": "Ikeda Ryoko, costing her own hay-fever prescriptions at four thousand yen a month more for her household. Her words: hay-fever medicine is not a luxury drug."
+  },
+  {
+   "s": "B",
+   "t": "Before we go — the Scoreboard. How bad?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Forty-five calls. Twenty-nine right, nine wrong, two pushes, five we could not settle."
+  },
+  {
+   "s": "B",
+   "t": "Worst miss?"
+  },
+  {
+   "s": "A",
+   "t": "We said the Federal Reserve would raise in October. It held, ten votes to two. The only people who wanted our hike were the two dissenters."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Outvoted ten to two by reality."
+  },
+  {
+   "s": "A",
+   "t": "We also said nothing would be published from the Xi state visit. A fact sheet went up the day after. And we said Iran would partially reopen Hormuz within two days. Six days on, it's shut."
+  },
+  {
+   "s": "B",
+   "t": "And the half-call?"
+  },
+  {
+   "s": "A",
+   "t": "A regime call needing two things. The term premium held. The real yield broke on the twenty-second of October. Half a call is a wrong one."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And that's the book."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

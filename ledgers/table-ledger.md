@@ -225,9 +225,9 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Postboy Coffee | Postboy Coffee | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Yasuragi | Cafe Yasuragi | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Nesuto | Cafe Nesuto | 147 | OPEN | No. 147 build | opening run — record the peg here |
-| OVER | OVER | 148 | OPEN | No. 148 build | opening run — record the peg here |
+| OVER | OVER | 148, 155 | SPENT | No. 148 build | opening run — record the peg here |
 | Casa Mori | Casa Mori | 148 | OPEN | No. 148 build | opening run — record the peg here |
-| HANDO | HANDO | 148 | OPEN | No. 148 build | opening run — record the peg here |
+| HANDO | HANDO | 148, 155 | SPENT | No. 148 build | opening run — record the peg here |
 | Nook Coffee | Nook Coffee | 150 | OPEN | No. 150 build | opening run — record the peg here |
 | Yee3 | Yee3 | 150 | OPEN | No. 150 build | opening run — record the peg here |
 | Terumbu by Orang Laut SG | Terumbu by Orang Laut SG | 151 | OPEN | No. 151 build | opening run — record the peg here |
@@ -240,3 +240,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Mr. CHEESECAKE | Mr. CHEESECAKE | 152 | OPEN | No. 152 build | opening run — record the peg here |
 | Nekobushi | Nekobushi | 153 | OPEN | No. 153 build | opening run — record the peg here |
 | Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153 | OPEN | No. 153 build | opening run — record the peg here |
+| Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155 | OPEN | No. 155 build | opening run — record the peg here |
+| Menya Saku | Menya Saku | 155 | OPEN | No. 155 build | opening run — record the peg here |

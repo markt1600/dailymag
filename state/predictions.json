@@ -13,7 +13,9 @@
    "desk": "Travel",
    "claim": "Japan replaces its instant point-of-sale tax exemption with the refund-at-departure system on 1 Nov 2026 as scheduled",
    "check_by": "2026-11-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Switch went ahead 1 Nov 2026: instant point-of-sale exemption replaced by refund-at-departure.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 56,
@@ -132,7 +134,9 @@
    "desk": "The Travel Desk",
    "claim": "Japan replaces instant point-of-sale tax exemption with refund-at-departure on 1 Nov 2026 as scheduled",
    "check_by": "2026-11-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Same: effective 1 Nov 2026, confirmed on the national tourism body's own guidance.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 66,
@@ -181,7 +185,9 @@
    "desk": "The Travel Desk",
    "claim": "Japan replaces instant point-of-sale tax exemption with refund-at-departure on 1 Nov 2026 as scheduled",
    "check_by": "2026-11-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Same — 1 Nov 2026, pay tax-inclusive at the till, claim at customs before check-in.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 74,
@@ -272,15 +278,18 @@
    "desk": "The Travel Desk",
    "claim": "Japan's tax-free shopping switches to a refund-at-departure model on 1 Nov 2026 as scheduled",
    "check_by": "2026-11-05",
-   "outcome": null,
-   "result": null
+   "outcome": "right",
+   "result": "Same — 1 Nov 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 80,
    "desk": "The Travel Desk",
    "claim": "JR Pass rises 1 Oct 2026 (7-day ordinary to ¥53,000) and Japan's tax-free shopping switches to refund-at-departure on 1 Nov 2026 as reported",
    "check_by": "2026-11-02",
-   "outcome": null
+   "outcome": "right",
+   "result": "Both limbs: 7-day ordinary JR Pass Y50,000->Y53,000 from 1 Oct 2026; tax-free switch 1 Nov 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 80,
@@ -307,13 +316,19 @@
    "issue": 86,
    "desk": "The Macro Desk",
    "claim": "Warsh's hawkish tilt holds — a rate HIKE (to 3.75-4.00%) is delivered by/at the October FOMC, not a cut",
-   "check_by": "2026-11-01"
+   "check_by": "2026-11-01",
+   "outcome": "right",
+   "result": "Hike to 3.75-4.00% delivered 16 Sep 2026 (12-0); the 28 Oct FOMC held there 10-2 with both dissents for a further rise. No cut.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 86,
    "desk": "The Travel Desk",
    "claim": "The JB-Singapore RTS Link announces a firm public opening date (beyond the 'end-2026 target') within ~8 weeks",
-   "check_by": "2026-11-01"
+   "check_by": "2026-11-01",
+   "outcome": "push",
+   "result": "RTSO and the grantors said on 2 Oct 2026 that service is \"expected to commence in February 2027\" — inside the window, but a target month, not a firm opening date.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 87,
@@ -437,7 +452,9 @@
    "desk": "World",
    "claim": "Brent fades toward the EIA's ~$90 H2-2026 path if either chokepoint reopens (war premium is reversible)",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "push",
+   "result": "Antecedent never fired — Hormuz did not reopen. Brent (EIA spot) $120.15 on 30 Oct, $107.03 on 3 Nov against the ~$90 path. Conditional untested.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 102,
@@ -927,14 +944,20 @@
    "desk": "The Home Lab",
    "claim": "The 512GB M5 Ultra Mac Studio ships by 31 October as stated",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "The 512GB M5 Ultra Mac Studio became orderable 28 Oct 2026 at $22,299 with Apple quoting 7-8 weeks. Nothing shipped by 31 Oct.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 110,
    "desk": "The Diary",
    "claim": "Post Malone's postponed Singapore date gets no new date announced by 31 October",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "No new date: postmalone.com/tour lists zero dates.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 110,
@@ -962,7 +985,10 @@
    "desk": "The Macro Desk",
    "claim": "No exchange, agency or major outlet publishes an explanation for the September dated-Brent dislocation by end-October",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "push",
+   "result": "No exchange or agency explanation of the September dated-Brent dislocation could be found, but the negative could not be established to a standard worth grading.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 111,
@@ -1018,7 +1044,10 @@
    "desk": "The Table",
    "claim": "A filed review of Yamamoto's Hamburg (not a preview) is published by 31 October",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Eatbook filed a full review of Yamamoto's Hamburg, 8.5/10, published 2 October 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 111,
@@ -1046,7 +1075,10 @@
    "desk": "The World",
    "claim": "Cumulative confirmed DRC Ebola cases reported by WHO or ECDC exceed 9,000 on or before 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "ECDC: DRC confirmed cases crossed 9,000 in the 14 Oct 2026 update (9,144 as of 13 Oct) and reached 10,274 by 29 Oct.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "112",
@@ -1067,7 +1099,10 @@
    "desk": "The Home Lab",
    "claim": "A ~3.0 bpw MiMo-V2.6-Flash GGUF (roughly 105-115 GiB) is published by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "AesSedai/MiMo-V2.6-Flash-MOPD-GGUF ships BPW3.0 at 108.2 GiB, inside the 105-115 band; repo created 29 Sep 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "112",
@@ -1137,7 +1172,10 @@
    "desk": "The World",
    "claim": "No joint statement, fact sheet or signed agreement from the 24 September Xi-Trump state visit is published on whitehouse.gov by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "whitehouse.gov published a fact sheet on the state visit on 25 September 2026 — the day after.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "113",
@@ -1249,7 +1287,10 @@
    "desk": "The World",
    "claim": "Ethiopian Airlines has still not resumed scheduled service to Mekelle, Axum or Shire by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "Ethiopian Airlines resumed Addis-Mekelle on 11 October 2026. Axum and Shire stayed down.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "114",
@@ -1410,7 +1451,10 @@
    "desk": "The Kit",
    "claim": "No independent measurement of the Ray-Ban Meta Gen 3's nine-hour battery claim is published by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "No measured test published by 31 Oct; Engadget on 24 Sep described the nine hours as a spec awaiting a full review.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "115",
@@ -1431,7 +1475,10 @@
    "desk": "The Diary",
    "claim": "Aro on Mohamed Sultan Road receives at least one published review from a named Singapore food outlet by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "No review found: Eatbook's own search returns no article on the venue; all coverage is pre-opening.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "115",
@@ -1487,7 +1534,10 @@
    "desk": "Technology",
    "claim": "OpenAI states publicly that inference for its most capable models has resumed by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "push",
+   "result": "OpenAI's status history shows only resolved degraded-performance incidents and no statement about inference resuming; openai.com/news 403'd, so the negative cannot be established.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "116",
@@ -1501,7 +1551,10 @@
    "desk": "The Home Lab",
    "claim": "llama.cpp PR #29500 (SYCL IQ3_S multi-column MMVQ) is merged by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "llama.cpp PR #29500 merged 7 October 2026, commit 78651c4.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "116",
@@ -1606,21 +1659,30 @@
    "desk": "The World",
    "claim": "Qatar-mediated talks produce a publicly announced US-Iran framework on the seven-day plan by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "No framework. By 1 Nov the seven-day plan had been cut to two days and nothing was agreed.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "117",
    "desk": "The World",
    "claim": "Myanmar's Tanintharyi flood death toll is confirmed above fifteen by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "push",
+   "result": "Readable figures top out well below fifteen and the one outlet reporting above forty returned HTTP 403 on every path. Cannot settle.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "117",
    "desk": "The World",
    "claim": "At least one of the five men arrested near RAF Fairford on 27 September is charged with a terrorism offence by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "wrong",
+   "result": "Nobody charged. All five were released on police bail on 28 September 2026 and no charge was reported through 31 Oct.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "117",
@@ -1641,7 +1703,10 @@
    "desk": "Singapore",
    "claim": "Kiprun half-marathon entrants are offered a refund or compensation by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Entrants were emailed a S$15 Decathlon e-gift card, reported in the 5 October 2026 update.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "117",
@@ -2012,7 +2077,10 @@
    "desk": "Technology",
    "claim": "llama.cpp PR #29500 is merged by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Same — merged 7 October 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "118",
@@ -2026,7 +2094,10 @@
    "desk": "The Kit",
    "claim": "A Singapore price for the Nothing Headphone (1) Pro is published by 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "open",
+   "outcome": "right",
+   "result": "Singapore price published: S$549 on Nothing's Singapore store.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "118",
@@ -2462,7 +2533,9 @@
    "desk": "Singapore",
    "claim": "Singapore's 24-hour PSI returns below 100 in all five regions before 1 November 2026",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "28 October 2026: 24-hour PSI maxima of 79/79/79/74/68 — all five regions below 100.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 125,
@@ -2543,7 +2616,9 @@
    "desk": "Technology",
    "claim": "Samsung's full Q3 report puts the mobile/finished-products division's operating loss nearer the ~2tn-won estimate than the ~19tn-won one",
    "check_by": "2026-11-07",
-   "outcome": null
+   "outcome": "right",
+   "result": "Samsung's mobile/finished-products division posted an operating LOSS of KRW 0.6tn in 3Q26 — far nearer the ~2tn estimate than the ~19tn one.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 127,
@@ -2572,7 +2647,9 @@
    "desk": "Macro",
    "claim": "Regime call: tightening holds - the ACM 10-year term premium stays above 0.90 through October while the 10-year real yield stays above 2.70%",
    "check_by": "2026-11-02",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Half the call held. The ACM 10yr term premium never fell below 0.9089, but the 10yr TIPS real yield broke 2.70% on 22 Oct and closed October at 2.60%.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 127,
@@ -2608,7 +2685,9 @@
    "desk": "Singapore",
    "claim": "At least one region's 24-hour PSI exceeds 200 before 1 November 2026, triggering the free-mask and shelter measures the task force described",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "18 October 2026: west 24-hour PSI 230, above 200.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 128,
@@ -2638,14 +2717,18 @@
    "desk": "Technology",
    "claim": "Mistral publishes the Large 4 weights before 1 November 2026, as its 6 October post committed",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "mistralai/Mistral-Large-4-1T-A52B initial-release commit 29 October 2026 — three days inside the deadline.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 128,
    "desk": "Technology",
    "claim": "Samsung's 29 October results call publishes a segment breakdown of its third-quarter operating profit",
    "check_by": "2026-11-02",
-   "outcome": null
+   "outcome": "right",
+   "result": "Full segment breakdown published: total operating profit KRW 107.4tn on revenue 195.3tn, with DS 106.5tn and MX/NW -0.6tn.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 128,
@@ -2697,14 +2780,18 @@
    "desk": "The Macro Desk",
    "claim": "The ACM 10-year term premium is below 0.98 at the end of October 2026",
    "check_by": "2026-11-02",
-   "outcome": null
+   "outcome": "right",
+   "result": "ACM 10-year term premium 0.9089 on 30 October 2026 — below 0.98.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 128,
    "desk": "The Macro Desk",
    "claim": "The real-yield share of gold's weekly move returns above 70 per cent in at least one of the next three fully published weekly windows",
    "check_by": "2026-11-02",
-   "outcome": null
+   "outcome": "push",
+   "result": "The statistic is this ledger's own regression decomposition and is published nowhere; it cannot be scored without the model spec. Retiring the claim form.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 128,
@@ -2943,7 +3030,9 @@
    "desk": "Technology",
    "claim": "Mistral releases the Large 4 open weights before 1 November 2026, as its own announcement promised",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "Same — open weights 29 October 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 130,
@@ -3243,7 +3332,9 @@
    "desk": "The Macro Desk",
    "claim": "The Federal Reserve raises rates at its October 2026 meeting",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The Fed did NOT raise on 28 Oct 2026. It held at 3.75-4.00%, 10-2.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 133,
@@ -3568,7 +3659,9 @@
    "desk": "The Travel Desk",
    "claim": "Air New Zealand's SIN-CHC non-stop operates from 28 October 2026 as scheduled",
    "check_by": "2026-11-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Air New Zealand's own release of 28 October 2026 confirms the first non-stop Singapore service departed Christchurch.",
+   "graded": "2026-11-07"
   },
   {
    "issue": "135",
@@ -4522,21 +4615,27 @@
    "desk": "The World",
    "claim": "Israel's counted result is certified by 4 November 2026 and neither bloc holds 61 seats without an Arab party",
    "check_by": "2026-11-04",
-   "outcome": null
+   "outcome": "right",
+   "result": "Certified results delivered to Herzog on 4 November 2026: Netanyahu bloc 53, opposition 48, Arab parties 19 — neither bloc reaches 61 without an Arab party.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 146,
    "desk": "The World",
    "claim": "The double-envelope count completes no earlier than Thursday 29 October 2026",
    "check_by": "2026-11-01",
-   "outcome": null
+   "outcome": "right",
+   "result": "The count, double envelopes included, completed Thursday 29 October 2026; turnout 77.7%.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 146,
    "desk": "The World",
    "claim": "Israel's West Bank crossings are confirmed reopened by 2 November 2026",
    "check_by": "2026-11-02",
-   "outcome": null
+   "outcome": "push",
+   "result": "Could not establish: gov.il 403'd and president.gov.il 307'd; no confirmation either way of a West Bank crossing reopening by 2 Nov 2026.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 146,
@@ -4585,7 +4684,9 @@
    "desk": "Screen & Sound",
    "claim": "Klara and the Sun drops more than 60 per cent in its second domestic weekend",
    "check_by": "2026-11-03",
-   "outcome": null
+   "outcome": "right",
+   "result": "Klara and the Sun fell 77.5% in its second weekend ($701,059 to $157,555) — well past 60.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 146,
@@ -4656,7 +4757,9 @@
    "desk": "The World",
    "claim": "Israel's certified result on 4 November leaves both blocs short of 61 seats",
    "check_by": "2026-11-05",
-   "outcome": null
+   "outcome": "right",
+   "result": "Certified 4 Nov: 53 and 48, both blocs short of 61.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 147,
@@ -4950,7 +5053,9 @@
    "desk": "The World",
    "claim": "Binance publishes its 1 November proof-of-reserves snapshot and the full cryptographic report by 2 November, and reported ETH backing returns to 100 per cent or above",
    "check_by": "2026-11-06",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Binance published no November proof-of-reserves report; its reserves page still shows a blank audit time and its November notices run to \"Recovery Update #9\".",
+   "graded": "2026-11-07"
   },
   {
    "issue": 150,
@@ -5048,7 +5153,9 @@
    "desk": "The World",
    "claim": "Iran partially reopens the Strait of Hormuz within two days of Araghchi's 1 Nov statement",
    "check_by": "2026-11-05",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No reopening. Six days on the strait is shut, the Qatari channel stalled, and the IRGC Navy reported two tankers struck mines.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 151,
@@ -5125,7 +5232,9 @@
    "desk": "Screen & Sound",
    "claim": "Monday actuals confirm You Can See Everything as the weekend No. 1 over Clayface",
    "check_by": "2026-11-04",
-   "outcome": null
+   "outcome": "right",
+   "result": "You Can See Everything $11,445,629 against Clayface $11,002,116 — No. 1 by $443,513.",
+   "graded": "2026-11-07"
   },
   {
    "issue": 151,
@@ -5573,6 +5682,188 @@
    "desk": "The Rabbit Hole",
    "claim": "CARIS publishes a second season of contact-obstacle data covering 2026",
    "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The World",
+   "claim": "Herzog names Eisenkot as prime minister-designate on 8 November 2026",
+   "check_by": "2026-11-09",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The World",
+   "claim": "The nominee forms a government within the 28-day mandate without a 14-day extension",
+   "check_by": "2026-12-07",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The World",
+   "claim": "Turkey's ratification law for the Mecca pact is promulgated in the Resmi Gazete by 30 November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The World",
+   "claim": "Syria formally accedes to the Mecca Joint Defence Agreement by 31 March 2027",
+   "check_by": "2027-03-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Singapore",
+   "claim": "Chen Xiuling faces an additional charge that attaches to the restrained Prince Group assets by 31 January 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Singapore",
+   "claim": "M1 or Doctor Anywhere discloses the number of customers affected by 30 November 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Atelier",
+   "claim": "No maker of Panama hats publishes a counted weaves-per-square-inch figure for a retail hat by 30 April 2027",
+   "check_by": "2027-04-30",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Technology",
+   "claim": "Qualcomm's QCT EBT margin for Q1 FY27 comes in inside the guided 20-22% range",
+   "check_by": "2027-02-15",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Technology",
+   "claim": "Qualcomm reports data-centre revenue of at least $650m for the December 2026 quarter",
+   "check_by": "2027-02-15",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Home Lab",
+   "claim": "Samsung extends the 15 December 2026 SmartThings cut-off or makes the Developer Plan available in markets where it is not currently sold",
+   "check_by": "2026-12-16",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Kit",
+   "claim": "An independent measured comparison of the Nothing Headphone (1) Pro against the Bose QuietComfort 2nd Gen on one rig is published by 31 January 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Good Life",
+   "claim": "Phillips lot 95, the steel Patek 1436, sells at or above its CHF 2m low estimate on 7 November 2026",
+   "check_by": "2026-11-09",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Screen & Sound",
+   "claim": "Godzilla Minus Zero passes 10 billion yen in Japan",
+   "check_by": "2027-03-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Screen & Sound",
+   "claim": "Godzilla Minus Zero tops the US domestic weekend of 6-8 November 2026",
+   "check_by": "2026-11-10",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Macro Desk",
+   "claim": "The US 10-year real yield is above 2.63% at the end of November 2026",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Macro Desk",
+   "claim": "The Federal Reserve holds at 3.75-4.00% at its December 2026 meeting",
+   "check_by": "2026-12-20",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Macro Desk",
+   "claim": "Brent closes above $97.93 at the end of November 2026",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "Fitness",
+   "claim": "No systematic review of blood-flow-restriction training published by 30 June 2027 reports limb position at occlusion-pressure measurement",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Travel Desk",
+   "claim": "Angkor's full-year 2026 foreign ticket-holders come in below 700,000",
+   "check_by": "2027-02-28",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Travel Desk",
+   "claim": "Singapore Airlines' new First and Business cabins do not enter service in 2027",
+   "check_by": "2027-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Travel Desk",
+   "claim": "The FCDO's 20km Thai-border advisory for Cambodia is still in force on 31 March 2027",
+   "check_by": "2027-03-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Diary",
+   "claim": "Singapore Grand Prix 2027 mid-tier grandstands sell out within 48 hours of the 11 November general sale",
+   "check_by": "2026-11-14",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Table",
+   "claim": "A filed review (not an opening report) of HANDO is published by a named Singapore food outlet by 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Long Read",
+   "claim": "Japan's health ministry adds further ingredients to the OTC-analogue list at the next drug-price revision",
+   "check_by": "2027-04-30",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Long Read",
+   "claim": "The special charge begins on 1 March 2027 as gazetted, without deferral",
+   "check_by": "2027-03-02",
+   "outcome": null
+  },
+  {
+   "issue": 155,
+   "desk": "The Long Read",
+   "claim": "Japan raises the special charge above one quarter of drug cost by 31 March 2028",
+   "check_by": "2028-03-31",
    "outcome": null
   }
  ]

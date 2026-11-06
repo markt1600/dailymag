@@ -1,51 +1,71 @@
 {
  "publication": "MERIDIAN",
- "issue": 154,
- "date": "5 November 2026",
- "generated": "2026-11-05T06:07:51+08:00",
+ "issue": 155,
+ "date": "7 November 2026",
+ "generated": "2026-11-07T06:21:28+08:00",
  "quote": {
-  "text": "There is nothing more deceptive than an obvious fact.",
-  "author": "Sherlock Holmes, in Arthur Conan Doyle’s The Boscombe Valley Mystery, 1891"
+  "text": "Attention is the rarest and purest form of generosity.",
+  "author": "Simone Weil, letter to the poet Joë Bousquet, 13 April 1942"
  },
  "macro": null,
  "stories": [
   {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · The Steel Patek 1436",
+   "headline": "Phillips offers a steel Patek Philippe 1436 in Geneva today",
+   "dek": "The estimate is two to four million Swiss francs, for one of only two known in this configuration: 33 millimetres, made in 1945, sold in New York on 11 May 1949.",
+   "anchor": "p10",
+   "featured": true
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "The Invitation",
+   "category": "Hobby",
+   "kicker": "The Invitation · Origami",
+   "headline": "Akira Yoshizawa’s 1954 notation turned origami from a children’s craft into a discipline",
+   "dek": "The subreddit has about 126,000 members, up 13.8 per cent in a year; Japan’s technical convention caps at 400; a Korean festival drew 30,000 in six days.",
+   "anchor": "p15",
+   "featured": true
+  },
+  {
+   "desk": "The Travel Desk",
+   "sub": "Departures",
+   "category": "Travel",
+   "kicker": "Departures · Japan’s Tax-Free Refund",
+   "headline": "Shops in Japan no longer sell tax-free; the refund now happens at the airport",
+   "dek": "In force across Japan since 1 November: pay the full price at the till, carry the goods unchecked to a customs terminal, and complete it within 90 days of purchase.",
+   "anchor": "p19",
+   "featured": true
+  },
+  {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · Indonesia & Its Police",
-   "headline": "Prabowo sacks chief of staff Listyo Sigit, arrested over wiretapping the president",
-   "dek": "Police seized eleven phones, an iPad and four flash drives, and questioned ten witnesses. A day later the army moved more than 20,000 soldiers into Jakarta.",
+   "kicker": "The World · Israel & The Mandate",
+   "headline": "Herzog names a prime minister on Sunday after 67 members back Gadi Eisenkot",
+   "dek": "Netanyahu got 46. But 19 of the 67 are Arab-led members both men refuse to govern with, which leaves Eisenkot on 48 of 120 — thirteen short.",
    "anchor": "p3",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Haze Bill",
-   "headline": "Singapore’s Parliament raises the maximum haze fine tenfold to twenty million dollars",
-   "dek": "Grace Fu took the bill through all three readings in one sitting under a Certificate of Urgency. In twelve years the original Act has produced no prosecution.",
+   "kicker": "Singapore · The Prince Group Money",
+   "headline": "Police arrest Karen Chen at Changi over Prince Group; S$700m now restrained",
+   "dek": "Chen Xiuling, 44, was charged on Friday over a false agreement filed with JTC Corporation in September 2022 — a paperwork charge carrying ten years.",
    "anchor": "p5",
-   "featured": true
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Undercurrent",
-   "category": "Essay",
-   "kicker": "Checkout Credit · Uzbekistan’s Nasiya Boom",
-   "headline": "Mirziyoyev signs PP-294 after Uzbekistan’s central bank measured credit at 66.5 per cent",
-   "dek": "Presidential resolution PP-294, signed on 14 August, drags instalment operators into a register from 1 January 2027. Household bank debt reached 243.6 trillion soum on 1 September.",
-   "anchor": "p21",
-   "featured": true
+   "featured": false
   },
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Oil Lamps & Lanterns",
-   "headline": "Feuerhand and Dietz lanterns make the same seven candlepower at twice the price",
-   "dek": "W.T. Kirkman’s own catalogue rates both at 7 candlepower on a half-inch wick. The extra $21 buys galvanised steel, a Schott globe and nine more hours.",
+   "kicker": "The Atelier · Straw & Felt Hats",
+   "headline": "The X rating on a Stetson has no standard, and Hatco says so itself",
+   "dek": "Stetson’s own store prices a 1000X at $5,600 and a 10X at $600 and states beaver content for neither. Lock sells a Superfino Montecristi at £1,895.",
    "anchor": "p6",
    "featured": false
   },
@@ -53,9 +73,9 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · AMD’s Record Quarter",
-   "headline": "Lisa Su reports a record $13.4bn quarter at AMD and guides to $17bn",
-   "dek": "Lisa Su told analysts on 3 November that revenue should grow more than 80 per cent in 2027, with server revenue doubling; data-centre sales nearly doubled to $8.5bn.",
+   "kicker": "Technology · Qualcomm’s Fourth Quarter",
+   "headline": "Qualcomm’s handset revenue fell 26 per cent; Amazon warrants cover $60bn of purchases",
+   "dek": "Chips for phones brought in $5.14bn against $6.96bn a year earlier, and Qualcomm is raising prices across the range, blaming wafer, packaging and memory costs.",
    "anchor": "p7",
    "featured": false
   },
@@ -63,29 +83,19 @@
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Dell’s Googlebook",
-   "headline": "Engadget scores Dell’s $999 Googlebook 6.5 and recommends the Windows version",
-   "dek": "Devindra Hardawar measured 15 hours 15 minutes of battery on 2 November, and found one app draining half the charge while idle in the background.",
+   "kicker": "The Kit · Nothing Headphone (1) Pro",
+   "headline": "Nothing’s Headphone (1) Pro reaches Singapore at S$549, as a pre-order",
+   "dek": "SoundGuys measured 87.4 per cent total attenuation but placed the sound quality in the bottom quarter of the over-ears it has tested. TechRadar gave the Pro three stars out of five.",
    "anchor": "p9",
-   "featured": false
-  },
-  {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · Audio-Technica’s Wooden Flagship",
-   "headline": "Audio-Technica prices its Kiso-cypress flagship headphone at 3,799 US dollars",
-   "dek": "It debuted at the Paris Audio Video Show on 23 October and now sits above the firm’s own open-backed model at $3,499 — the sealed one is the dearer.",
-   "anchor": "p10",
    "featured": false
   },
   {
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · The Black Parade At Twenty",
-   "headline": "My Chemical Romance tops the Billboard 200 twenty years after The Black Parade",
-   "dek": "Luminate counted 78,000 equivalent album units on the Billboard chart dated 7 November, up 653 per cent, as the reissue jumped from No. 139 to No. 1.",
+   "kicker": "Screen & Sound · Godzilla Minus Zero",
+   "headline": "Godzilla Minus Zero takes ¥910m on its Japanese opening day, a live-action record",
+   "dek": "Kogyo Tsushinsha counted 590,000 admissions on Tuesday 3 November, which was Culture Day. Singapore saw the film on 5 November, a day before the United States.",
    "anchor": "p11",
    "featured": false
   },
@@ -93,9 +103,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The Ten O’Clock Line",
-   "headline": "JAMA Pediatrics links late-night phone use to twenty minutes less teenage sleep",
-   "dek": "The study tracked 425 adolescents of mean age 14.8 across 7,591 nights of Fitbit sleep and phone-logged use, and reports confidence intervals throughout.",
+   "kicker": "The Family Desk · Screen Rules At Thirteen",
+   "headline": "Strict screen rules buy 56 minutes a day in Oregon’s 8,089-child analysis",
+   "dek": "The Oregon team found the advantage decays by about 13 minutes for every year the child ages, interval 7.9 to 18.2. Mean age across the waves analysed: 13.",
    "anchor": "p12",
    "featured": false
   },
@@ -103,29 +113,19 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The War Premium Deflating",
-   "headline": "Democrats win both chambers, and traders cut Brent eight per cent to $95",
-   "dek": "Brent settled near $95.06 on 4 November after $113.39 on 30 October , sixteen per cent off in three sessions, while gold rose 3.4 per cent and the US ten-year fell five basis points.",
+   "kicker": "The Macro Desk · The AI De-Rating",
+   "headline": "Nasdaq fell 5.5 per cent on Thursday as Nvidia shed $440bn of market value",
+   "dek": "Brent fell 16.8 per cent in five sessions to $97.93, and the Bank of England raised Bank Rate to 4 per cent in the same week, 8 votes to 1.",
    "anchor": "p14",
-   "featured": false
-  },
-  {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "The Invitation · Competitive Dog Agility",
-   "headline": "Elsa Soo of Singapore, aged 60, finished fifth in the world at Turku",
-   "dek": "The Singapore Kennel Club has run 79 trials under international rules and 215 under its own. One May trial produced three qualifying rounds out of thirty-one.",
-   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Antioxidant That Backfired",
-   "headline": "Copenhagen’s Fabian Finger finds an antioxidant worsened muscle loss in mice",
-   "dek": "Fabian Finger’s Nature Aging paper of 29 September restored one mitochondrial fat from 27 to 67 per cent of normal and reversed the wasting.",
+   "kicker": "Fitness · Blood-Flow Restriction Training",
+   "headline": "A 27-trial review in Biological Research for Nursing finds cuff training raises blood pressure",
+   "dek": "In adults over 60 the mean difference against no exercise was 5.30 mmHg systolic, interval 0.48 to 10.12. A BMC Geriatrics umbrella review is blunter still.",
    "anchor": "p18",
    "featured": false
   },
@@ -133,10 +133,20 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · A Second Night Added",
-   "headline": "Kenshi Yonezu adds a second Singapore night on 30 January",
-   "dek": "The extra date went up on 22 October, and Singapore is the GHOST tour’s only South-East Asian stop. In Tokyo, a centenary Orsay show opens 14 November with every visitor under 18 free.",
-   "anchor": "p19",
+   "kicker": "The Diary · The Formula One Deadline",
+   "headline": "Singapore Grand Prix tickets go on general sale at 10am on Wednesday 11 November",
+   "dek": "Raffles Grandstand at S$1,268, the Paddock Club and the Sky Suite have already sold out. In Tokyo, four major exhibitions admit a twelve-year-old free.",
+   "anchor": "p23",
+   "featured": false
+  },
+  {
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Undercurrent · Japan’s Part-Insured Medicine",
+   "headline": "From 1 March Japan surcharges 1,042 medicines, and one ministerial order widens the list",
+   "dek": "Seventy-seven ingredients, from hay-fever tablets to purified water, honey and white petrolatum. The whole measure raises ¥90bn for Tokyo — 0.18 per cent of national medical spending.",
+   "anchor": "p25",
    "featured": false
   }
  ]
