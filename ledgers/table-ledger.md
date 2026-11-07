@@ -242,3 +242,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153 | OPEN | No. 153 build | opening run — record the peg here |
 | Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155 | OPEN | No. 155 build | opening run — record the peg here |
 | Menya Saku | Menya Saku | 155 | OPEN | No. 155 build | opening run — record the peg here |
+| HanBroth | HanBroth | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| The Hokkien Mee Club | The Hokkien Mee Club | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| ODD Ramen & Diner | ODD Ramen & Diner | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| Greenwood Fish Market | Greenwood Fish Market | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| Earworm | Earworm | 156 | OPEN | No. 156 build | opening run — record the peg here |

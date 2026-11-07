@@ -2152,9 +2152,59 @@
       "status": "OPEN",
       "checked": "No. 155 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "HanBroth",
+      "key": "HanBroth",
+      "runs": [
+        156
+      ],
+      "status": "OPEN",
+      "checked": "No. 156 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "The Hokkien Mee Club",
+      "key": "The Hokkien Mee Club",
+      "runs": [
+        156
+      ],
+      "status": "OPEN",
+      "checked": "No. 156 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "ODD Ramen & Diner",
+      "key": "ODD Ramen & Diner",
+      "runs": [
+        156
+      ],
+      "status": "OPEN",
+      "checked": "No. 156 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Greenwood Fish Market",
+      "key": "Greenwood Fish Market",
+      "runs": [
+        156
+      ],
+      "status": "OPEN",
+      "checked": "No. 156 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Earworm",
+      "key": "Earworm",
+      "runs": [
+        156
+      ],
+      "status": "OPEN",
+      "checked": "No. 156 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 156,
+  "barred_for_issue": 157,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2270,8 +2320,6 @@
     "Ng Kuan Chilli Pan Mee",
     "OVER",
     "HANDO",
-    "Nook Coffee",
-    "Yee3",
     "Terumbu by Orang Laut SG",
     "Sakana Hikaru",
     "Tan Ser Seng Herbal Soup",
@@ -2283,6 +2331,11 @@
     "Nekobushi",
     "Woodsmen by Cut Butchery",
     "Warmhouse Nasi Lemak",
-    "Menya Saku"
+    "Menya Saku",
+    "HanBroth",
+    "The Hokkien Mee Club",
+    "ODD Ramen & Diner",
+    "Greenwood Fish Market",
+    "Earworm"
   ]
 }
