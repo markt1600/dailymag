@@ -1443,9 +1443,10 @@
       "venue": "Accompany Coffee",
       "key": "Accompany Coffee",
       "runs": [
-        128
+        128,
+        157
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 128 build",
       "note": "opening run — record the peg here"
     },
@@ -1453,9 +1454,10 @@
       "venue": "Din Tai Fung",
       "key": "Din Tai Fung",
       "runs": [
-        128
+        128,
+        157
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 128 build",
       "note": "opening run — record the peg here"
     },
@@ -2027,9 +2029,10 @@
       "venue": "Yee3",
       "key": "Yee3",
       "runs": [
-        150
+        150,
+        157
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 150 build",
       "note": "opening run — record the peg here"
     },
@@ -2202,9 +2205,39 @@
       "status": "OPEN",
       "checked": "No. 156 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "JJAN",
+      "key": "JJAN",
+      "runs": [
+        157
+      ],
+      "status": "OPEN",
+      "checked": "No. 157 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "HI BOWL",
+      "key": "HI BOWL",
+      "runs": [
+        157
+      ],
+      "status": "OPEN",
+      "checked": "No. 157 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Three Bowls",
+      "key": "Three Bowls",
+      "runs": [
+        157
+      ],
+      "status": "OPEN",
+      "checked": "No. 157 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 157,
+  "barred_for_issue": 158,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2296,6 +2329,8 @@
     "O/SIO",
     "Blue Label Tavern",
     "Base Gelato",
+    "Accompany Coffee",
+    "Din Tai Fung",
     "Pull by TPG",
     "Soft Order",
     "Spicy Hubby",
@@ -2320,12 +2355,7 @@
     "Ng Kuan Chilli Pan Mee",
     "OVER",
     "HANDO",
-    "Terumbu by Orang Laut SG",
-    "Sakana Hikaru",
-    "Tan Ser Seng Herbal Soup",
-    "Terumbu",
-    "Sushiro",
-    "PS.Cafe Harding",
+    "Yee3",
     "SHAO",
     "Mr. CHEESECAKE",
     "Nekobushi",
@@ -2336,6 +2366,9 @@
     "The Hokkien Mee Club",
     "ODD Ramen & Diner",
     "Greenwood Fish Market",
-    "Earworm"
+    "Earworm",
+    "JJAN",
+    "HI BOWL",
+    "Three Bowls"
   ]
 }

@@ -173,8 +173,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | O/SIO | O/SIO | 127, 141 | SPENT | No. 127 build | opening run — record the peg here |
 | Blue Label Tavern | Blue Label Tavern | 128, 140 | SPENT | No. 128 build | opening run — record the peg here |
 | Base Gelato | Base Gelato | 128, 141 | SPENT | No. 128 build | opening run — record the peg here |
-| Accompany Coffee | Accompany Coffee | 128 | OPEN | No. 128 build | opening run — record the peg here |
-| Din Tai Fung | Din Tai Fung | 128 | OPEN | No. 128 build | opening run — record the peg here |
+| Accompany Coffee | Accompany Coffee | 128, 157 | SPENT | No. 128 build | opening run — record the peg here |
+| Din Tai Fung | Din Tai Fung | 128, 157 | SPENT | No. 128 build | opening run — record the peg here |
 | Pull by TPG | Pull by TPG | 128, 147 | SPENT | No. 128 build | opening run — record the peg here |
 | Sophia | Sophia | 129 | OPEN | No. 129 build | opening run — record the peg here |
 | Vincenzo Capuano | Vincenzo Capuano | 129 | OPEN | No. 129 build | opening run — record the peg here |
@@ -229,7 +229,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Casa Mori | Casa Mori | 148 | OPEN | No. 148 build | opening run — record the peg here |
 | HANDO | HANDO | 148, 155 | SPENT | No. 148 build | opening run — record the peg here |
 | Nook Coffee | Nook Coffee | 150 | OPEN | No. 150 build | opening run — record the peg here |
-| Yee3 | Yee3 | 150 | OPEN | No. 150 build | opening run — record the peg here |
+| Yee3 | Yee3 | 150, 157 | SPENT | No. 150 build | opening run — record the peg here |
 | Terumbu by Orang Laut SG | Terumbu by Orang Laut SG | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | Sakana Hikaru | Sakana Hikaru | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | Tan Ser Seng Herbal Soup | Tan Ser Seng Herbal Soup | 151 | OPEN | No. 151 build | opening run — record the peg here |
@@ -247,3 +247,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | ODD Ramen & Diner | ODD Ramen & Diner | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | Greenwood Fish Market | Greenwood Fish Market | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | Earworm | Earworm | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| JJAN | JJAN | 157 | OPEN | No. 157 build | opening run — record the peg here |
+| HI BOWL | HI BOWL | 157 | OPEN | No. 157 build | opening run — record the peg here |
+| Three Bowls | Three Bowls | 157 | OPEN | No. 157 build | opening run — record the peg here |

@@ -1,6 +1,12 @@
 {
   "covered": [
     {
+      "issue": "157",
+      "country": "China",
+      "subject": "<b>&#28459;&#21095;</b> (<i>m&agrave;nj&ugrave;</i>, &ldquo;comic-drama&rdquo;; the trade gloss is &ldquo;visualised novel&rdquo;) &mdash; the AI-generated vertical animated serial. 221,900 new titles on one app in H1 2026, over 1,200 episodes a day; revenue per 10,000 plays fell from RMB 30&ndash;100 to RMB 5&ndash;10 while cost per minute fell 60&ndash;90%, and one practitioner&rsquo;s eleven series earned RMB 9.6 in total. The argument: the AI productivity gain never reaches the producer, because ByteDance owns the fiction, the model, the traffic and the payout formula &mdash; whose <i>coefficient</i> is unpublished and changeable after the work is made.",
+      "key": "&#28459;&#21095;"
+    },
+    {
       "issue": "154.5",
       "country": "Taiwan",
       "subject": "<b>&#33274;&#28771;&#37849;&#32178;</b> (<i>Taiwan lianwang</i>, &ldquo;Taiwan Mesh Network&rdquo;) &mdash; the volunteer Meshtastic community that ran its own emergency-communications drill inside the state&rsquo;s 13 August 2026 deliberate thirty-minute mobile outage, put a relay on Taipei 101, and then published a post-mortem finding the default architecture collapses under load: 250 loaded nodes, channel utilisation 31.4&ndash;37.67% against pure ALOHA&rsquo;s 18.4% ceiling, 31.99% bad packets. Founded as a Facebook group 26 Feb 2024 with ~50 members; close to 20,000 and ~80% island coverage by mid-2026.",
@@ -500,6 +506,7 @@
     }
   ],
   "keys": [
+    "&#28459;&#21095;",
     "&#33274;&#28771;&#37849;&#32178;",
     "nasiya",
     "&#3610;&#3633;&#3597;&#3594;&#3637;&#3617;&#3657;&#3634;",
