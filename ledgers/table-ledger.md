@@ -250,3 +250,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | JJAN | JJAN | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | HI BOWL | HI BOWL | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | Three Bowls | Three Bowls | 157 | OPEN | No. 157 build | opening run — record the peg here |
+| Cranki Patisserie | Cranki Patisserie | 158 | OPEN | No. 158 build | opening run — record the peg here |
+| Casa Osteria | Casa Osteria | 158 | OPEN | No. 158 build | opening run — record the peg here |
+| AhMah’s Legacy | AhMah’s Legacy | 158 | OPEN | No. 158 build | opening run — record the peg here |

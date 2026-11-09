@@ -1,61 +1,78 @@
 {
  "publication": "MERIDIAN",
- "issue": 157,
- "date": "9 November 2026",
- "generated": "2026-11-09T06:18:03+08:00",
+ "issue": 158,
+ "date": "10 November 2026",
+ "generated": "2026-11-10T07:03:01+08:00",
  "quote": {
-  "text": "he who wisheth one day to fly, must first learn standing and walking and running and climbing and dancing:—one doth not fly into flying!",
-  "author": "Friedrich Nietzsche, Thus Spake Zarathustra, Third Part, “The Spirit of Gravity”, trans. Thomas Common"
+  "text": "The tradition of all dead generations weighs like a nightmare on the brains of the living.",
+  "author": "Karl Marx, The Eighteenth Brumaire of Louis Bonaparte, 1852, Chapter I"
  },
- "macro": null,
+ "macro": {
+  "title": "What It Means For VWRA, Global Bonds, Gold And Bitcoin",
+  "reads": [
+   {
+    "label": "World equities",
+    "text": "carry the adjustment, because 2.66 per cent is the highest real cost of capital this cycle has taken into a drawdown: down 2.97 per cent from the 4 November high, still 1.14 on the week."
+   },
+   {
+    "label": "Global bonds",
+    "text": "hedged, barely — insurance, not a position, and the week’s one reassuring number."
+   },
+   {
+    "label": "Gold",
+    "text": "prices the dollar and the haven, not the real yield: up 1.69 per cent as the dollar fell 0.61, yet still lower on the month, because a 2.66 real yield is punishing carry on an asset that pays nothing."
+   },
+   {
+    "label": "Bitcoin",
+    "text": "prices liquidity alone and fails the haven test outright."
+   }
+  ],
+  "note": "Explanation, not advice.",
+  "regime": [
+   "Higher-for-longer",
+   "Dollar softer",
+   "Leverage unwind"
+  ],
+  "anchor": "p14"
+ },
  "stories": [
   {
-   "desk": "The Good Life",
-   "sub": "Objects & Escapes",
-   "category": "Design",
-   "kicker": "The Good Life · The Geneva Watch Auction",
-   "headline": "Phillips closed Geneva XXIV on 8 November without publishing a total",
-   "dek": "So this desk counted every published lot result: CHF 91,922,250 across 211 lots, against the CHF 74.8m its May sale was called a record for.",
-   "anchor": "p10",
+   "desk": "The World",
+   "sub": "The Meridian Dispatch",
+   "category": "World",
+   "kicker": "The World · The Strait and the Mediator",
+   "headline": "Qatar’s prime minister carried Iran’s Hormuz proposal into the Oval Office",
+   "dek": "Sheikh Mohammed bin Abdulrahman Al Thani saw President Trump for about forty-five minutes on Monday, closed to press. Doha’s foreign ministry has posted nothing since 7 November; oil fell about five per cent anyway.",
+   "anchor": "p3",
+   "featured": true
+  },
+  {
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · The Board and the Founder",
+   "headline": "Nvidia’s board opened an independent investigation into its founder, Jensen Huang",
+   "dek": "A committee of independent directors will examine whether Huang was the target of a foreign intelligence effort. The shares closed down 4.27 per cent on Monday while every other big chip name rose.",
+   "anchor": "p7",
    "featured": true
   },
   {
    "desk": "The Rabbit Hole",
    "sub": "The Invitation",
    "category": "Hobby",
-   "kicker": "The Invitation · Ice Climbing",
-   "headline": "Petzl and C.A.M.P. both recalled ice axes as the climbing season opened",
-   "dek": "Petzl recalled 5,360 Nomic and Ergonomic axes in March after 26 shafts broke; C.A.M.P. recalled 2,230 more on 5 November. Nobody was hurt in either.",
+   "kicker": "The Invitation · HEMA & the Longsword",
+   "headline": "HEMA rebuilds European swordfighting out of the books its masters wrote",
+   "dek": "Wiktenauer’s free library holds 23,459 uploaded files; the global ladder lists 21,423 fencers and 418,696 recorded fights. Germany’s federation counts 4,135 people, against more than 23,000 Olympic fencers.",
    "anchor": "p15",
    "featured": true
-  },
-  {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "Departures · Singapore Airlines",
-   "headline": "Singapore Airlines cut business class six inches wide on the A350",
-   "dek": "The 2027 seat unveiled on 6 November is 22 inches across, against 28 on the 2013 one. Reviewers spent the weekend arguing about the yellow instead.",
-   "anchor": "p19",
-   "featured": true
-  },
-  {
-   "desk": "The World",
-   "sub": "The Meridian Dispatch",
-   "category": "World",
-   "kicker": "The World · Kraków",
-   "headline": "Michał O. killed six in Kraków’s market square",
-   "dek": "Three more bodies were found at his home in Ostrowiec Świętokrzyski, 150km away. Sixteen were wounded, and Donald Tusk declared two days of national mourning.",
-   "anchor": "p3",
-   "featured": false
   },
   {
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Punggol Trials",
-   "headline": "LTA ordered Grab to pause driverless testing at Punggol junctions",
-   "dek": "A Grab shuttle running WeRide software braked and veered as a schoolgirl crossed in Punggol at 8.11am on 5 November. Its safety operator then took the wheel.",
+   "kicker": "Singapore · The Punggol Handovers",
+   "headline": "LTA halted ComfortDelGro’s driverless U-turns at Punggol, a day after Grab’s",
+   "dek": "Two operators, two Punggol near-misses, about two hours apart on 5 November. In both, a human safety operator took the wheel — and at Edgedale Plains in January the authority found the takeover was what caused the crash.",
    "anchor": "p5",
    "featured": false
   },
@@ -63,30 +80,30 @@
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Pencils",
-   "headline": "Mitsubishi’s Hi-Uni is where a pencil stops getting better",
-   "dek": "It and Tombow’s MONO 100 cost US$20 a dozen. Blackwing, on the same Californian cedar, is US$34 — and does not win the blind test.",
+   "kicker": "Buy It Once · Secateurs & Garden Tools",
+   "headline": "Felco sells every part of the Felco 2, including the washer",
+   "dek": "The Swiss pruner costs CHF 76.90 and has more than twenty listed spare parts. A Yamagata forge will hand-make you a better-cutting one for ¥9,900 — and sell you nothing to repair it with.",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · The Affiliates Rule",
-   "headline": "Commerce extended its Affiliates Rule stay to 10 January 2027",
-   "dek": "The Bureau of Industry and Security published the extension on 9 November, the morning the rule was due to bite, and gave no reason for it.",
-   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · The MacBook Pro",
-   "headline": "Apple’s top 16-inch MacBook Pro now configures to $14,549",
-   "dek": "A 16-terabyte drive adds $7,000 and the jump to 128GB of memory adds $2,000. The same machine with 8TB cost $7,349 in March.",
+   "kicker": "The Kit · The Aura Price Cut",
+   "headline": "XREAL cut the Aura’s price and is refunding early buyers",
+   "dek": "The Android glasses now start at $1,099, down $180 from the price set on 7 October, and begin shipping in mid-November to four countries. Singapore is not one of them.",
    "anchor": "p9",
+   "featured": false
+  },
+  {
+   "desk": "The Good Life",
+   "sub": "Objects & Escapes",
+   "category": "Design",
+   "kicker": "The Good Life · The Halo and the Total",
+   "headline": "Horologer Ming opens orders for the CHF 10,900 Halo tonight",
+   "dek": "One hundred and fifty pieces, time only, in a titanium case heat-treated until its grain shows. Four days after a Geneva sale that finally published the total this desk had to add up itself.",
+   "anchor": "p10",
    "featured": false
   },
   {
@@ -94,8 +111,8 @@
    "sub": "Culture Desk",
    "category": "Culture",
    "kicker": "Screen & Sound · Godzilla Minus Zero",
-   "headline": "Godzilla Minus Zero opened to $31.6m and took the American No. 1",
-   "dek": "GKIDS set a company record, nearly tripling the $11.4m opening of Godzilla Minus One. Japan’s own weekend figure has still not been published.",
+   "headline": "Godzilla Minus Zero led both Japan and America at once",
+   "dek": "Takashi Yamazaki’s sequel opened to an estimated US$31.61m from 3,254 American screens and about 690,000 admissions at home — the first Japanese live-action film to lead both markets in the same weekend.",
    "anchor": "p11",
    "featured": false
   },
@@ -103,9 +120,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · The WHO Activity Report",
-   "headline": "A quarter of adolescents told the WHO of no active day in a week",
-   "dek": "A pooled analysis of 389 surveys and 3.2 million 11-to-17-year-olds, published 4 November, finds the figure has not moved since 2010.",
+   "kicker": "The Family Desk · Problem Use, Not Hours",
+   "headline": "A German study separates problem use from screen hours",
+   "dek": "Across 34,712 German schoolchildren, problematic social media use doubled from 5.3 to 11.1 per cent between 2018 and 2022 — and carries about four times the association with mental-health complaints that heavy online chatting does.",
    "anchor": "p12",
    "featured": false
   },
@@ -113,9 +130,9 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The War Premium",
-   "headline": "A falling Brent price, not growth fear, drove the week’s bond rally",
-   "dek": "The US ten-year yield fell 5bp on the week to 4.86 per cent while its real yield rose 1bp. The implied breakeven did all the work, collapsing from 2.29 to 2.23.",
+   "kicker": "The Macro Desk · The Breakeven Stops Working",
+   "headline": "Falling Brent stopped easing financial conditions once real yields rose",
+   "dek": "The ten-year inflation breakeven in America fell another eight basis points from 3 November to 2.22 per cent, while the ten-year real yield rose four to 2.66. October inflation prints after this edition closes — with no annual rate at all.",
    "anchor": "p14",
    "featured": false
   },
@@ -123,9 +140,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Isometric Handgrip",
-   "headline": "A Brazilian trial found squeezing a handgrip beat squeezing with the legs",
-   "dek": "Four weeks of handgrip holds cut awake diastolic pressure by about 4.5 mmHg against controls; the identical protocol done with the legs moved nothing at all.",
+   "kicker": "Fitness · The Two-Minute Rest",
+   "headline": "Brad Schoenfeld’s team found fixed two-minute rests matched self-chosen ones",
+   "dek": "Forty trained lifters, eight weeks, lower body only: in Schoenfeld’s trial the differences in muscle growth and strength were trivial, but the fixed group finished each session in 56 minutes against 78.5.",
    "anchor": "p18",
    "featured": false
   },
@@ -133,20 +150,20 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · The December Kabuki",
-   "headline": "Kabukiza puts December’s tickets on sale at ten o’clock on 14 November",
-   "dek": "Seats run from ¥4,500 to ¥17,000 across three daily programmes, and anyone aged 30 or under can buy a half-price same-day seat.",
-   "anchor": "p23",
+   "kicker": "The Diary · Christmas Wonderland",
+   "headline": "Gardens by the Bay dated Christmas Wonderland and published no prices",
+   "dek": "The dates went up this week: 27 November to 3 January, 6.30pm to 11pm at Supertree Grove. The ticket line on the same page reads, for the fifth issue running, “Ticket prices will be released soon.”",
+   "anchor": "p19",
    "featured": false
   },
   {
    "desk": "The Long Read",
    "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Undercurrent · China’s AI Manju",
-   "headline": "China made 221,900 AI cartoon dramas in six months and the pay collapsed",
-   "dek": "Revenue per ten thousand views fell from 30–100 yuan to 5–10. One maker’s eleven series, sixteen episodes each, earned 9.60 yuan in total.",
-   "anchor": "p25",
+   "kicker": "The Undercurrent · Japan’s NISA Poor",
+   "headline": "Japan’s NISA poor starve themselves to fill Tokyo’s tax allowance",
+   "dek": "「NISA贫乏」 reached the floor of the Diet in March and the shortlist for Japan’s 2026 word of the year on 5 November. Accounts passed 30,480,850 in June, and purchases ¥85 trillion against a government target of ¥56tn.",
+   "anchor": "p21",
    "featured": false
   }
  ]

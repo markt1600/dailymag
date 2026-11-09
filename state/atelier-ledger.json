@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Secateurs &amp; garden tools",
+      "issue": "158",
+      "angle": "<b>The test is not the steel, it is the parts list: a pruner is four wearing parts (blade, counter-blade, spring, pivot) and a maker either sells all four or sells you a replacement. Felco sells every part of the Felco 2 on its own number down to the 0.85 spring washer, CHF 76.90, lifetime warranty "
+    },
+    {
       "category": "Pencils (wood-cased graphite &amp; mechanical)",
       "issue": "157",
       "angle": "<b>The grading scale is not standardised &mdash; no universal graphite-to-clay ratio sits behind the letters, so a Japanese HB lays down about a grade darker than a German one &mdash; and almost every good pencil comes from one tree and one mill: Californian incense cedar sawn by CalCedar in its own"
@@ -424,6 +429,24 @@
   "queued": [],
   "pipeline": [
     {
+      "category": "Mortar &amp; pestle (and the suribachi)",
+      "rotation": "Kitchen",
+      "fit": "Granite against porcelain against the Japanese grooved suribachi &mdash; the surface does the work, and the cheap ones are sealed or polished smooth",
+      "sources": "Thai granite sellers, Japanese Banko and Mino potteries, chef forums, r/Cooking and r/JapaneseFood"
+    },
+    {
+      "category": "Tiffin carriers &amp; stacked lunch boxes",
+      "rotation": "Carry / kitchen",
+      "fit": "Steel gauge and the clasp that fails first; a daily-use object with a century of Indian and Southeast Asian manufacture behind it",
+      "sources": "Indian steel makers, Japanese bento makers, Zojirushi and Thermos engineering pages, r/bentobox"
+    },
+    {
+      "category": "Track pumps &amp; bicycle tools",
+      "rotation": "Tools",
+      "fit": "Silca and Park Tool both sell rebuild kits for a floor pump; most makers sell you another pump &mdash; a clean parts-list test",
+      "sources": "Silca, Park Tool and Lezyne service pages, Weight Weenies, r/bikewrench"
+    },
+    {
       "category": "Hand saws (Western &amp; Japanese)",
       "rotation": "Tools / edge",
       "fit": "Tooth geometry, set and plate thickness decide the cut; a sharpenable back saw against a hardpoint blade you throw away",
@@ -622,7 +645,7 @@
       "sources": "Libeco, Thomas Ferguson, Fil d&rsquo;Or, the Irish and Belgian mills"
     },
     {
-      "category": "Secateurs &amp; garden hand tools",
+      "category": "~~Secateurs &amp; garden hand tools~~ (COVERED, No. 158)",
       "rotation": "Craft / tool",
       "fit": "A replaceable-parts category where the blade, the spring and the bypass geometry are the whole product",
       "sources": "Felco, Niwaki, Okatsune, ARS; r/gardening and the Japanese tool importers"

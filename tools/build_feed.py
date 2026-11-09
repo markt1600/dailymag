@@ -50,17 +50,34 @@ def strip(s):
 # The Macro Desk's standing "What It Means — VWRA, Global Bonds, Gold & BTC"
 # verdict + regime pills, so marktan.ai can show it beside its market tiles.
 def extract_macro(html):
-    m = re.search(r'<div class="lbl">(What It Means[^<]*)</div>\s*<p>(.*?)</p>', html, re.S)
+    # The label carries a standing prefix in house style ("The Verdict · What
+    # It Means For ..."), and the reads are written "<b>Gold</b> did X", not
+    # "<b>Gold:</b> X". Both drifted away from this parser and it had been
+    # silently returning null since — feed.json shipped macro:null for many
+    # issues (caught on No. 158). Tolerate the prefix, and treat a <b> as a
+    # read label only where it opens the paragraph or a sentence, so a bold
+    # figure mid-sentence ("<b>321 tonnes</b>") does not split a read.
+    m = re.search(r'<div class="lbl">(?:[^<]*?(?:&middot;|·)\s*)?(What It Means[^<]*)</div>\s*<p>(.*?)</p>',
+                  html, re.S)
     if not m:
         return None
-    reads = [{"label": strip(lbl), "text": strip(txt)}
-             for lbl, txt in re.findall(r'<b>\s*([^<:]+?)\s*:</b>\s*(.*?)(?=<b>|$)', m.group(2), re.S)]
+    reads = []
+    for seg in re.split(r'(?:^|(?<=[.!?])\s+)(?=<b>)', m.group(2)):
+        sm = re.match(r'<b>\s*([^<]+?)\s*:?\s*</b>\s*(.*)$', seg, re.S)
+        if sm and strip(sm.group(2)):
+            reads.append({"label": strip(sm.group(1)), "text": strip(sm.group(2))})
+    # The standing disclaimer may close the last read OR stand as its own
+    # sentence after it; either way it must survive into the feed.
     note = ""
     if reads:
-        mn = re.search(r'(Education,?\s*not advice.*)$', reads[-1]["text"], re.I)
+        mn = re.search(r'((?:Education|Explanation),?\s*not advice.*)$', reads[-1]["text"], re.I)
         if mn:
             note = mn.group(1).strip()
             reads[-1]["text"] = reads[-1]["text"][:mn.start()].strip()
+    if not note:
+        mn = re.search(r'((?:Education|Explanation),?\s*not advice[^<.]*\.)', strip(m.group(2)), re.I)
+        if mn:
+            note = mn.group(1).strip()
     tail = html[m.end(): html.find("pgfoot", m.end())]
     regime = [strip(t) for t in re.findall(r'<span class="tag[^"]*">([^<]+)</span>', tail)]
     seg = re.findall(r'<section id="(p\d+)"', html[:m.start()])

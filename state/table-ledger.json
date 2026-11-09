@@ -2235,9 +2235,39 @@
       "status": "OPEN",
       "checked": "No. 157 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Cranki Patisserie",
+      "key": "Cranki Patisserie",
+      "runs": [
+        158
+      ],
+      "status": "OPEN",
+      "checked": "No. 158 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Casa Osteria",
+      "key": "Casa Osteria",
+      "runs": [
+        158
+      ],
+      "status": "OPEN",
+      "checked": "No. 158 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "AhMah’s Legacy",
+      "key": "AhMah’s Legacy",
+      "runs": [
+        158
+      ],
+      "status": "OPEN",
+      "checked": "No. 158 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 158,
+  "barred_for_issue": 159,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2356,8 +2386,6 @@
     "OVER",
     "HANDO",
     "Yee3",
-    "SHAO",
-    "Mr. CHEESECAKE",
     "Nekobushi",
     "Woodsmen by Cut Butchery",
     "Warmhouse Nasi Lemak",
@@ -2369,6 +2397,9 @@
     "Earworm",
     "JJAN",
     "HI BOWL",
-    "Three Bowls"
+    "Three Bowls",
+    "Cranki Patisserie",
+    "Casa Osteria",
+    "AhMah’s Legacy"
   ]
 }
