@@ -26,7 +26,7 @@
       "angle": "<b>Gr&auml;nsfors Bruk&rsquo;s twenty-year guarantee covers the steel and explicitly excludes the handle &mdash; the part that actually fails.</b> Taken from the on-deck pipeline front row (Queued table empty, no Atelier Next vote since builtAt). THE FINDING IS NOT A SWINDLE: the head is the buy-onc"
     },
     {
-      "category": "Over-ear headphones",
+      "category": "~~Over-ear headphones~~ (COVERED, No. 151)",
       "issue": "151",
       "angle": "<b>Meze&rsquo;s flagship driver is Rinaro&rsquo;s, on Meze&rsquo;s own spec sheet; Sennheiser&rsquo;s HD 600 is built in Ireland; Spirit Torino publishes no price at all for a US$13,600 headphone.</b> Run from the pipeline front row &mdash; Queued empty, no Atelier Next vote since the previous built"
     },
@@ -424,6 +424,11 @@
       "category": "Upholstered sofas &amp; armchairs",
       "issue": "141",
       "angle": "<b>You are buying a frame and a suspension, and renting a cover.</b> Run from the pipeline front row (Queued empty; no Atelier Next vote since the previous builtAt; it was also a No. 140 chip). FRAME: Hancock &amp; Moore's &ldquo;double-doweled and reinforced with corner blocks that are screwed into"
+    },
+    {
+      "category": "Tiffin carriers &amp; stacked lunch boxes",
+      "issue": "159",
+      "angle": "<b>Three things decide a tiffin and the maker prints none of them:</b> the steel grade, the gauge and whether the lid has a gasket. GRADES: 304 (18/8) Cr 18&ndash;20 / Ni 8&ndash;10.5; 202 drops nickel to 4&ndash;6 on manganese; 430 (18/0) has none and is the refusal. <b>575h salt spray destroyed th"
     }
   ],
   "queued": [],
@@ -435,10 +440,16 @@
       "sources": "Thai granite sellers, Japanese Banko and Mino potteries, chef forums, r/Cooking and r/JapaneseFood"
     },
     {
-      "category": "Tiffin carriers &amp; stacked lunch boxes",
+      "category": "Wool blankets &amp; throws",
+      "rotation": "Home / textile",
+      "fit": "Mill sites for Faribault, Klippan, Mourne Textiles and Hudson&rsquo;s Bay; r/BuyItForLife",
+      "sources": "Weight, weave and which mills still spin their own yarn; the point at which &ldquo;lambswool&rdquo; stops meaning anything"
+    },
+    {
+      "category": "~~Tiffin carriers~~ (COVERED, No. 159)",
       "rotation": "Carry / kitchen",
-      "fit": "Steel gauge and the clasp that fails first; a daily-use object with a century of Indian and Southeast Asian manufacture behind it",
-      "sources": "Indian steel makers, Japanese bento makers, Zojirushi and Thermos engineering pages, r/bentobox"
+      "fit": "",
+      "sources": "Tiffin carriers &amp; stacked lunch boxes"
     },
     {
       "category": "Track pumps &amp; bicycle tools",
@@ -447,13 +458,13 @@
       "sources": "Silca, Park Tool and Lezyne service pages, Weight Weenies, r/bikewrench"
     },
     {
-      "category": "Hand saws (Western &amp; Japanese)",
+      "category": "~~Hand saws (Western &amp; Japanese)~~ (COVERED, No. 153)",
       "rotation": "Tools / edge",
       "fit": "Tooth geometry, set and plate thickness decide the cut; a sharpenable back saw against a hardpoint blade you throw away",
       "sources": "Lie-Nielsen, Veritas, Bad Axe, Gyokucho, Z-saw, Suizan, the r/handtools and Wood Central scenes"
     },
     {
-      "category": "Oil lamps &amp; lanterns",
+      "category": "~~Oil lamps &amp; lanterns~~ (COVERED, No. 154)",
       "rotation": "Home / light",
       "fit": "A light with no electronics and a published burn rate; wick, chimney and fuel are all replaceable parts with part numbers",
       "sources": "Feuerhand, Dietz, Aladdin, Vermonter, the lantern collector boards"

@@ -218,7 +218,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | 7 Paintings | 7 Paintings | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | Dough | Dough | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
-| SHAO @ Dempsey | SHAO @ Dempsey | 145 | OPEN | No. 145 build | opening run — record the peg here |
+| SHAO @ Dempsey | SHAO @ Dempsey | 145, 159 | SPENT | No. 145 build | opening run — record the peg here |
 | Xiao Jiao Tian | Xiao Jiao Tian | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
 | Foca Kumpir | Foca Kumpir | 146 | OPEN | No. 146 build | opening run — record the peg here |
 | Ng Kuan Chilli Pan Mee | Ng Kuan Chilli Pan Mee | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
@@ -236,8 +236,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Terumbu | Terumbu | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | Sushiro | Sushiro | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | PS.Cafe Harding | PS.Cafe Harding | 151 | OPEN | No. 151 build | opening run — record the peg here |
-| SHAO | SHAO | 152 | OPEN | No. 152 build | opening run — record the peg here |
-| Mr. CHEESECAKE | Mr. CHEESECAKE | 152 | OPEN | No. 152 build | opening run — record the peg here |
+| SHAO | SHAO | 152, 159 | SPENT | No. 152 build | opening run — record the peg here |
+| Mr. CHEESECAKE | Mr. CHEESECAKE | 152, 159 | SPENT | No. 152 build | opening run — record the peg here |
 | Nekobushi | Nekobushi | 153 | OPEN | No. 153 build | opening run — record the peg here |
 | Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153 | OPEN | No. 153 build | opening run — record the peg here |
 | Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155 | OPEN | No. 155 build | opening run — record the peg here |
@@ -253,3 +253,4 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Cranki Patisserie | Cranki Patisserie | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | Casa Osteria | Casa Osteria | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | AhMah’s Legacy | AhMah’s Legacy | 158 | OPEN | No. 158 build | opening run — record the peg here |
+| Habibi Kebs | Habibi Kebs | 159 | OPEN | No. 159 build | opening run — record the peg here |

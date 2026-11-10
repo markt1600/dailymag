@@ -479,6 +479,11 @@
       "hobby": "Ultralight backpacking (the sub-10lb base weight)",
       "issue": "141",
       "angle": "<b>A numbers hobby wearing hiking boots: the gear got better and the hikers did not get lighter.</b> Chosen from the pipeline because all three of No. 140's Next-Descents chips &mdash; bookbinding, freshwater aquascaping and orienteering &mdash; name hobbies ALREADY COVERED (132, 85, 117), so the au"
+    },
+    {
+      "hobby": "Technical diving (caves &amp; wrecks)",
+      "issue": "159",
+      "angle": "<b>The gateway moved from depth to cost:</b> a 160-foot wreck dive is ~$500 in open-circuit gas against ~$30 on a closed loop, so the rebreather is now the economy measure, not the extravagance. SCALE: 25,000&ndash;35,000 units in the market, ~23,000 sold in ten years, 5,000+ certificates across eig"
     }
   ],
   "queued": [],
@@ -496,10 +501,16 @@
       "fit": "A permutation algorithm you perform with a rope and a ton of bronze; no instrument to buy, a band you cannot practise without, and a measurable decline in ringers."
     },
     {
-      "hobby": "Technical diving (caves &amp; wrecks)",
+      "hobby": "Origami &amp; paper craft",
+      "category": "Craft / paper",
+      "communities": "r/origami, Origami Resource Center, the Robert Lang and complex-model scene",
+      "fit": "A near-free deep-skill craft with a mathematics crossover and a paper geekery as serious as any gear ladder"
+    },
+    {
+      "hobby": "~~Technical diving~~ (COVERED, No. 159)",
       "category": "Sport / risk",
-      "communities": "TDS and ScubaBoard tech forums, the GUE and TDI training scenes, the cave-diving fatality reports",
-      "fit": "A community that publishes its own accident analyses, gas mathematics you must do yourself, and a rebreather ladder where buy-once is a safety argument."
+      "communities": "",
+      "fit": "Technical diving (caves &amp; wrecks)"
     },
     {
       "hobby": "Origami &amp; paper craft",

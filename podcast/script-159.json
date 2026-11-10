@@ -1,0 +1,780 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 159,
+ "date": "11 November 2026",
+ "title": "The fridges, the vault, and the number that wasn't collected",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Wednesday, the eleventh of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "France has named the people who warmed up seven hundred supermarkets' fridges. [pause] Not robbed them. Warmed them."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Warmed them? Singapore opened a five-hundred-tonne vault for other countries' gold — and gold promptly had its worst day in weeks."
+  },
+  {
+   "s": "A",
+   "t": "And America published an inflation report with no inflation rate in it."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] I'm sorry — a what? Okay. France. What actually happened?"
+  },
+  {
+   "s": "A",
+   "t": "Overnight on the eleventh and twelfth of October, the refrigeration in about seven hundred French food shops was driven into a permanent defrost cycle."
+  },
+  {
+   "s": "B",
+   "t": "Meaning the fridges were told to warm up and never stop."
+  },
+  {
+   "s": "A",
+   "t": "In roughly a hundred and fifty Intermarché branches, cabinets went to about fifty degrees Celsius and sat there for six hours."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Fifty degrees. In a sealed cabinet full of grease and plastic packaging."
+  },
+  {
+   "s": "A",
+   "t": "At least fifteen fires. Tens of millions of euros of meat, fish and chilled meals into the bins."
+  },
+  {
+   "s": "B",
+   "t": "And on Monday the French government said who did it."
+  },
+  {
+   "s": "A",
+   "t": "Two offensive units inside Iran's Revolutionary Guard. The foreign minister, Jean-Noël Barrot, summoned Iran's ambassador the next day."
+  },
+  {
+   "s": "B",
+   "t": "What did Tehran say?"
+  },
+  {
+   "s": "A",
+   "t": "Baseless and malicious. Same day. [deadpan] As you'd expect."
+  },
+  {
+   "s": "B",
+   "t": "What struck me is the category. This isn't data theft. There's no ransom note."
+  },
+  {
+   "s": "A",
+   "t": "Barrot called it the first large-scale cyberattack aimed at sabotage on French soil. The point where a computer intrusion stops being an information problem —"
+  },
+  {
+   "s": "B",
+   "t": "— and becomes a refrigeration problem. [wry] That's a sentence I didn't expect to say this morning."
+  },
+  {
+   "s": "A",
+   "t": "Casino, Leclerc, Coopérative U, Metro, Carrefour, Intermarché. Butchers. A slaughterhouse."
+  },
+  {
+   "s": "B",
+   "t": "How deep did it go inside each chain?"
+  },
+  {
+   "s": "A",
+   "t": "Narrow, actually. Carrefour counted eighty shops out of six thousand. And there's a second wave on the second of November across at least nine other European countries. France has attributed that one to nobody."
+  },
+  {
+   "s": "B",
+   "t": "Now — our sceptic box on this one is good, and it's not the usual 'well, attribution is hard'."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] No. It's better than that. The argument is that the fridges were already open."
+  },
+  {
+   "s": "B",
+   "t": "Open how?"
+  },
+  {
+   "s": "A",
+   "t": "These cold aisles run on small networked controllers. A French security firm, Synacktiv, published flaws in the same Danfoss line back in May twenty twenty-three. Their researcher Kévin Tellier says the problem — his words — had been known for years."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And nobody patched them?"
+  },
+  {
+   "s": "A",
+   "t": "Some of these units can only be patched by a technician on site, with a USB stick."
+  },
+  {
+   "s": "B",
+   "t": "Oh. So it's not a software update. It's a van."
+  },
+  {
+   "s": "A",
+   "t": "And Claroty found a hidden login path that derives a new password from the date. American cyber authorities warned about that specific password in May twenty twenty-five."
+  },
+  {
+   "s": "B",
+   "t": "How many of these things are sitting on the open internet?"
+  },
+  {
+   "s": "A",
+   "t": "Claroty counted two thousand seven hundred and sixty-five. A scan by SOCRadar found two thousand eight hundred and ninety-eight Danfoss service banners in France alone."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the Revolutionary Guard walked through a door that had been propped open for three years."
+  },
+  {
+   "s": "A",
+   "t": "That's the case. And the testable part: a parallel campaign against more than a hundred American water systems in July was blamed on Iran by private analysts — and the United States government has attributed it to nobody at all."
+  },
+  {
+   "s": "B",
+   "t": "Which tells you how soft this ground is."
+  },
+  {
+   "s": "A",
+   "t": "Money block. And Theo, this is the one you're going to enjoy."
+  },
+  {
+   "s": "B",
+   "t": "The inflation report with no inflation in it."
+  },
+  {
+   "s": "A",
+   "t": "The Bureau of Labor Statistics published October's consumer price index on Tuesday morning. Prices up zero point four per cent on the month. Core up zero point three. Both hotter. And then — no annual rate."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How do you publish an inflation report without the inflation number?"
+  },
+  {
+   "s": "A",
+   "t": "Because a twelve-month change needs both ends. And during the lapse in government funding, nobody collected prices for October last year."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Ohhh. There's a hole in the other end of the comparison."
+  },
+  {
+   "s": "A",
+   "t": "The release says so plainly. It cannot publish annual changes wherever the year-ago figure is missing."
+  },
+  {
+   "s": "B",
+   "t": "So what's the last annual rate anyone has? The most-quoted number in global markets just... doesn't exist this month."
+  },
+  {
+   "s": "A",
+   "t": "And that same morning, in London, Governor Christopher Waller had already pre-committed."
+  },
+  {
+   "s": "B",
+   "t": "Pre-committed to what?"
+  },
+  {
+   "s": "A",
+   "t": "He said if October's core came in at zero point three or above, then hiking only a quarter point would — and I'm quoting — put our credibility at risk, a risk I am not eager to take."
+  },
+  {
+   "s": "B",
+   "t": "And it came in at?"
+  },
+  {
+   "s": "A",
+   "t": "Zero point three. [deadpan] Exactly zero point three."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] He named the number and the number showed up."
+  },
+  {
+   "s": "A",
+   "t": "Two-year yields jumped seventeen basis points. But here's the part worth holding on to. The whole of the ten-year's rise was real. The inflation-protected yield rose twelve basis points, to two point seven eight. So the implied breakeven actually fell two points, to two point two zero."
+  },
+  {
+   "s": "B",
+   "t": "So a hot inflation print bought less long-run inflation compensation, not more."
+  },
+  {
+   "s": "A",
+   "t": "Which is a bond market saying: we think the central bank wins this — and we're pricing what it costs. Global equities and global bonds both fell zero point three four per cent. The same, to the basis point."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Diversification that did not diversify."
+  },
+  {
+   "s": "A",
+   "t": "Gold fell a hundred and nine dollars, to four thousand and thirty-one. Real yields up, dollar up, risk assets down — so that's arithmetic, not fear. Not investment advice. And the sceptics aren't all convinced the December hike is settled — Deutsche Bank and Natixis both point at the same escape hatch, which is financial conditions rather than the price index."
+  },
+  {
+   "s": "B",
+   "t": "And the gold story has a Singapore twist, which is almost too neat."
+  },
+  {
+   "s": "A",
+   "t": "On the same day, the Monetary Authority of Singapore opened the national currency vault to foreign central banks. Up to five hundred tonnes."
+  },
+  {
+   "s": "B",
+   "t": "On the day gold fell two and a half per cent."
+  },
+  {
+   "s": "A",
+   "t": "[wry] The timing was less modest than the language."
+  },
+  {
+   "s": "B",
+   "t": "Who's actually using it?"
+  },
+  {
+   "s": "A",
+   "t": "That is exactly the question. Six founding clearing banks are named. Trading goes live in the first quarter of twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "But a named customer?"
+  },
+  {
+   "s": "A",
+   "t": "None. And our sceptic, Marjorie Nadal, is blunt: a vault without a market is a warehouse."
+  },
+  {
+   "s": "B",
+   "t": "Does she have receipts?"
+  },
+  {
+   "s": "A",
+   "t": "Singapore Exchange withdrew a gold futures contract in twenty fourteen after volume reached zero. India's GIFT City bullion exchange went from ninety-three tonnes to under one tonne in a year. And commercial vaults here already hold capacity above two thousand tonnes."
+  },
+  {
+   "s": "B",
+   "t": "So the sovereign vault is a quarter of what the private market can already store."
+  },
+  {
+   "s": "A",
+   "t": "Her phrase is the shop window. Not the warehouse. Technology. Taiwan Semiconductor had its best month ever."
+  },
+  {
+   "s": "B",
+   "t": "How big?"
+  },
+  {
+   "s": "A",
+   "t": "Five hundred and eighty-six point eight nine billion New Taiwan dollars in October. Up fifty-nine point seven per cent on last year."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That sounds enormous."
+  },
+  {
+   "s": "A",
+   "t": "It is. And it's also exactly what they promised."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Say that again?"
+  },
+  {
+   "s": "A",
+   "t": "An analyst, Lilly Mwogah, did the arithmetic. To reach the top of their own fourth-quarter guidance, they need about five hundred and seventy-two billion in each of November and December. About two point six per cent."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's not a surprise, that's a company being on schedule."
+  },
+  {
+   "s": "A",
+   "t": "Her other point is duller and better: it's a revenue release. It doesn't tell you what they earned on those sales."
+  },
+  {
+   "s": "B",
+   "t": "Home lab. What happened to my smart home?"
+  },
+  {
+   "s": "A",
+   "t": "Home Assistant folded its volunteer add-on shop into the product, and started composing the names of everything in your house for you."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] I named those switches myself."
+  },
+  {
+   "s": "A",
+   "t": "Nineteen replies on a forum thread titled — and this is the real title — what the heck are you forcing naming schemes on us. But here's the finding. In our last issue we said we'd watch for the first listing the new shop refused."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "There's nothing to refuse against. We read the release post's own marketplace sections. No listing policy. No removal policy. Nobody named as the decider."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So folding the shop into the house doesn't make the shop vetted."
+  },
+  {
+   "s": "A",
+   "t": "It does not. And one more for anyone buying memory — the ladder has inverted. Older DDR four now trades above newer DDR five."
+  },
+  {
+   "s": "B",
+   "t": "Because nobody's making the old stuff any more. The Kit, quickly, because this one's a nice trap."
+  },
+  {
+   "s": "A",
+   "t": "Schiit priced a new headphone amplifier at ninety-nine dollars. Three watts. Twenty dollars cheaper than the one it replaces. And its showcase feature is the one reviewers would steer you away from. The new four-point-four-millimetre socket measures under two ohms of source impedance."
+  },
+  {
+   "s": "B",
+   "t": "Against what on the ordinary jack? [wry] So the premium socket is the compromised one."
+  },
+  {
+   "s": "A",
+   "t": "With sensitive in-ear monitors, that can audibly shift the frequency response. And Schiit's own testing of the design produced — the reviewer's phrase — mixed results."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier today is the stacked lunch box. Which I did not expect to be a story."
+  },
+  {
+   "s": "A",
+   "t": "Three things decide a tiffin carrier, and almost no maker prints any of them. The grade of the steel, the thickness, and whether the lid has a gasket."
+  },
+  {
+   "s": "B",
+   "t": "What does the grade actually do?"
+  },
+  {
+   "s": "A",
+   "t": "Nickel. It holds the film that resists salt. And a Singapore lunch is mostly salt — sambal, belacan, soy, tamarind."
+  },
+  {
+   "s": "B",
+   "t": "Is there a test?"
+  },
+  {
+   "s": "A",
+   "t": "In five hundred and seventy-five hours of salt spray, the low-nickel samples corroded and the good grade didn't."
+  },
+  {
+   "s": "B",
+   "t": "And the magnet trick everyone's uncle swears by?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Useless. The three grades you're trying to tell apart all ignore a magnet."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Every uncle in Singapore just felt a disturbance."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic is the best line on the page: in this category, disclosure runs backwards to price."
+  },
+  {
+   "s": "B",
+   "t": "Meaning the expensive ones tell you less?"
+  },
+  {
+   "s": "A",
+   "t": "Black and Blum ask about fifty pounds for a stainless lunch box and publish no steel grade and no country of manufacture. A Japanese flask maker prints a temperature at six hours against each model number. Disclosure doesn't track price. It tracks whether the seller actually knows its own factory."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Technical diving. Caves and wrecks. What is it, in one sentence?"
+  },
+  {
+   "s": "A",
+   "t": "Diving where you deliberately give up the right to swim straight up."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Because there's rock above you."
+  },
+  {
+   "s": "A",
+   "t": "Rock, or steel, or because coming up directly would make you seriously ill. And then you plan the dive so carefully that it doesn't matter."
+  },
+  {
+   "s": "B",
+   "t": "What's the thing that pulls people in?"
+  },
+  {
+   "s": "A",
+   "t": "That's what changed. It used to be depth. Now it's money."
+  },
+  {
+   "s": "B",
+   "t": "Money pulls people into an expensive hobby?"
+  },
+  {
+   "s": "A",
+   "t": "Helium. A single deep wreck dive costs about five hundred dollars in gas on ordinary open-circuit equipment."
+  },
+  {
+   "s": "B",
+   "t": "And on the alternative? [gasps] Thirty against five hundred?"
+  },
+  {
+   "s": "A",
+   "t": "A rebreather recycles your breath. Scrubs out the carbon dioxide, adds back only the oxygen you used. One poster on ScubaBoard put it flatly: there is no reason to do open-circuit trimix before buying a rebreather."
+  },
+  {
+   "s": "B",
+   "t": "So the expensive machine is the economy measure."
+  },
+  {
+   "s": "A",
+   "t": "That's the inversion. And it's why the market is growing — roughly twenty-three thousand units sold in ten years."
+  },
+  {
+   "s": "B",
+   "t": "How do you buy one?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] You mostly can't, casually. The Danish maker's own price sheet says parts are only sold to its own owners, and the unit is only sold with proof of a training course."
+  },
+  {
+   "s": "B",
+   "t": "And the American one?"
+  },
+  {
+   "s": "A",
+   "t": "Fathom won't take a credit card. You wire money to a small workshop after speaking to one of their instructors."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's the opposite of every other luxury hobby we've covered."
+  },
+  {
+   "s": "A",
+   "t": "The gate isn't a waitlist. It's a certification card."
+  },
+  {
+   "s": "B",
+   "t": "Okay — and the part I think people need to hear."
+  },
+  {
+   "s": "A",
+   "t": "The community keeps its own body count, in public, and that's the most admirable thing about it. Two hundred and forty-one verified rebreather deaths between twenty thirteen and twenty twenty-two. A mean of twenty-four a year."
+  },
+  {
+   "s": "B",
+   "t": "Out of how many divers?"
+  },
+  {
+   "s": "A",
+   "t": "Perhaps twenty to thirty thousand active. So a small slice of diving carrying a disproportionate share of its deaths."
+  },
+  {
+   "s": "B",
+   "t": "And the demographic?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] Mean age forty-six. Ninety-five per cent male. It is. We said so on the page."
+  },
+  {
+   "s": "B",
+   "t": "What's the number that actually stopped you?"
+  },
+  {
+   "s": "A",
+   "t": "A hundred and twenty-four of the two hundred and forty-one carried too little information to classify at all."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] So the sport's own safety researchers can't say why most of its dead died."
+  },
+  {
+   "s": "A",
+   "t": "Of the ones they could classify, cardiac involvement was the largest single category."
+  },
+  {
+   "s": "B",
+   "t": "And the community's self-criticism is fierce."
+  },
+  {
+   "s": "A",
+   "t": "There's a thread asking whether the training itself teaches unsafe diving. One poster, flatly: rebreather diving is inherently unsafe. Another wants it engineered away — designs which cannot be assembled incorrectly."
+  },
+  {
+   "s": "B",
+   "t": "That's a grown-up conversation."
+  },
+  {
+   "s": "A",
+   "t": "And the sharpest point is that the fatal delay is cognitive. The gap between something is wrong and stop diagnosing, bail out now."
+  },
+  {
+   "s": "B",
+   "t": "So a better valve doesn't fix it."
+  },
+  {
+   "s": "A",
+   "t": "Because the delay happens before you touch anything."
+  },
+  {
+   "s": "B",
+   "t": "One local note?"
+  },
+  {
+   "s": "A",
+   "t": "Singapore quietly became the regional capital. The big technical conference ran at Suntec in April, while Britain's has been dark since twenty eighteen."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Huh. Fifteen minutes from the office."
+  },
+  {
+   "s": "A",
+   "t": "Culture and the body, quickly. The Indian epic Ramayana opened worldwide."
+  },
+  {
+   "s": "B",
+   "t": "Big?"
+  },
+  {
+   "s": "A",
+   "t": "Fifty-two point four million dollars. But only eight point nine million of that was American."
+  },
+  {
+   "s": "B",
+   "t": "What's that as a share?"
+  },
+  {
+   "s": "A",
+   "t": "Seventeen per cent."
+  },
+  {
+   "s": "B",
+   "t": "For a film built to cross over, that's the whole story."
+  },
+  {
+   "s": "A",
+   "t": "A trade tracker had set the bar publicly beforehand — thirty million in North America. It missed by a lot."
+  },
+  {
+   "s": "B",
+   "t": "And a correction from us."
+  },
+  {
+   "s": "A",
+   "t": "Yes. We printed Godzilla Minus Zero's American opening as thirty-one point six one million. The settled figure is thirty point five eight seven million."
+  },
+  {
+   "s": "B",
+   "t": "We took an estimate for a result."
+  },
+  {
+   "s": "A",
+   "t": "We did. And we carried a second-weekend number as pending when that weekend hadn't happened yet. Both on the page today."
+  },
+  {
+   "s": "B",
+   "t": "Fitness — the weight-loss drug trial."
+  },
+  {
+   "s": "A",
+   "t": "Perth. A hundred and twenty people in their fifties and sixties, all on tirzepatide. Half lifted weights three times a week for forty weeks."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "Both groups lost about twenty-two kilos. The lifters kept about a kilogram more lean tissue, and got roughly a tenth stronger. The others got a tenth weaker."
+  },
+  {
+   "s": "B",
+   "t": "That sounds like a reason to lift."
+  },
+  {
+   "s": "A",
+   "t": "It is. But the honest version matters — the headline will be a relative figure, and the absolute number is one point zero nine kilograms, with the interval reaching down to nought point four three."
+  },
+  {
+   "s": "B",
+   "t": "Against twenty-two kilos lost."
+  },
+  {
+   "s": "A",
+   "t": "And the trial found no difference in any functional outcome. Lean mass is a surrogate here, not the endpoint."
+  },
+  {
+   "s": "B",
+   "t": "And the family desk had a hard one."
+  },
+  {
+   "s": "A",
+   "t": "Nearly forty thousand Ontario schoolchildren, average age twelve point eight. One in five had asked a chatbot for help with their feelings."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And those children were struggling more?"
+  },
+  {
+   "s": "A",
+   "t": "About twice as likely, at a clinical threshold. But it's a snapshot — it cannot say which came first, and the lead author says so herself."
+  },
+  {
+   "s": "B",
+   "t": "What's the practical line for a parent?"
+  },
+  {
+   "s": "A",
+   "t": "A study of forum posts found teenagers describe emotional support from chatbots far more than parents do. Sexual content shows up when a parent reads a log. Venting about a friend looks like any ordinary conversation."
+  },
+  {
+   "s": "B",
+   "t": "So the mode parents miss is the quiet one."
+  },
+  {
+   "s": "A",
+   "t": "Treat it as a reason to ask, not a verdict. And the Undercurrent. South Korea."
+  },
+  {
+   "s": "B",
+   "t": "[curious] What's the thing nobody's written about?"
+  },
+  {
+   "s": "A",
+   "t": "Korea's public health insurance deliberately doesn't cover everything. A private top-up market grew to pay for the rest — thirty-six million policies."
+  },
+  {
+   "s": "B",
+   "t": "Okay."
+  },
+  {
+   "s": "A",
+   "t": "Last year those insurers paid out seventeen trillion won. And musculoskeletal claims reached two point seven trillion."
+  },
+  {
+   "s": "B",
+   "t": "Is that a lot, in context?"
+  },
+  {
+   "s": "A",
+   "t": "More than cancer and heart and stroke care combined."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Korea's private insurers pay more to have people's backs rubbed than to treat their tumours."
+  },
+  {
+   "s": "A",
+   "t": "So on the first of July, the government did something nobody had tried. It fixed the national price of hands-on manual therapy at forty-three thousand eight hundred and fifty won."
+  },
+  {
+   "s": "B",
+   "t": "Down from?"
+  },
+  {
+   "s": "A",
+   "t": "An average of about a hundred and ten thousand. And it set the patient's share at ninety-five per cent."
+  },
+  {
+   "s": "B",
+   "t": "Ninety-five? Then what is the state paying?"
+  },
+  {
+   "s": "A",
+   "t": "About two thousand won a session."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] So it's not really insurance."
+  },
+  {
+   "s": "A",
+   "t": "That's the argument of the piece. A ninety-five per cent co-payment is a price control wearing insurance's clothes. The state stopped trying to buy this care and started governing it."
+  },
+  {
+   "s": "B",
+   "t": "Did it work?"
+  },
+  {
+   "s": "A",
+   "t": "Spending fell ninety-one and a half per cent in a month."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] And then?"
+  },
+  {
+   "s": "A",
+   "t": "And then, within eight weeks, the money came back under a different procedure name. A cheap spray-and-stretch treatment — claims up two hundred and eighteen per cent year on year, with the average claim doubling."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] It didn't leave. It changed its name."
+  },
+  {
+   "s": "A",
+   "t": "Which is the whole lesson. The arbitrage layer in a mixed health system isn't the clinic. It's the code list."
+  },
+  {
+   "s": "B",
+   "t": "A government can only control what it can name."
+  },
+  {
+   "s": "A",
+   "t": "And naming is slower than renaming."
+  },
+  {
+   "s": "B",
+   "t": "Who actually lost money here?"
+  },
+  {
+   "s": "A",
+   "t": "Not the doctors, mostly. The physiotherapists — salaried staff. Their own association surveyed about a thousand members; ninety-eight per cent reported their livelihood under threat."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Uncovered care isn't a loophole."
+  },
+  {
+   "s": "A",
+   "t": "It's an employer. That's the line."
+  },
+  {
+   "s": "B",
+   "t": "And it's before the Constitutional Court?"
+  },
+  {
+   "s": "A",
+   "t": "Twice over. No ruling yet. That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
