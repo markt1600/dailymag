@@ -10054,6 +10054,102 @@
    "specific": true,
    "source": "Photograph from the Japanese report of the Nagoya meetup, faces cropped by the publisher",
    "caption": "The event bar in Naka-ku, Nagoya, on 19 June: profile cards, a drinks sheet printed for the venue, and nine people who came to talk about how little they had been eating."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p3\" class=\"page\">",
+   "asset": "mesh-faketec-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;Meshtastic FakeTec node with display P1089966&rdquo;, CC BY-SA 4.0, by -stk",
+   "caption": "A home-built Meshtastic node, its small screen lit with the project&rsquo;s mountain logo &mdash; the boot screen every new owner sees. An nRF52 micro, a LoRa transceiver, a USB cable and an antenna pigtail, and nothing else."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p5\" class=\"page\">",
+   "asset": "mesh-spectrum-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;Meshtastic-spectrum-medium-fast&rdquo;, CC0 1.0, by Tinux",
+   "caption": "A Meshtastic transmission seen on a software radio &mdash; the broad flat hump of a chirp spread across the band, and three bursts crossing the waterfall below. This is the Medium Fast preset at 869.5 megahertz, not Singapore&rsquo;s setting."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p7\" class=\"page\">",
+   "asset": "mesh-tbeam-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;Meshtastic T-Beam&rdquo;, CC0 1.0, by Chiffre01",
+   "caption": "A LilyGO T-Beam running in client mode on battery, outdoors at low sun, its whip antenna screwed into the gold connector and its small display lit."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p8\" class=\"page\">",
+   "asset": "mesh-meshcore-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;2026-05-07-MeshCore-Repeater-Inside-5&rdquo;, CC BY-SA 4.0, by Fabian Horst",
+   "caption": "Inside a MeshCore repeater on a mast at a German amateur-radio site: three large lithium cells, a board with a yellow power connector, and a cable gland, with a lattice tower out of focus behind. The rival&rsquo;s hardware, not Meshtastic&rsquo;s."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p9\" class=\"page\">",
+   "asset": "mesh-t1000e-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;SenseCAP Card Tracker T1000-E for Meshtastic&rdquo;, CC BY 4.0, by XoMEoX",
+   "caption": "Seeed&rsquo;s card tracker held in one hand &mdash; 85 by 55 by 6.5 millimetres, a translucent smoke case with the antenna coil visible inside, and no screen at all."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p10\" class=\"page\">",
+   "asset": "mesh-tdeck-1585",
+   "specific": true,
+   "source": "LILYGO&rsquo;s own product photography",
+   "caption": "LilyGO&rsquo;s T-Deck: a colour screen above a BlackBerry-style keyboard and a trackball, the whole thing about the size of a pack of cards. The image on its screen is the maker&rsquo;s demonstration picture, not a Meshtastic display."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p12\" class=\"page\">",
+   "asset": "mesh-antenna-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;2025-10 Meshtastic Node temporaerhaus P1090099&rdquo;, CC BY-SA 4.0, by -stk",
+   "caption": "The parts of a fixed node, laid out: a fibreglass antenna, its galvanised mounting bracket, an N-to-SMA adapter cable and the junction box that holds the electronics."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p13\" class=\"page\">",
+   "asset": "mesh-sgdensity-1585",
+   "specific": false,
+   "source": "Wikimedia Commons, &ldquo;Singapore skyline density&rdquo;, CC BY-SA 4.0, by Brandon",
+   "caption": "Singapore residential blocks packed to the horizon under a white sky. Representative of the propagation problem this page measures &mdash; not a photograph of any node or test."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p15\" class=\"page\">",
+   "asset": "mesh-androidapp-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;Meshtastic Android App&rdquo;, CC BY-SA 4.0, by MykolaFIAT",
+   "caption": "The LoRa settings screen in the Android app, on a node set to Ukraine&rsquo;s 433 band and a Ukrainian-language interface. Note the transmit power field, and the &ldquo;Override Duty Cycle&rdquo; switch below it &mdash; the one a Singapore user has no reason to touch."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p16\" class=\"page\">",
+   "asset": "mesh-sgpearl-1585",
+   "specific": false,
+   "source": "Wikimedia Commons, &ldquo;Singapore skyline from Pearl Bank&rdquo;, CC BY-SA 4.0, by Aatu Dorochenko",
+   "caption": "Central Singapore from a residential tower: shophouse roofs in the foreground, the financial district beyond. Representative of the terrain the 46 nodes on this page are spread across, not a map of them."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p17\" class=\"page\">",
+   "asset": "mesh-polemount-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;GoPro and Meshtastic Pole Mount&rdquo;, CC BY 4.0, by Tessa Bury",
+   "caption": "A Meshtastic node and an action camera clamped to a pole at Open Sauce 2026 in San Mateo, California &mdash; the event deployment this page describes, in its ordinary form."
+  },
+  {
+   "issue": "158.5",
+   "anchor": "<section id=\"p19\" class=\"page\">",
+   "asset": "mesh-internals-1585",
+   "specific": true,
+   "source": "Wikimedia Commons, &ldquo;2025-10 Meshtastic Node temporaerhaus P1090100&rdquo;, CC BY-SA 4.0, by -stk",
+   "caption": "The inside of a solar node: a junction box with its lid off, the board and its wiring, a cable gland for the antenna lead, and two lithium cells in a holder alongside."
   }
  ],
  "standing": [
