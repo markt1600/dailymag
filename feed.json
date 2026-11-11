@@ -1,82 +1,71 @@
 {
  "publication": "MERIDIAN",
- "issue": 159,
- "date": "11 November 2026",
- "generated": "2026-11-11T06:08:21+08:00",
+ "issue": 160,
+ "date": "12 November 2026",
+ "generated": "2026-11-12T06:13:51+08:00",
  "quote": {
-  "text": "… you must never forget that every one of these figures comes in the first instance from the village watchman, who just puts down what he damn pleases.",
-  "author": "Widely attributed to Sir Josiah Stamp (1880–1941). The attribution is contested — which, this issue, is rather the point."
+  "text": "There is nothing so disturbing to one’s well-being and judgment as to see a friend get rich.",
+  "author": "Charles P. Kindleberger, Manias, Panics, and Crashes (1978). The wording varies between editions and this desk could not fix it to a page."
  },
- "macro": {
-  "title": "What It Means For VWRA, Global Bonds, Gold And Bitcoin",
-  "reads": [
-   {
-    "label": "Gold’s $109 fall was arithmetic, not sentiment",
-    "text": "— real yields up, dollar up, risk assets down too. Bitcoin is the same factor with more beta."
-   }
-  ],
-  "note": "",
-  "regime": [],
-  "anchor": "p14"
- },
+ "macro": null,
  "stories": [
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · France and the Guard",
-   "headline": "France names an IRGC cyber unit for sabotaging 700 supermarkets’ fridges",
-   "dek": "Paris prosecutor Laure Beccuau has asked for international arrest warrants. The state’s cyber-crisis centre counts at least fifteen fires and tens of millions of euros of ruined food from one October night.",
+   "kicker": "The World · El Salvador In Haiti",
+   "headline": "Bukele says his forces destroyed 400 Mawozo’s headquarters outside Port-au-Prince",
+   "dek": "About 2,000 Salvadoran soldiers are now in Haiti. Roughly 200 of them answer to the United Nations-authorised force; the agreement covering the rest has never been published.",
    "anchor": "p3",
    "featured": true
   },
   {
-   "desk": "Singapore",
-   "sub": "The Little Red Dot",
-   "category": "Asia",
-   "kicker": "Singapore · The Gold Vault",
-   "headline": "MAS opens Singapore’s 500-tonne currency vault to foreign central banks’ gold",
-   "dek": "Six founding clearing banks are named, among them Deutsche Bank and J.P. Morgan. Trading is due to go live in the first quarter of 2027, with a tax waiver following in April.",
-   "anchor": "p5",
+   "desk": "Technology",
+   "sub": "Silicon & Sovereignty",
+   "category": "Tech",
+   "kicker": "Technology · Anthropic’s Share Offering",
+   "headline": "Anthropic registers a US$74bn offering, and its own suppliers are buying the shares",
+   "dek": "Google signed a ten-billion-dollar purchase agreement on 10 November, filed as exhibit 10.15. Against that sit roughly US$900bn of committed payments for computing power.",
+   "anchor": "p7",
    "featured": true
   },
   {
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · An Inflation Report Without Inflation",
-   "headline": "The BLS published an October CPI with no annual rate at all",
-   "dek": "Prices rose 0.4 per cent on the month and core 0.3 per cent, both above what Wall Street expected. But October 2025 was never collected, so the Bureau could publish no twelve-month figure at all.",
+   "kicker": "The Macro Desk · The December Meeting",
+   "headline": "Fed governor Waller leans toward a December rise; markets price 88.8 per cent",
+   "dek": "American core inflation printed 0.3 per cent on Tuesday, a third month without improvement. The Bureau of Labor Statistics published no annual rate at all: October 2025 was never collected.",
    "anchor": "p14",
    "featured": true
+  },
+  {
+   "desk": "Singapore",
+   "sub": "The Little Red Dot",
+   "category": "Asia",
+   "kicker": "Singapore · Megaspeed At Collyer Quay",
+   "headline": "Singapore police confirm an investigation into Megaspeed, the Nvidia customer at Ocean Financial Centre",
+   "dek": "Megaspeed’s assets rose from US$33m in 2023 to US$3bn in 2024. The Home Affairs Ministry says flatly that its former managing director was never under investigation here.",
+   "anchor": "p5",
+   "featured": false
   },
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Tiffin Carriers",
-   "headline": "Milton and Borosil sell tiffin carriers without publishing a steel grade",
-   "dek": "Elephant Box names its grade per product line and sells you the gasket. Thermos in Japan publishes heat retention to the degree; its American namesake publishes neither hours nor grade.",
+   "kicker": "The Atelier · The Mortar And Pestle",
+   "headline": "Motoshige hand-cuts the grooves in a ¥462 suribachi that Rikumo resells at US$43.50",
+   "dek": "America’s Test Kitchen rejected every mortar under five pounds. Singapore’s main kitchenware retailer stocks three, all under 14cm and all below its useful-capacity floor.",
    "anchor": "p6",
-   "featured": false
-  },
-  {
-   "desk": "Technology",
-   "sub": "Silicon & Sovereignty",
-   "category": "Tech",
-   "kicker": "Technology · TSMC’s October",
-   "headline": "TSMC books record NT$586.9bn October revenue, up 59.7% on the year",
-   "dek": "The filing of 10 November puts January to October at NT$4.49 trillion, 43.3 per cent ahead of 2025 — and beats the company’s own August record by NT$72bn.",
-   "anchor": "p7",
    "featured": false
   },
   {
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Schiit’s Magni 6",
-   "headline": "Schiit prices the three-watt Magni 6 at $99",
-   "dek": "The launch of 30 October undercuts the $119 Magni Unity it replaces, adds half a watt, and carries a three-year warranty — but reviewers question its showcase socket.",
+   "kicker": "The Kit · Sigma’s fp2",
+   "headline": "Sigma’s fp2 ships at S$2,888 in Singapore, without a mechanical shutter",
+   "dek": "Richard Butler measured the sensor at 14.2 milliseconds and scored the camera 89 per cent. He also found a high-dynamic-range pipeline that cannot be turned off.",
    "anchor": "p9",
    "featured": false
   },
@@ -84,9 +73,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Audio-Technica’s Flagship",
-   "headline": "Audio-Technica puts the $3,799 cypress ATH-AWX7000 on sale in Tokyo",
-   "dek": "The 353-gram ATH-AWX7000 reached retail on 6 November and had its Japanese debut at the 42nd Autumn Headphone Festival the next day. Still nobody has measured it.",
+   "kicker": "The Good Life · Geneva Watch Auction XXIV",
+   "headline": "Phillips sells an F.P. Journe Résonance for CHF 8,680,500, eight times its estimate",
+   "dek": "The Geneva sale made CHF 92,045,568 — the first watch auction to pass a hundred million US dollars. Thirteen Journe lots were more than a third of the total.",
    "anchor": "p10",
    "featured": false
   },
@@ -94,9 +83,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Ramayana Abroad",
-   "headline": "Nitesh Tiwari’s Ramayana takes $52.4m worldwide but $8.9m in America",
-   "dek": "Sony opened the film on 1,433 United States screens on 5 November. Eighty-three per cent of the gross came from outside America, against a reported budget of about $430m for this half alone.",
+   "kicker": "Screen & Sound · Godzilla Minus Zero",
+   "headline": "Godzilla Minus Zero opens to US$30.6m across 3,254 American screens",
+   "dek": "Rotten Tomatoes has it at 91 per cent from 192 critics. Little White Lies’ David Jenkins calls it “a pale, radiation-blackened shadow of the 2023 film”.",
    "anchor": "p11",
    "featured": false
   },
@@ -104,9 +93,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Chatbots And Feelings",
-   "headline": "JAMA Pediatrics links emotional chatbot use to doubled distress in 39,761 pupils",
-   "dek": "The University of Ottawa study, published 1 November, found 21.1 per cent of Ontario pupils in grades four to twelve — mean age 12.8 — had asked an artificial intelligence for emotional support.",
+   "kicker": "The Family Desk · Nagata In Pediatrics",
+   "headline": "A five-wave study in Pediatrics finds social media and low mood predict each other",
+   "dek": "Nagata and colleagues followed 11,279 American children from age twelve. The effects run between 0.03 and 0.07, every anxiety path crosses zero, and one co-author is an expert witness in social-media litigation.",
    "anchor": "p12",
    "featured": false
   },
@@ -114,9 +103,9 @@
    "desk": "The Rabbit Hole",
    "sub": "The Invitation",
    "category": "Hobby",
-   "kicker": "The Invitation · Technical Diving",
-   "headline": "Helium prices are pushing divers onto rebreathers, ScubaBoard’s threads show",
-   "dek": "A single deep wreck dive costs about $500 in open-circuit gas against roughly $30 on a recycling loop. Some 23,000 units have sold in ten years, and Asia is the worst-supplied region on earth.",
+   "kicker": "The Invitation · Change Ringing",
+   "headline": "The Central Council counts Britain’s change ringers for the first time since 1988",
+   "dek": "The Central Council’s census runs 16 to 22 November. Its own estimate is that the 41,000 ringers of 1988 are now about 30,000, and that 60 per cent of them are over sixty.",
    "anchor": "p15",
    "featured": false
   },
@@ -124,9 +113,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The T-REx Trial",
-   "headline": "Danny Green’s T-REx trial kept 1.09kg of lean mass on lifters",
-   "dek": "Nature Medicine published the 120-person, 40-week randomised trial on 9 November. Both groups lost about 22kg; strength rose around a tenth with training and fell around a tenth without it.",
+   "kicker": "Fitness · The Surrey Supplement Trial",
+   "headline": "A Surrey trial finds a longevity supplement lifts artery function by 2.9 points",
+   "dek": "European Heart Journal Open published it on 4 November. The placebo group was seven years older than the treatment group, and every blood-lipid result was null.",
    "anchor": "p18",
    "featured": false
   },
@@ -134,9 +123,9 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Two Deadlines In A Fortnight",
-   "headline": "Gardens by the Bay opens Christmas Wonderland on 27 November, still unpriced",
-   "dek": "ART SG’s early-bird offer ends at 11.59pm on 24 November and halves every adult pass. The Gardens’ own ticket line has read “prices will be released soon” for six issues running.",
+   "kicker": "The Diary · Two Deadlines, One Premiere",
+   "headline": "Gardens by the Bay opens The Story of Studio Ghibli on 18 December",
+   "dek": "Resident tickets are $39 adult and $29 child, on sale now. ART SG’s two-for-one offer ends at 11.59pm on 24 November, and sumo tickets open at 10am Japan time on 5 December.",
    "anchor": "p19",
    "featured": false
   },
@@ -144,9 +133,9 @@
    "desk": "The Long Read",
    "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Long Read · Korea’s Managed Benefit",
-   "headline": "South Korea capped manual therapy at 43,850 won and the money moved elsewhere",
-   "dek": "Seoul’s health ministry fixed the price on 1 July 2026 and made patients pay 95 per cent of it. By August, claims for a cheap spray-and-stretch substitute had risen 218 per cent, on data released by Representative Kim Yoon.",
+   "kicker": "The Undercurrent · Mongolia’s Kiosks",
+   "headline": "Ulaanbaatar sold 1,600 street kiosks, then cleared the streets for CU",
+   "dek": "Governor’s Order A230 of 14 February 2025 began the clearance. Premium Nexus opened its 603rd Korean-branded store in June, and its loyalty app now holds 1.3 million registrations in a country of 3.5 million.",
    "anchor": "p21",
    "featured": false
   }

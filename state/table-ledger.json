@@ -673,14 +673,24 @@
       "note": ""
     },
     {
+      "venue": "Nomad Kitchen",
+      "key": "Nomad Kitchen",
+      "runs": [
+        160
+      ],
+      "status": "OPEN",
+      "checked": "12 Nov 2026",
+      "note": "Taman Jurong Market &amp; Food Centre; seven-country hawker stall, Eatbook 8.5/10, 27 Oct 2026. <b>Distinct from NoMad @ Hilton above &mdash; different venue, different people, no relation.</b>"
+    },
+    {
       "venue": "NoMad @ Hilton",
       "key": "NoMad",
       "runs": [
         56
       ],
       "status": "OPEN",
-      "checked": "21 Sep 2026 (archive scan)",
-      "note": ""
+      "checked": "12 Nov 2026",
+      "note": "<b>No. 160 was recorded here in error and has been removed:</b> the match was the substring &ldquo;NoMad&rdquo; inside <b>Nomad Kitchen</b>, an unrelated Taman Jurong hawker stall covered in No. 160. This venue did not appear in No. 160. The key is a substring trap &mdash; check it by eye whenever a"
     },
     {
       "venue": "Rolls Izakaya",
@@ -1793,9 +1803,10 @@
       "venue": "Hama-Sushi",
       "key": "Hama-Sushi",
       "runs": [
-        141
+        141,
+        160
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 141 build",
       "note": "opening run — record the peg here"
     },
@@ -1915,9 +1926,10 @@
       "venue": "SHAO @ Dempsey",
       "key": "SHAO @ Dempsey",
       "runs": [
-        145
+        145,
+        159
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 145 build",
       "note": "opening run — record the peg here"
     },
@@ -2100,9 +2112,10 @@
       "venue": "SHAO",
       "key": "SHAO",
       "runs": [
-        152
+        152,
+        159
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 152 build",
       "note": "opening run — record the peg here"
     },
@@ -2110,9 +2123,10 @@
       "venue": "Mr. CHEESECAKE",
       "key": "Mr. CHEESECAKE",
       "runs": [
-        152
+        152,
+        159
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 152 build",
       "note": "opening run — record the peg here"
     },
@@ -2265,9 +2279,49 @@
       "status": "OPEN",
       "checked": "No. 158 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Habibi Kebs",
+      "key": "Habibi Kebs",
+      "runs": [
+        159
+      ],
+      "status": "OPEN",
+      "checked": "No. 159 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Mala Mia",
+      "key": "Mala Mia",
+      "runs": [
+        160
+      ],
+      "status": "OPEN",
+      "checked": "No. 160 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Yeah Gelato",
+      "key": "Yeah Gelato",
+      "runs": [
+        160
+      ],
+      "status": "OPEN",
+      "checked": "No. 160 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Soi Stories",
+      "key": "Soi Stories",
+      "runs": [
+        160
+      ],
+      "status": "OPEN",
+      "checked": "No. 160 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 160,
+  "barred_for_issue": 161,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2310,6 +2364,7 @@
     "Mensho X (Raffles Place)",
     "Jiin Omakase",
     "FreakyNoods",
+    "Nomad Kitchen",
     "Sam Sam Sam",
     "Bouillon Gavroche",
     "Sukiyaki Jin (Les Amis Group)",
@@ -2379,13 +2434,17 @@
     "Matsuya",
     "Faber Side Cafe & Cellar",
     "Age.3",
+    "Hama-Sushi",
     "BFF",
     "Woksta",
+    "SHAO @ Dempsey",
     "Xiao Jiao Tian",
     "Ng Kuan Chilli Pan Mee",
     "OVER",
     "HANDO",
     "Yee3",
+    "SHAO",
+    "Mr. CHEESECAKE",
     "Warmhouse Nasi Lemak",
     "Menya Saku",
     "HanBroth",
@@ -2398,6 +2457,10 @@
     "Three Bowls",
     "Cranki Patisserie",
     "Casa Osteria",
-    "AhMah’s Legacy"
+    "AhMah’s Legacy",
+    "Habibi Kebs",
+    "Mala Mia",
+    "Yeah Gelato",
+    "Soi Stories"
   ]
 }

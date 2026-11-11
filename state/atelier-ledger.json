@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Mortar &amp; pestle (incl. suribachi, krok &amp; molcajete)",
+      "issue": "160",
+      "angle": "<b>The working surface is the tool and the bowl is only a jig &mdash; so polish is the defect, and the cheapest serious object in the category is Japanese.</b> Pipeline rotation (Queued empty, no Atelier Next vote since builtAt); it was also the first of No. 159&rsquo;s three bench chips. MECHANISM:"
+    },
+    {
       "category": "Secateurs &amp; garden tools",
       "issue": "158",
       "angle": "<b>The test is not the steel, it is the parts list: a pruner is four wearing parts (blade, counter-blade, spring, pivot) and a maker either sells all four or sells you a replacement. Felco sells every part of the Felco 2 on its own number down to the 0.85 spring washer, CHF 76.90, lifetime warranty "
@@ -434,10 +439,28 @@
   "queued": [],
   "pipeline": [
     {
-      "category": "Mortar &amp; pestle (and the suribachi)",
+      "category": "~~Mortar &amp; pestle (and the suribachi)~~ (COVERED, No. 160)",
       "rotation": "Kitchen",
       "fit": "Granite against porcelain against the Japanese grooved suribachi &mdash; the surface does the work, and the cheap ones are sealed or polished smooth",
       "sources": "Thai granite sellers, Japanese Banko and Mino potteries, chef forums, r/Cooking and r/JapaneseFood"
+    },
+    {
+      "category": "Carbon-steel frying pans",
+      "rotation": "Kitchen",
+      "fit": "de Buyer, Matfer Bourgeat, Turk&rsquo;s hand-forged one-piece pans, and the white-label truth about who spins the blanks",
+      "sources": "The professional&rsquo;s pan at a third of copper, which outlasts non-stick by decades."
+    },
+    {
+      "category": "Cast-iron kettles &amp; tetsubin",
+      "rotation": "Kitchen",
+      "fit": "Nambu tekki from Morioka and Mizusawa; the lacquered-interior fake against the raw-iron original",
+      "sources": "Sand-mould casting, the makers left in Iwate, and whether the iron really changes the water."
+    },
+    {
+      "category": "Donabe &amp; clay cooking pots",
+      "rotation": "Kitchen",
+      "fit": "Nagatani-en and Iga-yaki, La Chamba blackware, the Spanish cazuela",
+      "sources": "Unglazed porous earthenware: the oldest cooking technology still in daily professional use."
     },
     {
       "category": "Wool blankets &amp; throws",

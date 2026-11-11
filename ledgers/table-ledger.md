@@ -102,7 +102,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Jiin Omakase | Jiin | 24, 27, 58 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Visitors Café | Visitors Café | 58 | OPEN | 21 Sep 2026 (archive scan) |  |
 | FreakyNoods | FreakyNoods | 51, 52, 54, 56 | SPENT | 21 Sep 2026 (archive scan) |  |
-| NoMad @ Hilton | NoMad | 56 | OPEN | 21 Sep 2026 (archive scan) |  |
+| Nomad Kitchen | Nomad Kitchen | 160 | OPEN | 12 Nov 2026 | Taman Jurong Market &amp; Food Centre; seven-country hawker stall, Eatbook 8.5/10, 27 Oct 2026. <b>Distinct from NoMad @ Hilton above &mdash; different venue, different people, no relation.</b> |
+| NoMad @ Hilton | NoMad | 56 | OPEN | 12 Nov 2026 | <b>No. 160 was recorded here in error and has been removed:</b> the match was the substring &ldquo;NoMad&rdquo; inside <b>Nomad Kitchen</b>, an unrelated Taman Jurong hawker stall covered in No. 160. This venue did not appear in No. 160. The key is a substring trap &mdash; check it by eye whenever a new venue&rsquo;s name contains it. |
 | Rolls Izakaya | Rolls Izakaya | 56 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Sam Sam Sam | Sam Sam Sam | 47, 50, 51, 54 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Bouillon Gavroche | Bouillon Gavroche | 17, 28, 34, 47, 53 | SPENT | 21 Sep 2026 (archive scan) |  |
@@ -206,7 +207,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Rolls Handroll Izakaya | Rolls Handroll Izakaya | 139 | OPEN | No. 139 build | First run — opened July 2026; no Chope rating and no reviews at all. Peg for a second run would be any verdict on execution. |
 | Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139, 154 | SPENT | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
 | Age.3 | Age.3 | 141, 148 | SPENT | No. 141 build | opening run — record the peg here |
-| Hama-Sushi | Hama-Sushi | 141 | OPEN | No. 141 build | opening run — record the peg here |
+| Hama-Sushi | Hama-Sushi | 141, 160 | SPENT | No. 141 build | opening run — record the peg here |
 | Sodeng Jeju | Sodeng Jeju | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Tofu G | Tofu G | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | A Bar Called Bar | A Bar Called Bar | 142 | OPEN | No. 142 build | opening run — record the peg here |
@@ -254,3 +255,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Casa Osteria | Casa Osteria | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | AhMah’s Legacy | AhMah’s Legacy | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | Habibi Kebs | Habibi Kebs | 159 | OPEN | No. 159 build | opening run — record the peg here |
+| Mala Mia | Mala Mia | 160 | OPEN | No. 160 build | opening run — record the peg here |
+| Yeah Gelato | Yeah Gelato | 160 | OPEN | No. 160 build | opening run — record the peg here |
+| Soi Stories | Soi Stories | 160 | OPEN | No. 160 build | opening run — record the peg here |
