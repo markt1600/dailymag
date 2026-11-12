@@ -239,8 +239,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | PS.Cafe Harding | PS.Cafe Harding | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | SHAO | SHAO | 152, 159 | SPENT | No. 152 build | opening run — record the peg here |
 | Mr. CHEESECAKE | Mr. CHEESECAKE | 152, 159 | SPENT | No. 152 build | opening run — record the peg here |
-| Nekobushi | Nekobushi | 153 | OPEN | No. 153 build | opening run — record the peg here |
-| Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153 | OPEN | No. 153 build | opening run — record the peg here |
+| Nekobushi | Nekobushi | 153, 161 | SPENT | No. 153 build | opening run — record the peg here |
+| Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153, 161 | SPENT | No. 153 build | opening run — record the peg here |
 | Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155 | OPEN | No. 155 build | opening run — record the peg here |
 | Menya Saku | Menya Saku | 155 | OPEN | No. 155 build | opening run — record the peg here |
 | HanBroth | HanBroth | 156 | OPEN | No. 156 build | opening run — record the peg here |
@@ -258,3 +258,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Mala Mia | Mala Mia | 160 | OPEN | No. 160 build | opening run — record the peg here |
 | Yeah Gelato | Yeah Gelato | 160 | OPEN | No. 160 build | opening run — record the peg here |
 | Soi Stories | Soi Stories | 160 | OPEN | No. 160 build | opening run — record the peg here |
+| Casa Vostra | Casa Vostra | 161 | OPEN | No. 161 build | opening run — record the peg here |
+| Ma Cuisinette | Ma Cuisinette | 161 | OPEN | No. 161 build | opening run — record the peg here |

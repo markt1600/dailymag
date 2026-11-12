@@ -1,0 +1,796 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 161,
+ "date": "13 November 2026",
+ "title": "The name on the door",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Friday, the thirteenth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Jensen Huang has resigned as the chief executive of Nvidia. [pause] Effective immediately, and the filing gives no reason at all."
+  },
+  {
+   "s": "B",
+   "t": "[curious] None? We'll get to that. Two senior Democrats have opened an investigation into the tariff the White House put on Nvidia's chips going to China."
+  },
+  {
+   "s": "A",
+   "t": "And Japan is taking the school club out of the school. Kobe did it first, and families there now pay about three thousand two hundred yen a month."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That last one is the saddest thing in the book, and the best reported. Start with the man, though."
+  },
+  {
+   "s": "A",
+   "t": "Wednesday night. The board accepted his resignation as president, chief executive and member of the board. We read the filing itself on the regulator's own system, line by line. Item five point oh two records the resignation, records the two appointments, and gives no reason, no disagreement with the company, and no separation terms."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's a strange silence in a document whose entire job is to disclose."
+  },
+  {
+   "s": "A",
+   "t": "Colette Kress is interim chief executive. She's fifty-nine, she's been the finance chief since September twenty thirteen, and she keeps the finance job as well. Harvey Jones. Seventy-three, on the board since nineteen ninety-three — and here's the detail. He is the first chair the company has ever had."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] In thirty-three years?"
+  },
+  {
+   "s": "A",
+   "t": "In thirty-three years. It did not need one. It had a founder."
+  },
+  {
+   "s": "B",
+   "t": "Okay, and the reason it happened. We should be careful here."
+  },
+  {
+   "s": "A",
+   "t": "We should. Huang wrote to staff on the eighth of November admitting an affair and apologising to his family. American intelligence had assessed that one of the women was working for China's state security service."
+  },
+  {
+   "s": "B",
+   "t": "That's the part that turns a private matter into a national one."
+  },
+  {
+   "s": "A",
+   "t": "Marco Rubio, the secretary of state, put that judgement in a memo in the spring, according to NBC News. On Sunday the board said it had — quote — no reason to believe that national security or company secrets had been compromised."
+  },
+  {
+   "s": "B",
+   "t": "And the further reports? There are more floating about."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] There are. We're not printing them. Both NBC and CNBC say plainly they could not independently verify them, so neither will we."
+  },
+  {
+   "s": "B",
+   "t": "Good. [pause] What did it cost?"
+  },
+  {
+   "s": "A",
+   "t": "The shares fell as much as fourteen per cent on Thursday and closed down four point three four per cent, just above a four-trillion-dollar valuation. A sixth straight weekly fall — the longest run since twenty twelve."
+  },
+  {
+   "s": "B",
+   "t": "More than seven hundred and forty billion dollars gone since Friday's close."
+  },
+  {
+   "s": "A",
+   "t": "Ten analysts turned more bearish inside a week. And several of them priced the man himself."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How do you price a man?"
+  },
+  {
+   "s": "A",
+   "t": "Dan Ives did it out loud. Nvidia's value is three hundred dollars a share with Jensen as chief executive, he said, and two hundred and twenty-five without."
+  },
+  {
+   "s": "B",
+   "t": "Seventy-five dollars a share. That's the man."
+  },
+  {
+   "s": "A",
+   "t": "Mark Lipacis of Evercore cut his target from four hundred and sixty-five to one hundred and eighty-six, and said Nvidia has no obvious succession plan and no number two operational executive."
+  },
+  {
+   "s": "B",
+   "t": "And the governance people?"
+  },
+  {
+   "s": "A",
+   "t": "Lindsey Stewart of Morningstar: an unconventional governance structure can become a source of risk, and often real losses, for investors."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is a polite way of saying nobody was equipped to step in."
+  },
+  {
+   "s": "A",
+   "t": "Now the other side, because there is one and it's strong. Simon Leopold of Raymond James: the market reaction suggests Jensen Huang was a one-man band. He was not."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That's blunt."
+  },
+  {
+   "s": "A",
+   "t": "Cody Acree of StoneX sees no impact to revenue or earnings estimates through at least twenty twenty-eight. First-half revenue was ninety-six billion dollars, up eighty-five per cent."
+  },
+  {
+   "s": "B",
+   "t": "So the production line doesn't care who's in the corner office."
+  },
+  {
+   "s": "A",
+   "t": "That's the argument. We find out on Tuesday the seventeenth, when the quarter is reported with no founder on the call."
+  },
+  {
+   "s": "B",
+   "t": "Right. The tariff. This is the one I didn't know about."
+  },
+  {
+   "s": "A",
+   "t": "Senator Ron Wyden and Representative Richard Neal wrote to the commerce secretary on Thursday. We read all four pages of that letter as a document, not as coverage of it. President Trump agreed that Nvidia could sell its Taiwan-made chips into China — provided each shipment entered the United States first, for security review and licensing."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And then?"
+  },
+  {
+   "s": "A",
+   "t": "And then he used a nineteen sixty-two trade law, written for blocking dangerous imports, to charge a quarter of the value of those chips on the way in."
+  },
+  {
+   "s": "B",
+   "t": "So the government takes a cut of each sale."
+  },
+  {
+   "s": "A",
+   "t": "The letter's own words: effectively taking a cut of Nvidia's sales to China through what appears to be an unconstitutional export tax system."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Congress wrote that statute to keep things out."
+  },
+  {
+   "s": "A",
+   "t": "And it is being used to let things through, at a price. There are two sharper allegations in it. That Commerce approved sales to Chinese companies with government and military ties, including — their phrase — cutout companies with no physical presence at their listed addresses. That Commerce suspended a separate investigation into a company called Megaspeed, following outreach from Nvidia."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And Megaspeed is where this comes home."
+  },
+  {
+   "s": "A",
+   "t": "Megaspeed is registered here. In Singapore."
+  },
+  {
+   "s": "B",
+   "t": "Tell me about Thursday, then, because our Home Affairs Ministry said something quite unusual."
+  },
+  {
+   "s": "A",
+   "t": "It closed its case against Alice Huang, the firm's former managing director. Insufficient evidence to establish that she had committed any offences."
+  },
+  {
+   "s": "B",
+   "t": "No relation to Jensen Huang, for anyone wondering."
+  },
+  {
+   "s": "A",
+   "t": "No relation. She was given a stern warning, barred from re-entering Singapore, handed back her passport on the twenty-sixth of February, and left the country that day."
+  },
+  {
+   "s": "B",
+   "t": "And the unusual bit?"
+  },
+  {
+   "s": "A",
+   "t": "Singapore said, on the record, that it asked Washington for help and did not get it. It raised cooperation on the seventh of July last year, repeated its requests to the Justice Department and the Federal Bureau of Investigation from September, and received — quote — limited information or assistance."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That is not a line a government writes by accident."
+  },
+  {
+   "s": "A",
+   "t": "Four individuals and companies have been charged here since February twenty twenty-five. Megaspeed and six other people are still under investigation."
+  },
+  {
+   "s": "B",
+   "t": "How many of those six are in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "None. Not one of them has been here since the inquiry opened."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So the file closes on the one person who actually was."
+  },
+  {
+   "s": "A",
+   "t": "And her shareholding, per the company's own filings, was one share. Bought for one Singapore dollar, on the day she stepped down after eight months."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Lovely. Okay — money. The Federal Reserve."
+  },
+  {
+   "s": "A",
+   "t": "The argument is over. On Thursday the futures market put zero probability on the Federal Reserve leaving rates alone on the ninth of December."
+  },
+  {
+   "s": "B",
+   "t": "Zero. Not low. Zero."
+  },
+  {
+   "s": "A",
+   "t": "Eighty-eight point three per cent for a quarter-point rise, eleven point seven for a half point. A week earlier, a hold had been the base case at thirty-three point seven. A print and a speech, on the same Tuesday. October core inflation came in at zero point three per cent for the month — the same as September, the same as August. And hours earlier, in London, the Federal Reserve governor Christopher Waller had said he was leaning toward supporting a quarter-point rise in December — and that a half point should be considered if core came in around zero point three or higher."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] He set his own trigger and the data pulled it."
+  },
+  {
+   "s": "A",
+   "t": "He did. And there's an oddity underneath all of it that I think is the real story. There is no twelve-month inflation rate. None. The statistics bureau says plainly it collected no survey data for October last year, because of the lapse in appropriations."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So they're tightening without an annual number."
+  },
+  {
+   "s": "A",
+   "t": "Off monthly momentum alone. Three-month core running near three point seven per cent annualised. The annual series comes back on the tenth of December — the day after the decision."
+  },
+  {
+   "s": "B",
+   "t": "What did it do to things?"
+  },
+  {
+   "s": "A",
+   "t": "Two-year yields rose fourteen point two basis points, ten-year twelve point three. The dollar index up a quarter of a per cent. The Singapore dollar gave up a quarter, despite a policy band still set to appreciate."
+  },
+  {
+   "s": "B",
+   "t": "And the long-duration stuff?"
+  },
+  {
+   "s": "A",
+   "t": "Gold down two point eight per cent. Bitcoin down three point nine. Against an all-world equity fund down zero point zero six."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Gold falling forty times harder than global equities."
+  },
+  {
+   "s": "A",
+   "t": "That's a real-rate regime, not a growth scare. In a growth scare, gold rallies."
+  },
+  {
+   "s": "B",
+   "t": "And to be clear, that's explanation. Not advice."
+  },
+  {
+   "s": "A",
+   "t": "Not advice. One sceptic, because he's being tested live. Peter Boockvar argued on the thirtieth of October that if tech stocks continued to falter, the Fed would not be hiking in December."
+  },
+  {
+   "s": "B",
+   "t": "And tech has faltered."
+  },
+  {
+   "s": "A",
+   "t": "Nvidia fell fourteen per cent intraday with its founder gone. The market moved to full hike pricing anyway. His conditional is losing."
+  },
+  {
+   "s": "B",
+   "t": "[wry] One number we are not printing, though."
+  },
+  {
+   "s": "A",
+   "t": "Brent crude. Three sources gave us ninety-six dollars twelve, a hundred and four dollars sixty-two, and about ninety-one dollars seventy — for the same session."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A thirteen-dollar spread is not a price."
+  },
+  {
+   "s": "A",
+   "t": "So it's held. Right — the home lab, because something reversed."
+  },
+  {
+   "s": "B",
+   "t": "This is the memory thing."
+  },
+  {
+   "s": "A",
+   "t": "A week ago this book printed sixty-four gigabytes of desktop memory costing more than the mid-range graphics card you were going to plug in beside it."
+  },
+  {
+   "s": "B",
+   "t": "Which was absurd."
+  },
+  {
+   "s": "A",
+   "t": "It has flipped back. At one British retailer on Friday morning, the cheapest in-stock mid-range card is one thousand four hundred and ninety-nine pounds ninety-nine, and the comparable memory kit is one thousand one hundred and forty pounds ninety-eight."
+  },
+  {
+   "s": "B",
+   "t": "So the card is about three hundred and sixty pounds above the memory again."
+  },
+  {
+   "s": "A",
+   "t": "But here's the picture. The same shop lists twenty-seven versions of the fastest card Nvidia sells to the public."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And how many have a price next to them?"
+  },
+  {
+   "s": "A",
+   "t": "One. Six thousand nine hundred and ninety-nine pounds, ninety-eight pence. One other says call for price. The remaining twenty-five offer a button to be notified when they exist."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Twenty-seven cards on the page. Twenty-six with no price."
+  },
+  {
+   "s": "A",
+   "t": "Set that against Framework's new desktop: one hundred and ninety-two gigabytes of unified memory for six thousand seven hundred and ninety-nine dollars. Its first two November batches are sold out."
+  },
+  {
+   "s": "B",
+   "t": "So: that money buys a hundred and ninety-two gigabytes, or thirty-two on a graphics card."
+  },
+  {
+   "s": "A",
+   "t": "On Hacker News, one commenter says he paid three thousand dollars for his card early last year and reckons it now fetches about seven thousand."
+  },
+  {
+   "s": "B",
+   "t": "And the honest sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "A user called swiftcoder: no amount of money will buy you that card with five hundred and twelve gigabytes of memory."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is a wall that isn't about price at all."
+  },
+  {
+   "s": "A",
+   "t": "Two quick buying stories. Samsung opened pre-orders on Wednesday for the camera-and-audio glasses it built with Google. Three hundred and ninety-five dollars."
+  },
+  {
+   "s": "B",
+   "t": "No screen in them?"
+  },
+  {
+   "s": "A",
+   "t": "No screen. They take photographs, play audio into your ears, and answer questions. They ship on the tenth of December, in America and South Korea only."
+  },
+  {
+   "s": "B",
+   "t": "So not here."
+  },
+  {
+   "s": "A",
+   "t": "Not here. And the number that matters for anyone over forty isn't in the launch release."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Go on."
+  },
+  {
+   "s": "A",
+   "t": "They're spectacles. Progressive lenses add three hundred and thirty dollars. So the real price for a reader in reading glasses is seven hundred and twenty-five."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The headline price is for someone who doesn't need glasses."
+  },
+  {
+   "s": "A",
+   "t": "And in Japan, Casio has put a mother-of-pearl dial into its titanium Oceanus Manta. Two hundred and thirty-six thousand five hundred yen, about two thousand and fifty Singapore dollars. It's the unfashionable kind of good watch. Forty-two point eight millimetres of titanium, eighty-three grams, solar, radio-set, and it'll keep better time than anything mechanical at ten times the money. Japan only. No confirmed international release, so no international service path. And a Japanese exporter is already listing it twenty-two thousand yen below list — on a watch three days old."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Which is a price signal, not a bargain."
+  },
+  {
+   "s": "A",
+   "t": "Right. Take my hand."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That's my line. Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "Software-defined radio. And not the talking kind."
+  },
+  {
+   "s": "A",
+   "t": "Not the talking kind. You plug a cheap stick into a computer and the computer becomes a radio that can look at several megahertz of spectrum at once. You listen. And because listening alone palls, you identify. You turn an unexplained smear on a scrolling display into a named protocol, and then into decoded text. An aircraft's tail number. A ship's draught. A pager message. A weather balloon's altitude."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How did it start?"
+  },
+  {
+   "s": "A",
+   "t": "By accident of mass manufacture. Antti Palosaari, Eric Fry and the Osmocom project found that cheap television-tuner sticks could be persuaded to hand over their raw samples instead of a picture."
+  },
+  {
+   "s": "B",
+   "t": "A twenty-dollar accessory became an instrument."
+  },
+  {
+   "s": "A",
+   "t": "The blog that's now the hobby's newspaper of record puts it plainly: it democratized access to the radio spectrum."
+  },
+  {
+   "s": "B",
+   "t": "And the hook? What gets people?"
+  },
+  {
+   "s": "A",
+   "t": "The best-written account is by a blogger called blinry. It's like an invisible world that always surrounds us. And then, on shortwave after dark — wow, it's full of stars."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Oh, that's lovely."
+  },
+  {
+   "s": "A",
+   "t": "And here's my favourite number in the whole book. The hobby keeps a catalogue of signals."
+  },
+  {
+   "s": "B",
+   "t": "How many has it identified?"
+  },
+  {
+   "s": "A",
+   "t": "Five hundred and ninety-four. And four hundred and eight it has catalogued and cannot name."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Four hundred and eight unnamed signals."
+  },
+  {
+   "s": "A",
+   "t": "Kept by people who find that the interesting part."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course they do. Now — the gear, because something broke this year."
+  },
+  {
+   "s": "A",
+   "t": "The whole cheap end rests on scavenged television silicon, and in May the silicon ran out. Rafael Micro stopped making the tuner chip at the heart of the standard dongle. The stockpile was exhausted, and the chips still on offer from third parties turned out to be fakes. The product that every beginner's guide online still tells you to buy no longer exists."
+  },
+  {
+   "s": "B",
+   "t": "And the replacement?"
+  },
+  {
+   "s": "A",
+   "t": "Thirty-seven dollars ninety-five, fewer radio inputs, less filtering, no broadcast notch at all. It's a holding action. And it's itself a limited run, on about a year of silicon."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a fragile foundation for a whole hobby."
+  },
+  {
+   "s": "A",
+   "t": "Above that the ladder is short. The precision receiver for shortwave is a hundred and sixty-nine dollars. The measurement tier runs from about five thousand to fifty-five thousand — and hears nothing the hundred-and-sixty-nine-dollar one cannot."
+  },
+  {
+   "s": "B",
+   "t": "So what actually matters?"
+  },
+  {
+   "s": "A",
+   "t": "Not the receiver. A seventeen-dollar notch filter fixes the commonest complaint in the hobby. A twenty-dollar amplifier at the antenna beats a better box indoors. The maker's own best range figure — about four hundred kilometres on aircraft signals — came from moving the same receiver from a challenging urban window location to a hill with nearly three hundred and sixty degrees of horizon."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So the upgrade is a hill."
+  },
+  {
+   "s": "A",
+   "t": "The upgrade is a hill. And now the thing that'll interest you. In October, an application called SDRangel released version eight point oh. And it bumped a whole version number on one feature. A server that hands the entire radio — its tuning, its demodulators, its scanning — to a large language model, as a set of tools."
+  },
+  {
+   "s": "B",
+   "t": "[excited] You point your own model at your own aerial and ask it questions."
+  },
+  {
+   "s": "A",
+   "t": "You do. It's model-agnostic. And we should be honest: the impact is entirely unproven. A fix for its version negotiation landed within days."
+  },
+  {
+   "s": "B",
+   "t": "Still. That's the first one."
+  },
+  {
+   "s": "A",
+   "t": "And the pattern around it is the year's real story. Decoding is moving off the desktop into the browser, and machine transcription is becoming a normal part of the chain."
+  },
+  {
+   "s": "B",
+   "t": "What about here? Can you even do this in Singapore?"
+  },
+  {
+   "s": "A",
+   "t": "Geographically it's a luxury. The port recorded three point two two billion gross tons of vessel arrivals last year. It's arguably the best place on earth to listen to shipping. And the global ship-data network lists no station here at all on the first page of its own directory."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The densest shipping lane in the world, uninstrumented."
+  },
+  {
+   "s": "A",
+   "t": "The catch is legal. Singapore Customs' page for the media regulator lists scanning receivers among equipment needing prior approval before entry."
+  },
+  {
+   "s": "B",
+   "t": "Does a receive-only dongle count?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody has published an answer. That's the question we'd put to the regulator on the record."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Noted. Two quick ones before the essay."
+  },
+  {
+   "s": "A",
+   "t": "A trial in Perth put a hundred and twenty people on a powerful weight-loss injection for forty weeks, and sent half of them to a supervised gym three times a week. Both groups lost the same twenty-two kilograms. The weights made no difference at all to how much fat came off."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] None?"
+  },
+  {
+   "s": "A",
+   "t": "That outcome came back null. But the lifters held on to about a kilogram more lean tissue, and left measurably stronger, while the drug-only group walked out about a tenth weaker than they went in."
+  },
+  {
+   "s": "B",
+   "t": "So the honest headline is—"
+  },
+  {
+   "s": "A",
+   "t": "The trial asked two main questions and got opposite answers. And what it measured isn't muscle exactly — the authors' own estimate of real muscle is about a half-kilogram difference, after forty weeks."
+  },
+  {
+   "s": "B",
+   "t": "General guidance. Not medical advice."
+  },
+  {
+   "s": "A",
+   "t": "Not medical advice. And the band U-two released their first album in nine years today."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] With the Dolly Parton track."
+  },
+  {
+   "s": "A",
+   "t": "Her last recorded vocal. She died on the twenty-fifth of August, aged eighty. The song was cut in June."
+  },
+  {
+   "s": "B",
+   "t": "Is it good?"
+  },
+  {
+   "s": "A",
+   "t": "The critics split exactly on that track. Exclaim calls it the strongest diversion on the record. A reviewer in Auckland went the other way — sadly, he writes, it's not her finest moment. Zero chemistry."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's a brave thing to write this month."
+  },
+  {
+   "s": "A",
+   "t": "It is. Right — the long read."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Okay."
+  },
+  {
+   "s": "A",
+   "t": "In almost every Japanese junior high school, the thing that actually raised the children was not the lessons. It was the club."
+  },
+  {
+   "s": "B",
+   "t": "The baseball team. The brass band."
+  },
+  {
+   "s": "A",
+   "t": "The calligraphy room. Run after school and at weekends by teachers who were not paid for it."
+  },
+  {
+   "s": "B",
+   "t": "And Japan has decided it can't afford that."
+  },
+  {
+   "s": "A",
+   "t": "The reason is in labour law, not education policy. An amendment passed last year commits the government to cutting teachers' average overtime to about thirty hours a month by the twenty twenty-nine financial year."
+  },
+  {
+   "s": "B",
+   "t": "So the clubs have to go somewhere."
+  },
+  {
+   "s": "A",
+   "t": "They're being handed to licensed outside organisations that charge families a monthly fee. And the ministry's own vocabulary did the work."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How?"
+  },
+  {
+   "s": "A",
+   "t": "Until twenty twenty-three the policy was called transfer. They changed it to deployment, because transfer frightened people. And in the same documents the child acquires a new noun. Beneficiary."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Beneficiary."
+  },
+  {
+   "s": "A",
+   "t": "As in beneficiary-pays. And the price of a Japanese adolescence is now written down, in a budget annex from last December. One thousand to three thousand yen a month."
+  },
+  {
+   "s": "B",
+   "t": "What's the real price?"
+  },
+  {
+   "s": "A",
+   "t": "Kobe went furthest. From the first of September it ended club activities at its municipal junior highs altogether, and certified one thousand and seven outside clubs against about eleven hundred."
+  },
+  {
+   "s": "B",
+   "t": "And the fee there?"
+  },
+  {
+   "s": "A",
+   "t": "About three thousand two hundred yen a month. And here's the fact that makes the whole thing legible. In ninety-four point two per cent of municipalities running these clubs, the main venue is the junior high school's own facilities."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] The same gym."
+  },
+  {
+   "s": "A",
+   "t": "The same gym. Often the same teacher, now moonlighting for pay under a dual-employment permit. What changes is legal status. A certification, an insurance policy, a membership contract, and a fee."
+  },
+  {
+   "s": "B",
+   "t": "The club didn't leave the building."
+  },
+  {
+   "s": "A",
+   "t": "It left the balance sheet."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And who gets hurt?"
+  },
+  {
+   "s": "A",
+   "t": "Japan has the data, which is what makes this reportable. A year in a school sports club costs a household about fifty thousand eight hundred yen. A year in a private one, a hundred and fifty-five thousand. Among households under four million yen a year, forty-two point three per cent of children were in a school sports club — against above half in every other income band."
+  },
+  {
+   "s": "B",
+   "t": "So the school club was the thing the poor actually used."
+  },
+  {
+   "s": "A",
+   "t": "And what replaces it is the thing they already couldn't afford, or couldn't drive to. The two barriers those parents name — cost, and the driving — are precisely the two the new system adds."
+  },
+  {
+   "s": "B",
+   "t": "Is anybody measuring the damage?"
+  },
+  {
+   "s": "A",
+   "t": "Niigata asked its parents in May. Six thousand six hundred and fifty-eight replies. Fifty-three per cent of children in a community club. Forty-four point six in none at all."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And nobody knows whether that forty-four is the same children."
+  },
+  {
+   "s": "A",
+   "t": "Nobody has measured it. And nobody has published what families are actually paying — not by sport, not by municipality, not by income."
+  },
+  {
+   "s": "B",
+   "t": "What's the fairest way to say this?"
+  },
+  {
+   "s": "A",
+   "t": "That it's a hard story, not a sad one. The teachers are winning, and they deserved to. Their weekend hours on clubs fell by forty minutes a day between twenty sixteen and twenty twenty-two."
+  },
+  {
+   "s": "B",
+   "t": "And the safeguarding?"
+  },
+  {
+   "s": "A",
+   "t": "Real too. Insurance, training, record checks, a three-hour cap. The old system ran on unpaid, unscreened, unsupervised coaching, and the guideline devotes a whole section to the harm that produced."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the reform is genuine."
+  },
+  {
+   "s": "A",
+   "t": "The reform is genuine, the gain is genuine, and the bill is going to the households least able to pay it."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Japan is finding out what the cost of adolescence was."
+  },
+  {
+   "s": "A",
+   "t": "By being made to put it on an invoice."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And that's the thread, isn't it. Whose name is on the thing."
+  },
+  {
+   "s": "A",
+   "t": "A company with no chair for thirty-three years, because it had a founder instead. An office at Collyer Quay with a locked door and a one-dollar share."
+  },
+  {
+   "s": "B",
+   "t": "A tariff written to keep things out, used to let them through."
+  },
+  {
+   "s": "A",
+   "t": "And a club that changed its legal name and nothing else."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And that's where we leave it."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

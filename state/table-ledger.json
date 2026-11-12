@@ -2134,9 +2134,10 @@
       "venue": "Nekobushi",
       "key": "Nekobushi",
       "runs": [
-        153
+        153,
+        161
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 153 build",
       "note": "opening run — record the peg here"
     },
@@ -2144,9 +2145,10 @@
       "venue": "Woodsmen by Cut Butchery",
       "key": "Woodsmen by Cut Butchery",
       "runs": [
-        153
+        153,
+        161
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 153 build",
       "note": "opening run — record the peg here"
     },
@@ -2319,9 +2321,29 @@
       "status": "OPEN",
       "checked": "No. 160 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Casa Vostra",
+      "key": "Casa Vostra",
+      "runs": [
+        161
+      ],
+      "status": "OPEN",
+      "checked": "No. 161 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Ma Cuisinette",
+      "key": "Ma Cuisinette",
+      "runs": [
+        161
+      ],
+      "status": "OPEN",
+      "checked": "No. 161 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 161,
+  "barred_for_issue": 162,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2445,8 +2467,8 @@
     "Yee3",
     "SHAO",
     "Mr. CHEESECAKE",
-    "Warmhouse Nasi Lemak",
-    "Menya Saku",
+    "Nekobushi",
+    "Woodsmen by Cut Butchery",
     "HanBroth",
     "The Hokkien Mee Club",
     "ODD Ramen & Diner",
@@ -2461,6 +2483,8 @@
     "Habibi Kebs",
     "Mala Mia",
     "Yeah Gelato",
-    "Soi Stories"
+    "Soi Stories",
+    "Casa Vostra",
+    "Ma Cuisinette"
   ]
 }
