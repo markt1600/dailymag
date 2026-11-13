@@ -1,5 +1,5 @@
 {
-  "count": 1208,
+  "count": 1217,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,69 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "Apple HomeView",
+      "type": "Product (smart display)",
+      "last_covered": "No. 162",
+      "last_peg": "Kit LEAD &mdash; <b>on sale 13 Nov 2026</b> in seven launch countries including Singapore at <b>S$399</b> (US$299); A18 with Secure Exclaves, 7in display to a 0.3-nit floor, 12MP camera, six-face recognition; <b>not sold in the EU at all</b> because Siri AI is unavailable there. Consumer Reports: &ldquo;essentially a $300 iPhone accessory that plugs into a wall&rdquo;. Apple&rsquo;s own SG pages c",
+      "next_peg": "LIVE. Next peg: the software update adding Siri control of locks and garage doors, or an EU launch."
+    },
+    {
+      "subject": "Audio-Technica ATH-AWX7000",
+      "type": "Product (headphone)",
+      "last_covered": "No. 162",
+      "last_peg": "Good Life LEAD &mdash; Japanese retail from <b>6 Nov 2026</b> and first independent verdicts; <b>US$3,799</b>, Kiso cypress under a special government allocation, hand-applied Echizen lacquer, Naruse Factory. Major HiFi&rsquo;s cons list carries &ldquo;Vocals can sound hollow and distant&rdquo;; Audio46 warns bass-sensitive listeners. <b>No Singapore price exists.</b> The maker&rsquo;s own page sh",
+      "next_peg": "LIVE, one peg spent. Next peg: a measurement, a Singapore distributor, or the production-ended flag resolving."
+    },
+    {
+      "subject": "llama.cpp / ggml",
+      "type": "Software (local inference)",
+      "last_covered": "No. 162",
+      "last_peg": "Home Lab LEAD &mdash; <b>v1.0.0 tagged 13 Nov 2026</b>, MIT, a published versioning contract after 3.5 years, <b>35 deprecated functions removed</b>, FP8 KV caches merged (PR 28392, no published quality measurements), the fused CUDA kernels that deliver the speed <b>still unmerged</b> in PR 31802.",
+      "next_peg": "LIVE. Next peg: PR 31802 merging, or a published perplexity/KL measurement for the FP8 cache."
+    },
+    {
+      "subject": "Anthropic IPO",
+      "type": "Event (corporate)",
+      "last_covered": "No. 162",
+      "last_peg": "Technology LEAD &mdash; <b>four FWPs on 12 Nov 2026</b> opening UK, EEA, Japan and Australia retail tranches; 825m shares at US$70&ndash;78; prices 18 Nov, trades 19 Nov as ANT. Q3 revenue US$17.0bn; nine-month net loss US$104.0bn against an operating loss of US$1.26bn. Exhibit 10.15 now a dated Google agreement at US$10bn; <b>new exhibit 10.16 is the same contract with the counterparty blank</b>.",
+      "next_peg": "LIVE. Next peg: the 424(b)(4) final price on 19 Nov, or exhibit 10.16&rsquo;s counterparty being named."
+    },
+    {
+      "subject": "BIS Affiliates Rule",
+      "type": "Policy (export control)",
+      "last_covered": "No. 162",
+      "last_peg": "Technology correction &mdash; <b>Federal Register 2026-22793, effective 9 Nov 2026, stays it again to 10 Jan 2027</b>; No. 161 had reported it taking effect on 10 Nov. Skadden calls it &ldquo;a brief reprieve&rdquo; tied to the Busan understanding.",
+      "next_peg": "LIVE. Next peg: the 10 Jan 2027 lapse, or a further extension."
+    },
+    {
+      "subject": "Singapore Airlines next-generation cabins",
+      "type": "Product (cabin)",
+      "last_covered": "No. 162",
+      "last_peg": "Departures LEAD &mdash; unveiled 6 Nov 2026 at Marina Bay Sands: <b>more than S$2bn</b> across four cabin products plus S$130m on lounges; 41 A350-900s and 31 777-9s; <b>First Class comes to the A350-900ULR for the first time</b>; rollout slipped a second time, to <b>H2 2027</b>, with full retrofit still targeted at end-2030. <b>The airline&rsquo;s own site was unreachable; every item is trade-pre",
+      "next_peg": "LIVE. Next peg: a launch route, or the H2 2027 date holding or slipping again."
+    },
+    {
+      "subject": "Christmas Wonderland (Gardens by the Bay)",
+      "type": "Event (annual)",
+      "last_covered": "No. 162",
+      "last_peg": "Diary &mdash; <b>priced at last after eight issues</b>: 27 Nov 2026&ndash;3 Jan 2027, adult advance from <b>S$9</b> off-peak to S$13 super-peak, child 3&ndash;12 a flat S$7, S$3 on-site surcharge. <b>And the resolution of the held thread: the conservatories are charged separately</b>, so the Flower Dome display is S$12/S$8 on top.",
+      "next_peg": "LIVE, seasonal. Next peg: the 2027 edition, or the Flower Dome display&rsquo;s name and closing date appearing."
+    },
+    {
+      "subject": "ART SG",
+      "type": "Event (annual fair)",
+      "last_covered": "No. 162",
+      "last_peg": "Diary MARQUEE &mdash; 2027 edition 22&ndash;24 Jan at Marina Bay Sands Expo; <b>early bird closes 24 Nov 2026, 11.59pm</b>; two adult Saturday tickets S$44 against S$88; <b>Children&rsquo;s Pass free for 16 and under with a ticketed adult</b>.",
+      "next_peg": "LIVE. Next peg: the early-bird deadline passing, or the exhibitor list."
+    },
+    {
+      "subject": "Grand Sumo Hatsu Basho",
+      "type": "Event (annual)",
+      "last_covered": "No. 162",
+      "last_peg": "Diary MARQUEE &mdash; 10&ndash;24 Jan 2027 at Ryogoku Kokugikan, <b>advance sales 5 Dec 2026</b>; the November Fukuoka tournament is <b>sold out on all fifteen days</b> with no day-of sales. <b>Prices unpublished &mdash; the agent&rsquo;s price page 404s.</b>",
+      "next_peg": "LIVE. Next peg: the 5 Dec on-sale, and whether prices appear."
     },
     {
       "subject": "Jensen Huang resignation (Nvidia CEO transition)",

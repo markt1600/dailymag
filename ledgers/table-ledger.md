@@ -103,7 +103,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Visitors Café | Visitors Café | 58 | OPEN | 21 Sep 2026 (archive scan) |  |
 | FreakyNoods | FreakyNoods | 51, 52, 54, 56 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Nomad Kitchen | Nomad Kitchen | 160 | OPEN | 12 Nov 2026 | Taman Jurong Market &amp; Food Centre; seven-country hawker stall, Eatbook 8.5/10, 27 Oct 2026. <b>Distinct from NoMad @ Hilton above &mdash; different venue, different people, no relation.</b> |
-| NoMad @ Hilton | NoMad | 56 | OPEN | 12 Nov 2026 | <b>No. 160 was recorded here in error and has been removed:</b> the match was the substring &ldquo;NoMad&rdquo; inside <b>Nomad Kitchen</b>, an unrelated Taman Jurong hawker stall covered in No. 160. This venue did not appear in No. 160. The key is a substring trap &mdash; check it by eye whenever a new venue&rsquo;s name contains it. |
+| NoMad @ Hilton | NoMad | 56, 162 | SPENT | 12 Nov 2026 | <b>No. 160 was recorded here in error and has been removed:</b> the match was the substring &ldquo;NoMad&rdquo; inside <b>Nomad Kitchen</b>, an unrelated Taman Jurong hawker stall covered in No. 160. This venue did not appear in No. 160. The key is a substring trap &mdash; check it by eye whenever a new venue&rsquo;s name contains it. |
 | Rolls Izakaya | Rolls Izakaya | 56 | OPEN | 21 Sep 2026 (archive scan) |  |
 | Sam Sam Sam | Sam Sam Sam | 47, 50, 51, 54 | SPENT | 21 Sep 2026 (archive scan) |  |
 | Bouillon Gavroche | Bouillon Gavroche | 17, 28, 34, 47, 53 | SPENT | 21 Sep 2026 (archive scan) |  |
@@ -260,3 +260,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Soi Stories | Soi Stories | 160 | OPEN | No. 160 build | opening run — record the peg here |
 | Casa Vostra | Casa Vostra | 161 | OPEN | No. 161 build | opening run — record the peg here |
 | Ma Cuisinette | Ma Cuisinette | 161 | OPEN | No. 161 build | opening run — record the peg here |
+| Good Luck Bagels | Good Luck Bagels | 162 | OPEN | No. 162 build | opening run — record the peg here |
+| Peach Blossoms | Peach Blossoms | 162 | OPEN | No. 162 build | opening run — record the peg here |
+| Yaya Lorong | Yaya Lorong | 162 | OPEN | No. 162 build | opening run — record the peg here |

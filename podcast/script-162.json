@@ -1,0 +1,780 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 162,
+ "date": "Saturday 14 November 2026",
+ "title": "The Lag",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Saturday, the fourteenth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Europe finally gets a seat at the Ukraine table. It turns out to be five chairs, and Moscow says nobody sent an invitation."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the bond market had its biggest week in a year without changing its mind about inflation. At all. Not by anything."
+  },
+  {
+   "s": "A",
+   "t": "One basis point. I'll explain."
+  },
+  {
+   "s": "B",
+   "t": "And down the hole today — orchids. The wild ones. Where the experts can't agree how many kinds exist, to the nearest five thousand. Five thousand. It's a wonderful number, Claire, and I'm going to enjoy it later."
+  },
+  {
+   "s": "A",
+   "t": "There's a thread running through the whole book this morning, and I want to name it before we start. The measurement arrives late. After the thing it measures has already moved."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Mm. That's the issue."
+  },
+  {
+   "s": "A",
+   "t": "Right. The lead. European Union leaders met in Dublin yesterday, and late on Friday evening they settled an argument that has run most of this war."
+  },
+  {
+   "s": "B",
+   "t": "Who speaks for Europe."
+  },
+  {
+   "s": "A",
+   "t": "Who speaks for Europe. The answer is the European Union's own institutions, plus five governments. Britain, France, Germany, Italy and Poland."
+  },
+  {
+   "s": "B",
+   "t": "Announced when, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "António Costa, at quarter past nine Irish time. Which was quarter past five on Saturday morning here. So this is genuinely new for anyone reading the book over breakfast."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And why does it matter that it's five rather than one?"
+  },
+  {
+   "s": "A",
+   "t": "Because Europe asked for a voice, and what it got was a committee. National security advisers, technical level. No political representative named. The week behind it is the part worth holding on to. Russian, Ukrainian and American officials met in Abu Dhabi on the tenth and eleventh. First three-way round since February."
+  },
+  {
+   "s": "B",
+   "t": "And they came out with?"
+  },
+  {
+   "s": "A",
+   "t": "One agreement. A prisoner exchange. No ceasefire. Nothing on territory. One exchange."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] How big an exchange, though? Because that's not nothing to the families."
+  },
+  {
+   "s": "A",
+   "t": "It's not nothing at all. Zelensky put the first figure on it on Friday night — more than a thousand people from each side. Al Jazeera reports the ceiling under discussion at fifteen hundred."
+  },
+  {
+   "s": "B",
+   "t": "Against what, last time?"
+  },
+  {
+   "s": "A",
+   "t": "February's round produced a hundred and fifty-seven a side."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So this is — what, six or seven times bigger."
+  },
+  {
+   "s": "A",
+   "t": "Roughly. His words were, we count on a truly large-scale prisoner exchange."
+  },
+  {
+   "s": "B",
+   "t": "And the Americans were doing shuttle diplomacy in between?"
+  },
+  {
+   "s": "A",
+   "t": "Steve Witkoff and Jared Kushner met Putin in Russia on the twelfth, then flew the same evening to an Irish military airfield west of Dublin and briefed Zelensky on the apron."
+  },
+  {
+   "s": "B",
+   "t": "[amused] On the apron. Standing on the tarmac."
+  },
+  {
+   "s": "A",
+   "t": "Standing on the tarmac. Kushner called it a very good discussion."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Two viewpoints. Give me Moscow."
+  },
+  {
+   "s": "A",
+   "t": "Moscow is dismissive. Dmitry Medvedev, deputy chairman of the Security Council, on the new European team: not to mention, the EU hasn't even been invited yet."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Hasn't been invited."
+  },
+  {
+   "s": "A",
+   "t": "That's the line. And from Dublin, Kaja Kallas — the European Union's own foreign policy chief, and the person left off the team — explains why she thinks she was left off. They don't want anybody strong on the other side, because they want to push through their maximum demands."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a sharp thing for her to say out loud."
+  },
+  {
+   "s": "A",
+   "t": "It is. And the sceptic on the page is sharper. Max Boot, at the Council on Foreign Relations: these talks are a dangerous farce."
+  },
+  {
+   "s": "B",
+   "t": "Does anything actually test that? Because farce or not, a thousand people come home."
+  },
+  {
+   "s": "A",
+   "t": "Three things, and they're all dated. Does the exchange physically complete before December. Is a date fixed for the next round after the leaders meet in Shenzhen on the eighteenth and nineteenth. And does a single European actually sit in the room. Worth remembering that February's round also ended with a prisoner agreement and a promise to meet again, and nine months later the lines have not moved."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good. That's a test, not a mood."
+  },
+  {
+   "s": "A",
+   "t": "Money block. And this is where the lag earns its name."
+  },
+  {
+   "s": "B",
+   "t": "Right, the one basis point. Explain it to me like I didn't go to the meeting."
+  },
+  {
+   "s": "A",
+   "t": "Two inflation prints landed this week. Core consumer prices came in at nought point three per cent on the month, for a third month running. Then producer prices on Friday: six point five per cent over twelve months."
+  },
+  {
+   "s": "B",
+   "t": "Which is high?"
+  },
+  {
+   "s": "A",
+   "t": "The hottest in four years."
+  },
+  {
+   "s": "B",
+   "t": "So the market panicked about inflation."
+  },
+  {
+   "s": "A",
+   "t": "No. That's the whole point. The market did not change its mind about inflation at all."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How can you tell?"
+  },
+  {
+   "s": "A",
+   "t": "Because you can read both. The ten-year yield rose twenty-nine basis points on the week, to five point one five per cent. The ten-year real yield — the inflation-protected one — rose twenty-eight, to two point nine one."
+  },
+  {
+   "s": "B",
+   "t": "And the difference between those two is the market's inflation expectation."
+  },
+  {
+   "s": "A",
+   "t": "The breakeven. It moved one basis point."
+  },
+  {
+   "s": "B",
+   "t": "[pause] One."
+  },
+  {
+   "s": "A",
+   "t": "One. So nobody repriced inflation. Everybody repriced the cost of borrowing money."
+  },
+  {
+   "s": "B",
+   "t": "And that's why gold fell."
+  },
+  {
+   "s": "A",
+   "t": "That's exactly why gold fell. Four point eight per cent, straight through four thousand dollars, in the same week as the hottest producer print in four years."
+  },
+  {
+   "s": "B",
+   "t": "Which breaks the thing everyone says about gold."
+  },
+  {
+   "s": "A",
+   "t": "Gold is not an inflation hedge. It's a short position in real interest rates. Real rates went up, so it went down. Bitcoin fell nine point four on the week."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the December meeting?"
+  },
+  {
+   "s": "A",
+   "t": "A rise is now priced at one hundred per cent. About ninety per cent of that on a quarter point, roughly ten to fourteen per cent on a half."
+  },
+  {
+   "s": "B",
+   "t": "And a week ago?"
+  },
+  {
+   "s": "A",
+   "t": "A quarter of the market expected them to hold. That bucket no longer exists. And the front end led the move — the two-year up thirty-seven basis points against the thirty-year's twenty-one. That shape tells you it was about the path of policy, not about anything structural."
+  },
+  {
+   "s": "B",
+   "t": "Okay. And the lag?"
+  },
+  {
+   "s": "A",
+   "t": "Brent crude was a hundred and thirty-five dollars a barrel on the second of October. On the tenth of November it was ninety."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] A third of it. Gone."
+  },
+  {
+   "s": "A",
+   "t": "A third gone. And the inflation that barrel caused is still arriving in the data. So a central bank is being priced to tighten into the shadow of a shock that has already reversed."
+  },
+  {
+   "s": "B",
+   "t": "That's genuinely unsettling."
+  },
+  {
+   "s": "A",
+   "t": "Here's the part that makes it worse. America currently publishes an annual producer-price inflation rate, and no annual consumer-price inflation rate at all."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] None?"
+  },
+  {
+   "s": "A",
+   "t": "None. The statistics bureau didn't collect October twenty twenty-five data during a lapse in appropriations, so the twelve-month column is a dash."
+  },
+  {
+   "s": "B",
+   "t": "So you can't compare this year to last year."
+  },
+  {
+   "s": "A",
+   "t": "For the headline number, you cannot. Meanwhile the Bank of Japan held at about one and a quarter per cent on an eight to one vote, with the dissenter arguing for one and a half, and the yen sat at exactly one hundred and sixty. And none of this is investment advice — it's explanation."
+  },
+  {
+   "s": "B",
+   "t": "Singapore, and this one is closer to home."
+  },
+  {
+   "s": "A",
+   "t": "The cyber agency published an advisory yesterday. Reported incidents since September are running at three times the monthly average for the rest of the year."
+  },
+  {
+   "s": "B",
+   "t": "Three times. And is somebody coming for us?"
+  },
+  {
+   "s": "A",
+   "t": "No, and they say so plainly. The incidents do not appear to be part of coordinated campaigns targeting Singapore. Opportunistic scanning, and compromised suppliers."
+  },
+  {
+   "s": "B",
+   "t": "The health ministry named six organisations the day before, didn't it?"
+  },
+  {
+   "s": "A",
+   "t": "Six. And none of them is a hospital. A benefits administrator, a telehealth app, a migrant worker portal, a screening group, a charity's app, and a statutory agency's planning tool."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what actually walked out of the door?"
+  },
+  {
+   "s": "A",
+   "t": "Identity fields, mostly. Name, identity card number, date of birth, phone, email. Sometimes a bank account. The ministry says no patient health records, to its knowledge."
+  },
+  {
+   "s": "B",
+   "t": "And the biggest group of victims?"
+  },
+  {
+   "s": "A",
+   "t": "Staff. Four thousand and sixty-four healthcare and community care workers, through the advance care planning system. The other big one was a benefits administrator with about a hundred and ten thousand members — and what's unusual is that six insurers then published their own affected-customer counts, and three published denials."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The system where you record what you want done if you can't say it yourself."
+  },
+  {
+   "s": "A",
+   "t": "That one. They took it offline the day they found it and had it back two days later. In between, the facilitators used paper forms."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] There's something very human in that detail."
+  },
+  {
+   "s": "A",
+   "t": "Technology. And I'm going to say this once, plainly, because the page does. This book is written using Anthropic's models. Anthropic is going public, and we report it from the filings, not from the company."
+  },
+  {
+   "s": "B",
+   "t": "Understood. What's in the filings?"
+  },
+  {
+   "s": "A",
+   "t": "They opened retail tranches on the twelfth — Britain, the European Economic Area, Japan and Australia. It prices on the eighteenth, trades on the nineteenth."
+  },
+  {
+   "s": "B",
+   "t": "And the numbers people will argue about?"
+  },
+  {
+   "s": "A",
+   "t": "Third-quarter revenue, seventeen billion US dollars. A nine-month net loss of a hundred and four billion, against an operating loss of one point two six billion."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Wait. Those are very different numbers."
+  },
+  {
+   "s": "A",
+   "t": "The headline loss is about eighty-three times the operating loss. And the operating line actually improved, from five point two two billion a year earlier."
+  },
+  {
+   "s": "B",
+   "t": "Which means the scary number isn't the operating business."
+  },
+  {
+   "s": "A",
+   "t": "It isn't. Though the sceptic is not impressed either way. David Trainer called it an unprecedented test of investor gullibility."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That's a sentence."
+  },
+  {
+   "s": "A",
+   "t": "And a correction we owe. Our last issue said the export-control affiliates rule took effect on the tenth. It did not. It was stayed again on the ninth, through to the tenth of January."
+  },
+  {
+   "s": "B",
+   "t": "Twice stayed now."
+  },
+  {
+   "s": "A",
+   "t": "Twice stayed. The lag, again, wearing a lawyer's suit."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And something quieter happened in the same corner, didn't it? The home-lab page."
+  },
+  {
+   "s": "A",
+   "t": "The free program most people use to run an AI model on their own computer reached version one yesterday. After three and a half years, its authors have promised to stop breaking the hundreds of apps built on top of it. An eight-bit cache that halves the space a conversation's working notes take — which roughly doubles how much a given machine can hold in its head before it starts forgetting the beginning. Though the speed gains sit in a request that still hasn't been merged, and nobody has published what it costs in accuracy."
+  },
+  {
+   "s": "B",
+   "t": "The Kit — and this one went on sale while we slept."
+  },
+  {
+   "s": "A",
+   "t": "Apple began selling HomeView here yesterday. Three hundred and ninety-nine Singapore dollars for either model, tabletop or wall-mounted."
+  },
+  {
+   "s": "B",
+   "t": "What is it, for someone who doesn't follow this?"
+  },
+  {
+   "s": "A",
+   "t": "The thing that sits on a kitchen counter, answers questions, shows the doorbell camera and runs the lights. Amazon and Google have sold them for years. This is Apple's first."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the odd fact?"
+  },
+  {
+   "s": "A",
+   "t": "Singapore is one of seven launch countries. The European Union is not one of them, at all, because the voice assistant isn't offered there."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So Singapore gets it on day one and Paris doesn't."
+  },
+  {
+   "s": "A",
+   "t": "Paris doesn't. And Consumer Reports is brutal about what you're buying: essentially a three-hundred-dollar iPhone accessory that plugs into a wall. Their argument is that the hardware could clearly run on its own, and Apple has chosen to tie it to the phone."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier today — the buy-it-once page?"
+  },
+  {
+   "s": "A",
+   "t": "Wool blankets. And the whole quality hierarchy turns out to be a single number. Mean fibre diameter, in microns. Coarse wool itches for a mechanical reason, not a mystical one — at roughly thirty microns and above, the fibre is stiff enough to irritate skin."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the itch is physics."
+  },
+  {
+   "s": "A",
+   "t": "The itch is physics. Everything else is spin, weave and finish. And one distinction the marketing leans on: lambswool is an age — the first shearing. Merino is a breed. A blanket can be both, either, or neither, and the label rarely tells you which."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every single morning with this."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] You love it. Orchids, Claire. The wild ones."
+  },
+  {
+   "s": "A",
+   "t": "Not the supermarket ones."
+  },
+  {
+   "s": "B",
+   "t": "That's the whole distinction. The orchid in the supermarket is a factory hybrid, mericloned by the hundred thousand, and it usually has no name at all on the label."
+  },
+  {
+   "s": "A",
+   "t": "And the species growers collect?"
+  },
+  {
+   "s": "B",
+   "t": "The wild kinds. The plants as evolution made them. Each one has a real binomial name and a real mountain it came from."
+  },
+  {
+   "s": "A",
+   "t": "[curious] How many kinds are there?"
+  },
+  {
+   "s": "B",
+   "t": "[amused] Ah. Now. That is my favourite thing in this entire issue. The live checklist, dated the twenty-ninth of October, gives thirty-one thousand and ninety accepted species, in seven hundred and thirty-two genera. Another standard count gives about twenty-eight thousand. A third gives more than thirty-three thousand."
+  },
+  {
+   "s": "A",
+   "t": "[pause] So the honest answer is—"
+  },
+  {
+   "s": "B",
+   "t": "The honest answer is that the authorities differ by about five thousand species. Which is more orchids than most countries have plants."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] The lag. In a greenhouse."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] In a greenhouse! Nobody has caught up with the counting. They're still describing new ones faster than the lists can agree."
+  },
+  {
+   "s": "A",
+   "t": "And this is a Singapore story, properly."
+  },
+  {
+   "s": "B",
+   "t": "It really is. The national flower is an orchid. There's a National Orchid Garden. There's a whole diplomatic tradition of naming new hybrids after visiting heads of state."
+  },
+  {
+   "s": "A",
+   "t": "So a grower here has an advantage."
+  },
+  {
+   "s": "B",
+   "t": "For some of it, an enormous one. The warm-growing genera that need heat and humidity all year — you can do those on a balcony here in a way that someone in a cold country spends thousands trying to fake."
+  },
+  {
+   "s": "A",
+   "t": "And the catch?"
+  },
+  {
+   "s": "B",
+   "t": "The cool growers. The ones from cloud forest at altitude. Here, you need to chill them, and chilling a cabinet in the tropics is the expensive end of this hobby."
+  },
+  {
+   "s": "A",
+   "t": "[curious] What does it actually cost to start?"
+  },
+  {
+   "s": "B",
+   "t": "Less than people think to start, and more than people admit to continue. That's the honest shape of it — the plants are affordable and the environment is where the money goes."
+  },
+  {
+   "s": "A",
+   "t": "And the obsessives?"
+  },
+  {
+   "s": "B",
+   "t": "The obsessives chase named clones with awards attached, and the prices there get genuinely silly. We've printed what we could verify and flagged what we couldn't."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Good. I like this one."
+  },
+  {
+   "s": "B",
+   "t": "[excited] You do! You actually do!"
+  },
+  {
+   "s": "A",
+   "t": "I like that the experts can't count. Culture and the body. Two films, one trial, one cohort."
+  },
+  {
+   "s": "B",
+   "t": "Godzilla first."
+  },
+  {
+   "s": "A",
+   "t": "The American opening has finally stopped moving. Thirty point six million dollars, after three separate revisions."
+  },
+  {
+   "s": "B",
+   "t": "[amused] We printed all three."
+  },
+  {
+   "s": "A",
+   "t": "We printed all three. And here is the lag again — the encyclopaedia still prints the first figure, two revisions stale, while the distributor's own tracker shows two different running totals on the same page. On one page, with no explanation."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Box office is an estimate wearing a suit."
+  },
+  {
+   "s": "A",
+   "t": "And it loses the crown this weekend. Gold Derby forecasts Johnny Depp's Ebenezer taking it, with Godzilla second."
+  },
+  {
+   "s": "B",
+   "t": "And the trial. This is the one that got me."
+  },
+  {
+   "s": "A",
+   "t": "Fitness. The tongue and throat exercise routine that's sold online as a drug-free fix for snoring and sleep apnoea."
+  },
+  {
+   "s": "B",
+   "t": "Which a lot of people have genuinely tried."
+  },
+  {
+   "s": "A",
+   "t": "They put it through a proper trial. Pre-registered before anyone enrolled. Blinded assessors. Three full sleep-laboratory nights per person, before and after."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And?"
+  },
+  {
+   "s": "A",
+   "t": "It moved the apnoea index by nought point six events an hour. Probability value, nought point seven seven four."
+  },
+  {
+   "s": "B",
+   "t": "Which in plain words is—"
+  },
+  {
+   "s": "A",
+   "t": "Nothing. It did nothing."
+  },
+  {
+   "s": "B",
+   "t": "And the published literature said?"
+  },
+  {
+   "s": "A",
+   "t": "The pooled literature promised a drop of nine and a half points. A near-cure."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Nine and a half against nought point six."
+  },
+  {
+   "s": "A",
+   "t": "And the people who did the exercises most diligently did no better than the people who barely did them. General guidance, by the way, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] That's the cleanest version of the lag in the whole book."
+  },
+  {
+   "s": "A",
+   "t": "It is. One more. The family desk."
+  },
+  {
+   "s": "B",
+   "t": "The anxiety numbers."
+  },
+  {
+   "s": "A",
+   "t": "British twelve and thirteen year olds. Emotional problems went from about ten per cent in two thousand and nine to about twenty-five per cent in twenty twenty-four."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a doubling and more."
+  },
+  {
+   "s": "A",
+   "t": "And over exactly the same fifteen years, the same children smoked less, drank less, came home earlier, and quarrelled with their parents less often."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So the most anxious cohort on record—"
+  },
+  {
+   "s": "A",
+   "t": "Is also the best-behaved one. Both things are true, and any explanation has to hold both. The authors call the scale epidemic, and the split by sex is stark — girls at thirty-nine per cent against boys at sixteen."
+  },
+  {
+   "s": "B",
+   "t": "And three dates before we go down."
+  },
+  {
+   "s": "A",
+   "t": "The twenty-fourth of November, when the art fair's early bird closes — and a child under sixteen gets in free with a ticketed adult. The thirtieth, for the gallery discount. And the fifth of December, when January's sumo goes on sale."
+  },
+  {
+   "s": "B",
+   "t": "Is sumo hard to get?"
+  },
+  {
+   "s": "A",
+   "t": "The tournament running right now is sold out on all fifteen days. No day-of tickets. So: alarm, fifth of December. And one thread we've chased for eight issues finally closed — the Christmas display at the gardens is priced from nine dollars, but the conservatories charge separately, so the real family cost is that plus twelve dollars a head."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Noted. And now the quiet one."
+  },
+  {
+   "s": "A",
+   "t": "Kazakhstan. And a word. Samozapret. Self-prohibition. And it isn't used medically — it's used administratively, the way you'd say you cancelled a card."
+  },
+  {
+   "s": "B",
+   "t": "What are people prohibiting themselves from?"
+  },
+  {
+   "s": "A",
+   "t": "Two things. Betting, and borrowing. Four hundred and sixty-three thousand, eight hundred and twenty-nine applications to be forbidden from betting. Six months to ten years."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And if you change your mind?"
+  },
+  {
+   "s": "A",
+   "t": "You can't. There's no early exit. It can be extended, never cancelled."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's a serious thing to sign."
+  },
+  {
+   "s": "A",
+   "t": "And separately, five point one million citizens have switched off their own ability to borrow."
+  },
+  {
+   "s": "B",
+   "t": "In a country of—"
+  },
+  {
+   "s": "A",
+   "t": "Close to one adult in three."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So a whole population has learned to disable part of itself on purpose."
+  },
+  {
+   "s": "A",
+   "t": "That's the first half. Here's the turn. The state took the register of people who had asked to be stopped, and merged it with the register of people who owe money. Alimony defaulters. Civil servants. Soldiers. The convicted. And now every bet is checked against both."
+  },
+  {
+   "s": "B",
+   "t": "So at the counter—"
+  },
+  {
+   "s": "A",
+   "t": "At the counter, you cannot tell which you are. The terminal doesn't say whether you're being protected or punished."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the numbers?"
+  },
+  {
+   "s": "A",
+   "t": "In the first ten weeks it barred a hundred and thirty-five thousand people. More than a hundred and sixteen thousand of them were debtors. About fifteen thousand had banned themselves."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So it's mostly an enforcement machine."
+  },
+  {
+   "s": "A",
+   "t": "Mostly. And then there's how it's paid for. Three point three per cent of every accepted bet funds the system. And thirteen per cent of that slice goes to the operator of the register itself."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So the machine that stops people betting—"
+  },
+  {
+   "s": "A",
+   "t": "Is paid for by betting. Its budget rises when the problem gets worse."
+  },
+  {
+   "s": "B",
+   "t": "And the treatment side?"
+  },
+  {
+   "s": "A",
+   "t": "Thirteen people completed state-funded treatment this year. Thirteen."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Thirteen. Against five point one million self-bans."
+  },
+  {
+   "s": "A",
+   "t": "Which is the whole argument. It isn't a health policy. It's what a state does when it has a world-class digital identity system and almost no psychiatrists."
+  },
+  {
+   "s": "B",
+   "t": "It offers you the thing it's actually good at."
+  },
+  {
+   "s": "A",
+   "t": "Saying no on your behalf. And here is where the morning lands: a state that cannot count its addicts can count their abstentions in real time."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The measurement arrives late, except where it's convenient."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

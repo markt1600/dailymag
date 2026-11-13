@@ -686,9 +686,10 @@
       "venue": "NoMad @ Hilton",
       "key": "NoMad",
       "runs": [
-        56
+        56,
+        162
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "12 Nov 2026",
       "note": "<b>No. 160 was recorded here in error and has been removed:</b> the match was the substring &ldquo;NoMad&rdquo; inside <b>Nomad Kitchen</b>, an unrelated Taman Jurong hawker stall covered in No. 160. This venue did not appear in No. 160. The key is a substring trap &mdash; check it by eye whenever a"
     },
@@ -2341,9 +2342,39 @@
       "status": "OPEN",
       "checked": "No. 161 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Good Luck Bagels",
+      "key": "Good Luck Bagels",
+      "runs": [
+        162
+      ],
+      "status": "OPEN",
+      "checked": "No. 162 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Peach Blossoms",
+      "key": "Peach Blossoms",
+      "runs": [
+        162
+      ],
+      "status": "OPEN",
+      "checked": "No. 162 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Yaya Lorong",
+      "key": "Yaya Lorong",
+      "runs": [
+        162
+      ],
+      "status": "OPEN",
+      "checked": "No. 162 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 162,
+  "barred_for_issue": 163,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2387,6 +2418,7 @@
     "Jiin Omakase",
     "FreakyNoods",
     "Nomad Kitchen",
+    "NoMad @ Hilton",
     "Sam Sam Sam",
     "Bouillon Gavroche",
     "Sukiyaki Jin (Les Amis Group)",
@@ -2469,11 +2501,6 @@
     "Mr. CHEESECAKE",
     "Nekobushi",
     "Woodsmen by Cut Butchery",
-    "HanBroth",
-    "The Hokkien Mee Club",
-    "ODD Ramen & Diner",
-    "Greenwood Fish Market",
-    "Earworm",
     "JJAN",
     "HI BOWL",
     "Three Bowls",
@@ -2485,6 +2512,9 @@
     "Yeah Gelato",
     "Soi Stories",
     "Casa Vostra",
-    "Ma Cuisinette"
+    "Ma Cuisinette",
+    "Good Luck Bagels",
+    "Peach Blossoms",
+    "Yaya Lorong"
   ]
 }

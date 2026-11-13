@@ -2600,7 +2600,8 @@
    "desk": "The Good Life",
    "claim": "Bremont's own storefront still carries no limitation on the Supermarine Full Ceramic Deep Blue cards (i.e. the 250-piece claim the magazines printed is never confirmed by the maker)",
    "check_by": "2026-11-09",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Bremont's own product page states the watch is 'limited to 250 pieces worldwide'; we had read the collection grid instead."
   },
   {
    "issue": 127,
@@ -2633,14 +2634,16 @@
    "desk": "Singapore",
    "claim": "NEA's published 1-hr PM2.5 band table still gives no concentration range for Band 3 at the end of this haze episode",
    "check_by": "2026-11-09",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "NEA's haze portal publishes Band 3 (High) as 151-250 ug/m3; we read the air-quality standards annex instead."
   },
   {
    "issue": 127,
    "desk": "The World",
    "claim": "The French interior and justice ministries' arrest counts are never reconciled into a single published figure",
    "check_by": "2026-11-09",
-   "outcome": null
+   "outcome": "push",
+   "result": "Ungradeable as written: 'never' cannot be proven, and the ministries continue to publish different units (4,914 gardes a vue against separate interpellation counts)."
   },
   {
    "issue": 127,
@@ -2656,7 +2659,8 @@
    "desk": "The Long Read",
    "claim": "The Rasmale agreement or its governing act is still unpublished a month on, and no IMF Maldives staff report has appeared",
    "check_by": "2026-11-09",
-   "outcome": null
+   "outcome": "push",
+   "result": "Half right: the IMF's Maldives page shows no 2026 staff report and the March 2025 consultation is unpublished, but the Rasmale leg could not be established either way."
   },
   {
    "issue": 128,
@@ -2735,7 +2739,8 @@
    "desk": "The Kit",
    "claim": "No independent MTF or optical-bench result for the Sigma 50-120mm F2.8 DC OS is published anywhere before 10 November 2026",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "push",
+   "result": "LensTip and OpticalLimits published nothing, but ePhotozine ran a measured review by 1 November and The Digital Picture has chart results; both refused this desk, so 'anywhere' is indefensible."
   },
   {
    "issue": 128,
@@ -2757,14 +2762,16 @@
    "desk": "The Good Life",
    "claim": "Schiit's Bifrost 3 ships before 10 November 2026",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "Schiit's own page shows Bifrost 3 in stock with new orders shipping in 5-7 days, meeting its 9 September promise of end-October."
   },
   {
    "issue": 128,
    "desk": "Screen & Sound",
    "claim": "The Social Reckoning's critic score on the main aggregator is below 61 per cent on 10 November 2026",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "Tomatometer 54% from 275 critics, against our threshold of 61%."
   },
   {
    "issue": 128,
@@ -3905,7 +3912,8 @@
    "desk": "The World",
    "claim": "Perikatan Nasional contests the 14 November Melaka election under a component party's logo rather than its own",
    "check_by": "2026-11-14",
-   "outcome": null
+   "outcome": "right",
+   "result": "Bersatu confirmed it would use its own party logo, the PN emblem being unavailable after the Registrar of Societies suspension; PAS likewise."
   },
   {
    "issue": 140,
@@ -5162,7 +5170,8 @@
    "desk": "The World",
    "claim": "US strikes on Iran begin on or about 4 November 2026, as three Gulf officials told MSNOW",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Nothing began. The war was already more than eight months old; the nearest strikes were on 2 November and a further round on 6 November that Trump called 'minor'."
   },
   {
    "issue": 151,
@@ -5241,7 +5250,8 @@
    "desk": "Singapore",
    "claim": "The THPA amendment tabled 3 November makes non-cooperation with an assessor an offence",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "The bill lets the Director-General order panel assessors with right of entry; failing to hire them or refusing access carries a fine up to S$20m."
   },
   {
    "issue": 151,
@@ -5689,7 +5699,8 @@
    "desk": "The World",
    "claim": "Herzog names Eisenkot as prime minister-designate on 8 November 2026",
    "check_by": "2026-11-09",
-   "outcome": null
+   "outcome": "right",
+   "result": "Herzog gave Eisenkot the mandate on Sunday evening 8 November, 67 MKs to Netanyahu's 46."
   },
   {
    "issue": 155,
@@ -5766,7 +5777,8 @@
    "desk": "The Good Life",
    "claim": "Phillips lot 95, the steel Patek 1436, sells at or above its CHF 2m low estimate on 7 November 2026",
    "check_by": "2026-11-09",
-   "outcome": null
+   "outcome": "right",
+   "result": "The steel Patek 1436 sold for CHF 6,267,000 on 7 November, 57% above its high estimate and the top lot of a $112.3m sale."
   },
   {
    "issue": 155,
@@ -5780,7 +5792,8 @@
    "desk": "Screen & Sound",
    "claim": "Godzilla Minus Zero tops the US domestic weekend of 6-8 November 2026",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "It topped the 6-8 November weekend with $30,628,265 from 3,254 theatres."
   },
   {
    "issue": 155,
@@ -5836,7 +5849,8 @@
    "desk": "The Diary",
    "claim": "Singapore Grand Prix 2027 mid-tier grandstands sell out within 48 hours of the 11 November general sale",
    "check_by": "2026-11-14",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "There was no 11 November general sale. The promoter's page had been selling since before 5 October and eight mid-tier grandstands were already sold out by then."
   },
   {
    "issue": 155,
@@ -5913,14 +5927,16 @@
    "desk": "The Macro Desk",
    "claim": "US October CPI, released 10 November 2026, prints core above 0.3% month on month",
    "check_by": "2026-11-11",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "The BLS release reads 'rose 0.3 percent in October'. Exactly 0.3 is not above 0.3."
   },
   {
    "issue": 156,
    "desk": "Technology",
    "claim": "The BIS affiliates rule takes effect on 10 November 2026 without a further suspension",
    "check_by": "2026-11-12",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Federal Register document 2026-22793, effective 9 November, extends the suspension through 10 January 2027."
   },
   {
    "issue": 156,
@@ -6487,6 +6503,167 @@
    "desk": "The Atelier",
    "claim": "Suzuki Morihisa's quoted shipping window for its 16th-generation kettle has not slipped past February 2028 when next checked",
    "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Macro Desk",
+   "claim": "The FOMC raises the target range by exactly 25 basis points, to 4.00-4.25%, on 9 December 2026 - not 50",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Macro Desk",
+   "claim": "BLS publishes a 12-month headline CPI rate again on 10 December 2026, the first since the appropriations lapse broke the series",
+   "check_by": "2026-12-10",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Macro Desk",
+   "claim": "The Bank of Japan raises its policy rate above 1.25% at the 17-18 December 2026 meeting",
+   "check_by": "2026-12-18",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Macro Desk",
+   "claim": "October Singapore NODX, when it lands 16-17 November, comes in below September's +68.4% year on year",
+   "check_by": "2026-11-20",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Technology",
+   "claim": "Anthropic prices its IPO at $78.00, the top of the $70-78 range, on 18 November 2026",
+   "check_by": "2026-11-19",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Technology",
+   "claim": "BIS publishes no Federal Register rule restricting third-country remote access to controlled AI chips before 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Technology",
+   "claim": "The cheapest in-stock 64GB DDR5 kit at Scan.co.uk is above GBP 1,000 on 15 December 2026 (it was GBP 839.99 on 14 November)",
+   "check_by": "2026-12-15",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Technology",
+   "claim": "llama.cpp pull request 31802, the fused CUDA KV-dequant kernels, is merged before 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Screen & Sound",
+   "claim": "Godzilla Minus Zero falls to second behind Ebenezer on the US domestic weekend of 13-15 November 2026",
+   "check_by": "2026-11-17",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Screen & Sound",
+   "claim": "Godzilla Minus Zero's second US weekend comes in below $15,000,000",
+   "check_by": "2026-11-17",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Screen & Sound",
+   "claim": "Box Office Mojo's opening-weekend figure for Godzilla Minus Zero is still $30,628,265 on 1 December 2026 (no fourth revision)",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Screen & Sound",
+   "claim": "Wikipedia's List of 2026 box office number-one films still shows $30,587,672 against 8 November on 1 December 2026",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Good Life",
+   "claim": "No Singapore retailer lists the Audio-Technica ATH-AWX7000 with a Singapore-dollar price before 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Good Life",
+   "claim": "Technics' EAH-A1000 reaches Japanese retail on 19 November 2026",
+   "check_by": "2026-11-19",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Fitness",
+   "claim": "No published expert reaction or university release on the 10 November orofacial myofunctional therapy trial appears before 1 December 2026",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Family Desk",
+   "claim": "MOE releases 2026 PSLE results on 24 November rather than 25 November",
+   "check_by": "2026-11-25",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Family Desk",
+   "claim": "MOE publishes S1 posting results on Friday 18 December 2026 as its posting page tentatively states",
+   "check_by": "2026-12-18",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Long Read",
+   "claim": "Kazakhstan's state-funded gambling-addiction treatment completions for 2026 come in below the plan target of 300",
+   "check_by": "2027-02-28",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The World",
+   "claim": "The Ukraine prisoner exchange of more than 1,000 a side agreed at Abu Dhabi is physically completed before 1 December 2026",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The World",
+   "claim": "Turkiye's parliament ratifies the Turkiye-Qatar joint defence agreement, or its text is published, before 31 January 2027",
+   "check_by": "2027-01-31",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "Singapore",
+   "claim": "MOH or CSA names a seventh breached healthcare entity before 31 December 2026",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Diary",
+   "claim": "January 2027 Grand Sumo (Hatsu Basho) tickets go on sale on 5 December 2026 as the Sumo Association's agent states",
+   "check_by": "2026-12-06",
+   "outcome": null
+  },
+  {
+   "issue": 162,
+   "desk": "The Kit",
+   "claim": "Apple adds Siri AI control of locks and garage doors to HomeView by a software update before 1 March 2027",
+   "check_by": "2027-03-01",
    "outcome": null
   }
  ]
