@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 163,
+ "date": "Sunday 15 November 2026",
+ "title": "The Missing Document",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Sunday, the fifteenth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Beijing is hosting it."
+  },
+  {
+   "s": "B",
+   "t": "Right. Second — a commission says the United States has lost its measles elimination status after twenty-six years, and the health body that commission belongs to has published absolutely nothing."
+  },
+  {
+   "s": "A",
+   "t": "And third, the lovely one. Netsuke. Carved toggles the size of an olive, and the most expensive one sold this decade has no signature on it at all."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's the one I want. Save it for me."
+  },
+  {
+   "s": "A",
+   "t": "It's coming. But the spine of the whole book today is the same shape in every case — the announcement turns up, and the paper that would prove it does not."
+  },
+  {
+   "s": "B",
+   "t": "Okay, start with Shenzhen then."
+  },
+  {
+   "s": "A",
+   "t": "Dmitry Peskov, the Kremlin spokesman, said on Saturday that the three presidents have agreed to meet on Thursday the nineteenth, on the margins of the Asia-Pacific summit China is hosting in Shenzhen."
+  },
+  {
+   "s": "B",
+   "t": "And the White House said the same thing a day earlier."
+  },
+  {
+   "s": "A",
+   "t": "It is not a yes. The spokeswoman's prepared material pointed to a Shenzhen Leaders' Declaration and to bilateral meetings. Global Times ran an editorial on the summit on Saturday that doesn't mention a trilateral at all."
+  },
+  {
+   "s": "B",
+   "t": "So what's it supposed to be about?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Warheads. The treaty capping how many America and Russia may deploy expired in February and was never replaced. For the first time in decades there's no ceiling. And Washington wants Beijing inside whatever comes next."
+  },
+  {
+   "s": "B",
+   "t": "Ah — and that's the problem, isn't it."
+  },
+  {
+   "s": "A",
+   "t": "That's the problem. The Pentagon puts China's stockpile above six hundred warheads. America and Russia have more than five thousand each."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So a cap that's equal freezes China at a tenth of its rivals."
+  },
+  {
+   "s": "A",
+   "t": "And a cap that lets China catch up is not one Washington signs. A senior American official briefing reporters called Thursday the beginning of hopefully a conversation, and said no agreements are expected."
+  },
+  {
+   "s": "B",
+   "t": "That's a remarkably modest thing for an American official to say."
+  },
+  {
+   "s": "A",
+   "t": "It is. There's no Kremlin transcript — their site returned an error. The White House newsroom has published nothing about the trip at all. The whole story exists as an agency report and a remark on camera."
+  },
+  {
+   "s": "B",
+   "t": "Who's objecting?"
+  },
+  {
+   "s": "A",
+   "t": "Volodymyr Zelensky, whose country is not invited, has warned against a second Yalta. And from Doha, a professor at City St George's in London calls a trilateral a clear break from the post-nineteen-forty-five pattern, while saying such deals rarely produce stable order."
+  },
+  {
+   "s": "B",
+   "t": "[wry] A Moscow analyst had the best line, didn't he."
+  },
+  {
+   "s": "A",
+   "t": "He did. If there's nothing by Christmas, he says, it will be just a photo op."
+  },
+  {
+   "s": "B",
+   "t": "Okay. The measles one — that's the same shape again."
+  },
+  {
+   "s": "A",
+   "t": "Exactly the same. A commission of the Pan American Health Organization met in Washington from the tenth to the thirteenth and concluded the United States no longer qualifies as having eliminated measles. A status it had held since the year two thousand."
+  },
+  {
+   "s": "B",
+   "t": "Which means what, precisely? Because it can't mean no cases."
+  },
+  {
+   "s": "A",
+   "t": "It doesn't. It means no single chain of the virus has kept spreading inside the country for twelve months or more. A continuing outbreak across Arizona and Utah, which started in June of last year, is the chain that broke it."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the organisation itself?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Has published nothing. Read their newsroom and the most recent items are on cervical cancer vaccination, university hospitals and dementia."
+  },
+  {
+   "s": "B",
+   "t": "So where did the story come from?"
+  },
+  {
+   "s": "A",
+   "t": "The Wall Street Journal, on Thursday, and Reuters carried it. And the trade press has been more careful than the wires, actually — they quote the organisation's own procedure back at it. No single source of evidence determines a country's final classification. The commission recommends; the director decides."
+  },
+  {
+   "s": "B",
+   "t": "So the honest version is a commission found, not that anybody stripped anything."
+  },
+  {
+   "s": "A",
+   "t": "That's the honest version."
+  },
+  {
+   "s": "B",
+   "t": "Give me the number a traveller should actually care about."
+  },
+  {
+   "s": "A",
+   "t": "American kindergarten vaccination coverage has fallen to ninety-two point four per cent, from ninety-five point two six years ago. The threshold at which a population stops passing the virus along is about ninety-five."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] So below that line, one imported case becomes forty."
+  },
+  {
+   "s": "A",
+   "t": "Six or ten. And the gap is disputed in public."
+  },
+  {
+   "s": "B",
+   "t": "Right. Money block. What happened to rates?"
+  },
+  {
+   "s": "A",
+   "t": "American interest-rate futures ended Friday pricing a rise at the Federal Reserve's December meeting as a certainty. A hundred per cent — split roughly eighty-seven to thirteen between a quarter point and a half."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] A half?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] A half. A week ago the argument was whether the Fed was finished."
+  },
+  {
+   "s": "B",
+   "t": "What moved it?"
+  },
+  {
+   "s": "A",
+   "t": "Two price reports. Consumer prices rose four tenths of a per cent in October, with the measure that strips out food and energy up three tenths for the third month running. That annualises near three point seven per cent."
+  },
+  {
+   "s": "B",
+   "t": "And the producer number?"
+  },
+  {
+   "s": "A",
+   "t": "Producer prices — what firms charge each other before anything reaches a shop — rose six and a half per cent over twelve months. Fastest in four years."
+  },
+  {
+   "s": "B",
+   "t": "Then somebody said the quiet part."
+  },
+  {
+   "s": "A",
+   "t": "A Fed governor, Christopher Waller, in London. If October ran hot, he said, a fifty basis point hike should be considered — and hiking only twenty-five would put our credibility at risk."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Well. That'll do it."
+  },
+  {
+   "s": "A",
+   "t": "The two-year yield rose thirty-seven basis points on the week, to four point eight eight. The ten-year rose twenty-nine, to five point one five."
+  },
+  {
+   "s": "B",
+   "t": "Explain why the short end matters more here."
+  },
+  {
+   "s": "A",
+   "t": "Because when short rates lead long rates up, the market is re-dating the policy path — it's arguing about the next six months. If it were revising its view of inflation forever, the long end would lead."
+  },
+  {
+   "s": "B",
+   "t": "Mm. And the two things you watch that aren't stocks or bonds?"
+  },
+  {
+   "s": "A",
+   "t": "Both fell, together. Gold touched a thirteen-month low on Thursday and closed the week down four point six per cent. Bitcoin broke its two-hundred-week moving average and closed Friday near sixty-eight thousand two hundred dollars."
+  },
+  {
+   "s": "B",
+   "t": "Both at once is the tell."
+  },
+  {
+   "s": "A",
+   "t": "Both at once is the tell. [pause] In a genuine panic, gold rises. The two of them falling together is what a rising real return on cash looks like."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic? Because there's always one."
+  },
+  {
+   "s": "A",
+   "t": "This one is beautiful, and it's in the release itself. The October inflation report says, and I'm quoting, the Bureau cannot publish twelve-month percent changes for October because of a lapse in appropriations."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Hang on. There's no annual inflation rate?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] There is no annual inflation rate. Last October's survey was never collected. The entire hawkish case rests on three monthly readings annualised."
+  },
+  {
+   "s": "B",
+   "t": "That is a thin plank for a half-point move."
+  },
+  {
+   "s": "A",
+   "t": "Not once."
+  },
+  {
+   "s": "B",
+   "t": "Singapore. Give me the housing one, because I read the headline and then I read your page and they didn't match."
+  },
+  {
+   "s": "A",
+   "t": "[amused] They didn't match on purpose. The Housing Board reported a net deficit of four point seven billion dollars for the year to March, down from six point three four."
+  },
+  {
+   "s": "B",
+   "t": "And the government writes the cheque that covers it."
+  },
+  {
+   "s": "A",
+   "t": "Four point seven three billion this year, against six point three five. So a smaller cheque. Which sounds like thrift."
+  },
+  {
+   "s": "B",
+   "t": "But."
+  },
+  {
+   "s": "A",
+   "t": "[wry] But read the audited statements to the end and the board posts a net surplus of thirty-six point three million before tax. The grant exists to close the gap. Note sixteen says so."
+  },
+  {
+   "s": "B",
+   "t": "So the deficit is a measure of transfer, not of loss."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that. And the narrowing wasn't a policy choice either — the amount set aside against expected losses on flats still being built fell from two point six nine billion to one point three one. That swing alone is eighty-four per cent of the improvement."
+  },
+  {
+   "s": "B",
+   "t": "What's the number that actually matters to someone waiting for keys?"
+  },
+  {
+   "s": "A",
+   "t": "Fifteen thousand four hundred and seventeen flats completed, against twenty thousand two hundred and ninety-four the year before. A fall of almost a quarter. And the queue under construction grew to a hundred thousand one hundred and twenty-two."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So a smaller subsidy bill, a longer queue, fewer completions."
+  },
+  {
+   "s": "A",
+   "t": "That's the arithmetic of a slower year."
+  },
+  {
+   "s": "B",
+   "t": "Technology. The Nvidia thing."
+  },
+  {
+   "s": "A",
+   "t": "The chairman of the Senate Banking Committee, Tim Scott, wrote on Thursday to Jensen Huang and to the Commerce Secretary, asking both to testify in public next month about Nvidia's sales of advanced chips to China."
+  },
+  {
+   "s": "B",
+   "t": "Three days after the board accepted Huang's resignation."
+  },
+  {
+   "s": "A",
+   "t": "Three days after. The filing is clear and public — resignation accepted on the eleventh, effective immediately, the chief financial officer made interim chief executive, and a director since nineteen ninety-three becomes the company's first chair in its history."
+  },
+  {
+   "s": "B",
+   "t": "And the letters?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Are published nowhere. A file circulating under that name turns out to be a different senator's letter from April of last year."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Of course it is."
+  },
+  {
+   "s": "A",
+   "t": "The argument underneath is sharper than the gossip, though. The busiest thread on Hacker News ran to four thousand points, and the thing people kept returning to was that the company at the centre of this was never put on the export blacklist at all."
+  },
+  {
+   "s": "B",
+   "t": "So what are the hearings about? Whether the rules were broken, or whether anyone wanted them to work?"
+  },
+  {
+   "s": "A",
+   "t": "That is precisely the question. And here's the number that cuts against the clampdown story — no company has been added to that blacklist since October of last year. The longest gap in over a decade."
+  },
+  {
+   "s": "B",
+   "t": "Which predates the whole affair."
+  },
+  {
+   "s": "A",
+   "t": "Which predates the whole affair. And three chip bills sit in the defence package with none agreed for the final text. One senator, on the record: which plan takes priority, I don't know yet."
+  },
+  {
+   "s": "B",
+   "t": "Home lab. Somebody gave away a model."
+  },
+  {
+   "s": "A",
+   "t": "Mira Murati's laboratory published the full weights of its newest model on Wednesday, under one of the most permissive licences in software. Anyone can download it, keep it, change it, sell it."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's genuinely good news."
+  },
+  {
+   "s": "A",
+   "t": "It is genuinely good news. And on the same page as the download, the laboratory printed the catch."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "Five hundred gigabytes of graphics memory, minimum, for the recommended version. Two of the very top data-centre cards, or four of the previous generation."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Ahh. So free, and unrunnable."
+  },
+  {
+   "s": "A",
+   "t": "For almost everybody. You can shrink it — and the published cost of shrinking is unusually honest. The smallest usable build is a hundred and seventy-one gigabytes, and it agrees with the full model's next word only about ninety per cent of the time."
+  },
+  {
+   "s": "B",
+   "t": "What does the community say?"
+  },
+  {
+   "s": "A",
+   "t": "That's the review. Another did the sums and reckoned you could run a very compressed version on about twelve thousand dollars of hardware — and said, to his own surprise, that it benchmarks quite well."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every single week."
+  },
+  {
+   "s": "B",
+   "t": "Netsuke. Teach me."
+  },
+  {
+   "s": "A",
+   "t": "The kimono has no pockets. So a man carrying a seal, or tobacco, or medicine, hung the container from his sash on a silk cord — and tied a toggle at the top so the cord wouldn't slide through."
+  },
+  {
+   "s": "B",
+   "t": "That's it? That's the whole object?"
+  },
+  {
+   "s": "A",
+   "t": "That's the whole object. [warmly] And over a couple of centuries that piece of clothing hardware became a sculpture tradition. A good one is fully resolved in three dimensions, finished on every face including the underside, at the size of a large olive."
+  },
+  {
+   "s": "B",
+   "t": "How small are we talking, exactly?"
+  },
+  {
+   "s": "A",
+   "t": "The Walters Museum has a tigress with her cubs. Four point one centimetres by three point eight."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] That's nothing."
+  },
+  {
+   "s": "A",
+   "t": "Bonhams' director of Japanese art in America puts the test plainly — a successful netsuke is powerful, balanced, and exhibits kinetic energy, just as a larger sculpture would."
+  },
+  {
+   "s": "B",
+   "t": "And people collect these seriously."
+  },
+  {
+   "s": "A",
+   "t": "Forty-six years of continuous quarterly scholarship. The International Netsuke Society was founded in nineteen seventy-five, has members in thirty-one countries, and runs conventions every two years. Brussels this year."
+  },
+  {
+   "s": "B",
+   "t": "Museums?"
+  },
+  {
+   "s": "A",
+   "t": "A museum in Kyoto holds over six thousand of them and rotates about four hundred through two floors. Los Angeles has over eight hundred, in a gallery the donors paid to build. Cambridge has more than five hundred, assembled from six separate bequests since nineteen oh four."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Money. What does a great one cost?"
+  },
+  {
+   "s": "A",
+   "t": "The record is contested, and both figures deserve printing. An Edo-period ivory Monkey King made about a million euros in France — or about one point one three million pounds, depending on whether you count the buyer's premium. Neither source says which."
+  },
+  {
+   "s": "B",
+   "t": "And below that?"
+  },
+  {
+   "s": "A",
+   "t": "An unsigned eighteenth-century wooden kirin made four hundred and forty-one thousand dollars at Bonhams New York. Twenty-three times its estimate."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Unsigned. You keep saying unsigned."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Because that's the heart of it. Most netsuke were never signed. And the ones that are signed carry authenticity risk — the specialists treat a signature as a liability rather than an asset."
+  },
+  {
+   "s": "B",
+   "t": "That seems backwards."
+  },
+  {
+   "s": "A",
+   "t": "It is, until you hear the forum. One long-time collector: the market is flooded with these pieces. Another: there are thousands, probably millions, of fake wooden pieces. A third says auction houses get it wrong all of the time."
+  },
+  {
+   "s": "B",
+   "t": "Surely there's a test."
+  },
+  {
+   "s": "A",
+   "t": "And the twist that makes it unresolvable: a forged signature can sit perfectly happily on a genuinely old Japanese carving. There's no certificate culture here. You are buying consensus."
+  },
+  {
+   "s": "B",
+   "t": "What would I actually spend, if I wanted to carve one?"
+  },
+  {
+   "s": "A",
+   "t": "[excited] Very little, and this is the lovely part. The quality entry point is a five-piece Japanese chisel set at about seventy-nine Australian dollars. Blanks are nineteen. Boxwood squares are eight to seventeen US dollars."
+  },
+  {
+   "s": "B",
+   "t": "So a ruined blank costs less than lunch."
+  },
+  {
+   "s": "A",
+   "t": "Less than lunch. A complete starting kit comes to roughly three to four hundred Singapore dollars, and the entire education is free — the society's forum, two museum catalogues online, a dealer's published guide to spotting fakes."
+  },
+  {
+   "s": "B",
+   "t": "Any faction fights? There are always faction fights."
+  },
+  {
+   "s": "A",
+   "t": "She roughs out with a motor tool now. The settled practice is rotary for roughing and polishing, hand tools for the cuts that read as the carver's signature."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "The rotary tool is also what makes the fakes. Every authentication test is a test for machine work — machine-drilled cord holes, mould seams, signatures cut with an electric stylus, which show telltale jumping in the lines."
+  },
+  {
+   "s": "B",
+   "t": "So the thing that saves the professional's wrists floods the market."
+  },
+  {
+   "s": "A",
+   "t": "Same technology, same debate."
+  },
+  {
+   "s": "B",
+   "t": "One legal thing, because I know you dug it out."
+  },
+  {
+   "s": "A",
+   "t": "Singapore's ivory rule is narrower than people think. The twenty twenty-one notification bans two things — selling elephant ivory here, and displaying it for sale. You may keep it, wear it, inherit it, and display it for education or religion."
+  },
+  {
+   "s": "B",
+   "t": "But never sell it."
+  },
+  {
+   "s": "A",
+   "t": "Never sell it. [pause] Not here, and not abroad either. And the fine for the sale ban runs to two hundred thousand dollars per specimen, and up to eight years."
+  },
+  {
+   "s": "B",
+   "t": "Britain?"
+  },
+  {
+   "s": "A",
+   "t": "Harder. A netsuke is solid ivory throughout, so the small-quantity exemption doesn't apply at all. Collectors asked for a netsuke exemption and didn't get one."
+  },
+  {
+   "s": "B",
+   "t": "Which is why everything's wood now."
+  },
+  {
+   "s": "A",
+   "t": "That's why everything is wood now. Four of the five record holders are ivory. Four of five of this year's headline lots at Bonhams were wood."
+  },
+  {
+   "s": "B",
+   "t": "Culture, quickly. Then the long read."
+  },
+  {
+   "s": "A",
+   "t": "Johnny Depp opened at number one in America on Friday with Ebenezer — a darker Christmas Carol. Six point seven million dollars from three thousand five hundred and thirty-five cinemas."
+  },
+  {
+   "s": "B",
+   "t": "How are the reviews?"
+  },
+  {
+   "s": "A",
+   "t": "Split down the middle, and the split is the story. Fifty-three per cent from a hundred and twenty critics, against eighty-nine per cent from paying audiences. Thirty-six points apart."
+  },
+  {
+   "s": "B",
+   "t": "[amused] And the harshest line?"
+  },
+  {
+   "s": "A",
+   "t": "Also — James Blunt went to number one in Britain with a new album, his third chart-topper and his first since two thousand and seven. He'd promised to change his name by deed poll to Ryan Air if it got there."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Has he?"
+  },
+  {
+   "s": "A",
+   "t": "No confirmation yet."
+  },
+  {
+   "s": "B",
+   "t": "Gear. One thing each."
+  },
+  {
+   "s": "A",
+   "t": "Klipsch is back in headphones after nearly a decade, with two wired pairs at a thousand and twelve hundred US dollars. Wooden cups, a cable, no Bluetooth, no battery."
+  },
+  {
+   "s": "B",
+   "t": "Anyone heard them?"
+  },
+  {
+   "s": "A",
+   "t": "[amused] Nobody. They reached the world yesterday at a show in Dallas. There are no measurements, no owner reports, and the maker's own website has no page for them at all."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] The missing document again."
+  },
+  {
+   "s": "A",
+   "t": "The missing document again. And the sharpest objection is arithmetic — the flagship lands within a dollar of the same company's twenty-seventeen model, except that model included a stand in the box and this one charges a hundred and fifty for it."
+  },
+  {
+   "s": "B",
+   "t": "Fitness. Thirty seconds."
+  },
+  {
+   "s": "A",
+   "t": "A randomised trial of a hundred and eleven adults, aged forty to seventy, playing three-a-side football three times a week for fourteen weeks. The thing they set out to prove — muscle mass — came out at four hundredths of a kilogram. Nothing."
+  },
+  {
+   "s": "B",
+   "t": "And the thing they weren't testing?"
+  },
+  {
+   "s": "A",
+   "t": "Aerobic fitness rose sharply. On barely half attendance."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is the textbook setting for over-reading a result."
+  },
+  {
+   "s": "A",
+   "t": "It is, and the page says so. A meta-analysis three weeks earlier graded the evidence on recreational football very low, and noted its own prediction interval crosses zero."
+  },
+  {
+   "s": "B",
+   "t": "Meaning the next trial could show nothing at all."
+  },
+  {
+   "s": "A",
+   "t": "Meaning exactly that."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Mongolia."
+  },
+  {
+   "s": "A",
+   "t": "[pause] In the first week of September, the Mongolian government pitched tents on the main square in Ulaanbaatar, staffed them with notaries and brokers, and invited the nation to come and find out what it owned."
+  },
+  {
+   "s": "B",
+   "t": "Which is what?"
+  },
+  {
+   "s": "A",
+   "t": "Every Mongolian born before April two thousand and twelve holds one thousand and seventy-two shares in the Gobi coking-coal company. They were given out as a kind of national dividend."
+  },
+  {
+   "s": "B",
+   "t": "That sounds generous."
+  },
+  {
+   "s": "A",
+   "t": "It would be, except for one clause. The twenty-twelve resolution — set the share price and then said the shares may not be disposed of in any form, other than sale back to the government at that price."
+  },
+  {
+   "s": "B",
+   "t": "So you own it, you can't vote it, and you can't sell it."
+  },
+  {
+   "s": "A",
+   "t": "[whispers] And you can't value it. Secondary trading never began. Fourteen years later, parliament's own explanatory note concedes it in writing — the conditions for citizens to trade, gift or bequeath their shares have to this day not been created."
+  },
+  {
+   "s": "B",
+   "t": "And now they're changing it."
+  },
+  {
+   "s": "A",
+   "t": "Now they're changing it. Inheritance opened in June. The stock exchange signed a memorandum on the twentieth of June to let people dispose of their holdings. And on the first of July the government approved an action plan under a national initiative called, roughly, Let's Liberate."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Why now?"
+  },
+  {
+   "s": "A",
+   "t": "That's the argument of the piece. This year's dividend came to sixty-three thousand tugrik after tax. About nineteen US dollars. Two point two per cent of one month's average wage."
+  },
+  {
+   "s": "B",
+   "t": "And last year?"
+  },
+  {
+   "s": "A",
+   "t": "Three hundred and fifty thousand, paid in three instalments because the prime minister said a lump sum might drive inflation. The year before that, nothing at all."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So the right to sell arrives exactly as the reason to hold collapses."
+  },
+  {
+   "s": "A",
+   "t": "Out of sixty-three. Sixteen per cent of a year's dividend, charged once, before anything arrives."
+  },
+  {
+   "s": "B",
+   "t": "Has Mongolia done this before?"
+  },
+  {
+   "s": "A",
+   "t": "That is the whole point. Between nineteen ninety-one and nineteen ninety-four it ran the first mass voucher privatisation in the post-socialist world. Every citizen got coupons. And the coupons were deliberately non-tradeable, for the same stated reason."
+  },
+  {
+   "s": "B",
+   "t": "To stop anyone accumulating big blocks."
+  },
+  {
+   "s": "A",
+   "t": "To stop anyone accumulating big blocks. Trading opened in August nineteen ninety-five. Within ten months, in eighty-one firms surveyed before and after, the average managerial stake rose from three and a half per cent to fourteen point one. The worker stake fell."
+  },
+  {
+   "s": "B",
+   "t": "Workers sold. Managers bought."
+  },
+  {
+   "s": "A",
+   "t": "[drawn out] Universal ownership did not survive contact with liquidity."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] And the vouchers from the first round?"
+  },
+  {
+   "s": "A",
+   "t": "Still sitting there. In twenty seventeen, a depository official said about two hundred and fifty thousand citizens still held them, with roughly eight billion tugrik accumulated — and only about ten thousand people were actively using them."
+  },
+  {
+   "s": "B",
+   "t": "So the likeliest outcome isn't theft. It's that nobody bothers."
+  },
+  {
+   "s": "A",
+   "t": "That may well be the true one. Against a ten-thousand fee and a sixty-three-thousand dividend, the rational response for millions of people is to do nothing at all."
+  },
+  {
+   "s": "B",
+   "t": "What's the argument, then? In one line."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] A share you may not sell, may not vote and may not value is not property. It is a receipt. And this year Mongolia started redeeming the receipts — in order to issue new ones."
+  },
+  {
+   "s": "B",
+   "t": "New ones?"
+  },
+  {
+   "s": "A",
+   "t": "A sovereign wealth fund, with a savings account for every citizen. The twenty twenty-four law says the fund's assets shall be vested in the people of Mongolia. And it defines that account, in its own words, as a record."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] A record."
+  },
+  {
+   "s": "A",
+   "t": "[whispers] The first promise was a share you couldn't sell. The second is a number you can't withdraw."
+  },
+  {
+   "s": "B",
+   "t": "And that's the whole issue, isn't it. Shenzhen, the measles certificate, the senator's letters, the housing deficit —"
+  },
+  {
+   "s": "A",
+   "t": "— the headphones nobody has heard, the watch whose maker won't open its own website, and a signature on a netsuke that isn't there and never was."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Huh."
+  },
+  {
+   "s": "A",
+   "t": "[pause] The claim is public. The paper is not."
+  },
+  {
+   "s": "B",
+   "t": "That's the Briefing, then?"
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-eight pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

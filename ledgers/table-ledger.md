@@ -183,7 +183,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Kee’s Restaurant & Bar | Kee’s Restaurant & Bar | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Skosh | Skosh | 132 | OPEN | No. 132 build | opening run — record the peg here |
 | Soft Order | Soft Order | 132, 140 | SPENT | No. 132 build | opening run — record the peg here |
-| Borderlessbutter | Borderlessbutter | 132 | OPEN | No. 132 build | opening run — record the peg here |
+| Borderlessbutter | Borderlessbutter | 132, 163 | SPENT | No. 132 build | opening run — record the peg here |
 | Spicy Hubby | Spicy Hubby | 132, 139 | SPENT | No. 139 build | No. 132 the opening run; No. 139 the verdict run, exactly seven issues on — the first reviews are in and all three were filed within 48 hours of opening, two of them hosted. Spent. |
 | Osteria Da Su | Osteria Da Su | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
 | Tokyo Onigiri | Tokyo Onigiri | 133, 140 | SPENT | No. 133 build | opening run — record the peg here |
@@ -221,7 +221,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
 | SHAO @ Dempsey | SHAO @ Dempsey | 145, 159 | SPENT | No. 145 build | opening run — record the peg here |
 | Xiao Jiao Tian | Xiao Jiao Tian | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
-| Foca Kumpir | Foca Kumpir | 146 | OPEN | No. 146 build | opening run — record the peg here |
+| Foca Kumpir | Foca Kumpir | 146, 163 | SPENT | No. 146 build | opening run — record the peg here |
 | Ng Kuan Chilli Pan Mee | Ng Kuan Chilli Pan Mee | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
 | Postboy Coffee | Postboy Coffee | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Yasuragi | Cafe Yasuragi | 147 | OPEN | No. 147 build | opening run — record the peg here |
@@ -247,7 +247,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | The Hokkien Mee Club | The Hokkien Mee Club | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | ODD Ramen & Diner | ODD Ramen & Diner | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | Greenwood Fish Market | Greenwood Fish Market | 156 | OPEN | No. 156 build | opening run — record the peg here |
-| Earworm | Earworm | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| Earworm | Earworm | 156, 163 | SPENT | No. 156 build | opening run — record the peg here |
 | JJAN | JJAN | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | HI BOWL | HI BOWL | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | Three Bowls | Three Bowls | 157 | OPEN | No. 157 build | opening run — record the peg here |
@@ -263,3 +263,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Good Luck Bagels | Good Luck Bagels | 162 | OPEN | No. 162 build | opening run — record the peg here |
 | Peach Blossoms | Peach Blossoms | 162 | OPEN | No. 162 build | opening run — record the peg here |
 | Yaya Lorong | Yaya Lorong | 162 | OPEN | No. 162 build | opening run — record the peg here |
+| Chi Spacca Singapore | Chi Spacca Singapore | 163 | OPEN | No. 163 build | opening run — record the peg here |
+| Hippopotato | Hippopotato | 163 | OPEN | No. 163 build | opening run — record the peg here |

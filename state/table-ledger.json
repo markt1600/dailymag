@@ -1548,9 +1548,10 @@
       "venue": "Borderlessbutter",
       "key": "Borderlessbutter",
       "runs": [
-        132
+        132,
+        163
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 132 build",
       "note": "opening run — record the peg here"
     },
@@ -1949,9 +1950,10 @@
       "venue": "Foca Kumpir",
       "key": "Foca Kumpir",
       "runs": [
-        146
+        146,
+        163
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 146 build",
       "note": "opening run — record the peg here"
     },
@@ -2217,9 +2219,10 @@
       "venue": "Earworm",
       "key": "Earworm",
       "runs": [
-        156
+        156,
+        163
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 156 build",
       "note": "opening run — record the peg here"
     },
@@ -2372,9 +2375,29 @@
       "status": "OPEN",
       "checked": "No. 162 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Chi Spacca Singapore",
+      "key": "Chi Spacca Singapore",
+      "runs": [
+        163
+      ],
+      "status": "OPEN",
+      "checked": "No. 163 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Hippopotato",
+      "key": "Hippopotato",
+      "runs": [
+        163
+      ],
+      "status": "OPEN",
+      "checked": "No. 163 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 163,
+  "barred_for_issue": 164,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2472,6 +2495,7 @@
     "Din Tai Fung",
     "Pull by TPG",
     "Soft Order",
+    "Borderlessbutter",
     "Spicy Hubby",
     "Osteria Da Su",
     "Tokyo Onigiri",
@@ -2493,6 +2517,7 @@
     "Woksta",
     "SHAO @ Dempsey",
     "Xiao Jiao Tian",
+    "Foca Kumpir",
     "Ng Kuan Chilli Pan Mee",
     "OVER",
     "HANDO",
@@ -2501,9 +2526,7 @@
     "Mr. CHEESECAKE",
     "Nekobushi",
     "Woodsmen by Cut Butchery",
-    "JJAN",
-    "HI BOWL",
-    "Three Bowls",
+    "Earworm",
     "Cranki Patisserie",
     "Casa Osteria",
     "AhMah’s Legacy",
@@ -2515,6 +2538,8 @@
     "Ma Cuisinette",
     "Good Luck Bagels",
     "Peach Blossoms",
-    "Yaya Lorong"
+    "Yaya Lorong",
+    "Chi Spacca Singapore",
+    "Hippopotato"
   ]
 }
