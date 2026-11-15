@@ -1,0 +1,804 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 164,
+ "date": "Monday 16 November 2026",
+ "title": "The test nobody ran",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Monday, the sixteenth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "One router in Arkansas stopped every departing flight in America for four hours. [pause] And three days later nobody will say what broke."
+  },
+  {
+   "s": "B",
+   "t": "[curious] A pair of microphones that costs two hundred and sixty-five pounds, turning up in the same recordings as a pair that costs three thousand eight hundred and sixty-nine."
+  },
+  {
+   "s": "A",
+   "t": "And in Pakistan, two legal prices for the same death on the same road. Twenty-seven times apart."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Okay. That last one's going to stay with me. Start with the aeroplanes."
+  },
+  {
+   "s": "A",
+   "t": "Friday afternoon, three fifty-four Eastern time. The Federal Aviation Administration halts every departing flight in American airspace. Every one. Aircraft already in the air kept flying. Nothing else left the ground anywhere in the United States. More than four hours."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] What's the damage?"
+  },
+  {
+   "s": "A",
+   "t": "About twelve thousand four hundred and sixty-two flights cancelled on the Friday. Nine thousand of those from the major airlines."
+  },
+  {
+   "s": "B",
+   "t": "And people stuck in terminals."
+  },
+  {
+   "s": "A",
+   "t": "Eleven thousand departures still due to go after four in the afternoon. A million and a half passengers attached to them. Eight hundred and twenty-seven aircraft diverted — six hundred and seventy of those simply turned around and went back where they came from."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So what actually failed?"
+  },
+  {
+   "s": "A",
+   "t": "A router. Which is the box that decides where data goes on a network."
+  },
+  {
+   "s": "B",
+   "t": "One box did all that?"
+  },
+  {
+   "s": "A",
+   "t": "The Transport Secretary, Sean Duffy, says a newly installed one at an agency site in El Dorado, Arkansas, started flooding its neighbours. More than a thousand connection attempts, roughly every five seconds."
+  },
+  {
+   "s": "B",
+   "t": "Flooding them with what?"
+  },
+  {
+   "s": "A",
+   "t": "Noise, essentially. Enough that the radar feeds and the radio links controllers depend on were disrupted. He says a second machine in Amarillo, Texas, started doing the same thing."
+  },
+  {
+   "s": "B",
+   "t": "And they've fixed it?"
+  },
+  {
+   "s": "A",
+   "t": "They've switched the responsible feature off on all sixty-nine routers of that type."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Okay, so case closed. Bad router."
+  },
+  {
+   "s": "A",
+   "t": "Here's where it stops being tidy. The company that owns the Arkansas machine is Hewlett Packard Enterprise. And they say it was a Juniper Networks router — a different manufacturer entirely from the one the government briefed — and, quote, they did not fail."
+  },
+  {
+   "s": "B",
+   "t": "[curious] They're saying the box worked?"
+  },
+  {
+   "s": "A",
+   "t": "That's the claim. Meanwhile senior officials told CBS News the devices were Cisco units built between two thousand and one and two thousand and six."
+  },
+  {
+   "s": "B",
+   "t": "So the cabinet secretary says one thing, the owner says another, and —"
+  },
+  {
+   "s": "A",
+   "t": "— and the Administrator, Bryan Bedford, says the router account isn't yet a full explanation. His words on what caused it: zero evidence of anything nefarious, zero evidence of anything intelligence-related."
+  },
+  {
+   "s": "B",
+   "t": "Where are the machines now?"
+  },
+  {
+   "s": "A",
+   "t": "A laboratory in Florida. No finding has been released."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] So the test nobody ran."
+  },
+  {
+   "s": "A",
+   "t": "That's the issue's spine, actually. Both devices sit in a lab, and what the public has is two assertions that contradict each other."
+  },
+  {
+   "s": "B",
+   "t": "What are the politics?"
+  },
+  {
+   "s": "A",
+   "t": "Immediate. Mister Trump posted that if Congress approves the desperately needed money for air traffic control, it can be built quickly. Mister Duffy put it in four words: I want fifty billion dollars. Congress appropriated twelve and a half billion last year. And a report in September had already flagged copper cabling dating to the nineteen sixties."
+  },
+  {
+   "s": "B",
+   "t": "Is there a sceptical read?"
+  },
+  {
+   "s": "A",
+   "t": "Al Jazeera carried one. Ron Bartsch, at the University of the South Pacific, asks the obvious question — why didn't the backup systems take over immediately?"
+  },
+  {
+   "s": "B",
+   "t": "Which nobody has answered. [sighs] Right. The money block. What happened to markets?"
+  },
+  {
+   "s": "A",
+   "t": "Everything fell at once. That's the unusual part. Global equities down about one per cent on Friday. The global aggregate bond proxy down with them — and it's now slightly negative for the year despite carrying a yield of four point three six per cent."
+  },
+  {
+   "s": "B",
+   "t": "Wait. A bond fund that yields over four and still loses money."
+  },
+  {
+   "s": "A",
+   "t": "Duration ate a full year of coupon. Then gold broke through four thousand dollars to a thirteen-month low. And bitcoin is down nineteen per cent from its fifth of November high."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So none of the hedges hedged."
+  },
+  {
+   "s": "A",
+   "t": "Not one. Only the dollar and the front end of the curve worked. Oil, at the root. Brent is up about forty-nine per cent on the year after the Gulf disruption. That feeds the cost of everything made and moved — producer prices in America rose six and a half per cent over twelve months, fastest since November two thousand and twenty-two."
+  },
+  {
+   "s": "B",
+   "t": "And a central bank can't drill a well."
+  },
+  {
+   "s": "A",
+   "t": "It can only raise the price of money until demand falls to meet the smaller supply. So the market has gone from pricing cuts to pricing a rise in December. Fully priced. The only argument left is whether it's a quarter-point or a half."
+  },
+  {
+   "s": "B",
+   "t": "How do you know it's about policy and not about growth?"
+  },
+  {
+   "s": "A",
+   "t": "The shape of the curve. The two-year yield rose thirty-seven basis points on the week against the ten-year's twenty-nine. Short end leading means the market is repricing the central bank. Long end leading would mean it's repricing the economy. This week was the short end."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Anyone arguing the other side?"
+  },
+  {
+   "s": "A",
+   "t": "Robin Brooks, on Friday. He says the consensus is mistaking a supply shock for a demand problem. His line: rate rises don't do anything to bring down supply-shock inflation."
+  },
+  {
+   "s": "B",
+   "t": "So what does he want?"
+  },
+  {
+   "s": "A",
+   "t": "He concedes a quarter-point in December is all but inevitable. He argues hard against a half. And he calls the whole thing — quote — performative."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That's a word to use about the Federal Reserve."
+  },
+  {
+   "s": "A",
+   "t": "The rebuttal, from Bank of America's Stephen Juneau: absent an indisputably soft monthly print, the data will not dissuade them. And this is explanation, by the way, not advice."
+  },
+  {
+   "s": "B",
+   "t": "Noted. Singapore had its own failure this weekend."
+  },
+  {
+   "s": "A",
+   "t": "A quieter one. Government email went down at about twenty-five past one on Friday morning and came back at eleven that night. Twenty-two hours. The tax authority, the Land Authority, SingHealth, the police. Immigration and Customs resumed online forms on Saturday afternoon. A worldwide failure of Microsoft's office services. Seventy-four countries. More than seven point four million outage reports, peaking near twenty thousand a minute. Singapore's own reports topped out at one thousand one hundred and thirty-five, around half past nine that morning."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Did anything critical go?"
+  },
+  {
+   "s": "A",
+   "t": "No — and this is the honest part. Emergency services ran throughout. Singpass was never affected. The banks that lost email kept core services running."
+  },
+  {
+   "s": "B",
+   "t": "So what's the complaint?"
+  },
+  {
+   "s": "A",
+   "t": "The explanation. GovTech says the cause was an issue arising during an earlier network capacity upgrade. Not a cyberattack, not agents."
+  },
+  {
+   "s": "B",
+   "t": "That's a sentence, not a finding."
+  },
+  {
+   "s": "A",
+   "t": "Exactly that. No post-incident review has been published, and none is promised. Microsoft has apologised without saying what broke."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Second entry on the list."
+  },
+  {
+   "s": "A",
+   "t": "Second entry on the list."
+  },
+  {
+   "s": "B",
+   "t": "Right. Chips. Nvidia reports tomorrow, doesn't it?"
+  },
+  {
+   "s": "A",
+   "t": "Tuesday, and with no chief executive. Jensen Huang resigned on the twelfth, effective immediately."
+  },
+  {
+   "s": "B",
+   "t": "Who presents the numbers?"
+  },
+  {
+   "s": "A",
+   "t": "Colette Kress, the finance chief, as interim chief executive — while keeping her own job. Harvey Jones becomes the company's first-ever board chair."
+  },
+  {
+   "s": "B",
+   "t": "And the sequence is odd."
+  },
+  {
+   "s": "A",
+   "t": "Two days before the resignation, the independent directors said they'd retained Joon Kim, a former acting United States Attorney in Manhattan, and the firm Wachtell Lipton, for a thorough and independent investigation. That's the whole statement. No subject. No scope. No deadline."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Into what, though."
+  },
+  {
+   "s": "A",
+   "t": "Nobody will say. Meanwhile the quarter being reported is about a hundred and eight billion dollars of revenue, give or take two per cent. Close to nothing, and the filing says so. Washington granted licences in February to ship a restricted part to named Chinese customers. Beijing then blocked the purchases."
+  },
+  {
+   "s": "B",
+   "t": "So they had permission and no sale."
+  },
+  {
+   "s": "A",
+   "t": "A four hundred million dollar charge on the inventory. Shipped a fraction of what they were allowed to. Recorded as less than one per cent of data-centre revenue."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Permission without a transaction."
+  },
+  {
+   "s": "A",
+   "t": "And there's a twenty-five per cent tariff when a licensed chip comes back into America for inspection — which the filing says the company has been unable to pass along to any customer. They eat it."
+  },
+  {
+   "s": "B",
+   "t": "Okay — the home lab. There's an open model that runs on one machine?"
+  },
+  {
+   "s": "A",
+   "t": "A four-person outfit called Edge Zero published a very large system last week, rebuilt to fit on a single powerful home computer and answer at about reading speed."
+  },
+  {
+   "s": "B",
+   "t": "[excited] That's the dream, right? Nothing you type leaves the house."
+  },
+  {
+   "s": "A",
+   "t": "That is the dream. The launch blog says peak memory of twenty-nine gigabytes. And the company's own model card, published a day later, measures twenty-three gigabytes of graphics memory plus thirty-eight of system memory. About sixty-one and a half together."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Their own card contradicts their own blog."
+  },
+  {
+   "s": "A",
+   "t": "Both documents are theirs. On Hacker News the top comment, at three hundred and fifty-five points, reads: the twenty-nine gigabyte headline seems to just be a flat lie."
+  },
+  {
+   "s": "B",
+   "t": "Ouch. Does it work, though?"
+  },
+  {
+   "s": "A",
+   "t": "Owners measured it within a day. One man running exactly this reader's class of machine got forty tokens a second cold, sixty warm — against the ninety and a hundred and twenty he gets from his usual model. And then he switched to the build meant for Macs and got eighty-five on his Nvidia card. The company conceded the reason in the thread."
+  },
+  {
+   "s": "B",
+   "t": "[wry] The community benchmarked it before the company did."
+  },
+  {
+   "s": "A",
+   "t": "And the technical report that would let anyone reproduce the official numbers? The blog says it's coming. It isn't linked. It doesn't exist. Third entry."
+  },
+  {
+   "s": "B",
+   "t": "Apple shipped something on Friday."
+  },
+  {
+   "s": "A",
+   "t": "HomeView. Three hundred and ninety-nine Singapore dollars, two hundred and ninety-nine US. A seven-inch screen on a speaker base for the kitchen counter. It recognises up to six people and switches between them. Walk up, and it shows you your calendar rather than the household's."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Does it work?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody outside Apple knows. No reviewer at the launch event was permitted to test the face or voice recognition."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] You are not serious."
+  },
+  {
+   "s": "A",
+   "t": "The one feature that makes it a new product, and it has been demonstrated by its maker and verified by nobody. And the fine print gives it away. Your personal content only appears if your phone is unlocked, on the same network, and your face is recognised."
+  },
+  {
+   "s": "B",
+   "t": "So the screen that knows your face still needs the phone in your pocket to believe it."
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic box, more or less."
+  },
+  {
+   "s": "B",
+   "t": "Right — The Atelier. Bicycle pumps. [amused] Sell it to me."
+  },
+  {
+   "s": "A",
+   "t": "Gladly, because this one is the exception that makes the whole issue work. A track pump is four parts: a barrel, a seal, a hose and a gauge."
+  },
+  {
+   "s": "B",
+   "t": "And the gauge is the expensive bit."
+  },
+  {
+   "s": "A",
+   "t": "The gauge is the part everybody pays for and nobody tests. Silca publishes a tolerance, which almost nobody else does — one per cent, on a pump that costs five hundred and nine dollars."
+  },
+  {
+   "s": "B",
+   "t": "One per cent sounds excellent."
+  },
+  {
+   "s": "A",
+   "t": "Then their own engineering chief, Josh Poertner, explains on his own podcast what that means. One per cent of full scale. So plus or minus one point six pounds per square inch."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Of full scale. Not of the reading."
+  },
+  {
+   "s": "A",
+   "t": "And the needle is fitted at eighty, so the pump is least accurate at zero and at a hundred and sixty. He adds that a twenty-four dollar digital gauge is probably about the same."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] He's dismantling his own product."
+  },
+  {
+   "s": "A",
+   "t": "That's why it's in the issue. It's the one claim this week that arrived with its test attached, and it cost the seller something to say it. An independent magazine measured a two hundred dollar Silca seven pounds out against a reference gauge. Worse at higher pressures."
+  },
+  {
+   "s": "B",
+   "t": "So what do you buy?"
+  },
+  {
+   "s": "A",
+   "t": "Buy for the parts. Park Tool is the only maker here that puts an exploded parts diagram and three repair videos on the product page, sells an eighteen dollar rebuild kit that still fits pumps it discontinued — and charges fifty-five dollars for the pump."
+  },
+  {
+   "s": "B",
+   "t": "And the curve flattens where?"
+  },
+  {
+   "s": "A",
+   "t": "Roughly seventy-five to a hundred and fifteen US dollars. Above that you're buying serviceability and feel, not pressure."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Buy once, but buy the one with spare parts."
+  },
+  {
+   "s": "A",
+   "t": "That's the desk in one line."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] What is it today?"
+  },
+  {
+   "s": "A",
+   "t": "Field recording. Going out with a microphone and keeping what the world is already doing."
+  },
+  {
+   "s": "B",
+   "t": "Not making sound. Catching it."
+  },
+  {
+   "s": "A",
+   "t": "The opposite discipline. You add nothing. The craft is entirely in choosing where to stand."
+  },
+  {
+   "s": "B",
+   "t": "[curious] How do people fall in?"
+  },
+  {
+   "s": "A",
+   "t": "Three doors. The first is a contact microphone or a hydrophone — a sensor that listens inside things. A fence post, a plant stem, a rock pool turns out to have been making noise the whole time. The second is what the recordist George Vlad calls a drop rig. Any rig you set up and leave unattended for more than a few minutes."
+  },
+  {
+   "s": "B",
+   "t": "So you come home to a night you weren't present for."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. And the third is competition. The Wildlife Sound Recording Society's silver fox trophy last year went to Melia Roger, for a recording titled — [pause] — Night next to a dead cow."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay, that's a brilliant title."
+  },
+  {
+   "s": "A",
+   "t": "It is a brilliant title."
+  },
+  {
+   "s": "B",
+   "t": "How old is this world?"
+  },
+  {
+   "s": "A",
+   "t": "Older than it looks. The Cornell archive dates its first recording to the eighteenth of May, nineteen twenty-nine. Birds in a park in Ithaca, on sound-on-film. And two years later colleagues built a parabolic reflector for the field — using World War One parabola moulds borrowed from the physics department."
+  },
+  {
+   "s": "B",
+   "t": "[amused] They made a bird microphone out of war surplus."
+  },
+  {
+   "s": "A",
+   "t": "That archive now lists eighty thousand one hundred and twenty-nine contributors, audio for ten thousand and fifty-six bird species, and around three point two million recordings."
+  },
+  {
+   "s": "B",
+   "t": "And the amateur side?"
+  },
+  {
+   "s": "A",
+   "t": "Bigger. Freesound, run since two thousand and five by a university in Barcelona, holds seven hundred and forty-one thousand four hundred and thirty-six sounds under open licences."
+  },
+  {
+   "s": "B",
+   "t": "What are they all collecting, though?"
+  },
+  {
+   "s": "A",
+   "t": "That's the melancholy bit. Bernie Krause — who coined the vocabulary the field uses — told an audience in two thousand and thirteen that fully fifty per cent of his archive comes from habitats now either silent or unrecognisable."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Fifty per cent."
+  },
+  {
+   "s": "A",
+   "t": "By twenty twenty-three he was saying more than seventy."
+  },
+  {
+   "s": "B",
+   "t": "That's a terrible number."
+  },
+  {
+   "s": "A",
+   "t": "And here's the sceptic, because the desk has to run one. Across those sources, neither habitat nor silent is ever defined consistently. The most-quoted statistic in the hobby has drifted twenty points and nobody can say exactly what it measures."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So you print both."
+  },
+  {
+   "s": "A",
+   "t": "You print both and the gap between them. It's a better story: the man with the largest private archive of vanished sound cannot tell you precisely how much has vanished."
+  },
+  {
+   "s": "B",
+   "t": "What does the gear cost?"
+  },
+  {
+   "s": "A",
+   "t": "The honest answer is that the ladder has an unusually clean shape. The value champion is a Zoom recorder at four hundred and sixty-nine pounds, with the highest rating volume in the category. A matched pair of DPA omnidirectional microphones is three thousand eight hundred and sixty-nine pounds."
+  },
+  {
+   "s": "B",
+   "t": "And the cheap pair that embarrasses it?"
+  },
+  {
+   "s": "A",
+   "t": "Line Audio, from Sweden. About two hundred and sixty-five pounds for a pair, self-noise of sixteen decibels A-weighted — and it keeps turning up in recordings alongside the expensive ones."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Fifteen times the price."
+  },
+  {
+   "s": "A",
+   "t": "Meanwhile the thing that genuinely got worse this year is the inputs. A recording format called thirty-two-bit float went downmarket, and one independent reviewer's correspondent measured the budget machines' sockets as noisier than the models they replaced."
+  },
+  {
+   "s": "B",
+   "t": "So the format improved and the front end got worse."
+  },
+  {
+   "s": "A",
+   "t": "That's the pull quote."
+  },
+  {
+   "s": "B",
+   "t": "And the artisan end?"
+  },
+  {
+   "s": "A",
+   "t": "Sold out. LOM, in Bratislava — the maker everyone covets — has its entire flagship range marked sold out. No waitlist, no lead time, no restock date, no pre-order."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So how do you buy one?"
+  },
+  {
+   "s": "A",
+   "t": "You watch the shop. That's the commissioning model."
+  },
+  {
+   "s": "B",
+   "t": "Is there a Singapore angle? There usually isn't."
+  },
+  {
+   "s": "A",
+   "t": "There genuinely is. The National University's Acoustic Research Laboratory listens to our waters for dolphins and dugongs — and names the obstacle every tropical recordist meets. Snapping shrimp. Their colonies produce a constant crackling in Singapore's waters."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] We have a shrimp problem."
+  },
+  {
+   "s": "A",
+   "t": "The published soundscape survey picked the Sungei Buloh mangrove boardwalk and the Bukit Timah summit as our characteristic sites. And a nine-gigabyte open dataset of pond recordings was published this March."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic for the hobby?"
+  },
+  {
+   "s": "A",
+   "t": "The biggest story of its year. In September the libraries and the Oscar-winning sound designers launched the Professional Sound Alliance against artificial-intelligence scraping. Douglas Price: now sound will have protection of our own. Then the small print. The alliance states it has zero intention to litigate, or even to introduce licensing standards. Its launch assets are a petition and a downloadable seal. And its lead founder's own company sells a one point two seven million sound dataset for training artificial intelligence."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Of course it does."
+  },
+  {
+   "s": "A",
+   "t": "Fifth entry on the list."
+  },
+  {
+   "s": "B",
+   "t": "Quickly — culture and the body."
+  },
+  {
+   "s": "A",
+   "t": "Ebenezer opened at nineteen million dollars. Paramount's own projection, which we printed on Saturday, was twenty. A small one, from three thousand five hundred and thirty-five cinemas. The exit poll came back at A minus, and the audience score ticked up to ninety per cent."
+  },
+  {
+   "s": "B",
+   "t": "So people liked it."
+  },
+  {
+   "s": "A",
+   "t": "People liked it. It's a distribution result more than a comeback — and those are Sunday estimates, so the real numbers land after we go to press. Petermann Bedat premiered their first chronograph in Singapore last week. A platinum monopusher, twenty pieces, a hundred and eighty thousand Swiss francs before tax."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And the reception?"
+  },
+  {
+   "s": "A",
+   "t": "The specialist press likes it and says the price is aggressive in the same breath. And here's the thing — this desk searched four ways and found no owner discussion anywhere. Every opinion in print belongs to someone handed one at a fair. A study in a paediatrics journal recorded what a thousand and eleven American children actually saw on their phones. Median age twelve. Median food advertising: three thousand eight hundred and eighty-three exposures a year. Eighty-two and a half per cent on social media. Thirty per cent on TikTok alone — not on television, where most of the advertising rules still live. A big one. It's a count of a screen, not a finding about eating. No outcome was measured. Nobody was weighed or followed. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And the don't-panic note?"
+  },
+  {
+   "s": "A",
+   "t": "A separate study followed eleven thousand two hundred and seventy-nine children from age twelve across five annual waves. For anxiety symptoms, no significant association with problematic social media use in any year at all. Zero. And fitness — a review pooling a hundred and fifty-one studies and a hundred and forty-five thousand people found daily activity falls by seven point eight minutes every year, at every age. A decade of it is more than an hour a day gone. But here's the consolation: childhood step counts predict adult ones at a correlation of minus nought point nought one."
+  },
+  {
+   "s": "B",
+   "t": "Which is nothing."
+  },
+  {
+   "s": "A",
+   "t": "Which is nothing. Adult to adult is nought point five two. So what you did last year predicts this year. What you did at twelve predicts nothing."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Defend the current routine, not the remembered one."
+  },
+  {
+   "s": "A",
+   "t": "That's it exactly. And one correction we owe: in issue one sixty-one we gave a trial's fat-mass result as a probability of nought point four one six. The published paper says nought point seven. The conclusion stands; the figure was wrong."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Good. Say it out loud."
+  },
+  {
+   "s": "A",
+   "t": "The diary, briefly. Diana Krall at the Esplanade on the twenty-fourth and twenty-fifth — eighty-eight to two hundred and sixty-eight dollars, and they admit children from six."
+  },
+  {
+   "s": "B",
+   "t": "And for Japan?"
+  },
+  {
+   "s": "A",
+   "t": "Set an alarm. Advance tickets for the January sumo tournament open on Saturday the fifth of December — and the current tournament is sold out on every single day."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And then there's Pakistan."
+  },
+  {
+   "s": "A",
+   "t": "Then there's Pakistan. On the twenty-third of February, the Sindh government gazette carried three pages that changed the price of being killed on a Pakistani road."
+  },
+  {
+   "s": "B",
+   "t": "What did they do?"
+  },
+  {
+   "s": "A",
+   "t": "They made third-party motor insurance compulsory — by attaching it to the one counter a driver cannot avoid. The annual vehicle tax. No policy, no tax, no registration."
+  },
+  {
+   "s": "B",
+   "t": "Did it work?"
+  },
+  {
+   "s": "A",
+   "t": "In March there were eleven thousand two hundred policies in the province. On the thirteenth of November there were four hundred and fifty-two thousand five hundred and fifteen."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] In eight months."
+  },
+  {
+   "s": "A",
+   "t": "Sixty-one years of the same law on the books had produced the eleven thousand. Eleven months of a screen at the tax counter produced the rest. The variable was never the statute."
+  },
+  {
+   "s": "B",
+   "t": "So what's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "The schedule attached to it. It prices a death at seven hundred thousand rupees. Payable in forty-five days — and, crucially, without intervention of the court."
+  },
+  {
+   "s": "B",
+   "t": "That sounds fast and humane."
+  },
+  {
+   "s": "A",
+   "t": "It is fast. Now hold it beside the other number. Under the penal code, blood money — diyat — must equal the value of thirty thousand six hundred and thirty grams of silver, declared every year by the federal government."
+  },
+  {
+   "s": "B",
+   "t": "And this year?"
+  },
+  {
+   "s": "A",
+   "t": "Nineteen million three hundred and fifty-two thousand three hundred and ninety rupees. Up ninety-seven per cent in a year, because silver re-rated in London."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the same death. Twenty-seven times apart."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-seven point six. And the obvious objection is that they're not comparable — one is a criminal penalty after conviction, the other a civil floor paid by an insurer."
+  },
+  {
+   "s": "B",
+   "t": "Is that fair?"
+  },
+  {
+   "s": "A",
+   "t": "Partly. But getting to the nineteen million requires an identified driver, a prosecution, a conviction and a judge. Getting to the seven hundred thousand requires a form."
+  },
+  {
+   "s": "B",
+   "t": "So the gap isn't a contradiction."
+  },
+  {
+   "s": "A",
+   "t": "The gap is the discount a family accepts for not having to go to court in Pakistan."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And they've done this before."
+  },
+  {
+   "s": "A",
+   "t": "In two thousand and sixteen the same province ran a scheme through its own insurer. A hundred thousand rupees to the heirs of anyone killed accidentally in Sindh. No premium. The province paid. Now it compels the citizen to buy it, sets the figure seven times higher — because it is no longer the payer — and takes a cut of every compelled transaction."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The state didn't discover a better number."
+  },
+  {
+   "s": "A",
+   "t": "It discovered a way to stop paying it."
+  },
+  {
+   "s": "B",
+   "t": "And the thing nobody's published?"
+  },
+  {
+   "s": "A",
+   "t": "Eight months in, with a forty-five-day statutory clock, the regulator has released the policy count three times and has never released the number of claims filed, paid, or refused."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Not one."
+  },
+  {
+   "s": "A",
+   "t": "There is no public evidence that a single rupee has reached a single heir. The enrolment is the measurement."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] It usually is."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-four pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

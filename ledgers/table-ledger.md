@@ -208,7 +208,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Faber Side Cafe & Cellar | Faber Side Cafe & Cellar | 139, 154 | SPENT | No. 139 build | First run — opened October 2026; three Chope votes, service 5.0 against food 4.0. Peg for a second run would be a reviewed kitchen. |
 | Age.3 | Age.3 | 141, 148 | SPENT | No. 141 build | opening run — record the peg here |
 | Hama-Sushi | Hama-Sushi | 141, 160 | SPENT | No. 141 build | opening run — record the peg here |
-| Sodeng Jeju | Sodeng Jeju | 142 | OPEN | No. 142 build | opening run — record the peg here |
+| Sodeng Jeju | Sodeng Jeju | 142, 164 | SPENT | No. 142 build | opening run — record the peg here |
 | Tofu G | Tofu G | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | A Bar Called Bar | A Bar Called Bar | 142 | OPEN | No. 142 build | opening run — record the peg here |
 | Bonsoir at Ma Cuisine | Bonsoir at Ma Cuisine | 142 | OPEN | No. 142 build | opening run — record the peg here |
@@ -248,7 +248,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | ODD Ramen & Diner | ODD Ramen & Diner | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | Greenwood Fish Market | Greenwood Fish Market | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | Earworm | Earworm | 156, 163 | SPENT | No. 156 build | opening run — record the peg here |
-| JJAN | JJAN | 157 | OPEN | No. 157 build | opening run — record the peg here |
+| JJAN | JJAN | 157, 164 | SPENT | No. 157 build | opening run — record the peg here |
 | HI BOWL | HI BOWL | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | Three Bowls | Three Bowls | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | Cranki Patisserie | Cranki Patisserie | 158 | OPEN | No. 158 build | opening run — record the peg here |
@@ -265,3 +265,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Yaya Lorong | Yaya Lorong | 162 | OPEN | No. 162 build | opening run — record the peg here |
 | Chi Spacca Singapore | Chi Spacca Singapore | 163 | OPEN | No. 163 build | opening run — record the peg here |
 | Hippopotato | Hippopotato | 163 | OPEN | No. 163 build | opening run — record the peg here |
+| Reference Room Cafe | Reference Room Cafe | 164 | OPEN | No. 164 build | opening run — record the peg here |
+| Kemuri Coffee Co. | Kemuri Coffee Co. | 164 | OPEN | No. 164 build | opening run — record the peg here |
+| Sohaus | Sohaus | 164 | OPEN | No. 164 build | opening run — record the peg here |

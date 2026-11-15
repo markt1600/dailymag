@@ -1,5 +1,5 @@
 {
-  "count": 1224,
+  "count": 1231,
   "subjects": [
     {
       "subject": "IKEA Dirigera Matter Controller / Thread Border Router firmware",
@@ -1246,6 +1246,55 @@
       "last_covered": "No. 47",
       "last_peg": "Love \\& Life LEAD — the crude divorce rate's 50-year low is a later-and-more-selective-marriage story, not a relationship-quality one; gray divorce (50+) has risen from ~8% of all divorces in 1990 to 36-40% today",
       "next_peg": "Next peg = a fresh BGSU/NCFMR data release, or a notable policy/insurance angle on gray divorce."
+    },
+    {
+      "subject": "2026 FAA nationwide ground stop",
+      "type": "Event",
+      "last_covered": "No. 164",
+      "last_peg": "World LEAD &mdash; 13 Nov, more than four hours, ~12,462 flights cancelled; Duffy names a newly installed router at El Dorado, Arkansas, <b>HPE says it was a Juniper and &ldquo;They did not fail&rdquo;</b>; both devices at an L3Harris laboratory in Florida with no finding published.",
+      "next_peg": "Next peg: the laboratory report, a congressional hearing, or the air-traffic funding vote."
+    },
+    {
+      "subject": "Nvidia Q3 FY2027 and the Kress interim",
+      "type": "Corporate event",
+      "last_covered": "No. 164",
+      "last_peg": "Technology LEAD &mdash; results due 17 Nov for the quarter ended 25 Oct; Huang resigned 12 Nov, <b>Colette Kress interim chief executive</b>, Harvey C. Jones first-ever chair; independent directors retained <b>Joon H. Kim</b> and Wachtell on 10 Nov with <b>no scope stated</b>. 10-Q read at source: H200 $0.4bn charge, under 1% of data-centre revenue, 25% tariff &ldquo;unable to pass along&rdquo;.",
+      "next_peg": "Next peg: the printed quarter, a guidance change, or the investigation's scope."
+    },
+    {
+      "subject": "Edge0-145B and edge0-strata",
+      "type": "AI model",
+      "last_covered": "No. 164",
+      "last_peg": "Home Lab LEAD &mdash; weights published 11&ndash;12 Nov; 145B total / 10.12B active, 256K context; NVFP4 47.8 GiB CUDA-only, Q3_K 40.8 GiB for Mac. <b>Launch blog claims a 29GB peak; its own model card measures 23.25 GiB of card memory plus 38.27 GiB of system memory.</b> Open-weight, not open-source. No llama.cpp, Ollama or LM Studio path.",
+      "next_peg": "Next peg: the promised technical report, or an independent reproduction."
+    },
+    {
+      "subject": "Blackmagic Ambisonic Microphone",
+      "type": "Product (microphone)",
+      "last_covered": "No. 164",
+      "last_peg": "Kit brief &mdash; announced 12 Nov; 108 digital MEMS capsules, seventh-order ambisonics encoded onboard, one USB-C cable, class compliant. <b>US$1,695 excluding duties</b>, $2,405 kit, December. Apple licensed the array geometry and filters. No Singapore price; no independent listening test exists.",
+      "next_peg": "Next peg: shipping, a measured review, or a Singapore price."
+    },
+    {
+      "subject": "Petermann B&eacute;dat Reference 2914",
+      "type": "Product (watch)",
+      "last_covered": "No. 164",
+      "last_peg": "Good Life LEAD &mdash; world premiere at IAMWATCH Singapore in mid-November; platinum monopusher chronograph, <b>CHF 180,000 ex VAT, 20 pieces</b>, 36.5&times;9.9mm, in-house calibre 234, Combl&eacute;mine dial plates. SJX calls the price <b>&ldquo;aggressive&rdquo;</b> and places it above the Rexhep Rexhepi flyback. <b>No owner or forum sentiment exists anywhere, searched four ways.</b>",
+      "next_peg": "Next peg: deliveries, a second case material, or the first owner reviews."
+    },
+    {
+      "subject": "Sindh compulsory third-party motor insurance",
+      "type": "Policy",
+      "last_covered": "No. 164",
+      "last_peg": "Undercurrent &mdash; Sindh Act VIII of 2026, gazetted 23 Feb; 452,515 policies at 13 Nov against 11,200 in March; the Sixteenth Schedule prices death at Rs700,000 against <i>diyat</i> at Rs19,352,390.",
+      "next_peg": "Next peg: the first published claim figures, a notified premium, or the national rollout."
+    },
+    {
+      "subject": "Microsoft 365 global outage, November 2026",
+      "type": "Event",
+      "last_covered": "No. 164",
+      "last_peg": "Singapore LEAD &mdash; began ~1.25am SGT 13 Nov; Singapore government Outlook restored 11pm the same day; GovTech blames an earlier network capacity upgrade, not an attack; 74 countries, 7.4m Downdetector reports. <b>No post-incident report published or promised.</b>",
+      "next_peg": "Next peg: a published root-cause report from Microsoft or GovTech."
     },
     {
       "subject": "Klipsch Stratos HP-2 / HP-3",

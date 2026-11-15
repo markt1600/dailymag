@@ -1,21 +1,32 @@
 {
  "publication": "MERIDIAN",
- "issue": 163,
- "date": "15 November 2026",
- "generated": "2026-11-15T06:05:24+08:00",
+ "issue": 164,
+ "date": "16 November 2026",
+ "generated": "2026-11-16T06:05:53+08:00",
  "quote": {
-  "text": "The human understanding when it has once adopted an opinion draws all things else to support and agree with it.",
-  "author": "Francis Bacon, Novum Organum (1620), Book I, Aphorism XLVI"
+  "text": "Beware of bugs in the above code; I have only proved it correct, not tried it.",
+  "author": "Donald Knuth, in a memo to Peter van Emde Boas, 29 March 1977"
  },
- "macro": null,
+ "macro": {
+  "title": "What It Means For VWRA, Global Bonds, Gold & Bitcoin",
+  "reads": [
+   {
+    "label": "The regime is a hawkish real-rate shock on an energy supply shock, and in it diversification does not work.",
+    "text": "Global equities take the repricing through the discount rate. The bond sleeve hedges nothing while duration is what is being repriced; its 4.36 per cent yield is compensation for exactly the risk arriving. Gold behaves as the duration asset it is — a ten-year at 5.15 per cent is what competes with it, and gold lost."
+   }
+  ],
+  "note": "",
+  "regime": [],
+  "anchor": "p14"
+ },
  "stories": [
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Espresso Machines",
-   "headline": "La Marzocco publishes its boiler volumes; ECM and Olympia Express publish no price",
-   "dek": "The Linea Mini R holds half a litre for brewing and 3.5 for steam, and costs US$6,300. ECM and Olympia Express print no price on their own sites at all.",
+   "kicker": "The Atelier · Track Pumps & The Bike Bench",
+   "headline": "Silca’s own engineer rates the $509 SuperPista gauge at 1.6 psi either way",
+   "dek": "Josh Poertner, Silca’s engineering chief, says the SuperPista Ultimate is least accurate at zero and at 160; OutdoorGearLab measured a $199 Silca seven psi out.",
    "anchor": "p6",
    "featured": true
   },
@@ -23,29 +34,29 @@
    "desk": "The Rabbit Hole",
    "sub": "The Invitation",
    "category": "Hobby",
-   "kicker": "The Invitation · Netsuke & Miniature Carving",
-   "headline": "Netsuke became a collecting field with its own Kyoto museum and societies",
-   "dek": "A coat toggle became a collecting field with 46 years of quarterly scholarship, a Kyoto museum holding over 6,000 pieces, and a record near a million euros.",
+   "kicker": "The Invitation · Field Recording",
+   "headline": "The Cornell bird archive began in 1929 and now holds 3.2 million recordings",
+   "dek": "Field recording captures the world’s existing sound; Bernie Krause says more than half his 5,000-hour archive is of places that no longer sound like that.",
    "anchor": "p15",
    "featured": true
   },
   {
-   "desk": "The Travel Desk",
-   "sub": "Departures",
-   "category": "Travel",
-   "kicker": "The Travel Desk · Singapore Airlines’ New Cabins",
-   "headline": "Singapore Airlines unveiled four new cabins and confirmed passengers wait until late 2027",
-   "dek": "The airline put more than S$2 billion of seats on a stage at Marina Bay Sands on 6 November. The business seat is 22 inches wide against 28 on the one it replaces.",
-   "anchor": "p19",
+   "desk": "The Long Read",
+   "sub": "The Undercurrent",
+   "category": "Essay",
+   "kicker": "The Undercurrent · Sindh’s Two Prices",
+   "headline": "Sindh prices a road death at 700,000 rupees, Islamabad at 19 million",
+   "dek": "A Sindh gazette of 23 February bolted compulsory motor insurance onto the token-tax counter, and policies went from 11,200 in March to 452,515 on 13 November.",
+   "anchor": "p21",
    "featured": true
   },
   {
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Shenzhen Trilateral",
-   "headline": "Kremlin says Putin, Xi and Trump will meet in Shenzhen on Thursday",
-   "dek": "Dmitry Peskov put the date on the record on Saturday, a day after the White House. Beijing, which is hosting, has confirmed no such meeting.",
+   "kicker": "The World · The Nationwide Ground Stop",
+   "headline": "The Federal Aviation Administration halted every US departure for four hours",
+   "dek": "Transport Secretary Sean Duffy blames a router installed at El Dorado, Arkansas, on 13 November; Hewlett Packard Enterprise says the device was a Juniper and did not fail.",
    "anchor": "p3",
    "featured": false
   },
@@ -53,9 +64,9 @@
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Housing Subsidy",
-   "headline": "Singapore’s HDB reports a $4.70 billion deficit as completions fall a quarter",
-   "dek": "The Housing and Development Board’s annual report of 11 November shows the government grant down $1.62 billion to $4.73 billion, and 15,417 flats finished against 20,294.",
+   "kicker": "Singapore · The Outlook Outage",
+   "headline": "Microsoft’s cloud failure cut Singapore government email for twenty-two hours",
+   "dek": "GovTech restored Outlook at 11pm on 13 November and blames a network capacity upgrade, not an attack; the tax authority, SingHealth and the police were among those cut off.",
    "anchor": "p5",
    "featured": false
   },
@@ -63,9 +74,9 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · The Senate And Nvidia",
-   "headline": "Tim Scott summons Jensen Huang and Howard Lutnick over Nvidia’s China exports",
-   "dek": "Letters dated 12 November ask Nvidia’s departed chief to appear on 3 December and the Commerce Secretary on 10 December, with subpoenas threatened if either declines.",
+   "kicker": "Technology · Nvidia’s Third Quarter",
+   "headline": "Nvidia reports its biggest quarter on Tuesday with Colette Kress as interim chief",
+   "dek": "Jensen Huang resigned on 12 November; two days earlier the independent directors hired the former prosecutor Joon H. Kim to investigate, and did not say into what.",
    "anchor": "p7",
    "featured": false
   },
@@ -73,9 +84,9 @@
    "desk": "The Kit",
    "sub": "Gear We’re Watching",
    "category": "Gadgets",
-   "kicker": "The Kit · Klipsch Stratos",
-   "headline": "Klipsch returns to headphones with the Stratos pair at $999.99 and $1,199.99",
-   "dek": "The closed-back HP-2 and semi-open HP-3 were shown at CanJam Dallas on 14 November, reach American shops in December and Europe in January 2027.",
+   "kicker": "The Kit · Apple HomeView",
+   "headline": "Apple’s HomeView went on sale on Friday at S$399 in Singapore",
+   "dek": "The seven-inch countertop display recognises up to six faces, but Siri’s new intelligence ships as an English-only beta and no reviewer was allowed to test the recognition.",
    "anchor": "p9",
    "featured": false
   },
@@ -83,9 +94,9 @@
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Zenith And J.N. Shapiro",
-   "headline": "Zenith puts J.N. Shapiro’s name on its own dial, 25 pieces at CHF 68,900",
-   "dek": "Announced on 12 November, the rose-gold G.F.J. carries a silver dial cut in southern California — US$83,150 in American boutiques, and no published Singapore price.",
+   "kicker": "The Good Life · Petermann Bédat 2914",
+   "headline": "Petermann Bédat premiered its first chronograph in Singapore at CHF 180,000",
+   "dek": "The Reference 2914 is a 36.5mm platinum monopusher in twenty pieces, with dial plates from Kari Voutilainen’s Comblémine; SJX calls the price “aggressive”.",
    "anchor": "p10",
    "featured": false
   },
@@ -93,9 +104,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Ebenezer",
-   "headline": "Johnny Depp’s Ebenezer opened at number one with $6.7 million on Friday",
-   "dek": "Paramount’s Ti West-directed Dickens adaptation took $6,700,000 from 3,535 American cinemas on 13 November; the studio projects $20 million for the weekend.",
+   "kicker": "Screen & Sound · Ebenezer’s Opening",
+   "headline": "Ebenezer opened at $19 million, a million below Paramount’s own projection",
+   "dek": "Johnny Depp’s Dickens adaptation took $19,000,000 from 3,535 American cinemas over 13–15 November, on an A− CinemaScore and a 90 per cent audience score.",
    "anchor": "p11",
    "featured": false
   },
@@ -103,9 +114,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · School Attendance",
-   "headline": "The University of Manchester finds sleep and belonging protect school attendance",
-   "dek": "The University of Manchester team followed children aged 12 and 13 across nine terms in 156 schools. Nine in ten barely wavered; the 7.6 per cent who slipped were already struggling.",
+   "kicker": "The Family Desk · Food Marketing On Phones",
+   "headline": "A JAMA Pediatrics study put food adverts to young teenagers at 3,883 a year",
+   "dek": "Screen recordings from 1,011 American children, median age twelve, found 82.6 per cent of that marketing on social media and 30.4 per cent on TikTok alone.",
    "anchor": "p12",
    "featured": false
   },
@@ -114,8 +125,8 @@
    "sub": "The Big Picture",
    "category": "Markets",
    "kicker": "The Macro Desk · The December Hike",
-   "headline": "Futures price a December Fed increase at 100 per cent after October’s inflation prints",
-   "dek": "The two-year Treasury yield rose 37 basis points in the week to 4.88 per cent. Gold fell 4.6 per cent and bitcoin broke its 200-week average.",
+   "headline": "A December Federal Reserve hike is fully priced, and every hedge failed at once",
+   "dek": "The ten-year Treasury yield rose 29 basis points in a week to 5.15 per cent; gold broke $4,000 to a thirteen-month low and bitcoin fell 19 per cent from 5 November.",
    "anchor": "p14",
    "featured": false
   },
@@ -123,9 +134,9 @@
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · Small-Sided Football",
-   "headline": "A Faroese football trial missed its muscle target and raised fitness anyway",
-   "dek": "Published 5 November, the randomised trial of 111 adults aged 40 to 70 found lean mass up 0.04 kilograms — and aerobic capacity up 2.80 points on half-attendance.",
+   "kicker": "Fitness · The Activity Decline",
+   "headline": "Daily activity falls 7.8 minutes a year, a BMJ Public Health review finds",
+   "dek": "Runacres and colleagues pooled 151 studies in BMJ Public Health on 11 November; childhood step counts predicted adult ones with a correlation of minus 0.01.",
    "anchor": "p18",
    "featured": false
   },
@@ -133,20 +144,10 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Tokyo Auto Salon",
-   "headline": "Tokyo Auto Salon 2027 opens ticket sales for 15 to 17 January",
-   "dek": "Makuhari Messe on the Friday costs ¥4,000 and the weekend days ¥3,000 — digital tickets only, credit card only, resale prohibited and no refunds.",
-   "anchor": "p23",
-   "featured": false
-  },
-  {
-   "desk": "The Long Read",
-   "sub": "The Undercurrent",
-   "category": "Essay",
-   "kicker": "The Undercurrent · Mongolia’s 1072 Shares",
-   "headline": "Mongolia opens the sale of 1,072 Tavan Tolgoi shares to 3.5 million citizens",
-   "dek": "A 2012 resolution banned disposal “in any form”. In June this year the stock exchange signed a memorandum to undo it — in a year the dividend fell to about nineteen US dollars.",
-   "anchor": "p25",
+   "kicker": "The Diary · Diana Krall At The Esplanade",
+   "headline": "Diana Krall plays the Esplanade Concert Hall on 24 and 25 November",
+   "dek": "Esplanade tickets run from $88 to $268 across six categories for a seventy-five-minute set with no interval, and the hall admits children from six.",
+   "anchor": "p19",
    "featured": false
   }
  ]

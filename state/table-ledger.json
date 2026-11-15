@@ -1816,9 +1816,10 @@
       "venue": "Sodeng Jeju",
       "key": "Sodeng Jeju",
       "runs": [
-        142
+        142,
+        164
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 142 build",
       "note": "opening run — record the peg here"
     },
@@ -2230,9 +2231,10 @@
       "venue": "JJAN",
       "key": "JJAN",
       "runs": [
-        157
+        157,
+        164
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 157 build",
       "note": "opening run — record the peg here"
     },
@@ -2395,9 +2397,39 @@
       "status": "OPEN",
       "checked": "No. 163 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Reference Room Cafe",
+      "key": "Reference Room Cafe",
+      "runs": [
+        164
+      ],
+      "status": "OPEN",
+      "checked": "No. 164 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Kemuri Coffee Co.",
+      "key": "Kemuri Coffee Co.",
+      "runs": [
+        164
+      ],
+      "status": "OPEN",
+      "checked": "No. 164 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sohaus",
+      "key": "Sohaus",
+      "runs": [
+        164
+      ],
+      "status": "OPEN",
+      "checked": "No. 164 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 164,
+  "barred_for_issue": 165,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2513,6 +2545,7 @@
     "Faber Side Cafe & Cellar",
     "Age.3",
     "Hama-Sushi",
+    "Sodeng Jeju",
     "BFF",
     "Woksta",
     "SHAO @ Dempsey",
@@ -2527,9 +2560,7 @@
     "Nekobushi",
     "Woodsmen by Cut Butchery",
     "Earworm",
-    "Cranki Patisserie",
-    "Casa Osteria",
-    "AhMah’s Legacy",
+    "JJAN",
     "Habibi Kebs",
     "Mala Mia",
     "Yeah Gelato",
@@ -2540,6 +2571,9 @@
     "Peach Blossoms",
     "Yaya Lorong",
     "Chi Spacca Singapore",
-    "Hippopotato"
+    "Hippopotato",
+    "Reference Room Cafe",
+    "Kemuri Coffee Co.",
+    "Sohaus"
   ]
 }
