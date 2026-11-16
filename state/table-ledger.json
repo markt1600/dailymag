@@ -1411,9 +1411,10 @@
       "venue": "Wok & Toast",
       "key": "Wok & Toast",
       "runs": [
-        126
+        126,
+        165
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 126 build",
       "note": "opening run — record the peg here"
     },
@@ -1919,9 +1920,10 @@
       "venue": "Sogurt",
       "key": "Sogurt",
       "runs": [
-        145
+        145,
+        165
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 145 build",
       "note": "opening run — record the peg here"
     },
@@ -2427,9 +2429,29 @@
       "status": "OPEN",
       "checked": "No. 164 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Khao Boi",
+      "key": "Khao Boi",
+      "runs": [
+        165
+      ],
+      "status": "OPEN",
+      "checked": "No. 165 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Café Artévo",
+      "key": "Café Artévo",
+      "runs": [
+        165
+      ],
+      "status": "OPEN",
+      "checked": "No. 165 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 165,
+  "barred_for_issue": 166,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2520,6 +2542,7 @@
     "Food Opera",
     "Torimitsu",
     "Tanuki Raw",
+    "Wok & Toast",
     "O/SIO",
     "Blue Label Tavern",
     "Base Gelato",
@@ -2548,6 +2571,7 @@
     "Sodeng Jeju",
     "BFF",
     "Woksta",
+    "Sogurt",
     "SHAO @ Dempsey",
     "Xiao Jiao Tian",
     "Foca Kumpir",
@@ -2561,7 +2585,6 @@
     "Woodsmen by Cut Butchery",
     "Earworm",
     "JJAN",
-    "Habibi Kebs",
     "Mala Mia",
     "Yeah Gelato",
     "Soi Stories",
@@ -2574,6 +2597,8 @@
     "Hippopotato",
     "Reference Room Cafe",
     "Kemuri Coffee Co.",
-    "Sohaus"
+    "Sohaus",
+    "Khao Boi",
+    "Café Artévo"
   ]
 }

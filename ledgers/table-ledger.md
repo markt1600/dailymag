@@ -170,7 +170,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Food Opera | Food Opera | 125, 133 | SPENT | No. 125 build | opening run — record the peg here |
 | Torimitsu | Torimitsu | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
 | Tanuki Raw | Tanuki Raw | 126, 137 | SPENT | No. 126 build | opening run — record the peg here |
-| Wok & Toast | Wok & Toast | 126 | OPEN | No. 126 build | opening run — record the peg here |
+| Wok & Toast | Wok & Toast | 126, 165 | SPENT | No. 126 build | opening run — record the peg here |
 | O/SIO | O/SIO | 127, 141 | SPENT | No. 127 build | opening run — record the peg here |
 | Blue Label Tavern | Blue Label Tavern | 128, 140 | SPENT | No. 128 build | opening run — record the peg here |
 | Base Gelato | Base Gelato | 128, 141 | SPENT | No. 128 build | opening run — record the peg here |
@@ -218,7 +218,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Woksta | Woksta | 144, 153 | SPENT | No. 144 build | opening run — record the peg here |
 | 7 Paintings | 7 Paintings | 144 | OPEN | No. 144 build | opening run — record the peg here |
 | Dough | Dough | 145 | OPEN | No. 145 build | opening run — record the peg here |
-| Sogurt | Sogurt | 145 | OPEN | No. 145 build | opening run — record the peg here |
+| Sogurt | Sogurt | 145, 165 | SPENT | No. 145 build | opening run — record the peg here |
 | SHAO @ Dempsey | SHAO @ Dempsey | 145, 159 | SPENT | No. 145 build | opening run — record the peg here |
 | Xiao Jiao Tian | Xiao Jiao Tian | 146, 154 | SPENT | No. 146 build | opening run — record the peg here |
 | Foca Kumpir | Foca Kumpir | 146, 163 | SPENT | No. 146 build | opening run — record the peg here |
@@ -268,3 +268,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Reference Room Cafe | Reference Room Cafe | 164 | OPEN | No. 164 build | opening run — record the peg here |
 | Kemuri Coffee Co. | Kemuri Coffee Co. | 164 | OPEN | No. 164 build | opening run — record the peg here |
 | Sohaus | Sohaus | 164 | OPEN | No. 164 build | opening run — record the peg here |
+| Khao Boi | Khao Boi | 165 | OPEN | No. 165 build | opening run — record the peg here |
+| Café Artévo | Café Artévo | 165 | OPEN | No. 165 build | opening run — record the peg here |

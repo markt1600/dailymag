@@ -1,52 +1,41 @@
 {
  "publication": "MERIDIAN",
- "issue": 164,
- "date": "16 November 2026",
- "generated": "2026-11-16T06:05:53+08:00",
+ "issue": 165,
+ "date": "17 November 2026",
+ "generated": "2026-11-17T06:19:54+08:00",
  "quote": {
-  "text": "Beware of bugs in the above code; I have only proved it correct, not tried it.",
-  "author": "Donald Knuth, in a memo to Peter van Emde Boas, 29 March 1977"
+  "text": "The rule by Nobody is not no-rule, and where all are equally powerless we have a tyranny without a tyrant.",
+  "author": "Hannah Arendt, On Violence, 1970"
  },
- "macro": {
-  "title": "What It Means For VWRA, Global Bonds, Gold & Bitcoin",
-  "reads": [
-   {
-    "label": "The regime is a hawkish real-rate shock on an energy supply shock, and in it diversification does not work.",
-    "text": "Global equities take the repricing through the discount rate. The bond sleeve hedges nothing while duration is what is being repriced; its 4.36 per cent yield is compensation for exactly the risk arriving. Gold behaves as the duration asset it is — a ten-year at 5.15 per cent is what competes with it, and gold lost."
-   }
-  ],
-  "note": "",
-  "regime": [],
-  "anchor": "p14"
- },
+ "macro": null,
  "stories": [
   {
    "desk": "The Atelier",
    "sub": "Buy It Once",
    "category": "Style",
-   "kicker": "The Atelier · Track Pumps & The Bike Bench",
-   "headline": "Silca’s own engineer rates the $509 SuperPista gauge at 1.6 psi either way",
-   "dek": "Josh Poertner, Silca’s engineering chief, says the SuperPista Ultimate is least accurate at zero and at 160; OutdoorGearLab measured a $199 Silca seven psi out.",
+   "kicker": "The Atelier · Curtains & Window Treatments",
+   "headline": "Ian Mankin weaves cotton at £39 a metre; Fermoie prints cloth at £180",
+   "dek": "Both sell into the same London workrooms, where making up an interlined pair ran £284 to £762 in 2023 — and the workroom, not the cloth, decides the result.",
    "anchor": "p6",
    "featured": true
   },
   {
-   "desk": "The Rabbit Hole",
-   "sub": "The Invitation",
-   "category": "Hobby",
-   "kicker": "The Invitation · Field Recording",
-   "headline": "The Cornell bird archive began in 1929 and now holds 3.2 million recordings",
-   "dek": "Field recording captures the world’s existing sound; Bernie Krause says more than half his 5,000-hour archive is of places that no longer sound like that.",
-   "anchor": "p15",
+   "desk": "The Kit",
+   "sub": "Gear We’re Watching",
+   "category": "Gadgets",
+   "kicker": "The Kit · The Flicker In Apple’s Best Screen",
+   "headline": "Apple’s new MacBook Pro screen flickers at 240 hertz, and owners report headaches",
+   "dek": "Notebookcheck measured a 56 per cent amplitude at 99 per cent brightness and below, then scored Apple’s display 92 per cent and called it the best laptop screen on sale.",
+   "anchor": "p9",
    "featured": true
   },
   {
    "desk": "The Long Read",
    "sub": "The Undercurrent",
    "category": "Essay",
-   "kicker": "The Undercurrent · Sindh’s Two Prices",
-   "headline": "Sindh prices a road death at 700,000 rupees, Islamabad at 19 million",
-   "dek": "A Sindh gazette of 23 February bolted compulsory motor insurance onto the token-tax counter, and policies went from 11,200 in March to 452,515 on 13 November.",
+   "kicker": "The Undercurrent · Bangladesh’s July Register",
+   "headline": "Bangladesh pays 13,968 July warriors a pension the Liberation War ministry administers",
+   "dek": "A ministry letter dated 10 November counts 990 people in the top injury class, against the 493 that Act No. 87 of 2026 still certifies.",
    "anchor": "p21",
    "featured": true
   },
@@ -54,9 +43,9 @@
    "desk": "The World",
    "sub": "The Meridian Dispatch",
    "category": "World",
-   "kicker": "The World · The Nationwide Ground Stop",
-   "headline": "The Federal Aviation Administration halted every US departure for four hours",
-   "dek": "Transport Secretary Sean Duffy blames a router installed at El Dorado, Arkansas, on 13 November; Hewlett Packard Enterprise says the device was a Juniper and did not fail.",
+   "kicker": "The World · Bahrain & The Strait",
+   "headline": "Iran’s Revolutionary Guard strikes Bahrain a second time and declares Hormuz closed",
+   "dek": "Six drones hit a radar at Riffa Air Base before dawn on Sunday; US Central Command says it shot down two, and the carrier Theodore Roosevelt is now the third American flattop in the Gulf.",
    "anchor": "p3",
    "featured": false
   },
@@ -64,9 +53,9 @@
    "desk": "Singapore",
    "sub": "The Little Red Dot",
    "category": "Asia",
-   "kicker": "Singapore · The Outlook Outage",
-   "headline": "Microsoft’s cloud failure cut Singapore government email for twenty-two hours",
-   "dek": "GovTech restored Outlook at 11pm on 13 November and blames a network capacity upgrade, not an attack; the tax authority, SingHealth and the police were among those cut off.",
+   "kicker": "Singapore · The Chip Licence List",
+   "headline": "Washington names Singapore a diversion risk and licences every advanced chip moved here",
+   "dek": "The 16 November rule covers Indonesia, Malaysia, Singapore, Brazil and Thailand, and says licences will be judged on how well each country enforces its own export controls.",
    "anchor": "p5",
    "featured": false
   },
@@ -74,29 +63,19 @@
    "desk": "Technology",
    "sub": "Silicon & Sovereignty",
    "category": "Tech",
-   "kicker": "Technology · Nvidia’s Third Quarter",
-   "headline": "Nvidia reports its biggest quarter on Tuesday with Colette Kress as interim chief",
-   "dek": "Jensen Huang resigned on 12 November; two days earlier the independent directors hired the former prosecutor Joon H. Kim to investigate, and did not say into what.",
+   "kicker": "Technology · Nvidia Reports Without A Chief",
+   "headline": "Nvidia reports without Jensen Huang as Washington rewrites the chip rules",
+   "dek": "The results land about twenty past one on Tuesday afternoon in California, with Colette Kress now interim chief executive and guidance set at $108bn, give or take two per cent.",
    "anchor": "p7",
-   "featured": false
-  },
-  {
-   "desk": "The Kit",
-   "sub": "Gear We’re Watching",
-   "category": "Gadgets",
-   "kicker": "The Kit · Apple HomeView",
-   "headline": "Apple’s HomeView went on sale on Friday at S$399 in Singapore",
-   "dek": "The seven-inch countertop display recognises up to six faces, but Siri’s new intelligence ships as an English-only beta and no reviewer was allowed to test the recognition.",
-   "anchor": "p9",
    "featured": false
   },
   {
    "desk": "The Good Life",
    "sub": "Objects & Escapes",
    "category": "Design",
-   "kicker": "The Good Life · Petermann Bédat 2914",
-   "headline": "Petermann Bédat premiered its first chronograph in Singapore at CHF 180,000",
-   "dek": "The Reference 2914 is a 36.5mm platinum monopusher in twenty pieces, with dial plates from Kari Voutilainen’s Comblémine; SJX calls the price “aggressive”.",
+   "kicker": "The Good Life · Studio Underd0g’s First Calendar",
+   "headline": "Studio Underd0g opens orders today on a £750 Seagull calendar watch",
+   "dek": "The 04SERIES is the Maidenhead maker’s first automatic: thirty-four new parts, a retrograde date and a moonphase — and a weekend indicator you set by hand.",
    "anchor": "p10",
    "featured": false
   },
@@ -104,9 +83,9 @@
    "desk": "Screen & Sound",
    "sub": "Culture Desk",
    "category": "Culture",
-   "kicker": "Screen & Sound · Ebenezer’s Opening",
-   "headline": "Ebenezer opened at $19 million, a million below Paramount’s own projection",
-   "dek": "Johnny Depp’s Dickens adaptation took $19,000,000 from 3,535 American cinemas over 13–15 November, on an A− CinemaScore and a 90 per cent audience score.",
+   "kicker": "Screen & Sound · The November Box Office",
+   "headline": "Johnny Depp’s Scrooge opens at nineteen million dollars, under Boxoffice Pro’s forecast",
+   "dek": "Ti West’s Ebenezer took $19m from 3,535 American cinemas over the weekend of 13–15 November, and split its audience from its critics by thirty-six points.",
    "anchor": "p11",
    "featured": false
   },
@@ -114,9 +93,9 @@
    "desk": "The Family Desk",
    "sub": "Raising Them Well",
    "category": "Family",
-   "kicker": "The Family Desk · Food Marketing On Phones",
-   "headline": "A JAMA Pediatrics study put food adverts to young teenagers at 3,883 a year",
-   "dek": "Screen recordings from 1,011 American children, median age twelve, found 82.6 per cent of that marketing on social media and 30.4 per cent on TikTok alone.",
+   "kicker": "The Family Desk · Tirzepatide In Adolescents",
+   "headline": "Tirzepatide cut adolescent body-mass index 18.5 per cent in the SURMOUNT trial",
+   "dek": "The SURMOUNT-ADOLESCENTS trial, published on 15 November, randomised 160 twelve-to-seventeen-year-olds across 31 centres for 72 weeks; the placebo group gained 0.5 per cent.",
    "anchor": "p12",
    "featured": false
   },
@@ -124,19 +103,29 @@
    "desk": "The Macro Desk",
    "sub": "The Big Picture",
    "category": "Markets",
-   "kicker": "The Macro Desk · The December Hike",
-   "headline": "A December Federal Reserve hike is fully priced, and every hedge failed at once",
-   "dek": "The ten-year Treasury yield rose 29 basis points in a week to 5.15 per cent; gold broke $4,000 to a thirteen-month low and bitcoin fell 19 per cent from 5 November.",
+   "kicker": "The Macro Desk · A December Hike, Fully Priced",
+   "headline": "Futures price a 9 December Federal Reserve rise at a hundred per cent",
+   "dek": "Gold fell to its weakest since October 2025 and Brent dropped 3.67 per cent on a day of open Gulf warfare; only the dollar rose.",
    "anchor": "p14",
+   "featured": false
+  },
+  {
+   "desk": "The Rabbit Hole",
+   "sub": "The Invitation",
+   "category": "Hobby",
+   "kicker": "The Invitation · Dry Stone Walling",
+   "headline": "England and Wales hold 105,800 kilometres of mortarless stone wall",
+   "dek": "UNESCO listed the craft in 2018 and extended the entry to thirteen countries in 2024; Britain last surveyed the condition of its walls in 1994.",
+   "anchor": "p15",
    "featured": false
   },
   {
    "desk": "Fitness",
    "sub": "The Long Game",
    "category": "Health",
-   "kicker": "Fitness · The Activity Decline",
-   "headline": "Daily activity falls 7.8 minutes a year, a BMJ Public Health review finds",
-   "dek": "Runacres and colleagues pooled 151 studies in BMJ Public Health on 11 November; childhood step counts predicted adult ones with a correlation of minus 0.01.",
+   "kicker": "Fitness · Reps In Reserve",
+   "headline": "Reps-in-reserve matches the Borg scale to a third of a repetition",
+   "dek": "A randomised crossover of 32 lifters, published on 14 November in the Journal of Sports Sciences, puts the gap at 0.03 repetitions on the chest press and 0.16 on the leg extension.",
    "anchor": "p18",
    "featured": false
   },
@@ -144,9 +133,9 @@
    "desk": "The Diary",
    "sub": "What’s Worth Booking",
    "category": "Events",
-   "kicker": "The Diary · Diana Krall At The Esplanade",
-   "headline": "Diana Krall plays the Esplanade Concert Hall on 24 and 25 November",
-   "dek": "Esplanade tickets run from $88 to $268 across six categories for a seventy-five-minute set with no interval, and the hall admits children from six.",
+   "kicker": "The Diary · Two Deadlines Before December",
+   "headline": "ART SG holds Early Bird pricing until 24 November",
+   "dek": "A Saturday adult pair costs $44 before the Early Bird closes on 24 November and $88 after; the Australian Open’s own early pricing ends at 12.59pm on 30 November, with daily Ground Passes capped for the first time.",
    "anchor": "p19",
    "featured": false
   }
