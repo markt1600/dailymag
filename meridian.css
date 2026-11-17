@@ -157,3 +157,18 @@ sup.fnref{color:var(--vermilion);font-family:'Poppins',sans-serif;font-size:6pt;
 .bc-foot{margin-top:14mm;max-width:150mm;}
 .bc-foot>div:first-child{font-family:'Poppins',sans-serif;font-size:9pt;
   letter-spacing:.24em;text-transform:uppercase;color:var(--blush);}
+
+/* ---- data tables (promoted from issue-local CSS, 17 Nov 2026: the Macro Desk's Levels and Dashboard are standing furniture) ---- */
+.tbl{width:100%;border-collapse:collapse;font-family:'Poppins',sans-serif;margin:6px 0;}
+.tbl th{font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;padding:3px 4px;border-bottom:1pt solid var(--ink);}
+.tbl th:first-child{text-align:left;}
+.tbl td{font-size:8pt;padding:3px 4px;text-align:right;border-bottom:.5pt solid var(--line);color:var(--ink2);}
+.tbl td:first-child{text-align:left;font-weight:600;color:var(--ink);}
+.tbl td.k{text-align:left;font-weight:600;color:var(--ink);padding-left:18px;}
+.tbl th.k{text-align:left;padding-left:18px;} /* second indicator in a two-up Dashboard row (The Trend Line) */
+.tbl.dash td,.tbl.dash th{white-space:nowrap;padding:2.5px 3px;}
+.tbl.dash td.k,.tbl.dash th.k{padding-left:18px;}
+.tbl.dash td{font-size:7.4pt;} /* the two-up Dashboard: one line per row */
+.tbl td .up{color:var(--teal);font-weight:700;}
+.tbl td .dn{color:var(--vermilion);font-weight:700;}
+.tbl-wrap{margin:0;}

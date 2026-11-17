@@ -21795,7 +21795,29 @@
    "read_at": ""
   },
   "eps_growth": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-09-30",
+     "value": 29.1,
+     "source": "FactSet Earnings Insight, John Butters, 6 Nov 2026 update"
+    },
+    {
+     "date": "2026-10-30",
+     "value": 30.1,
+     "source": "FactSet Earnings Insight, John Butters, 6 Nov 2026 update"
+    },
+    {
+     "date": "2026-11-06",
+     "value": 31.4,
+     "source": "FactSet Earnings Insight, John Butters, Earnings Season Update 6 Nov 2026"
+    },
+    {
+     "date": "2026-11-13",
+     "value": 31.9,
+     "source": "FactSet Earnings Insight, John Butters, 16 Nov 2026",
+     "issue": 165
+    }
+   ],
    "name": "S&P 500 blended earnings growth, current quarter",
    "unit": "%",
    "theme": "growth",
@@ -21804,7 +21826,14 @@
    "read_at": "FactSet Earnings Insight (weekly PDF)"
   },
   "fwd_eps": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-11-05",
+     "value": 415.82,
+     "source": "FactSet Earnings Insight, John Butters, 9 Nov 2026 (forward 12-month EPS)",
+     "issue": 165
+    }
+   ],
    "name": "S&P 500 forward 12-month earnings per share",
    "unit": "US$",
    "theme": "growth",
@@ -21813,7 +21842,24 @@
    "read_at": "FactSet Earnings Insight (weekly PDF)"
   },
   "fwd_pe": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2025-12-31",
+     "value": 22.0,
+     "source": "FactSet Earnings Insight, John Butters, 9 Nov 2026"
+    },
+    {
+     "date": "2026-09-30",
+     "value": 19.0,
+     "source": "FactSet Earnings Insight, John Butters, 6 Nov 2026 update"
+    },
+    {
+     "date": "2026-11-05",
+     "value": 17.7,
+     "source": "FactSet Earnings Insight, John Butters, 9 Nov 2026",
+     "issue": 165
+    }
+   ],
    "name": "S&P 500 forward price/earnings",
    "unit": "x",
    "theme": "valuation",
@@ -21822,7 +21868,14 @@
    "read_at": "FactSet Earnings Insight"
   },
   "cape": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-11-16",
+     "value": 39.16,
+     "source": "multpl.com Shiller PE, 16 Nov close",
+     "issue": 165
+    }
+   ],
    "name": "Shiller cyclically adjusted P/E",
    "unit": "x",
    "theme": "valuation",
@@ -21831,7 +21884,14 @@
    "read_at": "Shiller data / multpl.com"
   },
   "vwra_us": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-10-31",
+     "value": 62.83,
+     "source": "Vanguard FTSE All-World UCITS ETF product page, portfolio data 31 Oct 2026",
+     "issue": 165
+    }
+   ],
    "name": "All-world index: United States weight",
    "unit": "%",
    "theme": "valuation",
@@ -21840,7 +21900,14 @@
    "read_at": "Vanguard VWRA factsheet or FTSE All-World factsheet"
   },
   "vwra_top10": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-10-31",
+     "value": 23.54,
+     "source": "Vanguard FTSE All-World UCITS ETF product page, top ten holdings 31 Oct 2026",
+     "issue": 165
+    }
+   ],
    "name": "All-world index: top-ten holdings weight",
    "unit": "%",
    "theme": "valuation",
@@ -21849,7 +21916,19 @@
    "read_at": "Vanguard VWRA factsheet or FTSE All-World factsheet"
   },
   "cftc_ust10": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-11-03",
+     "value": -2262.3,
+     "source": "CFTC Traders in Financial Futures, leveraged funds net, UST 10Y note, derived from 10 Nov changes"
+    },
+    {
+     "date": "2026-11-10",
+     "value": -2301.3,
+     "source": "CFTC Traders in Financial Futures, leveraged funds net (586,834 long, 2,888,161 short), UST 10Y note",
+     "issue": 165
+    }
+   ],
    "name": "Speculative net position, 10-year Treasury futures",
    "unit": "thousand contracts",
    "theme": "flows",
@@ -21858,7 +21937,33 @@
    "read_at": "CFTC Commitments of Traders (weekly)"
   },
   "equity_flows": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-10-07",
+     "value": -11.12,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-10-14",
+     "value": -476.42,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-10-21",
+     "value": 20.67,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-10-28",
+     "value": 11.08,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-11-04",
+     "value": 17.43,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    }
+   ],
    "name": "US equity fund and ETF flows, latest week",
    "unit": "US$bn",
    "theme": "flows",
@@ -21867,7 +21972,33 @@
    "read_at": "Investment Company Institute weekly flows"
   },
   "bond_flows": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-10-07",
+     "value": 24.56,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-10-14",
+     "value": 7.92,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-10-21",
+     "value": -0.17,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-10-28",
+     "value": 3.16,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    },
+    {
+     "date": "2026-11-04",
+     "value": 2.36,
+     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026"
+    }
+   ],
    "name": "US bond fund and ETF flows, latest week",
    "unit": "US$bn",
    "theme": "flows",
@@ -21876,7 +22007,14 @@
    "read_at": "Investment Company Institute weekly flows"
   },
   "cb_gold": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-09-30",
+     "value": 61.0,
+     "source": "World Gold Council, Central Bank Gold Statistics: September 2026, 4 Nov 2026",
+     "issue": 165
+    }
+   ],
    "name": "Central-bank net gold purchases, latest month",
    "unit": "tonnes",
    "theme": "flows",
@@ -21885,7 +22023,19 @@
    "read_at": "World Gold Council monthly central-bank statistics"
   },
   "btc_etf_flows": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-10-30",
+     "value": -0.2026,
+     "source": "The Block, 7 Nov 2026, SoSoValue data"
+    },
+    {
+     "date": "2026-11-06",
+     "value": -1.28,
+     "source": "The Block, 7 Nov 2026, SoSoValue data (week of 2 to 6 Nov)",
+     "issue": 165
+    }
+   ],
    "name": "US spot bitcoin ETF net flows, latest week",
    "unit": "US$bn",
    "theme": "flows",
@@ -24970,7 +25120,408 @@
    "read_at": ""
   },
   "jgb10": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2025-05-02",
+     "value": 1.283,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-05-09",
+     "value": 1.37,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-05-16",
+     "value": 1.466,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-05-23",
+     "value": 1.559,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-05-30",
+     "value": 1.518,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-06-06",
+     "value": 1.477,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-06-13",
+     "value": 1.429,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-06-20",
+     "value": 1.424,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-06-27",
+     "value": 1.459,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-07-04",
+     "value": 1.444,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-07-11",
+     "value": 1.507,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-07-18",
+     "value": 1.528,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-07-25",
+     "value": 1.605,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-08-01",
+     "value": 1.56,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-08-08",
+     "value": 1.502,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-08-15",
+     "value": 1.574,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-08-22",
+     "value": 1.626,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-08-29",
+     "value": 1.613,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-09-05",
+     "value": 1.59,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-09-12",
+     "value": 1.613,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-09-19",
+     "value": 1.655,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-09-26",
+     "value": 1.669,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-10-03",
+     "value": 1.667,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-10-10",
+     "value": 1.697,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-10-17",
+     "value": 1.638,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-10-24",
+     "value": 1.667,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-10-31",
+     "value": 1.67,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-11-07",
+     "value": 1.688,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-11-14",
+     "value": 1.714,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-11-21",
+     "value": 1.792,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-11-28",
+     "value": 1.812,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-12-05",
+     "value": 1.951,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-12-12",
+     "value": 1.956,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-12-19",
+     "value": 2.021,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2025-12-26",
+     "value": 2.039,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-01-09",
+     "value": 2.096,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-01-16",
+     "value": 2.182,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-01-23",
+     "value": 2.253,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-01-30",
+     "value": 2.247,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-02-06",
+     "value": 2.236,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-02-13",
+     "value": 2.218,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-02-20",
+     "value": 2.125,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-02-27",
+     "value": 2.132,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-03-06",
+     "value": 2.18,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-03-13",
+     "value": 2.255,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-03-27",
+     "value": 2.38,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-04-03",
+     "value": 2.386,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-04-10",
+     "value": 2.439,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-04-17",
+     "value": 2.428,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-04-24",
+     "value": 2.443,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-05-01",
+     "value": 2.507,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-05-08",
+     "value": 2.485,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-05-15",
+     "value": 2.691,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-05-22",
+     "value": 2.749,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-05-29",
+     "value": 2.657,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-06-05",
+     "value": 2.669,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-06-12",
+     "value": 2.643,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-06-19",
+     "value": 2.656,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-06-26",
+     "value": 2.611,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-07-03",
+     "value": 2.768,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-07-10",
+     "value": 2.761,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-07-17",
+     "value": 2.715,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-07-24",
+     "value": 2.815,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-07-31",
+     "value": 2.801,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-08-07",
+     "value": 2.804,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-08-14",
+     "value": 2.878,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-08-21",
+     "value": 2.882,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-08-28",
+     "value": 2.93,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-09-04",
+     "value": 2.91,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-09-11",
+     "value": 2.987,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-09-18",
+     "value": 2.981,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-09-25",
+     "value": 3.071,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-10-02",
+     "value": 3.097,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-10-09",
+     "value": 3.027,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-10-16",
+     "value": 2.958,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-10-23",
+     "value": 2.837,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-10-30",
+     "value": 2.817,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-11-06",
+     "value": 2.696,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-11-13",
+     "value": 2.899,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    },
+    {
+     "date": "2026-11-16",
+     "value": 2.927,
+     "source": "Japan Ministry of Finance JGB yield table (jgbcme)"
+    }
+   ],
    "name": "Japan 10-year government bond yield",
    "unit": "%",
    "theme": "asia",
@@ -24979,7 +25530,14 @@
    "read_at": "Japan Ministry of Finance JGB yield table"
   },
   "china_tsf": {
-   "readings": [],
+   "readings": [
+    {
+     "date": "2026-09-30",
+     "value": 7.1,
+     "source": "People's Bank of China preliminary statistics via Shanghai Metals Market, 14 Oct 2026",
+     "issue": 165
+    }
+   ],
    "name": "China total social financing, year on year",
    "unit": "%",
    "theme": "asia",
@@ -24988,7 +25546,19 @@
    "read_at": "People's Bank of China monthly financial statistics"
   }
  },
- "calls": [],
+ "calls": [
+  {
+   "issue": 165,
+   "date": "2026-11-17",
+   "regime": "A real-rate shock: the Federal Reserve tightening into an energy supply shock",
+   "since": 162,
+   "triggers": [
+    "The 10-year real yield closes below 2.60 per cent (2.91 on 13 November; it was 2.63 a week earlier)",
+    "The Federal Reserve does not raise rates on 9 December",
+    "The high-yield credit spread closes above 4.0 points (3.23 on 13 November), which would make it a growth scare rather than a rate shock"
+   ]
+  }
+ ],
  "fetched": "2026-11-17T02:26:34Z",
  "fetch_errors": {}
 }

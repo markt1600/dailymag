@@ -3,6 +3,15 @@
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
 Last fetch: 2026-11-17T02:26:34Z.
 
+## The Call
+
+**A real-rate shock: the Federal Reserve tightening into an energy supply shock** — held since No. 162, last stated No. 165 (2026-11-17).
+
+What would change it:
+- The 10-year real yield closes below 2.60 per cent (2.91 on 13 November; it was 2.63 a week earlier)
+- The Federal Reserve does not raise rates on 9 December
+- The high-yield credit spread closes above 4.0 points (3.23 on 13 November), which would make it a growth scare rather than a rate shock
+
 ## Rates
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
@@ -48,27 +57,27 @@ Last fetch: 2026-11-17T02:26:34Z.
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | gdpnow | Atlanta Fed GDPNow, current quarter (% saar) | 3.48 | 2026-10-01 | — | — | +0.21 | -0.76 | up 1 week running | FRED GDPNOW |
-| eps_growth | S&P 500 blended earnings growth, current quarter | — | — | — | — | — | — | NO READING — read at: FactSet Earnings Insight (weekly PDF) | |
-| fwd_eps | S&P 500 forward 12-month earnings per share | — | — | — | — | — | — | NO READING — read at: FactSet Earnings Insight (weekly PDF) | |
+| eps_growth | S&P 500 blended earnings growth, current quarter (%) | 31.90 | 2026-11-13 | +0.50 | +2.80 | — | — | up 3 weeks running | FactSet Earnings Insight, John Butters, 16 Nov 2026 |
+| fwd_eps | S&P 500 forward 12-month earnings per share (US$) | 415.82 | 2026-11-05 | — | — | — | — | — | FactSet Earnings Insight, John Butters, 9 Nov 2026 (forward 12-month EPS) |
 
 ## Valuation
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| fwd_pe | S&P 500 forward price/earnings | — | — | — | — | — | — | NO READING — read at: FactSet Earnings Insight | |
-| cape | Shiller cyclically adjusted P/E | — | — | — | — | — | — | NO READING — read at: Shiller data / multpl.com | |
-| vwra_us | All-world index: United States weight | — | — | — | — | — | — | NO READING — read at: Vanguard VWRA factsheet or FTSE All-World factsheet | |
-| vwra_top10 | All-world index: top-ten holdings weight | — | — | — | — | — | — | NO READING — read at: Vanguard VWRA factsheet or FTSE All-World factsheet | |
+| fwd_pe | S&P 500 forward price/earnings (x) | 17.70 | 2026-11-05 | — | -1.30 | — | — | down 1 week running | FactSet Earnings Insight, John Butters, 9 Nov 2026 |
+| cape | Shiller cyclically adjusted P/E (x) | 39.16 | 2026-11-16 | — | — | — | — | — | multpl.com Shiller PE, 16 Nov close |
+| vwra_us | All-world index: United States weight (%) | 62.83 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, portfolio data 31 Oct 2026 |
+| vwra_top10 | All-world index: top-ten holdings weight (%) | 23.54 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, top ten holdings 31 Oct 2026 |
 
 ## Flows
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| cftc_ust10 | Speculative net position, 10-year Treasury futures | — | — | — | — | — | — | NO READING — read at: CFTC Commitments of Traders (weekly) | |
-| equity_flows | US equity fund and ETF flows, latest week | — | — | — | — | — | — | NO READING — read at: Investment Company Institute weekly flows | |
-| bond_flows | US bond fund and ETF flows, latest week | — | — | — | — | — | — | NO READING — read at: Investment Company Institute weekly flows | |
-| cb_gold | Central-bank net gold purchases, latest month | — | — | — | — | — | — | NO READING — read at: World Gold Council monthly central-bank statistics | |
-| btc_etf_flows | US spot bitcoin ETF net flows, latest week | — | — | — | — | — | — | NO READING — read at: Farside Investors or issuer filings | |
+| cftc_ust10 | Speculative net position, 10-year Treasury futures (thousand contracts) | -2,301 | 2026-11-10 | -39.00 | — | — | — | down 1 week running | CFTC Traders in Financial Futures, leveraged funds net (586,834 long, 2,888,161 short), UST 10Y note |
+| equity_flows | US equity fund and ETF flows, latest week (US$bn) | 17.43 | 2026-11-04 | +6.35 | +28.55 | — | — | up 1 week running | ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026 |
+| bond_flows | US bond fund and ETF flows, latest week (US$bn) | 2.36 | 2026-11-04 | -0.80 | -22.20 | — | — | down 1 week running | ICI estimated long-term mutual fund and ETF combined flows, released 11 Nov 2026 |
+| cb_gold | Central-bank net gold purchases, latest month (tonnes) | 61.00 | 2026-09-30 | — | — | — | — | — | World Gold Council, Central Bank Gold Statistics: September 2026, 4 Nov 2026 |
+| btc_etf_flows | US spot bitcoin ETF net flows, latest week (US$bn) | -1.28 | 2026-11-06 | -1.08 | — | — | — | down 1 week running | The Block, 7 Nov 2026, SoSoValue data (week of 2 to 6 Nov) |
 
 ## Asia
 
@@ -76,6 +85,6 @@ Last fetch: 2026-11-17T02:26:34Z.
 |---|---|---|---|---|---|---|---|---|---|
 | usdjpy | US dollar / Japanese yen (yen) | 159.93 | 2026-11-13 | +1.70 | +1.93 | +0.72 | +5.53 | up 3 weeks running; 65% of its 1-year range | FRED DEXJPUS |
 | usdcny | US dollar / Chinese yuan (yuan) | 6.67 | 2026-11-13 | -0.01 | -0.01 | -0.07 | -0.42 | down 1 week running; 5% of its 1-year range | FRED DEXCHUS |
-| jgb10 | Japan 10-year government bond yield | — | — | — | — | — | — | NO READING — read at: Japan Ministry of Finance JGB yield table | |
-| china_tsf | China total social financing, year on year | — | — | — | — | — | — | NO READING — read at: People's Bank of China monthly financial statistics | |
+| jgb10 | Japan 10-year government bond yield (%) | 2.93 | 2026-11-16 | +0.23 | -0.03 | +0.05 | +1.21 | up 1 week running; 87% of its 1-year range | Japan Ministry of Finance JGB yield table (jgbcme) |
+| china_tsf | China total social financing, year on year (%) | 7.10 | 2026-09-30 | — | — | — | — | — | People's Bank of China preliminary statistics via Shanghai Metals Market, 14 Oct 2026 |
 

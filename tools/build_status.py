@@ -37,10 +37,10 @@ if _m and not _m.group(2) and int(_m.group(1)) >= 166:
     if _r.returncode != 0:
         sys.exit("build_status: no status.json — the Reader's Editor pass is missing or incomplete (tools/editor_brief.md)")
 
-# THE MACRO LEDGER GATE (editor, 17 Nov 2026): from No. 167 the Macro Desk writes
+# THE MACRO LEDGER GATE (editor, 17 Nov 2026): from No. 166 the Macro Desk writes
 # from its ledger — fresh FRED data, the manual indicators read within cadence
 # (or held with a reason), and a regime call on record for this issue.
-if _m and not _m.group(2) and int(_m.group(1)) >= 167:
+if _m and not _m.group(2) and int(_m.group(1)) >= 166:
     _r = subprocess.run([sys.executable, str(pathlib.Path(__file__).parent / "macro_ledger.py"), "check", _m.group(1)],
                         capture_output=True, text=True)
     print(_r.stdout.strip())

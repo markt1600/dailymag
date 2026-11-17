@@ -1160,17 +1160,17 @@ if not _special:
             errors.append("The Table carries no <b class=\"venue\"> marks — every venue covered is marked on its "
                           "first mention so tools/table_ledger.py can record the run (see ledgers/table-ledger.md)")
 
-# ---- THE MACRO DESK, TWO PAGES (editor, 17 Nov 2026 — reader-approved; from No. 167).
+# ---- THE MACRO DESK, TWO PAGES (editor, 17 Nov 2026 — reader-approved; from No. 166).
 # The desk had become a daily recap: Nos. 162, 164 and 165 led on the same priced
 # December hike, off the Treasury curve, a futures monitor and sell-side quotes.
 # Page one stays the day ("The Big Picture"); page two ("The Trend Line") is the
 # look underneath — one slow theme on a weekday rotation, the Dashboard read from
 # the Macro Ledger, the look inside the all-world fund, and the desk's standing
 # regime call with what would change it. See THE MACRO DESK in the spec.
-if _issno >= 167 and not _special:
+if _issno >= 166 and not _special:
     _mp = [(_i, _s) for _i, _s in enumerate(pages, 1) if _desk_of(_s) == "The Macro Desk"]
     if len(_mp) != 2:
-        errors.append(f"MACRO DESK: the desk runs to exactly two pages from No. 167 ('The Big Picture' then 'The Trend Line'); found {len(_mp)}")
+        errors.append(f"MACRO DESK: the desk runs to exactly two pages from No. 166 ('The Big Picture' then 'The Trend Line'); found {len(_mp)}")
     else:
         (_p1n, _p1), (_p2n, _p2) = _mp
         _sub2 = re.search(r'<div class="rh"><span>.*?</span><span>(.*?)</span></div>', _p2, re.S)
@@ -1192,12 +1192,14 @@ if _issno >= 167 and not _special:
                             ("The Call", "the desk's standing regime call, how long it has been held, and what would change it")):
             if not any(_l.startswith(_need) for _l in _lbls):
                 errors.append(f"MACRO DESK p{_p2n}: missing the '{_need}' box — {_why}")
-        _dash = re.search(r'<div class="brief-h"[^>]*>\s*The Dashboard.*?<table class="tbl">(.*?)</table>', _p2, re.S)
+        _dash = re.search(r'<div class="brief-h"[^>]*>\s*The Dashboard.*?<table class="tbl[^"]*">(.*?)</table>', _p2, re.S)
         if _dash:
             _rows = re.findall(r'<tr>(.*?)</tr>', _dash.group(1), re.S)
-            if len(_rows) < 8:
-                errors.append(f"MACRO DESK p{_p2n}: The Dashboard carries at least 8 indicators from the Macro Ledger; found {len(_rows)}")
-            _thin = [r for r in _rows if len(re.findall(r'<t[dh]', r)) < 4]
+            _rows = [r for r in _rows if '<td' in r]                       # the header row is not an indicator
+            _ind = sum(len(re.findall(r'<td', r)) // 4 for r in _rows)      # a row may carry two indicators side by side
+            if _ind < 8:
+                errors.append(f"MACRO DESK p{_p2n}: The Dashboard carries at least 8 indicators from the Macro Ledger; found {_ind}")
+            _thin = [r for r in _rows if len(re.findall(r'<td', r)) % 4]
             if _thin:
                 errors.append(f"MACRO DESK p{_p2n}: every Dashboard row has four cells — indicator, latest, change, and the trend in words ('up 3 weeks running'); {len(_thin)} row(s) do not")
             if not re.search(r'weeks?\s+running|1-year|year\s+(?:high|low|range)|since\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|20\d\d)', _plain(_dash.group(1)), re.I):
