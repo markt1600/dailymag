@@ -24,6 +24,19 @@ built_at = sys.argv[4] if len(sys.argv) > 4 else None
 
 html = src.read_text()
 
+# THE READER'S EDITOR GATE (editor, 17 Nov 2026): the status beacon is the
+# "this edition is deliverable" signal, so it is not written until the
+# independent cold read is on record and every sent-back page was fixed or
+# overruled with a reason. Dailies from No. 166; specials are exempt.
+_m = re.search(r'No\.?\s*(\d{1,3})(\.\d)?\s*(?:&middot;|·)\s*Singapore', html)
+if _m and not _m.group(2) and int(_m.group(1)) >= 166:
+    _pages = len(re.findall(r'<section[^>]*class="page', html))
+    _r = subprocess.run([sys.executable, str(pathlib.Path(__file__).parent / "editor_pass.py"), "check",
+                         _m.group(1), "--pages", str(_pages)], capture_output=True, text=True)
+    print(_r.stdout.strip())
+    if _r.returncode != 0:
+        sys.exit("build_status: no status.json — the Reader's Editor pass is missing or incomplete (tools/editor_brief.md)")
+
 # issue number + human date (same anchors as build_feed.py)
 issue = date = None
 m = re.search(r'No\.\s*(\d{1,3})\s*·\s*(\d{1,2}\s+\w+\s+\d{4})', html)

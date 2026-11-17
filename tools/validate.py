@@ -183,6 +183,8 @@ _day = _daym.group(1) if _daym else ''
 if _issno >= 51 and not _special:
     if _day == 'Friday' and 'The Meridian Index' not in html:
         errors.append("Friday issue is missing 'The Meridian Index' page-two feature (see THE PAGE-TWO FEATURE)")
+    if _day == 'Monday' and _issno >= 166 and not re.search(r'Held,\s+Now\s+Resolved', _html.unescape(re.sub(r'<[^>]+>', ' ', pages[1] if len(pages) > 1 else ''))):
+        errors.append("Monday issue is missing the 'Held, Now Resolved' strip on the contents page — the weekly account of what the Held Ledger settled, dropped and still needs a human for (see ledgers/held-ledger.md)")
     if _day == 'Saturday' and 'The Scoreboard' not in html:
         errors.append("Saturday issue is missing 'The Scoreboard' page-two feature (see PREDICTIONS PROTOCOL)")
 

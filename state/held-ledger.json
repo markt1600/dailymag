@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "id": "H001",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "date",
+      "item": "Nvidia Q3, 18 Nov 05:20 SGT",
+      "due": "2026-11-18",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H002",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "Oct NODX, due 08:30 today, unpublished at press (EnterpriseSG 500s)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H003",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "Federal Register publication and effective date of RIN 0694-AK50",
+      "due": "",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H004",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "whether Shenzhen and Berlin happen",
+      "due": "",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H005",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "date",
+      "item": "Anthropic prices 18 Nov, lists 19 Nov as ANT",
+      "due": "2026-11-18",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H006",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "date",
+      "item": "PSLE still tentative 24/25 Nov; S1 posting 18 Dec still NOT MOE-confirmed — every moe.gov.sg page returns an empty body",
+      "due": "2026-11-25",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H007",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "the Iranian supertanker, IRGC-via-ISNA only, no vessel named",
+      "due": "",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H008",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "any Apple reply on the flicker",
+      "due": "",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H009",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "the FAA laboratory finding and any GovTech root cause",
+      "due": "",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H010",
+      "since": "165",
+      "desk": "Daily",
+      "kind": "date",
+      "item": "FOMC 8–9 Dec, CPI 10 Dec, BoJ 17–18 Dec",
+      "due": "2026-12-08",
+      "status": "OPEN",
+      "checked": "165",
+      "outcome": ""
+    },
+    {
+      "id": "H011",
+      "since": "158.5",
+      "desk": "Special 158.5",
+      "kind": "ask",
+      "item": "No IMDA determination exists on whether a peer-to-peer LoRa mesh (Meshtastic) is an 'LPWAN end device' under TS SRD; a local user offered to ask in 2024, no reply on record. Worth asking IMDA directly.",
+      "due": "",
+      "status": "OPEN",
+      "checked": "158.5",
+      "outcome": ""
+    },
+    {
+      "id": "H012",
+      "since": "161",
+      "desk": "Daily",
+      "kind": "ask",
+      "item": "Whether a receive-only SDR dongle is an IMDA 'scanning receiver' for import purposes — worth asking IMDA directly.",
+      "due": "",
+      "status": "OPEN",
+      "checked": "161",
+      "outcome": ""
+    },
+    {
+      "id": "H013",
+      "since": "141.5",
+      "desk": "Special 141.5",
+      "kind": "ask",
+      "item": "Artisan Acoustics (SB Acoustics distributor for Singapore): two conflicting addresses and no published price list — phone before any Singapore reader acts.",
+      "due": "",
+      "status": "OPEN",
+      "checked": "141.5",
+      "outcome": ""
+    },
+    {
+      "id": "H014",
+      "since": "154.5",
+      "desk": "Special 154.5",
+      "kind": "ask",
+      "item": "Singapore retail prices for cyberdeck parts and local 3D-printing/filament prices: Shopee/Lazada JS-only, element14/RS/Cytron refuse, NLB MakeIT renders empty.",
+      "due": "",
+      "status": "OPEN",
+      "checked": "154.5",
+      "outcome": ""
+    }
+  ],
+  "open": [
+    "H001",
+    "H002",
+    "H003",
+    "H004",
+    "H005",
+    "H006",
+    "H007",
+    "H008",
+    "H009",
+    "H010",
+    "H011",
+    "H012",
+    "H013",
+    "H014"
+  ]
+}

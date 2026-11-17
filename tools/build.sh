@@ -18,6 +18,7 @@ echo "== QA gate =="             ; python3 tools/qa.py "$H" "$P"      # non-zero
 echo "== archive manifest =="    ; python3 tools/build_manifest.py "$NN"  # (run extract_state.py first so the new issue is included + searchable)
 echo "== photo edition =="       ; python3 tools/make_photo_edition.py "$H" build/index.html "$NN" "$DATE"
 echo "== stories feed =="         ; python3 tools/build_feed.py build/index.html build/feed.json  # for marktan.ai
+echo "== reader's editor =="    ; python3 tools/editor_pass.py check "$NN"   # independent cold read on record (tools/editor_brief.md)
 echo "== status beacon =="        ; python3 tools/build_status.py build/index.html "$P" build/status.json  # marktan.ai's "did it run?" tile
 echo
 echo "OK — review build/sheet-*.png, then place deliverables and commit."

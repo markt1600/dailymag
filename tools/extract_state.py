@@ -23,7 +23,8 @@ for _lf in ("ledgers/issue-log-archive.md", "ledgers/issue-log.md",
             "ledgers/coverage-ledger-archive.md", "ledgers/coverage-ledger.md",
             "ledgers/destination-ledger.md", "ledgers/hobby-ledger.md",
             "ledgers/atelier-ledger.md", "ledgers/events-ledger.md",
-            "ledgers/undercurrent-ledger.md", "ledgers/table-ledger.md"):
+            "ledgers/undercurrent-ledger.md", "ledgers/table-ledger.md",
+            "ledgers/held-ledger.md"):
     _p = pathlib.Path(_lf)
     if _p.exists():
         md += "\n" + _p.read_text()
@@ -238,6 +239,17 @@ _tv_barred = [v["venue"] for v in tv if _tl_barred(v, next_no)]
 (state / "table-ledger.json").write_text(json.dumps(
     {"venues": tv, "barred_for_issue": next_no, "barred": _tv_barred},
     indent=2, ensure_ascii=False))
+
+# ---- held ledger (editor, 17 Nov 2026): what the desk could not verify, as
+# rows with an age, so a hold is re-checked instead of re-listed forever.
+held = []
+for c in rows_under("Held Items"):
+    if len(c) < 9 or c[0] == "ID":
+        continue
+    held.append({"id": c[0], "since": c[1], "desk": c[2], "kind": c[3].lower(), "item": c[4], "due": c[5],
+                 "status": c[6].upper(), "checked": c[7], "outcome": c[8]})
+(state / "held-ledger.json").write_text(json.dumps(
+    {"items": held, "open": [h["id"] for h in held if h["status"] == "OPEN"]}, indent=2, ensure_ascii=False))
 
 print(f"state written: {len(issues)} issues (next = No. {next_no}), "
       f"{len(coverage)} coverage subjects, {len(dest)} destinations, "
