@@ -121,7 +121,7 @@ def main():
     for r in rows:
         ed = f"{r['editor']} / {r.get('sent_back', 0)}" if r.get("editor") else "—"
         L.append(f"| No. {r['issue']} | {r['pages']} | {r['hed_avg']} / {r['hed_max']} | {r['heroes']} | {r['footnotes']} | {r['chatter']} | {r['pulls']} | {ed} | {r['build']} | {r['cost']} |")
-    L.append("| *reference* | 24 | 7 / 12 (No. 38) | 12–13 | 170–180 | 32–38 | 4–14 | — | — | — |")
+    L.append("| *reference* | 25 (24 before No. 167) | 7 / 12 (No. 38) | 12–13 | 170–180 | 32–38 | 4–14 | — | — | — |")
     # trend flags
     flags = []
     first, last = rows[0], rows[-1]

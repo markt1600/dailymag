@@ -25,7 +25,7 @@ errors, warns = [], []
 
 npages = len(pages)
 if not (20 <= npages <= 32):
-    warns.append(f"page count {npages} outside the usual 23-28")
+    warns.append(f"page count {npages} outside the usual 23-29")
 
 for idx, sec in enumerate(pages, 1):
     # footnote markers actually rendered in the body
@@ -490,7 +490,7 @@ RH_SUBTITLES = {
     "The Good Life": {"Objects & Escapes"},
     "Screen & Sound": {"Culture Desk"},
     "The Family Desk": {"Raising Them Well", "The Tween Years"},
-    "The Macro Desk": {"The Big Picture"},
+    "The Macro Desk": {"The Big Picture", "The Trend Line"},
     "The Rabbit Hole": {"Down the Rabbit Hole", "The Invitation", "The Deep End"},
     "Fitness": {"The Long Game"},
     "The Travel Desk": {"Departures", "The Grand Tour"},
@@ -1159,6 +1159,73 @@ if not _special:
         if _issno >= 110 and not re.search(r'<b class="venue"', _tsec):
             errors.append("The Table carries no <b class=\"venue\"> marks — every venue covered is marked on its "
                           "first mention so tools/table_ledger.py can record the run (see ledgers/table-ledger.md)")
+
+# ---- THE MACRO DESK, TWO PAGES (editor, 17 Nov 2026 — reader-approved; from No. 167).
+# The desk had become a daily recap: Nos. 162, 164 and 165 led on the same priced
+# December hike, off the Treasury curve, a futures monitor and sell-side quotes.
+# Page one stays the day ("The Big Picture"); page two ("The Trend Line") is the
+# look underneath — one slow theme on a weekday rotation, the Dashboard read from
+# the Macro Ledger, the look inside the all-world fund, and the desk's standing
+# regime call with what would change it. See THE MACRO DESK in the spec.
+if _issno >= 167 and not _special:
+    _mp = [(_i, _s) for _i, _s in enumerate(pages, 1) if _desk_of(_s) == "The Macro Desk"]
+    if len(_mp) != 2:
+        errors.append(f"MACRO DESK: the desk runs to exactly two pages from No. 167 ('The Big Picture' then 'The Trend Line'); found {len(_mp)}")
+    else:
+        (_p1n, _p1), (_p2n, _p2) = _mp
+        _sub2 = re.search(r'<div class="rh"><span>.*?</span><span>(.*?)</span></div>', _p2, re.S)
+        if not _sub2 or _plain(_sub2.group(1)) != "The Trend Line":
+            errors.append(f"MACRO DESK p{_p2n}: the second page's running sub-title is 'The Trend Line'")
+        _k2 = re.search(r'<div class="kicker[^"]*"[^>]*>(.*?)</div>', _p2, re.S)
+        _k2t = _plain(_k2.group(1)) if _k2 else ""
+        _themes = {"Monday": "Liquidity", "Tuesday": "Earnings", "Wednesday": "Inflation", "Thursday": "Credit",
+                   "Friday": "Asia", "Saturday": "Valuation", "Sunday": "Week Ahead"}
+        if not _k2t.startswith("The Trend ·"):
+            errors.append(f"MACRO DESK p{_p2n}: the page opens with its own kicker 'The Trend · <subject>' and a headline — found {_k2t!r}")
+        _t2 = _plain(re.sub(r'<div class="fn">.*?</div>', ' ', _p2, flags=re.S))
+        _want = _themes.get(_day, "")
+        if _want and not re.search(_want.replace(" ", r"\s+")[:6], _t2[:900], re.I):
+            errors.append(f"MACRO DESK p{_p2n}: {_day}'s Trend theme is {_want} (python3 tools/macro_ledger.py theme) — the kicker, headline or opening must say so")
+        _lbls = [_plain(x) for x in re.findall(r'<div class="(?:lbl|brief-h)"[^>]*>(.*?)</div>', _p2, re.S)]
+        for _need, _why in (("The Dashboard", "the table of ledger indicators with their 1-week and longer changes"),
+                            ("Inside the Fund", "the look inside the all-world equity fund: weights, concentration, valuation or earnings revisions"),
+                            ("The Call", "the desk's standing regime call, how long it has been held, and what would change it")):
+            if not any(_l.startswith(_need) for _l in _lbls):
+                errors.append(f"MACRO DESK p{_p2n}: missing the '{_need}' box — {_why}")
+        _dash = re.search(r'<div class="brief-h"[^>]*>\s*The Dashboard.*?<table class="tbl">(.*?)</table>', _p2, re.S)
+        if _dash:
+            _rows = re.findall(r'<tr>(.*?)</tr>', _dash.group(1), re.S)
+            if len(_rows) < 8:
+                errors.append(f"MACRO DESK p{_p2n}: The Dashboard carries at least 8 indicators from the Macro Ledger; found {len(_rows)}")
+            _thin = [r for r in _rows if len(re.findall(r'<t[dh]', r)) < 4]
+            if _thin:
+                errors.append(f"MACRO DESK p{_p2n}: every Dashboard row has four cells — indicator, latest, change, and the trend in words ('up 3 weeks running'); {len(_thin)} row(s) do not")
+            if not re.search(r'weeks?\s+running|1-year|year\s+(?:high|low|range)|since\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|20\d\d)', _plain(_dash.group(1)), re.I):
+                errors.append(f"MACRO DESK p{_p2n}: The Dashboard states trends over weeks and months, not the day's move — take the Trend column from `macro_ledger.py show`")
+        _call = re.search(r'<div class="lbl"[^>]*>\s*The Call.*?</div>(.*?)</div>', _p2, re.S)
+        if _call:
+            _ct = _plain(_call.group(1))
+            if not re.search(r'would change|changes? (?:it|the call|our mind)|wrong if|breaks if', _ct, re.I):
+                errors.append(f"MACRO DESK p{_p2n}: The Call must state what would change it — two or three conditions with a level or a date")
+            if not re.search(r'since No\.\s*\d+|No\.\s*\d+', _ct):
+                errors.append(f"MACRO DESK p{_p2n}: The Call says how long the regime call has been held ('held since No. NN')")
+        if '<svg' not in _p2:
+            errors.append(f"MACRO DESK p{_p2n}: The Trend carries an original chart of the theme's series over months or years (data from the Macro Ledger)")
+        # source breadth across the two pages: primary and structural sources, not a futures monitor and broker quotes
+        _fn = " ".join(_plain(x) for _s in (_p1, _p2) for x in re.findall(r'<div class="fn">(.*?)</div>', _s, re.S))
+        _prim = {"Federal Reserve": r"Federal Reserve|federalreserve\.gov|FOMC|FRED|St\.? Louis Fed|Atlanta Fed|Chicago Fed|New York Fed",
+                 "US Treasury": r"Treasury", "BLS/BEA": r"Bureau of Labor Statistics|Bureau of Economic Analysis|\bBLS\b|\bBEA\b",
+                 "BIS": r"Bank for International Settlements|\bBIS\b", "IMF": r"International Monetary Fund|\bIMF\b",
+                 "MAS": r"Monetary Authority of Singapore|\bMAS\b", "Bank of Japan": r"Bank of Japan|\bBoJ\b|Ministry of Finance",
+                 "China": r"People's Bank of China|PBoC|PBOC|National Bureau of Statistics", "ECB": r"European Central Bank|\bECB\b",
+                 "CFTC": r"CFTC|Commitments of Traders", "FactSet": r"FactSet", "World Gold Council": r"World Gold Council",
+                 "ICI": r"Investment Company Institute|\bICI\b", "Vanguard/FTSE": r"Vanguard|FTSE Russell|FTSE All-World", "Shiller": r"Shiller"}
+        _hit = [k for k, rx in _prim.items() if re.search(rx, _fn)]
+        if len(_hit) < 5:
+            errors.append(f"MACRO DESK: the two pages cite {len(_hit)} primary or structural source(s) ({', '.join(_hit) or 'none'}); the floor is 5 — central banks, statistical agencies, the BIS/IMF, CFTC positioning, FactSet, fund factsheets — read at source")
+        elif len(_hit) < 7:
+            warns.append(f"MACRO DESK: {len(_hit)} primary sources cited across the desk ({', '.join(_hit)}); aim for 7 or more")
+
 
 for w in warns:
     print("WARN:", w)
