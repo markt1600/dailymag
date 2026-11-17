@@ -3,10 +3,6 @@
   "us2y": {
    "readings": [
     {
-     "date": "2025-05-06",
-     "value": 3.78
-    },
-    {
      "date": "2025-05-07",
      "value": 3.78
     },
@@ -1540,10 +1536,6 @@
   },
   "us10y": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 4.3
-    },
     {
      "date": "2025-05-07",
      "value": 4.26
@@ -3079,10 +3071,6 @@
   "real10y": {
    "readings": [
     {
-     "date": "2025-05-06",
-     "value": 2.04
-    },
-    {
      "date": "2025-05-07",
      "value": 2.01
     },
@@ -4616,10 +4604,6 @@
   },
   "breakeven10": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 2.26
-    },
     {
      "date": "2025-05-07",
      "value": 2.25
@@ -6159,10 +6143,6 @@
   "curve2s10s": {
    "readings": [
     {
-     "date": "2025-05-06",
-     "value": 0.52
-    },
-    {
      "date": "2025-05-07",
      "value": 0.48
     },
@@ -7701,12 +7681,8 @@
   "termprem10": {
    "readings": [
     {
-     "date": "2025-05-06",
-     "value": 0.5164
-    },
-    {
      "date": "2025-05-07",
-     "value": 0.4997
+     "value": 0.4996
     },
     {
      "date": "2025-05-08",
@@ -8838,7 +8814,7 @@
     },
     {
      "date": "2026-06-25",
-     "value": 0.6992
+     "value": 0.6991
     },
     {
      "date": "2026-06-26",
@@ -9211,6 +9187,22 @@
     {
      "date": "2026-11-06",
      "value": 0.8738
+    },
+    {
+     "date": "2026-11-09",
+     "value": 0.8854
+    },
+    {
+     "date": "2026-11-10",
+     "value": 0.9177
+    },
+    {
+     "date": "2026-11-12",
+     "value": 0.9656
+    },
+    {
+     "date": "2026-11-13",
+     "value": 0.9864
     }
    ],
    "name": "US 10-year term premium (Kim-Wright)",
@@ -9552,10 +9544,6 @@
   },
   "rrp": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 129.858
-    },
     {
      "date": "2025-05-07",
      "value": 154.859
@@ -11079,6 +11067,10 @@
     {
      "date": "2026-11-16",
      "value": 0.182
+    },
+    {
+     "date": "2026-11-17",
+     "value": 0.351
     }
    ],
    "name": "Fed overnight reverse repo",
@@ -11420,10 +11412,6 @@
   },
   "sofr": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 4.32
-    },
     {
      "date": "2025-05-07",
      "value": 4.3
@@ -12943,6 +12931,10 @@
     {
      "date": "2026-11-13",
      "value": 3.9
+    },
+    {
+     "date": "2026-11-16",
+     "value": 3.93
     }
    ],
    "name": "Secured Overnight Financing Rate",
@@ -13280,10 +13272,6 @@
   },
   "dollar": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 122.0417
-    },
     {
      "date": "2025-05-07",
      "value": 122.117
@@ -14818,10 +14806,6 @@
   },
   "hy_oas": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 3.66
-    },
     {
      "date": "2025-05-07",
      "value": 3.67
@@ -16429,6 +16413,10 @@
     {
      "date": "2026-11-13",
      "value": 3.23
+    },
+    {
+     "date": "2026-11-16",
+     "value": 3.34
     }
    ],
    "name": "US high-yield credit spread",
@@ -16440,10 +16428,6 @@
   },
   "ig_oas": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 1.05
-    },
     {
      "date": "2025-05-07",
      "value": 1.05
@@ -18051,6 +18035,10 @@
     {
      "date": "2026-11-13",
      "value": 0.89
+    },
+    {
+     "date": "2026-11-16",
+     "value": 0.9
     }
    ],
    "name": "US investment-grade credit spread",
@@ -18062,10 +18050,6 @@
   },
   "vix": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 24.76
-    },
     {
      "date": "2025-05-07",
      "value": 23.55
@@ -19645,6 +19629,10 @@
     {
      "date": "2026-11-13",
      "value": 19.3
+    },
+    {
+     "date": "2026-11-16",
+     "value": 22.91
     }
    ],
    "name": "VIX equity volatility",
@@ -20200,10 +20188,6 @@
   },
   "brent": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 62.37
-    },
     {
      "date": "2025-05-07",
      "value": 60.31
@@ -21784,7 +21768,7 @@
     },
     {
      "date": "2026-10-01",
-     "value": 3.481
+     "value": 3.3842
     }
    ],
    "name": "Atlanta Fed GDPNow, current quarter",
@@ -22045,10 +22029,6 @@
   },
   "usdjpy": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 142.76
-    },
     {
      "date": "2025-05-07",
      "value": 143.47
@@ -23583,10 +23563,6 @@
   },
   "usdcny": {
    "readings": [
-    {
-     "date": "2025-05-06",
-     "value": 7.2164
-    },
     {
      "date": "2025-05-07",
      "value": 7.225
@@ -25548,17 +25524,17 @@
  },
  "calls": [
   {
-   "issue": 165,
-   "date": "2026-11-17",
+   "issue": 166,
+   "date": "2026-11-18",
    "regime": "A real-rate shock: the Federal Reserve tightening into an energy supply shock",
    "since": 162,
    "triggers": [
-    "The 10-year real yield closes below 2.60 per cent (2.91 on 13 November; it was 2.63 a week earlier)",
+    "The 10-year real yield closes below 2.60 per cent (2.91 on 13 November, up from 1.75 in September 2025)",
     "The Federal Reserve does not raise rates on 9 December",
-    "The high-yield credit spread closes above 4.0 points (3.23 on 13 November), which would make it a growth scare rather than a rate shock"
+    "The high-yield credit spread closes above 4.0 points (3.34 on 16 November), which would make it a growth scare rather than a rate shock"
    ]
   }
  ],
- "fetched": "2026-11-17T02:26:34Z",
+ "fetched": "2026-11-17T21:07:32Z",
  "fetch_errors": {}
 }

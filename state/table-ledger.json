@@ -2078,9 +2078,10 @@
       "venue": "Tan Ser Seng Herbal Soup",
       "key": "Tan Ser Seng Herbal Soup",
       "runs": [
-        151
+        151,
+        166
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 151 build",
       "note": "opening run — record the peg here"
     },
@@ -2212,9 +2213,10 @@
       "venue": "Greenwood Fish Market",
       "key": "Greenwood Fish Market",
       "runs": [
-        156
+        156,
+        166
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 156 build",
       "note": "opening run — record the peg here"
     },
@@ -2264,9 +2266,10 @@
       "venue": "Cranki Patisserie",
       "key": "Cranki Patisserie",
       "runs": [
-        158
+        158,
+        166
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 158 build",
       "note": "opening run — record the peg here"
     },
@@ -2449,9 +2452,19 @@
       "status": "OPEN",
       "checked": "No. 165 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Tan Ser Seng",
+      "key": "Tan Ser Seng",
+      "runs": [
+        166
+      ],
+      "status": "OPEN",
+      "checked": "No. 166 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 166,
+  "barred_for_issue": 167,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2494,7 +2507,6 @@
     "Mensho X (Raffles Place)",
     "Jiin Omakase",
     "FreakyNoods",
-    "Nomad Kitchen",
     "NoMad @ Hilton",
     "Sam Sam Sam",
     "Bouillon Gavroche",
@@ -2579,15 +2591,15 @@
     "OVER",
     "HANDO",
     "Yee3",
+    "Tan Ser Seng Herbal Soup",
     "SHAO",
     "Mr. CHEESECAKE",
     "Nekobushi",
     "Woodsmen by Cut Butchery",
+    "Greenwood Fish Market",
     "Earworm",
     "JJAN",
-    "Mala Mia",
-    "Yeah Gelato",
-    "Soi Stories",
+    "Cranki Patisserie",
     "Casa Vostra",
     "Ma Cuisinette",
     "Good Luck Bagels",
@@ -2599,6 +2611,7 @@
     "Kemuri Coffee Co.",
     "Sohaus",
     "Khao Boi",
-    "Café Artévo"
+    "Café Artévo",
+    "Tan Ser Seng"
   ]
 }

@@ -233,7 +233,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Yee3 | Yee3 | 150, 157 | SPENT | No. 150 build | opening run — record the peg here |
 | Terumbu by Orang Laut SG | Terumbu by Orang Laut SG | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | Sakana Hikaru | Sakana Hikaru | 151 | OPEN | No. 151 build | opening run — record the peg here |
-| Tan Ser Seng Herbal Soup | Tan Ser Seng Herbal Soup | 151 | OPEN | No. 151 build | opening run — record the peg here |
+| Tan Ser Seng Herbal Soup | Tan Ser Seng Herbal Soup | 151, 166 | SPENT | No. 151 build | opening run — record the peg here |
 | Terumbu | Terumbu | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | Sushiro | Sushiro | 151 | OPEN | No. 151 build | opening run — record the peg here |
 | PS.Cafe Harding | PS.Cafe Harding | 151 | OPEN | No. 151 build | opening run — record the peg here |
@@ -246,12 +246,12 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | HanBroth | HanBroth | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | The Hokkien Mee Club | The Hokkien Mee Club | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | ODD Ramen & Diner | ODD Ramen & Diner | 156 | OPEN | No. 156 build | opening run — record the peg here |
-| Greenwood Fish Market | Greenwood Fish Market | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| Greenwood Fish Market | Greenwood Fish Market | 156, 166 | SPENT | No. 156 build | opening run — record the peg here |
 | Earworm | Earworm | 156, 163 | SPENT | No. 156 build | opening run — record the peg here |
 | JJAN | JJAN | 157, 164 | SPENT | No. 157 build | opening run — record the peg here |
 | HI BOWL | HI BOWL | 157 | OPEN | No. 157 build | opening run — record the peg here |
 | Three Bowls | Three Bowls | 157 | OPEN | No. 157 build | opening run — record the peg here |
-| Cranki Patisserie | Cranki Patisserie | 158 | OPEN | No. 158 build | opening run — record the peg here |
+| Cranki Patisserie | Cranki Patisserie | 158, 166 | SPENT | No. 158 build | opening run — record the peg here |
 | Casa Osteria | Casa Osteria | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | AhMah’s Legacy | AhMah’s Legacy | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | Habibi Kebs | Habibi Kebs | 159 | OPEN | No. 159 build | opening run — record the peg here |
@@ -270,3 +270,4 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Sohaus | Sohaus | 164 | OPEN | No. 164 build | opening run — record the peg here |
 | Khao Boi | Khao Boi | 165 | OPEN | No. 165 build | opening run — record the peg here |
 | Café Artévo | Café Artévo | 165 | OPEN | No. 165 build | opening run — record the peg here |
+| Tan Ser Seng | Tan Ser Seng | 166 | OPEN | No. 166 build | opening run — record the peg here |

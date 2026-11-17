@@ -7,9 +7,9 @@
       "kind": "date",
       "item": "Nvidia Q3, 18 Nov 05:20 SGT",
       "due": "2026-11-18",
-      "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "166",
+      "outcome": "No. 166: Nvidia reported Q3 FY2027 on EDGAR at 05:25 SGT on 18 Nov: revenue US$115.8bn, +103% year on year, data centre US$107.6bn (8-K accession 0001045810-26-000088, read at source) — p7"
     },
     {
       "id": "H002",
@@ -18,9 +18,9 @@
       "kind": "fact",
       "item": "Oct NODX, due 08:30 today, unpublished at press (EnterpriseSG 500s)",
       "due": "",
-      "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "166",
+      "outcome": "No. 166: EnterpriseSG MR 059/26 published 17 Nov: October NODX +79.8% year on year, electronics +73.9, non-electronics +81.9, shipments to the United States +214.6 (release and 7-page PDF read at source) — p5"
     },
     {
       "id": "H003",
@@ -29,9 +29,9 @@
       "kind": "fact",
       "item": "Federal Register publication and effective date of RIN 0694-AK50",
       "due": "",
-      "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "166",
+      "outcome": "No. 166: RIN 0694-AK50 is on public inspection as Federal Register document 2026-23529, scheduled for publication 19 Nov 2026 and effective on publication, comments due 60 days after (public-inspection PDF read at source) — p5"
     },
     {
       "id": "H004",
@@ -40,9 +40,9 @@
       "kind": "fact",
       "item": "whether Shenzhen and Berlin happen",
       "due": "",
-      "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "166",
+      "outcome": "No. 166: Shenzhen confirmed on the record: China's foreign ministry announced on 16 Nov that Xi will hold the China-Russia-US summit with Putin and Trump in Shenzhen on 19 Nov. Berlin agreed in principle at the 17 Nov online talks but carries no date from any government, and Ushakov says Russia has not agreed to widen the format — p4"
     },
     {
       "id": "H005",
@@ -62,9 +62,9 @@
       "kind": "date",
       "item": "PSLE still tentative 24/25 Nov; S1 posting 18 Dec still NOT MOE-confirmed — every moe.gov.sg page returns an empty body",
       "due": "2026-11-25",
-      "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "166",
+      "outcome": "No. 166: PSLE settled: MOE announced on 17 Nov that 2026 results are released at 11am on Tuesday 24 November, with S1 option submission 24-30 November. The S1 POSTING date of 18 December remains tentative and unconfirmed, and is re-opened as H018 — p5"
     },
     {
       "id": "H007",
@@ -153,15 +153,76 @@
       "status": "OPEN",
       "checked": "154.5",
       "outcome": ""
+    },
+    {
+      "id": "H015",
+      "since": "166",
+      "desk": "Daily",
+      "kind": "date",
+      "item": "Secondary 1 posting results: MOE still gives 18 December 2026 only as tentative; SEAB's own page carries no S1 date and every moe.gov.sg page serves an empty body to this desk",
+      "due": "2026-12-10",
+      "status": "OPEN",
+      "checked": "166",
+      "outcome": ""
+    },
+    {
+      "id": "H016",
+      "since": "166",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "Whether PAHO reconciles the two measles death tolls it published on 17 November — 82 in the news release, 114 in the same-day Q&A, against one identical case count of 58,213",
+      "due": "",
+      "status": "OPEN",
+      "checked": "166",
+      "outcome": ""
+    },
+    {
+      "id": "H017",
+      "since": "166",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "The condition of the Kerch Bridge span: a Kyiv estimate of a year or more against a Kremlin 'no doubt', and no independent engineering assessment from any party",
+      "due": "",
+      "status": "OPEN",
+      "checked": "166",
+      "outcome": ""
+    },
+    {
+      "id": "H018",
+      "since": "166",
+      "desk": "Daily",
+      "kind": "date",
+      "item": "Nvidia's Q4 FY2027 gross-margin guidance against delivery, and whether a permanent chief executive is named",
+      "due": "2027-02-28",
+      "status": "OPEN",
+      "checked": "166",
+      "outcome": ""
+    },
+    {
+      "id": "H019",
+      "since": "166",
+      "desk": "Daily",
+      "kind": "ask",
+      "item": "Singapore month-on-month seasonally adjusted NODX: EnterpriseSG publishes no such figure in its release and SingStat's merchandise-trade pages refuse this desk, so the circulating +14.2 per cent could not be read at a primary source",
+      "due": "",
+      "status": "OPEN",
+      "checked": "166",
+      "outcome": ""
+    },
+    {
+      "id": "H020",
+      "since": "166",
+      "desk": "Daily",
+      "kind": "fact",
+      "item": "Whether Indonesia's Constitutional Court case 399/PUU-XXIV/2026 is XXIV or XXV and whether the first hearing was 3 or 4 November: mkri.id refuses this desk and the outlets disagree",
+      "due": "",
+      "status": "OPEN",
+      "checked": "166",
+      "outcome": ""
     }
   ],
   "open": [
-    "H001",
-    "H002",
-    "H003",
-    "H004",
     "H005",
-    "H006",
     "H007",
     "H008",
     "H009",
@@ -169,6 +230,12 @@
     "H011",
     "H012",
     "H013",
-    "H014"
+    "H014",
+    "H015",
+    "H016",
+    "H017",
+    "H018",
+    "H019",
+    "H020"
   ]
 }

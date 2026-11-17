@@ -1,0 +1,732 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 166,
+ "date": "Wednesday 18 November 2026",
+ "title": "The Missing Number",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Wednesday, the eighteenth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "A span of the Kerch Bridge is in the water, and Russia has shut road and rail to Crimea."
+  },
+  {
+   "s": "B",
+   "t": "America published no annual inflation rate for October. [curious] None. The only yearly price anybody can give you is petrol, and two kinds of car."
+  },
+  {
+   "s": "A",
+   "t": "And Indonesia built twenty-eight thousand six hundred and sixty-two village shops this year, and opened ten thousand and seventy of them."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] There's a thread running through that."
+  },
+  {
+   "s": "A",
+   "t": "There is. Today's book is about the numbers nobody published."
+  },
+  {
+   "s": "B",
+   "t": "The bridge first. What actually happened?"
+  },
+  {
+   "s": "A",
+   "t": "Overnight on the seventeenth, Ukraine destroyed one of the metal arches of the Kerch Bridge and the road span underneath it. Its Security Service says one of the metal arches and the automobile span under it were completely destroyed."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Economical. Why this bridge in particular?"
+  },
+  {
+   "s": "A",
+   "t": "Nineteen kilometres across the Kerch Strait, and the only direct land link between Russia and the peninsula it annexed in twenty fourteen. It carries the road and the railway that supply the territory and the army in southern Ukraine."
+  },
+  {
+   "s": "B",
+   "t": "So a supply line dressed as a monument."
+  },
+  {
+   "s": "A",
+   "t": "Both. It cost about four billion dollars. And it had been attacked three times before — a truck bomb, sea drones, an underwater charge — and never once taken out of service."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Until this week."
+  },
+  {
+   "s": "A",
+   "t": "A Ukrainian aviation expert puts the fallen section at about six thousand tonnes, and repair at not just months, but a year or even longer."
+  },
+  {
+   "s": "B",
+   "t": "And the day before, the Kremlin was saying it was nothing."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Dmitry Peskov said minor damage is being assessed, and traffic across the bridge continues."
+  },
+  {
+   "s": "B",
+   "t": "What else came in that night?"
+  },
+  {
+   "s": "A",
+   "t": "By Russia's own count, the largest drone attack of the war. One thousand three hundred and thirty-six intercepted overnight, against a previous claimed record of one thousand two hundred and fifty-four."
+  },
+  {
+   "s": "B",
+   "t": "Claimed being the word."
+  },
+  {
+   "s": "A",
+   "t": "Every one of those figures is a Russian military claim and none is independently verified."
+  },
+  {
+   "s": "B",
+   "t": "So what was the strike actually for? You can't end a war by dropping one arch."
+  },
+  {
+   "s": "A",
+   "t": "That's the argument, and it comes from inside Ukraine. Anatolii Khrapchynskyi, a defence-industry executive and air force reserve officer, told Radio N V that the bridge is bait, not target — every raid burns costly interceptors and pulls air defence back to Russia proper."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the other reading?"
+  },
+  {
+   "s": "A",
+   "t": "Elbridge Colby, the American under secretary of defense for policy, says Ukrainian deep strikes have not been effective in driving an end to the war. And the record is with him."
+  },
+  {
+   "s": "B",
+   "t": "How so?"
+  },
+  {
+   "s": "A",
+   "t": "After the twenty twenty-two truck bomb, a commission under Deputy Prime Minister Marat Khusnullin had both carriageways running by the twenty-third of February. Ahead of schedule."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So the man who fixed it last time is already back on the job."
+  },
+  {
+   "s": "A",
+   "t": "And The War Zone says plainly it is not yet possible to tell how badly the structural elements were compromised — while also judging the damage worse than Moscow admits. It noticed the reopening video appeared to avoid the damaged arch."
+  },
+  {
+   "s": "B",
+   "t": "What about Thursday's summit?"
+  },
+  {
+   "s": "A",
+   "t": "China's foreign ministry confirmed that Xi Jinping meets Vladimir Putin and Donald Trump in Shenzhen on the nineteenth. That was on our held list, and it's settled. Berlin was agreed the next day and still carries no date from any government."
+  },
+  {
+   "s": "B",
+   "t": "Money. And this is where your missing number lives."
+  },
+  {
+   "s": "A",
+   "t": "The United States has no annual inflation rate for October."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] How is that possible?"
+  },
+  {
+   "s": "A",
+   "t": "The bureau published the month. Prices rose nought point four per cent between September and October. It cannot publish the year. Because last October the government ran out of money and nobody went out and collected prices. There is nothing to compare this October with."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] So the base month simply… doesn't exist."
+  },
+  {
+   "s": "A",
+   "t": "Three indexes escaped the hole, because somebody kept their records anyway. Petrol is up thirty-seven point four per cent over the year. New cars, nought point seven. Used cars, down three point three."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And that's the whole published account of American inflation. A fuel price and two cars."
+  },
+  {
+   "s": "A",
+   "t": "The monthly series isn't comforting either — nought point four after nought point six, and core prices up nought point three for a third month running."
+  },
+  {
+   "s": "B",
+   "t": "Meanwhile the bond market has an opinion."
+  },
+  {
+   "s": "A",
+   "t": "A strong one. The breakeven — the gap between an ordinary ten-year government bond's yield and an inflation-protected one — closed at two point two zero per cent, down four weeks running, the lowest in the eighteen months our ledger holds. The realised rate it is forecasting? Three point seven two in September. The last figure anybody has."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the market has priced inflation near the bottom of its range, in a week when nobody can tell it what inflation is."
+  },
+  {
+   "s": "A",
+   "t": "And here's what that settles. Strip the market's own forecast out of the ten-year yield and the real yield behind it has gone from one point seven five per cent a year ago to two point nine one. Bond buyers aren't asking to be paid for inflation. They're asking to be paid."
+  },
+  {
+   "s": "B",
+   "t": "Is anyone at the Fed arguing for more?"
+  },
+  {
+   "s": "A",
+   "t": "Alberto Musalem of the St Louis Fed, on the seventeenth: the economy will likely require several interest rate increases before the spring of twenty twenty-seven. He wants the inflation-adjusted policy rate solidly between two and two and a half per cent."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] But you just told me the ten-year real yield is two point eight nine."
+  },
+  {
+   "s": "A",
+   "t": "Which is the joke in it. The bond market has already delivered more inflation-adjusted tightening at ten years than the St Louis Fed is asking for at the front end by spring."
+  },
+  {
+   "s": "B",
+   "t": "And oil?"
+  },
+  {
+   "s": "A",
+   "t": "Brent gave back about thirty-four dollars a barrel in four weeks, to ninety-two, after the International Energy Agency said the world returns to surplus this quarter. Which sounds like relief, and isn't. Expected inflation fell with it and the policy rate did not. Every dollar off Brent since mid-October has raised the real rate."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Falling oil as a tightening. That's counter-intuitive."
+  },
+  {
+   "s": "A",
+   "t": "It's also why the desk corrects itself today, in print. Our standing call has been a real-rate shock, held since number one hundred and sixty-two — described as the Federal Reserve tightening into an energy supply shock. Brent is at ninety-two against a hundred and thirty-five in early October. The Bank for International Settlements attributes the yield rise to term premia that reflected fiscal pressures rather than inflation concerns. The call stands; its energy clause does not. Explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "Singapore had a big number too."
+  },
+  {
+   "s": "A",
+   "t": "Exports up seventy-nine point eight per cent in October, year on year. And shipments to America went from seventy-three point two per cent growth to two hundred and fourteen point six."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] More than tripled."
+  },
+  {
+   "s": "A",
+   "t": "Which is where you should get suspicious. A number that size is a comparison, not a boom — measured against a weak base, and nearly all of it in a handful of lumpy categories. Ships and boats added four point eight billion Singapore dollars. And Enterprise Singapore declined to print any growth rate for them at all, because the base was too low to mean anything."
+  },
+  {
+   "s": "B",
+   "t": "[wry] There's your missing number again."
+  },
+  {
+   "s": "A",
+   "t": "Three of the top ten markets shrank. And a jump like that to America, in the month Washington announced a chip licence regime, looks like cargo brought forward rather than demand created."
+  },
+  {
+   "s": "B",
+   "t": "Nvidia reported while we were asleep."
+  },
+  {
+   "s": "A",
+   "t": "Five twenty-five in the morning, our time. Record revenue of one hundred and fifteen point eight billion dollars, up one hundred and three per cent on the year, about seven billion above what analysts expected. Data centre, one hundred and seven point six billion."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Enormous numbers."
+  },
+  {
+   "s": "A",
+   "t": "And two things about them matter more than the size. These are the first results presented by Colette Kress — the finance chief, who became interim chief executive on the eleventh when Jensen Huang resigned during an independent board investigation. The margin on all that revenue is about to fall. Gross margin was seventy-four point eight per cent in the quarter. It's guided to seventy-one or seventy-two."
+  },
+  {
+   "s": "B",
+   "t": "Anything in the filing people will miss?"
+  },
+  {
+   "s": "A",
+   "t": "The balance sheet is growing faster than the revenue. Supply commitments went to three hundred and ninety billion dollars from two hundred and seventy-nine, three months earlier. Receivables, from thirty-eight and a half billion in January to eighty-one."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Eighty-one billion owed to them?"
+  },
+  {
+   "s": "A",
+   "t": "Collection stretching to sixty-four days on extended payment terms, and guarantees running to one hundred and eighteen billion of maximum exposure against fifty-three and a half billion of cash."
+  },
+  {
+   "s": "B",
+   "t": "And Jensen Huang? He's been quiet since he resigned."
+  },
+  {
+   "s": "A",
+   "t": "Not any more. Hours before the print he told C N B C: I created problems for the Board that I deeply regret. And added that if the board judged his return to serve shareholders, he would be honored to come back."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] And would they?"
+  },
+  {
+   "s": "A",
+   "t": "C N B C reported sources saying it isn't considering it. The sharpest line was on Hacker News: if the board actually goes along with this, you might as well not have a board at all."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Quite."
+  },
+  {
+   "s": "A",
+   "t": "One disclosure. Anthropic had not priced its offering when the page closed — and this magazine is produced using Anthropic's models. We say so on the page."
+  },
+  {
+   "s": "B",
+   "t": "Good. The Kit — glasses."
+  },
+  {
+   "s": "A",
+   "t": "Google and Samsung opened pre-orders for camera spectacles they call Intelligent Eyewear. Warby Parker frames from three hundred and ninety-five US dollars. No screen: a camera, speakers and microphones in the frame, the thinking done by the phone in your pocket."
+  },
+  {
+   "s": "B",
+   "t": "What would you actually do with them?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Here, nothing. They go on sale on the tenth of December in the United States and South Korea alone. No local price, no date, not a launch market. Forty-one grams, up to nine hours — and every one of those numbers traces to Samsung's own sheet. Nobody outside the company has weighed them or run the battery flat."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone handled them?"
+  },
+  {
+   "s": "A",
+   "t": "Kate Kozuch of Tom's Guide wore a pair, and her one first-hand finding contradicts the maker. Samsung says the speakers are designed to minimise sound leakage. She noticed quite a bit of sound leakage at higher volumes."
+  },
+  {
+   "s": "B",
+   "t": "Which is the whole pitch. These are sold as the responsible camera glasses."
+  },
+  {
+   "s": "A",
+   "t": "And that safeguard is software. On Meta's equivalent it was already defeated."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] And the better they look like ordinary glasses, the worse the little warning light works."
+  },
+  {
+   "s": "A",
+   "t": "The Atelier today is tool chests, and the rudest document on the page is printed by Harbor Freight itself. Beside its own eight hundred and ninety-nine dollar roller cabinet it sets Snap-on's seven thousand three hundred and fifty-five dollar one, on Snap-on's own published figures. The slides match, the casters match, and the cheap box carries nearly twice as much weight."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That is extremely rude. So what does the expensive money buy?"
+  },
+  {
+   "s": "A",
+   "t": "A lender attached to a tool brand. Snap-on's annual report records over one point one billion dollars of financing originations last year across about four thousand seven hundred routes. A mechanic quoted in a third-party analysis puts the interest around eighteen per cent."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every morning with this one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Mechanical music. Machines that play themselves."
+  },
+  {
+   "s": "A",
+   "t": "And they all run on one idea. A tune is cut into a physical object, and a machine reads the object and makes it sound."
+  },
+  {
+   "s": "B",
+   "t": "Cut into what?"
+  },
+  {
+   "s": "A",
+   "t": "Pins driven into a brass cylinder. Slots punched in a steel disc. Holes cut in a paper roll."
+  },
+  {
+   "s": "B",
+   "t": "So how does a music box make a note?"
+  },
+  {
+   "s": "A",
+   "t": "The cylinder turns, and the pins pluck the tuned teeth of a steel comb. One tooth, one note."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the disc version?"
+  },
+  {
+   "s": "A",
+   "t": "Projections stamped into the disc turn little star wheels, and those pluck the comb. Which is the commercial revolution — the tune becomes a cheap interchangeable part."
+  },
+  {
+   "s": "B",
+   "t": "What about the player piano? I've never understood that one."
+  },
+  {
+   "s": "A",
+   "t": "A paper roll passes over a bar drilled with holes. Air drawn through a hole collapses a small leather pouch; the pouch moves a valve; the valve throws a hammer at a string."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So it's all suction."
+  },
+  {
+   "s": "A",
+   "t": "All suction. And the aristocrat of the family goes further — the reproducing piano claims to replay not just the notes a named pianist struck, but how hard they struck them."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And yet the claim was always soft, I gather?"
+  },
+  {
+   "s": "A",
+   "t": "On the Duo-Art system the dynamics were set not by the pianist but by a musical producer, sitting at the side of the piano, controlling two large dials."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] A producer. In nineteen fourteen."
+  },
+  {
+   "s": "A",
+   "t": "And the rolls were reworked until the artist was content. Percy Grainger said his own rolls showed him not as he actually played, but as he would like to have played."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's the most honest thing anyone has said about a recording."
+  },
+  {
+   "s": "A",
+   "t": "How big is this world now? Small, and counted. The Musical Box Society International puts itself at about fourteen hundred members."
+  },
+  {
+   "s": "B",
+   "t": "[pause] How do people fall into it?"
+  },
+  {
+   "s": "A",
+   "t": "Almost always a room. Peter Davis met a player piano in nineteen eighty-nine and dismissed it. His host told him to clear your mind of all prejudice and just listen to the music."
+  },
+  {
+   "s": "B",
+   "t": "Did it take?"
+  },
+  {
+   "s": "A",
+   "t": "Years later, hearing Chopin's Preludes come out of an empty keyboard in Cromer, he became — his phrase — a faithful convert."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] An empty keyboard in Cromer. That's the whole hobby in one image. Now the money."
+  },
+  {
+   "s": "A",
+   "t": "Brutal and entirely public. A New Jersey dealer lists a hand-cranked disc box at six hundred and fifty dollars, a Regina from about nineteen oh two at eleven hundred and ninety-five."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And there's a sale on today?"
+  },
+  {
+   "s": "A",
+   "t": "Five hundred and thirty-odd lots in New Jersey, no reserves, bidding opens at ten dollars. A machine that plays a real violin alongside a forty-four-note piano is estimated at eight to twelve thousand."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So what's the second price?"
+  },
+  {
+   "s": "A",
+   "t": "A complete nineteen-twenties upright player piano can be had for under two hundred dollars. At auction such a thing hardly ever makes more than eight hundred. A published rebuild package starts at twenty-five thousand and runs past thirty-five."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Oh no."
+  },
+  {
+   "s": "A",
+   "t": "John Tuttle, who has sold the parts for decades, puts the return at about thirty-five cents in the dollar, and writes the conclusion in capital letters. Player pianos are not an investment."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And the supply chain behind all this?"
+  },
+  {
+   "s": "A",
+   "t": "It points at the sceptic. The business called in nineteen ninety-seven the last surviving supplier for player pianos sold its entire inventory at auction in two thousand and nine."
+  },
+  {
+   "s": "B",
+   "t": "Is the market holding up?"
+  },
+  {
+   "s": "A",
+   "t": "Today's sale prices it in public. A Regina with an automatic changer, estimated at six to nine thousand, stood at fourteen hundred after eight bids. The same type made seventeen thousand six hundred in twenty fourteen."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Grim. Can you hear any of this here?"
+  },
+  {
+   "s": "A",
+   "t": "One room. More than forty restored boxes at a hundred and sixty-eight Telok Ayer Street, in the temple compound. Saturdays, one o'clock to two."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] One hour."
+  },
+  {
+   "s": "A",
+   "t": "Six open days published between now and April. And if you wanted to own one here — small, sealed and steel. Cylinder and disc boxes, where the mechanism sits in one case you can air-condition."
+  },
+  {
+   "s": "B",
+   "t": "Not a player piano."
+  },
+  {
+   "s": "A",
+   "t": "Emphatically not. Everything vulnerable in one is organic — rubberised bellows cloth, thin leather, and hot hide glue, which is water-soluble by design. The best bellows cloth was measured at no more than thirty years even in temperate conditions."
+  },
+  {
+   "s": "B",
+   "t": "So a nineteen-seventies restoration is now itself the problem."
+  },
+  {
+   "s": "A",
+   "t": "And the technician directory names people in Australia, New Zealand, Belgium and Brazil. Nobody in Singapore or Malaysia."
+  },
+  {
+   "s": "B",
+   "t": "Culture, quickly. The Grammys landed."
+  },
+  {
+   "s": "A",
+   "t": "Raye leads with eleven nominations, Rosalía has nine, and Beyoncé becomes the first performer in the awards' history to reach one hundred career nominations."
+  },
+  {
+   "s": "B",
+   "t": "A hundred!"
+  },
+  {
+   "s": "A",
+   "t": "Seven of the eight Album of the Year nominees are women. Hip-hop has exactly one presence across all four of the biggest categories, and Harry Styles was shut out entirely."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the sceptic's view?"
+  },
+  {
+   "s": "A",
+   "t": "A nominations record is the cheapest honour the Academy can give: Beyoncé reaches a hundred of them having lost Album of the Year four times."
+  },
+  {
+   "s": "B",
+   "t": "The Family Desk had a number I did not like."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-four point nine per cent of adolescents aged eleven to seventeen did not manage a single day of an hour's activity in the week before they were asked. About two hundred and forty million young people."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Bleak."
+  },
+  {
+   "s": "A",
+   "t": "It's worth understanding what it counts, though. The survey asks how many days you did at least sixty minutes. A day of fifty-nine minutes counts as nothing."
+  },
+  {
+   "s": "B",
+   "t": "Ah. So it's not children who never move."
+  },
+  {
+   "s": "A",
+   "t": "One researcher puts it concretely — a child doing forty-five minutes every single day counts as having zero active days. And the finding underneath is the one for parents: activity doesn't plateau through the teens, it declines. Twelve is the top of the curve, not the bottom."
+  },
+  {
+   "s": "B",
+   "t": "Fitness — and I can tell you're enjoying this one."
+  },
+  {
+   "s": "A",
+   "t": "[wry] A review of reviews on cold water after exercise. Fourteen reviews, resting on a hundred and sixty-five underlying trials. The one thing it reliably does is make people feel less sore. On performance, strength and inflammation, the evidence doesn't support it."
+  },
+  {
+   "s": "B",
+   "t": "How confident are they?"
+  },
+  {
+   "s": "A",
+   "t": "Twelve of the fourteen reviews were rated critically low in confidence — and the authors deliberately refused to produce a single summary number, because the reviews overlap and pooling them counts the same people twice."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] That's admirable. They had a headline available and declined to write it."
+  },
+  {
+   "s": "A",
+   "t": "Refusing to round is a kind of rigour. One caveat for anyone our age: the studies rest on young trained adults. And if you use cold, use it in the afternoon — within two hours of bed it may disrupt sleep. General guidance, not advice."
+  },
+  {
+   "s": "B",
+   "t": "And the Long Read. Indonesia."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-eight thousand six hundred and sixty-two village shops finished by the twentieth of October. About ten thousand and seventy actually trading. And twenty-eight thousand six hundred and twenty-six managers already on the payroll."
+  },
+  {
+   "s": "B",
+   "t": "[pause] As many staff as buildings, and a third of the buildings open."
+  },
+  {
+   "s": "A",
+   "t": "They're called Kopdes Merah Putih — Red-and-White village cooperatives, after the flag."
+  },
+  {
+   "s": "B",
+   "t": "Remind me what a cooperative is meant to be."
+  },
+  {
+   "s": "A",
+   "t": "A business owned by the people who use it. They put up the capital, they elect the board, they share the surplus."
+  },
+  {
+   "s": "B",
+   "t": "And this isn't that."
+  },
+  {
+   "s": "A",
+   "t": "The money never went to the cooperatives. Two hundred and forty trillion rupiah was syndicated by the state banks — not to any cooperative, but to a single state company, to build the outlets."
+  },
+  {
+   "s": "B",
+   "t": "Is that a normal amount to lend one borrower?"
+  },
+  {
+   "s": "A",
+   "t": "No. An Indonesian bank may not expose more than a quarter of its core capital to a single name. This puts one of them at thirty-five per cent — lawful only because the state has guaranteed the credit."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] And who repays it?"
+  },
+  {
+   "s": "A",
+   "t": "Partly the villages. Fifty-eight point nought three per cent of every village's annual block grant was reallocated to the programme."
+  },
+  {
+   "s": "B",
+   "t": "[drawn out] Fifty-eight per cent of the money they were meant to spend on themselves."
+  },
+  {
+   "s": "A",
+   "t": "In one village in Central Java the grant fell from over a billion rupiah to about three hundred and seventy-three million."
+  },
+  {
+   "s": "B",
+   "t": "What are the shops like inside?"
+  },
+  {
+   "s": "A",
+   "t": "One in West Bandung carries forty-seven lines of stock. The corner shop it competes with carries about two hundred."
+  },
+  {
+   "s": "B",
+   "t": "That's not a contest."
+  },
+  {
+   "s": "A",
+   "t": "The food minister agrees. In October he told all the managers, on one video call, not to bother with soap and shampoo and instant noodles. Sell subsidy instead."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the cooperative becomes a counter. And Indonesia has done this before."
+  },
+  {
+   "s": "A",
+   "t": "Nineteen seventy-three. Village cooperatives merged into state-sponsored units, subsidised, buying rice for the state. They grew past nine thousand. After the nineteen ninety-eight crisis the facilities ended, and about five thousand four hundred were reported mati suri."
+  },
+  {
+   "s": "B",
+   "t": "Which means?"
+  },
+  {
+   "s": "A",
+   "t": "Suspended death. Still on the register, doing nothing. The arrears then were around eight trillion rupiah. The facility now is two hundred and forty."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Thirty times."
+  },
+  {
+   "s": "A",
+   "t": "And the warning was written inside the family. In nineteen forty-one a Dutch official wrote the preface to a book on Indonesia's first cooperative decade — that officials should act only as advisers and as cheerful propagandists, and must not raise people's hopes too high and imagine things that are not there."
+  },
+  {
+   "s": "B",
+   "t": "Why inside the family?"
+  },
+  {
+   "s": "A",
+   "t": "The book's author was the grandfather of Indonesia's current president."
+  },
+  {
+   "s": "B",
+   "t": "[whispers] That's extraordinary."
+  },
+  {
+   "s": "A",
+   "t": "One village head took the programme to the Constitutional Court last month. It may well collapse — the decree declares everything already built valid and continued. Which leaves the count. In one regency this month, two hundred and thirty-three villages have an outlet and fifty-five are trading."
+  },
+  {
+   "s": "B",
+   "t": "And who reported that?"
+  },
+  {
+   "s": "A",
+   "t": "Not the cooperatives ministry. The district military commander."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Right."
+  },
+  {
+   "s": "A",
+   "t": "The buildings get counted because they can be. The trading doesn't, because it can't. Which is this morning's thread all the way through — from a missing inflation rate to a growth rate nobody would print. Facts don't cease to exist because they're ignored. That's Huxley, and it's our quote."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] A good one to leave people with."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-five pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "issue": 166,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "brief": "tools/editor_brief.md",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 5,
+   "says": "Ukraine brought down one of the Kerch Bridge arches and the road span under it, cutting Russia's only land link to Crimea two days before the Shenzhen summit, with repairs estimated at a year or more.",
+   "weakest": "\"Thomas Newdick of The War Zone, reading Vantor imagery, judged the damage worse than Moscow admitted.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 3,
+   "says": "The Pan American Health Organization stripped the United States, Mexico and Bolivia of measles elimination status, ten months after the outbreaks actually crossed the twelve-month line, and published two different death tolls for the same day.",
+   "weakest": "The three press-review boxes — \"Doha — Al Jazeera\", \"Beijing — Global Times\", \"Arlington — The War Zone\" — all about the Kerch Bridge.",
+   "verdict": "rework",
+   "reason": "Three of the page's boxes are about yesterday's bridge story, not measles, so the page stops dead halfway through and I had to work out which article I was still reading.",
+   "fixed": "Labelled the seam: a hand-over sentence and a 'How Two Capitals Read The Bridge' heading before the viewpoint panels, and the third panel (The War Zone) cut because page 3's Chatter already quotes the same analyst.",
+   "recheck": 3,
+   "note": "Still flagged at recheck: the reviewer holds that a labelled seam is an admission rather than a fix, and that the two bridge panels belong beside the bridge story. Not overruled — carried as a standing question for the next build, since the side-by-side viewpoint panel is a required fixture of The World desk and page 3 has no room for it."
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 3,
+   "says": "Singapore's October exports rose 79.8 per cent year on year, but the jump is a weak base plus a few lumpy consignments and a tripling of shipments to America that looks like cargo pulled forward ahead of the US chip rule.",
+   "weakest": "\"The Sceptic · An 80 Per Cent Export Rise Is Not A Boom\" — base effects, the unrated ships, three shrinking markets.",
+   "verdict": "rework",
+   "reason": "The Sceptic box restates paragraphs two and four almost item for item, and three separate 'Held since No. 165' blocks make it read like an internal ledger.",
+   "fixed": "Rewrote the Sceptic onto new ground (a year-on-year rate reports a ratio, never a level) instead of restating paragraphs two and four, and merged the three 'Held since No. 165' blocks into one.",
+   "recheck": 4
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 4,
+   "says": "Tool chests should be judged on steel gauge, slide rating and caster load, and on those three numbers Harbor Freight's $899 cabinet matches Snap-on's $7,355 one — most of the premium buys a brand and a finance arm.",
+   "weakest": "\"Waterloo Industries, which built decades of other makers' boxes, now serves one line saying it was acquired in 2017.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Nvidia's first quarter under interim chief executive Colette Kress set a revenue record of $115.8bn while guiding margins down, with supply commitments, receivables and guarantees all swelling faster than sales.",
+   "weakest": "\"On Hacker News, chilmers: 'If the board actually goes along with this, you might as well not have a board at all.'\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 8,
+   "desk": "Technology",
+   "keep_reading": 2,
+   "says": "llama.cpp's version 1.0 is a promise to stop breaking the interfaces other programs depend on, not a speed release — the one independent benchmark found no gain for a single user.",
+   "weakest": "\"83 of 83 — Model files on a reviewer's Mac mini the new app failed to list.\"",
+   "verdict": "rework",
+   "reason": "The standout number is about a Mac app bug the article never mentions, and the Sceptic box repeats paragraph four's figures.",
+   "fixed": "Replaced the '83 of 83' stat, which pointed at a Mac-app bug the article never told, with the 100+ dependent programs the piece actually explains; rewrote the Sceptic to argue the untested-promise case rather than repeat paragraph four's benchmark figures.",
+   "recheck": 4
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 4,
+   "says": "Google and Samsung's US$395 camera glasses have no screen, no Singapore price or date, and every specification comes from Samsung's own sheet — the one person who wore them contradicts the claim about sound leakage.",
+   "weakest": "\"'Sam N8 808 owner' wrote 'Death of Privacy. Even your face is not a private thing'.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 4,
+   "says": "Zenith's 68,900-franc Calibre 135 edition costs 10,000 francs more than the platinum version before it because the engraver cut the movement bridges as well as the dial, and that handwork is the whole premium.",
+   "weakest": "\"5 firsts — Neuchâtel Observatory wins, 1950 to 1954 — by the competition calibre, not the series movement in this case.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 4,
+   "says": "Raye leads the 2027 Grammy nominations with eleven and Beyoncé becomes the first artist to a hundred, in a field where women took seven of eight album slots and hip-hop got exactly one place.",
+   "weakest": "\"Rosalía posted a clip of herself opening champagne, captioned 'LUX 10 NOMINATIONS!!!!!!!!!!!AAAAAAAAAAA'.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A WHO study of 3.2 million teenagers finds a quarter had no single hour-long active day in a week, with girls behind boys everywhere and activity falling rather than levelling off through the teens.",
+   "weakest": "The HPV-vaccination trial item under \"Also on the desk\" — \"Randomised, nothing; as-received, something.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 5,
+   "says": "A fifteen-year Manchester study finds reported emotional problems among British 12- and 13-year-olds more than doubled while conduct problems, drinking, smoking and family silence all fell.",
+   "weakest": "\"The only item in circulation is a syndicated rewrite quoting no named critic, whose headline figures — 11.4 to 27.1 per cent — are the raw prevalences.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "A St Louis Fed official wants the inflation-adjusted policy rate at 2 to 2.5 per cent by spring 2027, which the ten-year bond market has already delivered at 2.89 per cent, largely because cheaper oil pulled expected inflation down while the policy rate stayed put.",
+   "weakest": "\"The Verdict · What A 2.89 Real Yield Does To The Four\"",
+   "verdict": "rework",
+   "reason": "'the Four' is never explained, and the body leans on 'The regime stands: a real-rate shock' as if I had read earlier issues.",
+   "fixed": "Renamed the Verdict box to name shares, bonds, gold and bitcoin instead of 'the Four', and glossed the standing regime call in plain words where it appears in the body, with 'held since No. 162' attached.",
+   "recheck": 4
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 4,
+   "says": "America has no annual inflation rate for October because nobody collected prices in October 2025, leaving petrol and two kinds of car as the entire published yearly picture while the bond market's own ten-year forecast fell to an eighteen-month low.",
+   "weakest": "\"Inside the Fund · Estimates Rising Into The Inflation Gap… The fund is 62.83 per cent American, so this is most of it.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 5,
+   "says": "Mechanical music is one idea at every scale — a tune cut into a physical object and read by a machine — and the reproducing piano's claim to replay a named pianist's touch was always partly staged by a producer at the side of the instrument.",
+   "weakest": "The membership-count paragraph: \"1,551 in July 1999 to 1,341 by June 2004\", plus the 173-technician directory.",
+   "verdict": "pass"
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "These machines are bought twice — a few hundred to a few thousand for the object, then $25,000 or more for the rebuild that makes it play, against a published return of thirty-five cents in the dollar.",
+   "weakest": "\"Not a 2026 story: three-dimensional printing here peaked in 2017 and 2020–21, 24 posts in all, the last in June 2021.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "Singapore has exactly one room of these machines, open an hour on six Saturdays to April 2027, and the humidity means a buyer here should want a small sealed steel box, not anything with leather, cloth or hide glue in it.",
+   "weakest": "The orphan glossary line: \"Comb — 'a series of tuned metal teeth arranged in a musical scale'.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 4,
+   "says": "A review of fourteen cold-water reviews finds the practice reliably reduces soreness and does nothing dependable for performance, strength or inflammation, and the authors refused to pool their numbers because the underlying trials overlap too much.",
+   "weakest": "The Chatter box: \"None could be opened, and none can be confirmed to be about this review.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 20,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "What to book before December: the Taniguchi show closes on the 22nd, the National Gallery's 30 per cent discount ends on the 30th, and the January sumo tournament goes on sale at 10am Japan time on 5 December.",
+   "weakest": "\"Known sell-out: the four BTS stadium nights are gone on the promoter's page\" — no stadium nights appear in the listings above.",
+   "verdict": "pass"
+  },
+  {
+   "page": 21,
+   "desk": "The Diary",
+   "keep_reading": 2,
+   "says": "Three new Singapore places are all too new to be reviewed, and the page says so rather than recommending any of them.",
+   "weakest": "\"The Sceptic · A Page Of Openings Is A Page Of Guesses… Treat an opening as an invitation, not a recommendation.\"",
+   "verdict": "rework",
+   "reason": "The page says four separate times that none of this can be judged yet, so by the second box I had stopped.",
+   "fixed": "Cut the 'too new to call' framing from the dek and the opening and dropped The Buzz box, leaving one statement of the caveat in the Sceptic and giving the reclaimed space to the dishes, the prices and the pedigree.",
+   "recheck": 4
+  },
+  {
+   "page": 22,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Indonesia has built 28,662 village cooperative shops and opened 10,070, and the Rp 240 trillion behind them went not to any cooperative but to a renamed state engineering firm whose employees staff shops stocking 47 lines against a corner shop's 200.",
+   "weakest": "The stat box \"47 — Lines of stock at the Padalarang outlet… against about 200 in a warung Madura\", which repeats the body sentence word for word.",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "State banks lent the whole Rp 240 trillion to one borrower, past the single-name limit and lawful only because the state guarantees it, and the repayments are being met by taking 58 per cent of every village's block grant.",
+   "weakest": "\"The same 26-item package lists a computer 'full set' at Rp 90,000 and a broom-and-dustpan set at Rp 600,000.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "Indonesia ran this experiment in 1973 and about 5,400 of those state-run village cooperatives ended up on the register doing nothing, with Rp 8 trillion of arrears — the difference this time is Rp 240 trillion of debt that outlives the shop.",
+   "weakest": "\"It may well collapse: Article 107 of Perpres No. 82 of 2026 declares everything already built or procured valid and continued.\"",
+   "verdict": "pass"
+  }
+ ]
+}

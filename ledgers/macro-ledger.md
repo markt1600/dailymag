@@ -1,16 +1,16 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-17T02:26:34Z.
+Last fetch: 2026-11-17T21:07:32Z.
 
 ## The Call
 
-**A real-rate shock: the Federal Reserve tightening into an energy supply shock** — held since No. 162, last stated No. 165 (2026-11-17).
+**A real-rate shock: the Federal Reserve tightening into an energy supply shock** — held since No. 162, last stated No. 166 (2026-11-18).
 
 What would change it:
-- The 10-year real yield closes below 2.60 per cent (2.91 on 13 November; it was 2.63 a week earlier)
+- The 10-year real yield closes below 2.60 per cent (2.91 on 13 November, up from 1.75 in September 2025)
 - The Federal Reserve does not raise rates on 9 December
-- The high-yield credit spread closes above 4.0 points (3.23 on 13 November), which would make it a growth scare rather than a rate shock
+- The high-yield credit spread closes above 4.0 points (3.34 on 16 November), which would make it a growth scare rather than a rate shock
 
 ## Rates
 
@@ -21,16 +21,16 @@ What would change it:
 | real10y | US 10-year real yield (TIPS) (%) | 2.91 | 2026-11-13 | +0.28 | +0.17 | +0.50 | +1.08 | up 2 weeks running; 97% of its 1-year range | FRED DFII10 |
 | breakeven10 | US 10-year breakeven inflation (%) | 2.20 | 2026-11-16 | -0.02 | -0.15 | -0.08 | -0.08 | down 4 weeks running; 6% of its 1-year range | FRED T10YIE |
 | curve2s10s | US 10-year minus 2-year (pp) | 0.29 | 2026-11-16 | -0.03 | -0.09 | -0.24 | -0.23 | down 1 week running; 17% of its 1-year range | FRED T10Y2Y |
-| termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.87 | 2026-11-06 | -0.04 | -0.20 | +0.05 | +0.38 | down 5 weeks running; 66% of its 1-year range | FRED THREEFYTP10 |
+| termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.99 | 2026-11-13 | +0.11 | +0.00 | +0.15 | +0.49 | up 1 week running; 83% of its 1-year range | FRED THREEFYTP10 |
 
 ## Liquidity
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | fed_bs | Federal Reserve balance sheet (US$tn) | 6.76 | 2026-11-11 | +0.01 | +0.00 | -0.00 | +0.19 | up 2 weeks running; at its 1-year high | FRED WALCL |
-| rrp | Fed overnight reverse repo (US$bn) | 0.18 | 2026-11-16 | -0.07 | -0.15 | -0.07 | -1.38 | down 2 weeks running; at its 1-year low | FRED RRPONTSYD |
+| rrp | Fed overnight reverse repo (US$bn) | 0.35 | 2026-11-17 | +0.20 | +0.12 | +0.20 | -2.82 | up 1 week running; at its 1-year low | FRED RRPONTSYD |
 | tga | US Treasury General Account (US$bn) | 914.40 | 2026-11-11 | -42.80 | +31.00 | -49.60 | -26.60 | down 2 weeks running; 64% of its 1-year range | FRED WTREGEN |
-| sofr | Secured Overnight Financing Rate (%) | 3.90 | 2026-11-13 | +0.01 | +0.02 | +0.28 | -0.10 | up 1 week running; 65% of its 1-year range | FRED SOFR |
+| sofr | Secured Overnight Financing Rate (%) | 3.93 | 2026-11-16 | +0.05 | +0.06 | +0.27 | -0.02 | up 1 week running; 69% of its 1-year range | FRED SOFR |
 | nfci | Chicago Fed financial conditions (above 0 = tight) (index) | -0.46 | 2026-11-06 | +0.00 | +0.03 | +0.08 | +0.05 | up 11 weeks running; at its 1-year high | FRED NFCI |
 | dollar | Broad trade-weighted US dollar (index) | 122.65 | 2026-11-13 | +0.77 | +1.25 | +3.75 | +1.88 | up 3 weeks running; at its 1-year high | FRED DTWEXBGS |
 
@@ -38,9 +38,9 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| hy_oas | US high-yield credit spread (pp) | 3.23 | 2026-11-13 | -0.19 | -0.08 | +0.56 | +0.14 | down 2 weeks running; 72% of its 1-year range | FRED BAMLH0A0HYM2 |
-| ig_oas | US investment-grade credit spread (pp) | 0.89 | 2026-11-13 | -0.04 | +0.04 | +0.09 | +0.05 | down 2 weeks running; 76% of its 1-year range | FRED BAMLC0A0CM |
-| vix | VIX equity volatility (index) | 19.30 | 2026-11-13 | -6.34 | -0.69 | +5.05 | -0.70 | down 1 week running; 33% of its 1-year range | FRED VIXCLS |
+| hy_oas | US high-yield credit spread (pp) | 3.34 | 2026-11-16 | 0.00 | +0.05 | +0.64 | +0.27 | 84% of its 1-year range | FRED BAMLH0A0HYM2 |
+| ig_oas | US investment-grade credit spread (pp) | 0.90 | 2026-11-16 | -0.01 | +0.03 | +0.09 | +0.07 | down 2 weeks running; 81% of its 1-year range | FRED BAMLC0A0CM |
+| vix | VIX equity volatility (index) | 22.91 | 2026-11-16 | +2.99 | +4.47 | +7.72 | +3.08 | up 1 week running; 54% of its 1-year range | FRED VIXCLS |
 
 ## Inflation
 
@@ -56,7 +56,7 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| gdpnow | Atlanta Fed GDPNow, current quarter (% saar) | 3.48 | 2026-10-01 | — | — | +0.21 | -0.76 | up 1 week running | FRED GDPNOW |
+| gdpnow | Atlanta Fed GDPNow, current quarter (% saar) | 3.38 | 2026-10-01 | — | — | +0.11 | -0.85 | up 1 week running | FRED GDPNOW |
 | eps_growth | S&P 500 blended earnings growth, current quarter (%) | 31.90 | 2026-11-13 | +0.50 | +2.80 | — | — | up 3 weeks running | FactSet Earnings Insight, John Butters, 16 Nov 2026 |
 | fwd_eps | S&P 500 forward 12-month earnings per share (US$) | 415.82 | 2026-11-05 | — | — | — | — | — | FactSet Earnings Insight, John Butters, 9 Nov 2026 (forward 12-month EPS) |
 
