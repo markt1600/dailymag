@@ -496,6 +496,7 @@ RH_SUBTITLES = {
     "The Travel Desk": {"Departures", "The Grand Tour"},
     "The Diary": {"What's Worth Booking", "Plan the Flights", "The Table"},
     "The Long Read": {"The Undercurrent"},
+    "The Reader's Editor": {"The Week in Review"},
 }
 HED_MAX_WORDS, HED_WARN_WORDS, TEASER_MAX_WORDS, KICKER_SUBJECT_MAX_WORDS = 14, 11, 18, 8
 
@@ -665,6 +666,8 @@ if _issno >= 126 and not _special:
         if _issno < 134 or _i <= 2 or _i == len(pages):
             continue
         _desk = _desk_of(_sec)
+        if _desk == "The Reader's Editor":      # the Sunday Week in Review's headline is a verdict on the book itself
+            continue
         for _h in [_plain(x) for x in re.findall(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _sec, re.S)]:
             _pr = []
             _low = _h.lower().strip()
@@ -869,7 +872,7 @@ if _issno >= 126 and not _special:
         if _issno < 150:
             continue
         _desk = _desk_of(_sec)
-        if _desk in ("The Macro Desk", "The Diary", "The Travel Desk"):   # Verdict, Planning Notes and the Grand Tour's boxes are desk-wide by design
+        if _desk in ("The Macro Desk", "The Diary", "The Travel Desk", "The Reader's Editor"):   # Verdict, Planning Notes and the Grand Tour's boxes are desk-wide by design
             continue
         _bs = _BoxScan(); _bs.feed(_sec)
         _vocab = _bx_vocab(" ".join(_deks + _bod + [_plain(" ".join(b["txt"])) for b in _bs.boxes]))
@@ -1159,6 +1162,31 @@ if not _special:
         if _issno >= 110 and not re.search(r'<b class="venue"', _tsec):
             errors.append("The Table carries no <b class=\"venue\"> marks — every venue covered is marked on its "
                           "first mention so tools/table_ledger.py can record the run (see ledgers/table-ledger.md)")
+
+# ---- THE WEEK IN REVIEW (editor, 17 Nov 2026 — the reader's call: the weekly drift
+# report is a PAGE OF SUNDAY'S EDITION, not a separate file). From No. 170 every
+# Sunday book carries one page headed "Meridian · The Reader's Editor / The Week in
+# Review", after the Long Read and before the back cover. See the spec section.
+if _issno >= 170 and not _special and _day == 'Sunday':
+    _wp = [(_i, _s) for _i, _s in enumerate(pages, 1) if _desk_of(_s) == "The Reader's Editor"]
+    if len(_wp) != 1:
+        errors.append(f"WEEK IN REVIEW: a Sunday book carries exactly one 'Meridian · The Reader's Editor' page (sub-title 'The Week in Review') before the back cover — the week's drift report, in print; found {len(_wp)}. Run python3 tools/drift_report.py and see THE WEEKLY DRIFT REPORT in the spec")
+    else:
+        _wn, _ws = _wp[0]
+        if _wn != len(pages) - 1:
+            errors.append(f"WEEK IN REVIEW p{_wn}: the page sits last before the back cover (p{len(pages) - 1})")
+        _wl = [_plain(x) for x in re.findall(r'<div class="(?:lbl|brief-h)"[^>]*>(.*?)</div>', _ws, re.S)]
+        for _need, _why in (("The Week in Numbers", "the per-issue table from tools/drift_report.py: rules broken, headline length, photographs, Reader's Editor score"),
+                            ("The Cold Read", "what a fresh reader noticed that no rule covers, each point quoting a line with its issue and page"),
+                            ("Calls Worth Making", "the Held Ledger's `ask` items — what only a phone call or an email will settle")):
+            if not any(_l.startswith(_need) for _l in _wl):
+                errors.append(f"WEEK IN REVIEW p{_wn}: missing '{_need}' — {_why}")
+        _wt = re.search(r'The Week in Numbers.*?<table class="tbl[^"]*">(.*?)</table>', _ws, re.S)
+        if _wt and len([r for r in re.findall(r'<tr>(.*?)</tr>', _wt.group(1), re.S) if '<td' in r]) < 7:
+            errors.append(f"WEEK IN REVIEW p{_wn}: The Week in Numbers has a row for each of the week's seven issues")
+        _wk = re.search(r'<div class="hed[^"]*"[^>]*>(.*?)</div>', _ws, re.S)
+        if not _wk or not re.search(r'stead|drift|slip|held|tighten|lengthen|improv|worse|better', _plain(_wk.group(1)), re.I):
+            warns.append(f"WEEK IN REVIEW p{_wn}: the headline is the verdict — steady, or drifting and where")
 
 # ---- THE MACRO DESK, TWO PAGES (editor, 17 Nov 2026 — reader-approved; from No. 166).
 # The desk had become a daily recap: Nos. 162, 164 and 165 led on the same priced
