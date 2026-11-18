@@ -17,9 +17,10 @@ What would change it:
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 182.57 | 2026-11-17 | — | — | — | — | — | Vanguard VWRA product page, NAV at close 17 Nov 2026 (-1.19% on the day) |
-| pimco_income_1w | PIMCO GIS Income Fund, 1-week total return (%) | -2.04 | 2026-11-17 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825); page undated, read 18 Nov SGT |
+| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | -2.04 | 2026-11-17 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825); page undated, read 18 Nov SGT |
 | gold | Gold, spot (US$/oz) | 3,853 | 2026-11-17 | — | — | — | — | — | No. 166 p14 footnote 5 (spot quote as printed) |
 | btc | Bitcoin, Coinbase (US$) | 64,605 | 2026-11-17 | -8,698 | -18,246 | -20.77 | -27,251 | down 6 weeks running; 16% of its 1-year range | FRED CBBTCUSD |
+| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | -1.86 | 2026-11-17 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925); page undated, read 18 Nov SGT |
 
 ## Rates
 

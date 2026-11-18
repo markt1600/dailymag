@@ -25571,12 +25571,12 @@
      "issue": 166
     }
    ],
-   "name": "PIMCO GIS Income Fund, 1-week total return",
+   "name": "PIMCO GIS Income Fund, SGD-hedged class, 1-week total return",
    "unit": "%",
    "theme": "four",
    "cadence": 1,
    "fred": "",
-   "read_at": "POEMS fund finder (Admin SGD-hedged Income class) or PIMCO's own fund page; name the share class"
+   "read_at": "POEMS fund finder, Admin SGD Hedged Income: poems.com.sg/fund-finder/pimco-gis-inc-admin-sgd-hedged-income-ie00b91rq825-556842/"
   },
   "gold": {
    "readings": [
@@ -27843,6 +27843,22 @@
    "cadence": 1,
    "fred": "CBBTCUSD",
    "read_at": ""
+  },
+  "pimco_income_usd_1w": {
+   "readings": [
+    {
+     "date": "2026-11-17",
+     "value": -1.86,
+     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925); page undated, read 18 Nov SGT",
+     "issue": 166
+    }
+   ],
+   "name": "PIMCO GIS Income Fund, USD class, 1-week total return",
+   "unit": "%",
+   "theme": "four",
+   "cadence": 1,
+   "fred": "",
+   "read_at": "POEMS fund finder, E USD Income: poems.com.sg/fund-finder/pimco-gis-inc-e-usd-inc-ie00b8k7v925-556231/"
   }
  },
  "calls": [

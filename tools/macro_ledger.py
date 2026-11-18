@@ -48,8 +48,10 @@ INDICATORS = {
     # THE FOUR — the instruments the desk exists to explain (editor, 18 Nov 2026)
     "vwra":        ("VWRA, Vanguard FTSE All-World UCITS ETF, NAV", "US$", "four", 1, None, None,
                     "Vanguard VWRA product page (NAV at the last close, USD)"),
-    "pimco_income_1w": ("PIMCO GIS Income Fund, 1-week total return", "%", "four", 1, None, None,
-                    "POEMS fund finder (Admin SGD-hedged Income class) or PIMCO's own fund page; name the share class"),
+    "pimco_income_1w": ("PIMCO GIS Income Fund, SGD-hedged class, 1-week total return", "%", "four", 1, None, None,
+                    "POEMS fund finder, Admin SGD Hedged Income: poems.com.sg/fund-finder/pimco-gis-inc-admin-sgd-hedged-income-ie00b91rq825-556842/"),
+    "pimco_income_usd_1w": ("PIMCO GIS Income Fund, USD class, 1-week total return", "%", "four", 1, None, None,
+                    "POEMS fund finder, E USD Income: poems.com.sg/fund-finder/pimco-gis-inc-e-usd-inc-ie00b8k7v925-556231/"),
     "gold":        ("Gold, spot", "US$/oz", "four", 1, None, None,
                     "LBMA PM price or a named spot quote (Trading Economics, Kitco)"),
     "btc":         ("Bitcoin, Coinbase", "US$", "four", 1, "CBBTCUSD", None, ""),
