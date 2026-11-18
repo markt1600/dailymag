@@ -2462,9 +2462,59 @@
       "status": "OPEN",
       "checked": "No. 166 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "RUXU",
+      "key": "RUXU",
+      "runs": [
+        167
+      ],
+      "status": "OPEN",
+      "checked": "No. 167 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "LONGJING",
+      "key": "LONGJING",
+      "runs": [
+        167
+      ],
+      "status": "OPEN",
+      "checked": "No. 167 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Herng Hao Chi Hokkien Mee",
+      "key": "Herng Hao Chi Hokkien Mee",
+      "runs": [
+        167
+      ],
+      "status": "OPEN",
+      "checked": "No. 167 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sol & Manta",
+      "key": "Sol & Manta",
+      "runs": [
+        167
+      ],
+      "status": "OPEN",
+      "checked": "No. 167 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Bagel Chef",
+      "key": "Bagel Chef",
+      "runs": [
+        167
+      ],
+      "status": "OPEN",
+      "checked": "No. 167 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 167,
+  "barred_for_issue": 168,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2600,8 +2650,6 @@
     "Earworm",
     "JJAN",
     "Cranki Patisserie",
-    "Casa Vostra",
-    "Ma Cuisinette",
     "Good Luck Bagels",
     "Peach Blossoms",
     "Yaya Lorong",
@@ -2612,6 +2660,11 @@
     "Sohaus",
     "Khao Boi",
     "Café Artévo",
-    "Tan Ser Seng"
+    "Tan Ser Seng",
+    "RUXU",
+    "LONGJING",
+    "Herng Hao Chi Hokkien Mee",
+    "Sol & Manta",
+    "Bagel Chef"
   ]
 }

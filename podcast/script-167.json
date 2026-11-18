@@ -1,0 +1,676 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 167,
+ "date": "Thursday 19 November 2026",
+ "title": "The Top Table",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the nineteenth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "China, Russia and America sit at one table in Shenzhen today. The first meeting ever held between the leaders of those three countries."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Anthropic sells about six per cent of itself on Nasdaq — and keeps half the vote in a single share. The price? Still not announced."
+  },
+  {
+   "s": "A",
+   "t": "And South Korea couldn't agree a price for a weight-loss drug, so it now lets its travellers carry Japan's home in a suitcase."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Sushijaro. We'll get there, I promise."
+  },
+  {
+   "s": "A",
+   "t": "The book keeps asking one question this morning. Who gets a seat, and on what terms. We're calling it The Top Table."
+  },
+  {
+   "s": "B",
+   "t": "Shenzhen, then. What happened yesterday?"
+  },
+  {
+   "s": "A",
+   "t": "Xi Jinping met Donald Trump on the tarmac at Shenzhen's airport. Al Jazeera notes that's a welcome Chinese presidents rarely give. And it came after Xi had already received Vladimir Putin that same day."
+  },
+  {
+   "s": "B",
+   "t": "[pause] So Putin got the first meeting, and Trump got the tarmac."
+  },
+  {
+   "s": "A",
+   "t": "Roughly. Xi used the Putin meeting to call for a multipolar world and democratization of international relations."
+  },
+  {
+   "s": "B",
+   "t": "And what comes out of today? A treaty?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody expects a signed text. The Kremlin says each side may simply issue its own statement."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Three leaders, three press releases."
+  },
+  {
+   "s": "A",
+   "t": "Then Putin and Trump talk alone after the plenary. That's according to the Kremlin aide Yury Ushakov."
+  },
+  {
+   "s": "B",
+   "t": "Is Ukraine actually on the table? I thought Washington said it wasn't."
+  },
+  {
+   "s": "A",
+   "t": "It had. On the sixteenth Trump reversed that: \"We'll talk about my favorite subject, Ukraine.\""
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] His favourite subject."
+  },
+  {
+   "s": "A",
+   "t": "Ushakov also gave us the banquet. Putin and Trump were not sitting next to each other at the table, so they could not talk. And Putin and Xi, he said, trust each other one hundred percent."
+  },
+  {
+   "s": "B",
+   "t": "[deadpan] Seating plans as geopolitics. And where's Ukraine itself?"
+  },
+  {
+   "s": "A",
+   "t": "Not in Shenzhen. In Berlin, the same day, Trump's envoys Steve Witkoff and Jared Kushner meet Ukrainian officials, while Friedrich Merz hosts more than twenty leaders on security guarantees."
+  },
+  {
+   "s": "B",
+   "t": "And trade — the bit that reaches us."
+  },
+  {
+   "s": "A",
+   "t": "The trade truce agreed in Busan expires on the tenth of January, twenty twenty-seven, and analysts expect no extension here. China's rare-earth exports to America run about seventy-five per cent below normal, by one Washington think-tank's count. Xi and Trump get about two hours together."
+  },
+  {
+   "s": "B",
+   "t": "We always do the capitals. How's it being read?"
+  },
+  {
+   "s": "A",
+   "t": "In Beijing's Global Times, Zhang Tengjun of the Chinese Academy of Social Sciences calls the Yalta two point oh label a product of entrenched Cold War thinking. TASS casts Putin as the room's draw — Mister Popular, at the reception."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] Of course it does. And Kyiv?"
+  },
+  {
+   "s": "A",
+   "t": "The Kyiv Post leads on the exclusion, quoting Andrii Sybiha: Putin is not a global leader, he is a war criminal. Al Jazeera reads it as trade first, chips and rare earths. And Outlook India warns a three-power order could narrow the space available to emerging economies."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Which is more or less where Singapore lives. What do the analysts expect?"
+  },
+  {
+   "s": "A",
+   "t": "Deborah Elms of Singapore's Hinrich Foundation sets the bar low. If the leaders shake hands without incident, it will be viewed as a win."
+  },
+  {
+   "s": "B",
+   "t": "That is a very low bar."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic is Poland's foreign minister, Radosław Sikorski. He rejects the triangle itself — an unnecessary elevation of Russia to the position of a global superpower. The table he wants is China, America and the European Union."
+  },
+  {
+   "s": "B",
+   "t": "Quickly — the Kerch Bridge. Yesterday we had a span in the water."
+  },
+  {
+   "s": "A",
+   "t": "And today the picture changes. Russia restored rail on one track on the seventeenth; a first passenger train crossed at thirteen oh four, Moscow time. That's the business daily Vedomosti. Road traffic stays suspended."
+  },
+  {
+   "s": "B",
+   "t": "So Crimea isn't cut off."
+  },
+  {
+   "s": "A",
+   "t": "No. What's blocked is the sea. The arch that fell, about two hundred and twenty-seven metres, was the navigation span over the only channel between the Sea of Azov and the Black Sea — and the wreckage fell into it."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] So every large ship bound for an Azov port is stuck."
+  },
+  {
+   "s": "A",
+   "t": "Until it's cleared. A weapons maker, Destinus, claims its Ruta missiles hit the bridge — a manufacturer's claim, unverified. Sevastopol's governor says all supply chains for Sevastopol have been preserved. And still held: no independent engineering assessment, no repair date."
+  },
+  {
+   "s": "B",
+   "t": "Money. The Fed's minutes came out, and you've been itching to get to them."
+  },
+  {
+   "s": "A",
+   "t": "The October minutes, published on the eighteenth. And the sharpest passage is about credit, not December. Staff named elevated asset valuations and leverage at hedge funds as the most salient weak points."
+  },
+  {
+   "s": "B",
+   "t": "And the line everyone's quoting?"
+  },
+  {
+   "s": "A",
+   "t": "That circular financing arrangements among A I-related firms could amplify losses, if the returns on artificial intelligence disappoint. And junk bonds issued to build data centres widened especially notably."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Circular financing. In the Fed's own minutes. Explain the junk spread for me — simply."
+  },
+  {
+   "s": "A",
+   "t": "It's the extra yield lenders demand from America's riskiest companies over the government itself. Both are quoted before inflation, so inflation cancels out. What's left is the price of default risk."
+  },
+  {
+   "s": "B",
+   "t": "And where is it?"
+  },
+  {
+   "s": "A",
+   "t": "Three point four three points on the seventeenth, up from two point six oh on the twenty-eighth of August. A third wider in eleven weeks. The three-year median is three point oh two."
+  },
+  {
+   "s": "B",
+   "t": "There's a sceptic, I assume."
+  },
+  {
+   "s": "A",
+   "t": "The Fed itself. The Board's Financial Stability Report of the thirteenth says company bond spreads stood at the low end of their historical range. On the Board's data, three point four three is a spread off its floor — not stress."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The Fed arguing with the Fed."
+  },
+  {
+   "s": "A",
+   "t": "And the desk's call stands. A real-rate shock, held since number one hundred and sixty-two — money dearer after inflation, not a growth scare. The ten-year Treasury is at five point oh seven per cent. The junk spread sits nought point five seven short of the four point oh that would change the call."
+  },
+  {
+   "s": "B",
+   "t": "And the funds our readers actually hold?"
+  },
+  {
+   "s": "A",
+   "t": "PIMCO Income, the Singapore-dollar hedged class, fell one point oh three per cent on the week, yielding six point eight six. The lean is slightly lower; a junk spread back under three point two oh proves it wrong. Explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "Not investment advice. Heard. And Singapore had its own money story — PayNow."
+  },
+  {
+   "s": "A",
+   "t": "On Wednesday the Monetary Authority and the Association of Banks in Singapore published the timetable for the next generation of it. Deputy Prime Minister Gan Kim Yong announced it at the FinTech Festival."
+  },
+  {
+   "s": "B",
+   "t": "Remind me how big PayNow is."
+  },
+  {
+   "s": "A",
+   "t": "About eleven million registrations at the end of twenty twenty-five. A hundred and fifty-four billion Singapore dollars of consumer payments that year, plus a hundred and forty-seven billion from businesses."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So what changes for me at the counter?"
+  },
+  {
+   "s": "A",
+   "t": "Any banking app will pay at any shop's QR code. Today a shop signs up with PayNow or with NETS, and not every app scans both. The shared code gets a limited roll-out in twenty twenty-seven, wider in twenty twenty-eight."
+  },
+  {
+   "s": "B",
+   "t": "What's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "The order of things. Police put scam losses at four hundred and ten point six million Singapore dollars in the first half, and eighty point eight per cent of scams were transfers victims made themselves. The roadmap raises limits for government payments in late twenty twenty-seven, but finishes the dispute and scam rules only during twenty twenty-eight."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Bigger pipes before the safety valves."
+  },
+  {
+   "s": "A",
+   "t": "And at the same festival, Mister Gan said companies will require licenses to export or re-export advanced chips to five countries, including Singapore. A minister's word, as the desk flags it."
+  },
+  {
+   "s": "B",
+   "t": "Technology. Anthropic."
+  },
+  {
+   "s": "A",
+   "t": "First, the disclosure. MERIDIAN is produced using Anthropic's models. We print that on the page, and we're saying it here."
+  },
+  {
+   "s": "B",
+   "t": "Good. Where does the listing stand?"
+  },
+  {
+   "s": "A",
+   "t": "Still unpriced, and held. At five this morning, Singapore time, Nasdaq had certified the listing, but no final prospectus with a price had reached the regulator's database."
+  },
+  {
+   "s": "B",
+   "t": "What's on offer?"
+  },
+  {
+   "s": "A",
+   "t": "Eight hundred and twenty-five million shares, ranged at seventy to seventy-eight dollars. At the midpoint the company is valued near nine hundred and sixty-eight billion dollars. The public gets six point three per cent."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Nearly a trillion. And the vote?"
+  },
+  {
+   "s": "A",
+   "t": "A single share, held by a company belonging to the seven co-founders, carries fifty point one per cent of all votes. A trust of outside trustees picks most of the board."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] So what does an ordinary shareholder get to decide?"
+  },
+  {
+   "s": "A",
+   "t": "The prospectus answers that itself. Ordinary holders generally will not be able to affect the outcome of any matter submitted to a vote."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Admirably candid. And the books?"
+  },
+  {
+   "s": "A",
+   "t": "Nine-month revenue of thirty-three point two billion dollars, against two point five billion a year earlier. An operating loss of only one point two six billion. The net loss was a hundred and four billion, but ninety-four point three of that is an accounting charge — notes revalued as the company's own price rose."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic, let me guess, is Gary Marcus."
+  },
+  {
+   "s": "A",
+   "t": "It is. A company that has nearly nine hundred billion dollars in future liabilities, he says, whose third-quarter growth wound up being a mere forty-seven per cent compared to the second quarter. And Anthropic's own chart shows revenue per dollar of computing falling from two point oh eight to one point seven two."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] The Home Lab is the other end of the scale."
+  },
+  {
+   "s": "A",
+   "t": "A developer named Muhammed Nazeem trained a reading voice, tiny-voca, for nine dollars fifty-six of rented graphics-card time. Four point five million parameters, and eighth of fifty on a public leaderboard."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Nine dollars! There's a catch."
+  },
+  {
+   "s": "A",
+   "t": "The teacher. Every training clip was generated by Alibaba's Qwen three T T S, a model of one point seven billion parameters, and none of that cost is in the nine fifty-six. The card concedes it cannot be more natural than the model that generated it."
+  },
+  {
+   "s": "B",
+   "t": "[amused] As a voice on a podcast, I find that quite personal. The Kit — a phone."
+  },
+  {
+   "s": "A",
+   "t": "Motorola's Signature twenty-seven. One thousand five hundred and ninety-nine US dollars and ninety-nine cents. Pre-orders open in the United States today; it ships on the twenty-sixth."
+  },
+  {
+   "s": "B",
+   "t": "And developers care because it's the first phone not made by Google that GrapheneOS — Android stripped of Google's services and hardened against attack — has said it will support."
+  },
+  {
+   "s": "A",
+   "t": "Said. Its own pages, read today, list Pixel eight through Pixel ten a. No Motorola. Buyers pay for a promise."
+  },
+  {
+   "s": "B",
+   "t": "So what would you actually do with it here?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Nothing yet. Motorola's Singapore site returned errors to the desk. No local price, no date. And my favourite line in the small print. Motorola says the phone passed fourteen procedures of the US military's drop and stress tests — then says abuse like that is not covered under Motorola's standard warranty."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Built to military standards. Please don't test it. And the Atelier did turntables."
+  },
+  {
+   "s": "A",
+   "t": "Hi-Fi News measured the Technics S L twelve hundred G R two, at one thousand seven hundred and ninety-nine pounds. It holds its speed to four thousandths of a per cent. Speed is settled."
+  },
+  {
+   "s": "B",
+   "t": "And the top of the market?"
+  },
+  {
+   "s": "A",
+   "t": "A Linn Klimax at thirty-two thousand two hundred pounds. Linn sells a four thousand five hundred and fifty pound motor upgrade and prints no speed figure beside it. Past a good arm and a fresh stylus, the money buys belief."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Ouch. Anything for Singapore buyers?"
+  },
+  {
+   "s": "A",
+   "t": "The climate. A cartridge's rubber suspension decays whether the cartridge is used or not — John Burns of The Ear. And Retrophonic on Duxton Road is Pro-Ject's authorised dealer."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] I was enjoying the turntables."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Amateur seismology. A box on your floor that hears earthquakes on the other side of the world."
+  },
+  {
+   "s": "A",
+   "t": "Fine. What's in the box?"
+  },
+  {
+   "s": "B",
+   "t": "A sensor that turns movement far too small to feel into a voltage. A circuit that writes it down a hundred times a second. And a small computer that shares the trace with everyone else who owns one."
+  },
+  {
+   "s": "A",
+   "t": "[curious] How does anyone fall into this? I can't imagine sitting at home waiting for an earthquake."
+  },
+  {
+   "s": "B",
+   "t": "It's usually not a quake. It's the sky. July twenty twenty-one, a skywatcher in Norway sees a fireball, and the pressure wave reaches the sensor in the house a hundred and fifty-seven seconds after the flash. One sharp pulse."
+  },
+  {
+   "s": "A",
+   "t": "Infrasound."
+  },
+  {
+   "s": "B",
+   "t": "Air pressure waves under about twenty hertz, too low to hear. And this March, a daytime fireball over Lake Erie, from an asteroid of about two metres, showed up on two home sensors near Cleveland."
+  },
+  {
+   "s": "A",
+   "t": "[amused] A hobby for people who want to hear the sky fall. Who makes the boxes?"
+  },
+  {
+   "s": "B",
+   "t": "Almost everyone runs a Raspberry Shake — built on the hobbyist Raspberry Pi, made in Panama, launched on Kickstarter in July twenty sixteen. The slogan is: made on a volcano."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Reassuring. The company says two thousand-plus stations."
+  },
+  {
+   "s": "B",
+   "t": "A count that includes professional stations it mirrors. The forum lists two thousand one hundred and fifty-one registered users, and forty-six active in the past thirty days."
+  },
+  {
+   "s": "A",
+   "t": "Small, and counted. I like that."
+  },
+  {
+   "s": "B",
+   "t": "And this autumn the hobby's home ground moved. Panama's earthquake on the ninth of October — magnitude seven point seven, per the US Geological Survey. The company called it the strongest in the country since eighteen eighty-two. And one owner, thirteen kilometres from the epicentre, logged six hundred and fifty automatic triggers in a day. [pause] And wrote underneath — not counts of confirmed earthquakes."
+  },
+  {
+   "s": "A",
+   "t": "Good man. That's the footnote I'd want."
+  },
+  {
+   "s": "B",
+   "t": "They don't only chase quakes, either. Forum threads on tornadoes and infrasound. On sea lions' vibrational communication. Earthquake hunting with sixth graders."
+  },
+  {
+   "s": "A",
+   "t": "[laughs] The sea lions. Of course. Right — prices. The single-geophone R S one D is five hundred and eighty-four dollars ninety-nine turnkey, or two hundred and ninety-four ninety-nine as a kit. The three-geophone R S three D is the dearest at one thousand one hundred and thirty-four ninety-nine. Shipping's free."
+  },
+  {
+   "s": "B",
+   "t": "And the software?"
+  },
+  {
+   "s": "A",
+   "t": "Listed at one thousand and fifty dollars a year at list value — all included free. The only line that costs is live data feeds. Twelve dollars a year."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Okay, but can a cheap box actually hear anything?"
+  },
+  {
+   "s": "A",
+   "t": "The Geological Survey's Albuquerque lab found the geophones accurate to within four per cent of their rated sensitivity, but noisy. They need a quake about nought point three of a magnitude larger to read it as reliably as a broadband sensor."
+  },
+  {
+   "s": "B",
+   "t": "And a one-geophone box only records up-and-down motion, so it can't say which way a wave came from. You buy the three-geophone one — or persuade a neighbour to run a second Shake."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] Seismology as an excuse to meet your neighbours."
+  },
+  {
+   "s": "B",
+   "t": "And Singapore — the professionals got here first. The Meteorological Service has had stations since nineteen ninety-six, and one national seismometer has sat in a Toa Payoh secondary school, Beatty, since June of that year."
+  },
+  {
+   "s": "A",
+   "t": "[curious] What does it hear?"
+  },
+  {
+   "s": "B",
+   "t": "Sumatra, mostly. The Sumatran fault is about four hundred kilometres away. This year's nearest big one was a magnitude six point nine on the fifteenth of August — a hundred and seventy-five kilometres deep, roughly five hundred and seventy kilometres from us."
+  },
+  {
+   "s": "A",
+   "t": "Could a hobbyist join in from here?"
+  },
+  {
+   "s": "B",
+   "t": "No hobbyist Shake in Singapore could be confirmed. The desk's own advice: a ground-floor concrete slab, not a high-rise flat."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] So, not my flat. And the sceptic?"
+  },
+  {
+   "s": "B",
+   "t": "Crowd sensing can miss the big one. Google's phone network put Turkey's magnitude seven point eight, in February twenty twenty-three, at four point five to four point nine. It sent four hundred and sixty-nine top-level alerts where simulations say ten million were due. [pause] It admitted that in Science, in July twenty twenty-five. Elizabeth Reddy of the Colorado School of Mines: I'm really frustrated that it took so long."
+  },
+  {
+   "s": "A",
+   "t": "And the company's new app?"
+  },
+  {
+   "s": "B",
+   "t": "ShakeNet, launched the twenty-ninth of October. One owner's verdict: It is not finished. Then — I would pay for the old app to support the RShake team personally."
+  },
+  {
+   "s": "A",
+   "t": "[warmly] That's love, actually."
+  },
+  {
+   "s": "B",
+   "t": "Culture and the body. The Hunger Games prequel opens here today."
+  },
+  {
+   "s": "A",
+   "t": "Sunrise on the Reaping. Variety says it's targeting a North American debut above a hundred million US dollars. The studio itself cautiously projects eighty-five million."
+  },
+  {
+   "s": "B",
+   "t": "Can it get there?"
+  },
+  {
+   "s": "A",
+   "t": "The last prequel opened at forty-four point six million in twenty twenty-three, the franchise's lowest. Seventy-six per cent on Rotten Tomatoes. Time Out gave four stars, and one complaint — the runtime could have used some reaping of its own."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's a good line. Fitness — and this one surprised me."
+  },
+  {
+   "s": "A",
+   "t": "A Finnish trial of two hundred and eighty-eight people aged seventy to eighty-five, through a year of training. Twenty-two per cent made no worthwhile gain on any of five measures. Eight per cent gained on four or five."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So what predicted who responded?"
+  },
+  {
+   "s": "A",
+   "t": "Being younger. A lower body-mass index. And turning up to the strength sessions — the only factor in your own hands."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Turn up. That's the whole lesson."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic: there was no non-exercising control arm, so the twenty-two per cent may be partly noise. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And the Undercurrent. Let's slow down for this one."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] On the twelfth of November, South Korea began letting travellers carry home up to three months of Mounjaro, prescribed and bought abroad. Eli Lilly's once-a-week weight-loss injection. And the abroad that matters is Japan."
+  },
+  {
+   "s": "B",
+   "t": "What's the gap?"
+  },
+  {
+   "s": "A",
+   "t": "A starter month costs at least two hundred and seventy-two thousand won at a Korean clinic. A Tokyo clinic advertises the same month for seven thousand yen — about fifty-nine thousand won."
+  },
+  {
+   "s": "B",
+   "t": "[pause] That's not a small gap."
+  },
+  {
+   "s": "A",
+   "t": "On the first day, a Japanese video-consultation service for Korean visitors booked every one of its three hundred and eighty-four slots, through to the nineteenth."
+  },
+  {
+   "s": "B",
+   "t": "And Koreans already had a word for it."
+  },
+  {
+   "s": "A",
+   "t": "Sushijaro. Sushi, plus Mounjaro. A year ago the nicknames were Indojaro and Japanjaro."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] It is a very good word. So why is Japan cheaper? Just a discount?"
+  },
+  {
+   "s": "A",
+   "t": "No. In Japan the state fixes the insured price, and that price falls as volume rises. Japan cut it by twenty-five per cent from the first of August, because annual sales had passed a hundred billion yen."
+  },
+  {
+   "s": "B",
+   "t": "And in Korea?"
+  },
+  {
+   "s": "A",
+   "t": "Outside insurance for every use. Each clinic charges what it likes. Price talks with the National Health Insurance Service failed in May. Lilly applied again in June."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So all that Korean demand, which might have earned a lower price —"
+  },
+  {
+   "s": "A",
+   "t": "Earned nothing. Pharmacy safety checks for Mounjaro went from eighteen thousand five hundred and seventy-nine in August last year to four hundred and four thousand six hundred and two this August. So the volume walked to where volume had earned a lower price."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] And there's a contradiction buried in this."
+  },
+  {
+   "s": "A",
+   "t": "The same week. Korea's own draft rule bans prescribing weight-loss drugs by video from the twenty-fourth of December. Two days later, the state began admitting pens prescribed by video in Fukuoka."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Financial News did the arithmetic. With the flight and a hotel night, one month bought in Japan costs two hundred and forty-eight thousand won more than at home. The trip breaks even at three months — and saves just twenty-eight thousand won."
+  },
+  {
+   "s": "B",
+   "t": "Three months. Exactly the ceiling customs allows."
+  },
+  {
+   "s": "A",
+   "t": "And at home, Hanmi's rival, Epe, reached clinics on the twenty-ninth of October at about a hundred and thirty thousand won for a first month."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And the patients themselves?"
+  },
+  {
+   "s": "A",
+   "t": "One, five months into treatment and weighing a December trip, asked plainly. Can a patient be properly diagnosed in Japan? And how do the pens get home safely, at two to eight degrees?"
+  },
+  {
+   "s": "B",
+   "t": "And the doctor who should adjust the dose… stays behind at the airport."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] So here's the larger thing. Korea didn't win a lower price from Lilly. It licensed an exit to Japan's. Relief rationed by mobility — for whoever can afford the ticket and the time off."
+  },
+  {
+   "s": "B",
+   "t": "And every Korean queue in Tenjin is public evidence of what the company accepts across the strait."
+  },
+  {
+   "s": "A",
+   "t": "The strongest card Seoul has carried into talks it lost in May."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which is the whole book, really. Who gets a seat, and on what terms."
+  },
+  {
+   "s": "A",
+   "t": "Thucydides, our quote this morning. The strong do what they can and the weak suffer what they must. And then he wrote down what the Melians said back."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Because he thought both were worth the record."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-five pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

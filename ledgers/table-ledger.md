@@ -271,3 +271,8 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Khao Boi | Khao Boi | 165 | OPEN | No. 165 build | opening run — record the peg here |
 | Café Artévo | Café Artévo | 165 | OPEN | No. 165 build | opening run — record the peg here |
 | Tan Ser Seng | Tan Ser Seng | 166 | OPEN | No. 166 build | opening run — record the peg here |
+| RUXU | RUXU | 167 | OPEN | No. 167 build | opening run — record the peg here |
+| LONGJING | LONGJING | 167 | OPEN | No. 167 build | opening run — record the peg here |
+| Herng Hao Chi Hokkien Mee | Herng Hao Chi Hokkien Mee | 167 | OPEN | No. 167 build | opening run — record the peg here |
+| Sol & Manta | Sol & Manta | 167 | OPEN | No. 167 build | opening run — record the peg here |
+| Bagel Chef | Bagel Chef | 167 | OPEN | No. 167 build | opening run — record the peg here |

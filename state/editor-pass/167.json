@@ -1,0 +1,198 @@
+{
+ "issue": 167,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Xi, Putin and Trump meet together for the first time in Shenzhen today, but the trade truce runs out in January, Ukraine is back on the agenda, and nobody expects a joint text.",
+   "weakest": "Doha box: \"a Singapore data-centre firm under American criminal investigation\" is dropped in and never explained, though it is the line a Singapore reader most wants.",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Trains run again over one track of the Kerch Bridge, but the fallen road arch now blocks the only shipping channel into the Sea of Azov, and nobody has given a repair date.",
+   "weakest": "Also on the desk: \"No. 166's drone tallies, sorted in part\" repeats the 1,336 and 1,441 figures already given in the body.",
+   "verdict": "pass"
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 4,
+   "says": "MAS has set PayNow upgrades running to 2028, with one QR code for every banking app from 2027, but the scam and refund rules come after the higher limits.",
+   "weakest": "\"No public reaction to the roadmap could be read here: Reddit refused this desk.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 3,
+   "says": "A £1,799 Technics turntable already holds its speed better than you can hear, so paying more mostly buys a better arm and stylus, and after that it buys belief.",
+   "weakest": "The Chatter: StereoNET posts \"date from 2014; the measurements above are newer.\"",
+   "verdict": "rework",
+   "reason": "The first paragraph is a generic definition of what turntables do, with no news hook and no reason for the reader to care this morning. Lead with the Technics-against-Linn finding, and replace the 2014 forum box with something current.",
+   "fixed": "Opening now leads with the Technics-against-Linn speed finding, lay explanation moved to paragraph two; the 2014 StereoNET Chatter replaced with 2025-26 Naim-forum LP12 owners, read at source.",
+   "recheck": 4
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Anthropic is floating about 6 per cent of itself on Nasdaq at a valuation near a trillion dollars, while one founders' share keeps half the vote, and revenue is growing fast as the growth rate slows.",
+   "weakest": "Also on the desk: the FAA outage and Apple flicker notes have nothing to do with the listing.",
+   "verdict": "pass"
+  },
+  {
+   "page": 8,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "One developer built a small, free text-to-speech voice for under ten dollars that runs fast on an ordinary processor, though it was trained entirely on a much bigger model's output.",
+   "weakest": "Also on the desk: the Hugging Face and OpenRouter routing note is inside-baseball and unrelated to the voice.",
+   "verdict": "pass"
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 4,
+   "says": "Motorola's US$1,599 Signature 27 goes on pre-order as the first non-Pixel phone promised GrapheneOS support, but GrapheneOS has not listed it yet and no Singapore price exists.",
+   "weakest": "The long spec paragraph reads like the maker's brochure.",
+   "verdict": "pass"
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 4,
+   "says": "A new watch label has made a seconds hand that slows, stops and runs backwards on a five-minute cam script yet still hits twelve on every minute, at about 16,800 francs for forty pieces.",
+   "weakest": "The cam paragraph loses the general reader.",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 3,
+   "says": "The new Hunger Games prequel opens with talk of a US$100m weekend, though Lionsgate itself projects US$85m and the last prequel managed only US$44.6m.",
+   "weakest": "Also on the desk: the list of Thanksgiving releases.",
+   "verdict": "pass"
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A large English study of 12- and 13-year-olds finds most are content, but a quarter screen as probably disordered, with sharp splits by sex, poverty and special needs.",
+   "weakest": "\"Home is mostly holding.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A Bark-funded survey says American children get phones at about 9 when parents think 12 is right, and the harder research on whether timing matters points both ways.",
+   "weakest": "The Chatter box quotes the sponsor's own editor.",
+   "verdict": "pass"
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "The Fed's October minutes warn about opaque AI-related debt and hedge-fund leverage while junk-bond spreads widen, though the Fed's own stability report calls spreads low.",
+   "weakest": "\"The regime stands: a real-rate shock, held since No. 162 ... with the junk spread 0.57 short of the 4.0 that would change it (p15).\"",
+   "verdict": "rework",
+   "reason": "After a clear first paragraph the page slips into house shorthand (\"the regime\", \"the ledger\", \"Lean ... proves it wrong\") that it never explains, and it gives the junk-spread story again almost word for word on p15. Keep this page on the minutes and the four holdings, and put the spread history on one page only.",
+   "fixed": "House terms glossed in plain words (the standing view, Lean); the page kept to the minutes and The Four; spread history cut to one line pointing to p15.",
+   "recheck": 4
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "The US junk-bond spread has widened by a third since August, off its low but still below the 4.0 line that would change the desk's view.",
+   "weakest": "Opening repeats p14.",
+   "verdict": "rework",
+   "reason": "The page repeats p14's numbers, the dashboard, and The Call box restating the regime, so the reader gets the same message twice in a row. Either merge it with p14 or give it new ground, such as what a 4.0 spread did to a global fund in April 2025.",
+   "fixed": "New ground: the April 2025 episode (spread 4.61, VWRA down 11.5% and back by 1 May) and what the hedge-fund futures shorts mean; The Call rewritten in plain words.",
+   "recheck": 4
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "Amateur seismologists keep small Raspberry Shake boxes at home that pick up distant quakes, fireballs and storms, and they share the traces on a public network.",
+   "weakest": "Stat box: \"23 posted in the past month\", where the body says 46 were active in the past thirty days.",
+   "verdict": "rework",
+   "reason": "The page contradicts itself on how active the community is (46 against 23), and it hops between fireballs, Chelyabinsk, Panama and forum thread titles without settling. Fix the numbers and pick one or two catches to tell properly.",
+   "fixed": "Forum figures reconciled (46 active in body and stat); the catalogue cut to two catches told properly, the Norway fireball and a Panama owner's aftershocks; p17's free-services stat made consistent.",
+   "recheck": 4
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "Home seismographs cost about $295 to $1,400 from the one maker everyone uses, and a USGS test shows they need a somewhat larger quake than professional sensors to read it reliably.",
+   "weakest": "Stat box \"$12 a year ... not included free\", against the body's \"all included free with the hardware\".",
+   "verdict": "pass"
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "From Singapore a home sensor mostly hears deep Sumatran quakes; the national network has listened since 1996, and starting needs one Shake on a ground-floor slab.",
+   "weakest": "\"Ninety days in, the list is short\".",
+   "verdict": "pass"
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 4,
+   "says": "A year-long Finnish training trial of over-70s found about one in five improved on nothing and half improved a lot, and turning up to strength sessions was the factor people could control.",
+   "weakest": "\"It matters to anyone in their forties because it says something about the average.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 20,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "Bach Collegium Japan's Messiah, a gallery discount ending 30 November, and January sumo tickets in Tokyo are the bookings to make this season.",
+   "weakest": "Tokyo Christmas Market listing: \"entry prices not on the organiser's page\".",
+   "verdict": "pass"
+  },
+  {
+   "page": 21,
+   "desk": "The Diary",
+   "keep_reading": 2,
+   "says": "Tampines Mall's refit brings a Hangzhou restaurant and a Guangzhou dessert kiosk to the east, though both are second or third outlets and one is not yet open.",
+   "weakest": "The Sceptic: \"A shorter journey for the east, not a new table.\"",
+   "verdict": "rework",
+   "reason": "The page reviews a restaurant that has not opened, using a hosted tasting at another branch, then argues itself out of its own premise, and it repeats \"not halal-certified\" and \"too new to call\" several times. Run it when LONGJING is open, or rebuild it around RUXU's tart, which can be eaten now.",
+   "fixed": "Rebuilt around RUXU's S$2.80 tart, which is open now, plus three reviewed openings (Herng Hao Chi, Sol & Manta, Bagel Chef, single-sourced flagged); LONGJING cut to one clause; each caveat said once; the Sceptic uses the same Eatbook review against RUXU.",
+   "recheck": 3
+  },
+  {
+   "page": 22,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "South Korea now lets travellers bring back three months of Mounjaro bought in Japan, where insurance has pushed the price far below Korea's uncovered clinic prices, and a travel trade has sprung up around it.",
+   "weakest": "\"Until last week it was contraband in a suitcase\", followed by a run of customs figures.",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Korea failed to agree a Mounjaro price with Lilly and has no formula that lowers prices as volume grows, so demand went to Japan, and the trip only pays off at the three-month customs limit.",
+   "weakest": "The Ozempic coverage paragraph, a side road from the main argument.",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "Seoul's new rule clashes with its own ban on video prescribing, Japan and Lilly both dislike the trade, and Korea has in effect licensed an exit to Japan's price instead of winning its own.",
+   "weakest": "\"The regulator says it will watch.\" The closing paragraph adds little.",
+   "verdict": "pass"
+  }
+ ]
+}

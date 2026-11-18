@@ -52,8 +52,8 @@
       "item": "Anthropic prices 18 Nov, lists 19 Nov as ANT",
       "due": "2026-11-18",
       "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "re-checked 05:20 and 05:23 SGT: EDGAR shows CERT + FWP 18 Nov, no 424B4; unpriced at press"
     },
     {
       "id": "H006",
@@ -74,8 +74,8 @@
       "item": "the Iranian supertanker, IRGC-via-ISNA only, no vessel named",
       "due": "",
       "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "On Phoenix named only in a Seatrade summary (403 at source); not printed"
     },
     {
       "id": "H008",
@@ -85,8 +85,8 @@
       "item": "any Apple reply on the flicker",
       "due": "",
       "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "Notebookcheck 16 Nov read 19 Nov: no Apple comment"
     },
     {
       "id": "H009",
@@ -96,8 +96,8 @@
       "item": "the FAA laboratory finding and any GovTech root cause",
       "due": "",
       "status": "OPEN",
-      "checked": "165",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "Duffy 15 Nov: fault not determined; no lab finding published"
     },
     {
       "id": "H010",
@@ -162,8 +162,8 @@
       "item": "Secondary 1 posting results: MOE still gives 18 December 2026 only as tentative; SEAB's own page carries no S1 date and every moe.gov.sg page serves an empty body to this desk",
       "due": "2026-12-10",
       "status": "OPEN",
-      "checked": "166",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "MOE release of 17 Nov read at source: still 'tentatively' 18 Dec"
     },
     {
       "id": "H016",
@@ -173,8 +173,8 @@
       "item": "Whether PAHO reconciles the two measles death tolls it published on 17 November — 82 in the news release, 114 in the same-day Q&A, against one identical case count of 58,213",
       "due": "",
       "status": "OPEN",
-      "checked": "166",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "PAHO sitrep #14 gives 81, consistent with 82; the 114 still unexplained"
     },
     {
       "id": "H017",
@@ -184,8 +184,8 @@
       "item": "The condition of the Kerch Bridge span: a Kyiv estimate of a year or more against a Kremlin 'no doubt', and no independent engineering assessment from any party",
       "due": "",
       "status": "OPEN",
-      "checked": "166",
-      "outcome": ""
+      "checked": "167",
+      "outcome": "no independent assessment; rail reopened one track 17 Nov"
     },
     {
       "id": "H018",
@@ -219,6 +219,127 @@
       "status": "OPEN",
       "checked": "166",
       "outcome": ""
+    },
+    {
+      "id": "H021",
+      "since": "167",
+      "desk": "The World",
+      "kind": "date",
+      "item": "Shenzhen outcome: whether the three leaders issue a joint communiqué, and the Putin-Trump readouts",
+      "due": "2026-11-20",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H022",
+      "since": "167",
+      "desk": "The World",
+      "kind": "date",
+      "item": "Berlin envoy meeting reported for 19 Nov (Kyiv Post, Al Jazeera via an unnamed US official) — no government-published date",
+      "due": "2026-11-20",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H023",
+      "since": "167",
+      "desk": "Singapore",
+      "kind": "date",
+      "item": "Federal Register publication of doc 2026-23529 (RIN 0694-AK50) on 19 Nov — federalregister.gov blocked this desk",
+      "due": "2026-11-20",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H024",
+      "since": "167",
+      "desk": "The Macro Desk",
+      "kind": "fact",
+      "item": "Why gold fell 3.25 per cent on 18 Nov on a day the real yield eased — no single cause found",
+      "due": "",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H025",
+      "since": "167",
+      "desk": "The Atelier",
+      "kind": "fact",
+      "item": "Which Hanpin turntable models are sold under Audio-Technica and AlphaTheta badges (customs records show shipments only)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H026",
+      "since": "167",
+      "desk": "The Atelier",
+      "kind": "ask",
+      "item": "Singapore dealers and SGD prices for Linn and Technics turntables — none confirmed",
+      "due": "",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H027",
+      "since": "167",
+      "desk": "The Diary",
+      "kind": "date",
+      "item": "LONGJING Tampines Mall opening date, hours and prices",
+      "due": "2026-12-15",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H028",
+      "since": "167",
+      "desk": "The Long Read",
+      "kind": "fact",
+      "item": "Pharmacists for a Healthy Society's KRW 1.012tn first-half 2026 Mounjaro supply figure — single-sourced",
+      "due": "",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H029",
+      "since": "167",
+      "desk": "The Rabbit Hole",
+      "kind": "fact",
+      "item": "Whether any hobbyist Raspberry Shake station operates in Singapore — station service returned HTTP 502",
+      "due": "",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H030",
+      "since": "167",
+      "desk": "The Kit",
+      "kind": "fact",
+      "item": "GrapheneOS official support for the Motorola Signature 27 — unlisted at press",
+      "due": "",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
+    },
+    {
+      "id": "H031",
+      "since": "167",
+      "desk": "The Good Life",
+      "kind": "fact",
+      "item": "A second independent outlet for Algorithme du Temps' Rêveries des Secondes (single-sourced to Monochrome)",
+      "due": "2026-11-26",
+      "status": "OPEN",
+      "checked": "167",
+      "outcome": ""
     }
   ],
   "open": [
@@ -236,6 +357,17 @@
     "H017",
     "H018",
     "H019",
-    "H020"
+    "H020",
+    "H021",
+    "H022",
+    "H023",
+    "H024",
+    "H025",
+    "H026",
+    "H027",
+    "H028",
+    "H029",
+    "H030",
+    "H031"
   ]
 }
