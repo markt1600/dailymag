@@ -142,6 +142,37 @@ SPLIT_JS = r"""
 """
 
 
+# TYPE WEIGHT AUDIT (editor, 18 Nov 2026 — reader-reported on No. 166 p20: "there is drift in
+# the font"). The Diary's event rows had put the whole entry in the bold title style, so three
+# quarters of the page's serif text was bold; every size was legal, so the size audit passed.
+# This reads the computed weight of every run of interior text and reports, per page, how much
+# of its reading-size text is bold serif. Reference issues run under 25 per cent on every page;
+# No. 166 p20 ran 67. A page above the ceiling is set in the wrong style.
+BOLD_SERIF_CEILING = 40.0
+WEIGHT_JS = r"""() => {
+  const out = [];
+  document.querySelectorAll('section.page').forEach((sec, i) => {
+    let serif = 0, bold = 0, sample = '';
+    const w = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT);
+    let n;
+    while ((n = w.nextNode())) {
+      const s = n.textContent.replace(/\s+/g, ' ').trim();
+      if (!s) continue;
+      const el = n.parentElement;
+      if (el.closest('svg,script,style,.fn,.pgfoot,.rh,.hed,.dek,.kicker')) continue;
+      const cs = getComputedStyle(el);
+      if (cs.display === 'none' || cs.visibility === 'hidden') continue;
+      const pt = parseFloat(cs.fontSize) * 0.75;
+      if (pt > 11.6) continue;
+      serif += s.length;                       // every run of reading-size text on the page, serif or sans
+      if (/Lora/i.test(cs.fontFamily.split(',')[0]) && parseInt(cs.fontWeight) >= 600) { bold += s.length; if (s.length > sample.length) sample = s.slice(0, 70); }
+    }
+    out.push({page: i + 1, serif: serif, bold: bold, pct: serif ? Math.round(1000 * bold / serif) / 10 : 0, sample: sample});
+  });
+  return out;
+}"""
+
+
 def main():
     html = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "build/meridian.html").resolve()
     pdf = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else html.with_suffix(".pdf")
@@ -166,6 +197,7 @@ def main():
         data = page.evaluate(MEASURE_JS)
         fonts = page.evaluate(FONT_JS)
         splits = page.evaluate(SPLIT_JS)
+        weights = page.evaluate(WEIGHT_JS)
         b.close()
 
     n = len(data)
@@ -207,6 +239,14 @@ def main():
         for s_ in splits[:20]:
             print(f"  page {s_['page']}: .{s_['cls']} — “{s_['text']}”")
         print("  A box, figure, chip, table or contents entry is one unit — shorten it or move it so it sits whole in one column.")
+        sys.exit(1)
+    heavy = [w for w in weights if 2 < w["page"] < len(weights) and w["serif"] > 600 and w["pct"] > BOLD_SERIF_CEILING]
+    if heavy:
+        print(f"\nFAIL: {len(heavy)} interior page(s) set mostly in bold (TYPE WEIGHT AUDIT):")
+        for w_ in heavy:
+            print(f"  page {w_['page']}: {w_['pct']}% of its text is bold serif (ceiling {BOLD_SERIF_CEILING:.0f}%) — e.g. “{w_['sample']}”")
+        print("  Bold is for titles and the one figure that matters. Running text sits in its own element: on the Diary,")
+        print("  the event's name goes in .evt-name and everything else in .evt-meta; never the whole entry in the title style.")
         sys.exit(1)
     badfonts = fonts.get("bad", [])
     if badfonts:

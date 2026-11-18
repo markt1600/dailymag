@@ -1163,6 +1163,43 @@ if not _special:
             errors.append("The Table carries no <b class=\"venue\"> marks — every venue covered is marked on its "
                           "first mention so tools/table_ledger.py can record the run (see ledgers/table-ledger.md)")
 
+# ---- THE DIARY ROW (editor, 18 Nov 2026 — reader-reported on No. 166 p20: "the calendar entries
+# look a bit strange"). Every agenda row since No. 38 has been a date chip, a short bold NAME and
+# a small-caps META line beneath it; No. 166 wrote each whole entry into the name element, so the
+# column was a wall of bold serif and the starred picks lost their stars. From No. 167 a row is:
+#   <div class="evt"><div class="evt-date [star] [rng]">…</div>
+#     <div><div class="evt-name">[<span class="st">★</span>] Name · Series</div>
+#          <div class="evt-meta">venue · times · <b>price</b> · the one caveat<sup class="fnref">n</sup></div></div></div>
+if _issno >= 167 and not _special:
+    for _i, _sec in enumerate(pages, 1):
+        if _desk_of(_sec) not in ("The Diary", "The Travel Desk") or 'class="evt"' not in _sec:
+            continue
+        _evts = re.split(r'(?=<div class="evt">)', _sec)[1:]
+        _bad_meta, _long, _nostar, _sent = [], [], [], []
+        for _e in _evts:
+            _e = re.split(r'<div class="(?:chatter|agenda-h|pgfoot|brief-h)', _e)[0]
+            _nm = re.search(r'<div class="evt-name">(.*?)</div>', _e, re.S)
+            _mt = re.search(r'<div class="evt-meta">(.*?)</div>', _e, re.S)
+            _nt = _plain(_nm.group(1)) if _nm else ""
+            _label = _nt[:40] or _plain(_e)[:40]
+            if not _nm or not _mt or len(_plain(_mt.group(1))) < 12:
+                _bad_meta.append(_label)
+                continue
+            if len(_nt.split()) > 12:
+                _long.append(_label)
+            if re.search(r'[.;]\s+\S', _nt) or '<sup class="fnref">' in _nm.group(1):
+                _sent.append(_label)
+            if re.search(r'class="evt-date[^"]*\bstar\b', _e) and 'class="st"' not in _nm.group(1):
+                _nostar.append(_label)
+        if _bad_meta:
+            errors.append(f"DIARY ROW p{_i}: {len(_bad_meta)} of {len(_evts)} agenda row(s) are not name-plus-meta — e.g. “{_bad_meta[0]}…”. A row is a date chip, a short bold .evt-name, and an .evt-meta line beneath it (venue · times · price · the caveat, with the footnote); never the whole entry inside .evt-name (see THE DIARY ROW in the spec; No. 164 p19 is the form)")
+        if _long:
+            errors.append(f"DIARY ROW p{_i}: {len(_long)} event name(s) run past 12 words — e.g. “{_long[0]}…”. The name is the event and its series; the rest is meta")
+        if _sent:
+            errors.append(f"DIARY ROW p{_i}: {len(_sent)} event name(s) carry a sentence or a footnote — e.g. “{_sent[0]}…”. Sentences and footnote markers belong in .evt-meta")
+        if _nostar:
+            errors.append(f"DIARY ROW p{_i}: {len(_nostar)} starred date chip(s) without the ★ in the name — e.g. “{_nostar[0]}…”. A marquee pick carries <span class=\"st\">★</span> before its name")
+
 # ---- THE WEEK IN REVIEW (editor, 17 Nov 2026 — the reader's call: the weekly drift
 # report is a PAGE OF SUNDAY'S EDITION, not a separate file). From No. 170 every
 # Sunday book carries one page headed "Meridian · The Reader's Editor / The Week in
