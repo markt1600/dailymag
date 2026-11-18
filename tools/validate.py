@@ -1238,6 +1238,30 @@ if _issno >= 166 and not _special:
         errors.append(f"MACRO DESK: the desk runs to exactly two pages from No. 166 ('The Big Picture' then 'The Trend Line'); found {len(_mp)}")
     else:
         (_p1n, _p1), (_p2n, _p2) = _mp
+        # THE FOUR (editor, 18 Nov 2026 — reader-reported on No. 166: "I found no mention of VWRA,
+        # PIMCO Income, Gold or BTC… the core of the macro desk, after all the analysis, is to apply
+        # it to these investments and explain / predict movement"). From No. 167 page one carries
+        # a box labelled "The Four · …" with one paragraph for each instrument BY NAME — its level
+        # or return, what moved it, and the desk's lean for the week ahead.
+        if _issno >= 167:
+            _four = re.search(r'<div class="chatter[^"]*">\s*<div class="lbl"[^>]*>\s*The Four\b.*?</div>(.*?)</div>', _p1, re.S)
+            if not _four:
+                errors.append(f"MACRO DESK p{_p1n}: missing 'The Four' — the box that applies the day's analysis to VWRA, PIMCO Income, gold and bitcoin by name: level, what moved it, and the lean for the week ahead (it replaces The Verdict; see THE FOUR in the spec)")
+            else:
+                _ft = _four.group(1)
+                _paras = [_plain(x) for x in re.findall(r'<p[^>]*>(.*?)</p>', _ft, re.S)]
+                for _name, _rx in (("VWRA", r"\bVWRA\b"), ("PIMCO Income", r"PIMCO\s+(?:GIS\s+)?Income"), ("Gold", r"\bgold\b"), ("Bitcoin", r"\bbitcoin\b")):
+                    _own = [p for p in _paras if re.match(r"\s*" + _rx, p, re.I)]
+                    if not _own:
+                        errors.append(f"MACRO DESK p{_p1n}: The Four has no paragraph that opens with {_name} — each of the four instruments gets its own, named, in the order VWRA, PIMCO Income, Gold, Bitcoin")
+                        continue
+                    _p = _own[0]
+                    if not re.search(r"\d", _p):
+                        errors.append(f"MACRO DESK p{_p1n}: The Four's {_name} paragraph prints no level or return")
+                    if not re.search(r"\bLean\b", _p):
+                        errors.append(f"MACRO DESK p{_p1n}: The Four's {_name} paragraph has no 'Lean:' — the desk says which way it expects the instrument to move over the coming week and what would prove it wrong, and logs it in state/predictions.json")
+                    if len(_p.split()) < 22:
+                        warns.append(f"MACRO DESK p{_p1n}: The Four's {_name} paragraph is {len(_p.split())} words — level, the cause in plain words, and the lean need about 30")
         _sub2 = re.search(r'<div class="rh"><span>.*?</span><span>(.*?)</span></div>', _p2, re.S)
         if not _sub2 or _plain(_sub2.group(1)) != "The Trend Line":
             errors.append(f"MACRO DESK p{_p2n}: the second page's running sub-title is 'The Trend Line'")

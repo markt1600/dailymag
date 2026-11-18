@@ -3,7 +3,7 @@
 
     python3 tools/macro_ledger.py fetch                      # pull every FRED-backed indicator, with history
     python3 tools/macro_ledger.py record KEY VALUE --asof YYYY-MM-DD --source "<where read>" [--issue NN]
-    python3 tools/macro_ledger.py show [--theme liquidity|growth|inflation|credit|asia|valuation|flows|rates]
+    python3 tools/macro_ledger.py show [--theme four|liquidity|growth|inflation|credit|asia|valuation|flows|rates]
     python3 tools/macro_ledger.py call NN "<regime in a phrase>" "<trigger 1>" "<trigger 2>" ["<trigger 3>"]
     python3 tools/macro_ledger.py hold KEY NN "<why it could not be read at source today>"
     python3 tools/macro_ledger.py check NN                   # gate: fresh data, manual indicators in cadence, a call on record
@@ -45,6 +45,14 @@ FRED = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={id}&cosd={since}"
 
 # key: (name, unit, theme, cadence in days, FRED id or None, transform, where a manual one is read)
 INDICATORS = {
+    # THE FOUR — the instruments the desk exists to explain (editor, 18 Nov 2026)
+    "vwra":        ("VWRA, Vanguard FTSE All-World UCITS ETF, NAV", "US$", "four", 1, None, None,
+                    "Vanguard VWRA product page (NAV at the last close, USD)"),
+    "pimco_income_1w": ("PIMCO GIS Income Fund, 1-week total return", "%", "four", 1, None, None,
+                    "POEMS fund finder (Admin SGD-hedged Income class) or PIMCO's own fund page; name the share class"),
+    "gold":        ("Gold, spot", "US$/oz", "four", 1, None, None,
+                    "LBMA PM price or a named spot quote (Trading Economics, Kitco)"),
+    "btc":         ("Bitcoin, Coinbase", "US$", "four", 1, "CBBTCUSD", None, ""),
     # rates — the price of money
     "us2y":        ("US 2-year Treasury yield", "%", "rates", 1, "DGS2", None, ""),
     "us10y":       ("US 10-year Treasury yield", "%", "rates", 1, "DGS10", None, ""),
@@ -289,7 +297,7 @@ def render(d):
               "What would change it:"] + [f"- {t}" for t in c["triggers"]] + [""]
         if len(d["calls"]) > 1:
             L += ["### Earlier calls", ""] + [f"- No. {x['since']} to No. {x['issue']}: {x['regime']}" for x in d["calls"][:-1][::-1][:12]] + [""]
-    for th in ("rates", "liquidity", "credit", "inflation", "growth", "valuation", "flows", "asia"):
+    for th in ("four", "rates", "liquidity", "credit", "inflation", "growth", "valuation", "flows", "asia"):
         L += [f"## {th.title()}", ""] + table(d, th) + [""]
     VIEW.write_text("\n".join(L) + "\n")
 

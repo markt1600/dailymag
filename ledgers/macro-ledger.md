@@ -1,7 +1,7 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-17T21:07:32Z.
+Last fetch: 2026-11-18T01:24:26Z.
 
 ## The Call
 
@@ -12,15 +12,24 @@ What would change it:
 - The Federal Reserve does not raise rates on 9 December
 - The high-yield credit spread closes above 4.0 points (3.34 on 16 November), which would make it a growth scare rather than a rate shock
 
+## Four
+
+| Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
+|---|---|---|---|---|---|---|---|---|---|
+| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 182.57 | 2026-11-17 | — | — | — | — | — | Vanguard VWRA product page, NAV at close 17 Nov 2026 (-1.19% on the day) |
+| pimco_income_1w | PIMCO GIS Income Fund, 1-week total return (%) | -2.04 | 2026-11-17 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825); page undated, read 18 Nov SGT |
+| gold | Gold, spot (US$/oz) | 3,853 | 2026-11-17 | — | — | — | — | — | No. 166 p14 footnote 5 (spot quote as printed) |
+| btc | Bitcoin, Coinbase (US$) | 64,605 | 2026-11-17 | -8,698 | -18,246 | -20.77 | -27,251 | down 6 weeks running; 16% of its 1-year range | FRED CBBTCUSD |
+
 ## Rates
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| us2y | US 2-year Treasury yield (%) | 4.88 | 2026-11-13 | +0.37 | +0.14 | +0.71 | +1.30 | up 1 week running; 97% of its 1-year range | FRED DGS2 |
-| us10y | US 10-year Treasury yield (%) | 5.15 | 2026-11-13 | +0.29 | +0.06 | +0.47 | +1.04 | up 1 week running; 88% of its 1-year range | FRED DGS10 |
-| real10y | US 10-year real yield (TIPS) (%) | 2.91 | 2026-11-13 | +0.28 | +0.17 | +0.50 | +1.08 | up 2 weeks running; 97% of its 1-year range | FRED DFII10 |
-| breakeven10 | US 10-year breakeven inflation (%) | 2.20 | 2026-11-16 | -0.02 | -0.15 | -0.08 | -0.08 | down 4 weeks running; 6% of its 1-year range | FRED T10YIE |
-| curve2s10s | US 10-year minus 2-year (pp) | 0.29 | 2026-11-16 | -0.03 | -0.09 | -0.24 | -0.23 | down 1 week running; 17% of its 1-year range | FRED T10Y2Y |
+| us2y | US 2-year Treasury yield (%) | 4.83 | 2026-11-16 | +0.27 | +0.06 | +0.64 | +1.21 | up 1 week running; 94% of its 1-year range | FRED DGS2 |
+| us10y | US 10-year Treasury yield (%) | 5.12 | 2026-11-16 | +0.24 | -0.03 | +0.40 | +0.98 | up 1 week running; 86% of its 1-year range | FRED DGS10 |
+| real10y | US 10-year real yield (TIPS) (%) | 2.92 | 2026-11-16 | +0.26 | +0.12 | +0.48 | +1.06 | up 2 weeks running; at its 1-year high | FRED DFII10 |
+| breakeven10 | US 10-year breakeven inflation (%) | 2.21 | 2026-11-17 | +0.01 | -0.14 | -0.09 | -0.07 | up 1 week running; 9% of its 1-year range | FRED T10YIE |
+| curve2s10s | US 10-year minus 2-year (pp) | 0.30 | 2026-11-17 | +0.05 | -0.03 | -0.22 | -0.23 | up 1 week running; 19% of its 1-year range | FRED T10Y2Y |
 | termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.99 | 2026-11-13 | +0.11 | +0.00 | +0.15 | +0.49 | up 1 week running; 83% of its 1-year range | FRED THREEFYTP10 |
 
 ## Liquidity
