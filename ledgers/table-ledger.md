@@ -276,3 +276,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Herng Hao Chi Hokkien Mee | Herng Hao Chi Hokkien Mee | 167 | OPEN | No. 167 build | opening run — record the peg here |
 | Sol & Manta | Sol & Manta | 167 | OPEN | No. 167 build | opening run — record the peg here |
 | Bagel Chef | Bagel Chef | 167 | OPEN | No. 167 build | opening run — record the peg here |
+| Pugners Dining | Pugners Dining | 168 | OPEN | No. 168 build | opening run — record the peg here |
+| Sagye Lite | Sagye Lite | 168 | OPEN | No. 168 build | opening run — record the peg here |
+| BB.Q Chicken | BB.Q Chicken | 168 | OPEN | No. 168 build | opening run — record the peg here |

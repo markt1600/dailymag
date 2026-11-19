@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Wild swimming &amp; open-water swimming",
+      "issue": "168",
+      "angle": "Auto-picked from No. 167's chips (foraging overlaps mycology; pen restoration overlaps Fountain pens); swimming hobby, not immersion physiology (No. 166 Fitness). PEG: Hong Kong's Victoria Harbour Race, 15 Nov 2026, 120th anniversary, ~4,000 swimmers. SCALE: OSS 300 members (2006) to 200,000+; Activ"
+    },
+    {
       "hobby": "Amateur seismology &amp; infrasound",
       "issue": "167",
       "angle": "<b>Auto-picked from No. 166&rsquo;s three Next-Descents chips</b> (queue empty, no editor note, no Rabbit Hole Next vote since the previous builtAt); chosen over wild swimming because No. 166&rsquo;s Fitness page had just run cold-water immersion. Raspberry Shake of Panama ($294.99 kit to $1,404.99)"
@@ -529,16 +534,28 @@
   "queued": [],
   "pipeline": [
     {
+      "hobby": "Contract bridge (duplicate &amp; club play)",
+      "category": "Games / mind",
+      "communities": "BridgeBase Online, the ACBL and EBU, Bridge Winners, the Singapore Contract Bridge Association",
+      "fit": "A partnership bidding language, master-point ladders and weekly clubs; a lifelong game with a real Singapore scene."
+    },
+    {
+      "hobby": "Go (weiqi &amp; baduk)",
+      "category": "Games / mind",
+      "communities": "r/baduk, OGS and KGS, the Nihon Ki-in and the Singapore Weiqi Association",
+      "fit": "Kaya boards and clamshell stones, a rank ladder, and a culture reshaped by AlphaGo."
+    },
+    {
+      "hobby": "Cryptic crosswords (solving &amp; setting)",
+      "category": "Words / puzzle",
+      "communities": "Fifteensquared, the Times Crossword Championship, r/crosswords",
+      "fit": "A clue grammar with its own rules, timed championships and setters known by pseudonym."
+    },
+    {
       "hobby": "Dry stone walling",
       "category": "Craft / outdoor",
       "communities": "Dry Stone Walling Association, r/stonemasonry, the Grand Prix des M&eacute;tiers, walling competitions",
       "fit": "No mortar, four certification grades and a world championship; the exam is a wall that must still stand in fifty years."
-    },
-    {
-      "hobby": "Wild swimming &amp; cold-water immersion",
-      "category": "Outdoor / body",
-      "communities": "The Outdoor Swimming Society, r/Swimming, local tidal-pool groups, Wim Hof sceptics",
-      "fit": "A hobby with a live physiology argument, real risk, and a gear list that is mostly a tow float and a thermometer."
     },
     {
       "hobby": "Netsuke &amp; miniature carving",

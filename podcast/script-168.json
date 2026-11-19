@@ -1,0 +1,768 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 168,
+ "date": "Friday 20 November 2026",
+ "title": "On Paper",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Friday, the twentieth of November, twenty twenty-six. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three leaders, one table, one piece of paper. Xi, Putin and Trump signed a joint declaration in Shenzhen."
+  },
+  {
+   "s": "B",
+   "t": "And it doesn't mention Ukraine. [pause] At all."
+  },
+  {
+   "s": "A",
+   "t": "Anthropic priced its shares at eighty-three dollars and closed its first day seventeen per cent up."
+  },
+  {
+   "s": "B",
+   "t": "And down in the rabbit hole, we're going swimming. Outdoors. [laughs] In the actual sea."
+  },
+  {
+   "s": "A",
+   "t": "We'll get there. Shenzhen first."
+  },
+  {
+   "s": "B",
+   "t": "So this is the first time ever that the leaders of China, Russia and America have sat down together, the three of them."
+  },
+  {
+   "s": "A",
+   "t": "Thursday, the nineteenth, at a lakeside villa in Shenzhen. And they came out with one short text. The Xinhua news agency published it in full. The Kremlin's transcripts confirm it."
+  },
+  {
+   "s": "B",
+   "t": "They're calling it the Declaration toward Peace. What's in it?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Four points. Reform the United Nations. Keep more diesel and fuel flowing. Rein in the International Criminal Court — which, worth saying, wants Putin arrested."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Funny, that."
+  },
+  {
+   "s": "A",
+   "t": "And the fourth: a nuclear war cannot be won and must never be fought, with talks on nuclear risk."
+  },
+  {
+   "s": "B",
+   "t": "That last line sounds like something out of nineteen eighty-five."
+  },
+  {
+   "s": "A",
+   "t": "[wry] It's the oldest line in arms control. But here's what's absent. Ukraine, Iran, Taiwan. Not one word."
+  },
+  {
+   "s": "B",
+   "t": "So the three biggest fights on the planet, and the paper's silent on all of them."
+  },
+  {
+   "s": "A",
+   "t": "Xi set the scale in his opening remarks. He said the planet has seen more than ten thousand wars, and has more than sixty smouldering conflicts today."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Ten thousand. That's quite a way to open a meeting."
+  },
+  {
+   "s": "A",
+   "t": "Then a reporter asked Putin about a \"new Yalta\" — three powers carving up the world."
+  },
+  {
+   "s": "B",
+   "t": "And?"
+  },
+  {
+   "s": "A",
+   "t": "Putin said, quote, \"What was so bad about Yalta?\""
+  },
+  {
+   "s": "B",
+   "t": "[gasps] He actually said that?"
+  },
+  {
+   "s": "A",
+   "t": "In the Kremlin's own transcript. And then: \"the realities will have to be accepted.\""
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Okay. So how did the rest of the world read it?"
+  },
+  {
+   "s": "A",
+   "t": "The page runs five capitals side by side. Beijing's Global Times says the summit could help ease tensions. In Washington, the Arms Control Association called the nuclear line positive — and then said, \"We need much more than rhetoric.\""
+  },
+  {
+   "s": "B",
+   "t": "Al Jazeera asked whether this is the birth of a G three. And Indonesia's president, Prabowo, voiced admiration for \"the three great powers of the world.\""
+  },
+  {
+   "s": "A",
+   "t": "The sceptic is Jonathan Eyal at the Royal United Services Institute. He says Putin gained credibility and Trump got a photo opportunity he didn't need. The nuclear talks have no date."
+  },
+  {
+   "s": "B",
+   "t": "And meanwhile — this is the bit I can't get past — on the very same day, Europe was meeting in Berlin."
+  },
+  {
+   "s": "A",
+   "t": "The Coalition of the Willing. Friedrich Merz, Emmanuel Macron, Britain's prime minister Andy Burnham, Volodymyr Zelensky, and some forty partners. With Trump's envoys, Steve Witkoff and Jared Kushner, in the room."
+  },
+  {
+   "s": "B",
+   "t": "And what did Berlin ask for?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] A winter truce on power stations and heating plants, and a ceasefire at sea so grain ships can sail. Plus ninety billion euros in European Union loans for Ukraine."
+  },
+  {
+   "s": "B",
+   "t": "And Kushner floated something big, right?"
+  },
+  {
+   "s": "A",
+   "t": "An \"Article Five-like\" guarantee — NATO's promise that an attack on one is an attack on all. He said Trump is open to it. Congress would have to approve."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] Which is quite a lot of \"would\"."
+  },
+  {
+   "s": "A",
+   "t": "And here's the sceptic's point. Hours earlier, in Shenzhen, Putin had already said that after the strikes on the Crimean Bridge, \"there will be no negotiations\" on an energy pause."
+  },
+  {
+   "s": "B",
+   "t": "So Europe asked for exactly the thing Putin had just ruled out."
+  },
+  {
+   "s": "A",
+   "t": "That's the page. On the bridge itself — still no independent engineering assessment. Putin now admits the road bridge \"has suffered serious damage.\""
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Right. Money. And it was a rough Thursday."
+  },
+  {
+   "s": "A",
+   "t": "America's stock market fell two per cent, on the day Anthropic listed. The S and P five hundred closed about one per cent below its two-hundred-day average."
+  },
+  {
+   "s": "B",
+   "t": "Explain the two-hundred-day thing for me. Simply."
+  },
+  {
+   "s": "A",
+   "t": "It's the line traders use for the long-run trend. Close below it, and it says buyers aren't stepping in on every dip anymore."
+  },
+  {
+   "s": "B",
+   "t": "Got it. And bonds?"
+  },
+  {
+   "s": "A",
+   "t": "Bonds did their job. When shares fell, savers bought government bonds, and the ten-year Treasury yield slipped from five point zero seven to five point zero four per cent."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The cushion worked."
+  },
+  {
+   "s": "A",
+   "t": "For once. The sceptic on the Macro Desk is the Chicago Fed's own financial conditions index, at minus zero point four eight. That means credit is still looser than average. So this looks like a repricing of AI shares, not a lending squeeze."
+  },
+  {
+   "s": "B",
+   "t": "Okay — the four. Give me the four."
+  },
+  {
+   "s": "A",
+   "t": "VWRA closed at one hundred and eighty-one dollars seventy-two on the eighteenth. The desk's lean: lower over the coming week. A price above one hundred and eighty-six proves it wrong."
+  },
+  {
+   "s": "B",
+   "t": "PIMCO Income?"
+  },
+  {
+   "s": "A",
+   "t": "The Singapore-dollar hedged class lost zero point six nine per cent in a week, yielding six point eight six. The US-dollar class lost zero point seven seven, yielding six point five seven. The gap is roughly the cost of the hedge. Lean: steady."
+  },
+  {
+   "s": "B",
+   "t": "Gold?"
+  },
+  {
+   "s": "A",
+   "t": "Three thousand six hundred and fifty-nine dollars, down about twelve per cent in a month. Lean: lower, unless it closes above three thousand eight hundred."
+  },
+  {
+   "s": "B",
+   "t": "And bitcoin, which I'm almost afraid to ask about."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Sixty-one thousand nine hundred. Down a quarter in a month, four weeks running. Lean: lower."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And that's explanation, not advice."
+  },
+  {
+   "s": "A",
+   "t": "Explanation, not advice. Now — page two of the desk is Friday's Asia piece, and it's a puzzle."
+  },
+  {
+   "s": "B",
+   "t": "Go on."
+  },
+  {
+   "s": "A",
+   "t": "Japan's ten-year bond yield went above three per cent in September for the first time since nineteen ninety-six."
+  },
+  {
+   "s": "B",
+   "t": "[curious] So savers get paid more in Japan. That should pull money into the yen."
+  },
+  {
+   "s": "A",
+   "t": "You'd think. And yet the yen is back near one hundred and sixty to the dollar."
+  },
+  {
+   "s": "B",
+   "t": "Even though Tokyo spent — how much?"
+  },
+  {
+   "s": "A",
+   "t": "Fifteen point four trillion yen buying its own currency in the third quarter, according to the New York Fed's report. And the US Treasury bought yen on the thirty-first of July, its first such purchase since nineteen ninety-eight."
+  },
+  {
+   "s": "B",
+   "t": "So why doesn't it work?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] Because after inflation, Japan's ten-year pays about zero point eight per cent. America's inflation-protected ten-year pays two point eight eight. The gap is still enormous."
+  },
+  {
+   "s": "B",
+   "t": "And China?"
+  },
+  {
+   "s": "A",
+   "t": "Bank loans grew just four point seven per cent in October. The slowest on record. The desk's call stands — a real-rate shock, held since issue one sixty-two. No condition has been met."
+  },
+  {
+   "s": "B",
+   "t": "Closer to home. The chip rule."
+  },
+  {
+   "s": "A",
+   "t": "Washington's licence rule for advanced AI chips going to Singapore is now law. It appeared in the Federal Register on Thursday and took effect the same day."
+  },
+  {
+   "s": "B",
+   "t": "We've been holding that one since — when?"
+  },
+  {
+   "s": "A",
+   "t": "Since yesterday's book. Settled. Chips already in transit have until the twenty-first of December. Data centres renting big computing power to Chinese companies have ninety days to get a licence."
+  },
+  {
+   "s": "B",
+   "t": "And American-owned buyers?"
+  },
+  {
+   "s": "A",
+   "t": "Exempt, but they report every sale, monthly. And here's the sceptic's number — Washington itself expects only about a hundred extra licence applications a year."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] A hundred. For all that drama."
+  },
+  {
+   "s": "A",
+   "t": "And my favourite footnote of the week. The rule notes that a presidential order now has officials write \"Super Intelligence\" instead of \"artificial intelligence\"."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course it does."
+  },
+  {
+   "s": "A",
+   "t": "Prime Minister Lawrence Wong, speaking to the APEC leaders in Shenzhen, called some competition for the best chips inevitable."
+  },
+  {
+   "s": "B",
+   "t": "Right — Anthropic. And I should say, we're made with Anthropic's models, so — disclosed conflict."
+  },
+  {
+   "s": "A",
+   "t": "Disclosed on the page, and on the back cover. Anthropic priced at eighty-three dollars a share. Its range had been seventy to seventy-eight."
+  },
+  {
+   "s": "B",
+   "t": "And it sold more than it planned."
+  },
+  {
+   "s": "A",
+   "t": "[rushed] Nine hundred and eighty million shares, against eight hundred and twenty-five million. Eighty-one point three billion dollars. The largest share sale on record."
+  },
+  {
+   "s": "B",
+   "t": "First day?"
+  },
+  {
+   "s": "A",
+   "t": "Opened on Nasdaq at one hundred and eleven fifty. Closed at ninety-seven seventeen. Up seventeen per cent on the offer."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Which means anyone who bought at the opening bell…"
+  },
+  {
+   "s": "A",
+   "t": "Was down almost thirteen per cent by the close."
+  },
+  {
+   "s": "B",
+   "t": "Ouch."
+  },
+  {
+   "s": "A",
+   "t": "And one more thing from the prospectus. The banks keep about fifty-six cents a share. Anthropic gets about eighty-two forty-four."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Nice work if you can get it."
+  },
+  {
+   "s": "A",
+   "t": "And Jay Goldberg at Seaport Research says Anthropic now faces much tougher questions, once it reports as a public company. First quarter's results come next."
+  },
+  {
+   "s": "A",
+   "t": "More than eight hundred and forty-six million shares changed hands. And on the shares that actually exist, it closed worth about one point two eight trillion dollars. The two-trillion headlines count shares that haven't been issued."
+  },
+  {
+   "s": "B",
+   "t": "And the Home Lab?"
+  },
+  {
+   "s": "A",
+   "t": "Tencent gave away a big new model, Hy Four Flash, that its engineers say runs on one top-end Apple machine. Nearly a third of it is a lookup table of common word pairs and triples."
+  },
+  {
+   "s": "B",
+   "t": "[amused] A phrasebook bolted onto a brain."
+  },
+  {
+   "s": "A",
+   "t": "Tencent says its compressed version answers at forty-eight word-pieces a second on a single one-hundred-and-twenty-eight-gigabyte Mac. Every one of those numbers is Tencent's own."
+  },
+  {
+   "s": "B",
+   "t": "The Kit, then. Pebble made a ring."
+  },
+  {
+   "s": "A",
+   "t": "The Index Zero One. Seventy-five US dollars. You press a button and say \"buy milk,\" and your phone turns it into a note."
+  },
+  {
+   "s": "B",
+   "t": "And you never charge it?"
+  },
+  {
+   "s": "A",
+   "t": "Never. The battery is sealed. It lasts two to three years, and then you post it back and buy another."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] That's… a lot of rings in a drawer."
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic box — the e-waste case. Engadget's Daniel Cooper gave it eight out of ten. But he noticed that saying a kitchen timer out loud took twice as long as tapping it into his phone."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Okay, so on to the Atelier. Chairs!"
+  },
+  {
+   "s": "A",
+   "t": "Wooden dining chairs. And the desk found a document. Fredericia sent its oak Mogensen chair to the Danish Technological Institute this spring."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Who sat on it?"
+  },
+  {
+   "s": "A",
+   "t": "A machine. Two hundred thousand times. Seat and back. It passed the grade written for prisons, police stations and nightclubs."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Nightclubs. The ultimate stress test."
+  },
+  {
+   "s": "A",
+   "t": "And Carl Hansen's own sheet for one Wegner chair rates it for adults up to one hundred and ten kilos — the milder grade."
+  },
+  {
+   "s": "B",
+   "t": "And the Wishbone chair, the famous one?"
+  },
+  {
+   "s": "A",
+   "t": "Woven by hand from more than a hundred and twenty metres of paper cord, in about an hour. Japan buys more than a quarter of them. And the desk found no published strength test for it."
+  },
+  {
+   "s": "B",
+   "t": "Price ladder?"
+  },
+  {
+   "s": "A",
+   "t": "An Ercol Windsor from five hundred and ten pounds. A Wishbone at about thirteen hundred US dollars. And the grail, a hand-made comb-back Windsor from Chicone Cabinetmakers in New York, from fifteen hundred."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] You say that like it's a threat."
+  },
+  {
+   "s": "B",
+   "t": "It's a promise! Wild swimming. Swimming outdoors — sea, river, lake. Last Sunday Hong Kong held its Victoria Harbour Race. It turned one hundred and twenty."
+  },
+  {
+   "s": "A",
+   "t": "And about four thousand swimmers did it."
+  },
+  {
+   "s": "B",
+   "t": "A kilometre from Wan Chai to Tsim Sha Tsui. At last year's race, a sixty-year-old from Guangzhou, on at least his fifth crossing, said, \"This race is very famous, very good, we like it.\""
+  },
+  {
+   "s": "A",
+   "t": "[warmly] That's a review."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Here's the number I love. The Channel Swimming Association has ratified just two thousand one hundred and forty-eight solo crossings of the English Channel since nineteen twenty-seven."
+  },
+  {
+   "s": "A",
+   "t": "And their line is —"
+  },
+  {
+   "s": "B",
+   "t": "\"More people have climbed Mount Everest.\""
+  },
+  {
+   "s": "A",
+   "t": "[chuckles] Snobbery, with data."
+  },
+  {
+   "s": "B",
+   "t": "The Outdoor Swimming Society started in two thousand and six with three hundred members. Now it has more than two hundred thousand. Membership is free."
+  },
+  {
+   "s": "A",
+   "t": "And Singapore?"
+  },
+  {
+   "s": "B",
+   "t": "Mostly Sentosa, where there are lifeguards. And in February, a crocodile shut the water at Sentosa's three main beaches for a week."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Wildlife."
+  },
+  {
+   "s": "B",
+   "t": "Okay, the gear. The top swimming wetsuit now costs nine hundred and ninety-nine pounds ninety-nine. HUUB's SUB Seven, for twenty twenty-seven."
+  },
+  {
+   "s": "A",
+   "t": "For a wetsuit."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] For a wetsuit! But last year's Zone Three flagship is half price, at four hundred and ninety-nine fifty. And there's a Cornish workshop, Snugg, that makes one to your measurements — all twenty-one of them — from seven hundred and thirty-five pounds."
+  },
+  {
+   "s": "A",
+   "t": "What's new?"
+  },
+  {
+   "s": "B",
+   "t": "Goggles with a screen in them. Form's cheapest is one hundred and forty-nine dollars. A rival, HoloSwim, has put GPS inside the goggle."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] So you can be lost at sea, accurately."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And then there's the tribal war. The purists swim in \"skins\" — costume, one cap, goggles and grease. That's it. The Marathon Swimmers Federation writes it down."
+  },
+  {
+   "s": "A",
+   "t": "And the robe war?"
+  },
+  {
+   "s": "B",
+   "t": "In twenty twenty, a sign at Dublin's Forty Foot read: \"No dryrobe or dryrobe types.\""
+  },
+  {
+   "s": "A",
+   "t": "[laughs] Brutal."
+  },
+  {
+   "s": "B",
+   "t": "One swimmer told the press, \"Wear a bloody wedding dress while you're at it.\""
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Serious. The UK recorded two hundred and two accidental drownings in twenty twenty-five, most of them inland. Men in their sixties are the highest-risk group. And England's sewage spills are a real issue."
+  },
+  {
+   "s": "A",
+   "t": "So the first rule is?"
+  },
+  {
+   "s": "B",
+   "t": "Never swim alone, and someone on shore watching. The desk's ninety-day list is a tow float, decent goggles, a cap — and a rented wetsuit before you buy one."
+  },
+  {
+   "s": "A",
+   "t": "Culture and the body. Percy Jackson."
+  },
+  {
+   "s": "B",
+   "t": "Season three, on Disney Plus, today. And it's the first time the third book has ever been filmed. The movies stopped at book two in twenty thirteen."
+  },
+  {
+   "s": "A",
+   "t": "Rotten Tomatoes says one hundred per cent."
+  },
+  {
+   "s": "B",
+   "t": "From ten reviews. [pause] Ten."
+  },
+  {
+   "s": "A",
+   "t": "Which is the sceptic box. No fourth season has been ordered yet."
+  },
+  {
+   "s": "B",
+   "t": "Nomos, for the watch people."
+  },
+  {
+   "s": "A",
+   "t": "Black dials and gold hands on three classics — the Tangente, the Ludwig and the square Tetra. Steel from one thousand nine hundred and forty euros."
+  },
+  {
+   "s": "B",
+   "t": "And gold?"
+  },
+  {
+   "s": "A",
+   "t": "Same movement, same dial. About four point eight times the steel price."
+  },
+  {
+   "s": "B",
+   "t": "[wry] That's quite a lot of gold."
+  },
+  {
+   "s": "A",
+   "t": "The Family Desk. A study of parents in nine countries, run from Duke by Jennifer Lansford."
+  },
+  {
+   "s": "B",
+   "t": "What did it find?"
+  },
+  {
+   "s": "A",
+   "t": "Guilt-tripping and withdrawing affection fade, in most places, between twelve and sixteen. And teenagers who felt guilt-tripped at thirteen told their parents less by sixteen."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Should parents panic?"
+  },
+  {
+   "s": "A",
+   "t": "No. The effect is tiny — the desk's own \"don't be alarmist\" box says so. The best predictor of a sixteen-year-old's openness was her openness at fifteen."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the habit of telling starts early. Twelve is early."
+  },
+  {
+   "s": "A",
+   "t": "And it's PSLE week. Results come out at eleven in the morning on Tuesday. Families then have until four thirty the following Monday to list six schools."
+  },
+  {
+   "s": "B",
+   "t": "And the advice?"
+  },
+  {
+   "s": "A",
+   "t": "The ministry says cut-off points usually move a point a year. Meeting one doesn't guarantee a place. List two or three schools whose past cut-off is below your child's score."
+  },
+  {
+   "s": "B",
+   "t": "And the research on how to react?"
+  },
+  {
+   "s": "A",
+   "t": "Stanford's Kyla Haimovitz and Carol Dweck found that parents who see failure as debilitating react by focusing on performance rather than learning — and children read that belief accurately. So — talk about what she learned, not the number."
+  },
+  {
+   "s": "B",
+   "t": "General guidance, not medical advice — and Fitness."
+  },
+  {
+   "s": "A",
+   "t": "A review from Semmelweis University in Budapest. Twenty-four trials, one thousand two hundred and thirty-eight adults. Only high-intensity training, mostly handball and football, moved a blood marker of bone building."
+  },
+  {
+   "s": "B",
+   "t": "And walking?"
+  },
+  {
+   "s": "A",
+   "t": "Didn't. But the sceptic is a trial called LIFTMOR. Eight months of supervised heavy lifting raised spine density by almost three per cent in women with weak bones."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So lift heavy, with a coach."
+  },
+  {
+   "s": "A",
+   "t": "With a coach. Then the Diary. Christmas Wonderland opens at Gardens by the Bay on the twenty-seventh. Advance adult tickets from nine dollars. Children three to twelve, seven."
+  },
+  {
+   "s": "B",
+   "t": "And in Tokyo, Leonardo's La Belle Ferronnière is in Japan for the first time. It leaves on the thirteenth of December."
+  },
+  {
+   "s": "A",
+   "t": "The Table: BB dot Q Chicken, the Korean chain from Crash Landing on You, opens a stall at VivoCity on the twenty-seventh."
+  },
+  {
+   "s": "B",
+   "t": "And a former Michelin-kitchen chef serves eight guests a one-hundred-and-fifty-dollar tasting menu in a ninth-floor HDB flat in Hougang."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Book early. There are eight seats."
+  },
+  {
+   "s": "B",
+   "t": "Okay. [exhales] The Long Read."
+  },
+  {
+   "s": "A",
+   "t": "Take it slowly."
+  },
+  {
+   "s": "B",
+   "t": "Japan's shortlist for word of the year includes \"koe no kenri.\" Voice rights."
+  },
+  {
+   "s": "A",
+   "t": "Why now?"
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Because no Japanese law mentions the human voice. Copyright covers a recording, not the voice that made it. And machines can now copy a voice from a few seconds of sound."
+  },
+  {
+   "s": "A",
+   "t": "And there was a case."
+  },
+  {
+   "s": "B",
+   "t": "There was. The voice actor Kenjiro Tsuda found an account that had posted at least one hundred and eighty-eight videos narrated by an AI voice that sounded like his."
+  },
+  {
+   "s": "A",
+   "t": "And the court?"
+  },
+  {
+   "s": "B",
+   "t": "On the thirtieth of September, the Tokyo District Court held that a voice, like a portrait, is a symbol of the person. Protected. [pause] And then it dismissed his claim."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Why?"
+  },
+  {
+   "s": "B",
+   "t": "The videos and the account were gone. The logs had expired. The poster was never named. So he won the principle and lost the case."
+  },
+  {
+   "s": "A",
+   "t": "[pause] That's happened before in Japan."
+  },
+  {
+   "s": "B",
+   "t": "In twenty twelve the pop duo Pink Lady won the principle for faces — and lost their case too. Back in two thousand and four, the Supreme Court had said a racehorse can't own its name."
+  },
+  {
+   "s": "A",
+   "t": "So the law is being built by judges, and by guidelines."
+  },
+  {
+   "s": "B",
+   "t": "And by a union. The Japan Actors Union now says consent to clone a voice lasts one year, at most. Buyouts are banned."
+  },
+  {
+   "s": "A",
+   "t": "And the open question?"
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Whether a talent agency can own a performer's voice outright. Nobody has decided. The essay's argument is that, built this way, the voice splits in two — a licensable asset for the voices that sell… and a thinner right of dignity for the rest of us."
+  },
+  {
+   "s": "A",
+   "t": "John Locke said every man has a property in his own person."
+  },
+  {
+   "s": "B",
+   "t": "The law has now said the voice is yours. [pause] It hasn't yet said who may sell it."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-five pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

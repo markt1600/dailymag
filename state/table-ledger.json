@@ -2512,9 +2512,39 @@
       "status": "OPEN",
       "checked": "No. 167 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Pugners Dining",
+      "key": "Pugners Dining",
+      "runs": [
+        168
+      ],
+      "status": "OPEN",
+      "checked": "No. 168 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Sagye Lite",
+      "key": "Sagye Lite",
+      "runs": [
+        168
+      ],
+      "status": "OPEN",
+      "checked": "No. 168 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "BB.Q Chicken",
+      "key": "BB.Q Chicken",
+      "runs": [
+        168
+      ],
+      "status": "OPEN",
+      "checked": "No. 168 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 168,
+  "barred_for_issue": 169,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2650,9 +2680,6 @@
     "Earworm",
     "JJAN",
     "Cranki Patisserie",
-    "Good Luck Bagels",
-    "Peach Blossoms",
-    "Yaya Lorong",
     "Chi Spacca Singapore",
     "Hippopotato",
     "Reference Room Cafe",
@@ -2665,6 +2692,9 @@
     "LONGJING",
     "Herng Hao Chi Hokkien Mee",
     "Sol & Manta",
-    "Bagel Chef"
+    "Bagel Chef",
+    "Pugners Dining",
+    "Sagye Lite",
+    "BB.Q Chicken"
   ]
 }
