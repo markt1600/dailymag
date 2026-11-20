@@ -1,0 +1,239 @@
+{
+ "issue": 169,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "The world court ruled 9-6 that Myanmar itself committed genocide against the Rohingya, the first such finding against a state, though nobody can enforce it and Myanmar and China reject it.",
+   "weakest": "\"Croatia's and Serbia's claims against each other failed on that test in 2015.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Estonia will close all five road crossings into Russia for six months from 1 December after an arson attack it blames on the GRU, cutting off families who cross mostly at Narva.",
+   "weakest": "The 'Also on the desk' item on COP31's Antalya draft, which has nothing to do with the rest of the page.",
+   "verdict": "pass"
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 3,
+   "says": "Wong and Xi opened talks on a fourth upgrade of the Singapore-China trade pact, covering digital trade and procurement, with no timetable, and the last upgrade took four years.",
+   "weakest": "The Chatter: \"No reaction thread on the talks could be read: Reddit refuses this desk...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 2,
+   "says": "Door levers should be solid metal with a spring in the rose, and HOPPE's cheap steel set prints a durability grade while the dear brass makers print none.",
+   "weakest": "\"In EN 1906's 37-0140A : category 3, public doors used with little care; durability 7, 200,000 cycles; no fire-door rating; safety 1...\"",
+   "verdict": "rework",
+   "reason": "The page reads like a catalogue: a digit-by-digit standards code, a hinge digression and a run of maker names with no prices bury the one useful idea (buy solid metal with a sprung rose). Open with that buying rule, drop the hinge and EN code detail to one line, and give the reader a clear recommendation at each price tier.",
+   "fixed": "Opened on the buying rule; the EN 1906 decode cut to one line of what to ask for; hinges to one line; a three-tier pick closes the body.",
+   "recheck": 4,
+   "recheck_note": "Yes: the page now opens with the buying rule, cuts the code and hinges to a short checklist, and ends with a clear pick at each price tier, though the headline still sells the test grade rather than the advice."
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Nvidia fell 14% on Friday, its seventh weekly fall, because investors are worried about who runs it after Huang's exit and a reported SEC look at its accounts, not about its sales.",
+   "weakest": "\"The seven-week loss is more than twice the whole value of Anthropic...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 8,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Nvidia's November Windows drivers keep rewriting a log file on idle machines, which wears out SSDs, and rolling back to driver 621.01 is the fix.",
+   "weakest": "The long fixes paragraph that runs from rollback steps to nvidia-smi to Device Manager in one block.",
+   "verdict": "pass"
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 2,
+   "says": "Teenage Engineering's first CD player, US$329, spins the disc in the open and adds DJ-style speed and tempo controls, Bluetooth and a battery.",
+   "weakest": "\"Teenage Engineering's page lists varispeed, time stretch, a digital VU meter, line and headphone outputs...\"",
+   "verdict": "rework",
+   "reason": "The features are listed three times: the speed dial, tempo detection and level lights in paragraph two, again from the spec sheet in paragraph three, and again from Gearnews in paragraph four. Merge them into one description and spend the space you save on what it is like to use and who it is for.",
+   "fixed": "Features merged into one description; space spent on how it handles and who it suits or should skip it.",
+   "recheck": 4,
+   "recheck_note": "Mostly: the features are now one list and the new who-it-suits paragraph earns its place, but the cue-lag point and the Hacker News quotes now appear in both the body and the boxes."
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 4,
+   "says": "Phillips sells a 1952 yellow-gold Patek 2499 in Hong Kong today at HK$12-24 million, and similar watches suggest it will finish near the bottom of that range.",
+   "weakest": "\"And Cavanaugh's aside on the dial is the condition question bidders will price.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 4,
+   "says": "The new Hunger Games prequel took about US$21 million in previews and looks set for a US$100 million-plus opening, though critics are split and fans much keener.",
+   "weakest": "The cast paragraph, a list of names and roles that stalls the box-office story.",
+   "verdict": "pass"
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 3,
+   "says": "A study that logged 218 American teenagers' phones found more evening and night use went with later, shorter sleep, especially in girls, so phones should come out of the bedroom.",
+   "weakest": "The box headed \"The Chatter · Stony BrookThe Chatter · Gina Marie Mathew On Phones At Bedtimersquo;s Lead Author On Bedtime Phones\"",
+   "verdict": "rework",
+   "reason": "The Chatter box's heading is garbled: two headings run together with a broken apostrophe, and it looks like an error on a page that is otherwise sound. Fix it to one heading, and turn the June abstract and the parental-limits paper into one clear 'what to do' paragraph.",
+   "fixed": "The garbled Chatter label was rewritten as one heading.",
+   "recheck": 3,
+   "recheck_note": "Partly: the garbled Chatter heading is fixed, but the body is unchanged and there is still no single plain 'what to do' paragraph for parents."
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "Singapore pupils placed among stronger classmates rate their own ability lower (the big-fish-little-pond effect), which parents should weigh in the six secondary-school choices due 30 November.",
+   "weakest": "\"in the paper's funnel plot almost every one of the 56 effects falls below zero.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 3,
+   "says": "The S&P 500 fell into a correction after its worst week since April 2025 while savers bought Treasuries and pushed yields down, and the desk leans lower on shares, gold and bitcoin.",
+   "weakest": "\"PIMCO Income : Singapore-dollar hedged class 1 week -0.12, 1 month -0.05, 3 months -3.44 per cent, yield 6.86; US-dollar class 0.00, +0.10, -2.90, yield 6.57.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 4,
+   "says": "US shares look cheap on next year's expected profits but very dear on Shiller's ten-year measure, and the gap between them is a bet that profit margins hold.",
+   "weakest": "The Dashboard table, two columns of numbers crammed into one that are hard to read across.",
+   "verdict": "pass"
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 2,
+   "says": "Go is a simple, ancient game played by some 20 million people that AI has reshaped, and Shin Jin-seo just beat KataGo with a two-stone start.",
+   "weakest": "\"Go ... is the subject of these three pages, and this one is about what the game is and why people fall in.\"",
+   "verdict": "rework",
+   "reason": "The headline promises Shin beating KataGo, but the first paragraph is a rules primer and the match doesn't appear until paragraph four. The server and player counts also come back on p18. Either lead with the match and use it to bring in the game, or retitle the page as the introduction it is, and cut the server numbers that p18 repeats.",
+   "fixed": "Leads on Shin Jin-seo's two-stone win and uses it to bring in the game; server counts repeated on p18 removed.",
+   "recheck": 4,
+   "recheck_note": "Yes: the match now leads and the server numbers that p18 repeats are gone, though the opening sentence that ends 'and this page is about what the game is' is clumsy."
+  },
+  {
+   "page": 17,
+   "desk": "The Deep End",
+   "keep_reading": 3,
+   "says": "Go boards and stones are priced by kaya grain, board thickness and shell stripes and thickness, from a ¥59,900 starter set to ¥11 million stones.",
+   "weakest": "\"The Nihon Ki-in's 2019 catalogue priced a joined 2-sun masame kaya table board at ¥62,500-82,408 before tax, a five-sun masame floor board at ¥0.8-4 million...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 18,
+   "desk": "The Deep End",
+   "keep_reading": 3,
+   "says": "To get into Go, learn on 9x9 online for free, take the Singapore Weiqi Association's S$280 Bishan class, and learn the basic vocabulary, though AI has made top-level openings formulaic.",
+   "weakest": "The deck: \"Wang Xinghao won the 31st LG Cup 2-1 in June for 300 million won.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 4,
+   "says": "A review of 78 trials found hard cardio and HIIT cut the deep belly fat most, with the best dose around 750 MET-minutes a week, roughly three 30-minute hard sessions, though total work may matter more than format.",
+   "weakest": "\"Ages varied widely, with a standard deviation of 19.2 years, and the searches ran to October 2025, topped up on 18 August 2026.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 20,
+   "desk": "The Travel Desk",
+   "keep_reading": 2,
+   "says": "From 1 January KrisFlyer swaps its milestone upgrade vouchers for flat mile discounts, which hurts most the top-tier members who used upgrades on long-haul flights.",
+   "weakest": "\"Two scorecards are involved. Elite miles count flying with the airline over a year; a separate spend tally governs its top tier, the club.\"",
+   "verdict": "rework",
+   "reason": "It assumes the reader already knows the PPS club, Solitaire and the milestone ladder: 'the club', 'the tier above' and '100,000 cycle' are never explained, and the 'Points / Upgrades out 1 Jan / Fee doubles 1 Dec' block reads as loose fragments. Add one plain line explaining the tiers, then a simple before/after for a typical Silver, Gold and Solitaire member.",
+   "fixed": "Plain explanation of KrisFlyer's two ladders and a before/after table replace the loose tag fragments.",
+   "recheck": 3,
+   "recheck_note": "Mostly: the two ladders are now explained and a before/after table replaces the fragments, but the explanation paragraph is still dense, 'neither outlet' is never identified, and the table has no Silver row."
+  },
+  {
+   "page": 21,
+   "desk": "The Travel Desk",
+   "keep_reading": 3,
+   "says": "Singapore Airlines has cut 118 Frankfurt and Munich flights for February-March 2027, tightening fares and award seats, though Lufthansa is adding Munich capacity in the same weeks.",
+   "weakest": "\"A passenger on the 02:45 SQ330 is moved to SQ26 at 23:55 the night before or SQ326 at 12:50; the 13:35 SQ329 home becomes SQ25 at 11:25...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 22,
+   "desk": "The Travel Desk",
+   "keep_reading": 4,
+   "says": "Since October the Twelve Apostles need a booked arrival slot (free until a fee arrives in April 2027), so drive the Great Ocean Road over two nights and check for closures.",
+   "weakest": "\"Beyond the towns the south-coast sky is dark, and the two Magellanic Clouds ... stay up all night.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Travel Desk",
+   "keep_reading": 3,
+   "says": "The Australian Open's Opening Week costs A$10 an adult, ground passes are capped for the first time, and the new Metro Tunnel makes the city centre the easy base.",
+   "weakest": "\"Finals weekend. Finals weekend is Saturday 30 and Sunday 31 January...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "A calendar of concerts in Singapore and events in Japan and Melbourne to book, with sumo tickets on sale 5 December and YOASOBI at the National Stadium on 20 February.",
+   "weakest": "Planning Notes giving the Australian Open twice (\"Australian Open: early-bird...\" and \"Australian Open: children go free...\"), both already on p23.",
+   "verdict": "pass"
+  },
+  {
+   "page": 25,
+   "desk": "The Diary",
+   "keep_reading": 2,
+   "says": "Casa Mori at Dempsey still has only one review four months in, and two hawker stalls have queues and second-hand praise, so there is no verdict on any of them.",
+   "weakest": "\"Weekend lunch Hawker value Verdict pending\"",
+   "verdict": "rework",
+   "reason": "The page tells us 'only one review' four times (lead, Chatter, Sceptic, honesty ledger) and never says whether any place is worth going to. A verdict round needs a verdict: send someone to eat, or give each venue a clear go/wait call, and drop the repeated caveats and the stray tag line at the foot.",
+   "fixed": "One-review caveat said once; each venue given a go/wait call; Chatter and Sceptic now add new ground; stray tags removed.",
+   "recheck": 4,
+   "recheck_note": "Yes: each venue now gets a clear go/wait call, the repeated 'one review' caveat is down to one mention and the stray tag line is gone, though the verdicts still rest on other people's reporting, not a meal of our own."
+  },
+  {
+   "page": 26,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Australians are making fashion from culled pest animals, which is ethically clean, but a pest with a price gains defenders who want it kept around.",
+   "weakest": "\"one exhibit was a preserved rat in a dress.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 27,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "New Zealand's possum fur trade shows that commercial trappers stop at about a quarter of the population because that is where it stops paying, which holds pests at a profitable level instead of wiping them out.",
+   "weakest": "The Cordings crew-neck detail (\"40% possum, 53% merino and 7% nylon ... listed at £199\").",
+   "verdict": "pass"
+  },
+  {
+   "page": 28,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "Victoria's protected deer, Australia's old rabbit trade and Hanoi's rat bounty show that paying for dead pests keeps them alive, so any fur-ban exemption should cover only fur from funded control programmes.",
+   "weakest": "\"A deer worth A$201 million a year to the towns that hunt it is a deer those towns have a reason to keep...\" which restates the essay's thesis a third time.",
+   "verdict": "pass"
+  }
+ ]
+}

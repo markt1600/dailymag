@@ -3,10 +3,6 @@
   "us2y": {
    "readings": [
     {
-     "date": "2025-05-09",
-     "value": 3.88
-    },
-    {
      "date": "2025-05-12",
      "value": 3.98
     },
@@ -1525,6 +1521,10 @@
     {
      "date": "2026-11-17",
      "value": 4.8
+    },
+    {
+     "date": "2026-11-18",
+     "value": 4.8
     }
    ],
    "name": "US 2-year Treasury yield",
@@ -1536,10 +1536,6 @@
   },
   "us10y": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 4.37
-    },
     {
      "date": "2025-05-12",
      "value": 4.45
@@ -3059,6 +3055,10 @@
     {
      "date": "2026-11-17",
      "value": 5.1
+    },
+    {
+     "date": "2026-11-18",
+     "value": 5.07
     }
    ],
    "name": "US 10-year Treasury yield",
@@ -3070,10 +3070,6 @@
   },
   "real10y": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 2.08
-    },
     {
      "date": "2025-05-12",
      "value": 2.16
@@ -4593,6 +4589,10 @@
     {
      "date": "2026-11-17",
      "value": 2.89
+    },
+    {
+     "date": "2026-11-18",
+     "value": 2.88
     }
    ],
    "name": "US 10-year real yield (TIPS)",
@@ -4604,10 +4604,6 @@
   },
   "breakeven10": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 2.29
-    },
     {
      "date": "2025-05-12",
      "value": 2.29
@@ -6131,6 +6127,10 @@
     {
      "date": "2026-11-18",
      "value": 2.19
+    },
+    {
+     "date": "2026-11-19",
+     "value": 2.16
     }
    ],
    "name": "US 10-year breakeven inflation",
@@ -6142,10 +6142,6 @@
   },
   "curve2s10s": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 0.49
-    },
     {
      "date": "2025-05-12",
      "value": 0.47
@@ -7669,6 +7665,10 @@
     {
      "date": "2026-11-18",
      "value": 0.27
+    },
+    {
+     "date": "2026-11-19",
+     "value": 0.28
     }
    ],
    "name": "US 10-year minus 2-year",
@@ -7680,10 +7680,6 @@
   },
   "termprem10": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 0.5503
-    },
     {
      "date": "2025-05-12",
      "value": 0.5831
@@ -9521,6 +9517,10 @@
     {
      "date": "2026-11-11",
      "value": 6.759
+    },
+    {
+     "date": "2026-11-18",
+     "value": 6.741
     }
    ],
    "name": "Federal Reserve balance sheet",
@@ -9532,10 +9532,6 @@
   },
   "rrp": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 142.272
-    },
     {
      "date": "2025-05-12",
      "value": 147.505
@@ -11059,6 +11055,10 @@
     {
      "date": "2026-11-19",
      "value": 0.405
+    },
+    {
+     "date": "2026-11-20",
+     "value": 0.401
     }
    ],
    "name": "Fed overnight reverse repo",
@@ -11385,6 +11385,10 @@
     {
      "date": "2026-11-11",
      "value": 914.4
+    },
+    {
+     "date": "2026-11-18",
+     "value": 916.6
     }
    ],
    "name": "US Treasury General Account",
@@ -11396,10 +11400,6 @@
   },
   "sofr": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 4.28
-    },
     {
      "date": "2025-05-12",
      "value": 4.28
@@ -12919,6 +12919,10 @@
     {
      "date": "2026-11-18",
      "value": 3.9
+    },
+    {
+     "date": "2026-11-19",
+     "value": 3.91
     }
    ],
    "name": "Secured Overnight Financing Rate",
@@ -12930,10 +12934,6 @@
   },
   "nfci": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": -0.419
-    },
     {
      "date": "2025-05-16",
      "value": -0.437
@@ -13260,10 +13260,6 @@
   },
   "dollar": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 122.5191
-    },
     {
      "date": "2025-05-12",
      "value": 123.4863
@@ -14786,10 +14782,6 @@
   },
   "hy_oas": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 3.53
-    },
     {
      "date": "2025-05-12",
      "value": 3.15
@@ -16397,6 +16389,10 @@
     {
      "date": "2026-11-18",
      "value": 3.47
+    },
+    {
+     "date": "2026-11-19",
+     "value": 3.52
     }
    ],
    "name": "US high-yield credit spread",
@@ -16408,10 +16404,6 @@
   },
   "ig_oas": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 1.02
-    },
     {
      "date": "2025-05-12",
      "value": 0.97
@@ -18019,6 +18011,10 @@
     {
      "date": "2026-11-18",
      "value": 0.93
+    },
+    {
+     "date": "2026-11-19",
+     "value": 0.94
     }
    ],
    "name": "US investment-grade credit spread",
@@ -18030,10 +18026,6 @@
   },
   "vix": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 21.9
-    },
     {
      "date": "2025-05-12",
      "value": 18.39
@@ -19613,6 +19605,10 @@
     {
      "date": "2026-11-18",
      "value": 24.56
+    },
+    {
+     "date": "2026-11-19",
+     "value": 28.44
     }
    ],
    "name": "VIX equity volatility",
@@ -20172,10 +20168,6 @@
   },
   "brent": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 64.26
-    },
     {
      "date": "2025-05-12",
      "value": 65.28
@@ -21792,6 +21784,11 @@
      "value": 31.9,
      "source": "FactSet Earnings Insight, John Butters, 13 Nov 2026 (Q3 blended growth)",
      "issue": 167
+    },
+    {
+     "date": "2026-11-20",
+     "value": 32.9,
+     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (Q3 blended growth 32.9%, 93% reported; Q4 est 28.9%, CY27 16.4%); PDF read at source"
     }
    ],
    "name": "S&P 500 blended earnings growth, current quarter",
@@ -21840,6 +21837,11 @@
      "value": 18.3,
      "source": "FactSet Earnings Insight, John Butters, 13 Nov 2026 (forward 12-month P/E; 19.0 at 30 Sep)",
      "issue": 167
+    },
+    {
+     "date": "2026-11-19",
+     "value": 17.1,
+     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (forward 12-month P/E 17.1 vs 5-yr avg 19.8, 10-yr 19.1; 19.0 at 30 Sep; index -6.2%, fwd EPS +4.4% since 30 Sep; close 7,175.83); no fwd EPS dollar level printed"
     }
    ],
    "name": "S&P 500 forward price/earnings",
@@ -21856,6 +21858,11 @@
      "value": 39.16,
      "source": "multpl.com Shiller PE, 16 Nov close",
      "issue": 165
+    },
+    {
+     "date": "2026-11-19",
+     "value": 37.86,
+     "source": "multpl.com Shiller PE, 4:00pm 19 Nov close (-0.78, -2.01%); monthly table: Oct 40.60, Aug 41.00 (highest since Sep 2000's 41.89); mean 17.45, median 16.14; read at source"
     }
    ],
    "name": "Shiller cyclically adjusted P/E",
@@ -21909,6 +21916,11 @@
      "value": -2301.3,
      "source": "CFTC Traders in Financial Futures, futures only, leveraged funds 586,834 long / 2,888,161 short, UST 10Y note; re-read 19 Nov SGT, no newer report out",
      "issue": 167
+    },
+    {
+     "date": "2026-11-17",
+     "value": -2482.0,
+     "source": "CFTC Traders in Financial Futures, futures only, released 20 Nov, positions 17 Nov 2026: UST 10Y note leveraged funds 539,725 long (-47,109) / 3,022,168 short (+134,007); net -2,482k (-181k on week); read at source"
     }
    ],
    "name": "Speculative net position, 10-year Treasury futures",
@@ -22045,10 +22057,6 @@
   },
   "usdjpy": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 145.15
-    },
     {
      "date": "2025-05-12",
      "value": 148.09
@@ -23571,10 +23579,6 @@
   },
   "usdcny": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 7.2364
-    },
     {
      "date": "2025-05-12",
      "value": 7.2018
@@ -25548,6 +25552,11 @@
      "date": "2026-11-18",
      "value": 181.72,
      "source": "Vanguard VWRA product page, NAV at close 18 Nov 2026 (-0.84, -0.46% on day; 189.45 on 11 Nov; 52-wk high 195.62); read at source 20 Nov SGT, 19 Nov NAV not yet posted"
+    },
+    {
+     "date": "2026-11-19",
+     "value": 178.81,
+     "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 19 Nov 2026 (-2.91, -1.60%); GBP line VWRP 20 Nov market value GBP133.52 (-3.26%); P/E 19.6x at 31 Oct; read at source"
     }
    ],
    "name": "VWRA, Vanguard FTSE All-World UCITS ETF, NAV",
@@ -25575,6 +25584,11 @@
      "date": "2026-11-19",
      "value": -0.69,
      "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825): 1w -0.69, 1m -0.39, 3m -2.90, 12m div yield 6.86 (YTD -4.17, 1y -3.55); page undated, no price, read 20 Nov SGT"
+    },
+    {
+     "date": "2026-11-20",
+     "value": -0.12,
+     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86 (YTD -4.28, 1y -3.56); page undated, no price, read 21 Nov SGT"
     }
    ],
    "name": "PIMCO GIS Income Fund, SGD-hedged class, 1-week total return",
@@ -25602,6 +25616,11 @@
      "date": "2026-11-19",
      "value": 3659.1,
      "source": "Kitco spot gold, bid 3,658.10 / ask 3,660.10, 4:10pm NY 19 Nov 2026, -66.00 (-1.77%) on day; read at source"
+    },
+    {
+     "date": "2026-11-20",
+     "value": 3524.5,
+     "source": "Kitco spot gold, bid 3,523.50 / ask 3,525.50, 4:11pm NY 20 Nov 2026, -100.70 (-2.78%) on day; CNBC: lowest since Sep 2025, about -8.9% on week; read at source"
     }
    ],
    "name": "Gold, spot",
@@ -25613,10 +25632,6 @@
   },
   "btc": {
    "readings": [
-    {
-     "date": "2025-05-09",
-     "value": 104821.19
-    },
     {
      "date": "2025-05-10",
      "value": 104137.62
@@ -27848,6 +27863,10 @@
     {
      "date": "2026-11-18",
      "value": 63171.19
+    },
+    {
+     "date": "2026-11-19",
+     "value": 62017.68
     }
    ],
    "name": "Bitcoin, Coinbase",
@@ -27875,6 +27894,11 @@
      "date": "2026-11-19",
      "value": -0.77,
      "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w -0.77, 1m -0.23, 3m -2.38, 12m div yield 6.57 (YTD -2.32, 1y -1.42; last dividend 0.0496 ex 29 Oct); page undated, no price, read 20 Nov SGT"
+    },
+    {
+     "date": "2026-11-20",
+     "value": 0.0,
+     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57 (YTD -2.32, 1y -1.31); page undated, no price, read 21 Nov SGT"
     }
    ],
    "name": "PIMCO GIS Income Fund, USD class, 1-week total return",
@@ -27898,23 +27922,27 @@
    ]
   },
   {
-   "issue": 168,
-   "date": "2026-11-20",
+   "issue": 169,
+   "date": "2026-11-21",
    "regime": "A real-rate shock: the Federal Reserve tightening",
    "since": 162,
    "triggers": [
-    "The 10-year real yield closes below 2.60 per cent (2.88 on 19 November)",
+    "The 10-year real yield closes below 2.60 per cent (2.77 on 20 November)",
     "The Federal Reserve does not raise rates on 9 December",
-    "The high-yield credit spread closes above 4.0 points (3.47 on 18 November), which would make it a growth scare rather than a rate shock"
+    "The high-yield credit spread closes above 4.0 points (3.52 on 19 November), which would make it a growth scare rather than a rate shock"
    ]
   }
  ],
- "fetched": "2026-11-19T21:03:00Z",
+ "fetched": "2026-11-20T21:03:01Z",
  "fetch_errors": {},
  "holds": {
   "fwd_eps": {
    "issue": 167,
    "reason": "FactSet Earnings Insight 13 Nov states the forward P/E (18.3) and +3.3% EPS change since 30 Sep but no dollar forward EPS level in text; 9 Nov reading 415.82 stands"
+  },
+  "btc_etf_flows": {
+   "issue": 169,
+   "reason": "Weekly total for 16-20 Nov not yet published: SoSoValue Friday data posts Saturday; The Block 20 Nov (SoSoValue) gives only 19 Nov -582.2m and Nov MTD -3.47bn; Farside returned 403"
   }
  }
 }

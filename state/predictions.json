@@ -215,14 +215,16 @@
    "desk": "The Long Read",
    "claim": "DatVietVAC lists on the Ho Chi Minh exchange in October 2026 as targeted",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "DatVietVAC's 111.4m DVV shares began trading on HOSE on 2 November 2026, not in October (IPO at VND54,800, subscriptions closed 7 September). (graded No. 169; Bao Van Hoa, 3 Nov 2026; Vietstock/VIR listing coverage)"
   },
   {
    "issue": 75,
    "desk": "The Long Read",
    "claim": "No NYT/BBC/Reuters/FT feature on Vietnam's idol-economy phenomenon (as opposed to the IPO transaction) appears before the listing",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "No NYT/BBC/Reuters/FT feature on Vietnam's idol economy turned up in a search before the 2 Nov listing, but those outlets are mostly paywalled and one search can't prove there wasn't one. (graded No. 169; Web search (Vietnamese outlets only); listing date per Bao Van Hoa)"
   },
   {
    "issue": 75,
@@ -303,7 +305,8 @@
    "desk": "The Kit",
    "claim": "Insta360 X6's app-stability/overheating complaints are addressed via firmware within ~3 months of launch",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "No Insta360 X6 firmware release note mentioning overheating or app stability was found. Insta360's download page returned 403, and its support pages only give usage advice. (graded No. 169; Insta360 online manual (X6 troubleshooting); insta360.com download page blocked)"
   },
   {
    "issue": 84,
@@ -475,14 +478,16 @@
    "desk": "Technology",
    "claim": "DeepSeek keeps V4 Pro alive (retirement reversed); no V4.1 Pro shipped yet — a V4.1 Pro appears later",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "DeepSeek did keep V4 Pro running past 14 September, but no V4.1 Pro had shipped by 15 November. The changelog shows only V4.1 Flash (10 Sep), the V4.1-Flash-1017 update (17 Oct) and Flash application APIs (13 Nov). (graded No. 169; api-docs.deepseek.com/updates)"
   },
   {
    "issue": 103,
    "desk": "Diary",
    "claim": "Assaggi (Neil Rd) stays the highest-demand of the batch (booked to December); Tembusu/Osteria Mozza too new to judge",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "Assaggi's demand was never measured again after No. 103's 'booked to December'. No. 109 found no outlet had reviewed it, and no booking data is available for any of the batch. (graded No. 169; MERIDIAN No. 109; no booking data found)"
   },
   {
    "issue": 103,
@@ -573,7 +578,8 @@
    "desk": "The Kit",
    "claim": "The 512GB Mac Studio configuration ships in the late-October 2026 window Apple stated, without slipping to November.",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Apple opened orders for the 512GB Mac Studio on 28 October at US$22,299 with shipping 'from late November', so it slipped past the late-October window. (graded No. 169; MERIDIAN No. 150 (Apple store listing))"
   },
   {
    "issue": 107,
@@ -2328,7 +2334,8 @@
    "desk": "The Kit",
    "claim": "A measured review of the Technics EAH-A1000 (battery or attenuation) is published by 15 November 2026",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "Reviews were published before 15 November (Engadget 16 Oct, What Hi-Fi, Tom's Guide, TechRadar), but none found gives a measured battery rundown or attenuation figure. No RTINGS/SoundGuys test exists, and the Tom's Guide body could not be read. (graded No. 169; Web search; MERIDIAN No. 135)"
   },
   {
    "issue": 120,
@@ -2482,14 +2489,16 @@
    "desk": "Technology",
    "claim": "Mistral Large 4's weights are published under a named licence by 15 November 2026",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Mistral published open weights for Mistral Large 4 on 29 October under a modified MIT licence, which requires a separate commercial licence for model-as-a-service businesses. (graded No. 169; MERIDIAN No. 148 (Mistral model card))"
   },
   {
    "issue": 125,
    "desk": "Technology",
    "claim": "Reflection AI's Beam weights are downloadable by 15 November 2026",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Reflection AI published Beam 1.0's weights on 16 October under Apache 2.0 (501.3bn parameters, 23.4bn active), and they were runnable in llama.cpp and Ollama the same day. (graded No. 169; MERIDIAN Nos. 136, 138 (Hugging Face release))"
   },
   {
    "issue": 125,
@@ -2885,7 +2894,8 @@
    "desk": "The Kit",
    "claim": "No independent measured battery result for the Enduro 4 is published before 15 November 2026",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "Tom's Guide has published an Enduro 4 review saying battery life 'didn't disappoint' in its testing, but its date and any measured figures could not be read, so it is unclear whether a measured result came out before 15 November. (graded No. 169; Tom's Guide Enduro 4 review (body unreadable); web search)"
   },
   {
    "issue": 129,
@@ -3275,7 +3285,8 @@
    "desk": "The World",
    "claim": "Saudi Aramco publishes or confirms no photograph of the 13 October Dhahran strike damage before 15 November 2026",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "Searches of the strike coverage (Reuters, Bloomberg, The National, World Oil) found only file photos of the Dhahran complex. Aramco published no damage photograph, and the ministry kept to 'a limited fire'. This rests on not finding one, so confidence is low. (graded No. 169; Web search of 13-14 Oct coverage; MERIDIAN No. 133)"
   },
   {
    "issue": 133,
@@ -3595,7 +3606,8 @@
    "desk": "The Kit",
    "claim": "Apple HomeView ships in Singapore on 13 November 2026 as listed",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Apple put HomeView on sale in Singapore on Friday 13 November at S$399 for both the tabletop and wall models (US$299). (graded No. 169; MERIDIAN No. 162 (Apple newsroom))"
   },
   {
    "issue": "135",
@@ -3861,7 +3873,8 @@
    "desk": "The World",
    "claim": "JAXA's MMX launches successfully within its reserve window ending 7 November 2026",
    "check_by": "2026-11-10",
-   "outcome": null
+   "outcome": "right",
+   "result": "H3 Flight No. 10 launched MMX from Tanegashima at 04:41:03 JST on 20 October and separated it into a Mars transfer orbit 71 minutes later, well inside the window ending 7 November. (graded No. 169; MERIDIAN Nos. 138, 140 (JAXA))"
   },
   {
    "issue": "137",
@@ -3927,7 +3940,8 @@
    "desk": "Singapore",
    "claim": "October NODX growth comes in below September's 68.4% once the lumpy ship-and-boat contribution drops out",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "October NODX rose 79.8% year on year, above September's 68.3% (revised from 68.4%). US shipments were up 214.6%. (graded No. 169; Enterprise Singapore release, 17 Nov 2026, via MERIDIAN No. 166)"
   },
   {
    "issue": 140,
@@ -3941,7 +3955,8 @@
    "desk": "The Home Lab",
    "claim": "An independent third-party benchmark of Recursive Flint's tokens-per-second is published",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "An independent run by the Kapitsa engine developers, dated 22 October, measured Flint at 79.57 tok/s (Q4_1, llama.cpp b11804, 48GB M4 Pro MacBook Pro), against Recursive's own 131.2. (graded No. 169; llmcheck.net (citing nace-ai/kapitsa README))"
   },
   {
    "issue": 140,
@@ -4005,7 +4020,8 @@
    "desk": "The Long Read",
    "claim": "A Western major (NYT/BBC/Reuters/FT/Economist) runs a feature on tokuryu as a phenomenon within ~4 weeks",
    "check_by": "2026-11-19",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "No NYT/BBC/Reuters/FT/Economist feature on tokuryu dated within four weeks of No. 140 turned up in two searches. The paywalled archives were not readable, so absence isn't proven. (graded No. 169; Web search)"
   },
   {
    "issue": 141,
@@ -4054,7 +4070,8 @@
    "desk": "The Rabbit Hole",
    "claim": "Durston's X-Dome Pro 1+ restock of 17 November 2026 sells out within 24 hours",
    "check_by": "2026-11-19",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "Nothing was found on how quickly Durston's 17 November X-Dome Pro 1+ restock sold, and the product pages returned 404. (graded No. 169; Web search; durstongear.com 404)"
   },
   {
    "issue": 141,
@@ -5033,7 +5050,8 @@
    "desk": "The Diary",
    "claim": "Gardens by the Bay announces Christmas Wonderland 2026 dates by 15 November 2026",
    "check_by": "2026-11-15",
-   "outcome": null
+   "outcome": "right",
+   "result": "The dates went up on Gardens by the Bay's own page by 8 November: 27 November to 3 January, 6.30pm-11pm at Supertree Grove. (graded No. 169; MERIDIAN Nos. 156, 158)"
   },
   {
    "issue": 148,
@@ -5300,14 +5318,16 @@
    "desk": "The Diary",
    "claim": "Gardens by the Bay confirms Christmas Wonderland 2026 dates and prices",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "Dates (27 Nov-3 Jan) and prices were confirmed: adults S$9-13 advance (S$12-16 same day), children 3-12 S$7. They first appeared by 13 November, and No. 168 found standalone entry priced on the organiser page. (graded No. 169; MERIDIAN Nos. 161, 168; christmaswonderland.sg)"
   },
   {
    "issue": 152,
    "desk": "The World",
    "claim": "Washington publicly responds to Araghchi's two-day reopening offer",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "No public US response specifically to Araghchi's two-day offer was found. No. 152 already had Trump's 'no rush', and No. 165 has only a carrier deployment ('answered with hulls') and a new Araghchi bloc offer. (graded No. 169; MERIDIAN Nos. 152, 165; web search)"
   },
   {
    "issue": 152,
@@ -5377,7 +5397,8 @@
    "desk": "Screen & Sound",
    "claim": "My Chemical Romance hold number one for a second week",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Olivia Rodrigo took back No. 1 on the Billboard 200 dated 14 November (fourth week, 57,000 units), so The Black Parade held for one week only. In the UK, Queens of the Stone Age topped the chart dated 6-12 November. (graded No. 169; Billboard chart reporting; Official Charts Company albums chart 6-12 Nov 2026; MERIDIAN No. 165)"
   },
   {
    "issue": 152,
@@ -5957,7 +5978,8 @@
    "desk": "The Good Life",
    "claim": "Phillips' Geneva XXIV sale total is published above CHF 100m",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Phillips' release put Geneva XXIV at CHF 92,045,568 (US$112,277,184), with 217 of 217 lots sold. That is above US$100m but below CHF 100m. (graded No. 169; Phillips release via MERIDIAN Nos. 158, 160)"
   },
   {
    "issue": 156,
@@ -6104,21 +6126,24 @@
    "desk": "The Good Life",
    "claim": "The Ming 51.01 Halo edition of 150 sells out on the day orders open",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "unresolved",
+   "result": "Ming's 51.01 Halo page now reads 'sold out', but nothing says when the 150 pieces went after orders opened on 10 November, so a same-day sellout can't be confirmed. (graded No. 169; ming.watch/featured-product/ming-51-01-halo)"
   },
   {
    "issue": 158,
    "desk": "Screen & Sound",
    "claim": "Godzilla Minus Zero's second American weekend holds above 50 per cent of its opening",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Godzilla Minus Zero's second weekend was US$8,509,392, down 72.2% from US$30,637,997, so it held only 27.8%. (graded No. 169; Box Office Mojo weekends 45-46, 2026)"
   },
   {
    "issue": 158,
    "desk": "Screen & Sound",
    "claim": "The final American opening figure comes in below the estimated US$31.61m",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "The final opening came in at US$30,637,997, below the US$31.61m estimate. (graded No. 169; Box Office Mojo weekend 45 (6-8 Nov 2026))"
   },
   {
    "issue": 158,
@@ -6286,7 +6311,8 @@
    "desk": "Screen & Sound",
    "claim": "Godzilla Minus Zero's US second weekend (13-15 Nov) is reported below its $30.59m opening",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "The second weekend (13-15 Nov) was US$8,509,392, far below the opening (US$30.59m estimate, US$30,637,997 final). (graded No. 169; Box Office Mojo weekend 46)"
   },
   {
    "issue": 159,
@@ -6412,7 +6438,8 @@
    "desk": "The World",
    "claim": "Nvidia's Q3 FY2027 results on 17 November beat consensus revenue and guidance holds",
    "check_by": "2026-11-18",
-   "outcome": null
+   "outcome": "push",
+   "result": "Revenue beat: US$115.8bn, about US$7bn over consensus. Q4 revenue guidance was US$130bn against about US$124.8bn expected, but gross margin was guided down to 71-72% from 74.8%, so guidance only partly held. (graded No. 169; Nvidia Q3 FY2027 release/10-Q via MERIDIAN No. 166)"
   },
   {
    "issue": 161,
@@ -6531,14 +6558,16 @@
    "desk": "The Macro Desk",
    "claim": "October Singapore NODX, when it lands 16-17 November, comes in below September's +68.4% year on year",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "October NODX rose 79.8% year on year, faster than September's +68.3% (first reported as 68.4%). (graded No. 169; Enterprise Singapore, 17 Nov 2026, via MERIDIAN No. 166)"
   },
   {
    "issue": 162,
    "desk": "Technology",
    "claim": "Anthropic prices its IPO at $78.00, the top of the $70-78 range, on 18 November 2026",
    "check_by": "2026-11-19",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Anthropic priced on 18 November at US$83, above the US$70-78 range, not US$78. It sold 980m shares for US$81.34bn. (graded No. 169; Final prospectus (SEC, 19 Nov) via MERIDIAN No. 168)"
   },
   {
    "issue": 162,
@@ -6566,14 +6595,16 @@
    "desk": "Screen & Sound",
    "claim": "Godzilla Minus Zero falls to second behind Ebenezer on the US domestic weekend of 13-15 November 2026",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Godzilla Minus Zero fell to third (US$8.51m), behind Ebenezer (US$19.01m) and The Cat in the Hat (US$11.30m). (graded No. 169; Box Office Mojo weekend 46)"
   },
   {
    "issue": 162,
    "desk": "Screen & Sound",
    "claim": "Godzilla Minus Zero's second US weekend comes in below $15,000,000",
    "check_by": "2026-11-17",
-   "outcome": null
+   "outcome": "right",
+   "result": "The second weekend was US$8,509,392, below US$15m. (graded No. 169; Box Office Mojo weekend 46)"
   },
   {
    "issue": 162,
@@ -6601,7 +6632,8 @@
    "desk": "The Good Life",
    "claim": "Technics' EAH-A1000 reaches Japanese retail on 19 November 2026",
    "check_by": "2026-11-19",
-   "outcome": null
+   "outcome": "right",
+   "result": "Panasonic set the Japan launch for 19 November, and Kakaku.com lists that release date with 23 shops from ¥58,806. Some listings still carried 'scheduled' tags, so actual shipping wasn't independently confirmed. (graded No. 169; Panasonic JP press release 30 Sep; kakaku.com)"
   },
   {
    "issue": 162,
@@ -6692,7 +6724,8 @@
    "desk": "Technology",
    "claim": "Nvidia's Q3 FY2027 results, due 17 November 2026, are published on that date",
    "check_by": "2026-11-18",
-   "outcome": null
+   "outcome": "right",
+   "result": "Nvidia filed Q3 results with the SEC at 05:25 SGT on 18 November, which is the afternoon of 17 November in US time, the stated date. (graded No. 169; MERIDIAN No. 166 (SEC filing timestamp))"
   },
   {
    "issue": 163,
@@ -6720,7 +6753,8 @@
    "desk": "Singapore",
    "claim": "October non-oil domestic exports are released on Tuesday 17 November 2026",
    "check_by": "2026-11-18",
-   "outcome": null
+   "outcome": "right",
+   "result": "Enterprise Singapore published October NODX on Tuesday 17 November (+79.8%). (graded No. 169; MERIDIAN No. 166)"
   },
   {
    "issue": 163,
@@ -6755,7 +6789,8 @@
    "desk": "Screen & Sound",
    "claim": "Ebenezer's American opening weekend finishes below Paramount's $20m projection",
    "check_by": "2026-11-18",
-   "outcome": null
+   "outcome": "right",
+   "result": "Ebenezer opened at US$19,012,017 from 3,535 sites, below Paramount's US$20m projection. (graded No. 169; Box Office Mojo weekend 46)"
   },
   {
    "issue": 163,
@@ -6818,7 +6853,8 @@
    "desk": "Technology",
    "claim": "Nvidia's Q3 FY2027 revenue, reported 17 November 2026, lands inside the $108.8bn-$111.4bn analyst range",
    "check_by": "2026-11-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Revenue came in at US$115.8bn, above the US$108.8-111.4bn analyst range. (graded No. 169; Nvidia Q3 FY2027 results via MERIDIAN No. 166)"
   },
   {
    "issue": 164,
@@ -6867,7 +6903,8 @@
    "desk": "Singapore",
    "claim": "October 2026 non-oil domestic exports, released 17 November, grow more slowly than September's 68.4 per cent",
    "check_by": "2026-11-18",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "October NODX grew 79.8%, faster than September's 68.3%/68.4%. (graded No. 169; Enterprise Singapore via MERIDIAN No. 166)"
   },
   {
    "issue": 164,
@@ -6944,14 +6981,16 @@
    "desk": "The World",
    "claim": "Trump, Xi and Putin hold the trilateral meeting in Shenzhen on 19 November 2026 as all three capitals stated",
    "check_by": "2026-11-21",
-   "outcome": null
+   "outcome": "right",
+   "result": "Trump, Xi and Putin held the first China-Russia-US leaders' meeting in Shenzhen on 19 November and adopted the 'Declaration toward Peace'. (graded No. 169; Kremlin transcript/Xinhua via MERIDIAN No. 168)"
   },
   {
    "issue": 165,
    "desk": "The World",
    "claim": "The Coalition of the Willing summit convenes in Berlin on 19 November 2026",
    "check_by": "2026-11-21",
-   "outcome": null
+   "outcome": "right",
+   "result": "The Coalition of the Willing met in Berlin on 19 November (Merz, Macron, Burnham, Zelensky), asked Russia for a winter energy truce and pledged EUR90bn in EU loans. (graded No. 169; MERIDIAN No. 168)"
   },
   {
    "issue": 165,
@@ -6965,21 +7004,24 @@
    "desk": "Singapore",
    "claim": "October non-oil domestic exports, released 17 November 2026, grow by less than September's 68.4 per cent year on year",
    "check_by": "2026-11-19",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "October NODX grew 79.8%, faster than September's 68.3%/68.4%. (graded No. 169; Enterprise Singapore via MERIDIAN No. 166)"
   },
   {
    "issue": 165,
    "desk": "Technology",
    "claim": "Nvidia's third-quarter revenue comes in above the $108bn midpoint of its own guidance",
    "check_by": "2026-11-19",
-   "outcome": null
+   "outcome": "right",
+   "result": "Q3 revenue was US$115.8bn, above the US$108bn midpoint of guidance. (graded No. 169; Nvidia Q3 FY2027 results via MERIDIAN No. 166)"
   },
   {
    "issue": 165,
    "desk": "Technology",
    "claim": "Anthropic prices its initial public offering on 18 November 2026 within the stated $70 to $78 range",
    "check_by": "2026-11-21",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Anthropic priced on 18 November at US$83 a share, above the US$70-78 range. (graded No. 169; Final prospectus via MERIDIAN No. 168)"
   },
   {
    "issue": 165,
@@ -7126,7 +7168,8 @@
    "desk": "Singapore",
    "claim": "The Bureau of Industry and Security rule RIN 0694-AK50 is published in the Federal Register on 19 November 2026 as scheduled",
    "check_by": "2026-11-21",
-   "outcome": null
+   "outcome": "right",
+   "result": "RIN 0694-AK50 was published as FR document 2026-23529 at 91 FR 74970 on Thursday 19 November, effective that day. (graded No. 169; Federal Register Vol. 91 No. 222 via MERIDIAN Nos. 166, 168)"
   },
   {
    "issue": 166,
@@ -7343,14 +7386,16 @@
    "desk": "The World",
    "claim": "Shenzhen produces no joint three-leader communiqué, only separate statements",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Shenzhen produced one joint three-leader text, the four-point 'Declaration toward Peace' published in full by Xinhua, not just separate statements. (graded No. 169; MERIDIAN No. 168 (Kremlin/Xinhua))"
   },
   {
    "issue": 167,
    "desk": "The World",
    "claim": "No US-China trade-truce extension is announced at Shenzhen (truce expires 10 Jan 2027)",
    "check_by": "2026-11-20",
-   "outcome": null
+   "outcome": "right",
+   "result": "The Shenzhen outcome as reported was the four-point declaration plus bilateral talks. No trade-truce extension was announced, and the Busan truce still expires 10 January 2027. (graded No. 169; MERIDIAN No. 168; web search)"
   },
   {
    "issue": 167,
@@ -7532,6 +7577,146 @@
    "desk": "The Rabbit Hole",
    "claim": "HUUB discounts the SUB7 at its own shop before the 2027 UK season",
    "check_by": "2027-05-31",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Diary",
+   "claim": "Grand Sumo January tournament tickets go on sale 5 Dec 2026, 10am JST",
+   "check_by": "2026-12-05",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Diary",
+   "claim": "Australian Open early-bird prices end 30 Nov 2026",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Diary",
+   "claim": "Sapporo Snow Festival runs 4-11 Feb 2027 as organiser lists",
+   "check_by": "2027-02-11",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Family Desk",
+   "claim": "MOE confirms S1 posting results for Friday 18 December 2026",
+   "check_by": "2026-12-18",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Good Life",
+   "claim": "Phillips lot 958 (Patek 2499) sells inside its HK$12-24m estimate, below HK$20m",
+   "check_by": "2026-11-22",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Long Read",
+   "claim": "No Australian state passes a retail fur-sale ban before 30 June 2027",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Lean: VWRA lower; wrong if NAV above US$180 on 27 Nov (178.81 on 19 Nov)",
+   "check_by": "2026-11-28",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Lean: PIMCO Income up a little; wrong if US 10-year closes back above 5.10% (4.92 on 20 Nov)",
+   "check_by": "2026-11-28",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Lean: gold lower; wrong on a spot close above $3,700 (3,524 on 20 Nov)",
+   "check_by": "2026-11-28",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Lean: bitcoin lower; wrong above $64,000 (58,188 on 20 Nov)",
+   "check_by": "2026-11-28",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: US 10-year real yield closes below 2.60% (2.77 on 20 Nov) would change the call",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: the Fed does not raise rates on 9 December would change the call",
+   "check_by": "2026-12-10",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: US high-yield spread closes above 4.0 points (3.52 on 19 Nov) would change the call",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "Screen & Sound",
+   "claim": "Sunrise on the Reaping opens at US$100m+ domestic (TheWrap's call, printed attributed)",
+   "check_by": "2026-11-24",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "Singapore",
+   "claim": "CSFTA 4.0 not concluded within a year",
+   "check_by": "2027-11-20",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "Technology",
+   "claim": "Nvidia Q4 FY2027 gross margin lands within its 71-72% guidance",
+   "check_by": "2027-02-28",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Kit",
+   "claim": "Teenage Engineering EP/BC-1 pre-orders ship by 30 Nov",
+   "check_by": "2026-11-30",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Travel Desk",
+   "claim": "SIA's third daily Frankfurt does not return in the summer 2027 schedule",
+   "check_by": "2027-04-01",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The Travel Desk",
+   "claim": "Twelve Apostles booking fee takes effect in April 2027",
+   "check_by": "2027-05-01",
+   "outcome": null
+  },
+  {
+   "issue": 169,
+   "desk": "The World",
+   "claim": "Estonia's five road checkpoints close at 07:00 on 1 Dec 2026, rail freight continuing",
+   "check_by": "2026-12-01",
    "outcome": null
   }
  ]

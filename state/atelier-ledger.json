@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Door &amp; window hardware",
+      "issue": "169",
+      "angle": "<b>The steel set prints its grade; the brass houses print a photograph.</b> Auto-picked from No. 168&rsquo;s Next-on-the-Bench chips (carbon-steel pans passed over: No. 88 covered cast-iron &amp; carbon-steel cookware). HOPPE Amsterdam data sheet EN 1906 37-0140A decoded (cat 3, 200,000 cycles, corr"
+    },
+    {
       "category": "Wooden dining chairs",
       "issue": "168",
       "angle": "<b>The joint is the chair, and almost nobody prints what it survived.</b> Fredericia publishes a DTI EN 16139 L2 pass (3236 Mogensen, 2,000 N seat, 200,000 cycles); Carl Hansen's CH30 sheet claims L1 (≤110 kg); no CH24 test found. Tiers: Ercol Windsor from £510 / CH24 oiled oak $1,320 list / Chicone"
@@ -478,6 +483,30 @@
   ],
   "queued": [],
   "pipeline": [
+    {
+      "category": "Chopsticks (lacquer &amp; wood)",
+      "rotation": "Kitchen / table",
+      "fit": "Wakasa-nuri and Japanese lacquer workshops against resin; Hyogo and Obama makers",
+      "sources": "Layered urushi against dishwasher-safe resin."
+    },
+    {
+      "category": "Candles (wax, wick &amp; burn)",
+      "rotation": "Home",
+      "fit": "Beeswax, soy and paraffin; Cire Trudon, Diptyque&rsquo;s makers, small chandlers; r/candlemaking",
+      "sources": "The wick decides the soot."
+    },
+    {
+      "category": "Hand-built bicycle wheels &amp; hubs",
+      "rotation": "Sport / tools",
+      "fit": "Chris King, DT Swiss, Hope; named wheelbuilders; r/wheelbuild",
+      "sources": "Spoke tension and the signed wheel."
+    },
+    {
+      "category": "Wine glasses (blown against pulled stem)",
+      "rotation": "Kitchen / table",
+      "fit": "Zalto, Riedel, Lobmeyr, Jancis Robinson&rsquo;s glass; the hand-blown vs machine-pulled stem",
+      "sources": "What a 1mm rim does."
+    },
     {
       "category": "Tool chests &amp; roller cabinets",
       "rotation": "Tools / home",

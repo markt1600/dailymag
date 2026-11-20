@@ -4,6 +4,23 @@
 
 |Subject|Type|Last covered|Last peg covered|Status / next peg|
 |China&ndash;Russia&ndash;US Declaration toward Peace (Shenzhen), 19 Nov 2026|Document (diplomacy)|No. 168|World LEAD &mdash; four points (UN reform, fuel supply, ICC curb, nuclear war cannot be won); no Ukraine, Iran or Taiwan; Putin on Yalta; five-capital panels; Eyal (RUSI) sceptic.|Next peg = a date for the nuclear-risk talks, or Trump&rsquo;s 20 Nov press conference.|
+|ICJ judgment, The Gambia v. Myanmar (Rohingya genocide), 19 Nov 2026|Ruling|No. 169|World LEAD &mdash; 9&ndash;6 that Myanmar committed genocide, the court&rsquo;s first such finding against a state; compensation, report within two years.|Next peg: any Security Council referral or US sanction of judges.|
+|Estonia&ndash;Russia road border closure from 1 Dec 2026|Policy|No. 169|World p4 &mdash; all five checkpoints for six months after the Threod Systems arson; 760,000 crossings this year.|Next peg: closure starts 1 Dec.|
+|China&ndash;Singapore FTA 4.0 negotiations|Trade talks|No. 169|Singapore LEAD &mdash; launched by Wong and Xi, Shenzhen, 20 Nov; digital economy, procurement; no timetable.|Next peg: first round or JCBC.|
+|Nvidia share rout (seven weekly losses; SEC report)|Market|No. 169|Tech LEAD &mdash; $125.53, &minus;14% on 20 Nov; no permanent CEO; Reuters SEC report single-sourced.|Next peg: SEC confirmation, CEO named.|
+|Nvidia GeForce 621.14/621.24 idle drive writes|Software defect|No. 169|Home Lab LEAD &mdash; up to 30GB an hour reported; no Nvidia acknowledgement by 20 Nov.|Next peg: fixed driver.|
+|Teenage Engineering EP/BC-1 CD player|Product|No. 169|Kit LEAD &mdash; on sale 20 Nov, US$329.|Next peg: first independent review, SG price.|
+|Phillips HK Watch Auction XXIII, Patek 2499 lot 958|Auction|No. 169|Good Life LEAD &mdash; preview on sale day; est HK$12&ndash;24m; call: below HK$20m.|Next peg: result (H052).|
+|The Hunger Games: Sunrise on the Reaping|Film|No. 169|Screen DELTA on No. 167 &mdash; $21m previews; RT 67/95; MC 55.|Next peg: opening weekend.|
+|Stony Brook MEDiA study (phones and teen sleep, JAH 6 Nov 2026)|Study|No. 169|Family LEAD &mdash; n=218; ~26 min less sleep per overnight hour; girls steeper.|Closed unless full text changes it.|
+|Big-fish-little-pond effect and S1 choices|Study / policy|No. 169|Tween &mdash; Liem 2013 Singapore; Fang 2018 meta &minus;0.28; S1 choices close 30 Nov.|Next peg: S1 posting 18 Dec.|
+|Deng et al., exercise dose and visceral fat (Obes Rev, 10 Nov 2026)|Study|No. 169|Fitness LEAD &mdash; 78 reports, 4,930 adults; vigorous cardio/HIIT &minus;0.73; optimum ~750 MET-min a week.|Closed.|
+|S&amp;P 500 correction, 20 Nov 2026|Market|No. 169|Macro LEAD &mdash; &minus;3.7% to 6,910; worst week since April 2025; Treasuries rallied (10y 4.92).|Developing.|
+|KrisFlyer 2027 rewards overhaul|Loyalty|No. 169|Departures LEAD &mdash; upgrade certificates become 10,000/20,000-mile discounts from 1 Jan 2027.|Next peg: 1 Jan start.|
+|SIA Frankfurt/Munich Feb&ndash;Mar 2027 cut|Route|No. 169|Departures p21 &mdash; 118 flights, single-sourced (Mainly Miles).|Next peg: SIA confirmation.|
+|Twelve Apostles booked-arrival precinct (Keerray Woorroong)|Attraction|No. 169|Grand Tour &mdash; opened 16 Oct 2026; free to April 2027, then a fee.|Next peg: fee announced.|
+|Sapporo Snow Festival 2027|Event|No. 169|Diary LEAD &mdash; 4&ndash;11 Feb dates posted (H043 settled).|Next peg: programme.|
+|YOASOBI, National Stadium, 20 Feb 2027|Event|No. 169|Diary &#9733; pick &mdash; S$108&ndash;498.|Next peg: sell-out.|
 |Coalition of the Willing Berlin summit, 19 Nov 2026|Event (diplomacy)|No. 168|World p4 &mdash; winter energy and Black Sea truce call; &euro;90bn EU loan; Kushner&rsquo;s Article Five-like guarantee; Putin&rsquo;s &ldquo;no negotiations&rdquo;.|Next peg = a Kremlin answer, or a date for talks with Europeans.|
 |US advanced-chip remote-access rule (91 FR 74970, RIN 0694-AK50)|Rule (export control)|No. 168|Singapore LEAD &mdash; published and effective 19 Nov; in-transit by 21 Dec; comments to 19 Jan 2027; ~100 extra licences a year; &ldquo;Super Intelligence&rdquo; footnote.|Next peg = a licence decision or a BIS clarification.|
 |Anthropic IPO priced (ANT, Nasdaq)|Listing|No. 168|Technology LEAD &mdash; $83, 980m shares, $81.34bn; opened $111.50, closed $97.17 (+17.1%) 19 Nov; float 7.4%. Disclosed conflict printed.|Next peg = over-allotment exercise or first quarterly results; otherwise brief only.|

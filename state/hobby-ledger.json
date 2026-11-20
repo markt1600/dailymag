@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Go (weiqi &amp; baduk)",
+      "issue": "169",
+      "angle": "<b>Auto-picked from No. 168&rsquo;s Next-Descents chips</b> (queue empty, no editor note, no Rabbit Hole Next vote since the previous builtAt) over contract bridge and cryptic crosswords. The equipment is priced by thickness, not play: Kurokigoishiten&rsquo;s Premium snow clamshell runs &yen;158,400"
+    },
+    {
       "hobby": "Wild swimming &amp; open-water swimming",
       "issue": "168",
       "angle": "Auto-picked from No. 167's chips (foraging overlaps mycology; pen restoration overlaps Fountain pens); swimming hobby, not immersion physiology (No. 166 Fitness). PEG: Hong Kong's Victoria Harbour Race, 15 Nov 2026, 120th anniversary, ~4,000 swimmers. SCALE: OSS 300 members (2006) to 200,000+; Activ"
@@ -534,13 +539,31 @@
   "queued": [],
   "pipeline": [
     {
+      "hobby": "Kite flying &amp; fighting kites (layang-layang, rokkaku)",
+      "category": "Outdoor / craft",
+      "communities": "r/kites, the Pasir Gudang festival, rokkaku battle clubs, Singapore Kite Association",
+      "fit": "Hand-built kites, glass-coated line and a Malaysian festival a drive away."
+    },
+    {
+      "hobby": "Chess problem composing",
+      "category": "Games / mind",
+      "communities": "the WFCC, Problemist, the Meson database",
+      "fit": "Composition, not play: a solved art with an active fringe."
+    },
+    {
+      "hobby": "Bookbinding",
+      "category": "Craft",
+      "communities": "r/bookbinding, DAS Bookbinding, Designer Bookbinders",
+      "fit": "Sewn signatures, the bone folder and the press worth buying once."
+    },
+    {
       "hobby": "Contract bridge (duplicate &amp; club play)",
       "category": "Games / mind",
       "communities": "BridgeBase Online, the ACBL and EBU, Bridge Winners, the Singapore Contract Bridge Association",
       "fit": "A partnership bidding language, master-point ladders and weekly clubs; a lifelong game with a real Singapore scene."
     },
     {
-      "hobby": "Go (weiqi &amp; baduk)",
+      "hobby": "~~Go (weiqi &amp; baduk)~~ (COVERED, No. 169)",
       "category": "Games / mind",
       "communities": "r/baduk, OGS and KGS, the Nihon Ki-in and the Singapore Weiqi Association",
       "fit": "Kaya boards and clamshell stones, a rank ladder, and a culture reshaped by AlphaGo."

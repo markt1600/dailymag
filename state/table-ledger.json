@@ -2016,9 +2016,10 @@
       "venue": "Casa Mori",
       "key": "Casa Mori",
       "runs": [
-        148
+        148,
+        169
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 148 build",
       "note": "opening run — record the peg here"
     },
@@ -2183,9 +2184,10 @@
       "venue": "HanBroth",
       "key": "HanBroth",
       "runs": [
-        156
+        156,
+        169
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 156 build",
       "note": "opening run — record the peg here"
     },
@@ -2256,9 +2258,10 @@
       "venue": "Three Bowls",
       "key": "Three Bowls",
       "runs": [
-        157
+        157,
+        169
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 157 build",
       "note": "opening run — record the peg here"
     },
@@ -2544,7 +2547,7 @@
       "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 169,
+  "barred_for_issue": 170,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2669,6 +2672,7 @@
     "Foca Kumpir",
     "Ng Kuan Chilli Pan Mee",
     "OVER",
+    "Casa Mori",
     "HANDO",
     "Yee3",
     "Tan Ser Seng Herbal Soup",
@@ -2676,12 +2680,12 @@
     "Mr. CHEESECAKE",
     "Nekobushi",
     "Woodsmen by Cut Butchery",
+    "HanBroth",
     "Greenwood Fish Market",
     "Earworm",
     "JJAN",
+    "Three Bowls",
     "Cranki Patisserie",
-    "Chi Spacca Singapore",
-    "Hippopotato",
     "Reference Room Cafe",
     "Kemuri Coffee Co.",
     "Sohaus",

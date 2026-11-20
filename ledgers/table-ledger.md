@@ -227,7 +227,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Cafe Yasuragi | Cafe Yasuragi | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | Cafe Nesuto | Cafe Nesuto | 147 | OPEN | No. 147 build | opening run — record the peg here |
 | OVER | OVER | 148, 155 | SPENT | No. 148 build | opening run — record the peg here |
-| Casa Mori | Casa Mori | 148 | OPEN | No. 148 build | opening run — record the peg here |
+| Casa Mori | Casa Mori | 148, 169 | SPENT | No. 148 build | opening run — record the peg here |
 | HANDO | HANDO | 148, 155 | SPENT | No. 148 build | opening run — record the peg here |
 | Nook Coffee | Nook Coffee | 150 | OPEN | No. 150 build | opening run — record the peg here |
 | Yee3 | Yee3 | 150, 157 | SPENT | No. 150 build | opening run — record the peg here |
@@ -243,14 +243,14 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153, 161 | SPENT | No. 153 build | opening run — record the peg here |
 | Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155 | OPEN | No. 155 build | opening run — record the peg here |
 | Menya Saku | Menya Saku | 155 | OPEN | No. 155 build | opening run — record the peg here |
-| HanBroth | HanBroth | 156 | OPEN | No. 156 build | opening run — record the peg here |
+| HanBroth | HanBroth | 156, 169 | SPENT | No. 156 build | opening run — record the peg here |
 | The Hokkien Mee Club | The Hokkien Mee Club | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | ODD Ramen & Diner | ODD Ramen & Diner | 156 | OPEN | No. 156 build | opening run — record the peg here |
 | Greenwood Fish Market | Greenwood Fish Market | 156, 166 | SPENT | No. 156 build | opening run — record the peg here |
 | Earworm | Earworm | 156, 163 | SPENT | No. 156 build | opening run — record the peg here |
 | JJAN | JJAN | 157, 164 | SPENT | No. 157 build | opening run — record the peg here |
 | HI BOWL | HI BOWL | 157 | OPEN | No. 157 build | opening run — record the peg here |
-| Three Bowls | Three Bowls | 157 | OPEN | No. 157 build | opening run — record the peg here |
+| Three Bowls | Three Bowls | 157, 169 | SPENT | No. 157 build | opening run — record the peg here |
 | Cranki Patisserie | Cranki Patisserie | 158, 166 | SPENT | No. 158 build | opening run — record the peg here |
 | Casa Osteria | Casa Osteria | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | AhMah’s Legacy | AhMah’s Legacy | 158 | OPEN | No. 158 build | opening run — record the peg here |
