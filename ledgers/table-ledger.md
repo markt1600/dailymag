@@ -255,10 +255,10 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Casa Osteria | Casa Osteria | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | AhMah’s Legacy | AhMah’s Legacy | 158 | OPEN | No. 158 build | opening run — record the peg here |
 | Habibi Kebs | Habibi Kebs | 159 | OPEN | No. 159 build | opening run — record the peg here |
-| Mala Mia | Mala Mia | 160 | OPEN | No. 160 build | opening run — record the peg here |
+| Mala Mia | Mala Mia | 160, 170 | SPENT | No. 160 build | opening run — record the peg here |
 | Yeah Gelato | Yeah Gelato | 160 | OPEN | No. 160 build | opening run — record the peg here |
 | Soi Stories | Soi Stories | 160 | OPEN | No. 160 build | opening run — record the peg here |
-| Casa Vostra | Casa Vostra | 161 | OPEN | No. 161 build | opening run — record the peg here |
+| Casa Vostra | Casa Vostra | 161, 170 | SPENT | No. 161 build | opening run — record the peg here |
 | Ma Cuisinette | Ma Cuisinette | 161 | OPEN | No. 161 build | opening run — record the peg here |
 | Good Luck Bagels | Good Luck Bagels | 162 | OPEN | No. 162 build | opening run — record the peg here |
 | Peach Blossoms | Peach Blossoms | 162 | OPEN | No. 162 build | opening run — record the peg here |

@@ -1,11 +1,11 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-20T21:03:01Z.
+Last fetch: 2026-11-21T21:03:30Z.
 
 ## The Call
 
-**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 169 (2026-11-21).
+**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 170 (2026-11-22).
 
 What would change it:
 - The 10-year real yield closes below 2.60 per cent (2.77 on 20 November)
@@ -20,21 +20,21 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 178.81 | 2026-11-19 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 19 Nov 2026 (-2.91, -1.60%); GBP line VWRP 20 Nov market value GBP133.52 (-3.26%); P/E 19.6x at 31 Oct; read at source |
-| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | -0.12 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86 (YTD -4.28, 1y -3.56); page undated, no price, read 21 Nov SGT |
-| gold | Gold, spot (US$/oz) | 3,524 | 2026-11-20 | — | — | — | — | — | Kitco spot gold, bid 3,523.50 / ask 3,525.50, 4:11pm NY 20 Nov 2026, -100.70 (-2.78%) on day; CNBC: lowest since Sep 2025, about -8.9% on week; read at source |
-| btc | Bitcoin, Coinbase (US$) | 62,018 | 2026-11-19 | -8,805 | -19,208 | -11,069 | -29,766 | down 5 weeks running; 9% of its 1-year range | FRED CBBTCUSD |
-| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.00 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57 (YTD -2.32, 1y -1.31); page undated, no price, read 21 Nov SGT |
+| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 172.97 | 2026-11-20 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 20 Nov 2026 (-5.84, -3.27%); 52-week NAV high 195.62, low 161.35; read at source 22 Nov SGT |
+| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | -0.12 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86; undated, no price; re-read 22 Nov SGT |
+| gold | Gold, spot (US$/oz) | 3,539 | 2026-11-20 | — | — | — | — | — | Kitco spot gold, bid 3,537.90 / ask 3,539.90 at Friday close, -86.30 (-2.38%) on day; read at source 22 Nov SGT |
+| btc | Bitcoin, Coinbase (US$) | 58,831 | 2026-11-20 | -9,348 | -22,196 | -19,296 | -28,383 | down 7 weeks running; at its 1-year low | FRED CBBTCUSD |
+| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.00 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57; last ex-date 29 Oct; undated, no price; re-read 22 Nov SGT |
 
 ## Rates
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| us2y | US 2-year Treasury yield (%) | 4.80 | 2026-11-18 | +0.07 | -0.01 | +0.61 | +1.22 | up 2 weeks running; 92% of its 1-year range | FRED DGS2 |
-| us10y | US 10-year Treasury yield (%) | 5.07 | 2026-11-18 | +0.09 | -0.06 | +0.42 | +0.95 | up 2 weeks running; 82% of its 1-year range | FRED DGS10 |
-| real10y | US 10-year real yield (TIPS) (%) | 2.88 | 2026-11-18 | +0.10 | +0.12 | +0.53 | +1.03 | up 2 weeks running; 94% of its 1-year range | FRED DFII10 |
-| breakeven10 | US 10-year breakeven inflation (%) | 2.16 | 2026-11-19 | -0.08 | -0.16 | -0.18 | -0.11 | down 1 week running; at its 1-year low | FRED T10YIE |
-| curve2s10s | US 10-year minus 2-year (pp) | 0.28 | 2026-11-19 | +0.04 | -0.03 | -0.22 | -0.27 | up 1 week running; 15% of its 1-year range | FRED T10Y2Y |
+| us2y | US 2-year Treasury yield (%) | 4.76 | 2026-11-19 | -0.10 | +0.11 | +0.57 | +1.18 | down 1 week running; 90% of its 1-year range | FRED DGS2 |
+| us10y | US 10-year Treasury yield (%) | 5.04 | 2026-11-19 | -0.06 | +0.08 | +0.35 | +0.91 | down 1 week running; 80% of its 1-year range | FRED DGS10 |
+| real10y | US 10-year real yield (TIPS) (%) | 2.88 | 2026-11-19 | +0.02 | +0.24 | +0.53 | +1.02 | up 2 weeks running; 94% of its 1-year range | FRED DFII10 |
+| breakeven10 | US 10-year breakeven inflation (%) | 2.15 | 2026-11-20 | -0.09 | -0.19 | -0.19 | -0.09 | down 1 week running; at its 1-year low | FRED T10YIE |
+| curve2s10s | US 10-year minus 2-year (pp) | 0.29 | 2026-11-20 | +0.02 | -0.02 | -0.21 | -0.26 | up 1 week running; 17% of its 1-year range | FRED T10Y2Y |
 | termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.99 | 2026-11-13 | +0.11 | +0.00 | +0.15 | +0.49 | up 1 week running; 83% of its 1-year range | FRED THREEFYTP10 |
 
 ## Liquidity
@@ -88,10 +88,10 @@ What would change it:
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | cftc_ust10 | Speculative net position, 10-year Treasury futures (thousand contracts) | -2,482 | 2026-11-17 | -180.70 | — | — | — | down 2 weeks running | CFTC Traders in Financial Futures, futures only, released 20 Nov, positions 17 Nov 2026: UST 10Y note leveraged funds 539,725 long (-47,109) / 3,022,168 short (+134,007); net -2,482k (-181k on week); read at source |
-| equity_flows | US equity fund and ETF flows, latest week (US$bn) | 37.02 | 2026-11-11 | +19.59 | +513.44 | — | — | up 2 weeks running | ICI estimated long-term mutual fund and ETF combined flows, released 18 Nov 2026 (equity 37,020m) |
-| bond_flows | US bond fund and ETF flows, latest week (US$bn) | 1.67 | 2026-11-11 | -0.69 | -6.25 | — | — | down 2 weeks running | ICI estimated long-term mutual fund and ETF combined flows, released 18 Nov 2026 (bond 1,671m) |
-| cb_gold | Central-bank net gold purchases, latest month (tonnes) | 61.00 | 2026-09-30 | — | — | — | — | — | World Gold Council, Central Bank Gold Statistics: September 2026, 4 Nov 2026 |
-| btc_etf_flows | US spot bitcoin ETF net flows, latest week (US$bn) | -1.07 | 2026-11-13 | +0.21 | — | — | — | up 1 week running | The Block, 14 Nov 2026, SoSoValue data (week of 9 to 13 Nov, second week above US$1bn out) |
+| equity_flows | US equity fund and ETF flows, latest week (US$bn) | 37.02 | 2026-11-11 | +19.59 | +513.44 | — | — | up 2 weeks running | ICI estimated combined flows, released 18 Nov 2026 (equity 37,020m; world equity 5,515m); re-read at source 22 Nov SGT, next release 25 Nov |
+| bond_flows | US bond fund and ETF flows, latest week (US$bn) | 1.67 | 2026-11-11 | -0.69 | -6.25 | — | — | down 2 weeks running | ICI estimated combined flows, released 18 Nov 2026 (bond 1,671m; taxable 1,183m); re-read at source 22 Nov SGT |
+| cb_gold | Central-bank net gold purchases, latest month (tonnes) | 61.00 | 2026-09-30 | — | — | — | — | — | World Gold Council, Central Bank Gold Statistics: September 2026 (Marissa Salim, 4 Nov; reported YTD 228t); GDT Q3 2026 (3 Nov): Q3 321.2t, YTD 675t incl. unreported; October stats not yet published; re-read 22 Nov SGT |
+| btc_etf_flows | US spot bitcoin ETF net flows, latest week (US$bn) | -1.25 | 2026-11-20 | -0.18 | — | — | — | down 1 week running | crypto.news, 21 Nov 2026, Farside Investors data: week of 16-20 Nov -US$1.25bn; IBIT -541.1m on 19 Nov, largest daily outflow since launch; read at source |
 
 ## Asia
 

@@ -1525,6 +1525,10 @@
     {
      "date": "2026-11-18",
      "value": 4.8
+    },
+    {
+     "date": "2026-11-19",
+     "value": 4.76
     }
    ],
    "name": "US 2-year Treasury yield",
@@ -3059,6 +3063,10 @@
     {
      "date": "2026-11-18",
      "value": 5.07
+    },
+    {
+     "date": "2026-11-19",
+     "value": 5.04
     }
    ],
    "name": "US 10-year Treasury yield",
@@ -4592,6 +4600,10 @@
     },
     {
      "date": "2026-11-18",
+     "value": 2.88
+    },
+    {
+     "date": "2026-11-19",
      "value": 2.88
     }
    ],
@@ -6131,6 +6143,10 @@
     {
      "date": "2026-11-19",
      "value": 2.16
+    },
+    {
+     "date": "2026-11-20",
+     "value": 2.15
     }
    ],
    "name": "US 10-year breakeven inflation",
@@ -7669,6 +7685,10 @@
     {
      "date": "2026-11-19",
      "value": 0.28
+    },
+    {
+     "date": "2026-11-20",
+     "value": 0.29
     }
    ],
    "name": "US 10-year minus 2-year",
@@ -19839,10 +19859,6 @@
   "claims": {
    "readings": [
     {
-     "date": "2025-05-10",
-     "value": 226.0
-    },
-    {
      "date": "2025-05-17",
      "value": 225.0
     },
@@ -21960,8 +21976,7 @@
     {
      "date": "2026-11-11",
      "value": 37.02,
-     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 18 Nov 2026 (equity 37,020m)",
-     "issue": 167
+     "source": "ICI estimated combined flows, released 18 Nov 2026 (equity 37,020m; world equity 5,515m); re-read at source 22 Nov SGT, next release 25 Nov"
     }
    ],
    "name": "US equity fund and ETF flows, latest week",
@@ -22001,8 +22016,7 @@
     {
      "date": "2026-11-11",
      "value": 1.671,
-     "source": "ICI estimated long-term mutual fund and ETF combined flows, released 18 Nov 2026 (bond 1,671m)",
-     "issue": 167
+     "source": "ICI estimated combined flows, released 18 Nov 2026 (bond 1,671m; taxable 1,183m); re-read at source 22 Nov SGT"
     }
    ],
    "name": "US bond fund and ETF flows, latest week",
@@ -22017,8 +22031,7 @@
     {
      "date": "2026-09-30",
      "value": 61.0,
-     "source": "World Gold Council, Central Bank Gold Statistics: September 2026, 4 Nov 2026",
-     "issue": 165
+     "source": "World Gold Council, Central Bank Gold Statistics: September 2026 (Marissa Salim, 4 Nov; reported YTD 228t); GDT Q3 2026 (3 Nov): Q3 321.2t, YTD 675t incl. unreported; October stats not yet published; re-read 22 Nov SGT"
     }
    ],
    "name": "Central-bank net gold purchases, latest month",
@@ -22046,6 +22059,11 @@
      "value": -1.07,
      "source": "The Block, 14 Nov 2026, SoSoValue data (week of 9 to 13 Nov, second week above US$1bn out)",
      "issue": 167
+    },
+    {
+     "date": "2026-11-20",
+     "value": -1.25,
+     "source": "crypto.news, 21 Nov 2026, Farside Investors data: week of 16-20 Nov -US$1.25bn; IBIT -541.1m on 19 Nov, largest daily outflow since launch; read at source"
     }
    ],
    "name": "US spot bitcoin ETF net flows, latest week",
@@ -25557,6 +25575,11 @@
      "date": "2026-11-19",
      "value": 178.81,
      "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 19 Nov 2026 (-2.91, -1.60%); GBP line VWRP 20 Nov market value GBP133.52 (-3.26%); P/E 19.6x at 31 Oct; read at source"
+    },
+    {
+     "date": "2026-11-20",
+     "value": 172.97,
+     "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 20 Nov 2026 (-5.84, -3.27%); 52-week NAV high 195.62, low 161.35; read at source 22 Nov SGT"
     }
    ],
    "name": "VWRA, Vanguard FTSE All-World UCITS ETF, NAV",
@@ -25587,8 +25610,8 @@
     },
     {
      "date": "2026-11-20",
-     "value": -0.12,
-     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged Income (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86 (YTD -4.28, 1y -3.56); page undated, no price, read 21 Nov SGT"
+     "value": -0.1155,
+     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86; undated, no price; re-read 22 Nov SGT"
     }
    ],
    "name": "PIMCO GIS Income Fund, SGD-hedged class, 1-week total return",
@@ -25619,8 +25642,8 @@
     },
     {
      "date": "2026-11-20",
-     "value": 3524.5,
-     "source": "Kitco spot gold, bid 3,523.50 / ask 3,525.50, 4:11pm NY 20 Nov 2026, -100.70 (-2.78%) on day; CNBC: lowest since Sep 2025, about -8.9% on week; read at source"
+     "value": 3538.9,
+     "source": "Kitco spot gold, bid 3,537.90 / ask 3,539.90 at Friday close, -86.30 (-2.38%) on day; read at source 22 Nov SGT"
     }
    ],
    "name": "Gold, spot",
@@ -25632,10 +25655,6 @@
   },
   "btc": {
    "readings": [
-    {
-     "date": "2025-05-10",
-     "value": 104137.62
-    },
     {
      "date": "2025-05-11",
      "value": 102800.21
@@ -27867,6 +27886,10 @@
     {
      "date": "2026-11-19",
      "value": 62017.68
+    },
+    {
+     "date": "2026-11-20",
+     "value": 58830.52
     }
    ],
    "name": "Bitcoin, Coinbase",
@@ -27898,7 +27921,7 @@
     {
      "date": "2026-11-20",
      "value": 0.0,
-     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57 (YTD -2.32, 1y -1.31); page undated, no price, read 21 Nov SGT"
+     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57; last ex-date 29 Oct; undated, no price; re-read 22 Nov SGT"
     }
    ],
    "name": "PIMCO GIS Income Fund, USD class, 1-week total return",
@@ -27922,8 +27945,8 @@
    ]
   },
   {
-   "issue": 169,
-   "date": "2026-11-21",
+   "issue": 170,
+   "date": "2026-11-22",
    "regime": "A real-rate shock: the Federal Reserve tightening",
    "since": 162,
    "triggers": [
@@ -27933,7 +27956,7 @@
    ]
   }
  ],
- "fetched": "2026-11-20T21:03:01Z",
+ "fetched": "2026-11-21T21:03:30Z",
  "fetch_errors": {},
  "holds": {
   "fwd_eps": {

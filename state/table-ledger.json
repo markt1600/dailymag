@@ -2310,9 +2310,10 @@
       "venue": "Mala Mia",
       "key": "Mala Mia",
       "runs": [
-        160
+        160,
+        170
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 160 build",
       "note": "opening run — record the peg here"
     },
@@ -2340,9 +2341,10 @@
       "venue": "Casa Vostra",
       "key": "Casa Vostra",
       "runs": [
-        161
+        161,
+        170
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 161 build",
       "note": "opening run — record the peg here"
     },
@@ -2547,7 +2549,7 @@
       "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 170,
+  "barred_for_issue": 171,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2686,9 +2688,8 @@
     "JJAN",
     "Three Bowls",
     "Cranki Patisserie",
-    "Reference Room Cafe",
-    "Kemuri Coffee Co.",
-    "Sohaus",
+    "Mala Mia",
+    "Casa Vostra",
     "Khao Boi",
     "Café Artévo",
     "Tan Ser Seng",

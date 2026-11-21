@@ -1,0 +1,243 @@
+{
+ "issue": 170,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Iran's foreign minister says the argument for dropping Iran's no-bomb doctrine is strong, while insisting policy hasn't changed, and nobody knows where its near-weapons-grade uranium is.",
+   "weakest": "Their Shenzhen declaration with America on 19 November held that a nuclear war cannot be won, and did not mention Iran (No. 168).",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Denmark expelled Russia's defence attaché after its intelligence service said Russia hired gang members to kill a Ukrainian-American rapper outside Copenhagen.",
+   "weakest": "two further men, not accused of taking part, were later drawn into the inquiry.",
+   "verdict": "pass"
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 3,
+   "says": "Wong met Li Qiang in Beijing and the two countries signed transport and green-industry pacts and mapped their AI rules against each other, with little change for households yet.",
+   "weakest": "Singapore's statement adds a joint line on the right to freedom of passage in international waterways.",
+   "verdict": "pass"
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 2,
+   "says": "Real urushi lacquer on chopsticks is rarer than labels suggest, and a Wakasa maker sells honestly labelled pairs it will re-lacquer, from about ¥5,500.",
+   "weakest": "The white-label truth is on the label.",
+   "verdict": "rework",
+   "reason": "Opening never says what is new; headline hard to parse; middle wanders; lead with plastic-paint point and how to tell.",
+   "fixed": "New headline and opening on plastic paint vs urushi and how to read the coat label; cut the white-label line, 1973 origin rules and Obama anecdote; makers' prices in one tiered paragraph.",
+   "recheck": 4
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Under a new US rule TSMC has stopped taking advanced chip orders from unlicensed Chinese designers, holding them to older production lines, though the cost to TSMC looks small.",
+   "weakest": "The American rule behind it was covered on our Singapore page in No. 168.",
+   "verdict": "pass"
+  },
+  {
+   "page": 8,
+   "desk": "Technology",
+   "keep_reading": 2,
+   "says": "Thinking Machines released a free AI model that runs offline on a well-equipped laptop and roughly matches the desk's usual reference model, with real flaws.",
+   "weakest": "Of 26.4 billion parameters, only 3.4 billion work on each word-piece.",
+   "verdict": "rework",
+   "reason": "Paragraphs three and four assume specialist vocabulary never explained; say what laptop, how fast, what it is good and bad at; one benchmark explained.",
+   "fixed": "Jargon cut or glossed; one paragraph on what hardware is needed, one on speed in plain units, one benchmark (SWE-bench Verified) explained; experts/NVFP4/BrowseComp removed.",
+   "recheck": 4
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 4,
+   "says": "Grado's first wireless open-back headphones in four years cost US$329, last 60+ hours and still play through a cable, but aren't yet sold in Singapore and nobody has reviewed them.",
+   "weakest": "The spec sheet lists 38 ohms, 104dB at one milliwatt, 16Hz–34kHz.",
+   "verdict": "pass"
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 4,
+   "says": "A never-polished 1952 Patek 2499 made HK$34.2 million in Hong Kong, far above estimate and Meridian's wrong call, on a day when independent watchmakers also sold well above estimate.",
+   "weakest": "Vintage Rolex was cooler: a Paul Newman Daytona 6263 made HK$4,826,000.",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 4,
+   "says": "The new Hunger Games prequel took $56 million on its first day and looks set for about $120 million over the weekend, comfortably past the $100 million call.",
+   "weakest": "Warner Bros' The Cat in the Hat added $1.6 million.",
+   "verdict": "pass"
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A large US study finds teens and parents usually disagree about a child's mental-health problems, so ask a child directly and on her own.",
+   "weakest": "Here the team, from UC San Diego, the Laureate Institute in Tulsa and Oregon Health & Science University, derived DSM-5 diagnoses",
+   "verdict": "pass"
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "Most English secondary pupils bite nails, pick skin or pull hair; about one in eight are distressed by it, and habit-reversal therapy is the standard treatment.",
+   "weakest": "Screens and grey matter: a University of Eastern Finland MRI study of 44 teenagers",
+   "verdict": "pass"
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 3,
+   "says": "In last week's sell-off investors ran to long-dated US Treasuries while gold and bitcoin both fell, and the desk's four leans for the coming week still point lower.",
+   "weakest": "PIMCO Income: Singapore-dollar hedged class 1 week −0.12, 1 month −0.05 ...",
+   "verdict": "pass"
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "Central banks keep buying gold slowly while fast fund money sets the price, and next week brings US inflation data and a short Thanksgiving week.",
+   "weakest": "Inside the Fund · The All-World Fund's Japan Bet Meets The BoJ",
+   "verdict": "rework",
+   "reason": "Repeats p14 (central-bank gold in p14's Sceptic; Fed/BoJ dates on both); Japan box not about Japan; jargon dashboard; 2021 bar clashes with 2010-21 average.",
+   "fixed": "p14's Sceptic replaced (Michigan survey, Joanne Hsu) so central-bank gold and the Fed/CPI/BoJ dates live on p15 only; Inside the Fund relabelled to match its content; 2021 bar removed; dashboard names in plain words.",
+   "recheck": 2,
+   "overruled": "The recheck was made on the revised p15 alone, against the reviewer's memory of the ORIGINAL p14: the revised p14 no longer carries the World Gold Council figures or the Fed and BoJ dates (its Sceptic is now the University of Michigan survey), so the repetition it cites no longer exists in the book; verified by searching p14's text."
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "Foraging is having a moment thanks to TikTok's Alexis Nikole Nelson; the rules vary from permissive Sweden to strict Singapore, and Japan records the poisonings.",
+   "weakest": "15,747 Members of foraging groups on Meetup",
+   "verdict": "pass"
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "A forager's kit is a knife, a basket and a field guide, from a US$23 Opinel to a £160 Sussex trug, and plant apps help but can't be trusted alone.",
+   "weakest": "Niwaki's forged hori-hori is on pre-order, with dispatch not before 14 May 2027.",
+   "verdict": "pass"
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "Foraging kills through look-alikes, from hemlock to daffodils picked as garlic chives (17 deaths in Japan in a decade); in Singapore a beginner starts with guided walks.",
+   "weakest": "Practice then goes abroad: Wild Food UK teaches at more than 30 venues",
+   "verdict": "pass"
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 3,
+   "says": "A small Japanese trial suggests light elastic-band training improves artery linings in older adults, possibly through irisin, though the evidence is thin.",
+   "weakest": "Also on the desk, too much of a good thing: in a University of São Paulo mouse study",
+   "verdict": "pass"
+  },
+  {
+   "page": 20,
+   "desk": "The Travel Desk",
+   "keep_reading": 4,
+   "says": "From Monday Singapore Airlines flies daily to Sydney's new curfew-free Western Sydney airport, though there is no train to the city yet.",
+   "weakest": "New route Lounge Points",
+   "verdict": "pass"
+  },
+  {
+   "page": 21,
+   "desk": "The Travel Desk",
+   "keep_reading": 3,
+   "says": "Air New Zealand's Singapore–Christchurch flight now runs all year with refitted 787 cabins, so families can fly nonstop to the South Island in the June holidays.",
+   "weakest": "Further back, Premium Economy seats are 19 inches wide with 41 inches of pitch.",
+   "verdict": "pass"
+  },
+  {
+   "page": 22,
+   "desk": "The Travel Desk",
+   "keep_reading": 4,
+   "says": "Shirakawa-go will light up its snowbound village on four January evenings, open only to visitors who booked, and the last ways in open on 26 November and 1 December.",
+   "weakest": "Reddit, TripAdvisor and FlyerTalk could not be read for this piece",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Travel Desk",
+   "keep_reading": 4,
+   "says": "Takayama is the easy base for Shirakawa-go, reached by overnight flight to Nagoya and the Hida train, but JR's area pass charges a 12-year-old the adult fare.",
+   "weakest": "Ropeway pause. The Shin-Hotaka Ropeway closes for maintenance from 24 to 27 November.",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Diary",
+   "keep_reading": 2,
+   "says": "A list of upcoming Singapore concerts, led by Stray Kids in March, and Japanese events worth flying for, with booking notes.",
+   "weakest": "Still unpriced: Kenshi Yonezu, KATSEYE, Maroon 5 and Freya Skye ...",
+   "verdict": "rework",
+   "reason": "Planning Notes box is a run-on jumble bringing in acts not listed; split per listed event; say why Stray Kids leads.",
+   "fixed": "Planning Notes split into ten short notes, one per listed event; off-page acts removed; dek says why Stray Kids lead.",
+   "recheck": 3
+  },
+  {
+   "page": 25,
+   "desk": "The Diary",
+   "keep_reading": 2,
+   "says": "Casa Vostra's Wisma Atria branch now takes bookings and sells square pizza slices, and an airport mala shop gets a good first review plus a correction on its opening date.",
+   "weakest": "Bookings, 14 days ahead Verdict run Halal-certified · Mala Mia",
+   "verdict": "rework",
+   "reason": "Two unrelated restaurants with thin news; Chatter and Sceptic both repeat that no critic has scored the room.",
+   "fixed": "Mala Mia now leads with Eatbook's dish-by-dish verdict and the opening-date correction; Casa Vostra second as too new to call; Sceptic argues the by-weight bill; Chatter covers the pitch and launch promotion.",
+   "recheck": 3
+  },
+  {
+   "page": 26,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Jiangsu schools have pushed back their gates after reports of fifteen-hour school days, but earlier limits were dodged by renaming early study.",
+   "weakest": "A parents' account run by the Qianjiang Evening News drew more than 400 comments",
+   "verdict": "pass"
+  },
+  {
+   "page": 27,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Other Chinese cities are also moving start times, but seventy years of reducing the burden have only moved the hours, which may now slide into the evening.",
+   "weakest": "Fudan's Liu Hong calls the pressure systemic.",
+   "verdict": "pass"
+  },
+  {
+   "page": 28,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Britain beat mill owners' dodges by fixing a working window an inspector could see from the street; Jiangsu has fixed only the morning half.",
+   "weakest": "Clocks treat a symptom, say Liu Hong of the Fudan Development Institute and the commentator Hu Xinhong",
+   "verdict": "pass"
+  },
+  {
+   "page": 29,
+   "desk": "The Reader's Editor",
+   "keep_reading": 2,
+   "says": "The magazine's weekly self-audit: headlines got shorter and photographs more numerous, but its internal reviewer's scores fell.",
+   "weakest": "The four breaches the drift tool finds in Nos. 163 to 165 are rules written after those issues went to press.",
+   "verdict": "rework",
+   "reason": "Reads as an internal production memo; open with what changed for the reader and explain any measure kept.",
+   "fixed": "Opening rewritten for the reader (what the rules are and what changed); macro call in plain words; 'held items' defined; archive issue numbers removed from the box.",
+   "recheck": 3,
+   "overruled_note": "Recheck 3 asked to drop the build-cost and rules-broken columns; kept because the reader's Sunday-page brief specifies exactly those columns. 'Held items' now defined and archive numbers removed."
+  }
+ ]
+}

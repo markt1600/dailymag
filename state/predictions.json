@@ -7612,7 +7612,8 @@
    "desk": "The Good Life",
    "claim": "Phillips lot 958 (Patek 2499) sells inside its HK$12-24m estimate, below HK$20m",
    "check_by": "2026-11-22",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Sold 21 Nov for HK$34,175,000 incl. premium, above the HK$12-24m estimate (Phillips lot page); graded in No. 170 p10."
   },
   {
    "issue": 169,
@@ -7717,6 +7718,153 @@
    "desk": "The World",
    "claim": "Estonia's five road checkpoints close at 07:00 on 1 Dec 2026, rail freight continuing",
    "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "Screen & Sound",
+   "claim": "Sunrise on the Reaping's 3-day North American opening (20–22 Nov) is reported at or above $100m (trade projection ~$120m)",
+   "check_by": "2026-11-24",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "Screen & Sound",
+   "claim": "Sunrise on the Reaping opening ranks fourth of six in the Hunger Games series (below Catching Fire $158.1m and The Hunger Games $152.5m, above Mockingjay Part 2 $102.7m)",
+   "check_by": "2026-11-24",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Diary",
+   "claim": "Casa Vostra Wisma Atria still takes SevenRooms bookings 14 days ahead; no critic score yet",
+   "check_by": "2026-12-06",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Diary",
+   "claim": "Tokyo Marathon 2027 Friendship Run overseas entry opens 1 Dec 2026",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Diary",
+   "claim": "Jump Festa 2027 advance lottery opens 24 Nov 2026 10:00 JST",
+   "check_by": "2026-11-25",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Long Read",
+   "claim": "Jiangsu will not bring forward its 21:30 latest end time for high-school evening study (2024 Five Standards) before the 2027 gaokao opens on 7 June 2027",
+   "check_by": "2027-06-07",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Lean: VWRA lower; wrong if NAV closes above US$180 by 27 Nov (172.97 on 20 Nov)",
+   "check_by": "2026-11-29",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Lean: PIMCO Income (both classes) steady to slightly up; wrong if the US 10-year closes above 5.10% (4.92 on 20 Nov)",
+   "check_by": "2026-11-29",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Lean: gold lower while the dollar stays firm; wrong on a spot close above $3,700 (3,538 on 20 Nov)",
+   "check_by": "2026-11-29",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Lean: bitcoin lower; wrong above $64,000 (60,320 on 21 Nov)",
+   "check_by": "2026-11-29",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: US 10-year real yield closes below 2.60% (2.77 on 20 Nov) would change the call",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: the Fed does not raise rates on 9 December would change the call",
+   "check_by": "2026-12-10",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: US high-yield spread closes above 4.0 points (3.52 on 19 Nov) would change the call",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Rabbit Hole",
+   "claim": "Niwaki's forged hori-hori pre-orders dispatch no earlier than 14 May 2027",
+   "check_by": "2027-05-31",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "Technology",
+   "claim": "US licences for TSMC/Samsung production of Chinese smartphone processors are granted before the 21 Dec 2026 savings-clause deadline (FT industry source expects approval)",
+   "check_by": "2026-12-21",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Kit",
+   "claim": "Grado GW200 ships in December 2026 at US$329",
+   "check_by": "2026-12-31",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Travel Desk",
+   "claim": "Singapore Airlines operates its first SIN–Western Sydney flight (SQ261) on 23 Nov 2026 and The Rayleigh lounge opens with it",
+   "check_by": "2026-11-25",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Travel Desk",
+   "claim": "Shirakawa-go light-up second-round car-park reservations open 1 Dec 2026 13:00 JST at ¥7,000/¥10,000",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Travel Desk",
+   "claim": "Air China operates a second daily Shanghai Pudong–Singapore flight from 15 Dec 2026",
+   "check_by": "2026-12-20",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The Travel Desk",
+   "claim": "Air New Zealand SIN–CHC operates as NZ63/64 from 30 Nov 2026 and continues past 26 Mar 2027",
+   "check_by": "2027-04-15",
+   "outcome": null
+  },
+  {
+   "issue": 170,
+   "desk": "The World",
+   "claim": "Iran's official nuclear doctrine (civil-only, inside the NPT) remains formally unchanged; no NPT withdrawal notice filed",
+   "check_by": "2026-12-31",
    "outcome": null
   }
  ]

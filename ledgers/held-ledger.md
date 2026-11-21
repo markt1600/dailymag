@@ -52,7 +52,7 @@ after Due), `ask` (needs a human). Status: `OPEN`, `RESOLVED`, `DROPPED`.
 | H007 | 165 | Daily | fact | the Iranian supertanker, IRGC-via-ISNA only, no vessel named |  | OPEN | 169 | nothing new from ISNA |
 | H008 | 165 | Daily | fact | any Apple reply on the flicker |  | OPEN | 169 | no Apple reply |
 | H009 | 165 | Daily | fact | the FAA laboratory finding and any GovTech root cause |  | OPEN | 168 | re-checked No. 168, still open (see the No. 168 notes) |
-| H010 | 165 | Daily | date | FOMC 8–9 Dec, CPI 10 Dec, BoJ 17–18 Dec | 2026-12-08 | OPEN | 165 |  |
+| H010 | 165 | Daily | date | FOMC 8–9 Dec, CPI 10 Dec, BoJ 17–18 Dec | 2026-12-08 | RESOLVED | 170 | No. 170: Confirmed at source: FOMC 8–9 Dec (Fed FOMC calendar, SEP meeting); November CPI 10 Dec 8:30am (BLS schedule); BoJ MPM 17–18 Dec (BoJ schedule). Also: Japan Nov national CPI 18 Dec, Tokyo Nov CPI 27 Nov (Stat Bureau); US GDP Q3 2nd est + Oct PCE 25 Nov (BEA); SG Oct CPI 23 Nov (MAS calendar); NYSE closed 26 Nov, 1pm close 27 Nov |
 | H011 | 158.5 | Special 158.5 | ask | No IMDA determination exists on whether a peer-to-peer LoRa mesh (Meshtastic) is an 'LPWAN end device' under TS SRD; a local user offered to ask in 2024, no reply on record. Worth asking IMDA directly. |  | OPEN | 158.5 |  |
 | H012 | 161 | Daily | ask | Whether a receive-only SDR dongle is an IMDA 'scanning receiver' for import purposes — worth asking IMDA directly. |  | OPEN | 161 |  |
 | H013 | 141.5 | Special 141.5 | ask | Artisan Acoustics (SB Acoustics distributor for Singapore): two conflicting addresses and no published price list — phone before any Singapore reader acts. |  | OPEN | 141.5 |  |
@@ -81,8 +81,8 @@ after Due), `ask` (needs a human). Status: `OPEN`, `RESOLVED`, `DROPPED`.
 | H036 | 168 | The Atelier | ask | Singapore S$ price for the Carl Hansen CH24 Wishbone, and whether Carl Hansen publishes an EN 16139 level for it |  | OPEN | 168 |  |
 | H037 | 168 | Technology | date | Whether underwriters exercise Anthropic's 147m-share over-allotment option (raise to ~$93.5bn) | 2026-12-21 | RESOLVED | 169 | No. 169: Underwriters took the full 147m-share over-allotment: $93.5bn raised (CNBC 20 Nov citing Anthropic). Printed p7. |
 | H038 | 168 | Technology | fact | Hy4 Flash llama.cpp support (PR #32517) merged, and an independent speed test |  | OPEN | 169 | PR 32517 ready for review, not merged |
-| H039 | 168 | The Good Life | date | Phillips Hong Kong Watch Auction XXIII result for the first-series Patek 2499 (est. HK$12-24m) | 2026-11-24 | OPEN | 169 | lot 958 sells Sat 21 Nov after press |
-| H040 | 168 | The Macro Desk | date | Japan October CPI (not out at press; p15 uses September's 2.1) | 2026-11-21 | OPEN | 168 |  |
+| H039 | 168 | The Good Life | date | Phillips Hong Kong Watch Auction XXIII result for the first-series Patek 2499 (est. HK$12-24m) | 2026-11-24 | RESOLVED | 170 | No. 170: Phillips HK Watch Auction XXIII lot 958, first-series Patek 2499 yellow gold, sold 21 Nov 2026 for HK$34,175,000 incl. premium vs est HK$12–24m (Phillips lot page HK080426/958, Sold For, read at source) |
+| H040 | 168 | The Macro Desk | date | Japan October CPI (not out at press; p15 uses September's 2.1) | 2026-11-21 | RESOLVED | 170 | No. 170: Japan October 2026 core CPI (ex fresh food) +2.2% y/y, from 2.1% in September; energy +2.2% as electricity/gas subsidies cut — MIC via Jiji/Kazinform, 20 Nov 2026, read at source |
 | H041 | 168 | The Rabbit Hole | fact | PUB's reservoir swimming ban wording and penalty (pub.gov.sg unreachable) |  | OPEN | 168 |  |
 | H042 | 168 | The Diary | fact | Standard Singapore ticket prices for KATSEYE, Kenshi Yonezu, Maroon 5 and Freya Skye (Ticketmaster refused) |  | OPEN | 169 | no standard prices; Ticketmaster 403 |
 | H043 | 168 | The Diary | date | Sapporo Snow Festival 2027 dates (4-11 Feb per Hokkaido Shimbun; organiser site not updated) | 2026-12-15 | RESOLVED | 169 | No. 169: Sapporo Snow Festival 2027: 4-11 Feb at Odori, Susukino, Tsudome (snowfes.com, read 21 Nov). Printed p24. |
@@ -94,12 +94,41 @@ after Due), `ask` (needs a human). Status: `OPEN`, `RESOLVED`, `DROPPED`.
 | H049 | 169 | Technology | fact | Trump 'tremendous tax' on US firms' overseas data centres: any text, any country named | 2026-12-04 | OPEN | 169 |  |
 | H050 | 169 | The Kit | fact | Teenage Engineering EP/BC-1 Singapore price/stockist and first independent review | 2026-12-05 | OPEN | 169 |  |
 | H051 | 169 | The Atelier | fact | HOPPE Amsterdam E1400Z price class (hoppe.com 403, snippet only) and Croft's Willenhall workshop | 2026-12-05 | OPEN | 169 |  |
-| H052 | 169 | The Good Life | date | Phillips HK XXIII lot 958 (Patek 2499) price achieved incl. premium vs the desk's under-HK$20m call | 2026-11-23 | OPEN | 169 |  |
+| H052 | 169 | The Good Life | date | Phillips HK XXIII lot 958 (Patek 2499) price achieved incl. premium vs the desk's under-HK$20m call | 2026-11-23 | RESOLVED | 170 | No. 170: Lot 958 made HK$34,175,000 incl. premium — No. 169's 'inside the estimate, below HK$20m' call is WRONG (Phillips lot page, read at source 21 Nov) |
 | H053 | 169 | Screen & Sound | date | Sunrise on the Reaping actual US opening weekend vs $100m | 2026-11-24 | OPEN | 169 |  |
 | H054 | 169 | The Family Desk | fact | MEDiA study full text (JAH): exact per-hour minutes and the sex interaction | 2026-12-04 | OPEN | 169 |  |
 | H055 | 169 | Fitness | fact | Deng et al. Obes Rev full text: risk of bias, heterogeneity, how visceral fat was measured (Wiley 403) | 2026-11-27 | OPEN | 169 |  |
-| H056 | 169 | The Macro Desk | date | btc_etf_flows: US spot-bitcoin ETF net flows, week 16-20 Nov (SoSoValue posts Saturday; Farside 403) | 2026-11-24 | OPEN | 169 |  |
+| H056 | 169 | The Macro Desk | date | btc_etf_flows: US spot-bitcoin ETF net flows, week 16-20 Nov (SoSoValue posts Saturday; Farside 403) | 2026-11-24 | RESOLVED | 170 | No. 170: US spot-bitcoin ETF net flows week 16–20 Nov: −US$1.25bn (Farside data via crypto.news, 21 Nov 2026; IBIT −541.1m on 19 Nov, record); recorded btc_etf_flows −1.25 as of 2026-11-20 |
 | H057 | 169 | The Diary | ask | YOASOBI CAT 8 price (The Kallang page lists S$288, likely an error) | 2026-12-05 | OPEN | 169 |  |
 | H058 | 169 | The Table | fact | Casa Mori: a second independent review before the verdict can be called | 2026-12-31 | OPEN | 169 |  |
 | H059 | 169 | The Long Read | date | Does Victoria announce a retail fur-sale ban, and does it exempt pest fur? | 2027-03-31 | OPEN | 169 |  |
 | H060 | 169 | The Rabbit Hole | fact | Samsung Cup 2026 final result (not found at press) | 2026-12-05 | OPEN | 169 |  |
+| H061 | 170 | The Atelier | fact | Share of Wakasa-nuri chopstick blanks turned outside Japan (China) — no primary source found; CAA origin rules (1973 運用細則) have no line for chopsticks/lacquerware |  | OPEN | 170 |  |
+| H062 | 170 | The Atelier | ask | Singapore stockist + S$ price for Hyozaemon/Daikokuya/Ichihara chopsticks (MUJI SG page 503; Pinkoi shipping to SG unconfirmed) |  | OPEN | 170 |  |
+| H063 | 170 | The Atelier | fact | Edo kibashi grail: Daikokuya blue-black ebony pair price at an authorised retailer (only reseller listings seen); ironwood and chestnut species tiers not read at source |  | OPEN | 170 |  |
+| H064 | 170 | Screen & Sound | date | Sunrise on the Reaping weekend: Sunday studio estimate and Monday actuals vs the ~$120m Friday-based projection (H053 continues) | 2026-11-24 | OPEN | 170 |  |
+| H065 | 170 | The Family Desk | fact | El-Shafie et al. JAMA Psychiatry ABCD discordance: full tables (per-diagnosis agreement, kappa) — PMC copy embargoed |  | OPEN | 170 |  |
+| H066 | 170 | Fitness | fact | Yasunaga et al. MSSE: effect sizes for FMD/irisin in the 17-person band trial, and which irisin assay was used |  | OPEN | 170 |  |
+| H067 | 170 | The Diary | fact | Face-value prices for Mahiru (29 Nov, Victoria Theatre), Queens of the Stone Age (2 Dec, Star Theatre) and beabadoobee (4 Apr, Indoor Stadium) — not on Live Nation/The Star pages | 2026-12-01 | OPEN | 170 |  |
+| H068 | 170 | The Diary | fact | Hayley Williams, The Star Theatre 26 Feb 2027 (AEG Presents/AXS): prices and time — only Bandwagon read; AXS 403, not on thestar.sg list yet | 2026-12-05 | OPEN | 170 |  |
+| H069 | 170 | The Table | fact | Alvinology 9 Nov review of Casa Vostra Wisma Atria — page 403, verdict unread |  | OPEN | 170 |  |
+| H070 | 170 | The Long Read | fact | Weibo hot-search rank/views for Jiangsu education director's 'deeply guilty' remark (27 Oct 2026) — not confirmed at source |  | OPEN | 170 |  |
+| H071 | 170 | The Long Read | fact | Name of the British factory inspector behind 'the lights in the window will discover the one but not the other' (unnamed in the source read) |  | OPEN | 170 |  |
+| H072 | 170 | The Macro Desk | fact | WGC Central Bank Gold Statistics for October 2026 (not yet published at 22 Nov; cb_gold stays at Sep 61t) | 2026-12-08 | OPEN | 170 |  |
+| H073 | 170 | The Macro Desk | fact | ICI combined flows for week to 18 Nov (release Wed 25 Nov) — first count covering the rout | 2026-11-27 | OPEN | 170 |  |
+| H074 | 170 | The Rabbit Hole | fact | r/foraging subscriber count (reddit.com not readable from the desk) |  | OPEN | 170 |  |
+| H075 | 170 | The Rabbit Hole | fact | Parks and Trees Act section number and penalty text read on SSO (sso.agc.gov.sg returned 403; penalties printed from MND's 2019 answer as reported by Mothership/Must Share News) |  | OPEN | 170 |  |
+| H076 | 170 | The Rabbit Hole | fact | Clinical Toxicology 2023 plant-ID app study (58% average, PictureThis 94%, PlantSnap 34%, 5 of 11 toxic species called edible) — tandfonline/scimex 403; not printed |  | OPEN | 170 |  |
+| H077 | 170 | The Rabbit Hole | ask | Thomas Smith's Trug Shop direct prices, lead times and commission process (sussextrugs.com not read) |  | OPEN | 170 |  |
+| H078 | 170 | The Rabbit Hole | date | Niwaki forged hori-hori price and 14 May 2027 dispatch read at niwaki.com (403; printed via search listing) | 2027-05-14 | OPEN | 170 |  |
+| H079 | 170 | Technology | date | TSMC confirmation of the China 16nm order halt, and first US licence decision for Chinese phone chips before the 21 Dec savings-clause deadline | 2026-12-21 | OPEN | 170 |  |
+| H080 | 170 | Technology | fact | Independent tok/s benchmark for Inkling 2 Mini on a 32GB Mac / 24GB GPU (not vendor, not single HN post) |  | OPEN | 170 |  |
+| H081 | 170 | The Kit | fact | Grado GW200: microphone yes/no (Grado spec sheet says built-in, Gear Patrol says none), first independent review, Singapore price/stockist |  | OPEN | 170 |  |
+| H082 | 170 | The Good Life | date | Phillips HK XXIII sale total and Session 2 results (1518 pink gold HK$8-16m, 3990P-011 HK$12-24m) | 2026-11-23 | OPEN | 170 |  |
+| H083 | 170 | The Travel Desk | fact | Shirakawa-go 2025 visitor total (one Japanese web report says a record ~2.3m, 55.6% foreign) — no village/prefecture release read; tabi-mag 403 |  | OPEN | 170 |  |
+| H084 | 170 | The Travel Desk | date | WSI Sydney Metro (St Marys–airport) opening: MileLion says not before Apr 2027, The Star (Apr 2026) says not before Dec 2027 — need Sydney Metro/NSW source |  | OPEN | 170 |  |
+| H085 | 170 | The Travel Desk | fact | SQ672 SIN–NGO schedule (01:20/~09:00) — booking-site snippet only; singaporeair.com page 404 |  | OPEN | 170 |  |
+| H086 | 170 | The Travel Desk | fact | Nohi Bus Takayama–Shirakawa-go regular fare and which departures need reservation (official fare page not read) |  | OPEN | 170 |  |
+| H087 | 170 | The World | fact | Iran nuclear doctrine: any formal NPT-withdrawal step, Majlis bill, or a Mojtaba Khamenei ruling revising the fatwa | 2026-12-15 | OPEN | 170 |  |
+| H088 | 170 | The World | fact | Denmark Kyivstoner case: Russia's 'appropriate response' (tit-for-tat expulsion?) and published evidence of GRU/FSB direction | 2026-12-01 | OPEN | 170 |  |
+| H089 | 170 | Singapore | date | 22nd JCBC: date, Ding Xuexiang visit, the 20+ deliverables and the EdTech/AI education MOU signing | 2026-11-30 | OPEN | 170 |  |
