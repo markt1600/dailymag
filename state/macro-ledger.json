@@ -21804,7 +21804,8 @@
     {
      "date": "2026-11-20",
      "value": 32.9,
-     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (Q3 blended growth 32.9%, 93% reported; Q4 est 28.9%, CY27 16.4%); PDF read at source"
+     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (Q3 blended 32.9%, 93% reported; Q4 est 28.9%; CY26 33.7%; CY27 16.4%; Mag 7 Q3 27.0%); read at source 22 Nov UTC",
+     "issue": 171
     }
    ],
    "name": "S&P 500 blended earnings growth, current quarter",
@@ -21821,6 +21822,12 @@
      "value": 415.82,
      "source": "FactSet Earnings Insight, John Butters, 9 Nov 2026 (forward 12-month EPS)",
      "issue": 165
+    },
+    {
+     "date": "2026-11-19",
+     "value": 419.6,
+     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (PDF EarningsInsight_112026A, read at source 22 Nov UTC): forward P/E 17.1 at the 19 Nov close 7,175.83; forward EPS +4.4% since 30 Sep; dollar level not printed, 419.6 = 7,175.83 / 17.1 computed by the desk",
+     "issue": 171
     }
    ],
    "name": "S&P 500 forward 12-month earnings per share",
@@ -21857,7 +21864,8 @@
     {
      "date": "2026-11-19",
      "value": 17.1,
-     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (forward 12-month P/E 17.1 vs 5-yr avg 19.8, 10-yr 19.1; 19.0 at 30 Sep; index -6.2%, fwd EPS +4.4% since 30 Sep; close 7,175.83); no fwd EPS dollar level printed"
+     "source": "FactSet Earnings Insight, John Butters, 20 Nov 2026 (forward 12-month P/E 17.1 vs 5-yr 19.8, 10-yr 19.1; 19.0 at 30 Sep); read at source 22 Nov UTC",
+     "issue": 171
     }
    ],
    "name": "S&P 500 forward price/earnings",
@@ -25579,7 +25587,8 @@
     {
      "date": "2026-11-20",
      "value": 172.97,
-     "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 20 Nov 2026 (-5.84, -3.27%); 52-week NAV high 195.62, low 161.35; read at source 22 Nov SGT"
+     "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 20 Nov 2026 (-5.84, -3.27%); 52-week NAV high 195.62, low 161.35; London price 174.96 vs 191.36 on 20 Oct (-8.6%, Yahoo feed); re-read at source 23 Nov SGT",
+     "issue": 171
     }
    ],
    "name": "VWRA, Vanguard FTSE All-World UCITS ETF, NAV",
@@ -25611,7 +25620,8 @@
     {
      "date": "2026-11-20",
      "value": -0.1155,
-     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86; undated, no price; re-read 22 Nov SGT"
+     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86; undated, no price; unchanged since 22 Nov read; re-read 23 Nov SGT",
+     "issue": 171
     }
    ],
    "name": "PIMCO GIS Income Fund, SGD-hedged class, 1-week total return",
@@ -25643,7 +25653,8 @@
     {
      "date": "2026-11-20",
      "value": 3538.9,
-     "source": "Kitco spot gold, bid 3,537.90 / ask 3,539.90 at Friday close, -86.30 (-2.38%) on day; read at source 22 Nov SGT"
+     "source": "Kitco spot gold, bid 3,537.90 / ask 3,539.90, Friday close (page stamped 4:08pm NY 22 Nov, market shut), -86.30 (-2.38%) on day; COMEX Dec futures 3,515.4 vs 4,142.6 on 20 Oct (-15.1%, Yahoo feed); read at source 23 Nov SGT",
+     "issue": 171
     }
    ],
    "name": "Gold, spot",
@@ -25655,10 +25666,6 @@
   },
   "btc": {
    "readings": [
-    {
-     "date": "2025-05-11",
-     "value": 102800.21
-    },
     {
      "date": "2025-05-12",
      "value": 104131.06
@@ -27890,6 +27897,10 @@
     {
      "date": "2026-11-20",
      "value": 58830.52
+    },
+    {
+     "date": "2026-11-21",
+     "value": 60071.14
     }
    ],
    "name": "Bitcoin, Coinbase",
@@ -27921,7 +27932,8 @@
     {
      "date": "2026-11-20",
      "value": 0.0,
-     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57; last ex-date 29 Oct; undated, no price; re-read 22 Nov SGT"
+     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57; undated, no price; unchanged since 22 Nov read; re-read 23 Nov SGT",
+     "issue": 171
     }
    ],
    "name": "PIMCO GIS Income Fund, USD class, 1-week total return",
@@ -27945,8 +27957,8 @@
    ]
   },
   {
-   "issue": 170,
-   "date": "2026-11-22",
+   "issue": 171,
+   "date": "2026-11-23",
    "regime": "A real-rate shock: the Federal Reserve tightening",
    "since": 162,
    "triggers": [
@@ -27956,7 +27968,7 @@
    ]
   }
  ],
- "fetched": "2026-11-21T21:03:30Z",
+ "fetched": "2026-11-22T21:03:56Z",
  "fetch_errors": {},
  "holds": {
   "fwd_eps": {

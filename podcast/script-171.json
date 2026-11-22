@@ -1,0 +1,676 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 171,
+ "date": "Monday 23 November 2026",
+ "title": "Out of Sight",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Monday, the twenty-third of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. The climate summit in Antalya has ended with no decision at all — the first since Copenhagen in two thousand and nine."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Our Prime Minister, in Beijing, says Singapore has \"no control, no visibility\" over most of the chips invoiced here."
+  },
+  {
+   "s": "A",
+   "t": "And in South Korea, exam candidates now tape over their buttons."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Trouser buttons included. The thread through the book today is \"out of sight\" — the things nobody is placed to watch."
+  },
+  {
+   "s": "A",
+   "t": "The lead. The United Nations climate summit in Antalya, Turkey, ended on Sunday the twenty-second without an agreement."
+  },
+  {
+   "s": "B",
+   "t": "What broke it?"
+  },
+  {
+   "s": "A",
+   "t": "The European Union, with small island and Latin American states, refused a final text that didn't mention fossil fuels. Turkey's environment minister, Murat Kurum, gavelled it shut two days late, after the longest summit on record."
+  },
+  {
+   "s": "B",
+   "t": "And his parting words?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] \"There will be no new text from now on.\""
+  },
+  {
+   "s": "B",
+   "t": "[curious] Okay — why does one yearly meeting matter this much?"
+  },
+  {
+   "s": "A",
+   "t": "It's where one hundred and ninety-six countries and the European Union agree, by consensus, what to do about warming. In Dubai in twenty twenty-three they promised to \"transition away\" from coal, oil and gas. Antalya was meant to build on it."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And instead the words just… evaporated."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Shrank, steadily. A first draft around the sixteenth named fossil fuels six times. From Thursday the nineteenth, no draft named them at all. Saudi Arabia, Russia and India reportedly fought any reference. America stayed away."
+  },
+  {
+   "s": "B",
+   "t": "So what survived into the final twelve pages?"
+  },
+  {
+   "s": "A",
+   "t": "It recalled the Dubai text \"in its entirety\", and admitted the Paris goal of one point five degrees will be missed. Then carbon capture of at least five hundred million tonnes a year by twenty thirty-five, electricity at thirty-five per cent of final energy use, and tripled adaptation money."
+  },
+  {
+   "s": "B",
+   "t": "Against needs of —"
+  },
+  {
+   "s": "A",
+   "t": "— five point one to six point eight trillion dollars to twenty thirty."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] And nobody was polite afterwards."
+  },
+  {
+   "s": "A",
+   "t": "Ireland's Darragh O'Brien, speaking for the European Union, said the summit was \"hijacked by some oil states\". Australia's Chris Bowen, who ran the negotiations, spoke of \"unbridgeable red lines\"."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Four capitals. Ankara — the Anadolu Agency has Kurum leaving the stalled talks \"to the judgment of the entire world and humanity\"."
+  },
+  {
+   "s": "A",
+   "t": "[wry] A large jury. Beijing — China Daily worries about a review weakened \"in the name of streamlining and efficiency\"."
+  },
+  {
+   "s": "B",
+   "t": "Moscow, from the Russian delegation itself: \"we cannot agree to any formulation on fossil fuels.\" Science asks for deep cuts, it says — not \"disappearance\"."
+  },
+  {
+   "s": "A",
+   "t": "And Abu Dhabi's The National has Kurum saying delegates \"got hung up on a single word or phrase\". African negotiators accused him of disrespect."
+  },
+  {
+   "s": "B",
+   "t": "Now the sceptic, who says the collapse changes less than it looks."
+  },
+  {
+   "s": "A",
+   "t": "China's Li Gao: \"We cannot see this as a failure of this multilateral process.\" The Dubai pledge still binds."
+  },
+  {
+   "s": "B",
+   "t": "So what did the veto actually kill?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Money. The tripled adaptation finance and the electricity goal both lapse. The Philippines had warned: \"a target without means is a promise without a pathway.\""
+  },
+  {
+   "s": "B",
+   "t": "Next year, Addis Ababa. And briefly — Poland."
+  },
+  {
+   "s": "A",
+   "t": "Two Russian missiles and a jet-powered drone crossed into the south-east overnight into Friday the twentieth, during one of Russia's heaviest attacks on Ukraine. Nobody was hurt. They came down between thirty and sixty miles inside the country. Donald Tusk: \"we are dealing with an intentional provocation.\""
+  },
+  {
+   "s": "B",
+   "t": "And European troops preparing to guard any Ukrainian ceasefire were training about an hour and a half's drive away."
+  },
+  {
+   "s": "A",
+   "t": "The defence minister: \"It is hard to regard it as a coincidence.\" Nato's Mark Rutte flew to Warsaw: \"all allies stand in full solidarity with Poland\"."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] While Donald Trump told Fox News Putin lands \"a couple of little missiles, by mistake\"."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic: Warsaw asked for more Nato forces but did not invoke Article Four. The Institute for the Study of War warns that risks \"raising the real threshold for allied responses\"."
+  },
+  {
+   "s": "B",
+   "t": "Noted. To the money — and this week, it's plumbing."
+  },
+  {
+   "s": "A",
+   "t": "[pause] Overnight money. Every night, banks and funds lend each other cash against Treasury bonds. The average rate is the price of overnight cash."
+  },
+  {
+   "s": "B",
+   "t": "And if it jumps?"
+  },
+  {
+   "s": "A",
+   "t": "Someone's short. A share sell-off turns into a scramble for cash that forces selling everywhere. [pause] Friday's didn't. The Federal Reserve pays banks three point nine per cent on cash left with it. On the nineteenth, the overnight rate was three point nine one. And banks' reserves rose nineteen point one billion dollars, to an average three trillion."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And the emergency window? Where banks go when nobody lends cheaper?"
+  },
+  {
+   "s": "A",
+   "t": "On Friday it lent one million dollars."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] One million. In that system, that's loose change."
+  },
+  {
+   "s": "A",
+   "t": "Which is the reassuring number. But page fifteen has the darker chart. The spare tank. The Fed's overnight reverse repo — where money funds park cash they can't lend elsewhere. Two point five five trillion dollars at the end of twenty twenty-two. On Friday, four hundred and one million."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] From trillions to… almost nothing."
+  },
+  {
+   "s": "A",
+   "t": "And that tank absorbed shocks. Now when the Treasury borrows to refill its account, the cash comes out of bank reserves instead."
+  },
+  {
+   "s": "B",
+   "t": "Which is where the sceptic comes in."
+  },
+  {
+   "s": "A",
+   "t": "Four Fed economists led by Sriya Anbil. When reserves plus that tank top twelve per cent of America's output, new Treasury bonds barely move overnight rates. Below ten per cent, they move them almost a tenth of a point. Today it's about nine point one per cent. So one calm week proves little before the year-end, when banks shrink."
+  },
+  {
+   "s": "B",
+   "t": "And the desk's standing call?"
+  },
+  {
+   "s": "A",
+   "t": "A real-rate shock — the Fed tightening through the price of money. Held since issue one sixty-two; nothing has tripped it. It changes if the ten-year real yield closes under two point six, if there's no rate rise on the ninth of December, or if the junk-bond spread tops four points. It's at three point five two."
+  },
+  {
+   "s": "B",
+   "t": "The four, then. Quickly."
+  },
+  {
+   "s": "A",
+   "t": "The all-world fund, V W R A, fell three point two seven per cent to one hundred and seventy-two dollars ninety-seven. Lean: flat to lower."
+  },
+  {
+   "s": "B",
+   "t": "PIMCO Income, Singapore-dollar hedged, down a tenth of a per cent on the week, yielding six point eight six. Lean: steady."
+  },
+  {
+   "s": "A",
+   "t": "Gold, three thousand five hundred and thirty-nine dollars, down about fifteen per cent in a month. Bitcoin, sixty thousand eight hundred and ninety-two late on Sunday. Both leans: lower."
+  },
+  {
+   "s": "B",
+   "t": "And issue one sixty-six's leans, due Wednesday, are on course."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "Now Singapore, where \"out of sight\" really bites. Lawrence Wong, to Singapore reporters in Beijing on Saturday."
+  },
+  {
+   "s": "A",
+   "t": "Singapore can check American A I chips used inside the country. Over the far larger number only sold through it and shipped elsewhere — \"no control, no visibility\"."
+  },
+  {
+   "s": "B",
+   "t": "Mechanism, please. How is a chip sold here without ever being here?"
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] A firm registered here buys and invoices it, then ships it straight to a third country. It never touches Singapore soil. Wong called that volume \"not small\"."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the money runs through our ledgers, and the machine goes somewhere else entirely."
+  },
+  {
+   "s": "A",
+   "t": "And his line hardened in four days. In Manila: \"We are not here to implement or enforce the export controls of other countries.\" In Beijing: \"We can't enforce on their behalf… But we can be helpful.\""
+  },
+  {
+   "s": "B",
+   "t": "Meaning shared information, so Washington and the destination countries can act. And behind it, Megaspeed."
+  },
+  {
+   "s": "A",
+   "t": "A Singapore-registered cloud company under American criminal investigation. Singapore's police and Customs have investigated it since February twenty twenty-five. Its former chief executive, Alice Huang, is barred from re-entering after misleading police."
+  },
+  {
+   "s": "B",
+   "t": "The sceptic is Chong Ja Ian, of the National University of Singapore: \"obviously not a good look for Singapore\". He wants stronger oversight, not case-by-case fixes."
+  },
+  {
+   "s": "A",
+   "t": "For the diary: Vice-Premier Ding Xuexiang co-chairs the bilateral council today with Gan Kim Yong. The Economic Survey lands tomorrow at eight in the morning."
+  },
+  {
+   "s": "B",
+   "t": "And Wong flies to Australia — the first foreign leader to land at Western Sydney International."
+  },
+  {
+   "s": "A",
+   "t": "[amused] On Singapore Airlines' first flight there. Technology — and the very same chips."
+  },
+  {
+   "s": "B",
+   "t": "The New York Times story."
+  },
+  {
+   "s": "A",
+   "t": "On the twenty-first it reported that China's Ministry of State Security has spent at least two years helping Chinese firms obtain and smuggle the American A I chips Washington bars them from buying. Its sources: serving and former officials in Asia, America and Europe. All unnamed. The minister, Chen Yixin, reportedly set up a team that answers only to him."
+  },
+  {
+   "s": "B",
+   "t": "And a fresh Singapore thread. The Wall Street Journal named Li Ming, charged here with fraud in February twenty twenty-five, as a central operator of a smuggling network — per people familiar. He's out on bail."
+  },
+  {
+   "s": "A",
+   "t": "And Novagate Cloud, set up by Megaspeed's former team, took in at least three hundred million dollars of Nvidia hardware in Malaysia from January to May."
+  },
+  {
+   "s": "B",
+   "t": "Beijing's answer, from Mao Ning: stop \"fabricating such 'spy' narratives\". And Megaspeed says it \"conducts legitimate and lawful business\"."
+  },
+  {
+   "s": "A",
+   "t": "The Home Lab is cheerier. A free program called PolyStrata lets ordinary gaming computers run A I models too big for their graphics chips. These models are built from many specialist parts, and only a few work on each word. It keeps the busy parts on the graphics card and the rest in ordinary memory. On a laptop with an eight-gigabyte Nvidia card, Inkling Two Mini wrote fifty-six tokens a second. About forty words a second."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Most of us read four or five. So a page-long answer in about ten seconds."
+  },
+  {
+   "s": "A",
+   "t": "The maker's own figure — though owners on eight-gigabyte cards report much the same."
+  },
+  {
+   "s": "B",
+   "t": "But the man who opened the project's thread measured twenty-two point four on his own port. Slower in real use, he says."
+  },
+  {
+   "s": "A",
+   "t": "So: worth an evening for a tinkerer. It means running a script, not clicking an installer. Everyone else should wait."
+  },
+  {
+   "s": "B",
+   "t": "The Kit. Xreal's Aura — the first glasses built for Google's Android X R."
+  },
+  {
+   "s": "A",
+   "t": "One thousand two hundred and seventy-nine US dollars, or one thousand and ninety-nine through December. A bright picture drawn over the real room, and a cable to a phone-sized box in your pocket."
+  },
+  {
+   "s": "B",
+   "t": "Ninety-five grams on the nose, against five hundred and fourteen for Meta's Quest Three S."
+  },
+  {
+   "s": "A",
+   "t": "Engadget gave it seven out of ten. And then — [deadpan] \"proof of life for Android X R, and nothing more.\""
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Ouch. Bright screens, comfortable — but unstable software, scarce apps, a hot puck, about three hours of use."
+  },
+  {
+   "s": "A",
+   "t": "And not on sale in Singapore. The desk's call: not before the thirty-first of March, twenty twenty-seven."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Then the Atelier — and I loved this one. Leather sandals."
+  },
+  {
+   "s": "A",
+   "t": "A sandal is decided by two things a shop rarely labels. How the leather was tanned. And whether the sole is sewn or glued."
+  },
+  {
+   "s": "B",
+   "t": "And India's Kolhapuri chappal has its recipe written into law."
+  },
+  {
+   "s": "A",
+   "t": "A twenty eighteen filing for its geographical-indication tag. Babul bark and myrobalan nuts, thirty to thirty-two days from raw hide. Every part bark-tanned, stitched with thread cut from the same hide."
+  },
+  {
+   "s": "B",
+   "t": "Thread from the same hide. That's rather beautiful. Why does the tan matter?"
+  },
+  {
+   "s": "A",
+   "t": "Bark tanning darkens with wear and moulds to a foot. Mineral tanning is softer but never really shapes. And a sewn sole can be replaced. A glued one usually ends the shoe."
+  },
+  {
+   "s": "B",
+   "t": "Give me the ladder."
+  },
+  {
+   "s": "A",
+   "t": "Entry: a state-agency pair for one thousand two hundred and thirty-one rupees — though its listing says only \"naturally tanned\". Grail: Tokyo Sandal's Mizuhiki, fifty-five thousand yen, sold out."
+  },
+  {
+   "s": "B",
+   "t": "And a Singapore warning. Mould grows on leather in ten days at eighty per cent humidity. Dry them in moving air, never in a shut cupboard."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic: the tag certifies a place and a recipe, not the pair in the box. Past a sewn sole and a known tan, the money buys a name."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every Monday. I'm starting to think you rehearse it."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Mokuhanga! Japanese water-based woodblock printing."
+  },
+  {
+   "s": "A",
+   "t": "Explain it as if I'm holding the tools."
+  },
+  {
+   "s": "B",
+   "t": "You carve one block of wood for each colour. Brush on watery pigment thickened with a little rice paste. Lay damp paper on top, and rub the back by hand with a flat round pad called a baren. No press, no oily ink. The whole studio fits on a table."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Finally, a hobby that respects the size of a Singapore flat."
+  },
+  {
+   "s": "B",
+   "t": "And it usually starts with one print seen up close. In Vermont, the Brattleboro Museum has opened a show by the Mokuhanga Sisters — nine artists from six countries."
+  },
+  {
+   "s": "A",
+   "t": "[amused] Including, I'm told, a print of instant macaroni."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Yoonmi Nam's \"Instant, Mac and Cheese\". A packet of convenience food, carved and printed by hand. It runs to the sixth of March."
+  },
+  {
+   "s": "A",
+   "t": "And there's a conference."
+  },
+  {
+   "s": "B",
+   "t": "The sixth goes to Lawrence, Kansas, in May twenty twenty-seven. Its juried show takes entries at twenty dollars each — until the thirtieth of November. A week."
+  },
+  {
+   "s": "A",
+   "t": "Now the gear. Because I know you've priced all of it."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Four tools. Knife, wood, brush, baren. And the money only tells in two places — the blade, and the rubbing pad. Good Japanese knives are two metals. A thin layer of very hard steel for the edge, welded onto softer iron that stops it snapping. The main knife, the hangi-to, from forty-six dollars seventy at the Oregon supplier McClain's."
+  },
+  {
+   "s": "A",
+   "t": "And the baren, I gather, is a ladder."
+  },
+  {
+   "s": "B",
+   "t": "It is gloriously a ladder. A paper-coil starter, fifteen dollars. A plastic disk baren, forty-seven twenty-five. A Murasaki, with a hand-twisted coil, from two hundred and sixty-four sixty. The top rung is the hon-baren. Made to order. [pause] \"Prices start at around twelve hundred dollars.\" And — \"Each baren requires up to a year of intensive labor.\""
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] A year. For a rubbing pad."
+  },
+  {
+   "s": "B",
+   "t": "A coil of twisted cord, in a lacquered disc, wrapped in bamboo leaf! The ridges press the paper into the wet colour!"
+  },
+  {
+   "s": "A",
+   "t": "You've gone quite pink. What's a sensible first three months?"
+  },
+  {
+   "s": "B",
+   "t": "McClain's kit, a main knife and a U-gouge, four shina blocks and a disk baren. About four hundred and thirty-nine dollars all in. Never strike those knives with a mallet."
+  },
+  {
+   "s": "A",
+   "t": "And who do you learn from?"
+  },
+  {
+   "s": "B",
+   "t": "Baren Forum, and David Bull — the Canadian carver-printer who moved to Japan in nineteen eighty-six. A hundred and ninety-three thousand subscribers."
+  },
+  {
+   "s": "A",
+   "t": "And here at home?"
+  },
+  {
+   "s": "B",
+   "t": "S T P I, on Robertson Quay, taught a mokuhanga class in April twenty twenty-five for eighty dollars before G S T. [thoughtful] No twenty twenty-six date found. Take it when it returns."
+  },
+  {
+   "s": "A",
+   "t": "Now the bit that worried me. The carvers."
+  },
+  {
+   "s": "B",
+   "t": "Mm. The trade side — Tokyo workshops where one person carves the blocks and another prints them. The Adachi Foundation, which trains both, found no suitable trainee last financial year. This year, three applied. One carver chosen — Mitoha Nakajima. Meanwhile its print-design award drew three hundred and ninety-five applications from sixty-four countries."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] So everyone wants to design the print. Almost nobody wants to spend years learning to cut it."
+  },
+  {
+   "s": "B",
+   "t": "And the hobbyists descend from \"creative prints\", which had three rules: self-drawn, self-carved, self-printed."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic?"
+  },
+  {
+   "s": "B",
+   "t": "The foundation's own report. A television drama brought \"a substantial increase\" in visitors. [warmly] Mokuhanga lacks apprentices — not admirers."
+  },
+  {
+   "s": "A",
+   "t": "Nicely put. Culture and the body, quickly."
+  },
+  {
+   "s": "B",
+   "t": "Screen. The Hunger Games: Sunrise on the Reaping took an estimated one hundred and twenty million dollars in North America on its opening weekend."
+  },
+  {
+   "s": "A",
+   "t": "Two hundred and twenty-five million worldwide. The series' best home start since twenty fourteen."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Against Grand Theft Auto Six, released on Thursday!"
+  },
+  {
+   "s": "A",
+   "t": "Sceptic: Screen Rant puts break-even near three hundred and seventy-five million. And Monday's actuals could move the round number."
+  },
+  {
+   "s": "B",
+   "t": "The Good Life. A nineteen fifty-one pink-gold Patek Philippe fifteen eighteen at Phillips in Hong Kong."
+  },
+  {
+   "s": "A",
+   "t": "Twenty-five point one million Hong Kong dollars with premium. About three point two million US. Three times its low estimate."
+  },
+  {
+   "s": "B",
+   "t": "Spanish calendar discs, twenty-four years off the market."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] And the sceptic: one lot proves one buyer."
+  },
+  {
+   "s": "B",
+   "t": "The Family Desk. A JAMA study of three point seven million children linked childhood head scans to rare brain tumours."
+  },
+  {
+   "s": "A",
+   "t": "About one extra tumour per one thousand two hundred and sixty-six head scans. Small in absolute terms. The authors say plainly a needed scan should not be refused."
+  },
+  {
+   "s": "B",
+   "t": "So after a knock to the head, the question for the doctor is —"
+  },
+  {
+   "s": "A",
+   "t": "— will a scan change what happens next? General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And with Primary Six results out tomorrow: Adelaide University tracked twenty thousand nine hundred and ten pupils. Wellbeing dips with the move to secondary itself."
+  },
+  {
+   "s": "A",
+   "t": "Girls dipped further, and recovered by year three. The shifts are fractions of a point. A slow first term is the norm, not a verdict on the school."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And watch Secondary Two as closely as Secondary One. Fitness?"
+  },
+  {
+   "s": "A",
+   "t": "The Cooper Institute followed twenty-eight thousand six hundred and twelve Dallas men. Each extra step of midlife fitness came with a nineteen per cent lower lung-cancer risk. Prostate showed no link."
+  },
+  {
+   "s": "B",
+   "t": "Observational, abstract only — single-sourced. And fit men may simply see doctors more. The takeaway: get a baseline test."
+  },
+  {
+   "s": "A",
+   "t": "And the Diary pick: Singapore Ballet's Nutcracker at the Esplanade, ninth to thirteenth of December, forty-five to one hundred and ten dollars."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] And Warmhouse Nasi Lemak in Chinatown Complex — a five-dollar plate a paying critic found \"closer to bistro quality\". Shuts at two."
+  },
+  {
+   "s": "A",
+   "t": "Wing praised, rice faulted. Go early. [pause] And now, the Undercurrent."
+  },
+  {
+   "s": "B",
+   "t": "Take us there."
+  },
+  {
+   "s": "A",
+   "t": "On Sunday the fifteenth of November, the top candidate in South Korea's national exam for tax accountants confessed that he had cheated. With a tiny camera. He photographed the questions, sent them to an A I, and read the answers off a smartphone."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] In a country that trusts a sealed exam room almost more than anything."
+  },
+  {
+   "s": "A",
+   "t": "A paper taken in silence, marked by machine. No interview, no connections. That's how Korea hands out university places, jobs and licences."
+  },
+  {
+   "s": "B",
+   "t": "And it rested on one assumption: what the candidate knows is what's in his head. He showed that, for about the price of a dinner… that's no longer true."
+  },
+  {
+   "s": "A",
+   "t": "Four days later came the Suneung, the college entrance exam. Five hundred and fifty-one thousand eight hundred and sixty-four applicants. Every clothing button covered with a sticker."
+  },
+  {
+   "s": "B",
+   "t": "One teachers' union said a single school needed more than ten thousand stickers. Teachers bought their own. And three emergency alerts went to every phone in the country, mid-exam."
+  },
+  {
+   "s": "A",
+   "t": "[pause] Ninety-eight cheats counted that day. Five using smart devices."
+  },
+  {
+   "s": "B",
+   "t": "And the education minister, Choi Kyo-jin, had told lawmakers he couldn't guarantee catching it. \"Perhaps because of my age.\" He resigned on the twenty-second."
+  },
+  {
+   "s": "A",
+   "t": "How big is the edge? A reporter sat a mock exam twice. Unaided, she averaged twenty-eight. With smart glasses linked to ChatGPT, eighty-seven."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Twenty-eight to eighty-seven."
+  },
+  {
+   "s": "A",
+   "t": "The essay argues Korea won't change the test. It'll seal the room tighter, because the sealed room is the one part of the system people still trust."
+  },
+  {
+   "s": "B",
+   "t": "And Korea has been here before."
+  },
+  {
+   "s": "A",
+   "t": "The gwageo, the old state exam, ran from nine fifty-eight. By late Joseon it was a byword for fraud — hired writers, hired calligraphers."
+  },
+  {
+   "s": "B",
+   "t": "And still it lasted?"
+  },
+  {
+   "s": "A",
+   "t": "[pause] Nine hundred and thirty-six years. Until eighteen ninety-four — abolished along with the class system it served."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] So an exam that makes an unequal scramble look fair… survives cheating. It falls only when people stop believing in what it certifies."
+  },
+  {
+   "s": "A",
+   "t": "The desk predicts no date to end the Suneung by the close of twenty twenty-seven. And the sceptic says the numbers are thin — five device cases among about four hundred and ninety thousand who sat."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And the hunt for \"impossible\" scores did its own damage. A perfect scorer on the law-school test, accused online, was found dead on Suneung day. Police are investigating."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] Madison thought men weren't angels. Seoul has concluded that neither are their shirts."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Neither are mine, frankly."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-five pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

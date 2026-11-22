@@ -73,9 +73,9 @@
       "kind": "fact",
       "item": "the Iranian supertanker, IRGC-via-ISNA only, no vessel named",
       "due": "",
-      "status": "OPEN",
-      "checked": "169",
-      "outcome": "nothing new from ISNA"
+      "status": "DROPPED",
+      "checked": "171",
+      "outcome": "No. 171: IRGC-via-ISNA claim never named a vessel; seven re-checks to No. 171 found no further report — unverifiable"
     },
     {
       "id": "H008",
@@ -85,8 +85,8 @@
       "item": "any Apple reply on the flicker",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "no Apple reply"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H009",
@@ -96,8 +96,8 @@
       "item": "the FAA laboratory finding and any GovTech root cause",
       "due": "",
       "status": "OPEN",
-      "checked": "168",
-      "outcome": "re-checked No. 168, still open (see the No. 168 notes)"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H010",
@@ -162,8 +162,8 @@
       "item": "Secondary 1 posting results: MOE still gives 18 December 2026 only as tentative; SEAB's own page carries no S1 date and every moe.gov.sg page serves an empty body to this desk",
       "due": "2026-12-10",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "MOE still says tentative 18 Dec"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H016",
@@ -173,8 +173,8 @@
       "item": "Whether PAHO reconciles the two measles death tolls it published on 17 November — 82 in the news release, 114 in the same-day Q&A, against one identical case count of 58,213",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "PAHO SitRep 15 latest; no reconciliation"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H017",
@@ -184,8 +184,8 @@
       "item": "The condition of the Kerch Bridge span: a Kyiv estimate of a year or more against a Kremlin 'no doubt', and no independent engineering assessment from any party",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "no independent assessment"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H018",
@@ -195,8 +195,8 @@
       "item": "Nvidia's Q4 FY2027 gross-margin guidance against delivery, and whether a permanent chief executive is named",
       "due": "2027-02-28",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "Q4 GM guide 71-72%; no permanent CEO"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H019",
@@ -272,8 +272,8 @@
       "item": "Which Hanpin turntable models are sold under Audio-Technica and AlphaTheta badges (customs records show shipments only)",
       "due": "",
       "status": "OPEN",
-      "checked": "167",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H026",
@@ -294,8 +294,8 @@
       "item": "LONGJING Tampines Mall opening date, hours and prices",
       "due": "2026-12-15",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "not re-checked"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H028",
@@ -304,9 +304,9 @@
       "kind": "fact",
       "item": "Pharmacists for a Healthy Society's KRW 1.012tn first-half 2026 Mounjaro supply figure — single-sourced",
       "due": "",
-      "status": "OPEN",
-      "checked": "167",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: KRW 1.012tn is the H1 2026 value of Mounjaro supplied to Korean medical institutions per the Pharmacists for a Healthy Society commentary of 17 Nov 2026 (Dailypharm, Kang Hye-kyung, read at source); underlying dataset unnamed. Printed p2."
     },
     {
       "id": "H029",
@@ -315,9 +315,9 @@
       "kind": "fact",
       "item": "Whether any hobbyist Raspberry Shake station operates in Singapore — station service returned HTTP 502",
       "due": "",
-      "status": "OPEN",
-      "checked": "167",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: Yes - Raspberry Shake public station metadata (data.raspberryshake.org) lists open citizen stations inside Singapore, AM.R1475 since 26 Jan 2026, plus R165D, R14CF, R9273. Printed p2."
     },
     {
       "id": "H030",
@@ -327,8 +327,8 @@
       "item": "GrapheneOS official support for the Motorola Signature 27 — unlisted at press",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "GrapheneOS lists Pixels only"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H031",
@@ -360,8 +360,8 @@
       "item": "Kremlin answer to the Berlin winter energy truce call, and a date or venue for talks including Europeans",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "Kremlin still at Putin's 19 Nov 'no negotiations'; no date/venue"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H034",
@@ -370,9 +370,9 @@
       "kind": "date",
       "item": "MTI Economic Survey: final Q3 2026 GDP and the 2027 forecast",
       "due": "2026-11-26",
-      "status": "OPEN",
-      "checked": "169",
-      "outcome": "METI Q3 Economic Survey dated Tue 24 Nov 8am"
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: METI notice of 17 Nov confirms the Economic Survey at 8:00am Tue 24 Nov (meti.gov.sg, read at source); the trade ministry is now METI. Printed p5."
     },
     {
       "id": "H035",
@@ -382,8 +382,8 @@
       "item": "First licence decision or BIS clarification of 'significant volume' under 91 FR 74970",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "no licence decision or clarification"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H036",
@@ -415,8 +415,8 @@
       "item": "Hy4 Flash llama.cpp support (PR #32517) merged, and an independent speed test",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "PR 32517 ready for review, not merged"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H039",
@@ -459,8 +459,8 @@
       "item": "Standard Singapore ticket prices for KATSEYE, Kenshi Yonezu, Maroon 5 and Freya Skye (Ticketmaster refused)",
       "due": "",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": "no standard prices; Ticketmaster 403"
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H043",
@@ -481,8 +481,8 @@
       "item": "Whether The Gambia refers Myanmar to the UN Security Council, or the US sanctions ICJ judges, after the 19 Nov genocide judgment",
       "due": "2026-12-19",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H045",
@@ -492,8 +492,8 @@
       "item": "Whether Estonia's road-border closure starts 07:00 1 Dec as decided, and Russia's response",
       "due": "2026-12-01",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H046",
@@ -502,9 +502,9 @@
       "kind": "date",
       "item": "COP31 Antalya final text: any fossil-fuel language restored",
       "due": "2026-11-23",
-      "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: COP31 closed 22 Nov with no overarching decision; final drafts carried no fossil-fuel language from 19 Nov; EU, Panama, Marshall Islands rejected the text (Anadolu, NBC, Reuters, 22 Nov, read at source). Printed p3."
     },
     {
       "id": "H047",
@@ -514,8 +514,8 @@
       "item": "CSFTA 4.0: first negotiating round date, chapters or timetable; JCBC outcome",
       "due": "2026-11-30",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H048",
@@ -525,8 +525,8 @@
       "item": "SEC inquiry into Nvidia accounting (Reuters, unnamed sources): confirmation by filing or SEC",
       "due": "2026-12-04",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H049",
@@ -536,8 +536,8 @@
       "item": "Trump 'tremendous tax' on US firms' overseas data centres: any text, any country named",
       "due": "2026-12-04",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H050",
@@ -547,8 +547,8 @@
       "item": "Teenage Engineering EP/BC-1 Singapore price/stockist and first independent review",
       "due": "2026-12-05",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H051",
@@ -579,9 +579,9 @@
       "kind": "date",
       "item": "Sunrise on the Reaping actual US opening weekend vs $100m",
       "due": "2026-11-24",
-      "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: Sunrise on the Reaping opened to an estimated $120m domestic, $225m global (Box Office Mojo weekend estimates; The Numbers, AP, Variety agree) - above $100m. Printed p11."
     },
     {
       "id": "H054",
@@ -591,8 +591,8 @@
       "item": "MEDiA study full text (JAH): exact per-hour minutes and the sex interaction",
       "due": "2026-12-04",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H055",
@@ -602,8 +602,8 @@
       "item": "Deng et al. Obes Rev full text: risk of bias, heterogeneity, how visceral fat was measured (Wiley 403)",
       "due": "2026-11-27",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H056",
@@ -634,9 +634,9 @@
       "kind": "fact",
       "item": "Casa Mori: a second independent review before the verdict can be called",
       "due": "2026-12-31",
-      "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: Casa Mori second reviews: The Ordinary Patrons 25 Jul 2026 (3 TOPs) and Honeycombers 28 Jul (cheesecake grainy), read at source; venue barred on the Table ledger so not printed."
     },
     {
       "id": "H059",
@@ -646,8 +646,8 @@
       "item": "Does Victoria announce a retail fur-sale ban, and does it exempt pest fur?",
       "due": "2027-03-31",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H060",
@@ -657,8 +657,8 @@
       "item": "Samsung Cup 2026 final result (not found at press)",
       "due": "2026-12-05",
       "status": "OPEN",
-      "checked": "169",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H061",
@@ -690,8 +690,8 @@
       "item": "Edo kibashi grail: Daikokuya blue-black ebony pair price at an authorised retailer (only reseller listings seen); ironwood and chestnut species tiers not read at source",
       "due": "",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H064",
@@ -701,8 +701,8 @@
       "item": "Sunrise on the Reaping weekend: Sunday studio estimate and Monday actuals vs the ~$120m Friday-based projection (H053 continues)",
       "due": "2026-11-24",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H065",
@@ -712,8 +712,8 @@
       "item": "El-Shafie et al. JAMA Psychiatry ABCD discordance: full tables (per-diagnosis agreement, kappa) — PMC copy embargoed",
       "due": "",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H066",
@@ -723,8 +723,8 @@
       "item": "Yasunaga et al. MSSE: effect sizes for FMD/irisin in the 17-person band trial, and which irisin assay was used",
       "due": "",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H067",
@@ -734,8 +734,8 @@
       "item": "Face-value prices for Mahiru (29 Nov, Victoria Theatre), Queens of the Stone Age (2 Dec, Star Theatre) and beabadoobee (4 Apr, Indoor Stadium) — not on Live Nation/The Star pages",
       "due": "2026-12-01",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H068",
@@ -745,8 +745,8 @@
       "item": "Hayley Williams, The Star Theatre 26 Feb 2027 (AEG Presents/AXS): prices and time — only Bandwagon read; AXS 403, not on thestar.sg list yet",
       "due": "2026-12-05",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H069",
@@ -755,9 +755,9 @@
       "kind": "fact",
       "item": "Alvinology 9 Nov review of Casa Vostra Wisma Atria — page 403, verdict unread",
       "due": "",
-      "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "status": "DROPPED",
+      "checked": "171",
+      "outcome": "No. 171: Casa Vostra is SPENT/barred on the Table ledger; Alvinology page refused three times — no longer printable"
     },
     {
       "id": "H070",
@@ -778,8 +778,8 @@
       "item": "Name of the British factory inspector behind 'the lights in the window will discover the one but not the other' (unnamed in the source read)",
       "due": "",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H072",
@@ -789,8 +789,8 @@
       "item": "WGC Central Bank Gold Statistics for October 2026 (not yet published at 22 Nov; cb_gold stays at Sep 61t)",
       "due": "2026-12-08",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H073",
@@ -800,8 +800,8 @@
       "item": "ICI combined flows for week to 18 Nov (release Wed 25 Nov) — first count covering the rout",
       "due": "2026-11-27",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H074",
@@ -866,8 +866,8 @@
       "item": "TSMC confirmation of the China 16nm order halt, and first US licence decision for Chinese phone chips before the 21 Dec savings-clause deadline",
       "due": "2026-12-21",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H080",
@@ -877,8 +877,8 @@
       "item": "Independent tok/s benchmark for Inkling 2 Mini on a 32GB Mac / 24GB GPU (not vendor, not single HN post)",
       "due": "",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H081",
@@ -888,8 +888,8 @@
       "item": "Grado GW200: microphone yes/no (Grado spec sheet says built-in, Gear Patrol says none), first independent review, Singapore price/stockist",
       "due": "",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H082",
@@ -898,9 +898,9 @@
       "kind": "date",
       "item": "Phillips HK XXIII sale total and Session 2 results (1518 pink gold HK$8-16m, 3990P-011 HK$12-24m)",
       "due": "2026-11-23",
-      "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: Phillips HK XXIII Session 2, 22 Nov: lot 1065 Patek 1518R pink gold (1951) HK$25.1m vs est HK$8-16m; lot 1125 3990P-011 HK$12.7m (Phillips lot pages, read at source). Sale total still unpublished (new item). Printed p10."
     },
     {
       "id": "H083",
@@ -954,8 +954,8 @@
       "item": "Iran nuclear doctrine: any formal NPT-withdrawal step, Majlis bill, or a Mojtaba Khamenei ruling revising the fatwa",
       "due": "2026-12-15",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H088",
@@ -965,8 +965,8 @@
       "item": "Denmark Kyivstoner case: Russia's 'appropriate response' (tit-for-tat expulsion?) and published evidence of GRU/FSB direction",
       "due": "2026-12-01",
       "status": "OPEN",
-      "checked": "170",
-      "outcome": ""
+      "checked": "171",
+      "outcome": "re-checked No. 171, still open"
     },
     {
       "id": "H089",
@@ -975,13 +975,254 @@
       "kind": "date",
       "item": "22nd JCBC: date, Ding Xuexiang visit, the 20+ deliverables and the EdTech/AI education MOU signing",
       "due": "2026-11-30",
+      "status": "RESOLVED",
+      "checked": "171",
+      "outcome": "No. 171: No. 171: Ding Xuexiang visiting 22-23 Nov, called on PM Wong at the Istana 22 Nov; 22nd JCBC on 23 Nov co-chaired by Gan Kim Yong, 20+ agreements expected (PMO 21 Nov; ST/ANN via The Star 22 Nov). Printed p5. Deliverables held as a new item."
+    },
+    {
+      "id": "H090",
+      "since": "171",
+      "desk": "The World",
+      "kind": "fact",
+      "item": "Whether COP31 talks are reconvened or a cover decision adopted later (Telegraph: 'suspended and reconvened next year'; no official process found)",
+      "due": "",
       "status": "OPEN",
-      "checked": "170",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H091",
+      "since": "171",
+      "desk": "The World",
+      "kind": "fact",
+      "item": "Malaysia to take the ICJ Myanmar ruling to the UN, OIC and Asean (Anadolu briefing headline only, single-sourced)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H092",
+      "since": "171",
+      "desk": "Singapore",
+      "kind": "date",
+      "item": "22nd JCBC deliverables (20+ agreements), the EdTech/AI education MOU and CSFTA 4.0 first-round date",
+      "due": "2026-11-24",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H093",
+      "since": "171",
+      "desk": "Singapore",
+      "kind": "date",
+      "item": "PM Wong in Australia 23-25 Nov: 11th Annual Leaders' Meeting outcomes; first foreign leader landing at Western Sydney International",
+      "due": "2026-11-25",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H094",
+      "since": "171",
+      "desk": "Fitness",
+      "kind": "fact",
+      "item": "Meernik et al. MSSE (Cooper Center, 28,612 men) full text: cohort make-up and adjustments (abstract only, single-sourced)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H095",
+      "since": "171",
+      "desk": "The Atelier",
+      "kind": "fact",
+      "item": "Prada's own price for its Kolhapuri-inspired sandals and whether sales began Feb 2026 (prada.com 503; ~EUR800 reported by Business Today)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H096",
+      "since": "171",
+      "desk": "The Atelier",
+      "kind": "fact",
+      "item": "Whether LIDCOM retail Kolhapuri pairs are bark-tanned (UmedMart says only 'naturally tanned')",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H097",
+      "since": "171",
+      "desk": "Technology",
+      "kind": "fact",
+      "item": "Whether Megaspeed itself is charged; Li Ming's Singapore case (WSJ 22 Nov)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H098",
+      "since": "171",
+      "desk": "Technology",
+      "kind": "fact",
+      "item": "NYT 21 Nov original on China's MSS chip hunt (nytimes.com refused) and Beijing's reply",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H099",
+      "since": "171",
+      "desk": "The Kit",
+      "kind": "date",
+      "item": "Xreal Aura Singapore availability and price",
+      "due": "2027-03-31",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H100",
+      "since": "171",
+      "desk": "The Good Life",
+      "kind": "date",
+      "item": "Phillips HK XXIII sale total and sell-through (no press release, results file 404)",
+      "due": "2026-11-25",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H101",
+      "since": "171",
+      "desk": "The Good Life",
+      "kind": "date",
+      "item": "Christie's HK Iconic 40 (25 Nov) lot 4021 Patek 6104/12G-010 result vs HK$12-24m",
+      "due": "2026-11-26",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H102",
+      "since": "171",
+      "desk": "The Family Desk",
+      "kind": "fact",
+      "item": "Current text of AAPM position statement PS 4-B (2023); page quoted superseded 2018 PS 4-A",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H103",
+      "since": "171",
+      "desk": "The Family Desk",
+      "kind": "ask",
+      "item": "Independent expert reaction to the JAMA head-CT/brain-tumour paper (Miglioretti, 19 Nov)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H104",
+      "since": "171",
+      "desk": "The Macro Desk",
+      "kind": "fact",
+      "item": "MAS SGD-US short-rate gap for the PIMCO Income hedge cost (MAS data service in maintenance)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H105",
+      "since": "171",
+      "desk": "The Rabbit Hole",
+      "kind": "fact",
+      "item": "Mokuhanga Sisters met at MI-LAB 2017-19 (Kentler Gallery robot check; listings only)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H106",
+      "since": "171",
+      "desk": "The Rabbit Hole",
+      "kind": "date",
+      "item": "6th International Mokuhanga Conference, Lawrence KS: exact days (26-29 May 2027 per listing)",
+      "due": "2027-05-26",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H107",
+      "since": "171",
+      "desk": "The Rabbit Hole",
+      "kind": "ask",
+      "item": "STPI: any 2027 mokuhanga class date (2026 class was mokulito)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H108",
+      "since": "171",
+      "desk": "The Diary",
+      "kind": "date",
+      "item": "SIX60 *SCAPE Ground Theatre 10 Dec ticket prices (Ticketmaster only, 403)",
+      "due": "2026-12-08",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H109",
+      "since": "171",
+      "desk": "The Table",
+      "kind": "fact",
+      "item": "Second independent review of Warmhouse Nasi Lemak (SETHLUI 403)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H110",
+      "since": "171",
+      "desk": "The Long Read",
+      "kind": "fact",
+      "item": "Final 2027 Suneung device-cheating count (111 suspected reported 20 Nov; printed same-day 98)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
+      "outcome": ""
+    },
+    {
+      "id": "H111",
+      "since": "171",
+      "desk": "The Long Read",
+      "kind": "fact",
+      "item": "Cho Kuk 2019 admissions plan (16 universities, nine at 40%) read only via Asia Economy 2020, not the ministry document",
+      "due": "",
+      "status": "OPEN",
+      "checked": "171",
       "outcome": ""
     }
   ],
   "open": [
-    "H007",
     "H008",
     "H009",
     "H011",
@@ -995,11 +1236,8 @@
     "H025",
     "H026",
     "H027",
-    "H028",
-    "H029",
     "H030",
     "H033",
-    "H034",
     "H035",
     "H036",
     "H038",
@@ -1007,17 +1245,14 @@
     "H042",
     "H044",
     "H045",
-    "H046",
     "H047",
     "H048",
     "H049",
     "H050",
     "H051",
-    "H053",
     "H054",
     "H055",
     "H057",
-    "H058",
     "H059",
     "H060",
     "H061",
@@ -1028,7 +1263,6 @@
     "H066",
     "H067",
     "H068",
-    "H069",
     "H070",
     "H071",
     "H072",
@@ -1041,13 +1275,33 @@
     "H079",
     "H080",
     "H081",
-    "H082",
     "H083",
     "H084",
     "H085",
     "H086",
     "H087",
     "H088",
-    "H089"
+    "H090",
+    "H091",
+    "H092",
+    "H093",
+    "H094",
+    "H095",
+    "H096",
+    "H097",
+    "H098",
+    "H099",
+    "H100",
+    "H101",
+    "H102",
+    "H103",
+    "H104",
+    "H105",
+    "H106",
+    "H107",
+    "H108",
+    "H109",
+    "H110",
+    "H111"
   ]
 }

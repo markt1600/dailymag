@@ -241,7 +241,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Mr. CHEESECAKE | Mr. CHEESECAKE | 152, 159 | SPENT | No. 152 build | opening run — record the peg here |
 | Nekobushi | Nekobushi | 153, 161 | SPENT | No. 153 build | opening run — record the peg here |
 | Woodsmen by Cut Butchery | Woodsmen by Cut Butchery | 153, 161 | SPENT | No. 153 build | opening run — record the peg here |
-| Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155 | OPEN | No. 155 build | opening run — record the peg here |
+| Warmhouse Nasi Lemak | Warmhouse Nasi Lemak | 155, 171 | SPENT | No. 155 build | opening run — record the peg here |
 | Menya Saku | Menya Saku | 155 | OPEN | No. 155 build | opening run — record the peg here |
 | HanBroth | HanBroth | 156, 169 | SPENT | No. 156 build | opening run — record the peg here |
 | The Hokkien Mee Club | The Hokkien Mee Club | 156 | OPEN | No. 156 build | opening run — record the peg here |
@@ -279,3 +279,5 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Pugners Dining | Pugners Dining | 168 | OPEN | No. 168 build | opening run — record the peg here |
 | Sagye Lite | Sagye Lite | 168 | OPEN | No. 168 build | opening run — record the peg here |
 | BB.Q Chicken | BB.Q Chicken | 168 | OPEN | No. 168 build | opening run — record the peg here |
+| Lobang | Lobang | 171 | OPEN | No. 171 build | opening run — record the peg here |
+| That Place | That Place | 171 | OPEN | No. 171 build | opening run — record the peg here |

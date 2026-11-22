@@ -2164,9 +2164,10 @@
       "venue": "Warmhouse Nasi Lemak",
       "key": "Warmhouse Nasi Lemak",
       "runs": [
-        155
+        155,
+        171
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 155 build",
       "note": "opening run — record the peg here"
     },
@@ -2547,9 +2548,29 @@
       "status": "OPEN",
       "checked": "No. 168 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Lobang",
+      "key": "Lobang",
+      "runs": [
+        171
+      ],
+      "status": "OPEN",
+      "checked": "No. 171 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "That Place",
+      "key": "That Place",
+      "runs": [
+        171
+      ],
+      "status": "OPEN",
+      "checked": "No. 171 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 171,
+  "barred_for_issue": 172,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2682,6 +2703,7 @@
     "Mr. CHEESECAKE",
     "Nekobushi",
     "Woodsmen by Cut Butchery",
+    "Warmhouse Nasi Lemak",
     "HanBroth",
     "Greenwood Fish Market",
     "Earworm",
@@ -2690,8 +2712,6 @@
     "Cranki Patisserie",
     "Mala Mia",
     "Casa Vostra",
-    "Khao Boi",
-    "Café Artévo",
     "Tan Ser Seng",
     "RUXU",
     "LONGJING",
@@ -2700,6 +2720,8 @@
     "Bagel Chef",
     "Pugners Dining",
     "Sagye Lite",
-    "BB.Q Chicken"
+    "BB.Q Chicken",
+    "Lobang",
+    "That Place"
   ]
 }

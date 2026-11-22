@@ -1,11 +1,11 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-21T21:03:30Z.
+Last fetch: 2026-11-22T21:03:56Z.
 
 ## The Call
 
-**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 170 (2026-11-22).
+**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 171 (2026-11-23).
 
 What would change it:
 - The 10-year real yield closes below 2.60 per cent (2.77 on 20 November)
@@ -20,11 +20,11 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 172.97 | 2026-11-20 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 20 Nov 2026 (-5.84, -3.27%); 52-week NAV high 195.62, low 161.35; read at source 22 Nov SGT |
-| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | -0.12 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86; undated, no price; re-read 22 Nov SGT |
-| gold | Gold, spot (US$/oz) | 3,539 | 2026-11-20 | — | — | — | — | — | Kitco spot gold, bid 3,537.90 / ask 3,539.90 at Friday close, -86.30 (-2.38%) on day; read at source 22 Nov SGT |
-| btc | Bitcoin, Coinbase (US$) | 58,831 | 2026-11-20 | -9,348 | -22,196 | -19,296 | -28,383 | down 7 weeks running; at its 1-year low | FRED CBBTCUSD |
-| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.00 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57; last ex-date 29 Oct; undated, no price; re-read 22 Nov SGT |
+| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 172.97 | 2026-11-20 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV at close 20 Nov 2026 (-5.84, -3.27%); 52-week NAV high 195.62, low 161.35; London price 174.96 vs 191.36 on 20 Oct (-8.6%, Yahoo feed); re-read at source 23 Nov SGT |
+| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | -0.12 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w -0.1155, 1m -0.0490, 3m -3.4414, 12m div yield 6.86; undated, no price; unchanged since 22 Nov read; re-read 23 Nov SGT |
+| gold | Gold, spot (US$/oz) | 3,539 | 2026-11-20 | — | — | — | — | — | Kitco spot gold, bid 3,537.90 / ask 3,539.90, Friday close (page stamped 4:08pm NY 22 Nov, market shut), -86.30 (-2.38%) on day; COMEX Dec futures 3,515.4 vs 4,142.6 on 20 Oct (-15.1%, Yahoo feed); read at source 23 Nov SGT |
+| btc | Bitcoin, Coinbase (US$) | 60,071 | 2026-11-21 | -2,820 | -20,610 | -17,047 | -24,755 | down 7 weeks running; 4% of its 1-year range | FRED CBBTCUSD |
+| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.00 | 2026-11-20 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w 0.0000, 1m +0.1022, 3m -2.8986, 12m div yield 6.57; undated, no price; unchanged since 22 Nov read; re-read 23 Nov SGT |
 
 ## Rates
 
@@ -71,14 +71,14 @@ What would change it:
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | gdpnow | Atlanta Fed GDPNow, current quarter (% saar) | 3.21 | 2026-10-01 | — | — | -0.06 | -1.03 | down 1 week running | FRED GDPNOW |
-| eps_growth | S&P 500 blended earnings growth, current quarter (%) | 32.90 | 2026-11-20 | +1.00 | — | — | — | up 4 weeks running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (Q3 blended growth 32.9%, 93% reported; Q4 est 28.9%, CY27 16.4%); PDF read at source |
-| fwd_eps | S&P 500 forward 12-month earnings per share (US$) | 415.82 | 2026-11-05 | — | — | — | — | — | FactSet Earnings Insight, John Butters, 9 Nov 2026 (forward 12-month EPS) |
+| eps_growth | S&P 500 blended earnings growth, current quarter (%) | 32.90 | 2026-11-20 | +1.00 | — | — | — | up 4 weeks running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (Q3 blended 32.9%, 93% reported; Q4 est 28.9%; CY26 33.7%; CY27 16.4%; Mag 7 Q3 27.0%); read at source 22 Nov UTC |
+| fwd_eps | S&P 500 forward 12-month earnings per share (US$) | 419.60 | 2026-11-19 | +3.78 | — | — | — | up 1 week running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (PDF EarningsInsight_112026A, read at source 22 Nov UTC): forward P/E 17.1 at the 19 Nov close 7,175.83; forward EPS +4.4% since 30 Sep; dollar level not printed, 419.6 = 7,175.83 / 17.1 computed by the desk |
 
 ## Valuation
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| fwd_pe | S&P 500 forward price/earnings (x) | 17.10 | 2026-11-19 | -0.60 | — | — | — | down 1 week running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (forward 12-month P/E 17.1 vs 5-yr avg 19.8, 10-yr 19.1; 19.0 at 30 Sep; index -6.2%, fwd EPS +4.4% since 30 Sep; close 7,175.83); no fwd EPS dollar level printed |
+| fwd_pe | S&P 500 forward price/earnings (x) | 17.10 | 2026-11-19 | -0.60 | — | — | — | down 1 week running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (forward 12-month P/E 17.1 vs 5-yr 19.8, 10-yr 19.1; 19.0 at 30 Sep); read at source 22 Nov UTC |
 | cape | Shiller cyclically adjusted P/E (x) | 37.86 | 2026-11-19 | — | — | — | — | — | multpl.com Shiller PE, 4:00pm 19 Nov close (-0.78, -2.01%); monthly table: Oct 40.60, Aug 41.00 (highest since Sep 2000's 41.89); mean 17.45, median 16.14; read at source |
 | vwra_us | All-world index: United States weight (%) | 62.83 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, portfolio data 31 Oct 2026 |
 | vwra_top10 | All-world index: top-ten holdings weight (%) | 23.54 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, top ten holdings 31 Oct 2026 |
