@@ -85,8 +85,8 @@
       "item": "any Apple reply on the flicker",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "re-checked 24 Nov: MacRumors 16 Nov and Notebookcheck carry owner reports only; no Apple statement found"
     },
     {
       "id": "H009",
@@ -96,8 +96,8 @@
       "item": "the FAA laboratory finding and any GovTech root cause",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "re-checked 24 Nov: FAA paused Juniper installs, root cause still under investigation (Axios/AeroTime 16-17 Nov); no lab finding published"
     },
     {
       "id": "H010",
@@ -162,8 +162,8 @@
       "item": "Secondary 1 posting results: MOE still gives 18 December 2026 only as tentative; SEAB's own page carries no S1 date and every moe.gov.sg page serves an empty body to this desk",
       "due": "2026-12-10",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "MOE press release 17 Nov still gives posting results as tentatively 18 Dec"
     },
     {
       "id": "H016",
@@ -173,8 +173,8 @@
       "item": "Whether PAHO reconciles the two measles death tolls it published on 17 November — 82 in the news release, 114 in the same-day Q&A, against one identical case count of 58,213",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "re-checked 24 Nov: PAHO 17 Nov briefing PDF prints 58,213 cases and 82 deaths; no sitrep 16 or reconciliation of the 114 figure yet"
     },
     {
       "id": "H017",
@@ -194,9 +194,9 @@
       "kind": "date",
       "item": "Nvidia's Q4 FY2027 gross-margin guidance against delivery, and whether a permanent chief executive is named",
       "due": "2027-02-28",
-      "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "status": "RESOLVED",
+      "checked": "172",
+      "outcome": "No. 172: Nvidia Q3 FY2027 release 17 Nov: Q4 revenue guide $130.0bn +/-3%, gross margins 71.0-72.0%; board reinstated Jensen Huang as CEO 23 Nov (8-K exhibit 99.1); printed p7, p15"
     },
     {
       "id": "H019",
@@ -415,8 +415,8 @@
       "item": "Hy4 Flash llama.cpp support (PR #32517) merged, and an independent speed test",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "PR 32517 still open 23 Nov; tester reports 8->15 tok/s on unstated hardware"
     },
     {
       "id": "H039",
@@ -514,8 +514,8 @@
       "item": "CSFTA 4.0: first negotiating round date, chapters or timetable; JCBC outcome",
       "due": "2026-11-30",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "JCBC 23 Nov: Gan says CSFTA 4.0 will include a digital-economy component; no first-round date"
     },
     {
       "id": "H048",
@@ -700,9 +700,9 @@
       "kind": "date",
       "item": "Sunrise on the Reaping weekend: Sunday studio estimate and Monday actuals vs the ~$120m Friday-based projection (H053 continues)",
       "due": "2026-11-24",
-      "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "status": "RESOLVED",
+      "checked": "172",
+      "outcome": "No. 172: The Numbers weekend chart 20-22 Nov: Sunrise on the Reaping $119,318,775 from 4,018 cinemas, just under the $120m Sunday estimate (BOM still showed the estimate); printed p11"
     },
     {
       "id": "H065",
@@ -877,8 +877,8 @@
       "item": "Independent tok/s benchmark for Inkling 2 Mini on a 32GB Mac / 24GB GPU (not vendor, not single HN post)",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "172",
+      "outcome": "no independent Inkling 2 Mini tok/s found 23 Nov"
     },
     {
       "id": "H081",
@@ -987,8 +987,8 @@
       "item": "Whether COP31 talks are reconvened or a cover decision adopted later (Telegraph: 'suspended and reconvened next year'; no official process found)",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": ""
+      "checked": "172",
+      "outcome": "China MFA (Guo Jiakun, 23 Nov) says decisions on just transition, mitigation, adaptation and finance were adopted, no overarching deal; unconfirmed elsewhere; correction printed p4"
     },
     {
       "id": "H091",
@@ -1008,9 +1008,9 @@
       "kind": "date",
       "item": "22nd JCBC deliverables (20+ agreements), the EdTech/AI education MOU and CSFTA 4.0 first-round date",
       "due": "2026-11-24",
-      "status": "OPEN",
-      "checked": "171",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "172",
+      "outcome": "No. 172: PMO list 23 Nov: 29 agreements at the 22nd JCBC (27 in 2025), incl. MAS in PBOC RMB repo facility, CGB collateral and fast-payment link to 'explore', Hainan food accreditation; CSFTA 4.0 first-round date still unset (H047 stays open); printed p5"
     },
     {
       "id": "H093",
@@ -1020,8 +1020,8 @@
       "item": "PM Wong in Australia 23-25 Nov: 11th Annual Leaders' Meeting outcomes; first foreign leader landing at Western Sydney International",
       "due": "2026-11-25",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": ""
+      "checked": "172",
+      "outcome": "Wong landed at Western Sydney 23 Nov (CNA); Annual Leaders' Meeting in Canberra is 24 Nov, after press"
     },
     {
       "id": "H094",
@@ -1220,6 +1220,105 @@
       "status": "OPEN",
       "checked": "171",
       "outcome": ""
+    },
+    {
+      "id": "H112",
+      "since": "172",
+      "desk": "The World",
+      "kind": "fact",
+      "item": "Merkury strike: confirmed death toll, true drone count, launch site, and whether Angara is the Maltese-flagged ship",
+      "due": "",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H113",
+      "since": "172",
+      "desk": "Technology",
+      "kind": "fact",
+      "item": "Nvidia 23 Nov official close (Yahoo panel 165.09-165.38, unlabelled) and Rene Haas's Arm contract to 2033 (NBC only)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H114",
+      "since": "172",
+      "desk": "Technology",
+      "kind": "date",
+      "item": "Huang closed-door House session 1 Dec and Senate Banking hearing ~3 Dec: what is disclosed",
+      "due": "2026-12-03",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H115",
+      "since": "172",
+      "desk": "The Home Lab",
+      "kind": "fact",
+      "item": "Names of the three inference hosts Dragos found breached and of the Chinese lab; Together AI's June-July notice",
+      "due": "",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H116",
+      "since": "172",
+      "desk": "The Long Read",
+      "kind": "date",
+      "item": "Japan 2026 New Words and Buzzwords Award top ten and grand prize: is gengoka in, does it win (our call: top ten, not the prize)",
+      "due": "2026-12-01",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H117",
+      "since": "172",
+      "desk": "The Diary",
+      "kind": "fact",
+      "item": "Wonder Festival 2027 Winter venue; Westlife 16-17 Jan sold-out status (secondary only); Disney On Ice category prices",
+      "due": "",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H118",
+      "since": "172",
+      "desk": "The Table",
+      "kind": "fact",
+      "item": "Stamford Social opening date and first independent review; British Hainan Tiong Bahru second review",
+      "due": "",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H119",
+      "since": "172",
+      "desk": "Screen & Sound",
+      "kind": "fact",
+      "item": "I Play Rocky Singapore release date",
+      "due": "",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
+    },
+    {
+      "id": "H120",
+      "since": "172",
+      "desk": "The Macro Desk",
+      "kind": "date",
+      "item": "FactSet 20 Nov Mag 7 Q4 growth: 24.1% (A PDF) vs 22.6% (other PDF); other-493 Q3 printed both 32.6 and 34.7 - re-read the 4 Dec edition",
+      "due": "2026-12-04",
+      "status": "OPEN",
+      "checked": "172",
+      "outcome": ""
     }
   ],
   "open": [
@@ -1232,7 +1331,6 @@
     "H015",
     "H016",
     "H017",
-    "H018",
     "H025",
     "H026",
     "H027",
@@ -1258,7 +1356,6 @@
     "H061",
     "H062",
     "H063",
-    "H064",
     "H065",
     "H066",
     "H067",
@@ -1283,7 +1380,6 @@
     "H088",
     "H090",
     "H091",
-    "H092",
     "H093",
     "H094",
     "H095",
@@ -1302,6 +1398,15 @@
     "H108",
     "H109",
     "H110",
-    "H111"
+    "H111",
+    "H112",
+    "H113",
+    "H114",
+    "H115",
+    "H116",
+    "H117",
+    "H118",
+    "H119",
+    "H120"
   ]
 }

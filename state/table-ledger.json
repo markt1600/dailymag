@@ -2568,9 +2568,39 @@
       "status": "OPEN",
       "checked": "No. 171 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "British Hainan",
+      "key": "British Hainan",
+      "runs": [
+        172
+      ],
+      "status": "OPEN",
+      "checked": "No. 172 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Stamford Social",
+      "key": "Stamford Social",
+      "runs": [
+        172
+      ],
+      "status": "OPEN",
+      "checked": "No. 172 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "MUTED Gelato",
+      "key": "MUTED Gelato",
+      "runs": [
+        172
+      ],
+      "status": "OPEN",
+      "checked": "No. 172 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 172,
+  "barred_for_issue": 173,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2712,7 +2742,6 @@
     "Cranki Patisserie",
     "Mala Mia",
     "Casa Vostra",
-    "Tan Ser Seng",
     "RUXU",
     "LONGJING",
     "Herng Hao Chi Hokkien Mee",
@@ -2722,6 +2751,9 @@
     "Sagye Lite",
     "BB.Q Chicken",
     "Lobang",
-    "That Place"
+    "That Place",
+    "British Hainan",
+    "Stamford Social",
+    "MUTED Gelato"
   ]
 }

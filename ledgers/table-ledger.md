@@ -281,3 +281,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | BB.Q Chicken | BB.Q Chicken | 168 | OPEN | No. 168 build | opening run — record the peg here |
 | Lobang | Lobang | 171 | OPEN | No. 171 build | opening run — record the peg here |
 | That Place | That Place | 171 | OPEN | No. 171 build | opening run — record the peg here |
+| British Hainan | British Hainan | 172 | OPEN | No. 172 build | opening run — record the peg here |
+| Stamford Social | Stamford Social | 172 | OPEN | No. 172 build | opening run — record the peg here |
+| MUTED Gelato | MUTED Gelato | 172 | OPEN | No. 172 build | opening run — record the peg here |
