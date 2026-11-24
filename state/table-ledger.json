@@ -2598,9 +2598,39 @@
       "status": "OPEN",
       "checked": "No. 172 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Hot Burg",
+      "key": "Hot Burg",
+      "runs": [
+        173
+      ],
+      "status": "OPEN",
+      "checked": "No. 173 build",
+      "note": "opening run — opened 26 Oct, The Star Vista; Eatbook only"
+    },
+    {
+      "venue": "Bonchon",
+      "key": "Bonchon",
+      "runs": [
+        173
+      ],
+      "status": "OPEN",
+      "checked": "No. 173 build",
+      "note": "opening run — ION Orchard return announced for Dec 2026 (DFD 22 Nov)"
+    },
+    {
+      "venue": "Hansang Korean Family Restaurant",
+      "key": "Hansang Korean Family Restaurant",
+      "runs": [
+        173
+      ],
+      "status": "OPEN",
+      "checked": "No. 173 build",
+      "note": "opening run — relocated to Great World (DFD 24 Nov)"
     }
   ],
-  "barred_for_issue": 173,
+  "barred_for_issue": 174,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2742,11 +2772,6 @@
     "Cranki Patisserie",
     "Mala Mia",
     "Casa Vostra",
-    "RUXU",
-    "LONGJING",
-    "Herng Hao Chi Hokkien Mee",
-    "Sol & Manta",
-    "Bagel Chef",
     "Pugners Dining",
     "Sagye Lite",
     "BB.Q Chicken",
@@ -2754,6 +2779,9 @@
     "That Place",
     "British Hainan",
     "Stamford Social",
-    "MUTED Gelato"
+    "MUTED Gelato",
+    "Hot Burg",
+    "Bonchon",
+    "Hansang Korean Family Restaurant"
   ]
 }

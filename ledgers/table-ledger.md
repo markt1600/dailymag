@@ -284,3 +284,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | British Hainan | British Hainan | 172 | OPEN | No. 172 build | opening run — record the peg here |
 | Stamford Social | Stamford Social | 172 | OPEN | No. 172 build | opening run — record the peg here |
 | MUTED Gelato | MUTED Gelato | 172 | OPEN | No. 172 build | opening run — record the peg here |
+| Hot Burg | Hot Burg | 173 | OPEN | No. 173 build | opening run — opened 26 Oct, The Star Vista; Eatbook only |
+| Bonchon | Bonchon | 173 | OPEN | No. 173 build | opening run — ION Orchard return announced for Dec 2026 (DFD 22 Nov) |
+| Hansang Korean Family Restaurant | Hansang Korean Family Restaurant | 173 | OPEN | No. 173 build | opening run — relocated to Great World (DFD 24 Nov) |

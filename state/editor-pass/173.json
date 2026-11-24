@@ -1,0 +1,198 @@
+{
+ "issue": 173,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Russia summoned Estonia's envoy and warned of 'open war' over drones three days after Tallinn voted to close its road border with Russia from 1 December, and Estonia flatly denies the drone charge.",
+   "weakest": "The pull quote 'The bully is playing the victim', repeated in the Tallinn box.",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Iran's Revolutionary Guards say three US-escorted tankers hit mines in Hormuz, but they named no ships, the US says the lanes are clear, and oil prices barely moved.",
+   "weakest": "Also On The Desk: the Bangladesh item has nothing to do with Hormuz.",
+   "verdict": "pass"
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 4,
+   "says": "Wong and Albanese signed a treaty letting Singapore send captured CO2 to Australia for storage and widened their crisis-supplies pact to ten kinds of goods; the dependence runs both ways.",
+   "weakest": "'Held since No. 171, now settled: the meeting's outcomes...'",
+   "verdict": "pass"
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 3,
+   "says": "Whether a candle smokes depends more on the wick's salts than the 'clean' wax on the label; refined paraffin did best in a Danish test, and a luxury candle's price is mostly glass and brand.",
+   "weakest": "The deck about Estee Lauder and Trudon does not match the headline.",
+   "verdict": "pass"
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 2,
+   "says": "Jensen Huang, back as Nvidia's chief, apologised to staff for an affair, and a Senate committee will question him on chip exports on 3 December while the shares fell back.",
+   "weakest": "'The board took him back on Monday after the government gave it what its filing called input (No. 172).'",
+   "verdict": "rework",
+   "reason": "A cold reader never learns why Huang was removed or what the government's input was; say in the first two paragraphs why he left and why the Senate cares.",
+   "fixed": "Second paragraph now says he resigned amid a personal scandal the board is examining as a possible spying risk, and why Congress is involved; the repeated 'Congress wants its turn' trimmed after recheck.",
+   "recheck": 4
+  },
+  {
+   "page": 8,
+   "desk": "Technology",
+   "keep_reading": 2,
+   "says": "Ant Group released a free MIT-licensed 124B model that wakes a small slice of itself per word, so a 128GB home Mac can run it.",
+   "weakest": "'bartowski's GGUF files, built with llama.cpp b12600... Q4_K_M at 80.39GB...'",
+   "verdict": "rework",
+   "reason": "The numbers paragraph assumes knowledge of GGUF, quantisation, FP8 and H200s; speed and the GLM-5.4 delay are each said twice.",
+   "fixed": "Numbers paragraph rewritten with quantisation and GGUF glossed; duplicate speed and Z.ai lines cut; Q3_K_M and NVFP4 glossed after recheck.",
+   "recheck": 3
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 4,
+   "says": "Vivo's V80 goes on sale in Singapore at S$899 with a big battery, 3x zoom and Apple Watch support (after iPhone pairing); its chip is middling and it lacks wireless charging.",
+   "weakest": "Also On The Desk on the Y32 repeats the fourth paragraph.",
+   "verdict": "pass"
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 4,
+   "says": "A 31-year-old independent watchmaker's tourbillon sold for nearly seven times its estimate at a record Phillips Hong Kong sale, showing money moving from big brands to independents.",
+   "weakest": "Also On The Desk restates the Christie's lot from paragraph five.",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 3,
+   "says": "Disney's Hexed and Focker-In-Law open over Thanksgiving, both forecast near US$40-50m, with critics far kinder to Hexed.",
+   "weakest": "'Boxoffice Pro's earlier long-range forecast...' a third set of forecasts.",
+   "verdict": "pass"
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A large Nordic study tied lots of fruit in the early teens to less Crohn's disease, but it cannot show cause and effect, and fruit at seven pointed both ways.",
+   "weakest": "Also On The Desk: 'Phones at night' is off the page's subject.",
+   "verdict": "pass"
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 2,
+   "says": "Singapore will send under-16 Kpod reoffenders on a 24-week IMH programme, and children who come forward face no penalty.",
+   "weakest": "Chatter: 'PSLE choices, meanwhile, close at 4.30pm...'",
+   "verdict": "rework",
+   "reason": "The PSLE paragraph is a second story; the Chatter repeats it and quotes no one.",
+   "fixed": "PSLE moved to an Also On The Desk strip; Chatter now quotes the officials and the Pediatrics first author; repeated Ong line and study caveat cut after recheck.",
+   "recheck": 3
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 3,
+   "says": "Brent fell to $88 on signs of US-Iran talks, weakening the case for another Fed rise even though real yields have not moved.",
+   "weakest": "'Lean: lower into 9 December...' the Four are never introduced for a new reader.",
+   "verdict": "pass"
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 4,
+   "says": "US headline inflation jumped with two oil spikes but core stayed in a narrow band, so the shock may pass without a spiral, though the Fed decides before the next figures.",
+   "weakest": "The Dashboard grid, hard to read as text.",
+   "verdict": "pass"
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "Juggling is learnable in weeks, and behind it sit a worldwide convention scene and siteswap, a notation that turns patterns into arithmetic.",
+   "weakest": "'Jack Boyce... found the longest prime siteswaps in 1999; version 1.7.8 came out on 11 October.'",
+   "verdict": "pass"
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "Start with beanbags, clubs come mostly from German makers like Henrys, and spending past about £10 a ball only matters to advanced jugglers.",
+   "weakest": "'Wes Peden, whom Flowtoys bills as voted the top juggler...'",
+   "verdict": "pass"
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 2,
+   "says": "Juggling briefly grows grey matter while you learn but it fades when you stop, and a ninety-day start costs a few hundred pounds.",
+   "weakest": "The broken duplicated headline line.",
+   "verdict": "rework",
+   "reason": "Headline broken and misattributes Oxford scans to Draganski; the ninety-day total does not match its items.",
+   "fixed": "Headline repaired and credited to the Hamburg group; total corrected to about £160 with the Numbers-club option priced separately.",
+   "recheck": 4
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 4,
+   "says": "A review argues activity and fitness predict lifespan far more than diet quality, though a Finnish twin study suggests genes explain much of the link.",
+   "weakest": "The 'sedentary muscle' line repeats a quote already used.",
+   "verdict": "pass"
+  },
+  {
+   "page": 20,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "A booking calendar of Singapore gigs and family shows led by Horrible Histories at KidsFest, plus Japanese exhibitions and events worth flying to, with booking deadlines.",
+   "weakest": "Still Held: 'Live Nation's pages confirm KATSEYE...'",
+   "verdict": "pass"
+  },
+  {
+   "page": 21,
+   "desk": "The Diary",
+   "keep_reading": 2,
+   "says": "A wagyu hamburg counter opened at The Star Vista, Bonchon returns to ION in December, and Hansang moved to Great World.",
+   "weakest": "Chatter repeating the members' price a third time.",
+   "verdict": "rework",
+   "reason": "The members' price repeats four times, Hansang gets two menu paragraphs, and Bonchon's December return contradicts 'date not announced'.",
+   "fixed": "Members' price now once; Bonchon's return and unannounced date together; a verdict paragraph replaces the second Hansang menu; unsupported stat claim removed after recheck.",
+   "recheck": 4
+  },
+  {
+   "page": 22,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "Vietnam created a paid Culture Day to grow its cultural industries, and the government first planned a four-day weekend meant to get people spending.",
+   "weakest": "'477 votes to 489 present' reads like a scoreline.",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "The ministry cut the four-day plan to one Tuesday to protect year-end orders; firms rebuilt long weekends where they could, and Britain and China show production usually wins.",
+   "weakest": "The Golden Week numbers paragraph goes back over the China point.",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "South Korea dropped and restored its alphabet holiday as it moved from factories to culture exports, and the desk predicts Vietnam won't give Culture Day a long weekend before 2030.",
+   "weakest": "'The state is adding days, not losing them... which this desk has not seen confirmed.'",
+   "verdict": "pass"
+  }
+ ]
+}

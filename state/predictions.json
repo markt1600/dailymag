@@ -7309,28 +7309,32 @@
    "desk": "The Macro Desk",
    "claim": "The Four lean: VWRA's NAV is at or below US$182.57 on 25 November (flat to lower into 9 December)",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "NAV 178.33 (23 Nov), below 182.57; read 05:00 SGT 25 Nov (No. 173 p14); graded No. 173 p14"
   },
   {
    "issue": 166,
    "desk": "The Macro Desk",
    "claim": "The Four lean: PIMCO GIS Income's 1-week return is better than -2.04 per cent when read on 25 November (steadier)",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "1-week +0.81% SGD-hedged, +0.78% USD, better than -2.04% (No. 173 p14); graded No. 173 p14"
   },
   {
    "issue": 166,
    "desk": "The Macro Desk",
    "claim": "The Four lean: gold spot is below US$3,853 on 25 November while the 10-year real yield holds above 2.60 per cent",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "Kitco spot 3,551 (24 Nov) below 3,853; 10y real 2.79 above 2.60 (No. 173 p14); graded No. 173 p14"
   },
   {
    "issue": 166,
    "desk": "The Macro Desk",
    "claim": "The Four lean: bitcoin is below US$64,400 on 25 November and has not closed above 73,000",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "Coinbase 59,639 (24 Nov) below 64,400; highest close since 17 Nov 64,873, never above 73,000 (No. 173 p14); graded No. 173 p14"
   },
   {
    "issue": 167,
@@ -8005,6 +8009,62 @@
    "desk": "The Long Read",
    "claim": "Gengoka makes Japan's 2026 New Words and Buzzwords top ten (1 Dec) but does not win the grand prize",
    "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The Macro Desk",
+   "claim": "The Four lean: VWRA lower into 9 December; wrong if NAV is above US$182 on 2 December (178.33 on 23 Nov)",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The Macro Desk",
+   "claim": "The Four lean: PIMCO Income steady to firmer; wrong if the US 10-year yield closes above 5.05% (4.91 on 24 Nov)",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The Macro Desk",
+   "claim": "The Four lean: gold lower; wrong on a close above $3,700 (3,551 on 24 Nov)",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The Macro Desk",
+   "claim": "The Four lean: bitcoin lower; wrong above $64,000 (59,639 on 24 Nov)",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The World",
+   "claim": "Estonia's road-border closure with Russia takes effect on 1 December as decided, without Russian military action against Estonia",
+   "check_by": "2026-12-02",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The World",
+   "claim": "No ship owner, flag state or insurer confirms a mine strike on any of the three tankers the IRGC claimed on 23 November",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The Long Read",
+   "claim": "Vietnam's 2027 holiday calendar (due by 30 Sep 2027) gives Culture Day, Wed 24 Nov 2027, as a single day with no bridging swap",
+   "check_by": "2027-09-30",
+   "outcome": null
+  },
+  {
+   "issue": 173,
+   "desk": "The Long Read",
+   "claim": "Vietnam does not give Culture Day a long weekend (swap or second day) before 2030",
+   "check_by": "2030-12-31",
    "outcome": null
   }
  ]

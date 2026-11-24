@@ -3,10 +3,6 @@
   "us2y": {
    "readings": [
     {
-     "date": "2025-05-13",
-     "value": 4.02
-    },
-    {
      "date": "2025-05-14",
      "value": 4.05
     },
@@ -1525,6 +1521,10 @@
     {
      "date": "2026-11-19",
      "value": 4.76
+    },
+    {
+     "date": "2026-11-20",
+     "value": 4.63
     }
    ],
    "name": "US 2-year Treasury yield",
@@ -1536,10 +1536,6 @@
   },
   "us10y": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 4.49
-    },
     {
      "date": "2025-05-14",
      "value": 4.53
@@ -3059,6 +3055,10 @@
     {
      "date": "2026-11-19",
      "value": 5.04
+    },
+    {
+     "date": "2026-11-20",
+     "value": 4.92
     }
    ],
    "name": "US 10-year Treasury yield",
@@ -3070,10 +3070,6 @@
   },
   "real10y": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 2.17
-    },
     {
      "date": "2025-05-14",
      "value": 2.16
@@ -4593,6 +4589,10 @@
     {
      "date": "2026-11-19",
      "value": 2.88
+    },
+    {
+     "date": "2026-11-20",
+     "value": 2.77
     }
    ],
    "name": "US 10-year real yield (TIPS)",
@@ -4604,10 +4604,6 @@
   },
   "breakeven10": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 2.32
-    },
     {
      "date": "2025-05-14",
      "value": 2.37
@@ -6131,6 +6127,10 @@
     {
      "date": "2026-11-20",
      "value": 2.15
+    },
+    {
+     "date": "2026-11-23",
+     "value": 2.13
     }
    ],
    "name": "US 10-year breakeven inflation",
@@ -6142,10 +6142,6 @@
   },
   "curve2s10s": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 0.47
-    },
     {
      "date": "2025-05-14",
      "value": 0.48
@@ -7669,6 +7665,10 @@
     {
      "date": "2026-11-20",
      "value": 0.29
+    },
+    {
+     "date": "2026-11-23",
+     "value": 0.29
     }
    ],
    "name": "US 10-year minus 2-year",
@@ -7680,10 +7680,6 @@
   },
   "termprem10": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 0.6037
-    },
     {
      "date": "2025-05-14",
      "value": 0.6244
@@ -9187,6 +9183,26 @@
     {
      "date": "2026-11-13",
      "value": 0.9864
+    },
+    {
+     "date": "2026-11-16",
+     "value": 0.9724
+    },
+    {
+     "date": "2026-11-17",
+     "value": 0.9613
+    },
+    {
+     "date": "2026-11-18",
+     "value": 0.9476
+    },
+    {
+     "date": "2026-11-19",
+     "value": 0.9333
+    },
+    {
+     "date": "2026-11-20",
+     "value": 0.8888
     }
    ],
    "name": "US 10-year term premium (Kim-Wright)",
@@ -9528,10 +9544,6 @@
   },
   "rrp": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 144.214
-    },
     {
      "date": "2025-05-14",
      "value": 165.024
@@ -11055,6 +11067,10 @@
     {
      "date": "2026-11-23",
      "value": 0.35
+    },
+    {
+     "date": "2026-11-24",
+     "value": 0.301
     }
    ],
    "name": "Fed overnight reverse repo",
@@ -11396,10 +11412,6 @@
   },
   "sofr": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 4.3
-    },
     {
      "date": "2025-05-14",
      "value": 4.29
@@ -12919,6 +12931,10 @@
     {
      "date": "2026-11-20",
      "value": 3.92
+    },
+    {
+     "date": "2026-11-23",
+     "value": 3.92
     }
    ],
    "name": "Secured Overnight Financing Rate",
@@ -13256,10 +13272,6 @@
   },
   "dollar": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 122.9583
-    },
     {
      "date": "2025-05-14",
      "value": 122.6746
@@ -14763,6 +14775,26 @@
     {
      "date": "2026-11-13",
      "value": 122.6503
+    },
+    {
+     "date": "2026-11-16",
+     "value": 122.8617
+    },
+    {
+     "date": "2026-11-17",
+     "value": 122.6097
+    },
+    {
+     "date": "2026-11-18",
+     "value": 123.1376
+    },
+    {
+     "date": "2026-11-19",
+     "value": 123.5253
+    },
+    {
+     "date": "2026-11-20",
+     "value": 123.5978
     }
    ],
    "name": "Broad trade-weighted US dollar",
@@ -14774,10 +14806,6 @@
   },
   "hy_oas": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 3.09
-    },
     {
      "date": "2025-05-14",
      "value": 3.1
@@ -16385,6 +16413,10 @@
     {
      "date": "2026-11-20",
      "value": 3.76
+    },
+    {
+     "date": "2026-11-23",
+     "value": 3.63
     }
    ],
    "name": "US high-yield credit spread",
@@ -16396,10 +16428,6 @@
   },
   "ig_oas": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 0.94
-    },
     {
      "date": "2025-05-14",
      "value": 0.93
@@ -18007,6 +18035,10 @@
     {
      "date": "2026-11-20",
      "value": 0.98
+    },
+    {
+     "date": "2026-11-23",
+     "value": 0.97
     }
    ],
    "name": "US investment-grade credit spread",
@@ -18018,10 +18050,6 @@
   },
   "vix": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 18.22
-    },
     {
      "date": "2025-05-14",
      "value": 18.62
@@ -19601,6 +19629,10 @@
     {
      "date": "2026-11-20",
      "value": 35.89
+    },
+    {
+     "date": "2026-11-23",
+     "value": 26.62
     }
    ],
    "name": "VIX equity volatility",
@@ -20156,10 +20188,6 @@
   },
   "brent": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 66.93
-    },
     {
      "date": "2025-05-14",
      "value": 65.91
@@ -22056,10 +22084,6 @@
   "usdjpy": {
    "readings": [
     {
-     "date": "2025-05-13",
-     "value": 147.75
-    },
-    {
      "date": "2025-05-14",
      "value": 146.54
     },
@@ -23562,6 +23586,26 @@
     {
      "date": "2026-11-13",
      "value": 159.93
+    },
+    {
+     "date": "2026-11-16",
+     "value": 159.65
+    },
+    {
+     "date": "2026-11-17",
+     "value": 159.27
+    },
+    {
+     "date": "2026-11-18",
+     "value": 159.25
+    },
+    {
+     "date": "2026-11-19",
+     "value": 159.76
+    },
+    {
+     "date": "2026-11-20",
+     "value": 158.76
     }
    ],
    "name": "US dollar / Japanese yen",
@@ -23573,10 +23617,6 @@
   },
   "usdcny": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 7.2057
-    },
     {
      "date": "2025-05-14",
      "value": 7.208
@@ -25080,6 +25120,26 @@
     {
      "date": "2026-11-13",
      "value": 6.671
+    },
+    {
+     "date": "2026-11-16",
+     "value": 6.6642
+    },
+    {
+     "date": "2026-11-17",
+     "value": 6.6659
+    },
+    {
+     "date": "2026-11-18",
+     "value": 6.6676
+    },
+    {
+     "date": "2026-11-19",
+     "value": 6.6665
+    },
+    {
+     "date": "2026-11-20",
+     "value": 6.677
     }
    ],
    "name": "US dollar / Chinese yuan",
@@ -25500,6 +25560,11 @@
      "date": "2026-11-19",
      "value": 2.87,
      "source": "Japan Ministry of Finance jgbcme.csv, 10-year 2.870 on 19 Nov 2026 (2.916 on 18 Nov); 23 Nov a Japanese holiday; read at source"
+    },
+    {
+     "date": "2026-11-20",
+     "value": 2.838,
+     "source": "Japan Ministry of Finance jgbcme.csv, 10-year 2.838 on 20 Nov 2026 (2.870 on 19 Nov); 24 Nov not yet posted; read at source"
     }
    ],
    "name": "Japan 10-year government bond yield",
@@ -25557,6 +25622,11 @@
      "date": "2026-11-20",
      "value": 172.97,
      "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV 172.97 at closure 20 Nov 2026 (-3.27%); Monday NAV not yet posted at 21:00 UTC 23 Nov; re-read at source"
+    },
+    {
+     "date": "2026-11-23",
+     "value": 178.33,
+     "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV 178.3265 at closure 23 Nov 2026 (+3.10%); 24 Nov NAV not posted at 21:10 UTC 24 Nov; read at source"
     }
    ],
    "name": "VWRA, Vanguard FTSE All-World UCITS ETF, NAV",
@@ -25595,6 +25665,11 @@
      "date": "2026-11-23",
      "value": 0.58,
      "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.5787, 1m +0.1829, 3m -2.7813, 12m div yield 6.86; undated, no price; read at source 23 Nov ~21:00 UTC"
+    },
+    {
+     "date": "2026-11-24",
+     "value": 0.81,
+     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.8111, 1m -0.2737, 3m -2.5621, 12m div yield 6.86; undated, no price; read at source 24 Nov ~21:10 UTC"
     }
    ],
    "name": "PIMCO GIS Income Fund, SGD-hedged class, 1-week total return",
@@ -25633,6 +25708,11 @@
      "date": "2026-11-23",
      "value": 3635.5,
      "source": "Kitco spot gold, bid 3,634.50 / ask 3,636.50, +96.60 (+2.73%), stamped 16:08 NY 23 Nov 2026; read at source"
+    },
+    {
+     "date": "2026-11-24",
+     "value": 3551.0,
+     "source": "Kitco spot gold, bid 3,550.10 / ask 3,552.10, -84.10 (-2.31%), stamped 4:05pm NY 24 Nov 2026; read at source"
     }
    ],
    "name": "Gold, spot",
@@ -25644,10 +25724,6 @@
   },
   "btc": {
    "readings": [
-    {
-     "date": "2025-05-13",
-     "value": 103545.38
-    },
     {
      "date": "2025-05-14",
      "value": 103786.43
@@ -27879,6 +27955,10 @@
     {
      "date": "2026-11-22",
      "value": 60991.86
+    },
+    {
+     "date": "2026-11-23",
+     "value": 61299.74
     }
    ],
    "name": "Bitcoin, Coinbase",
@@ -27917,6 +27997,11 @@
      "date": "2026-11-23",
      "value": 0.56,
      "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.5574, 1m +0.4367, 3m -2.2581, 12m div yield 6.57; undated, no price; read at source 23 Nov ~21:00 UTC"
+    },
+    {
+     "date": "2026-11-24",
+     "value": 0.78,
+     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7813, 1m -0.1156, 3m -1.9407, 12m div yield 6.57; undated, no price; read at source 24 Nov ~21:10 UTC"
     }
    ],
    "name": "PIMCO GIS Income Fund, USD class, 1-week total return",
@@ -27940,18 +28025,18 @@
    ]
   },
   {
-   "issue": 172,
-   "date": "2026-11-24",
+   "issue": 173,
+   "date": "2026-11-25",
    "regime": "A real-rate shock: the Federal Reserve tightening",
    "since": 162,
    "triggers": [
-    "The 10-year real yield closes below 2.60 per cent (2.79 on 23 November)",
+    "The 10-year real yield closes below 2.60 per cent (2.79 on 24 November)",
     "The Federal Reserve does not raise rates on 9 December",
-    "The high-yield credit spread closes above 4.0 points (3.76 on 20 November), which would make it a growth scare rather than a rate shock"
+    "The high-yield credit spread closes above 4.0 points (3.63 on 23 November), which would make it a growth scare rather than a rate shock"
    ]
   }
  ],
- "fetched": "2026-11-23T21:03:59Z",
+ "fetched": "2026-11-24T21:03:42Z",
  "fetch_errors": {},
  "holds": {
   "fwd_eps": {

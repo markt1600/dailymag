@@ -85,8 +85,8 @@
       "item": "any Apple reply on the flicker",
       "due": "",
       "status": "OPEN",
-      "checked": "172",
-      "outcome": "re-checked 24 Nov: MacRumors 16 Nov and Notebookcheck carry owner reports only; no Apple statement found"
+      "checked": "173",
+      "outcome": "No Apple flicker statement; only an iPhone Duo inner-display statement (26 Oct), a different issue."
     },
     {
       "id": "H009",
@@ -96,8 +96,8 @@
       "item": "the FAA laboratory finding and any GovTech root cause",
       "due": "",
       "status": "OPEN",
-      "checked": "172",
-      "outcome": "re-checked 24 Nov: FAA paused Juniper installs, root cause still under investigation (Axios/AeroTime 16-17 Nov); no lab finding published"
+      "checked": "173",
+      "outcome": "Duffy 17 Nov: recreated, root cause unclear; L3Harris lab testing continues; no GovTech finding."
     },
     {
       "id": "H010",
@@ -162,8 +162,8 @@
       "item": "Secondary 1 posting results: MOE still gives 18 December 2026 only as tentative; SEAB's own page carries no S1 date and every moe.gov.sg page serves an empty body to this desk",
       "due": "2026-12-10",
       "status": "OPEN",
-      "checked": "172",
-      "outcome": "MOE press release 17 Nov still gives posting results as tentatively 18 Dec"
+      "checked": "173",
+      "outcome": "SEAB page updated 24 Nov still says tentatively 18 Dec."
     },
     {
       "id": "H016",
@@ -173,8 +173,8 @@
       "item": "Whether PAHO reconciles the two measles death tolls it published on 17 November — 82 in the news release, 114 in the same-day Q&A, against one identical case count of 58,213",
       "due": "",
       "status": "OPEN",
-      "checked": "172",
-      "outcome": "re-checked 24 Nov: PAHO 17 Nov briefing PDF prints 58,213 cases and 82 deaths; no sitrep 16 or reconciliation of the 114 figure yet"
+      "checked": "173",
+      "outcome": "Not reached this build."
     },
     {
       "id": "H017",
@@ -360,8 +360,8 @@
       "item": "Kremlin answer to the Berlin winter energy truce call, and a date or venue for talks including Europeans",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "173",
+      "outcome": "No Kremlin reply found."
     },
     {
       "id": "H034",
@@ -415,8 +415,8 @@
       "item": "Hy4 Flash llama.cpp support (PR #32517) merged, and an independent speed test",
       "due": "",
       "status": "OPEN",
-      "checked": "172",
-      "outcome": "PR 32517 still open 23 Nov; tester reports 8->15 tok/s on unstated hardware"
+      "checked": "173",
+      "outcome": "PR #32517 unmerged; changes requested 24 Nov; tester 8->15 t/s unstated hardware. Printed p8."
     },
     {
       "id": "H039",
@@ -459,8 +459,8 @@
       "item": "Standard Singapore ticket prices for KATSEYE, Kenshi Yonezu, Maroon 5 and Freya Skye (Ticketmaster refused)",
       "due": "",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "173",
+      "outcome": "Live Nation pages confirm dates, no prices; Ticketmaster 403."
     },
     {
       "id": "H043",
@@ -470,8 +470,8 @@
       "item": "Sapporo Snow Festival 2027 dates (4-11 Feb per Hokkaido Shimbun; organiser site not updated)",
       "due": "2026-12-15",
       "status": "RESOLVED",
-      "checked": "169",
-      "outcome": "No. 169: Sapporo Snow Festival 2027: 4-11 Feb at Odori, Susukino, Tsudome (snowfes.com, read 21 Nov). Printed p24."
+      "checked": "173",
+      "outcome": "No. 173: Sapporo Snow Festival 2027: 4-11 Feb per snowfes.com Japanese top page. Printed p20."
     },
     {
       "id": "H044",
@@ -492,8 +492,8 @@
       "item": "Whether Estonia's road-border closure starts 07:00 1 Dec as decided, and Russia's response",
       "due": "2026-12-01",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "checked": "173",
+      "outcome": "Closure from 1 Dec, five crossings, at least six months (ERR); 07:00 start unconfirmed."
     },
     {
       "id": "H046",
@@ -590,9 +590,9 @@
       "kind": "fact",
       "item": "MEDiA study full text (JAH): exact per-hour minutes and the sex interaction",
       "due": "2026-12-04",
-      "status": "OPEN",
-      "checked": "171",
-      "outcome": "re-checked No. 171, still open"
+      "status": "RESOLVED",
+      "checked": "173",
+      "outcome": "No. 173: MEDiA (JAH): n=218, each extra hour night social media -44.4 min sleep; overnight phone -26 min; girls' evening use +82.2 min sleep onset, -70.8 min sleep; sex interaction females only (Medical Xpress 20 Nov; journal not read). Printed p12."
     },
     {
       "id": "H055",
@@ -1019,9 +1019,9 @@
       "kind": "date",
       "item": "PM Wong in Australia 23-25 Nov: 11th Annual Leaders' Meeting outcomes; first foreign leader landing at Western Sydney International",
       "due": "2026-11-25",
-      "status": "OPEN",
-      "checked": "172",
-      "outcome": "Wong landed at Western Sydney 23 Nov (CNA); Annual Leaders' Meeting in Canberra is 24 Nov, after press"
+      "status": "RESOLVED",
+      "checked": "173",
+      "outcome": "No. 173: 11th ALM, Canberra 24 Nov: CCS treaty (Agreement on Transboundary Movement of CO2 Streams) and expanded Essential Supplies MOU (10 categories); Oakey treaty renewal substantively concluded; Wong first foreign leader to land at WSI 23 Nov. pm.gov.au joint statement; PMO transcript. Printed p5."
     },
     {
       "id": "H094",
@@ -1096,9 +1096,9 @@
       "kind": "date",
       "item": "Phillips HK XXIII sale total and sell-through (no press release, results file 404)",
       "due": "2026-11-25",
-      "status": "OPEN",
-      "checked": "171",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "173",
+      "outcome": "No. 173: Phillips HK XXIII total HK$601,225,900 incl. premium, 325 lots 100% sold, 19 over US$1m (IPR and MagMontres relaying Phillips; Phillips results PDF still 404). Printed p10."
     },
     {
       "id": "H101",
@@ -1108,8 +1108,8 @@
       "item": "Christie's HK Iconic 40 (25 Nov) lot 4021 Patek 6104/12G-010 result vs HK$12-24m",
       "due": "2026-11-26",
       "status": "OPEN",
-      "checked": "171",
-      "outcome": ""
+      "checked": "173",
+      "outcome": "Sale is 25 Nov; result due."
     },
     {
       "id": "H102",
@@ -1240,8 +1240,8 @@
       "item": "Nvidia 23 Nov official close (Yahoo panel 165.09-165.38, unlabelled) and Rene Haas's Arm contract to 2033 (NBC only)",
       "due": "",
       "status": "OPEN",
-      "checked": "172",
-      "outcome": ""
+      "checked": "173",
+      "outcome": "Close settled: $165.05 +31.48% on 23 Nov (StockAnalysis; printed p7). Haas/Arm 2033 contract still unconfirmed."
     },
     {
       "id": "H114",
@@ -1283,9 +1283,9 @@
       "kind": "fact",
       "item": "Wonder Festival 2027 Winter venue; Westlife 16-17 Jan sold-out status (secondary only); Disney On Ice category prices",
       "due": "",
-      "status": "OPEN",
-      "checked": "172",
-      "outcome": ""
+      "status": "RESOLVED",
+      "checked": "173",
+      "outcome": "No. 173: Wonder Festival 2027 Winter at Makuhari Messe Halls 1-8, 13-14 Feb, 10am-5pm (wonfes.jp/info). Westlife/other parts not re-checked. Printed p20."
     },
     {
       "id": "H118",
@@ -1319,6 +1319,105 @@
       "status": "OPEN",
       "checked": "172",
       "outcome": ""
+    },
+    {
+      "id": "H121",
+      "since": "173",
+      "desk": "The World",
+      "kind": "fact",
+      "item": "Names, owners or flag states of the three tankers the IRGC said hit mines on 23 Nov; any UKMTO/insurer confirmation",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H122",
+      "since": "173",
+      "desk": "The Home Lab",
+      "kind": "fact",
+      "item": "Independent tok/s for Ling-3.2-air Q4_K_M on a 128GB Mac or Ryzen AI Max",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H123",
+      "since": "173",
+      "desk": "Screen & Sound",
+      "kind": "date",
+      "item": "Hexed and Focker-In-Law five-day Thanksgiving actuals vs US$40-50m tracking; Box Office Theory's ~$23m call",
+      "due": "2026-11-30",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H124",
+      "since": "173",
+      "desk": "The Atelier",
+      "kind": "fact",
+      "item": "EN 15493:2026 publication date (TUV SUD via search; DIN lists draft withdrawn)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H125",
+      "since": "173",
+      "desk": "The Atelier",
+      "kind": "ask",
+      "item": "Diptyque 190g and Trudon 270g Singapore shelf prices (diptyqueparis en_sg 404/429; Mytheresa JS)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H126",
+      "since": "173",
+      "desk": "The Long Read",
+      "kind": "fact",
+      "item": "Final vote on Vietnam Labour Code amendment making 27 July a paid holiday from 2027",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H127",
+      "since": "173",
+      "desk": "The Family Desk",
+      "kind": "fact",
+      "item": "Gut 2026 pooled Scandinavian IBD study: HRs, CIs and authors (bmj.com 403)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H128",
+      "since": "173",
+      "desk": "The Table",
+      "kind": "date",
+      "item": "Hot Burg second independent review; Bonchon ION opening date",
+      "due": "2026-12-15",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
+    },
+    {
+      "id": "H129",
+      "since": "173",
+      "desk": "The Good Life",
+      "kind": "fact",
+      "item": "Auffret Tourbillon a Paris subscription run size (14 or 15 per Phillips; ~15 per Hairspring)",
+      "due": "",
+      "status": "OPEN",
+      "checked": "173",
+      "outcome": ""
     }
   ],
   "open": [
@@ -1348,7 +1447,6 @@
     "H049",
     "H050",
     "H051",
-    "H054",
     "H055",
     "H057",
     "H059",
@@ -1380,14 +1478,12 @@
     "H088",
     "H090",
     "H091",
-    "H093",
     "H094",
     "H095",
     "H096",
     "H097",
     "H098",
     "H099",
-    "H100",
     "H101",
     "H102",
     "H103",
@@ -1404,9 +1500,17 @@
     "H114",
     "H115",
     "H116",
-    "H117",
     "H118",
     "H119",
-    "H120"
+    "H120",
+    "H121",
+    "H122",
+    "H123",
+    "H124",
+    "H125",
+    "H126",
+    "H127",
+    "H128",
+    "H129"
   ]
 }

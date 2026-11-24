@@ -1,16 +1,16 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-23T21:03:59Z.
+Last fetch: 2026-11-24T21:03:42Z.
 
 ## The Call
 
-**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 172 (2026-11-24).
+**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 173 (2026-11-25).
 
 What would change it:
-- The 10-year real yield closes below 2.60 per cent (2.79 on 23 November)
+- The 10-year real yield closes below 2.60 per cent (2.79 on 24 November)
 - The Federal Reserve does not raise rates on 9 December
-- The high-yield credit spread closes above 4.0 points (3.76 on 20 November), which would make it a growth scare rather than a rate shock
+- The high-yield credit spread closes above 4.0 points (3.63 on 23 November), which would make it a growth scare rather than a rate shock
 
 ### Earlier calls
 
@@ -20,41 +20,41 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 172.97 | 2026-11-20 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV 172.97 at closure 20 Nov 2026 (-3.27%); Monday NAV not yet posted at 21:00 UTC 23 Nov; re-read at source |
-| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | 0.58 | 2026-11-23 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.5787, 1m +0.1829, 3m -2.7813, 12m div yield 6.86; undated, no price; read at source 23 Nov ~21:00 UTC |
-| gold | Gold, spot (US$/oz) | 3,636 | 2026-11-23 | — | — | — | — | — | Kitco spot gold, bid 3,634.50 / ask 3,636.50, +96.60 (+2.73%), stamped 16:08 NY 23 Nov 2026; read at source |
-| btc | Bitcoin, Coinbase (US$) | 60,992 | 2026-11-22 | -3,796 | -18,923 | -16,646 | -24,142 | down 7 weeks running; 6% of its 1-year range | FRED CBBTCUSD |
-| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.56 | 2026-11-23 | — | — | — | — | — | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.5574, 1m +0.4367, 3m -2.2581, 12m div yield 6.57; undated, no price; read at source 23 Nov ~21:00 UTC |
+| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 178.33 | 2026-11-23 | -6.44 | — | — | — | down 1 week running | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV 178.3265 at closure 23 Nov 2026 (+3.10%); 24 Nov NAV not posted at 21:10 UTC 24 Nov; read at source |
+| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | 0.81 | 2026-11-24 | +2.85 | — | — | — | up 1 week running | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.8111, 1m -0.2737, 3m -2.5621, 12m div yield 6.86; undated, no price; read at source 24 Nov ~21:10 UTC |
+| gold | Gold, spot (US$/oz) | 3,551 | 2026-11-24 | -302.00 | — | — | — | down 1 week running | Kitco spot gold, bid 3,550.10 / ask 3,552.10, -84.10 (-2.31%), stamped 4:05pm NY 24 Nov 2026; read at source |
+| btc | Bitcoin, Coinbase (US$) | 61,300 | 2026-11-23 | -3,238 | -18,757 | -17,682 | -25,200 | down 5 weeks running; 7% of its 1-year range | FRED CBBTCUSD |
+| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.78 | 2026-11-24 | +2.64 | — | — | — | up 1 week running | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7813, 1m -0.1156, 3m -1.9407, 12m div yield 6.57; undated, no price; read at source 24 Nov ~21:10 UTC |
 
 ## Rates
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| us2y | US 2-year Treasury yield (%) | 4.76 | 2026-11-19 | -0.10 | +0.11 | +0.57 | +1.18 | down 1 week running; 90% of its 1-year range | FRED DGS2 |
-| us10y | US 10-year Treasury yield (%) | 5.04 | 2026-11-19 | -0.06 | +0.08 | +0.35 | +0.91 | down 1 week running; 80% of its 1-year range | FRED DGS10 |
-| real10y | US 10-year real yield (TIPS) (%) | 2.88 | 2026-11-19 | +0.02 | +0.24 | +0.53 | +1.02 | up 2 weeks running; 94% of its 1-year range | FRED DFII10 |
-| breakeven10 | US 10-year breakeven inflation (%) | 2.15 | 2026-11-20 | -0.09 | -0.19 | -0.19 | -0.09 | down 1 week running; at its 1-year low | FRED T10YIE |
-| curve2s10s | US 10-year minus 2-year (pp) | 0.29 | 2026-11-20 | +0.02 | -0.02 | -0.21 | -0.26 | up 1 week running; 17% of its 1-year range | FRED T10Y2Y |
-| termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.99 | 2026-11-13 | +0.11 | +0.00 | +0.15 | +0.49 | up 1 week running; 83% of its 1-year range | FRED THREEFYTP10 |
+| us2y | US 2-year Treasury yield (%) | 4.63 | 2026-11-20 | -0.25 | -0.06 | +0.39 | +1.08 | down 1 week running; 81% of its 1-year range | FRED DGS2 |
+| us10y | US 10-year Treasury yield (%) | 4.92 | 2026-11-20 | -0.23 | -0.08 | +0.18 | +0.82 | down 1 week running; 71% of its 1-year range | FRED DGS10 |
+| real10y | US 10-year real yield (TIPS) (%) | 2.77 | 2026-11-20 | -0.14 | +0.11 | +0.37 | +0.91 | down 1 week running; 85% of its 1-year range | FRED DFII10 |
+| breakeven10 | US 10-year breakeven inflation (%) | 2.13 | 2026-11-23 | -0.07 | -0.21 | -0.19 | -0.11 | down 5 weeks running; at its 1-year low | FRED T10YIE |
+| curve2s10s | US 10-year minus 2-year (pp) | 0.29 | 2026-11-23 | 0.00 | -0.03 | -0.17 | -0.26 | 17% of its 1-year range | FRED T10Y2Y |
+| termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.89 | 2026-11-20 | -0.10 | -0.05 | +0.02 | +0.40 | down 1 week running; 68% of its 1-year range | FRED THREEFYTP10 |
 
 ## Liquidity
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | fed_bs | Federal Reserve balance sheet (US$tn) | 6.74 | 2026-11-18 | -0.02 | -0.01 | -0.01 | +0.16 | down 1 week running; 92% of its 1-year range | FRED WALCL |
-| rrp | Fed overnight reverse repo (US$bn) | 0.35 | 2026-11-23 | +0.17 | +0.15 | -0.03 | -2.15 | up 1 week running; at its 1-year low | FRED RRPONTSYD |
+| rrp | Fed overnight reverse repo (US$bn) | 0.30 | 2026-11-24 | -0.05 | +0.07 | -0.10 | -0.78 | down 1 week running; at its 1-year low | FRED RRPONTSYD |
 | tga | US Treasury General Account (US$bn) | 916.60 | 2026-11-18 | +2.20 | -35.40 | -37.00 | -37.20 | up 1 week running; 65% of its 1-year range | FRED WTREGEN |
-| sofr | Secured Overnight Financing Rate (%) | 3.92 | 2026-11-20 | +0.02 | 0.00 | +0.27 | +0.01 | up 2 weeks running; 68% of its 1-year range | FRED SOFR |
+| sofr | Secured Overnight Financing Rate (%) | 3.92 | 2026-11-23 | -0.01 | -0.01 | +0.27 | -0.01 | down 1 week running; 68% of its 1-year range | FRED SOFR |
 | nfci | Chicago Fed financial conditions (above 0 = tight) (index) | -0.48 | 2026-11-13 | -0.01 | -0.00 | +0.07 | +0.03 | down 2 weeks running; 84% of its 1-year range | FRED NFCI |
-| dollar | Broad trade-weighted US dollar (index) | 122.65 | 2026-11-13 | +0.77 | +1.25 | +3.75 | +1.88 | up 3 weeks running; at its 1-year high | FRED DTWEXBGS |
+| dollar | Broad trade-weighted US dollar (index) | 123.60 | 2026-11-20 | +0.95 | +2.28 | +5.54 | +1.91 | up 4 weeks running; at its 1-year high | FRED DTWEXBGS |
 
 ## Credit
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| hy_oas | US high-yield credit spread (pp) | 3.76 | 2026-11-20 | +0.53 | +0.38 | +1.06 | +0.59 | up 1 week running; at its 1-year high | FRED BAMLH0A0HYM2 |
-| ig_oas | US investment-grade credit spread (pp) | 0.98 | 2026-11-20 | +0.09 | +0.07 | +0.17 | +0.13 | up 1 week running; at its 1-year high | FRED BAMLC0A0CM |
-| vix | VIX equity volatility (index) | 35.89 | 2026-11-20 | +16.59 | +16.44 | +20.76 | +9.47 | up 1 week running; at its 1-year high | FRED VIXCLS |
+| hy_oas | US high-yield credit spread (pp) | 3.63 | 2026-11-23 | +0.29 | +0.33 | +0.94 | +0.44 | up 1 week running; 89% of its 1-year range | FRED BAMLH0A0HYM2 |
+| ig_oas | US investment-grade credit spread (pp) | 0.97 | 2026-11-23 | +0.07 | +0.07 | +0.16 | +0.11 | up 1 week running; 96% of its 1-year range | FRED BAMLC0A0CM |
+| vix | VIX equity volatility (index) | 26.62 | 2026-11-23 | +3.71 | +8.23 | +10.77 | +3.19 | up 2 weeks running; 59% of its 1-year range | FRED VIXCLS |
 
 ## Inflation
 
@@ -97,8 +97,8 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| usdjpy | US dollar / Japanese yen (yen) | 159.93 | 2026-11-13 | +1.70 | +1.93 | +0.72 | +5.53 | up 3 weeks running; 65% of its 1-year range | FRED DEXJPUS |
-| usdcny | US dollar / Chinese yuan (yuan) | 6.67 | 2026-11-13 | -0.01 | -0.01 | -0.07 | -0.42 | down 1 week running; 5% of its 1-year range | FRED DEXCHUS |
-| jgb10 | Japan 10-year government bond yield (%) | 2.87 | 2026-11-19 | +0.17 | -0.09 | -0.01 | +1.16 | up 1 week running; 83% of its 1-year range | Japan Ministry of Finance jgbcme.csv, 10-year 2.870 on 19 Nov 2026 (2.916 on 18 Nov); 23 Nov a Japanese holiday; read at source |
+| usdjpy | US dollar / Japanese yen (yen) | 158.76 | 2026-11-20 | -1.17 | +1.89 | -0.15 | +1.35 | down 1 week running; 55% of its 1-year range | FRED DEXJPUS |
+| usdcny | US dollar / Chinese yuan (yuan) | 6.68 | 2026-11-20 | +0.01 | +0.01 | -0.04 | -0.43 | up 1 week running; 6% of its 1-year range | FRED DEXCHUS |
+| jgb10 | Japan 10-year government bond yield (%) | 2.84 | 2026-11-20 | -0.06 | +0.00 | -0.04 | +1.12 | down 1 week running; 80% of its 1-year range | Japan Ministry of Finance jgbcme.csv, 10-year 2.838 on 20 Nov 2026 (2.870 on 19 Nov); 24 Nov not yet posted; read at source |
 | china_tsf | China total social financing, year on year (%) | 7.20 | 2026-10-31 | — | +0.10 | — | — | — | People's Bank of China data released 13 Nov 2026, via Xinhua/People's Daily 14 Nov (stock 469.16tn yuan, +7.2% y/y; loans 283.33tn, +4.7%, a record low per Reuters/The Standard 13 Nov; M2 +7.1%, M1 +4.4%); read at source |
 
