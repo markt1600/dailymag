@@ -1,0 +1,736 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 174,
+ "date": "Thursday 26 November 2026",
+ "title": "The Burden of Proof",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Thursday, the twenty-sixth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. A Houthi drone hits Riyadh's tallest tower — the second strike on it in five days."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Banks in Singapore turn chip detectives. Citigroup, DBS and OCBC are asking data-centre clients who actually uses the American chips inside."
+  },
+  {
+   "s": "A",
+   "t": "And in Kathmandu, six law students take their university's AI detector to the Supreme Court."
+  },
+  {
+   "s": "B",
+   "t": "[wry] A machine on trial. I like it already."
+  },
+  {
+   "s": "A",
+   "t": "No grand theme today. A straight news book. We start in Riyadh. On Tuesday the twenty-fourth, a Houthi drone hit the Public Investment Fund tower — the headquarters of Saudi Arabia's wealth fund, and the tallest building in the city."
+  },
+  {
+   "s": "B",
+   "t": "And it had already been hit?"
+  },
+  {
+   "s": "A",
+   "t": "Five days earlier, by a missile. Workers were repairing that damage when the drone came in. Eleven people hurt, nine of them foreign workers."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] The repair crew. Of course it was the repair crew."
+  },
+  {
+   "s": "A",
+   "t": "And here's the detail that stays with you. No phone alert went out. A van with a loudspeaker drove the streets telling people to take cover."
+  },
+  {
+   "s": "B",
+   "t": "A van. In Riyadh. In twenty twenty-six."
+  },
+  {
+   "s": "A",
+   "t": "The Houthis told investors to \"leave Saudi Arabia immediately\". Saudi police, for their part, warned residents not to film interceptions."
+  },
+  {
+   "s": "B",
+   "t": "So how did the rest of the world read it? We run four capitals on this page."
+  },
+  {
+   "s": "A",
+   "t": "Doha's Al Jazeera, Beijing's Xinhua, Moscow's TASS, and Madhyamam out of Kerala, which watches it through the eyes of Gulf workers. Four framings, one tower."
+  },
+  {
+   "s": "B",
+   "t": "Kerala makes sense — those are the foreign workers in the casualty list."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. Then on Wednesday the Houthis claimed a hit on the Ras Tanura refinery. Brent rose about three per cent."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "An analyst at Investing.com says markets have learned to discount Houthi damage claims. And the International Energy Agency still projects a big oil surplus next year. The surplus sets the trend; the war sets the day. It is. Hackers leaked Russia's own death registers. The BBC counts at least four hundred and ninety thousand, three hundred and thirty-four Russian soldiers killed in Ukraine."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And that's the floor."
+  },
+  {
+   "s": "A",
+   "t": "Two exiled outlets, Mediazona and Meduza, put the real figure near seven hundred thousand."
+  },
+  {
+   "s": "B",
+   "t": "There's a village number on that page I can't shake."
+  },
+  {
+   "s": "A",
+   "t": "Andriivka. Seventy-four residents before the war. About one thousand one hundred and twenty-two Russians died fighting for it."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] More than fifteen dead for every person who lived there."
+  },
+  {
+   "s": "A",
+   "t": "And in twenty twenty-five, the war accounted for sixty-five per cent of all deaths among Russian men aged eighteen to twenty-four. Disproportionately from the poor regions. Men from Tyva and Buryatia were twenty to twenty-five times likelier to die than men from Moscow."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] The war is fought from the edges of the map."
+  },
+  {
+   "s": "A",
+   "t": "And one more line on that page. Last week the Revolutionary Guards said three tankers hit mines in Hormuz. The British maritime office, UKMTO, logged three ships hit by unidentified projectiles instead. Not mines. Names still unknown."
+  },
+  {
+   "s": "B",
+   "t": "So the claim was half right and the details were wrong."
+  },
+  {
+   "s": "A",
+   "t": "Held since last issue, now settled — as far as it goes. It's careful. No comparable count exists for Ukraine, and Mediazona flags its own caveats. A leak is a record, not a full census."
+  },
+  {
+   "s": "B",
+   "t": "Right. Money. Let's do Singapore and the Macro Desk together."
+  },
+  {
+   "s": "A",
+   "t": "Singapore first. The trade ministry — renamed the Ministry of Energy, Trade and Industry in October — now expects about six per cent growth this year."
+  },
+  {
+   "s": "B",
+   "t": "Six. That's a big number for us."
+  },
+  {
+   "s": "A",
+   "t": "The best since twenty twenty-one. Third-quarter growth revised up to six point one per cent. And almost all of it is the AI build-out — data centres, electronics, wholesale trade."
+  },
+  {
+   "s": "B",
+   "t": "Give me a number I can repeat at lunch."
+  },
+  {
+   "s": "A",
+   "t": "Non-oil domestic exports in the quarter rose almost forty-six per cent. Electronics more than doubled. Shipments to America rose about seventy-four per cent."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Seventy-four."
+  },
+  {
+   "s": "A",
+   "t": "Wholesale trade grew fourteen and a half per cent. That is the data-centre economy, showing up in our own accounts."
+  },
+  {
+   "s": "B",
+   "t": "[curious] But?"
+  },
+  {
+   "s": "A",
+   "t": "But the boom stops at the shop door. Retail volumes fell about two per cent, food and beverage two point one — partly because Singaporeans are spending more on holidays abroad."
+  },
+  {
+   "s": "B",
+   "t": "So the economy's booming and the hawker down the road doesn't feel it."
+  },
+  {
+   "s": "A",
+   "t": "That's the sceptic's line, more or less. Next year's forecast is two and a half to four and a half per cent. Now America, where Wednesday was a data dump before Thanksgiving. Three releases at once."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Of course it was."
+  },
+  {
+   "s": "A",
+   "t": "October's core inflation — the Fed's favourite measure, food and fuel stripped out — hit three point three per cent. Highest since January twenty twenty-four. Third-quarter growth was revised up to four point three per cent. Jobless claims fell to a hundred and eighty-nine thousand, a one-year low. But spending, once you strip out inflation, slipped a little."
+  },
+  {
+   "s": "B",
+   "t": "So the strong number is the past —"
+  },
+  {
+   "s": "A",
+   "t": "— and the flat spending is the present. The saving rate is down to four point one per cent. And Treasury yields? [deadpan] They went down."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Of course they did."
+  },
+  {
+   "s": "A",
+   "t": "An AI share sell-off had the S&P five hundred down three point two per cent at one point. Investors ran to Treasuries. The ten-year fell to four point eight five per cent."
+  },
+  {
+   "s": "B",
+   "t": "Hot inflation, falling yields. Explain that to me like I'm twelve."
+  },
+  {
+   "s": "A",
+   "t": "Fear beat inflation for a day. When people are scared, they buy government bonds, and that pushes yields down whatever the price data says. The Dallas Fed's trimmed-mean measure — it throws out the extreme price moves — was only two point three per cent in the year to September. That's the sceptic: the rise is narrow."
+  },
+  {
+   "s": "B",
+   "t": "Page two is credit. It's Thursday."
+  },
+  {
+   "s": "A",
+   "t": "The extra interest that junk-rated American companies pay reached three point seven six points on the twentieth. Widest in eighteen months. It was two point six in August."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So lenders want more to take the risk."
+  },
+  {
+   "s": "A",
+   "t": "Week after week. Meanwhile savers put fifty-five point eight billion dollars into share funds in one week and pulled five point one billion out of bond funds. Leveraged funds were net short about two point five million ten-year Treasury contracts in the last report. That report is late this week — Thanksgiving pushes it to Monday. The desk leans lower for VWRA, steady for PIMCO Income in both its Singapore-dollar and US-dollar classes, and lower for gold and bitcoin. Explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "[wry] And last week's leans? Be honest."
+  },
+  {
+   "s": "A",
+   "t": "Three right. VWRA, gold and bitcoin. PIMCO Income was called lower and it rose. Wrong. Printed as wrong."
+  },
+  {
+   "s": "B",
+   "t": "I like a desk that marks its own homework."
+  },
+  {
+   "s": "A",
+   "t": "Technology. The banks have become chip police."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Tell me."
+  },
+  {
+   "s": "A",
+   "t": "Bloomberg reports Citigroup, Standard Chartered, DBS, OCBC and UOB are checking who actually uses the American AI chips in their data-centre clients' facilities. A loan of four hundred and eighty million US dollars for chips meant for ByteDance has been halted."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Banks used to ask what the collateral was worth. Now they ask who is renting the server."
+  },
+  {
+   "s": "A",
+   "t": "And UOB says it reviews its lending portfolio regularly. Which is a bank's way of saying yes."
+  },
+  {
+   "s": "B",
+   "t": "Because of the new American rule."
+  },
+  {
+   "s": "A",
+   "t": "The remote-access rule. ChinaTalk counts about ninety-four per cent of tracked overseas computing at Chinese-linked sites sitting in just three campuses in Johor."
+  },
+  {
+   "s": "B",
+   "t": "Three campuses. Right across the causeway."
+  },
+  {
+   "s": "A",
+   "t": "And the sceptic: ChinaTalk thinks the rule, even enforced, delays China by only about six months. And American enforcers had about two hundred and thirty-five million dollars to spend last year."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] For the whole world."
+  },
+  {
+   "s": "A",
+   "t": "Home Lab. A start-up called PrismML has shrunk a twenty-seven-billion-parameter coding model to under six gigabytes. It stores every number as minus one, zero or plus one. Three values. That's it."
+  },
+  {
+   "s": "B",
+   "t": "[amused] That's not a model, that's a light switch."
+  },
+  {
+   "s": "A",
+   "t": "One owner on Hacker News measured twenty-two tokens a second on a twenty-four gigabyte Mac mini. But every quality score is PrismML's own, and the page says so."
+  },
+  {
+   "s": "B",
+   "t": "And if you can already run the full model?"
+  },
+  {
+   "s": "A",
+   "t": "Then it's the wrong trade. That's the sceptic. The Kit: Coros has put a real torch in the side of a watch. The Vertix four, seven hundred and ninety-nine US dollars. A hundred hours of light on its lowest setting."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A watch with a torch. I want one and I don't know why."
+  },
+  {
+   "s": "A",
+   "t": "DC Rainmaker says Coros \"picked the worst day ever to launch a watch\". Black Friday. When Garmin's Fenix eight is seven hundred and forty-nine."
+  },
+  {
+   "s": "B",
+   "t": "Ouch. No Singapore price yet?"
+  },
+  {
+   "s": "A",
+   "t": "None announced. Held."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Anything else on the gear desk?"
+  },
+  {
+   "s": "A",
+   "t": "Grado's wireless GW two hundred is still listed with a built-in microphone at three hundred and twenty-nine US dollars, sold out, pre-orders open. We first asked about that microphone weeks ago. Still unsettled."
+  },
+  {
+   "s": "B",
+   "t": "And the Atelier — what are we buying once today?"
+  },
+  {
+   "s": "A",
+   "t": "Stand mixers. America's Test Kitchen tested sixteen and put a Swedish one first — the Ankarsrum. The motor sits in the base and spins the bowl. Here's the retellable bit. A three-hundred-and-fifty-watt mixer stalled on stiff bagel dough that a two-hundred-and-fifty-watt one kneaded fine."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So the wattage on the box —"
+  },
+  {
+   "s": "A",
+   "t": "— tells you almost nothing. Torque does the kneading. And KitchenAid's own manual says don't knead above speed two. Metro has the Ankarsrum at one thousand seven hundred and ninety-nine Singapore dollars, sold out. A KitchenAid Artisan is six hundred and ninety-nine."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Buy it once. Cry once. Loudly."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every single morning."
+  },
+  {
+   "s": "B",
+   "t": "Gongfu tea! Small pot, lots of short infusions, oolong and pu-erh, a whole culture of tiny cups."
+  },
+  {
+   "s": "A",
+   "t": "You've been waiting all week for this one."
+  },
+  {
+   "s": "B",
+   "t": "I have. And it starts in a courtroom. A court in Yixing — the Chinese teapot town — jailed a live-streamer for fifteen months."
+  },
+  {
+   "s": "A",
+   "t": "For what?"
+  },
+  {
+   "s": "B",
+   "t": "He told viewers that ninety-nine per cent of zisha clay teapots are toxic. To sell his own \"zero additives\" pots."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] A business model."
+  },
+  {
+   "s": "B",
+   "t": "Government labs tested the pots. Barium leached at nought point two milligrams a litre — under the drinking-water limit of nought point seven."
+  },
+  {
+   "s": "A",
+   "t": "So the scare was the scam."
+  },
+  {
+   "s": "B",
+   "t": "Exactly. Now the gear. The classic tools are a gaiwan — a lidded porcelain bowl — and a Yixing clay pot."
+  },
+  {
+   "s": "A",
+   "t": "And the clay pot keeps the heat better. Everyone knows that."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Everyone's wrong! TeaDB measured a porcelain gaiwan and a Yixing pot losing heat at about the same rate."
+  },
+  {
+   "s": "A",
+   "t": "Hm. So what are the clay people paying for?"
+  },
+  {
+   "s": "B",
+   "t": "Character, seasoning, the potter. The Essence of Tea commissioned four pots from the Yixing master Ma Yong Qiang — one thousand five hundred and eighty US dollars each, each with a clay test report."
+  },
+  {
+   "s": "A",
+   "t": "Because fakes."
+  },
+  {
+   "s": "B",
+   "t": "Because fakes. That's the community's running fight. And the starter kit, done properly, is about two hundred and sixty US dollars."
+  },
+  {
+   "s": "A",
+   "t": "And Singapore has a stake in this, doesn't it?"
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Oh, we do. Pek Sin Choon, founded in nineteen twenty-five, says it supplied over eighty per cent of Singapore's bak kut teh stalls in the nineties."
+  },
+  {
+   "s": "A",
+   "t": "The tea with the pork ribs."
+  },
+  {
+   "s": "B",
+   "t": "And here's the storage problem. Pu-erh ages. Singapore's average humidity is about eighty-two per cent. TeaDB calls seventy-three and above the danger zone for mould."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] So we live in the danger zone."
+  },
+  {
+   "s": "B",
+   "t": "We do. Which is why Singapore developed its own dry-storage culture."
+  },
+  {
+   "s": "A",
+   "t": "And the money end?"
+  },
+  {
+   "s": "B",
+   "t": "This Sunday, L and H Auction in Hong Kong offers a seven-cake stack of nineteen-thirties pu-erh — top estimate six point eight million Hong Kong dollars."
+  },
+  {
+   "s": "A",
+   "t": "For tea."
+  },
+  {
+   "s": "B",
+   "t": "In May, a nineteen-twenties stack made fourteen million."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] And the sceptic?"
+  },
+  {
+   "s": "B",
+   "t": "Global Tea Hut, of all people, on so-called nineteen-eighties ripe pu-erh: \"Their vintages are just tales told by tea shops.\""
+  },
+  {
+   "s": "A",
+   "t": "The best line in the issue might come from a tea shop."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And the next descents — contract bridge, dinghy sailing, or kintsugi. Vote in the Photo Edition."
+  },
+  {
+   "s": "A",
+   "t": "Culture and the body. Peter Gabriel."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Oh, this is lovely."
+  },
+  {
+   "s": "A",
+   "t": "He's released a song on every full moon since January. On Friday they come out together as an album, o i, his longest. Two complete mixes by two different engineers."
+  },
+  {
+   "s": "B",
+   "t": "One song dates from the sessions for Us, nineteen ninety-two."
+  },
+  {
+   "s": "A",
+   "t": "And one of the thirteen hasn't been heard yet. Morten Harket of a-ha has a solo record, Human Grace. And there's a deluxe Rolling Stones reissue."
+  },
+  {
+   "s": "B",
+   "t": "And the film everyone's watching tonight in America?"
+  },
+  {
+   "s": "A",
+   "t": "Disney's Hexed made two point one million dollars from Tuesday previews, more than Encanto managed. The five-day number lands on Monday. We'll print it then. The Good Life: Blancpain's new watch tilts its spinning cage at thirty degrees. Three hundred and eighty thousand Swiss francs."
+  },
+  {
+   "s": "B",
+   "t": "Why thirty?"
+  },
+  {
+   "s": "A",
+   "t": "They tested every angle from nought to thirty-five. The sceptic notes that Greubel Forsey used thirty degrees back in two thousand and four."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Twenty-two years to agree on an angle."
+  },
+  {
+   "s": "A",
+   "t": "Family. A US settlement makes Meta cap teenagers at two hours a day on Instagram and Facebook."
+  },
+  {
+   "s": "B",
+   "t": "That sounds strong."
+  },
+  {
+   "s": "A",
+   "t": "A new letter in JAMA says the cap would have touched only seven point seven per cent of teens."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Why so few?"
+  },
+  {
+   "s": "A",
+   "t": "About eighty per cent of their social-media time is on Snapchat, TikTok and YouTube. Apply the same cap to all five apps and it reaches sixty-three per cent."
+  },
+  {
+   "s": "B",
+   "t": "So the lock is on the wrong door."
+  },
+  {
+   "s": "A",
+   "t": "And the night block leaves ten till midnight open, when teen use is nearly as heavy as in the six hours after."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So it locks the door after everyone's gone to bed."
+  },
+  {
+   "s": "A",
+   "t": "One more from that page. Seventy-six per cent of American parents surveyed were not comfortable with an AI chatbot giving their child behavioural therapy."
+  },
+  {
+   "s": "A",
+   "t": "And a Kent study: girls aged ten to fourteen who could count their own heartbeats more accurately were less unhappy with their bodies."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a gentle finding."
+  },
+  {
+   "s": "A",
+   "t": "With a sceptic — the heartbeat-counting test itself is contested. General guidance, not medical advice. And for parents of Primary Six children: Secondary One choices close at four thirty on Monday. Posting results are still only \"tentatively\" the eighteenth of December."
+  },
+  {
+   "s": "B",
+   "t": "Fitness?"
+  },
+  {
+   "s": "A",
+   "t": "A Colorado trial. Thirty desk-bound adults walked the same forty-five minutes a day. The ones who split it into five-minute bouts had steadier blood sugar."
+  },
+  {
+   "s": "B",
+   "t": "Snack walks. I can do snack walks."
+  },
+  {
+   "s": "A",
+   "t": "Neither group's insulin sensitivity improved, though. That was a primary outcome. The sceptic made sure we said so."
+  },
+  {
+   "s": "B",
+   "t": "And the Diary?"
+  },
+  {
+   "s": "A",
+   "t": "Studio Ghibli's new exhibition has its world premiere here, at Gardens by the Bay, from the eighteenth of December. Twelve life-size film worlds."
+  },
+  {
+   "s": "B",
+   "t": "Prices?"
+  },
+  {
+   "s": "A",
+   "t": "Adults forty-nine to fifty-five dollars, children aged three to twelve forty-three to forty-nine. It runs to the fourth of July."
+  },
+  {
+   "s": "B",
+   "t": "And for the Japan trip?"
+  },
+  {
+   "s": "A",
+   "t": "Bon Jovi plays Tokyo Dome on the twenty-fifth and twenty-seventh of February. General sale opens this Saturday. And teamLab has turned Hama-rikyu, a four-hundred-year-old shogun's falconry garden, into a night art show until Christmas Eve."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] A falconry garden at night. That one's going in the calendar."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Here, not Tokyo!"
+  },
+  {
+   "s": "A",
+   "t": "And in Tokyo, the Tale of Genji exhibition lets anyone of junior-high age or younger in free. The Table has MODU's curry-laksa ginseng chicken soup at Raffles City."
+  },
+  {
+   "s": "B",
+   "t": "Is MODU any good?"
+  },
+  {
+   "s": "A",
+   "t": "Its best reviews came from hosted tastings. One blogger who queued two hours scored it three and a half out of five. Too new to call, honestly."
+  },
+  {
+   "s": "B",
+   "t": "Curry laksa samgyetang. Singapore in one bowl."
+  },
+  {
+   "s": "A",
+   "t": "Now — the Undercurrent. Slower."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Kathmandu."
+  },
+  {
+   "s": "A",
+   "t": "Six law students at Tribhuvan University, Nepal's biggest, went to the Supreme Court. The university rejects theses when software says a machine probably wrote them."
+  },
+  {
+   "s": "B",
+   "t": "And the court?"
+  },
+  {
+   "s": "A",
+   "t": "On Wednesday it ordered the university to justify the rule. A hearing on Monday decides whether those rejections pause in the meantime."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] What's their best exhibit?"
+  },
+  {
+   "s": "A",
+   "t": "They ran the Supreme Court's own judgments through the detectors. Reportedly, they came back seventy to eighty per cent \"AI-written\"."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] That's the petitioners' claim."
+  },
+  {
+   "s": "A",
+   "t": "Single-sourced, and printed that way."
+  },
+  {
+   "s": "B",
+   "t": "Is there real evidence these tools misfire?"
+  },
+  {
+   "s": "A",
+   "t": "A twenty twenty-three Stanford test found sixty-one per cent of essays by non-native English speakers flagged as machine-written."
+  },
+  {
+   "s": "B",
+   "t": "Which is exactly who Nepal's students are."
+  },
+  {
+   "s": "A",
+   "t": "And Vanderbilt switched its detector off that same year. At the claimed one per cent error rate, seven hundred and fifty of its seventy-five thousand papers a year would have been wrongly flagged."
+  },
+  {
+   "s": "B",
+   "t": "[pause] Seven hundred and fifty people."
+  },
+  {
+   "s": "A",
+   "t": "The essay's history goes back to nineteen twenty-three. An American court refused a blood-pressure lie test devised by William Moulton Marston."
+  },
+  {
+   "s": "B",
+   "t": "Wait — the Wonder Woman man?"
+  },
+  {
+   "s": "A",
+   "t": "The Wonder Woman man. The polygraph survived, but as a prompt for questions, not a verdict."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] So the students aren't asking to ban the machine."
+  },
+  {
+   "s": "A",
+   "t": "They're asking for a hearing. A human who looks before the score becomes the sentence."
+  },
+  {
+   "s": "B",
+   "t": "Has anyone else been down this road?"
+  },
+  {
+   "s": "A",
+   "t": "Minnesota. A doctoral student expelled over suspected chatbot answers sued, and a federal court dismissed his due-process claims — because he'd had a thirty-five-page defence and a five-member panel. The process existed."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] So the process is the protection. Not the verdict."
+  },
+  {
+   "s": "A",
+   "t": "That is the essay's argument in a line."
+  },
+  {
+   "s": "B",
+   "t": "And the call?"
+  },
+  {
+   "s": "A",
+   "t": "The desk thinks the court won't switch the software off on Monday. But by mid twenty twenty-seven, the university will require a human review first."
+  },
+  {
+   "s": "B",
+   "t": "Blackstone's on the contents page today."
+  },
+  {
+   "s": "A",
+   "t": "\"It is better that ten guilty persons escape than that one innocent suffer.\""
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] An AI detector runs that sum backwards. Unless someone makes it show its working."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-five pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

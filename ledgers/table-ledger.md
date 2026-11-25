@@ -287,3 +287,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Hot Burg | Hot Burg | 173 | OPEN | No. 173 build | opening run — opened 26 Oct, The Star Vista; Eatbook only |
 | Bonchon | Bonchon | 173 | OPEN | No. 173 build | opening run — ION Orchard return announced for Dec 2026 (DFD 22 Nov) |
 | Hansang Korean Family Restaurant | Hansang Korean Family Restaurant | 173 | OPEN | No. 173 build | opening run — relocated to Great World (DFD 24 Nov) |
+| MODU | MODU | 174 | OPEN | No. 174 build | opening run — record the peg here |
+| Kindle Cafe | Kindle Cafe | 174 | OPEN | No. 174 build | opening run — record the peg here |
+| CUDITO | CUDITO | 174 | OPEN | No. 174 build | opening run — record the peg here |

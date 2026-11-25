@@ -1,0 +1,201 @@
+{
+ "issue": 174,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "A Houthi drone hit Riyadh's sovereign-wealth-fund tower for the second time in six days, wounding 11, as the Houthis also claimed a strike on Saudi Arabia's biggest old refinery and oil rose.",
+   "weakest": "The Chatter box: \"Saudi Public Security has warned residents that filming... can bring legal action\" sits uneasily beside a newsletter writer's one-line take; neither is residents' chatter.",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 5,
+   "says": "Leaked Russian death registers analysed by the BBC show at least 490,334 soldiers dead, with exiled outlets estimating nearer 700,000, and the war now the main killer of young Russian men.",
+   "weakest": "\"Region by region, the leaked files differ from the BBC's own named list by only a few tenths of a percentage point.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 4,
+   "says": "The government raised Singapore's 2026 growth forecast to about 6 per cent on the back of the AI data-centre boom, while shops and restaurants are shrinking.",
+   "weakest": "\"Output per hour worked rose 3.3 per cent; consumer prices in the quarter ran 2.3 per cent above a year earlier, the highest reading in METI's five-quarter table.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 3,
+   "says": "America's Test Kitchen rated the Swedish Ankarsrum the best stand mixer because torque, not wattage, decides whether a machine kneads bread, and it costs S$1,799 in Singapore against S$699 for a KitchenAid.",
+   "weakest": "\"Kenwood, whose Chef launched in 1950, has belonged to De'Longhi since 2001, bought for £45.9m. The food processor began with Pierre Verdon's Robot-Coupe in 1960...\"",
+   "verdict": "rework",
+   "reason": "The third paragraph turns into a corporate genealogy of five brands and drifts into food processors, which the headline and opening never set up; cut it to the KitchenAid weak-gear point and either drop the Magimix or explain why a food processor belongs in a mixer piece.",
+   "fixed": "Cut the five-brand genealogy and food processors; paragraph three now explains KitchenAid's nylon worm gear and speed-2 rule against the Ankarsrum's base drive; kicker renamed Stand Mixers.",
+   "recheck": 4
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Citigroup, StanChart and Singapore's three banks are now quizzing their Southeast Asian data-centre clients about who uses their American AI chips, because breaching Washington's new export rule could also breach the loans.",
+   "weakest": "\"the 'significant' compute that triggers the data-centre test is set in the text at more than 12,000,000 aggregate TPP, counted across linked sites, a chip-performance score\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 8,
+   "desk": "The Home Lab",
+   "keep_reading": 2,
+   "says": "A start-up has shrunk a large free coding model to about six gigabytes so it runs on a home graphics card, and claims it loses little quality, though only its own tests say so.",
+   "weakest": "\"the Q2_0 file runs on stock llama.cpp from build b11556... The smallest packing, PTQ1_0, still needs PrismML's fork.\"",
+   "verdict": "rework",
+   "reason": "After a good explanatory second paragraph the page dives into tok/s, quant formats, build numbers and a callback to No. 108 that a general reader cannot follow; say plainly what a home user needs (what hardware, how fast, is it worth it) and cut the Also On The Desk items on Inkling 2 Mini and a llama.cpp pull request, which assume knowledge never supplied.",
+   "fixed": "Rewrote paragraphs 3-5 in plain language under how big / how fast / is it worth it; dropped build numbers and format names; cut the Inkling and llama.cpp brief items.",
+   "recheck": 4
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 4,
+   "says": "Coros's new US$799 Vertix 4 adventure watch adds a built-in torch and a bright screen at the cost of some battery life, and arrives priced above Garmin and Suunto rivals.",
+   "weakest": "\"It comes in black or silver, with both nylon and silicone straps in the box.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 4,
+   "says": "Blancpain's CHF380,000 Carrousel Incliné tilts its rotating timekeeping cage 30 degrees inside an all-sapphire case, betting the tilt averages out positional errors better, though Greubel Forsey did it first.",
+   "weakest": "\"References 66222S 0000 55B, in rhodium-plated 5N gold, and 66222S A 0000 55B, in red gold\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 3,
+   "says": "Peter Gabriel releases o\\i, an 80-minute companion to i/o in two different mixes, on Friday, though twelve of its 13 songs are already out.",
+   "weakest": "Also On The Desk: \"Hexed. US$2.1m from Tuesday previews, above Encanto's US$1.5m... Focker-In-Law skipped previews\" never says what either film is.",
+   "verdict": "pass"
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A Kent study of 181 schoolgirls found those better at sensing their own heartbeat were less unhappy with their bodies, especially later in puberty, though it cannot show cause.",
+   "weakest": "\"a Bayes factor of 0.04 favoured no effect\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 3,
+   "says": "Phone logs from 1,803 American teens show Meta's settlement cap of two hours a day would touch only 7.7 per cent of them, because most of their social-media time is on Snapchat, TikTok and YouTube.",
+   "weakest": "\"A midnight-to-6am block on Meta would affect 77.8 per cent of its teen users; across five apps, 88.3. A 10pm-to-7am notification shutoff: 64.4 against 86.2.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 3,
+   "says": "America's core inflation rose to 3.3 per cent while real spending slipped, yet investors bought Treasuries and yields fell amid an AI-share sell-off.",
+   "weakest": "\"The regime stands (p15). No. 151 expected real spending to rebound 0.3 per cent in October: wrong.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "The extra interest risky American companies pay has climbed to an eighteen-month high, and the desk says that above 4 points it would call this a growth scare rather than a rate shock.",
+   "weakest": "Inside the Fund: \"the ten largest holdings were 23.54 , Nvidia 4.55 of it.\"",
+   "verdict": "rework",
+   "reason": "The page assumes a standing framework (\"the regime\", \"rate shock\" versus \"growth scare\", the basis trade, \"financial conditions −0.44\") that it never explains, and gives the spread as both 3.76 and 3.72 without saying why; state in one plain sentence what the desk's call is and what a reader should watch, and fix the garbled VWRA holdings line.",
+   "fixed": "Glossed the call in plain words, reconciled 3.76 (20 Nov peak) and 3.72 (24 Nov close), explained the basis trade, replaced the financial-conditions row, fixed the VWRA holdings line.",
+   "recheck": 3
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "Gongfu tea is brewing lots of leaf in a tiny pot for many short steeps; you can start with a cheap gaiwan and under US$50 of ripe pu-erh, and Singapore has old tea houses of its own.",
+   "weakest": "\"Mei Leaf, Don Mei's Camden shop, has 121,000 YouTube subscribers; TeaDB has 9,880 but more videos, about 1,400 against 1,200; the vendor Yunnan Sourcing has 8,680.\"",
+   "verdict": "rework",
+   "reason": "The scale paragraph is a grab-bag of subscriber counts, 2021 livestream projections and auction prices that tells the newcomer nothing, and its \"Reddit refused this desk\" housekeeping note is repeated almost word for word on p17; replace it with what a first session actually tastes and feels like, and keep the subscriber count out of the deck.",
+   "fixed": "Replaced the subscriber-count paragraph with a sourced walk-through of a first session; removed the repeated Reddit note and the count from the dek.",
+   "recheck": 4
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "A Yixing court jailed a streamer for falsely calling zisha clay teapots toxic, and the page walks through gaiwans, pots and kettles from US$22 to US$2,785, noting clay holds heat no better than porcelain.",
+   "weakest": "\"Reddit refused this desk and TeaForum.org returned errors, so neither is quoted.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "A 1930s pu-erh stack goes to auction in Hong Kong at up to HK$6.8m; aged tea is priced on storage, Singapore's humidity is a risk, and a sensible ninety-day start costs about US$260.",
+   "weakest": "\"Gongfu tea's deepest end is aged pu-erh, how it is stored and what it costs, and this page covers those with the vocabulary and a ninety-day plan.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 3,
+   "says": "In a small Colorado trial, people who split 45 minutes of daily walking into five-minute bouts had steadier blood sugar than those who walked it in one go, though insulin sensitivity did not improve.",
+   "weakest": "\"daily time in range of 82 to 94 per cent, odds ratio 7.2 (1.1 to 46.1), with variability 4.4 points lower\"",
+   "verdict": "rework",
+   "reason": "The Bergouignan quote appears twice, once in the text and again as the pull quote, and the results paragraph is statistics shorthand a reader cannot decode; say in plain words how much steadier blood sugar got, and settle nine bouts versus ten instead of printing both.",
+   "fixed": "Replaced the duplicate pull quote, rewrote the results in plain words, settled on nine bouts per the university.",
+   "recheck": 3
+  },
+  {
+   "page": 20,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "The Studio Ghibli exhibition opens at Gardens by the Bay on 18 December, with a list of concerts and Tokyo shows worth booking and Bon Jovi's Tokyo Dome sale this Saturday.",
+   "weakest": "Still Held box: \"Ticketmaster and AXS still refuse this desk, so KATSEYE, Hayley Williams and SIX60 stay unpriced.\"",
+   "verdict": "rework",
+   "reason": "The Still Held box is the desk's own housekeeping about prices it could not read, not anything a reader can book; cut it or turn it into usable advice, and give the Ghibli lead a sentence on what visitors actually see, since the headline promises it but the page never describes it.",
+   "fixed": "Turned the Still Held box into a sourced sceptic on what the Ghibli ticket leaves unsaid; described the twelve film worlds in Planning Notes.",
+   "recheck": 3
+  },
+  {
+   "page": 21,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "MODU, a Korean chicken-soup specialist, has opened a third outlet at Raffles City with a S$40 curry-laksa bowl, and two other new places, Kindle Cafe and CUDITO, are too new to judge.",
+   "weakest": "\"MODU takes walk-ins only: staff take a number and call when a table frees\" repeats the booking tip already given in the text.",
+   "verdict": "pass"
+  },
+  {
+   "page": 22,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Six Tribhuvan University law students have got Nepal's Supreme Court to make the university justify rejecting theses on an AI-detector score alone, with a hearing on halting such rejections on Monday.",
+   "weakest": "\"The respondents run from the prime minister's office and the education ministry to, curiously, the ministry of defence.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "Turnitin itself warns its scores are not proof, detectors wrongly flag non-native English writers, and the polygraph's history shows how courts demote such machines from verdict to prompt.",
+   "weakest": "\"Marston later created Wonder Woman and her Lasso of Truth.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "The desk predicts the court will not switch off the detector but Tribhuvan University will require human review before any rejection by mid-2027, the same fate as the polygraph.",
+   "weakest": "\"Calgary's Dahal and Eaton add that courts are the wrong forum.\"",
+   "verdict": "pass"
+  }
+ ]
+}

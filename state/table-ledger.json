@@ -2628,9 +2628,39 @@
       "status": "OPEN",
       "checked": "No. 173 build",
       "note": "opening run — relocated to Great World (DFD 24 Nov)"
+    },
+    {
+      "venue": "MODU",
+      "key": "MODU",
+      "runs": [
+        174
+      ],
+      "status": "OPEN",
+      "checked": "No. 174 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Kindle Cafe",
+      "key": "Kindle Cafe",
+      "runs": [
+        174
+      ],
+      "status": "OPEN",
+      "checked": "No. 174 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "CUDITO",
+      "key": "CUDITO",
+      "runs": [
+        174
+      ],
+      "status": "OPEN",
+      "checked": "No. 174 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 174,
+  "barred_for_issue": 175,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2772,9 +2802,6 @@
     "Cranki Patisserie",
     "Mala Mia",
     "Casa Vostra",
-    "Pugners Dining",
-    "Sagye Lite",
-    "BB.Q Chicken",
     "Lobang",
     "That Place",
     "British Hainan",
@@ -2782,6 +2809,9 @@
     "MUTED Gelato",
     "Hot Burg",
     "Bonchon",
-    "Hansang Korean Family Restaurant"
+    "Hansang Korean Family Restaurant",
+    "MODU",
+    "Kindle Cafe",
+    "CUDITO"
   ]
 }
