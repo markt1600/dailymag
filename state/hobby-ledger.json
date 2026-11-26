@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Dinghy sailing",
+      "issue": "175",
+      "angle": "<b>Class status is not an Olympic place.</b> Auto-picked from No. 174's chips over contract bridge and kintsugi (category rotation to sport/water). The WASZP foiler and RS Aero won World Sailing class status in Qingdao (21 Nov) while the ILCA (215,000+ built) keeps the Games; SSF's first course S$77"
+    },
+    {
       "hobby": "Gongfu tea",
       "issue": "174",
       "angle": "<b>The clay is not magic and the scare was a scam.</b> Auto-picked from No. 173&rsquo;s chips (category rotation off juggling). Yixing court jailed a streamer 15 months for &ldquo;99% of zisha pots are toxic&rdquo; (barium 0.2 mg/L vs 0.7 limit); TeaDB: gaiwan and Yixing pot lose heat at the same ra"
@@ -588,7 +593,7 @@
       "fit": "A partnership bidding language, master-point ladders and weekly clubs; a lifelong game with a real Singapore scene."
     },
     {
-      "hobby": "Dinghy sailing",
+      "hobby": "~~Dinghy sailing~~ (COVERED, No. 175)",
       "category": "Sport / water",
       "communities": "Singapore Sailing Federation, the Changi and Republic of Singapore Yacht Clubs, Laser/ILCA and RS class associations, r/sailing",
       "fit": "Small boats, club racing and a sport the reservoirs and coast suit."
@@ -934,6 +939,42 @@
       "category": "Craft / wood",
       "communities": "r/handtools, the Wood Central and UK Workshop boards, the Lie-Nielsen and Veritas scenes",
       "fit": "A buy-once tool ladder with a sharpening argument at its centre and a vintage market that genuinely undercuts the new one"
+    },
+    {
+      "hobby": "Competitive Rubik-free puzzle hunts (MIT Mystery Hunt style)",
+      "category": "Games / mind",
+      "communities": "r/PuzzleHunts, the MIT Mystery Hunt and Galactic Puzzle Hunt archives",
+      "fit": "Team puzzling with a real annual calendar and a writing culture; free to enter, expensive in hours"
+    },
+    {
+      "hobby": "Bouldering &amp; indoor climbing",
+      "category": "Sport / body",
+      "communities": "r/bouldering, UKClimbing forums, Singapore&rsquo;s Boulder Movement and Fit Bloc gyms",
+      "fit": "A grade ladder, a shoe-and-skin gear argument and a booming Singapore gym scene"
+    },
+    {
+      "hobby": "Amateur astronomy visual observing (Dobsonians)",
+      "category": "Science / sky",
+      "communities": "Cloudy Nights, r/telescopes, the Astronomical Society of Singapore",
+      "fit": "Glass you buy once; light pollution and the tropics as the honest constraint; distinct from covered astrophotography"
+    },
+    {
+      "hobby": "Sourdough &amp; hearth baking",
+      "category": "Food / craft",
+      "communities": "r/Sourdough, The Fresh Loaf forum, Tartine and the Perfect Loaf scenes",
+      "fit": "A starter, an oven and a hydration ladder; the Dutch-oven-to-deck-oven gear path"
+    },
+    {
+      "hobby": "Freediving (pool &amp; depth)",
+      "category": "Sport / water",
+      "communities": "r/freediving, DeeperBlue forums, AIDA and Molchanovs schools; Singapore pool clubs",
+      "fit": "A breath-hold sport with a certification ladder, a fin-and-wetsuit gear market and a real safety argument"
+    },
+    {
+      "hobby": "Hi-fi DIY: valve-amplifier building",
+      "category": "Tech / audio",
+      "communities": "diyAudio, r/diyaudio, the Japanese sansui-kits scene",
+      "fit": "Soldered kit and point-to-point builds; transformers as the buy-once part; distinct from covered loudspeaker building"
     }
   ],
   "retired": [

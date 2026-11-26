@@ -1,0 +1,692 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 175,
+ "date": "Friday 27 November 2026",
+ "title": "Who Gets Paid",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Friday, the twenty-seventh of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Three headlines. Washington proposes a tariff of up to twenty per cent on everything Singapore sells it — and blames the CPF."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Nvidia stops AI server deliveries to Singapore, Malaysia, Thailand and Indonesia."
+  },
+  {
+   "s": "A",
+   "t": "And in Delhi, fans pay eight hundred and ninety-nine rupees to watch a Pakistani serial India has banned."
+  },
+  {
+   "s": "B",
+   "t": "[wry] A ticketed night out with a soap opera. I'd go."
+  },
+  {
+   "s": "A",
+   "t": "The spine today is three words. Who gets paid. Three borders redrawn this week, and none of them made the demand on the other side go away."
+  },
+  {
+   "s": "B",
+   "t": "So we start at home."
+  },
+  {
+   "s": "A",
+   "t": "We do. On Wednesday the twenty-fifth — Thursday morning here — the US Trade Representative proposed a tariff of up to twenty per cent on all Singapore goods. A trade deal answering its findings would cut that to ten."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Here's the bit that made me sit up. They're not only blaming what we sell. They're blaming how we save."
+  },
+  {
+   "s": "A",
+   "t": "The Central Provident Fund. Most workers aged fifty-five and under pay twenty per cent of wages into it, and the report says it \"suppresses consumption\"."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] My CPF statement, suppressing consumption. It's never been accused of anything so thrilling."
+  },
+  {
+   "s": "A",
+   "t": "It's one of seven listed practices. Another is the Manufacturing twenty thirty plan, to hold factories at a fifth of the economy. Malaysia, Indonesia and Thailand face eighteen per cent. Japan, Korea and Taiwan, fifteen."
+  },
+  {
+   "s": "B",
+   "t": "So we top the table. On what evidence?"
+  },
+  {
+   "s": "A",
+   "t": "Ratios. USTR puts household consumption at about thirty per cent of GDP from twenty twenty-one to twenty twenty-five, against sixty-seven point nine in America. And labour's share of manufacturing value at twenty-three point five per cent — half the American forty-seven point two."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] But hang on — doesn't Singapore buy more from America than it sells?"
+  },
+  {
+   "s": "A",
+   "t": "It does, and the report concedes it. A goods deficit with America \"for nearly all of the past decade\". It argues that does not matter. The trade ministry said it was \"very disappointed\", and noted America's surplus with Singapore grew to thirty-three billion US dollars in twenty twenty-five."
+  },
+  {
+   "s": "B",
+   "t": "And Gan Kim Yong?"
+  },
+  {
+   "s": "A",
+   "t": "At a doorstop he called the CPF \"not a pension scheme, but a saving scheme\" — for housing, health and old age — and pointed to CDC vouchers. He also gave the number that matters. Singapore's effective US tariff would rise to ten point three per cent, from seven point eight."
+  },
+  {
+   "s": "B",
+   "t": "Wait — so the headline says twenty, but the real move is…"
+  },
+  {
+   "s": "A",
+   "t": "Two and a half points. [pause] Semiconductors, patented medicines, steel, cars and an annex of raw materials are exempt. And the new duty replaces July's twelve point five per cent forced-labour levy rather than adding to it."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a very different story from \"twenty per cent on everything\"."
+  },
+  {
+   "s": "A",
+   "t": "Which is the sceptic's point. Selena Ling of OCBC calls it \"still a proposed measure rather than a done deal\", twenty being \"an upper proposed rate rather than a foregone conclusion\". And after Singapore's comments, USTR made \"no finding\" on factory occupancy rates."
+  },
+  {
+   "s": "B",
+   "t": "From a trade fight to a real one. Kuwait."
+  },
+  {
+   "s": "A",
+   "t": "Two Italian technicians working for Rheinmetall Italia were killed on Thursday the twenty-sixth when drones struck an air-defence station in Kuwait. ANSA named them: Antonio Saccoccio, sixty-five, of Formia, and Emanuele Lo Russo, thirty-six, of Rome."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Soldiers?"
+  },
+  {
+   "s": "A",
+   "t": "Civilians. They maintained the radar antennas of Skyguard, a system Kuwait bought in the nineteen nineties that only Kuwaiti soldiers fire."
+  },
+  {
+   "s": "B",
+   "t": "And why does this one carry beyond the grief?"
+  },
+  {
+   "s": "A",
+   "t": "They're among the first officially confirmed European deaths in the Iran war, which began with American and Israeli strikes in late February. A French soldier died in a drone attack in Iraq in March."
+  },
+  {
+   "s": "B",
+   "t": "Who's being blamed?"
+  },
+  {
+   "s": "A",
+   "t": "Italy and Kuwait blamed Iran. Tajani, Italy's foreign minister, spoke of \"several drones of Iranian origin\". Tehran denied any role, and Abbas Araghchi offered Rome a joint inquiry."
+  },
+  {
+   "s": "B",
+   "t": "And then Fars had a theory."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] A Ukrainian false flag. Citing security sources. Late that evening."
+  },
+  {
+   "s": "B",
+   "t": "How did the capitals play it?"
+  },
+  {
+   "s": "A",
+   "t": "Press TV in Tehran saw \"an increasingly desperate Israeli campaign to demonize Iran\". The Kuwait Times ran \"Barbaric assault\". Al Jazeera headlined \"drone strike debris\" — which is Kuwait's own account: debris from drones it engaged hit four people. A Kuwaiti and a Pakistani survived."
+  },
+  {
+   "s": "B",
+   "t": "So what does the sceptic say?"
+  },
+  {
+   "s": "A",
+   "t": "Nobody has shown the launch point. Tajani himself added that \"numerous pro-Iranian militias operate in the region\", and Fars offered no evidence either. Published wreckage serials or a radar track would settle it."
+  },
+  {
+   "s": "B",
+   "t": "One more border — a ballot box. Spain votes on Sunday."
+  },
+  {
+   "s": "A",
+   "t": "The twenty-ninth. A snap election Pedro Sánchez called on the fifth of October, three days after Congress threw out two of his emergency housing decrees. The last polls put Alberto Núñez Feijóo's Popular Party narrowly ahead."
+  },
+  {
+   "s": "B",
+   "t": "How narrowly?"
+  },
+  {
+   "s": "A",
+   "t": "The final forty dB poll for El País: PP thirty-one point eight per cent, Socialists thirty point nine, Vox seventeen point three. Inside the margin. But a majority is one hundred and seventy-six of three hundred and fifty seats, and the polls give PP and Vox together one hundred and eighty-seven to one hundred and ninety-two."
+  },
+  {
+   "s": "B",
+   "t": "And the campaign's about?"
+  },
+  {
+   "s": "A",
+   "t": "Housing. Home prices rose eighty per cent and rents eighty-seven from twenty fifteen to twenty twenty-five. [pause] Wages rose thirty."
+  },
+  {
+   "s": "B",
+   "t": "[exhales] Eighty-seven against thirty. You feel that in the rent."
+  },
+  {
+   "s": "A",
+   "t": "More than three million joined a general strike over rents on the eleventh of November. And Feijóo's line in the debate was, \"You cannot eat GDP.\""
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Annoyingly good line. Sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "The polls said this in twenty twenty-three too. Omar Encarnación of Bard College recalls a predicted PP and Vox majority that \"failed to materialize\". Sánchez's real test is about one point four million left-wing voters who may stay home."
+  },
+  {
+   "s": "B",
+   "t": "Okay. Money. And this circles back to the tariff, doesn't it?"
+  },
+  {
+   "s": "A",
+   "t": "It does. Dearer money in Seoul and Tokyo adds to the squeeze from Washington. On Thursday the Bank of Korea raised its rate to three point two five per cent, from three, on a five-to-two vote — the day after Seoul's main index fell six point two per cent."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Why raise into a fall? Give me the mechanism."
+  },
+  {
+   "s": "A",
+   "t": "A central bank raises rates to make borrowing dearer and cool spending. Korea lifted its growth forecast to three point nine per cent this year and four point one next, on chip exports, and says inflation will stay above target \"for a considerable time\"."
+  },
+  {
+   "s": "B",
+   "t": "And the two who voted no?"
+  },
+  {
+   "s": "A",
+   "t": "Hwang Kunil and Lee Soohyung, and the bank's own figures give them a case. Consumer prices rose two point eight per cent in October, down from three point one. And the growth forecast leans on one industry — chips — which fell hardest on Wednesday."
+  },
+  {
+   "s": "B",
+   "t": "And Tokyo?"
+  },
+  {
+   "s": "A",
+   "t": "Split. The Bank of Japan's rate is one point two five per cent. Board member Naoki Tamura wants it at neutral, \"most likely around two percent\" — three more quarter-point rises. The bond traders say fewer: on a rough reading of the two-year yield, one or two."
+  },
+  {
+   "s": "B",
+   "t": "Why should someone here with a global fund care about Japanese two-years?"
+  },
+  {
+   "s": "A",
+   "t": "Japan is five point nine four per cent of the all-world index, second only to America. And Japanese rates help set the yen — which, at one hundred and fifty-nine point two six per dollar, is weaker than a year ago."
+  },
+  {
+   "s": "B",
+   "t": "Run me the four."
+  },
+  {
+   "s": "A",
+   "t": "VWRA's net asset value was one hundred and seventy-seven US dollars and fifty-six cents on the twenty-fifth. Lean: lower. PIMCO Income, Singapore-dollar hedged, returned nought point seven six per cent on the week. Lean: steady. Gold, three thousand five hundred and sixty-six US dollars fifty. Bitcoin, sixty thousand seven hundred and thirty-seven. Both leans: lower."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Lower, steady, lower, lower. Festive."
+  },
+  {
+   "s": "A",
+   "t": "Explanation, not investment advice. And the desk's call stands — a real-rate shock, held since issue one hundred and sixty-two. The ten-year real yield is two point seven three; under two point six would change it."
+  },
+  {
+   "s": "B",
+   "t": "From the price of money to the price of a server. Nvidia."
+  },
+  {
+   "s": "A",
+   "t": "Nvidia has told the companies that build its chips into servers, Dell and Supermicro among them, to stop delivering to customers in Singapore, Malaysia, Thailand and Indonesia. That's the Financial Times and the Wall Street Journal. Nvidia declined to comment."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Explain the plumbing. Why does a data centre here trip an American rule?"
+  },
+  {
+   "s": "A",
+   "t": "A server is a rack-mounted computer packed with Nvidia's AI chips. A Chinese firm barred from buying them could rent their power from a site in Johor or Singapore. Washington's rule, in force since the nineteenth, now needs a licence for that."
+  },
+  {
+   "s": "B",
+   "t": "So it's the renting that got caught."
+  },
+  {
+   "s": "A",
+   "t": "Exactly. Data centres already serving companies headquartered in China or Macau get ninety days, to mid-February, to win a licence. One cloud executive called it \"chaos\"."
+  },
+  {
+   "s": "B",
+   "t": "And now there's a name attached."
+  },
+  {
+   "s": "A",
+   "t": "Held since issue one hundred and seventy-four, now settled in part. The FT names Singapore's Aolani as the cloud firm whose deal to supply ByteDance stalled when lenders held back about five hundred million US dollars."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Half a billion. And the sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "Thailand's commerce minister puts the chips in question at about nought point seven per cent of Thai chip imports. And Nvidia expects demand to far exceed supply. A halt reroutes chips rather than loses them."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Okay. My favourite page. The Home Lab — free speed for AMD cards."
+  },
+  {
+   "s": "A",
+   "t": "An independent developer, the GitHub user stew six seven five, has published free patches for llama dot c p p, the most popular program for running AI models at home. On one owner's Radeon AI Pro, writing went from about thirty-five to fifty-five word-pieces a second."
+  },
+  {
+   "s": "B",
+   "t": "Why does that matter beyond hobbyists?"
+  },
+  {
+   "s": "A",
+   "t": "Because Nvidia's top gaming card lists at one thousand nine hundred and ninety-nine US dollars, and on the twenty-fifth a big American retailer was selling it for between six thousand four hundred and forty-nine and about seven thousand."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's not a price. That's a ransom note."
+  },
+  {
+   "s": "A",
+   "t": "AMD's rival workstation card has more memory, and launched at one thousand two hundred and ninety-nine US dollars in twenty twenty-five. But its software has lagged."
+  },
+  {
+   "s": "B",
+   "t": "Should I install it?"
+  },
+  {
+   "s": "A",
+   "t": "If you own an AMD card and are happy to run a container and rebuild when the official code moves — yes. But the sceptic is good. On Hacker News, pixelesque asked: \"is anyone actually checking the output quality\"? No quality test has been published."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] And didn't the write-up admit the notes were AI-written?"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] \"All straight Claudish.\" One machine's numbers. Other owners' gains are unverified."
+  },
+  {
+   "s": "B",
+   "t": "The Kit. Huawei's Mate X eight."
+  },
+  {
+   "s": "A",
+   "t": "Launched in China on Tuesday at last year's starting price — twelve thousand nine hundred and ninety-nine yuan, about one thousand eight hundred and thirty US dollars — even though dearer memory added about two thousand yuan a phone. Huawei swallowed it."
+  },
+  {
+   "s": "B",
+   "t": "It's a book-style fold. So — the crease?"
+  },
+  {
+   "s": "A",
+   "t": "Huawei says magnets beneath the screen pull it flat. But its own Chinese page concedes a visible crease and slight unevenness, which it calls normal."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Normal. Can I buy one here?"
+  },
+  {
+   "s": "A",
+   "t": "Not from Huawei Singapore. A grey import suits only someone content without Google's apps. Everyone else, wait for a local launch and a Singapore warranty."
+  },
+  {
+   "s": "B",
+   "t": "And then the Atelier. Chess sets — which I loved."
+  },
+  {
+   "s": "A",
+   "t": "Serious sets are one eighteen forty-nine design, the Staunton pattern, in two woods. The page asks who actually carves them. The Chess Empire, a family workshop in Amritsar, says it has been \"making all the reproductions for Jaques Of London\" since two thousand."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And what does Jaques charge?"
+  },
+  {
+   "s": "A",
+   "t": "Four thousand four hundred and thirty-nine pounds, naming no country of manufacture. Chessbazaar ships a comparable Indian-carved ebony and boxwood set to Singapore for seven hundred and thirty US dollars."
+  },
+  {
+   "s": "B",
+   "t": "So the extra three thousand eight hundred pounds buys you…"
+  },
+  {
+   "s": "A",
+   "t": "If The Chess Empire's claim holds — a stamp and a casket, not better carving. The buy is the Mustang. Cartier's set, by the way, was twenty-eight thousand Singapore dollars."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And is it ebony?"
+  },
+  {
+   "s": "A",
+   "t": "Sycamore and walnut. And one local warning: humidity here averages eighty-two per cent, well above what keepers advise for ebony. Air-conditioned room."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every week. You never tire of it."
+  },
+  {
+   "s": "B",
+   "t": "Never. Dinghy sailing! A small open boat. No keel. No engine. Kept upright by the crew's own weight."
+  },
+  {
+   "s": "A",
+   "t": "On the fourteenth of November, Changi Sailing Club closed its monthly dinghy series with fifty-four sailors — children's Optimists to the adult single-hander, on one start line. In one squad, most were ten or under."
+  },
+  {
+   "s": "B",
+   "t": "And entry?"
+  },
+  {
+   "s": "A",
+   "t": "Five dollars and forty-five cents. Plus boat hire."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] That's less than lunch!"
+  },
+  {
+   "s": "A",
+   "t": "Anatomy, please."
+  },
+  {
+   "s": "B",
+   "t": "A hull, a mast, one or two sails, a rudder, and a removable fin through the bottom that stops the boat sliding sideways. You sit on the edge and lean out to balance the wind. That's called hiking."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Which involves no walking."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] None. And the gateway, says the page, is the first capsize. Isn't that wonderful? The way in is falling in."
+  },
+  {
+   "s": "A",
+   "t": "Changi's adult Topper course teaches righting the boat, launching from the beach, and getting out of \"irons\" — stalled, head to wind. Its warning: \"Be prepared to get wet.\""
+  },
+  {
+   "s": "B",
+   "t": "Then the world's standard adult boat — the ILCA. Sold for decades as the Laser, until a trademark fight forced the rename."
+  },
+  {
+   "s": "A",
+   "t": "Four point two three metres long. A hull of about fifty-nine kilograms. More than two hundred and fifteen thousand built, and raced at every Olympics since Atlanta in nineteen ninety-six."
+  },
+  {
+   "s": "B",
+   "t": "[excited] And Singapore's own sailing is older than the republic! The Republic of Singapore Yacht Club traces its roots to a Singapore Yacht Club of eighteen twenty-six."
+  },
+  {
+   "s": "A",
+   "t": "And Changi marked ninety years in September with its first sail-past — more than forty boats saluting Commodore Deborah Barker."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Who said it was the first SailPast she'd been part of in over forty years as a member. Forty years, and finally a parade."
+  },
+  {
+   "s": "A",
+   "t": "And the medals."
+  },
+  {
+   "s": "B",
+   "t": "Benedict Tan, Singapore's first Asian Games gold, Hiroshima, nineteen ninety-four. Kimberly Lim, Optimist world champion in twenty eleven. And this October, Jania Ang, twenty-two, took Asian Games silver weeks after a bike crash — and said she was grateful just to be \"standing on the start line\". I love that."
+  },
+  {
+   "s": "A",
+   "t": "Now the kit. Where it gets expensive."
+  },
+  {
+   "s": "B",
+   "t": "Where it gets fun. In Qingdao on the twenty-first, World Sailing gave class status to the WASZP — a one-design foiling dinghy. Foils are wings under the hull that lift it clear of the water."
+  },
+  {
+   "s": "A",
+   "t": "For twelve thousand two hundred and fifty US dollars, outside Europe and Australia. Against eight thousand two hundred and forty for a new Zim-built ILCA. And the grail?"
+  },
+  {
+   "s": "B",
+   "t": "The International Moth. Hull weight unrestricted. Mackay Boats lists its Bieker package at fifty-seven thousand five hundred New Zealand dollars, before tax."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] For a boat you sit on the edge of."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] For a boat that flies! At the twenty twenty-six Moth Worlds, twenty-three of the top twenty-five were Mackay-built Biekers."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic, though. Class status is not an Olympic place. The RS Aero won World Sailing's twenty nineteen equipment trials, eighty per cent to the Laser's sixty-nine — and the ILCA kept the Games."
+  },
+  {
+   "s": "B",
+   "t": "Fair. And the bills here?"
+  },
+  {
+   "s": "A",
+   "t": "The Singapore Sailing Federation's Basic Sailing Course: seven hundred and seventy-seven Singapore dollars for citizens, one thousand one hundred and twelve for permanent residents, one thousand four hundred and thirty-three for foreigners. The federation subsidises seventy-five per cent of the real running cost."
+  },
+  {
+   "s": "B",
+   "t": "[amused] Speaking of club life — my favourite line in the whole issue. An advert at a Kent club offers an RS Aero \"sailed only three times\". The seller: \"I have done more than double the number of club duties than actually sailing.\""
+  },
+  {
+   "s": "A",
+   "t": "[laughs] That's every club. Everywhere."
+  },
+  {
+   "s": "B",
+   "t": "So — the first ninety days?"
+  },
+  {
+   "s": "A",
+   "t": "Weeks one to four, a beginners' course; swim the fifty metres first. Weeks five to eight, hired boats and the monthly race. Weeks nine to thirteen, buy hikers and a buoyancy aid. The boat waits."
+  },
+  {
+   "s": "B",
+   "t": "One last sceptic, for parents. A British coach, Dom Barnes, cites a review of thirteen thousand three hundred and ninety-two athletes in which junior results explained two point two per cent of senior performance."
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] So a ten-year-old's results don't predict much."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] They're just getting wet."
+  },
+  {
+   "s": "A",
+   "t": "Culture and the body. I'll take the one you'll hate. Stretching prevents nothing."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] Don't."
+  },
+  {
+   "s": "A",
+   "t": "José Afonso's team at the University of Porto pooled fifteen studies of nine thousand and two people in Sports Medicine. Stretchers' odds of injury came out at nought point nine four five of everyone else's — a gap indistinguishable from none. Certainty is \"very low\", and no study tested stretching just before a session. Keep the mobility work if it helps."
+  },
+  {
+   "s": "B",
+   "t": "So what do I do instead?"
+  },
+  {
+   "s": "A",
+   "t": "An older review found strength training cut sports injuries to less than a third. Try the Nordic hamstring curl. Kneel, ankles held down by a partner or a bar, body straight from knee to shoulder, and lower your chest towards the floor as slowly as you can, catching yourself with your hands."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] The catching, I'll be excellent at."
+  },
+  {
+   "s": "A",
+   "t": "Programmes that included it cut hamstring injuries by about half. Start with a few slow repetitions and build over weeks. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And the Family Desk had real good news."
+  },
+  {
+   "s": "A",
+   "t": "Britain's Natsal survey. Infections with the two HPV strains behind most cervical cancers fell eighty-six per cent among women aged eighteen to twenty-nine since schools began vaccinating — from eight point seven per cent to one point six. Every infection it found was in an unvaccinated woman."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] That's a remarkable sentence."
+  },
+  {
+   "s": "A",
+   "t": "Singapore offers the jab to Secondary One girls in school. If yours starts in January, it's the plainest evidence yet of what it buys. It measured infection, not cancer — and its sceptics flag a lower response rate. Again, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "And the Diary?"
+  },
+  {
+   "s": "A",
+   "t": "Pop after Pop at the National Gallery, with the Guggenheim. More than two hundred works from the eleventh of December, fifteen Singapore dollars for residents, twenty-five for visitors, thirty per cent off until Monday. The Lichtenstein on its poster is a nineteen ninety print from the Singapore Art Museum's own collection."
+  },
+  {
+   "s": "B",
+   "t": "[wry] A pop art show sold with a borrowed image. Honestly, very on brand."
+  },
+  {
+   "s": "A",
+   "t": "[pause] And the Undercurrent. This one's slower."
+  },
+  {
+   "s": "B",
+   "t": "On Saturday the twenty-first, about forty-five people paid eight hundred and ninety-nine rupees each at Cafe Otenga, near Delhi Gate in the old city, to watch a Pakistani television serial together."
+  },
+  {
+   "s": "A",
+   "t": "Dar-e-Nijaat. Made for ARY Digital, a Karachi channel whose YouTube page India has blocked since twenty twenty-five."
+  },
+  {
+   "s": "B",
+   "t": "After militants killed twenty-six people at Pahalgam, India walled off its neighbour's entertainment. And eighteen months later… the audience hasn't gone away. [pause] It's started buying tickets."
+  },
+  {
+   "s": "A",
+   "t": "The show is a slow romance. Its hero, Abu Bakar, a patient professor, has become a model husband in Indian fan edits."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Maturity, patience and kindness, as a fandom. I find that rather lovely."
+  },
+  {
+   "s": "A",
+   "t": "It has happened twice before. In the nineteen fifties, India's information minister, B. V. Keskar, thought Hindi film songs vulgar, and took them off All India Radio."
+  },
+  {
+   "s": "B",
+   "t": "And listeners turned the dial to Colombo. Radio Ceylon. Binaca Geetmala, presented by Ameen Sayani."
+  },
+  {
+   "s": "A",
+   "t": "In nineteen fifty-seven, All India Radio launched Vividh Bharati — a channel built to play the very music its minister had banned."
+  },
+  {
+   "s": "B",
+   "t": "Then Pakistan banned Indian films. And the pirated tapes won anyway."
+  },
+  {
+   "s": "A",
+   "t": "Pakistan had thirteen to fourteen hundred cinemas in the late nineteen seventies. At the low point, fewer than seventy still worked."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Under a ban that was meant to protect them."
+  },
+  {
+   "s": "A",
+   "t": "Television, home video and General Zia's policies played a part too; the desk is careful about that. But neither ban changed what people wanted. Each decided who got paid."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Colombo took the advertising. Pakistan's video shops took the rent."
+  },
+  {
+   "s": "A",
+   "t": "And when Sayani died in February twenty twenty-four, Narendra Modi praised him for having \"played an important role in revolutionising Indian broadcasting\"."
+  },
+  {
+   "s": "B",
+   "t": "A prime minister, thanking the voice that carried a banned music back into India."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic has a real case. India's target is money and messaging. After twenty-six killed at Pahalgam, denying revenue is the point."
+  },
+  {
+   "s": "B",
+   "t": "And the desk's call?"
+  },
+  {
+   "s": "A",
+   "t": "Netflix won't offer its first Pakistani original in India at launch. India won't withdraw its May twenty twenty-five advisory before the end of twenty twenty-seven. And the watch parties will outlast both."
+  },
+  {
+   "s": "B",
+   "t": "[pause] The qawwal Fareed Ayaz, on stage in Bengaluru, put it in one line. \"Here, people say I am from Pakistan, and there, people say I am from Delhi.\""
+  },
+  {
+   "s": "A",
+   "t": "[thoughtful] The tariff moves the bill. The halt moves the servers. The ban moves the money."
+  },
+  {
+   "s": "B",
+   "t": "Stolen waters taste sweeter."
+  },
+  {
+   "s": "A",
+   "t": "A wall doesn't stop the trade."
+  },
+  {
+   "s": "B",
+   "t": "[pause] It decides who collects on it."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-five pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}

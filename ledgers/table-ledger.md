@@ -257,7 +257,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Habibi Kebs | Habibi Kebs | 159 | OPEN | No. 159 build | opening run — record the peg here |
 | Mala Mia | Mala Mia | 160, 170 | SPENT | No. 160 build | opening run — record the peg here |
 | Yeah Gelato | Yeah Gelato | 160 | OPEN | No. 160 build | opening run — record the peg here |
-| Soi Stories | Soi Stories | 160 | OPEN | No. 160 build | opening run — record the peg here |
+| Soi Stories | Soi Stories | 160, 175 | SPENT | No. 160 build | opening run — record the peg here |
 | Casa Vostra | Casa Vostra | 161, 170 | SPENT | No. 161 build | opening run — record the peg here |
 | Ma Cuisinette | Ma Cuisinette | 161 | OPEN | No. 161 build | opening run — record the peg here |
 | Good Luck Bagels | Good Luck Bagels | 162 | OPEN | No. 162 build | opening run — record the peg here |
@@ -290,3 +290,6 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | MODU | MODU | 174 | OPEN | No. 174 build | opening run — record the peg here |
 | Kindle Cafe | Kindle Cafe | 174 | OPEN | No. 174 build | opening run — record the peg here |
 | CUDITO | CUDITO | 174 | OPEN | No. 174 build | opening run — record the peg here |
+| Onori | Onori | 175 | OPEN | No. 175 build | opening run — record the peg here |
+| Hong Jiu Claypot | Hong Jiu Claypot | 175 | OPEN | No. 175 build | opening run — record the peg here |
+| Da Shi Jia Big Prawn Mee | Da Shi Jia Big Prawn Mee | 175 | OPEN | No. 175 build | opening run — record the peg here |

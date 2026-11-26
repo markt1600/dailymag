@@ -1,0 +1,198 @@
+{
+ "issue": 175,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Drones that Italy and Kuwait say were Iranian killed two Italian civilian technicians maintaining an air-defence radar in Kuwait, making them among the first confirmed European deaths of the Iran war, and Tehran denies it launched them.",
+   "weakest": "\"Kuwait has been hit harder than its Gulf neighbours.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Spain votes on Sunday with Feijóo's Popular Party narrowly ahead and likely to need Vox for a majority, in a campaign driven by housing costs.",
+   "weakest": "\"Estonia. Road crossings close at 07:00 on 1 December, as decided\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 5,
+   "says": "The US has proposed a tariff of up to 20% on Singapore goods, citing the CPF and industrial policy as causes of excess capacity, though chips and medicines are exempt and the real effect on the effective rate is about 2.5 points.",
+   "weakest": "\"And after Singapore's comments USTR made 'no finding' on factory occupancy rates.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 3,
+   "says": "Good Staunton chess sets mostly come from Amritsar workshops whatever the label, so a US$730 Indian set ships to Singapore for a fraction of Jaques's £4,439, but ebony suffers in our humidity.",
+   "weakest": "\"Amritsar's trade is about Rs20 crore a year from 35 units; orders fell by up to 80% in 2024.\"",
+   "verdict": "rework",
+   "reason": "The tiers paragraph runs prices, the Camaratta history, Amritsar trade figures and the Gukesh claim into one block, and the headline's claim about Jaques gets lost in it. Give the tiers their own paragraph and the who-carves-it evidence its own, and say plainly what to buy.",
+   "recheck": 4,
+   "fixed": "Split the tiers block into a who-carves-it paragraph and a tiers paragraph ending on a plain verdict (buy the Mustang)."
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Nvidia has told server makers to stop deliveries to Singapore, Malaysia, Thailand and Indonesia while it checks compliance with a new US rule aimed at Chinese firms renting AI computing offshore.",
+   "weakest": "\"Sellers now tell neoclouds no chips if any capacity goes to Chinese renters, where Nvidia's line used to be half.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 8,
+   "desk": "The Home Lab",
+   "keep_reading": 4,
+   "says": "A free set of unofficial patches to llama.cpp makes AMD cards run local AI models markedly faster, about 35 to 55 tokens a second on one test machine, but nobody has checked output quality.",
+   "weakest": "\"Inkling 2 Mini. Held since No. 170, now settled: the independent Gall project measures about 25 a second\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 4,
+   "says": "Huawei's Mate X8 foldable launched in China at last year's price with a thinner body and a magnet-flattened crease, but it isn't sold in Singapore, so most buyers should wait.",
+   "weakest": "\"Huawei's other claims are its own and untested\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 3,
+   "says": "Christie's Hong Kong Iconic 40 sale sold 38 of 40 watches for HK$296 million, led by a Patek Sky Moon and a ruby-dial Journe, though the Sky Moon fetched less than one did in 2023.",
+   "weakest": "\"A 1951 pink-gold Patek 1518 made HK$25.3 million, beside the HK$25.1 million Phillips took for a 1518 on 22 November (No. 171).\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 2,
+   "says": "Disney's Hexed and the Focker sequel opened below forecast over Thanksgiving in a weak holiday weekend, though the year's US box office is still up.",
+   "weakest": "\"Variety projects US$31–35 million for Hexed and US$35–36 million for Focker-In-Law by Sunday.\"",
+   "verdict": "rework",
+   "reason": "The forecasts keep shifting: the dek says US$31–36m each, the body gives different ranges for each film, and Deadline's US$35–40m arrives in the next paragraph, so I couldn't tell which film is doing better. Pick one set of projections, state the comparison once, and say why a Singapore reader should care beyond the last line.",
+   "recheck": 4,
+   "fixed": "Used Variety's projections throughout, stated the comparison once in dek and lede, moved the Singapore angle (Hexed opened here 26 Nov) to paragraph two."
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A Stanford study of brain scans from 3,508 children found three brain-wiring types that cut across ADHD and anxiety diagnoses, but it's too early for any test or treatment, so parents shouldn't change anything.",
+   "weakest": "\"Later diagnoses came from follow-up visits that run past age twelve, by this desk's reckoning.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "Britain's national sex survey found that school HPV vaccination cut infections with the cancer-causing strains by 86% among young women, which supports Singapore's Secondary 1 jab.",
+   "weakest": "\"Chlamydia testing among sexually experienced young women fell from 54 to 18 per cent.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 3,
+   "says": "The Bank of Korea raised rates to 3.25% because of a chip-export boom, joining a wider Asian tightening, while the desk's four instruments slipped over the week.",
+   "weakest": "\"Lean: lower into 9 December; a NAV above US$182 on 3 December proves it wrong.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "Japan's bond market is pricing fewer rate rises than board member Tamura's call to reach a neutral rate of about 2% soon implies.",
+   "weakest": "\"Held since No. 162 ; no condition has been met.\"",
+   "verdict": "rework",
+   "reason": "The page opens on a run of yields and dates before saying why it matters, then repeats the Tamura quote and the 2.713% ten-year yield already given on p14. Lead with the gap between the board and the market, drop what p14 already said, and explain 'The Call' and the dashboard for someone who missed No. 162.",
+   "recheck": 4,
+   "fixed": "Opened on the gap between the BoJ board and the market, dropped the 2.713% repeat from p14, explained The Call for a new reader; p14's Tamura quote cut to a pointer."
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "An introduction to dinghy sailing: what the boats are, Singapore's sailing history and medals, and how children and adults get started through club courses.",
+   "weakest": "\"At the 2011 world championship in Napier, Kimberly Lim beat 210 sailors to the Optimist world title...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 2,
+   "says": "World Sailing gave the WASZP foiler and RS Aero official class status, and the page lists what dinghies, foilers, sails and gear cost.",
+   "weakest": "\"Where the talk lives: Reddit refused this desk...\"",
+   "verdict": "rework",
+   "reason": "The middle of the page is a price list in four currencies with no guidance on which boat a Singapore beginner should want, and a paragraph about which websites blocked the desk is of no interest to a reader. Cut the scraping note, and organise the prices around a choice the reader faces.",
+   "recheck": 4,
+   "fixed": "Cut the blocked-sites paragraph; rebuilt the gear section around first boat (used ILCA), later boat (Aero, WASZP, Moth) and the child's ladder."
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "Learning to sail in Singapore costs from S$777 at the federation, club membership is the bigger bill, and the page offers a glossary and a ninety-day plan to start.",
+   "weakest": "\"Dom Barnes, a British coach, cites a review of 13,392 athletes...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 5,
+   "says": "A new review of 15 studies finds that stretching programmes don't prevent sports injuries, while strength work such as the Nordic hamstring curl does.",
+   "weakest": "\"The result held across 19 sensitivity analyses.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 20,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "The National Gallery's Pop Art show with the Guggenheim opens on 11 December at an early-bird discount, and the page lists concerts and exhibitions to book in Singapore and the region.",
+   "weakest": "\"Held since No. 174, now settled: Ghibli peak days are...\"",
+   "verdict": "rework",
+   "reason": "The Planning Notes box brings in Bon Jovi and 'Ghibli peak days' without saying what or where they are, and neither appears in the listings. Either add them with venue and price or cut them, and fix the Exists line that gives two different starting prices.",
+   "recheck": 3,
+   "fixed": "Planning Notes now say what and where Bon Jovi (Tokyo Dome) and the Ghibli exhibition (Gardens by the Bay) are; Exists price made consistent; box label corrected."
+  },
+  {
+   "page": 21,
+   "desk": "The Diary",
+   "keep_reading": 4,
+   "says": "Chef Ton's Thai food court Soi Stories opens at The Centrepoint on 9 December with no prices yet, and Onori's new Capitol handroll bar is the one opening worth trying now.",
+   "weakest": "\"Every price is still to be announced.\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 22,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Although India has blocked Pakistani entertainment since the 2025 Pahalgam attack, Delhi fans paid Rs 899 each to watch the Pakistani serial Dar-e-Nijaat together at a café.",
+   "weakest": "\"A post that spread on 25 November claimed Delhi police had stopped the screenings...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 23,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "India's ban on film songs in the 1950s and Pakistan's ban on Indian films both failed to change what people wanted; each only changed who got paid.",
+   "weakest": "\"It had begun as a trade dispute...\"",
+   "verdict": "pass"
+  },
+  {
+   "page": 24,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "The 2025 ban has turned private viewing into a public statement and made the Indian audience impossible to count; the desk predicts the ban holds formally while the watch parties outlast it.",
+   "weakest": "\"The Pakistani qawwal Fareed Ayaz, on stage in Bengaluru in 2009...\"",
+   "verdict": "pass"
+  }
+ ]
+}

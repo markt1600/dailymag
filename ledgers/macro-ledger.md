@@ -1,11 +1,11 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-25T21:03:23Z.
+Last fetch: 2026-11-26T21:03:03Z.
 
 ## The Call
 
-**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 174 (2026-11-26).
+**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 175 (2026-11-27).
 
 What would change it:
 - The 10-year real yield closes below 2.60 per cent (2.73 on 25 November)
@@ -20,21 +20,21 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 178.76 | 2026-11-24 | -3.81 | — | — | — | down 1 week running | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV US$178.76 at close 24 Nov 2026 (+0.43, +0.24%); LSE GBP 132.98 on 25 Nov (-1.85%); read at source 25 Nov ~21:00 UTC |
-| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | 0.69 | 2026-11-25 | +1.72 | — | — | — | up 1 week running | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.6944, 1m -0.2737, 3m -2.6694, 1y -3.4054, 12m div yield 6.86; ex-div 25 Nov 0.046157; undated, no price; read at source 25 Nov ~21:00 UTC |
-| gold | Gold, spot (US$/oz) | 3,571 | 2026-11-25 | -153.50 | — | — | — | down 1 week running | Kitco spot gold, bid 3,569.90 / ask 3,571.90, +14.80 (+0.42%), 4:06pm NY 25 Nov 2026; read at source |
-| btc | Bitcoin, Coinbase (US$) | 59,515 | 2026-11-24 | -5,089 | -21,213 | -18,996 | -28,466 | down 7 weeks running; at its 1-year low | FRED CBBTCUSD |
-| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.78 | 2026-11-25 | +1.77 | — | — | — | up 1 week running | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7813, 1m -0.1156, 3m -2.1498, 1y -1.1734, 12m div yield 6.57; ex-div 25 Nov 0.0496; undated, no price; read at source 25 Nov ~21:00 UTC |
+| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 177.56 | 2026-11-25 | -4.16 | — | — | — | down 1 week running; 39% of its 1-year range | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV US$177.56 at close 25 Nov 2026 (-1.20, -0.67%); LSE GBP 136.80 on 26 Nov (+2.87%); portfolio data still 31 Oct; read at source 26 Nov ~21:10 UTC |
+| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | 0.76 | 2026-11-26 | +1.45 | — | — | — | up 1 week running; at its 1-year high | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.7639, 1m +0.0262, 3m -2.8049, 6m -2.2407, YTD -3.44, 1y -3.3162, 12m div yield 6.86; ex-div 25 Nov 0.046157 (pay 30 Nov); undated, no price; read at source 26 Nov ~21:10 UTC |
+| gold | Gold, spot (US$/oz) | 3,566 | 2026-11-26 | -92.60 | — | — | — | down 1 week running; 9% of its 1-year range | Kitco spot gold, bid 3,565.50 / ask 3,567.50, -22.50 (-0.63%), 16:12 NY 26 Nov 2026 (Thanksgiving, thin trade); read at source |
+| btc | Bitcoin, Coinbase (US$) | 60,644 | 2026-11-25 | -2,527 | -20,581 | -18,318 | -26,722 | down 5 weeks running; 5% of its 1-year range | FRED CBBTCUSD |
+| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.78 | 2026-11-26 | +1.54 | — | — | — | up 1 week running; at its 1-year high | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7751, 1m +0.1012, 3m -2.3538, 6m -1.3312, YTD -1.5583, 1y -1.1621, 12m div yield 6.57; ex-div 25 Nov 0.0496 (pay 30 Nov); undated, no price; read at source 26 Nov ~21:10 UTC |
 
 ## Rates
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| us2y | US 2-year Treasury yield (%) | 4.63 | 2026-11-23 | -0.20 | -0.05 | +0.39 | +1.12 | down 1 week running; 81% of its 1-year range | FRED DGS2 |
-| us10y | US 10-year Treasury yield (%) | 4.92 | 2026-11-23 | -0.20 | -0.08 | +0.22 | +0.86 | down 1 week running; 71% of its 1-year range | FRED DGS10 |
-| real10y | US 10-year real yield (TIPS) (%) | 2.79 | 2026-11-23 | -0.13 | +0.13 | +0.41 | +0.97 | down 1 week running; 87% of its 1-year range | FRED DFII10 |
-| breakeven10 | US 10-year breakeven inflation (%) | 2.12 | 2026-11-24 | -0.09 | -0.23 | -0.20 | -0.11 | down 1 week running; at its 1-year low | FRED T10YIE |
-| curve2s10s | US 10-year minus 2-year (pp) | 0.28 | 2026-11-24 | -0.02 | -0.01 | -0.19 | -0.30 | down 1 week running; 15% of its 1-year range | FRED T10Y2Y |
+| us2y | US 2-year Treasury yield (%) | 4.63 | 2026-11-24 | -0.17 | -0.07 | +0.46 | +1.17 | down 1 week running; 81% of its 1-year range | FRED DGS2 |
+| us10y | US 10-year Treasury yield (%) | 4.91 | 2026-11-24 | -0.19 | -0.08 | +0.27 | +0.87 | down 1 week running; 70% of its 1-year range | FRED DGS10 |
+| real10y | US 10-year real yield (TIPS) (%) | 2.79 | 2026-11-24 | -0.10 | +0.15 | +0.47 | +0.98 | down 1 week running; 87% of its 1-year range | FRED DFII10 |
+| breakeven10 | US 10-year breakeven inflation (%) | 2.12 | 2026-11-25 | -0.07 | -0.26 | -0.20 | -0.10 | down 4 weeks running; at its 1-year low | FRED T10YIE |
+| curve2s10s | US 10-year minus 2-year (pp) | 0.24 | 2026-11-25 | -0.03 | -0.14 | -0.23 | -0.34 | down 1 week running; 7% of its 1-year range | FRED T10Y2Y |
 | termprem10 | US 10-year term premium (Kim-Wright) (pp) | 0.89 | 2026-11-20 | -0.10 | -0.05 | +0.02 | +0.40 | down 1 week running; 68% of its 1-year range | FRED THREEFYTP10 |
 
 ## Liquidity
@@ -99,6 +99,6 @@ What would change it:
 |---|---|---|---|---|---|---|---|---|---|
 | usdjpy | US dollar / Japanese yen (yen) | 158.76 | 2026-11-20 | -1.17 | +1.89 | -0.15 | +1.35 | down 1 week running; 55% of its 1-year range | FRED DEXJPUS |
 | usdcny | US dollar / Chinese yuan (yuan) | 6.68 | 2026-11-20 | +0.01 | +0.01 | -0.04 | -0.43 | up 1 week running; 6% of its 1-year range | FRED DEXCHUS |
-| jgb10 | Japan 10-year government bond yield (%) | 2.78 | 2026-11-24 | -0.15 | -0.06 | -0.10 | +0.99 | down 1 week running; 75% of its 1-year range | Japan Ministry of Finance jgbcme.csv, 10-year 2.781 on 24 Nov 2026 (2.838 on 20 Nov); read at source 25 Nov |
-| china_tsf | China total social financing, year on year (%) | 7.20 | 2026-10-31 | — | +0.10 | — | — | — | People's Bank of China data released 13 Nov 2026, via Xinhua/People's Daily 14 Nov (stock 469.16tn yuan, +7.2% y/y; loans 283.33tn, +4.7%, a record low per Reuters/The Standard 13 Nov; M2 +7.1%, M1 +4.4%); read at source |
+| jgb10 | Japan 10-year government bond yield (%) | 2.71 | 2026-11-25 | -0.20 | -0.12 | -0.17 | +0.92 | down 1 week running; 70% of its 1-year range | Japan Ministry of Finance jgbcme.csv, 10-year 2.713 on 25 Nov 2026 (2.781 on 24 Nov; 2-year 1.731; 10-year peak 3.111 on 7 Oct per jgbcme_all); 26 Nov not yet posted; read at source 26 Nov 21:10 UTC |
+| china_tsf | China total social financing, year on year (%) | 7.20 | 2026-10-31 | — | +0.10 | — | — | — | People's Bank of China October 2026 financial statistics, released 13 Nov, re-confirmed 26 Nov via Guangming Daily (gmw.cn) 13 Nov: stock 469.16tn yuan +7.2% y/y; government bonds 106.41tn +14.4%; RMB loans to real economy 279.31tn +4.6%; M2 +7.1%, M1 +4.4%; October flow 1.15tn; November data due mid-December; PBoC English site not updated since 2025 |
 

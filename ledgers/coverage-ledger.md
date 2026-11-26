@@ -3,6 +3,29 @@
 > Tracks DISCRETE / EVERGREEN subjects only (products, releases, awards, named events) to prevent re-covering the same thing without a new peg. NOT for developing situations (those stay in the Issue Log notes). **Working set = the last ~15 issues plus every standing ruling (CLOSED / SATURATED / STANDING); older concluded rows live in `ledgers/coverage-ledger-archive.md`** — both feed `state/coverage-ledger.json`, which is the complete dedup lookup. Move a row to the archive when it ages out un-ruled; a CLOSED/SATURATED row NEVER leaves this file. To reopen a CLOSED subject on a genuinely major new peg, UPDATE ITS ROW here (replace the ruling with the new peg) — the validate gate reads the current row.
 
 |Subject|Type|Last covered|Last peg covered|Status / next peg|
+|Chess sets (pieces & boards)|Story|No. 175|The Chess Empire's claim to carve Jaques of London's reproductions + FIDE equipment standard applied 1 Mar 2026|Atelier No. 175|
+|Pop after Pop: Art around Us (National Gallery x Guggenheim)|Story|No. 175|opens 11 Dec; early-bird ends 30 Nov|Diary marquee No. 175; next peg opening reviews|
+|DIVA (V&A) at National Art Center Tokyo|Story|No. 175|24 Mar-19 Jul 2027|Diary Japan marquee No. 175|
+|Soi Stories (Table)|Story|No. 175|confirmed 9 Dec opening|second run (after No. 160): SPENT|
+|Onori (Capitol), Hong Jiu Claypot, Da Shi Jia Big Prawn Mee (VivoCity)|Story|No. 175|Table opening runs No. 175||
+|Stanford ADHD/anxiety brain biotypes (Nat Ment Health)|Story|No. 175|3,508 ABCD children 9-11; three biotypes|Family p12 lead No. 175; next peg independent replication|
+|Natsal-4 (Lancet, 24 Nov 2026)|Story|No. 175|HPV16/18 down 86% in women 18-29; youth sexual behaviour|Family p13 lead No. 175|
+|Stretching and injury prevention (Afonso et al., Sports Med, 21 Nov 2026)|Story|No. 175|OR 0.945, n=9,002|Fitness lead No. 175|
+|Christie's Iconic 40 (HK, 25 Nov 2026)|Story|No. 175|HK$296.1m, 38/40, Sky Moon 6002G HK$37.5m, Journe TS ruby HK$36.28m, lot 4021 HK$14.08m|Good Life lead No. 175; result closed|
+|F.P. Journe Chronographe Fondation Prince Albert II|Story|No. 175|SG$17m at Phillips Singapore gala 25 Nov|strip only No. 175|
+|Hexed / Focker-In-Law Thanksgiving|Story|No. 175|opening Wed US$7.6m / US$5.3m, both below US$40-45m tracking|Screen lead No. 175; next peg five-day actuals 30 Nov|
+|llama-cpp-rdna-boosts (stew675 AMD fork of llama.cpp)|Story|No. 175|devnull.land test 26 Nov, R9700 35 to 55 tok/s, HN front page|Home Lab lead No. 175; next peg upstream merge or quality test|
+|Huawei Mate X8 (24 Nov 2026, China)|Story|No. 175|CNY 12,999 held flat; 4.2mm open; open sales 4 Dec|Kit lead No. 175; next peg Singapore launch, reviews|
+|Samsung Intelligent Eyewear (ships 10 Dec, from US$395)|Story|No. 175|Kit strip No. 175||
+|Bank of Korea rate rise to 3.25%|Story|No. 175|26 Nov, 5-2 vote, growth forecasts 3.9%/4.1%|Macro lead No. 175|
+|BoJ's Tamura speech 26 Nov|Story|No. 175|neutral about 2%, may accelerate rises|Macro p14-15 No. 175|
+|World Sailing class status for WASZP and RS Aero 6/7|Story|No. 175|Council, Qingdao, 21 Nov 2026|Rabbit Hole p17 No. 175|
+|USTR Section 301 excess-capacity finding on Singapore (25 Nov 2026)|Story|No. 175|up to 20% (10% with a deal); CPF and Manufacturing 2030 cited; comments 5 Jan, hearings 25 Jan 2027|Singapore lead No. 175; next peg = Singapore's comment, a deal or the final rate|
+|Nvidia halts server deliveries to SG/MY/TH/ID (FT/WSJ 26 Nov 2026)|Story|No. 175|Dell/Supermicro; Aolani ~US$500m; 90-day licence window|Technology lead No. 175; next peg = restart, Nvidia statement or first licence|
+|Kuwait drone deaths of two Rheinmetall Italia technicians|Story|No. 175|26 Nov strike on Skyguard site; Italy/Kuwait blame Iran, Iran denies|World lead No. 175; next peg attribution evidence or joint inquiry|
+|Spain general election 2026|Story|No. 175|vote Sun 29 Nov; final polls PP narrowly ahead|World p4 No. 175 preview; next peg result|
+|Chess sets|Atelier|No. 175|The Atelier &mdash; see the Atelier Ledger.|Covered once; never again.|
+|Dinghy sailing|Rabbit Hole|No. 175|The Rabbit Hole &mdash; see the Hobby Ledger.|Covered once; never again.|
 |Houthi strikes on Riyadh&rsquo;s PIF tower (19 &amp; 24 Nov 2026)|Conflict|No. 174|World LEAD &mdash; drone hit during repairs 24 Nov, 11 injured (9 foreign workers); Ras Tanura claim 25 Nov; four panels.|Next peg: Saudi campaign track, Ras Tanura damage (H130).|
 |Rosstat death-records leak (BBC 490,334; Mediazona ~700,000)|Conflict / data|No. 174|World p4 LEAD &mdash; Andriivka 1,122 dead vs 74 residents; 65% of 18&ndash;24 male deaths in 2025.|Next peg: Russian rebuttal (H132) or updated count.|
 |METI Q3 2026 Economic Survey: 2026 forecast &lsquo;around 6.0%&rsquo;|Data release|No. 174|Singapore LEAD &mdash; Q3 6.1% (adv 5.4); 2027 2.5&ndash;4.5%; retail &minus;2.7, F&amp;B &minus;2.1. Ministry renamed METI from 1 Oct 2026.|Next peg: Feb 2027 full-year survey.|

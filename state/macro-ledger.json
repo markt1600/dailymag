@@ -3,10 +3,6 @@
   "us2y": {
    "readings": [
     {
-     "date": "2025-05-15",
-     "value": 3.96
-    },
-    {
      "date": "2025-05-16",
      "value": 3.98
     },
@@ -1525,6 +1521,10 @@
     {
      "date": "2026-11-23",
      "value": 4.63
+    },
+    {
+     "date": "2026-11-24",
+     "value": 4.63
     }
    ],
    "name": "US 2-year Treasury yield",
@@ -1536,10 +1536,6 @@
   },
   "us10y": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 4.45
-    },
     {
      "date": "2025-05-16",
      "value": 4.43
@@ -3059,6 +3055,10 @@
     {
      "date": "2026-11-23",
      "value": 4.92
+    },
+    {
+     "date": "2026-11-24",
+     "value": 4.91
     }
    ],
    "name": "US 10-year Treasury yield",
@@ -3070,10 +3070,6 @@
   },
   "real10y": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 2.11
-    },
     {
      "date": "2025-05-16",
      "value": 2.09
@@ -4593,6 +4589,10 @@
     {
      "date": "2026-11-23",
      "value": 2.79
+    },
+    {
+     "date": "2026-11-24",
+     "value": 2.79
     }
    ],
    "name": "US 10-year real yield (TIPS)",
@@ -4604,10 +4604,6 @@
   },
   "breakeven10": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 2.34
-    },
     {
      "date": "2025-05-16",
      "value": 2.34
@@ -6131,6 +6127,10 @@
     {
      "date": "2026-11-24",
      "value": 2.12
+    },
+    {
+     "date": "2026-11-25",
+     "value": 2.12
     }
    ],
    "name": "US 10-year breakeven inflation",
@@ -6142,10 +6142,6 @@
   },
   "curve2s10s": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 0.49
-    },
     {
      "date": "2025-05-16",
      "value": 0.45
@@ -7669,6 +7665,10 @@
     {
      "date": "2026-11-24",
      "value": 0.28
+    },
+    {
+     "date": "2026-11-25",
+     "value": 0.24
     }
    ],
    "name": "US 10-year minus 2-year",
@@ -7680,10 +7680,6 @@
   },
   "termprem10": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 0.5938
-    },
     {
      "date": "2025-05-16",
      "value": 0.5836
@@ -9536,10 +9532,6 @@
   },
   "rrp": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 109.436
-    },
     {
      "date": "2025-05-16",
      "value": 136.799
@@ -11401,10 +11393,6 @@
   "sofr": {
    "readings": [
     {
-     "date": "2025-05-15",
-     "value": 4.31
-    },
-    {
      "date": "2025-05-16",
      "value": 4.3
     },
@@ -13265,10 +13253,6 @@
   "dollar": {
    "readings": [
     {
-     "date": "2025-05-15",
-     "value": 122.8174
-    },
-    {
      "date": "2025-05-16",
      "value": 123.0737
     },
@@ -14794,10 +14778,6 @@
   },
   "hy_oas": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 3.2
-    },
     {
      "date": "2025-05-16",
      "value": 3.16
@@ -16417,10 +16397,6 @@
   "ig_oas": {
    "readings": [
     {
-     "date": "2025-05-15",
-     "value": 0.94
-    },
-    {
      "date": "2025-05-16",
      "value": 0.93
     },
@@ -18038,10 +18014,6 @@
   },
   "vix": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 17.83
-    },
     {
      "date": "2025-05-16",
      "value": 17.24
@@ -20181,10 +20153,6 @@
   "brent": {
    "readings": [
     {
-     "date": "2025-05-15",
-     "value": 64.36
-    },
-    {
      "date": "2025-05-16",
      "value": 65.2
     },
@@ -22105,10 +22073,6 @@
   "usdjpy": {
    "readings": [
     {
-     "date": "2025-05-15",
-     "value": 145.61
-    },
-    {
      "date": "2025-05-16",
      "value": 146.02
     },
@@ -23634,10 +23598,6 @@
   },
   "usdcny": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 7.2067
-    },
     {
      "date": "2025-05-16",
      "value": 7.209
@@ -25584,6 +25544,12 @@
      "value": 2.78,
      "source": "Japan Ministry of Finance jgbcme.csv, 10-year 2.781 on 24 Nov 2026 (2.838 on 20 Nov); read at source 25 Nov",
      "issue": 174
+    },
+    {
+     "date": "2026-11-25",
+     "value": 2.713,
+     "source": "Japan Ministry of Finance jgbcme.csv, 10-year 2.713 on 25 Nov 2026 (2.781 on 24 Nov; 2-year 1.731; 10-year peak 3.111 on 7 Oct per jgbcme_all); 26 Nov not yet posted; read at source 26 Nov 21:10 UTC",
+     "issue": 175
     }
    ],
    "name": "Japan 10-year government bond yield",
@@ -25604,7 +25570,8 @@
     {
      "date": "2026-10-31",
      "value": 7.2,
-     "source": "People's Bank of China data released 13 Nov 2026, via Xinhua/People's Daily 14 Nov (stock 469.16tn yuan, +7.2% y/y; loans 283.33tn, +4.7%, a record low per Reuters/The Standard 13 Nov; M2 +7.1%, M1 +4.4%); read at source"
+     "source": "People's Bank of China October 2026 financial statistics, released 13 Nov, re-confirmed 26 Nov via Guangming Daily (gmw.cn) 13 Nov: stock 469.16tn yuan +7.2% y/y; government bonds 106.41tn +14.4%; RMB loans to real economy 279.31tn +4.6%; M2 +7.1%, M1 +4.4%; October flow 1.15tn; November data due mid-December; PBoC English site not updated since 2025",
+     "issue": 175
     }
    ],
    "name": "China total social financing, year on year",
@@ -25652,6 +25619,12 @@
      "value": 178.76,
      "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV US$178.76 at close 24 Nov 2026 (+0.43, +0.24%); LSE GBP 132.98 on 25 Nov (-1.85%); read at source 25 Nov ~21:00 UTC",
      "issue": 174
+    },
+    {
+     "date": "2026-11-25",
+     "value": 177.56,
+     "source": "Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV US$177.56 at close 25 Nov 2026 (-1.20, -0.67%); LSE GBP 136.80 on 26 Nov (+2.87%); portfolio data still 31 Oct; read at source 26 Nov ~21:10 UTC",
+     "issue": 175
     }
    ],
    "name": "VWRA, Vanguard FTSE All-World UCITS ETF, NAV",
@@ -25701,6 +25674,12 @@
      "value": 0.69,
      "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.6944, 1m -0.2737, 3m -2.6694, 1y -3.4054, 12m div yield 6.86; ex-div 25 Nov 0.046157; undated, no price; read at source 25 Nov ~21:00 UTC",
      "issue": 174
+    },
+    {
+     "date": "2026-11-26",
+     "value": 0.7639,
+     "source": "POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.7639, 1m +0.0262, 3m -2.8049, 6m -2.2407, YTD -3.44, 1y -3.3162, 12m div yield 6.86; ex-div 25 Nov 0.046157 (pay 30 Nov); undated, no price; read at source 26 Nov ~21:10 UTC",
+     "issue": 175
     }
    ],
    "name": "PIMCO GIS Income Fund, SGD-hedged class, 1-week total return",
@@ -25750,6 +25729,12 @@
      "value": 3571.0,
      "source": "Kitco spot gold, bid 3,569.90 / ask 3,571.90, +14.80 (+0.42%), 4:06pm NY 25 Nov 2026; read at source",
      "issue": 174
+    },
+    {
+     "date": "2026-11-26",
+     "value": 3566.5,
+     "source": "Kitco spot gold, bid 3,565.50 / ask 3,567.50, -22.50 (-0.63%), 16:12 NY 26 Nov 2026 (Thanksgiving, thin trade); read at source",
+     "issue": 175
     }
    ],
    "name": "Gold, spot",
@@ -25761,10 +25746,6 @@
   },
   "btc": {
    "readings": [
-    {
-     "date": "2025-05-15",
-     "value": 103500.03
-    },
     {
      "date": "2025-05-16",
      "value": 103161.07
@@ -27996,6 +27977,10 @@
     {
      "date": "2026-11-24",
      "value": 59515.19
+    },
+    {
+     "date": "2026-11-25",
+     "value": 60643.93
     }
    ],
    "name": "Bitcoin, Coinbase",
@@ -28045,6 +28030,12 @@
      "value": 0.78,
      "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7813, 1m -0.1156, 3m -2.1498, 1y -1.1734, 12m div yield 6.57; ex-div 25 Nov 0.0496; undated, no price; read at source 25 Nov ~21:00 UTC",
      "issue": 174
+    },
+    {
+     "date": "2026-11-26",
+     "value": 0.7751,
+     "source": "POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7751, 1m +0.1012, 3m -2.3538, 6m -1.3312, YTD -1.5583, 1y -1.1621, 12m div yield 6.57; ex-div 25 Nov 0.0496 (pay 30 Nov); undated, no price; read at source 26 Nov ~21:10 UTC",
+     "issue": 175
     }
    ],
    "name": "PIMCO GIS Income Fund, USD class, 1-week total return",
@@ -28068,8 +28059,8 @@
    ]
   },
   {
-   "issue": 174,
-   "date": "2026-11-26",
+   "issue": 175,
+   "date": "2026-11-27",
    "regime": "A real-rate shock: the Federal Reserve tightening",
    "since": 162,
    "triggers": [
@@ -28079,7 +28070,7 @@
    ]
   }
  ],
- "fetched": "2026-11-25T21:03:23Z",
+ "fetched": "2026-11-26T21:03:03Z",
  "fetch_errors": {},
  "holds": {
   "fwd_eps": {

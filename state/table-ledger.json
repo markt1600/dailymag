@@ -2332,9 +2332,10 @@
       "venue": "Soi Stories",
       "key": "Soi Stories",
       "runs": [
-        160
+        160,
+        175
       ],
-      "status": "OPEN",
+      "status": "SPENT",
       "checked": "No. 160 build",
       "note": "opening run — record the peg here"
     },
@@ -2658,9 +2659,39 @@
       "status": "OPEN",
       "checked": "No. 174 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Onori",
+      "key": "Onori",
+      "runs": [
+        175
+      ],
+      "status": "OPEN",
+      "checked": "No. 175 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Hong Jiu Claypot",
+      "key": "Hong Jiu Claypot",
+      "runs": [
+        175
+      ],
+      "status": "OPEN",
+      "checked": "No. 175 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Da Shi Jia Big Prawn Mee",
+      "key": "Da Shi Jia Big Prawn Mee",
+      "runs": [
+        175
+      ],
+      "status": "OPEN",
+      "checked": "No. 175 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 175,
+  "barred_for_issue": 176,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2801,6 +2832,7 @@
     "Three Bowls",
     "Cranki Patisserie",
     "Mala Mia",
+    "Soi Stories",
     "Casa Vostra",
     "Lobang",
     "That Place",
@@ -2812,6 +2844,9 @@
     "Hansang Korean Family Restaurant",
     "MODU",
     "Kindle Cafe",
-    "CUDITO"
+    "CUDITO",
+    "Onori",
+    "Hong Jiu Claypot",
+    "Da Shi Jia Big Prawn Mee"
   ]
 }
