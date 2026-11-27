@@ -2689,9 +2689,49 @@
       "status": "OPEN",
       "checked": "No. 175 build",
       "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Roasting Plant Coffee",
+      "key": "Roasting Plant Coffee",
+      "runs": [
+        176
+      ],
+      "status": "OPEN",
+      "checked": "No. 176 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Hawkers’ Street",
+      "key": "Hawkers’ Street",
+      "runs": [
+        176
+      ],
+      "status": "OPEN",
+      "checked": "No. 176 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Makkee Dessert",
+      "key": "Makkee Dessert",
+      "runs": [
+        176
+      ],
+      "status": "OPEN",
+      "checked": "No. 176 build",
+      "note": "opening run — record the peg here"
+    },
+    {
+      "venue": "Chock Full Of Beans",
+      "key": "Chock Full Of Beans",
+      "runs": [
+        176
+      ],
+      "status": "OPEN",
+      "checked": "No. 176 build",
+      "note": "opening run — record the peg here"
     }
   ],
-  "barred_for_issue": 176,
+  "barred_for_issue": 177,
   "barred": [
     "Assaggi (Neil Road)",
     "Kuro Kare (Havelock II)",
@@ -2847,6 +2887,10 @@
     "CUDITO",
     "Onori",
     "Hong Jiu Claypot",
-    "Da Shi Jia Big Prawn Mee"
+    "Da Shi Jia Big Prawn Mee",
+    "Roasting Plant Coffee",
+    "Hawkers’ Street",
+    "Makkee Dessert",
+    "Chock Full Of Beans"
   ]
 }

@@ -3,6 +3,44 @@
 > Tracks DISCRETE / EVERGREEN subjects only (products, releases, awards, named events) to prevent re-covering the same thing without a new peg. NOT for developing situations (those stay in the Issue Log notes). **Working set = the last ~15 issues plus every standing ruling (CLOSED / SATURATED / STANDING); older concluded rows live in `ledgers/coverage-ledger-archive.md`** — both feed `state/coverage-ledger.json`, which is the complete dedup lookup. Move a row to the archive when it ages out un-ruled; a CLOSED/SATURATED row NEVER leaves this file. To reopen a CLOSED subject on a genuinely major new peg, UPDATE ITS ROW here (replace the ruling with the new peg) — the validate gate reads the current row.
 
 |Subject|Type|Last covered|Last peg covered|Status / next peg|
+|Leather jackets (Atelier category)|Story|No. 176|Reader's Next-on-the-Bench chip offered in Nos. 174 and 175|Covered once at No. 176: hide/tannery/zip hierarchy; Schott 618 US$1,020, Aero Highwayman £875 ex-VAT, Himel Canuck US$2,950, Real McCoy's A-2 S$3,591; Sceptic Saint Laurent lamb US$5,600|
+|Final Fantasy 40th Anniversary Exhibition, Tokyo National Museum|Story|No. 176|opens 8 Jan 2027; phase-1 dated tickets on sale to 7 Jan|new marquee (Japan); first run|
+|Chingay 2027|Story|No. 176|ticket sales open 2 Dec 2026; parade 19-20 Feb, F1 Pit Building|new marquee (Singapore); first run|
+|Tokyo Comic Con 2026|Story|No. 176|11-13 Dec, Makuhari; McGregor and Ruffalo added 25 Nov|new row|
+|Roasting Plant Coffee (VivoCity)|Story|No. 176|opened, first Asia-Pacific shop; DFD review 27 Nov|Table lead, opening run|
+|Hawkers' Street (Kallang Wave Mall)|Story|No. 176|opens 11 Dec; 16 stalls, 478 seats|Table opening run, too new to call|
+|Makkee Dessert (Neil Road)|Story|No. 176|Eatbook independent visit 27 Nov|Table opening run|
+|Chock Full Of Beans (Jalan Besar)|Story|No. 176|relocated from Changi Village; DFD 24 Nov|Table opening run|
+|Khetan et al. — oestradiol/progesterone variability in adolescent girls (PANDA, J Affect Disord)|Story|No. 176|Khetan's public account via Medical Xpress/University of Melbourne, 27 Nov 2026 (paper online 10 Oct)|New lead; 145 girls 11–17; reassuring oestradiol result reported only after dropping one influential case|
+|Martoma et al. — parent comfort with AI-led behavioural therapy (JAMA Pediatrics)|Story|No. 176|Medical Xpress coverage 25 Nov 2026 (letter online 2 Nov)|New lead; age band from Maheux (Aura app: 20.5% at 10–12, 42% at 13–14) and McBain (~8% of 12–14s for MH advice)|
+|Garmin fēnix 9 / 9 Pro|Story|No. 176|First Garmin-sanctioned discount: US$100 off every model in the US from 23 Nov (88 days after 25 Aug launch); SG store unchanged S$1,349 / S$1,489|Valid New-Peg (price cut, verified at Garmin US store price data); last covered No. 92|
+|Piaget Andy Warhol 'Camouflage' (G0A51242)|Story|No. 176|SJX hands-on 25 Nov with SGD 122,000 ex-tax price; Fratello Nov top-5 27 Nov|First coverage; released 5 Nov, hands-on + SG price is the peg|
+|Christie's HK Important Watches 26 Nov 2026|Story|No. 176|Result HK$292.1m, 248/274|One-line settle in strip; not a lead (5 of last 7 Good Life leads were HK auctions)|
+|JLC Reverso Classic Monoface Small Seconds mid-size pink gold Q3862520|Story|No. 176|Introduced late Nov, US$18,400|Brief only|
+|Chud Thai UNESCO bid (Thailand) vs Cambodia's Khmer wedding bid|Story|No. 176|UNESCO 21.COM Xiamen examines both files on Wed 2 Dec 2026; Bangkok 'Dress Thai across the land' gathering same morning; UN stamps 20 Nov; UNESCO video 23 Nov|New subject; not in undercurrent ledger; no NYT/BBC/Reuters/FT feature found (Thai/regional press only)|
+|S&P 500 Thanksgiving-week rebound|Story|No. 176|Fri 27 Nov half-day +1.6% to 7,297; week +5.6%; BEA Q3 GDP revised to 4.3% lifting yields|new lead; 172 led Monday's Huang jump, this is the week's close plus the GDP/yields delta|
+|Shiller CAPE and forward returns|Story|No. 176|Shiller ie_data forward ten-year real returns by starting CAPE; CAPE 36.44 on 20 Nov|new angle vs No. 169's FactSet 17.1 vs CAPE 37.86 comparison|
+|Tsugu Tsugu (Tokyo kintsugi firm)|Story|No. 176|Kyoto studio opened 1 Nov 2026 (LIVE JAPAN, 9 Nov)|New; first coverage.|
+|Japanese domestic urushi supply|Story|No. 176|Forestry Agency white paper: 1.7 t tapped of 29.8 t used (2023); RKB 1.8 t (2024), ~93% Chinese|New; first coverage.|
+|Hexed / Focker-In-Law Thanksgiving box office|Story|No. 176|Thanksgiving Day (Thu 26 Nov) grosses: Focker-In-Law $7.7m overtakes Hexed $4.5m on running total ($13m vs $12m)|Delta on No. 175 (Wednesday figures); five-day actuals still held (H123)|
+|Loughborough REPROOF ballistic resistance training trial (Caliskan et al., Bone)|Story|No. 176|Published online 15 Nov 2026|New lead; abstract + ClinicalTrials.gov protocol read; full text refused|
+|Purposeful walking steps and falls (Hu et al., J Glob Health, UK Biobank)|Story|No. 176|Published 13 Nov 2026|Brief only, observational|
+|Chinese chip stocks record day on State Council 'national team' pledge (27 Nov 2026)|Story|No. 176|CSI Semiconductor +17.6%, record; Li Qiang State Council readout; Huijin as quasi-stabilisation fund|Technology LEAD; Huawei HBM (Bloomberg 26 Nov) as context; readout itself names no chips|
+|Tencent Hy-MT3 translation models (1.8B/7B/30B-A3B, Apache 2.0, 24 Nov 2026)|Story|No. 176|open weights 102 languages; Subtitle Edit first outside test 26 Nov|Home Lab LEAD; maker scores via own TransRubric judge, flagged|
+|KRAFTON Raon-1 mini (28.8B/4.3B, Apache 2.0, 24 Nov 2026)|Story|No. 176|release; needs KRAFTON llama.cpp fork|Home Lab brief only; next peg upstream support or independent test|
+|SIA Amsterdam Feb–Mar 2027 frequency increase (SQ334/333)|Story|No. 176|Mainly Miles 27 Nov: 7→10 weekly, 15 Feb–26 Mar 2027|New peg; Departures lead; delta to No. 169 Frankfurt/Munich cut (Amsterdam +759 seats/wk = Munich's loss).|
+|Schiphol airport traffic decree (478,000 cap)|Story|No. 176|in force 1 Nov 2026|First coverage, as context to the SIA lead.|
+|SIA First Class SilverKris Lounge table service (Changi T2/T3)|Story|No. 176|MileLion 23 Nov report; ground package announced 21 Oct, dining from 28 Oct|New peg; p21 article. Distinct from No. 35's T3 lounge rebuild.|
+|Cathay Asia Miles partner-award devaluation|Story|No. 176|announced 25 Nov, effective 5 Jan 2027|In brief, first coverage.|
+|Thai Airways SIN–BKK 6x daily|Story|No. 176|from 1 Feb 2027 (Mainly Miles 23 Nov)|In brief, first coverage.|
+|Johor Bahru–Singapore RTS Link|Story|No. 176|no change: Feb 2027 per 2 Oct joint release|One-line delta only (no new peg).|
+|Japan October 2026 visitor arrivals record|Story|No. 176|3,912,500 (JNTO estimate via Asia Daily)|In brief.|
+|Bô Noël Lausanne final (12th) edition|Story|No. 176|20 Nov–31 Dec 2026|Grand Tour p23 hed; Diary need not repeat.|
+|EU MFF 2028–2034 / €45bn Ukraine loan|Story|No. 176|Special European Council 26–27 Nov ends without deal; next 17–18 Dec|New subject for World lead; next peg = December summit outcome only|
+|Shenzhou-24 / first foreign astronaut on Tiangong (Pakistan)|Story|No. 176|Launch and docking 25 Nov; Ali aboard|Covered once; next peg = return landing or a second foreign astronaut|
+|NEA after-death fees (cremation, burial, niches)|Story|No. 176|27 Nov revision effective 1 Jan 2027|Covered; next peg = Mount Vernon parlour opening or sea-scattering ferry pilot (2027)|
+|Consumer Protection Review Panel|Story|No. 176|27 Nov recommendations (brief, single-sourced)|Brief only; lead-worthy when the government responds|
+|Congo Ebola (Bundibugyo)|Story|No. 176|Passed 12,000 cases (12,021; 5,904 deaths)|Brief delta on No. 170|
 |Chess sets (pieces & boards)|Story|No. 175|The Chess Empire's claim to carve Jaques of London's reproductions + FIDE equipment standard applied 1 Mar 2026|Atelier No. 175|
 |Pop after Pop: Art around Us (National Gallery x Guggenheim)|Story|No. 175|opens 11 Dec; early-bird ends 30 Nov|Diary marquee No. 175; next peg opening reviews|
 |DIVA (V&A) at National Art Center Tokyo|Story|No. 175|24 Mar-19 Jul 2027|Diary Japan marquee No. 175|

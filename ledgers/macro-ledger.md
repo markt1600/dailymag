@@ -1,16 +1,16 @@
 # MACRO LEDGER
 
 The Macro Desk's memory. Rendered by `tools/macro_ledger.py` from `state/macro-ledger.json` — do not edit by hand.
-Last fetch: 2026-11-26T21:03:03Z.
+Last fetch: 2026-11-27T21:03:47Z.
 
 ## The Call
 
-**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 175 (2026-11-27).
+**A real-rate shock: the Federal Reserve tightening** — held since No. 162, last stated No. 176 (2026-11-28).
 
 What would change it:
-- The 10-year real yield closes below 2.60 per cent (2.73 on 25 November)
+- The 10-year real yield closes below 2.60 per cent (2.79 on 27 November)
 - The Federal Reserve does not raise rates on 9 December
-- The high-yield credit spread closes above 4.0 points (3.72 on 24 November), which would make it a growth scare rather than a rate shock
+- The high-yield credit spread closes above 4.0 points (3.77 on 26 November, a 1-year high, 0.23 short), which would make it a growth scare rather than a rate shock
 
 ### Earlier calls
 
@@ -20,11 +20,11 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 177.56 | 2026-11-25 | -4.16 | — | — | — | down 1 week running; 39% of its 1-year range | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV US$177.56 at close 25 Nov 2026 (-1.20, -0.67%); LSE GBP 136.80 on 26 Nov (+2.87%); portfolio data still 31 Oct; read at source 26 Nov ~21:10 UTC |
-| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | 0.76 | 2026-11-26 | +1.45 | — | — | — | up 1 week running; at its 1-year high | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825): 1w +0.7639, 1m +0.0262, 3m -2.8049, 6m -2.2407, YTD -3.44, 1y -3.3162, 12m div yield 6.86; ex-div 25 Nov 0.046157 (pay 30 Nov); undated, no price; read at source 26 Nov ~21:10 UTC |
-| gold | Gold, spot (US$/oz) | 3,566 | 2026-11-26 | -92.60 | — | — | — | down 1 week running; 9% of its 1-year range | Kitco spot gold, bid 3,565.50 / ask 3,567.50, -22.50 (-0.63%), 16:12 NY 26 Nov 2026 (Thanksgiving, thin trade); read at source |
-| btc | Bitcoin, Coinbase (US$) | 60,644 | 2026-11-25 | -2,527 | -20,581 | -18,318 | -26,722 | down 5 weeks running; 5% of its 1-year range | FRED CBBTCUSD |
-| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.78 | 2026-11-26 | +1.54 | — | — | — | up 1 week running; at its 1-year high | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925): 1w +0.7751, 1m +0.1012, 3m -2.3538, 6m -1.3312, YTD -1.5583, 1y -1.1621, 12m div yield 6.57; ex-div 25 Nov 0.0496 (pay 30 Nov); undated, no price; read at source 26 Nov ~21:10 UTC |
+| vwra | VWRA, Vanguard FTSE All-World UCITS ETF, NAV (US$) | 178.42 | 2026-11-26 | -0.39 | — | — | — | down 1 week running; 46% of its 1-year range | Vanguard FTSE All-World UCITS ETF (USD) Acc product page, NAV US$178.42 at close 26 Nov 2026 (+0.85, +0.48%); LSE GBP 138.20 on 27 Nov (+1.02%); 27 Nov NAV not posted; portfolio data still 31 Oct; read at source 27 Nov ~21:10 UTC |
+| pimco_income_1w | PIMCO GIS Income Fund, SGD-hedged class, 1-week total return (%) | 0.76 | 2026-11-27 | +0.88 | — | — | — | up 1 week running; at its 1-year high | POEMS fund finder, PIMCO GIS Income Admin SGD Hedged (IE00B91RQ825), re-read 27 Nov ~21:15 UTC, unchanged from 26 Nov read: 1w +0.7639, 1m +0.0262, 3m -2.8049, YTD -3.44, 1y -3.3162, 12m div yield 6.86; ex-div 25 Nov 0.046157; undated, no price |
+| gold | Gold, spot (US$/oz) | 3,654 | 2026-11-27 | +115.10 | — | — | — | up 1 week running; 37% of its 1-year range | Kitco spot gold, bid 3,653.00 / ask 3,655.00, +87.50 (+2.45%), range 3,569.60-3,686.00, 16:13 NY 27 Nov 2026; read at source |
+| btc | Bitcoin, Coinbase (US$) | 60,666 | 2026-11-26 | -1,352 | -17,273 | -19,544 | -29,970 | down 6 weeks running; 5% of its 1-year range | FRED CBBTCUSD |
+| pimco_income_usd_1w | PIMCO GIS Income Fund, USD class, 1-week total return (%) | 0.78 | 2026-11-27 | +0.78 | — | — | — | up 1 week running; at its 1-year high | POEMS fund finder, PIMCO GIS Inc E USD Inc (IE00B8K7V925), re-read 27 Nov ~21:15 UTC, unchanged from 26 Nov read: 1w +0.7751, 1m +0.1012, 3m -2.3538, YTD -1.5583, 1y -1.1621, 12m div yield 6.57; ex-div 25 Nov 0.0496; undated, no price; PIMCO SG product page renders no NAV (tried 27 Nov) |
 
 ## Rates
 
@@ -42,9 +42,9 @@ What would change it:
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | fed_bs | Federal Reserve balance sheet (US$tn) | 6.74 | 2026-11-18 | -0.02 | -0.01 | -0.01 | +0.16 | down 1 week running; 92% of its 1-year range | FRED WALCL |
-| rrp | Fed overnight reverse repo (US$bn) | 0.30 | 2026-11-25 | -0.03 | +0.12 | -0.40 | -2.01 | down 1 week running; at its 1-year low | FRED RRPONTSYD |
+| rrp | Fed overnight reverse repo (US$bn) | 0.35 | 2026-11-27 | -0.05 | -4.03 | +0.17 | -1.87 | down 1 week running; at its 1-year low | FRED RRPONTSYD |
 | tga | US Treasury General Account (US$bn) | 916.60 | 2026-11-18 | +2.20 | -35.40 | -37.00 | -37.20 | up 1 week running; 65% of its 1-year range | FRED WTREGEN |
-| sofr | Secured Overnight Financing Rate (%) | 3.94 | 2026-11-24 | +0.02 | -0.01 | +0.28 | -0.02 | up 2 weeks running; 71% of its 1-year range | FRED SOFR |
+| sofr | Secured Overnight Financing Rate (%) | 3.95 | 2026-11-25 | +0.05 | +0.01 | +0.31 | -0.06 | up 2 weeks running; 73% of its 1-year range | FRED SOFR |
 | nfci | Chicago Fed financial conditions (above 0 = tight) (index) | -0.44 | 2026-11-20 | +0.01 | +0.02 | +0.10 | +0.06 | up 13 weeks running; at its 1-year high | FRED NFCI |
 | dollar | Broad trade-weighted US dollar (index) | 123.60 | 2026-11-20 | +0.95 | +2.28 | +5.54 | +1.91 | up 4 weeks running; at its 1-year high | FRED DTWEXBGS |
 
@@ -52,9 +52,9 @@ What would change it:
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| hy_oas | US high-yield credit spread (pp) | 3.72 | 2026-11-24 | +0.29 | +0.54 | +1.02 | +0.57 | up 2 weeks running; 97% of its 1-year range | FRED BAMLH0A0HYM2 |
-| ig_oas | US investment-grade credit spread (pp) | 0.98 | 2026-11-24 | +0.06 | +0.10 | +0.17 | +0.13 | up 2 weeks running; at its 1-year high | FRED BAMLC0A0CM |
-| vix | VIX equity volatility (index) | 26.36 | 2026-11-24 | +0.90 | +8.84 | +10.91 | +5.84 | up 2 weeks running; 57% of its 1-year range | FRED VIXCLS |
+| hy_oas | US high-yield credit spread (pp) | 3.77 | 2026-11-26 | +0.25 | +0.51 | +1.14 | +0.77 | up 2 weeks running; at its 1-year high | FRED BAMLH0A0HYM2 |
+| ig_oas | US investment-grade credit spread (pp) | 0.99 | 2026-11-26 | +0.05 | +0.10 | +0.20 | +0.17 | up 2 weeks running; at its 1-year high | FRED BAMLC0A0CM |
+| vix | VIX equity volatility (index) | 26.80 | 2026-11-26 | -1.64 | +9.60 | +12.29 | +9.61 | down 1 week running; 59% of its 1-year range | FRED VIXCLS |
 
 ## Inflation
 
@@ -71,17 +71,17 @@ What would change it:
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | gdpnow | Atlanta Fed GDPNow, current quarter (% saar) | 2.90 | 2026-10-01 | — | — | -0.37 | -1.33 | down 1 week running | FRED GDPNOW |
-| eps_growth | S&P 500 blended earnings growth, current quarter (%) | 32.90 | 2026-11-20 | +1.00 | — | — | — | up 4 weeks running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (Q3 blended 32.9%, 93% reported; Q4 est 28.9%; CY26 33.7%; CY27 16.4%; Mag 7 Q3 27.0%); read at source 22 Nov UTC |
-| fwd_eps | S&P 500 forward 12-month earnings per share (US$) | 419.60 | 2026-11-19 | +3.78 | — | — | — | up 1 week running | FactSet Earnings Insight, John Butters, 20 Nov 2026 (PDF EarningsInsight_112026A, read at source 22 Nov UTC): forward P/E 17.1 at the 19 Nov close 7,175.83; forward EPS +4.4% since 30 Sep; dollar level not printed, 419.6 = 7,175.83 / 17.1 computed by the desk |
+| eps_growth | S&P 500 blended earnings growth, current quarter (%) | 32.90 | 2026-11-20 | +1.00 | — | — | — | up 4 weeks running | FactSet Earnings Insight 20 Nov 2026, latest edition (re-confirmed 27 Nov, next 4 Dec): Q3 blended 32.9%; FactSet blog 26 Nov (Mag 7 note): Mag 7 Q3 27.0%, Q4 est Mag 7 24.1% vs other 493 30.8% |
+| fwd_eps | S&P 500 forward 12-month earnings per share (US$) | 419.60 | 2026-11-19 | +3.78 | — | — | — | up 1 week running | FactSet Earnings Insight 20 Nov 2026, latest edition (re-confirmed 27 Nov, next 4 Dec): forward P/E 17.1 at 19 Nov close 7,175.83; 419.6 = 7,175.83/17.1 computed by the desk |
 
 ## Valuation
 
 | Key | Indicator | Latest | As of | 1 week | 4 weeks | 13 weeks | 1 year | Trend | Source |
 |---|---|---|---|---|---|---|---|---|---|
-| fwd_pe | S&P 500 forward price/earnings (x) | 17.10 | 2026-11-19 | -0.60 | — | — | — | down 1 week running | FactSet Earnings Insight 20 Nov 2026 (re-read 23 Nov; next edition 4 Dec, none on 27 Nov): forward P/E 17.1 vs 5-yr 19.8, 10-yr 19.1 |
+| fwd_pe | S&P 500 forward price/earnings (x) | 17.10 | 2026-11-19 | -0.60 | — | — | — | down 1 week running | FactSet Earnings Insight 20 Nov 2026 remains latest (re-read 27 Nov ~21:10 UTC: no 27 Nov edition, PDF EarningsInsight_112726A 404; four Butters blog notes dated 26 Nov carry no new P/E; Mag 7 note says next edition 4 Dec): forward P/E 17.1 vs 5-yr 19.8, 10-yr 19.1 |
 | cape | Shiller cyclically adjusted P/E (x) | 36.44 | 2026-11-20 | — | — | — | — | — | multpl.com Shiller PE, 4:00pm EST Fri 20 Nov close 36.44 (-1.41, -3.73%); read at source |
-| vwra_us | All-world index: United States weight (%) | 62.83 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, portfolio data 31 Oct 2026 (US 62.83, Japan 5.94; P/E 19.6); re-read at source 25 Nov, no newer month posted |
-| vwra_top10 | All-world index: top-ten holdings weight (%) | 23.54 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, top ten holdings 31 Oct 2026 (sum 23.54); re-read at source 25 Nov |
+| vwra_us | All-world index: United States weight (%) | 62.83 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, re-read 27 Nov ~21:10 UTC: portfolio data still 31 Oct 2026 (US 62.83, Japan 5.94, UK 3.25; P/E 19.6, P/B 3.4, ROE 19.5%, earnings growth 19.7%; 3,574 stocks); 30 Nov data not yet posted |
+| vwra_top10 | All-world index: top-ten holdings weight (%) | 23.54 | 2026-10-31 | — | — | — | — | — | Vanguard FTSE All-World UCITS ETF product page, top ten at 31 Oct 2026 (Apple 4.74, Nvidia 4.55, Microsoft 3.69, Amazon 2.22, TSMC 1.68, Alphabet A 1.58, Broadcom 1.44, Meta 1.29, Alphabet C 1.23, Tesla 1.11; sum 23.54); re-read 27 Nov, 30 Nov not posted |
 
 ## Flows
 

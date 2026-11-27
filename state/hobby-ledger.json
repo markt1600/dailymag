@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "hobby": "Kintsugi (urushi lacquer repair)",
+      "issue": "176",
+      "angle": "<b>The lacquer, not the gold, is what Japan is short of.</b> Auto-picked from No. 175's chips (netsuke already Covered at 163; bridge a game like Go 169), so kintsugi wins on category rotation: a craft after sailing. Peg: Tsugu Tsugu's third studio, a 70-year-old Higashiyama house, opened 1 Nov 2026"
+    },
+    {
       "hobby": "Dinghy sailing",
       "issue": "175",
       "angle": "<b>Class status is not an Olympic place.</b> Auto-picked from No. 174's chips over contract bridge and kintsugi (category rotation to sport/water). The WASZP foiler and RS Aero won World Sailing class status in Qingdao (21 Nov) while the ILCA (215,000+ built) keeps the Games; SSF's first course S$77"
@@ -725,12 +730,6 @@
       "fit": "Finescale standards, DCC sound decoders and layout operation as simulation; a buy-once locomotive market with a hard secondhand floor"
     },
     {
-      "hobby": "Kintsugi (lacquer repair)",
-      "category": "Craft",
-      "communities": "Urushi vs epoxy &ldquo;kintsugi kits&rdquo;; Japanese urushi teachers, r/kintsugi, Tsugu Tsugu",
-      "fit": "Buy-once craft: real urushi repair vs the epoxy kit; Japan workshops."
-    },
-    {
       "hobby": "Astrophotography on a budget (star trackers &amp; stacking)",
       "category": "Tech / night sky",
       "communities": "r/astrophotography, Cloudy Nights, the Siril and DeepSkyStacker scenes",
@@ -975,6 +974,18 @@
       "category": "Tech / audio",
       "communities": "diyAudio, r/diyaudio, the Japanese sansui-kits scene",
       "fit": "Soldered kit and point-to-point builds; transformers as the buy-once part; distinct from covered loudspeaker building"
+    },
+    {
+      "hobby": "Japanese knife sharpening (whetstones &amp; jnats)",
+      "category": "Craft / kitchen",
+      "communities": "Kitchen Knife Forums (KKF), r/sharpening, the Japanese natural-stone (jnat) dealers and Singapore knife shops",
+      "fit": "A buy-once whetstone ladder from synthetic to mined Kyoto stones, a grit argument with numbers, and a skill you use every evening; distinct from bladesmithing (109)."
+    },
+    {
+      "hobby": "Home weather stations &amp; amateur meteorology",
+      "category": "Science / weather",
+      "communities": "WXforum.net, r/weather, the Weather Underground and CWOP station networks, Meteorological Service Singapore data",
+      "fit": "Davis and Ecowitt station ladders, siting arguments and data that feeds Home Assistant; a tropical-storm hobby in a city with afternoon thunderstorms."
     }
   ],
   "retired": [

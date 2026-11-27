@@ -1,0 +1,253 @@
+{
+ "issue": 176,
+ "rounds": 2,
+ "reviewer": "fresh subagent, no research context",
+ "pages": [
+  {
+   "page": 3,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "EU leaders left Brussels with no deal on the 2028-34 budget or the EUR45 billion Ukraine loan, stuck on Merz's demand that the loan be tied to the budget and on Macron's need to settle before France's election, and they try again on 17 December.",
+   "weakest": "\"When Costa split leaders into small mixed groups, seven net payers, Germany among them by Euronews' count, refused the format.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 4,
+   "desk": "The World",
+   "keep_reading": 4,
+   "says": "Pakistan's Zeeshan Ali became the first foreigner on China's Tiangong station, a week-long guest visit that shows Beijing opening its station to partners as the ISS winds down.",
+   "weakest": "\"No PAHO document repeats or explains the 114 of its 17 November Q&A.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 5,
+   "desk": "Singapore",
+   "keep_reading": 4,
+   "says": "From January NEA raises cremation, burial and niche fees for the first time since 1997 (a citizen's cremation goes from S$100 to S$175) and cuts the fee for scattering ashes on land, because deaths are rising and land is scarce.",
+   "weakest": "\"Held since No. 175, still open: Gan Kim Yong's 7.8-to-10.3 per cent effective US tariff is still in no METI document.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 6,
+   "desk": "The Atelier",
+   "keep_reading": 3,
+   "says": "Judge a leather jacket by its hide, its tanning and its zip, not its label, with a price ladder that runs from Schott's US$1,020 Perfecto to Himel's bespoke horsehide, and Saint Laurent's US$5,600 lambskin held up as poor value.",
+   "weakest": "\"Reading a spec cold: Horween's Chromexcel, from Chicago, is chrome-tanned, retanned with vegetable extract and stuffed with oils and waxes...\" (a run of tannery names and ounce weights I skimmed)",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 7,
+   "desk": "Technology",
+   "keep_reading": 4,
+   "says": "Chinese chip stocks had their best day on record after Li Qiang's cabinet told the state-backed 'national team' funds to hold up the market, though the statement never mentioned chips.",
+   "weakest": "\"Wind data compiled by Chip Dispatch put Hua Hong and four equipment and design firms up 20 per cent, the board's daily ceiling, Cambricon up 18.7 and SMIC up 15.4 (single-sourced).\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 8,
+   "desk": "The Home Lab",
+   "keep_reading": 2,
+   "says": "Tencent released free translation models covering 102 languages that run offline at home, and it claims they beat Microsoft Translator, but it graded them with its own test.",
+   "weakest": "\"Tencent publishes its own GGUF files for llama.cpp, the standard home engine: the 1.8B is 1.35GB at four bits and the 30B is 19.5GB, or 13.1GB at two bits...\"",
+   "verdict": "rework",
+   "reason": "From the third paragraph on, the page assumes I know GGUF, llama.cpp, parameters, bits and tokens, and the opening promise of a private home translator never turns into steps an ordinary reader could follow. Cut the KRAFTON and AMD-patch boxes, which have nothing to do with the story, and use the space to say what someone with a normal laptop or Mac would download, and how.",
+   "fixed": "Glossed every technical term in plain words, cut the KRAFTON and AMD-patch briefs, added a plain how-to-try-it passage (Subtitle Edit, Unsloth Studio, file sizes by machine).",
+   "recheck": 4,
+   "recheck_says": "Tencent's free Hy-MT3 models translate 102 languages entirely on a home computer, the easiest way in is an app such as Subtitle Edit that already offers them, and every quality score so far comes from Tencent's own judge."
+  },
+  {
+   "page": 9,
+   "desk": "The Kit",
+   "keep_reading": 3,
+   "says": "Garmin has cut US$100 off its new Fenix 9 in the US after only 88 days, which it rarely does, but Singapore prices have not moved, so only American shoppers should buy now.",
+   "weakest": "\"Why now, Maker suggests: Garmin's third-quarter results on 28 October named new adventure watches as a driver of revenue; Coros teased its torch-carrying Vertix 4 (No. 174) hours before the sale; or, simplest, 'Revenue is revenue.'\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 10,
+   "desk": "The Good Life",
+   "keep_reading": 3,
+   "says": "Piaget's S$122,000 Warhol 'Camouflage' watch has a dial of 27 inlaid pieces of stone and gold based on Warhol's 1986 camouflage portraits, in an edition of 86.",
+   "weakest": "\"The price moves with the border: CHF 74,000 at the 5 November launch, per Monochrome; GBP79,000 with VAT on Piaget's British site; EUR91,000 in Fratello's November round-up of 27 November.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 11,
+   "desk": "Screen & Sound",
+   "keep_reading": 2,
+   "says": "Focker-In-Law took the lead from Disney's Hexed on Thanksgiving Day, but the race is close and the real totals arrive on Sunday.",
+   "weakest": "\"For Disney the yardsticks are its last three Thanksgiving originals. Hexed's Thursday beat Wish's US$3.8 million but trailed Encanto's US$5.8 million...\" (a paragraph of about fifteen dollar figures)",
+   "verdict": "rework",
+   "reason": "The page buries one simple point (the comedy leads the cartoon by a million dollars after two days) under dozens of projections and comparisons, and then states that lead again in the deck, the body, the pull line and the stat box. Pick the three numbers that matter, and tell the reader what Hexed's result means for Disney instead of listing every forecast.",
+   "fixed": "Stated the lead once (cut the duplicate pull and stat), cut the forecast list, and replaced it with what Hexed's start means for Disney Animation and the Encanto Disney+ precedent.",
+   "recheck": 3,
+   "recheck_says": "Disney's US$200 million Hexed is losing Thanksgiving to Focker-In-Law and tracking like the disappointing Wish, and only an Encanto-style afterlife on Disney+ would rescue it, which Disney cannot count on."
+  },
+  {
+   "page": 12,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "A Melbourne study of 145 girls found that bigger week-to-week oestradiol swings in early puberty went with slightly calmer moods, so a parent need not read hormonal ups and downs as a warning sign.",
+   "weakest": "\"-0.18 Effect size linking bigger oestradiol swings to fewer depressive symptoms in 145 girls\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 13,
+   "desk": "The Family Desk",
+   "keep_reading": 4,
+   "says": "Three in four American parents would not be comfortable with a chatbot leading their child's therapy, even though many children already ask chatbots for mental-health advice and use rises sharply at the start of secondary school.",
+   "weakest": "\"about 8% of 12-to-14-year-olds had sought mental-health advice from a chatbot, read from the paper's chart, against 19.2% of all 12-to-21s.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 14,
+   "desk": "The Macro Desk",
+   "keep_reading": 2,
+   "says": "US shares rose 5.6% over Thanksgiving week, but bond yields and junk-bond spreads also rose because the economy is growing faster, so the rebound may be a bounce and not a recovery.",
+   "weakest": "\"Lean: lower into 9 December; a NAV above US$184 on 4 December proves it wrong.\"",
+   "verdict": "rework",
+   "reason": "It treats the Fed's 'rate rise on 9 December', real yields, the junk spread, the CFTC count and the 'leans' as things I already follow, and it never says plainly what the rebound means for someone holding VWRA. The $206 billion profits figure and the 2.79 real yield turn up again on p15. Open with one sentence on what this means for the reader's money, explain the scheduled Fed meeting, and cut the CFTC housekeeping line.",
+   "fixed": "Opened with what the week means for an all-world share fund and a bond fund, explained the 9 December Fed meeting, glossed the fear gauge, junk spread, real yield, trimmed mean and 'Lean', cut the CFTC line and the profits figure duplicated on p15.",
+   "recheck": 3,
+   "recheck_says": "US shares won back most of the previous week's fall, but faster growth pushed bond yields up ahead of an expected Fed rate rise on 9 December, so a bond fund like PIMCO Income slipped and the credit market still reads the week as a bounce."
+  },
+  {
+   "page": 15,
+   "desk": "The Macro Desk",
+   "keep_reading": 3,
+   "says": "Shiller's records since 1881 show that when the market started as expensive as it is now, the next ten years returned less than nothing after inflation and lost to bonds, although those cases come from only two episodes.",
+   "weakest": "\"Price ÷ forecast profit 17.1 −0.6, week lowest in 3 years\" (a dashboard of ten indicators after the argument has already been made)",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 16,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 4,
+   "says": "Real kintsugi mends broken pottery with slow-curing tree-sap lacquer and gold, most kits are epoxy imitations, and the hobby is small but has a new Kyoto studio from Tsugu Tsugu.",
+   "weakest": "\"On YouTube the largest teaching channel, Kintsugi Library, has 13,300 subscribers; Tsugu Tsugu's has 6,460, and Kintsugi Oxford's... 446.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 17,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 3,
+   "says": "In kintsugi the lacquer is cheap and the gold is expensive, Japan now grows almost none of its own urushi, and a professional repair means waiting at least three months.",
+   "weakest": "\"Kintsugi Oxford's traditional kit, three tubes of urushi and the powders, is GBP135 with a gram of silver or GBP155 with 0.2 gram of gold.\" (one line in a long run of prices)",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 18,
+   "desk": "The Rabbit Hole",
+   "keep_reading": 2,
+   "says": "Singapore's kintsugi classes use epoxy, not real lacquer, even though the island's humid air would suit urushi, and a beginner should wear gloves and spend ninety days working up from a chip.",
+   "weakest": "\"...and next January the metaphor reaches business, in Penguin SEA's Kintsugi: Fostering Innovation in Business.\"",
+   "verdict": "rework",
+   "reason": "The page says things twice: the 84.9% humidity figure appears three times, and the Sceptic box mostly repeats the ¥22,000 class, the three-month wait and the 93% Chinese lacquer from pp16-17 before ending on an unrelated business book. Give the space to the one thing promised and not delivered: where a Singapore reader could actually learn real urushi.",
+   "fixed": "Humidity figure stated once, Sceptic rewritten on new ground (a holiday cannot teach the cure; sensitisation; off-gassing), and the space given to where a Singapore reader can learn real urushi (Zoom, a kit shipped from Tokyo, courses in Japan; none local).",
+   "recheck": 4,
+   "recheck_says": "No Singapore class teaches real lacquer kintsugi, so a beginner here learns from Kintsugi Oxford by Zoom or from a Tsugu Tsugu kit shipped duty-paid, uses Japan classes only to watch the craft, and should respect the urushi rash."
+  },
+  {
+   "page": 19,
+   "desk": "Fitness",
+   "keep_reading": 4,
+   "says": "In a Loughborough trial, women aged 50 to 70 who lifted light weights explosively gained a little hip bone density and women who lifted heavy and slow did not, and the page sets out a routine to try.",
+   "weakest": "\"ballistic training raised total hip density by 0.008 g/cm² (95% CI 0.001-0.014; P = 0.02)\", which never says whether 0.008 is a lot",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 20,
+   "desk": "The Travel Desk",
+   "keep_reading": 3,
+   "says": "From mid-February to late March 2027, Singapore Airlines adds three midday A350 flights a week to Amsterdam, using aircraft freed from its Munich cuts and fitting under Schiphol's new legal cap on flights.",
+   "weakest": "\"Mainly Miles reads the move as fleet planning: the Frankfurt and Munich cuts free about 230 A350 hours a week by mid-March, Amsterdam uses about 80...\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 21,
+   "desk": "The Travel Desk",
+   "keep_reading": 3,
+   "says": "SIA's First Class lounges at Changi have switched from a buffet to table service with new menus, but members find the food barely changed and the promised Sisley toiletries have not arrived.",
+   "weakest": "\"a kataifi-wrapped tiger prawn topped with lumpfish roe, not sturgeon caviar\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 22,
+   "desk": "The Travel Desk",
+   "keep_reading": 4,
+   "says": "A winter trip to the Vallée de Joux works if you book ahead: Audemars Piguet's museum takes guided groups of eight, Jaeger-LeCoultre sells factory visits, and the other big names stay closed.",
+   "weakest": "\"Lac de Joux, 9.5 square kilometres, is the largest Swiss lake above 1,000 metres.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 23,
+   "desk": "The Travel Desk",
+   "keep_reading": 3,
+   "says": "The rest of the Swiss winter trip: Christmas market dates in Lausanne, Montreux and Basel, cross-country skiing and maybe skating on the lake, the flights and what it all costs in Singapore dollars.",
+   "weakest": "\"...and this page covers them with the snow, the food, the journey and the bill\" (an opening that is a list, not a point)",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 24,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "A listings page of shows worth booking in Singapore and Japan, led by Tokyo National Museum's Final Fantasy exhibition from 8 January and Chingay tickets on sale from 2 December.",
+   "weakest": "\"Still unpriced: Maroon 5, SIX60 (10 Dec) and Mahiru (29 Nov) on Live Nation's pages; YOASOBI's restricted-view CAT 8 is still listed at S$288.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 25,
+   "desk": "The Diary",
+   "keep_reading": 3,
+   "says": "New places to eat: Roasting Plant's tube-fed coffee shop at VivoCity, a 16-stall Hawkers' Street at Kallang opening 11 December, Makkee's snow ice and Chock Full Of Beans' move to Jalan Besar.",
+   "weakest": "\"Its patented system, the Javabot, roasts in small batches and grinds to order, and the company says the roasting can be watched during the day.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 26,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "On Wednesday Thailand is all but certain to get its national dress onto UNESCO's living-heritage list, with Cambodia, its recent border enemy, on the committee, and the dress itself dates only from the 1960s.",
+   "weakest": "\"Grab is offering 15 per cent off rides to the square with the code CHUDTHAI.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 27,
+   "desk": "The Long Read",
+   "keep_reading": 5,
+   "says": "Phibun's government banned Thailand's old dress in 1941 and Queen Sirikit's court designed today's Chud Thai for a 1960 foreign tour, the same path the Scottish kilt took from ban to royal pageant.",
+   "weakest": "\"...and the king wore Royal Stuart tartan costing GBP1,354 18s, with pink trousers to cover his knees.\"",
+   "verdict": "pass",
+   "reason": ""
+  },
+  {
+   "page": 28,
+   "desk": "The Long Read",
+   "keep_reading": 4,
+   "says": "UNESCO lists what people still practise, not what is oldest or belongs to one nation, so Thailand's honest case is the 1960 dress that people now wear, and the real risk is nationalists using the listing as a weapon against Cambodia.",
+   "weakest": "\"Thailand joined the convention only in 2016 and has collected six listings since; Chud Thai would be its seventh.\"",
+   "verdict": "pass",
+   "reason": ""
+  }
+ ]
+}

@@ -922,14 +922,18 @@
    "desk": "Macro",
    "claim": "October Fed hike is fully priced; a month ago futures priced a 53.6% chance of an October CUT, now zero",
    "checkBy": "2026-10-30",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "No October hike. The FOMC held at 3.75-4.00% on 28 Oct (10-2), so the 'fully priced' hike never came. (graded No. 176; Graded rows 519/544/564/649 (MERIDIAN No. 149, Fed statement 28 Oct))"
   },
   {
    "issue": 110,
    "desk": "Macro",
    "claim": "VWRA/AGGU 20-day realised correlation stays positive (above +0.3) through October",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "The VWRA/AGGU 20-day correlation of daily returns fell through +0.3 on 21-22 Oct (0.34, then 0.17) and ended October at +0.04 (30 Oct). It did not stay above +0.3. (graded No. 176; Meridian computation from Yahoo Finance LSE daily closes for VWRA.L and AGGU.L (fetched 27 Nov); MERIDIAN No. 144 ('firs)"
   },
   {
    "issue": 110,
@@ -1022,7 +1026,9 @@
    "desk": "The Kit",
    "claim": "Beats 360 cushion kits sell at the full US$49.99 from 1 November with no extension of the US$9.99 price",
    "checkBy": "2026-11-07",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "The Beats 360 cushion kit sells at US$49.99 on beatsbydre.com. The US$9.99 offer ran 'until the end of October', with no extension found. (graded No. 176; beatsbydre.com Beats 360 cushion kit page, read 27 Nov 2026; MacRumors, 22 Sep 2026)"
   },
   {
    "issue": 111,
@@ -1067,14 +1073,18 @@
    "desk": "The World",
    "claim": "Manuela Schwesig is elected Minister-President of Mecklenburg-Vorpommern at the first ballot with at least 36 votes, on or before 17 November 2026",
    "checkBy": "2026-11-17",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "The Landtag re-elected Manuela Schwesig on 16 November 2026 with 39 votes (36 needed) and 29 against, in the single ballot reported, with SPD, Left and Green votes. (graded No. 176; Volksstimme/dpa, 16 Nov 2026 18:50; ZDFheute)"
   },
   {
    "issue": "112",
    "desk": "The World",
    "claim": "No US-Iran agreement of any kind is publicly announced by either government before the US midterms on 3 November 2026",
    "checkBy": "2026-11-03",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "No US-Iran agreement before 3 Nov. On 1 Nov Araghchi put forward a two-day Hormuz plan with six conditions; Washington did not accept it, and Trump said 'there is no rush'. Strikes followed on 2 Nov. (graded No. 176; MERIDIAN Nos. 151-152 (Al Jazeera, IRNA, 1 Nov); predictions rows 714-715)"
   },
   {
    "issue": "112",
@@ -1115,7 +1125,9 @@
    "desk": "The Kit",
    "claim": "Apple lists the Mac Studio M5 Ultra with 512GB unified memory above US$9,999 by 15 November 2026",
    "checkBy": "2026-11-15",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Apple opened orders on 28 Oct for the 512GB Mac Studio M5 Ultra at US$22,299, well above US$9,999. (graded No. 176; Apple via MERIDIAN No. 150 (The Kit))"
   },
   {
    "issue": "112",
@@ -1143,7 +1155,9 @@
    "desk": "The Macro Desk",
    "claim": "EIA dated Brent still prints ABOVE the ICE Brent front-month future on the last commonly-dated observation on or before 23 October 2026",
    "checkBy": "2026-10-23",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "EIA Dated Brent printed US$128.30 on 23 Oct, against an ICE Brent front-month settle of US$116.72 that day, a premium of about US$11.6. (graded No. 176; FRED DCOILBRENTEU (macro ledger); ICE settle per Yahoo BZ=F and MERIDIAN No. 144)"
   },
   {
    "issue": "112",
@@ -1195,14 +1209,18 @@
    "desk": "The Macro Desk",
    "claim": "The US 10-year Treasury yield is still above 5.00% at the close on 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "The 10-year closed at 4.94% on Friday 30 Oct, the last trading day before 31 Oct. It had been below 5.00% since the 28 Oct FOMC (4.98 on 29 Oct). (graded No. 176; FRED DGS10 via state/macro-ledger.json)"
   },
   {
    "issue": "113",
    "desk": "The Macro Desk",
    "claim": "MAS steepens the S$NEER slope at its October 2026 policy decision",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "MAS held on 14 October, keeping the slope, width and centre of the S$NEER band. It did not steepen. (graded No. 176; MAS Monetary Policy Statement 14 Oct 2026 via MERIDIAN Nos. 134, 136, 138)"
   },
   {
    "issue": "113",
@@ -1317,14 +1335,18 @@
    "desk": "Technology",
    "claim": "Anthropic files a petition for rehearing en banc in the D.C. Circuit (docket 26-1049) on or before 9 November 2026",
    "checkBy": "2026-11-10",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Anthropic filed its petition for rehearing en banc in No. 26-1049 on 13 October 2026, against the 25 Sep 2-1 panel ruling, well before 9 Nov. (graded No. 176; The Next Web (citing Bloomberg); MLex; search of docket coverage)"
   },
   {
    "issue": "114",
    "desk": "Technology",
    "claim": "GGML_CUDA_MMQ_PREC acquires at least one follow-up PR or issue in ggml-org/llama.cpp about wrong or missing per-tensor prec metadata in third-party NVFP4/MXFP4 GGUFs by 6 November 2026",
    "checkBy": "2026-11-06",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Yes. PRs #31602 and #31611 in ggml-org/llama.cpp (both 3 Nov) fix missing per-tensor prec metadata (general.tensor_extra / prec_a4) in GGUFs converted from NVIDIA's Nemotron 3.5 NVFP4 checkpoint. #31513 (1 Nov) cites GGML_CUDA_MMQ_PREC=q8 as the workaround for prec hints being dropped. (graded No. 176; GitHub search API, ggml-org/llama.cpp PRs #31513, #31602, #31611)"
   },
   {
    "issue": "114",
@@ -1422,7 +1444,9 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC raises the target range by 25bp to 4.00-4.25 per cent at the 27-28 October 2026 meeting",
    "checkBy": "2026-10-28",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "No hike to 4.00-4.25%. The range stayed at 3.75-4.00% on 28 Oct (10-2). (graded No. 176; Graded rows 519/544/564/649 (MERIDIAN No. 149, Fed statement 28 Oct))"
   },
   {
    "issue": "115",
@@ -1512,7 +1536,9 @@
    "desk": "The World",
    "claim": "Serbia's SNS-led list wins the most seats at the 25 October 2026 parliamentary election",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "The Student List won. With 98.71% counted it had 53.50% against 39.64% for Vucic's SNS-led 'United Serbia' list. (graded No. 176; MERIDIAN No. 146 (Republic Electoral Commission count))"
   },
   {
    "issue": "116",
@@ -1588,14 +1614,18 @@
    "desk": "The Macro Desk",
    "claim": "The US 10-year Treasury par yield closes above 5.17% on at least one day before 31 October 2026",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "The 10-year closed above 5.17% on several days: 5.29 (30 Sep), 5.31 (5 Oct, the October high), 5.28 (7 Oct), 5.21 (13 Oct). (graded No. 176; FRED DGS10 via state/macro-ledger.json)"
   },
   {
    "issue": "116",
    "desk": "The Macro Desk",
    "claim": "The Federal Reserve raises the target range again at the October 2026 FOMC",
    "checkBy": "2026-11-01",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "The Fed did not raise again in October: held at 3.75-4.00% on 28 Oct. (graded No. 176; Graded rows 519/544/564/649 (MERIDIAN No. 149, Fed statement 28 Oct))"
   },
   {
    "issue": "116",
@@ -1616,7 +1646,9 @@
    "desk": "The Diary",
    "claim": "Kyushu Basho 2026 remains sold out on the official English channel through its 8 November opening",
    "checkBy": "2026-11-08",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Sold out. From mid-October the Sumo Association's English site read 'Tickets are sold out all dates. There will be no tickets sold on the day', and it still did on 2 Nov, before the 8 Nov opening. (graded No. 176; MERIDIAN Nos. 121, 124, 150 (Japan Sumo Association English site and official agent))"
   },
   {
    "issue": "116",
@@ -1831,7 +1863,9 @@
    "desk": "The Good Life",
    "claim": "Bose's wired noise-cancelling earbuds go on sale on 15 October 2026 at US$99",
    "checkBy": "2026-10-20",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Bose's press release: Noise Cancelling Wired Earbuds at US$99 'will start shipping on October 15'. They are now on sale at US$99 with buyer reviews (Bose's store had briefly shown 13 Oct). (graded No. 176; bose.com pressroom release (28 Sep 2026); bose.com product page, read 27 Nov; Tom's Guide on the 13/15 Oct discrepancy)"
   },
   {
    "issue": "117",
@@ -1936,7 +1970,9 @@
    "desk": "The Diary",
    "claim": "Kyushu Basho first-week weekday chair seats are still available on 1 November 2026",
    "checkBy": "2026-11-01",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "There were no seats. The Kyushu Basho sold out all fifteen days by mid-October, chair seats included; the Association's site read 'sold out all dates' well before 1 Nov. (graded No. 176; MERIDIAN Nos. 119, 121, 124 (Japan Sumo Association English site))"
   },
   {
    "issue": "117",
@@ -1985,7 +2021,9 @@
    "desk": "The Long Read",
    "claim": "Taiwan passes a digital intermediary services or equivalent platform-accountability statute by 28 November 2026",
    "checkBy": "2026-11-28",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "No such statute passed. The digital intermediary services bill (NCC draft, 2022) is still not law, and no 2026 Legislative Yuan third reading of it or an equivalent platform-accountability act was found. (graded No. 176; Web search of Taiwanese press (PTS, iThome, UDN); MERIDIAN No. 117 ('the digital intermediary services bill never passed)"
   },
   {
    "issue": "117",
@@ -2006,14 +2044,18 @@
    "desk": "The Long Read",
    "claim": "Shen Po-yang passes 800,000 followers by 28 November 2026",
    "checkBy": "2026-11-28",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Shen Po-yang's verified Threads account (@pumashen) shows 925K followers, well past 800,000. (graded No. 176; threads.com/@pumashen, read 27 Nov 2026)"
   },
   {
    "issue": "117",
    "desk": "The Long Read",
    "claim": "Taiwan's election-deepfake penalties, announced 21 September, are in legal effect by 28 November 2026",
    "checkBy": "2026-11-28",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "In force. The 21 Sep Justice Ministry move was a crackdown under the 2023 election-law amendments: verified deepfakes must come down within two days, with Central Election Commission fines for platforms that don't comply. The 'up to seven years' figure printed in No. 117 could not be confirmed. (graded No. 176; Taipei Times, 21 Sep 2026; Tech Policy Press; web search)"
   },
   {
    "issue": "117",
@@ -2027,14 +2069,18 @@
    "desk": "The Macro Desk",
    "claim": "The US 2s10s par spread is wider on 31 October 2026 than the 37bp of 29 September",
    "checkBy": "2026-10-31",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "Wider, by a single basis point: 2s10s was 0.38pp on 30 Oct (10y 4.94, 2y 4.56) against 0.37 on 29 Sep. (graded No. 176; FRED T10Y2Y / DGS10 / DGS2 via state/macro-ledger.json)"
   },
   {
    "issue": "118",
    "desk": "The Macro Desk",
    "claim": "The FOMC raises its target range again at the 28 October 2026 meeting",
    "checkBy": "2026-10-28",
-   "status": "open"
+   "status": "wrong",
+   "outcome": "wrong",
+   "result": "The FOMC held at 3.75-4.00% on 28 Oct. (graded No. 176; Graded rows 519/544/564/649 (MERIDIAN No. 149, Fed statement 28 Oct))"
   },
   {
    "issue": "118",
@@ -2131,7 +2177,9 @@
    "desk": "The Diary",
    "claim": "Tokyo International Film Festival general tickets go on sale 17 October 2026",
    "checkBy": "2026-10-18",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "General tickets for the 39th TIFF went on sale on Saturday 17 October 2026, 10:00 (adult ¥2,200, student ¥1,100). (graded No. 176; Pia festival guide and eiga.com TIFF screening pages (official site not read directly))"
   },
   {
    "issue": "118",
@@ -2222,7 +2270,9 @@
    "desk": "The Macro Desk",
    "claim": "The FOMC holds rather than hikes at the 27-28 October 2026 meeting",
    "checkBy": "2026-10-28",
-   "status": "open"
+   "status": "right",
+   "outcome": "right",
+   "result": "The FOMC held at 3.75-4.00% on 28 Oct, 10-2. (graded No. 176; Graded rows 519/544/564/649 (MERIDIAN No. 149, Fed statement 28 Oct))"
   },
   {
    "issue": "119",
@@ -2475,7 +2525,8 @@
    "desk": "The Diary",
    "claim": "Kyushu Basho same-day tickets remain unavailable for the whole 8-22 November tournament",
    "check_by": "2026-11-22",
-   "outcome": null
+   "outcome": "right",
+   "result": "The official site and agent read 'There will be no tickets sold on the day' throughout, and no same-day release was reported through the 22 Nov senshuraku. (graded No. 176; MERIDIAN Nos. 124, 150, 167 (Japan Sumo Association English site; eplus refused))"
   },
   {
    "issue": 125,
@@ -2941,7 +2992,8 @@
    "desk": "The Travel Desk",
    "claim": "Shuri Castle's Seiden opens to the public on 23 November 2026 as scheduled",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Shuri Castle Park announced 'On 23 November 2026, the Seiden finally opens to the public!' (opening at noon, timed reservations). Opening-day tickets sold out, and a 25 Nov notice runs shuttle buses from 23 to 29 Nov. No postponement. (graded No. 176; oki-park.jp/shurijo (notices of 21 and 25 Nov 2026), read 27 Nov; Ryukyu Shimpo, 19-20 Nov)"
   },
   {
    "issue": 129,
@@ -4219,7 +4271,8 @@
    "desk": "The Diary",
    "claim": "ART SG 2027's two-for-one early-bird offer closes on 24 November 2026 as published, without extension",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Extended. artsg.com/tickets now reads 'Early Bird Tickets EXTENDED!' and 'Offer Ends 2 December 2026, 11.59 pm'. The two-for-one (Friday adult pair S$40, weekend S$44) did not close on 24 November. (graded No. 176; artsg.com/tickets, read 27 Nov 2026; MERIDIAN No. 175 Diary (artsg.com read 26 Nov))"
   },
   {
    "issue": 142,
@@ -4889,7 +4942,8 @@
    "desk": "The Diary",
    "claim": "ART SG 2027's two-for-one early bird closes on schedule at 11.59pm on 24 November 2026",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Extended. artsg.com/tickets now reads 'Early Bird Tickets EXTENDED!' and 'Offer Ends 2 December 2026, 11.59 pm'. The two-for-one (Friday adult pair S$40, weekend S$44) did not close on 24 November. (graded No. 176; artsg.com/tickets, read 27 Nov 2026; MERIDIAN No. 175 Diary (artsg.com read 26 Nov))"
   },
   {
    "issue": 147,
@@ -5137,7 +5191,8 @@
    "desk": "The Diary",
    "claim": "Christmas Wonderland 2026 ticket prices are published before 27 November, with advance adult at or above S$9",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Prices were published before 27 Nov, and advance adult entry is S$9 (S$9-13 by session), so at the S$9 line. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 150,
@@ -5252,7 +5307,8 @@
    "desk": "The Macro Desk",
    "claim": "October real PCE returns to +0.3% or better and real disposable income turns positive",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Not a rebound. October real PCE slipped (BEA, 25 Nov). Nominal income rose 0.7% and spending 0.3%, so the real-income leg looks positive, but the real-PCE leg failed. (graded No. 176; BEA Personal Income and Outlays, October 2026 (25 Nov), via MERIDIAN No. 174 p14)"
   },
   {
    "issue": 151,
@@ -5573,7 +5629,8 @@
    "desk": "The Diary",
    "claim": "Gardens by the Bay publishes Christmas Wonderland 2026 ticket prices",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published before opening: christmaswonderland.sg (the organiser's ticket page, also linked from Gardens by the Bay) lists advance adult entry at S$9 (S$9-13 by session), same-day S$3 more, children 3-12 S$7; Gardens by the Bay's own Christmas Wonderland pages carried the Observatory bundles from 13-15 Nov (adult S$18-22). Opens 27 Nov. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 153,
@@ -5920,7 +5977,8 @@
    "desk": "The World",
    "claim": "New Zealand's official result of 27 November leaves National, ACT and NZ First with a majority",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "No majority. The official result on 27 Nov leaves National, ACT and NZ First on 65 of 130 seats, one short of the 66 needed. Specials took two electorates off National (Labour won Wairarapa and Hamilton East) and gave the Greens a seat, so both blocs are on 65. (graded No. 176; RNZ, 'Election 2026 final results: Coalition loses majority, another election possible', 27 Nov 2026)"
   },
   {
    "issue": 156,
@@ -6035,7 +6093,8 @@
    "desk": "The Diary",
    "claim": "Christmas Wonderland 2026 publishes ticket prices before 27 November",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published before opening: christmaswonderland.sg (the organiser's ticket page, also linked from Gardens by the Bay) lists advance adult entry at S$9 (S$9-13 by session), same-day S$3 more, children 3-12 S$7; Gardens by the Bay's own Christmas Wonderland pages carried the Observatory bundles from 13-15 Nov (adult S$18-22). Opens 27 Nov. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 158,
@@ -6192,14 +6251,16 @@
    "desk": "The Diary",
    "claim": "Christmas Wonderland 2026 publishes ticket prices before it opens on 27 November",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published before opening: christmaswonderland.sg (the organiser's ticket page, also linked from Gardens by the Bay) lists advance adult entry at S$9 (S$9-13 by session), same-day S$3 more, children 3-12 S$7; Gardens by the Bay's own Christmas Wonderland pages carried the Observatory bundles from 13-15 Nov (adult S$18-22). Opens 27 Nov. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 158,
    "desk": "The Diary",
    "claim": "ART SG 2027's early-bird two-for-one offer closes on 24 November as published",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Extended. artsg.com/tickets now reads 'Early Bird Tickets EXTENDED!' and 'Offer Ends 2 December 2026, 11.59 pm'. The two-for-one (Friday adult pair S$40, weekend S$44) did not close on 24 November. (graded No. 176; artsg.com/tickets, read 27 Nov 2026; MERIDIAN No. 175 Diary (artsg.com read 26 Nov))"
   },
   {
    "issue": 158,
@@ -6319,7 +6380,8 @@
    "desk": "The Diary",
    "claim": "Gardens by the Bay publishes Christmas Wonderland ticket prices before the 27 November opening",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published before opening: christmaswonderland.sg (the organiser's ticket page, also linked from Gardens by the Bay) lists advance adult entry at S$9 (S$9-13 by session), same-day S$3 more, children 3-12 S$7; Gardens by the Bay's own Christmas Wonderland pages carried the Observatory bundles from 13-15 Nov (adult S$18-22). Opens 27 Nov. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 159,
@@ -6389,7 +6451,8 @@
    "desk": "The Diary",
    "claim": "Gardens by the Bay publishes a Christmas Wonderland 2026 admission price before the 27 November opening",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published before opening: christmaswonderland.sg (the organiser's ticket page, also linked from Gardens by the Bay) lists advance adult entry at S$9 (S$9-13 by session), same-day S$3 more, children 3-12 S$7; Gardens by the Bay's own Christmas Wonderland pages carried the Observatory bundles from 13-15 Nov (adult S$18-22). Opens 27 Nov. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 160,
@@ -6647,7 +6710,8 @@
    "desk": "The Family Desk",
    "claim": "MOE releases 2026 PSLE results on 24 November rather than 25 November",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "SEAB press release 'Release of 2026 PSLE results and Secondary 1 Posting Exercise' (17 Nov, updated 18 Nov) fixed the date as Tuesday 24 Nov, 11am. Results came out that day: 40,906 sat and 98.5% can progress. (graded No. 176; SEAB press release 17 Nov 2026 via MERIDIAN No. 171 (Family Desk, note 2); Nos. 172-173)"
   },
   {
    "issue": 162,
@@ -6703,7 +6767,8 @@
    "desk": "The World",
    "claim": "Beijing confirms a three-way Trump–Xi–Putin meeting took place in Shenzhen on 19 November 2026, in its own readout",
    "check_by": "2026-11-22",
-   "outcome": null
+   "outcome": "right",
+   "result": "Xinhua published the full text of the three leaders' 'Declaration toward Peace' and a Xi readout of the Shenzhen meeting on 19 Nov. (graded No. 176; Xinhua, 19 Nov 2026 via MERIDIAN No. 168; predictions row 967)"
   },
   {
    "issue": 163,
@@ -6761,7 +6826,8 @@
    "desk": "The Family Desk",
    "claim": "PSLE results are released on 24 or 25 November 2026, as SEAB tentatively lists",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "SEAB press release 'Release of 2026 PSLE results and Secondary 1 Posting Exercise' (17 Nov, updated 18 Nov) fixed the date as Tuesday 24 Nov, 11am. Results came out that day: 40,906 sat and 98.5% can progress. (graded No. 176; SEAB press release 17 Nov 2026 via MERIDIAN No. 171 (Family Desk, note 2); Nos. 172-173)"
   },
   {
    "issue": 163,
@@ -6825,7 +6891,8 @@
    "desk": "The Diary",
    "claim": "Guns N' Roses plays the National Stadium on 25 November 2026",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "It went ahead. setlist.fm logs a Guns N' Roses World Tour 2026 setlist for 25 November 2026 at the National Stadium, Singapore. (graded No. 176; setlist.fm search, read 27 Nov 2026; gunsnroses.com news (no change notice))"
   },
   {
    "issue": 163,
@@ -6953,7 +7020,8 @@
    "desk": "Screen & Sound",
    "claim": "Ebenezer's second American weekend falls more than 50 per cent from its $19m opening",
    "check_by": "2026-11-23",
-   "outcome": null
+   "outcome": "right",
+   "result": "Ebenezer fell 60% in its second weekend, to US$7.7m from its US$19.01m opening. (graded No. 176; The Numbers, weekend chart 20-22 Nov; Box Office Mojo 2026W47 (MERIDIAN Nos. 171-172 p11))"
   },
   {
    "issue": 164,
@@ -6967,7 +7035,8 @@
    "desk": "The Family Desk",
    "claim": "Singapore's MOE confirms the exact 2026 PSLE results date by press release before 24 November",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Confirmed by press release before 24 Nov: on 17 Nov the board fixed Tuesday 24 Nov. The release is credited to SEAB, the Education Ministry's examinations board, and MOE's posting rules accompanied it. (graded No. 176; SEAB press release 17 Nov 2026 via MERIDIAN No. 171 (Family Desk, note 2); Nos. 172-173)"
   },
   {
    "issue": 165,
@@ -7049,14 +7118,16 @@
    "desk": "Screen & Sound",
    "claim": "Ebenezer's second American weekend falls more than 45 per cent from its $19m opening",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Ebenezer fell 60% in its second weekend, to US$7.7m from US$19.01m, more than 45%. (graded No. 176; The Numbers, weekend chart 20-22 Nov; Box Office Mojo 2026W47 (MERIDIAN Nos. 171-172 p11))"
   },
   {
    "issue": 165,
    "desk": "The Family Desk",
    "claim": "Singapore's PSLE results are released on 24 or 25 November 2026, as the Examinations and Assessment Board's tentative dates state",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "SEAB press release 'Release of 2026 PSLE results and Secondary 1 Posting Exercise' (17 Nov, updated 18 Nov) fixed the date as Tuesday 24 Nov, 11am. Results came out that day: 40,906 sat and 98.5% can progress. (graded No. 176; SEAB press release 17 Nov 2026 via MERIDIAN No. 171 (Family Desk, note 2); Nos. 172-173)"
   },
   {
    "issue": 165,
@@ -7091,7 +7162,8 @@
    "desk": "The Diary",
    "claim": "ART SG 2027's Early Bird pricing closes on 24 November 2026 as published, and is not extended",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Extended. artsg.com/tickets now reads 'Early Bird Tickets EXTENDED!' and 'Offer Ends 2 December 2026, 11.59 pm'. The two-for-one (Friday adult pair S$40, weekend S$44) did not close on 24 November. (graded No. 176; artsg.com/tickets, read 27 Nov 2026; MERIDIAN No. 175 Diary (artsg.com read 26 Nov))"
   },
   {
    "issue": 165,
@@ -7302,7 +7374,8 @@
    "desk": "The Diary",
    "claim": "Gardens by the Bay publishes Christmas Wonderland 2026 ticket prices before 27 November 2026",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "Published before opening: christmaswonderland.sg (the organiser's ticket page, also linked from Gardens by the Bay) lists advance adult entry at S$9 (S$9-13 by session), same-day S$3 more, children 3-12 S$7; Gardens by the Bay's own Christmas Wonderland pages carried the Observatory bundles from 13-15 Nov (adult S$18-22). Opens 27 Nov. (graded No. 176; MERIDIAN Nos. 162-163 (Gardens by the Bay pages read 15 Nov), No. 168 (christmaswonderland.sg ticket page, read 19-20 No)"
   },
   {
    "issue": 166,
@@ -7362,28 +7435,32 @@
    "desk": "The Macro Desk",
    "claim": "The Four lean: VWRA lower; wrong if NAV is above US$186 by 26 Nov (182.57 on 17 Nov)",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "VWRA NAV was lower: US$178.42 on 26 Nov against 182.57 on 17 Nov, and never above US$186 (high 182.57). (graded No. 176; Vanguard VWRA product page NAV table, read 27 Nov; state/macro-ledger.json)"
   },
   {
    "issue": 167,
    "desk": "The Macro Desk",
    "claim": "The Four lean: PIMCO Income (both classes) slightly lower; wrong if the junk spread closes back under 3.20",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "PIMCO Income rose instead of falling: 1-week +0.81% SGD-hedged and +0.78% USD (24 Nov), +0.76%/+0.78% (26 Nov). The junk-spread trigger never fired (HY OAS low 3.43, so never under 3.20), but the call was 'lower'. The Macro Desk graded it wrong in No. 174. (graded No. 176; state/macro-ledger.json (POEMS fund finder, FRED BAMLH0A0HYM2); MERIDIAN No. 174 p14)"
   },
   {
    "issue": 167,
    "desk": "The Macro Desk",
    "claim": "The Four lean: gold lower while the real yield holds above 2.60; wrong on a close above $3,850 (3,724.50 on 18 Nov)",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "Gold was lower: Kitco spot US$3,566.50 on 26 Nov against 3,724.50 on 18 Nov, with no close above US$3,850. The 10-year real yield held above 2.60 (2.73 on 25 Nov). (graded No. 176; Kitco spot via state/macro-ledger.json; FRED DFII10 / Treasury real curve)"
   },
   {
    "issue": 167,
    "desk": "The Macro Desk",
    "claim": "The Four lean: bitcoin lower; wrong above $68,000 (62,459 on 18 Nov)",
    "check_by": "2026-11-26",
-   "outcome": null
+   "outcome": "right",
+   "result": "Bitcoin was lower: Coinbase US$60,666 on 26 Nov against 62,459 on 18 Nov. Highest daily close since was 63,171, and the 23 Nov intraday high was 64,534, never above US$68,000. (graded No. 176; FRED CBBTCUSD via macro ledger; Coinbase Exchange daily candles)"
   },
   {
    "issue": 167,
@@ -7413,14 +7490,16 @@
    "desk": "Screen & Sound",
    "claim": "Sunrise on the Reaping's domestic opening (20-22 Nov): Variety's US$100m+ target vs Lionsgate's US$85m projection",
    "check_by": "2026-11-23",
-   "outcome": null
+   "outcome": "right",
+   "result": "It opened at US$119.3m (3-day, 4,018 cinemas), clearing Variety's US$100m+ and far above Lionsgate's US$85m projection. (graded No. 176; The Numbers, weekend chart 20-22 Nov; Box Office Mojo 2026W47 (MERIDIAN Nos. 171-172 p11))"
   },
   {
    "issue": 167,
    "desk": "Screen & Sound",
    "claim": "I Play Rocky takes US$10-13m in its nationwide weekend",
    "check_by": "2026-11-23",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "I Play Rocky took US$9.32m in its first wide weekend (2,477 screens), below the US$10-13m range. (graded No. 176; The Numbers weekend chart 20-22 Nov; Box Office Mojo (MERIDIAN No. 172 p11))"
   },
   {
    "issue": 167,
@@ -7469,28 +7548,32 @@
    "desk": "The Macro Desk",
    "claim": "Lean: VWRA lower over the week; wrong if NAV closes above US$186 by 26 Nov",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "VWRA NAV was lower over the week: 178.42 (26 Nov) against 181.72 (18 Nov), never above US$186. (graded No. 176; Vanguard VWRA product page NAV table, read 27 Nov)"
   },
   {
    "issue": 168,
    "desk": "The Macro Desk",
    "claim": "Lean: PIMCO Income steady (both classes); wrong if the US 10-year closes above 5.15%",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "The 10-year never closed above 5.15% (5.07 on 18 Nov, 4.85 on 25 Nov). The fund was steady to firmer at +0.76%/+0.78% for the week to 26 Nov. 'Steady' is a generous reading of that gain. (graded No. 176; FRED DGS10 / Treasury par curve; POEMS 1-week returns via macro ledger)"
   },
   {
    "issue": 168,
    "desk": "The Macro Desk",
    "claim": "Lean: gold lower; wrong if spot closes above $3,800",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Gold was lower: US$3,566.50 (26 Nov) and 3,654 (27 Nov) against 3,724.50 on 18 Nov, with no close above US$3,800. (graded No. 176; Kitco spot via macro ledger; kitco.com read 27 Nov 16:14 NY)"
   },
   {
    "issue": 168,
    "desk": "The Macro Desk",
    "claim": "Lean: bitcoin lower; wrong above $68,000",
    "check_by": "2026-11-27",
-   "outcome": null
+   "outcome": "right",
+   "result": "Bitcoin was lower: about US$59,780 on 27 Nov against 63,171 on 18 Nov, never above US$68,000. (graded No. 176; Coinbase spot API, 27 Nov 21:15 UTC; FRED CBBTCUSD)"
   },
   {
    "issue": 168,
@@ -7638,21 +7721,24 @@
    "desk": "The Macro Desk",
    "claim": "Lean: PIMCO Income up a little; wrong if US 10-year closes back above 5.10% (4.92 on 20 Nov)",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "right",
+   "result": "PIMCO Income was up a little: +0.76% SGD-hedged and +0.78% USD on the week to 26 Nov. The 10-year never closed back above 5.10% (4.92 on 20 Nov, 4.85 on 25 Nov). (graded No. 176; POEMS via macro ledger; Treasury par curve via MERIDIAN No. 174)"
   },
   {
    "issue": 169,
    "desk": "The Macro Desk",
    "claim": "Lean: gold lower; wrong on a spot close above $3,700 (3,524 on 20 Nov)",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Gold rose instead of falling: spot US$3,654 at the 27 Nov close (+2.45% on the day), above 3,524 on 20 Nov, and every close since 20 Nov was above it (3,635, 3,551, 3,571, 3,566). The US$3,700 stop was not hit, but the direction was wrong, the same standard the Macro Desk applied to No. 167's PIMCO lean. (graded No. 176; kitco.com, 27 Nov 16:14 NY; Kitco readings in state/macro-ledger.json)"
   },
   {
    "issue": 169,
    "desk": "The Macro Desk",
    "claim": "Lean: bitcoin lower; wrong above $64,000 (58,188 on 20 Nov)",
    "check_by": "2026-11-28",
-   "outcome": null
+   "outcome": "wrong",
+   "result": "Bitcoin rose: about US$59,780 on 27 Nov against 58,188 on 20 Nov, with daily closes of 60-61k all week. It also traded to US$64,534 intraday on 23 Nov, above the US$64,000 line, though no daily close went above it (high close 61,300). (graded No. 176; Coinbase spot API and Coinbase Exchange daily candles, 27 Nov; FRED CBBTCUSD)"
   },
   {
    "issue": 169,
@@ -7680,7 +7766,8 @@
    "desk": "Screen & Sound",
    "claim": "Sunrise on the Reaping opens at US$100m+ domestic (TheWrap's call, printed attributed)",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "US$119.3m opening weekend, above US$100m. (graded No. 176; The Numbers, weekend chart 20-22 Nov; Box Office Mojo 2026W47 (MERIDIAN Nos. 171-172 p11))"
   },
   {
    "issue": 169,
@@ -7729,14 +7816,16 @@
    "desk": "Screen & Sound",
    "claim": "Sunrise on the Reaping's 3-day North American opening (20–22 Nov) is reported at or above $100m (trade projection ~$120m)",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "US$119.3m for the 3-day North American opening, above US$100m (the trade's ~US$120m projection was almost exact). (graded No. 176; The Numbers, weekend chart 20-22 Nov; Box Office Mojo 2026W47 (MERIDIAN Nos. 171-172 p11))"
   },
   {
    "issue": 170,
    "desk": "Screen & Sound",
    "claim": "Sunrise on the Reaping opening ranks fourth of six in the Hunger Games series (below Catching Fire $158.1m and The Hunger Games $152.5m, above Mockingjay Part 2 $102.7m)",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "At US$119.3m it ranks fourth of six: behind Catching Fire (158.1), The Hunger Games (152.5) and Mockingjay Part 1 (121.9), ahead of Mockingjay Part 2 (102.7) and Ballad (44.6). (graded No. 176; The Numbers; MERIDIAN No. 171 p11 ('Only the first film, Catching Fire and Mockingjay - Part 1 opened bigger'))"
   },
   {
    "issue": 170,
@@ -7757,7 +7846,8 @@
    "desk": "The Diary",
    "claim": "Jump Festa 2027 advance lottery opens 24 Nov 2026 10:00 JST",
    "check_by": "2026-11-25",
-   "outcome": null
+   "outcome": "right",
+   "result": "The JF2027 advance lottery (Super Stage viewing and official-shop purchase) opened on 24 Nov 2026 at 10:00 and runs to 30 Nov 17:59, with results around 11 Dec. (graded No. 176; Dengeki Online, Nov 2026 (official schedule))"
   },
   {
    "issue": 170,
@@ -7876,21 +7966,24 @@
    "desk": "Singapore",
    "claim": "More than 20 Singapore-China agreements concluded at the 22nd JCBC on 23 Nov",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "29 agreements were concluded at the 22nd JCBC on 23 Nov (Gan Kim Yong and Ding Xuexiang), a record against 27 last year. (graded No. 176; Prime Minister's Office list of agreements, 23 Nov, via MERIDIAN No. 172 p5)"
   },
   {
    "issue": 171,
    "desk": "Singapore",
    "claim": "PM Wong first foreign leader to land at Western Sydney International, on SIA's inaugural flight, 23 Nov",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Mr Wong arrived on 23 Nov on SIA's first flight into Western Sydney International, the first foreign leader to land there. (graded No. 176; CNA 23 Nov; PMO joint statement and transcript via MERIDIAN No. 173)"
   },
   {
    "issue": 171,
    "desk": "Screen & Sound",
    "claim": "Sunrise on the Reaping Monday actuals land near the $120m domestic estimate",
    "check_by": "2026-11-24",
-   "outcome": null
+   "outcome": "right",
+   "result": "Monday actuals: US$119.3m, just under Sunday's US$120m estimate. (graded No. 176; The Numbers, weekend chart 20-22 Nov; Box Office Mojo 2026W47 (MERIDIAN Nos. 171-172 p11))"
   },
   {
    "issue": 171,
@@ -8317,6 +8410,125 @@
    "desk": "The World",
    "claim": "Estonia's road crossings with Russia close at 07:00 on 1 December as decided",
    "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Diary",
+   "claim": "The Final Fantasy 40th Anniversary Exhibition's phase-2 (6 Feb-5 Mar) tickets will go on sale before the 8 January opening",
+   "check_by": "2027-01-08",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Family Desk",
+   "claim": "SEAB still gives S1 posting results only 'tentatively' for Friday 18 December",
+   "check_by": "2026-12-18",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Long Read",
+   "claim": "On 2 December the UNESCO committee will list both Chud Thai and the Khmer wedding as recommended, without a vote and without Cambodia's delegation speaking against the Thai file.",
+   "check_by": "2026-12-04",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Long Read",
+   "claim": "Before 30 June 2027 Thailand's culture ministry will cite the Chud Thai listing in a public rebuttal of a Cambodian claim.",
+   "check_by": "2027-06-30",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Lean: VWRA lower into 9 December; wrong if NAV above US$184 on 4 Dec (178.42 on 26 Nov)",
+   "check_by": "2026-12-05",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Lean: PIMCO Income (both classes) slightly lower as yields rise; wrong if the US 10-year closes under 4.80% on 4 Dec (4.94 on 27 Nov)",
+   "check_by": "2026-12-05",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Lean: gold lower; wrong on a spot close above $3,750 (3,654 on 27 Nov)",
+   "check_by": "2026-12-05",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Lean: bitcoin lower; wrong above $64,000 (59,791 on 27 Nov)",
+   "check_by": "2026-12-05",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: US 10-year real yield closes below 2.60% (2.79 on 27 Nov) would change the call",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: the Fed does not raise rates on 9 December would change the call",
+   "check_by": "2026-12-10",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Macro Desk",
+   "claim": "Call condition: US high-yield spread closes above 4.0 points (3.77 on 26 Nov, 1-year high) would change the call to a growth scare",
+   "check_by": "2026-12-09",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Rabbit Hole",
+   "claim": "Japan's National Crafts Museum in Kanazawa opens Kintsugi, its history of the repair, on 26 February 2027, to 6 June",
+   "check_by": "2027-02-27",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "Screen & Sound",
+   "claim": "Focker-In-Law finishes the five-day Thanksgiving frame ahead of Hexed (Deadline projections US$40m vs US$35m, printed attributed)",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "Screen & Sound",
+   "claim": "Hexed's five-day total lands closer to Deadline's ~US$35m than to Box Office Theory's US$23m",
+   "check_by": "2026-12-01",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Travel Desk",
+   "claim": "From 28 March, Amsterdam drops back to one 777 a day.",
+   "check_by": "2027-03-29",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The Travel Desk",
+   "claim": "Sisley shower amenities arrive in the First Class SilverKris Lounges by the end of the year (reviewer's understanding, as printed).",
+   "check_by": "2027-01-05",
+   "outcome": null
+  },
+  {
+   "issue": 176,
+   "desk": "The World",
+   "claim": "No EU budget deal at the 17–18 December summit that includes all 27 states in the €45bn Ukraine loan",
+   "check_by": "2026-12-19",
    "outcome": null
   }
  ]

@@ -1,6 +1,11 @@
 {
   "covered": [
     {
+      "category": "Leather jackets",
+      "issue": "176",
+      "angle": "<b>A hide, a tannery and a zip: Aero itself says horse and steer &ldquo;both result in stunning, high quality leathers&rdquo;.</b> Selected from the reader-facing chips of Nos. 174/175 (no queue, vote or note). Aero Chromexcel FQHH 3oz/1.4mm vs CX steer 4oz/1.7mm vs Vicenza 2.25oz/1.1mm; Shinki (Him"
+    },
+    {
       "category": "Chess sets (pieces &amp; boards)",
       "issue": "175",
       "angle": "<b>The Staunton pattern is everyone's; the tiers are set by wood, the hand-carved knight and weighting.</b> Auto-picked from No. 174's chips. Amritsar's Chess Empire says it carves Jaques of London's reproductions (Jaques names no workshop); FIDE standard from 1 Mar 2026 (95mm king, 5-6cm squares, 3"
@@ -532,7 +537,7 @@
       "sources": "Drawer slides rated in kilograms and the few cabinet makers who still publish the rating."
     },
     {
-      "category": "Leather jackets",
+      "category": "~~Leather jackets~~ (COVERED, No. 176)",
       "rotation": "Clothing",
       "fit": "The reader&rsquo;s chip since No. 174; Aero, Himel, Schott, Japanese horsehide makers; Vintage Leather Jackets Forum, r/rawdenim",
       "sources": "Horsehide against cowhide, the tannery behind the label and the zip that fails first; the Singapore-climate honesty line"
@@ -854,6 +859,18 @@
       "rotation": "Craft / tool",
       "fit": "Cast iron against die-cast zinc, and a vintage trade that never depreciates",
       "sources": "Vintage Singer 201/15, Bernina 830, Juki industrials; r/sewing, Quiltingboard, Vintage Singer groups"
+    },
+    {
+      "category": "Telescope eyepieces",
+      "rotation": "Optics / astronomy",
+      "fit": "Glass types, coatings and eye relief, and the few Asian optical works that grind for many Western badges",
+      "sources": "Tele Vue, Pentax, Baader, Explore Scientific, Takahashi; Cloudy Nights, r/telescopes"
+    },
+    {
+      "category": "Down jackets &amp; insulated parkas",
+      "rotation": "Clothing / ski",
+      "fit": "Fill power and fill weight against the baffle construction; the down supplier behind the label and the Japan/ski-trip use case",
+      "sources": "Western Mountaineering, Nanga, Rab, Feathered Friends, Canada Goose; r/Ultralight, Styleforum"
     }
   ],
   "retired": [

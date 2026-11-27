@@ -293,3 +293,7 @@ diacritics folded) · Runs (issue numbers) · Status · Checked · Note.
 | Onori | Onori | 175 | OPEN | No. 175 build | opening run — record the peg here |
 | Hong Jiu Claypot | Hong Jiu Claypot | 175 | OPEN | No. 175 build | opening run — record the peg here |
 | Da Shi Jia Big Prawn Mee | Da Shi Jia Big Prawn Mee | 175 | OPEN | No. 175 build | opening run — record the peg here |
+| Roasting Plant Coffee | Roasting Plant Coffee | 176 | OPEN | No. 176 build | opening run — record the peg here |
+| Hawkers’ Street | Hawkers’ Street | 176 | OPEN | No. 176 build | opening run — record the peg here |
+| Makkee Dessert | Makkee Dessert | 176 | OPEN | No. 176 build | opening run — record the peg here |
+| Chock Full Of Beans | Chock Full Of Beans | 176 | OPEN | No. 176 build | opening run — record the peg here |

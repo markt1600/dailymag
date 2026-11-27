@@ -1,6 +1,12 @@
 {
-  "count": 63,
+  "count": 65,
   "destinations": [
+    {
+      "destination": "<b>The Vallée de Joux &amp; the Swiss Alps, a winter return</b>",
+      "issue": "No. 176 (Weekend Travel Desk, 28 Nov 2026)",
+      "angle": "Winter specialist lens on No. 46: AP Musée Atelier guided-only, 8 per tour, CHF 30 / CHF 20 at 12–17, 90-day booking window, masterclass CHF 390 16+; JLC four visits CHF 40–80; Espace Horloger CHF 14/6; Blancpain & Vacheron no public visits; Bô Noël's final (12th) edition to 31 Dec, Montreux to 24 D",
+      "next_eligible": "~Jan 2028 for the valley; Switzerland only via a different region (an Engadine/Zermatt ski lens or a Geneva-only watch-retail piece) from ~May 2027."
+    },
     {
       "destination": "<b>Takayama &amp; Shirakawa-go in snow, Gifu, Japan</b>",
       "issue": "No. 170 (Weekend Travel Desk, 22 Nov 2026)",
@@ -338,12 +344,6 @@
       "next_eligible": "Drier Feb–May; the lantern full-moon nights; avoid the Sep–Dec flood/typhoon season."
     },
     {
-      "destination": "The Vallée de Joux \\& the Swiss Alps, a winter return",
-      "issue": "A deliberate specialist-lens follow-up to No. 46's summer deep dive — Christmas markets, winter watch-manufacture visits without the summer crowds, and Alpine skiing (a natural pairing with the reader's Whistler habit). Tests whether a fresh season alone earns a re-visit.",
-      "angle": "r/Switzerland, r/skiing, WatchUSeek, TripAdvisor Switzerland Forum",
-      "next_eligible": "Dec–Feb Christmas markets/ski season; book manufacture visits ahead."
-    },
-    {
       "destination": "Porto \\& the Douro Valley, Portugal",
       "issue": "The Lisbon follow that isn't Lisbon: the Ribeira and the port lodges of Vila Nova de Gaia, azulejo façades and the São Bento station hall for a photographer, and a Douro river-and-vineyard run for the food-and-wine angle; cooler and calmer than Lisbon, family-doable, a natural second-Portugal once Lisbon (No. 80) has run.",
       "angle": "r/PortugalTravel, r/travel, TripAdvisor Porto/Douro, local reviews",
@@ -378,6 +378,18 @@
       "issue": "A cool-season northern Thailand run that is a driving story rather than a temple list — the 1,864-bend loop through Pai, Mae Hong Son and Mae Sariang, Karen and Shan villages, coffee country around Doi Chang, and a genuine second city with a craft and food scene; short-haul from Singapore, family-workable, and the burning-season caveat is the honest hook",
       "angle": "r/ThailandTourism, Thaivisa/ASEAN Now, GT-Rider (the definitive loop resource), Chiang Mai CityLife",
       "next_eligible": "Nov–Feb only; avoid Feb–Apr burning season entirely"
+    },
+    {
+      "destination": "Hokkaido's Niseko &amp; Furano in powder season, Japan",
+      "issue": "A ski deep dive the pipeline lacks: Niseko's new gondola and the Moxy (Coverage Ledger) as pegs, Furano as the quieter, family-easier counterpoint; powder-snow ski habit and the 12-year-old's first proper ski school; dark-sky nights and snow photography; honest overtourism/price inflation in Hirafu.",
+      "angle": "r/JapanTravel, r/skiing, r/Niseko, Snowheads, TripAdvisor Hokkaido",
+      "next_eligible": "Jan–Feb peak powder; book ski school and rentals by October."
+    },
+    {
+      "destination": "Kyoto in the camera &amp; audio crawl (specialist return)",
+      "issue": "A specialist-lens revisit of the first-ever deep dive: Kyoto's used-camera dealers, record and hi-fi shops, and craft ateliers (lacquer, metalwork) — photography and premium-audio fit, food, winter low season with fewer crowds and a Kyoto lodging-tax peg (Mar 2026).",
+      "angle": "r/JapanTravel, r/analog, r/audiophile, Tabelog, TripAdvisor Kyoto",
+      "next_eligible": "Jan–Feb low season or late Nov foliage; avoid Golden Week."
     }
   ]
 }

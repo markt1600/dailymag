@@ -1,0 +1,668 @@
+{
+ "show": "The Meridian Briefing",
+ "issue": 176,
+ "date": "Saturday 28 November 2026",
+ "title": "The Age of a Thing",
+ "hosts": {
+  "A": "CLAIRE",
+  "B": "THEO"
+ },
+ "turns": [
+  {
+   "s": "A",
+   "t": "Good morning, Singapore — it's Saturday, the twenty-eighth of November. This is The Meridian Briefing."
+  },
+  {
+   "s": "B",
+   "t": "Twelve desks. One world. Twenty minutes — let's go."
+  },
+  {
+   "s": "A",
+   "t": "Weekend edition. Kintsugi: gold at four hundred and fifty-six US dollars a gram, and a three-month queue to mend a bowl."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Leather jackets — a Scottish horsehide at eight hundred and seventy-five pounds, against Saint Laurent's lambskin at five thousand six hundred US dollars."
+  },
+  {
+   "s": "A",
+   "t": "And Final Fantasy turns forty inside the Tokyo National Museum, from the eighth of January."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A national museum and a video game. Somebody's grandparents are very confused."
+  },
+  {
+   "s": "A",
+   "t": "The spine is \"The Age of a Thing\". How old something has to be before it counts. First, though — Brussels."
+  },
+  {
+   "s": "B",
+   "t": "Where nothing got old, because nothing got agreed."
+  },
+  {
+   "s": "A",
+   "t": "European Union leaders broke up a special summit just after midnight on Friday, after more than twelve hours. No deal on the budget for twenty twenty-eight to twenty thirty-four. No deal on a forty-five billion euro loan to Ukraine for next year. António Costa, the Council president: \"We didn't reach an agreement.\""
+  },
+  {
+   "s": "B",
+   "t": "[sighs] Twelve hours. Five words."
+  },
+  {
+   "s": "A",
+   "t": "Both need all twenty-seven governments, and the clock is French. Emmanuel Macron says that after the thirty-first of December he's in no position, \"politically or democratically\", to reopen it."
+  },
+  {
+   "s": "B",
+   "t": "Because France elects a president in April — and Marine Le Pen has pledged to end French aid to Kyiv. She calls the rush \"underhanded\"."
+  },
+  {
+   "s": "A",
+   "t": "The money. The Commission asked for nearly two trillion euros. Costa's compromise, one point seven eight trillion, cuts two hundred and four billion."
+  },
+  {
+   "s": "B",
+   "t": "Too little for Berlin, too much for Paris."
+  },
+  {
+   "s": "A",
+   "t": "Friedrich Merz says the cut \"will not stop at two hundred and four billion\". Macron calls it a \"strategic mistake\"."
+  },
+  {
+   "s": "B",
+   "t": "[curious] And Ukraine's loan gets dragged in how?"
+  },
+  {
+   "s": "A",
+   "t": "Merz says he'll block the whole budget unless every state shares the cost of Kyiv. Twenty-four states back the loan. Czechia, Hungary and Slovakia refuse; Bulgaria backs it only for non-military needs."
+  },
+  {
+   "s": "B",
+   "t": "And it got personal. Macron walked out to his own press conference — \"I'm trying to bring everyone closer together\"."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Merz replied there were twenty-seven bridge-builders, not one. He also wants \"to be home by Christmas\"."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Don't we all."
+  },
+  {
+   "s": "A",
+   "t": "Two viewpoints on the page. In Budapest, Hungary's new pro-European prime minister, Péter Magyar, called the draft \"a bazaar scene\", and put the odds of a deal at \"pretty much zero\"."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Pro-European, and still a realist. In Kyiv, Zelensky puts next year's hole at seventy billion euros."
+  },
+  {
+   "s": "A",
+   "t": "On Friday the Bundestag voted eleven point six billion for Ukraine in Germany's budget. Almost half of what the loan would leave uncovered."
+  },
+  {
+   "s": "B",
+   "t": "They try again on the seventeenth and eighteenth of December. So, sceptic — disaster, or just how Brussels works?"
+  },
+  {
+   "s": "A",
+   "t": "Guntram Wolff of Bruegel: \"That kind of brinkmanship is part of the process.\" The February twenty twenty budget summit broke up too. Andrej Babiš of Czechia was there, and said, \"we can drive straight home\"."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Same man, same exit line, six years apart."
+  },
+  {
+   "s": "A",
+   "t": "One flag. The figure that defence and space take the deepest cuts, almost thirty per cent, comes from a single opinion piece. An argument, not a number."
+  },
+  {
+   "s": "B",
+   "t": "Up, then. Way up. Pakistan has its first astronaut — Muhammad Zeeshan Ali, forty, a former military pilot."
+  },
+  {
+   "s": "A",
+   "t": "He floated into China's Tiangong station on Wednesday the twenty-fifth. The first foreigner aboard. He stays about a week, as a payload specialist: microalgae as a possible food and oxygen source, and quinoa seeds."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] And before launch he told his family he'd \"always search for the light of our home\". Also — CGTN says butter chicken was on the halal menu."
+  },
+  {
+   "s": "A",
+   "t": "And nobody agreed on the population. Shehbaz Sharif said two hundred and forty million Pakistanis. Ali said two hundred and fifty. A minister, two hundred and sixty."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] Twenty million people, lost on the way to orbit."
+  },
+  {
+   "s": "A",
+   "t": "The sceptic: Musarat Amin of NUST says Pakistan flies \"as the invited guest\", and Ali built and flew no ship. A cut of over ninety per cent to the space agency's development budget is single-sourced, to Quwa."
+  },
+  {
+   "s": "B",
+   "t": "Meanwhile Zhu Yangzhu stays aboard for China's first full year in orbit. Right — Claire, the money."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] My favourite part of the week. The S and P five hundred rose one point six per cent in Friday's half-day, to seven thousand two hundred and ninety-seven. Up five point six per cent on the week. But here's what's new. Bonds fell while shares rose."
+  },
+  {
+   "s": "B",
+   "t": "[curious] Mechanism, please. Why would good news hurt bonds?"
+  },
+  {
+   "s": "A",
+   "t": "On Wednesday the Bureau of Economic Analysis revised third-quarter growth to four point three per cent, from three point four. And the Fed meets for the last time this year on the ninth of December, with markets expecting a rise."
+  },
+  {
+   "s": "B",
+   "t": "So a faster economy makes dearer money likelier — bonds get sold, yields go up, and the bonds you already hold lose value."
+  },
+  {
+   "s": "A",
+   "t": "The two-year to four point six nine per cent. The ten-year to four point nine four. The real yield, after inflation, two point seven nine."
+  },
+  {
+   "s": "B",
+   "t": "And the lenders? Did credit join the party?"
+  },
+  {
+   "s": "A",
+   "t": "No. The junk-bond spread widened to three point seven seven points, a one-year high. The Chicago Fed's conditions index has tightened thirteen weeks running. Thin holiday trading lifted shares."
+  },
+  {
+   "s": "B",
+   "t": "A bounce, not a recovery. Now — The Four. Last Saturday's leans, graded honestly."
+  },
+  {
+   "s": "A",
+   "t": "V W R A: we leaned lower, and its net asset value rose to one hundred and seventy-eight dollars forty-two. Looks wrong. PIMCO Income: we said up a little, and the Singapore-hedged class rose point seven six per cent. Right."
+  },
+  {
+   "s": "B",
+   "t": "Gold and bitcoin — I'm bracing."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Both leaned lower. Both wrong. Gold closed at three thousand six hundred and fifty-four dollars. Bitcoin, fifty-nine thousand seven hundred and ninety-one."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] One out of four. You read that with great dignity."
+  },
+  {
+   "s": "A",
+   "t": "The new leans are all lower, each with a price that would prove it wrong. Explanation, not advice."
+  },
+  {
+   "s": "B",
+   "t": "And page fifteen is the one I'd frame. Robert Shiller's lost decades."
+  },
+  {
+   "s": "A",
+   "t": "Shiller's ratio divides the index's price by ten years of inflation-adjusted profit. It read thirty-six point four four on the twentieth of November."
+  },
+  {
+   "s": "B",
+   "t": "And when it's started above thirty?"
+  },
+  {
+   "s": "A",
+   "t": "Since eighteen eighty-one, fifty-seven months did. The next ten years returned minus one per cent a year after inflation. Ten-year Treasuries beat shares in fifty-three of them. Above thirty-five, where it sits now, bonds won all thirty-four."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] All of them. [skeptical] Okay — what's the catch?"
+  },
+  {
+   "s": "A",
+   "t": "Those months are really two episodes, nineteen twenty-nine and nineteen ninety-seven to two thousand and two. Two lessons, not fifty-seven. The house call, a real-rate shock, held since number one sixty-two, stands. But the junk spread is point two three short of its four-point trigger. Not advice."
+  },
+  {
+   "s": "B",
+   "t": "From Wall Street to Mandai. The National Environment Agency is raising the cremation fee — for the first time since nineteen ninety-seven."
+  },
+  {
+   "s": "A",
+   "t": "From the first of January, a citizen's cremation goes from one hundred Singapore dollars to one hundred and seventy-five. Non-residents, three hundred and fifty. A standard niche, five hundred to six hundred."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] Twenty-nine years at a hundred dollars. And one fee actually falls?"
+  },
+  {
+   "s": "A",
+   "t": "Scattering ashes on land. Three hundred and twenty down to two hundred. Behind it all, deaths are projected to rise from about twenty-six thousand five hundred in twenty twenty-five to around forty thousand by twenty forty."
+  },
+  {
+   "s": "B",
+   "t": "And the sceptic says it's not really about the furnace."
+  },
+  {
+   "s": "A",
+   "t": "It's about the land. The only cut rewards families who keep no niche. The state is pricing its scarce columbaria and graves."
+  },
+  {
+   "s": "B",
+   "t": "[wry] It's always land, in Singapore. Technology — and a very loud Friday in China."
+  },
+  {
+   "s": "A",
+   "t": "An index of forty Chinese chipmakers rose seventeen point six per cent. Its biggest one-day gain on record."
+  },
+  {
+   "s": "B",
+   "t": "[excited] Seventeen per cent. In a day. For a whole index."
+  },
+  {
+   "s": "A",
+   "t": "The trigger: a State Council meeting under Premier Li Qiang told the \"national team\" of state-backed funds to steady the market, with \"ample liquidity\"."
+  },
+  {
+   "s": "B",
+   "t": "And the readout mentions chips —"
+  },
+  {
+   "s": "A",
+   "t": "— not once. Not chips, not technology, not AI. Investors drew the link, helped by a Bloomberg report that Huawei will present a memory design in February claiming double the data-pin density of Samsung and SK Hynix."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] The market wrote its own subtext. Sceptic?"
+  },
+  {
+   "s": "A",
+   "t": "From mid-September twenty twenty-four the CSI three hundred rose more than twenty-five per cent — then fell seven point oh five per cent in a single day."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Rallies on a promise have a short shelf life. Now — the Home Lab. Tencent has given away a translator that runs with no internet."
+  },
+  {
+   "s": "A",
+   "t": "Hy-MT three. Free models in three sizes, a hundred and two languages, including all four of Singapore's official languages. The smallest is a one point three five gigabyte file."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] So the tenancy contract, the doctor's letter — they never leave your house."
+  },
+  {
+   "s": "A",
+   "t": "Tencent says that small one outscores Microsoft Translator, seventy-five point oh five to seventy-one point oh nine. An outside tester, Subtitle Edit's maintainer, rated it better than its predecessor in German. The asterisk: every score comes from Tencent's own judge, which averages two AI models — one of them a rival in the same table. No Google Translate or DeepL comparison."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] Marking its own homework. The Kit: Garmin's cut the Fenix nine."
+  },
+  {
+   "s": "A",
+   "t": "A hundred US dollars off every version in America, eighty-eight days after launch. Ray Maker of DC Rainmaker found no earlier Garmin-approved sale on a just-launched Fenix. Singapore isn't in on it: Garmin's store here showed one thousand three hundred and forty-nine dollars for the forty-three millimetre watch, and no promotion."
+  },
+  {
+   "s": "B",
+   "t": "Maker's best guess for why now was my favourite line of the week. \"Revenue is revenue.\""
+  },
+  {
+   "s": "A",
+   "t": "The sceptic, Tom's Guide's Nick Harris-Fry: the older Fenix eight Pro, at three hundred and fifty dollars off, is still better value. Most of the new software is rolling back to it."
+  },
+  {
+   "s": "B",
+   "t": "Though the Pro's torch now has a green mode, to spare your night vision. Which, in a leather jacket —"
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] Smooth. The Atelier. A jacket is three things: a hide, a tannery and a zip."
+  },
+  {
+   "s": "B",
+   "t": "Horse is dense and slow to break in. Steerhide is thicker, softens faster. Goat is supple and sheds rain. And the forums will fight to the death over horse versus steer."
+  },
+  {
+   "s": "A",
+   "t": "Aero, the Scottish maker, says both \"result in stunning, high quality leathers\"."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] A thousand forum threads, deflated in one sentence."
+  },
+  {
+   "s": "A",
+   "t": "The ladder. Schott's six-eighteen Perfecto, American-made steerhide, one thousand and twenty US dollars. The sweet spot, Aero's Highwayman in horsehide, eight hundred and seventy-five pounds before VAT, made to order in ten to twelve weeks."
+  },
+  {
+   "s": "B",
+   "t": "And the grail is Himel Bros' bespoke Canuck in Shinki horsehide — the Himeji tannery the obsessives name — at two thousand nine hundred and fifty US dollars."
+  },
+  {
+   "s": "A",
+   "t": "Or The Real McCoy's A two, three thousand five hundred and ninety-one Singapore dollars, still closed with a nineteen-forties-pattern zip. And the zip goes first. Vanson's twenty nineteen list charged twenty dollars for a new slider."
+  },
+  {
+   "s": "B",
+   "t": "[skeptical] And Saint Laurent's lamb at five thousand six hundred?"
+  },
+  {
+   "s": "A",
+   "t": "No tannery named. Five and a half Schott six-eighteens. And be honest about the weather: Singapore nights rarely drop below twenty-three degrees, Tokyo averages five point four in January. It's a travel coat."
+  },
+  {
+   "s": "B",
+   "t": "Right — take my hand. We're going down the rabbit hole."
+  },
+  {
+   "s": "A",
+   "t": "[sighs] Every week, Theo."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And every week you take the hand. Kintsugi. Explain it like I've just dropped my favourite bowl."
+  },
+  {
+   "s": "A",
+   "t": "You mend it with urushi — the sap of the lacquer tree, a cousin of poison ivy — and you finish the seam in gold."
+  },
+  {
+   "s": "B",
+   "t": "Poison ivy. Lovely start."
+  },
+  {
+   "s": "A",
+   "t": "And urushi doesn't dry. It cures, slowly, in warm, damp air. So a real repair takes weeks to months. The gold is dusted onto a last thin line of red lacquer. The founding story: in the late fifteenth century, Ashikaga Yoshimasa sent a cracked Chinese tea bowl home for mending — and it came back held together with metal staples."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] And somebody in Japan thought, we can do better than staples."
+  },
+  {
+   "s": "A",
+   "t": "This week's peg. Tsugu Tsugu, a Tokyo kintsugi firm, opened its third studio on the first of November, in a wooden house over seventy years old in Kyoto. A ninety-minute class costs twenty-two thousand yen."
+  },
+  {
+   "s": "B",
+   "t": "Sold. I'm going."
+  },
+  {
+   "s": "A",
+   "t": "[wry] The craftspeople prepare the pieces. You brush on the gold."
+  },
+  {
+   "s": "B",
+   "t": "So I do the bit that goes on Instagram."
+  },
+  {
+   "s": "A",
+   "t": "Precisely. The same firm also sells a six thousand six hundred yen \"kintsugi-style\" class in epoxy, for children from six. Most online kits are epoxy and brass powder too — ten to thirty euros, says a French urushi seller with a stake."
+  },
+  {
+   "s": "B",
+   "t": "Okay. The fun fact I was promised. The economics."
+  },
+  {
+   "s": "A",
+   "t": "The lacquer is cheap. Watanabe Shoten's raw lacquer: one thousand one hundred yen for forty grams. The gold is dear. Tsugu Tsugu's twenty-four-carat maru gold works out about four hundred and fifty-six US dollars a gram."
+  },
+  {
+   "s": "B",
+   "t": "[gasps] So the sap is pocket change and the sparkle is the mortgage."
+  },
+  {
+   "s": "A",
+   "t": "But cheap isn't plentiful. Japan grows almost none of its own lacquer. The Forestry Agency counted one point seven tonnes tapped in twenty twenty-three, against twenty-nine point eight used. Five point five per cent."
+  },
+  {
+   "s": "B",
+   "t": "Wait — really? Where's the rest from?"
+  },
+  {
+   "s": "A",
+   "t": "A Fukuoka broadcaster reported about ninety-three per cent of supply is Chinese."
+  },
+  {
+   "s": "B",
+   "t": "[amused] So the Japanese art of the gold seam runs on Chinese sap. That's the spine, right there."
+  },
+  {
+   "s": "A",
+   "t": "It is. And if you'd rather pay someone: Tsugu Tsugu's Tokyo studios mend a chip from three thousand three hundred yen. At least three months. The longest wait has been a year. Pay double and you jump to about a month. Nothing by post from abroad."
+  },
+  {
+   "s": "B",
+   "t": "[laughs] So I carry my broken bowl to Tokyo and wait a season. Or I do it myself."
+  },
+  {
+   "s": "A",
+   "t": "Like Fredrik Flornes Ellertsen, a Norwegian engineer. He broke his mug in February twenty twenty-four, bought a starter kit, and cured each layer in a cardboard box with a wet towel, in his bathroom cupboard."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] I love him already. How long?"
+  },
+  {
+   "s": "A",
+   "t": "The glue alone, two weeks. The whole mend, \"several months\". His verdict: \"not perfect by any stretch of the imagination\"."
+  },
+  {
+   "s": "B",
+   "t": "The most kintsugi sentence ever written. And that damp box has a name."
+  },
+  {
+   "s": "A",
+   "t": "The muro, kept near ninety per cent humidity. Which brings us home. November's air in Singapore averages eighty-four point nine per cent. Inside the range Japanese makers aim for — though too much heat can kill the enzyme that sets it."
+  },
+  {
+   "s": "B",
+   "t": "[excited] So the whole island is a curing cupboard! Where do I sign up?"
+  },
+  {
+   "s": "A",
+   "t": "That's the twist. The classes the desk found here — LivArtFully, Gold and Behold, Kintsugi Art Studio — use epoxy or resin. No local class in real lacquer could be found."
+  },
+  {
+   "s": "B",
+   "t": "[sighs] The one city built for it, and nobody's doing it. So how does a Singaporean learn it properly?"
+  },
+  {
+   "s": "A",
+   "t": "By video or by flight. Kintsugi Oxford sells a starter kit with a ninety-minute private Zoom lesson from one hundred and fifty-five pounds. And Tsugu Tsugu quoted free, duties-paid delivery of its one hundred and sixty-nine US dollar kit to Singapore."
+  },
+  {
+   "s": "B",
+   "t": "And a week in Kyoto doesn't do it?"
+  },
+  {
+   "s": "A",
+   "t": "Tsugu Tsugu itself warns that on short stays the lacquer \"may not have enough time to fully cure between steps\". And the sceptic adds the rash, called kabure. A Hacker News lacquerer warns even veterans can \"suddenly become sensitized\"."
+  },
+  {
+   "s": "B",
+   "t": "[scoffs] So gloves, patience, and a long holiday. How big is the actual hobby?"
+  },
+  {
+   "s": "A",
+   "t": "The biggest teaching channel on YouTube, Kintsugi Library, has thirteen thousand three hundred subscribers. Reddit's kintsugi forum refused the desk, so its size is held."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] You know what gets me, though? Most repairs try to hide. This one puts the crack in gold."
+  },
+  {
+   "s": "A",
+   "t": "[pause] Fine. That one I'll allow."
+  },
+  {
+   "s": "B",
+   "t": "Quick Scoreboard — we keep score on ourselves."
+  },
+  {
+   "s": "A",
+   "t": "Eighty-two calls came due. Forty-eight right, twenty wrong, fourteen unsettled. The loudest miss was ours, four times over: numbers one ten, one fifteen, one sixteen and one eighteen said the Fed would raise rates in October. It held, ten votes to two."
+  },
+  {
+   "s": "B",
+   "t": "[wry] Four issues. Same wrong answer. Committed to the bit."
+  },
+  {
+   "s": "A",
+   "t": "Only number one nineteen called the hold. Unsettled rows carry forward."
+  },
+  {
+   "s": "B",
+   "t": "Culture. The Fockers beat Disney on Thanksgiving."
+  },
+  {
+   "s": "A",
+   "t": "Universal's Focker-In-Law took seven point seven million US dollars on Thursday, to four point five million for Disney's Hexed. Deadline expects about thirty-five million for Hexed over the five days — a projection from Thursday's takings."
+  },
+  {
+   "s": "B",
+   "t": "And Hexed cost about two hundred million before marketing. One of Letterboxd's top reviews: \"better than wish at least\"."
+  },
+  {
+   "s": "A",
+   "t": "[deadpan] A ringing endorsement. The hopeful precedent is Encanto, which found its audience later on Disney Plus. The sceptic says Hexed is tracking close to Wish — and a film that tracks Wish earns Wish's money."
+  },
+  {
+   "s": "B",
+   "t": "The Good Life — Piaget wears Warhol. In nineteen eighty-six, his assistant Jay Shriver found camouflage fabric in a Manhattan army-surplus store."
+  },
+  {
+   "s": "A",
+   "t": "Now it's eighty-six watches in white gold, the dial twenty-seven cut pieces of sodalite, turquoise and two golds. SJX, in a piece made in partnership with Piaget, lists it at one hundred and twenty-two thousand Singapore dollars before tax."
+  },
+  {
+   "s": "B",
+   "t": "And Warhol owned seven Piagets. One ran on the Beta twenty-one, the first Swiss quartz wristwatch movement."
+  },
+  {
+   "s": "A",
+   "t": "The Family Desk. A Melbourne study of a hundred and forty-five girls found bigger oestradiol swings went with slightly fewer anxiety and low-mood symptoms. Not more."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The lead author, Muskan Khetan: \"Up-and-down hormones are part of growing up, and they aren't necessarily a sign that something is wrong.\""
+  },
+  {
+   "s": "A",
+   "t": "Small effects, though — and the reassuring result holds only after one influential girl was dropped. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Fitness. Loughborough put women aged fifty to seventy on a hack squat, twice a week for eight months. Light loads, driven up \"as if trying to jump\", built hip bone. Slow, heavy lifting didn't move the hip."
+  },
+  {
+   "s": "A",
+   "t": "Abstract only, women only, density not fractures. General guidance, not medical advice."
+  },
+  {
+   "s": "B",
+   "t": "Travel, and the Grand Tour is the dream: the Vallée de Joux in winter. Audemars Piguet's museum guides eight people at a time."
+  },
+  {
+   "s": "A",
+   "t": "Thirty francs for adults, twenty for twelve to seventeen. Tickets open ninety days ahead, so late February goes on sale about now. And Lac de Joux may not freeze — in twenty seventeen only part opened."
+  },
+  {
+   "s": "B",
+   "t": "Diary pick. Final Fantasy at the Tokyo National Museum — three thousand two hundred yen for adults. And the bundle with a set of framed pins costs nine thousand nine hundred and ninety-nine yen more."
+  },
+  {
+   "s": "A",
+   "t": "[amused] The series' famous damage cap. Only the first phase is on sale, until the seventh of January. And the sceptic: it fills the museum's nineteen-oh-nine annexe, co-organised with Square Enix, and the release doesn't say which museum originals hang."
+  },
+  {
+   "s": "B",
+   "t": "And at home, Chingay goes on sale on Wednesday."
+  },
+  {
+   "s": "A",
+   "t": "[pause] Which is also the day of the Undercurrent."
+  },
+  {
+   "s": "B",
+   "t": "On Wednesday, the second of December, a UNESCO committee in Xiamen decides whether Thailand's national dress, Chud Thai, joins the list of the world's living heritage."
+  },
+  {
+   "s": "A",
+   "t": "Bangkok has been asked to gather in Thai dress in front of City Hall from ten. Grab is offering fifteen per cent off rides there."
+  },
+  {
+   "s": "B",
+   "t": "And Cambodia — which fought Thailand on their border in July and December twenty twenty-five — joined the committee in June. Its own bid, the Khmer wedding, comes up that same afternoon."
+  },
+  {
+   "s": "A",
+   "t": "Both are recommended. The experts passed sixty of sixty-four files. The vote isn't the story."
+  },
+  {
+   "s": "B",
+   "t": "[thoughtful] The history is."
+  },
+  {
+   "s": "A",
+   "t": "The dress was designed from nineteen sixty, when Queen Sirikit was preparing a seven-month tour of the United States and fifteen European countries. The museum that bears her name says post-war Thailand \"had no national dress equivalent to India's sari or Japan's kimono\"."
+  },
+  {
+   "s": "B",
+   "t": "And the styles were \"constructed according to Western dressmaking techniques\"."
+  },
+  {
+   "s": "A",
+   "t": "And before that, the state had pushed the old dress out. Phibun's mandates of nineteen forty-one moved women out of the chong kraben and everyone into hats."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] Which is where the desk goes to Scotland. The short kilt, by one account, was devised in the seventeen-twenties by an English Quaker running an ironworks."
+  },
+  {
+   "s": "A",
+   "t": "Banned after Culloden, seventeen forty-six to seventeen eighty-two. Then revived as royal theatre when Walter Scott staged George the Fourth's visit to Edinburgh in eighteen twenty-two."
+  },
+  {
+   "s": "B",
+   "t": "[chuckles] In tartan costing one thousand three hundred and fifty-four pounds, eighteen shillings. With pink trousers to cover his knees."
+  },
+  {
+   "s": "A",
+   "t": "Banned by a modernising state. Revived by a court for a foreign stage. Then worn at ordinary weddings until nobody remembers it was new."
+  },
+  {
+   "s": "B",
+   "t": "[pause] And UNESCO doesn't care about the pedigree."
+  },
+  {
+   "s": "A",
+   "t": "It certifies practice. Its experts asked governments to drop words like \"authenticity\", and the draft asks states to avoid \"claims of exclusive ownership\". Yet the file says \"the Thai national costume\"."
+  },
+  {
+   "s": "B",
+   "t": "And nationalists on both sides want a certificate to wave across a border. Though the sceptic is fair: the weaving and embroidery are far older than the nineteen sixty cut, and the Quaker kilt story is itself disputed."
+  },
+  {
+   "s": "A",
+   "t": "The desk's call: both listed on Wednesday, without a vote. And by the thirtieth of June twenty twenty-seven, Thailand's ministry cites the listing against a Cambodian claim. The very use UNESCO warned against."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The kilt became Scottish because generations of Scots got married in it. Whoever first cut it. The minister has asked Thais to wear the dress \"wherever we are\"."
+  },
+  {
+   "s": "A",
+   "t": "[pause] That's the right test. And the one the kilt passed. A dress still worn. A bowl still drunk from."
+  },
+  {
+   "s": "B",
+   "t": "[warmly] The repair is part of the record."
+  },
+  {
+   "s": "A",
+   "t": "That's the Briefing. The full book is on your dashboard — twenty-nine pages, footnotes and all."
+  },
+  {
+   "s": "B",
+   "t": "Read the footnotes. See you tomorrow, Singapore."
+  }
+ ]
+}
